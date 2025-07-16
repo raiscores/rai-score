@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/rai-score/" />
+    <script>
+      // Grab current path
+      var path = window.location.pathname;
+      var base = '/rai-score';
+      if (!path.startsWith(base)) {
+        // If somehow not on your base path, redirect to base root
+        window.location.replace(base + '/');
+      } else {
+        // Reload current path so React Router can handle it
+        window.location.replace(path + window.location.search + window.location.hash);
+      }
+    </script>
   </head>
   <body>
     <p>Redirecting...</p>
