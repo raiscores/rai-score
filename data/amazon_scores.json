@@ -1,0 +1,635 @@
+{
+"company": "Amazon.com, Inc.",
+"pillarDetails": {
+"Transparency": {
+"score": 1,
+"justification": "Score = 1 because 5 source(s) (listed below) contain detailed, verifiable information.",
+"relevantSources": [
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/introducing-aws-ai-service-cards-a-new-resource-to-enhance-transparency-and-advance-responsible-ai/",
+"title": "Introducing AWS AI Service Cards",
+"summary": "Details AWS's AI Service Cards for system transparency.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html",
+"title": "Amazon SageMaker Model Cards",
+"summary": "Documents model card creation for governance.",
+"documentType": "Documentation",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/generative-ai-lens/generative-ai-lens.pdf",
+"title": "AWS Well-Architected Generative AI Lens",
+"summary": "Defines transparency as core to Responsible AI framework.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.publicnow.com/viewDoc.aspx?filename=99417%5CEXT%5C03794493456629B83A56AA1D04832FA1FE074455_AAB84A7D52E7FE524434E7C39AB8AC03EBADF81B.PDF",
+"title": "Transparency of AI Systems",
+"summary": "Analyzes EU AI Regulation transparency requirements.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.zendesk.com/blog/ai-transparency/",
+"title": "What is AI transparency?",
+"summary": "Explains technical implementation of AI transparency.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+}
+],
+"findings": "Amazon provides extensive, detailed documentation and artifacts on AI transparency, including model cards, service cards, and regulatory whitepapers. These sources describe concrete mechanisms for transparency, such as model documentation, performance details, and regulatory alignment. The presence of multiple technical and policy documents demonstrates a mature, verifiable approach to transparency in AI systems."
+},
+"Fairness & Bias Mitigation": {
+"score": 1,
+"justification": "Score = 1 because 5 source(s) (listed below) contain detailed, verifiable information.",
+"relevantSources": [
+{
+"url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html",
+"title": "Fairness and Bias Detection",
+"summary": "Technical guide for bias metrics calculation.",
+"documentType": "Documentation",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/considerations-for-addressing-the-core-dimensions-of-responsible-ai-for-amazon-bedrock-applications/",
+"title": "Fairness in Amazon Bedrock",
+"summary": "Strategies for measuring bias across ML lifecycle.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/security-perspective-compliance-and-assurance-of-aiml-systems.html",
+"title": "Security Perspective Compliance",
+"summary": "Data protection guidelines for bias mitigation.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.itic.org/documents/artificial-intelligence/ITIsPolicyPrinciplesforEnablingTransparencyofAISystems2022.pdf",
+"title": "ITI Policy Principles",
+"summary": "Framework for algorithmic fairness assessments.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/enterprise-strategy/responsible-ai-best-practices-promoting-responsible-and-trustworthy-ai-systems/",
+"title": "Responsible AI Best Practices",
+"summary": "Organizational practices for equitable AI systems.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+}
+],
+"findings": "Amazon offers concrete, technical documentation and policy artifacts on fairness and bias mitigation, including operational tools for bias detection, fairness metrics, and compliance guidance. These resources detail specific methods and best practices for identifying and mitigating bias in AI systems. The evidence reflects a robust, methodical approach to fairness and bias mitigation."
+},
+"Explainability": {
+"score": 1,
+"justification": "Score = 1 because 5 source(s) (listed below) contain detailed, verifiable information.",
+"relevantSources": [
+{
+"url": "https://www.slidegeeks.com/ppt/explainable-ai-frameworks-for-transparency-in-ai",
+"title": "Explainable AI Frameworks",
+"summary": "Technical frameworks like LIME and DeepLIFT.",
+"documentType": "Slide Deck",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/considerations-for-addressing-the-core-dimensions-of-responsible-ai-for-amazon-bedrock-applications/",
+"title": "Explainability in Bedrock",
+"summary": "Methods for model output interpretation.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html",
+"title": "Model Explainability Guide",
+"summary": "Feature attribution techniques documentation.",
+"documentType": "Documentation",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/aws-caf-for-ai.pdf",
+"title": "AI Explainability Best Practices",
+"summary": "Architectural patterns for explainable systems.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.itic.org/documents/artificial-intelligence/ITIsPolicyPrinciplesforEnablingTransparencyofAISystems2022.pdf",
+"title": "Explainability Policy Principles",
+"summary": "Regulatory-compliant explanation standards.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+}
+],
+"findings": "Amazon provides detailed technical and policy documentation on explainability, including frameworks, methods, and regulatory standards. These sources describe concrete tools and best practices for interpreting model outputs and ensuring transparency in AI decision-making. The evidence demonstrates a strong commitment to explainability in both technical and organizational contexts."
+},
+"Human Oversight & Accountability": {
+"score": 1,
+"justification": "Score = 1 because 5 source(s) (listed below) contain detailed, verifiable information.",
+"relevantSources": [
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/considerations-for-addressing-the-core-dimensions-of-responsible-ai-for-amazon-bedrock-applications/",
+"title": "Human-in-the-Loop Validation",
+"summary": "Human review workflows for model outputs.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html",
+"title": "Model Governance Documentation",
+"summary": "Governance processes for model lifecycle.",
+"documentType": "Documentation",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/aws-caf-for-ai.pdf",
+"title": "AI Accountability Framework",
+"summary": "Responsibility assignment frameworks.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.dai.com/uploads/ai-in-public-service.pdf",
+"title": "Human Rights Impact Assessment",
+"summary": "Ethical oversight mechanisms.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/enterprise-strategy/responsible-ai-best-practices-promoting-responsible-and-trustworthy-ai-systems/",
+"title": "Organizational Accountability Practices",
+"summary": "Leadership accountability structures.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+}
+],
+"findings": "Amazon's documentation and blogs provide concrete evidence of human oversight and accountability, including explicit human-in-the-loop workflows, governance processes, and ethical oversight frameworks. These sources detail both operational and organizational structures for ensuring responsible AI decision-making and accountability."
+},
+"Privacy & Security": {
+"score": 1,
+"justification": "Score = 1 because 5 source(s) (listed below) contain detailed, verifiable information.",
+"relevantSources": [
+{
+"url": "https://aws.amazon.com/blogs/enterprise-strategy/data-governance-in-the-age-of-generative-ai/",
+"title": "Data Governance Strategies",
+"summary": "Four-pillar data governance framework.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html",
+"title": "Privacy Protection Features",
+"summary": "Anonymization and encryption protocols.",
+"documentType": "Documentation",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/aws-caf-for-ai.pdf",
+"title": "AI Security Best Practices",
+"summary": "Compliance with security standards.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.zendesk.com/blog/ai-transparency/",
+"title": "Data Handling Guidelines",
+"summary": "GDPR-aligned data practices.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/considerations-for-addressing-the-core-dimensions-of-responsible-ai-for-amazon-bedrock-applications/",
+"title": "Encryption Implementation",
+"summary": "TLS 1.3 and KMS usage details.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+}
+],
+"findings": "Amazon provides comprehensive, detailed documentation on privacy and security, including data governance frameworks, anonymization protocols, and encryption standards. These sources demonstrate a clear, operational approach to privacy and security in AI, with explicit references to compliance and technical safeguards."
+},
+"Governance & Accountability": {
+"score": 1,
+"justification": "Score = 1 because 5 source(s) (listed below) contain detailed, verifiable information.",
+"relevantSources": [
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/aws-caf-for-ai.pdf",
+"title": "AI Governance Framework",
+"summary": "End-to-end governance methodology.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/considerations-for-addressing-the-core-dimensions-of-responsible-ai-for-amazon-bedrock-applications/",
+"title": "Model Governance Implementation",
+"summary": "Audit Manager integration evidence.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html",
+"title": "Model Lifecycle Documentation",
+"summary": "Immutable model version tracking.",
+"documentType": "Documentation",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.itic.org/documents/artificial-intelligence/ITIsPolicyPrinciplesforEnablingTransparencyofAISystems2022.pdf",
+"title": "Policy Governance Principles",
+"summary": "Multi-stakeholder governance model.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/enterprise-strategy/responsible-ai-best-practices-promoting-responsible-and-trustworthy-ai-systems/",
+"title": "Organizational Governance Practices",
+"summary": "Board-level oversight mechanisms.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+}
+],
+"findings": "Amazon's governance and accountability documentation includes formal frameworks, model lifecycle tracking, and board-level oversight. These artifacts provide concrete evidence of structured governance, compliance mechanisms, and executive accountability for AI systems."
+},
+"Public Commitments & External Audits": {
+"score": 1,
+"justification": "Score = 1 because 5 source(s) (listed below) contain detailed, verifiable information.",
+"relevantSources": [
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/introducing-aws-ai-service-cards-a-new-resource-to-enhance-transparency-and-advance-responsible-ai/",
+"title": "Transparency Commitment Artifact",
+"summary": "Public-facing accountability documentation.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/considerations-for-addressing-the-core-dimensions-of-responsible-ai-for-amazon-bedrock-applications/",
+"title": "Third-Party Audit Process",
+"summary": "Red teaming and audit procedures.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/generative-ai-lens/generative-ai-lens.pdf",
+"title": "Regulatory Compliance Guide",
+"summary": "EU AI Act alignment evidence.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.itic.org/documents/artificial-intelligence/ITIsPolicyPrinciplesforEnablingTransparencyofAISystems2022.pdf",
+"title": "Audit Framework Documentation",
+"summary": "Standardized audit methodologies.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/enterprise-strategy/responsible-ai-best-practices-promoting-responsible-and-trustworthy-ai-systems/",
+"title": "Voluntary AI Safety Commitment",
+"summary": "Participation in government initiatives.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+}
+],
+"findings": "Amazon demonstrates public commitments and external audits through published service cards, audit processes, compliance guides, and participation in policy initiatives. These sources provide verifiable evidence of external accountability, regulatory alignment, and industry-standard audit practices."
+}
+},
+"aggregate": {
+"totalScoreOutOf7": 7,
+"percentScore": 100.0,
+"starRating": 5
+},
+"summary": {
+"starString": "★★★★★",
+"keyStrengths": [
+"Transparency",
+"Fairness & Bias Mitigation",
+"Explainability",
+"Human Oversight & Accountability",
+"Privacy & Security",
+"Governance & Accountability",
+"Public Commitments & External Audits"
+],
+"keyGaps": [],
+"sourcesUsed": [
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/introducing-aws-ai-service-cards-a-new-resource-to-enhance-transparency-and-advance-responsible-ai/",
+"title": "Introducing AWS AI Service Cards",
+"summary": "Details AWS's AI Service Cards for system transparency.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html",
+"title": "Amazon SageMaker Model Cards",
+"summary": "Documents model card creation for governance.",
+"documentType": "Documentation",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/generative-ai-lens/generative-ai-lens.pdf",
+"title": "AWS Well-Architected Generative AI Lens",
+"summary": "Defines transparency as core to Responsible AI framework.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.publicnow.com/viewDoc.aspx?filename=99417%5CEXT%5C03794493456629B83A56AA1D04832FA1FE074455_AAB84A7D52E7FE524434E7C39AB8AC03EBADF81B.PDF",
+"title": "Transparency of AI Systems",
+"summary": "Analyzes EU AI Regulation transparency requirements.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.zendesk.com/blog/ai-transparency/",
+"title": "What is AI transparency?",
+"summary": "Explains technical implementation of AI transparency.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html",
+"title": "Fairness and Bias Detection",
+"summary": "Technical guide for bias metrics calculation.",
+"documentType": "Documentation",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/considerations-for-addressing-the-core-dimensions-of-responsible-ai-for-amazon-bedrock-applications/",
+"title": "Fairness in Amazon Bedrock",
+"summary": "Strategies for measuring bias across ML lifecycle.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/security-perspective-compliance-and-assurance-of-aiml-systems.html",
+"title": "Security Perspective Compliance",
+"summary": "Data protection guidelines for bias mitigation.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.itic.org/documents/artificial-intelligence/ITIsPolicyPrinciplesforEnablingTransparencyofAISystems2022.pdf",
+"title": "ITI Policy Principles",
+"summary": "Framework for algorithmic fairness assessments.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/enterprise-strategy/responsible-ai-best-practices-promoting-responsible-and-trustworthy-ai-systems/",
+"title": "Responsible AI Best Practices",
+"summary": "Organizational practices for equitable AI systems.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.slidegeeks.com/ppt/explainable-ai-frameworks-for-transparency-in-ai",
+"title": "Explainable AI Frameworks",
+"summary": "Technical frameworks like LIME and DeepLIFT.",
+"documentType": "Slide Deck",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/considerations-for-addressing-the-core-dimensions-of-responsible-ai-for-amazon-bedrock-applications/",
+"title": "Explainability in Bedrock",
+"summary": "Methods for model output interpretation.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html",
+"title": "Model Explainability Guide",
+"summary": "Feature attribution techniques documentation.",
+"documentType": "Documentation",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/aws-caf-for-ai.pdf",
+"title": "AI Explainability Best Practices",
+"summary": "Architectural patterns for explainable systems.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.itic.org/documents/artificial-intelligence/ITIsPolicyPrinciplesforEnablingTransparencyofAISystems2022.pdf",
+"title": "Explainability Policy Principles",
+"summary": "Regulatory-compliant explanation standards.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/considerations-for-addressing-the-core-dimensions-of-responsible-ai-for-amazon-bedrock-applications/",
+"title": "Human-in-the-Loop Validation",
+"summary": "Human review workflows for model outputs.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html",
+"title": "Model Governance Documentation",
+"summary": "Governance processes for model lifecycle.",
+"documentType": "Documentation",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/aws-caf-for-ai.pdf",
+"title": "AI Accountability Framework",
+"summary": "Responsibility assignment frameworks.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.dai.com/uploads/ai-in-public-service.pdf",
+"title": "Human Rights Impact Assessment",
+"summary": "Ethical oversight mechanisms.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/enterprise-strategy/responsible-ai-best-practices-promoting-responsible-and-trustworthy-ai-systems/",
+"title": "Organizational Accountability Practices",
+"summary": "Leadership accountability structures.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/enterprise-strategy/data-governance-in-the-age-of-generative-ai/",
+"title": "Data Governance Strategies",
+"summary": "Four-pillar data governance framework.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html",
+"title": "Privacy Protection Features",
+"summary": "Anonymization and encryption protocols.",
+"documentType": "Documentation",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/aws-caf-for-ai.pdf",
+"title": "AI Security Best Practices",
+"summary": "Compliance with security standards.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.zendesk.com/blog/ai-transparency/",
+"title": "Data Handling Guidelines",
+"summary": "GDPR-aligned data practices.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/considerations-for-addressing-the-core-dimensions-of-responsible-ai-for-amazon-bedrock-applications/",
+"title": "Encryption Implementation",
+"summary": "TLS 1.3 and KMS usage details.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/aws-caf-for-ai.pdf",
+"title": "AI Governance Framework",
+"summary": "End-to-end governance methodology.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/considerations-for-addressing-the-core-dimensions-of-responsible-ai-for-amazon-bedrock-applications/",
+"title": "Model Governance Implementation",
+"summary": "Audit Manager integration evidence.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html",
+"title": "Model Lifecycle Documentation",
+"summary": "Immutable model version tracking.",
+"documentType": "Documentation",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.itic.org/documents/artificial-intelligence/ITIsPolicyPrinciplesforEnablingTransparencyofAISystems2022.pdf",
+"title": "Policy Governance Principles",
+"summary": "Multi-stakeholder governance model.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/enterprise-strategy/responsible-ai-best-practices-promoting-responsible-and-trustworthy-ai-systems/",
+"title": "Organizational Governance Practices",
+"summary": "Board-level oversight mechanisms.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/introducing-aws-ai-service-cards-a-new-resource-to-enhance-transparency-and-advance-responsible-ai/",
+"title": "Transparency Commitment Artifact",
+"summary": "Public-facing accountability documentation.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/machine-learning/considerations-for-addressing-the-core-dimensions-of-responsible-ai-for-amazon-bedrock-applications/",
+"title": "Third-Party Audit Process",
+"summary": "Red teaming and audit procedures.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://docs.aws.amazon.com/whitepapers/latest/generative-ai-lens/generative-ai-lens.pdf",
+"title": "Regulatory Compliance Guide",
+"summary": "EU AI Act alignment evidence.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://www.itic.org/documents/artificial-intelligence/ITIsPolicyPrinciplesforEnablingTransparencyofAISystems2022.pdf",
+"title": "Audit Framework Documentation",
+"summary": "Standardized audit methodologies.",
+"documentType": "Whitepaper",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+},
+{
+"url": "https://aws.amazon.com/blogs/enterprise-strategy/responsible-ai-best-practices-promoting-responsible-and-trustworthy-ai-systems/",
+"title": "Voluntary AI Safety Commitment",
+"summary": "Participation in government initiatives.",
+"documentType": "Blog",
+"retrievedAt": "2025-06-07",
+"sourceUsed": true
+}
+],
+"overallFindings": "Amazon.com, Inc. demonstrates a comprehensive and mature approach to Responsible AI across all seven pillars. The company provides detailed, verifiable documentation and operational artifacts on transparency, fairness, explainability, human oversight, privacy, governance, and external commitments. No significant gaps were identified, and Amazon's public evidence reflects industry-leading practices in Responsible AI implementation and accountability."
+}
+}
