@@ -1,41 +1,30 @@
 import React, { useState, useEffect } from 'react';
+import { Eye, Scale, Lightbulb, Users, Shield, Building, CheckCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
-// Mock Container component for this example
+// Mock Container component
 const Container = ({ children }) => (
   <div style={{ 
-    maxWidth: '1200px', 
+    maxWidth: '1440px', 
     margin: '0 auto', 
-    padding: '0 2rem' 
+    padding: '0 24px' 
   }}>
     {children}
   </div>
 );
 
-// Mock Link component for this example
-const Link = ({ to, children, style, ...props }) => (
-  <a 
-    href={to} 
-    style={style}
-    {...props}
-  >
-    {children}
-  </a>
-);
 
-// 🎨 Modern Homepage with Enhanced Design System
+
 function Home() {
-  // ✨ State for scroll-triggered animations
   const [scrollY, setScrollY] = useState(0);
   const [isVisible, setIsVisible] = useState({});
 
-  // 🔄 Scroll handler for parallax and reveal effects
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // 🎯 Intersection Observer for reveal animations
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -48,7 +37,6 @@ function Home() {
       { threshold: 0.1 }
     );
 
-    // Observe all sections
     const sections = document.querySelectorAll('[data-reveal]');
     sections.forEach((section) => observer.observe(section));
 
@@ -57,15 +45,15 @@ function Home() {
 
   return (
     <div style={{ 
-      fontFamily: 'Inter, system-ui, -apple-system, sans-serif',
+      fontFamily: 'Inter, SF Pro Display, system-ui, -apple-system, sans-serif',
       color: '#0f172a',
       lineHeight: '1.6',
       overflow: 'hidden'
     }}>
       
-      {/* 🌟 HERO SECTION - Modern gradient background with floating elements */}
+      {/* HERO SECTION */}
       <section style={{
-        background: 'linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%)',
+        background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 100%)',
         minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',
@@ -73,7 +61,7 @@ function Home() {
         overflow: 'hidden'
       }}>
         
-        {/* 🎨 Animated background elements */}
+        {/* Subtle background elements */}
         <div style={{
           position: 'absolute',
           top: 0,
@@ -81,37 +69,36 @@ function Home() {
           right: 0,
           bottom: 0,
           background: `
-            radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
-            radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-            radial-gradient(circle at 40% 40%, rgba(120, 119, 198, 0.2) 0%, transparent 50%)
+            radial-gradient(circle at 20% 80%, rgba(37, 99, 235, 0.1) 0%, transparent 50%),
+            radial-gradient(circle at 80% 20%, rgba(96, 165, 250, 0.08) 0%, transparent 50%)
           `,
           animation: 'float 20s ease-in-out infinite'
         }} />
         
-        {/* 🎭 Floating geometric shapes */}
+        {/* Professional floating elements */}
         <div style={{
           position: 'absolute',
           top: '20%',
           right: '10%',
           width: '120px',
           height: '120px',
-          background: 'rgba(203, 213, 225, 0.12)',  // Soft blue-gray tint
-          borderRadius: '50%',
+          background: 'rgba(37, 99, 235, 0.05)',
+          borderRadius: '24px',
           transform: `translateY(${scrollY * 0.2}px)`,
-          backdropFilter: 'blur(10px)',
-          animation: 'pulse 4s ease-in-out infinite'
+          border: '1px solid rgba(96, 165, 250, 0.1)',
+          animation: 'pulse 8s ease-in-out infinite'
         }} />
         
         <div style={{
           position: 'absolute',
-          bottom: '30%',
-          left: '5%',
+          bottom: '25%',
+          left: '8%',
           width: '80px',
           height: '80px',
-          background: 'rgba(148, 163, 184, 0.10)',
-          borderRadius: '20px',
-          transform: `translateY(${scrollY * -0.1}px) rotate(45deg)`,
-          backdropFilter: 'blur(5px)'
+          background: 'rgba(96, 165, 250, 0.08)',
+          borderRadius: '16px',
+          transform: `translateY(${scrollY * -0.15}px) rotate(45deg)`,
+          border: '1px solid rgba(37, 99, 235, 0.1)'
         }} />
 
         <Container>
@@ -121,302 +108,267 @@ function Home() {
             maxWidth: '800px'
           }}>
             
-            {/* 🎯 Main headline with modern typography */}
+            {/* Professional headline */}
             <h1 style={{
-              fontSize: 'clamp(2.5rem, 8vw, 4.5rem)',
-              fontWeight: '800',
-              marginBottom: '1.5rem',
-              letterSpacing: '-0.02em',
+              fontSize: 'clamp(48px, 8vw, 72px)',
+              fontWeight: '900',
+              marginBottom: '24px',
+              letterSpacing: '-0.03em',
               color: '#ffffff',
-              textShadow: '0 4px 20px rgba(0, 0, 0, 0.3)',
-              background: 'linear-gradient(135deg, #ffffff 0%, #f8fafc 100%)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text',
               lineHeight: '1.1'
             }}>
               Responsible AI
               <br />
-				<span style={{
-				  background: 'linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%)',
-				  WebkitBackgroundClip: 'text',
-				  WebkitTextFillColor: 'transparent',
-				  backgroundClip: 'text',
-				  textShadow: '0 2px 10px rgba(0, 0, 0, 0.3)'
-				}}>
-			Scorecard
-			</span>
+              <span style={{
+                color: '#60a5fa',
+                fontSize: '0.85em'
+              }}>
+                Scorecard
+              </span>
             </h1>
             
-            {/* 📝 Hero description with enhanced styling */}
+            {/* Clear, authoritative subtext */}
             <p style={{
-              fontSize: 'clamp(1.125rem, 3vw, 1.5rem)',
+              fontSize: 'clamp(18px, 3vw, 20px)',
               color: 'rgba(255, 255, 255, 0.9)',
               maxWidth: '600px',
-              marginBottom: '2.5rem',
+              marginBottom: '48px',
               lineHeight: '1.7',
-              textShadow: '0 2px 10px rgba(0, 0, 0, 0.2)'
+              fontWeight: '400'
             }}>
-              Tracking how companies build and govern AI — with transparency, 
-              fairness, and accountability. Simple, public, and focused on impact.
+              Comprehensive evaluation of AI companies across transparency, fairness, 
+              safety, and governance. Data-driven insights for informed decisions.
             </p>
             
-            {/* 🎬 CTA buttons with modern design */}
+            {/* Professional CTA buttons */}
             <div style={{
               display: 'flex',
-              gap: '1rem',
+              gap: '16px',
               flexWrap: 'wrap',
-              marginTop: '2rem'
+              marginTop: '32px'
             }}>
               <Link 
                 to="/companies" 
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
-                  backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                  backgroundColor: '#2563eb',
                   color: 'white',
-                  padding: '1rem 2rem',
-                  borderRadius: '50px',
+                  padding: '12px 24px',
+                  borderRadius: '8px',
                   textDecoration: 'none',
                   fontWeight: '600',
-                  fontSize: '1.1rem',
-                  backdropFilter: 'blur(10px)',
-                  border: '1px solid rgba(255, 255, 255, 0.3)',
-                  transition: 'all 0.3s ease',
-                  boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)'
+                  fontSize: '16px',
+                  transition: 'all 0.2s ease',
+                  border: 'none',
+                  cursor: 'pointer'
                 }}
                 onMouseEnter={(e) => {
-                  e.target.style.backgroundColor = 'rgba(255, 255, 255, 0.3)';
-                  e.target.style.transform = 'translateY(-2px)';
-                  e.target.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.2)';
+                  e.target.style.backgroundColor = '#1d4ed8';
+                  e.target.style.transform = 'scale(1.02)';
                 }}
                 onMouseLeave={(e) => {
-                  e.target.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
-                  e.target.style.transform = 'translateY(0)';
-                  e.target.style.boxShadow = '0 8px 32px rgba(0, 0, 0, 0.1)';
+                  e.target.style.backgroundColor = '#2563eb';
+                  e.target.style.transform = 'scale(1)';
                 }}
               >
-                Explore Scores
-                <span style={{ marginLeft: '0.5rem' }}>→</span>
+                View Company Scores
+                <span style={{ marginLeft: '8px', fontSize: '16px' }}>→</span>
               </Link>
               
               <button style={{
                 backgroundColor: 'transparent',
-                color: 'rgba(255, 255, 255, 0.9)',
-                padding: '1rem 2rem',
-                border: '2px solid rgba(255, 255, 255, 0.3)',
-                borderRadius: '50px',
+                color: '#ffffff',
+                padding: '12px 24px',
+                border: '2px solid #475569',
+                borderRadius: '8px',
                 fontWeight: '600',
-                fontSize: '1.1rem',
+                fontSize: '16px',
                 cursor: 'pointer',
-                transition: 'all 0.3s ease',
-                backdropFilter: 'blur(10px)'
+                transition: 'all 0.2s ease'
               }}
               onMouseEnter={(e) => {
-                e.target.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
-                e.target.style.borderColor = 'rgba(255, 255, 255, 0.5)';
+                e.target.style.borderColor = '#60a5fa';
+                e.target.style.color = '#60a5fa';
+                e.target.style.transform = 'scale(1.02)';
               }}
               onMouseLeave={(e) => {
-                e.target.style.backgroundColor = 'transparent';
-                e.target.style.borderColor = 'rgba(255, 255, 255, 0.3)';
+                e.target.style.borderColor = '#475569';
+                e.target.style.color = '#ffffff';
+                e.target.style.transform = 'scale(1)';
               }}>
-                Learn More
+                View Methodology
               </button>
             </div>
           </div>
         </Container>
       </section>
 
-      {/* 🏛️ PILLARS SECTION - Modern card design with staggered layout */}
-      <section 
-        id="pillars"
-        data-reveal
-        style={{
-          padding: '6rem 0',
-          backgroundColor: '#f8fafc',
-          position: 'relative',
-          opacity: isVisible.pillars ? 1 : 0,
-          transform: isVisible.pillars ? 'translateY(0)' : 'translateY(40px)',
-          transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
-        }}
-      >
-        
-        {/* 🎨 Section background decoration */}
-        <div style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          background: `
-            radial-gradient(circle at 10% 20%, rgba(156, 163, 175, 0.1) 0%, transparent 50%),
-            radial-gradient(circle at 90% 80%, rgba(79, 70, 229, 0.05) 0%, transparent 50%)
-          `,
-          pointerEvents: 'none'
-        }} />
-        
-        <Container>
-          <div style={{ position: 'relative', zIndex: 1 }}>
-            
-            {/* 📑 Section header with modern typography */}
+{/* PILLARS SECTION */}
+<section 
+  id="pillars"
+  data-reveal
+  style={{
+    padding: '80px 0',
+    backgroundColor: '#f8fafc',
+    position: 'relative',
+    opacity: isVisible.pillars ? 1 : 0,
+    transform: isVisible.pillars ? 'translateY(0)' : 'translateY(40px)',
+    transition: 'all 0.6s cubic-bezier(0.4, 0, 0.2, 1)'
+  }}
+>
+  <Container>
+    <div style={{ position: 'relative', zIndex: 1 }}>
+      {/* Section header */}
+      <div style={{
+        textAlign: 'center',
+        marginBottom: '64px',
+        maxWidth: '700px',
+        margin: '0 auto 64px'
+      }}>
+        <h2 style={{
+          fontSize: 'clamp(32px, 5vw, 48px)',
+          fontWeight: '800',
+          marginBottom: '24px',
+          color: '#0f172a',
+          letterSpacing: '-0.02em'
+        }}>
+          Evaluation Framework
+        </h2>
+        <p style={{
+          fontSize: '18px',
+          color: '#475569',
+          lineHeight: '1.7',
+          maxWidth: '600px',
+          margin: '0 auto'
+        }}>
+          We assess organizations across seven critical dimensions of responsible AI using transparent methodologies and publicly available data.
+        </p>
+      </div>
+
+      {/* Pillar Grid */}
+      <div className="pillars-grid">
+        {pillars.map((pillar) => (
+          <div key={pillar.label} className="pillar-card">
             <div style={{
-              textAlign: 'center',
-              marginBottom: '4rem',
-              maxWidth: '700px',
-              margin: '0 auto 4rem'
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              height: '4px',
+              background: pillar.color
+            }} />
+
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              width: '64px',
+              height: '64px',
+              backgroundColor: `${pillar.color}15`,
+              borderRadius: '16px',
+              marginBottom: '24px',
+              color: pillar.color
             }}>
-              <h2 style={{
-                fontSize: 'clamp(2rem, 5vw, 3rem)',
-                fontWeight: '700',
-                marginBottom: '1.5rem',
-                color: '#1e293b',
-                letterSpacing: '-0.02em'
-              }}>
-                What We Score
-              </h2>
-              <p style={{
-                fontSize: '1.25rem',
-                color: '#64748b',
-                lineHeight: '1.8',
-                maxWidth: '600px',
-                margin: '0 auto'
-              }}>
-                We evaluate organizations on real-world Responsible AI practices using 
-                publicly available data across key pillars
-              </p>
+              {pillar.icon}
             </div>
 
-            {/* 🎯 Pillar cards with modern design and staggered animation */}
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-              gap: '2rem',
-              maxWidth: '1200px',
-              margin: '0 auto'
+            <h3 style={{
+              fontSize: '20px',
+              fontWeight: '700',
+              marginBottom: '16px',
+              color: '#0f172a',
+              lineHeight: '1.3'
             }}>
-              {pillars.map((pillar, index) => (
-                <div
-                  key={pillar.label}
-                  style={{
-                    backgroundColor: '#ffffff',
-                    borderRadius: '20px',
-                    padding: '2rem',
-                    boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
-                    border: '1px solid rgba(229, 231, 235, 0.8)',
-                    position: 'relative',
-                    overflow: 'hidden',
-                    cursor: 'pointer',
-                    transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
-                    transform: isVisible.pillars ? 'translateY(0)' : 'translateY(40px)',
-                    transitionDelay: `${index * 0.1}s`
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = 'translateY(-8px) scale(1.02)';
-                    e.currentTarget.style.boxShadow = '0 20px 40px rgba(0, 0, 0, 0.15)';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = 'translateY(0) scale(1)';
-                    e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
-                  }}
-                >
-                  
-                  {/* 🎨 Card background gradient */}
-                  <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    height: '4px',
-                    background: pillar.gradient,
-                    opacity: 0.8
-                  }} />
-                  
-                  {/* 🎭 Icon with modern styling */}
-                  <div style={{
-                    fontSize: '2.5rem',
-                    marginBottom: '1.5rem',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    width: '70px',
-                    height: '70px',
-                    background: pillar.gradient,
-                    borderRadius: '16px',
-                    color: 'white',
-                    boxShadow: '0 4px 16px rgba(0, 0, 0, 0.1)'
-                  }}>
-                    {pillar.icon}
-                  </div>
-                  
-                  {/* 📝 Card content */}
-                  <h3 style={{
-                    fontSize: '1.5rem',
-                    fontWeight: '600',
-                    marginBottom: '1rem',
-                    color: '#1e293b'
-                  }}>
-                    {pillar.label}
-                  </h3>
-                  
-                  <p style={{
-                    fontSize: '1rem',
-                    color: '#64748b',
-                    lineHeight: '1.7',
-                    marginBottom: '1.5rem'
-                  }}>
-                    {pillar.description}
-                  </p>
-                  
-                  {/* 🔗 Learn more link */}
-                  <div style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    color: '#3b82f6',
-                    fontSize: '0.9rem',
-                    fontWeight: '500',
-                    textDecoration: 'none'
-                  }}>
-                    Learn more
-                    <span style={{ 
-                      marginLeft: '0.5rem',
-                      transition: 'transform 0.3s ease'
-                    }}>→</span>
-                  </div>
-                </div>
-              ))}
+              {pillar.label}
+            </h3>
+
+            <p style={{
+              fontSize: '16px',
+              color: '#64748b',
+              lineHeight: '1.6',
+              marginBottom: '24px'
+            }}>
+              {pillar.description}
+            </p>
+
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              color: '#2563eb',
+              fontSize: '14px',
+              fontWeight: '600',
+              textDecoration: 'none',
+              marginTop: 'auto'
+            }}>
+              Learn more
+              <span style={{ marginLeft: '8px', transition: 'transform 0.2s ease', fontSize: '14px' }}>→</span>
             </div>
           </div>
-        </Container>
-      </section>
+        ))}
+      </div>
+    </div>
+  </Container>
 
-      {/* 🌟 FEATURED SECTION - Modern glassmorphism design */}
+  {/* CSS for Responsive Grid */}
+ <style>{`
+  .pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .pillar-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e2e8f0;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pillar-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+  }
+
+  @media (max-width: 1200px) {
+    .pillars-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .pillars-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  
+`}</style>
+</section>
+
+      {/* FEATURED SECTION */}
       <section 
         id="featured"
         data-reveal
         style={{
-          padding: '6rem 0',
-          background: 'linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%)',
+          padding: '80px 0',
+          backgroundColor: '#0f172a',
           position: 'relative',
           overflow: 'hidden',
           opacity: isVisible.featured ? 1 : 0,
           transform: isVisible.featured ? 'translateY(0)' : 'translateY(40px)',
-          transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
+          transition: 'all 0.6s cubic-bezier(0.4, 0, 0.2, 1)'
         }}
       >
-        
-        {/* 🎨 Animated background elements */}
-        <div style={{
-          position: 'absolute',
-          top: '-50%',
-          left: '-20%',
-          width: '140%',
-          height: '200%',
-          background: `
-            radial-gradient(circle at 30% 40%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-            radial-gradient(circle at 70% 60%, rgba(59, 130, 246, 0.15) 0%, transparent 50%)
-          `,
-          animation: 'rotate 30s linear infinite'
-        }} />
         
         <Container>
           <div style={{
@@ -425,73 +377,78 @@ function Home() {
             textAlign: 'center'
           }}>
             
-            {/* 🎯 Featured content with glassmorphism card */}
+            {/* Featured content */}
             <div style={{
-              backgroundColor: 'rgba(255, 255, 255, 0.1)',
-              backdropFilter: 'blur(20px)',
+              backgroundColor: 'rgba(255, 255, 255, 0.05)',
               borderRadius: '24px',
-              padding: '3rem',
-              border: '1px solid rgba(255, 255, 255, 0.2)',
+              padding: '48px 32px',
+              border: '1px solid rgba(226, 232, 240, 0.1)',
               maxWidth: '600px',
               margin: '0 auto',
-              boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)'
+              boxShadow: '0 8px 32px rgba(0, 0, 0, 0.12)'
             }}>
               
               <div style={{
-                fontSize: '3rem',
-                marginBottom: '1.5rem'
+                width: '80px',
+                height: '80px',
+                backgroundColor: 'rgba(37, 99, 235, 0.2)',
+                borderRadius: '16px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                margin: '0 auto 32px',
+                color: '#60a5fa'
               }}>
-                🔥
+                <CheckCircle size={32} />
               </div>
               
               <h2 style={{
-                fontSize: '2.5rem',
-                fontWeight: '700',
-                marginBottom: '1.5rem',
+                fontSize: '32px',
+                fontWeight: '800',
+                marginBottom: '16px',
                 color: '#ffffff',
                 letterSpacing: '-0.02em'
               }}>
-                Featured Score
+                Featured Analysis
               </h2>
               
               <p style={{
-                fontSize: '1.25rem',
-                color: 'rgba(255, 255, 255, 0.9)',
-                marginBottom: '2.5rem',
-                lineHeight: '1.7'
+                fontSize: '18px',
+                color: 'rgba(255, 255, 255, 0.8)',
+                marginBottom: '32px',
+                lineHeight: '1.6',
+                maxWidth: '450px',
+                margin: '0 auto 32px'
               }}>
-                Take a look at how OpenAI ranks on our comprehensive 
-                responsible AI scorecard
+                Explore how leading AI companies perform across our 
+                comprehensive responsible AI evaluation framework.
               </p>
               
               <Link 
-                to="/company/openai" 
+                to="/companies" 
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
-                  backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                  backgroundColor: '#2563eb',
                   color: 'white',
-                  padding: '1rem 2rem',
-                  borderRadius: '50px',
+                  padding: '12px 24px',
+                  borderRadius: '8px',
                   textDecoration: 'none',
                   fontWeight: '600',
-                  fontSize: '1.1rem',
-                  backdropFilter: 'blur(10px)',
-                  border: '1px solid rgba(255, 255, 255, 0.3)',
-                  transition: 'all 0.3s ease',
-                  boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)'
+                  fontSize: '16px',
+                  transition: 'all 0.2s ease'
                 }}
                 onMouseEnter={(e) => {
-                  e.target.style.backgroundColor = 'rgba(255, 255, 255, 0.3)';
-                  e.target.style.transform = 'translateY(-2px)';
+                  e.target.style.backgroundColor = '#1d4ed8';
+                  e.target.style.transform = 'scale(1.02)';
                 }}
                 onMouseLeave={(e) => {
-                  e.target.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
-                  e.target.style.transform = 'translateY(0)';
+                  e.target.style.backgroundColor = '#2563eb';
+                  e.target.style.transform = 'scale(1)';
                 }}
               >
-                View OpenAI Score
-                <span style={{ marginLeft: '0.5rem' }}>→</span>
+                View All Companies
+                <span style={{ marginLeft: '8px', fontSize: '16px' }}>→</span>
               </Link>
             </div>
           </div>
@@ -540,7 +497,7 @@ function Home() {
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
             gap: '2rem',
-            maxWidth: '1000px',
+            maxWidth: '1440px',
             margin: '0 auto'
           }}>
             {comingSoonFeatures.map((feature, index) => (
@@ -594,22 +551,16 @@ function Home() {
           </div>
         </Container>
       </section>
-
-      {/* 🎨 Global styles and animations */}
+      {/* Global styles */}
       <style>{`
         @keyframes float {
           0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-20px); }
+          50% { transform: translateY(-10px); }
         }
         
         @keyframes pulse {
-          0%, 100% { opacity: 0.8; }
-          50% { opacity: 1; }
-        }
-        
-        @keyframes rotate {
-          0% { transform: rotate(0deg); }
-          100% { transform: rotate(360deg); }
+          0%, 100% { opacity: 0.5; }
+          50% { opacity: 0.8; }
         }
         
         * {
@@ -620,42 +571,56 @@ function Home() {
           margin: 0;
           padding: 0;
         }
+        
+        
       `}</style>
     </div>
   );
 }
 
-// 📚 Static content for pillars with modern color schemes
+// Updated pillars with professional icons and style guide colors
 const pillars = [
   {
-    icon: '🔍',
+    icon: <Eye size={24} />,
     label: 'Transparency',
-    description: 'Discloses clear information on how AI systems are designed and used, including model cards and documentation.',
-    gradient: 'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)'
+    description: 'Clear, accessible disclosures about AI system functionality, including model documentation, transparency reports, and public explanations of AI behavior.',
+    color: '#2563eb'
   },
   {
-    icon: '⚖️',
-    label: 'Fairness',
-    description: 'Shows commitment to reducing bias and ensuring equitable treatment across all user groups.',
-    gradient: 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)'
+    icon: <Scale size={24} />,
+    label: 'Fairness & Bias Mitigation',
+    description: 'Demonstrated efforts to reduce algorithmic bias through diverse data practices, fairness audits, and inclusive design throughout the AI lifecycle.',
+    color: '#0ea5e9'
   },
   {
-    icon: '🛡️',
-    label: 'Safety & Security',
-    description: 'Implements robust safeguards to prevent misuse, harm, and unauthorized access.',
-    gradient: 'linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%)'
+    icon: <Lightbulb size={24} />,
+    label: 'Explainability',
+    description: 'Capability to provide human-understandable explanations of AI outputs through interpretable models and educational resources.',
+    color: '#f59e0b'
   },
   {
-    icon: '🏛️',
-    label: 'Governance',
-    description: 'Demonstrates clear AI governance policies, oversight mechanisms, and accountability structures.',
-    gradient: 'linear-gradient(135deg, #334155 0%, #1e293b 100%)' 
+    icon: <Users size={24} />,
+    label: 'Human Oversight & Accountability',
+    description: 'Systems ensuring human involvement in AI decisions, including review policies, escalation procedures, and designated accountability teams.',
+    color: '#10b981'
   },
   {
-    icon: '🚨',
-    label: 'Redress',
-    description: 'Provides accessible mechanisms to report harm, appeal decisions, and seek remediation.',
-    gradient: 'linear-gradient(135deg, #3b82f6 0%, #1e3a8a 100%)'   
+    icon: <Shield size={24} />,
+    label: 'Privacy & Security',
+    description: 'Comprehensive data protection and risk management with privacy-by-design principles, encryption, and secure deployment practices.',
+    color: '#8b5cf6'
+  },
+  {
+    icon: <Building size={24} />,
+    label: 'Governance & Internal Accountability',
+    description: 'Formal oversight structures including responsible AI teams, review boards, and adherence to established standards and frameworks.',
+    color: '#6b7280'
+  },
+  {
+    icon: <CheckCircle size={24} />,
+    label: 'Public Commitments & External Audits',
+    description: 'Public-facing ethical AI pledges, partnerships with external organizations, and voluntary compliance with regulatory frameworks.',
+    color: '#ef4444'
   }
 ];
 

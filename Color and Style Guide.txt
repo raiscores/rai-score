@@ -1,0 +1,198 @@
+# Responsible AI Scorecard - Style Guide & Design Requirements
+
+## Brand Positioning
+**Vision**: Authoritative, trustworthy, and accessible evaluation platform for responsible AI practices
+**Tone**: Professional, credible, analytical, yet approachable
+**User Perception Goals**: Expert authority, transparency, reliability, academic rigor
+
+## Color Palette
+
+### Primary Colors
+- **Deep Navy**: `#0F172A` - Primary brand color, conveys authority and trustworthiness
+- **Bright Blue**: `#2563EB` - Action color, represents innovation and progress
+- **Light Blue**: `#60A5FA` - Accent color, softer engagement elements
+
+### Secondary Colors
+- **Slate Gray**: `#475569` - Text and subtle UI elements
+- **Cool Gray**: `#64748B` - Secondary text, less prominent information
+- **Light Gray**: `#F1F5F9` - Background sections, cards, subtle separators
+
+### Accent Colors (Use Sparingly)
+- **Success Green**: `#10B981` - Positive scores, success states
+- **Warning Orange**: `#F59E0B` - Moderate scores, attention states  
+- **Alert Red**: `#EF4444` - Poor scores, critical information
+- **Neutral Purple**: `#8B5CF6` - Special highlights, premium features
+
+### Background Colors
+- **Primary White**: `#FFFFFF` - Main background
+- **Soft Gray**: `#F8FAFC` - Alternate sections
+- **Dark Navy**: `#1E293B` - Dark sections, hero backgrounds
+
+## Typography System
+
+### Font Stack
+```
+Primary: 'Inter', 'SF Pro Display', system-ui, -apple-system, sans-serif
+Monospace: 'JetBrains Mono', 'SF Mono', Consolas, monospace
+```
+
+### Typography Scale
+- **Hero Headline**: 48-72px, Weight 900, Letter-spacing -0.03em
+- **Section Headers**: 32-48px, Weight 800, Letter-spacing -0.02em
+- **Subsection Headers**: 24-32px, Weight 700, Letter-spacing -0.01em
+- **Body Large**: 18-20px, Weight 400, Line-height 1.7
+- **Body Text**: 16px, Weight 400, Line-height 1.6
+- **Small Text**: 14px, Weight 500, Line-height 1.5
+- **Caption**: 12px, Weight 500, Letter-spacing 0.01em
+
+### Typography Rules
+- Use maximum 3 font weights: 400 (regular), 600 (semibold), 800 (extrabold)
+- Maintain consistent line heights across similar text elements
+- Ensure minimum 16px font size for body text (accessibility)
+- Use appropriate contrast ratios (4.5:1 minimum for body text)
+
+## Visual Design System
+
+### Layout & Spacing
+- **Container Max Width**: 1200px
+- **Grid System**: 12-column responsive grid
+- **Base Spacing Unit**: 8px (use multiples: 8px, 16px, 24px, 32px, 48px, 64px)
+- **Section Padding**: 80px top/bottom on desktop, 48px on mobile
+- **Component Padding**: 24px-32px internal padding
+- **Margins**: 16px-24px between related elements, 32px-48px between sections
+
+### Border Radius System
+- **Small Elements**: 8px (buttons, tags, small cards)
+- **Medium Elements**: 16px (cards, form fields, modals)
+- **Large Elements**: 24px (hero sections, major containers)
+- **Rounded Elements**: 50% (pills, circular buttons)
+
+### Shadow System
+- **Subtle**: `0 1px 3px rgba(0, 0, 0, 0.1)`
+- **Card**: `0 4px 24px rgba(0, 0, 0, 0.06)`
+- **Elevated**: `0 8px 32px rgba(0, 0, 0, 0.12)`
+- **Dramatic**: `0 16px 48px rgba(0, 0, 0, 0.15)`
+
+## Component Design Guidelines
+
+### Cards & Containers
+- **Background**: Pure white (`#FFFFFF`) with subtle shadow
+- **Border**: 1px solid `#E2E8F0` (optional, for definition)
+- **Hover State**: Slight elevation increase, shadow enhancement
+- **Content Padding**: 24px-32px depending on card size
+- **Border Radius**: 16px for standard cards
+
+### Buttons
+- **Primary**: Deep Navy background (`#0F172A`), white text, 12px padding vertical, 24px horizontal
+- **Secondary**: Transparent background, Deep Navy border (2px), Deep Navy text
+- **Tertiary**: No background, Bright Blue text (`#2563EB`), underline on hover
+- **Hover States**: Subtle scale (1.02x) and shadow enhancement
+- **Border Radius**: 8px for standard buttons, 50% for pill buttons
+
+### Navigation
+- **Background**: White with subtle shadow or transparent with backdrop blur
+- **Active States**: Bright Blue (`#2563EB`) accent
+- **Hover States**: Light Blue (`#60A5FA`) background with rounded corners
+- **Text**: Deep Navy (`#0F172A`) for primary items, Slate Gray (`#475569`) for secondary
+
+### Score Display Components
+- **Score Cards**: White background, colored left border accent (4px width)
+- **Score Colors**: 
+  - High (80-100): Success Green (`#10B981`)
+  - Medium (60-79): Warning Orange (`#F59E0B`)
+  - Low (0-59): Alert Red (`#EF4444`)
+- **Typography**: Score number should be prominent (24-32px, weight 800)
+
+### Data Visualizations
+- **Chart Colors**: Use primary palette with consistent opacity levels
+- **Grid Lines**: Light Gray (`#F1F5F9`) at 50% opacity
+- **Tooltips**: Dark Navy background (`#1E293B`), white text, 8px border radius
+- **Legends**: Small text (12px), Slate Gray color
+
+## Iconography Guidelines
+
+### Icon Style
+- **Style**: Outline/stroke icons (2px stroke weight)
+- **Size**: 20px, 24px, 32px standard sizes
+- **Color**: Match surrounding text color or use Bright Blue (`#2563EB`) for interactive elements
+- **Source**: Lucide React or similar consistent icon library
+
+### Pillar Icons
+Replace emoji with professional icons:
+- **Transparency**: Eye or search icon
+- **Fairness**: Balance/scales icon
+- **Explainability**: Lightbulb or info icon
+- **Human Oversight**: Users or shield-check icon
+- **Privacy**: Lock or shield icon
+- **Governance**: Building or clipboard icon
+- **Public Commitments**: Certificate or check-circle icon
+
+## Animation & Interaction Guidelines
+
+### Motion Principles
+- **Subtle**: Prefer subtle animations over dramatic effects
+- **Purposeful**: Animations should enhance understanding, not distract
+- **Performance**: Use CSS transforms for better performance
+- **Duration**: 200-300ms for micro-interactions, 400-600ms for page transitions
+
+### Hover Effects
+- **Scale**: 1.02x maximum for cards and buttons
+- **Opacity**: 0.8-0.9 for interactive elements
+- **Color Transitions**: 200ms ease-in-out
+- **Shadow Enhancement**: Increase elevation on hover
+
+### Loading States
+- **Skeleton Loading**: Light Gray (`#F1F5F9`) with subtle pulse animation
+- **Spinners**: Bright Blue (`#2563EB`) with smooth rotation
+- **Progress Bars**: Gradient from Light Blue to Bright Blue
+
+## Accessibility Requirements
+
+### Color Contrast
+- **Body Text**: Minimum 4.5:1 contrast ratio
+- **Large Text**: Minimum 3:1 contrast ratio
+- **Interactive Elements**: Minimum 4.5:1 contrast ratio
+- **Focus States**: 3:1 contrast ratio for focus indicators
+
+### Focus Management
+- **Focus Indicators**: 2px solid Bright Blue (`#2563EB`) outline
+- **Focus Visible**: Only show focus indicators for keyboard navigation
+- **Tab Order**: Logical tab sequence through interactive elements
+
+### Content Guidelines
+- **Alt Text**: Descriptive alt text for all images and icons
+- **Semantic HTML**: Proper heading hierarchy and semantic elements
+- **Screen Reader**: Ensure compatibility with screen readers
+- **Keyboard Navigation**: All interactive elements accessible via keyboard
+
+## Responsive Design Breakpoints
+
+### Breakpoint System
+- **Mobile**: 0-767px
+- **Tablet**: 768-1023px
+- **Desktop**: 1024px+
+- **Large Desktop**: 1200px+
+
+### Responsive Typography
+- Scale font sizes proportionally across breakpoints
+- Maintain readability at all screen sizes
+- Adjust line heights for mobile (slightly tighter)
+- Ensure touch targets are minimum 44px on mobile
+
+## Brand Implementation Notes
+
+### Trust Building Elements
+- Use consistent spacing and alignment to convey professionalism
+- Implement subtle animations that enhance rather than distract
+- Maintain high contrast ratios for accessibility and readability
+- Use whitespace generously to create breathing room
+- Ensure all interactive elements have clear hover/focus states
+
+### Authority Signaling
+- Favor clean, structured layouts over decorative elements
+- Use data visualization colors consistently
+- Implement clear hierarchy with appropriate typography scaling
+- Maintain consistent component sizing and spacing
+- Use professional iconography over playful graphics
+
+This style guide should be implemented consistently across all components and pages to create a cohesive, trustworthy platform that effectively communicates authority in the responsible AI evaluation space.

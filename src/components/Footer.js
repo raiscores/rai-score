@@ -30,7 +30,7 @@ function Footer() {
             {[
               { icon: '𝕏', href: '#' },
               { icon: '💼', href: '#' },
-              { icon: '📧', href: 'mailto:contact@raiscorecard.com' }
+              { icon: '📧', href: 'mailto:raiscores@gmail.com' }
             ].map(({ icon, href }) => (
               <a
                 key={icon}
@@ -79,7 +79,7 @@ function Footer() {
             Get in Touch
           </h4>
           <p style={{ marginBottom: '0.5rem', color: '#f1f5f9' }}>
-            📧 contact@raiscorecard.com
+            📧 raiscores@gmail.com
           </p>
           <p style={{ color: '#cbd5e1', lineHeight: '1.7' }}>
             Have questions about our methodology or want to request a company evaluation? We'd love to hear from you.

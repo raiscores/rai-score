@@ -1,379 +1,576 @@
 import React, { useEffect, useState } from 'react';
-import { Star, TrendingUp, Shield, Eye, Scale, Building, Users, Clock } from 'lucide-react';
+import { Link, useParams } from 'react-router-dom';
+
+import { 
+  Star, 
+  TrendingUp, 
+  Shield, 
+  Eye, 
+  Scale, 
+  Building, 
+  Users, 
+  Clock,
+  Brain,
+  Lock,
+  CheckCircle,
+  AlertCircle,
+  XCircle,
+  ExternalLink,
+  Share2,
+  ArrowLeft,
+  Calendar,
+  Award,
+  Target,
+  FileText,
+  DollarSign,
+  Globe,
+  MapPin,
+  Briefcase,
+  Info,
+  ChevronRight,
+  BarChart3,
+  TrendingDown,
+  Minus
+} from 'lucide-react';
 
 function CompanyPage() {
-  // Mock slug for demonstration - in real app would come from router
-  const slug = 'openai';
   const [companyData, setCompanyData] = useState(null);
   const [activeTab, setActiveTab] = useState('overview');
+  const [loading, setLoading] = useState(true);
+  const [animateScores, setAnimateScores] = useState(false);
 
-  useEffect(() => {
-    // Mock company data for demonstration
-    const mockCompanyData = {
-      name: "OpenAI",
-      industry: "Artificial Intelligence",
-      public: false,
-      score: 73,
-      max_score: 100,
-      status_label: "Good Practice",
-      last_updated: "December 2024"
-    };
-    
-    // Simulate loading delay
-    setTimeout(() => {
-      setCompanyData(mockCompanyData);
-    }, 1000);
-  }, []);
 
-  // Mock data for demonstration - would be replaced with actual data
-  const mockPillarScores = [
-    { name: 'Transparency', score: 78, max: 100, icon: Eye },
-    { name: 'Fairness', score: 65, max: 100, icon: Scale },
-    { name: 'Safety & Security', score: 82, max: 100, icon: Shield },
-    { name: 'Governance', score: 71, max: 100, icon: Building },
-    { name: 'Redress', score: 58, max: 100, icon: Users }
-  ];
 
-  const CircularScore = ({ score, maxScore, size = 120 }) => {
-    const percentage = (score / maxScore) * 100;
-    const strokeWidth = 8;
-    const radius = (size - strokeWidth) / 2;
-    const circumference = 2 * Math.PI * radius;
-    const strokeDasharray = circumference;
-    const strokeDashoffset = circumference - (percentage / 100) * circumference;
+	const { slug } = useParams();
 
-    return (
+	useEffect(() => {
+	  setLoading(true);
+	  setAnimateScores(false);
+
+	  Promise.all([
+		fetch(`${process.env.PUBLIC_URL}/data/${slug}_profile.json`).then(res => res.json()),
+		fetch(`${process.env.PUBLIC_URL}/data/${slug}_scores.json`).then(res => res.json())
+	  ])
+		.then(([profile, scores]) => {
+		  // You can merge or keep these separate!
+		  setCompanyData({
+			...profile,
+			...scores.aggregate, //use ... only if there is a spread of propertis in an object
+			pillarDetails: scores.pillarDetails,
+			overallFindings: scores.summary?.overallFindings,	// or whatever part you want
+			// HARDCODED DATA
+			 last_updated: "2025-06-10",
+			//overall_score: 70,
+			//max_score: 70,
+			//star_rating: 5,
+			percentile_rank: 95,
+			industry_rank: 2,
+			total_companies_in_industry: 45,
+			data_confidence: "High",
+			source_count: 14
+		  });
+		  setLoading(false);
+		  setTimeout(() => setAnimateScores(true), 500);
+		})
+		.catch(() => {
+		  setCompanyData(null);
+		  setLoading(false);
+		});
+	}, [slug]);
+
+		 // ⬇️ Check if Company Dats is there ⬇️
+		 if (loading) {
+		  return <div>Loading company data...</div>;
+		}
+		if (!companyData) {
+		  return <div>Company data not found.</div>;
+		}
+		
+		 console.log("companyData:", companyData); //for debugging purposes
+		 
+		 // ⬇️ Calculates Pillar Scores and transforms to 1-10 scale ⬇️
+		const pillarEntries = companyData.pillarDetails
+		  ? Object.entries(companyData.pillarDetails)
+		  : [];
+
+		const totalScore = pillarEntries
+		  .reduce((sum, [_, details]) => sum + ((details.score ?? 0) * 10), 0);
+
+		const maxScore = pillarEntries.length * 10;
+		
+
+
+
+		 
 	
-      <div className="relative flex items-center justify-center" style={{ width: size, height: size }}>
-        <svg width={size} height={size} className="transform -rotate-90">
-          <circle
-            cx={size / 2}
-            cy={size / 2}
-            r={radius}
-            stroke="rgba(255, 255, 255, 0.1)"
-            strokeWidth={strokeWidth}
-            fill="none"
-          />
-          <circle
-            cx={size / 2}
-            cy={size / 2}
-            r={radius}
-            stroke="#facc15"
-            strokeWidth={strokeWidth}
-            fill="none"
-            strokeDasharray={strokeDasharray}
-            strokeDashoffset={strokeDashoffset}
-            strokeLinecap="round"
-            style={{ 
-              transition: 'stroke-dashoffset 1s ease-out',
-              stroke: 'linear-gradient(135deg, #facc15, #eab308)'
-            }}
-          />
-        </svg>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center">
-            <div className="text-2xl font-bold text-white">{score}</div>
-            <div className="text-sm" style={{ color: '#cbd5e1' }}>/{maxScore}</div>
-          </div>
-        </div>
-      </div>
-    );
+//hardcoded pillar detail, can delete	
+  const pillarData = [
+    { 
+      name: 'Transparency', 
+      score: 10, 
+      max: 10, 
+      icon: Eye,
+      status: 'excellent',
+      description: 'Detailed transparency reports and public documentation with comprehensive AI practice disclosure',
+      sources: 2,
+      confidence: 'High'
+    },
+    { 
+      name: 'Fairness & Bias Mitigation', 
+      score: 10, 
+      max: 10, 
+      icon: Scale,
+      status: 'excellent',
+      description: 'Comprehensive bias prevention measures and diverse hiring practices with validation protocols',
+      sources: 2,
+      confidence: 'High'
+    },
+    { 
+      name: 'Explainability', 
+      score: 10, 
+      max: 10, 
+      icon: Brain,
+      status: 'excellent',
+      description: 'Open-source tools and interpretability frameworks like InterpretML for model understanding',
+      sources: 2,
+      confidence: 'High'
+    },
+    { 
+      name: 'Human Oversight & Accountability', 
+      score: 10, 
+      max: 10, 
+      icon: Users,
+      status: 'excellent',
+      description: 'Clear human validation requirements for AI decisions with documented oversight protocols',
+      sources: 2,
+      confidence: 'High'
+    },
+    { 
+      name: 'Privacy & Security', 
+      score: 10, 
+      max: 10, 
+      icon: Shield,
+      status: 'excellent',
+      description: 'Strong encryption, access controls, and privacy-by-design implementation in AI systems',
+      sources: 2,
+      confidence: 'High'
+    },
+    { 
+      name: 'Governance & Accountability', 
+      score: 10, 
+      max: 10, 
+      icon: Building,
+      status: 'excellent',
+      description: 'NIST-aligned risk management practices with comprehensive enterprise AI governance',
+      sources: 2,
+      confidence: 'High'
+    },
+    { 
+      name: 'Public Commitments & External Audits', 
+      score: 10, 
+      max: 10, 
+      icon: Award,
+      status: 'excellent',
+      description: 'Strong public partnerships and voluntary adherence to government-led safety standards',
+      sources: 2,
+      confidence: 'High'
+    }
+  ];
+  
+  const PILLAR_ICONS = {
+  "Transparency": Eye,
+  "Fairness & Bias Mitigation": Scale,
+  "Explainability": Brain,
+  "Human Oversight & Accountability": Users,
+  "Privacy & Security": Shield,
+  "Governance & Accountability": Building,
+  "Public Commitments & External Audits": Award,
+};
+
+  const getStatusColor = (status) => {
+    switch (status) {
+      case 'excellent': return 'text-green-600';
+      case 'good': return 'text-blue-600';
+      case 'fair': return 'text-yellow-600';
+      case 'poor': return 'text-red-600';
+      default: return 'text-gray-600';
+    }
   };
 
-  const PillarCard = ({ name, score, max, icon: Icon }) => {
+  const getStatusBgColor = (status) => {
+    switch (status) {
+      case 'excellent': return 'bg-green-50';
+      case 'good': return 'bg-blue-50';
+      case 'fair': return 'bg-yellow-50';
+      case 'poor': return 'bg-red-50';
+      default: return 'bg-gray-50';
+    }
+  };
+
+  const getStatusIcon = (status) => {
+    switch (status) {
+      case 'excellent': return CheckCircle;
+      case 'good': return CheckCircle;
+      case 'fair': return AlertCircle;
+      case 'poor': return XCircle;
+      default: return AlertCircle;
+    }
+  };
+
+  const getScoreColor = (score) => {
+    if (score >= 8) return 'text-green-600';
+    if (score >= 6) return 'text-blue-600';
+    if (score >= 4) return 'text-yellow-600';
+    return 'text-red-600';
+  };
+
+  const getScoreGradient = (score) => {
+    if (score >= 8) return 'from-green-500 to-green-600';
+    if (score >= 6) return 'from-blue-500 to-blue-600';
+    if (score >= 4) return 'from-yellow-500 to-yellow-600';
+    return 'from-red-500 to-red-600';
+  };
+
+  const getGradeFromScore = (score, max) => {
+    const percentage = (score / max) * 100;
+    if (percentage >= 90) return 'A+';
+    if (percentage >= 85) return 'A';
+    if (percentage >= 80) return 'A-';
+    if (percentage >= 75) return 'B+';
+    if (percentage >= 70) return 'B';
+    if (percentage >= 65) return 'B-';
+    if (percentage >= 60) return 'C+';
+    if (percentage >= 55) return 'C';
+    if (percentage >= 50) return 'C-';
+    return 'D';
+  };
+  
+  	  // ⬇️ Calculates how many pillars have full implementation ⬇️
+	  const fullPillars = pillarEntries.filter(
+		  ([_, details]) => ((details.score ?? 0) * 10) === 10 // Or: details.score === 1 if not scaled yet
+		).length;
+
+		const totalPillars = pillarEntries.length;
+		
+		const getPillarImplementationStatus = (fullPillars, totalPillars) => {
+		  if (fullPillars === totalPillars) return 'excellent';
+		  if (fullPillars >= 5) return 'good';
+		  if (fullPillars >= 3) return 'fair';
+		  return 'poor';
+		};
+		
+		const pillarStatus = getPillarImplementationStatus(fullPillars, totalPillars);
+		const StatusIcon = getStatusIcon(pillarStatus);
+		const statusColor = getStatusColor(pillarStatus);
+  
+  
+
+  const formatMarketCap = (value) => {
+    if (value >= 1e12) return `$${(value / 1e12).toFixed(1)}T`;
+    if (value >= 1e9) return `$${(value / 1e9).toFixed(1)}B`;
+    if (value >= 1e6) return `$${(value / 1e6).toFixed(1)}M`;
+    return `$${value}`;
+  };
+
+  const formatEmployeeCount = (count) => {
+    if (count >= 1000) return `${(count / 1000).toFixed(0)}K`;
+    return count.toString();
+  };
+
+  const StarRating = ({ rating }) => (
+    <div className="flex items-center gap-1">
+      {[...Array(5)].map((_, i) => (
+        <Star
+          key={i}
+          className={`w-5 h-5 ${i < rating ? 'text-yellow-400 fill-current' : 'text-gray-300'}`}
+        />
+      ))}
+    </div>
+  );
+
+  const PillarCard = ({ name, score, max, icon: Icon, status, description, sources, confidence }) => {
+    const StatusIcon = getStatusIcon(status);
     const percentage = (score / max) * 100;
     
     return (
-      <div 
-        className="rounded-lg p-4 border transition-all duration-300 hover:shadow-lg"
-        style={{ 
-          backgroundColor: 'rgba(255, 255, 255, 0.1)',
-          backdropFilter: 'blur(10px)',
-          borderColor: 'rgba(255, 255, 255, 0.2)'
-        }}
-      >
-        <div className="flex items-center justify-between mb-3">
-          <div className="flex items-center gap-2">
-            <Icon className="w-5 h-5" style={{ color: 'rgba(255, 255, 255, 0.8)' }} />
-            <span className="text-white font-medium">{name}</span>
+      <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-all duration-300 group">
+        <div className="flex items-start justify-between mb-4">
+          <div className="flex items-center gap-3 flex-1">
+            <div className={`p-3 rounded-lg ${getStatusBgColor(status)} group-hover:scale-105 transition-transform duration-200`}>
+              <Icon className={`w-5 h-5 ${getStatusColor(status)}`} />
+            </div>
+            <div className="flex-1">
+              <h3 className="font-semibold text-gray-900 mb-1">{name}</h3>
+              <div className="flex items-center gap-2 mb-2">
+                <StatusIcon className={`w-4 h-4 ${getStatusColor(status)}`} />
+                <span className={`text-sm font-medium capitalize ${getStatusColor(status)}`}>
+                  {status}
+                </span>
+                <span className="text-gray-300">•</span>
+                <span className="text-sm text-gray-500">{sources} sources</span>
+              </div>
+            </div>
           </div>
-          <span className="font-bold" style={{ color: '#facc15' }}>{score}/{max}</span>
+          <div className="text-right">
+            <div className={`text-3xl font-bold ${getScoreColor(score)}`}>{score}</div>
+            <div className="text-sm text-gray-500">/{max}</div>
+          </div>
         </div>
-        <div className="w-full rounded-full h-2" style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)' }}>
+        
+        <div className="w-full bg-gray-200 rounded-full h-3 mb-4">
           <div 
-            className="h-2 rounded-full transition-all duration-1000 ease-out"
-            style={{ 
-              width: `${percentage}%`,
-              background: 'linear-gradient(90deg, #3b82f6, #1d4ed8)'
-            }}
+            className={`bg-gradient-to-r ${getScoreGradient(score)} h-3 rounded-full transition-all duration-1000 ease-out`}
+            style={{ width: animateScores ? `${percentage}%` : '0%' }}
           />
         </div>
-        <div className="mt-2 text-xs" style={{ color: '#cbd5e1' }}>
-          {percentage >= 80 ? 'Excellent' : percentage >= 60 ? 'Good' : 'Needs Improvement'}
+        
+        <p className="text-sm text-gray-600 mb-3">{description}</p>
+        
+        <div className="flex items-center justify-between text-xs text-gray-500">
+          <span className="flex items-center gap-1">
+            <Info className="w-3 h-3" />
+            Confidence: {confidence}
+          </span>
+          <button className="flex items-center gap-1 text-blue-600 hover:text-blue-700 transition-colors">
+            View Sources
+            <ChevronRight className="w-3 h-3" />
+          </button>
         </div>
       </div>
     );
   };
 
-  if (!companyData) {
+  if (loading) {
     return (
-      <div 
-        className="min-h-screen flex items-center justify-center"
-        style={{ 
-          background: 'linear-gradient(135deg, #1e3a8a, #0f172a)'
-        }}
-      >
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 mx-auto mb-4" style={{ borderColor: '#3b82f6' }}></div>
-          <h2 className="text-white text-xl">Loading company data...</h2>
-          <p className="mt-2" style={{ color: '#64748b' }}>Please wait while we fetch the latest scores</p>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <h2 className="text-xl font-semibold text-gray-900">Loading company data...</h2>
+          <p className="text-gray-600 mt-2">Analyzing responsible AI practices</p>
         </div>
       </div>
     );
   }
 
-  const overallScore = companyData.score || 73;
-  const maxScore = companyData.max_score || 100;
-  const percentile = Math.round((overallScore / maxScore) * 100);
+  const overallGrade = getGradeFromScore(totalScore, maxScore);
+  const overallPercentage = maxScore === 0 ? 0 : (totalScore / maxScore) * 100;
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#f8fafc' }}>
-      {/* Hero Section */}
-      <section 
-        className="py-12 px-4"
-        style={{ 
-          background: 'linear-gradient(135deg, #1e3a8a, #0f172a)'
-        }}
-      >
-        <div className="max-w-6xl mx-auto">
+    <div className="min-h-screen bg-gray-50">
+      {/* Navigation */}
+      <nav className="bg-white border-b border-gray-200 px-4 py-3 sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
+          <div className="flex items-center gap-4">
+            <Link
+			  to="/companies"
+			  className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
+			>
+			  <ArrowLeft className="w-5 h-5" />
+			  <span>Back to Companies</span>
+			</Link>
+            <div className="text-gray-400 hidden sm:block">|</div>
+            <div className="text-sm text-gray-600 hidden sm:block">
+              {companyData.industry} > {companyData.name}
+            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            <button className="flex items-center gap-2 px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">
+              <Share2 className="w-4 h-4" />
+              <span className="hidden sm:inline">Share</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      {/* Company Hero Section */}
+      <section className="bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 py-8">
           {/* Company Header */}
-          <div className="text-center mb-8">
-            <h1 
-              className="text-4xl md:text-5xl font-bold text-white mb-2"
-              style={{ textShadow: '0 4px 20px rgba(0, 0, 0, 0.4)' }}
-            >
-              {companyData.name}
-            </h1>
-            <p className="text-lg" style={{ color: '#f8fafc' }}>
-              {companyData.industry || 'Technology'} • {companyData.public ? 'Public' : 'Private'} Company
-            </p>
-          </div>
-
-          {/* Score Dashboard */}
-          <div className="grid md:grid-cols-3 gap-6 mb-8">
-            {/* Main Score Card */}
-            <div className="md:col-span-1">
-              <div 
-                className="rounded-xl p-6 border text-center"
-                style={{ 
-                  backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                  backdropFilter: 'blur(10px)',
-                  borderColor: 'rgba(255, 255, 255, 0.2)'
-                }}
-              >
-                <h3 className="text-white text-lg font-semibold mb-4">Overall Score</h3>
-                <CircularScore score={overallScore} maxScore={maxScore} size={140} />
-                <div className="mt-4">
-                  <div className="font-bold text-sm" style={{ color: '#facc15' }}>
-                    {companyData.status_label || 'Good Practice'}
+          <div className="grid lg:grid-cols-3 gap-8 mb-8">
+            <div className="lg:col-span-2">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-xl">
+                  {companyData.name.charAt(0)}
+                </div>
+                <div className="flex-1">
+                  <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">
+                    {companyData.name}
+                  </h1>
+                  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-3">
+                    <span className="flex items-center gap-1">
+                      <Building className="w-4 h-4" />
+                      {companyData.industry}
+                    </span>
+                    <span>•</span>
+                    <span className="font-medium">{companyData.ticker}</span>
+                    <span>•</span>
+                    <span className="flex items-center gap-1">
+                      <Award className="w-4 h-4" />
+                      Fortune #{companyData.fortune_rank}
+                    </span>
                   </div>
-                  <div className="text-sm mt-1" style={{ color: '#cbd5e1' }}>
-                    Better than {percentile}% of companies
+                  <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+                    <span className="flex items-center gap-1">
+                      <MapPin className="w-4 h-4" />
+                      {companyData.headquarters}
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <Globe className="w-4 h-4" />
+                      {companyData.website}
+                    </span>
                   </div>
+                </div>
+              </div>
+              
+              <p className="text-gray-700 leading-relaxed mb-6">
+                {companyData.summary}
+              </p>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="text-center p-3 bg-gray-50 rounded-lg">
+                  <div className="text-2xl font-bold text-gray-900">{companyData.founded_year}</div>
+                  <div className="text-sm text-gray-600">Founded</div>
+                </div>
+                <div className="text-center p-3 bg-gray-50 rounded-lg">
+                  <div className="text-2xl font-bold text-gray-900">{formatMarketCap(companyData.market_cap_usd)}</div>
+                  <div className="text-sm text-gray-600">Market Cap</div>
+                </div>
+                <div className="text-center p-3 bg-gray-50 rounded-lg">
+                  <div className="text-2xl font-bold text-gray-900">{formatEmployeeCount(companyData.employee_count)}</div>
+                  <div className="text-sm text-gray-600">Employees</div>
+                </div>
+                <div className="text-center p-3 bg-gray-50 rounded-lg">
+                  <div className="text-2xl font-bold text-gray-900">{companyData.source_count}</div>
+                  <div className="text-sm text-gray-600">Sources</div>
                 </div>
               </div>
             </div>
 
-            {/* Quick Stats */}
-            <div className="md:col-span-2 grid grid-cols-2 gap-4">
-              <div 
-                className="rounded-xl p-4 border"
-                style={{ 
-                  backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                  backdropFilter: 'blur(10px)',
-                  borderColor: 'rgba(255, 255, 255, 0.2)'
-                }}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <TrendingUp className="w-5 h-5 text-green-400" />
-                  <span className="text-white font-medium">Trend</span>
+            {/* Score Dashboard */}
+            <div className="lg:col-span-1">
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 text-center border border-blue-100">
+                <div className="mb-4">
+                  <div className="text-6xl font-bold text-blue-600 mb-2">{overallGrade}</div>
+                  <div className="text-sm text-gray-600 mb-2">Overall Grade</div>
+                  <StarRating rating={companyData.starRating} /> {/*Pull in Company Star Rating */}
                 </div>
-                <div className="text-2xl font-bold text-green-400">+5.2%</div>
-                <div className="text-sm" style={{ color: '#cbd5e1' }}>vs last quarter</div>
-              </div>
-              
-              <div 
-                className="rounded-xl p-4 border"
-                style={{ 
-                  backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                  backdropFilter: 'blur(10px)',
-                  borderColor: 'rgba(255, 255, 255, 0.2)'
-                }}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <Star className="w-5 h-5" style={{ color: '#facc15' }} />
-                  <span className="text-white font-medium">Rank</span>
+                
+                <div className="w-full bg-white rounded-full h-3 mb-4">
+                  <div 
+                    className="bg-gradient-to-r from-blue-500 to-blue-600 h-3 rounded-full transition-all duration-1000 ease-out"
+                    style={{ width: animateScores ? `${overallPercentage}%` : '0%' }}
+                  />
                 </div>
-                <div className="text-2xl font-bold" style={{ color: '#facc15' }}>#12</div>
-                <div className="text-sm" style={{ color: '#cbd5e1' }}>in Technology</div>
-              </div>
-              
-              <div 
-                className="rounded-xl p-4 border"
-                style={{ 
-                  backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                  backdropFilter: 'blur(10px)',
-                  borderColor: 'rgba(255, 255, 255, 0.2)'
-                }}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <Shield className="w-5 h-5 text-blue-400" />
-                  <span className="text-white font-medium">Confidence</span>
+                
+                <div className="text-sm text-gray-600 mb-4">
+                  {totalScore}/{maxScore} total score  {/*Pull in calculations for total score */}
                 </div>
-                <div className="text-2xl font-bold text-blue-400">High</div>
-                <div className="text-sm" style={{ color: '#cbd5e1' }}>Data quality</div>
-              </div>
-              
-              <div 
-                className="rounded-xl p-4 border"
-                style={{ 
-                  backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                  backdropFilter: 'blur(10px)',
-                  borderColor: 'rgba(255, 255, 255, 0.2)'
-                }}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <Clock className="w-5 h-5" style={{ color: '#64748b' }} />
-                  <span className="text-white font-medium">Updated</span>
+                
+                <div className="grid grid-cols-2 gap-3 text-sm">
+                  <div className="bg-white bg-opacity-70 rounded-lg p-2">
+                    <div className="font-semibold text-green-600">#{companyData.industry_rank}</div>
+                    <div className="text-gray-600">Industry Rank</div>
+                  </div>
+                  <div className="bg-white bg-opacity-70 rounded-lg p-2">
+                    <div className="font-semibold text-blue-600">{companyData.percentile_rank}%</div>
+                    <div className="text-gray-600">Percentile</div>
+                  </div>
                 </div>
-                <div className="text-2xl font-bold text-white">Dec 2024</div>
-                <div className="text-sm" style={{ color: '#cbd5e1' }}>Last review</div>
               </div>
             </div>
-          </div>
-
-          {/* Pillar Scores */}
-          <div className="grid md:grid-cols-5 gap-4">
-            {mockPillarScores.map((pillar, index) => (
-              <PillarCard key={index} {...pillar} />
-            ))}
           </div>
         </div>
       </section>
 
       {/* Main Content */}
-      <section className="py-8 px-4">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-8">
+        <div className="max-w-7xl mx-auto px-4">
           {/* Navigation Tabs */}
           <div className="mb-8">
-            <div className="flex flex-wrap gap-2 border-b" style={{ borderColor: '#cbd5e1' }}>
-              {['overview', 'methodology', 'timeline', 'compare'].map((tab) => (
+            <div className="flex flex-wrap gap-1 border-b border-gray-200">
+              {['overview', 'detailed-analysis', 'sources', 'methodology', 'compare'].map((tab) => (
                 <button
                   key={tab}
                   onClick={() => setActiveTab(tab)}
-                  className={`px-4 py-2 font-medium capitalize transition-all duration-200 border-b-2 ${
+                  className={`px-4 py-3 font-medium capitalize transition-all duration-200 border-b-2 ${
                     activeTab === tab
-                      ? 'text-blue-600'
-                      : 'hover:text-gray-800'
+                      ? 'text-blue-600 border-blue-600'
+                      : 'text-gray-600 border-transparent hover:text-gray-900 hover:border-gray-300'
                   }`}
-                  style={{
-                    borderBottomColor: activeTab === tab ? '#3b82f6' : 'transparent',
-                    color: activeTab === tab ? '#3b82f6' : '#64748b'
-                  }}
                 >
-                  {tab}
+                  {tab.replace('-', ' ')}
                 </button>
               ))}
             </div>
           </div>
-		  
 
           {/* Tab Content */}
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="md:col-span-2">
+          <div className="grid lg:grid-cols-4 gap-8">
+            <div className="lg:col-span-3">
               {activeTab === 'overview' && (
-                <div className="space-y-6">
-                  <div 
-                    className="rounded-xl p-6 border"
-                    style={{ 
-                      backgroundColor: 'white',
-                      borderColor: '#cbd5e1',
-                      boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)'
-                    }}
-                  >
-                    <h3 className="text-xl font-semibold mb-4" style={{ color: '#1e293b' }}>Key Strengths</h3>
-                    <div className="space-y-3">
-                      <div className="flex items-start gap-3">
-                        <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <div>
-                          <h4 className="font-medium" style={{ color: '#1e293b' }}>Strong Transparency Practices</h4>
-                          <p className="text-sm" style={{ color: '#64748b' }}>Comprehensive AI documentation and public reporting</p>
-                        </div>
+                <div className="space-y-8">
+                  {/* Executive Summary */}
+                  <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Executive Summary</h2>
+                    <div className="grid md:grid-cols-3 gap-6 mb-6">
+						{/* Dynamically Pull in Pillar Implementation Grade and Status and dynamic color fills */}
+                      <div className={`rounded-lg p-4 ${getStatusBgColor(pillarStatus)}`}>
+                       <div className="flex items-center gap-2 mb-2">
+						  <StatusIcon className={`w-5 h-5 ${statusColor}`} />
+						  <span className={`font-semibold capitalize ${statusColor}`}>{pillarStatus}</span>
+						</div>
+						<div className={`text-2xl font-bold ${statusColor}`}>{fullPillars}/{totalPillars}</div>
+						<div className={`text-sm ${statusColor}`}>Pillars with full implementation</div>
                       </div>
-                      <div className="flex items-start gap-3">
-                        <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <div>
-                          <h4 className="font-medium" style={{ color: '#1e293b' }}>Robust Safety Measures</h4>
-                          <p className="text-sm" style={{ color: '#64748b' }}>Advanced testing and monitoring systems in place</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div 
-                    className="rounded-xl p-6 border"
-                    style={{ 
-                      backgroundColor: 'white',
-                      borderColor: '#cbd5e1',
-                      boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)'
-                    }}
-                  >
-                    <h3 className="text-xl font-semibold mb-4" style={{ color: '#1e293b' }}>Areas for Improvement</h3>
-                    <div className="space-y-3">
-                      <div className="flex items-start gap-3">
-                        <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <div>
-                          <h4 className="font-medium" style={{ color: '#1e293b' }}>Redress Mechanisms</h4>
-                          <p className="text-sm" style={{ color: '#64748b' }}>Limited pathways for user appeals and corrections</p>
-                        </div>
-                      </div>
-                      <div className="flex items-start gap-3">
-                        <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <div>
-                          <h4 className="font-medium" style={{ color: '#1e293b' }}>Fairness Testing</h4>
-                          <p className="text-sm" style={{ color: '#64748b' }}>Bias testing could be more comprehensive</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              )}
-
-              {activeTab === 'methodology' && (
-                <div 
-                  className="rounded-xl p-6 border"
-                  style={{ 
-                    backgroundColor: 'white',
-                    borderColor: '#cbd5e1',
-                    boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)'
-                  }}
-                >
-                  <h3 className="text-xl font-semibold mb-4" style={{ color: '#1e293b' }}>Scoring Methodology</h3>
-                  <p className="mb-4" style={{ color: '#64748b' }}>
-                    Our evaluation framework assesses companies across five key pillars of responsible AI:
-                  </p>
-                  <div className="space-y-4">
-                    {mockPillarScores.map((pillar, index) => (
-                      <div key={index} className="border rounded-lg p-4" style={{ borderColor: '#cbd5e1' }}>
+                      <div className="bg-blue-50 rounded-lg p-4">
                         <div className="flex items-center gap-2 mb-2">
-                          <pillar.icon className="w-5 h-5 text-blue-600" />
-                          <h4 className="font-medium" style={{ color: '#1e293b' }}>{pillar.name}</h4>
+                          <BarChart3 className="w-5 h-5 text-blue-600" />
+                          <span className="font-semibold text-blue-800">Performance</span>
                         </div>
-                        <p className="text-sm" style={{ color: '#64748b' }}>
-                          Evaluates practices, policies, and implementation across this critical area.
-                        </p>
+                        <div className="text-2xl font-bold text-blue-600">95th</div>
+                        <div className="text-sm text-blue-700">Percentile ranking</div>
                       </div>
-                    ))}
+                      <div className="bg-purple-50 rounded-lg p-4">
+                        <div className="flex items-center gap-2 mb-2">
+                          <Shield className="w-5 h-5 text-purple-600" />
+                          <span className="font-semibold text-purple-800">Confidence</span>
+                        </div>
+                        <div className="text-2xl font-bold text-purple-600">High</div>
+                        <div className="text-sm text-purple-700">Data reliability</div>
+                      </div>
+                    </div>
+                    
+                    <div className="prose max-w-none">
+                      <p className="text-gray-700 leading-relaxed">
+                        {companyData.overallFindings || "Responsible AI assessment not available for this company."}  {/* Pull Overall Findings from JSON */}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Pillar Breakdown */}
+                  <div>
+                    <h2 className="text-2xl font-bold text-gray-900 mb-6">Responsible AI Assessment</h2>
+                    <div className="grid gap-6">
+						  {/* Pull Pillar information from JSON */}
+                      {companyData.pillarDetails &&
+						  Object.entries(companyData.pillarDetails).map(([pillarName, details], index) => {
+							const Icon = PILLAR_ICONS[pillarName] || Info;
+							const scaledScore = (details.score ?? 0) * 10; //Calculation from 0-1 to a 0-10 scale
+							return (
+							  <PillarCard
+								key={pillarName}
+								name={pillarName}
+								score={scaledScore}
+								max={10} // or whatever your max is, or details.max if you have it
+								icon={Icon}
+								status={details.status || 'excellent'} // default to 'excellent' if missing
+								description={details.justification || details.findings}
+								sources={details.relevantSources?.length || 0}
+								confidence="High" // or whatever value you want to show
+							  />
+							);
+						  })}
+                    </div>
                   </div>
                 </div>
               )}
@@ -381,50 +578,90 @@ function CompanyPage() {
 
             {/* Sidebar */}
             <div className="space-y-6">
-              <div 
-                className="rounded-xl p-6 border"
-                style={{ 
-                  backgroundColor: 'white',
-                  borderColor: '#cbd5e1',
-                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)'
-                }}
-              >
-                <h3 className="text-lg font-semibold mb-4" style={{ color: '#1e293b' }}>Company Info</h3>
-                <div className="space-y-3 text-sm">
-                  <div className="flex justify-between">
-                    <span style={{ color: '#64748b' }}>Industry:</span>
-                    <span style={{ color: '#1e293b' }}>{companyData.industry || 'Technology'}</span>
+              {/* Data Quality */}
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                <h3 className="font-semibold text-gray-900 mb-4">Data Quality</h3>
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-600">Last Updated:</span>
+                    <span className="text-sm font-medium">Jun 2025</span>
                   </div>
-                  <div className="flex justify-between">
-                    <span style={{ color: '#64748b' }}>Type:</span>
-                    <span style={{ color: '#1e293b' }}>{companyData.public ? 'Public' : 'Private'}</span>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-600">Sources:</span>
+                    <span className="text-sm font-medium">{companyData.source_count}</span>
                   </div>
-                  <div className="flex justify-between">
-                    <span style={{ color: '#64748b' }}>Last Review:</span>
-                    <span style={{ color: '#1e293b' }}>{companyData.last_updated || 'Dec 2024'}</span>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-600">Confidence:</span>
+                    <span className="text-sm font-medium text-green-600">{companyData.data_confidence}</span>
                   </div>
                 </div>
               </div>
 
-              {/* Premium Content Teaser */}
-              <div 
-                className="rounded-xl p-6 border"
-                style={{ 
-                  background: 'linear-gradient(135deg, #dbeafe, #f1f5f9)',
-                  borderColor: '#cbd5e1'
-                }}
-              >
+              {/* Industry Comparison */}
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                <h3 className="font-semibold text-gray-900 mb-4">Industry Comparison</h3>
+                <div className="space-y-4">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-sm text-gray-600">Your Rank</span>
+                      <span className="font-medium">#{companyData.industry_rank}</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2">
+                      <div className="bg-blue-600 h-2 rounded-full" style={{ width: '95%' }} />
+                    </div>
+                    <div className="text-xs text-gray-500 mt-1">
+                      Top 5% of {companyData.total_companies_in_industry} {companyData.industry} companies
+                    </div>
+                  </div>
+                  
+                  <div className="pt-3 border-t border-gray-200">
+                    <div className="text-sm text-gray-600 mb-2">Industry Leaders:</div>
+                    <div className="space-y-1 text-sm">
+                      <div className="flex justify-between">
+                        <span>1. OpenAI</span>
+                        <span className="text-green-600">A+</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="font-medium">2. Microsoft</span>
+                        <span className="text-green-600 font-medium">A</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>3. Google</span>
+                        <span className="text-blue-600">A-</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Quick Actions */}
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                <h3 className="font-semibold text-gray-900 mb-4">Quick Actions</h3>
+                <div className="space-y-3">
+                  <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
+                    Compare Companies
+                  </button>
+                  <button className="w-full border border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
+                    Download Report
+                  </button>
+                  <button className="w-full border border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
+                    View All Sources
+                  </button>
+                </div>
+              </div>
+
+              {/* Premium Upgrade */}
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100">
                 <div className="text-center">
-                  <div className="text-2xl mb-2">🔒</div>
-                  <h3 className="font-semibold mb-2" style={{ color: '#1e293b' }}>Premium Insights</h3>
-                  <p className="text-sm mb-4" style={{ color: '#64748b' }}>
-                    Get detailed analysis, source documentation, and expert commentary
+                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Star className="w-6 h-6 text-blue-600" />
+                  </div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Get Full Access</h3>
+                  <p className="text-sm text-gray-600 mb-4">
+                    Unlock detailed analysis, source documentation, and comparison tools
                   </p>
-                  <button 
-                    className="w-full font-medium py-2 px-4 rounded-lg transition-colors text-white hover:bg-blue-700"
-                    style={{ backgroundColor: '#3b82f6' }}
-                  >
-                    Upgrade to Pro
+                  <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
+                    Start Free Trial
                   </button>
                 </div>
               </div>

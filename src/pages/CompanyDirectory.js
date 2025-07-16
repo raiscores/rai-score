@@ -1,111 +1,211 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Filter, TrendingUp, Building2 } from 'lucide-react';
 
+function CompanyName({ name }) {
+  // dynamically change size for overflow on cards
+  const nameRef = useRef(null);
+  const [fontSize, setFontSize] = useState(20); // start font size px
+
+  useEffect(() => {
+    const el = nameRef.current;
+    if (!el) return;
+
+    const MIN_FONT_SIZE = 12;
+    let currentSize = 20;
+
+    function adjustFontSize() {
+      if (!el) return;
+      el.style.fontSize = currentSize + 'px';
+      while (el.scrollWidth > el.clientWidth && currentSize > MIN_FONT_SIZE) {
+        currentSize -= 1;
+        el.style.fontSize = currentSize + 'px';
+      }
+      setFontSize(currentSize);
+    }
+
+    adjustFontSize();
+
+    window.addEventListener('resize', adjustFontSize);
+    return () => window.removeEventListener('resize', adjustFontSize);
+  }, [name]);
+
+  return (
+    <h3
+      ref={nameRef}
+      style={{
+        color: '#1e293b',
+        fontWeight: '600',
+        margin: '0 0 0.25rem 0',
+        lineHeight: '1.2',
+        fontSize: fontSize + 'px',
+        whiteSpace: 'nowrap',
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+      }}
+      title={name}
+    >
+      {name}
+    </h3>
+  );
+}
+
+function displayScore(score) {
+  // Handles undefined/null/NaN
+  return typeof score === "number" && !isNaN(score) ? score.toFixed(1) : "N/A";
+}
+
 // Extended company data with 100 companies across various industries
 const companies = [
-  { slug: "3m", name: "3M", industry: "Manufacturing", score: 4.2, max_score: 6 },
-  { slug: "adobe", name: "Adobe", industry: "Software", score: 4.8, max_score: 6 },
-  { slug: "airbnb", name: "Airbnb", industry: "Travel & Hospitality", score: 3.9, max_score: 6 },
-  { slug: "alibaba", name: "Alibaba", industry: "E-commerce", score: 3.4, max_score: 6 },
-  { slug: "alphabet", name: "Alphabet", industry: "Technology", score: 4.6, max_score: 6 },
-  { slug: "amazon", name: "Amazon", industry: "E-commerce", score: 4.1, max_score: 6 },
-  { slug: "amd", name: "AMD", industry: "Semiconductors", score: 4.3, max_score: 6 },
-  { slug: "american-express", name: "American Express", industry: "Financial Services", score: 4.7, max_score: 6 },
-  { slug: "anthropic", name: "Anthropic", industry: "AI Research", score: 5.2, max_score: 6 },
-  { slug: "apple", name: "Apple", industry: "Technology", score: 4.9, max_score: 6 },
-  { slug: "atlassian", name: "Atlassian", industry: "Software", score: 4.5, max_score: 6 },
-  { slug: "baidu", name: "Baidu", industry: "Internet Services", score: 3.1, max_score: 6 },
-  { slug: "bank-of-america", name: "Bank of America", industry: "Banking", score: 4.0, max_score: 6 },
-  { slug: "berkshire-hathaway", name: "Berkshire Hathaway", industry: "Conglomerate", score: 3.8, max_score: 6 },
-  { slug: "boeing", name: "Boeing", industry: "Aerospace", score: 3.6, max_score: 6 },
-  { slug: "booking", name: "Booking Holdings", industry: "Travel & Hospitality", score: 3.7, max_score: 6 },
-  { slug: "broadcom", name: "Broadcom", industry: "Semiconductors", score: 4.1, max_score: 6 },
-  { slug: "capital-one", name: "Capital One", industry: "Financial Services", score: 4.4, max_score: 6 },
-  { slug: "chevron", name: "Chevron", industry: "Energy", score: 2.9, max_score: 6 },
-  { slug: "cisco", name: "Cisco", industry: "Networking", score: 4.6, max_score: 6 },
-  { slug: "citigroup", name: "Citigroup", industry: "Banking", score: 4.2, max_score: 6 },
-  { slug: "coca-cola", name: "Coca-Cola", industry: "Beverages", score: 3.5, max_score: 6 },
-  { slug: "comcast", name: "Comcast", industry: "Telecommunications", score: 3.3, max_score: 6 },
-  { slug: "costco", name: "Costco", industry: "Retail", score: 4.0, max_score: 6 },
-  { slug: "crowdstrike", name: "CrowdStrike", industry: "Cybersecurity", score: 4.7, max_score: 6 },
-  { slug: "deere", name: "Deere & Company", industry: "Manufacturing", score: 3.9, max_score: 6 },
-  { slug: "disney", name: "Disney", industry: "Entertainment", score: 3.8, max_score: 6 },
-  { slug: "dropbox", name: "Dropbox", industry: "Cloud Storage", score: 4.1, max_score: 6 },
-  { slug: "ebay", name: "eBay", industry: "E-commerce", score: 3.6, max_score: 6 },
-  { slug: "eli-lilly", name: "Eli Lilly", industry: "Pharmaceuticals", score: 4.3, max_score: 6 },
-  { slug: "exxon-mobil", name: "ExxonMobil", industry: "Energy", score: 2.7, max_score: 6 },
-  { slug: "facebook", name: "Meta", industry: "Social Media", score: 3.2, max_score: 6 },
-  { slug: "fedex", name: "FedEx", industry: "Logistics", score: 3.8, max_score: 6 },
-  { slug: "ford", name: "Ford", industry: "Automotive", score: 3.9, max_score: 6 },
-  { slug: "general-electric", name: "General Electric", industry: "Conglomerate", score: 3.7, max_score: 6 },
-  { slug: "general-motors", name: "General Motors", industry: "Automotive", score: 4.0, max_score: 6 },
-  { slug: "github", name: "GitHub", industry: "Software Development", score: 4.8, max_score: 6 },
-  { slug: "goldman-sachs", name: "Goldman Sachs", industry: "Investment Banking", score: 4.1, max_score: 6 },
-  { slug: "google", name: "Google", industry: "Internet Services", score: 4.5, max_score: 6 },
-  { slug: "home-depot", name: "Home Depot", industry: "Retail", score: 3.4, max_score: 6 },
-  { slug: "honeywell", name: "Honeywell", industry: "Conglomerate", score: 4.2, max_score: 6 },
-  { slug: "hp", name: "HP Inc.", industry: "Computer Hardware", score: 4.0, max_score: 6 },
-  { slug: "huawei", name: "Huawei", industry: "Telecommunications", score: 2.8, max_score: 6 },
-  { slug: "ibm", name: "IBM", industry: "Technology", score: 4.9, max_score: 6 },
-  { slug: "intel", name: "Intel", industry: "Semiconductors", score: 4.4, max_score: 6 },
-  { slug: "intuit", name: "Intuit", industry: "Financial Software", score: 4.6, max_score: 6 },
-  { slug: "johnson-johnson", name: "Johnson & Johnson", industry: "Pharmaceuticals", score: 4.5, max_score: 6 },
-  { slug: "jpmorgan", name: "JPMorgan Chase", industry: "Banking", score: 4.3, max_score: 6 },
-  { slug: "lockheed-martin", name: "Lockheed Martin", industry: "Aerospace", score: 3.5, max_score: 6 },
-  { slug: "mastercard", name: "Mastercard", industry: "Financial Services", score: 4.8, max_score: 6 },
-  { slug: "mcdonalds", name: "McDonald's", industry: "Food Service", score: 3.2, max_score: 6 },
-  { slug: "microsoft", name: "Microsoft", industry: "Technology", score: 5.1, max_score: 6 },
-  { slug: "netflix", name: "Netflix", industry: "Entertainment", score: 4.2, max_score: 6 },
-  { slug: "nike", name: "Nike", industry: "Apparel", score: 3.7, max_score: 6 },
-  { slug: "nvidia", name: "NVIDIA", industry: "Semiconductors", score: 4.7, max_score: 6 },
-  { slug: "openai", name: "OpenAI", industry: "AI Research", score: 4.9, max_score: 6 },
-  { slug: "oracle", name: "Oracle", industry: "Database Software", score: 4.2, max_score: 6 },
-  { slug: "palantir", name: "Palantir", industry: "Data Analytics", score: 3.8, max_score: 6 },
-  { slug: "paypal", name: "PayPal", industry: "Fintech", score: 4.4, max_score: 6 },
-  { slug: "pepsico", name: "PepsiCo", industry: "Beverages", score: 3.6, max_score: 6 },
-  { slug: "pfizer", name: "Pfizer", industry: "Pharmaceuticals", score: 4.4, max_score: 6 },
-  { slug: "procter-gamble", name: "Procter & Gamble", industry: "Consumer Goods", score: 3.9, max_score: 6 },
-  { slug: "qualcomm", name: "Qualcomm", industry: "Semiconductors", score: 4.5, max_score: 6 },
-  { slug: "salesforce", name: "Salesforce", industry: "CRM Software", score: 4.8, max_score: 6 },
-  { slug: "samsung", name: "Samsung", industry: "Consumer Electronics", score: 4.1, max_score: 6 },
-  { slug: "shopify", name: "Shopify", industry: "E-commerce", score: 4.3, max_score: 6 },
-  { slug: "slack", name: "Slack", industry: "Communication", score: 4.5, max_score: 6 },
-  { slug: "snowflake", name: "Snowflake", industry: "Cloud Computing", score: 4.6, max_score: 6 },
-  { slug: "sony", name: "Sony", industry: "Consumer Electronics", score: 4.0, max_score: 6 },
-  { slug: "spotify", name: "Spotify", industry: "Music Streaming", score: 4.1, max_score: 6 },
-  { slug: "square", name: "Block (Square)", industry: "Fintech", score: 4.2, max_score: 6 },
-  { slug: "starbucks", name: "Starbucks", industry: "Food Service", score: 3.8, max_score: 6 },
-  { slug: "target", name: "Target", industry: "Retail", score: 3.9, max_score: 6 },
-  { slug: "tesla", name: "Tesla", industry: "Automotive", score: 4.4, max_score: 6 },
-  { slug: "tiktok", name: "TikTok", industry: "Social Media", score: 2.9, max_score: 6 },
-  { slug: "toyota", name: "Toyota", industry: "Automotive", score: 4.2, max_score: 6 },
-  { slug: "twitter", name: "X (Twitter)", industry: "Social Media", score: 2.6, max_score: 6 },
-  { slug: "uber", name: "Uber", industry: "Transportation", score: 3.5, max_score: 6 },
-  { slug: "unilever", name: "Unilever", industry: "Consumer Goods", score: 4.0, max_score: 6 },
-  { slug: "ups", name: "UPS", industry: "Logistics", score: 3.9, max_score: 6 },
-  { slug: "visa", name: "Visa", industry: "Financial Services", score: 4.7, max_score: 6 },
-  { slug: "walmart", name: "Walmart", industry: "Retail", score: 3.7, max_score: 6 },
-  { slug: "wells-fargo", name: "Wells Fargo", industry: "Banking", score: 3.8, max_score: 6 },
-  { slug: "zoom", name: "Zoom", industry: "Video Communications", score: 4.3, max_score: 6 }
+ {"slug": "abbott-laboratories","name": "Abbott Laboratories","industry": "Healthcare","score": 7,"max_score": 7},
+  {"slug": "abbvie","name": "AbbVie Inc.","industry": "Pharmaceuticals","score": 6,"max_score": 7},
+  {"slug": "albertsons","name": "Albertsons Companies, Inc.","industry": "Consumer Staples","score": 3,"max_score": 7},
+  {"slug": "alphabet","name": "Alphabet Inc.","industry": "Technology","score": 7,"max_score": 7},
+  {"slug": "amazon","name": "Amazon.com, Inc.","industry": "Technology","score": 7,"max_score": 7},
+  {"slug": "american-airlines","name": "American Airlines Group Inc.","industry": "Airlines, Airports & Air Services","score": 5.5,"max_score": 7},
+  {"slug": "american-express","name": "American Express Company","industry": "Financial Services","score": 6,"max_score": 7},
+  {"slug": "apple","name": "Apple Inc.","industry": "Technology","score": 7,"max_score": 7},
+  {"slug": "archer-daniels-midland","name": "Archer-Daniels-Midland Company","industry": "Food and Beverage Manufacturing","score": 4.5,"max_score": 7},
+  {"slug": "att","name": "AT&T Inc.","industry": "Telecommunications","score": 7,"max_score": 7},
+  {"slug": "bank-of-america","name": "Bank of America Corporation","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "berkshire-hathaway","name": "Berkshire Hathaway Inc.","industry": "Conglomerate","score": 3.0,"max_score": 7},
+  {"slug": "best-buy","name": "Best Buy Co., Inc.","industry": "Retail - Consumer Electronics","score": 7,"max_score": 7},
+  {"slug": "bristol-myers-squibb","name": "Bristol-Myers Squibb Company","industry": "Pharmaceutical Manufacturing","score": 6,"max_score": 7},
+  {"slug": "broadcom","name": "Broadcom Inc.","industry": "Semiconductors and Infrastructure Software","score": 7,"max_score": 7},
+  {"slug": "capital-one","name": "Capital One Financial Corporation","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "cardinal-health","name": "Cardinal Health, Inc.","industry": "Healthcare Services","score": 7,"max_score": 7},
+  {"slug": "caterpillar","name": "Caterpillar Inc.","industry": "Construction and Mining Machinery","score": 6,"max_score": 7},
+  {"slug": "cbre-group","name": "CBRE Group, Inc.","industry": "Real Estate","score": 7,"max_score": 7},
+  {"slug": "cencora","name": "Cencora, Inc.","industry": "Healthcare","score": 7,"max_score": 7},
+  {"slug": "centene","name": "Centene Corporation","industry": "Healthcare","score": 6,"max_score": 7},
+  {"slug": "charter-communications","name": "Charter Communications, Inc.","industry": "Telecommunications","score": 1.5,"max_score": 7},
+  {"slug": "chevron","name": "Chevron Corporation","industry": "Energy","score": 7,"max_score": 7},
+  {"slug": "chs","name": "CHS Inc.","industry": "Agriculture","score": 4,"max_score": 7},
+  {"slug": "cisco-systems","name": "Cisco Systems, Inc.","industry": "Digital Communications Technology","score": 7,"max_score": 7},
+  {"slug": "citigroup","name": "Citigroup Inc.","industry": "Banking, Financial Services","score": 7,"max_score": 7},
+  {"slug": "comcast","name": "Comcast Corporation","industry": "Media and Telecommunications","score": 3.5,"max_score": 7},
+  {"slug": "conocophillips","name": "ConocoPhillips Company","industry": "Oil & Gas Exploration & Production","score": 2.5,"max_score": 7},
+  {"slug": "costco-wholesale","name": "Costco Wholesale Corporation","industry": "Retail - Discount & Variety","score": 6.5,"max_score": 7},
+  {"slug": "cvs-health","name": "CVS Health Corporation","industry": "Healthcare","score": 7,"max_score": 7},
+  {"slug": "dr-horton","name": "D.R. Horton, Inc.","industry": "Construction","score": 0,"max_score": 7},
+  {"slug": "deere","name": "Deere & Company","industry": "Farm & Heavy Construction Machinery","score": 7,"max_score": 7},
+  {"slug": "dell-technologies","name": "Dell Technologies Inc.","industry": "Technology","score": 7,"max_score": 7},
+  {"slug": "delta-air-lines","name": "Delta Air Lines, Inc.","industry": "Airlines","score": 4,"max_score": 7},
+  {"slug": "dollar-general","name": "Dollar General Corporation","industry": "Retail - Discount Stores","score": 2.5,"max_score": 7},
+  {"slug": "dow","name": "Dow Inc.","industry": "Chemicals","score": 4.0,"max_score": 7},
+  {"slug": "elevance-health","name": "Elevance Health, Inc.","industry": "Healthcare","score": 7,"max_score": 7},
+  {"slug": "eli-lilly","name": "Eli Lilly and Company","industry": "Pharmaceuticals","score": 7,"max_score": 7},
+  {"slug": "energy-transfer","name": "Energy Transfer LP","industry": "Oil & Gas Midstream","score": 0,"max_score": 7},
+  {"slug": "enterprise-products-partners","name": "Enterprise Products Partners L.P.","industry": "Oil & Gas Pipelines","score": 0,"max_score": 7},
+  {"slug": "exxon-mobile","name": "Exxon Mobil Corporation","industry": "Oil and Gas","score": 3.0,"max_score": 7},
+  {"slug": "freddie-mac","name": "Federal Home Loan Mortgage Corporation","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "fannie-mae","name": "Federal National Mortgage Association","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "fedex","name": "FedEx Corporation","industry": "Transportation and Logistics","score": 7,"max_score": 7},
+  {"slug": "ford-motor","name": "Ford Motor Company","industry": "Motor Vehicles","score": 7,"max_score": 7},
+  {"slug": "ge-vernova","name": "GE Vernova Inc.","industry": "Energy","score": 6,"max_score": 7},
+  {"slug": "general-dynamics","name": "General Dynamics Corporation","industry": "Aerospace and Defense","score": 5,"max_score": 7},
+  {"slug": "general-electric","name": "General Electric Company","industry": "Industrials","score": 7,"max_score": 7},
+  {"slug": "general-motors","name": "General Motors Company","industry": "Automotive","score": 7,"max_score": 7},
+  {"slug": "hca-healthcare","name": "HCA Healthcare, Inc.","industry": "Healthcare","score": 6,"max_score": 7},
+  {"slug": "honeywell","name": "Honeywell International Inc.","industry": "Conglomerate (Aerospace, Building Automation, Industrial Automation, Energy and Sustainability Solutions)","score": 7,"max_score": 7},
+  {"slug": "hp","name": "HP Inc.","industry": "Technology","score": 7,"max_score": 7},
+  {"slug": "humana","name": "Humana Inc.","industry": "Health Insurance","score": 6.5,"max_score": 7},
+  {"slug": "ingram-micro","name": "Ingram Micro Holding Corporation","industry": "Information Technology Services","score": 7,"max_score": 7},
+  {"slug": "intel","name": "Intel Corporation","industry": "Semiconductor Manufacturing","score": 7,"max_score": 7},
+  {"slug": "ibm","name": "International Business Machines Corporation","industry": "Technology","score": 7,"max_score": 7},
+  {"slug": "johnson-johnson","name": "Johnson & Johnson","industry": "Healthcare","score": 7,"max_score": 7},
+  {"slug": "jpmorgan-chase","name": "JPMorgan Chase & Co.","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "lennar","name": "Lennar Corporation","industry": "Home Construction","score": 5,"max_score": 7},
+  {"slug": "liberty-mutual-insurance","name": "Liberty Mutual Insurance Company","industry": "Insurance","score": 7,"max_score": 7},
+  {"slug": "lithia-motors","name": "Lithia Motors, Inc.","industry": "Auto & Truck Dealerships","score": 1,"max_score": 7},
+  {"slug": "live-nation-entertainment","name": "Live Nation Entertainment, Inc.","industry": "Entertainment","score": 4,"max_score": 7},
+  {"slug": "lockheed-martin","name": "Lockheed Martin Corporation","industry": "Aerospace & Defense","score": 7,"max_score": 7},
+  {"slug": "lowes","name": "Lowe's Companies, Inc.","industry": "Retail","score": 6,"max_score": 7},
+  {"slug": "marathon-petroleum","name": "Marathon Petroleum Corporation","industry": "Oil and Gas","score": 5,"max_score": 7},
+  {"slug": "massmutual","name": "Massachusetts Mutual Life Insurance Company","industry": "Insurance","score": 5,"max_score": 7},
+  {"slug": "mckesson","name": "McKesson Corporation","industry": "Medical Distributors","score": 7,"max_score": 7},
+  {"slug": "merck-co","name": "Merck & Co., Inc.","industry": "Pharmaceuticals","score": 7,"max_score": 7},
+  {"slug": "meta-platforms","name": "Meta Platforms, Inc.","industry": "Technology","score": 7,"max_score": 7},
+  {"slug": "metlife","name": "MetLife, Inc.","industry": "Insurance","score": 4,"max_score": 7},
+  {"slug": "microsoft","name": "Microsoft Corporation","industry": "Technology","score": 7,"max_score": 7},
+  {"slug": "molina-healthcare","name": "Molina Healthcare, Inc.","industry": "Healthcare Providers & Services","score": 7,"max_score": 7},
+  {"slug": "mondelez-international","name": "Mondelez International, Inc.","industry": "Food and Beverage","score": 3,"max_score": 7},
+  {"slug": "morgan-stanley","name": "Morgan Stanley","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "nationwide","name": "Nationwide Mutual Insurance Company","industry": "Financial Services & Insurance","score": 6,"max_score": 7},
+  {"slug": "netflix","name": "Netflix, Inc.","industry": "Media & Entertainment","score": 5,"max_score": 7},
+  {"slug": "new-york-life-insurance","name": "New York Life Insurance Company","industry": "Insurance","score": 7,"max_score": 7},
+  {"slug": "nike","name": "Nike, Inc.","industry": "Apparel/Footwear","score": 6,"max_score": 7},
+  {"slug": "northrop-grumman","name": "Northrop Grumman Corporation","industry": "Aerospace and Defense","score": 7,"max_score": 7},
+  {"slug": "northwestern-mutual","name": "Northwestern Mutual Life Insurance Company","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "nvidia","name": "NVIDIA Corporation","industry": "Semiconductors","score": 7,"max_score": 7},
+  {"slug": "oracle","name": "Oracle Corporation","industry": "Technology","score": 7,"max_score": 7},
+  {"slug": "pepsico","name": "PepsiCo, Inc.","industry": "Food and Beverage","score": 7,"max_score": 7},
+  {"slug": "performance-food-group","name": "Performance Food Group Company","industry": "Foodservice Distribution","score": 3.0,"max_score": 7},
+  {"slug": "pfizer","name": "Pfizer Inc.","industry": "Pharmaceutical","score": 7,"max_score": 7},
+  {"slug": "philip-morris-international","name": "Philip Morris International Inc.","industry": "Tobacco","score": 5,"max_score": 7},
+  {"slug": "phillips-66","name": "Phillips 66 Company","industry": "Energy","score": 7,"max_score": 7},
+  {"slug": "plains-gp","name": "Plains GP Holdings, L.P.","industry": "Oil & Gas Midstream","score": 0,"max_score": 7},
+  {"slug": "prudential-financial","name": "Prudential Financial, Inc.","industry": "Financial Services","score": 6,"max_score": 7},
+  {"slug": "publix-super-markets","name": "Publix Super Markets, Inc.","industry": "Retail (Supermarkets)","score": 6,"max_score": 7},
+  {"slug": "qualcomm","name": "Qualcomm Incorporated","industry": "Telecommunications","score": 6,"max_score": 7},
+  {"slug": "rtx","name": "RTX Corporation","industry": "Aerospace and Defense","score": 5.5,"max_score": 7},
+  {"slug": "salesforce","name": "Salesforce, Inc.","industry": "Technology","score": 7,"max_score": 7},
+  {"slug": "starbucks","name": "Starbucks Corporation","industry": "Retail - Food & Restaurants","score": 7,"max_score": 7},
+  {"slug": "state-farm","name": "State Farm Mutual Automobile Insurance Company","industry": "Insurance","score": 5.5,"max_score": 7},
+  {"slug": "stonex-group","name": "StoneX Group Inc.","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "sysco","name": "Sysco Corporation","industry": "Food Distribution","score": 5,"max_score": 7},
+  {"slug": "target","name": "Target Corporation","industry": "Retail","score": 0.5,"max_score": 7},
+  {"slug": "td-synnex","name": "TD SYNNEX Corporation","industry": "Electronics & Computer Distribution","score": 7,"max_score": 7},
+  {"slug": "tiaa","name": "Teachers Insurance and Annuity Association of America","industry": "Finance","score": 6,"max_score": 7},
+  {"slug": "tesla","name": "Tesla, Inc.","industry": "Automotive and Clean Energy","score": 6.5,"max_score": 7},
+  {"slug": "allstate","name": "The Allstate Corporation","industry": "Insurance","score": 6.5,"max_score": 7},
+  {"slug": "bank-of-new-york-mellon","name": "The Bank of New York Mellon Corporation","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "boeing","name": "The Boeing Company","industry": "Aerospace and Defense","score": 6.5,"max_score": 7},
+  {"slug": "cigna","name": "The Cigna Group","industry": "Health Insurance","score": 7,"max_score": 7},
+  {"slug": "coca-cola-company","name": "The Coca-Cola Company","industry": "Beverages","score": 3,"max_score": 7},
+  {"slug": "goldman-sachs","name": "The Goldman Sachs Group, Inc.","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "home-depot","name": "The Home Depot, Inc.","industry": "Retail - Home Improvement","score": 5.5,"max_score": 7},
+  {"slug": "kroger","name": "The Kroger Co.","industry": "Retail - Supermarket Chains","score": 7,"max_score": 7},
+  {"slug": "procter-gamble","name": "The Procter & Gamble Company","industry": "Consumer Goods","score": 4,"max_score": 7},
+  {"slug": "progressive","name": "The Progressive Corporation","industry": "Insurance","score": 5,"max_score": 7},
+  {"slug": "tjx","name": "The TJX Companies, Inc.","industry": "Retail","score": 2.5,"max_score": 7},
+  {"slug": "travelers","name": "The Travelers Companies, Inc.","industry": "Specialty Insurance","score": 6.5,"max_score": 7},
+  {"slug": "walt-disney","name": "The Walt Disney Company","industry": "Entertainment","score": 7,"max_score": 7},
+  {"slug": "thermo-fisher-scientific","name": "Thermo Fisher Scientific Inc.","industry": "Biotechnology Research","score": 7,"max_score": 7},
+  {"slug": "tyson-foods","name": "Tyson Foods, Inc.","industry": "Food Processing","score": 7,"max_score": 7},
+  {"slug": "us-bancorp","name": "U.S. Bancorp","industry": "Banking","score": 7,"max_score": 7},
+  {"slug": "uber","name": "Uber Technologies, Inc.","industry": "Transportation and Technology","score": 7,"max_score": 7},
+  {"slug": "united-airlines","name": "United Airlines Holdings, Inc.","industry": "Airlines","score": 3,"max_score": 7},
+  {"slug": "ups","name": "United Parcel Service, Inc.","industry": "Logistics and Package Delivery","score": 5.5,"max_score": 7},
+  {"slug": "usaa","name": "United Services Automobile Association","industry": "Financial Services","score": 6,"max_score": 7},
+  {"slug": "unitedhealth-group","name": "UnitedHealth Group Incorporated","industry": "Healthcare","score": 7,"max_score": 7},
+  {"slug": "us-foods","name": "US Foods Holding Corp.","industry": "Foodservice Distribution","score": 5,"max_score": 7},
+  {"slug": "valero-energy","name": "Valero Energy Corporation","industry": "Oil & Gas Refining & Marketing","score": 1,"max_score": 7},
+  {"slug": "verizon","name": "Verizon Communications Inc.","industry": "Telecommunications","score": 7,"max_score": 7},
+  {"slug": "visa","name": "Visa Inc.","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "walgreens-boots-alliance","name": "Walgreens Boots Alliance, Inc.","industry": "Pharmaceutical Retailers","score": 6,"max_score": 7},
+  {"slug": "walmart","name": "Walmart Inc.","industry": "Retail","score": 7,"max_score": 7},
+  {"slug": "warner-bros-discovery","name": "Warner Bros. Discovery, Inc.","industry": "Entertainment","score": 3.5,"max_score": 7},
+  {"slug": "wells-fargo","name": "Wells Fargo & Company","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "world-kinect","name": "World Kinect Corporation","industry": "Energy","score": 1.5,"max_score": 7}
 ].sort((a, b) => a.name.localeCompare(b.name));
 
 // Helper function to get score color
 const getScoreColor = (score, maxScore) => {
   const percentage = (score / maxScore) * 100;
-  if (percentage >= 80) return '#facc15'; // Gold for excellent
-  if (percentage >= 70) return '#3b82f6'; // Primary blue for good
-  if (percentage >= 60) return '#0ea5e9'; // Sky blue for fair
-  return '#64748b'; // Slate for poor
+  if (percentage >= 80) return '#22c55e'; // Green for excellent
+  if (percentage >= 70) return '#3b82f6'; // Blue for good
+  if (percentage >= 60) return '#facc15'; // Yellow for fair
+  return '#ef4444'; // Red for poor
 };
 
 // Helper function to get score background color
 const getScoreBackgroundColor = (score, maxScore) => {
   const percentage = (score / maxScore) * 100;
-  if (percentage >= 80) return 'rgba(250, 204, 21, 0.1)';
-  if (percentage >= 70) return 'rgba(59, 130, 246, 0.1)';
-  if (percentage >= 60) return 'rgba(14, 165, 233, 0.1)';
-  return 'rgba(100, 116, 139, 0.1)';
+  if (percentage >= 80) return 'rgba(34, 197, 94, 0.15)';   // soft green
+  if (percentage >= 70) return 'rgba(59, 130, 246, 0.15)';  // soft blue
+  if (percentage >= 60) return 'rgba(250, 204, 21, 0.15)';  // soft yellow
+  return 'rgba(239, 68, 68, 0.15)';                         // soft red
 };
 
 // Helper function to generate company initials
@@ -316,16 +416,8 @@ function CompanyDirectory() {
                   </div>
                   
                   {/* Company Info */}
-                  <div style={{ flex: 1 }}>
-                    <h3 style={{ 
-                      color: '#1e293b',
-                      fontSize: '1.25rem',
-                      fontWeight: '600',
-                      margin: '0 0 0.25rem 0',
-                      lineHeight: '1.2'
-                    }}>
-                      {company.name}
-                    </h3>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <CompanyName name={company.name} />
                     <div style={{
                       display: 'inline-block',
                       backgroundColor: 'rgba(100, 116, 139, 0.1)',
@@ -366,13 +458,14 @@ function CompanyDirectory() {
                       fontSize: '1.5rem',
                       fontWeight: '700'
                     }}>
-                      {company.score.toFixed(1)}
+                      {displayScore(company.score)}
                       <span style={{ 
-                        fontSize: '1rem',
+                        fontSize: '1.05rem',
                         color: '#64748b',
-                        fontWeight: '400'
+                        fontWeight: '400',
+                        marginLeft: '0.4rem' 
                       }}>
-                        /{company.max_score}
+                         {company.max_score ? `/${company.max_score}` : ""}
                       </span>
                     </span>
                   </div>
@@ -387,7 +480,10 @@ function CompanyDirectory() {
                   }}>
                     <div style={{
                       height: '100%',
-                      width: `${(company.score / company.max_score) * 100}%`,
+                      width:
+                      typeof company.score === "number" && typeof company.max_score === "number"
+                        ? `${(company.score / company.max_score) * 100}%`
+                        : "0%",
                       backgroundColor: getScoreColor(company.score, company.max_score),
                       borderRadius: '3px',
                       transition: 'width 0.3s ease'
