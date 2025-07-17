@@ -553,8 +553,8 @@ function CompanyPage() {
                 </div>
               )}
 
-              {/* DETAILED ANALYSIS TAB */}
-              {activeTab === 'detailed-analysis' && (
+             {/* DETAILED ANALYSIS TAB  */}
+			  {activeTab === 'detailed-analysis' && (
                 <div className="space-y-8">
                   {/* Hero Section */}
                   <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 text-center border border-blue-100">
@@ -575,6 +575,7 @@ function CompanyPage() {
                       </div>
                     </div>
                   </div>
+
                   {/* Feature Preview Grid */}
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-6">What's Coming</h3>
@@ -738,111 +739,621 @@ function CompanyPage() {
                   </div>
                 </div>
               )}
-              {/* SOURCES TAB */}
-              {activeTab === 'sources' && (
-                <div className="space-y-8">
-                  {/* Sources Overview Header */}
-                  <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Source Documentation</h2>
-                    <p className="text-gray-700 mb-4">
-                      Below are the public documents, statements, reports, and filings used to evaluate this company’s Responsible AI practices.
-                      <br />
-                      Click any source to view the original document in a new tab.
-                    </p>
-                    {companyData.sources && companyData.sources.length > 0 ? (
-                      <ul className="divide-y divide-gray-200">
-                        {companyData.sources.map((source, idx) => (
-                          <li key={idx} className="py-4 flex items-start gap-3">
-                            <ExternalLink className="w-5 h-5 text-blue-500 mt-1" />
-                            <div className="flex-1">
-                              <a
-                                href={source.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-700 hover:underline font-medium"
-                              >
-                                {source.title}
-                              </a>
-                              <div className="text-xs text-gray-500">{source.date}</div>
-                              <div className="text-sm text-gray-700">{source.description}</div>
-                            </div>
-                          </li>
-                        ))}
-                      </ul>
-                    ) : (
-                      <div className="text-gray-500 italic">No sources documented for this company yet.</div>
-                    )}
-                  </div>
-                </div>
-              )}
+			  
+              {/* SOURCES TAB  */} 
+			  {activeTab === 'sources' && (
+				  <div className="space-y-8">
+					{/* Sources Overview Header */}
+					<div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+					  <div className="flex items-center justify-between mb-6">
+						<h2 className="text-2xl font-bold text-gray-900">Research Sources</h2>
+						<div className="flex items-center gap-2 text-sm text-gray-500">
+						  <Calendar className="w-4 h-4" />
+						  <span>Last updated: June 2025</span>
+						</div>
+					  </div>
+					  
+					  {/* Stats Overview */}
+					  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+						<div className="bg-blue-50 rounded-lg p-4 text-center">
+						  <div className="text-2xl font-bold text-blue-600">
+							{companyData.summary?.sourcesUsed?.filter(s => s.sourceUsed).length || 0}
+						  </div>
+						  <div className="text-sm text-blue-700">Sources Used</div>
+						</div>
+						<div className="bg-green-50 rounded-lg p-4 text-center">
+						  <div className="text-2xl font-bold text-green-600">
+							{companyData.summary?.sourcesUsed?.filter(s => s.documentType === 'ESG Report').length || 0}
+						  </div>
+						  <div className="text-sm text-green-700">ESG Reports</div>
+						</div>
+						<div className="bg-purple-50 rounded-lg p-4 text-center">
+						  <div className="text-2xl font-bold text-purple-600">
+							{companyData.summary?.sourcesUsed?.filter(s => s.documentType === 'Blog').length || 0}
+						  </div>
+						  <div className="text-sm text-purple-700">Policy Pages</div>
+						</div>
+						<div className="bg-orange-50 rounded-lg p-4 text-center">
+						  <div className="text-2xl font-bold text-orange-600">High</div>
+						  <div className="text-sm text-orange-700">Confidence</div>
+						</div>
+					  </div>
+					  
+					  {/* Quality Indicators */}
+					  <div className="flex flex-wrap gap-3">
+						<div className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-full">
+						  <CheckCircle className="w-4 h-4 text-green-600" />
+						  <span className="text-sm text-gray-700">Verified Sources</span>
+						</div>
+						<div className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-full">
+						  <Shield className="w-4 h-4 text-blue-600" />
+						  <span className="text-sm text-gray-700">Official Company Documents</span>
+						</div>
+						<div className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-full">
+						  <Clock className="w-4 h-4 text-purple-600" />
+						  <span className="text-sm text-gray-700">Recently Updated</span>
+						</div>
+					  </div>
+					</div>
 
-              {/* METHODOLOGY TAB */}
-              {activeTab === 'methodology' && (
-                <div className="space-y-8">
-                  {/* Methodology Hero */}
-                  <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 text-center border border-blue-100">
-                    <div className="max-w-2xl mx-auto">
-                      <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <Scale className="w-8 h-8 text-blue-600" />
-                      </div>
-                      <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                        Responsible AI Scorecard Methodology
-                      </h2>
-                      <p className="text-lg text-gray-600 mb-6">
-                        Transparent, explainable, and consistent. Our framework draws on global standards and industry best practices.
-                      </p>
-                    </div>
-                  </div>
-                  {/* Methodology Breakdown */}
-                  <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-                    <h3 className="text-xl font-bold text-gray-900 mb-6">How Companies Are Assessed</h3>
-                    <ol className="space-y-4 list-decimal list-inside">
-                      <li>
-                        <span className="font-semibold text-blue-600">Data Collection:</span> We source all documentation from public records, official filings, press releases, and third-party assessments.
-                      </li>
-                      <li>
-                        <span className="font-semibold text-blue-600">Pillar Evaluation:</span> Each company is scored on 7 core pillars including Transparency, Fairness & Bias, Explainability, Human Oversight, Privacy, Governance, and Public Commitments.
-                      </li>
-                      <li>
-                        <span className="font-semibold text-blue-600">Scoring Rubric:</span> Our analysts rate implementation quality for each pillar using a standardized 0–10 scale with supporting justifications and public links.
-                      </li>
-                      <li>
-                        <span className="font-semibold text-blue-600">Percentile Calculation:</span> Industry ranks and percentiles are computed relative to the peer group using aggregate scores.
-                      </li>
-                      <li>
-                        <span className="font-semibold text-blue-600">Review & Audit:</span> All ratings undergo periodic review, with a focus on transparent updates and corrections as new data emerges.
-                      </li>
-                    </ol>
-                  </div>
-                  {/* Pillar Definitions */}
-                  <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">Pillar Definitions</h3>
-                    <ul className="space-y-2">
-                      <li>
-                        <span className="font-semibold text-gray-900">Transparency:</span> Public disclosure of AI use, capabilities, limitations, and training data.
-                      </li>
-                      <li>
-                        <span className="font-semibold text-gray-900">Fairness & Bias Mitigation:</span> Measures to detect, prevent, and monitor bias or discrimination.
-                      </li>
-                      <li>
-                        <span className="font-semibold text-gray-900">Explainability:</span> Ability to explain AI system decisions to stakeholders, regulators, or affected users.
-                      </li>
-                      <li>
-                        <span className="font-semibold text-gray-900">Human Oversight & Accountability:</span> Presence of human-in-the-loop processes, clear lines of responsibility, and escalation protocols.
-                      </li>
-                      <li>
-                        <span className="font-semibold text-gray-900">Privacy & Security:</span> Compliance with privacy laws, data minimization, and strong security controls for sensitive data.
-                      </li>
-                      <li>
-                        <span className="font-semibold text-gray-900">Governance & Accountability:</span> Organizational structures, risk controls, and leadership responsibility for AI use.
-                      </li>
-                      <li>
-                        <span className="font-semibold text-gray-900">Public Commitments & External Audits:</span> Published principles, participation in voluntary standards, or use of third-party audits/certifications.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              )}
+					{/* Sources by Category */}
+					<div className="space-y-6">
+					  <h3 className="text-xl font-bold text-gray-900">Sources by Category</h3>
+					  
+					  {/* Group sources by document type */}
+					  {companyData.summary?.sourcesUsed && 
+						Object.entries(
+						  companyData.summary.sourcesUsed
+							.filter(source => source.sourceUsed && source.documentType)
+							.reduce((acc, source) => {
+							  const type = source.documentType || 'Other';
+							  if (!acc[type]) acc[type] = [];
+							  acc[type].push(source);
+							  return acc;
+							}, {})
+						).map(([category, sources]) => (
+						  <div key={category} className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+							<div className="flex items-center justify-between mb-4">
+							  <h4 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
+								{category === 'ESG Report' && <FileText className="w-5 h-5 text-green-600" />}
+								{category === 'Blog' && <Globe className="w-5 h-5 text-blue-600" />}
+								{category === 'Other' && <Info className="w-5 h-5 text-gray-600" />}
+								{category} ({sources.length})
+							  </h4>
+							  <span className="text-sm text-gray-500">
+								{Math.round((sources.length / companyData.summary.sourcesUsed.filter(s => s.sourceUsed).length) * 100)}% of total sources
+							  </span>
+							</div>
+							
+							<div className="grid gap-4">
+							  {sources.map((source, index) => (
+								<div key={index} className="border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition-colors">
+								  <div className="flex items-start justify-between mb-3">
+									<div className="flex-1">
+									  <h5 className="font-medium text-gray-900 mb-1 hover:text-blue-600 cursor-pointer">
+										{source.title || 'Untitled Source'}
+									  </h5>
+									  <p className="text-sm text-gray-600 mb-2">
+										{source.summary || 'No summary available'}
+									  </p>
+									  <div className="flex items-center gap-4 text-xs text-gray-500">
+										<span className="flex items-center gap-1">
+										  <Calendar className="w-3 h-3" />
+										  {source.retrievedAt ? new Date(source.retrievedAt).toLocaleDateString() : 'Unknown date'}
+										</span>
+										<span className="flex items-center gap-1">
+										  <CheckCircle className="w-3 h-3 text-green-500" />
+										  Verified
+										</span>
+									  </div>
+									</div>
+									<div className="flex items-center gap-2 ml-4">
+									  <button className="p-2 text-gray-400 hover:text-blue-600 transition-colors">
+										<ExternalLink className="w-4 h-4" />
+									  </button>
+									</div>
+								  </div>
+								  
+								  <div className="bg-gray-50 rounded-lg p-3">
+									<div className="text-xs text-gray-500 mb-1">Source URL:</div>
+									<div className="text-sm font-mono text-gray-700 break-all">
+									  {source.url}
+									</div>
+								  </div>
+								</div>
+							  ))}
+							</div>
+						  </div>
+						))
+					  }
+					</div>
+
+					{/* Pillar Source Breakdown */}
+					<div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+					  <h3 className="text-xl font-bold text-gray-900 mb-6">Sources by Assessment Pillar</h3>
+					  
+					  <div className="space-y-4">
+						{companyData.pillarDetails && Object.entries(companyData.pillarDetails).map(([pillarName, details]) => (
+						  <div key={pillarName} className="border border-gray-200 rounded-lg p-4">
+							<div className="flex items-center justify-between mb-3">
+							  <h4 className="font-medium text-gray-900">{pillarName}</h4>
+							  <div className="flex items-center gap-2">
+								<span className="text-sm text-gray-500">
+								  {details.relevantSources?.length || 0} sources
+								</span>
+								<div className={`w-2 h-2 rounded-full ${
+								  (details.score || 0) >= 0.8 ? 'bg-green-500' : 
+								  (details.score || 0) >= 0.5 ? 'bg-yellow-500' : 'bg-red-500'
+								}`} />
+							  </div>
+							</div>
+							
+							{details.relevantSources && details.relevantSources.length > 0 ? (
+							  <div className="space-y-2">
+								{details.relevantSources.slice(0, 2).map((source, index) => (
+								  <div key={index} className="bg-gray-50 rounded p-3">
+									<div className="text-sm font-medium text-gray-900 mb-1">
+									  {source.title || 'Untitled Source'}
+									</div>
+									<div className="text-xs text-gray-600 mb-1">
+									  {source.summary}
+									</div>
+									<div className="text-xs text-gray-500">
+									  {source.documentType} • {source.retrievedAt ? new Date(source.retrievedAt).toLocaleDateString() : 'Unknown date'}
+									</div>
+								  </div>
+								))}
+								{details.relevantSources.length > 2 && (
+								  <div className="text-center">
+									<button className="text-blue-600 hover:text-blue-700 text-sm font-medium">
+									  View {details.relevantSources.length - 2} more sources
+									</button>
+								  </div>
+								)}
+							  </div>
+							) : (
+							  <div className="text-sm text-gray-500 italic">No sources available for this pillar</div>
+							)}
+						  </div>
+						))}
+					  </div>
+					</div>
+
+					{/* Source Methodology */}
+					<div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100">
+					  <h3 className="text-xl font-bold text-gray-900 mb-4">Source Methodology</h3>
+					  <div className="prose prose-blue max-w-none">
+						<p className="text-gray-700 mb-4">
+						  Our AI research system systematically evaluates companies using publicly available information 
+						  from official company sources, sustainability reports, and verified documentation.
+						</p>
+						<div className="grid md:grid-cols-2 gap-4">
+						  <div>
+							<h4 className="font-semibold text-gray-900 mb-2">Source Verification</h4>
+							<ul className="text-sm text-gray-600 space-y-1">
+							  <li>• Official company websites and policies</li>
+							  <li>• Published ESG and sustainability reports</li>
+							  <li>• Verified press releases and announcements</li>
+							  <li>• Public regulatory filings</li>
+							</ul>
+						  </div>
+						  <div>
+							<h4 className="font-semibold text-gray-900 mb-2">Quality Standards</h4>
+							<ul className="text-sm text-gray-600 space-y-1">
+							  <li>• Real-time source validation</li>
+							  <li>• Content freshness verification</li>
+							  <li>• Cross-reference fact checking</li>
+							  <li>• Confidence scoring system</li>
+							</ul>
+						  </div>
+						</div>
+					  </div>
+					</div>
+
+					{/* Premium CTA */}
+					<div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl p-8 text-center text-white">
+					  <div className="max-w-2xl mx-auto">
+						<h3 className="text-2xl font-bold mb-4">Get Complete Source Access</h3>
+						<p className="text-blue-100 mb-6">
+						  Access full source documentation, detailed analysis, and advanced filtering tools. 
+						  Perfect for compliance teams, investors, and researchers.
+						</p>
+						<div className="flex flex-col sm:flex-row gap-4 justify-center">
+						  <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+							Start Free Trial
+						  </button>
+						  <button className="border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+							View Pricing
+						  </button>
+						</div>
+						<p className="text-blue-200 text-sm mt-4">
+						  14-day free trial • Cancel anytime • No credit card required
+						</p>
+					  </div>
+					</div>
+				  </div>
+				)}
+
+              	{/* METHODOLOGY TAB  */} 
+				
+				{activeTab === 'methodology' && (
+				  <div className="space-y-8">
+					{/* Methodology Hero */}
+					<div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-8 border border-indigo-100">
+					  <div className="max-w-3xl mx-auto text-center">
+						<div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
+						  <Scale className="w-8 h-8 text-indigo-600" />
+						</div>
+						<h2 className="text-3xl font-bold text-gray-900 mb-4">
+						  Responsible AI Assessment Methodology
+						</h2>
+						<p className="text-lg text-gray-600 mb-6">
+						  Our comprehensive framework evaluates companies across seven critical pillars of responsible AI, 
+						  using publicly available information and standardized scoring criteria.
+						</p>
+						<div className="flex items-center justify-center gap-6 text-sm text-indigo-600">
+						  <div className="flex items-center gap-2">
+							<CheckCircle className="w-4 h-4" />
+							<span>Evidence-Based</span>
+						  </div>
+						  <div className="flex items-center gap-2">
+							<Globe className="w-4 h-4" />
+							<span>Publicly Verified</span>
+						  </div>
+						  <div className="flex items-center gap-2">
+							<Target className="w-4 h-4" />
+							<span>Standardized Scoring</span>
+						  </div>
+						</div>
+					  </div>
+					</div>
+
+					{/* Assessment Framework */}
+					<div className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+					  <h3 className="text-2xl font-bold text-gray-900 mb-6">Assessment Framework</h3>
+					  
+					  <div className="grid md:grid-cols-2 gap-8 mb-8">
+						<div>
+						  <h4 className="text-lg font-semibold text-gray-900 mb-4">Research Approach</h4>
+						  <div className="space-y-3">
+							<div className="flex items-start gap-3">
+							  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0" />
+							  <div>
+								<div className="font-medium text-gray-900">Public Documentation Review</div>
+								<div className="text-sm text-gray-600">Analysis of company websites, policies, and public statements</div>
+							  </div>
+							</div>
+							<div className="flex items-start gap-3">
+							  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0" />
+							  <div>
+								<div className="font-medium text-gray-900">ESG & Sustainability Reports</div>
+								<div className="text-sm text-gray-600">Review of annual reports and sustainability disclosures</div>
+							  </div>
+							</div>
+							<div className="flex items-start gap-3">
+							  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0" />
+							  <div>
+								<div className="font-medium text-gray-900">Regulatory Filings</div>
+								<div className="text-sm text-gray-600">Analysis of SEC filings and regulatory submissions</div>
+							  </div>
+							</div>
+							<div className="flex items-start gap-3">
+							  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0" />
+							  <div>
+								<div className="font-medium text-gray-900">Technical Publications</div>
+								<div className="text-sm text-gray-600">Research papers, whitepapers, and technical blogs</div>
+							  </div>
+							</div>
+						  </div>
+						</div>
+
+						<div>
+						  <h4 className="text-lg font-semibold text-gray-900 mb-4">Evaluation Process</h4>
+						  <div className="space-y-4">
+							<div className="bg-gray-50 rounded-lg p-4">
+							  <div className="flex items-center gap-2 mb-2">
+								<div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-semibold text-sm">1</div>
+								<div className="font-medium text-gray-900">Source Collection</div>
+							  </div>
+							  <div className="text-sm text-gray-600">Systematic gathering of publicly available documentation</div>
+							</div>
+							<div className="bg-gray-50 rounded-lg p-4">
+							  <div className="flex items-center gap-2 mb-2">
+								<div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-semibold text-sm">2</div>
+								<div className="font-medium text-gray-900">Content Analysis</div>
+							  </div>
+							  <div className="text-sm text-gray-600">AI-powered analysis of documents against pillar criteria</div>
+							</div>
+							<div className="bg-gray-50 rounded-lg p-4">
+							  <div className="flex items-center gap-2 mb-2">
+								<div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-semibold text-sm">3</div>
+								<div className="font-medium text-gray-900">Scoring & Validation</div>
+							  </div>
+							  <div className="text-sm text-gray-600">Standardized scoring with human oversight and verification</div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+
+					{/* Scoring System */}
+					<div className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+					  <h3 className="text-2xl font-bold text-gray-900 mb-6">Scoring System</h3>
+					  
+					  <div className="mb-8">
+						<p className="text-gray-700 mb-6">
+						  Each pillar is evaluated using a three-tier scoring system based on the depth and quality of 
+						  publicly available evidence for responsible AI practices.
+						</p>
+						
+						<div className="grid md:grid-cols-3 gap-6">
+						  {/* Full Implementation */}
+						  <div className="bg-green-50 rounded-xl p-6 border border-green-200">
+							<div className="flex items-center gap-3 mb-4">
+							  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+								<CheckCircle className="w-6 h-6 text-green-600" />
+							  </div>
+							  <div>
+								<div className="text-xl font-bold text-green-700">10/10</div>
+								<div className="text-sm text-green-600">Full Implementation</div>
+							  </div>
+							</div>
+							<div className="space-y-2">
+							  <div className="font-medium text-green-800">Comprehensive Evidence</div>
+							  <div className="text-sm text-green-700">
+								• Detailed policies and procedures<br/>
+								• Specific implementation examples<br/>
+								• Measurable outcomes and metrics<br/>
+								• Regular public reporting
+							  </div>
+							</div>
+						  </div>
+
+						  {/* Partial Implementation */}
+						  <div className="bg-yellow-50 rounded-xl p-6 border border-yellow-200">
+							<div className="flex items-center gap-3 mb-4">
+							  <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center">
+								<AlertCircle className="w-6 h-6 text-yellow-600" />
+							  </div>
+							  <div>
+								<div className="text-xl font-bold text-yellow-700">5/10</div>
+								<div className="text-sm text-yellow-600">Partial Implementation</div>
+							  </div>
+							</div>
+							<div className="space-y-2">
+							  <div className="font-medium text-yellow-800">Limited Evidence</div>
+							  <div className="text-sm text-yellow-700">
+								• General statements or commitments<br/>
+								• High-level policies without detail<br/>
+								• Mentions without implementation<br/>
+								• Inconsistent documentation
+							  </div>
+							</div>
+						  </div>
+
+						  {/* No Evidence */}
+						  <div className="bg-red-50 rounded-xl p-6 border border-red-200">
+							<div className="flex items-center gap-3 mb-4">
+							  <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
+								<XCircle className="w-6 h-6 text-red-600" />
+							  </div>
+							  <div>
+								<div className="text-xl font-bold text-red-700">0/10</div>
+								<div className="text-sm text-red-600">No Evidence</div>
+							  </div>
+							</div>
+							<div className="space-y-2">
+							  <div className="font-medium text-red-800">No Public Information</div>
+							  <div className="text-sm text-red-700">
+								• No mention of the pillar<br/>
+								• No relevant documentation<br/>
+								• No public commitments<br/>
+								• No evidence of practices
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+
+					  {/* Overall Score Calculation */}
+					  <div className="bg-gray-50 rounded-lg p-6">
+						<h4 className="text-lg font-semibold text-gray-900 mb-4">Overall Score Calculation</h4>
+						<div className="flex items-center justify-between mb-4">
+						  <div className="text-gray-700">
+							<div className="font-medium">Total Score = Sum of all pillar scores</div>
+							<div className="text-sm text-gray-600">Maximum possible score: 70 points (7 pillars × 10 points)</div>
+						  </div>
+						  <div className="text-right">
+							<div className="text-2xl font-bold text-blue-600">70</div>
+							<div className="text-sm text-gray-600">Max Score</div>
+						  </div>
+						</div>
+						
+						<div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+						  <div className="bg-white rounded p-3 text-center">
+							<div className="font-semibold text-green-600">A+ Grade</div>
+							<div className="text-gray-600">63-70 points</div>
+						  </div>
+						  <div className="bg-white rounded p-3 text-center">
+							<div className="font-semibold text-blue-600">A Grade</div>
+							<div className="text-gray-600">56-62 points</div>
+						  </div>
+						  <div className="bg-white rounded p-3 text-center">
+							<div className="font-semibold text-yellow-600">B Grade</div>
+							<div className="text-gray-600">42-55 points</div>
+						  </div>
+						  <div className="bg-white rounded p-3 text-center">
+							<div className="font-semibold text-red-600">C Grade</div>
+							<div className="text-gray-600">Below 42 points</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+
+					{/* Seven Pillars */}
+					<div className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+					  <h3 className="text-2xl font-bold text-gray-900 mb-6">Seven Pillars of Responsible AI</h3>
+					  
+					  <div className="space-y-6">
+						{[
+						  {
+							name: "Transparency",
+							icon: Eye,
+							description: "Clear communication about AI systems, their capabilities, limitations, and decision-making processes",
+							criteria: ["Public AI policies", "System documentation", "Algorithmic transparency", "Impact assessments"]
+						  },
+						  {
+							name: "Fairness & Bias Mitigation",
+							icon: Scale,
+							description: "Proactive measures to identify, assess, and mitigate bias in AI systems across all stages",
+							criteria: ["Bias testing procedures", "Diverse training data", "Fairness metrics", "Remediation processes"]
+						  },
+						  {
+							name: "Explainability",
+							icon: Brain,
+							description: "Ability to provide clear, understandable explanations for AI decisions and recommendations",
+							criteria: ["Interpretability frameworks", "Explanation interfaces", "Model documentation", "User education"]
+						  },
+						  {
+							name: "Human Oversight & Accountability",
+							icon: Users,
+							description: "Meaningful human control over AI systems with clear accountability structures",
+							criteria: ["Human-in-the-loop processes", "Oversight mechanisms", "Accountability frameworks", "Escalation procedures"]
+						  },
+						  {
+							name: "Privacy & Security",
+							icon: Shield,
+							description: "Protection of personal data and robust security measures throughout the AI lifecycle",
+							criteria: ["Data protection policies", "Privacy-preserving techniques", "Security protocols", "Compliance measures"]
+						  },
+						  {
+							name: "Governance & Accountability",
+							icon: Building,
+							description: "Structured governance frameworks and clear accountability for AI development and deployment",
+							criteria: ["AI governance boards", "Risk management", "Compliance programs", "Audit processes"]
+						  },
+						  {
+							name: "Public Commitments & External Audits",
+							icon: Award,
+							description: "Public commitments to responsible AI practices and engagement with external validation",
+							criteria: ["Public commitments", "Third-party audits", "Industry partnerships", "Regulatory compliance"]
+						  }
+						].map((pillar, index) => (
+						  <div key={index} className="border border-gray-200 rounded-lg p-6 hover:bg-gray-50 transition-colors">
+							<div className="flex items-start gap-4">
+							  <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0">
+								<pillar.icon className="w-6 h-6 text-blue-600" />
+							  </div>
+							  <div className="flex-1">
+								<h4 className="text-lg font-semibold text-gray-900 mb-2">{pillar.name}</h4>
+								<p className="text-gray-700 mb-4">{pillar.description}</p>
+								<div className="space-y-2">
+								  <div className="font-medium text-gray-900 text-sm">Key Evaluation Criteria:</div>
+								  <div className="flex flex-wrap gap-2">
+									{pillar.criteria.map((criterion, idx) => (
+									  <span key={idx} className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full">
+										{criterion}
+									  </span>
+									))}
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+						))}
+					  </div>
+					</div>
+
+					{/* Limitations & Future Enhancements */}
+					<div className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+					  <h3 className="text-2xl font-bold text-gray-900 mb-6">Methodology Limitations & Future Enhancements</h3>
+					  
+					  <div className="grid md:grid-cols-2 gap-8">
+						<div>
+						  <h4 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+							<AlertCircle className="w-5 h-5 text-orange-600" />
+							Current Limitations
+						  </h4>
+						  <div className="space-y-3 text-sm text-gray-700">
+							<div className="flex items-start gap-2">
+							  <div className="w-1.5 h-1.5 bg-orange-500 rounded-full mt-2 flex-shrink-0" />
+							  <div>Relies solely on publicly available information</div>
+							</div>
+							<div className="flex items-start gap-2">
+							  <div className="w-1.5 h-1.5 bg-orange-500 rounded-full mt-2 flex-shrink-0" />
+							  <div>Cannot assess actual implementation vs. stated policies</div>
+							</div>
+							<div className="flex items-start gap-2">
+							  <div className="w-1.5 h-1.5 bg-orange-500 rounded-full mt-2 flex-shrink-0" />
+							  <div>Limited to documentation quality and availability</div>
+							</div>
+							<div className="flex items-start gap-2">
+							  <div className="w-1.5 h-1.5 bg-orange-500 rounded-full mt-2 flex-shrink-0" />
+							  <div>Binary scoring system may not capture nuanced implementations</div>
+							</div>
+						  </div>
+						</div>
+						
+						<div>
+						  <h4 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+							<TrendingUp className="w-5 h-5 text-green-600" />
+							Planned Enhancements
+						  </h4>
+						  <div className="space-y-3 text-sm text-gray-700">
+							<div className="flex items-start gap-2">
+							  <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2 flex-shrink-0" />
+							  <div>Integration with third-party audit reports</div>
+							</div>
+							<div className="flex items-start gap-2">
+							  <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2 flex-shrink-0" />
+							  <div>Continuous monitoring and real-time updates</div>
+							</div>
+							<div className="flex items-start gap-2">
+							  <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2 flex-shrink-0" />
+							  <div>More granular scoring with sub-criteria weighting</div>
+							</div>
+							<div className="flex items-start gap-2">
+							  <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2 flex-shrink-0" />
+							  <div>Industry-specific benchmarking and standards</div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+
+					{/* Methodology Update Schedule */}
+					<div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl p-8 text-white">
+					  <div className="max-w-3xl mx-auto text-center">
+						<h3 className="text-2xl font-bold mb-4">Methodology Transparency & Updates</h3>
+						<p className="text-blue-100 mb-6">
+						  We believe in transparent, evidence-based evaluation. Our methodology is continuously refined 
+						  based on industry best practices, regulatory developments, and stakeholder feedback.
+						</p>
+						<div className="grid md:grid-cols-3 gap-4 text-sm">
+						  <div className="bg-white bg-opacity-20 rounded-lg p-4">
+							<Calendar className="w-6 h-6 mx-auto mb-2" />
+							<div className="font-semibold">Quarterly Reviews</div>
+							<div className="text-blue-100">Methodology updates</div>
+						  </div>
+						  <div className="bg-white bg-opacity-20 rounded-lg p-4">
+							<Users className="w-6 h-6 mx-auto mb-2" />
+							<div className="font-semibold">Expert Panel</div>
+							<div className="text-blue-100">Industry validation</div>
+						  </div>
+						  <div className="bg-white bg-opacity-20 rounded-lg p-4">
+							<FileText className="w-6 h-6 mx-auto mb-2" />
+							<div className="font-semibold">Version Control</div>
+							<div className="text-blue-100">Change documentation</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				)}
+				
+				
+				
+         
 
               {/* COMPARE TAB */}
               {activeTab === 'compare' && (
