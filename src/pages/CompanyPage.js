@@ -35,10 +35,11 @@ import {
 
 function CompanyPage() {
   const [companyData, setCompanyData] = useState(null);
+  const [industryComparisons, setIndustryComparisons] = useState(null);
   const [activeTab, setActiveTab] = useState('overview');
   const [loading, setLoading] = useState(true);
   const [animateScores, setAnimateScores] = useState(false);
-
+  
 
 
 	const { slug } = useParams();
@@ -48,8 +49,8 @@ function CompanyPage() {
 	  setAnimateScores(false);
 
 	  Promise.all([
-		fetch(`${process.env.PUBLIC_URL}/data/${slug}_profile.json`).then(res => res.json()),
-		fetch(`${process.env.PUBLIC_URL}/data/${slug}_scores.json`).then(res => res.json())
+		fetch(`${process.env.PUBLIC_URL}/data/companies/${slug}_profile.json`).then(res => res.json()),
+		fetch(`${process.env.PUBLIC_URL}/data/companies/${slug}_scores.json`).then(res => res.json())
 	  ])
 		.then(([profile, scores]) => {
 		  // You can merge or keep these separate!
@@ -77,6 +78,26 @@ function CompanyPage() {
 		  setLoading(false);
 		});
 	}, [slug]);
+	
+	  // Fetch industry comparisons
+		  useEffect(() => {
+			fetch(`${process.env.PUBLIC_URL}/data/rankings/companyRankings.json`)
+			  .then(res => res.json())
+			  .then(data => setIndustryComparisons(data))
+			  .catch(err => {
+				console.error("Failed to load industry comparisons", err);
+				setIndustryComparisons(null);
+			  });
+		  }, []);
+
+		// Extract the summary data for the current company's industry
+		// but only if both company data and the full industry comparisons
+		// JSON have been loaded successfully.
+		// This includes details like total companies in the industry and industry leaders.
+		 const industryData =
+			companyData?.industry && industryComparisons
+			? industryComparisons.industrySummaries[companyData.industry]
+			: null;
 
 		 // ⬇️ Check if Company Dats is there ⬇️
 		 if (loading) {
@@ -86,7 +107,9 @@ function CompanyPage() {
 		  return <div>Company data not found.</div>;
 		}
 		
-		 console.log("companyData:", companyData); //for debugging purposes
+		
+		
+		 // console.log("companyData:", companyData); //for debugging purposes
 		 
 		 // ⬇️ Calculates Pillar Scores and transforms to 1-10 scale ⬇️
 		const pillarEntries = companyData.pillarDetails
@@ -98,8 +121,16 @@ function CompanyPage() {
 
 		const maxScore = pillarEntries.length * 10;
 		
-
-
+		
+		//maps industry leaders to check if company is in top 3
+		  const currentCompanyInLeaders = industryData?.industry_leaders?.some(
+			(l) => l.name === companyData.name
+		  );
+		  
+		//gives percentiles and rank in industry
+		const companyDetails = industryComparisons?.allCompanies?.find(
+		  (c) => c.slug === companyData.slug
+		);
 
 		 
 	
@@ -244,6 +275,23 @@ function CompanyPage() {
     if (percentage >= 50) return 'C-';
     return 'D';
   };
+  
+  
+	  const getPerformanceStatus = (percentile) => {
+	  if (percentile === null || percentile === undefined) return 'neutral';
+	  if (percentile >= 90) return 'excellent';
+	  if (percentile >= 70) return 'good';
+	  if (percentile >= 40) return 'fair';
+	  return 'poor';
+	};
+
+	const performanceStatusColors = {
+	  excellent: { text: 'text-green-600', bg: 'bg-green-50' },
+	  good: { text: 'text-blue-600', bg: 'bg-blue-50' },
+	  fair: { text: 'text-yellow-600', bg: 'bg-yellow-50' },
+	  poor: { text: 'text-red-600', bg: 'bg-red-50' },
+	  neutral: { text: 'text-gray-600', bg: 'bg-gray-50' },
+	};
   
   	  // ⬇️ Calculates how many pillars have full implementation ⬇️
 	  const fullPillars = pillarEntries.filter(
@@ -522,14 +570,17 @@ function CompanyPage() {
 						<div className={`text-2xl font-bold ${statusColor}`}>{fullPillars}/{totalPillars}</div>
 						<div className={`text-sm ${statusColor}`}>Pillars with full implementation</div>
                       </div>
+					  {/* Pull in percentile info and dynamic color fills */}
                       <div className="bg-blue-50 rounded-lg p-4">
-                        <div className="flex items-center gap-2 mb-2">
-                          <BarChart3 className="w-5 h-5 text-blue-600" />
-                          <span className="font-semibold text-blue-800">Performance</span>
-                        </div>
-                        <div className="text-2xl font-bold text-blue-600">95th</div>
-                        <div className="text-sm text-blue-700">Percentile ranking</div>
-                      </div>
+						  <div className="flex items-center gap-2 mb-2">
+							<BarChart3 className="w-5 h-5 text-blue-600" />
+							<span className="font-semibold text-blue-800">Performance</span>
+						  </div>
+						  <div className="text-2xl font-bold text-blue-600">
+							{companyDetails?.overall_percentile ? `${companyDetails.overall_percentile}th` : 'N/A'}
+						  </div>
+						  <div className="text-sm text-blue-700">Percentile ranking</div>
+						</div>
                       <div className="bg-purple-50 rounded-lg p-4">
                         <div className="flex items-center gap-2 mb-2">
                           <Shield className="w-5 h-5 text-purple-600" />
@@ -1400,42 +1451,71 @@ function CompanyPage() {
                 </div>
               </div>
 
-              {/* Industry Comparison */}
-              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-                <h3 className="font-semibold text-gray-900 mb-4">Industry Comparison</h3>
-                <div className="space-y-4">
-                  <div>
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-sm text-gray-600">Your Rank</span>
-                      <span className="font-medium">#{companyData.industry_rank}</span>
-                    </div>
-                    <div className="w-full bg-gray-200 rounded-full h-2">
-                      <div className="bg-blue-600 h-2 rounded-full" style={{ width: '95%' }} />
-                    </div>
-                    <div className="text-xs text-gray-500 mt-1">
-                      Top 5% of {companyData.total_companies_in_industry} {companyData.industry} companies
-                    </div>
-                  </div>
-                  
-                  <div className="pt-3 border-t border-gray-200">
-                    <div className="text-sm text-gray-600 mb-2">Industry Leaders:</div>
-                    <div className="space-y-1 text-sm">
-                      <div className="flex justify-between">
-                        <span>1. OpenAI</span>
-                        <span className="text-green-600">A+</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="font-medium">2. Microsoft</span>
-                        <span className="text-green-600 font-medium">A</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>3. Google</span>
-                        <span className="text-blue-600">A-</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+           {/* Industry Comparison */}
+				<div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+				  <h3 className="font-semibold text-gray-900 mb-4">Industry Comparison</h3>
+				  <div className="space-y-4">
+					<div>
+					  <div className="flex items-center justify-between mb-2">
+						<span className="text-sm text-gray-600">Your Rank</span>
+						<span className="font-medium">#{companyDetails?.industry_rank || 'N/A'}</span>
+					  </div>
+					  <div className="w-full bg-gray-200 rounded-full h-2">
+						<div
+						  className="bg-blue-600 h-2 rounded-full"
+						  style={{ width: `${companyDetails?.industry_percentile || 0}%` }}
+						/>
+					  </div>
+					  <div className="text-xs text-gray-500 mt-1">
+						Top {companyDetails?.industry_percentile || 'N/A'}% of {industryData?.total_companies || 'N/A'} {companyData.industry} companies
+					  </div>
+					</div>
+
+					<div className="pt-3 border-t border-gray-200">
+					  <div className="text-sm text-gray-600 mb-2">Industry Leaders:</div>
+					  <div className="space-y-1 text-sm">
+						{industryData?.industry_leaders?.map((leader, index) => (
+						  <div key={leader.name} className="flex justify-between">
+							<span
+							  className={leader.name === companyData.name ? "font-bold" : ""}
+							>
+							  {index + 1}. {leader.name}
+							</span>
+							<span
+							  className={
+								leader.rating === "A+"
+								  ? "text-green-600"
+								  : leader.rating === "A"
+								  ? "text-green-600 font-medium"
+								  : "text-blue-600"
+							  }
+							>
+							  {leader.rating}
+							</span>
+						  </div>
+						))}
+
+						{/* Show current company if not in top 3 */}
+						{!industryData?.industry_leaders?.some(l => l.name === companyData.name) && companyDetails && (
+						  <div className="flex justify-between font-bold mt-2 border-t pt-2">
+							<span>{companyDetails.industry_rank}. {companyDetails.name}</span>
+							<span
+							  className={
+								companyDetails.rating === "A+"
+								  ? "text-green-600"
+								  : companyDetails.rating === "A"
+								  ? "text-green-600 font-medium"
+								  : "text-blue-600"
+							  }
+							>
+							  {companyDetails.rating}
+							</span>
+						  </div>
+						)}
+					  </div>
+					</div>
+				  </div>
+				</div>
 
               {/* Quick Actions */}
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
