@@ -441,11 +441,11 @@ function CompanyPage() {
                 
                 <div className="grid grid-cols-2 gap-3 text-sm">
                   <div className="bg-white bg-opacity-70 rounded-lg p-2">
-                    <div className="font-semibold text-green-600">#{companyData.industry_rank}</div>
+                    <div className="font-semibold text-green-600">#{companyDetails?.industry_rank || 'N/A'}</div>
                     <div className="text-gray-600">Industry Rank</div>
                   </div>
                   <div className="bg-white bg-opacity-70 rounded-lg p-2">
-                    <div className="font-semibold text-blue-600">{companyData.percentile_rank}%</div>
+                    <div className="font-semibold text-blue-600">{performancePercentile ? `${performancePercentile}%` : 'N/A'}</div>
                     <div className="text-gray-600">Percentile</div>
                   </div>
                 </div>
