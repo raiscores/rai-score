@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      var path = window.location.pathname;
+      var base = '/rai-score';
+
+      if (!path.startsWith(base)) {
+        // Redirect to base root if not already there
+        window.location.replace(base + '/');
+      } else {
+        // Prevent infinite reloads using sessionStorage flag
+        if (!sessionStorage.getItem('reloaded')) {
+          sessionStorage.setItem('reloaded', 'true');
+          window.location.replace(path + window.location.search + window.location.hash);
+        } else {
+          sessionStorage.removeItem('reloaded');
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>

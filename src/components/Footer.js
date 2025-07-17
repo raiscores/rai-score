@@ -8,7 +8,7 @@ function Footer() {
       color: '#f8fafc',
       padding: '4rem 2rem 2rem',
       fontSize: '0.95rem',
-      marginTop: '4rem'
+      marginTop: '0'
     }}>
       <div style={{
         maxWidth: '1400px',

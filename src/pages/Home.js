@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Eye, Scale, Lightbulb, Users, Shield, Building, CheckCircle } from 'lucide-react';
+import { Eye, Scale, Lightbulb, Users, Shield, Building, CheckCircle, BadgeCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 // Mock Container component
@@ -176,7 +176,8 @@ function Home() {
                 <span style={{ marginLeft: '8px', fontSize: '16px' }}>→</span>
               </Link>
               
-              <button style={{
+			 <Link 
+                to="/Methodology" style={{
                 backgroundColor: 'transparent',
                 color: '#ffffff',
                 padding: '12px 24px',
@@ -198,7 +199,7 @@ function Home() {
                 e.target.style.transform = 'scale(1)';
               }}>
                 View Methodology
-              </button>
+              </Link>
             </div>
           </div>
         </Container>
@@ -485,7 +486,7 @@ function Home() {
             <p style={{
               fontSize: '1.25rem',
               color: '#64748b',
-              maxWidth: '600px',
+              maxWidth: '650px',
               margin: '0 auto'
             }}>
               We're building the future of AI accountability. Here's what's coming next.
@@ -627,11 +628,6 @@ const pillars = [
 // 🔮 Coming soon features with detailed descriptions
 const comingSoonFeatures = [
   {
-    icon: '🔍',
-    title: 'Company Directory',
-    description: 'Full searchable database of AI companies with filtering and comparison tools'
-  },
-  {
     icon: '📊',
     title: 'Score Breakdowns',
     description: 'Detailed pillar-by-pillar analysis with interactive charts and trend data'
@@ -645,6 +641,11 @@ const comingSoonFeatures = [
     icon: '⭐',
     title: 'Premium Access',
     description: 'Comprehensive audits, alerts, and advanced analytics for stakeholders'
+  },
+   {
+    icon: '🛡️',
+    title: 'Responsible AI Certification',
+    description: 'Certify your company\'s AI systems and governance programs to demonstrate leadership in trustworthy and ethical AI practices'
   }
 ];
 
