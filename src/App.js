@@ -6,11 +6,13 @@ import CompanyPage from './pages/CompanyPage';
 import CompanyDirectory from './pages/CompanyDirectory';
 import Methodology from './pages/Methodology';
 import Footer from './components/Footer'; 
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router> {/* remove basename for now */}
       <>
+		<ScrollToTop />
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
