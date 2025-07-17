@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Filter, TrendingUp, Building2 } from 'lucide-react';
+import { Helmet } from 'react-helmet';
+
 
 function CompanyName({ name }) {
   // dynamically change size for overflow on cards
@@ -241,6 +243,11 @@ function CompanyDirectory() {
         maxWidth: '1200px', 
         margin: '0 auto'
       }}>
+	   {/* Page Title */}
+		<Helmet>
+		  <title>RAI Score: Company Directory</title>
+		</Helmet>
+		
         {/* Header Section */}
         <div style={{ 
           textAlign: 'center', 

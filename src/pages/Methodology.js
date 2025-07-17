@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import { Eye, Scale, Lightbulb, Users, Shield, Building, CheckCircle,
          Target, Globe, AlertCircle, XCircle, TrendingUp, Calendar,
          FileText, Brain, ArrowRight, Search, BarChart3 } from 'lucide-react';
@@ -84,6 +85,12 @@ function Methodology() {
 
   return (
     <div className="min-h-screen bg-white font-sans">
+	
+	 {/* Page Title */}
+		<Helmet>
+		  <title>RAI Score: Methodology</title>
+		</Helmet>
+		
       {/* Hero Section */}
       <div id="hero" className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">

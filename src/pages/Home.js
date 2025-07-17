@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Eye, Scale, Lightbulb, Users, Shield, Building, CheckCircle, BadgeCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 // Mock Container component
 const Container = ({ children }) => (
@@ -50,7 +51,11 @@ function Home() {
       lineHeight: '1.6',
       overflow: 'hidden'
     }}>
-      
+       {/* Page Title */}
+		<Helmet>
+		  <title>RAI Score: Responsible AI Scorecard</title>
+		</Helmet>
+		
       {/* HERO SECTION */}
       <section style={{
         background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 100%)',
