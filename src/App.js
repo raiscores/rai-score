@@ -9,16 +9,18 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router basename="/rai-score">
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/company/:slug" element={<CompanyPage />} />
-        <Route path="/companies" element={<CompanyDirectory />} />
-		<Route path="/methodology" element={<Methodology />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
-      <Footer />
+    <Router> {/* remove basename for now */}
+      <>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/company/:slug" element={<CompanyPage />} />
+          <Route path="/companies" element={<CompanyDirectory />} />
+          <Route path="/methodology" element={<Methodology />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+        <Footer />
+      </>
     </Router>
   );
 }
