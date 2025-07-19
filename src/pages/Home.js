@@ -170,14 +170,7 @@ function Home() {
                 }}>
                   Independent AI Accountability
                 </span>
-                <span style={{ 
-                  fontSize: '14px', 
-                  fontWeight: '500',
-                  color: 'rgba(96, 165, 250, 0.8)',
-                  letterSpacing: '0.05em'
-                }}>
-                  Evidence-based evaluations, not corporate claims
-                </span>
+               
               </div>
             </div>
             
@@ -217,7 +210,7 @@ function Home() {
                 lineHeight: '1.5',
                 fontWeight: '400'
               }}>
-                Independent evaluations of AI governance practices based on publicly available evidence, not corporate marketing.
+                Independent evaluations of AI governance practices based on publicly available evidence.
               </p>
               
               <p style={{
@@ -1112,19 +1105,19 @@ function Home() {
         @media (max-width: 480px) {
 		  /* Theme cards grid */
 		  .theme-card {
-			padding: 24px;
+			padding: 20px;
 		  }
 
 		  /* Hero section padding for mobile */
 		  .hero-section {
-			padding: 40px 20px !important;
+			padding: 18px 8px !important;
 		  }
 
 		  /* Buttons row on mobile */
 		  .hero-buttons {
 			display: flex !important;
 			flex-direction: row !important;
-			gap: 10px;
+			gap: 8px;
 			justify-content: center;
 			align-items: stretch;
 			width: 100%;
@@ -1137,11 +1130,19 @@ function Home() {
 			min-width: 0;
 			flex: 1 1 0;
 			margin-bottom: 0 !important;
-			font-size: 15px;
-			padding: 14px 4px;
+			font-size: 14px;
+			padding: 11px 0px;
 			white-space: nowrap;   /* keep text on one line (remove if you want wrapping) */
 			text-align: center;
 			box-sizing: border-box;
+		  }
+
+		  /* Optional: tighten heading and paragraph spacing */
+		  .hero-heading {
+			margin-bottom: 12px;
+		  }
+		  .hero-section p {
+			margin-bottom: 10px;
 		  }
 		}
       `}</style>
