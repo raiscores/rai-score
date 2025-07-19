@@ -405,7 +405,7 @@ function Home() {
 					justifyContent: 'flex-start',
 					height: '100%',
 					position: 'relative',
-					padding: '20px 40px', // Adjust as needed, or move to CSS
+					padding: '20px 30px 40px 30px', // Adjust as needed, or move to CSS
 					borderRadius: '24px',
 					background: 'linear-gradient(135deg, #ffffff 0%, #f8fafc 100%)',
 					boxShadow: '0 8px 32px rgba(0, 0, 0, 0.08)',
@@ -491,10 +491,11 @@ function Home() {
 						fontSize: '14px',
 						color: theme.color,
 						fontWeight: '600',
-						padding: '10px 12px',
+						padding: '10px 20px',
 						backgroundColor: `${theme.color}08`,
 						borderRadius: '8px',
 						border: `1px solid ${theme.color}20`,
+						textAlign: 'center',
 						width: 'fit-content'
 					  }}
 					>
@@ -600,7 +601,7 @@ function Home() {
 				<div 
 				  key={index}
 				  style={{
-					padding: '20px 30px',
+					padding: '20px 30px 30px 30px',
 					backgroundColor: '#f8fafc',
 					borderRadius: '20px',
 					border: '2px solid #e2e8f0',
@@ -956,7 +957,7 @@ function Home() {
 			  style={{
 				backgroundColor: '#ffffff',
 				borderRadius: '16px',
-				padding: '32px',
+				padding: '20px 30px 20px 30px',
 				boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
 				border: '1px solid rgba(229, 231, 235, 0.8)',
 				position: 'relative',
