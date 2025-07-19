@@ -397,15 +397,25 @@ function Home() {
 			  {/* Enhanced Themes Grid */}
 			  <div className="themes-grid">
 				{evaluationThemes.map((theme, index) => (
-				  <div 
-					key={theme.title} 
-					className="theme-card"
+				 <div
+				  className="theme-card"
+				  style={{
+					display: 'flex',
+					flexDirection: 'column',
+					justifyContent: 'flex-start',
+					height: '100%',
+					position: 'relative',
+					padding: '20px 40px', // Adjust as needed, or move to CSS
+					borderRadius: '24px',
+					background: 'linear-gradient(135deg, #ffffff 0%, #f8fafc 100%)',
+					boxShadow: '0 8px 32px rgba(0, 0, 0, 0.08)',
+					border: '2px solid #e2e8f0',
+					overflow: 'hidden'
+				  }}
+				>
+				  {/* Card header bar */}
+				  <div
 					style={{
-					  animation: `slideInUp 0.6s ease-out ${0.1 * index}s both`
-					}}
-					title={`Learn more about ${theme.title}`}
-				  >
-					<div style={{
 					  position: 'absolute',
 					  top: 0,
 					  left: 0,
@@ -413,56 +423,85 @@ function Home() {
 					  height: '6px',
 					  background: `linear-gradient(135deg, ${theme.color}, ${theme.colorSecondary})`,
 					  borderRadius: '20px 20px 0 0'
-					}} />
+					}}
+				  />
 
-					<div style={{
+				  {/* Top: icon and title */}
+				  <div
+					style={{
 					  display: 'flex',
 					  alignItems: 'center',
-					  justifyContent: 'center',
-					  width: '80px',
-					  height: '80px',
-					  background: `linear-gradient(135deg, ${theme.color}15, ${theme.colorSecondary}10)`,
-					  borderRadius: '20px',
-					  marginBottom: '32px',
-					  color: theme.color,
-					  boxShadow: `0 8px 24px ${theme.color}20`,
-					  transition: 'transform 0.3s ease'
-					}}>
+					  gap: '16px',
+					  marginTop: '18px',
+					  marginBottom: '10px',
+					  zIndex: 1
+					}}
+				  >
+					<div
+					  style={{
+						width: '56px',
+						height: '56px',
+						background: `linear-gradient(135deg, ${theme.color}15, ${theme.colorSecondary}10)`,
+						borderRadius: '16px',
+						display: 'flex',
+						alignItems: 'center',
+						justifyContent: 'center',
+						color: theme.color,
+						boxShadow: `0 4px 16px ${theme.color}20`
+					  }}
+					>
 					  {theme.icon}
 					</div>
-
-					<h3 style={{
-					  fontSize: '24px',
-					  fontWeight: '700',
-					  marginBottom: '16px',
-					  color: '#0f172a',
-					  lineHeight: '1.3'
-					}}>
+					<h3
+					  style={{
+						fontSize: '20px',
+						fontWeight: '700',
+						margin: 0,
+						color: '#0f172a'
+					  }}
+					>
 					  {theme.title}
 					</h3>
+				  </div>
 
-					<p style={{
-					  fontSize: '16px',
-					  color: '#64748b',
-					  lineHeight: '1.7',
-					  marginBottom: '24px'
-					}}>
+				  {/* Bottom: description & button, centered */}
+				  <div
+					style={{
+					  flex: 1,
+					  display: 'flex',
+					  flexDirection: 'column',
+					  justifyContent: 'center',    // vertical center
+					  alignItems: 'center',        // horizontal center
+					  
+					  zIndex: 1
+					}}
+				  >
+					<p
+					  style={{
+						fontSize: '16px',
+						color: '#64748b',
+						marginBottom: '20px',
+						maxWidth: '220px'
+					  }}
+					>
 					  {theme.description}
 					</p>
-
-					<div style={{
-					  fontSize: '14px',
-					  color: theme.color,
-					  fontWeight: '600',
-					  marginTop: 'auto',
-					  padding: '12px 16px',
-					  backgroundColor: `${theme.color}08`,
-					  borderRadius: '8px',
-					  border: `1px solid ${theme.color}20`
-					}}>
+					<div
+					  style={{
+						fontSize: '14px',
+						color: theme.color,
+						fontWeight: '600',
+						padding: '10px 12px',
+						backgroundColor: `${theme.color}08`,
+						borderRadius: '8px',
+						border: `1px solid ${theme.color}20`,
+						width: 'fit-content'
+					  }}
+					>
 					  {theme.subtitle}
 					</div>
 				  </div>
+				</div>
 				))}
 			  </div>
 
@@ -551,67 +590,91 @@ function Home() {
           </div>
 
           <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-            gap: '30px',
-            maxWidth: '1200px',
-            margin: '0 auto'
-          }}>
-            {audiences.map((audience, index) => (
-              <div 
-                key={index} 
-                style={{
-                  padding: '40px',
-                  backgroundColor: '#f8fafc',
-                  borderRadius: '20px',
-                  border: '2px solid #e2e8f0',
-                  transition: 'all 0.3s ease',
-                  cursor: 'pointer'
-                }}
-                className="audience-card"
-              >
-                <div style={{
-                  width: '60px',
-                  height: '60px',
-                  backgroundColor: audience.color,
-                  borderRadius: '16px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  marginBottom: '24px',
-                  color: '#ffffff'
-                }}>
-                  {audience.icon}
-                </div>
-                
-                <h3 style={{
-                  fontSize: '20px',
-                  fontWeight: '700',
-                  marginBottom: '12px',
-                  color: '#0f172a'
-                }}>
-                  {audience.title}
-                </h3>
-                
-                <p style={{
-                  fontSize: '16px',
-                  color: '#64748b',
-                  lineHeight: '1.6',
-                  marginBottom: '20px'
-                }}>
-                  {audience.description}
-                </p>
-                
-                <div style={{
-                  fontSize: '14px',
-                  color: audience.color,
-                  fontWeight: '600'
-                }}>
-                  {audience.useCase}
-                </div>
-              </div>
-            ))}
-          </div>
+			  display: 'grid',
+			  gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+			  gap: '30px',
+			  maxWidth: '1200px',
+			  margin: '0 auto'
+			}}>
+			  {audiences.map((audience, index) => (
+				<div 
+				  key={index}
+				  style={{
+					padding: '20px 30px',
+					backgroundColor: '#f8fafc',
+					borderRadius: '20px',
+					border: '2px solid #e2e8f0',
+					transition: 'all 0.3s ease',
+					cursor: 'pointer',
+					display: 'flex',
+					flexDirection: 'column',
+					height: '100%',
+					position: 'relative'
+				  }}
+				  className="audience-card"
+				>
+				  {/* Top: icon and title */}
+				  <div style={{
+					display: 'flex',
+					alignItems: 'center',
+					gap: '16px',
+					marginTop: '8px',
+					marginBottom: '10px',
+					zIndex: 1
+				  }}>
+					<div style={{
+					  width: '52px',
+					  height: '52px',
+					  backgroundColor: audience.color,
+					  borderRadius: '16px',
+					  display: 'flex',
+					  alignItems: 'center',
+					  justifyContent: 'center',
+					  color: '#ffffff'
+					}}>
+					  {audience.icon}
+					</div>
+					<h3 style={{
+					  fontSize: '18px',
+					  fontWeight: '700',
+					  margin: 0,
+					  color: '#0f172a'
+					}}>
+					  {audience.title}
+					</h3>
+				  </div>
+
+				  {/* Bottom: description & use case, centered */}
+				  <div style={{
+					flex: 1,
+					display: 'flex',
+					flexDirection: 'column',
+					justifyContent: 'center',    // vertical center
+					alignItems: 'center',        // horizontal center
+					textAlign: 'center',
+					zIndex: 1
+				  }}>
+					<p style={{
+					  fontSize: '15px',
+					  color: '#64748b',
+					  lineHeight: '1.6',
+					  marginBottom: '18px',
+					  maxWidth: '220px'
+					}}>
+					  {audience.description}
+					</p>
+					<div style={{
+					  fontSize: '13px',
+					  color: audience.color,
+					  textAlign: 'center',
+					  fontWeight: '600'
+					}}>
+					  {audience.useCase}
+					</div>
+				  </div>
+				</div>
+			  ))}
+			</div>
         </Container>
       </section>
 
@@ -787,7 +850,7 @@ function Home() {
                 See how leading companies measure up on responsible AI practices, and discover which organizations are setting the standard.
               </p>
               
-              <div style={{
+              <div className="final-cta-row" style={{
                 display: 'flex',
                 gap: '20px',
                 justifyContent: 'center',
@@ -810,12 +873,13 @@ function Home() {
                     boxShadow: '0 12px 48px rgba(37, 99, 235, 0.4)'
                   }}
                 >
-                  View Company Evaluations
+                  Company Directory
                   <ArrowRight style={{ marginLeft: '12px' }} size={18} />
                 </Link>
                 
                 <Link 
                   to="/methodology" 
+				  className="methodology-link"
                   style={{
                     display: 'inline-flex',
                     alignItems: 'center',
@@ -832,7 +896,7 @@ function Home() {
                     backdropFilter: 'blur(20px)'
                   }}
                 >
-                  Learn Our Approach
+                  Methodology
                 </Link>
               </div>
             </div>
@@ -887,46 +951,68 @@ function Home() {
             margin: '0 auto'
           }}>
             {comingSoonFeatures.map((feature, index) => (
-              <div
-                key={feature.title}
-                style={{
-                  backgroundColor: '#ffffff',
-                  borderRadius: '16px',
-                  padding: '32px',
-                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
-                  border: '1px solid rgba(229, 231, 235, 0.8)',
-                  position: 'relative',
-                  transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
-                  transform: isVisible['coming-soon'] ? 'translateY(0)' : 'translateY(40px)',
-                  transitionDelay: `${index * 0.1}s`
-                }}
-                className="coming-soon-card"
-              >
-                <div style={{
-                  fontSize: '32px',
-                  marginBottom: '16px'
-                }}>
-                  {feature.icon}
-                </div>
-                
-                <h4 style={{
-                  fontSize: '20px',
-                  fontWeight: '600',
-                  marginBottom: '8px',
-                  color: '#1e293b'
-                }}>
-                  {feature.title}
-                </h4>
-                
-                <p style={{
-                  fontSize: '16px',
-                  color: '#64748b',
-                  lineHeight: '1.6',
-                  margin: 0
-                }}>
-                  {feature.description}
-                </p>
-              </div>
+             <div
+			  key={feature.title}
+			  style={{
+				backgroundColor: '#ffffff',
+				borderRadius: '16px',
+				padding: '32px',
+				boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+				border: '1px solid rgba(229, 231, 235, 0.8)',
+				position: 'relative',
+				transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
+				transform: isVisible['coming-soon'] ? 'translateY(0)' : 'translateY(40px)',
+				transitionDelay: `${index * 0.1}s`,
+				display: 'flex',
+				flexDirection: 'column',
+				height: '100%'
+			  }}
+			  className="coming-soon-card"
+			>
+			  {/* Icon and Title Row */}
+			  <div style={{
+				display: 'flex',
+				alignItems: 'center',
+				gap: '14px',
+				marginTop: '4px',
+				marginBottom: '10px'
+			  }}>
+				<div style={{
+				  fontSize: '32px',
+				  display: 'flex',
+				  alignItems: 'center',
+				  justifyContent: 'center'
+				}}>
+				  {feature.icon}
+				</div>
+				<h4 style={{
+				  fontSize: '20px',
+				  fontWeight: '600',
+				  margin: 0,
+				  color: '#1e293b'
+				}}>
+				  {feature.title}
+				</h4>
+			  </div>
+			  {/* Description centered vertically */}
+			  <div style={{
+				flex: 1,
+				display: 'flex',
+				flexDirection: 'column',
+				justifyContent: 'center',
+				alignItems: 'center',
+			  }}>
+				<p style={{
+				  fontSize: '16px',
+				  color: '#64748b',
+				  lineHeight: '1.6',
+				  margin: 0,
+				  maxWidth: '220px'
+				}}>
+				  {feature.description}
+				</p>
+			  </div>
+			</div>
             ))}
           </div>
         </Container>
@@ -1110,7 +1196,7 @@ function Home() {
 
 		  /* Hero section padding for mobile */
 		  .hero-section {
-			padding: 18px 8px !important;
+			padding: 25px 8px 40px 8px !important;
 		  }
 
 		  /* Buttons row on mobile */
@@ -1120,15 +1206,15 @@ function Home() {
 			gap: 8px !important;
 			justify-content: center;
 			align-items: stretch;
-			width: 90%;
+			width: 100%;
 		  }
 
 		  /* Blue button: wider */
 		  .hero-buttons .primary-cta {
 			flex: 1.75 1 0;
 			min-width: 0;
-			font-size: 10px !important;
-			padding: 10px 0 !important;
+			font-size: 12px !important;
+			padding: 15px 0 !important;
 			text-align: center;
 			font-weight: 700;
 			display: flex;
@@ -1140,7 +1226,7 @@ function Home() {
 		  .hero-buttons .secondary-cta {
 			flex: 1 1 0;
 			min-width: 0;
-			font-size: 10px !important;
+			font-size: 12px !important;
 			padding: 10px 0 !important;
 			text-align: center;
 			font-weight: 600;
@@ -1149,6 +1235,38 @@ function Home() {
 			justify-content: center;
 		  }
 	   }
+			.final-cta-row {
+			   display: flex !important;
+			   flex-direction: row !important;
+			   gap: 8px !important;
+			   justify-content: center;
+			   align-items: stretch;
+			   width: 100%;
+			  }
+
+		  .final-cta-row .final-cta {
+			flex: 1.75 1 0;
+			min-width: 0;
+			font-size: 12px !important;
+			padding: 12px 0 !important;
+			text-align: center;
+			font-weight: 700;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		  }
+
+		  .final-cta-row .methodology-link {
+			flex: 1 1 0;
+			min-width: 0;
+			font-size: 12px !important;
+			padding: 10px 0 !important;
+			text-align: center;
+			font-weight: 600;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		  }
       `}</style>
     </div>
   );
