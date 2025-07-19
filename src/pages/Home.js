@@ -65,7 +65,11 @@ function Home() {
       </Helmet>
       
       {/* HERO SECTION */}
+<<<<<<< HEAD
       <section className="hero-section" style={{
+=======
+      <section style={{
+>>>>>>> 7e8cf419db4cbbdafcb9a05e974534e44f7d5f9a
         background: `
           linear-gradient(135deg, #0a0f1c 0%, #1a202c 25%, #2d3748 100%),
           radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
@@ -233,7 +237,11 @@ function Home() {
             </div>
             
             {/* Primary CTA with clear hierarchy */}
+<<<<<<< HEAD
             <div className="hero-buttons" style={{
+=======
+            <div style={{
+>>>>>>> 7e8cf419db4cbbdafcb9a05e974534e44f7d5f9a
               display: 'flex',
               gap: '20px',
               flexWrap: 'wrap',
@@ -1116,6 +1124,7 @@ function Home() {
 		   .hero-section {
 			padding: 40px 20px !important;
 		  }
+<<<<<<< HEAD
 		  .hero-buttons {
 			display: flex !important;
 			flex-direction: row !important;
@@ -1132,6 +1141,9 @@ function Home() {
 			padding: 14px 4px;
 			white-space: nowrap;
 		  }
+=======
+        }
+>>>>>>> 7e8cf419db4cbbdafcb9a05e974534e44f7d5f9a
       `}</style>
     </div>
   );
