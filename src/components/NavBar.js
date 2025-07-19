@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo_transparent.svg'; // import the logo
 
-// Define nav links in one place for clarity
 const navLinks = [
   { to: '/companies', label: 'Companies' },
   { to: '/about', label: 'About' },
@@ -17,9 +17,8 @@ function NavBar() {
     const handleResize = () => {
       const mobile = window.innerWidth <= 768;
       setIsMobile(mobile);
-      if (!mobile) setIsMenuOpen(false); // close menu on resize to desktop
+      if (!mobile) setIsMenuOpen(false);
     };
-
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -45,17 +44,30 @@ function NavBar() {
         alignItems: 'center',
         position: 'relative'
       }}>
-        {/* Brand / Logo */}
+        {/* Logo and Brand */}
         <Link to="/" style={{
-          fontSize: '1.5rem',
-          fontWeight: '800',
+          display: 'flex',
+          alignItems: 'center',
           textDecoration: 'none',
-          background: 'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          letterSpacing: '-0.5px'
+          gap: '0.75rem'
         }}>
-          RAI Scorecard
+          <img
+            src={logo}
+            alt="RAI Scorecard Logo"
+            style={{
+              height: '40px',  // balanced height for navbar
+              width: 'auto'
+            }}
+          />
+          <span style={{
+            fontSize: '1.5rem',
+            fontWeight: '800',
+            color: '#263552',  // updated text color here
+            letterSpacing: '-0.5px',
+            userSelect: 'none'
+          }}>
+            RAI Scorecard
+          </span>
         </Link>
 
         {/* Hamburger Menu Button for Mobile */}
@@ -96,7 +108,7 @@ function NavBar() {
             <Link
               key={link.to}
               to={link.to}
-              onClick={() => isMobile && setIsMenuOpen(false)} // close on mobile link click
+              onClick={() => isMobile && setIsMenuOpen(false)}
               style={{
                 fontSize: '1rem',
                 fontWeight: 600,
@@ -108,12 +120,8 @@ function NavBar() {
                 padding: '0.25rem 0',
                 transition: 'color 0.3s ease'
               }}
-              onMouseEnter={e => {
-                e.target.style.color = '#3b82f6';
-              }}
-              onMouseLeave={e => {
-                e.target.style.color = '#1e293b';
-              }}
+              onMouseEnter={e => { e.target.style.color = '#3b82f6'; }}
+              onMouseLeave={e => { e.target.style.color = '#1e293b'; }}
             >
               {link.label}
             </Link>
