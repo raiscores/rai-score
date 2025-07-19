@@ -1102,7 +1102,7 @@ function Home() {
           }
         }
 
-        @media (max-width: 480px) {
+       @media (max-width: 480px) {
 		  /* Theme cards grid */
 		  .theme-card {
 			padding: 20px;
@@ -1117,34 +1117,38 @@ function Home() {
 		  .hero-buttons {
 			display: flex !important;
 			flex-direction: row !important;
-			gap: 8px;
+			gap: 8px !important;
 			justify-content: center;
 			align-items: stretch;
-			width: 100%;
+			width: 90%;
 		  }
 
-		  /* Responsive hero buttons */
-		  .hero-buttons .primary-cta,
-		  .hero-buttons .secondary-cta {
-			width: auto !important;
+		  /* Blue button: wider */
+		  .hero-buttons .primary-cta {
+			flex: 1.75 1 0;
 			min-width: 0;
-			flex: 1 1 0;
-			margin-bottom: 0 !important;
-			font-size: 14px;
-			padding: 11px 0px;
-			white-space: nowrap;   /* keep text on one line (remove if you want wrapping) */
+			font-size: 10px !important;
+			padding: 10px 0 !important;
 			text-align: center;
-			box-sizing: border-box;
+			font-weight: 700;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		  }
 
-		  /* Optional: tighten heading and paragraph spacing */
-		  .hero-heading {
-			margin-bottom: 12px;
+		  /* Gray button: smaller */
+		  .hero-buttons .secondary-cta {
+			flex: 1 1 0;
+			min-width: 0;
+			font-size: 10px !important;
+			padding: 10px 0 !important;
+			text-align: center;
+			font-weight: 600;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		  }
-		  .hero-section p {
-			margin-bottom: 10px;
-		  }
-		}
+	   }
       `}</style>
     </div>
   );
