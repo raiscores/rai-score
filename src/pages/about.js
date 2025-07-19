@@ -86,19 +86,19 @@ const AboutPage = () => {
 
       {/* Problem Statement */}
       <section data-section="1" className="py-20 px-4 bg-slate-50">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-slate-900 mb-8">The Stakes Are Rising</h2>
-          <div className="text-lg md:text-xl text-slate-700 space-y-6 leading-relaxed max-w-4xl mx-auto">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-8">The Stakes Are Rising</h2>
+          <div className="text-base md:text-lg lg:text-xl text-slate-700 space-y-6 leading-relaxed max-w-6xl mx-auto">
             <p>
               Every day, AI systems make decisions that shape human lives—from approving loans to recommending medical care. Yet most operate in black boxes, with little public understanding of how they work or how risks are managed.
             </p>
             <p>
               While many companies talk about "ethical AI," there's no standard way to verify those claims or compare them across industries.
             </p>
-            <p className="text-xl md:text-2xl font-semibold text-slate-900">
+            <p className="text-lg md:text-xl lg:text-2xl font-semibold text-slate-900">
               Without transparency, there's no accountability.
             </p>
-            <p className="text-lg md:text-xl">
+            <p className="text-base md:text-lg lg:text-xl">
               That's why we created RAI Score—to bring clarity, consistency, and independent evaluation to the conversation.
             </p>
           </div>
@@ -107,17 +107,17 @@ const AboutPage = () => {
 
       {/* Our Approach */}
       <section data-section="2" className="py-20 px-4 bg-white">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900 mb-8">Our Approach</h2>
-            <div className="max-w-5xl mx-auto space-y-6 text-lg md:text-xl text-slate-700">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-8">Our Approach</h2>
+            <div className="max-w-6xl mx-auto space-y-6 text-base md:text-lg lg:text-xl text-slate-700">
               <p>
                 RAI Score applies a consistent, public methodology to evaluate large companies based on what they publicly disclose about Responsible AI.
               </p>
               <p>
                 We assess companies using only information available in the public domain: governance documents, published principles, transparency reports, regulatory filings, and official statements.
               </p>
-              <p className="font-semibold text-slate-900 text-xl">
+              <p className="font-semibold text-slate-900 text-lg md:text-xl lg:text-2xl">
                 Our goal is not to judge intent—but to track disclosure, governance, and accountability in a consistent, comparable way.
               </p>
             </div>
@@ -169,27 +169,27 @@ const AboutPage = () => {
 
       {/* What Our Scores Mean */}
       <section data-section="3" className="py-20 bg-slate-100">
-        <div className="max-w-5xl mx-auto px-4 text-center">
+        <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="flex justify-center mb-8">
             <div className="bg-blue-100 rounded-full p-4">
               <Info className="w-12 h-12 text-blue-600" />
             </div>
           </div>
 
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 mb-6 max-w-5xl mx-auto">
             What Our Scores Mean (And What They Don't)
           </h2>
-          <p className="text-lg md:text-xl text-slate-700 mb-12 max-w-3xl mx-auto">
+          <p className="text-base md:text-lg lg:text-xl text-slate-700 mb-12 max-w-4xl mx-auto">
             We believe in radical transparency about our limitations:
           </p>
 
-          <div className="space-y-6 text-left max-w-4xl mx-auto">
+          <div className="space-y-6 text-left max-w-5xl mx-auto">
             {/* Box 1 */}
             <div className="bg-white rounded-xl p-6 md:p-8 border border-slate-200 shadow-sm">
-              <h3 className="font-semibold text-slate-900 mb-3 text-lg">
+              <h3 className="font-semibold text-slate-900 mb-3 text-base md:text-lg lg:text-xl">
                 We evaluate companies based on what they publicly disclose
               </h3>
-              <p className="text-slate-700">
+              <p className="text-sm md:text-base lg:text-lg text-slate-700">
                 Our scores reflect transparency and governance practices, not internal implementations we cannot see.
               </p>
             </div>
@@ -199,10 +199,10 @@ const AboutPage = () => {
               <div className="flex items-start space-x-3">
                 <Info className="w-5 h-5 mt-1 text-blue-500 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold text-slate-900 mb-2 text-lg">
+                  <h3 className="font-semibold text-slate-900 mb-2 text-base md:text-lg lg:text-xl">
                     A low score doesn't mean unethical behavior—it often means limited transparency
                   </h3>
-                  <p className="text-slate-700">
+                  <p className="text-sm md:text-base lg:text-lg text-slate-700">
                     Some companies may have excellent internal practices but choose not to share them publicly.
                   </p>
                 </div>
@@ -211,20 +211,20 @@ const AboutPage = () => {
 
             {/* Box 3 */}
             <div className="bg-white rounded-xl p-6 md:p-8 border border-slate-200 shadow-sm">
-              <h3 className="font-semibold text-slate-900 mb-3 text-lg">
+              <h3 className="font-semibold text-slate-900 mb-3 text-base md:text-lg lg:text-xl">
                 We focus on governance and policies, not technical performance
               </h3>
-              <p className="text-slate-700">
+              <p className="text-sm md:text-base lg:text-lg text-slate-700">
                 Our methodology evaluates responsible AI frameworks, not the accuracy or efficiency of individual models.
               </p>
             </div>
 
             {/* Box 4 */}
             <div className="bg-white rounded-xl p-6 md:p-8 border border-slate-200 shadow-sm">
-              <h3 className="font-semibold text-slate-900 mb-3 text-lg">
+              <h3 className="font-semibold text-slate-900 mb-3 text-base md:text-lg lg:text-xl">
                 Our methodology evolves
               </h3>
-              <p className="text-slate-700">
+              <p className="text-sm md:text-base lg:text-lg text-slate-700">
                 As AI governance standards mature, we update our evaluation criteria to reflect best practices.
               </p>
             </div>
@@ -234,14 +234,14 @@ const AboutPage = () => {
 
       {/* Where We're Headed */}
       <section data-section="4" className="py-20 px-4 bg-slate-900 text-white">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-8">Where We're Headed</h2>
-            <div className="max-w-5xl mx-auto space-y-6 text-lg md:text-xl text-gray-300">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8">Where We're Headed</h2>
+            <div className="max-w-6xl mx-auto space-y-6 text-base md:text-lg lg:text-xl text-gray-300">
               <p>
                 RAI Score is just getting started—but we believe it can become a critical tool for accountability as AI continues to shape the world.
               </p>
-              <p className="text-xl md:text-2xl font-medium text-white">
+              <p className="text-lg md:text-xl lg:text-2xl font-medium text-white">
                 We envision a future where:
               </p>
             </div>
@@ -251,14 +251,14 @@ const AboutPage = () => {
             {futureVision.map((item, index) => (
               <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
                 <item.icon className="w-8 h-8 text-blue-400 mb-4" />
-                <h3 className="font-semibold mb-3 text-lg">{item.title}</h3>
-                <p className="text-gray-300">{item.description}</p>
+                <h3 className="font-semibold mb-3 text-base md:text-lg lg:text-xl">{item.title}</h3>
+                <p className="text-gray-300 text-sm md:text-base lg:text-lg">{item.description}</p>
               </div>
             ))}
           </div>
 
           <div className="text-center">
-            <p className="text-xl md:text-2xl text-blue-300 font-medium max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl lg:text-2xl text-blue-300 font-medium max-w-4xl mx-auto">
               This is a long-term project—and we're building it in the open.
             </p>
           </div>
@@ -267,14 +267,14 @@ const AboutPage = () => {
 
       {/* Who's Behind RAI Score */}
       <section data-section="5" className="py-20 px-4 bg-white">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8">Who's Behind RAI Score?</h2>
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-8">Who's Behind RAI Score?</h2>
           
-          <div className="max-w-4xl mx-auto space-y-6 text-lg md:text-xl text-slate-700 mb-12">
+          <div className="max-w-5xl mx-auto space-y-6 text-base md:text-lg lg:text-xl text-slate-700 mb-12">
             <p>
               RAI Score is an independent project with a straightforward mission:
             </p>
-            <p className="text-xl md:text-2xl font-semibold text-slate-900">
+            <p className="text-lg md:text-xl lg:text-2xl font-semibold text-slate-900">
               Make it easier for the public to understand which companies take AI accountability seriously—and which don't say much at all.
             </p>
             <p>
@@ -282,16 +282,16 @@ const AboutPage = () => {
             </p>
           </div>
           
-          <div className="bg-slate-50 rounded-xl p-8 border border-slate-200 max-w-4xl mx-auto">
-            <div className="max-w-3xl mx-auto">
-              <p className="text-lg md:text-xl text-slate-700 italic mb-6">
+          <div className="bg-slate-50 rounded-xl p-8 border border-slate-200 max-w-5xl mx-auto">
+            <div className="max-w-4xl mx-auto">
+              <p className="text-base md:text-lg lg:text-xl text-slate-700 italic mb-6">
                 "We're building something meaningful—but we know early-stage projects need to earn trust through clarity and consistent execution, not premature claims. We're here to do the work and let the results speak for themselves."
               </p>
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Target className="w-8 h-8 text-blue-600" />
                 </div>
-                <p className="text-slate-600 font-medium">
+                <p className="text-slate-600 font-medium text-sm md:text-base lg:text-lg">
                   Independent • Transparent • Evolving
                 </p>
               </div>
