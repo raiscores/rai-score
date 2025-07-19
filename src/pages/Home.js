@@ -433,7 +433,7 @@ function Home() {
 					  alignItems: 'center',
 					  gap: '16px',
 					  marginTop: '18px',
-					  marginBottom: '10px',
+					  marginBottom: '15px',
 					  zIndex: 1
 					}}
 				  >
@@ -464,30 +464,27 @@ function Home() {
 					</h3>
 				  </div>
 
-				  {/* Bottom: description & button, centered */}
-				  <div
-					style={{
-					  flex: 1,
-					  display: 'flex',
-					  flexDirection: 'column',
-					  justifyContent: 'center',    // vertical center
-					  alignItems: 'center',        // horizontal center
-					  
-					  zIndex: 1
-					}}
-				  >
-					<p
+				  {/* Bottom: description & button, left-aligned */}
+					<div
 					  style={{
+						flex: 1,
+						display: 'flex',
+						flexDirection: 'column',
+						justifyContent: 'center',    // vertical center
+						alignItems: 'flex-start',    // horizontal left align
+						zIndex: 1
+					  }}
+					>
+					  <p style={{
 						fontSize: '16px',
 						color: '#64748b',
 						marginBottom: '20px',
-						maxWidth: '220px'
-					  }}
-					>
-					  {theme.description}
-					</p>
-					<div
-					  style={{
+						maxWidth: '350px', // wider if you want!
+						marginLeft: 0
+					  }}>
+						{theme.description}
+					  </p>
+					  <div style={{
 						fontSize: '14px',
 						color: theme.color,
 						fontWeight: '600',
@@ -497,11 +494,10 @@ function Home() {
 						border: `1px solid ${theme.color}20`,
 						textAlign: 'center',
 						width: 'fit-content'
-					  }}
-					>
-					  {theme.subtitle}
+					  }}>
+						{theme.subtitle}
+					  </div>
 					</div>
-				  </div>
 				</div>
 				))}
 			  </div>
@@ -645,34 +641,34 @@ function Home() {
 					</h3>
 				  </div>
 
-				  {/* Bottom: description & use case, centered */}
-				  <div style={{
-					flex: 1,
-					display: 'flex',
-					flexDirection: 'column',
-					justifyContent: 'center',    // vertical center
-					alignItems: 'center',        // horizontal center
-					textAlign: 'center',
-					zIndex: 1
-				  }}>
-					<p style={{
-					  fontSize: '15px',
-					  color: '#64748b',
-					  lineHeight: '1.6',
-					  marginBottom: '18px',
-					  maxWidth: '220px'
-					}}>
-					  {audience.description}
-					</p>
+				  {/* Bottom: description & use case, left-aligned */}
 					<div style={{
-					  fontSize: '13px',
-					  color: audience.color,
-					  textAlign: 'center',
-					  fontWeight: '600'
+					  flex: 1,
+					  display: 'flex',
+					  flexDirection: 'column',
+					  justifyContent: 'center',    // vertical center
+					  alignItems: 'flex-start',    // horizontal left align
+					  textAlign: 'left',
+					  zIndex: 1
 					}}>
-					  {audience.useCase}
+					  <p style={{
+						fontSize: '15px',
+						color: '#64748b',
+						lineHeight: '1.6',
+						marginBottom: '18px',
+						maxWidth: '300px'
+					  }}>
+						{audience.description}
+					  </p>
+					  <div style={{
+						fontSize: '13px',
+						color: audience.color,
+						textAlign: 'left',
+						fontWeight: '600'
+					  }}>
+						{audience.useCase}
+					  </div>
 					</div>
-				  </div>
 				</div>
 			  ))}
 			</div>
@@ -995,24 +991,24 @@ function Home() {
 				  {feature.title}
 				</h4>
 			  </div>
-			  {/* Description centered vertically */}
-			  <div style={{
-				flex: 1,
-				display: 'flex',
-				flexDirection: 'column',
-				justifyContent: 'center',
-				alignItems: 'center',
-			  }}>
-				<p style={{
-				  fontSize: '16px',
-				  color: '#64748b',
-				  lineHeight: '1.6',
-				  margin: 0,
-				  maxWidth: '220px'
+			  {/* Description left-aligned vertically */}
+				<div style={{
+				  flex: 1,
+				  display: 'flex',
+				  flexDirection: 'column',
+				  justifyContent: 'center',
+				  alignItems: 'flex-start', // left align
 				}}>
-				  {feature.description}
-				</p>
-			  </div>
+				  <p style={{
+					fontSize: '16px',
+					color: '#64748b',
+					lineHeight: '1.6',
+					margin: 0,
+					textAlign: 'left' // left align text
+				  }}>
+					{feature.description}
+				  </p>
+				</div>
 			</div>
             ))}
           </div>
