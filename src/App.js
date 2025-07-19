@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import CompanyPage from './pages/CompanyPage';
 import CompanyDirectory from './pages/CompanyDirectory';
 import Methodology from './pages/Methodology';
+import AboutPage from './pages/about';
 import Footer from './components/Footer'; 
 import ScrollToTop from './components/ScrollToTop';
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/company/:slug" element={<CompanyPage />} />
           <Route path="/companies" element={<CompanyDirectory />} />
           <Route path="/methodology" element={<Methodology />} />
+		  <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <Footer />
