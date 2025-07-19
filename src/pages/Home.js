@@ -182,7 +182,7 @@ function Home() {
               </Link>
               
 			 <Link 
-                to="/Methodology" style={{
+                to="/about" style={{
                 backgroundColor: 'transparent',
                 color: '#ffffff',
                 padding: '12px 24px',
@@ -203,7 +203,7 @@ function Home() {
                 e.target.style.color = '#ffffff';
                 e.target.style.transform = 'scale(1)';
               }}>
-                View Methodology
+                About Us
               </Link>
             </div>
           </div>
