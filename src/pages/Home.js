@@ -60,7 +60,7 @@ function Home() {
     }}>
       {/* Page Title */}
       <Helmet>
-        <title>RAI Score: Independent AI Accountability Evaluations</title>
+        <title>RAI Scores: Independent AI Accountability Evaluations</title>
         <meta name="description" content="Independent evaluations of how leading companies approach responsible AI governance and transparency. Making AI accountability visible through evidence-based assessment." />
       </Helmet>
       

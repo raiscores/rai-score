@@ -88,7 +88,7 @@ function Methodology() {
 	
 	 {/* Page Title */}
 		<Helmet>
-		  <title>RAI Score: Methodology</title>
+		  <title>RAI Scores: Methodology</title>
 		</Helmet>
 		
       {/* Hero Section */}

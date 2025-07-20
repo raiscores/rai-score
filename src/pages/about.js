@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Shield, Target, CheckCircle, ArrowRight, Info, TrendingUp, Globe, FileText, MessageCircle, Eye, Scale, ChevronRight, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const AboutPage = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -50,6 +51,11 @@ const AboutPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+	 {/* Page Title */}
+		<Helmet>
+		  <title>RAI Scores: About</title>
+		</Helmet>
+		
       {/* Hero Section */}
       <section data-section="0" className="relative bg-slate-900 text-white py-20 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
@@ -68,7 +74,7 @@ const AboutPage = () => {
               
               <div className="max-w-5xl mx-auto space-y-6 text-lg md:text-xl text-gray-300">
                 <p>
-                  RAI Score is an independent project working to evaluate how large companies approach Responsible AI, using public data rather than self-reported claims.
+                  RAI Scores is an independent project working to evaluate how large companies approach Responsible AI, using public data rather than self-reported claims.
                 </p>
                 <p className="text-blue-300 font-medium">
                   We aim to make AI accountability visible so the public, regulators, and researchers can better understand how seriously companies take ethical AI.

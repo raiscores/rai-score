@@ -245,7 +245,7 @@ function CompanyDirectory() {
       }}>
 	   {/* Page Title */}
 		<Helmet>
-		  <title>RAI Score: Company Directory</title>
+		  <title>RAI Scores: Company Directory</title>
 		</Helmet>
 		
         {/* Header Section */}

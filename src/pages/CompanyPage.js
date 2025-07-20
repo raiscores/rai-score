@@ -328,7 +328,7 @@ function CompanyPage() {
 	  {/* Dynamic Page Title */}
 		<Helmet>
       <title>
-        {companyData ? `RAI Score: ${companyData.name}` : "RAI Score: Company"}
+        {companyData ? `RAI Scores: ${companyData.name}` : "RAI Scores: Company"}
       </title>
     </Helmet>
       {/* Navigation */}
