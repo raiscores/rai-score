@@ -20,7 +20,7 @@ function Footer() {
         {/* Brand & Mission */}
         <div>
           <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>
-            RAI Scorecard
+            RAI Scores
           </h2>
           <p style={{ lineHeight: '1.7', color: '#cbd5e1' }}>
             Making AI accountability transparent, accessible, and actionable for everyone.
@@ -68,8 +68,8 @@ function Footer() {
             <li><Link to="/methodologies" style={linkStyle}>Our Methodology</Link></li>
             <li><Link to="/about" style={linkStyle}>About Us</Link></li>
             <li><Link to="/request" style={linkStyle}>Request Evaluation</Link></li>
-            <li><a href="#" style={linkStyle}>Blog</a></li>
-            <li><a href="#" style={linkStyle}>FAQ</a></li>
+			<li><Link to="/blog" style={linkStyle}>Blog</Link></li>
+			<li><Link to="/faq" style={linkStyle}>FAQ</Link></li>
           </ul>
         </div>
 
@@ -99,7 +99,7 @@ function Footer() {
         fontSize: '0.85rem',
         color: '#94a3b8'
       }}>
-        <span>© {new Date().getFullYear()} Responsible AI Scorecard. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} RAI Scores - Responsible AI Scorecard. All rights reserved.</span>
         <div style={{ display: 'flex', gap: '1.5rem' }}>
           <Link to="/privacy" style={linkStyle}>Privacy Policy</Link>
           <Link to="/terms" style={linkStyle}>Terms of Service</Link>

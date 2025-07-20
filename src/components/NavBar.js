@@ -6,7 +6,7 @@ const navLinks = [
   { to: '/companies', label: 'Companies' },
   { to: '/about', label: 'About' },
   { to: '/methodology', label: 'Methodology' },
-  { to: '/request', label: 'Request' }
+  { to: '/contact', label: 'Request' }
 ];
 
 function NavBar() {
@@ -28,9 +28,9 @@ function NavBar() {
       position: 'sticky',
       top: 0,
       zIndex: 1000,
-      backdropFilter: 'blur(12px)',
+      backdropFilter: 'blur(20px)',
       background: 'rgba(255, 255, 255, 0.7)',
-      borderBottom: '1px solid rgba(229, 231, 235, 0.6)',
+      borderBottom: '1px solid rgba(229, 231, 235, 0.8)',
       boxShadow: '0 2px 12px rgba(0, 0, 0, 0.05)',
       transition: 'all 0.3s ease'
     }}>
@@ -38,7 +38,7 @@ function NavBar() {
         maxWidth: '1400px',
         width: '100%',
         margin: '0 auto',
-        padding: '1.5rem 2.25rem',
+        padding: isMobile ? '1rem 1rem' : '1.5rem 2.25rem',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
@@ -66,7 +66,7 @@ function NavBar() {
             letterSpacing: '-0.5px',
             userSelect: 'none'
           }}>
-            RAI Scorecard
+            RAI SCORES
           </span>
         </Link>
 

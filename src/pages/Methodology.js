@@ -112,9 +112,9 @@ function Methodology() {
                 to="/companies" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
                 View Company Scores <ArrowRight className="w-5 h-5" />
               </Link>
-              <button className="px-8 py-4 border border-slate-400 hover:bg-slate-800 rounded-lg font-semibold transition-colors">
+              <Link to="/contact" className="px-8 py-4 border border-slate-400 hover:bg-slate-800 rounded-lg font-semibold transition-colors">
                 Download Methodology
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -428,9 +428,9 @@ function Methodology() {
               <Search className="w-5 h-5" />
               Browse Company Scores
             </Link>
-            <button className="px-8 py-4 border border-blue-400 hover:bg-blue-800 rounded-lg font-semibold transition-colors">
+            <Link to="/contact" className="px-8 py-4 border border-blue-400 hover:bg-blue-800 rounded-lg font-semibold transition-colors">
               Request Company Assessment
-            </button>
+            </Link>
           </div>
         </div>
       </div>

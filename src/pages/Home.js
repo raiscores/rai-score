@@ -901,16 +901,16 @@ function Home() {
         </Container>
       </section>
 
-      {/* COMING SOON SECTION */}
+       {/* EXPANDING OUR IMPACT SECTION */}
       <section 
-        id="coming-soon"
+        id="expanding-impact"
         data-reveal
         style={{
           padding: 'clamp(80px, 10vw, 120px) 0',
           backgroundColor: '#ffffff',
           position: 'relative',
-          opacity: isVisible['coming-soon'] ? 1 : 0,
-          transform: isVisible['coming-soon'] ? 'translateY(0)' : 'translateY(40px)',
+          opacity: isVisible['expanding-impact'] ? 1 : 0,
+          transform: isVisible['expanding-impact'] ? 'translateY(0)' : 'translateY(40px)',
           transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
         }}
       >
@@ -926,16 +926,16 @@ function Home() {
               color: '#1e293b',
               letterSpacing: '-0.02em'
             }}>
-              🧭 Coming Soon
+              🚀 Expanding Our Impact: The Future of AI Accountability
             </h3>
             <p style={{
               fontSize: '20px',
               color: '#64748b',
-              maxWidth: '650px',
+              maxWidth: '900px',
               margin: '0 auto',
               lineHeight: '1.6'
             }}>
-              We're building the future of AI accountability. Here's what's coming next.
+              We're continuously expanding our coverage and analysis. Check back often to see what's new.
             </p>
           </div>
 
@@ -947,7 +947,7 @@ function Home() {
             maxWidth: '1200px',
             margin: '0 auto'
           }}>
-            {comingSoonFeatures.map((feature, index) => (
+            {expandingImpactFeatures.map((feature, index) => (
              <div
 			  key={feature.title}
 			  style={{
@@ -958,13 +958,13 @@ function Home() {
 				border: '1px solid rgba(229, 231, 235, 0.8)',
 				position: 'relative',
 				transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
-				transform: isVisible['coming-soon'] ? 'translateY(0)' : 'translateY(40px)',
+				transform: isVisible['expanding-impact'] ? 'translateY(0)' : 'translateY(40px)',
 				transitionDelay: `${index * 0.1}s`,
 				display: 'flex',
 				flexDirection: 'column',
 				height: '100%'
 			  }}
-			  className="coming-soon-card"
+			  className="expanding-impact-card"
 			>
 			  {/* Icon and Title Row */}
 			  <div style={{
@@ -1068,7 +1068,7 @@ function Home() {
 
         .theme-card:focus,
         .audience-card:focus,
-        .coming-soon-card:focus {
+        .expanding-impact-card:focus {
           outline: 3px solid #2563eb;
           outline-offset: 2px;
         }
@@ -1155,7 +1155,7 @@ function Home() {
           box-shadow: 0 16px 48px rgba(0, 0, 0, 0.1);
         }
 
-        .coming-soon-card:hover {
+        .expanding-impact-card:hover {
           transform: translateY(-4px);
           box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
         }
@@ -1361,26 +1361,26 @@ const methodologyPoints = [
 ];
 
 // Coming soon features with detailed descriptions
-const comingSoonFeatures = [
+const expandingImpactFeatures = [
   {
     icon: '📊',
-    title: 'Score Breakdowns',
-    description: 'Detailed pillar-by-pillar analysis with interactive charts and trend data'
+    title: 'Detailed Score Breakdowns',
+    description: 'More granular analysis for each pillar with specific improvement recommendations.'
   },
   {
-    icon: '📚',
-    title: 'Methodology Insights',
-    description: 'Source citations, scoring rationale, and transparent evaluation criteria'
+    icon: '🏆',
+    title: 'Industry Benchmarks',
+    description: 'Compare companies within sectors for quick context and actionable insight.'
   },
   {
     icon: '⭐',
     title: 'Premium Access',
-    description: 'Comprehensive audits, alerts, and advanced analytics for stakeholders'
+    description: 'Advanced analytics, custom reports, and real-time monitoring for stakeholders'
   },
   {
     icon: '🛡️',
     title: 'Responsible AI Certification',
-    description: 'Certify your company\'s AI systems and governance programs to demonstrate leadership in trustworthy and ethical AI practices'
+    description: 'Independent certification program for companies demonstrating excellence in AI governance and ethics'
   }
 ];
 
