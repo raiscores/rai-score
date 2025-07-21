@@ -310,7 +310,10 @@ function CompanyPage() {
             <Info className="w-3 h-3" />
             Confidence: {confidence}
           </span>
-          <button className="flex items-center gap-1 text-blue-600 hover:text-blue-700 transition-colors">
+          <button 
+            onClick={() => setActiveTab('sources')}
+            className="flex items-center gap-1 text-blue-600 hover:text-blue-700 transition-colors"
+          >
             View Sources
             <ChevronRight className="w-3 h-3" />
           </button>
@@ -717,6 +720,9 @@ function CompanyPage() {
                   </div>
 
                   {/* Early Access CTA */}
+				   {/* HIDDEN FOR NOW
+				   
+				   
                   <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl p-8 text-center text-white">
                     <h3 className="text-2xl font-bold mb-4">Be the First to Know</h3>
                     <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
@@ -736,7 +742,7 @@ function CompanyPage() {
                     <p className="text-blue-200 text-sm mt-4">
                       Expected launch: Q3 2025 • No spam, unsubscribe anytime
                     </p>
-                  </div>
+                  </div>  */}
                 </div>
               )}
 			  
@@ -757,24 +763,24 @@ function CompanyPage() {
 					  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
 						<div className="bg-blue-50 rounded-lg p-4 text-center">
 						  <div className="text-2xl font-bold text-blue-600">
-							{companyData.summary?.sourcesUsed?.filter(s => s.sourceUsed).length || 0}
+							{companyData.summary?.sourcesUsed?.filter(s => s.sourceUsed).length || "N/A"}
 						  </div>
 						  <div className="text-sm text-blue-700">Sources Used</div>
 						</div>
 						<div className="bg-green-50 rounded-lg p-4 text-center">
 						  <div className="text-2xl font-bold text-green-600">
-							{companyData.summary?.sourcesUsed?.filter(s => s.documentType === 'ESG Report').length || 0}
+							{companyData.summary?.sourcesUsed?.filter(s => s.documentType === 'ESG Report').length || "N/A"}
 						  </div>
 						  <div className="text-sm text-green-700">ESG Reports</div>
 						</div>
 						<div className="bg-purple-50 rounded-lg p-4 text-center">
 						  <div className="text-2xl font-bold text-purple-600">
-							{companyData.summary?.sourcesUsed?.filter(s => s.documentType === 'Blog').length || 0}
+							{companyData.summary?.sourcesUsed?.filter(s => s.documentType === 'Blog').length || "N/A"}
 						  </div>
 						  <div className="text-sm text-purple-700">Policy Pages</div>
 						</div>
 						<div className="bg-orange-50 rounded-lg p-4 text-center">
-						  <div className="text-2xl font-bold text-orange-600">High</div>
+						  <div className="text-2xl font-bold text-orange-600">N/A</div>
 						  <div className="text-sm text-orange-700">Confidence</div>
 						</div>
 					  </div>
@@ -951,6 +957,9 @@ function CompanyPage() {
 					</div>
 
 					{/* Premium CTA */}
+					
+					{/* HIDDEN FOR NOW
+					
 					<div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl p-8 text-center text-white">
 					  <div className="max-w-2xl mx-auto">
 						<h3 className="text-2xl font-bold mb-4">Get Complete Source Access</h3>
@@ -970,7 +979,7 @@ function CompanyPage() {
 						  14-day free trial • Cancel anytime • No credit card required
 						</p>
 					  </div>
-					</div>
+					</div> */}
 				  </div>
 				)}
 
