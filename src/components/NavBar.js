@@ -38,7 +38,7 @@ function NavBar() {
         maxWidth: '1400px',
         width: '100%',
         margin: '0 auto',
-        padding: isMobile ? '0.75rem 1rem' : '1.25rem 2.25rem',
+        padding: isMobile ? '.85rem 1rem' : '1rem 2.25rem',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
@@ -55,12 +55,12 @@ function NavBar() {
             src={logo}
             alt="RAI Scores Logo"
             style={{
-              height: '55px',  // slightly bigger from 50px
+              height: isMobile ? '45px' : '55px',  // balanced height for navbar
               width: 'auto'
             }}
           />
           <span style={{
-            fontSize: '1.5rem',
+            fontSize: '1.6rem',
             fontWeight: '800',
             color: '#263552',  // updated text color here
             letterSpacing: '-0.5px',
