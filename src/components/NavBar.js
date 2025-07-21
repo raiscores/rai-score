@@ -60,7 +60,7 @@ function NavBar() {
             }}
           />
           <span style={{
-            fontSize: '1.6rem',
+            fontSize: isMobile ? '1.5rem' : '1.6rem'
             fontWeight: '800',
             color: '#263552',  // updated text color here
             letterSpacing: '-0.5px',
