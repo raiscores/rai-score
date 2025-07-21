@@ -1,7 +1,7 @@
 import os
 import json
 
-data_folder = r"C:\Users\Alan\Documents\RAI Score Project\frontend\public\data"
+data_folder = r"C:\Users\Alan\Documents\RAI Score Project\frontend\public\data\companies"
 company_list = []
 
 for filename in os.listdir(data_folder):
