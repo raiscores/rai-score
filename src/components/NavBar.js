@@ -38,7 +38,7 @@ function NavBar() {
         maxWidth: '1400px',
         width: '100%',
         margin: '0 auto',
-        padding: isMobile ? '1rem 1rem' : '1.5rem 2.25rem',
+        padding: isMobile ? '0.5rem 1rem' : '0.75rem 2.25rem', // Further reduced vertical padding to compensate for larger logo
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
@@ -49,18 +49,19 @@ function NavBar() {
           display: 'flex',
           alignItems: 'center',
           textDecoration: 'none',
-          gap: '0.75rem'
+          gap: '0.75rem',
+          padding: '0.25rem 0' // Reduced padding to keep overall navbar height the same
         }}>
           <img
             src={logo}
-            alt="RAI Scorecard Logo"
+            alt="RAI Scores Logo"
             style={{
-              height: '40px',  // balanced height for navbar
+              height: '60px',  // Increased from 50px to 60px
               width: 'auto'
             }}
           />
           <span style={{
-            fontSize: '1.5rem',
+            fontSize: '1.75rem',
             fontWeight: '800',
             color: '#263552',  // updated text color here
             letterSpacing: '-0.5px',
