@@ -112,7 +112,7 @@ function Methodology() {
                 to="/companies" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
                 View Company Scores <ArrowRight className="w-5 h-5" />
               </Link>
-              <Link to="/contact" className="px-8 py-4 border border-slate-400 hover:bg-slate-800 rounded-lg font-semibold transition-colors">
+              <Link to="/coming-soon" className="px-8 py-4 border border-slate-400 hover:bg-slate-800 rounded-lg font-semibold transition-colors">
                 Download Methodology
               </Link>
             </div>

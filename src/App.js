@@ -36,6 +36,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           {/* Under-construction routes */}
+		  <Route path="/coming-soon" element={<ComingSoon />} />
           <Route path="/privacy" element={<ComingSoon />} />
           <Route path="/terms" element={<ComingSoon />} />
           <Route path="/blog" element={<ComingSoon />} />

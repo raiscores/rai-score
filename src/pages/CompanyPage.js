@@ -1509,36 +1509,44 @@ function CompanyPage() {
               </div>
 
               {/* Quick Actions */}
-              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-                <h3 className="font-semibold text-gray-900 mb-4">Quick Actions</h3>
-                <div className="space-y-3">
-                  <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
-                    Compare Companies
-                  </button>
-                  <button className="w-full border border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
-                    Download Report
-                  </button>
-                  <button className="w-full border border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
-                    View All Sources
-                  </button>
-                </div>
-              </div>
+				<div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+				  <h3 className="font-semibold text-gray-900 mb-4">Quick Actions</h3>
+				  <div className="space-y-3">
+					<Link to="/coming-soon" className="block">
+					  <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
+						Compare Companies
+					  </button>
+					</Link>
+					<Link to="/coming-soont" className="block">
+					  <button className="w-full border border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
+						Download Report
+					  </button>
+					</Link>
+					<Link to="/coming-soon" className="block">
+					  <button className="w-full border border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
+						View All Sources
+					  </button>
+					</Link>
+				  </div>
+				</div>
 
               {/* Premium Upgrade */}
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100">
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Star className="w-6 h-6 text-blue-600" />
-                  </div>
-                  <h3 className="font-semibold text-gray-900 mb-2">Get Full Access</h3>
-                  <p className="text-sm text-gray-600 mb-4">
-                    Unlock detailed analysis, source documentation, and comparison tools
-                  </p>
-                  <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
-                    Start Free Trial
-                  </button>
-                </div>
-              </div>
+				<div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100">
+				  <div className="text-center">
+					<div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+					  <Star className="w-6 h-6 text-blue-600" />
+					</div>
+					<h3 className="font-semibold text-gray-900 mb-2">Get Full Access</h3>
+					<p className="text-sm text-gray-600 mb-4">
+					  Unlock detailed analysis, source documentation, and comparison tools
+					</p>
+					<Link to="/coming-soon" className="block">
+					  <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
+						Start Free Trial
+					  </button>
+					</Link>
+				  </div>
+				</div>
             </div>
             {/* End Sidebar */}
           </div>
