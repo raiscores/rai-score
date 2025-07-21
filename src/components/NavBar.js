@@ -49,7 +49,7 @@ function NavBar() {
           display: 'flex',
           alignItems: 'center',
           textDecoration: 'none',
-          gap: '0.75rem'
+          gap: '0.4rem'
         }}>
           <img
             src={logo}
