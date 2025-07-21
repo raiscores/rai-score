@@ -38,7 +38,7 @@ function NavBar() {
         maxWidth: '1400px',
         width: '100%',
         margin: '0 auto',
-        padding: isMobile ? '0.875rem 1rem' : '1.375rem 2.25rem',
+        padding: isMobile ? '0.75rem 1rem' : '1.25rem 2.25rem',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
