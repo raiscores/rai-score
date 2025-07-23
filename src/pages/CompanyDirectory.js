@@ -1,33 +1,45 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Filter, TrendingUp, Building2 } from 'lucide-react';
+import { Search, Filter, TrendingUp, Building2, ChevronDown, X, SlidersHorizontal } from 'lucide-react';
 import { Helmet } from 'react-helmet';
 
-
 function CompanyName({ name }) {
-  // dynamically change size for overflow on cards
   const nameRef = useRef(null);
-  const [fontSize, setFontSize] = useState(20); // start font size px
+  const [fontSize, setFontSize] = useState(20);
+  const [shouldTruncate, setShouldTruncate] = useState(false);
+
+  const CHARACTER_LIMIT = 28;
 
   useEffect(() => {
     const el = nameRef.current;
     if (!el) return;
 
-    const MIN_FONT_SIZE = 12;
+    const MIN_FONT_SIZE = 16;
     let currentSize = 20;
 
     function adjustFontSize() {
       if (!el) return;
+      
+      el.textContent = name;
       el.style.fontSize = currentSize + 'px';
+      
       while (el.scrollWidth > el.clientWidth && currentSize > MIN_FONT_SIZE) {
         currentSize -= 1;
         el.style.fontSize = currentSize + 'px';
       }
+      
+      if (el.scrollWidth > el.clientWidth || name.length > CHARACTER_LIMIT) {
+        setShouldTruncate(true);
+        const truncatedName = name.substring(0, CHARACTER_LIMIT) + '...';
+        el.textContent = truncatedName;
+      } else {
+        setShouldTruncate(false);
+      }
+      
       setFontSize(currentSize);
     }
 
     adjustFontSize();
-
     window.addEventListener('resize', adjustFontSize);
     return () => window.removeEventListener('resize', adjustFontSize);
   }, [name]);
@@ -44,20 +56,19 @@ function CompanyName({ name }) {
         whiteSpace: 'nowrap',
         overflow: 'hidden',
         textOverflow: 'ellipsis',
+        cursor: shouldTruncate ? 'help' : 'default'
       }}
       title={name}
     >
-      {name}
     </h3>
   );
 }
 
 function displayScore(score) {
-  // Handles undefined/null/NaN
   return typeof score === "number" && !isNaN(score) ? score.toFixed(1) : "N/A";
 }
 
-// Extended company data with 100 companies across various industries
+
 const companies = [
 {"slug": "3m","name": "3M Company","industry": "Conglomerates","score": 7,"max_score": 7},
   {"slug": "abbott-laboratories","name": "Abbott Laboratories","industry": "Healthcare","score": 7,"max_score": 7},
@@ -167,6 +178,7 @@ const companies = [
   {"slug": "nike","name": "Nike, Inc.","industry": "Apparel & Footwear","score": 6,"max_score": 7},
   {"slug": "northrop-grumman","name": "Northrop Grumman Corporation","industry": "Aerospace & Defense","score": 7,"max_score": 7},
   {"slug": "northwestern-mutual","name": "Northwestern Mutual Life Insurance Company","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "novartis","name": "Novartis AG","industry": "Pharmaceuticals","score": 6,"max_score": 7},
   {"slug": "nrg-energy","name": "NRG Energy, Inc.","industry": "Utilities","score": 7,"max_score": 7},
   {"slug": "nucor","name": "Nucor Corporation","industry": "Chemicals & Materials","score": 5.5,"max_score": 7},
   {"slug": "nvidia","name": "NVIDIA Corporation","industry": "Semiconductors","score": 7,"max_score": 7},
@@ -231,44 +243,274 @@ const companies = [
   {"slug": "world-kinect","name": "World Kinect Corporation","industry": "Energy","score": 1.5,"max_score": 7},
 ].sort((a, b) => a.name.localeCompare(b.name));
 
-// Helper function to get score color
 const getScoreColor = (score, maxScore) => {
   const percentage = (score / maxScore) * 100;
-  if (percentage >= 80) return '#22c55e'; // Green for excellent
-  if (percentage >= 70) return '#3b82f6'; // Blue for good
-  if (percentage >= 60) return '#facc15'; // Yellow for fair
-  return '#ef4444'; // Red for poor
+  if (percentage >= 80) return '#22c55e';
+  if (percentage >= 70) return '#3b82f6';
+  if (percentage >= 60) return '#facc15';
+  return '#ef4444';
 };
 
-// Helper function to get score background color
 const getScoreBackgroundColor = (score, maxScore) => {
   const percentage = (score / maxScore) * 100;
-  if (percentage >= 80) return 'rgba(34, 197, 94, 0.15)';   // soft green
-  if (percentage >= 70) return 'rgba(59, 130, 246, 0.15)';  // soft blue
-  if (percentage >= 60) return 'rgba(250, 204, 21, 0.15)';  // soft yellow
-  return 'rgba(239, 68, 68, 0.15)';                         // soft red
+  if (percentage >= 80) return 'rgba(34, 197, 94, 0.15)';
+  if (percentage >= 70) return 'rgba(59, 130, 246, 0.15)';
+  if (percentage >= 60) return 'rgba(250, 204, 21, 0.15)';
+  return 'rgba(239, 68, 68, 0.15)';
 };
 
-// Helper function to generate company initials
 const getCompanyInitials = (name) => {
   return name.split(' ').map(word => word[0]).join('').substring(0, 2).toUpperCase();
 };
 
+// Dropdown Component
+function Dropdown({ label, value, onChange, options, placeholder }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  return (
+    <div ref={dropdownRef} style={{ position: 'relative', minWidth: '200px' }}>
+      <label style={{ 
+        display: 'block', 
+        fontSize: '0.875rem', 
+        fontWeight: '500', 
+        color: '#374151', 
+        marginBottom: '0.5rem' 
+      }}>
+        {label}
+      </label>
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        style={{
+          width: '100%',
+          padding: '0.75rem 1rem',
+          border: '1px solid #d1d5db',
+          borderRadius: '8px',
+          backgroundColor: '#ffffff',
+          fontSize: '0.875rem',
+          textAlign: 'left',
+          cursor: 'pointer',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          transition: 'all 0.2s ease'
+        }}
+        onMouseEnter={(e) => e.target.style.borderColor = '#3b82f6'}
+        onMouseLeave={(e) => e.target.style.borderColor = '#d1d5db'}
+      >
+        <span style={{ color: value ? '#1f2937' : '#9ca3af' }}>
+          {value || placeholder}
+        </span>
+        <ChevronDown 
+          size={16} 
+          style={{ 
+            transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+            transition: 'transform 0.2s ease'
+          }} 
+        />
+      </button>
+      
+      {isOpen && (
+        <div style={{
+          position: 'absolute',
+          top: '100%',
+          left: 0,
+          right: 0,
+          backgroundColor: '#ffffff',
+          border: '1px solid #d1d5db',
+          borderRadius: '8px',
+          boxShadow: '0 10px 25px rgba(0, 0, 0, 0.1)',
+          zIndex: 1000,
+          maxHeight: '200px',
+          overflowY: 'auto',
+          marginTop: '4px'
+        }}>
+          {value && (
+            <button
+              onClick={() => {
+                onChange('');
+                setIsOpen(false);
+              }}
+              style={{
+                width: '100%',
+                padding: '0.75rem 1rem',
+                border: 'none',
+                backgroundColor: 'transparent',
+                textAlign: 'left',
+                cursor: 'pointer',
+                fontSize: '0.875rem',
+                color: '#6b7280',
+                borderBottom: '1px solid #f3f4f6'
+              }}
+              onMouseEnter={(e) => e.target.style.backgroundColor = '#f9fafb'}
+              onMouseLeave={(e) => e.target.style.backgroundColor = 'transparent'}
+            >
+              Clear selection
+            </button>
+          )}
+          {options.map((option) => (
+            <button
+              key={option}
+              onClick={() => {
+                onChange(option);
+                setIsOpen(false);
+              }}
+              style={{
+                width: '100%',
+                padding: '0.75rem 1rem',
+                border: 'none',
+                backgroundColor: value === option ? '#f3f4f6' : 'transparent',
+                textAlign: 'left',
+                cursor: 'pointer',
+                fontSize: '0.875rem',
+                color: '#1f2937'
+              }}
+              onMouseEnter={(e) => e.target.style.backgroundColor = '#f9fafb'}
+              onMouseLeave={(e) => e.target.style.backgroundColor = value === option ? '#f3f4f6' : 'transparent'}
+            >
+              {option}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// Range Slider Component
+function RangeSlider({ label, min, max, value, onChange, step = 0.1 }) {
+  return (
+    <div>
+      <label style={{ 
+        display: 'block', 
+        fontSize: '0.875rem', 
+        fontWeight: '500', 
+        color: '#374151', 
+        marginBottom: '0.5rem' 
+      }}>
+        {label}
+      </label>
+      <div style={{ padding: '0 0.5rem' }}>
+        <input
+          type="range"
+          min={min}
+          max={max}
+          step={step}
+          value={value[0]}
+          onChange={(e) => onChange([parseFloat(e.target.value), value[1]])}
+          style={{
+            width: '100%',
+            marginBottom: '0.5rem',
+            accentColor: '#3b82f6'
+          }}
+        />
+        <input
+          type="range"
+          min={min}
+          max={max}
+          step={step}
+          value={value[1]}
+          onChange={(e) => onChange([value[0], parseFloat(e.target.value)])}
+          style={{
+            width: '100%',
+            marginBottom: '0.5rem',
+            accentColor: '#3b82f6'
+          }}
+        />
+        <div style={{ 
+          display: 'flex', 
+          justifyContent: 'space-between', 
+          fontSize: '0.75rem', 
+          color: '#6b7280' 
+        }}>
+          <span>{value[0].toFixed(1)}</span>
+          <span>{value[1].toFixed(1)}</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function CompanyDirectory() {
   const [searchTerm, setSearchTerm] = useState('');
-  
-  const filteredCompanies = companies.filter(company =>
-    company.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    company.industry.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const [selectedIndustry, setSelectedIndustry] = useState('');
+  const [scoreRange, setScoreRange] = useState([0, 7]);
+  const [sortBy, setSortBy] = useState('name');
+  const [showTopPerformers, setShowTopPerformers] = useState(false);
+  const [filtersVisible, setFiltersVisible] = useState(false);
+
+  // Get unique industries for filter dropdown
+  const industries = useMemo(() => {
+    const uniqueIndustries = [...new Set(companies.map(company => company.industry))];
+    return uniqueIndustries.sort();
+  }, []);
+
+  // Apply all filters and sorting
+  const filteredAndSortedCompanies = useMemo(() => {
+    let filtered = companies.filter(company => {
+      // Search filter
+      const matchesSearch = company.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                           company.industry.toLowerCase().includes(searchTerm.toLowerCase());
+      
+      // Industry filter
+      const matchesIndustry = !selectedIndustry || company.industry === selectedIndustry;
+      
+      // Score range filter
+      const matchesScoreRange = company.score >= scoreRange[0] && company.score <= scoreRange[1];
+      
+      // Top performers filter (score >= 6.5)
+      const matchesTopPerformers = !showTopPerformers || company.score >= 6.5;
+      
+      return matchesSearch && matchesIndustry && matchesScoreRange && matchesTopPerformers;
+    });
+
+    // Apply sorting
+    filtered.sort((a, b) => {
+      switch (sortBy) {
+        case 'name':
+          return a.name.localeCompare(b.name);
+        case 'score-desc':
+          return b.score - a.score;
+        case 'score-asc':
+          return a.score - b.score;
+        case 'industry':
+          return a.industry.localeCompare(b.industry);
+        default:
+          return 0;
+      }
+    });
+
+    return filtered;
+  }, [searchTerm, selectedIndustry, scoreRange, sortBy, showTopPerformers]);
 
   const averageScore = companies.reduce((sum, company) => sum + company.score, 0) / companies.length;
 
-  // CSS for responsive grid
+  // Clear all filters
+  const clearAllFilters = () => {
+    setSearchTerm('');
+    setSelectedIndustry('');
+    setScoreRange([0, 7]);
+    setSortBy('name');
+    setShowTopPerformers(false);
+  };
+
+  // Check if any filters are active
+  const hasActiveFilters = searchTerm || selectedIndustry || scoreRange[0] > 0 || scoreRange[1] < 7 || sortBy !== 'name' || showTopPerformers;
+
   const gridStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-    gap: '4rem',
+    gap: '1.5rem',
     marginBottom: '2rem'
   };
 
@@ -282,11 +524,10 @@ function CompanyDirectory() {
         maxWidth: '1200px', 
         margin: '0 auto'
       }}>
-	   {/* Page Title */}
-		<Helmet>
-		  <title>RAI Scores: Company Directory</title>
-		</Helmet>
-		
+        <Helmet>
+          <title>RAI Scores: Company Directory</title>
+        </Helmet>
+        
         {/* Header Section */}
         <div style={{ 
           textAlign: 'center', 
@@ -347,12 +588,15 @@ function CompanyDirectory() {
               </div>
             </div>
           </div>
+        </div>
 
+        {/* Search and Filter Controls */}
+        <div style={{ marginBottom: '2rem' }}>
           {/* Search Bar */}
           <div style={{ 
             position: 'relative',
             maxWidth: '500px',
-            margin: '0 auto'
+            margin: '0 auto 1.5rem auto'
           }}>
             <Search 
               size={20} 
@@ -390,21 +634,211 @@ function CompanyDirectory() {
               }}
             />
           </div>
+
+          {/* Filter Toggle Button */}
+          <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
+            <button
+              onClick={() => setFiltersVisible(!filtersVisible)}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.5rem',
+                padding: '0.75rem 1.5rem',
+                backgroundColor: filtersVisible ? '#3b82f6' : '#ffffff',
+                color: filtersVisible ? '#ffffff' : '#374151',
+                border: `1px solid ${filtersVisible ? '#3b82f6' : '#d1d5db'}`,
+                borderRadius: '8px',
+                fontSize: '0.875rem',
+                fontWeight: '500',
+                cursor: 'pointer',
+                transition: 'all 0.2s ease'
+              }}
+              onMouseEnter={(e) => {
+                if (!filtersVisible) {
+                  e.target.style.backgroundColor = '#f9fafb';
+                  e.target.style.borderColor = '#3b82f6';
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (!filtersVisible) {
+                  e.target.style.backgroundColor = '#ffffff';
+                  e.target.style.borderColor = '#d1d5db';
+                }
+              }}
+            >
+              <SlidersHorizontal size={16} />
+              Advanced Filters
+              {hasActiveFilters && (
+                <span style={{
+                  backgroundColor: filtersVisible ? 'rgba(255, 255, 255, 0.2)' : '#ef4444',
+                  color: filtersVisible ? '#ffffff' : '#ffffff',
+                  borderRadius: '10px',
+                  padding: '0.125rem 0.5rem',
+                  fontSize: '0.75rem',
+                  fontWeight: '600'
+                }}>
+                  Active
+                </span>
+              )}
+            </button>
+          </div>
+
+          {/* Filter Panel */}
+          {filtersVisible && (
+            <div style={{
+              backgroundColor: '#ffffff',
+              border: '1px solid #e5e7eb',
+              borderRadius: '12px',
+              padding: '1.5rem',
+              marginBottom: '1rem',
+              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.05)'
+            }}>
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+                gap: '1.5rem',
+                alignItems: 'start'
+              }}>
+                {/* Industry Filter */}
+                <Dropdown
+                  label="Industry"
+                  value={selectedIndustry}
+                  onChange={setSelectedIndustry}
+                  options={industries}
+                  placeholder="All Industries"
+                />
+
+                {/* Sort By */}
+                <Dropdown
+                  label="Sort By"
+                  value={sortBy}
+                  onChange={setSortBy}
+                  options={[
+                    { value: 'name', label: 'Company Name' },
+                    { value: 'score-desc', label: 'Highest Score' },
+                    { value: 'score-asc', label: 'Lowest Score' },
+                    { value: 'industry', label: 'Industry' }
+                  ].map(opt => opt.value)}
+                  placeholder="Sort by..."
+                />
+
+                {/* Score Range */}
+                <RangeSlider
+                  label="Score Range"
+                  min={0}
+                  max={7}
+                  value={scoreRange}
+                  onChange={setScoreRange}
+                  step={0.1}
+                />
+
+                {/* Top Performers Toggle */}
+                <div>
+                  <label style={{ 
+                    display: 'block', 
+                    fontSize: '0.875rem', 
+                    fontWeight: '500', 
+                    color: '#374151', 
+                    marginBottom: '0.5rem' 
+                  }}>
+                    Quick Filters
+                  </label>
+                  <label style={{ 
+                    display: 'flex', 
+                    alignItems: 'center', 
+                    gap: '0.5rem',
+                    cursor: 'pointer',
+                    padding: '0.5rem 0'
+                  }}>
+                    <input
+                      type="checkbox"
+                      checked={showTopPerformers}
+                      onChange={(e) => setShowTopPerformers(e.target.checked)}
+                      style={{
+                        accentColor: '#3b82f6',
+                        transform: 'scale(1.1)'
+                      }}
+                    />
+                    <span style={{ fontSize: '0.875rem', color: '#374151' }}>
+                      Top Performers Only (6.5+)
+                    </span>
+                  </label>
+                </div>
+              </div>
+
+              {/* Clear Filters */}
+              {hasActiveFilters && (
+                <div style={{ 
+                  marginTop: '1.5rem', 
+                  paddingTop: '1.5rem', 
+                  borderTop: '1px solid #e5e7eb',
+                  textAlign: 'center'
+                }}>
+                  <button
+                    onClick={clearAllFilters}
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '0.5rem',
+                      padding: '0.5rem 1rem',
+                      backgroundColor: 'transparent',
+                      color: '#6b7280',
+                      border: '1px solid #d1d5db',
+                      borderRadius: '6px',
+                      fontSize: '0.875rem',
+                      cursor: 'pointer',
+                      transition: 'all 0.2s ease'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.target.style.backgroundColor = '#f9fafb';
+                      e.target.style.color = '#374151';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.target.style.backgroundColor = 'transparent';
+                      e.target.style.color = '#6b7280';
+                    }}
+                  >
+                    <X size={14} />
+                    Clear All Filters
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Results Info */}
         <div style={{
           marginBottom: '1.5rem',
           color: '#64748b',
-          fontSize: '0.875rem'
+          fontSize: '0.875rem',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          flexWrap: 'wrap',
+          gap: '0.5rem'
         }}>
-          Showing {filteredCompanies.length} of {companies.length} companies
-          {searchTerm && ` matching "${searchTerm}"`}
+          <span>
+            Showing {filteredAndSortedCompanies.length} of {companies.length} companies
+            {searchTerm && ` matching "${searchTerm}"`}
+          </span>
+          {hasActiveFilters && (
+            <span style={{
+              backgroundColor: '#fef3c7',
+              color: '#d97706',
+              padding: '0.25rem 0.75rem',
+              borderRadius: '12px',
+              fontSize: '0.75rem',
+              fontWeight: '500'
+            }}>
+              Filters Applied
+            </span>
+          )}
         </div>
 
         {/* Company Grid */}
         <div style={gridStyle}>
-          {filteredCompanies.map((company) => (
+          {filteredAndSortedCompanies.map((company) => (
             <Link 
               key={company.slug}
               to={`/company/${company.slug}`}
@@ -526,8 +960,7 @@ function CompanyDirectory() {
                   }}>
                     <div style={{
                       height: '100%',
-                      width:
-                      typeof company.score === "number" && typeof company.max_score === "number"
+                      width: typeof company.score === "number" && typeof company.max_score === "number"
                         ? `${(company.score / company.max_score) * 100}%`
                         : "0%",
                       backgroundColor: getScoreColor(company.score, company.max_score),
@@ -542,7 +975,7 @@ function CompanyDirectory() {
         </div>
 
         {/* No Results Message */}
-        {filteredCompanies.length === 0 && (
+        {filteredAndSortedCompanies.length === 0 && (
           <div style={{
             textAlign: 'center',
             padding: '3rem',
@@ -552,9 +985,28 @@ function CompanyDirectory() {
             <p style={{ fontSize: '1.125rem', marginBottom: '0.5rem' }}>
               No companies found
             </p>
-            <p style={{ fontSize: '0.875rem' }}>
-              Try adjusting your search terms or browse all companies
+            <p style={{ fontSize: '0.875rem', marginBottom: '1rem' }}>
+              Try adjusting your search terms or filters
             </p>
+            {hasActiveFilters && (
+              <button
+                onClick={clearAllFilters}
+                style={{
+                  padding: '0.5rem 1rem',
+                  backgroundColor: '#3b82f6',
+                  color: '#ffffff',
+                  border: 'none',
+                  borderRadius: '6px',
+                  fontSize: '0.875rem',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease'
+                }}
+                onMouseEnter={(e) => e.target.style.backgroundColor = '#2563eb'}
+                onMouseLeave={(e) => e.target.style.backgroundColor = '#3b82f6'}
+              >
+                Clear All Filters
+              </button>
+            )}
           </div>
         )}
       </div>

@@ -107,6 +107,7 @@ export const companies = [
   {"slug": "nike","name": "Nike, Inc.","industry": "Apparel & Footwear","score": 6,"max_score": 7},
   {"slug": "northrop-grumman","name": "Northrop Grumman Corporation","industry": "Aerospace & Defense","score": 7,"max_score": 7},
   {"slug": "northwestern-mutual","name": "Northwestern Mutual Life Insurance Company","industry": "Financial Services","score": 7,"max_score": 7},
+  {"slug": "novartis","name": "Novartis AG","industry": "Pharmaceuticals","score": 6,"max_score": 7},
   {"slug": "nrg-energy","name": "NRG Energy, Inc.","industry": "Utilities","score": 7,"max_score": 7},
   {"slug": "nucor","name": "Nucor Corporation","industry": "Chemicals & Materials","score": 5.5,"max_score": 7},
   {"slug": "nvidia","name": "NVIDIA Corporation","industry": "Semiconductors","score": 7,"max_score": 7},
