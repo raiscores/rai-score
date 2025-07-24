@@ -545,7 +545,7 @@ function CompanyPage() {
                               max={10}
                               icon={Icon}
                               status={details.status || 'excellent'}
-                              description={details.justification || details.findings}
+                              description={details.findings || details.justification}
                               sources={details.relevantSources?.length || 0}
                               confidence="High"
                             />
