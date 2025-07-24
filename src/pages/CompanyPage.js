@@ -2,9 +2,10 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import StarRating from '../components/StarRating'; //import StarRating layouts and overlays 
 
 import { 
-  Star, 
+  Star,	
   TrendingUp, 
   Shield, 
   Eye, 
@@ -254,16 +255,7 @@ function CompanyPage() {
     return count.toString();
   };
 
-  const StarRating = ({ rating }) => (
-    <div className="flex items-center gap-1">
-      {[...Array(5)].map((_, i) => (
-        <Star
-          key={i}
-          className={`w-5 h-5 ${i < rating ? 'text-yellow-400 fill-current' : 'text-gray-300'}`}
-        />
-      ))}
-    </div>
-  );
+
 
   // PillarCard uses centralized color logic
   const PillarCard = ({ name, score, max, icon: Icon, status, description, sources, confidence }) => {
