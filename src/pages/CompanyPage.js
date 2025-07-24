@@ -560,7 +560,7 @@ function CompanyPage() {
                 </div>
               </div>
 
-              {/* Industry comparison visualization */}
+                {/* Industry comparison visualization */}
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
                 <h3 className="font-semibold text-gray-900 mb-4">Industry Comparison</h3>
                 <div className="space-y-4">
@@ -578,6 +578,50 @@ function CompanyPage() {
                     </div>
                     <div className="text-xs text-gray-500 mt-1">
                       Top {companyDetails?.industry_percentile || 'N/A'}% of {industryData?.total_companies || 'N/A'} {companyData.industry} companies
+                    </div>
+                  </div>
+
+                  <div className="pt-3 border-t border-gray-200">
+                    <div className="text-sm text-gray-600 mb-2">Industry Leaders:</div>
+                    <div className="space-y-1 text-sm">
+                      {industryData?.industry_leaders?.map((leader, index) => (
+                        <div key={leader.name} className="flex justify-between">
+                          <span
+                            className={leader.name === companyData.name ? "font-bold" : ""}
+                          >
+                            {index + 1}. {leader.name}
+                          </span>
+                          <span
+                            className={
+                              leader.rating === "A+"
+                                ? "text-green-600"
+                                : leader.rating === "A"
+                                ? "text-green-600 font-medium"
+                                : "text-blue-600"
+                            }
+                          >
+                            {leader.rating}
+                          </span>
+                        </div>
+                      ))}
+
+                      {/* Show current company if not in top 3 */}
+                      {!industryData?.industry_leaders?.some(l => l.name === companyData.name) && companyDetails && (
+                        <div className="flex justify-between font-bold mt-2 border-t pt-2">
+                          <span>{companyDetails.industry_rank}. {companyDetails.name}</span>
+                          <span
+                            className={
+                              companyDetails.rating === "A+"
+                                ? "text-green-600"
+                                : companyDetails.rating === "A"
+                                ? "text-green-600 font-medium"
+                                : "text-blue-600"
+                            }
+                          >
+                            {companyDetails.rating}
+                          </span>
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>
