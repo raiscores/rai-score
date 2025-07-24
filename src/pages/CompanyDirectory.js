@@ -102,7 +102,7 @@ function CompanyDirectory() {
 
   const gridStyle = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
     gap: '1.5rem',
     marginBottom: '2rem'
   };
