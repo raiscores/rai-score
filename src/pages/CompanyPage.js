@@ -320,12 +320,79 @@ function CompanyPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-	  {/* Dynamic Page Title */}
-		<Helmet>
-      <title>
-        {companyData ? `RAI Scores: ${companyData.name}` : "RAI Scores: Company"}
-      </title>
-    </Helmet>
+	  <Helmet>
+		  {/* Dynamic page title */}
+		  <title>
+			{companyData ? `RAI Scores: ${companyData.name}` : "RAI Scores: Company"}
+		  </title>
+		  
+		  {/* Meta description for SEO */}
+		  <meta
+			name="description"
+			content={
+			  companyData?.overallFindings
+				? `${companyData.name}: ${companyData.overallFindings}`
+				: companyData?.summary
+				? `${companyData.name}: ${companyData.summary}`
+				: `${companyData.name}: No public RAI Score evaluation available.`
+			}
+		  />
+		  
+		  {/* Open Graph (for social sharing) */}
+		  <meta property="og:title" content={`RAI Scores: ${companyData?.name || ""}`} />
+		  <meta
+			property="og:description"
+			content={
+			  companyData?.overallFindings
+				? `${companyData.name}: ${companyData.overallFindings}`
+				: companyData?.summary
+				? `${companyData.name}: ${companyData.summary}`
+				: `${companyData.name}: No public RAI Score evaluation available.`
+			}
+		  />
+		  <meta property="og:type" content="website" />
+		  <meta property="og:url" content={`https://raiscores.com/company/${companyData?.slug || ""}`} />
+		  <meta property="og:image" content="https://www.raiscores.com/og-image.png" />
+
+		  {/* Twitter Card */}
+		  <meta name="twitter:card" content="summary_large_image" />
+		  <meta name="twitter:title" content={`RAI Scores: ${companyData?.name || ""}`} />
+		  <meta
+			name="twitter:description"
+			content={
+			  companyData?.overallFindings
+				? `${companyData.name}: ${companyData.overallFindings}`
+				: companyData?.summary
+				? `${companyData.name}: ${companyData.summary}`
+				: `${companyData.name}: No public RAI Score evaluation available.`
+			}
+		  />
+		  <meta name="twitter:image" content="https://www.raiscores.com/og-image.png" />
+
+		  {/* Schema.org (JSON-LD) */}
+		  <script type="application/ld+json">
+			{JSON.stringify({
+			  "@context": "https://schema.org",
+			  "@type": "Organization",
+			  "name": companyData?.name || "",
+			  "url": companyData?.website || "",
+			  "description":
+				companyData?.overallFindings
+				  ? `${companyData.name}: ${companyData.overallFindings}`
+				  : companyData?.summary
+				  ? `${companyData.name}: ${companyData.summary}`
+				  : `${companyData.name}: No public RAI Score evaluation available.`,
+			  "aggregateRating": companyData?.starRating
+				? {
+					"@type": "AggregateRating",
+					"ratingValue": companyData.starRating,
+					"bestRating": "5",
+					"ratingCount": companyData?.source_count > 0 ? companyData.source_count : 1
+				  }
+				: undefined
+			})}
+		  </script>
+		</Helmet>
       {/* Navigation */}
       <nav className="bg-white border-b border-gray-200 px-4 py-3 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
