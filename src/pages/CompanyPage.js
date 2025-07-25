@@ -306,11 +306,11 @@ function CompanyPage() {
           <div className="flex items-center gap-3">
             {/* Share button - Imports ShareButton Modal */}
             <ShareButton 
-			  url={`https://raiscores.com/company/${companyData?.slug || ""}`}
+			  url={`https://www.raiscores.com/company/${companyData?.slug || ""}`}
 			  title={`RAI Scores: ${companyData?.name || ""}`}
 			  description={companyData?.overallFindings || companyData?.summary || `${companyData?.name}: Responsible AI assessment`}
 			  companyName={companyData?.name}
-			  companyGrade={overallGrade} // This should be the calculated grade
+			  companyGrade={overallGrade}
 			/>
           </div>
         </div>
