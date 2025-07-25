@@ -30,7 +30,7 @@ function Footer() {
             {[
               { icon: '𝕏', href: '#' },
               { icon: '💼', href: '#' },
-              { icon: '📧', href: 'mailto:raiscores@gmail.com' }
+              { icon: '📧', href: 'mailto:info@raiscores.com' }
             ].map(({ icon, href }) => (
               <a
                 key={icon}
@@ -65,7 +65,7 @@ function Footer() {
           </h4>
           <ul style={{ listStyle: 'none', padding: 0, margin: 0, lineHeight: '2' }}>
             <li><Link to="/companies" style={linkStyle}>Browse Companies</Link></li>
-            <li><Link to="/methodologies" style={linkStyle}>Our Methodology</Link></li>
+            <li><Link to="/methodology" style={linkStyle}>Our Methodology</Link></li>
             <li><Link to="/about" style={linkStyle}>About Us</Link></li>
             <li><Link to="/request" style={linkStyle}>Request Evaluation</Link></li>
 			<li><Link to="/blog" style={linkStyle}>Blog</Link></li>
