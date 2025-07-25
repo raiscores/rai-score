@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 
 // Import existing shared components
 import StarRating from '../components/StarRating';
+import ShareButton from '../components/ShareButton';
 
 // Import custom hooks for data management
 import { useCompanyData } from '../hooks/useCompanyData';
@@ -180,73 +181,109 @@ function CompanyPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* SEO and social media meta tags using React Helmet */}
-      <Helmet>
-        <title>
-          {companyData ? `RAI Scores: ${companyData.name}` : "RAI Scores: Company"}
-        </title>
-        <meta
-          name="description"
-          content={
-            companyData?.overallFindings
-              ? `${companyData.name}: ${companyData.overallFindings}`
-              : companyData?.summary
-              ? `${companyData.name}: ${companyData.summary}`
-              : `${companyData.name}: No public RAI Score evaluation available.`
-          }
-        />
-        {/* Open Graph tags for social sharing (Facebook, LinkedIn, etc.) */}
-        <meta property="og:title" content={`RAI Scores: ${companyData?.name || ""}`} />
-        <meta
-          property="og:description"
-          content={
-            companyData?.overallFindings
-              ? `${companyData.name}: ${companyData.overallFindings}`
-              : companyData?.summary
-              ? `${companyData.name}: ${companyData.summary}`
-              : `${companyData.name}: No public RAI Score evaluation available.`
-          }
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={`https://raiscores.com/company/${companyData?.slug || ""}`} />
-        <meta property="og:image" content="https://www.raiscores.com/og-image.png" />
-        {/* Twitter Card tags for Twitter sharing */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`RAI Scores: ${companyData?.name || ""}`} />
-        <meta
-          name="twitter:description"
-          content={
-            companyData?.overallFindings
-              ? `${companyData.name}: ${companyData.overallFindings}`
-              : companyData?.summary
-              ? `${companyData.name}: ${companyData.summary}`
-              : `${companyData.name}: No public RAI Score evaluation available.`
-          }
-        />
-        <meta name="twitter:image" content="https://www.raiscores.com/og-image.png" />
-        {/* Structured data for search engines (JSON-LD) */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": companyData?.name || "",
-            "url": companyData?.website || "",
-            "description":
-              companyData?.overallFindings
-                ? `${companyData.name}: ${companyData.overallFindings}`
-                : companyData?.summary
-                ? `${companyData.name}: ${companyData.summary}`
-                : `${companyData.name}: No public RAI Score evaluation available.`,
-            "aggregateRating": companyData?.starRating
-              ? {
-                  "@type": "AggregateRating",
-                  "ratingValue": companyData.starRating,
-                  "bestRating": "5",
-                  "ratingCount": companyData?.source_count > 0 ? companyData.source_count : 1
-                }
-              : undefined
-          })}
-        </script>
-      </Helmet>
+     
+		<Helmet>
+		  {/* Basic Meta Tags */}
+		  <title>
+			{companyData ? `${companyData.name} RAI Score: ${overallGrade} Grade | RAI Scores` : "RAI Scores: Company"}
+		  </title>
+		  <meta
+			name="description"
+			content={
+			  companyData?.overallFindings
+				? `${companyData.name} earned a ${overallGrade} grade for Responsible AI practices. ${companyData.overallFindings.substring(0, 120)}...`
+				: companyData?.summary
+				? `${companyData.name} RAI Assessment: ${companyData.summary.substring(0, 120)}...`
+				: `${companyData.name}: Independent Responsible AI evaluation and scoring.`
+			}
+		  />
+		  
+		  {/* Open Graph tags for Facebook, LinkedIn, WhatsApp */}
+		  <meta property="og:type" content="article" />
+		  <meta property="og:site_name" content="RAI Scores" />
+		  <meta property="og:title" content={`${companyData?.name || "Company"} RAI Score: ${overallGrade} Grade`} />
+		  <meta
+			property="og:description"
+			content={
+			  companyData?.overallFindings
+				? `${companyData.name} demonstrates ${overallGrade === 'A+' ? 'exceptional' : overallGrade.startsWith('A') ? 'strong' : 'developing'} Responsible AI practices across our 7-pillar framework. ${companyData.overallFindings.substring(0, 100)}...`
+				: `Independent assessment of ${companyData?.name || "this company"}'s Responsible AI practices. Grade: ${overallGrade}`
+			}
+		  />
+		  <meta property="og:url" content={`https://raiscores.com/company/${companyData?.slug || ""}`} />
+		  <meta property="og:image" content="https://raiscores.com/og-image.png" />
+		  <meta property="og:image:width" content="1200" />
+		  <meta property="og:image:height" content="630" />
+		  <meta property="og:image:alt" content={`${companyData?.name || "Company"} RAI Score: ${overallGrade} Grade`} />
+		  
+		  {/* Twitter Card tags */}
+		  <meta name="twitter:card" content="summary_large_image" />
+		  <meta name="twitter:site" content="@raiscores" />
+		  <meta name="twitter:creator" content="@raiscores" />
+		  <meta name="twitter:title" content={`${companyData?.name || "Company"} RAI Score: ${overallGrade}`} />
+		  <meta
+			name="twitter:description"
+			content={
+			  companyData?.name 
+				? `${companyData.name} earned a ${overallGrade} grade for Responsible AI practices. Independent evaluation across 7 key pillars.`
+				: "Independent Responsible AI evaluation and scoring"
+			}
+		  />
+		  <meta name="twitter:image" content="https://raiscores.com/og-image.png" />
+		  
+		  {/* WhatsApp/iMessage specific - these help with rich previews */}
+		  <meta property="og:locale" content="en_US" />
+		  <meta name="robots" content="index, follow" />
+		  <link rel="canonical" href={`https://raiscores.com/company/${companyData?.slug || ""}`} />
+		  
+		  {/* Enhanced Structured Data */}
+		  <script type="application/ld+json">
+			{JSON.stringify({
+			  "@context": "https://schema.org",
+			  "@type": ["Organization", "Article"],
+			  "name": companyData?.name || "",
+			  "url": companyData?.website || "",
+			  "sameAs": companyData?.website || "",
+			  "description": companyData?.summary || "",
+			  "foundingDate": companyData?.founded_year || "",
+			  "numberOfEmployees": companyData?.employee_count || "",
+			  "industry": companyData?.industry || "",
+			  "marketCapitalization": companyData?.market_cap_usd || "",
+			  "headline": `${companyData?.name || ""} RAI Score: ${overallGrade} Grade`,
+			  "about": {
+				"@type": "Thing",
+				"name": "Responsible AI Assessment",
+				"description": "Independent evaluation of AI ethics and governance practices"
+			  },
+			  "publisher": {
+				"@type": "Organization",
+				"name": "RAI Scores",
+				"url": "https://raiscores.com",
+				"logo": {
+				  "@type": "ImageObject",
+				  "url": "https://raiscores.com/logo.png"
+				}
+			  },
+			  "mainEntityOfPage": {
+				"@type": "WebPage",
+				"@id": `https://raiscores.com/company/${companyData?.slug || ""}`
+			  },
+			  "image": "https://raiscores.com/og-image.png",
+			  "datePublished": "2025-01-01",
+			  "dateModified": "2025-01-25",
+			  "aggregateRating": companyData?.starRating
+				? {
+					"@type": "AggregateRating",
+					"ratingValue": companyData.starRating,
+					"bestRating": "5",
+					"worstRating": "1",
+					"ratingCount": companyData?.source_count > 0 ? companyData.source_count : 1,
+					"description": `${companyData.name} Responsible AI Score: ${overallGrade} grade based on ${totalPillars} assessment pillars`
+				  }
+				: undefined
+			})}
+		  </script>
+		</Helmet>
       
       {/* Sticky navigation bar with breadcrumbs and actions */}
       <nav className="bg-white border-b border-gray-200 px-4 py-3 sticky top-0 z-50">
@@ -267,11 +304,14 @@ function CompanyPage() {
             </div>
           </div>
           <div className="flex items-center gap-3">
-            {/* Share button - functionality to be implemented */}
-            <button className="flex items-center gap-2 px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">
-              <Share2 className="w-4 h-4" />
-              <span className="hidden sm:inline">Share</span>
-            </button>
+            {/* Share button - Imports ShareButton Modal */}
+            <ShareButton 
+			  url={`https://raiscores.com/company/${companyData?.slug || ""}`}
+			  title={`RAI Scores: ${companyData?.name || ""}`}
+			  description={companyData?.overallFindings || companyData?.summary || `${companyData?.name}: Responsible AI assessment`}
+			  companyName={companyData?.name}
+			  companyGrade={overallGrade} // This should be the calculated grade
+			/>
           </div>
         </div>
       </nav>
