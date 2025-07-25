@@ -164,6 +164,15 @@ function CompanyPage() {
     return count.toString();
   };
 
+  // Helper function to ensure URL has proper protocol
+  const formatWebsiteUrl = (url) => {
+    if (!url) return '';
+    if (url.startsWith('http://') || url.startsWith('https://')) {
+      return url;
+    }
+    return `https://${url}`;
+  };
+
   // Calculate derived values for display
   const overallGrade = getGradeFromScore(totalScore, maxScore);
   const overallPercentage = maxScore === 0 ? 0 : (totalScore / maxScore) * 100;
@@ -288,13 +297,21 @@ function CompanyPage() {
                       <Building className="w-4 h-4" />
                       {companyData.industry}
                     </span>
-                    <span>•</span>
-                    <span className="font-medium">{companyData.ticker}</span>
-                    <span>•</span>
-                    <span className="flex items-center gap-1">
-                      <Award className="w-4 h-4" />
-                      Fortune #{companyData.fortune_rank}
-                    </span>
+                    {companyData.ticker && (
+                      <>
+                        <span>•</span>
+                        <span className="font-medium">{companyData.ticker}</span>
+                      </>
+                    )}
+                    {companyData.fortune_rank && (
+                      <>
+                        <span>•</span>
+                        <span className="flex items-center gap-1">
+                          <Award className="w-4 h-4" />
+                          Fortune #{companyData.fortune_rank}
+                        </span>
+                      </>
+                    )}
                   </div>
                   {/* Location and website */}
                   <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
@@ -302,10 +319,16 @@ function CompanyPage() {
                       <MapPin className="w-4 h-4" />
                       {companyData.headquarters}
                     </span>
-                    <span className="flex items-center gap-1">
+                    <a 
+                      href={formatWebsiteUrl(companyData.website)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1 hover:text-gray-700 transition-colors"
+                    >
                       <Globe className="w-4 h-4" />
                       {companyData.website}
-                    </span>
+                      <ExternalLink className="w-3 h-3 ml-1" />
+                    </a>
                   </div>
                 </div>
               </div>
