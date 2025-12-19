@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className="bg-footer-gradient text-slate-50 pt-16 pb-8 px-8 text-[0.95rem]">
+    <footer
+      className="text-slate-50 pt-16 pb-8 px-8 text-[0.95rem]"
+      style={{ background: 'linear-gradient(135deg, #1e293b 0%, #0f172a 100%)' }}
+    >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Brand & Mission */}
         <div>

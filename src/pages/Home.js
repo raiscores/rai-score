@@ -50,10 +50,11 @@ function Home() {
         minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',
+        justifyContent: 'center',
         position: 'relative',
         overflow: 'hidden'
       }}>
-        
+
         {/* Enhanced floating background elements */}
         <div style={{
           position: 'absolute',
@@ -61,12 +62,13 @@ function Home() {
           left: 0,
           right: 0,
           bottom: 0,
+          pointerEvents: 'none',
           background: `
             radial-gradient(circle at 30% 40%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
             radial-gradient(circle at 70% 60%, rgba(168, 85, 247, 0.06) 0%, transparent 50%)
           `
         }} />
-        
+
         {/* Dynamic floating elements with enhanced parallax */}
         <div style={{
           position: 'absolute',
@@ -79,9 +81,10 @@ function Home() {
           transform: `translateY(${scrollY * 0.5}px) rotate(${scrollY * 0.1}deg)`,
           border: '2px solid rgba(96, 165, 250, 0.2)',
           animation: 'float 12s ease-in-out infinite',
-          backdropFilter: 'blur(20px)'
+          backdropFilter: 'blur(20px)',
+          pointerEvents: 'none'
         }} />
-        
+
         <div style={{
           position: 'absolute',
           top: '60%',
@@ -92,7 +95,8 @@ function Home() {
           borderRadius: '24px',
           transform: `translateY(${scrollY * -0.4}px) rotate(45deg)`,
           border: '2px solid rgba(168, 85, 247, 0.15)',
-          animation: 'pulse 8s ease-in-out infinite'
+          animation: 'pulse 8s ease-in-out infinite',
+          pointerEvents: 'none'
         }} />
 
         <div style={{
@@ -105,7 +109,8 @@ function Home() {
           borderRadius: '50%',
           transform: `translateY(${scrollY * 0.3}px)`,
           border: '1px solid rgba(34, 197, 94, 0.2)',
-          animation: 'float 15s ease-in-out infinite reverse'
+          animation: 'float 15s ease-in-out infinite reverse',
+          pointerEvents: 'none'
         }} />
 
         <Container size="wide">
@@ -114,7 +119,7 @@ function Home() {
             zIndex: 2,
             maxWidth: '1100px'
           }}>
-            
+
             {/* Credibility indicator */}
             <div style={{
               display: 'flex',
@@ -188,7 +193,7 @@ function Home() {
               }}>
                 Independent evaluations of AI governance practices based on publicly available evidence.
               </p>
-              
+
               <p style={{
                 fontSize: 'clamp(18px, 3vw, 22px)',
                 color: 'rgba(255, 255, 255, 0.85)',
@@ -200,7 +205,7 @@ function Home() {
                 Compare how leading companies approach transparency, fairness, and accountability in their AI systems.
               </p>
             </div>
-            
+
             {/* Primary CTA with clear hierarchy */}
             <div className="hero-buttons" style={{
               display: 'flex',
