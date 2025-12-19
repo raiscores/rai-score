@@ -578,14 +578,14 @@ module.exports = {
 
 ```
 src/
-├── index.css        # Tailwind imports (@tailwind base/components/utilities)
+├── index.css        # Tailwind imports + animations + reusable component classes
 ├── App.css          # Global custom styles (minimal)
-└── components/      # Component-specific styles (inline)
+└── components/      # Tailwind utility classes (inline className)
 ```
 
-### Styling Approaches
+### Primary Styling Approach: Tailwind Utility Classes
 
-#### 1. Tailwind Utility Classes
+The codebase uses Tailwind CSS as the primary styling method:
 
 ```jsx
 <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
@@ -593,20 +593,34 @@ src/
 </div>
 ```
 
-#### 2. Inline Style Objects
+### Reusable Component Classes (index.css)
 
-Used for dynamic styles and complex calculations:
+Common patterns are defined in `index.css` using Tailwind's `@apply` directive:
 
-```jsx
-<div style={{
-  backgroundColor: '#ffffff',
-  borderRadius: '16px',
-  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
-  transition: 'all 0.2s ease'
-}}>
+```css
+/* Animations */
+@keyframes float { ... }
+@keyframes pulse-subtle { ... }
+@keyframes slideInUp { ... }
+@keyframes spin { ... }
+
+/* Layout */
+.container-default { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full; }
+.container-wide { @apply max-w-[1400px] mx-auto px-5 md:px-9 w-full; }
+
+/* Components */
+.glass { @apply bg-white/70 backdrop-blur-lg border-b border-gray-200/80 shadow-sm; }
+.btn-primary { @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors; }
+.btn-secondary { @apply border border-gray-300 hover:bg-gray-50 text-gray-700 font-semibold py-3 px-6 rounded-lg transition-colors; }
+.spinner { @apply w-10 h-10 border-4 border-gray-200 border-t-blue-500 rounded-full animate-spin; }
+
+/* Backgrounds */
+.bg-footer-gradient { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
 ```
 
-#### 3. Dynamic Class Generation
+### Dynamic Class Generation
+
+For status-based styling:
 
 ```jsx
 <div className={`rounded-lg p-4 ${color.bg}`}>
@@ -614,13 +628,25 @@ Used for dynamic styles and complex calculations:
 </div>
 ```
 
-#### 4. Inline Event Handlers for Hover States
+### Hover States: Tailwind Variants
 
 ```jsx
-<button
-  onMouseEnter={e => e.target.style.backgroundColor = '#2563eb'}
-  onMouseLeave={e => e.target.style.backgroundColor = '#3b82f6'}
->
+<button className="bg-blue-500 hover:bg-blue-600 transition-colors duration-200">
+```
+
+### Acceptable Inline Styles
+
+Inline styles are used only for truly dynamic values:
+
+```jsx
+// Parallax effects
+style={{ transform: `translateY(${scrollY * 0.5}px)` }}
+
+// Dynamic progress bar widths
+style={{ width: `${(score / maxScore) * 100}%` }}
+
+// Data-driven colors from JSON
+style={{ backgroundColor: pillar.color }}
 ```
 
 ### Utility Functions
@@ -729,18 +755,21 @@ Defined in `browserslist` in package.json:
 - Larger initial bundle size
 - Limited build customization
 
-### 3. Tailwind CSS + Inline Styles
+### 3. Tailwind CSS as Primary Styling
 
-**Decision**: Hybrid approach using both.
+**Decision**: Tailwind CSS with reusable classes in index.css.
 
 **Rationale**:
-- Tailwind for common patterns
-- Inline styles for dynamic/calculated values
+- Tailwind utility classes for all static styles
+- Reusable component classes (`.glass`, `.btn-primary`, etc.) defined in index.css using `@apply`
+- Inline styles only for truly dynamic values (parallax, calculated widths, data-driven colors)
 - No CSS-in-JS library needed
 
-**Trade-offs**:
-- Inconsistent styling approach
-- Some hover states require inline event handlers
+**Benefits**:
+- Consistent styling approach across all components
+- Smaller bundle size (utility classes are deduplicated)
+- Full access to Tailwind's responsive prefixes and design tokens
+- Hover states use Tailwind's `hover:` variants instead of inline event handlers
 
 ### 4. No Global State Management
 

@@ -100,13 +100,6 @@ function CompanyDirectory() {
   // Check if any filters are active
   const hasActiveFilters = searchTerm || selectedIndustry || scoreRange[0] > 0 || scoreRange[1] < 7 || sortBy !== 'name' || showTopPerformers;
 
-  const gridStyle = {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
-    gap: '1.5rem',
-    marginBottom: '2rem'
-  };
-
   // Loading state
   if (loading) {
     return <LoadingSpinner message="Loading companies..." />;
@@ -124,75 +117,37 @@ function CompanyDirectory() {
   }
 
   return (
-    <div style={{ 
-      minHeight: '100vh', 
-      backgroundColor: '#f8fafc',
-      padding: '2rem 1rem'
-    }}>
-      <div style={{ 
-        maxWidth: '1200px', 
-        margin: '0 auto'
-      }}>
+    <div className="min-h-screen bg-slate-50 py-8 px-4">
+      <div className="max-w-[1200px] mx-auto">
         <Helmet>
           <title>RAI Scores: Company Directory</title>
         </Helmet>
-        
+
         {/* Header Section */}
-        <div style={{ 
-          textAlign: 'center', 
-          marginBottom: '3rem'
-        }}>
-          <h1 style={{ 
-            color: '#1e293b',
-            fontSize: '2.5rem',
-            fontWeight: '700',
-            marginBottom: '1rem',
-            letterSpacing: '-0.025em'
-          }}>
+        <div className="text-center mb-12">
+          <h1 className="text-slate-800 text-4xl font-bold mb-4 tracking-tight">
             Company Directory
           </h1>
-          <p style={{ 
-            color: '#64748b',
-            fontSize: '1.125rem',
-            maxWidth: '600px',
-            margin: '0 auto 2rem auto',
-            lineHeight: '1.6'
-          }}>
-            Browse and compare companies based on their Responsible AI practices. 
+          <p className="text-slate-500 text-lg max-w-[600px] mx-auto mb-8 leading-relaxed">
+            Browse and compare companies based on their Responsible AI practices.
             Our methodology evaluates organizations across key pillars of AI governance.
           </p>
-          
+
           {/* Stats Bar */}
-          <div style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: '2rem',
-            flexWrap: 'wrap',
-            marginBottom: '2rem'
-          }}>
-            <div style={{
-              backgroundColor: 'rgba(59, 130, 246, 0.1)',
-              padding: '1rem 1.5rem',
-              borderRadius: '12px',
-              border: '1px solid rgba(59, 130, 246, 0.2)'
-            }}>
-              <div style={{ color: '#3b82f6', fontSize: '1.5rem', fontWeight: '600' }}>
+          <div className="flex justify-center gap-8 flex-wrap mb-8">
+            <div className="bg-blue-500/10 py-4 px-6 rounded-xl border border-blue-500/20">
+              <div className="text-blue-500 text-2xl font-semibold">
                 {companies.length}
               </div>
-              <div style={{ color: '#64748b', fontSize: '0.875rem' }}>
+              <div className="text-slate-500 text-sm">
                 Companies Evaluated
               </div>
             </div>
-            <div style={{
-              backgroundColor: 'rgba(250, 204, 21, 0.1)',
-              padding: '1rem 1.5rem',
-              borderRadius: '12px',
-              border: '1px solid rgba(250, 204, 21, 0.2)'
-            }}>
-              <div style={{ color: '#eab308', fontSize: '1.5rem', fontWeight: '600' }}>
+            <div className="bg-yellow-400/10 py-4 px-6 rounded-xl border border-yellow-400/20">
+              <div className="text-yellow-500 text-2xl font-semibold">
                 {averageScore.toFixed(1)}
               </div>
-              <div style={{ color: '#64748b', fontSize: '0.875rem' }}>
+              <div className="text-slate-500 text-sm">
                 Average Score
               </div>
             </div>
@@ -217,36 +172,20 @@ function CompanyDirectory() {
         />
 
         {/* Results Info */}
-        <div style={{
-          marginBottom: '1.5rem',
-          color: '#64748b',
-          fontSize: '0.875rem',
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          flexWrap: 'wrap',
-          gap: '0.5rem'
-        }}>
+        <div className="mb-6 text-slate-500 text-sm flex justify-between items-center flex-wrap gap-2">
           <span>
             Showing {filteredAndSortedCompanies.length} of {companies.length} companies
             {searchTerm && ` matching "${searchTerm}"`}
           </span>
           {hasActiveFilters && (
-            <span style={{
-              backgroundColor: '#fef3c7',
-              color: '#d97706',
-              padding: '0.25rem 0.75rem',
-              borderRadius: '12px',
-              fontSize: '0.75rem',
-              fontWeight: '500'
-            }}>
+            <span className="bg-amber-100 text-amber-600 py-1 px-3 rounded-xl text-xs font-medium">
               Filters Applied
             </span>
           )}
         </div>
 
         {/* Company Grid */}
-        <div style={gridStyle}>
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-6 mb-8">
           {filteredAndSortedCompanies.map((company) => (
             <CompanyCard key={company.slug} company={company} />
           ))}
@@ -254,33 +193,18 @@ function CompanyDirectory() {
 
         {/* No Results Message */}
         {filteredAndSortedCompanies.length === 0 && (
-          <div style={{
-            textAlign: 'center',
-            padding: '3rem',
-            color: '#64748b'
-          }}>
-            <Building2 size={48} style={{ marginBottom: '1rem', opacity: 0.5 }} />
-            <p style={{ fontSize: '1.125rem', marginBottom: '0.5rem' }}>
+          <div className="text-center p-12 text-slate-500">
+            <Building2 size={48} className="mx-auto mb-4 opacity-50" />
+            <p className="text-lg mb-2">
               No companies found
             </p>
-            <p style={{ fontSize: '0.875rem', marginBottom: '1rem' }}>
+            <p className="text-sm mb-4">
               Try adjusting your search terms or filters
             </p>
             {hasActiveFilters && (
               <button
                 onClick={clearAllFilters}
-                style={{
-                  padding: '0.5rem 1rem',
-                  backgroundColor: '#3b82f6',
-                  color: '#ffffff',
-                  border: 'none',
-                  borderRadius: '6px',
-                  fontSize: '0.875rem',
-                  cursor: 'pointer',
-                  transition: 'all 0.2s ease'
-                }}
-                onMouseEnter={(e) => e.target.style.backgroundColor = '#2563eb'}
-                onMouseLeave={(e) => e.target.style.backgroundColor = '#3b82f6'}
+                className="py-2 px-4 bg-blue-500 text-white border-none rounded-md text-sm cursor-pointer transition-all duration-200 hover:bg-blue-600"
               >
                 Clear All Filters
               </button>

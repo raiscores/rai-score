@@ -3,54 +3,30 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer style={{
-      background: 'linear-gradient(135deg, #1e293b 0%, #0f172a 100%)',
-      color: '#f8fafc',
-      padding: '4rem 2rem 2rem',
-      fontSize: '0.95rem',
-      marginTop: '0'
-    }}>
-      <div style={{
-        maxWidth: '1400px',
-        margin: '0 auto',
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-        gap: '2rem'
-      }}>
+    <footer className="bg-footer-gradient text-slate-50 pt-16 pb-8 px-8 text-[0.95rem]">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Brand & Mission */}
         <div>
-          <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>
+          <h2 className="text-2xl font-bold mb-4">
             RAI Scores
           </h2>
-          <p style={{ lineHeight: '1.7', color: '#cbd5e1' }}>
+          <p className="leading-relaxed text-slate-300">
             Making AI accountability transparent, accessible, and actionable for everyone.
           </p>
-          <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem' }}>
+          <div className="flex gap-4 mt-6">
             {/* Social Icon Buttons */}
             {[
-              { icon: '𝕏', href: '#' },
-              { icon: '💼', href: '#' },
-              { icon: '📧', href: 'mailto:info@raiscores.com' }
-            ].map(({ icon, href }) => (
+              { icon: '𝕏', href: '#', label: 'X (Twitter)' },
+              { icon: '💼', href: '#', label: 'LinkedIn' },
+              { icon: '📧', href: 'mailto:info@raiscores.com', label: 'Email' }
+            ].map(({ icon, href, label }) => (
               <a
                 key={icon}
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{
-                  width: '42px',
-                  height: '42px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  borderRadius: '50%',
-                  backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                  color: '#f1f5f9',
-                  textDecoration: 'none',
-                  transition: 'background 0.3s ease'
-                }}
-                onMouseEnter={e => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)'}
-                onMouseLeave={e => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)'}
+                aria-label={label}
+                className="w-11 h-11 flex items-center justify-center rounded-full bg-white/10 text-slate-100 no-underline transition-colors duration-300 hover:bg-white/20"
               >
                 {icon}
               </a>
@@ -60,60 +36,43 @@ function Footer() {
 
         {/* Quick Links */}
         <div>
-          <h4 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '1rem' }}>
+          <h4 className="text-lg font-semibold mb-4">
             Quick Links
           </h4>
-          <ul style={{ listStyle: 'none', padding: 0, margin: 0, lineHeight: '2' }}>
-            <li><Link to="/companies" style={linkStyle}>Browse Companies</Link></li>
-            <li><Link to="/methodology" style={linkStyle}>Our Methodology</Link></li>
-            <li><Link to="/about" style={linkStyle}>About Us</Link></li>
-            <li><Link to="/request" style={linkStyle}>Request Evaluation</Link></li>
-			<li><Link to="/blog" style={linkStyle}>Blog</Link></li>
-			<li><Link to="/faq" style={linkStyle}>FAQ</Link></li>
+          <ul className="list-none p-0 m-0 space-y-2">
+            <li><Link to="/companies" className="text-slate-100 no-underline transition-colors duration-200 hover:text-white">Browse Companies</Link></li>
+            <li><Link to="/methodology" className="text-slate-100 no-underline transition-colors duration-200 hover:text-white">Our Methodology</Link></li>
+            <li><Link to="/about" className="text-slate-100 no-underline transition-colors duration-200 hover:text-white">About Us</Link></li>
+            <li><Link to="/request" className="text-slate-100 no-underline transition-colors duration-200 hover:text-white">Request Evaluation</Link></li>
+            <li><Link to="/blog" className="text-slate-100 no-underline transition-colors duration-200 hover:text-white">Blog</Link></li>
+            <li><Link to="/faq" className="text-slate-100 no-underline transition-colors duration-200 hover:text-white">FAQ</Link></li>
           </ul>
         </div>
 
         {/* Contact */}
         <div>
-          <h4 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '1rem' }}>
+          <h4 className="text-lg font-semibold mb-4">
             Get in Touch
           </h4>
-          <p style={{ marginBottom: '0.5rem', color: '#f1f5f9' }}>
+          <p className="mb-2 text-slate-100">
             📧 info@raiscores.com
           </p>
-          <p style={{ color: '#cbd5e1', lineHeight: '1.7' }}>
+          <p className="text-slate-300 leading-relaxed">
             Have questions about our methodology or want to request a company evaluation? We'd love to hear from you.
           </p>
         </div>
       </div>
 
       {/* Footer bottom bar */}
-      <div style={{
-        borderTop: '1px solid rgba(255, 255, 255, 0.1)',
-        marginTop: '3rem',
-        paddingTop: '1.5rem',
-        display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        fontSize: '0.85rem',
-        color: '#94a3b8'
-      }}>
+      <div className="border-t border-white/10 mt-12 pt-6 flex flex-wrap justify-between items-center text-sm text-slate-400">
         <span>© {new Date().getFullYear()} RAI Scores - Responsible AI Scorecard. All rights reserved.</span>
-        <div style={{ display: 'flex', gap: '1.5rem' }}>
-          <Link to="/privacy" style={linkStyle}>Privacy Policy</Link>
-          <Link to="/terms" style={linkStyle}>Terms of Service</Link>
+        <div className="flex gap-6">
+          <Link to="/privacy" className="text-slate-100 no-underline transition-colors duration-200 hover:text-white">Privacy Policy</Link>
+          <Link to="/terms" className="text-slate-100 no-underline transition-colors duration-200 hover:text-white">Terms of Service</Link>
         </div>
       </div>
     </footer>
   );
 }
-
-// Shared link style
-const linkStyle = {
-  color: '#f1f5f9',
-  textDecoration: 'none',
-  transition: 'color 0.2s ease'
-};
 
 export default Footer;

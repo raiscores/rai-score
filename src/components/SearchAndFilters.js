@@ -17,81 +17,32 @@ function Dropdown({ label, value, onChange, options, placeholder }) {
   }, []);
 
   return (
-    <div ref={dropdownRef} style={{ position: 'relative', minWidth: '200px' }}>
-      <label style={{ 
-        display: 'block', 
-        fontSize: '0.875rem', 
-        fontWeight: '500', 
-        color: '#374151', 
-        marginBottom: '0.5rem' 
-      }}>
+    <div ref={dropdownRef} className="relative min-w-[200px]">
+      <label className="block text-sm font-medium text-gray-700 mb-2">
         {label}
       </label>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        style={{
-          width: '100%',
-          padding: '0.75rem 1rem',
-          border: '1px solid #d1d5db',
-          borderRadius: '8px',
-          backgroundColor: '#ffffff',
-          fontSize: '0.875rem',
-          textAlign: 'left',
-          cursor: 'pointer',
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          transition: 'all 0.2s ease'
-        }}
-        onMouseEnter={(e) => e.target.style.borderColor = '#3b82f6'}
-        onMouseLeave={(e) => e.target.style.borderColor = '#d1d5db'}
+        className="w-full py-3 px-4 border border-gray-300 rounded-lg bg-white text-sm text-left cursor-pointer flex justify-between items-center transition-all duration-200 hover:border-blue-500"
       >
-        <span style={{ color: value ? '#1f2937' : '#9ca3af' }}>
+        <span className={value ? 'text-gray-800' : 'text-gray-400'}>
           {value || placeholder}
         </span>
-        <ChevronDown 
-          size={16} 
-          style={{ 
-            transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)',
-            transition: 'transform 0.2s ease'
-          }} 
+        <ChevronDown
+          size={16}
+          className={`transition-transform duration-200 ${isOpen ? 'rotate-180' : 'rotate-0'}`}
         />
       </button>
-      
+
       {isOpen && (
-        <div style={{
-          position: 'absolute',
-          top: '100%',
-          left: 0,
-          right: 0,
-          backgroundColor: '#ffffff',
-          border: '1px solid #d1d5db',
-          borderRadius: '8px',
-          boxShadow: '0 10px 25px rgba(0, 0, 0, 0.1)',
-          zIndex: 1000,
-          maxHeight: '200px',
-          overflowY: 'auto',
-          marginTop: '4px'
-        }}>
+        <div className="absolute top-full left-0 right-0 bg-white border border-gray-300 rounded-lg shadow-lg z-[1000] max-h-[200px] overflow-y-auto mt-1">
           {value && (
             <button
               onClick={() => {
                 onChange('');
                 setIsOpen(false);
               }}
-              style={{
-                width: '100%',
-                padding: '0.75rem 1rem',
-                border: 'none',
-                backgroundColor: 'transparent',
-                textAlign: 'left',
-                cursor: 'pointer',
-                fontSize: '0.875rem',
-                color: '#6b7280',
-                borderBottom: '1px solid #f3f4f6'
-              }}
-              onMouseEnter={(e) => e.target.style.backgroundColor = '#f9fafb'}
-              onMouseLeave={(e) => e.target.style.backgroundColor = 'transparent'}
+              className="w-full py-3 px-4 border-none bg-transparent text-left cursor-pointer text-sm text-gray-500 border-b border-gray-100 hover:bg-gray-50"
             >
               Clear selection
             </button>
@@ -103,18 +54,9 @@ function Dropdown({ label, value, onChange, options, placeholder }) {
                 onChange(option);
                 setIsOpen(false);
               }}
-              style={{
-                width: '100%',
-                padding: '0.75rem 1rem',
-                border: 'none',
-                backgroundColor: value === option ? '#f3f4f6' : 'transparent',
-                textAlign: 'left',
-                cursor: 'pointer',
-                fontSize: '0.875rem',
-                color: '#1f2937'
-              }}
-              onMouseEnter={(e) => e.target.style.backgroundColor = '#f9fafb'}
-              onMouseLeave={(e) => e.target.style.backgroundColor = value === option ? '#f3f4f6' : 'transparent'}
+              className={`w-full py-3 px-4 border-none text-left cursor-pointer text-sm text-gray-800 hover:bg-gray-50 ${
+                value === option ? 'bg-gray-100' : 'bg-transparent'
+              }`}
             >
               {option}
             </button>
@@ -129,16 +71,10 @@ function Dropdown({ label, value, onChange, options, placeholder }) {
 function RangeSlider({ label, min, max, value, onChange, step = 0.1 }) {
   return (
     <div>
-      <label style={{ 
-        display: 'block', 
-        fontSize: '0.875rem', 
-        fontWeight: '500', 
-        color: '#374151', 
-        marginBottom: '0.5rem' 
-      }}>
+      <label className="block text-sm font-medium text-gray-700 mb-2">
         {label}
       </label>
-      <div style={{ padding: '0 0.5rem' }}>
+      <div className="px-2">
         <input
           type="range"
           min={min}
@@ -146,11 +82,7 @@ function RangeSlider({ label, min, max, value, onChange, step = 0.1 }) {
           step={step}
           value={value[0]}
           onChange={(e) => onChange([parseFloat(e.target.value), value[1]])}
-          style={{
-            width: '100%',
-            marginBottom: '0.5rem',
-            accentColor: '#3b82f6'
-          }}
+          className="w-full mb-2 accent-blue-500"
         />
         <input
           type="range"
@@ -159,18 +91,9 @@ function RangeSlider({ label, min, max, value, onChange, step = 0.1 }) {
           step={step}
           value={value[1]}
           onChange={(e) => onChange([value[0], parseFloat(e.target.value)])}
-          style={{
-            width: '100%',
-            marginBottom: '0.5rem',
-            accentColor: '#3b82f6'
-          }}
+          className="w-full mb-2 accent-blue-500"
         />
-        <div style={{ 
-          display: 'flex', 
-          justifyContent: 'space-between', 
-          fontSize: '0.75rem', 
-          color: '#6b7280' 
-        }}>
+        <div className="flex justify-between text-xs text-gray-500">
           <span>{value[0].toFixed(1)}</span>
           <span>{value[1].toFixed(1)}</span>
         </div>
@@ -197,92 +120,38 @@ function SearchAndFilters({
   const [filtersVisible, setFiltersVisible] = useState(false);
 
   return (
-    <div style={{ marginBottom: '2rem' }}>
+    <div className="mb-8">
       {/* Search Bar */}
-      <div style={{ 
-        position: 'relative',
-        maxWidth: '500px',
-        margin: '0 auto 1.5rem auto'
-      }}>
-        <Search 
-          size={20} 
-          style={{ 
-            position: 'absolute',
-            left: '1rem',
-            top: '50%',
-            transform: 'translateY(-50%)',
-            color: '#64748b'
-          }} 
+      <div className="relative max-w-[500px] mx-auto mb-6">
+        <Search
+          size={20}
+          className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500"
         />
         <input
           type="text"
           placeholder="Search companies or industries..."
           value={searchTerm}
           onChange={(e) => onSearchChange(e.target.value)}
-          style={{
-            width: '100%',
-            padding: '0.875rem 1rem 0.875rem 3rem',
-            border: '1px solid #cbd5e1',
-            borderRadius: '12px',
-            fontSize: '1rem',
-            backgroundColor: '#ffffff',
-            boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)',
-            outline: 'none',
-            transition: 'all 0.2s ease'
-          }}
-          onFocus={(e) => {
-            e.target.style.borderColor = '#3b82f6';
-            e.target.style.boxShadow = '0 0 0 3px rgba(59, 130, 246, 0.1)';
-          }}
-          onBlur={(e) => {
-            e.target.style.borderColor = '#cbd5e1';
-            e.target.style.boxShadow = '0 1px 3px rgba(0, 0, 0, 0.1)';
-          }}
+          className="w-full py-3.5 pr-4 pl-12 border border-slate-300 rounded-xl text-base bg-white shadow-sm outline-none transition-all duration-200 focus:border-blue-500 focus:ring-[3px] focus:ring-blue-500/10"
         />
       </div>
 
       {/* Filter Toggle Button */}
-      <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
+      <div className="text-center mb-4">
         <button
           onClick={() => setFiltersVisible(!filtersVisible)}
-          style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-            padding: '0.75rem 1.5rem',
-            backgroundColor: filtersVisible ? '#3b82f6' : '#ffffff',
-            color: filtersVisible ? '#ffffff' : '#374151',
-            border: `1px solid ${filtersVisible ? '#3b82f6' : '#d1d5db'}`,
-            borderRadius: '8px',
-            fontSize: '0.875rem',
-            fontWeight: '500',
-            cursor: 'pointer',
-            transition: 'all 0.2s ease'
-          }}
-          onMouseEnter={(e) => {
-            if (!filtersVisible) {
-              e.target.style.backgroundColor = '#f9fafb';
-              e.target.style.borderColor = '#3b82f6';
-            }
-          }}
-          onMouseLeave={(e) => {
-            if (!filtersVisible) {
-              e.target.style.backgroundColor = '#ffffff';
-              e.target.style.borderColor = '#d1d5db';
-            }
-          }}
+          className={`inline-flex items-center gap-2 py-3 px-6 rounded-lg text-sm font-medium cursor-pointer transition-all duration-200 ${
+            filtersVisible
+              ? 'bg-blue-500 text-white border border-blue-500'
+              : 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-50 hover:border-blue-500'
+          }`}
         >
           <SlidersHorizontal size={16} />
           Advanced Filters
           {hasActiveFilters && (
-            <span style={{
-              backgroundColor: filtersVisible ? 'rgba(255, 255, 255, 0.2)' : '#ef4444',
-              color: filtersVisible ? '#ffffff' : '#ffffff',
-              borderRadius: '10px',
-              padding: '0.125rem 0.5rem',
-              fontSize: '0.75rem',
-              fontWeight: '600'
-            }}>
+            <span className={`rounded-xl py-0.5 px-2 text-xs font-semibold ${
+              filtersVisible ? 'bg-white/20 text-white' : 'bg-red-500 text-white'
+            }`}>
               Active
             </span>
           )}
@@ -291,20 +160,8 @@ function SearchAndFilters({
 
       {/* Filter Panel */}
       {filtersVisible && (
-        <div style={{
-          backgroundColor: '#ffffff',
-          border: '1px solid #e5e7eb',
-          borderRadius: '12px',
-          padding: '1.5rem',
-          marginBottom: '1rem',
-          boxShadow: '0 4px 6px rgba(0, 0, 0, 0.05)'
-        }}>
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-            gap: '1.5rem',
-            alignItems: 'start'
-          }}>
+        <div className="bg-white border border-gray-200 rounded-xl p-6 mb-4 shadow-sm">
+          <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6 items-start">
             {/* Industry Filter */}
             <Dropdown
               label="Industry"
@@ -335,32 +192,17 @@ function SearchAndFilters({
 
             {/* Top Performers Toggle */}
             <div>
-              <label style={{ 
-                display: 'block', 
-                fontSize: '0.875rem', 
-                fontWeight: '500', 
-                color: '#374151', 
-                marginBottom: '0.5rem' 
-              }}>
+              <label className="block text-sm font-medium text-gray-700 mb-2">
                 Quick Filters
               </label>
-              <label style={{ 
-                display: 'flex', 
-                alignItems: 'center', 
-                gap: '0.5rem',
-                cursor: 'pointer',
-                padding: '0.5rem 0'
-              }}>
+              <label className="flex items-center gap-2 cursor-pointer py-2">
                 <input
                   type="checkbox"
                   checked={showTopPerformers}
                   onChange={(e) => onTopPerformersChange(e.target.checked)}
-                  style={{
-                    accentColor: '#3b82f6',
-                    transform: 'scale(1.1)'
-                  }}
+                  className="accent-blue-500 scale-110"
                 />
-                <span style={{ fontSize: '0.875rem', color: '#374151' }}>
+                <span className="text-sm text-gray-700">
                   Top Performers Only (6.5+)
                 </span>
               </label>
@@ -369,35 +211,10 @@ function SearchAndFilters({
 
           {/* Clear Filters */}
           {hasActiveFilters && (
-            <div style={{ 
-              marginTop: '1.5rem', 
-              paddingTop: '1.5rem', 
-              borderTop: '1px solid #e5e7eb',
-              textAlign: 'center'
-            }}>
+            <div className="mt-6 pt-6 border-t border-gray-200 text-center">
               <button
                 onClick={onClearAll}
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '0.5rem',
-                  padding: '0.5rem 1rem',
-                  backgroundColor: 'transparent',
-                  color: '#6b7280',
-                  border: '1px solid #d1d5db',
-                  borderRadius: '6px',
-                  fontSize: '0.875rem',
-                  cursor: 'pointer',
-                  transition: 'all 0.2s ease'
-                }}
-                onMouseEnter={(e) => {
-                  e.target.style.backgroundColor = '#f9fafb';
-                  e.target.style.color = '#374151';
-                }}
-                onMouseLeave={(e) => {
-                  e.target.style.backgroundColor = 'transparent';
-                  e.target.style.color = '#6b7280';
-                }}
+                className="inline-flex items-center gap-2 py-2 px-4 bg-transparent text-gray-500 border border-gray-300 rounded-md text-sm cursor-pointer transition-all duration-200 hover:bg-gray-50 hover:text-gray-700"
               >
                 <X size={14} />
                 Clear All Filters

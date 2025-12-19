@@ -17,15 +17,15 @@ function CompanyName({ name }) {
 
     function adjustFontSize() {
       if (!el) return;
-      
+
       el.textContent = name;
       el.style.fontSize = currentSize + 'px';
-      
+
       while (el.scrollWidth > el.clientWidth && currentSize > MIN_FONT_SIZE) {
         currentSize -= 1;
         el.style.fontSize = currentSize + 'px';
       }
-      
+
       if (el.scrollWidth > el.clientWidth || name.length > CHARACTER_LIMIT) {
         setShouldTruncate(true);
         const truncatedName = name.substring(0, CHARACTER_LIMIT) + '...';
@@ -33,7 +33,7 @@ function CompanyName({ name }) {
       } else {
         setShouldTruncate(false);
       }
-      
+
       setFontSize(currentSize);
     }
 
@@ -45,20 +45,12 @@ function CompanyName({ name }) {
   return (
     <h3
       ref={nameRef}
-      style={{
-        color: '#1e293b',
-        fontWeight: '600',
-        margin: '0 0 0.25rem 0',
-        lineHeight: '1.2',
-        fontSize: fontSize + 'px',
-        whiteSpace: 'nowrap',
-        overflow: 'hidden',
-        textOverflow: 'ellipsis',
-        cursor: shouldTruncate ? 'help' : 'default'
-      }}
+      className={`text-slate-800 font-semibold m-0 mb-1 leading-tight whitespace-nowrap overflow-hidden text-ellipsis ${
+        shouldTruncate ? 'cursor-help' : 'cursor-default'
+      }`}
+      style={{ fontSize: fontSize + 'px' }}
       title={name}
-    >
-    </h3>
+    />
   );
 }
 
@@ -66,20 +58,28 @@ function displayScore(score) {
   return typeof score === "number" && !isNaN(score) ? score.toFixed(1) : "N/A";
 }
 
-const getScoreColor = (score, maxScore) => {
+const getScoreColorClass = (score, maxScore) => {
   const percentage = (score / maxScore) * 100;
-  if (percentage >= 80) return '#22c55e';
-  if (percentage >= 70) return '#3b82f6';
-  if (percentage >= 60) return '#facc15';
-  return '#ef4444';
+  if (percentage >= 80) return 'text-green-500';
+  if (percentage >= 70) return 'text-blue-500';
+  if (percentage >= 60) return 'text-yellow-400';
+  return 'text-red-500';
 };
 
-const getScoreBackgroundColor = (score, maxScore) => {
+const getScoreBgClass = (score, maxScore) => {
   const percentage = (score / maxScore) * 100;
-  if (percentage >= 80) return 'rgba(34, 197, 94, 0.15)';
-  if (percentage >= 70) return 'rgba(59, 130, 246, 0.15)';
-  if (percentage >= 60) return 'rgba(250, 204, 21, 0.15)';
-  return 'rgba(239, 68, 68, 0.15)';
+  if (percentage >= 80) return 'bg-green-500/15';
+  if (percentage >= 70) return 'bg-blue-500/15';
+  if (percentage >= 60) return 'bg-yellow-400/15';
+  return 'bg-red-500/15';
+};
+
+const getScoreBarColor = (score, maxScore) => {
+  const percentage = (score / maxScore) * 100;
+  if (percentage >= 80) return 'bg-green-500';
+  if (percentage >= 70) return 'bg-blue-500';
+  if (percentage >= 60) return 'bg-yellow-400';
+  return 'bg-red-500';
 };
 
 const getCompanyInitials = (name) => {
@@ -88,133 +88,53 @@ const getCompanyInitials = (name) => {
 
 function CompanyCard({ company }) {
   return (
-    <Link 
+    <Link
       to={`/company/${company.slug}`}
-      style={{ textDecoration: 'none' }}
+      className="no-underline"
     >
-      <div
-        style={{
-          backgroundColor: '#ffffff',
-          borderRadius: '16px',
-          padding: '1.5rem',
-          boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
-          border: '1px solid rgba(203, 213, 225, 0.5)',
-          transition: 'all 0.2s ease',
-          cursor: 'pointer',
-          height: '100%',
-          display: 'flex',
-          flexDirection: 'column'
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.transform = 'translateY(-2px)';
-          e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.12)';
-          e.currentTarget.style.borderColor = 'rgba(59, 130, 246, 0.3)';
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.transform = 'translateY(0)';
-          e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
-          e.currentTarget.style.borderColor = 'rgba(203, 213, 225, 0.5)';
-        }}
-      >
+      <div className="bg-white rounded-2xl p-6 shadow-lg border border-slate-200/50 transition-all duration-200 cursor-pointer h-full flex flex-col hover:-translate-y-0.5 hover:shadow-xl hover:border-blue-300">
         {/* Company Header */}
-        <div style={{ 
-          display: 'flex',
-          alignItems: 'center',
-          marginBottom: '1rem'
-        }}>
+        <div className="flex items-center mb-4">
           {/* Company Avatar */}
-          <div style={{
-            width: '48px',
-            height: '48px',
-            borderRadius: '12px',
-            backgroundColor: 'rgba(59, 130, 246, 0.1)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            marginRight: '1rem',
-            border: '1px solid rgba(59, 130, 246, 0.2)'
-          }}>
-            <span style={{
-              color: '#3b82f6',
-              fontWeight: '600',
-              fontSize: '1rem'
-            }}>
+          <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center mr-4 border border-blue-500/20">
+            <span className="text-blue-500 font-semibold text-base">
               {getCompanyInitials(company.name)}
             </span>
           </div>
-          
+
           {/* Company Info */}
-          <div style={{ flex: 1, minWidth: 0 }}>
+          <div className="flex-1 min-w-0">
             <CompanyName name={company.name} />
-            <div style={{
-              display: 'inline-block',
-              backgroundColor: 'rgba(100, 116, 139, 0.1)',
-              color: '#64748b',
-              padding: '0.25rem 0.75rem',
-              borderRadius: '6px',
-              fontSize: '0.75rem',
-              fontWeight: '500'
-            }}>
+            <div className="inline-block bg-slate-500/10 text-slate-500 py-1 px-3 rounded-md text-xs font-medium">
               {company.industry}
             </div>
           </div>
         </div>
 
         {/* Score Section */}
-        <div style={{ 
-          marginTop: 'auto',
-          padding: '1rem',
-          backgroundColor: getScoreBackgroundColor(company.score, company.max_score),
-          borderRadius: '12px',
-          border: `1px solid ${getScoreColor(company.score, company.max_score)}20`
-        }}>
-          <div style={{ 
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            marginBottom: '0.5rem'
-          }}>
-            <span style={{ 
-              color: '#64748b',
-              fontSize: '0.875rem',
-              fontWeight: '500'
-            }}>
+        <div className={`mt-auto p-4 rounded-xl border ${getScoreBgClass(company.score, company.max_score)} border-current/20`}>
+          <div className="flex justify-between items-center mb-2">
+            <span className="text-slate-500 text-sm font-medium">
               Responsible AI Score
             </span>
-            <span style={{ 
-              color: getScoreColor(company.score, company.max_score),
-              fontSize: '1.5rem',
-              fontWeight: '700'
-            }}>
+            <span className={`text-2xl font-bold ${getScoreColorClass(company.score, company.max_score)}`}>
               {displayScore(company.score)}
-              <span style={{ 
-                fontSize: '1.05rem',
-                color: '#64748b',
-                fontWeight: '400',
-                marginLeft: '0.4rem' 
-              }}>
-                 {company.max_score ? `/${company.max_score}` : ""}
+              <span className="text-base text-slate-500 font-normal ml-1">
+                {company.max_score ? `/${company.max_score}` : ""}
               </span>
             </span>
           </div>
-          
+
           {/* Progress Bar */}
-          <div style={{
-            width: '100%',
-            height: '6px',
-            backgroundColor: 'rgba(100, 116, 139, 0.2)',
-            borderRadius: '3px',
-            overflow: 'hidden'
-          }}>
-            <div style={{
-              height: '100%',
-              width: typeof company.score === "number" && typeof company.max_score === "number"
-                ? `${(company.score / company.max_score) * 100}%`
-                : "0%",
-              backgroundColor: getScoreColor(company.score, company.max_score),
-              borderRadius: '3px',
-              transition: 'width 0.3s ease'
-            }} />
+          <div className="w-full h-1.5 bg-slate-500/20 rounded-sm overflow-hidden">
+            <div
+              className={`h-full rounded-sm transition-all duration-300 ${getScoreBarColor(company.score, company.max_score)}`}
+              style={{
+                width: typeof company.score === "number" && typeof company.max_score === "number"
+                  ? `${(company.score / company.max_score) * 100}%`
+                  : "0%"
+              }}
+            />
           </div>
         </div>
       </div>

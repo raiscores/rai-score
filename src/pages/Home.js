@@ -2,26 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Eye, Scale, Lightbulb, Users, Shield, Building, CheckCircle, AlertTriangle, Zap, Target, TrendingUp, Info, ArrowRight, BarChart3, FileText, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-
-// Mock Container component with enhanced responsiveness
-const Container = ({ children, size = 'default' }) => {
-  const maxWidths = {
-    default: '1400px',
-    wide: '1400px',
-    narrow: '900px'
-  };
-  
-  return (
-    <div style={{ 
-      maxWidth: maxWidths[size], 
-      margin: '0 auto', 
-      padding: '0 clamp(20px, 4vw, 36px)',
-      width: '100%'
-    }}>
-      {children}
-    </div>
-  );
-};
+import Container from '../components/Container';
 
 function Home() {
   const [scrollY, setScrollY] = useState(0);
@@ -52,12 +33,7 @@ function Home() {
   }, []);
 
   return (
-    <div style={{ 
-      fontFamily: 'Inter, SF Pro Display, system-ui, -apple-system, sans-serif',
-      color: '#0f172a',
-      lineHeight: '1.6',
-      overflow: 'hidden'
-    }}>
+    <div className="font-sans text-slate-900 leading-relaxed overflow-hidden">
       {/* Page Title */}
       <Helmet>
         <title>RAI Scores • Independent AI Accountability Evaluations</title>

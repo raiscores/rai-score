@@ -1,50 +1,22 @@
 import React from 'react';
 
-function LoadingSpinner({ 
-  message = "Loading...", 
-  size = 40, 
-  fullScreen = true,
-  backgroundColor = '#f8fafc'
+/**
+ * Loading spinner component with optional message
+ * Uses the .spinner class defined in index.css
+ */
+function LoadingSpinner({
+  message = "Loading...",
+  fullScreen = true
 }) {
-  const containerStyle = {
-    padding: '2rem 1rem',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    textAlign: 'center',
-    ...(fullScreen && {
-      minHeight: '100vh',
-      backgroundColor: backgroundColor
-    })
-  };
-
-  const spinnerStyle = {
-    width: `${size}px`,
-    height: `${size}px`,
-    border: '4px solid #e5e7eb',
-    borderTop: '4px solid #3b82f6',
-    borderRadius: '50%',
-    animation: 'spin 1s linear infinite',
-    margin: '0 auto 1rem'
-  };
+  const containerClasses = fullScreen
+    ? "min-h-screen bg-slate-50 flex items-center justify-center p-4 text-center"
+    : "p-8 flex items-center justify-center text-center";
 
   return (
-    <div style={containerStyle}>
-      <style>
-        {`
-          @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-          }
-        `}
-      </style>
+    <div className={containerClasses}>
       <div>
-        <div style={spinnerStyle} />
-        <p style={{ 
-          color: '#64748b', 
-          fontSize: '1rem',
-          margin: 0
-        }}>
+        <div className="spinner mx-auto mb-4" />
+        <p className="text-slate-500 text-base m-0">
           {message}
         </p>
       </div>

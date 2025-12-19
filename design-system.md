@@ -161,227 +161,129 @@ padding: 0.85rem 1rem; /* Mobile */
 
 ## Component Styling Patterns
 
+All components use Tailwind CSS utility classes as the primary styling method. Reusable patterns are defined in `src/index.css` using `@apply`.
+
 ### Cards
 
-```css
-/* Base Card */
-{
-  backgroundColor: '#ffffff',
-  borderRadius: '16px',
-  padding: '1.5rem',
-  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
-  border: '1px solid rgba(203, 213, 225, 0.5)',
-  transition: 'all 0.2s ease'
-}
+```jsx
+{/* Base Card - Tailwind classes */}
+<div className="bg-white rounded-2xl p-6 shadow-lg border border-slate-200/50 transition-all duration-200">
 
-/* Card Hover State */
-{
-  transform: 'translateY(-2px)',
-  boxShadow: '0 12px 40px rgba(0, 0, 0, 0.12)',
-  borderColor: 'rgba(59, 130, 246, 0.3)'
-}
-
-/* Tailwind Card Classes */
-.card: "bg-white rounded-xl p-6 shadow-sm border border-gray-200"
-.card-hover: "hover:shadow-md transition-all duration-300"
+{/* Card with hover effect */}
+<div className="bg-white rounded-2xl p-6 shadow-lg border border-slate-200/50
+                transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl hover:border-blue-300">
 ```
 
 ### Buttons
 
-#### Primary Button
-```css
-{
-  backgroundColor: '#3b82f6',
-  color: '#ffffff',
-  padding: '0.75rem 1.5rem',
-  borderRadius: '8px',
-  fontWeight: '600',
-  transition: 'all 0.2s ease'
-}
-/* Hover: backgroundColor: '#2563eb' */
-```
+```jsx
+{/* Primary Button - uses .btn-primary from index.css */}
+<button className="btn-primary">Submit</button>
 
-#### Secondary/Outline Button
-```css
-{
-  backgroundColor: 'transparent',
-  color: '#374151',
-  border: '1px solid #d1d5db',
-  padding: '0.75rem 1.5rem',
-  borderRadius: '8px'
-}
-```
+{/* Or inline Tailwind */}
+<button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors">
 
-#### Filter Toggle Button
-```css
-/* Active State */
-{
-  backgroundColor: '#3b82f6',
-  color: '#ffffff',
-  border: '1px solid #3b82f6'
-}
-/* Inactive State */
-{
-  backgroundColor: '#ffffff',
-  color: '#374151',
-  border: '1px solid #d1d5db'
-}
+{/* Secondary Button - uses .btn-secondary from index.css */}
+<button className="btn-secondary">Cancel</button>
+
+{/* Filter Toggle (active/inactive states) */}
+<button className={`py-3 px-6 rounded-lg text-sm font-medium transition-all duration-200 ${
+  isActive
+    ? 'bg-blue-500 text-white border border-blue-500'
+    : 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-50'
+}`}>
 ```
 
 ### Form Inputs
 
-```css
-/* Text Input */
-{
-  padding: '0.875rem 1rem 0.875rem 3rem', /* With icon */
-  border: '1px solid #cbd5e1',
-  borderRadius: '12px',
-  fontSize: '1rem',
-  backgroundColor: '#ffffff',
-  boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)'
-}
-
-/* Focus State */
-{
-  borderColor: '#3b82f6',
-  boxShadow: '0 0 0 3px rgba(59, 130, 246, 0.1)'
-}
+```jsx
+{/* Search Input with icon */}
+<input className="w-full py-3.5 pr-4 pl-12 border border-slate-300 rounded-xl
+                  text-base bg-white shadow-sm outline-none transition-all duration-200
+                  focus:border-blue-500 focus:ring-[3px] focus:ring-blue-500/10" />
 ```
 
 ### Dropdown Menus
 
-```css
-/* Dropdown Container */
-{
-  backgroundColor: '#ffffff',
-  border: '1px solid #d1d5db',
-  borderRadius: '8px',
-  boxShadow: '0 10px 25px rgba(0, 0, 0, 0.1)',
-  maxHeight: '200px',
-  overflowY: 'auto'
-}
+```jsx
+{/* Dropdown Container */}
+<div className="absolute top-full left-0 right-0 bg-white border border-gray-300
+                rounded-lg shadow-lg z-[1000] max-h-[200px] overflow-y-auto mt-1">
 
-/* Dropdown Item Hover */
-{
-  backgroundColor: '#f9fafb'
-}
+{/* Dropdown Item */}
+<button className="w-full py-3 px-4 border-none text-left text-sm text-gray-800
+                   hover:bg-gray-50 bg-transparent">
 ```
 
 ### Navigation
 
-```css
-/* Sticky NavBar */
-{
-  position: 'sticky',
-  top: 0,
-  zIndex: 1000,
-  backdropFilter: 'blur(20px)',
-  background: 'rgba(255, 255, 255, 0.7)',
-  borderBottom: '1px solid rgba(229, 231, 235, 0.8)',
-  boxShadow: '0 2px 12px rgba(0, 0, 0, 0.05)'
-}
+```jsx
+{/* Sticky NavBar - uses .glass from index.css */}
+<nav className="sticky top-0 z-50 glass transition-all duration-300">
 
-/* Nav Links */
-{
-  fontSize: '1rem',
-  fontWeight: 600,
-  textTransform: 'uppercase',
-  letterSpacing: '0.05em',
-  color: '#1e293b'
-}
-/* Hover: color: '#3b82f6' */
+{/* Nav Links */}
+<Link className="text-base font-semibold uppercase tracking-wide text-slate-800
+                 no-underline py-1 transition-colors duration-300 hover:text-blue-500">
 ```
 
 ### Progress Bars
 
-```css
-/* Container */
-{
-  width: '100%',
-  height: '6px', /* Cards */ or '3px' /* Detail */
-  backgroundColor: 'rgba(100, 116, 139, 0.2)',
-  borderRadius: '3px',
-  overflow: 'hidden'
-}
-
-/* Fill (animated) */
-{
-  height: '100%',
-  backgroundColor: '{dynamic based on score}',
-  borderRadius: '3px',
-  transition: 'width 0.3s ease'
-}
+```jsx
+{/* Progress Bar Container */}
+<div className="w-full h-1.5 bg-slate-500/20 rounded-sm overflow-hidden">
+  {/* Progress Bar Fill - width is dynamic */}
+  <div
+    className="h-full rounded-sm transition-all duration-300 bg-green-500"
+    style={{ width: `${percentage}%` }}
+  />
+</div>
 ```
 
 ### Badges & Tags
 
-```css
-/* Industry Tag */
-{
-  backgroundColor: 'rgba(100, 116, 139, 0.1)',
-  color: '#64748b',
-  padding: '0.25rem 0.75rem',
-  borderRadius: '6px',
-  fontSize: '0.75rem',
-  fontWeight: '500'
-}
+```jsx
+{/* Industry Tag */}
+<div className="inline-block bg-slate-500/10 text-slate-500 py-1 px-3 rounded-md text-xs font-medium">
+  Technology
+</div>
 
-/* Status Badge */
-{
-  padding: '0.125rem 0.5rem',
-  borderRadius: '10px',
-  fontSize: '0.75rem',
-  fontWeight: '600'
-}
+{/* Status Badge */}
+<span className="bg-amber-100 text-amber-600 py-1 px-3 rounded-xl text-xs font-medium">
+  Filters Applied
+</span>
 
-/* Quality Indicator Pill */
-"flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-full"
+{/* Quality Indicator Pill */}
+<div className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-full">
 ```
 
 ### Avatars (Company Initials)
 
-```css
-{
-  width: '48px',
-  height: '48px',
-  borderRadius: '12px',
-  backgroundColor: 'rgba(59, 130, 246, 0.1)',
-  border: '1px solid rgba(59, 130, 246, 0.2)',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center'
-}
+```jsx
+<div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center border border-blue-500/20">
+  <span className="text-blue-500 font-semibold text-base">GO</span>
+</div>
 ```
 
 ### Loading Spinner
 
-```css
-{
-  width: '40px',
-  height: '40px',
-  border: '4px solid #e5e7eb',
-  borderTop: '4px solid #3b82f6',
-  borderRadius: '50%',
-  animation: 'spin 1s linear infinite'
+```jsx
+{/* Uses .spinner class from index.css */}
+<div className="spinner mx-auto mb-4" />
+
+{/* Full implementation in index.css */}
+.spinner {
+  @apply w-10 h-10 border-4 border-gray-200 border-t-blue-500 rounded-full animate-spin;
 }
 ```
 
 ### Error States
 
-```css
-/* Error Container */
-{
-  backgroundColor: '#fef2f2',
-  padding: '2rem',
-  borderRadius: '12px',
-  border: '1px solid #fecaca'
-}
-
-/* Error Text */
-{
-  color: '#dc2626' /* Title */
-  color: '#991b1b' /* Message */
-}
+```jsx
+{/* Error Container */}
+<div className="bg-red-50 p-8 rounded-xl border border-red-200">
+  <h2 className="text-red-600 text-xl font-bold mb-2">Error Title</h2>
+  <p className="text-red-800">Error message details</p>
+</div>
 ```
 
 ---
@@ -528,8 +430,37 @@ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))'
 ## File Reference
 
 Key design-related files:
+- `src/index.css` - Tailwind imports, animations (`@keyframes`), and reusable component classes (`.glass`, `.btn-primary`, `.spinner`, etc.)
 - `src/utils/colorMapping.js` - Status-to-color utility functions
-- `src/index.css` - Global Tailwind imports
-- `src/App.css` - Additional global styles
-- `Color and Style Guide.txt` - Original color reference
+- `src/App.css` - Additional global styles (minimal)
 - `tailwind.config.js` - Tailwind configuration
+- `Color and Style Guide.txt` - Original color reference
+
+### index.css Structure
+
+```css
+/* Tailwind base imports */
+@import "tailwindcss";
+
+/* Animations */
+@keyframes float { ... }
+@keyframes pulse-subtle { ... }
+@keyframes slideInUp { ... }
+@keyframes iconPulse { ... }
+@keyframes spin { ... }
+
+/* Layout containers */
+.container-default { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full; }
+.container-wide { @apply max-w-[1400px] mx-auto px-5 md:px-9 w-full; }
+.container-narrow { @apply max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 w-full; }
+
+/* Reusable components */
+.btn-primary { @apply bg-blue-600 hover:bg-blue-700 text-white ...; }
+.btn-secondary { @apply border border-gray-300 hover:bg-gray-50 ...; }
+.glass { @apply bg-white/70 backdrop-blur-lg ...; }
+.spinner { @apply w-10 h-10 border-4 border-gray-200 border-t-blue-500 ...; }
+
+/* Background gradients */
+.bg-hero-dark { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
+.bg-footer-gradient { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
+```

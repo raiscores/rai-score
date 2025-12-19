@@ -1,13 +1,18 @@
 import React from 'react';
 
-// Reusable layout container for consistent width and padding
-function Container({ children }) {
+/**
+ * Reusable layout container for consistent width and padding
+ * Supports three sizes: default, wide, and narrow
+ */
+function Container({ children, size = 'default' }) {
+  const sizeClasses = {
+    default: 'container-default',
+    wide: 'container-wide',
+    narrow: 'container-narrow'
+  };
+
   return (
-    <div style={{
-      maxWidth: '1440px',
-      padding: '0 2rem',
-      margin: '0 auto'
-    }}>
+    <div className={sizeClasses[size] || sizeClasses.default}>
       {children}
     </div>
   );
