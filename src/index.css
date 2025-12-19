@@ -40,6 +40,11 @@
   50% { opacity: 0.8; transform: scale(1.05); }
 }
 
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
 @keyframes slideInUp {
   from {
     opacity: 0;
@@ -281,6 +286,60 @@
     @apply outline-none ring-2 ring-blue-400 ring-offset-2;
   }
 
+  /* Primary CTA (Hero section) */
+  .primary-cta {
+    @apply inline-flex items-center;
+    @apply text-white font-bold text-lg;
+    @apply py-5 px-10 rounded-xl;
+    @apply no-underline cursor-pointer border-none;
+    @apply transition-all duration-300;
+    @apply relative overflow-hidden;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    box-shadow: 0 8px 32px rgba(37, 99, 235, 0.4);
+  }
+
+  .primary-cta::before {
+    content: '';
+    @apply absolute top-0 -left-full w-full h-full;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    @apply transition-all duration-500;
+  }
+
+  .primary-cta:hover::before {
+    @apply left-full;
+  }
+
+  .primary-cta:hover {
+    @apply -translate-y-0.5;
+    box-shadow: 0 16px 48px rgba(37, 99, 235, 0.6);
+  }
+
+  .primary-cta:focus {
+    @apply outline-3 outline-blue-400 outline-offset-2;
+  }
+
+  /* Secondary CTA (Hero section) */
+  .secondary-cta {
+    @apply inline-flex items-center;
+    @apply text-white font-semibold text-base;
+    @apply py-5 px-8 rounded-xl;
+    @apply no-underline cursor-pointer;
+    @apply transition-all duration-300;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+  }
+
+  .secondary-cta:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    @apply -translate-y-0.5;
+  }
+
+  .secondary-cta:focus {
+    @apply outline-3 outline-blue-400 outline-offset-2;
+  }
+
   /* Final CTA */
   .final-cta {
     @apply inline-flex items-center justify-center;
@@ -341,13 +400,6 @@
 
   .back-link:focus {
     @apply outline-2 outline-blue-600 outline-offset-2 rounded;
-  }
-
-  /* Grids */
-  .themes-grid {
-    @apply grid gap-10;
-    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
-    @apply max-w-7xl mx-auto;
   }
 
   /* Loading Spinner */
@@ -414,12 +466,23 @@
 }
 
 /* ============================================
+   Grid Layouts (outside layers for proper specificity)
+   ============================================ */
+
+.themes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  gap: 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* ============================================
    Responsive Overrides (outside layers)
    ============================================ */
 
 @media (max-width: 768px) {
   .themes-grid {
-    grid-template-columns: 1fr;
     gap: 2rem;
   }
 
@@ -455,22 +518,28 @@
     width: 100%;
   }
 
-  .hero-buttons .btn-primary {
+  .hero-buttons .primary-cta {
     flex: 1.75 1 0;
     min-width: 0;
     font-size: 0.75rem;
     padding: 1rem 0;
     text-align: center;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .hero-buttons .btn-secondary {
+  .hero-buttons .secondary-cta {
     flex: 1 1 0;
     min-width: 0;
     font-size: 0.75rem;
     padding: 0.75rem 0;
     text-align: center;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .final-cta-row {

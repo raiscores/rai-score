@@ -306,6 +306,7 @@ The codebase has been refactored to use a consistent Tailwind CSS approach. The 
 | Phase 3 | `NavBar.js`, `Footer.js` | Removed inline styles; NavBar uses solid white background, Footer uses inline gradient style |
 | Phase 4 | `CompanyCard.js`, `SearchAndFilters.js` | Full conversion to Tailwind (413+ lines of inline styles removed) |
 | Phase 5 | `CompanyDirectory.js`, `Contact.js`, `Home.js` | Converted to Tailwind, removed embedded `<style>` tags |
+| Phase 6 | `Home.js` → `src/components/home/*` | Extracted 6 section components, moved data to `src/data/homeContent.js`, reduced Home.js from 1,368 to 55 lines |
 
 #### Current Styling Approach
 
@@ -345,11 +346,22 @@ Some inline styles remain where dynamically necessary:
 
 - **NavBar**: Uses solid white background (`bg-white shadow-sm border-b`) instead of `.glass` class to avoid visual glitches during scroll transitions
 - **Footer**: Uses inline style for gradient background instead of `.bg-footer-gradient` utility class
-- **Home Hero**: Uses `justifyContent: 'center'` on section flex container to center content block; floating elements have `pointerEvents: 'none'`
+- **Home page**: Componentized into 6 section components in `src/components/home/`
 
-#### Home.js Special Case
+#### Home.js Component Structure
 
-`Home.js` retains embedded CSS for complex hover effects (`.theme-card:hover`, `.primary-cta::before`, etc.) that work with intersection observer animations. This is an acceptable trade-off given the complexity of the interactions.
+`Home.js` has been refactored into modular components:
+
+| Component | Purpose |
+|-----------|---------|
+| `HeroSection.js` | Hero with parallax floating elements |
+| `MethodologyPreview.js` | Core themes grid with theme cards |
+| `AudienceSection.js` | Target audience cards |
+| `TransparencySection.js` | Methodology explanation callout |
+| `CTASection.js` | Call-to-action with dark background |
+| `ExpandingImpact.js` | Future features roadmap |
+
+Data arrays moved to `src/data/homeContent.js`. CSS classes (`.theme-card`, `.primary-cta`, etc.) defined in `src/index.css`.
 
 ---
 
@@ -669,9 +681,9 @@ const TAB_COMPONENTS = {
 ### High Priority (Fix Soon)
 
 1. ~~**Standardize styling approach** - Choose Tailwind and refactor inline styles~~ ✅ **COMPLETED**
-2. **Extract Home.js** - Split into smaller components
+2. ~~**Extract Home.js** - Split into smaller components~~ ✅ **COMPLETED** (6 section components created in `src/components/home/`, data moved to `src/data/homeContent.js`)
 3. **Create data service layer** - Consistent fetch patterns
-4. ~~**Remove embedded CSS** - Move to proper CSS files~~ ✅ **COMPLETED** (Contact.js cleaned; Home.js retains necessary animation CSS)
+4. ~~**Remove embedded CSS** - Move to proper CSS files~~ ✅ **COMPLETED** (All embedded CSS moved to `index.css`)
 
 ### Medium Priority
 
@@ -704,10 +716,11 @@ const TAB_COMPONENTS = {
 
 | Metric | Before | After | Recommended |
 |--------|--------|-------|-------------|
-| Largest component | 1,387 lines (Home.js) | 1,268 lines (Home.js) | <300 lines |
+| Largest component | 1,387 lines (Home.js) | ~735 lines (CompanyPage.js) | <300 lines |
+| Home.js size | 1,387 lines | ~55 lines ✅ | <100 lines |
 | Styling approaches | 3 (mixed) | 1 (Tailwind) ✅ | 1 (Tailwind) |
 | Inline style objects | 500+ lines | ~50 lines (dynamic only) ✅ | Dynamic only |
-| Embedded CSS | 250+ lines | ~200 lines (Home.js animations) | Minimal |
+| Embedded CSS | 250+ lines | 0 lines ✅ | Minimal |
 | Components with PropTypes | 0 | 0 | All |
 | Code-split routes | 0 | 0 | All pages |
 
@@ -715,6 +728,15 @@ const TAB_COMPONENTS = {
 
 - **13 files refactored** to use Tailwind CSS
 - **~1,200 lines of inline styles** converted to Tailwind classes
-- **~125 lines of embedded CSS** moved to `index.css` or removed
-- **Contact.js** fully cleaned (embedded `<style>` tag removed)
+- **~250 lines of embedded CSS** moved to `index.css`
+- **Home.js reduced from 1,387 to ~55 lines** by extracting 6 section components
 - **index.css** now contains reusable component classes with `@apply`
+
+### Home.js Extraction Summary
+
+- Created 6 section components in `src/components/home/`:
+  - `HeroSection.js`, `MethodologyPreview.js`, `AudienceSection.js`
+  - `TransparencySection.js`, `CTASection.js`, `ExpandingImpact.js`
+- Moved 5 data arrays to `src/data/homeContent.js`
+- Added CSS classes (`.themes-grid`, `.theme-card`, `.primary-cta`, etc.) to `index.css`
+- Home.js now only handles scroll state, intersection observer, and component composition

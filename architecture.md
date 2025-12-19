@@ -91,16 +91,28 @@ frontend/
 │   │   │   │   └── SourcesTab.js
 │   │   │   └── PillarCard.js
 │   │   │
+│   │   ├── home/               # Home page section components
+│   │   │   ├── HeroSection.js
+│   │   │   ├── MethodologyPreview.js
+│   │   │   ├── AudienceSection.js
+│   │   │   ├── TransparencySection.js
+│   │   │   ├── CTASection.js
+│   │   │   └── ExpandingImpact.js
+│   │   │
 │   │   ├── ui/                 # Generic UI components
 │   │   │   ├── ErrorMessage.js
 │   │   │   └── LoadingSpinner.js
 │   │   │
 │   │   ├── CompanyCard.js      # Directory card component
+│   │   ├── Container.js        # Layout container component
 │   │   ├── Footer.js           # Site footer
 │   │   ├── NavBar.js           # Navigation header
 │   │   ├── SearchAndFilters.js # Search/filter UI
 │   │   ├── ShareButton.js      # Social sharing modal
 │   │   └── StarRating.js       # Star display component
+│   │
+│   ├── data/                   # Static content data
+│   │   └── homeContent.js      # Home page data arrays
 │   │
 │   ├── hooks/                  # Custom React hooks
 │   │   ├── useCompanyData.js   # Company data fetching
@@ -112,7 +124,7 @@ frontend/
 │   │   ├── CompanyDirectory.js
 │   │   ├── CompanyPage.js
 │   │   ├── Contact.js
-│   │   ├── Home.js
+│   │   ├── Home.js             # Composes home section components
 │   │   └── Methodology.js
 │   │
 │   ├── utils/                  # Utility functions

@@ -381,6 +381,18 @@ gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))'
 
 /* Footer Grid */
 gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))'
+
+/* Themes Grid - Home page Core Themes section (defined in index.css) */
+.themes-grid {
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  gap: 40px;
+  max-width: 1440px;
+}
+
+/* Audiences Grid - Home page Who This Helps section (inline styles) */
+gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))'
+gap: '30px'
+maxWidth: '1200px'
 ```
 
 ### Navigation Mobile Menu
@@ -434,7 +446,8 @@ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))'
 ## File Reference
 
 Key design-related files:
-- `src/index.css` - Tailwind imports, animations (`@keyframes`), and reusable component classes (`.glass`, `.btn-primary`, `.spinner`, etc.)
+- `src/index.css` - Tailwind imports, animations (`@keyframes`), and reusable component classes (`.glass`, `.btn-primary`, `.spinner`, `.theme-card`, `.primary-cta`, etc.)
+- `src/data/homeContent.js` - Home page static content data (themes, audiences, etc.)
 - `src/utils/colorMapping.js` - Status-to-color utility functions
 - `src/App.css` - Additional global styles (minimal)
 - `tailwind.config.js` - Tailwind configuration
@@ -444,7 +457,13 @@ Key design-related files:
 
 - **NavBar**: Uses `bg-white shadow-sm border-b border-gray-200` instead of `.glass` class for consistent appearance
 - **Footer**: Uses inline style for gradient background instead of `.bg-footer-gradient` utility
-- **Home Hero**: Uses `justifyContent: 'center'` on section to center content block; floating decorative elements have `pointerEvents: 'none'`
+- **Home page**: Componentized into 6 section components in `src/components/home/`:
+  - `HeroSection.js` - Hero with parallax floating elements
+  - `MethodologyPreview.js` - Core themes grid
+  - `AudienceSection.js` - Target audience cards
+  - `TransparencySection.js` - Methodology explanation
+  - `CTASection.js` - Call-to-action section
+  - `ExpandingImpact.js` - Future features roadmap
 
 ### index.css Structure
 
