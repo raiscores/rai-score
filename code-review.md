@@ -303,7 +303,7 @@ The codebase has been refactored to use a consistent Tailwind CSS approach. The 
 |-------|---------------|---------|
 | Phase 1 | `src/index.css` | Added animations (`float`, `pulse-subtle`, `slideInUp`, `iconPulse`, `spin`) and reusable classes (`.btn-primary`, `.btn-secondary`, `.card`, `.glass`, `.spinner`, `.bg-footer-gradient`, etc.) using `@apply` |
 | Phase 2 | `Container.js`, `LoadingSpinner.js` | Converted to Tailwind utility classes |
-| Phase 3 | `NavBar.js`, `Footer.js` | Removed inline styles, uses `.glass` and `.bg-footer-gradient` classes |
+| Phase 3 | `NavBar.js`, `Footer.js` | Removed inline styles; NavBar uses solid white background, Footer uses inline gradient style |
 | Phase 4 | `CompanyCard.js`, `SearchAndFilters.js` | Full conversion to Tailwind (413+ lines of inline styles removed) |
 | Phase 5 | `CompanyDirectory.js`, `Contact.js`, `Home.js` | Converted to Tailwind, removed embedded `<style>` tags |
 
@@ -339,6 +339,13 @@ Some inline styles remain where dynamically necessary:
 - **Dynamic widths** for progress bars: `style={{ width: \`${percentage}%\` }}`
 - **Data-driven colors** in `Methodology.js`: Colors from JSON data that vary per pillar
 - **Visibility animations** in `Home.js`: `opacity` and `transform` based on `isVisible` state
+- **Footer gradient**: Inline style used for reliable cross-browser gradient rendering
+
+#### Component-Specific Notes
+
+- **NavBar**: Uses solid white background (`bg-white shadow-sm border-b`) instead of `.glass` class to avoid visual glitches during scroll transitions
+- **Footer**: Uses inline style for gradient background instead of `.bg-footer-gradient` utility class
+- **Home Hero**: Uses `justifyContent: 'center'` on section flex container to center content block; floating elements have `pointerEvents: 'none'`
 
 #### Home.js Special Case
 

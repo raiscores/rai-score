@@ -618,6 +618,14 @@ Common patterns are defined in `index.css` using Tailwind's `@apply` directive:
 .bg-footer-gradient { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
 ```
 
+### Component-Specific Styling Notes
+
+**NavBar**: Uses solid white background (`bg-white`) with subtle shadow for consistent appearance. The `.glass` class is available but not currently used in NavBar to avoid visual glitches during scroll.
+
+**Footer**: Uses inline style for the dark gradient background to ensure reliable rendering across all browsers.
+
+**Home Hero Section**: Uses `justifyContent: 'center'` on the section to horizontally center the content container. Floating decorative elements have `pointerEvents: 'none'` to prevent interaction blocking.
+
 ### Dynamic Class Generation
 
 For status-based styling:

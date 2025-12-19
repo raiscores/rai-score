@@ -69,6 +69,8 @@ neutral:   { text: 'text-gray-600',  bg: 'bg-gray-50',  icon: AlertCircle }
 | Footer Muted Text | `#cbd5e1` |
 | Footer Link | `#f1f5f9` |
 
+**Note**: Footer uses inline style for the gradient background to ensure reliable cross-browser rendering.
+
 ### Star Rating Colors
 
 | Element | Color |
@@ -218,13 +220,15 @@ All components use Tailwind CSS utility classes as the primary styling method. R
 ### Navigation
 
 ```jsx
-{/* Sticky NavBar - uses .glass from index.css */}
-<nav className="sticky top-0 z-50 glass transition-all duration-300">
+{/* Sticky NavBar - solid white background for consistent appearance */}
+<nav className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-200">
 
 {/* Nav Links */}
 <Link className="text-base font-semibold uppercase tracking-wide text-slate-800
                  no-underline py-1 transition-colors duration-300 hover:text-blue-500">
 ```
+
+**Note**: The `.glass` class is available in index.css but NavBar uses solid white background to avoid visual glitches during scroll transitions.
 
 ### Progress Bars
 
@@ -435,6 +439,12 @@ Key design-related files:
 - `src/App.css` - Additional global styles (minimal)
 - `tailwind.config.js` - Tailwind configuration
 - `Color and Style Guide.txt` - Original color reference
+
+### Implementation Notes
+
+- **NavBar**: Uses `bg-white shadow-sm border-b border-gray-200` instead of `.glass` class for consistent appearance
+- **Footer**: Uses inline style for gradient background instead of `.bg-footer-gradient` utility
+- **Home Hero**: Uses `justifyContent: 'center'` on section to center content block; floating decorative elements have `pointerEvents: 'none'`
 
 ### index.css Structure
 
