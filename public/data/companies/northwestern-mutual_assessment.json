@@ -1,0 +1,299 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Northwestern Mutual",
+  "company_slug": "northwestern-mutual",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 14,
+      "OPERATIONAL": 4,
+      "POLICY": 4
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Northwestern Mutual's blog posts discuss the importance of interpretable AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Navigating the Complex Landscape of Ethical AI,\" provides evidence for explainability, external accountability, fairness, governance, and transparency. The post discusses the importance of \"interpretable AI systems\" and \"algorithmic transparency,\" and mentions \"audits\" as a mechanism for external accountability. Furthermore, it highlights a commitment to \"mitigate bias\" in AI training data and outlines \"responsible AI frameworks,\" demonstrating support for fairness and governance respectively.",
+          "title": "Navigating the Complex Landscape of Ethical AI",
+          "url": "https://innv.northwesternmutual.com/blog/navigating-the-complex-landscape-of-ethical-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "Northwestern Mutual's blog posts mention audits as a mechanism for external accountability. Press releases also reference regulatory compliance and certification for data use.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Navigating the Complex Landscape of Ethical AI,\" provides evidence for explainability, external accountability, fairness, governance, and transparency. The post discusses the importance of \"interpretable AI systems\" and \"algorithmic transparency,\" and mentions \"audits\" as a mechanism for external accountability. Furthermore, it highlights a commitment to \"mitigate bias\" in AI training data and outlines \"responsible AI frameworks,\" demonstrating support for fairness and governance respectively.",
+          "title": "Navigating the Complex Landscape of Ethical AI",
+          "url": "https://innv.northwesternmutual.com/blog/navigating-the-complex-landscape-of-ethical-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release from Northwestern Mutual provides evidence for **external_accountability, governance, privacy, and transparency**. It supports **external_accountability** by mentioning regulatory compliance and certification for data use. **Governance** is evidenced by the creation of a centralized data organization and an enterprise AI strategy. The press release also supports **privacy** by noting careful attention to data privacy guardrails in AI systems. Finally, **transparency** is demonstrated through descriptions of AI use cases, including automated underwriting and the development of a next-best-action system for advisers.",
+          "title": "How Northwestern Mutual Embraces AI",
+          "url": "https://sloanreview.mit.edu/article/how-northwestern-mutual-embraces-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 6,
+      "findings": "Northwestern Mutual's blog posts discuss testing for biases and highlight a commitment to mitigate bias in AI training data. These materials also reference prioritizing inclusiveness in governance requirements for datasets and scoring systems. A symposium focused on AI bias and racial equity, and ''AI and Data Bias & Ethics'' is listed as a Center of Excellence.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance, oversight, privacy, fairness, and transparency**. It details Northwestern Mutual's AI governance structure, including an AI council tasked with overseeing generative AI implementation and ensuring ethical testing. The post also highlights governance requirements for datasets and scoring systems, prioritizing privacy and inclusiveness, and emphasizes the continued role of human judgment in AI outputs.",
+          "title": "How Americans Feel About AI and Their Money",
+          "url": "https://northwesternmutual.com/life-and-money/how-americans-feel-about-ai-and-their-money"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Navigating the Complex Landscape of Ethical AI,\" provides evidence for explainability, external accountability, fairness, governance, and transparency. The post discusses the importance of \"interpretable AI systems\" and \"algorithmic transparency,\" and mentions \"audits\" as a mechanism for external accountability. Furthermore, it highlights a commitment to \"mitigate bias\" in AI training data and outlines \"responsible AI frameworks,\" demonstrating support for fairness and governance respectively.",
+          "title": "Navigating the Complex Landscape of Ethical AI",
+          "url": "https://innv.northwesternmutual.com/blog/navigating-the-complex-landscape-of-ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This blog post from the NMDSI Inaugural Symposium on AI Ethics and Research provides evidence for the **fairness** and **governance** pillars of responsible AI. The symposium's focus on AI bias and racial equity, as well as the explicit listing of \"AI and Data Bias & Ethics\" as a Center of Excellence, demonstrates a commitment to fairness. Furthermore, the mention of training \"ethically grounded data science professionals\" indicates a focus on responsible AI governance.",
+          "title": "NMDSI Inaugural Symposium on AI Ethics and Research",
+          "url": "https://innv.northwesternmutual.com/blog/nmdsi-s-inaugural-symposium-brings-data-science-community-together-to-explore-ai-research-and-ethics"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Data Conscience – Combatting Bias in the Data Pipeline,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The post discusses testing for biases, which directly supports the **fairness** pillar. It also emphasizes the collective responsibility of stakeholders in addressing ethical implications and the need to vet AI systems, aligning with the **governance** pillar by highlighting accountability and due diligence. Furthermore, the discussion of delivering \"transparent\" and \"ethical AI systems\" supports the **transparency** pillar.",
+          "title": "Data Conscience – Combatting Bias in the Data Pipeline",
+          "url": "https://innv.northwesternmutual.com/blog/recap-data-conscience-combatting-bias-in-the-data-pipeline"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 12,
+      "findings": "Northwestern Mutual's blog posts detail an AI governance structure, including an AI council tasked with overseeing generative AI implementation and ethical testing, and highlight governance requirements for datasets and scoring systems. The company outlines responsible AI frameworks and references the creation of a centralized data organization and an enterprise AI strategy. Blog posts also mention an AI governance function with a cross-functional operational process, emphasize collective stakeholder responsibility in vetting AI systems, and document funding for university research on AI and bias.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance, oversight, privacy, fairness, and transparency**. It details Northwestern Mutual's AI governance structure, including an AI council tasked with overseeing generative AI implementation and ensuring ethical testing. The post also highlights governance requirements for datasets and scoring systems, prioritizing privacy and inclusiveness, and emphasizes the continued role of human judgment in AI outputs.",
+          "title": "How Americans Feel About AI and Their Money",
+          "url": "https://northwesternmutual.com/life-and-money/how-americans-feel-about-ai-and-their-money"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Navigating the Complex Landscape of Ethical AI,\" provides evidence for explainability, external accountability, fairness, governance, and transparency. The post discusses the importance of \"interpretable AI systems\" and \"algorithmic transparency,\" and mentions \"audits\" as a mechanism for external accountability. Furthermore, it highlights a commitment to \"mitigate bias\" in AI training data and outlines \"responsible AI frameworks,\" demonstrating support for fairness and governance respectively.",
+          "title": "Navigating the Complex Landscape of Ethical AI",
+          "url": "https://innv.northwesternmutual.com/blog/navigating-the-complex-landscape-of-ethical-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release from Northwestern Mutual provides evidence for **external_accountability, governance, privacy, and transparency**. It supports **external_accountability** by mentioning regulatory compliance and certification for data use. **Governance** is evidenced by the creation of a centralized data organization and an enterprise AI strategy. The press release also supports **privacy** by noting careful attention to data privacy guardrails in AI systems. Finally, **transparency** is demonstrated through descriptions of AI use cases, including automated underwriting and the development of a next-best-action system for advisers.",
+          "title": "How Northwestern Mutual Embraces AI",
+          "url": "https://sloanreview.mit.edu/article/how-northwestern-mutual-embraces-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Northwestern Mutual: Prioritizing Privacy,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by explicitly mentioning an \"AI governance function\" and describing a cross-functional operational process for its implementation. The blog post also supports privacy by detailing how AI governance fits into broader technology governance, focusing on understanding AI use, data storage, and retention practices.",
+          "title": "Northwestern Mutual: Prioritizing Privacy",
+          "url": "https://northwesternmutual.com/life-and-money/how-northwestern-mutual-works-to-earn-clients-trust-by-prioritizing-privacy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This blog post from the NMDSI Inaugural Symposium on AI Ethics and Research provides evidence for the **fairness** and **governance** pillars of responsible AI. The symposium's focus on AI bias and racial equity, as well as the explicit listing of \"AI and Data Bias & Ethics\" as a Center of Excellence, demonstrates a commitment to fairness. Furthermore, the mention of training \"ethically grounded data science professionals\" indicates a focus on responsible AI governance.",
+          "title": "NMDSI Inaugural Symposium on AI Ethics and Research",
+          "url": "https://innv.northwesternmutual.com/blog/nmdsi-s-inaugural-symposium-brings-data-science-community-together-to-explore-ai-research-and-ethics"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Data Conscience – Combatting Bias in the Data Pipeline,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The post discusses testing for biases, which directly supports the **fairness** pillar. It also emphasizes the collective responsibility of stakeholders in addressing ethical implications and the need to vet AI systems, aligning with the **governance** pillar by highlighting accountability and due diligence. Furthermore, the discussion of delivering \"transparent\" and \"ethical AI systems\" supports the **transparency** pillar.",
+          "title": "Data Conscience – Combatting Bias in the Data Pipeline",
+          "url": "https://innv.northwesternmutual.com/blog/recap-data-conscience-combatting-bias-in-the-data-pipeline"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"NMDSI Awards Research Funding on AI and Bias,\" provides evidence for the **governance** pillar of responsible AI. The post documents the NMDSI's funding of university research, including projects focused on AI and bias, which aligns with the general concept of responsible innovation and governance in AI development.",
+          "title": "NMDSI Awards Research Funding on AI and Bias",
+          "url": "https://innv.northwesternmutual.com/blog/nmdsi-awards-over-700000-in-research-and-curricula-funding-to-university-experts"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "oversight": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "Northwestern Mutual's blog posts detail an AI governance structure that includes an AI council. This council is tasked with overseeing generative AI implementation and ethical testing.",
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance, oversight, privacy, fairness, and transparency**. It details Northwestern Mutual's AI governance structure, including an AI council tasked with overseeing generative AI implementation and ensuring ethical testing. The post also highlights governance requirements for datasets and scoring systems, prioritizing privacy and inclusiveness, and emphasizes the continued role of human judgment in AI outputs.",
+          "title": "How Americans Feel About AI and Their Money",
+          "url": "https://northwesternmutual.com/life-and-money/how-americans-feel-about-ai-and-their-money"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "Northwestern Mutual's blog posts highlight governance requirements for datasets and scoring systems, prioritizing privacy. Press releases note careful attention to data privacy guardrails in AI systems. Blog posts also detail how AI governance fits into broader technology governance, focusing on understanding AI use, data storage, and retention practices.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance, oversight, privacy, fairness, and transparency**. It details Northwestern Mutual's AI governance structure, including an AI council tasked with overseeing generative AI implementation and ensuring ethical testing. The post also highlights governance requirements for datasets and scoring systems, prioritizing privacy and inclusiveness, and emphasizes the continued role of human judgment in AI outputs.",
+          "title": "How Americans Feel About AI and Their Money",
+          "url": "https://northwesternmutual.com/life-and-money/how-americans-feel-about-ai-and-their-money"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release from Northwestern Mutual provides evidence for **external_accountability, governance, privacy, and transparency**. It supports **external_accountability** by mentioning regulatory compliance and certification for data use. **Governance** is evidenced by the creation of a centralized data organization and an enterprise AI strategy. The press release also supports **privacy** by noting careful attention to data privacy guardrails in AI systems. Finally, **transparency** is demonstrated through descriptions of AI use cases, including automated underwriting and the development of a next-best-action system for advisers.",
+          "title": "How Northwestern Mutual Embraces AI",
+          "url": "https://sloanreview.mit.edu/article/how-northwestern-mutual-embraces-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Northwestern Mutual: Prioritizing Privacy,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by explicitly mentioning an \"AI governance function\" and describing a cross-functional operational process for its implementation. The blog post also supports privacy by detailing how AI governance fits into broader technology governance, focusing on understanding AI use, data storage, and retention practices.",
+          "title": "Northwestern Mutual: Prioritizing Privacy",
+          "url": "https://northwesternmutual.com/life-and-money/how-northwestern-mutual-works-to-earn-clients-trust-by-prioritizing-privacy"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 8,
+      "findings": "Northwestern Mutual's blog posts discuss the importance of interpretable AI systems and algorithmic transparency, emphasizing the delivery of transparent AI systems. These materials also describe specific AI use cases, such as automated underwriting and a next-best-action system, and highlight the continued role of human judgment in AI outputs.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance, oversight, privacy, fairness, and transparency**. It details Northwestern Mutual's AI governance structure, including an AI council tasked with overseeing generative AI implementation and ensuring ethical testing. The post also highlights governance requirements for datasets and scoring systems, prioritizing privacy and inclusiveness, and emphasizes the continued role of human judgment in AI outputs.",
+          "title": "How Americans Feel About AI and Their Money",
+          "url": "https://northwesternmutual.com/life-and-money/how-americans-feel-about-ai-and-their-money"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Navigating the Complex Landscape of Ethical AI,\" provides evidence for explainability, external accountability, fairness, governance, and transparency. The post discusses the importance of \"interpretable AI systems\" and \"algorithmic transparency,\" and mentions \"audits\" as a mechanism for external accountability. Furthermore, it highlights a commitment to \"mitigate bias\" in AI training data and outlines \"responsible AI frameworks,\" demonstrating support for fairness and governance respectively.",
+          "title": "Navigating the Complex Landscape of Ethical AI",
+          "url": "https://innv.northwesternmutual.com/blog/navigating-the-complex-landscape-of-ethical-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release from Northwestern Mutual provides evidence for **external_accountability, governance, privacy, and transparency**. It supports **external_accountability** by mentioning regulatory compliance and certification for data use. **Governance** is evidenced by the creation of a centralized data organization and an enterprise AI strategy. The press release also supports **privacy** by noting careful attention to data privacy guardrails in AI systems. Finally, **transparency** is demonstrated through descriptions of AI use cases, including automated underwriting and the development of a next-best-action system for advisers.",
+          "title": "How Northwestern Mutual Embraces AI",
+          "url": "https://sloanreview.mit.edu/article/how-northwestern-mutual-embraces-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Data Conscience – Combatting Bias in the Data Pipeline,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The post discusses testing for biases, which directly supports the **fairness** pillar. It also emphasizes the collective responsibility of stakeholders in addressing ethical implications and the need to vet AI systems, aligning with the **governance** pillar by highlighting accountability and due diligence. Furthermore, the discussion of delivering \"transparent\" and \"ethical AI systems\" supports the **transparency** pillar.",
+          "title": "Data Conscience – Combatting Bias in the Data Pipeline",
+          "url": "https://innv.northwesternmutual.com/blog/recap-data-conscience-combatting-bias-in-the-data-pipeline"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T21:56:21Z",
+  "run_id": "20260202_233247_e200",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Human Oversight & Accountability"
+    ],
+    "key_strengths": [
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Northwestern Mutual's published materials detail an AI governance structure, including an AI council tasked with overseeing generative AI implementation and ethical testing. These disclosures address 6 of 7 evaluated responsible AI pillars, with privacy practices highlighting governance requirements for datasets and scoring systems that prioritize privacy. Policy-level evidence is present for transparency, fairness, explainability, and external accountability, with materials discussing a commitment to mitigate bias in AI training data and mentioning audits as a mechanism for external accountability. No qualifying public evidence was found for oversight. The assessment draws on 9 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 22,
+    "total_sources_used": 7
+  }
+}

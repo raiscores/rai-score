@@ -1,0 +1,207 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Home Depot",
+  "company_slug": "home-depot",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 0,
+      "POLICY": 32
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "Court filing summaries reference litigation concerning the collection of biometric data without consent.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This court filing summary provides evidence for **external accountability**, **governance**, and **privacy**. It highlights litigation concerning the collection of biometric data without consent, demonstrating external accountability for AI practices. The summary also touches upon governance by mentioning vendor AI scrutiny and contract responsibilities for compliance, and supports the privacy pillar by detailing allegations of non-compliance with consent requirements for biometric data collection and retention.",
+          "title": "Multiple BIPA Litigation Cases Summary",
+          "url": "https://prismedia.ai/news/home-depot-faces-multiple-bipa-lawsuits-over-in-store-facial-biometrics"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 23,
+      "findings": "Privacy policy documents outline authorized purposes and access controls for automated systems and state compliance with applicable laws for facial recognition technology. Reports describe the establishment of a Data Security and Privacy Governance Committee, board-level oversight by the Audit Committee, and the implementation of NIST frameworks. SEC filings describe the use of AI for task prioritization and inventory management, reference AI risks and the need for managing third-party providers, and mention AI used by threat actors. Court filing summaries mention vendor AI scrutiny and contract responsibilities for compliance.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports governance by outlining authorized purposes and access controls for automated systems like ALPR, and by stating compliance with applicable laws for facial recognition technology. The policy supports privacy by detailing biometric data retention policies, mentioning opt-out mechanisms for automated profiling, and describing restrictions on data sharing with third parties.",
+          "title": "Privacy and Security Statement",
+          "url": "https://homedepot.com/privacy/privacy-and-security-statement"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This FY2023 Environmental, Social and Governance Report provides evidence for the **governance** pillar of responsible AI. The report details the establishment of a Data Security and Privacy Governance Committee, board-level oversight by the Audit Committee, and the implementation of NIST frameworks, all of which demonstrate structured approaches to managing AI-related risks. Furthermore, the mention of \"Optimization technology\" guiding processes suggests algorithmic decision-making, which is a key area addressed by robust governance structures.",
+          "title": "FY2023 Environmental, Social and Governance Report",
+          "url": "https://corporate.homedepot.com/sites/default/files/2024-08/2024_ESG_Report_The_Home_Depot.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K Fiscal Year 2024,\" provides evidence for **governance, privacy, and transparency**. It supports governance by discussing the use of AI for task prioritization and inventory management, acknowledging AI risks and the need for managing third-party providers, and mentioning AI used by threat actors. The filing also touches on privacy by referencing external regulations governing data privacy for AI, and supports transparency by describing the capabilities of Computer Vision in analyzing shelf conditions.",
+          "title": "Form 10-K Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This court filing summary provides evidence for **external accountability**, **governance**, and **privacy**. It highlights litigation concerning the collection of biometric data without consent, demonstrating external accountability for AI practices. The summary also touches upon governance by mentioning vendor AI scrutiny and contract responsibilities for compliance, and supports the privacy pillar by detailing allegations of non-compliance with consent requirements for biometric data collection and retention.",
+          "title": "Multiple BIPA Litigation Cases Summary",
+          "url": "https://prismedia.ai/news/home-depot-faces-multiple-bipa-lawsuits-over-in-store-facial-biometrics"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 19,
+      "findings": "Privacy policy documents describe biometric data retention policies, mention opt-out mechanisms for automated profiling, and describe restrictions on data sharing with third parties. SEC filings reference external regulations governing data privacy for AI. Court filings and summaries also reference alleged violations and non-compliance with consent requirements for biometric data collection and retention.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports governance by outlining authorized purposes and access controls for automated systems like ALPR, and by stating compliance with applicable laws for facial recognition technology. The policy supports privacy by detailing biometric data retention policies, mentioning opt-out mechanisms for automated profiling, and describing restrictions on data sharing with third parties.",
+          "title": "Privacy and Security Statement",
+          "url": "https://homedepot.com/privacy/privacy-and-security-statement"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K Fiscal Year 2024,\" provides evidence for **governance, privacy, and transparency**. It supports governance by discussing the use of AI for task prioritization and inventory management, acknowledging AI risks and the need for managing third-party providers, and mentioning AI used by threat actors. The filing also touches on privacy by referencing external regulations governing data privacy for AI, and supports transparency by describing the capabilities of Computer Vision in analyzing shelf conditions.",
+          "title": "Form 10-K Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **privacy** and **transparency** pillars of responsible AI. It supports the privacy pillar by alleging violations of the Illinois Biometric Information Privacy Act (BIPA) due to the collection of facial geometry and biometric identifiers without proper customer consent. The filing also supports the transparency pillar by highlighting the alleged failure to disclose data retention policies, indicating a lack of transparency in how AI systems handle sensitive biometric data.",
+          "title": "BIPA Biometric Information Privacy Act Class Action Lawsuit",
+          "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/home-depot-sued-for-allegedly-using-facial-recognition-at-self-chec"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This court filing summary provides evidence for **external accountability**, **governance**, and **privacy**. It highlights litigation concerning the collection of biometric data without consent, demonstrating external accountability for AI practices. The summary also touches upon governance by mentioning vendor AI scrutiny and contract responsibilities for compliance, and supports the privacy pillar by detailing allegations of non-compliance with consent requirements for biometric data collection and retention.",
+          "title": "Multiple BIPA Litigation Cases Summary",
+          "url": "https://prismedia.ai/news/home-depot-faces-multiple-bipa-lawsuits-over-in-store-facial-biometrics"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 2,
+      "findings": "SEC filings describe the capabilities of Computer Vision in analyzing shelf conditions. Court filings reference an alleged failure to disclose data retention policies for AI systems handling sensitive biometric data.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K Fiscal Year 2024,\" provides evidence for **governance, privacy, and transparency**. It supports governance by discussing the use of AI for task prioritization and inventory management, acknowledging AI risks and the need for managing third-party providers, and mentioning AI used by threat actors. The filing also touches on privacy by referencing external regulations governing data privacy for AI, and supports transparency by describing the capabilities of Computer Vision in analyzing shelf conditions.",
+          "title": "Form 10-K Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **privacy** and **transparency** pillars of responsible AI. It supports the privacy pillar by alleging violations of the Illinois Biometric Information Privacy Act (BIPA) due to the collection of facial geometry and biometric identifiers without proper customer consent. The filing also supports the transparency pillar by highlighting the alleged failure to disclose data retention policies, indicating a lack of transparency in how AI systems handle sensitive biometric data.",
+          "title": "BIPA Biometric Information Privacy Act Class Action Lawsuit",
+          "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/home-depot-sued-for-allegedly-using-facial-recognition-at-self-chec"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-02-23T21:52:14Z",
+  "run_id": "20260202_211416_965d",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Based on 11 publicly available sources, Home Depot's published materials address 4 of 7 evaluated responsible AI pillars. These materials include privacy policy documents that describe biometric data retention policies and mention opt-out mechanisms for automated profiling. Further disclosures outline authorized purposes and access controls for automated systems like ALPR under governance, and SEC filings describe the capabilities of Computer Vision in analyzing shelf conditions for transparency. No qualifying public evidence was found for fairness, explainability, and 1 additional pillar.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 34,
+    "total_sources_used": 5
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "Dell Technologies",
+  "company_slug": "dell-technologies",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 12,
+      "OPERATIONAL": 33,
+      "POLICY": 154
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 3,
+      "findings": "Dell Technologies' technical papers detail requirements for AI tools and models, emphasizing explainability. These papers also mention explainable AI with auditing and monitoring for compliance. Furthermore, technical documentation describes MLOps for AI model management, which includes explainability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Building a Leading Sovereign AI Nation,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The paper supports these pillars by outlining AI governance frameworks, including policies for AI procurement, data governance, and regulatory alignment. It details requirements for AI tools and models, emphasizing ethical guidelines, transparency, explainability, and data protection, and highlights the importance of a Responsible AI code of practice as a partner selection criterion.",
+          "title": "Building a Leading Sovereign AI Nation",
+          "url": "https://delltechnologies.com/asset/en-us/solutions/business-solutions/industry-market/dell-sovereign-ai-whitepaper-apj.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Bringing AI to Your Data: Dell's Federal AI Strategy,\" provides evidence for **governance, privacy, transparency, fairness, explainability, and external_accountability**. The paper details Dell's commitment to robust data governance frameworks as foundational to responsible AI, emphasizing data integrity, security, and compliance with regulations like GDPR and HIPAA through localized AI processing and encryption. It also highlights initiatives for ethical AI, including bias detection and mitigation, and mentions transparent and explainable AI with auditing and monitoring for compliance.",
+          "title": "Bringing AI to Your Data: Dell's Federal AI Strategy",
+          "url": "https://webobjects2.cdw.com/is/content/CDW/cdw/on-domain-cdw/brands/dell/dell-fed-whitepater-bringing-ai-to-the-data.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Generative AI in the Enterprise - Inferencing Design Guide,\" provides evidence for **explainability, governance, and transparency**. It supports explainability by detailing MLOps for AI model management, including explainability. The paper demonstrates governance through its description of AI model lifecycle management, version control, MLOps for security and compliance, and a structured process for assessing and designing AI solutions. Transparency is supported by descriptions of AI systems, capabilities, and their inference system components and functions, as well as specific AI model metrics for monitoring and optimization.",
+          "title": "Generative AI in the Enterprise - Inferencing Design Guide",
+          "url": "https://delltechnologies.com/asset/ja-jp/solutions/business-solutions/technical-support/h19686-gen-ai-inferencing-dg.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "Dell Technologies' guidance highlights the importance of accountability for AI development and use, demonstrating a commitment to external accountability through risk monitoring and an AI intake framework. This guidance also emphasizes aligning with regulations and societal values. Technical papers highlight the importance of a Responsible AI code of practice as a partner selection criterion and imply external accountability through proactive monitoring and security features.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This Dell blog post, \"Avoiding Shadow AI with Effective Enterprise Governance,\" provides evidence for **governance, oversight, transparency, and external accountability**. The post details Dell's guidance on establishing an AI Governance Board with decision-making authority and oversight responsibilities, outlining policies, standards, and procedures for AI management. It also highlights the importance of clear guidelines, accountability for AI development and use, and aligning with regulations and societal values, demonstrating a commitment to transparency and external accountability through risk monitoring and an AI intake framework.",
+          "title": "Avoiding Shadow AI with Effective Enterprise Governance",
+          "url": "https://dell.com/en-us/blog/avoiding-shadow-ai-with-effective-enterprise-governance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Building a Leading Sovereign AI Nation,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The paper supports these pillars by outlining AI governance frameworks, including policies for AI procurement, data governance, and regulatory alignment. It details requirements for AI tools and models, emphasizing ethical guidelines, transparency, explainability, and data protection, and highlights the importance of a Responsible AI code of practice as a partner selection criterion.",
+          "title": "Building a Leading Sovereign AI Nation",
+          "url": "https://delltechnologies.com/asset/en-us/solutions/business-solutions/industry-market/dell-sovereign-ai-whitepaper-apj.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Bringing AI to Your Data: Dell's Federal AI Strategy,\" provides evidence for **governance, privacy, transparency, fairness, explainability, and external_accountability**. The paper details Dell's commitment to robust data governance frameworks as foundational to responsible AI, emphasizing data integrity, security, and compliance with regulations like GDPR and HIPAA through localized AI processing and encryption. It also highlights initiatives for ethical AI, including bias detection and mitigation, and mentions transparent and explainable AI with auditing and monitoring for compliance.",
+          "title": "Bringing AI to Your Data: Dell's Federal AI Strategy",
+          "url": "https://webobjects2.cdw.com/is/content/CDW/cdw/on-domain-cdw/brands/dell/dell-fed-whitepater-bringing-ai-to-the-data.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Debunking AI Security Myths,\" provides evidence for **governance**, **oversight**, and **privacy**. It supports governance and privacy by detailing best practices for AI security, including secure supply chains and data protection features. The paper also supports oversight by emphasizing the critical need for human involvement and regular audits in AI operations.",
+          "title": "Debunking AI Security Myths",
+          "url": "https://delltechnologies.com/asset/en-us/products/security/briefs-summaries/securing-ai-brief.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Dell AIOps Security,\" provides evidence for **external_accountability**, **governance**, and **privacy**. The document supports governance by detailing Dell's Secure Development Lifecycle (SDL) policy and security controls for development teams, as well as describing operational security assessments for AI systems. Evidence for privacy is found in mentions of ML capabilities for data privacy, and external accountability is implied through proactive monitoring and security features.",
+          "title": "Dell AIOps Security",
+          "url": "https://delltechnologies.com/asset/en-ie/products/storage/industry-market/dell-aiops-security-whitepaper.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 11,
+      "findings": "Dell Technologies documents a governance framework that mandates bias reduction and establishes principles for AI development considering broader impacts and human intent for fairness. Technical papers highlight initiatives for ethical AI, including bias detection and mitigation, and emphasize ethical guidelines for AI tools and models. Published materials also mention data bias in governance challenges and list bias for AI risk mitigation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Dell Technologies Principles for Ethical Artificial Intelligence,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports these pillars by highlighting a governance framework that mandates human oversight and bias reduction, requiring disclosures about AI interactions and data use for transparency and privacy, and establishing principles for AI development that consider broader impacts and human definition of intent for fairness.",
+          "title": "Dell Technologies Principles for Ethical Artificial Intelligence",
+          "url": "https://delltechnologies.com/asset/en-us/solutions/business-solutions/briefs-summaries/principles-for-ethical-ai.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Collaborating for an AI-Driven Future in Government,\" provides evidence for the **fairness** and **governance** pillars of responsible AI. The document supports fairness by mentioning \"ethical\" and \"secure\" AI adoption, implying a commitment to equitable outcomes. It strongly supports governance through its description of Dell's AI Blueprint, a framework for guiding government investment and regulation, and by emphasizing stakeholder collaboration, accountability, and proactive workforce development for AI deployment.",
+          "title": "Collaborating for an AI-Driven Future in Government",
+          "url": "https://dell.com/en-us/blog/collaborating-for-an-ai-driven-future-in-government"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Building a Leading Sovereign AI Nation,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The paper supports these pillars by outlining AI governance frameworks, including policies for AI procurement, data governance, and regulatory alignment. It details requirements for AI tools and models, emphasizing ethical guidelines, transparency, explainability, and data protection, and highlights the importance of a Responsible AI code of practice as a partner selection criterion.",
+          "title": "Building a Leading Sovereign AI Nation",
+          "url": "https://delltechnologies.com/asset/en-us/solutions/business-solutions/industry-market/dell-sovereign-ai-whitepaper-apj.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Bringing AI to Your Data: Dell's Federal AI Strategy,\" provides evidence for **governance, privacy, transparency, fairness, explainability, and external_accountability**. The paper details Dell's commitment to robust data governance frameworks as foundational to responsible AI, emphasizing data integrity, security, and compliance with regulations like GDPR and HIPAA through localized AI processing and encryption. It also highlights initiatives for ethical AI, including bias detection and mitigation, and mentions transparent and explainable AI with auditing and monitoring for compliance.",
+          "title": "Bringing AI to Your Data: Dell's Federal AI Strategy",
+          "url": "https://webobjects2.cdw.com/is/content/CDW/cdw/on-domain-cdw/brands/dell/dell-fed-whitepater-bringing-ai-to-the-data.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Top 10 Cybersecurity Concerns for GenAI and LLMs,\" provides evidence for **governance** and **privacy**. It supports governance by detailing operational practices like monitoring, logging, and responding to AI system events, as well as regular evaluations and updates for secure configurations. The paper also supports privacy by mentioning commitments to address sensitive data disclosure and compliance.",
+          "title": "Top 10 Cybersecurity Concerns for GenAI and LLMs",
+          "url": "https://delltechnologies.com/asset/en-us/products/security/briefs-summaries/top-ten-cybersecurity-concerns-for-llms-ebook.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Creating Your AI Implementation Blueprint,\" provides evidence for **fairness, governance, privacy, and transparency**. It supports **governance** by detailing the need for an AI governance structure including policy guidelines, roles, and prohibited actions, as well as emphasizing strategic planning, roadmap development, and AI use case prioritization. The paper also touches upon **privacy** by mentioning AI architecture that includes data privacy and security considerations. Evidence for **transparency** is found in its discussion of AI capabilities like recommendations and forecasting, implying the need for clarity in data-driven decisions. While not explicitly detailed, the mention of data bias in governance challenges suggests a connection to **fairness**.",
+          "title": "Creating Your AI Implementation Blueprint",
+          "url": "https://www.delltechnologies.com/asset/ja-jp/solutions/business-solutions/industry-market/apj-idc-ai-for-enterprise-infobrief-master.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"10 Questions to Kickstart AI Initiatives,\" provides evidence for fairness, governance, privacy, and transparency. It supports fairness and privacy by listing \"Bias\" and \"Data privacy laws\" for AI risk mitigation. The paper also supports governance through its emphasis on \"AI strategy, risk assessment, and AI governance,\" and transparency by mentioning the implementation of specific \"use cases\" and the configuration of AI tools.",
+          "title": "10 Questions to Kickstart AI Initiatives",
+          "url": "https://delltechnologies.com/asset/en-us/products/workstations/briefs-summaries/10-questions-to-kickstart-ai-initiatives-ebook.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 181,
+      "findings": "Dell Technologies documents a governance framework that mandates human oversight and bias reduction, and outlines policies, standards, and procedures for AI management. Reports document the establishment of a Chief AI Officer and an AI Center for governance and risk management, along with participation in an AI Alliance. Technical papers detail the need for an AI governance structure, including policy guidelines, roles, and prohibited actions, and describe AI model lifecycle management, version control, and MLOps for security and compliance.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Dell Technologies Principles for Ethical Artificial Intelligence,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports these pillars by highlighting a governance framework that mandates human oversight and bias reduction, requiring disclosures about AI interactions and data use for transparency and privacy, and establishing principles for AI development that consider broader impacts and human definition of intent for fairness.",
+          "title": "Dell Technologies Principles for Ethical Artificial Intelligence",
+          "url": "https://delltechnologies.com/asset/en-us/solutions/business-solutions/briefs-summaries/principles-for-ethical-ai.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This Dell Technologies Form 10-Q (Q1 FY2026) provides evidence for the **governance** pillar of responsible AI. The filing discusses AI solutions and their impact on credit risk, suggesting the need for governance in managing financial exposure from AI sales. Furthermore, it mentions AI-optimized servers and increased supplier purchases for AI components, indicating strategic integration and a need for governance over AI procurement.",
+          "title": "Dell Technologies Inc. Form 10-Q (Q1 FY2026)",
+          "url": "https://sec.gov/Archives/edgar/data/1571996/000157199625000063/dell-20250502.htm"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Dell Technologies FY24 Environmental, Social and Governance Report provides evidence for **governance** and **transparency**. The report documents Dell's Principles for Ethical Artificial Intelligence, the establishment of a Chief AI Officer and AI Center for governance and risk management, and participation in an AI Alliance, all of which demonstrate a commitment to responsible AI practices. Additionally, the mention of an ML-enabled system (CARDS) implies transparency in its application.",
+          "title": "Dell Technologies FY24 Environmental, Social and Governance Report",
+          "url": "https://delltechnologies.com/asset/en-gb/solutions/business-solutions/briefs-summaries/delltechnologies-fy24-esg-report.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This Dell blog post, \"Avoiding Shadow AI with Effective Enterprise Governance,\" provides evidence for **governance, oversight, transparency, and external accountability**. The post details Dell's guidance on establishing an AI Governance Board with decision-making authority and oversight responsibilities, outlining policies, standards, and procedures for AI management. It also highlights the importance of clear guidelines, accountability for AI development and use, and aligning with regulations and societal values, demonstrating a commitment to transparency and external accountability through risk monitoring and an AI intake framework.",
+          "title": "Avoiding Shadow AI with Effective Enterprise Governance",
+          "url": "https://dell.com/en-us/blog/avoiding-shadow-ai-with-effective-enterprise-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Power, Policy & AI: The Rules of the Race in 2026,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. It highlights the urgent need for governance frameworks, cross-functional approaches, and public-private collaboration for enterprise AI, emphasizing the development of AI policy, regulatory support, and the integration of existing laws for privacy and consumer protection. The post also points to the necessity of addressing accountability, transparency, and human oversight for AI agents, and discusses practical governance in areas like medicine, including data privacy and ethical use.",
+          "title": "Power, Policy & AI: The Rules of the Race in 2026",
+          "url": "https://dell.com/en-us/blog/power-policy-ai-the-rules-of-the-race-in-2026"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Collaborating for an AI-Driven Future in Government,\" provides evidence for the **fairness** and **governance** pillars of responsible AI. The document supports fairness by mentioning \"ethical\" and \"secure\" AI adoption, implying a commitment to equitable outcomes. It strongly supports governance through its description of Dell's AI Blueprint, a framework for guiding government investment and regulation, and by emphasizing stakeholder collaboration, accountability, and proactive workforce development for AI deployment.",
+          "title": "Collaborating for an AI-Driven Future in Government",
+          "url": "https://dell.com/en-us/blog/collaborating-for-an-ai-driven-future-in-government"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Building a Leading Sovereign AI Nation,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The paper supports these pillars by outlining AI governance frameworks, including policies for AI procurement, data governance, and regulatory alignment. It details requirements for AI tools and models, emphasizing ethical guidelines, transparency, explainability, and data protection, and highlights the importance of a Responsible AI code of practice as a partner selection criterion.",
+          "title": "Building a Leading Sovereign AI Nation",
+          "url": "https://delltechnologies.com/asset/en-us/solutions/business-solutions/industry-market/dell-sovereign-ai-whitepaper-apj.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Bringing AI to Your Data: Dell's Federal AI Strategy,\" provides evidence for **governance, privacy, transparency, fairness, explainability, and external_accountability**. The paper details Dell's commitment to robust data governance frameworks as foundational to responsible AI, emphasizing data integrity, security, and compliance with regulations like GDPR and HIPAA through localized AI processing and encryption. It also highlights initiatives for ethical AI, including bias detection and mitigation, and mentions transparent and explainable AI with auditing and monitoring for compliance.",
+          "title": "Bringing AI to Your Data: Dell's Federal AI Strategy",
+          "url": "https://webobjects2.cdw.com/is/content/CDW/cdw/on-domain-cdw/brands/dell/dell-fed-whitepater-bringing-ai-to-the-data.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"The IT Leader's Guide to Build Trust in AI Solutions,\" provides evidence for the **governance** pillar of responsible AI. The document outlines Dell's approach to secure AI by detailing ongoing 24x7 threat management, a specific AI security architecture aligned to a framework, and the assignment of responsibility for modernizing services with AI. It also mentions AI security strategy and goals, continuous monitoring, and the application of AI security architecture to specific use cases, demonstrating a commitment to governance and operational oversight for AI solutions.",
+          "title": "The IT Leader's Guide to Build Trust in AI Solutions",
+          "url": "https://dell.com/en-us/blog/the-it-leader-s-guide-to-build-trust-in-ai-solutions"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Securing the AI Factory,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The post details Dell's AI security strategy, emphasizing cross-functional governance for AI use cases and compliance, a systematic approach to AI solutions incorporating security, and the need for strong DevSecOps processes throughout the AI lifecycle. It also addresses securing data and models within AI supply chains, protecting data for the AI lifecycle, and implementing access controls for AI data management, which supports the privacy pillar, while mentioning \"capabilities\" and \"business rules\" for managing them points to transparency.",
+          "title": "Securing the AI Factory",
+          "url": "https://dell.com/en-us/blog/securing-the-ai-factory"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This Dell Technologies North America Privacy Statement supports the **governance** and **privacy** pillars. It demonstrates governance by outlining operational activities related to AI technology development, such as testing and fixing. The policy also supports the privacy pillar by detailing the sharing of personal data for personalized advertising and implying a framework for its use and third-party sharing.",
+          "title": "Dell Technologies North America Privacy Statement",
+          "url": "https://dell.com/en-us/lp/legal/policies-privacy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Top 10 Cybersecurity Concerns for GenAI and LLMs,\" provides evidence for **governance** and **privacy**. It supports governance by detailing operational practices like monitoring, logging, and responding to AI system events, as well as regular evaluations and updates for secure configurations. The paper also supports privacy by mentioning commitments to address sensitive data disclosure and compliance.",
+          "title": "Top 10 Cybersecurity Concerns for GenAI and LLMs",
+          "url": "https://delltechnologies.com/asset/en-us/products/security/briefs-summaries/top-ten-cybersecurity-concerns-for-llms-ebook.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Debunking AI Security Myths,\" provides evidence for **governance**, **oversight**, and **privacy**. It supports governance and privacy by detailing best practices for AI security, including secure supply chains and data protection features. The paper also supports oversight by emphasizing the critical need for human involvement and regular audits in AI operations.",
+          "title": "Debunking AI Security Myths",
+          "url": "https://delltechnologies.com/asset/en-us/products/security/briefs-summaries/securing-ai-brief.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"From Big Bang to Light Speed: the AI Revolution Continues,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by discussing the need for intelligent automation, data reduction, and safeguarding capabilities within collaborative ecosystems, as well as aligning business objectives with national frameworks. The post also touches on privacy by mentioning the protection of AI artifacts and data for continuity, and the localization of sensitive information within national borders. Transparency is implied through mentions of \"Dell internal analysis\" related to AI claims.",
+          "title": "From Big Bang to Light Speed: the AI Revolution Continues",
+          "url": "https://dell.com/en-us/blog/from-big-bang-to-light-speed-the-ai-revolution-continues"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"GenAI: A Dual-Edged Sword for Cybersecurity,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It highlights the need for governance entities and acceptable use policies, as well as essential measures like access control and system security. The post also addresses data privacy and integrity concerns, emphasizing proactive risk mitigation through robust security measures and continuous monitoring.",
+          "title": "GenAI: A Dual-Edged Sword for Cybersecurity",
+          "url": "https://dell.com/en-us/blog/genai-a-dual-edged-sword-for-cybersecurity"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Here's How to Use GenAI Safely in the Enterprise,\" provides evidence for the **governance** pillar of responsible AI. The source details a five-point strategy that includes establishing robust governance frameworks, prioritizing cybersecurity within AI strategy, and forming cross-disciplinary task forces for AI goals and evaluation. It also emphasizes understanding AI's impact on business processes and data usage, and the importance of continuous evaluation and refinement of AI security strategies, all of which are key components of effective AI governance.",
+          "title": "Here's How to Use GenAI Safely in the Enterprise",
+          "url": "https://dell.com/en-us/blog/here-s-how-to-use-genai-safely-in-the-enterprise"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Dell AIOps Security,\" provides evidence for **external_accountability**, **governance**, and **privacy**. The document supports governance by detailing Dell's Secure Development Lifecycle (SDL) policy and security controls for development teams, as well as describing operational security assessments for AI systems. Evidence for privacy is found in mentions of ML capabilities for data privacy, and external accountability is implied through proactive monitoring and security features.",
+          "title": "Dell AIOps Security",
+          "url": "https://delltechnologies.com/asset/en-ie/products/storage/industry-market/dell-aiops-security-whitepaper.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Creating Your AI Implementation Blueprint,\" provides evidence for **fairness, governance, privacy, and transparency**. It supports **governance** by detailing the need for an AI governance structure including policy guidelines, roles, and prohibited actions, as well as emphasizing strategic planning, roadmap development, and AI use case prioritization. The paper also touches upon **privacy** by mentioning AI architecture that includes data privacy and security considerations. Evidence for **transparency** is found in its discussion of AI capabilities like recommendations and forecasting, implying the need for clarity in data-driven decisions. While not explicitly detailed, the mention of data bias in governance challenges suggests a connection to **fairness**.",
+          "title": "Creating Your AI Implementation Blueprint",
+          "url": "https://www.delltechnologies.com/asset/ja-jp/solutions/business-solutions/industry-market/apj-idc-ai-for-enterprise-infobrief-master.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Generative AI in the Enterprise - Inferencing Design Guide,\" provides evidence for **explainability, governance, and transparency**. It supports explainability by detailing MLOps for AI model management, including explainability. The paper demonstrates governance through its description of AI model lifecycle management, version control, MLOps for security and compliance, and a structured process for assessing and designing AI solutions. Transparency is supported by descriptions of AI systems, capabilities, and their inference system components and functions, as well as specific AI model metrics for monitoring and optimization.",
+          "title": "Generative AI in the Enterprise - Inferencing Design Guide",
+          "url": "https://delltechnologies.com/asset/ja-jp/solutions/business-solutions/technical-support/h19686-gen-ai-inferencing-dg.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_028",
+          "source_tier": "company_owned",
+          "summary": "This blog post by Dell's Chief AI Officer provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights the importance of a clear AI strategy, defined objectives, and robust data quality processes as foundational policy for governance. Furthermore, the post discusses the need for transparency in selecting diverse AI solutions and the role of a Chief AI Officer in balancing AI promise with risk mitigation, underscoring a focus on operational and strategic governance.",
+          "title": "The Rise of the Chief AI Officer: Keys to Success",
+          "url": "https://dell.com/en-us/blog/the-rise-of-the-chief-ai-officer-keys-to-success"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"10 Questions to Kickstart AI Initiatives,\" provides evidence for fairness, governance, privacy, and transparency. It supports fairness and privacy by listing \"Bias\" and \"Data privacy laws\" for AI risk mitigation. The paper also supports governance through its emphasis on \"AI strategy, risk assessment, and AI governance,\" and transparency by mentioning the implementation of specific \"use cases\" and the configuration of AI tools.",
+          "title": "10 Questions to Kickstart AI Initiatives",
+          "url": "https://delltechnologies.com/asset/en-us/products/workstations/briefs-summaries/10-questions-to-kickstart-ai-initiatives-ebook.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 21
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 7,
+      "findings": "Dell Technologies documents a governance framework that mandates human oversight for AI. Guidance details establishing an AI Governance Board with oversight responsibilities. Blog posts point to the necessity of addressing human oversight for AI agents, while technical papers emphasize the critical need for human involvement and regular audits in AI operations.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Dell Technologies Principles for Ethical Artificial Intelligence,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports these pillars by highlighting a governance framework that mandates human oversight and bias reduction, requiring disclosures about AI interactions and data use for transparency and privacy, and establishing principles for AI development that consider broader impacts and human definition of intent for fairness.",
+          "title": "Dell Technologies Principles for Ethical Artificial Intelligence",
+          "url": "https://delltechnologies.com/asset/en-us/solutions/business-solutions/briefs-summaries/principles-for-ethical-ai.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This Dell blog post, \"Avoiding Shadow AI with Effective Enterprise Governance,\" provides evidence for **governance, oversight, transparency, and external accountability**. The post details Dell's guidance on establishing an AI Governance Board with decision-making authority and oversight responsibilities, outlining policies, standards, and procedures for AI management. It also highlights the importance of clear guidelines, accountability for AI development and use, and aligning with regulations and societal values, demonstrating a commitment to transparency and external accountability through risk monitoring and an AI intake framework.",
+          "title": "Avoiding Shadow AI with Effective Enterprise Governance",
+          "url": "https://dell.com/en-us/blog/avoiding-shadow-ai-with-effective-enterprise-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Power, Policy & AI: The Rules of the Race in 2026,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. It highlights the urgent need for governance frameworks, cross-functional approaches, and public-private collaboration for enterprise AI, emphasizing the development of AI policy, regulatory support, and the integration of existing laws for privacy and consumer protection. The post also points to the necessity of addressing accountability, transparency, and human oversight for AI agents, and discusses practical governance in areas like medicine, including data privacy and ethical use.",
+          "title": "Power, Policy & AI: The Rules of the Race in 2026",
+          "url": "https://dell.com/en-us/blog/power-policy-ai-the-rules-of-the-race-in-2026"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Debunking AI Security Myths,\" provides evidence for **governance**, **oversight**, and **privacy**. It supports governance and privacy by detailing best practices for AI security, including secure supply chains and data protection features. The paper also supports oversight by emphasizing the critical need for human involvement and regular audits in AI operations.",
+          "title": "Debunking AI Security Myths",
+          "url": "https://delltechnologies.com/asset/en-us/products/security/briefs-summaries/securing-ai-brief.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 32,
+      "findings": "Dell Technologies documents privacy practices by requiring disclosures about AI interactions and data use. Published materials emphasize the integration of existing laws for privacy and consumer protection, and discuss data privacy in practical governance. Technical papers detail requirements for data protection, address securing data and models within AI supply chains, and mention ML capabilities for data privacy. Privacy statements also detail the sharing of personal data and imply a framework for its use and third-party sharing.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Dell Technologies Principles for Ethical Artificial Intelligence,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports these pillars by highlighting a governance framework that mandates human oversight and bias reduction, requiring disclosures about AI interactions and data use for transparency and privacy, and establishing principles for AI development that consider broader impacts and human definition of intent for fairness.",
+          "title": "Dell Technologies Principles for Ethical Artificial Intelligence",
+          "url": "https://delltechnologies.com/asset/en-us/solutions/business-solutions/briefs-summaries/principles-for-ethical-ai.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Power, Policy & AI: The Rules of the Race in 2026,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. It highlights the urgent need for governance frameworks, cross-functional approaches, and public-private collaboration for enterprise AI, emphasizing the development of AI policy, regulatory support, and the integration of existing laws for privacy and consumer protection. The post also points to the necessity of addressing accountability, transparency, and human oversight for AI agents, and discusses practical governance in areas like medicine, including data privacy and ethical use.",
+          "title": "Power, Policy & AI: The Rules of the Race in 2026",
+          "url": "https://dell.com/en-us/blog/power-policy-ai-the-rules-of-the-race-in-2026"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Building a Leading Sovereign AI Nation,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The paper supports these pillars by outlining AI governance frameworks, including policies for AI procurement, data governance, and regulatory alignment. It details requirements for AI tools and models, emphasizing ethical guidelines, transparency, explainability, and data protection, and highlights the importance of a Responsible AI code of practice as a partner selection criterion.",
+          "title": "Building a Leading Sovereign AI Nation",
+          "url": "https://delltechnologies.com/asset/en-us/solutions/business-solutions/industry-market/dell-sovereign-ai-whitepaper-apj.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Bringing AI to Your Data: Dell's Federal AI Strategy,\" provides evidence for **governance, privacy, transparency, fairness, explainability, and external_accountability**. The paper details Dell's commitment to robust data governance frameworks as foundational to responsible AI, emphasizing data integrity, security, and compliance with regulations like GDPR and HIPAA through localized AI processing and encryption. It also highlights initiatives for ethical AI, including bias detection and mitigation, and mentions transparent and explainable AI with auditing and monitoring for compliance.",
+          "title": "Bringing AI to Your Data: Dell's Federal AI Strategy",
+          "url": "https://webobjects2.cdw.com/is/content/CDW/cdw/on-domain-cdw/brands/dell/dell-fed-whitepater-bringing-ai-to-the-data.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Securing the AI Factory,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The post details Dell's AI security strategy, emphasizing cross-functional governance for AI use cases and compliance, a systematic approach to AI solutions incorporating security, and the need for strong DevSecOps processes throughout the AI lifecycle. It also addresses securing data and models within AI supply chains, protecting data for the AI lifecycle, and implementing access controls for AI data management, which supports the privacy pillar, while mentioning \"capabilities\" and \"business rules\" for managing them points to transparency.",
+          "title": "Securing the AI Factory",
+          "url": "https://dell.com/en-us/blog/securing-the-ai-factory"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This Dell Technologies North America Privacy Statement supports the **governance** and **privacy** pillars. It demonstrates governance by outlining operational activities related to AI technology development, such as testing and fixing. The policy also supports the privacy pillar by detailing the sharing of personal data for personalized advertising and implying a framework for its use and third-party sharing.",
+          "title": "Dell Technologies North America Privacy Statement",
+          "url": "https://dell.com/en-us/lp/legal/policies-privacy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Top 10 Cybersecurity Concerns for GenAI and LLMs,\" provides evidence for **governance** and **privacy**. It supports governance by detailing operational practices like monitoring, logging, and responding to AI system events, as well as regular evaluations and updates for secure configurations. The paper also supports privacy by mentioning commitments to address sensitive data disclosure and compliance.",
+          "title": "Top 10 Cybersecurity Concerns for GenAI and LLMs",
+          "url": "https://delltechnologies.com/asset/en-us/products/security/briefs-summaries/top-ten-cybersecurity-concerns-for-llms-ebook.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Debunking AI Security Myths,\" provides evidence for **governance**, **oversight**, and **privacy**. It supports governance and privacy by detailing best practices for AI security, including secure supply chains and data protection features. The paper also supports oversight by emphasizing the critical need for human involvement and regular audits in AI operations.",
+          "title": "Debunking AI Security Myths",
+          "url": "https://delltechnologies.com/asset/en-us/products/security/briefs-summaries/securing-ai-brief.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"From Big Bang to Light Speed: the AI Revolution Continues,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by discussing the need for intelligent automation, data reduction, and safeguarding capabilities within collaborative ecosystems, as well as aligning business objectives with national frameworks. The post also touches on privacy by mentioning the protection of AI artifacts and data for continuity, and the localization of sensitive information within national borders. Transparency is implied through mentions of \"Dell internal analysis\" related to AI claims.",
+          "title": "From Big Bang to Light Speed: the AI Revolution Continues",
+          "url": "https://dell.com/en-us/blog/from-big-bang-to-light-speed-the-ai-revolution-continues"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"GenAI: A Dual-Edged Sword for Cybersecurity,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It highlights the need for governance entities and acceptable use policies, as well as essential measures like access control and system security. The post also addresses data privacy and integrity concerns, emphasizing proactive risk mitigation through robust security measures and continuous monitoring.",
+          "title": "GenAI: A Dual-Edged Sword for Cybersecurity",
+          "url": "https://dell.com/en-us/blog/genai-a-dual-edged-sword-for-cybersecurity"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Dell AIOps Security,\" provides evidence for **external_accountability**, **governance**, and **privacy**. The document supports governance by detailing Dell's Secure Development Lifecycle (SDL) policy and security controls for development teams, as well as describing operational security assessments for AI systems. Evidence for privacy is found in mentions of ML capabilities for data privacy, and external accountability is implied through proactive monitoring and security features.",
+          "title": "Dell AIOps Security",
+          "url": "https://delltechnologies.com/asset/en-ie/products/storage/industry-market/dell-aiops-security-whitepaper.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Creating Your AI Implementation Blueprint,\" provides evidence for **fairness, governance, privacy, and transparency**. It supports **governance** by detailing the need for an AI governance structure including policy guidelines, roles, and prohibited actions, as well as emphasizing strategic planning, roadmap development, and AI use case prioritization. The paper also touches upon **privacy** by mentioning AI architecture that includes data privacy and security considerations. Evidence for **transparency** is found in its discussion of AI capabilities like recommendations and forecasting, implying the need for clarity in data-driven decisions. While not explicitly detailed, the mention of data bias in governance challenges suggests a connection to **fairness**.",
+          "title": "Creating Your AI Implementation Blueprint",
+          "url": "https://www.delltechnologies.com/asset/ja-jp/solutions/business-solutions/industry-market/apj-idc-ai-for-enterprise-infobrief-master.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"10 Questions to Kickstart AI Initiatives,\" provides evidence for fairness, governance, privacy, and transparency. It supports fairness and privacy by listing \"Bias\" and \"Data privacy laws\" for AI risk mitigation. The paper also supports governance through its emphasis on \"AI strategy, risk assessment, and AI governance,\" and transparency by mentioning the implementation of specific \"use cases\" and the configuration of AI tools.",
+          "title": "10 Questions to Kickstart AI Initiatives",
+          "url": "https://delltechnologies.com/asset/en-us/products/workstations/briefs-summaries/10-questions-to-kickstart-ai-initiatives-ebook.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 13
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 43,
+      "findings": "Dell Technologies documents practices for transparency, including requiring disclosures about AI interactions and data use. Published materials highlight the importance of clear guidelines for AI development and use, aligning with regulations, and addressing transparency for AI agents. Technical papers detail requirements for AI tools and models, describe AI systems and capabilities, and mention specific AI model metrics for monitoring and optimization.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Dell Technologies Principles for Ethical Artificial Intelligence,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports these pillars by highlighting a governance framework that mandates human oversight and bias reduction, requiring disclosures about AI interactions and data use for transparency and privacy, and establishing principles for AI development that consider broader impacts and human definition of intent for fairness.",
+          "title": "Dell Technologies Principles for Ethical Artificial Intelligence",
+          "url": "https://delltechnologies.com/asset/en-us/solutions/business-solutions/briefs-summaries/principles-for-ethical-ai.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Dell Technologies FY24 Environmental, Social and Governance Report provides evidence for **governance** and **transparency**. The report documents Dell's Principles for Ethical Artificial Intelligence, the establishment of a Chief AI Officer and AI Center for governance and risk management, and participation in an AI Alliance, all of which demonstrate a commitment to responsible AI practices. Additionally, the mention of an ML-enabled system (CARDS) implies transparency in its application.",
+          "title": "Dell Technologies FY24 Environmental, Social and Governance Report",
+          "url": "https://delltechnologies.com/asset/en-gb/solutions/business-solutions/briefs-summaries/delltechnologies-fy24-esg-report.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This Dell blog post, \"Avoiding Shadow AI with Effective Enterprise Governance,\" provides evidence for **governance, oversight, transparency, and external accountability**. The post details Dell's guidance on establishing an AI Governance Board with decision-making authority and oversight responsibilities, outlining policies, standards, and procedures for AI management. It also highlights the importance of clear guidelines, accountability for AI development and use, and aligning with regulations and societal values, demonstrating a commitment to transparency and external accountability through risk monitoring and an AI intake framework.",
+          "title": "Avoiding Shadow AI with Effective Enterprise Governance",
+          "url": "https://dell.com/en-us/blog/avoiding-shadow-ai-with-effective-enterprise-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Power, Policy & AI: The Rules of the Race in 2026,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. It highlights the urgent need for governance frameworks, cross-functional approaches, and public-private collaboration for enterprise AI, emphasizing the development of AI policy, regulatory support, and the integration of existing laws for privacy and consumer protection. The post also points to the necessity of addressing accountability, transparency, and human oversight for AI agents, and discusses practical governance in areas like medicine, including data privacy and ethical use.",
+          "title": "Power, Policy & AI: The Rules of the Race in 2026",
+          "url": "https://dell.com/en-us/blog/power-policy-ai-the-rules-of-the-race-in-2026"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Building a Leading Sovereign AI Nation,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The paper supports these pillars by outlining AI governance frameworks, including policies for AI procurement, data governance, and regulatory alignment. It details requirements for AI tools and models, emphasizing ethical guidelines, transparency, explainability, and data protection, and highlights the importance of a Responsible AI code of practice as a partner selection criterion.",
+          "title": "Building a Leading Sovereign AI Nation",
+          "url": "https://delltechnologies.com/asset/en-us/solutions/business-solutions/industry-market/dell-sovereign-ai-whitepaper-apj.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Bringing AI to Your Data: Dell's Federal AI Strategy,\" provides evidence for **governance, privacy, transparency, fairness, explainability, and external_accountability**. The paper details Dell's commitment to robust data governance frameworks as foundational to responsible AI, emphasizing data integrity, security, and compliance with regulations like GDPR and HIPAA through localized AI processing and encryption. It also highlights initiatives for ethical AI, including bias detection and mitigation, and mentions transparent and explainable AI with auditing and monitoring for compliance.",
+          "title": "Bringing AI to Your Data: Dell's Federal AI Strategy",
+          "url": "https://webobjects2.cdw.com/is/content/CDW/cdw/on-domain-cdw/brands/dell/dell-fed-whitepater-bringing-ai-to-the-data.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Securing the AI Factory,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The post details Dell's AI security strategy, emphasizing cross-functional governance for AI use cases and compliance, a systematic approach to AI solutions incorporating security, and the need for strong DevSecOps processes throughout the AI lifecycle. It also addresses securing data and models within AI supply chains, protecting data for the AI lifecycle, and implementing access controls for AI data management, which supports the privacy pillar, while mentioning \"capabilities\" and \"business rules\" for managing them points to transparency.",
+          "title": "Securing the AI Factory",
+          "url": "https://dell.com/en-us/blog/securing-the-ai-factory"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"From Big Bang to Light Speed: the AI Revolution Continues,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by discussing the need for intelligent automation, data reduction, and safeguarding capabilities within collaborative ecosystems, as well as aligning business objectives with national frameworks. The post also touches on privacy by mentioning the protection of AI artifacts and data for continuity, and the localization of sensitive information within national borders. Transparency is implied through mentions of \"Dell internal analysis\" related to AI claims.",
+          "title": "From Big Bang to Light Speed: the AI Revolution Continues",
+          "url": "https://dell.com/en-us/blog/from-big-bang-to-light-speed-the-ai-revolution-continues"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Dell AIOps Security,\" provides evidence for **external_accountability**, **governance**, and **privacy**. The document supports governance by detailing Dell's Secure Development Lifecycle (SDL) policy and security controls for development teams, as well as describing operational security assessments for AI systems. Evidence for privacy is found in mentions of ML capabilities for data privacy, and external accountability is implied through proactive monitoring and security features.",
+          "title": "Dell AIOps Security",
+          "url": "https://delltechnologies.com/asset/en-ie/products/storage/industry-market/dell-aiops-security-whitepaper.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Creating Your AI Implementation Blueprint,\" provides evidence for **fairness, governance, privacy, and transparency**. It supports **governance** by detailing the need for an AI governance structure including policy guidelines, roles, and prohibited actions, as well as emphasizing strategic planning, roadmap development, and AI use case prioritization. The paper also touches upon **privacy** by mentioning AI architecture that includes data privacy and security considerations. Evidence for **transparency** is found in its discussion of AI capabilities like recommendations and forecasting, implying the need for clarity in data-driven decisions. While not explicitly detailed, the mention of data bias in governance challenges suggests a connection to **fairness**.",
+          "title": "Creating Your AI Implementation Blueprint",
+          "url": "https://www.delltechnologies.com/asset/ja-jp/solutions/business-solutions/industry-market/apj-idc-ai-for-enterprise-infobrief-master.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Generative AI in the Enterprise - Inferencing Design Guide,\" provides evidence for **explainability, governance, and transparency**. It supports explainability by detailing MLOps for AI model management, including explainability. The paper demonstrates governance through its description of AI model lifecycle management, version control, MLOps for security and compliance, and a structured process for assessing and designing AI solutions. Transparency is supported by descriptions of AI systems, capabilities, and their inference system components and functions, as well as specific AI model metrics for monitoring and optimization.",
+          "title": "Generative AI in the Enterprise - Inferencing Design Guide",
+          "url": "https://delltechnologies.com/asset/ja-jp/solutions/business-solutions/technical-support/h19686-gen-ai-inferencing-dg.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_028",
+          "source_tier": "company_owned",
+          "summary": "This blog post by Dell's Chief AI Officer provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights the importance of a clear AI strategy, defined objectives, and robust data quality processes as foundational policy for governance. Furthermore, the post discusses the need for transparency in selecting diverse AI solutions and the role of a Chief AI Officer in balancing AI promise with risk mitigation, underscoring a focus on operational and strategic governance.",
+          "title": "The Rise of the Chief AI Officer: Keys to Success",
+          "url": "https://dell.com/en-us/blog/the-rise-of-the-chief-ai-officer-keys-to-success"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"10 Questions to Kickstart AI Initiatives,\" provides evidence for fairness, governance, privacy, and transparency. It supports fairness and privacy by listing \"Bias\" and \"Data privacy laws\" for AI risk mitigation. The paper also supports governance through its emphasis on \"AI strategy, risk assessment, and AI governance,\" and transparency by mentioning the implementation of specific \"use cases\" and the configuration of AI tools.",
+          "title": "10 Questions to Kickstart AI Initiatives",
+          "url": "https://delltechnologies.com/asset/en-us/products/workstations/briefs-summaries/10-questions-to-kickstart-ai-initiatives-ebook.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 13
+    }
+  },
+  "published_at": "2026-02-23T21:48:30Z",
+  "run_id": "20260201_220645_8238",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Policy documents from Dell Technologies require disclosures about AI interactions and data use, addressing both transparency and privacy. These materials also highlight a governance framework that mandates human oversight and bias reduction, covering oversight and governance at an operational level. All 7 evaluated pillars have documented public evidence, with fairness and explainability also addressed through policy-level commitments, such as technical papers detailing requirements for explainable AI tools and models. This assessment is based on a review of 31 publicly available sources.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 199,
+    "total_sources_used": 21
+  }
+}

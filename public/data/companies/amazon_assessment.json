@@ -1,0 +1,1430 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 100.0,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 14
+  },
+  "company": "Amazon",
+  "company_slug": "amazon",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 15,
+      "OPERATIONAL": 107,
+      "POLICY": 211
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 32,
+      "findings": "Amazon documents verifiable explanations for AI-generated information and describes safeguards that offer provable explanations. Technical papers illustrate model outputs and configurations, and jobs can be configured to compute feature attributions to understand predictions. The company also uses Model Cards for traceability through ML lineage and for documenting model purpose and limitations, and discusses tools for explainability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Amazon's board structure and the Nominating and Corporate Governance Committee's responsibility for reviewing AI development and governance, supporting the **governance** and **oversight** pillars. The document also highlights operational controls like watermarking and hallucination detection for **transparency**, commitments to fairness and accuracy through filtering and guardrails for **fairness**, and security testing for data protection supporting **privacy**. Furthermore, it mentions adherence to external standards like ISO/IEC 42001 and verification by independent third parties, demonstrating **external accountability**.",
+          "title": "Amazon 2025 Proxy Statement and Board Governance",
+          "url": "https://sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Amazon Bedrock Guardrails - Generative AI Safety Controls,\" provides evidence for explainability, governance, privacy, and transparency. It supports explainability by describing verifiable explanations and how AI information is verified and corrected. The document supports governance by detailing configurable safeguards and their application across different AI workflows and models, demonstrating control over AI system integration. Evidence for privacy is found in the description of sensitive data redaction, specifically PII redaction. Finally, transparency is supported by the documentation of AI capabilities and the application of safeguards.",
+          "title": "Amazon Bedrock Guardrails - Generative AI Safety Controls",
+          "url": "https://aws.amazon.com/bedrock/guardrails"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Amazon Bedrock Security, Privacy, and Responsible AI Features,\" provides evidence for the **explainability**, **governance**, and **privacy** pillars. It supports explainability by detailing safeguards that offer provable explanations for AI-generated information. The document demonstrates governance and privacy commitments through its description of customizable content filtering, PII detection, data protection, adherence to regulations, access controls, audit trails, and observability features.",
+          "title": "Amazon Bedrock Security, Privacy, and Responsible AI Features",
+          "url": "https://aws.amazon.com/bedrock/security-privacy-responsible-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper on Amazon SageMaker Clarify provides evidence for explainability, fairness, governance, oversight, and transparency. It details the system's capabilities for bias detection and monitoring using specific metrics, supports fairness through pre-training analysis and post-launch monitoring, and demonstrates governance and oversight via pipelines and dashboards for AI health. The paper also touches on transparency by illustrating model outputs and configurations, and mentions security features that relate to privacy.",
+          "title": "Amazon SageMaker Clarify: Machine Learning Bias Detection and Explainability (Technical Paper)",
+          "url": "https://arxiv.org/pdf/2109.03285.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This technical documentation for Amazon SageMaker Clarify provides evidence for **explainability, external accountability, fairness, governance, and transparency**. The document details how to configure jobs to compute bias metrics and feature attributions, supporting **fairness** and **explainability** by measuring bias and understanding predictions. It also outlines processes for bias mitigation and retraining, and describes operational capabilities like monitoring drift, which contribute to **governance** and ongoing **fairness**. Furthermore, the documentation addresses regulatory compliance and generating reports for external regulators, demonstrating support for **external accountability** and **transparency**.",
+          "title": "Amazon SageMaker Clarify - Technical Documentation and Configuration Guide",
+          "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Textract AnalyzeID provides evidence for **fairness, governance, oversight, privacy, and transparency**. It supports fairness and governance by advising customers on setting policies to prevent disparate outcomes and encouraging responsible AI practices. Evidence for oversight is found in mentions of routine testing and customer reviews, while privacy is supported by opt-out mechanisms and data protection policies. Finally, transparency is addressed through recommendations for disclosure and feedback mechanisms.",
+          "title": "AWS AI Service Card - Amazon Textract AnalyzeID",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/textract-analyzeid/textract-analyzeid.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Textract AnalyzeID provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. The documentation details machine learning design choices for fairness and bias mitigation, discusses evaluation datasets and performance metrics for transparency, and outlines operational processes like routine testing and customer reviews for governance and oversight. It also mentions the incorporation of responsible AI dimensions like privacy into their practices.",
+          "title": "Amazon Textract AnalyzeID - AWS AI Service Card Overview",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/textract-analyzeid/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Rekognition Face Matching provides evidence for explainability, external accountability, fairness, governance, and privacy. The service card supports these pillars by outlining policies for data privacy and governance through opt-out mechanisms and terms of service, detailing operational practices like incorporating responsible AI in the design phase and routine testing for fairness across demographic groups, and referencing third-party validation and specific fairness metrics. It also highlights customer responsibilities for managing face collections and appropriate use cases.",
+          "title": "AWS AI Service Card - Amazon Rekognition Face Matching",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/rekognition-face-matching/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Nova Reel provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details safety features like content filtering with high blocking rates for harmfulness and toxicity, and mentions red-teaming with external firms for safety, security, privacy, and fairness testing, supporting external accountability and fairness. The card also describes C2PA metadata for provenance tracking, demonstrating transparency, and outlines a shared responsibility model for safety, highlighting governance and oversight.",
+          "title": "Amazon Nova Reel - AWS AI Service Cards and Safety Features",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/nova-reel/overview.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post announces the \"AI Service Cards\" initiative, which provides transparency documentation for AWS AI services. The blog post supports the **transparency** pillar by describing these cards as a commitment to responsible AI development. It also provides evidence for **fairness**, **explainability**, **privacy**, and **governance** by detailing design considerations, testing methodologies, and performance evaluations for specific services like Amazon Rekognition Face Matching. The initiative also highlights the importance of human oversight and ongoing testing, supporting the **oversight** pillar.",
+          "title": "AWS AI Service Cards: Transparency Resources for Responsible AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-aws-ai-service-cards-a-new-resource-to-enhance-transparency-and-advance-responsible-ai/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Amazon SageMaker Unified Model Cards and Registry - Governance Integration,\" provides evidence for **governance**, **transparency**, **explainability**, and **fairness**. It describes an end-to-end architecture with embedded governance controls, including AI governance tooling and approval workflows by stakeholders, supporting the **governance** pillar. The post details the use of model cards for transparency and traceability through ML lineage, directly supporting the **transparency** and **explainability** pillars by enabling informed decisions and understanding of AI systems. Furthermore, it mentions continuous monitoring of performance metrics like bias post-deployment, indicating mechanisms for addressing **fairness**.",
+          "title": "Amazon SageMaker Unified Model Cards and Registry - Governance Integration",
+          "url": "https://aws.amazon.com/blogs/machine-learning/improve-governance-of-models-with-amazon-sagemaker-unified-model-cards-and-model-registry/"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This press release announces a strategic collaboration between Amazon and Anthropic, providing evidence for **explainability**, **governance**, and **transparency**. The document supports explainability by describing Anthropic's AI systems as \"interpretable.\" It touches on governance and transparency by mentioning Anthropic's commitment to responsible development and the use of AWS Trainium chips for model training, implying data governance and customer access to customized models.",
+          "title": "Amazon and Anthropic Strategic Collaboration Announcement",
+          "url": "https://aboutamazon.com/news/aws/amazon-invests-additional-4-billion-anthropic-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This AWS help page on the Ethical AI Framework and Principles provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining frameworks for data usage and governance, emphasizing human-in-the-loop capabilities and model review for fairness, and detailing policies for data protection and transparency throughout the AI lifecycle. The documentation also highlights mechanisms for accountability and external reviews, and mandates responsible data curation practices.",
+          "title": "AWS Ethical AI Framework and Principles",
+          "url": "https://aws.amazon.com/what-is/ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_031",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post, detailing their ISO/IEC 42001:2023 AI Management System certification, provides evidence for **governance, explainability, fairness, and transparency**. It highlights AWS's structured AI lifecycle risk management, including threat modeling for risk identification and mitigation, and the use of SageMaker Model Cards for documenting model purpose and limitations, supporting explainability and transparency. The post also mentions SageMaker Clarify for fairness and non-discrimination controls, and outlines requirements for AI risk assessments and impact assessments, demonstrating robust governance practices.",
+          "title": "AWS AI Lifecycle Risk Management and ISO/IEC 42001:2023 Governance",
+          "url": "https://aws.amazon.com/blogs/security/ai-lifecycle-risk-management-iso-iec-420012023-for-ai-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_032",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for **governance, privacy, and external accountability**. It supports governance by outlining data provenance transparency requirements, recommending the creation of governance strategies and usage guidelines, and detailing data classification and policy updates. The source supports privacy by stating specific data handling practices for AI services, such as not using customer prompts for training and not sharing data with third parties, and by recommending data minimization and privacy risk review frameworks. Evidence for external accountability is found in recommendations for legal assessment, factoring in regulatory scrutiny, and suggestions for documented AI principles and management systems for accountability.",
+          "title": "AWS Securing Generative AI: Data Compliance and Privacy Considerations",
+          "url": "https://aws.amazon.com/blogs/security/securing-generative-ai-data-compliance-and-privacy-considerations"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_033",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency in responsible AI. It supports these pillars by discussing the use of tools for bias detection and explainability, implementing human-in-the-loop workflows for validation, and emphasizing repeatable processes for governance and external auditing. The post also highlights the importance of security frameworks for data protection and communicating ML usage.",
+          "title": "AWS Responsible AI for Mission-Based Organizations",
+          "url": "https://aws.amazon.com/blogs/publicsector/responsible-ai-for-mission-based-organizations"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_038",
+          "source_tier": "company_owned",
+          "summary": "The \"Amazon Nova - Responsible Use Guidelines\" help page establishes standards for responsible AI by defining core RAI dimensions, supporting the **governance** and **explainability** pillars. It outlines customer responsibilities for risk evaluation, human oversight, and testing, providing evidence for **oversight** and **external_accountability**. Furthermore, the document describes operational capabilities like monitoring and logging, which support **governance** and audit requirements, and mentions guidelines governing the AI lifecycle, reinforcing **governance**.",
+          "title": "Amazon Nova - Responsible Use Guidelines",
+          "url": "https://docs.aws.amazon.com/nova/latest/userguide/responsible-use.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 17
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 26,
+      "findings": "Amazon documents its adherence to external standards like ISO/IEC 42001 and references verification by independent third parties and external validation by accredited labs. The company outlines management's responsibility and assessed controls, as validated by independent audits, and mentions red-teaming with external firms for safety and fairness testing. Additionally, Amazon highlights mechanisms for accountability and external reviews, and emphasizes repeatable processes for external auditing.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Amazon's board structure and the Nominating and Corporate Governance Committee's responsibility for reviewing AI development and governance, supporting the **governance** and **oversight** pillars. The document also highlights operational controls like watermarking and hallucination detection for **transparency**, commitments to fairness and accuracy through filtering and guardrails for **fairness**, and security testing for data protection supporting **privacy**. Furthermore, it mentions adherence to external standards like ISO/IEC 42001 and verification by independent third parties, demonstrating **external accountability**.",
+          "title": "Amazon 2025 Proxy Statement and Board Governance",
+          "url": "https://sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Nova Act foundation model provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. The system card details mechanisms for harmful content prevention, stereotype deflection testing, and safety filters designed to resist prompt engineering attacks, supporting governance and transparency. It also highlights human oversight requirements for sensitive operations and customer responsibility for validation, demonstrating oversight and external accountability, while security controls and protection against attack vectors align with privacy principles.",
+          "title": "AWS AI Service Card - Amazon Nova Act Foundation Model",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/nova-act/nova-act.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This technical documentation for Amazon SageMaker Clarify provides evidence for **explainability, external accountability, fairness, governance, and transparency**. The document details how to configure jobs to compute bias metrics and feature attributions, supporting **fairness** and **explainability** by measuring bias and understanding predictions. It also outlines processes for bias mitigation and retraining, and describes operational capabilities like monitoring drift, which contribute to **governance** and ongoing **fairness**. Furthermore, the documentation addresses regulatory compliance and generating reports for external regulators, demonstrating support for **external accountability** and **transparency**.",
+          "title": "Amazon SageMaker Clarify - Technical Documentation and Configuration Guide",
+          "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Rekognition Face Matching provides evidence for explainability, external accountability, fairness, governance, and privacy. The service card supports these pillars by outlining policies for data privacy and governance through opt-out mechanisms and terms of service, detailing operational practices like incorporating responsible AI in the design phase and routine testing for fairness across demographic groups, and referencing third-party validation and specific fairness metrics. It also highlights customer responsibilities for managing face collections and appropriate use cases.",
+          "title": "AWS AI Service Card - Amazon Rekognition Face Matching",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/rekognition-face-matching/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Rekognition Face Liveness provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The card supports external accountability through details of external validation by an accredited lab, and governance and transparency by describing operational governance through expert assessments and development processes. It also addresses fairness by mentioning diverse datasets and testing across demographics, oversight through recommending human review for high-risk use cases, and privacy by noting enhanced security measures for data protection.",
+          "title": "AWS AI Service Card - Amazon Rekognition Face Liveness",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/rekognition-face-liveness/rekognition-face-liveness.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Nova Reel provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details safety features like content filtering with high blocking rates for harmfulness and toxicity, and mentions red-teaming with external firms for safety, security, privacy, and fairness testing, supporting external accountability and fairness. The card also describes C2PA metadata for provenance tracking, demonstrating transparency, and outlines a shared responsibility model for safety, highlighting governance and oversight.",
+          "title": "Amazon Nova Reel - AWS AI Service Cards and Safety Features",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/nova-reel/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This system card documentation for Amazon SageMaker Model Cards provides evidence for **governance**, **transparency**, and **external accountability**. It details how Model Cards standardize critical ML model information, including intended use, risk ratings, training methodologies, and evaluation metrics, which directly supports governance and transparency by providing clear documentation for audit trails and approval workflows. The inclusion of bias measurements and performance limitations further contributes to transparency about the AI system's capabilities and limitations, while the emphasis on cataloging details for risk and performance supports external accountability by documenting key aspects of the model's lifecycle.",
+          "title": "Amazon SageMaker Model Cards - Governance Documentation",
+          "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This Amazon SageMaker Model Cards blog post provides evidence for **governance**, **transparency**, **external accountability**, and **privacy**. It details how Model Cards serve as a single source of truth for model metadata throughout the lifecycle, supporting **governance** and **transparency** through standardized documentation and audit trails. The post also discusses cross-account sharing capabilities and access controls, which contribute to **governance** and **privacy** by enabling controlled access and data protection, and the mention of security and guardrails indicates a commitment to responsible ML practices.",
+          "title": "Amazon SageMaker Model Cards: Governance and Cross-Account Sharing",
+          "url": "https://aws.amazon.com/blogs/machine-learning/use-amazon-sagemaker-model-cards-sharing-to-improve-model-governance"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Amazon's AI strategy, including investments in custom silicon and foundation models, and outlining management's responsibility and assessed controls, as validated by independent audits. The document also touches on governance related to AI investments, privacy concerns, and operational execution of data protection and compliance programs.",
+          "title": "Amazon 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/1018724/000110465925033453/tm254123d4_ars.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"ACLU Analysis - Amazon Automated Hiring Tool Gender Discrimination,\" provides evidence for **external_accountability**, **fairness**, **governance**, **oversight**, and **transparency**. The report documents systematic gender bias in an automated hiring tool, highlighting fairness challenges in data-trained systems and legal implications under Title VII. It also touches upon the need for regulatory examination, guidance on bias testing, and the difficulties external auditors face due to proprietary software, supporting the other mentioned pillars.",
+          "title": "ACLU Analysis - Amazon Automated Hiring Tool Gender Discrimination",
+          "url": "https://aclu.org/news/womens-rights/why-amazons-automated-hiring-tool-discriminated-against"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This AWS help page on the Ethical AI Framework and Principles provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining frameworks for data usage and governance, emphasizing human-in-the-loop capabilities and model review for fairness, and detailing policies for data protection and transparency throughout the AI lifecycle. The documentation also highlights mechanisms for accountability and external reviews, and mandates responsible data curation practices.",
+          "title": "AWS Ethical AI Framework and Principles",
+          "url": "https://aws.amazon.com/what-is/ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_032",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for **governance, privacy, and external accountability**. It supports governance by outlining data provenance transparency requirements, recommending the creation of governance strategies and usage guidelines, and detailing data classification and policy updates. The source supports privacy by stating specific data handling practices for AI services, such as not using customer prompts for training and not sharing data with third parties, and by recommending data minimization and privacy risk review frameworks. Evidence for external accountability is found in recommendations for legal assessment, factoring in regulatory scrutiny, and suggestions for documented AI principles and management systems for accountability.",
+          "title": "AWS Securing Generative AI: Data Compliance and Privacy Considerations",
+          "url": "https://aws.amazon.com/blogs/security/securing-generative-ai-data-compliance-and-privacy-considerations"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_033",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency in responsible AI. It supports these pillars by discussing the use of tools for bias detection and explainability, implementing human-in-the-loop workflows for validation, and emphasizing repeatable processes for governance and external auditing. The post also highlights the importance of security frameworks for data protection and communicating ML usage.",
+          "title": "AWS Responsible AI for Mission-Based Organizations",
+          "url": "https://aws.amazon.com/blogs/publicsector/responsible-ai-for-mission-based-organizations"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_038",
+          "source_tier": "company_owned",
+          "summary": "The \"Amazon Nova - Responsible Use Guidelines\" help page establishes standards for responsible AI by defining core RAI dimensions, supporting the **governance** and **explainability** pillars. It outlines customer responsibilities for risk evaluation, human oversight, and testing, providing evidence for **oversight** and **external_accountability**. Furthermore, the document describes operational capabilities like monitoring and logging, which support **governance** and audit requirements, and mentions guidelines governing the AI lifecycle, reinforcing **governance**.",
+          "title": "Amazon Nova - Responsible Use Guidelines",
+          "url": "https://docs.aws.amazon.com/nova/latest/userguide/responsible-use.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 14
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 76,
+      "findings": "Amazon documents commitments to fairness and accuracy through filtering and guardrails, detailing mechanisms for bias detection and monitoring in data and deployed models. Practices include stereotype deflection testing, using diverse datasets, and routine testing across demographic groups. The company also outlines processes for bias mitigation, retraining, and continuous monitoring of bias post-deployment, emphasizing human-in-the-loop capabilities and model review for fairness.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Amazon's board structure and the Nominating and Corporate Governance Committee's responsibility for reviewing AI development and governance, supporting the **governance** and **oversight** pillars. The document also highlights operational controls like watermarking and hallucination detection for **transparency**, commitments to fairness and accuracy through filtering and guardrails for **fairness**, and security testing for data protection supporting **privacy**. Furthermore, it mentions adherence to external standards like ISO/IEC 42001 and verification by independent third parties, demonstrating **external accountability**.",
+          "title": "Amazon 2025 Proxy Statement and Board Governance",
+          "url": "https://sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Nova Act foundation model provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. The system card details mechanisms for harmful content prevention, stereotype deflection testing, and safety filters designed to resist prompt engineering attacks, supporting governance and transparency. It also highlights human oversight requirements for sensitive operations and customer responsibility for validation, demonstrating oversight and external accountability, while security controls and protection against attack vectors align with privacy principles.",
+          "title": "AWS AI Service Card - Amazon Nova Act Foundation Model",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/nova-act/nova-act.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper on Amazon SageMaker Clarify provides evidence for explainability, fairness, governance, oversight, and transparency. It details the system's capabilities for bias detection and monitoring using specific metrics, supports fairness through pre-training analysis and post-launch monitoring, and demonstrates governance and oversight via pipelines and dashboards for AI health. The paper also touches on transparency by illustrating model outputs and configurations, and mentions security features that relate to privacy.",
+          "title": "Amazon SageMaker Clarify: Machine Learning Bias Detection and Explainability (Technical Paper)",
+          "url": "https://arxiv.org/pdf/2109.03285.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon SageMaker Clarify provides evidence for **fairness**, **oversight**, and **transparency**. It supports fairness by detailing mechanisms for detecting and monitoring bias in data and deployed models, including automated metric generation and reporting. Evidence for oversight is found in the mention of human-based evaluations and review processes, while transparency is supported by the description of AI use cases and the generation of visual reports for analysis.",
+          "title": "Amazon SageMaker Clarify - Bias Detection and Model Explainability Service",
+          "url": "https://aws.amazon.com/sagemaker/ai/clarify"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This technical documentation for Amazon SageMaker Clarify provides evidence for **explainability, external accountability, fairness, governance, and transparency**. The document details how to configure jobs to compute bias metrics and feature attributions, supporting **fairness** and **explainability** by measuring bias and understanding predictions. It also outlines processes for bias mitigation and retraining, and describes operational capabilities like monitoring drift, which contribute to **governance** and ongoing **fairness**. Furthermore, the documentation addresses regulatory compliance and generating reports for external regulators, demonstrating support for **external accountability** and **transparency**.",
+          "title": "Amazon SageMaker Clarify - Technical Documentation and Configuration Guide",
+          "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Textract AnalyzeID provides evidence for **fairness, governance, oversight, privacy, and transparency**. It supports fairness and governance by advising customers on setting policies to prevent disparate outcomes and encouraging responsible AI practices. Evidence for oversight is found in mentions of routine testing and customer reviews, while privacy is supported by opt-out mechanisms and data protection policies. Finally, transparency is addressed through recommendations for disclosure and feedback mechanisms.",
+          "title": "AWS AI Service Card - Amazon Textract AnalyzeID",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/textract-analyzeid/textract-analyzeid.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Textract AnalyzeID provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. The documentation details machine learning design choices for fairness and bias mitigation, discusses evaluation datasets and performance metrics for transparency, and outlines operational processes like routine testing and customer reviews for governance and oversight. It also mentions the incorporation of responsible AI dimensions like privacy into their practices.",
+          "title": "Amazon Textract AnalyzeID - AWS AI Service Card Overview",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/textract-analyzeid/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Comprehend Detect PII provides evidence for **fairness, governance, oversight, and transparency**. The document details iterative development using multi-locale training datasets and accuracy evaluation across diverse text quality conditions, demonstrating operational efforts towards fairness and bias mitigation. It also describes configurable confidence thresholds for customers to manage false positives and negatives, and advises on proactive measures and human judgment policies, indicating mechanisms for governance, oversight, and transparency in responsible AI use.",
+          "title": "AWS AI Service Card - Amazon Comprehend Detect PII",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/comprehend-detectpii/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Rekognition Face Matching provides evidence for explainability, external accountability, fairness, governance, and privacy. The service card supports these pillars by outlining policies for data privacy and governance through opt-out mechanisms and terms of service, detailing operational practices like incorporating responsible AI in the design phase and routine testing for fairness across demographic groups, and referencing third-party validation and specific fairness metrics. It also highlights customer responsibilities for managing face collections and appropriate use cases.",
+          "title": "AWS AI Service Card - Amazon Rekognition Face Matching",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/rekognition-face-matching/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Rekognition Face Liveness provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The card supports external accountability through details of external validation by an accredited lab, and governance and transparency by describing operational governance through expert assessments and development processes. It also addresses fairness by mentioning diverse datasets and testing across demographics, oversight through recommending human review for high-risk use cases, and privacy by noting enhanced security measures for data protection.",
+          "title": "AWS AI Service Card - Amazon Rekognition Face Liveness",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/rekognition-face-liveness/rekognition-face-liveness.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Nova Reel provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details safety features like content filtering with high blocking rates for harmfulness and toxicity, and mentions red-teaming with external firms for safety, security, privacy, and fairness testing, supporting external accountability and fairness. The card also describes C2PA metadata for provenance tracking, demonstrating transparency, and outlines a shared responsibility model for safety, highlighting governance and oversight.",
+          "title": "Amazon Nova Reel - AWS AI Service Cards and Safety Features",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/nova-reel/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Titan Image Generator provides evidence for fairness, governance, oversight, privacy, and transparency. It supports transparency by detailing invisible watermarking for AI-generated images and a detection API for provenance verification. Governance and oversight are demonstrated through commitments to child safety, reporting mechanisms, and specific testing methods like human evaluation and red-teaming. Privacy is addressed through safeguarding data and content, including the detection and blocking of CSAM.",
+          "title": "AWS AI Service Card - Amazon Titan Image Generator",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/titan-image-generator/overview.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post announces the \"AI Service Cards\" initiative, which provides transparency documentation for AWS AI services. The blog post supports the **transparency** pillar by describing these cards as a commitment to responsible AI development. It also provides evidence for **fairness**, **explainability**, **privacy**, and **governance** by detailing design considerations, testing methodologies, and performance evaluations for specific services like Amazon Rekognition Face Matching. The initiative also highlights the importance of human oversight and ongoing testing, supporting the **oversight** pillar.",
+          "title": "AWS AI Service Cards: Transparency Resources for Responsible AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-aws-ai-service-cards-a-new-resource-to-enhance-transparency-and-advance-responsible-ai/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Amazon SageMaker Unified Model Cards and Registry - Governance Integration,\" provides evidence for **governance**, **transparency**, **explainability**, and **fairness**. It describes an end-to-end architecture with embedded governance controls, including AI governance tooling and approval workflows by stakeholders, supporting the **governance** pillar. The post details the use of model cards for transparency and traceability through ML lineage, directly supporting the **transparency** and **explainability** pillars by enabling informed decisions and understanding of AI systems. Furthermore, it mentions continuous monitoring of performance metrics like bias post-deployment, indicating mechanisms for addressing **fairness**.",
+          "title": "Amazon SageMaker Unified Model Cards and Registry - Governance Integration",
+          "url": "https://aws.amazon.com/blogs/machine-learning/improve-governance-of-models-with-amazon-sagemaker-unified-model-cards-and-model-registry/"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"ACLU Analysis - Amazon Automated Hiring Tool Gender Discrimination,\" provides evidence for **external_accountability**, **fairness**, **governance**, **oversight**, and **transparency**. The report documents systematic gender bias in an automated hiring tool, highlighting fairness challenges in data-trained systems and legal implications under Title VII. It also touches upon the need for regulatory examination, guidance on bias testing, and the difficulties external auditors face due to proprietary software, supporting the other mentioned pillars.",
+          "title": "ACLU Analysis - Amazon Automated Hiring Tool Gender Discrimination",
+          "url": "https://aclu.org/news/womens-rights/why-amazons-automated-hiring-tool-discriminated-against"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"ACLU Study - Amazon Rekognition Congressional Facial Recognition Test,\" provides evidence for **fairness** and **transparency**. The report supports fairness by detailing the AI system's disparate accuracy rates for people of color and women, demonstrating bias. It supports transparency by describing the AI system's capabilities and its public availability, indicating how it can be used.",
+          "title": "ACLU Study - Amazon Rekognition Congressional Facial Recognition Test",
+          "url": "https://aclu.org/news/privacy-technology/amazons-face-recognition-falsely-matched-28"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for the **transparency**, **fairness**, and **privacy** pillars of responsible AI. It supports transparency by describing AI Service Cards, which document use cases, limitations, and design choices. The post also indicates a commitment to embedding fairness and privacy into development processes and educating employees, directly supporting the fairness and privacy pillars.",
+          "title": "AWS Progress Update on Safe, Responsible Generative AI Commitment",
+          "url": "https://aws.amazon.com/blogs/machine-learning/a-progress-update-on-our-commitment-to-safe-responsible-generative-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This press release from Amazon affirms their commitment to responsible AI by detailing over 70 capabilities and features, and participation in White House voluntary AI commitments. The source provides evidence for **fairness, governance, privacy, and transparency** by highlighting the embedding of safety, fairness, robustness, security, and privacy into development processes, and by advocating for transparency through AI Service Cards for customer understanding. It also emphasizes collaboration and information sharing for AI safety and trust, and the building of guardrails into products for responsible deployment.",
+          "title": "Op-ed: Amazon Doubles Down on Responsible AI Commitments",
+          "url": "https://aboutamazon.com/news/policy-news-views/amazon-responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This AWS help page on the Ethical AI Framework and Principles provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining frameworks for data usage and governance, emphasizing human-in-the-loop capabilities and model review for fairness, and detailing policies for data protection and transparency throughout the AI lifecycle. The documentation also highlights mechanisms for accountability and external reviews, and mandates responsible data curation practices.",
+          "title": "AWS Ethical AI Framework and Principles",
+          "url": "https://aws.amazon.com/what-is/ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_031",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post, detailing their ISO/IEC 42001:2023 AI Management System certification, provides evidence for **governance, explainability, fairness, and transparency**. It highlights AWS's structured AI lifecycle risk management, including threat modeling for risk identification and mitigation, and the use of SageMaker Model Cards for documenting model purpose and limitations, supporting explainability and transparency. The post also mentions SageMaker Clarify for fairness and non-discrimination controls, and outlines requirements for AI risk assessments and impact assessments, demonstrating robust governance practices.",
+          "title": "AWS AI Lifecycle Risk Management and ISO/IEC 42001:2023 Governance",
+          "url": "https://aws.amazon.com/blogs/security/ai-lifecycle-risk-management-iso-iec-420012023-for-ai-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_032",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for **governance, privacy, and external accountability**. It supports governance by outlining data provenance transparency requirements, recommending the creation of governance strategies and usage guidelines, and detailing data classification and policy updates. The source supports privacy by stating specific data handling practices for AI services, such as not using customer prompts for training and not sharing data with third parties, and by recommending data minimization and privacy risk review frameworks. Evidence for external accountability is found in recommendations for legal assessment, factoring in regulatory scrutiny, and suggestions for documented AI principles and management systems for accountability.",
+          "title": "AWS Securing Generative AI: Data Compliance and Privacy Considerations",
+          "url": "https://aws.amazon.com/blogs/security/securing-generative-ai-data-compliance-and-privacy-considerations"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_033",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency in responsible AI. It supports these pillars by discussing the use of tools for bias detection and explainability, implementing human-in-the-loop workflows for validation, and emphasizing repeatable processes for governance and external auditing. The post also highlights the importance of security frameworks for data protection and communicating ML usage.",
+          "title": "AWS Responsible AI for Mission-Based Organizations",
+          "url": "https://aws.amazon.com/blogs/publicsector/responsible-ai-for-mission-based-organizations"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_035",
+          "source_tier": "company_owned",
+          "summary": "This AWS Responsible AI Policy document provides evidence for **governance**, **oversight**, **transparency**, and **fairness**. It establishes a formal policy for AI/ML services, mandates human oversight and risk evaluation for consequential decision-making systems, and outlines requirements for evaluating AI outputs to ensure accuracy, thereby supporting transparency and governance. The policy also states a commitment to fair and accurate AI services, directly addressing the fairness pillar.",
+          "title": "AWS Responsible AI Policy - Acceptable Use and Requirements",
+          "url": "https://aws.amazon.com/ai/responsible-ai/policy/"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_036",
+          "source_tier": "third_party",
+          "summary": "This press release from Amazon details their commitment to the White House's voluntary AI commitments, providing evidence for **fairness, governance, privacy, and transparency**. The document supports these pillars by outlining Amazon's plans for internal and external red-teaming, information sharing on trust and safety risks, protecting model weights, implementing watermarking and provenance mechanisms, publicly reporting on AI capabilities and limitations, conducting AI safety research, and developing frontier AI systems for societal benefit. Specifically, it mentions commitments to transparency through identifying AI content, governance through managing AI use and testing for risks, and explicit consideration of fairness, privacy, and security in their development processes.",
+          "title": "Amazon Commitment to Responsible Use of AI - White House Voluntary Commitments",
+          "url": "https://aboutamazon.com/news/company-news/amazon-responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_038",
+          "source_tier": "company_owned",
+          "summary": "The \"Amazon Nova - Responsible Use Guidelines\" help page establishes standards for responsible AI by defining core RAI dimensions, supporting the **governance** and **explainability** pillars. It outlines customer responsibilities for risk evaluation, human oversight, and testing, providing evidence for **oversight** and **external_accountability**. Furthermore, the document describes operational capabilities like monitoring and logging, which support **governance** and audit requirements, and mentions guidelines governing the AI lifecycle, reinforcing **governance**.",
+          "title": "Amazon Nova - Responsible Use Guidelines",
+          "url": "https://docs.aws.amazon.com/nova/latest/userguide/responsible-use.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 25
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 222,
+      "findings": "Amazon documents a comprehensive approach to governance, detailing its board structure and the Nominating and Corporate Governance Committee's responsibility for reviewing AI development. The company outlines configurable safeguards, content filtering, and adherence to regulations, demonstrating control over AI system integration and commitments. Governance practices also include the use of Model Cards for standardized documentation and audit trails, structured AI lifecycle risk management, and a formal policy for AI/ML services.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Amazon's board structure and the Nominating and Corporate Governance Committee's responsibility for reviewing AI development and governance, supporting the **governance** and **oversight** pillars. The document also highlights operational controls like watermarking and hallucination detection for **transparency**, commitments to fairness and accuracy through filtering and guardrails for **fairness**, and security testing for data protection supporting **privacy**. Furthermore, it mentions adherence to external standards like ISO/IEC 42001 and verification by independent third parties, demonstrating **external accountability**.",
+          "title": "Amazon 2025 Proxy Statement and Board Governance",
+          "url": "https://sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Nova Act foundation model provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. The system card details mechanisms for harmful content prevention, stereotype deflection testing, and safety filters designed to resist prompt engineering attacks, supporting governance and transparency. It also highlights human oversight requirements for sensitive operations and customer responsibility for validation, demonstrating oversight and external accountability, while security controls and protection against attack vectors align with privacy principles.",
+          "title": "AWS AI Service Card - Amazon Nova Act Foundation Model",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/nova-act/nova-act.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Amazon Bedrock Guardrails - Generative AI Safety Controls,\" provides evidence for explainability, governance, privacy, and transparency. It supports explainability by describing verifiable explanations and how AI information is verified and corrected. The document supports governance by detailing configurable safeguards and their application across different AI workflows and models, demonstrating control over AI system integration. Evidence for privacy is found in the description of sensitive data redaction, specifically PII redaction. Finally, transparency is supported by the documentation of AI capabilities and the application of safeguards.",
+          "title": "Amazon Bedrock Guardrails - Generative AI Safety Controls",
+          "url": "https://aws.amazon.com/bedrock/guardrails"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Amazon Bedrock Security, Privacy, and Responsible AI Features,\" provides evidence for the **explainability**, **governance**, and **privacy** pillars. It supports explainability by detailing safeguards that offer provable explanations for AI-generated information. The document demonstrates governance and privacy commitments through its description of customizable content filtering, PII detection, data protection, adherence to regulations, access controls, audit trails, and observability features.",
+          "title": "Amazon Bedrock Security, Privacy, and Responsible AI Features",
+          "url": "https://aws.amazon.com/bedrock/security-privacy-responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This technical documentation for Amazon SageMaker Clarify provides evidence for **explainability, external accountability, fairness, governance, and transparency**. The document details how to configure jobs to compute bias metrics and feature attributions, supporting **fairness** and **explainability** by measuring bias and understanding predictions. It also outlines processes for bias mitigation and retraining, and describes operational capabilities like monitoring drift, which contribute to **governance** and ongoing **fairness**. Furthermore, the documentation addresses regulatory compliance and generating reports for external regulators, demonstrating support for **external accountability** and **transparency**.",
+          "title": "Amazon SageMaker Clarify - Technical Documentation and Configuration Guide",
+          "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Textract AnalyzeID provides evidence for **fairness, governance, oversight, privacy, and transparency**. It supports fairness and governance by advising customers on setting policies to prevent disparate outcomes and encouraging responsible AI practices. Evidence for oversight is found in mentions of routine testing and customer reviews, while privacy is supported by opt-out mechanisms and data protection policies. Finally, transparency is addressed through recommendations for disclosure and feedback mechanisms.",
+          "title": "AWS AI Service Card - Amazon Textract AnalyzeID",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/textract-analyzeid/textract-analyzeid.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Textract AnalyzeID provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. The documentation details machine learning design choices for fairness and bias mitigation, discusses evaluation datasets and performance metrics for transparency, and outlines operational processes like routine testing and customer reviews for governance and oversight. It also mentions the incorporation of responsible AI dimensions like privacy into their practices.",
+          "title": "Amazon Textract AnalyzeID - AWS AI Service Card Overview",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/textract-analyzeid/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Comprehend Detect PII provides evidence for **fairness, governance, oversight, and transparency**. The document details iterative development using multi-locale training datasets and accuracy evaluation across diverse text quality conditions, demonstrating operational efforts towards fairness and bias mitigation. It also describes configurable confidence thresholds for customers to manage false positives and negatives, and advises on proactive measures and human judgment policies, indicating mechanisms for governance, oversight, and transparency in responsible AI use.",
+          "title": "AWS AI Service Card - Amazon Comprehend Detect PII",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/comprehend-detectpii/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Rekognition Face Matching provides evidence for explainability, external accountability, fairness, governance, and privacy. The service card supports these pillars by outlining policies for data privacy and governance through opt-out mechanisms and terms of service, detailing operational practices like incorporating responsible AI in the design phase and routine testing for fairness across demographic groups, and referencing third-party validation and specific fairness metrics. It also highlights customer responsibilities for managing face collections and appropriate use cases.",
+          "title": "AWS AI Service Card - Amazon Rekognition Face Matching",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/rekognition-face-matching/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Rekognition Face Liveness provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The card supports external accountability through details of external validation by an accredited lab, and governance and transparency by describing operational governance through expert assessments and development processes. It also addresses fairness by mentioning diverse datasets and testing across demographics, oversight through recommending human review for high-risk use cases, and privacy by noting enhanced security measures for data protection.",
+          "title": "AWS AI Service Card - Amazon Rekognition Face Liveness",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/rekognition-face-liveness/rekognition-face-liveness.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Nova Reel provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details safety features like content filtering with high blocking rates for harmfulness and toxicity, and mentions red-teaming with external firms for safety, security, privacy, and fairness testing, supporting external accountability and fairness. The card also describes C2PA metadata for provenance tracking, demonstrating transparency, and outlines a shared responsibility model for safety, highlighting governance and oversight.",
+          "title": "Amazon Nova Reel - AWS AI Service Cards and Safety Features",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/nova-reel/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Titan Image Generator provides evidence for fairness, governance, oversight, privacy, and transparency. It supports transparency by detailing invisible watermarking for AI-generated images and a detection API for provenance verification. Governance and oversight are demonstrated through commitments to child safety, reporting mechanisms, and specific testing methods like human evaluation and red-teaming. Privacy is addressed through safeguarding data and content, including the detection and blocking of CSAM.",
+          "title": "AWS AI Service Card - Amazon Titan Image Generator",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/titan-image-generator/overview.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post announces the \"AI Service Cards\" initiative, which provides transparency documentation for AWS AI services. The blog post supports the **transparency** pillar by describing these cards as a commitment to responsible AI development. It also provides evidence for **fairness**, **explainability**, **privacy**, and **governance** by detailing design considerations, testing methodologies, and performance evaluations for specific services like Amazon Rekognition Face Matching. The initiative also highlights the importance of human oversight and ongoing testing, supporting the **oversight** pillar.",
+          "title": "AWS AI Service Cards: Transparency Resources for Responsible AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-aws-ai-service-cards-a-new-resource-to-enhance-transparency-and-advance-responsible-ai/"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This system card documentation for Amazon SageMaker Model Cards provides evidence for **governance**, **transparency**, and **external accountability**. It details how Model Cards standardize critical ML model information, including intended use, risk ratings, training methodologies, and evaluation metrics, which directly supports governance and transparency by providing clear documentation for audit trails and approval workflows. The inclusion of bias measurements and performance limitations further contributes to transparency about the AI system's capabilities and limitations, while the emphasis on cataloging details for risk and performance supports external accountability by documenting key aspects of the model's lifecycle.",
+          "title": "Amazon SageMaker Model Cards - Governance Documentation",
+          "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This Amazon SageMaker Model Cards blog post provides evidence for **governance**, **transparency**, **external accountability**, and **privacy**. It details how Model Cards serve as a single source of truth for model metadata throughout the lifecycle, supporting **governance** and **transparency** through standardized documentation and audit trails. The post also discusses cross-account sharing capabilities and access controls, which contribute to **governance** and **privacy** by enabling controlled access and data protection, and the mention of security and guardrails indicates a commitment to responsible ML practices.",
+          "title": "Amazon SageMaker Model Cards: Governance and Cross-Account Sharing",
+          "url": "https://aws.amazon.com/blogs/machine-learning/use-amazon-sagemaker-model-cards-sharing-to-improve-model-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Amazon SageMaker Unified Model Cards and Registry - Governance Integration,\" provides evidence for **governance**, **transparency**, **explainability**, and **fairness**. It describes an end-to-end architecture with embedded governance controls, including AI governance tooling and approval workflows by stakeholders, supporting the **governance** pillar. The post details the use of model cards for transparency and traceability through ML lineage, directly supporting the **transparency** and **explainability** pillars by enabling informed decisions and understanding of AI systems. Furthermore, it mentions continuous monitoring of performance metrics like bias post-deployment, indicating mechanisms for addressing **fairness**.",
+          "title": "Amazon SageMaker Unified Model Cards and Registry - Governance Integration",
+          "url": "https://aws.amazon.com/blogs/machine-learning/improve-governance-of-models-with-amazon-sagemaker-unified-model-cards-and-model-registry/"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Amazon's AI strategy, including investments in custom silicon and foundation models, and outlining management's responsibility and assessed controls, as validated by independent audits. The document also touches on governance related to AI investments, privacy concerns, and operational execution of data protection and compliance programs.",
+          "title": "Amazon 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/1018724/000110465925033453/tm254123d4_ars.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_022",
+          "source_tier": "authority",
+          "summary": "This enforcement action report provides evidence for the **governance** and **privacy** pillars of responsible AI. It details mandated data deletion, prohibitions on using deleted data for algorithm training, and enhanced privacy safeguards, reflecting specific policy commitments and data governance practices related to children's data. The report highlights the authority's findings on unlawful data retention and use for profit, underscoring the importance of policies governing data handling and its impact.",
+          "title": "FTC/DOJ Enforcement Action - Amazon Alexa COPPA Rule Violation",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-doj-charge-amazon-violating-childrens-privacy-law-keeping-kids-alexa-voice-recordings-forever"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **privacy** and **governance** pillars of responsible AI. It supports the privacy pillar by detailing allegations of Amazon's failure to obtain written informed consent for the extraction and use of facial recognition data, and it supports the governance pillar by highlighting the alleged violation of the Biometric Information Privacy Act concerning the handling and potential profit derived from this biometric data.",
+          "title": "Amazon Photos Facial Recognition BIPA Class Action Litigation",
+          "url": "https://kellerrohrback.com/currentcases/amazon-photos-facial-recognition-litigation"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"ACLU Analysis - Amazon Automated Hiring Tool Gender Discrimination,\" provides evidence for **external_accountability**, **fairness**, **governance**, **oversight**, and **transparency**. The report documents systematic gender bias in an automated hiring tool, highlighting fairness challenges in data-trained systems and legal implications under Title VII. It also touches upon the need for regulatory examination, guidance on bias testing, and the difficulties external auditors face due to proprietary software, supporting the other mentioned pillars.",
+          "title": "ACLU Analysis - Amazon Automated Hiring Tool Gender Discrimination",
+          "url": "https://aclu.org/news/womens-rights/why-amazons-automated-hiring-tool-discriminated-against"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"ACLU Study - Amazon Rekognition Congressional Facial Recognition Test,\" provides evidence for **fairness** and **transparency**. The report supports fairness by detailing the AI system's disparate accuracy rates for people of color and women, demonstrating bias. It supports transparency by describing the AI system's capabilities and its public availability, indicating how it can be used.",
+          "title": "ACLU Study - Amazon Rekognition Congressional Facial Recognition Test",
+          "url": "https://aclu.org/news/privacy-technology/amazons-face-recognition-falsely-matched-28"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This press release from Amazon affirms their commitment to responsible AI by detailing over 70 capabilities and features, and participation in White House voluntary AI commitments. The source provides evidence for **fairness, governance, privacy, and transparency** by highlighting the embedding of safety, fairness, robustness, security, and privacy into development processes, and by advocating for transparency through AI Service Cards for customer understanding. It also emphasizes collaboration and information sharing for AI safety and trust, and the building of guardrails into products for responsible deployment.",
+          "title": "Op-ed: Amazon Doubles Down on Responsible AI Commitments",
+          "url": "https://aboutamazon.com/news/policy-news-views/amazon-responsible-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This press release announces a strategic collaboration between Amazon and Anthropic, providing evidence for **explainability**, **governance**, and **transparency**. The document supports explainability by describing Anthropic's AI systems as \"interpretable.\" It touches on governance and transparency by mentioning Anthropic's commitment to responsible development and the use of AWS Trainium chips for model training, implying data governance and customer access to customized models.",
+          "title": "Amazon and Anthropic Strategic Collaboration Announcement",
+          "url": "https://aboutamazon.com/news/aws/amazon-invests-additional-4-billion-anthropic-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This press release announces Amazon's participation in the Frontier Model Forum, demonstrating a commitment to **governance** by outlining collaborative efforts to develop safety best practices, share lessons learned, and evaluate and mitigate risks associated with frontier AI. The document highlights a structured approach to problem-solving and a focus on identifying and sharing best practices for AI safety.",
+          "title": "Frontier Model Forum - Amazon Membership and AI Safety Collaboration",
+          "url": "https://frontiermodelforum.org/updates/amazon-and-meta-join-the-frontier-model-forum-to-promote-ai-safety"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This AWS help page on the Ethical AI Framework and Principles provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining frameworks for data usage and governance, emphasizing human-in-the-loop capabilities and model review for fairness, and detailing policies for data protection and transparency throughout the AI lifecycle. The documentation also highlights mechanisms for accountability and external reviews, and mandates responsible data curation practices.",
+          "title": "AWS Ethical AI Framework and Principles",
+          "url": "https://aws.amazon.com/what-is/ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_031",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post, detailing their ISO/IEC 42001:2023 AI Management System certification, provides evidence for **governance, explainability, fairness, and transparency**. It highlights AWS's structured AI lifecycle risk management, including threat modeling for risk identification and mitigation, and the use of SageMaker Model Cards for documenting model purpose and limitations, supporting explainability and transparency. The post also mentions SageMaker Clarify for fairness and non-discrimination controls, and outlines requirements for AI risk assessments and impact assessments, demonstrating robust governance practices.",
+          "title": "AWS AI Lifecycle Risk Management and ISO/IEC 42001:2023 Governance",
+          "url": "https://aws.amazon.com/blogs/security/ai-lifecycle-risk-management-iso-iec-420012023-for-ai-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_032",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for **governance, privacy, and external accountability**. It supports governance by outlining data provenance transparency requirements, recommending the creation of governance strategies and usage guidelines, and detailing data classification and policy updates. The source supports privacy by stating specific data handling practices for AI services, such as not using customer prompts for training and not sharing data with third parties, and by recommending data minimization and privacy risk review frameworks. Evidence for external accountability is found in recommendations for legal assessment, factoring in regulatory scrutiny, and suggestions for documented AI principles and management systems for accountability.",
+          "title": "AWS Securing Generative AI: Data Compliance and Privacy Considerations",
+          "url": "https://aws.amazon.com/blogs/security/securing-generative-ai-data-compliance-and-privacy-considerations"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_033",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency in responsible AI. It supports these pillars by discussing the use of tools for bias detection and explainability, implementing human-in-the-loop workflows for validation, and emphasizing repeatable processes for governance and external auditing. The post also highlights the importance of security frameworks for data protection and communicating ML usage.",
+          "title": "AWS Responsible AI for Mission-Based Organizations",
+          "url": "https://aws.amazon.com/blogs/publicsector/responsible-ai-for-mission-based-organizations"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_035",
+          "source_tier": "company_owned",
+          "summary": "This AWS Responsible AI Policy document provides evidence for **governance**, **oversight**, **transparency**, and **fairness**. It establishes a formal policy for AI/ML services, mandates human oversight and risk evaluation for consequential decision-making systems, and outlines requirements for evaluating AI outputs to ensure accuracy, thereby supporting transparency and governance. The policy also states a commitment to fair and accurate AI services, directly addressing the fairness pillar.",
+          "title": "AWS Responsible AI Policy - Acceptable Use and Requirements",
+          "url": "https://aws.amazon.com/ai/responsible-ai/policy/"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_036",
+          "source_tier": "third_party",
+          "summary": "This press release from Amazon details their commitment to the White House's voluntary AI commitments, providing evidence for **fairness, governance, privacy, and transparency**. The document supports these pillars by outlining Amazon's plans for internal and external red-teaming, information sharing on trust and safety risks, protecting model weights, implementing watermarking and provenance mechanisms, publicly reporting on AI capabilities and limitations, conducting AI safety research, and developing frontier AI systems for societal benefit. Specifically, it mentions commitments to transparency through identifying AI content, governance through managing AI use and testing for risks, and explicit consideration of fairness, privacy, and security in their development processes.",
+          "title": "Amazon Commitment to Responsible Use of AI - White House Voluntary Commitments",
+          "url": "https://aboutamazon.com/news/company-news/amazon-responsible-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_037",
+          "source_tier": "company_owned",
+          "summary": "This technical blog post, \"Amazon Bedrock Guardrails: Building Safe Generative AI Applications,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It details configurable content filters, PII redaction, and topical filters, demonstrating mechanisms for controlling AI behavior and safeguarding sensitive information, which supports governance and privacy. The post also outlines performance metrics and evaluation methods for guardrail effectiveness, indicating operational processes for transparency and accountability in AI systems.",
+          "title": "Amazon Bedrock Guardrails: Building Safe Generative AI Applications",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-safe-and-responsible-generative-ai-applications-with-guardrails"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_038",
+          "source_tier": "company_owned",
+          "summary": "The \"Amazon Nova - Responsible Use Guidelines\" help page establishes standards for responsible AI by defining core RAI dimensions, supporting the **governance** and **explainability** pillars. It outlines customer responsibilities for risk evaluation, human oversight, and testing, providing evidence for **oversight** and **external_accountability**. Furthermore, the document describes operational capabilities like monitoring and logging, which support **governance** and audit requirements, and mentions guidelines governing the AI lifecycle, reinforcing **governance**.",
+          "title": "Amazon Nova - Responsible Use Guidelines",
+          "url": "https://docs.aws.amazon.com/nova/latest/userguide/responsible-use.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_041",
+          "source_tier": "third_party",
+          "summary": "The \"Amazon 2024 Sustainability Report - AI Impact on Operations\" provides evidence for **external accountability, fairness, governance, oversight, and transparency**. This third-party report details Amazon's commitment to fairness through tools like Fluid for bias mitigation in HR AI, and demonstrates governance and oversight via the CSO's role in AI governance and a global complaint mechanism. Transparency is supported by descriptions of AI applications in packaging, sizing recommendations, and leak detection, while external accountability is evidenced by Amazon's participation in the U.S. AI Safety Institute Consortium and ISO 42001 certification for AI management.",
+          "title": "Amazon 2024 Sustainability Report - AI Impact on Operations",
+          "url": "https://sustainability.aboutamazon.com/2024-amazon-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_042",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by detailing mechanisms for continuous monitoring of model performance, including setting up monitoring schedules with specific rules and thresholds, configuring alarms for drift, and triggering automated responses like retraining. Evidence for privacy is found in mentions of data encryption, access controls, and retention policies.",
+          "title": "Monitor Amazon SageMaker models in production",
+          "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-in-production-ml-models-at-large-scale-using-amazon-sagemaker-model-monitor/"
+        }
+      ],
+      "score": 2,
+      "source_count": 34
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 50,
+      "findings": "Amazon documents oversight practices through the Nominating and Corporate Governance Committee's responsibility for reviewing AI development and governance. The company highlights human oversight requirements for sensitive operations, recommends human review for high-risk use cases, and emphasizes human-in-the-loop capabilities and workflows for validation. Additionally, Amazon outlines a shared responsibility model for safety, including commitments to child safety, reporting mechanisms, and ongoing testing.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Amazon's board structure and the Nominating and Corporate Governance Committee's responsibility for reviewing AI development and governance, supporting the **governance** and **oversight** pillars. The document also highlights operational controls like watermarking and hallucination detection for **transparency**, commitments to fairness and accuracy through filtering and guardrails for **fairness**, and security testing for data protection supporting **privacy**. Furthermore, it mentions adherence to external standards like ISO/IEC 42001 and verification by independent third parties, demonstrating **external accountability**.",
+          "title": "Amazon 2025 Proxy Statement and Board Governance",
+          "url": "https://sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Nova Act foundation model provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. The system card details mechanisms for harmful content prevention, stereotype deflection testing, and safety filters designed to resist prompt engineering attacks, supporting governance and transparency. It also highlights human oversight requirements for sensitive operations and customer responsibility for validation, demonstrating oversight and external accountability, while security controls and protection against attack vectors align with privacy principles.",
+          "title": "AWS AI Service Card - Amazon Nova Act Foundation Model",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/nova-act/nova-act.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon SageMaker Clarify provides evidence for **fairness**, **oversight**, and **transparency**. It supports fairness by detailing mechanisms for detecting and monitoring bias in data and deployed models, including automated metric generation and reporting. Evidence for oversight is found in the mention of human-based evaluations and review processes, while transparency is supported by the description of AI use cases and the generation of visual reports for analysis.",
+          "title": "Amazon SageMaker Clarify - Bias Detection and Model Explainability Service",
+          "url": "https://aws.amazon.com/sagemaker/ai/clarify"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Textract AnalyzeID provides evidence for **fairness, governance, oversight, privacy, and transparency**. It supports fairness and governance by advising customers on setting policies to prevent disparate outcomes and encouraging responsible AI practices. Evidence for oversight is found in mentions of routine testing and customer reviews, while privacy is supported by opt-out mechanisms and data protection policies. Finally, transparency is addressed through recommendations for disclosure and feedback mechanisms.",
+          "title": "AWS AI Service Card - Amazon Textract AnalyzeID",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/textract-analyzeid/textract-analyzeid.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Textract AnalyzeID provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. The documentation details machine learning design choices for fairness and bias mitigation, discusses evaluation datasets and performance metrics for transparency, and outlines operational processes like routine testing and customer reviews for governance and oversight. It also mentions the incorporation of responsible AI dimensions like privacy into their practices.",
+          "title": "Amazon Textract AnalyzeID - AWS AI Service Card Overview",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/textract-analyzeid/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Comprehend Detect PII provides evidence for **fairness, governance, oversight, and transparency**. The document details iterative development using multi-locale training datasets and accuracy evaluation across diverse text quality conditions, demonstrating operational efforts towards fairness and bias mitigation. It also describes configurable confidence thresholds for customers to manage false positives and negatives, and advises on proactive measures and human judgment policies, indicating mechanisms for governance, oversight, and transparency in responsible AI use.",
+          "title": "AWS AI Service Card - Amazon Comprehend Detect PII",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/comprehend-detectpii/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Rekognition Face Liveness provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The card supports external accountability through details of external validation by an accredited lab, and governance and transparency by describing operational governance through expert assessments and development processes. It also addresses fairness by mentioning diverse datasets and testing across demographics, oversight through recommending human review for high-risk use cases, and privacy by noting enhanced security measures for data protection.",
+          "title": "AWS AI Service Card - Amazon Rekognition Face Liveness",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/rekognition-face-liveness/rekognition-face-liveness.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Nova Reel provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details safety features like content filtering with high blocking rates for harmfulness and toxicity, and mentions red-teaming with external firms for safety, security, privacy, and fairness testing, supporting external accountability and fairness. The card also describes C2PA metadata for provenance tracking, demonstrating transparency, and outlines a shared responsibility model for safety, highlighting governance and oversight.",
+          "title": "Amazon Nova Reel - AWS AI Service Cards and Safety Features",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/nova-reel/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Titan Image Generator provides evidence for fairness, governance, oversight, privacy, and transparency. It supports transparency by detailing invisible watermarking for AI-generated images and a detection API for provenance verification. Governance and oversight are demonstrated through commitments to child safety, reporting mechanisms, and specific testing methods like human evaluation and red-teaming. Privacy is addressed through safeguarding data and content, including the detection and blocking of CSAM.",
+          "title": "AWS AI Service Card - Amazon Titan Image Generator",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/titan-image-generator/overview.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post announces the \"AI Service Cards\" initiative, which provides transparency documentation for AWS AI services. The blog post supports the **transparency** pillar by describing these cards as a commitment to responsible AI development. It also provides evidence for **fairness**, **explainability**, **privacy**, and **governance** by detailing design considerations, testing methodologies, and performance evaluations for specific services like Amazon Rekognition Face Matching. The initiative also highlights the importance of human oversight and ongoing testing, supporting the **oversight** pillar.",
+          "title": "AWS AI Service Cards: Transparency Resources for Responsible AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-aws-ai-service-cards-a-new-resource-to-enhance-transparency-and-advance-responsible-ai/"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Amazon's AI strategy, including investments in custom silicon and foundation models, and outlining management's responsibility and assessed controls, as validated by independent audits. The document also touches on governance related to AI investments, privacy concerns, and operational execution of data protection and compliance programs.",
+          "title": "Amazon 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/1018724/000110465925033453/tm254123d4_ars.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"ACLU Analysis - Amazon Automated Hiring Tool Gender Discrimination,\" provides evidence for **external_accountability**, **fairness**, **governance**, **oversight**, and **transparency**. The report documents systematic gender bias in an automated hiring tool, highlighting fairness challenges in data-trained systems and legal implications under Title VII. It also touches upon the need for regulatory examination, guidance on bias testing, and the difficulties external auditors face due to proprietary software, supporting the other mentioned pillars.",
+          "title": "ACLU Analysis - Amazon Automated Hiring Tool Gender Discrimination",
+          "url": "https://aclu.org/news/womens-rights/why-amazons-automated-hiring-tool-discriminated-against"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This AWS help page on the Ethical AI Framework and Principles provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining frameworks for data usage and governance, emphasizing human-in-the-loop capabilities and model review for fairness, and detailing policies for data protection and transparency throughout the AI lifecycle. The documentation also highlights mechanisms for accountability and external reviews, and mandates responsible data curation practices.",
+          "title": "AWS Ethical AI Framework and Principles",
+          "url": "https://aws.amazon.com/what-is/ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_032",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for **governance, privacy, and external accountability**. It supports governance by outlining data provenance transparency requirements, recommending the creation of governance strategies and usage guidelines, and detailing data classification and policy updates. The source supports privacy by stating specific data handling practices for AI services, such as not using customer prompts for training and not sharing data with third parties, and by recommending data minimization and privacy risk review frameworks. Evidence for external accountability is found in recommendations for legal assessment, factoring in regulatory scrutiny, and suggestions for documented AI principles and management systems for accountability.",
+          "title": "AWS Securing Generative AI: Data Compliance and Privacy Considerations",
+          "url": "https://aws.amazon.com/blogs/security/securing-generative-ai-data-compliance-and-privacy-considerations"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_033",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency in responsible AI. It supports these pillars by discussing the use of tools for bias detection and explainability, implementing human-in-the-loop workflows for validation, and emphasizing repeatable processes for governance and external auditing. The post also highlights the importance of security frameworks for data protection and communicating ML usage.",
+          "title": "AWS Responsible AI for Mission-Based Organizations",
+          "url": "https://aws.amazon.com/blogs/publicsector/responsible-ai-for-mission-based-organizations"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_035",
+          "source_tier": "company_owned",
+          "summary": "This AWS Responsible AI Policy document provides evidence for **governance**, **oversight**, **transparency**, and **fairness**. It establishes a formal policy for AI/ML services, mandates human oversight and risk evaluation for consequential decision-making systems, and outlines requirements for evaluating AI outputs to ensure accuracy, thereby supporting transparency and governance. The policy also states a commitment to fair and accurate AI services, directly addressing the fairness pillar.",
+          "title": "AWS Responsible AI Policy - Acceptable Use and Requirements",
+          "url": "https://aws.amazon.com/ai/responsible-ai/policy/"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_038",
+          "source_tier": "company_owned",
+          "summary": "The \"Amazon Nova - Responsible Use Guidelines\" help page establishes standards for responsible AI by defining core RAI dimensions, supporting the **governance** and **explainability** pillars. It outlines customer responsibilities for risk evaluation, human oversight, and testing, providing evidence for **oversight** and **external_accountability**. Furthermore, the document describes operational capabilities like monitoring and logging, which support **governance** and audit requirements, and mentions guidelines governing the AI lifecycle, reinforcing **governance**.",
+          "title": "Amazon Nova - Responsible Use Guidelines",
+          "url": "https://docs.aws.amazon.com/nova/latest/userguide/responsible-use.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_041",
+          "source_tier": "third_party",
+          "summary": "The \"Amazon 2024 Sustainability Report - AI Impact on Operations\" provides evidence for **external accountability, fairness, governance, oversight, and transparency**. This third-party report details Amazon's commitment to fairness through tools like Fluid for bias mitigation in HR AI, and demonstrates governance and oversight via the CSO's role in AI governance and a global complaint mechanism. Transparency is supported by descriptions of AI applications in packaging, sizing recommendations, and leak detection, while external accountability is evidenced by Amazon's participation in the U.S. AI Safety Institute Consortium and ISO 42001 certification for AI management.",
+          "title": "Amazon 2024 Sustainability Report - AI Impact on Operations",
+          "url": "https://sustainability.aboutamazon.com/2024-amazon-sustainability-report.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 18
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 73,
+      "findings": "Amazon documents various practices to support privacy, including security testing for data protection, sensitive data redaction, and PII detection. The company outlines policies for data privacy, opt-out mechanisms, and enhanced security measures, and states specific data handling practices for AI services like not using customer prompts for training. Additionally, Amazon highlights commitments to embedding privacy into development processes and mentions data encryption, access controls, and retention policies.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Amazon's board structure and the Nominating and Corporate Governance Committee's responsibility for reviewing AI development and governance, supporting the **governance** and **oversight** pillars. The document also highlights operational controls like watermarking and hallucination detection for **transparency**, commitments to fairness and accuracy through filtering and guardrails for **fairness**, and security testing for data protection supporting **privacy**. Furthermore, it mentions adherence to external standards like ISO/IEC 42001 and verification by independent third parties, demonstrating **external accountability**.",
+          "title": "Amazon 2025 Proxy Statement and Board Governance",
+          "url": "https://sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Nova Act foundation model provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. The system card details mechanisms for harmful content prevention, stereotype deflection testing, and safety filters designed to resist prompt engineering attacks, supporting governance and transparency. It also highlights human oversight requirements for sensitive operations and customer responsibility for validation, demonstrating oversight and external accountability, while security controls and protection against attack vectors align with privacy principles.",
+          "title": "AWS AI Service Card - Amazon Nova Act Foundation Model",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/nova-act/nova-act.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Amazon Bedrock Guardrails - Generative AI Safety Controls,\" provides evidence for explainability, governance, privacy, and transparency. It supports explainability by describing verifiable explanations and how AI information is verified and corrected. The document supports governance by detailing configurable safeguards and their application across different AI workflows and models, demonstrating control over AI system integration. Evidence for privacy is found in the description of sensitive data redaction, specifically PII redaction. Finally, transparency is supported by the documentation of AI capabilities and the application of safeguards.",
+          "title": "Amazon Bedrock Guardrails - Generative AI Safety Controls",
+          "url": "https://aws.amazon.com/bedrock/guardrails"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Amazon Bedrock Security, Privacy, and Responsible AI Features,\" provides evidence for the **explainability**, **governance**, and **privacy** pillars. It supports explainability by detailing safeguards that offer provable explanations for AI-generated information. The document demonstrates governance and privacy commitments through its description of customizable content filtering, PII detection, data protection, adherence to regulations, access controls, audit trails, and observability features.",
+          "title": "Amazon Bedrock Security, Privacy, and Responsible AI Features",
+          "url": "https://aws.amazon.com/bedrock/security-privacy-responsible-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper on Amazon SageMaker Clarify provides evidence for explainability, fairness, governance, oversight, and transparency. It details the system's capabilities for bias detection and monitoring using specific metrics, supports fairness through pre-training analysis and post-launch monitoring, and demonstrates governance and oversight via pipelines and dashboards for AI health. The paper also touches on transparency by illustrating model outputs and configurations, and mentions security features that relate to privacy.",
+          "title": "Amazon SageMaker Clarify: Machine Learning Bias Detection and Explainability (Technical Paper)",
+          "url": "https://arxiv.org/pdf/2109.03285.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Textract AnalyzeID provides evidence for **fairness, governance, oversight, privacy, and transparency**. It supports fairness and governance by advising customers on setting policies to prevent disparate outcomes and encouraging responsible AI practices. Evidence for oversight is found in mentions of routine testing and customer reviews, while privacy is supported by opt-out mechanisms and data protection policies. Finally, transparency is addressed through recommendations for disclosure and feedback mechanisms.",
+          "title": "AWS AI Service Card - Amazon Textract AnalyzeID",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/textract-analyzeid/textract-analyzeid.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Textract AnalyzeID provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. The documentation details machine learning design choices for fairness and bias mitigation, discusses evaluation datasets and performance metrics for transparency, and outlines operational processes like routine testing and customer reviews for governance and oversight. It also mentions the incorporation of responsible AI dimensions like privacy into their practices.",
+          "title": "Amazon Textract AnalyzeID - AWS AI Service Card Overview",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/textract-analyzeid/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Rekognition Face Matching provides evidence for explainability, external accountability, fairness, governance, and privacy. The service card supports these pillars by outlining policies for data privacy and governance through opt-out mechanisms and terms of service, detailing operational practices like incorporating responsible AI in the design phase and routine testing for fairness across demographic groups, and referencing third-party validation and specific fairness metrics. It also highlights customer responsibilities for managing face collections and appropriate use cases.",
+          "title": "AWS AI Service Card - Amazon Rekognition Face Matching",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/rekognition-face-matching/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Rekognition Face Liveness provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The card supports external accountability through details of external validation by an accredited lab, and governance and transparency by describing operational governance through expert assessments and development processes. It also addresses fairness by mentioning diverse datasets and testing across demographics, oversight through recommending human review for high-risk use cases, and privacy by noting enhanced security measures for data protection.",
+          "title": "AWS AI Service Card - Amazon Rekognition Face Liveness",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/rekognition-face-liveness/rekognition-face-liveness.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Nova Reel provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details safety features like content filtering with high blocking rates for harmfulness and toxicity, and mentions red-teaming with external firms for safety, security, privacy, and fairness testing, supporting external accountability and fairness. The card also describes C2PA metadata for provenance tracking, demonstrating transparency, and outlines a shared responsibility model for safety, highlighting governance and oversight.",
+          "title": "Amazon Nova Reel - AWS AI Service Cards and Safety Features",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/nova-reel/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Titan Image Generator provides evidence for fairness, governance, oversight, privacy, and transparency. It supports transparency by detailing invisible watermarking for AI-generated images and a detection API for provenance verification. Governance and oversight are demonstrated through commitments to child safety, reporting mechanisms, and specific testing methods like human evaluation and red-teaming. Privacy is addressed through safeguarding data and content, including the detection and blocking of CSAM.",
+          "title": "AWS AI Service Card - Amazon Titan Image Generator",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/titan-image-generator/overview.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post announces the \"AI Service Cards\" initiative, which provides transparency documentation for AWS AI services. The blog post supports the **transparency** pillar by describing these cards as a commitment to responsible AI development. It also provides evidence for **fairness**, **explainability**, **privacy**, and **governance** by detailing design considerations, testing methodologies, and performance evaluations for specific services like Amazon Rekognition Face Matching. The initiative also highlights the importance of human oversight and ongoing testing, supporting the **oversight** pillar.",
+          "title": "AWS AI Service Cards: Transparency Resources for Responsible AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-aws-ai-service-cards-a-new-resource-to-enhance-transparency-and-advance-responsible-ai/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This Amazon SageMaker Model Cards blog post provides evidence for **governance**, **transparency**, **external accountability**, and **privacy**. It details how Model Cards serve as a single source of truth for model metadata throughout the lifecycle, supporting **governance** and **transparency** through standardized documentation and audit trails. The post also discusses cross-account sharing capabilities and access controls, which contribute to **governance** and **privacy** by enabling controlled access and data protection, and the mention of security and guardrails indicates a commitment to responsible ML practices.",
+          "title": "Amazon SageMaker Model Cards: Governance and Cross-Account Sharing",
+          "url": "https://aws.amazon.com/blogs/machine-learning/use-amazon-sagemaker-model-cards-sharing-to-improve-model-governance"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Amazon's AI strategy, including investments in custom silicon and foundation models, and outlining management's responsibility and assessed controls, as validated by independent audits. The document also touches on governance related to AI investments, privacy concerns, and operational execution of data protection and compliance programs.",
+          "title": "Amazon 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/1018724/000110465925033453/tm254123d4_ars.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_022",
+          "source_tier": "authority",
+          "summary": "This enforcement action report provides evidence for the **governance** and **privacy** pillars of responsible AI. It details mandated data deletion, prohibitions on using deleted data for algorithm training, and enhanced privacy safeguards, reflecting specific policy commitments and data governance practices related to children's data. The report highlights the authority's findings on unlawful data retention and use for profit, underscoring the importance of policies governing data handling and its impact.",
+          "title": "FTC/DOJ Enforcement Action - Amazon Alexa COPPA Rule Violation",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-doj-charge-amazon-violating-childrens-privacy-law-keeping-kids-alexa-voice-recordings-forever"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **privacy** and **governance** pillars of responsible AI. It supports the privacy pillar by detailing allegations of Amazon's failure to obtain written informed consent for the extraction and use of facial recognition data, and it supports the governance pillar by highlighting the alleged violation of the Biometric Information Privacy Act concerning the handling and potential profit derived from this biometric data.",
+          "title": "Amazon Photos Facial Recognition BIPA Class Action Litigation",
+          "url": "https://kellerrohrback.com/currentcases/amazon-photos-facial-recognition-litigation"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for the **transparency**, **fairness**, and **privacy** pillars of responsible AI. It supports transparency by describing AI Service Cards, which document use cases, limitations, and design choices. The post also indicates a commitment to embedding fairness and privacy into development processes and educating employees, directly supporting the fairness and privacy pillars.",
+          "title": "AWS Progress Update on Safe, Responsible Generative AI Commitment",
+          "url": "https://aws.amazon.com/blogs/machine-learning/a-progress-update-on-our-commitment-to-safe-responsible-generative-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This press release from Amazon affirms their commitment to responsible AI by detailing over 70 capabilities and features, and participation in White House voluntary AI commitments. The source provides evidence for **fairness, governance, privacy, and transparency** by highlighting the embedding of safety, fairness, robustness, security, and privacy into development processes, and by advocating for transparency through AI Service Cards for customer understanding. It also emphasizes collaboration and information sharing for AI safety and trust, and the building of guardrails into products for responsible deployment.",
+          "title": "Op-ed: Amazon Doubles Down on Responsible AI Commitments",
+          "url": "https://aboutamazon.com/news/policy-news-views/amazon-responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This AWS help page on the Ethical AI Framework and Principles provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining frameworks for data usage and governance, emphasizing human-in-the-loop capabilities and model review for fairness, and detailing policies for data protection and transparency throughout the AI lifecycle. The documentation also highlights mechanisms for accountability and external reviews, and mandates responsible data curation practices.",
+          "title": "AWS Ethical AI Framework and Principles",
+          "url": "https://aws.amazon.com/what-is/ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_031",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post, detailing their ISO/IEC 42001:2023 AI Management System certification, provides evidence for **governance, explainability, fairness, and transparency**. It highlights AWS's structured AI lifecycle risk management, including threat modeling for risk identification and mitigation, and the use of SageMaker Model Cards for documenting model purpose and limitations, supporting explainability and transparency. The post also mentions SageMaker Clarify for fairness and non-discrimination controls, and outlines requirements for AI risk assessments and impact assessments, demonstrating robust governance practices.",
+          "title": "AWS AI Lifecycle Risk Management and ISO/IEC 42001:2023 Governance",
+          "url": "https://aws.amazon.com/blogs/security/ai-lifecycle-risk-management-iso-iec-420012023-for-ai-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_032",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for **governance, privacy, and external accountability**. It supports governance by outlining data provenance transparency requirements, recommending the creation of governance strategies and usage guidelines, and detailing data classification and policy updates. The source supports privacy by stating specific data handling practices for AI services, such as not using customer prompts for training and not sharing data with third parties, and by recommending data minimization and privacy risk review frameworks. Evidence for external accountability is found in recommendations for legal assessment, factoring in regulatory scrutiny, and suggestions for documented AI principles and management systems for accountability.",
+          "title": "AWS Securing Generative AI: Data Compliance and Privacy Considerations",
+          "url": "https://aws.amazon.com/blogs/security/securing-generative-ai-data-compliance-and-privacy-considerations"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_033",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency in responsible AI. It supports these pillars by discussing the use of tools for bias detection and explainability, implementing human-in-the-loop workflows for validation, and emphasizing repeatable processes for governance and external auditing. The post also highlights the importance of security frameworks for data protection and communicating ML usage.",
+          "title": "AWS Responsible AI for Mission-Based Organizations",
+          "url": "https://aws.amazon.com/blogs/publicsector/responsible-ai-for-mission-based-organizations"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_036",
+          "source_tier": "third_party",
+          "summary": "This press release from Amazon details their commitment to the White House's voluntary AI commitments, providing evidence for **fairness, governance, privacy, and transparency**. The document supports these pillars by outlining Amazon's plans for internal and external red-teaming, information sharing on trust and safety risks, protecting model weights, implementing watermarking and provenance mechanisms, publicly reporting on AI capabilities and limitations, conducting AI safety research, and developing frontier AI systems for societal benefit. Specifically, it mentions commitments to transparency through identifying AI content, governance through managing AI use and testing for risks, and explicit consideration of fairness, privacy, and security in their development processes.",
+          "title": "Amazon Commitment to Responsible Use of AI - White House Voluntary Commitments",
+          "url": "https://aboutamazon.com/news/company-news/amazon-responsible-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_037",
+          "source_tier": "company_owned",
+          "summary": "This technical blog post, \"Amazon Bedrock Guardrails: Building Safe Generative AI Applications,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It details configurable content filters, PII redaction, and topical filters, demonstrating mechanisms for controlling AI behavior and safeguarding sensitive information, which supports governance and privacy. The post also outlines performance metrics and evaluation methods for guardrail effectiveness, indicating operational processes for transparency and accountability in AI systems.",
+          "title": "Amazon Bedrock Guardrails: Building Safe Generative AI Applications",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-safe-and-responsible-generative-ai-applications-with-guardrails"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_038",
+          "source_tier": "company_owned",
+          "summary": "The \"Amazon Nova - Responsible Use Guidelines\" help page establishes standards for responsible AI by defining core RAI dimensions, supporting the **governance** and **explainability** pillars. It outlines customer responsibilities for risk evaluation, human oversight, and testing, providing evidence for **oversight** and **external_accountability**. Furthermore, the document describes operational capabilities like monitoring and logging, which support **governance** and audit requirements, and mentions guidelines governing the AI lifecycle, reinforcing **governance**.",
+          "title": "Amazon Nova - Responsible Use Guidelines",
+          "url": "https://docs.aws.amazon.com/nova/latest/userguide/responsible-use.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_042",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by detailing mechanisms for continuous monitoring of model performance, including setting up monitoring schedules with specific rules and thresholds, configuring alarms for drift, and triggering automated responses like retraining. Evidence for privacy is found in mentions of data encryption, access controls, and retention policies.",
+          "title": "Monitor Amazon SageMaker models in production",
+          "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-in-production-ml-models-at-large-scale-using-amazon-sagemaker-model-monitor/"
+        }
+      ],
+      "score": 2,
+      "source_count": 26
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 96,
+      "findings": "Amazon documents various practices to support transparency, including operational controls like watermarking and hallucination detection, and detailing AI capabilities and safeguards in system cards. The company also uses AI Service Cards and Model Cards to standardize critical ML model information, document use cases, limitations, design choices, and provide traceability through ML lineage. Furthermore, Amazon outlines recommendations for disclosure, feedback mechanisms, and commits to public reporting on AI capabilities and limitations.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Amazon's board structure and the Nominating and Corporate Governance Committee's responsibility for reviewing AI development and governance, supporting the **governance** and **oversight** pillars. The document also highlights operational controls like watermarking and hallucination detection for **transparency**, commitments to fairness and accuracy through filtering and guardrails for **fairness**, and security testing for data protection supporting **privacy**. Furthermore, it mentions adherence to external standards like ISO/IEC 42001 and verification by independent third parties, demonstrating **external accountability**.",
+          "title": "Amazon 2025 Proxy Statement and Board Governance",
+          "url": "https://sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Nova Act foundation model provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. The system card details mechanisms for harmful content prevention, stereotype deflection testing, and safety filters designed to resist prompt engineering attacks, supporting governance and transparency. It also highlights human oversight requirements for sensitive operations and customer responsibility for validation, demonstrating oversight and external accountability, while security controls and protection against attack vectors align with privacy principles.",
+          "title": "AWS AI Service Card - Amazon Nova Act Foundation Model",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/nova-act/nova-act.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Amazon Bedrock Guardrails - Generative AI Safety Controls,\" provides evidence for explainability, governance, privacy, and transparency. It supports explainability by describing verifiable explanations and how AI information is verified and corrected. The document supports governance by detailing configurable safeguards and their application across different AI workflows and models, demonstrating control over AI system integration. Evidence for privacy is found in the description of sensitive data redaction, specifically PII redaction. Finally, transparency is supported by the documentation of AI capabilities and the application of safeguards.",
+          "title": "Amazon Bedrock Guardrails - Generative AI Safety Controls",
+          "url": "https://aws.amazon.com/bedrock/guardrails"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper on Amazon SageMaker Clarify provides evidence for explainability, fairness, governance, oversight, and transparency. It details the system's capabilities for bias detection and monitoring using specific metrics, supports fairness through pre-training analysis and post-launch monitoring, and demonstrates governance and oversight via pipelines and dashboards for AI health. The paper also touches on transparency by illustrating model outputs and configurations, and mentions security features that relate to privacy.",
+          "title": "Amazon SageMaker Clarify: Machine Learning Bias Detection and Explainability (Technical Paper)",
+          "url": "https://arxiv.org/pdf/2109.03285.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon SageMaker Clarify provides evidence for **fairness**, **oversight**, and **transparency**. It supports fairness by detailing mechanisms for detecting and monitoring bias in data and deployed models, including automated metric generation and reporting. Evidence for oversight is found in the mention of human-based evaluations and review processes, while transparency is supported by the description of AI use cases and the generation of visual reports for analysis.",
+          "title": "Amazon SageMaker Clarify - Bias Detection and Model Explainability Service",
+          "url": "https://aws.amazon.com/sagemaker/ai/clarify"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This technical documentation for Amazon SageMaker Clarify provides evidence for **explainability, external accountability, fairness, governance, and transparency**. The document details how to configure jobs to compute bias metrics and feature attributions, supporting **fairness** and **explainability** by measuring bias and understanding predictions. It also outlines processes for bias mitigation and retraining, and describes operational capabilities like monitoring drift, which contribute to **governance** and ongoing **fairness**. Furthermore, the documentation addresses regulatory compliance and generating reports for external regulators, demonstrating support for **external accountability** and **transparency**.",
+          "title": "Amazon SageMaker Clarify - Technical Documentation and Configuration Guide",
+          "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Textract AnalyzeID provides evidence for **fairness, governance, oversight, privacy, and transparency**. It supports fairness and governance by advising customers on setting policies to prevent disparate outcomes and encouraging responsible AI practices. Evidence for oversight is found in mentions of routine testing and customer reviews, while privacy is supported by opt-out mechanisms and data protection policies. Finally, transparency is addressed through recommendations for disclosure and feedback mechanisms.",
+          "title": "AWS AI Service Card - Amazon Textract AnalyzeID",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/textract-analyzeid/textract-analyzeid.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Textract AnalyzeID provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. The documentation details machine learning design choices for fairness and bias mitigation, discusses evaluation datasets and performance metrics for transparency, and outlines operational processes like routine testing and customer reviews for governance and oversight. It also mentions the incorporation of responsible AI dimensions like privacy into their practices.",
+          "title": "Amazon Textract AnalyzeID - AWS AI Service Card Overview",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/textract-analyzeid/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Comprehend Detect PII provides evidence for **fairness, governance, oversight, and transparency**. The document details iterative development using multi-locale training datasets and accuracy evaluation across diverse text quality conditions, demonstrating operational efforts towards fairness and bias mitigation. It also describes configurable confidence thresholds for customers to manage false positives and negatives, and advises on proactive measures and human judgment policies, indicating mechanisms for governance, oversight, and transparency in responsible AI use.",
+          "title": "AWS AI Service Card - Amazon Comprehend Detect PII",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/comprehend-detectpii/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Rekognition Face Liveness provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The card supports external accountability through details of external validation by an accredited lab, and governance and transparency by describing operational governance through expert assessments and development processes. It also addresses fairness by mentioning diverse datasets and testing across demographics, oversight through recommending human review for high-risk use cases, and privacy by noting enhanced security measures for data protection.",
+          "title": "AWS AI Service Card - Amazon Rekognition Face Liveness",
+          "url": "https://docs.aws.amazon.com/pdfs/ai/responsible-ai/rekognition-face-liveness/rekognition-face-liveness.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This system card for Amazon Nova Reel provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details safety features like content filtering with high blocking rates for harmfulness and toxicity, and mentions red-teaming with external firms for safety, security, privacy, and fairness testing, supporting external accountability and fairness. The card also describes C2PA metadata for provenance tracking, demonstrating transparency, and outlines a shared responsibility model for safety, highlighting governance and oversight.",
+          "title": "Amazon Nova Reel - AWS AI Service Cards and Safety Features",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/nova-reel/overview.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This AWS AI Service Card for Amazon Titan Image Generator provides evidence for fairness, governance, oversight, privacy, and transparency. It supports transparency by detailing invisible watermarking for AI-generated images and a detection API for provenance verification. Governance and oversight are demonstrated through commitments to child safety, reporting mechanisms, and specific testing methods like human evaluation and red-teaming. Privacy is addressed through safeguarding data and content, including the detection and blocking of CSAM.",
+          "title": "AWS AI Service Card - Amazon Titan Image Generator",
+          "url": "https://docs.aws.amazon.com/ai/responsible-ai/titan-image-generator/overview.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post announces the \"AI Service Cards\" initiative, which provides transparency documentation for AWS AI services. The blog post supports the **transparency** pillar by describing these cards as a commitment to responsible AI development. It also provides evidence for **fairness**, **explainability**, **privacy**, and **governance** by detailing design considerations, testing methodologies, and performance evaluations for specific services like Amazon Rekognition Face Matching. The initiative also highlights the importance of human oversight and ongoing testing, supporting the **oversight** pillar.",
+          "title": "AWS AI Service Cards: Transparency Resources for Responsible AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-aws-ai-service-cards-a-new-resource-to-enhance-transparency-and-advance-responsible-ai/"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This system card documentation for Amazon SageMaker Model Cards provides evidence for **governance**, **transparency**, and **external accountability**. It details how Model Cards standardize critical ML model information, including intended use, risk ratings, training methodologies, and evaluation metrics, which directly supports governance and transparency by providing clear documentation for audit trails and approval workflows. The inclusion of bias measurements and performance limitations further contributes to transparency about the AI system's capabilities and limitations, while the emphasis on cataloging details for risk and performance supports external accountability by documenting key aspects of the model's lifecycle.",
+          "title": "Amazon SageMaker Model Cards - Governance Documentation",
+          "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This Amazon SageMaker Model Cards blog post provides evidence for **governance**, **transparency**, **external accountability**, and **privacy**. It details how Model Cards serve as a single source of truth for model metadata throughout the lifecycle, supporting **governance** and **transparency** through standardized documentation and audit trails. The post also discusses cross-account sharing capabilities and access controls, which contribute to **governance** and **privacy** by enabling controlled access and data protection, and the mention of security and guardrails indicates a commitment to responsible ML practices.",
+          "title": "Amazon SageMaker Model Cards: Governance and Cross-Account Sharing",
+          "url": "https://aws.amazon.com/blogs/machine-learning/use-amazon-sagemaker-model-cards-sharing-to-improve-model-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Amazon SageMaker Unified Model Cards and Registry - Governance Integration,\" provides evidence for **governance**, **transparency**, **explainability**, and **fairness**. It describes an end-to-end architecture with embedded governance controls, including AI governance tooling and approval workflows by stakeholders, supporting the **governance** pillar. The post details the use of model cards for transparency and traceability through ML lineage, directly supporting the **transparency** and **explainability** pillars by enabling informed decisions and understanding of AI systems. Furthermore, it mentions continuous monitoring of performance metrics like bias post-deployment, indicating mechanisms for addressing **fairness**.",
+          "title": "Amazon SageMaker Unified Model Cards and Registry - Governance Integration",
+          "url": "https://aws.amazon.com/blogs/machine-learning/improve-governance-of-models-with-amazon-sagemaker-unified-model-cards-and-model-registry/"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Amazon's AI strategy, including investments in custom silicon and foundation models, and outlining management's responsibility and assessed controls, as validated by independent audits. The document also touches on governance related to AI investments, privacy concerns, and operational execution of data protection and compliance programs.",
+          "title": "Amazon 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/1018724/000110465925033453/tm254123d4_ars.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"ACLU Analysis - Amazon Automated Hiring Tool Gender Discrimination,\" provides evidence for **external_accountability**, **fairness**, **governance**, **oversight**, and **transparency**. The report documents systematic gender bias in an automated hiring tool, highlighting fairness challenges in data-trained systems and legal implications under Title VII. It also touches upon the need for regulatory examination, guidance on bias testing, and the difficulties external auditors face due to proprietary software, supporting the other mentioned pillars.",
+          "title": "ACLU Analysis - Amazon Automated Hiring Tool Gender Discrimination",
+          "url": "https://aclu.org/news/womens-rights/why-amazons-automated-hiring-tool-discriminated-against"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"ACLU Study - Amazon Rekognition Congressional Facial Recognition Test,\" provides evidence for **fairness** and **transparency**. The report supports fairness by detailing the AI system's disparate accuracy rates for people of color and women, demonstrating bias. It supports transparency by describing the AI system's capabilities and its public availability, indicating how it can be used.",
+          "title": "ACLU Study - Amazon Rekognition Congressional Facial Recognition Test",
+          "url": "https://aclu.org/news/privacy-technology/amazons-face-recognition-falsely-matched-28"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for the **transparency**, **fairness**, and **privacy** pillars of responsible AI. It supports transparency by describing AI Service Cards, which document use cases, limitations, and design choices. The post also indicates a commitment to embedding fairness and privacy into development processes and educating employees, directly supporting the fairness and privacy pillars.",
+          "title": "AWS Progress Update on Safe, Responsible Generative AI Commitment",
+          "url": "https://aws.amazon.com/blogs/machine-learning/a-progress-update-on-our-commitment-to-safe-responsible-generative-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This press release from Amazon affirms their commitment to responsible AI by detailing over 70 capabilities and features, and participation in White House voluntary AI commitments. The source provides evidence for **fairness, governance, privacy, and transparency** by highlighting the embedding of safety, fairness, robustness, security, and privacy into development processes, and by advocating for transparency through AI Service Cards for customer understanding. It also emphasizes collaboration and information sharing for AI safety and trust, and the building of guardrails into products for responsible deployment.",
+          "title": "Op-ed: Amazon Doubles Down on Responsible AI Commitments",
+          "url": "https://aboutamazon.com/news/policy-news-views/amazon-responsible-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This press release announces a strategic collaboration between Amazon and Anthropic, providing evidence for **explainability**, **governance**, and **transparency**. The document supports explainability by describing Anthropic's AI systems as \"interpretable.\" It touches on governance and transparency by mentioning Anthropic's commitment to responsible development and the use of AWS Trainium chips for model training, implying data governance and customer access to customized models.",
+          "title": "Amazon and Anthropic Strategic Collaboration Announcement",
+          "url": "https://aboutamazon.com/news/aws/amazon-invests-additional-4-billion-anthropic-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This AWS help page on the Ethical AI Framework and Principles provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining frameworks for data usage and governance, emphasizing human-in-the-loop capabilities and model review for fairness, and detailing policies for data protection and transparency throughout the AI lifecycle. The documentation also highlights mechanisms for accountability and external reviews, and mandates responsible data curation practices.",
+          "title": "AWS Ethical AI Framework and Principles",
+          "url": "https://aws.amazon.com/what-is/ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_031",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post, detailing their ISO/IEC 42001:2023 AI Management System certification, provides evidence for **governance, explainability, fairness, and transparency**. It highlights AWS's structured AI lifecycle risk management, including threat modeling for risk identification and mitigation, and the use of SageMaker Model Cards for documenting model purpose and limitations, supporting explainability and transparency. The post also mentions SageMaker Clarify for fairness and non-discrimination controls, and outlines requirements for AI risk assessments and impact assessments, demonstrating robust governance practices.",
+          "title": "AWS AI Lifecycle Risk Management and ISO/IEC 42001:2023 Governance",
+          "url": "https://aws.amazon.com/blogs/security/ai-lifecycle-risk-management-iso-iec-420012023-for-ai-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_033",
+          "source_tier": "company_owned",
+          "summary": "This AWS blog post provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency in responsible AI. It supports these pillars by discussing the use of tools for bias detection and explainability, implementing human-in-the-loop workflows for validation, and emphasizing repeatable processes for governance and external auditing. The post also highlights the importance of security frameworks for data protection and communicating ML usage.",
+          "title": "AWS Responsible AI for Mission-Based Organizations",
+          "url": "https://aws.amazon.com/blogs/publicsector/responsible-ai-for-mission-based-organizations"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_035",
+          "source_tier": "company_owned",
+          "summary": "This AWS Responsible AI Policy document provides evidence for **governance**, **oversight**, **transparency**, and **fairness**. It establishes a formal policy for AI/ML services, mandates human oversight and risk evaluation for consequential decision-making systems, and outlines requirements for evaluating AI outputs to ensure accuracy, thereby supporting transparency and governance. The policy also states a commitment to fair and accurate AI services, directly addressing the fairness pillar.",
+          "title": "AWS Responsible AI Policy - Acceptable Use and Requirements",
+          "url": "https://aws.amazon.com/ai/responsible-ai/policy/"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_036",
+          "source_tier": "third_party",
+          "summary": "This press release from Amazon details their commitment to the White House's voluntary AI commitments, providing evidence for **fairness, governance, privacy, and transparency**. The document supports these pillars by outlining Amazon's plans for internal and external red-teaming, information sharing on trust and safety risks, protecting model weights, implementing watermarking and provenance mechanisms, publicly reporting on AI capabilities and limitations, conducting AI safety research, and developing frontier AI systems for societal benefit. Specifically, it mentions commitments to transparency through identifying AI content, governance through managing AI use and testing for risks, and explicit consideration of fairness, privacy, and security in their development processes.",
+          "title": "Amazon Commitment to Responsible Use of AI - White House Voluntary Commitments",
+          "url": "https://aboutamazon.com/news/company-news/amazon-responsible-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_037",
+          "source_tier": "company_owned",
+          "summary": "This technical blog post, \"Amazon Bedrock Guardrails: Building Safe Generative AI Applications,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It details configurable content filters, PII redaction, and topical filters, demonstrating mechanisms for controlling AI behavior and safeguarding sensitive information, which supports governance and privacy. The post also outlines performance metrics and evaluation methods for guardrail effectiveness, indicating operational processes for transparency and accountability in AI systems.",
+          "title": "Amazon Bedrock Guardrails: Building Safe Generative AI Applications",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-safe-and-responsible-generative-ai-applications-with-guardrails"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_041",
+          "source_tier": "third_party",
+          "summary": "The \"Amazon 2024 Sustainability Report - AI Impact on Operations\" provides evidence for **external accountability, fairness, governance, oversight, and transparency**. This third-party report details Amazon's commitment to fairness through tools like Fluid for bias mitigation in HR AI, and demonstrates governance and oversight via the CSO's role in AI governance and a global complaint mechanism. Transparency is supported by descriptions of AI applications in packaging, sizing recommendations, and leak detection, while external accountability is evidenced by Amazon's participation in the U.S. AI Safety Institute Consortium and ISO 42001 certification for AI management.",
+          "title": "Amazon 2024 Sustainability Report - AI Impact on Operations",
+          "url": "https://sustainability.aboutamazon.com/2024-amazon-sustainability-report.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 29
+    }
+  },
+  "published_at": "2026-02-23T21:42:31Z",
+  "run_id": "20260124_003202_bdb2",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Amazon's transparency pillar includes documentation of operational controls such as watermarking and hallucination detection, along with system cards that outline mechanisms for harmful content prevention and stereotype deflection testing. Published materials also describe verifiable explanations for AI-generated information under explainability and security testing for data protection supporting privacy. Commitments to fairness and accuracy through filtering and guardrails are also present. The Nominating and Corporate Governance Committee's responsibility for reviewing AI development and governance is described, alongside adherence to external standards like ISO/IEC 42001 for external accountability. All 7 evaluated pillars have documented public evidence, drawing from 42 publicly available sources.",
+    "pillars_operational": 7,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 333,
+    "total_sources_used": 37
+  }
+}

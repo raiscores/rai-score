@@ -1,0 +1,335 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "State Farm",
+  "company_slug": "state-farm",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 22,
+      "OPERATIONAL": 18,
+      "POLICY": 93
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 6,
+      "findings": "Documentation provides evidence for explainability in AI systems, including the use of machine learning techniques for vehicle total loss prediction. A patent describes machine learning models that use \"attention weights\" and knowledge graphs to enable root cause identification, contributing to explainability. Additionally, an analysis describes a Chief Artificial Intelligence Officer's responsibility in ensuring explainable AI deployment.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Dynamic Vehicle Assessment Model (DVAM) Patent - US 11574366,\" provides evidence for explainability, fairness, governance, oversight, and transparency. The patent details the use of various machine learning techniques, including logistic regression and deep learning, for vehicle total loss prediction, demonstrating transparency in system design and operation. It also describes mechanisms for adjusting model thresholds to mitigate cost-based bias, directly addressing fairness, and outlines automated processes and model retraining, indicating governance and oversight in the AI system's development and deployment.",
+          "title": "Dynamic Vehicle Assessment Model (DVAM) Patent - US 11574366",
+          "url": "https://patents.google.com/patent/US11574366"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **explainability**, **governance**, and **transparency**. The patent describes machine learning models, including the use of \"attention weights\" and knowledge graphs, which contribute to explainability by enabling root cause identification. Furthermore, the document details automated processes for anomaly detection, diagnosis, and mitigation, including the generation of recommended actions and work orders, demonstrating strong governance. The mention of specific model components, derivation methods, and representational learning supports transparency by outlining how the AI system's logic and capabilities are constructed.",
+          "title": "Detecting and Mitigating System Anomalies Using Knowledge Graphs - Patent",
+          "url": "https://patents.google.com/patent/US20240333739A1/en"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This industry analysis highlights the establishment of Chief Artificial Intelligence Officer (CAIO) roles at companies like State Farm and Progressive as evidence of strong **governance** for AI deployment. The analysis supports **fairness**, **transparency**, and **explainability** by describing the CAIO's responsibility in aligning AI with strategy, bridging teams, and ensuring ethical and explainable AI deployment, as well as transparency in system capabilities and data integration for risk models.",
+          "title": "The Case for a Chief Artificial Intelligence Officer in Insurance",
+          "url": "https://slaytonsearch.com/2025/10/chief-ai-officer-in-insurance"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 22,
+      "findings": "Documentation describes mechanisms for mitigating cost-based bias in models and references a patent acknowledging bias risks in machine learning models. Sources also detail allegations and claims of discriminatory impact and bias from AI fraud prediction algorithms and machine learning algorithms for claims processing, particularly on Black policyholders. Additionally, a case study mentions AI bias and AI hiring bias, and an analysis describes a Chief Artificial Intelligence Officer's responsibility in ensuring ethical AI deployment.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Dynamic Vehicle Assessment Model (DVAM) Patent - US 11574366,\" provides evidence for explainability, fairness, governance, oversight, and transparency. The patent details the use of various machine learning techniques, including logistic regression and deep learning, for vehicle total loss prediction, demonstrating transparency in system design and operation. It also describes mechanisms for adjusting model thresholds to mitigate cost-based bias, directly addressing fairness, and outlines automated processes and model retraining, indicating governance and oversight in the AI system's development and deployment.",
+          "title": "Dynamic Vehicle Assessment Model (DVAM) Patent - US 11574366",
+          "url": "https://patents.google.com/patent/US11574366"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **fairness** and **transparency** pillars of responsible AI. The case record details allegations of disparate impact from State Farm's fraud prediction algorithms on Black policyholders, directly addressing fairness. Furthermore, the document outlines discovery processes, including interrogatories and document production related to algorithmic decision-making tools, demonstrating operational transparency.",
+          "title": "Huskey v. State Farm Fire & Casualty Company - Class Action Case Record",
+          "url": "https://clearinghouse.net/case/44310"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This federal class action complaint provides evidence for **fairness, governance, and transparency**. The complaint alleges that State Farm's machine learning algorithms for claims processing exhibit discriminatory impact and bias, directly supporting the **fairness** pillar by describing how AI tools can create barriers for policyholders. Evidence for **governance** and **transparency** is found in the complaint's references to State Farm's patent acknowledging bias risks in machine learning models and its description of automated decision-making and predictive modeling for claims processing and fraud detection.",
+          "title": "Huskey v. State Farm - Original Class Action Complaint",
+          "url": "https://classaction.org/media/huskey-v-state-farm-fire-and-casualty-company.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This MIT Sloan case study, discussing State Farm's Chief Data Officer, provides evidence for the **fairness** pillar. The source mentions AI bias and AI hiring bias, indicating a focus on avoiding bias in AI systems, which aligns with a policy-level commitment to fairness.",
+          "title": "Chief Data Officers Don't Stay Long - MIT Sloan Case Study",
+          "url": "https://mitsloan.mit.edu/ideas-made-to-matter/chief-data-officers-dont-stay-their-roles-long-heres-why"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This industry analysis highlights the establishment of Chief Artificial Intelligence Officer (CAIO) roles at companies like State Farm and Progressive as evidence of strong **governance** for AI deployment. The analysis supports **fairness**, **transparency**, and **explainability** by describing the CAIO's responsibility in aligning AI with strategy, bridging teams, and ensuring ethical and explainable AI deployment, as well as transparency in system capabilities and data integration for risk models.",
+          "title": "The Case for a Chief Artificial Intelligence Officer in Insurance",
+          "url": "https://slaytonsearch.com/2025/10/chief-ai-officer-in-insurance"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis of State Farm's AI implementations provides evidence for **fairness**, **oversight**, and **transparency**. The report supports fairness by highlighting a claim of discrimination linked to AI fraud detection systems. Evidence for oversight and transparency is found in descriptions of AI techniques used for fraud detection and contract processing, the explanation of AI output like risk scores used for human prioritization, and the mention of AI use in CRM for insights and personalized communications.",
+          "title": "Artificial Intelligence at State Farm - Comprehensive Overview",
+          "url": "https://emerj.com/artificial-intelligence-at-state-farm"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 58,
+      "findings": "Policy documents highlight \"responsible AI principles\" and \"human engagement\" as key policy elements for AI use. Documentation outlines automated processes and model retraining, indicating governance in AI system development and deployment, and references a patent acknowledging bias risks in machine learning models. A corporate page describes a commitment to implementing and improving AI capabilities, indicating established processes for AI development and deployment. Furthermore, a professional biography details the establishment and operationalization of data science and ML capabilities, including the assignment of responsibility for enterprise data strategy, data governance, and AI governance to a leadership role. An analysis also describes a Chief Artificial Intelligence Officer's responsibility in aligning AI with strategy, bridging teams, and ensuring ethical AI deployment.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"2023 Impact Report - Responsible Use of AI,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It details State Farm's corporate responsibility framework, emphasizing that AI innovation is guided by their mission, vision, and values, and is supported by a robust governance and accountability framework. The report also highlights the use of \"responsible AI principles\" and \"human engagement\" as key policy elements for AI use, demonstrating a commitment to oversight throughout the AI systems lifecycle.",
+          "title": "2023 Impact Report - Responsible Use of AI",
+          "url": "https://impact.statefarm.com/data/docs/2023/2023_Impact_Report.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Dynamic Vehicle Assessment Model (DVAM) Patent - US 11574366,\" provides evidence for explainability, fairness, governance, oversight, and transparency. The patent details the use of various machine learning techniques, including logistic regression and deep learning, for vehicle total loss prediction, demonstrating transparency in system design and operation. It also describes mechanisms for adjusting model thresholds to mitigate cost-based bias, directly addressing fairness, and outlines automated processes and model retraining, indicating governance and oversight in the AI system's development and deployment.",
+          "title": "Dynamic Vehicle Assessment Model (DVAM) Patent - US 11574366",
+          "url": "https://patents.google.com/patent/US11574366"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **explainability**, **governance**, and **transparency**. The patent describes machine learning models, including the use of \"attention weights\" and knowledge graphs, which contribute to explainability by enabling root cause identification. Furthermore, the document details automated processes for anomaly detection, diagnosis, and mitigation, including the generation of recommended actions and work orders, demonstrating strong governance. The mention of specific model components, derivation methods, and representational learning supports transparency by outlining how the AI system's logic and capabilities are constructed.",
+          "title": "Detecting and Mitigating System Anomalies Using Knowledge Graphs - Patent",
+          "url": "https://patents.google.com/patent/US20240333739A1/en"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This federal class action complaint provides evidence for **fairness, governance, and transparency**. The complaint alleges that State Farm's machine learning algorithms for claims processing exhibit discriminatory impact and bias, directly supporting the **fairness** pillar by describing how AI tools can create barriers for policyholders. Evidence for **governance** and **transparency** is found in the complaint's references to State Farm's patent acknowledging bias risks in machine learning models and its description of automated decision-making and predictive modeling for claims processing and fraud detection.",
+          "title": "Huskey v. State Farm - Original Class Action Complaint",
+          "url": "https://classaction.org/media/huskey-v-state-farm-fire-and-casualty-company.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This industry analysis highlights the establishment of Chief Artificial Intelligence Officer (CAIO) roles at companies like State Farm and Progressive as evidence of strong **governance** for AI deployment. The analysis supports **fairness**, **transparency**, and **explainability** by describing the CAIO's responsibility in aligning AI with strategy, bridging teams, and ensuring ethical and explainable AI deployment, as well as transparency in system capabilities and data integration for risk models.",
+          "title": "The Case for a Chief Artificial Intelligence Officer in Insurance",
+          "url": "https://slaytonsearch.com/2025/10/chief-ai-officer-in-insurance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This State Farm corporate innovation help page provides evidence for the **governance** and **transparency** pillars of responsible AI. The page supports governance by describing the company's commitment to implementing and improving AI capabilities, indicating established processes for AI development and deployment. It also supports transparency by mentioning AI capabilities, suggesting an awareness and communication of how AI is being utilized.",
+          "title": "Innovation - State Farm Corporate Page",
+          "url": "https://statefarm.com/about-us/innovation"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This professional biography for Kjersten Moody, State Farm's inaugural Chief Data and Analytics Officer, provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by detailing the establishment and operationalization of data science and ML capabilities, as well as the assignment of responsibility for enterprise data strategy, data governance, and AI governance to a leadership role. Evidence for transparency is found in the mention of AI/ML capabilities and data governance components, implying the existence of policies or frameworks.",
+          "title": "Kjersten Moody - Chief Data Officer Profile",
+          "url": "https://njbda.org/speakers/kjersten-moody"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "A policy document highlights \"responsible AI principles\" and \"human engagement\" as key policy elements, demonstrating a commitment to oversight throughout the AI systems lifecycle. A patent outlines automated processes and model retraining, indicating oversight in AI system development and deployment. Additionally, a report describes AI techniques for fraud detection and contract processing, and the explanation of AI output like risk scores for human prioritization, providing evidence for oversight.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"2023 Impact Report - Responsible Use of AI,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It details State Farm's corporate responsibility framework, emphasizing that AI innovation is guided by their mission, vision, and values, and is supported by a robust governance and accountability framework. The report also highlights the use of \"responsible AI principles\" and \"human engagement\" as key policy elements for AI use, demonstrating a commitment to oversight throughout the AI systems lifecycle.",
+          "title": "2023 Impact Report - Responsible Use of AI",
+          "url": "https://impact.statefarm.com/data/docs/2023/2023_Impact_Report.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Dynamic Vehicle Assessment Model (DVAM) Patent - US 11574366,\" provides evidence for explainability, fairness, governance, oversight, and transparency. The patent details the use of various machine learning techniques, including logistic regression and deep learning, for vehicle total loss prediction, demonstrating transparency in system design and operation. It also describes mechanisms for adjusting model thresholds to mitigate cost-based bias, directly addressing fairness, and outlines automated processes and model retraining, indicating governance and oversight in the AI system's development and deployment.",
+          "title": "Dynamic Vehicle Assessment Model (DVAM) Patent - US 11574366",
+          "url": "https://patents.google.com/patent/US11574366"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis of State Farm's AI implementations provides evidence for **fairness**, **oversight**, and **transparency**. The report supports fairness by highlighting a claim of discrimination linked to AI fraud detection systems. Evidence for oversight and transparency is found in descriptions of AI techniques used for fraud detection and contract processing, the explanation of AI output like risk scores used for human prioritization, and the mention of AI use in CRM for insights and personalized communications.",
+          "title": "Artificial Intelligence at State Farm - Comprehensive Overview",
+          "url": "https://emerj.com/artificial-intelligence-at-state-farm"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 110,
+      "findings": "Documentation describes transparency in AI system design and operation, including the outlining of AI system logic, capabilities, and specific machine learning techniques used for tasks like vehicle total loss prediction. Operational transparency is demonstrated through discovery processes related to algorithmic decision-making tools. Furthermore, sources mention AI capabilities, their utilization in areas like fraud detection and CRM, and explain AI output such as risk scores.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Dynamic Vehicle Assessment Model (DVAM) Patent - US 11574366,\" provides evidence for explainability, fairness, governance, oversight, and transparency. The patent details the use of various machine learning techniques, including logistic regression and deep learning, for vehicle total loss prediction, demonstrating transparency in system design and operation. It also describes mechanisms for adjusting model thresholds to mitigate cost-based bias, directly addressing fairness, and outlines automated processes and model retraining, indicating governance and oversight in the AI system's development and deployment.",
+          "title": "Dynamic Vehicle Assessment Model (DVAM) Patent - US 11574366",
+          "url": "https://patents.google.com/patent/US11574366"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **explainability**, **governance**, and **transparency**. The patent describes machine learning models, including the use of \"attention weights\" and knowledge graphs, which contribute to explainability by enabling root cause identification. Furthermore, the document details automated processes for anomaly detection, diagnosis, and mitigation, including the generation of recommended actions and work orders, demonstrating strong governance. The mention of specific model components, derivation methods, and representational learning supports transparency by outlining how the AI system's logic and capabilities are constructed.",
+          "title": "Detecting and Mitigating System Anomalies Using Knowledge Graphs - Patent",
+          "url": "https://patents.google.com/patent/US20240333739A1/en"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **fairness** and **transparency** pillars of responsible AI. The case record details allegations of disparate impact from State Farm's fraud prediction algorithms on Black policyholders, directly addressing fairness. Furthermore, the document outlines discovery processes, including interrogatories and document production related to algorithmic decision-making tools, demonstrating operational transparency.",
+          "title": "Huskey v. State Farm Fire & Casualty Company - Class Action Case Record",
+          "url": "https://clearinghouse.net/case/44310"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This federal class action complaint provides evidence for **fairness, governance, and transparency**. The complaint alleges that State Farm's machine learning algorithms for claims processing exhibit discriminatory impact and bias, directly supporting the **fairness** pillar by describing how AI tools can create barriers for policyholders. Evidence for **governance** and **transparency** is found in the complaint's references to State Farm's patent acknowledging bias risks in machine learning models and its description of automated decision-making and predictive modeling for claims processing and fraud detection.",
+          "title": "Huskey v. State Farm - Original Class Action Complaint",
+          "url": "https://classaction.org/media/huskey-v-state-farm-fire-and-casualty-company.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This industry analysis highlights the establishment of Chief Artificial Intelligence Officer (CAIO) roles at companies like State Farm and Progressive as evidence of strong **governance** for AI deployment. The analysis supports **fairness**, **transparency**, and **explainability** by describing the CAIO's responsibility in aligning AI with strategy, bridging teams, and ensuring ethical and explainable AI deployment, as well as transparency in system capabilities and data integration for risk models.",
+          "title": "The Case for a Chief Artificial Intelligence Officer in Insurance",
+          "url": "https://slaytonsearch.com/2025/10/chief-ai-officer-in-insurance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This State Farm corporate innovation help page provides evidence for the **governance** and **transparency** pillars of responsible AI. The page supports governance by describing the company's commitment to implementing and improving AI capabilities, indicating established processes for AI development and deployment. It also supports transparency by mentioning AI capabilities, suggesting an awareness and communication of how AI is being utilized.",
+          "title": "Innovation - State Farm Corporate Page",
+          "url": "https://statefarm.com/about-us/innovation"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis of State Farm's AI implementations provides evidence for **fairness**, **oversight**, and **transparency**. The report supports fairness by highlighting a claim of discrimination linked to AI fraud detection systems. Evidence for oversight and transparency is found in descriptions of AI techniques used for fraud detection and contract processing, the explanation of AI output like risk scores used for human prioritization, and the mention of AI use in CRM for insights and personalized communications.",
+          "title": "Artificial Intelligence at State Farm - Comprehensive Overview",
+          "url": "https://emerj.com/artificial-intelligence-at-state-farm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This professional biography for Kjersten Moody, State Farm's inaugural Chief Data and Analytics Officer, provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by detailing the establishment and operationalization of data science and ML capabilities, as well as the assignment of responsibility for enterprise data strategy, data governance, and AI governance to a leadership role. Evidence for transparency is found in the mention of AI/ML capabilities and data governance components, implying the existence of policies or frameworks.",
+          "title": "Kjersten Moody - Chief Data Officer Profile",
+          "url": "https://njbda.org/speakers/kjersten-moody"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:58:46Z",
+  "run_id": "20260203_015225_f1a9",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Drawing from 18 publicly available sources, State Farm's published materials address 5 of 7 evaluated responsible AI pillars. Transparency disclosures include patent details on machine learning techniques like logistic regression and deep learning for vehicle total loss prediction, while fairness materials describe mechanisms for adjusting model thresholds to mitigate cost-based bias. Additionally, explainability is evidenced by patents describing machine learning models using 'attention weights' and knowledge graphs. Oversight and governance are also addressed, with policy documents highlighting 'responsible AI principles' and 'human engagement' as key elements for AI use. No qualifying public evidence was found for privacy or external accountability.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 133,
+    "total_sources_used": 10
+  }
+}

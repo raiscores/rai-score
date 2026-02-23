@@ -1,0 +1,635 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "AT&T",
+  "company_slug": "att",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 11,
+      "OPERATIONAL": 49,
+      "POLICY": 72
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Policy documents mandate human review for explainability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "The AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1) policy document provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. This policy mandates human review for bias, accuracy, and explainability, supports privacy through data protection agreements and retention/deletion policies, and enforces transparency via AI labeling. Furthermore, it establishes governance by requiring advance approval of AI use cases and vendor data controls, and demonstrates external accountability by warranting compliance with industry standards and ethical AI practices.",
+          "title": "AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1)",
+          "url": "https://attsuppliers.com/downloads/ATT-Supplier-Artificial-Intelligence-Requirements-V1.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 25,
+      "findings": "AT&T's policy documents warrant compliance with industry standards and ethical AI practices. Help pages reference adherence to external standards and the Audit Committee's oversight of compliance. Furthermore, SEC filings reference independent audits and SEC filing commitments, while FCC enforcement actions mandate compliance reporting to a regulator.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "The AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1) policy document provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. This policy mandates human review for bias, accuracy, and explainability, supports privacy through data protection agreements and retention/deletion policies, and enforces transparency via AI labeling. Furthermore, it establishes governance by requiring advance approval of AI use cases and vendor data controls, and demonstrates external accountability by warranting compliance with industry standards and ethical AI practices.",
+          "title": "AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1)",
+          "url": "https://attsuppliers.com/downloads/ATT-Supplier-Artificial-Intelligence-Requirements-V1.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Cybersecurity Governance - Board Audit Committee Oversight,\" provides evidence for **governance**, **external accountability**, and **privacy**. It details the Board Audit Committee's oversight of cybersecurity risk, including regular presentations from key executives and adherence to external standards like PCI-DSS, SOX, and SSAE 18/ISAE 3402, supporting governance and external accountability. Furthermore, the document touches upon the implementation of security policies and standards in decision-making and contractual requirements for suppliers regarding security, which relates to privacy and data protection.",
+          "title": "Cybersecurity Governance - Board Audit Committee Oversight",
+          "url": "https://sustainability.att.com/priority-topics/cybersecurity"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. It details the Corporate Responsibility Oversight - Board Governance and Policy Committee (GPC), comprised of independent directors, which has direct oversight of AI governance. The page also mentions the Chief Sustainability Officer presenting educational materials on AI governance and a CR Governance Council of executives overseeing implementation, demonstrating robust governance and oversight mechanisms. Furthermore, the mention of \"privacy\" as a covered topic and the Audit Committee's oversight of compliance supports the privacy and external accountability pillars.",
+          "title": "Corporate Responsibility Oversight - Board Governance and Policy Committee",
+          "url": "https://sustainability.att.com/reporting/oversight"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external accountability, governance, oversight, privacy, and transparency**. It details AT&T's AI strategy, highlighting the Chief Data Office as the central authority for governance and oversight, and mentions a \"Privacy Policy\" supporting the privacy pillar. The paper also documents transparency through the description of AI systems, their use cases, and public validation via benchmarks.",
+          "title": "AT&T AI Strategy Analysis - Chief Data Office Leadership",
+          "url": "https://klover.ai/att-ai-strategy-analysis-of-dominating-telecommunications-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Revolutionizing the Role of AI in Networking,\" provides evidence for **external_accountability**, **governance**, **oversight**, and **privacy**. It supports **external_accountability** by mentioning consultation with third-party experts for risk analysis. Evidence for **governance** is found in descriptions of policy enforcement, data use policies for AI training, and the creation of rules for automation by human experts. The blog post also supports **oversight** through its discussion of automated decision-making on network use and a phase where AI supports human decision-making. Finally, it touches upon **privacy** by implying data protection through data collection and analysis for network intelligence and mentioning secure network practices.",
+          "title": "Revolutionizing the Role of AI in Networking",
+          "url": "https://business.att.com/learn/articles/revolutionizing-the-role-of-ai-in-networking.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper by AT&T CISO Rich Baich provides evidence for **governance**, **external accountability**, and **privacy**. It supports governance by detailing a robust software development lifecycle for secure AI enablement and outlining mandatory testing and access controls. The paper also touches on external accountability through efforts to meet ISO 42001 standards and operationalizes privacy by addressing shadow AI and bringing unapproved AI into the secure development lifecycle.",
+          "title": "A No-Nonsense Approach to Secure AI Enablement at AT&T",
+          "url": "https://deloitte.com/us/en/insights/topics/technology-management/tech-trends/2025/att-ai-cybersecurity-practices.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "The AT&T Form 10-K for Fiscal Year 2024, an SEC filing, provides evidence for several responsible AI pillars. It supports **governance** and **oversight** through descriptions of the Audit Committee's responsibilities, network modernization programs, and risk management frameworks. The filing also touches upon **privacy** by discussing potential harm to data from external AI use and the development of secure networks, and **external accountability** through references to independent audits and SEC filing commitments. Finally, it demonstrates **transparency** by noting the public availability of financial reports.",
+          "title": "AT&T Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/732717/000073271725000013/t-20241231.htm"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "The AT&T Transparency Report - Central Hub, a company-owned help page, provides evidence for **governance** and **external accountability**. The report details AT&T's commitment to regularly publishing data on legal demands for customer information, demonstrating a structured approach to handling such requests. Furthermore, the mention of compliance with EU regulations for blocking sites highlights external accountability to regulatory mandates.",
+          "title": "AT&T Transparency Report - Central Hub",
+          "url": "https://sustainability.att.com/reports/transparency-report"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This FCC enforcement action against AT&T provides evidence for **external_accountability**, **governance**, and **privacy**. The settlement mandates enhanced monitoring and three-year compliance reporting to a regulator, demonstrating external accountability. Furthermore, the action implies governance requirements by enforcing specific measures and roles, and it supports the privacy pillar by addressing unauthorized employee access to customer accounts.",
+          "title": "AT&T Pays $25 Million in FCC Settlement",
+          "url": "https://privacylaw.proskauer.com/2015/04/articles/data-breaches/att-pays-25-million-in-fcc-settlement"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This AT&T AI Copyright Policy document provides evidence for **governance** and **external accountability**. The policy establishes a commitment to complying with copyright laws and respecting rightsholders' reservations of rights, demonstrating governance over AI usage. Furthermore, it outlines a complaint mechanism (copyright@att.com) and a commitment to acting on complaints non-arbitrarily, which supports external accountability.",
+          "title": "AT&T AI Copyright Policy",
+          "url": "https://sustainability.att.com/ViewFile?fileGuid=0a9d2d20-6c0b-4b09-a796-49a45eca41cf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_029",
+          "source_tier": "authority",
+          "summary": "This AT&T 2025 Proxy Statement provides evidence for **governance**, **external accountability**, and **privacy**. The document details the oversight of AI matters by the Governance and Policy Committee, including their authority to hire consultants and conduct annual evaluations, demonstrating strong governance and external accountability. Furthermore, the Audit Committee's oversight of privacy and data security, as well as the mention of AI governance and privacy as discussion topics, supports the privacy pillar.",
+          "title": "AT&T 2025 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/732717/000119312525073402/d900144ddef14a.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "Policy documents mandate human review for bias.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "The AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1) policy document provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. This policy mandates human review for bias, accuracy, and explainability, supports privacy through data protection agreements and retention/deletion policies, and enforces transparency via AI labeling. Furthermore, it establishes governance by requiring advance approval of AI use cases and vendor data controls, and demonstrates external accountability by warranting compliance with industry standards and ethical AI practices.",
+          "title": "AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1)",
+          "url": "https://attsuppliers.com/downloads/ATT-Supplier-Artificial-Intelligence-Requirements-V1.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "The AT&T Form 10-K for Fiscal Year 2024, an SEC filing, provides evidence for several responsible AI pillars. It supports **governance** and **oversight** through descriptions of the Audit Committee's responsibilities, network modernization programs, and risk management frameworks. The filing also touches upon **privacy** by discussing potential harm to data from external AI use and the development of secure networks, and **external accountability** through references to independent audits and SEC filing commitments. Finally, it demonstrates **transparency** by noting the public availability of financial reports.",
+          "title": "AT&T Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/732717/000073271725000013/t-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 105,
+      "findings": "AT&T's policy documents establish governance through committees responsible for overseeing AI policy implementation and requiring advance approval of AI use cases. Help pages detail the Chief Data Officer's oversight of AI strategy, describe a streamlined governance process for AI tools, and outline operational mechanisms like mandatory training and codes of conduct. SEC filings describe Audit Committee responsibilities and risk management frameworks, while transparency reports detail commitments to publishing data on legal demands.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AT&T Human Rights Policy,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It establishes governance through the AT&T Human Rights Committee, which is responsible for overseeing AI policy implementation and conducting due diligence for new AI solutions. The policy also supports the privacy pillar by committing to examining privacy risks as part of this due diligence process.",
+          "title": "AT&T Human Rights Policy",
+          "url": "https://sustainability.att.com/ViewFile?fileGuid=13704c6b-1bd9-4840-93f8-2799d8cebd8f"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "The AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1) policy document provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. This policy mandates human review for bias, accuracy, and explainability, supports privacy through data protection agreements and retention/deletion policies, and enforces transparency via AI labeling. Furthermore, it establishes governance by requiring advance approval of AI use cases and vendor data controls, and demonstrates external accountability by warranting compliance with industry standards and ethical AI practices.",
+          "title": "AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1)",
+          "url": "https://attsuppliers.com/downloads/ATT-Supplier-Artificial-Intelligence-Requirements-V1.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"AT&T AI Policy for Employees and Third Parties,\" provides evidence for the **governance** pillar of responsible AI. It outlines a formal AI policy with specific requirements and principles for both employees and third parties, demonstrating a structured approach to managing AI initiatives and a commitment to established standards.",
+          "title": "AT&T AI Policy for Employees and Third Parties",
+          "url": "https://innovationleader.com/resource/att-ai-policy-for-employees-and-third-parties"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This help page documents the company's approach to responsible AI governance, providing evidence for the **governance**, **oversight**, and **privacy** pillars. It details the Chief Data Officer's oversight of AI strategy and a streamlined, single-document governance process for AI tools, which includes privacy assessments. The document also highlights the Board's regular reporting on innovation and responsible technology, demonstrating oversight structures.",
+          "title": "Innovation & Responsible Technology Governance - Board Oversight",
+          "url": "https://sustainability.att.com/priority-topics/innovation-technology"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Cybersecurity Governance - Board Audit Committee Oversight,\" provides evidence for **governance**, **external accountability**, and **privacy**. It details the Board Audit Committee's oversight of cybersecurity risk, including regular presentations from key executives and adherence to external standards like PCI-DSS, SOX, and SSAE 18/ISAE 3402, supporting governance and external accountability. Furthermore, the document touches upon the implementation of security policies and standards in decision-making and contractual requirements for suppliers regarding security, which relates to privacy and data protection.",
+          "title": "Cybersecurity Governance - Board Audit Committee Oversight",
+          "url": "https://sustainability.att.com/priority-topics/cybersecurity"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. It details the Corporate Responsibility Oversight - Board Governance and Policy Committee (GPC), comprised of independent directors, which has direct oversight of AI governance. The page also mentions the Chief Sustainability Officer presenting educational materials on AI governance and a CR Governance Council of executives overseeing implementation, demonstrating robust governance and oversight mechanisms. Furthermore, the mention of \"privacy\" as a covered topic and the Audit Committee's oversight of compliance supports the privacy and external accountability pillars.",
+          "title": "Corporate Responsibility Oversight - Board Governance and Policy Committee",
+          "url": "https://sustainability.att.com/reporting/oversight"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Ethics & Integrity - Compliance and Oversight,\" provides evidence for the **governance** pillar of responsible AI. It details the company's internal governance structure for risk management, including oversight by the Board Audit Committee and the Chief Compliance Officer. The document also outlines operational mechanisms for governance such as mandatory training, reporting channels, and codes of conduct that establish ethical standards for employee behavior and business integrity.",
+          "title": "Ethics & Integrity - Compliance and Oversight",
+          "url": "https://sustainability.att.com/priority-topics/ethics-integrity"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for the **governance** and **privacy** pillars of responsible AI. It details the company's governance approach through Board oversight, the Chief Data Office's role in reviewing advanced privacy protections, and annual risk assessments of operations relative to privacy-control maturity. The document also supports the privacy pillar by describing proactive testing of privacy control effectiveness and the rapid enactment of an incident response plan for breaches.",
+          "title": "Privacy Governance - Data Protection and Incident Response",
+          "url": "https://sustainability.att.com/priority-topics/privacy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external accountability, governance, oversight, privacy, and transparency**. It details AT&T's AI strategy, highlighting the Chief Data Office as the central authority for governance and oversight, and mentions a \"Privacy Policy\" supporting the privacy pillar. The paper also documents transparency through the description of AI systems, their use cases, and public validation via benchmarks.",
+          "title": "AT&T AI Strategy Analysis - Chief Data Office Leadership",
+          "url": "https://klover.ai/att-ai-strategy-analysis-of-dominating-telecommunications-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Revolutionizing the Role of AI in Networking,\" provides evidence for **external_accountability**, **governance**, **oversight**, and **privacy**. It supports **external_accountability** by mentioning consultation with third-party experts for risk analysis. Evidence for **governance** is found in descriptions of policy enforcement, data use policies for AI training, and the creation of rules for automation by human experts. The blog post also supports **oversight** through its discussion of automated decision-making on network use and a phase where AI supports human decision-making. Finally, it touches upon **privacy** by implying data protection through data collection and analysis for network intelligence and mentioning secure network practices.",
+          "title": "Revolutionizing the Role of AI in Networking",
+          "url": "https://business.att.com/learn/articles/revolutionizing-the-role-of-ai-in-networking.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This product documentation for AT&T Dynamic Defense provides evidence for **governance, privacy, and transparency**. It supports governance by describing the integrated deployment of AI within the network and mentioning AT&T policies guiding AI-driven recommendations. Evidence for privacy and transparency is found in the discussion of data use for services and marketing, implying the existence of data governance and privacy policies, as well as the mention of AI use in security.",
+          "title": "AT&T Dynamic Defense - Enterprise Security Product",
+          "url": "https://business.att.com/products/att-dynamic-defense.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper by AT&T CISO Rich Baich provides evidence for **governance**, **external accountability**, and **privacy**. It supports governance by detailing a robust software development lifecycle for secure AI enablement and outlining mandatory testing and access controls. The paper also touches on external accountability through efforts to meet ISO 42001 standards and operationalizes privacy by addressing shadow AI and bringing unapproved AI into the secure development lifecycle.",
+          "title": "A No-Nonsense Approach to Secure AI Enablement at AT&T",
+          "url": "https://deloitte.com/us/en/insights/topics/technology-management/tech-trends/2025/att-ai-cybersecurity-practices.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "The AT&T Form 10-K for Fiscal Year 2024, an SEC filing, provides evidence for several responsible AI pillars. It supports **governance** and **oversight** through descriptions of the Audit Committee's responsibilities, network modernization programs, and risk management frameworks. The filing also touches upon **privacy** by discussing potential harm to data from external AI use and the development of secure networks, and **external accountability** through references to independent audits and SEC filing commitments. Finally, it demonstrates **transparency** by noting the public availability of financial reports.",
+          "title": "AT&T Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/732717/000073271725000013/t-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_018",
+          "source_tier": "authority",
+          "summary": "This AT&T Form 8-K filing provides evidence for the **governance** and **privacy** pillars of responsible AI. The document supports governance by detailing the activation of incident response and coordination with law enforcement following a cybersecurity incident involving a third-party cloud platform. It supports privacy by describing actions taken for data protection and security measures in response to the exfiltration of call and text logs.",
+          "title": "AT&T Form 8-K - Material Cybersecurity Incident Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/732717/000073271724000046/t-20240506.htm"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "The AT&T Transparency Report - Central Hub, a company-owned help page, provides evidence for **governance** and **external accountability**. The report details AT&T's commitment to regularly publishing data on legal demands for customer information, demonstrating a structured approach to handling such requests. Furthermore, the mention of compliance with EU regulations for blocking sites highlights external accountability to regulatory mandates.",
+          "title": "AT&T Transparency Report - Central Hub",
+          "url": "https://sustainability.att.com/reports/transparency-report"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This overview of the AT&T data breach provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by detailing the exposure of customer call and text message metadata, highlighting the need for robust data protection. The document also touches on governance by mentioning the delayed disclosure and ransom payment, which implies oversight and decision-making processes related to incident response and data security.",
+          "title": "AT&T Data Breach: An Overview of the Impact and Response",
+          "url": "https://thebeckagefirm.com/63486-2"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This overview of the AT&T data breach supports the **governance** and **privacy** pillars. It highlights the Mozilla Foundation's stated commitment to privacy and their advocacy for it, suggesting a value-driven approach. Furthermore, the document points to privacy concerns regarding AI chatbots and dating apps, indicating potential policy gaps or issues with safeguarding sensitive information.",
+          "title": "Mozilla Foundation - AT&T Data Breach Overview",
+          "url": "https://mozillafoundation.org/en/privacynotincluded/articles/att-had-a-huge-data-breach-heres-what-you-need-to-know"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This FCC enforcement action against AT&T provides evidence for **external_accountability**, **governance**, and **privacy**. The settlement mandates enhanced monitoring and three-year compliance reporting to a regulator, demonstrating external accountability. Furthermore, the action implies governance requirements by enforcing specific measures and roles, and it supports the privacy pillar by addressing unauthorized employee access to customer accounts.",
+          "title": "AT&T Pays $25 Million in FCC Settlement",
+          "url": "https://privacylaw.proskauer.com/2015/04/articles/data-breaches/att-pays-25-million-in-fcc-settlement"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the pillars of governance, oversight, and privacy. The decision highlights AT&T's implemented security measures, daily consent record reviews, and the requirement for consent documentation as mechanisms demonstrating operational privacy and oversight. Furthermore, AT&T's review of provider use cases and consent supports the transparency pillar by indicating a process for managing vendor data handling.",
+          "title": "Fifth Circuit Vacates FCC Fine of AT&T in Customer Data Case",
+          "url": "https://benton.org/headlines/fifth-circuit-vacates-fccs-fine-att-customer-data-case"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This AT&T AI Copyright Policy document provides evidence for **governance** and **external accountability**. The policy establishes a commitment to complying with copyright laws and respecting rightsholders' reservations of rights, demonstrating governance over AI usage. Furthermore, it outlines a complaint mechanism (copyright@att.com) and a commitment to acting on complaints non-arbitrarily, which supports external accountability.",
+          "title": "AT&T AI Copyright Policy",
+          "url": "https://sustainability.att.com/ViewFile?fileGuid=0a9d2d20-6c0b-4b09-a796-49a45eca41cf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_029",
+          "source_tier": "authority",
+          "summary": "This AT&T 2025 Proxy Statement provides evidence for **governance**, **external accountability**, and **privacy**. The document details the oversight of AI matters by the Governance and Policy Committee, including their authority to hire consultants and conduct annual evaluations, demonstrating strong governance and external accountability. Furthermore, the Audit Committee's oversight of privacy and data security, as well as the mention of AI governance and privacy as discussion topics, supports the privacy pillar.",
+          "title": "AT&T 2025 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/732717/000119312525073402/d900144ddef14a.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 21
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 11,
+      "findings": "AT&T's policy documents mandate human review for bias, accuracy, and explainability. Help pages describe the Chief Data Officer's oversight of AI strategy and highlight the Board's regular reporting on innovation and responsible technology. Furthermore, SEC filings describe the Audit Committee's responsibilities and risk management frameworks, while court filings highlight implemented security measures and daily consent record reviews.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "The AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1) policy document provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. This policy mandates human review for bias, accuracy, and explainability, supports privacy through data protection agreements and retention/deletion policies, and enforces transparency via AI labeling. Furthermore, it establishes governance by requiring advance approval of AI use cases and vendor data controls, and demonstrates external accountability by warranting compliance with industry standards and ethical AI practices.",
+          "title": "AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1)",
+          "url": "https://attsuppliers.com/downloads/ATT-Supplier-Artificial-Intelligence-Requirements-V1.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This help page documents the company's approach to responsible AI governance, providing evidence for the **governance**, **oversight**, and **privacy** pillars. It details the Chief Data Officer's oversight of AI strategy and a streamlined, single-document governance process for AI tools, which includes privacy assessments. The document also highlights the Board's regular reporting on innovation and responsible technology, demonstrating oversight structures.",
+          "title": "Innovation & Responsible Technology Governance - Board Oversight",
+          "url": "https://sustainability.att.com/priority-topics/innovation-technology"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. It details the Corporate Responsibility Oversight - Board Governance and Policy Committee (GPC), comprised of independent directors, which has direct oversight of AI governance. The page also mentions the Chief Sustainability Officer presenting educational materials on AI governance and a CR Governance Council of executives overseeing implementation, demonstrating robust governance and oversight mechanisms. Furthermore, the mention of \"privacy\" as a covered topic and the Audit Committee's oversight of compliance supports the privacy and external accountability pillars.",
+          "title": "Corporate Responsibility Oversight - Board Governance and Policy Committee",
+          "url": "https://sustainability.att.com/reporting/oversight"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external accountability, governance, oversight, privacy, and transparency**. It details AT&T's AI strategy, highlighting the Chief Data Office as the central authority for governance and oversight, and mentions a \"Privacy Policy\" supporting the privacy pillar. The paper also documents transparency through the description of AI systems, their use cases, and public validation via benchmarks.",
+          "title": "AT&T AI Strategy Analysis - Chief Data Office Leadership",
+          "url": "https://klover.ai/att-ai-strategy-analysis-of-dominating-telecommunications-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Revolutionizing the Role of AI in Networking,\" provides evidence for **external_accountability**, **governance**, **oversight**, and **privacy**. It supports **external_accountability** by mentioning consultation with third-party experts for risk analysis. Evidence for **governance** is found in descriptions of policy enforcement, data use policies for AI training, and the creation of rules for automation by human experts. The blog post also supports **oversight** through its discussion of automated decision-making on network use and a phase where AI supports human decision-making. Finally, it touches upon **privacy** by implying data protection through data collection and analysis for network intelligence and mentioning secure network practices.",
+          "title": "Revolutionizing the Role of AI in Networking",
+          "url": "https://business.att.com/learn/articles/revolutionizing-the-role-of-ai-in-networking.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "The AT&T Form 10-K for Fiscal Year 2024, an SEC filing, provides evidence for several responsible AI pillars. It supports **governance** and **oversight** through descriptions of the Audit Committee's responsibilities, network modernization programs, and risk management frameworks. The filing also touches upon **privacy** by discussing potential harm to data from external AI use and the development of secure networks, and **external accountability** through references to independent audits and SEC filing commitments. Finally, it demonstrates **transparency** by noting the public availability of financial reports.",
+          "title": "AT&T Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/732717/000073271725000013/t-20241231.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the pillars of governance, oversight, and privacy. The decision highlights AT&T's implemented security measures, daily consent record reviews, and the requirement for consent documentation as mechanisms demonstrating operational privacy and oversight. Furthermore, AT&T's review of provider use cases and consent supports the transparency pillar by indicating a process for managing vendor data handling.",
+          "title": "Fifth Circuit Vacates FCC Fine of AT&T in Customer Data Case",
+          "url": "https://benton.org/headlines/fifth-circuit-vacates-fccs-fine-att-customer-data-case"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 49,
+      "findings": "AT&T's policy documents commit to examining privacy risks and support privacy through data protection agreements and retention/deletion policies. Help pages describe privacy assessments, proactive testing of privacy control effectiveness, and the rapid enactment of incident response plans for breaches. Furthermore, technical papers describe operationalizing privacy by addressing shadow AI, and SEC filings discuss potential harm to data from external AI use and describe actions taken for data protection.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AT&T Human Rights Policy,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It establishes governance through the AT&T Human Rights Committee, which is responsible for overseeing AI policy implementation and conducting due diligence for new AI solutions. The policy also supports the privacy pillar by committing to examining privacy risks as part of this due diligence process.",
+          "title": "AT&T Human Rights Policy",
+          "url": "https://sustainability.att.com/ViewFile?fileGuid=13704c6b-1bd9-4840-93f8-2799d8cebd8f"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "The AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1) policy document provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. This policy mandates human review for bias, accuracy, and explainability, supports privacy through data protection agreements and retention/deletion policies, and enforces transparency via AI labeling. Furthermore, it establishes governance by requiring advance approval of AI use cases and vendor data controls, and demonstrates external accountability by warranting compliance with industry standards and ethical AI practices.",
+          "title": "AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1)",
+          "url": "https://attsuppliers.com/downloads/ATT-Supplier-Artificial-Intelligence-Requirements-V1.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This help page documents the company's approach to responsible AI governance, providing evidence for the **governance**, **oversight**, and **privacy** pillars. It details the Chief Data Officer's oversight of AI strategy and a streamlined, single-document governance process for AI tools, which includes privacy assessments. The document also highlights the Board's regular reporting on innovation and responsible technology, demonstrating oversight structures.",
+          "title": "Innovation & Responsible Technology Governance - Board Oversight",
+          "url": "https://sustainability.att.com/priority-topics/innovation-technology"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Cybersecurity Governance - Board Audit Committee Oversight,\" provides evidence for **governance**, **external accountability**, and **privacy**. It details the Board Audit Committee's oversight of cybersecurity risk, including regular presentations from key executives and adherence to external standards like PCI-DSS, SOX, and SSAE 18/ISAE 3402, supporting governance and external accountability. Furthermore, the document touches upon the implementation of security policies and standards in decision-making and contractual requirements for suppliers regarding security, which relates to privacy and data protection.",
+          "title": "Cybersecurity Governance - Board Audit Committee Oversight",
+          "url": "https://sustainability.att.com/priority-topics/cybersecurity"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. It details the Corporate Responsibility Oversight - Board Governance and Policy Committee (GPC), comprised of independent directors, which has direct oversight of AI governance. The page also mentions the Chief Sustainability Officer presenting educational materials on AI governance and a CR Governance Council of executives overseeing implementation, demonstrating robust governance and oversight mechanisms. Furthermore, the mention of \"privacy\" as a covered topic and the Audit Committee's oversight of compliance supports the privacy and external accountability pillars.",
+          "title": "Corporate Responsibility Oversight - Board Governance and Policy Committee",
+          "url": "https://sustainability.att.com/reporting/oversight"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for the **governance** and **privacy** pillars of responsible AI. It details the company's governance approach through Board oversight, the Chief Data Office's role in reviewing advanced privacy protections, and annual risk assessments of operations relative to privacy-control maturity. The document also supports the privacy pillar by describing proactive testing of privacy control effectiveness and the rapid enactment of an incident response plan for breaches.",
+          "title": "Privacy Governance - Data Protection and Incident Response",
+          "url": "https://sustainability.att.com/priority-topics/privacy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external accountability, governance, oversight, privacy, and transparency**. It details AT&T's AI strategy, highlighting the Chief Data Office as the central authority for governance and oversight, and mentions a \"Privacy Policy\" supporting the privacy pillar. The paper also documents transparency through the description of AI systems, their use cases, and public validation via benchmarks.",
+          "title": "AT&T AI Strategy Analysis - Chief Data Office Leadership",
+          "url": "https://klover.ai/att-ai-strategy-analysis-of-dominating-telecommunications-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Revolutionizing the Role of AI in Networking,\" provides evidence for **external_accountability**, **governance**, **oversight**, and **privacy**. It supports **external_accountability** by mentioning consultation with third-party experts for risk analysis. Evidence for **governance** is found in descriptions of policy enforcement, data use policies for AI training, and the creation of rules for automation by human experts. The blog post also supports **oversight** through its discussion of automated decision-making on network use and a phase where AI supports human decision-making. Finally, it touches upon **privacy** by implying data protection through data collection and analysis for network intelligence and mentioning secure network practices.",
+          "title": "Revolutionizing the Role of AI in Networking",
+          "url": "https://business.att.com/learn/articles/revolutionizing-the-role-of-ai-in-networking.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This product documentation for AT&T Dynamic Defense provides evidence for **governance, privacy, and transparency**. It supports governance by describing the integrated deployment of AI within the network and mentioning AT&T policies guiding AI-driven recommendations. Evidence for privacy and transparency is found in the discussion of data use for services and marketing, implying the existence of data governance and privacy policies, as well as the mention of AI use in security.",
+          "title": "AT&T Dynamic Defense - Enterprise Security Product",
+          "url": "https://business.att.com/products/att-dynamic-defense.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper by AT&T CISO Rich Baich provides evidence for **governance**, **external accountability**, and **privacy**. It supports governance by detailing a robust software development lifecycle for secure AI enablement and outlining mandatory testing and access controls. The paper also touches on external accountability through efforts to meet ISO 42001 standards and operationalizes privacy by addressing shadow AI and bringing unapproved AI into the secure development lifecycle.",
+          "title": "A No-Nonsense Approach to Secure AI Enablement at AT&T",
+          "url": "https://deloitte.com/us/en/insights/topics/technology-management/tech-trends/2025/att-ai-cybersecurity-practices.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "The AT&T Form 10-K for Fiscal Year 2024, an SEC filing, provides evidence for several responsible AI pillars. It supports **governance** and **oversight** through descriptions of the Audit Committee's responsibilities, network modernization programs, and risk management frameworks. The filing also touches upon **privacy** by discussing potential harm to data from external AI use and the development of secure networks, and **external accountability** through references to independent audits and SEC filing commitments. Finally, it demonstrates **transparency** by noting the public availability of financial reports.",
+          "title": "AT&T Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/732717/000073271725000013/t-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_018",
+          "source_tier": "authority",
+          "summary": "This AT&T Form 8-K filing provides evidence for the **governance** and **privacy** pillars of responsible AI. The document supports governance by detailing the activation of incident response and coordination with law enforcement following a cybersecurity incident involving a third-party cloud platform. It supports privacy by describing actions taken for data protection and security measures in response to the exfiltration of call and text logs.",
+          "title": "AT&T Form 8-K - Material Cybersecurity Incident Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/732717/000073271724000046/t-20240506.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This overview of the AT&T data breach provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by detailing the exposure of customer call and text message metadata, highlighting the need for robust data protection. The document also touches on governance by mentioning the delayed disclosure and ransom payment, which implies oversight and decision-making processes related to incident response and data security.",
+          "title": "AT&T Data Breach: An Overview of the Impact and Response",
+          "url": "https://thebeckagefirm.com/63486-2"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This overview of the AT&T data breach supports the **governance** and **privacy** pillars. It highlights the Mozilla Foundation's stated commitment to privacy and their advocacy for it, suggesting a value-driven approach. Furthermore, the document points to privacy concerns regarding AI chatbots and dating apps, indicating potential policy gaps or issues with safeguarding sensitive information.",
+          "title": "Mozilla Foundation - AT&T Data Breach Overview",
+          "url": "https://mozillafoundation.org/en/privacynotincluded/articles/att-had-a-huge-data-breach-heres-what-you-need-to-know"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This FCC enforcement action against AT&T provides evidence for **external_accountability**, **governance**, and **privacy**. The settlement mandates enhanced monitoring and three-year compliance reporting to a regulator, demonstrating external accountability. Furthermore, the action implies governance requirements by enforcing specific measures and roles, and it supports the privacy pillar by addressing unauthorized employee access to customer accounts.",
+          "title": "AT&T Pays $25 Million in FCC Settlement",
+          "url": "https://privacylaw.proskauer.com/2015/04/articles/data-breaches/att-pays-25-million-in-fcc-settlement"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the pillars of governance, oversight, and privacy. The decision highlights AT&T's implemented security measures, daily consent record reviews, and the requirement for consent documentation as mechanisms demonstrating operational privacy and oversight. Furthermore, AT&T's review of provider use cases and consent supports the transparency pillar by indicating a process for managing vendor data handling.",
+          "title": "Fifth Circuit Vacates FCC Fine of AT&T in Customer Data Case",
+          "url": "https://benton.org/headlines/fifth-circuit-vacates-fccs-fine-att-customer-data-case"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_029",
+          "source_tier": "authority",
+          "summary": "This AT&T 2025 Proxy Statement provides evidence for **governance**, **external accountability**, and **privacy**. The document details the oversight of AI matters by the Governance and Policy Committee, including their authority to hire consultants and conduct annual evaluations, demonstrating strong governance and external accountability. Furthermore, the Audit Committee's oversight of privacy and data security, as well as the mention of AI governance and privacy as discussion topics, supports the privacy pillar.",
+          "title": "AT&T 2025 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/732717/000119312525073402/d900144ddef14a.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 17
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 18,
+      "findings": "AT&T's policy documents outline transparency via AI labeling. Technical papers document transparency through descriptions of AI systems, their use cases, and public validation via benchmarks. Additionally, SEC filings note the public availability of financial reports, and court filings reference a process for managing vendor data handling.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "The AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1) policy document provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. This policy mandates human review for bias, accuracy, and explainability, supports privacy through data protection agreements and retention/deletion policies, and enforces transparency via AI labeling. Furthermore, it establishes governance by requiring advance approval of AI use cases and vendor data controls, and demonstrates external accountability by warranting compliance with industry standards and ethical AI practices.",
+          "title": "AT&T Supplier Artificial Intelligence Requirements (SAIR v2.1)",
+          "url": "https://attsuppliers.com/downloads/ATT-Supplier-Artificial-Intelligence-Requirements-V1.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external accountability, governance, oversight, privacy, and transparency**. It details AT&T's AI strategy, highlighting the Chief Data Office as the central authority for governance and oversight, and mentions a \"Privacy Policy\" supporting the privacy pillar. The paper also documents transparency through the description of AI systems, their use cases, and public validation via benchmarks.",
+          "title": "AT&T AI Strategy Analysis - Chief Data Office Leadership",
+          "url": "https://klover.ai/att-ai-strategy-analysis-of-dominating-telecommunications-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This product documentation for AT&T Dynamic Defense provides evidence for **governance, privacy, and transparency**. It supports governance by describing the integrated deployment of AI within the network and mentioning AT&T policies guiding AI-driven recommendations. Evidence for privacy and transparency is found in the discussion of data use for services and marketing, implying the existence of data governance and privacy policies, as well as the mention of AI use in security.",
+          "title": "AT&T Dynamic Defense - Enterprise Security Product",
+          "url": "https://business.att.com/products/att-dynamic-defense.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "The AT&T Form 10-K for Fiscal Year 2024, an SEC filing, provides evidence for several responsible AI pillars. It supports **governance** and **oversight** through descriptions of the Audit Committee's responsibilities, network modernization programs, and risk management frameworks. The filing also touches upon **privacy** by discussing potential harm to data from external AI use and the development of secure networks, and **external accountability** through references to independent audits and SEC filing commitments. Finally, it demonstrates **transparency** by noting the public availability of financial reports.",
+          "title": "AT&T Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/732717/000073271725000013/t-20241231.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the pillars of governance, oversight, and privacy. The decision highlights AT&T's implemented security measures, daily consent record reviews, and the requirement for consent documentation as mechanisms demonstrating operational privacy and oversight. Furthermore, AT&T's review of provider use cases and consent supports the transparency pillar by indicating a process for managing vendor data handling.",
+          "title": "Fifth Circuit Vacates FCC Fine of AT&T in Customer Data Case",
+          "url": "https://benton.org/headlines/fifth-circuit-vacates-fccs-fine-att-customer-data-case"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:44:00Z",
+  "run_id": "20260126_232741_94b5",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "AT&T's published materials address governance through the AT&T Human Rights Committee, which oversees AI policy implementation and conducts due diligence for new AI solutions. All 7 evaluated pillars have documented public evidence, including privacy, where policy documents commit to examining privacy risks as part of due diligence for new AI solutions. Oversight is further documented by help pages describing the Chief Data Officer's oversight of AI strategy. Additionally, transparency, fairness, and explainability are addressed at the policy level, with transparency outlined via AI labeling. This assessment draws on 31 publicly available sources.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 132,
+    "total_sources_used": 21
+  }
+}

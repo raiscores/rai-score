@@ -1,0 +1,234 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Block",
+  "company_slug": "block-inc",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 8,
+      "OPERATIONAL": 1,
+      "POLICY": 14
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Policy documents detail a grant program designed to fund external innovators building on open-source AI agents, which supports external accountability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Goose Grant Program,\" provides evidence for **external accountability**, **governance**, and **transparency**. It details a grant program designed to fund external innovators building on open-source AI agents, which supports external accountability and transparency through publicly available code and permissive licensing. The policy also emphasizes accountability through independent contributor funding and a transition to a neutral governance structure, directly supporting the governance pillar.",
+          "title": "Goose Grant Program",
+          "url": "https://block.xyz/inside/introducing-the-goose-grant-program"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 19,
+      "findings": "The company documents how automated decisions are managed and details the strategic integration of AI tools. It notes the requirement for employees to agree to AI terms and references AI terms of use. Policy documents emphasize accountability through independent contributor funding and outline a transition to a neutral governance structure, highlighting mechanisms for governance in AI development and refinement.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Cash App's Approach to Detecting and Preventing Illegal Activities,\" provides evidence for **governance** and **transparency**. It details the company's use of machine learning models for risk assessment and fraud detection, including specific inputs and automated actions, which demonstrates transparency in their AI systems and governance over automated decision-making processes. The document also highlights the use of AI/ML for identity verification and transaction evaluation, further supporting these pillars by showcasing how automated decisions are managed.",
+          "title": "Cash App's Approach to Detecting and Preventing Illegal Activities",
+          "url": "https://block.xyz/inside/cash-app-approach-to-detecting-and-preventing-illegal-activities"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by detailing the strategic integration of AI tools like MoneyBot and ManagerBot, and by noting the requirement for employees to agree to AI terms. The press release also supports privacy by mentioning a privacy notice for AI use, and transparency by describing the capabilities of the AI tools and their widespread adoption.",
+          "title": "Block 2025 Investor Day: AI Integration Across Ecosystems",
+          "url": "https://block.xyz/inside/inside-blocks-2025-investor-day-building-for-profitable-growth-through-connected-ecosystems"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Goose Grant Program,\" provides evidence for **external accountability**, **governance**, and **transparency**. It details a grant program designed to fund external innovators building on open-source AI agents, which supports external accountability and transparency through publicly available code and permissive licensing. The policy also emphasizes accountability through independent contributor funding and a transition to a neutral governance structure, directly supporting the governance pillar.",
+          "title": "Goose Grant Program",
+          "url": "https://block.xyz/inside/introducing-the-goose-grant-program"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Using AI to Identify and Prevent Fraud - Block,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The post describes the use of AI/ML for fraud prevention and account security, implying transparency and governance. It also references generative AI, a privacy notice, and AI terms of use, indicating the existence of privacy and governance policies.",
+          "title": "Using AI to Identify and Prevent Fraud - Block",
+          "url": "https://block.xyz/inside/using-ai-to-identify-and-prevent-fraud"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Square AI Enhancements: Intelligence Capabilities and Explainability,\" provides evidence for governance, oversight, and transparency. It details specific AI functionalities like Voice Ordering and business insights, demonstrating transparency about AI deployments and their use cases. The mention of AI translation with human review, alongside ongoing beta testing incorporating user feedback, highlights mechanisms for oversight and governance in AI development and refinement.",
+          "title": "Square AI Enhancements: Intelligence Capabilities and Explainability",
+          "url": "https://squareup.com/us/en/press/square-releases-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "Press releases mention the use of human review for AI translation. They also highlight ongoing beta testing that incorporates user feedback in the development and refinement of AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Square AI Enhancements: Intelligence Capabilities and Explainability,\" provides evidence for governance, oversight, and transparency. It details specific AI functionalities like Voice Ordering and business insights, demonstrating transparency about AI deployments and their use cases. The mention of AI translation with human review, alongside ongoing beta testing incorporating user feedback, highlights mechanisms for oversight and governance in AI development and refinement.",
+          "title": "Square AI Enhancements: Intelligence Capabilities and Explainability",
+          "url": "https://squareup.com/us/en/press/square-releases-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 2,
+      "findings": "The company references and mentions a privacy notice for AI use.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by detailing the strategic integration of AI tools like MoneyBot and ManagerBot, and by noting the requirement for employees to agree to AI terms. The press release also supports privacy by mentioning a privacy notice for AI use, and transparency by describing the capabilities of the AI tools and their widespread adoption.",
+          "title": "Block 2025 Investor Day: AI Integration Across Ecosystems",
+          "url": "https://block.xyz/inside/inside-blocks-2025-investor-day-building-for-profitable-growth-through-connected-ecosystems"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Using AI to Identify and Prevent Fraud - Block,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The post describes the use of AI/ML for fraud prevention and account security, implying transparency and governance. It also references generative AI, a privacy notice, and AI terms of use, indicating the existence of privacy and governance policies.",
+          "title": "Using AI to Identify and Prevent Fraud - Block",
+          "url": "https://block.xyz/inside/using-ai-to-identify-and-prevent-fraud"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 19,
+      "findings": "The company documents its use of machine learning models for risk assessment, fraud detection, identity verification, and transaction evaluation, including specific inputs and automated actions. It also describes the capabilities and widespread adoption of AI tools like MoneyBot and ManagerBot, and details specific AI functionalities such as Voice Ordering and business insights. Furthermore, a grant program supports transparency through publicly available code and permissive licensing for open-source AI agents.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Cash App's Approach to Detecting and Preventing Illegal Activities,\" provides evidence for **governance** and **transparency**. It details the company's use of machine learning models for risk assessment and fraud detection, including specific inputs and automated actions, which demonstrates transparency in their AI systems and governance over automated decision-making processes. The document also highlights the use of AI/ML for identity verification and transaction evaluation, further supporting these pillars by showcasing how automated decisions are managed.",
+          "title": "Cash App's Approach to Detecting and Preventing Illegal Activities",
+          "url": "https://block.xyz/inside/cash-app-approach-to-detecting-and-preventing-illegal-activities"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by detailing the strategic integration of AI tools like MoneyBot and ManagerBot, and by noting the requirement for employees to agree to AI terms. The press release also supports privacy by mentioning a privacy notice for AI use, and transparency by describing the capabilities of the AI tools and their widespread adoption.",
+          "title": "Block 2025 Investor Day: AI Integration Across Ecosystems",
+          "url": "https://block.xyz/inside/inside-blocks-2025-investor-day-building-for-profitable-growth-through-connected-ecosystems"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Goose Grant Program,\" provides evidence for **external accountability**, **governance**, and **transparency**. It details a grant program designed to fund external innovators building on open-source AI agents, which supports external accountability and transparency through publicly available code and permissive licensing. The policy also emphasizes accountability through independent contributor funding and a transition to a neutral governance structure, directly supporting the governance pillar.",
+          "title": "Goose Grant Program",
+          "url": "https://block.xyz/inside/introducing-the-goose-grant-program"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Using AI to Identify and Prevent Fraud - Block,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The post describes the use of AI/ML for fraud prevention and account security, implying transparency and governance. It also references generative AI, a privacy notice, and AI terms of use, indicating the existence of privacy and governance policies.",
+          "title": "Using AI to Identify and Prevent Fraud - Block",
+          "url": "https://block.xyz/inside/using-ai-to-identify-and-prevent-fraud"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Square AI Enhancements: Intelligence Capabilities and Explainability,\" provides evidence for governance, oversight, and transparency. It details specific AI functionalities like Voice Ordering and business insights, demonstrating transparency about AI deployments and their use cases. The mention of AI translation with human review, alongside ongoing beta testing incorporating user feedback, highlights mechanisms for oversight and governance in AI development and refinement.",
+          "title": "Square AI Enhancements: Intelligence Capabilities and Explainability",
+          "url": "https://squareup.com/us/en/press/square-releases-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:45:09Z",
+  "run_id": "20260202_204306_db03",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Block's operational practices in oversight include AI translation with human review and ongoing beta testing that incorporates user feedback in AI development. Furthermore, governance disclosures showcase how automated decisions are managed in AI/ML systems, contributing to the 5 of 7 evaluated responsible AI pillars for which evidence was found. At the policy level, published materials describe the use of machine learning models for risk assessment and fraud detection under transparency, and detail a grant program for external innovators in external accountability. No qualifying public evidence was found for fairness or explainability, based on a review of 9 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 23,
+    "total_sources_used": 5
+  }
+}

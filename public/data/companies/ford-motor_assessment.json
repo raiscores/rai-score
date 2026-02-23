@@ -1,0 +1,501 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 92.9,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 13
+  },
+  "company": "Ford Motor",
+  "company_slug": "ford-motor",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 9,
+      "OPERATIONAL": 10,
+      "POLICY": 70
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "A privacy notice outlines commitments against solely automated decisions, implying a focus on human involvement. This notice also details rights related to automated decision-making, providing clarity on user interactions with AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "The \"Ford Pro Privacy Notice\" privacy policy provides evidence for **explainability, governance, oversight, privacy, and transparency**. This document supports these pillars by outlining commitments against solely automated decisions, implying human oversight, and detailing rights related to automated decision-making. It also demonstrates transparency and privacy considerations for AI interactions, including the use of Generative AI and bot prevention tools, and implies governance through structured data use for service delivery and profiling.",
+          "title": "Ford Pro Privacy Notice",
+          "url": "https://fordpro.com/en-us/privacy"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 13,
+      "findings": "Ford's privacy policy outlines its lack of responsibility for third-party app data use and details data sharing with partners for targeted advertising. A press release states Ford's commitment to customer consent for sharing driving data and details granular in-vehicle privacy controls. External accountability is evidenced through audits and reviews of suppliers, compliance with AI laws and data protection acts, and regulatory scrutiny. Investigations conducted by external agencies demonstrate accountability for system performance, highlight external agencies investigating driver-aid systems, and mention system classification as partial automation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Ford.com Privacy Policy document provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. It supports **external_accountability** by outlining Ford's lack of responsibility for third-party app data use and detailing data sharing with partners for targeted advertising. The policy demonstrates **governance** through its mention of authorized dealer operations, business purposes for data use, and compliance with laws regarding AI/ML/ADM. Evidence for **privacy** is found in descriptions of automated profiling for preferences and inferences, opt-out rights for targeted advertising, and data processing subject to privacy notices. Finally, **transparency** is supported by the stated intent to inform users about AI chatbot use and details regarding third-party data sharing for behavioral advertising.",
+          "title": "Ford.com Privacy Policy",
+          "url": "https://ford.com/help/privacy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Ford Data Privacy: You're in Control,\" provides evidence for the **external_accountability** pillar. It demonstrates this by explicitly stating Ford's commitment to customer consent for sharing driving data with insurance companies and detailing granular in-vehicle privacy controls, suggesting adherence to evolving privacy regulations and a commitment to external oversight.",
+          "title": "Ford Data Privacy: You're in Control",
+          "url": "https://fromtheroad.ford.com/us/en/articles/2025/ford-data-privacy-kristin-jones"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "The \"2023 Human Rights Progress Report\" provides evidence for **external_accountability, fairness, governance, and transparency**. This company-owned document supports **transparency** by explicitly mentioning the use of machine learning tools for issue detection and acknowledging AI's human rights impacts. It demonstrates **governance** through its Supplier Code of Conduct and the use of ML for quality governance, while **external_accountability** is evidenced by audits and reviews of suppliers. The report also implicitly supports **fairness** by referencing UN guiding principles on AI ethics, emphasizing that AI should not replace human rights.",
+          "title": "2023 Human Rights Progress Report",
+          "url": "https://corporate.ford.com/content/dam/corporate/us/en-us/documents/reports/2023-human-rights-progress-report.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "The Ford Motor Co. 10-K SEC Filing (2024) provides evidence for **external accountability**, **governance**, and **privacy**. This annual report details Ford's structured approach to managing AI risks, including the use of proprietary scoring models for decision-making and regular model reviews, which supports **governance**. It also highlights compliance with AI laws and data protection acts, and discusses regulatory scrutiny and legislative focus on autonomous driving technologies, demonstrating considerations for **external accountability** and **privacy**.",
+          "title": "Ford Motor Co. 10-K SEC Filing (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This NHTSA preliminary investigation report provides evidence for **external accountability** and **oversight**. The investigation itself, conducted by an external agency, demonstrates external accountability for the system's performance. Furthermore, the report's focus on driver supervision and the system's capabilities directly supports the oversight pillar by examining how the automated driving features are managed and their operational limitations.",
+          "title": "NHTSA BlueCruise Preliminary Investigation (2024)",
+          "url": "https://static.nhtsa.gov/odi/inv/2024/INOA-PE24012-12041.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This news report on the NTSB investigation into a fatal BlueCruise collision provides evidence for **external accountability** and **governance and oversight**. It highlights external agencies investigating driver-aid systems, demonstrating a commitment to external validation and regulatory compliance, and mentions the system's classification as partial automation, aligning with external accountability. Furthermore, the report describes system classification, driver responsibility, and automated monitoring/shutdown mechanisms, indicating governance and oversight practices.",
+          "title": "Ford BlueCruise Fatal Accident NTSB Investigation",
+          "url": "https://caranddriver.com/news/a60229340/ford-bluecruise-fatal-accident-federal-investigation"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This NHTSA investigation report provides evidence for **external_accountability**, **governance**, and **oversight** by highlighting system limitations in detecting stationary vehicles and the subsequent regulatory scrutiny. The report also supports **transparency** by mentioning the evaluation of human reaction to system limits and the use of an AI driver monitoring system to assess attentiveness.",
+          "title": "NHTSA BlueCruise Investigation Escalation",
+          "url": "https://cbtnews.com/nhtsa-escalates-probe-into-fords-bluecruise-following-fatal-crashes"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 7,
+      "findings": "Ford acknowledges ethical challenges and concerns regarding algorithmic bias and discrimination in its sustainability and human rights reports. These reports reference UN guiding principles on AI ethics and emphasize that AI should not replace human rights. Additionally, a settlement highlights the use of statistical evidence to demonstrate disparate impact by race and age within an employee evaluation system.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Ford AI Ethics Principles Framework,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars. It supports fairness and transparency through descriptions of rigorous testing, validation, and auditing for bias and discrimination. The framework also supports privacy by detailing privacy-by-design principles and governance through its mention of a specific AI use case and its implied policy for deployment.",
+          "title": "Ford AI Ethics Principles Framework",
+          "url": "https://corporate.ford.com/microsites/ford-trends-2024/the-trust-algorithm.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This 2024 Integrated Sustainability and Financial Report provides evidence for fairness, governance, oversight, privacy, and transparency. The report details Ford's use of AI in areas like autonomous driving (BlueCruise) and plant operations, supporting transparency. It also acknowledges ethical challenges and concerns regarding algorithmic bias and discrimination, indicating a focus on fairness, while mentioning processes for risk mitigation and supplier notifications suggests governance and oversight. Furthermore, the report touches upon data privacy in the context of AI use, supporting the privacy pillar.",
+          "title": "2024 Integrated Sustainability and Financial Report",
+          "url": "https://corporate.ford.com/content/dam/corporate/us/en-us/documents/reports/2024-integrated-sustainability-and-financial-report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "The \"2023 Human Rights Progress Report\" provides evidence for **external_accountability, fairness, governance, and transparency**. This company-owned document supports **transparency** by explicitly mentioning the use of machine learning tools for issue detection and acknowledging AI's human rights impacts. It demonstrates **governance** through its Supplier Code of Conduct and the use of ML for quality governance, while **external_accountability** is evidenced by audits and reviews of suppliers. The report also implicitly supports **fairness** by referencing UN guiding principles on AI ethics, emphasizing that AI should not replace human rights.",
+          "title": "2023 Human Rights Progress Report",
+          "url": "https://corporate.ford.com/content/dam/corporate/us/en-us/documents/reports/2023-human-rights-progress-report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "The \"2022 Human Rights Report\" provides evidence for the **governance** and **fairness** pillars of responsible AI. The report supports **governance** by referencing UN guidance on AI ethics and board-level oversight of human rights, including digital rights. It also supports **fairness** by acknowledging AI bias concerns and referencing UN AI ethics principles.",
+          "title": "2022 Human Rights Report",
+          "url": "https://corporate.ford.com/content/dam/corporate/us/en-us/documents/reports/2022-human-rights-report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "The \"Ford ABC Employee Evaluation System Settlement\" provides evidence for the **fairness** pillar. This settlement, arising from discrimination claims, highlights the use of statistical evidence to demonstrate disparate impact by race and age within Ford's employee evaluation system, which directly relates to fairness concerns.",
+          "title": "Ford ABC Employee Evaluation System Settlement",
+          "url": "https://fettlaw.com/in-the-news/age-gender-race-discrimination-10-5-million-dollar-settlement-ford"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 46,
+      "findings": "Ford's AI ethics framework mentions specific AI use cases and implies a policy for AI deployment. Privacy policies mention compliance with AI/ML/ADM laws, adherence to vendor data policies, and business purposes for data use. Reports demonstrate governance through a Supplier Code of Conduct, the use of ML for quality governance, and references to UN guidance on AI ethics and board-level oversight of human rights. An SEC filing details a structured approach to managing AI risks, including proprietary scoring models and regular model reviews, while investigations highlight regulatory scrutiny and describe system classification, driver responsibility, and automated monitoring/shutdown mechanisms for driver-aid systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Ford AI Ethics Principles Framework,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars. It supports fairness and transparency through descriptions of rigorous testing, validation, and auditing for bias and discrimination. The framework also supports privacy by detailing privacy-by-design principles and governance through its mention of a specific AI use case and its implied policy for deployment.",
+          "title": "Ford AI Ethics Principles Framework",
+          "url": "https://corporate.ford.com/microsites/ford-trends-2024/the-trust-algorithm.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Ford.com Privacy Policy document provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. It supports **external_accountability** by outlining Ford's lack of responsibility for third-party app data use and detailing data sharing with partners for targeted advertising. The policy demonstrates **governance** through its mention of authorized dealer operations, business purposes for data use, and compliance with laws regarding AI/ML/ADM. Evidence for **privacy** is found in descriptions of automated profiling for preferences and inferences, opt-out rights for targeted advertising, and data processing subject to privacy notices. Finally, **transparency** is supported by the stated intent to inform users about AI chatbot use and details regarding third-party data sharing for behavioral advertising.",
+          "title": "Ford.com Privacy Policy",
+          "url": "https://ford.com/help/privacy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for the governance, privacy, and transparency pillars. It supports governance by mentioning adherence to vendor data policies for API services. Evidence for privacy is found in its description of consent for data collection and sharing, as well as its commitment to anonymizing data for protection, and its mention of \"inferences\" and \"profiles\" which implies automated profiling systems. Transparency is supported by the document's explicit mention of AI use for personalization and data analysis.",
+          "title": "FordDirect Privacy Statement",
+          "url": "https://forddirect.com/privacy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "The \"Ford Pro Privacy Notice\" privacy policy provides evidence for **explainability, governance, oversight, privacy, and transparency**. This document supports these pillars by outlining commitments against solely automated decisions, implying human oversight, and detailing rights related to automated decision-making. It also demonstrates transparency and privacy considerations for AI interactions, including the use of Generative AI and bot prevention tools, and implies governance through structured data use for service delivery and profiling.",
+          "title": "Ford Pro Privacy Notice",
+          "url": "https://fordpro.com/en-us/privacy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This 2024 Integrated Sustainability and Financial Report provides evidence for fairness, governance, oversight, privacy, and transparency. The report details Ford's use of AI in areas like autonomous driving (BlueCruise) and plant operations, supporting transparency. It also acknowledges ethical challenges and concerns regarding algorithmic bias and discrimination, indicating a focus on fairness, while mentioning processes for risk mitigation and supplier notifications suggests governance and oversight. Furthermore, the report touches upon data privacy in the context of AI use, supporting the privacy pillar.",
+          "title": "2024 Integrated Sustainability and Financial Report",
+          "url": "https://corporate.ford.com/content/dam/corporate/us/en-us/documents/reports/2024-integrated-sustainability-and-financial-report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "The \"2023 Human Rights Progress Report\" provides evidence for **external_accountability, fairness, governance, and transparency**. This company-owned document supports **transparency** by explicitly mentioning the use of machine learning tools for issue detection and acknowledging AI's human rights impacts. It demonstrates **governance** through its Supplier Code of Conduct and the use of ML for quality governance, while **external_accountability** is evidenced by audits and reviews of suppliers. The report also implicitly supports **fairness** by referencing UN guiding principles on AI ethics, emphasizing that AI should not replace human rights.",
+          "title": "2023 Human Rights Progress Report",
+          "url": "https://corporate.ford.com/content/dam/corporate/us/en-us/documents/reports/2023-human-rights-progress-report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "The \"2022 Human Rights Report\" provides evidence for the **governance** and **fairness** pillars of responsible AI. The report supports **governance** by referencing UN guidance on AI ethics and board-level oversight of human rights, including digital rights. It also supports **fairness** by acknowledging AI bias concerns and referencing UN AI ethics principles.",
+          "title": "2022 Human Rights Report",
+          "url": "https://corporate.ford.com/content/dam/corporate/us/en-us/documents/reports/2022-human-rights-report.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "The Ford Motor Co. 10-K SEC Filing (2024) provides evidence for **external accountability**, **governance**, and **privacy**. This annual report details Ford's structured approach to managing AI risks, including the use of proprietary scoring models for decision-making and regular model reviews, which supports **governance**. It also highlights compliance with AI laws and data protection acts, and discusses regulatory scrutiny and legislative focus on autonomous driving technologies, demonstrating considerations for **external accountability** and **privacy**.",
+          "title": "Ford Motor Co. 10-K SEC Filing (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This NHTSA engineering analysis investigation provides evidence for **governance** and **transparency**. The investigation itself, initiated by a regulatory body, demonstrates oversight and accountability for automated systems, as does the detailed analysis of crash and non-crash reports. Transparency is supported by the document's description of system capabilities and limitations, including detection and classification abilities and specific conditions under which the system may fail, offering insight into how the automated system functions and its deployment.",
+          "title": "NHTSA BlueCruise Engineering Analysis Investigation (2025)",
+          "url": "https://static.nhtsa.gov/odi/inv/2025/INOA-EA25001-10004.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This news report on the NTSB investigation into a fatal BlueCruise collision provides evidence for **external accountability** and **governance and oversight**. It highlights external agencies investigating driver-aid systems, demonstrating a commitment to external validation and regulatory compliance, and mentions the system's classification as partial automation, aligning with external accountability. Furthermore, the report describes system classification, driver responsibility, and automated monitoring/shutdown mechanisms, indicating governance and oversight practices.",
+          "title": "Ford BlueCruise Fatal Accident NTSB Investigation",
+          "url": "https://caranddriver.com/news/a60229340/ford-bluecruise-fatal-accident-federal-investigation"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This NHTSA investigation report provides evidence for **external_accountability**, **governance**, and **oversight** by highlighting system limitations in detecting stationary vehicles and the subsequent regulatory scrutiny. The report also supports **transparency** by mentioning the evaluation of human reaction to system limits and the use of an AI driver monitoring system to assess attentiveness.",
+          "title": "NHTSA BlueCruise Investigation Escalation",
+          "url": "https://cbtnews.com/nhtsa-escalates-probe-into-fords-bluecruise-following-fatal-crashes"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "Ford's privacy notice implies human oversight for automated decisions, and a sustainability report mentions processes for risk mitigation and supplier notifications. Investigation reports focus on driver supervision, examining how automated driving features are managed, their operational limitations, and system limitations in detecting stationary vehicles. These reports also describe system classification, driver responsibility, automated monitoring, and shutdown mechanisms, including the use of an AI driver monitoring system to assess attentiveness.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "The \"Ford Pro Privacy Notice\" privacy policy provides evidence for **explainability, governance, oversight, privacy, and transparency**. This document supports these pillars by outlining commitments against solely automated decisions, implying human oversight, and detailing rights related to automated decision-making. It also demonstrates transparency and privacy considerations for AI interactions, including the use of Generative AI and bot prevention tools, and implies governance through structured data use for service delivery and profiling.",
+          "title": "Ford Pro Privacy Notice",
+          "url": "https://fordpro.com/en-us/privacy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This 2024 Integrated Sustainability and Financial Report provides evidence for fairness, governance, oversight, privacy, and transparency. The report details Ford's use of AI in areas like autonomous driving (BlueCruise) and plant operations, supporting transparency. It also acknowledges ethical challenges and concerns regarding algorithmic bias and discrimination, indicating a focus on fairness, while mentioning processes for risk mitigation and supplier notifications suggests governance and oversight. Furthermore, the report touches upon data privacy in the context of AI use, supporting the privacy pillar.",
+          "title": "2024 Integrated Sustainability and Financial Report",
+          "url": "https://corporate.ford.com/content/dam/corporate/us/en-us/documents/reports/2024-integrated-sustainability-and-financial-report.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This NHTSA preliminary investigation report provides evidence for **external accountability** and **oversight**. The investigation itself, conducted by an external agency, demonstrates external accountability for the system's performance. Furthermore, the report's focus on driver supervision and the system's capabilities directly supports the oversight pillar by examining how the automated driving features are managed and their operational limitations.",
+          "title": "NHTSA BlueCruise Preliminary Investigation (2024)",
+          "url": "https://static.nhtsa.gov/odi/inv/2024/INOA-PE24012-12041.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This news report on the NTSB investigation into a fatal BlueCruise collision provides evidence for **external accountability** and **governance and oversight**. It highlights external agencies investigating driver-aid systems, demonstrating a commitment to external validation and regulatory compliance, and mentions the system's classification as partial automation, aligning with external accountability. Furthermore, the report describes system classification, driver responsibility, and automated monitoring/shutdown mechanisms, indicating governance and oversight practices.",
+          "title": "Ford BlueCruise Fatal Accident NTSB Investigation",
+          "url": "https://caranddriver.com/news/a60229340/ford-bluecruise-fatal-accident-federal-investigation"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This NHTSA investigation report provides evidence for **external_accountability**, **governance**, and **oversight** by highlighting system limitations in detecting stationary vehicles and the subsequent regulatory scrutiny. The report also supports **transparency** by mentioning the evaluation of human reaction to system limits and the use of an AI driver monitoring system to assess attentiveness.",
+          "title": "NHTSA BlueCruise Investigation Escalation",
+          "url": "https://cbtnews.com/nhtsa-escalates-probe-into-fords-bluecruise-following-fatal-crashes"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 32,
+      "findings": "Ford's AI ethics framework details privacy-by-design principles, and privacy policies describe automated profiling for preferences and inferences, along with opt-out rights for targeted advertising. These policies also describe consent for data collection and sharing, a commitment to anonymizing data, and the collection of connected vehicle data. Furthermore, privacy notices detail rights related to automated decision-making, demonstrate privacy considerations for AI interactions, and an SEC filing highlights compliance with AI laws and data protection acts.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Ford AI Ethics Principles Framework,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars. It supports fairness and transparency through descriptions of rigorous testing, validation, and auditing for bias and discrimination. The framework also supports privacy by detailing privacy-by-design principles and governance through its mention of a specific AI use case and its implied policy for deployment.",
+          "title": "Ford AI Ethics Principles Framework",
+          "url": "https://corporate.ford.com/microsites/ford-trends-2024/the-trust-algorithm.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Ford.com Privacy Policy document provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. It supports **external_accountability** by outlining Ford's lack of responsibility for third-party app data use and detailing data sharing with partners for targeted advertising. The policy demonstrates **governance** through its mention of authorized dealer operations, business purposes for data use, and compliance with laws regarding AI/ML/ADM. Evidence for **privacy** is found in descriptions of automated profiling for preferences and inferences, opt-out rights for targeted advertising, and data processing subject to privacy notices. Finally, **transparency** is supported by the stated intent to inform users about AI chatbot use and details regarding third-party data sharing for behavioral advertising.",
+          "title": "Ford.com Privacy Policy",
+          "url": "https://ford.com/help/privacy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for the governance, privacy, and transparency pillars. It supports governance by mentioning adherence to vendor data policies for API services. Evidence for privacy is found in its description of consent for data collection and sharing, as well as its commitment to anonymizing data for protection, and its mention of \"inferences\" and \"profiles\" which implies automated profiling systems. Transparency is supported by the document's explicit mention of AI use for personalization and data analysis.",
+          "title": "FordDirect Privacy Statement",
+          "url": "https://forddirect.com/privacy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "The \"Ford Pro Privacy Notice\" privacy policy provides evidence for **explainability, governance, oversight, privacy, and transparency**. This document supports these pillars by outlining commitments against solely automated decisions, implying human oversight, and detailing rights related to automated decision-making. It also demonstrates transparency and privacy considerations for AI interactions, including the use of Generative AI and bot prevention tools, and implies governance through structured data use for service delivery and profiling.",
+          "title": "Ford Pro Privacy Notice",
+          "url": "https://fordpro.com/en-us/privacy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This FordPass Privacy Policy document provides evidence for the **privacy** and **transparency** pillars. It supports the privacy pillar by detailing the collection of connected vehicle data, including driving, location, and audio/visual information, and by describing profiling for personalization and interest-based advertising. The policy also supports transparency by outlining the AI system's capabilities, such as voice recognition, and the data collected for these functions.",
+          "title": "FordPass Privacy Policy",
+          "url": "https://ford.com/support/how-tos/ford-app/manage-my-ford-app-account/fordpass-privacy-policy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This 2024 Integrated Sustainability and Financial Report provides evidence for fairness, governance, oversight, privacy, and transparency. The report details Ford's use of AI in areas like autonomous driving (BlueCruise) and plant operations, supporting transparency. It also acknowledges ethical challenges and concerns regarding algorithmic bias and discrimination, indicating a focus on fairness, while mentioning processes for risk mitigation and supplier notifications suggests governance and oversight. Furthermore, the report touches upon data privacy in the context of AI use, supporting the privacy pillar.",
+          "title": "2024 Integrated Sustainability and Financial Report",
+          "url": "https://corporate.ford.com/content/dam/corporate/us/en-us/documents/reports/2024-integrated-sustainability-and-financial-report.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "The Ford Motor Co. 10-K SEC Filing (2024) provides evidence for **external accountability**, **governance**, and **privacy**. This annual report details Ford's structured approach to managing AI risks, including the use of proprietary scoring models for decision-making and regular model reviews, which supports **governance**. It also highlights compliance with AI laws and data protection acts, and discusses regulatory scrutiny and legislative focus on autonomous driving technologies, demonstrating considerations for **external accountability** and **privacy**.",
+          "title": "Ford Motor Co. 10-K SEC Filing (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 27,
+      "findings": "Ford states its intent to inform users about AI chatbot use and describes third-party data sharing for behavioral advertising. Privacy policies and reports outline AI system capabilities, data collection for functions like voice recognition, and the use of AI for personalization and data analysis. Documentation also details Ford's deployment of machine learning for predictive maintenance, including the AI platform, model lifecycle, and algorithm use, while acknowledging AI's human rights impacts and ethical challenges.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Ford AI Ethics Principles Framework,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars. It supports fairness and transparency through descriptions of rigorous testing, validation, and auditing for bias and discrimination. The framework also supports privacy by detailing privacy-by-design principles and governance through its mention of a specific AI use case and its implied policy for deployment.",
+          "title": "Ford AI Ethics Principles Framework",
+          "url": "https://corporate.ford.com/microsites/ford-trends-2024/the-trust-algorithm.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Ford.com Privacy Policy document provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. It supports **external_accountability** by outlining Ford's lack of responsibility for third-party app data use and detailing data sharing with partners for targeted advertising. The policy demonstrates **governance** through its mention of authorized dealer operations, business purposes for data use, and compliance with laws regarding AI/ML/ADM. Evidence for **privacy** is found in descriptions of automated profiling for preferences and inferences, opt-out rights for targeted advertising, and data processing subject to privacy notices. Finally, **transparency** is supported by the stated intent to inform users about AI chatbot use and details regarding third-party data sharing for behavioral advertising.",
+          "title": "Ford.com Privacy Policy",
+          "url": "https://ford.com/help/privacy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for the governance, privacy, and transparency pillars. It supports governance by mentioning adherence to vendor data policies for API services. Evidence for privacy is found in its description of consent for data collection and sharing, as well as its commitment to anonymizing data for protection, and its mention of \"inferences\" and \"profiles\" which implies automated profiling systems. Transparency is supported by the document's explicit mention of AI use for personalization and data analysis.",
+          "title": "FordDirect Privacy Statement",
+          "url": "https://forddirect.com/privacy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "The \"Ford Pro Privacy Notice\" privacy policy provides evidence for **explainability, governance, oversight, privacy, and transparency**. This document supports these pillars by outlining commitments against solely automated decisions, implying human oversight, and detailing rights related to automated decision-making. It also demonstrates transparency and privacy considerations for AI interactions, including the use of Generative AI and bot prevention tools, and implies governance through structured data use for service delivery and profiling.",
+          "title": "Ford Pro Privacy Notice",
+          "url": "https://fordpro.com/en-us/privacy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This FordPass Privacy Policy document provides evidence for the **privacy** and **transparency** pillars. It supports the privacy pillar by detailing the collection of connected vehicle data, including driving, location, and audio/visual information, and by describing profiling for personalization and interest-based advertising. The policy also supports transparency by outlining the AI system's capabilities, such as voice recognition, and the data collected for these functions.",
+          "title": "FordPass Privacy Policy",
+          "url": "https://ford.com/support/how-tos/ford-app/manage-my-ford-app-account/fordpass-privacy-policy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This 2024 Integrated Sustainability and Financial Report provides evidence for fairness, governance, oversight, privacy, and transparency. The report details Ford's use of AI in areas like autonomous driving (BlueCruise) and plant operations, supporting transparency. It also acknowledges ethical challenges and concerns regarding algorithmic bias and discrimination, indicating a focus on fairness, while mentioning processes for risk mitigation and supplier notifications suggests governance and oversight. Furthermore, the report touches upon data privacy in the context of AI use, supporting the privacy pillar.",
+          "title": "2024 Integrated Sustainability and Financial Report",
+          "url": "https://corporate.ford.com/content/dam/corporate/us/en-us/documents/reports/2024-integrated-sustainability-and-financial-report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "The \"2023 Human Rights Progress Report\" provides evidence for **external_accountability, fairness, governance, and transparency**. This company-owned document supports **transparency** by explicitly mentioning the use of machine learning tools for issue detection and acknowledging AI's human rights impacts. It demonstrates **governance** through its Supplier Code of Conduct and the use of ML for quality governance, while **external_accountability** is evidenced by audits and reviews of suppliers. The report also implicitly supports **fairness** by referencing UN guiding principles on AI ethics, emphasizing that AI should not replace human rights.",
+          "title": "2023 Human Rights Progress Report",
+          "url": "https://corporate.ford.com/content/dam/corporate/us/en-us/documents/reports/2023-human-rights-progress-report.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This NHTSA engineering analysis investigation provides evidence for **governance** and **transparency**. The investigation itself, initiated by a regulatory body, demonstrates oversight and accountability for automated systems, as does the detailed analysis of crash and non-crash reports. Transparency is supported by the document's description of system capabilities and limitations, including detection and classification abilities and specific conditions under which the system may fail, offering insight into how the automated system functions and its deployment.",
+          "title": "NHTSA BlueCruise Engineering Analysis Investigation (2025)",
+          "url": "https://static.nhtsa.gov/odi/inv/2025/INOA-EA25001-10004.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This NHTSA preliminary investigation report provides evidence for **external accountability** and **oversight**. The investigation itself, conducted by an external agency, demonstrates external accountability for the system's performance. Furthermore, the report's focus on driver supervision and the system's capabilities directly supports the oversight pillar by examining how the automated driving features are managed and their operational limitations.",
+          "title": "NHTSA BlueCruise Preliminary Investigation (2024)",
+          "url": "https://static.nhtsa.gov/odi/inv/2024/INOA-PE24012-12041.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Kortical Ford Predictive Maintenance Case Study,\" provides evidence for the **transparency** pillar. It details Ford's deployment of machine learning for predictive maintenance, describing the AI platform, ML model lifecycle, and the specific use of algorithms to interpret diagnostic trouble code (DTC) data for failure prediction. This documentation demonstrates transparency regarding the AI systems in use and their capabilities.",
+          "title": "Kortical Ford Predictive Maintenance Case Study",
+          "url": "https://kortical.com/case-studies/ford-predicting-failures-ai-example"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This NHTSA investigation report provides evidence for **external_accountability**, **governance**, and **oversight** by highlighting system limitations in detecting stationary vehicles and the subsequent regulatory scrutiny. The report also supports **transparency** by mentioning the evaluation of human reaction to system limits and the use of an AI driver monitoring system to assess attentiveness.",
+          "title": "NHTSA BlueCruise Investigation Escalation",
+          "url": "https://cbtnews.com/nhtsa-escalates-probe-into-fords-bluecruise-following-fatal-crashes"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    }
+  },
+  "published_at": "2026-02-23T21:50:25Z",
+  "run_id": "20260218_015637_8539",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Ford Motor's public disclosures detail operational practices in transparency, such as stating intent to inform users about AI chatbot use, and in privacy, outlining privacy-by-design principles within its AI ethics framework. All 7 evaluated pillars have documented public evidence, with explainability addressed at the policy level through commitments against solely automated decisions. Further operational practices are evident in governance, where an AI ethics framework mentions a specific AI use case, and in fairness, with a sustainability report acknowledging ethical challenges regarding algorithmic bias. This assessment draws on a review of 24 publicly available sources.",
+    "pillars_operational": 6,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 89,
+    "total_sources_used": 16
+  }
+}

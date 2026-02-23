@@ -1,0 +1,395 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "PNC",
+  "company_slug": "pnc",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 11,
+      "OPERATIONAL": 25,
+      "POLICY": 48
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Policy documents outline PNC's formal AI principles.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Protecting Customer Privacy and Security,\" provides evidence for the pillars of explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining PNC's formal AI principles, detailing operational governance mechanisms such as working groups and committees, and describing proactive activities like self-assessments against industry standards and ongoing policy evaluation. The document also highlights operational practices like scrutiny, validation, monitoring, and human-in-the-loop processes.",
+          "title": "Protecting Customer Privacy and Security",
+          "url": "https://pnc.com/en/about-pnc/corporate-responsibility/responsible-business/customers/protecting-customer-privacy-and-security.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "PNC's policy documents describe proactive activities like self-assessments against industry standards and an operational program for third-party vendor security reviews, including independent assessments. A privacy policy mentions participation in self-regulatory programs and honoring customer opt-outs. Additionally, annual reports reference regulatory review of models, OCC standards, and enforcement actions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Protecting Customer Privacy and Security,\" provides evidence for the pillars of explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining PNC's formal AI principles, detailing operational governance mechanisms such as working groups and committees, and describing proactive activities like self-assessments against industry standards and ongoing policy evaluation. The document also highlights operational practices like scrutiny, validation, monitoring, and human-in-the-loop processes.",
+          "title": "Protecting Customer Privacy and Security",
+          "url": "https://pnc.com/en/about-pnc/corporate-responsibility/responsible-business/customers/protecting-customer-privacy-and-security.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "The \"IAM Cybersecurity Commitment\" policy document provides evidence for **governance** and **external accountability**. It supports governance by outlining a secure Software Development Life Cycle (SDLC) program, demonstrating oversight of system development. Furthermore, this policy document supports external accountability through its description of an operational program for third-party vendor security reviews, which includes accountability and independent assessments.",
+          "title": "IAM Cybersecurity Commitment",
+          "url": "https://pnc.com/en/corporate-and-institutional/institutional-investment-management/iam-cybersecurity.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This PNC Privacy Policy document provides evidence for **external accountability**, **governance**, and **privacy**. It supports the privacy pillar by describing how customer data is collected and used for tailored services and advertising, while also stating commitments to privacy and security and noting that individual identification is not captured for ads. The policy addresses governance by detailing data use in algorithmic systems, managing third-party data sharing for targeted ads, and outlining personalization practices. Furthermore, it demonstrates external accountability through its mention of participation in self-regulatory programs and honoring customer opt-outs.",
+          "title": "PNC Privacy Policy",
+          "url": "https://pnc.com/en/privacy-policy.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_020",
+          "source_tier": "authority",
+          "summary": "The PNC 2023 Form 10-K Annual Report provides evidence for **external_accountability, governance, privacy, and transparency**. This SEC filing supports **governance** by detailing risk management controls over AI and automation, including the development, validation, and regulatory review of models, and the proactive assessment and management of algorithmic outputs like FICO scores and LTV ratios. Evidence for **privacy** is found in the mention of data protection in the context of threat identification tools. The report also touches upon **transparency** by mentioning AI/ML use and **external_accountability** through the reference to regulatory review of models.",
+          "title": "PNC 2023 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/713676/000071367623000020/pnc-20221231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "authority",
+          "summary": "The PNC 2024 Form 10-K Annual Report provides evidence for **external accountability, governance, and oversight**. This SEC filing details PNC's model risk management framework, including policies for credit loss estimation and the use of vendor automated valuation models, demonstrating robust **governance** and **oversight** of AI and algorithmic decision-making systems. Furthermore, the report references OCC standards and enforcement actions, highlighting **external accountability** for compliance with regulatory guidelines.",
+          "title": "PNC 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/713676/000071367625000027/pnc-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "PNC's policy documents outline formal AI principles. Guidance also addresses bias mitigation in AI and focuses on preventing misrepresented information.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Protecting Customer Privacy and Security,\" provides evidence for the pillars of explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining PNC's formal AI principles, detailing operational governance mechanisms such as working groups and committees, and describing proactive activities like self-assessments against industry standards and ongoing policy evaluation. The document also highlights operational practices like scrutiny, validation, monitoring, and human-in-the-loop processes.",
+          "title": "Protecting Customer Privacy and Security",
+          "url": "https://pnc.com/en/about-pnc/corporate-responsibility/responsible-business/customers/protecting-customer-privacy-and-security.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Nonprofits and Artificial Intelligence Guidance,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports fairness by addressing bias mitigation and preventing misrepresented information, and transparency by emphasizing fact-checking. The document also supports governance through its mention of responsible use policies, strategic approaches to AI adoption, and monitoring AI tools, while privacy is supported by guidance on data sharing and protection.",
+          "title": "Nonprofits and Artificial Intelligence Guidance",
+          "url": "https://pnc.com/insights/corporate-institutional/manage-nonprofit-enterprises/nonprofits-and-ai.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 74,
+      "findings": "PNC's governance practices include the formal establishment of a Responsible AI Working Group and mandatory AI training across the organization, with management-level oversight from committees. Proxy statements detail the board governance structure, highlighting the Technology Committee's oversight of AI risks and the Corporate Responsibility Committee's role in AI governance, alongside an Enterprise Risk Management Framework and a commitment to AI strategy. Policy documents outline formal AI principles, operational governance mechanisms, proactive activities like self-assessments, and a secure Software Development Life Cycle program. Annual reports detail a cross-functional governance structure, an enterprise-level program for monitoring and assessing AI/ML systems, including validation, regulatory review of models, and proactive assessment of algorithmic outputs.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "The \"PNC 2023 Corporate Responsibility Report\" provides evidence for the **governance** pillar of responsible AI. This report details the formal establishment of a Responsible AI Working Group and outlines mandatory AI training across the organization, demonstrating operational governance and oversight. Furthermore, it highlights management-level oversight through the Responsible Business Strategies Committee and the Corporate Responsibility Committee's mandate, reinforcing the governance structures in place.",
+          "title": "PNC 2023 Corporate Responsibility Report",
+          "url": "https://carbonaccountingfinancials.com/files/institutions_downloads/PNC-Corporate-Responsibility-Report-2023.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, and **transparency** in responsible AI. It details the elevation of a Technology Subcommittee to a direct Board Technology Committee, indicating enhanced governance and oversight for AI. The document also describes the PNC Claim Predictor AI solution for healthcare, mentioning its capabilities and use case, which supports transparency, and outlines human review processes and risk evaluation for AI-related activities, further demonstrating oversight and governance.",
+          "title": "PNC 2024 Notice of Annual Meeting and Proxy Statement",
+          "url": "https://investor.pnc.com/sec-filings/all-sec-filings/content/0001193125-24-066850/0001193125-24-066850.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for the **governance** pillar of responsible AI. It details PNC's board governance structure, specifically highlighting the Technology Committee's direct oversight of AI and technology risks, and the Corporate Responsibility Committee's role in AI governance. The document also describes the Enterprise Risk Management Framework and mentions a commitment to AI strategy, indicating established mechanisms for overseeing AI development and deployment.",
+          "title": "PNC 2025 Notice of Annual Meeting and Proxy Statement",
+          "url": "https://investor.pnc.com/sec-filings/all-sec-filings/content/0001193125-25-052937/0001193125-25-052937.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Protecting Customer Privacy and Security,\" provides evidence for the pillars of explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining PNC's formal AI principles, detailing operational governance mechanisms such as working groups and committees, and describing proactive activities like self-assessments against industry standards and ongoing policy evaluation. The document also highlights operational practices like scrutiny, validation, monitoring, and human-in-the-loop processes.",
+          "title": "Protecting Customer Privacy and Security",
+          "url": "https://pnc.com/en/about-pnc/corporate-responsibility/responsible-business/customers/protecting-customer-privacy-and-security.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "The \"IAM Cybersecurity Commitment\" policy document provides evidence for **governance** and **external accountability**. It supports governance by outlining a secure Software Development Life Cycle (SDLC) program, demonstrating oversight of system development. Furthermore, this policy document supports external accountability through its description of an operational program for third-party vendor security reviews, which includes accountability and independent assessments.",
+          "title": "IAM Cybersecurity Commitment",
+          "url": "https://pnc.com/en/corporate-and-institutional/institutional-investment-management/iam-cybersecurity.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This PNC Privacy Policy document provides evidence for **external accountability**, **governance**, and **privacy**. It supports the privacy pillar by describing how customer data is collected and used for tailored services and advertising, while also stating commitments to privacy and security and noting that individual identification is not captured for ads. The policy addresses governance by detailing data use in algorithmic systems, managing third-party data sharing for targeted ads, and outlining personalization practices. Furthermore, it demonstrates external accountability through its mention of participation in self-regulatory programs and honoring customer opt-outs.",
+          "title": "PNC Privacy Policy",
+          "url": "https://pnc.com/en/privacy-policy.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Nonprofits and Artificial Intelligence Guidance,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports fairness by addressing bias mitigation and preventing misrepresented information, and transparency by emphasizing fact-checking. The document also supports governance through its mention of responsible use policies, strategic approaches to AI adoption, and monitoring AI tools, while privacy is supported by guidance on data sharing and protection.",
+          "title": "Nonprofits and Artificial Intelligence Guidance",
+          "url": "https://pnc.com/insights/corporate-institutional/manage-nonprofit-enterprises/nonprofits-and-ai.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for the **governance** pillar of responsible AI. The post mentions the use of AI for fraud detection, pattern learning, and decision support, implying that governance structures are in place to oversee these AI applications. Additionally, the discussion of AI-powered virtual assistants suggests governance over AI-driven customer support tools.",
+          "title": "AI and Automation: How Technology Is Changing Small Business Banking",
+          "url": "https://pnc.com/insights/small-business/stories-and-trends/ai-and-automation-changing-small-business-banking.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_019",
+          "source_tier": "authority",
+          "summary": "The PNC 2022 Form 10-K Annual Report provides evidence for **governance**, **privacy**, and **transparency**. The report details a cross-functional governance structure and an enterprise-level program for monitoring and assessing AI and ML-based systems, including validation and regulatory review of models. It also mentions data protection in the context of analytics tools for threat identification, implying privacy controls for AI-related data use, and indicates transparency through its discussion of AI/ML use.",
+          "title": "PNC 2022 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/713676/000071367622000019/pnc-20211231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_020",
+          "source_tier": "authority",
+          "summary": "The PNC 2023 Form 10-K Annual Report provides evidence for **external_accountability, governance, privacy, and transparency**. This SEC filing supports **governance** by detailing risk management controls over AI and automation, including the development, validation, and regulatory review of models, and the proactive assessment and management of algorithmic outputs like FICO scores and LTV ratios. Evidence for **privacy** is found in the mention of data protection in the context of threat identification tools. The report also touches upon **transparency** by mentioning AI/ML use and **external_accountability** through the reference to regulatory review of models.",
+          "title": "PNC 2023 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/713676/000071367623000020/pnc-20221231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "authority",
+          "summary": "The PNC 2024 Form 10-K Annual Report provides evidence for **external accountability, governance, and oversight**. This SEC filing details PNC's model risk management framework, including policies for credit loss estimation and the use of vendor automated valuation models, demonstrating robust **governance** and **oversight** of AI and algorithmic decision-making systems. Furthermore, the report references OCC standards and enforcement actions, highlighting **external accountability** for compliance with regulatory guidelines.",
+          "title": "PNC 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/713676/000071367625000027/pnc-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 7,
+      "findings": "PNC documents a vision for human oversight in AI solutions, highlighting a human-in-the-loop approach and dedication to quality assurance. A proxy statement outlines human review processes and risk evaluation for AI-related activities, also indicating enhanced oversight through a direct Board Technology Committee. Policy documents describe proactive activities like self-assessments against industry standards, ongoing policy evaluation, and operational practices including scrutiny, validation, and monitoring for AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post details PNC's commitment to responsible AI by highlighting their human-in-the-loop approach and dedication to quality assurance. The article supports the **oversight** pillar by describing their vision for human oversight in AI solutions and the **transparency** pillar by listing specific AI capabilities and techniques that are managed.",
+          "title": "PNC's Responsible Approach to AI Innovation | Built In",
+          "url": "https://builtin.com/articles/pncs-responsible-approach-ai-innovation"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, and **transparency** in responsible AI. It details the elevation of a Technology Subcommittee to a direct Board Technology Committee, indicating enhanced governance and oversight for AI. The document also describes the PNC Claim Predictor AI solution for healthcare, mentioning its capabilities and use case, which supports transparency, and outlines human review processes and risk evaluation for AI-related activities, further demonstrating oversight and governance.",
+          "title": "PNC 2024 Notice of Annual Meeting and Proxy Statement",
+          "url": "https://investor.pnc.com/sec-filings/all-sec-filings/content/0001193125-24-066850/0001193125-24-066850.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Protecting Customer Privacy and Security,\" provides evidence for the pillars of explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining PNC's formal AI principles, detailing operational governance mechanisms such as working groups and committees, and describing proactive activities like self-assessments against industry standards and ongoing policy evaluation. The document also highlights operational practices like scrutiny, validation, monitoring, and human-in-the-loop processes.",
+          "title": "Protecting Customer Privacy and Security",
+          "url": "https://pnc.com/en/about-pnc/corporate-responsibility/responsible-business/customers/protecting-customer-privacy-and-security.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "authority",
+          "summary": "The PNC 2024 Form 10-K Annual Report provides evidence for **external accountability, governance, and oversight**. This SEC filing details PNC's model risk management framework, including policies for credit loss estimation and the use of vendor automated valuation models, demonstrating robust **governance** and **oversight** of AI and algorithmic decision-making systems. Furthermore, the report references OCC standards and enforcement actions, highlighting **external accountability** for compliance with regulatory guidelines.",
+          "title": "PNC 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/713676/000071367625000027/pnc-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 8,
+      "findings": "PNC's policy documents outline formal AI principles, and a privacy policy describes how customer data is collected and used for tailored services and advertising, stating commitments to privacy and security while noting individual identification is not captured for ads. Guidance provides information on data sharing and protection for AI. Additionally, annual reports mention data protection in the context of analytics tools for threat identification.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Protecting Customer Privacy and Security,\" provides evidence for the pillars of explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining PNC's formal AI principles, detailing operational governance mechanisms such as working groups and committees, and describing proactive activities like self-assessments against industry standards and ongoing policy evaluation. The document also highlights operational practices like scrutiny, validation, monitoring, and human-in-the-loop processes.",
+          "title": "Protecting Customer Privacy and Security",
+          "url": "https://pnc.com/en/about-pnc/corporate-responsibility/responsible-business/customers/protecting-customer-privacy-and-security.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This PNC Privacy Policy document provides evidence for **external accountability**, **governance**, and **privacy**. It supports the privacy pillar by describing how customer data is collected and used for tailored services and advertising, while also stating commitments to privacy and security and noting that individual identification is not captured for ads. The policy addresses governance by detailing data use in algorithmic systems, managing third-party data sharing for targeted ads, and outlining personalization practices. Furthermore, it demonstrates external accountability through its mention of participation in self-regulatory programs and honoring customer opt-outs.",
+          "title": "PNC Privacy Policy",
+          "url": "https://pnc.com/en/privacy-policy.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Nonprofits and Artificial Intelligence Guidance,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports fairness by addressing bias mitigation and preventing misrepresented information, and transparency by emphasizing fact-checking. The document also supports governance through its mention of responsible use policies, strategic approaches to AI adoption, and monitoring AI tools, while privacy is supported by guidance on data sharing and protection.",
+          "title": "Nonprofits and Artificial Intelligence Guidance",
+          "url": "https://pnc.com/insights/corporate-institutional/manage-nonprofit-enterprises/nonprofits-and-ai.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_019",
+          "source_tier": "authority",
+          "summary": "The PNC 2022 Form 10-K Annual Report provides evidence for **governance**, **privacy**, and **transparency**. The report details a cross-functional governance structure and an enterprise-level program for monitoring and assessing AI and ML-based systems, including validation and regulatory review of models. It also mentions data protection in the context of analytics tools for threat identification, implying privacy controls for AI-related data use, and indicates transparency through its discussion of AI/ML use.",
+          "title": "PNC 2022 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/713676/000071367622000019/pnc-20211231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_020",
+          "source_tier": "authority",
+          "summary": "The PNC 2023 Form 10-K Annual Report provides evidence for **external_accountability, governance, privacy, and transparency**. This SEC filing supports **governance** by detailing risk management controls over AI and automation, including the development, validation, and regulatory review of models, and the proactive assessment and management of algorithmic outputs like FICO scores and LTV ratios. Evidence for **privacy** is found in the mention of data protection in the context of threat identification tools. The report also touches upon **transparency** by mentioning AI/ML use and **external_accountability** through the reference to regulatory review of models.",
+          "title": "PNC 2023 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/713676/000071367623000020/pnc-20221231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 11,
+      "findings": "PNC documents their approach to AI innovation by listing specific AI capabilities and techniques that are managed. This includes outlining formal AI principles and describing specific AI solutions like the PNC Claim Predictor, detailing its capabilities and use case. Additionally, guidance emphasizes fact-checking for AI, and annual reports discuss or mention the use of AI/ML.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post details PNC's commitment to responsible AI by highlighting their human-in-the-loop approach and dedication to quality assurance. The article supports the **oversight** pillar by describing their vision for human oversight in AI solutions and the **transparency** pillar by listing specific AI capabilities and techniques that are managed.",
+          "title": "PNC's Responsible Approach to AI Innovation | Built In",
+          "url": "https://builtin.com/articles/pncs-responsible-approach-ai-innovation"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, and **transparency** in responsible AI. It details the elevation of a Technology Subcommittee to a direct Board Technology Committee, indicating enhanced governance and oversight for AI. The document also describes the PNC Claim Predictor AI solution for healthcare, mentioning its capabilities and use case, which supports transparency, and outlines human review processes and risk evaluation for AI-related activities, further demonstrating oversight and governance.",
+          "title": "PNC 2024 Notice of Annual Meeting and Proxy Statement",
+          "url": "https://investor.pnc.com/sec-filings/all-sec-filings/content/0001193125-24-066850/0001193125-24-066850.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Protecting Customer Privacy and Security,\" provides evidence for the pillars of explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by outlining PNC's formal AI principles, detailing operational governance mechanisms such as working groups and committees, and describing proactive activities like self-assessments against industry standards and ongoing policy evaluation. The document also highlights operational practices like scrutiny, validation, monitoring, and human-in-the-loop processes.",
+          "title": "Protecting Customer Privacy and Security",
+          "url": "https://pnc.com/en/about-pnc/corporate-responsibility/responsible-business/customers/protecting-customer-privacy-and-security.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Nonprofits and Artificial Intelligence Guidance,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports fairness by addressing bias mitigation and preventing misrepresented information, and transparency by emphasizing fact-checking. The document also supports governance through its mention of responsible use policies, strategic approaches to AI adoption, and monitoring AI tools, while privacy is supported by guidance on data sharing and protection.",
+          "title": "Nonprofits and Artificial Intelligence Guidance",
+          "url": "https://pnc.com/insights/corporate-institutional/manage-nonprofit-enterprises/nonprofits-and-ai.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_019",
+          "source_tier": "authority",
+          "summary": "The PNC 2022 Form 10-K Annual Report provides evidence for **governance**, **privacy**, and **transparency**. The report details a cross-functional governance structure and an enterprise-level program for monitoring and assessing AI and ML-based systems, including validation and regulatory review of models. It also mentions data protection in the context of analytics tools for threat identification, implying privacy controls for AI-related data use, and indicates transparency through its discussion of AI/ML use.",
+          "title": "PNC 2022 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/713676/000071367622000019/pnc-20211231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_020",
+          "source_tier": "authority",
+          "summary": "The PNC 2023 Form 10-K Annual Report provides evidence for **external_accountability, governance, privacy, and transparency**. This SEC filing supports **governance** by detailing risk management controls over AI and automation, including the development, validation, and regulatory review of models, and the proactive assessment and management of algorithmic outputs like FICO scores and LTV ratios. Evidence for **privacy** is found in the mention of data protection in the context of threat identification tools. The report also touches upon **transparency** by mentioning AI/ML use and **external_accountability** through the reference to regulatory review of models.",
+          "title": "PNC 2023 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/713676/000071367623000020/pnc-20221231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T21:57:42Z",
+  "run_id": "20260203_030202_47cc",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Drawing on 21 publicly available sources, PNC's published materials address all 7 evaluated responsible AI pillars, with documented public evidence found for each. Operational practices are evident in areas such as transparency, where disclosures list specific AI capabilities and techniques, and governance, which includes the formal establishment of a Responsible AI Working Group. Further operational evidence includes a human-in-the-loop approach for AI described under oversight, and external accountability activities like self-assessments against industry standards. Policy-level evidence covers fairness, explainability, and privacy, with fairness guidance addressing bias mitigation in AI and privacy policies describing customer data collection for tailored services.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 84,
+    "total_sources_used": 12
+  }
+}

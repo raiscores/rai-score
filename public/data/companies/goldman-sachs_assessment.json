@@ -1,0 +1,298 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Goldman Sachs",
+  "company_slug": "goldman-sachs",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 7,
+      "OPERATIONAL": 8,
+      "POLICY": 38
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "SEC filings reference regulatory mandates such as DORA and the E.U. AI Act. This indicates a commitment to compliance with external standards and rules for AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **external accountability, governance, privacy, and transparency** by detailing Goldman Sachs' centralized GS AI Platform approach. The article highlights the firm's deployment of specific AI tools like GitHub Copilot, their compliance with regulations, and data safeguarding practices, all of which demonstrate robust governance and a commitment to privacy. Furthermore, the centralized management of AI activities and the tailoring of applications to specific use cases underscore the transparency of their AI initiatives.",
+          "title": "Case Study: Goldman Sachs Rolls Out Its First Generative AI Tool Firmwide",
+          "url": "https://aiexpert.network/goldman-sachs-ai"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This audit report on the Apple Card credit assessment algorithm provides evidence for **fairness** by detailing allegations of gender bias where women received lower credit limits than equally qualified men, causing financial harm. It also supports **external accountability** by mentioning that US regulators are investigating this post-deployment incident.",
+          "title": "Incident 92 - Apple Card Credit Assessment Algorithm Gender Bias",
+          "url": "https://incidentdatabase.ai/cite/92"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC filing, Goldman Sachs' Form 10-K 2024, provides evidence for **governance** and **external accountability**. The document acknowledges AI risks, including potential hallucinations and biases, and details the establishment of an AI risk committee with oversight and reporting functions, demonstrating operational governance. Furthermore, it references regulatory mandates like DORA and the E.U. AI Act, indicating a commitment to compliance with external standards and rules for AI systems, thus supporting external accountability.",
+          "title": "Form 10-K 2024 - Artificial Intelligence Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 7,
+      "findings": "Policy documents detail steps to mitigate bias in AI decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document supports the **fairness**, **governance**, **privacy**, and **transparency** pillars. It demonstrates transparency by disclosing the use of AI systems and supports governance by outlining personnel training requirements for recognizing and mitigating bias. Furthermore, the policy addresses privacy concerns by mentioning the processing of personal information with AI and touches on fairness by detailing steps to mitigate bias in AI decisions.",
+          "title": "US Privacy Policy - Section 12 Use of Artificial Intelligence",
+          "url": "https://goldmansachs.com/privacy-and-cookies/us-privacy-policy"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This audit report on the Apple Card credit assessment algorithm provides evidence for **fairness** by detailing allegations of gender bias where women received lower credit limits than equally qualified men, causing financial harm. It also supports **external accountability** by mentioning that US regulators are investigating this post-deployment incident.",
+          "title": "Incident 92 - Apple Card Credit Assessment Algorithm Gender Bias",
+          "url": "https://incidentdatabase.ai/cite/92"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC filing, Goldman Sachs' Form 10-K 2024, provides evidence for **governance** and **external accountability**. The document acknowledges AI risks, including potential hallucinations and biases, and details the establishment of an AI risk committee with oversight and reporting functions, demonstrating operational governance. Furthermore, it references regulatory mandates like DORA and the E.U. AI Act, indicating a commitment to compliance with external standards and rules for AI systems, thus supporting external accountability.",
+          "title": "Form 10-K 2024 - Artificial Intelligence Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 45,
+      "findings": "Goldman Sachs has established a Firmwide Artificial Intelligence Risk and Controls Committee, which reports to the Firmwide Technology Risk Committee. Policy documents detail the company's AI policy and standards, including a federated governance model and personnel training requirements for recognizing and mitigating bias. SEC filings and proxy statements further outline the governance framework for technology-related matters, detailing the structure of risk committees and approval processes for various services and transactions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **external accountability, governance, privacy, and transparency** by detailing Goldman Sachs' centralized GS AI Platform approach. The article highlights the firm's deployment of specific AI tools like GitHub Copilot, their compliance with regulations, and data safeguarding practices, all of which demonstrate robust governance and a commitment to privacy. Furthermore, the centralized management of AI activities and the tailoring of applications to specific use cases underscore the transparency of their AI initiatives.",
+          "title": "Case Study: Goldman Sachs Rolls Out Its First Generative AI Tool Firmwide",
+          "url": "https://aiexpert.network/goldman-sachs-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This analysis of Goldman Sachs' 2024 10-K cybersecurity governance disclosure provides evidence for the **governance** pillar. It highlights the establishment of a Firmwide Artificial Intelligence Risk and Controls Committee, which reports to the Firmwide Technology Risk Committee, demonstrating a structured oversight mechanism for AI risks across the firm.",
+          "title": "Firmwide Artificial Intelligence Risk and Controls Committee - AI Governance Oversight",
+          "url": "https://board-cybersecurity.com/annual-reports/tracker/20250227-goldman-sachs-group-inc-cybersecurity-10k"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This CFPB consent order against Apple Inc. provides evidence for the **governance** pillar of responsible AI. The document mandates the creation and implementation of a compliance plan, assigns ultimate responsibility for compliance to the Board and executive officers, and requires the establishment and maintenance of policies, procedures, and testing for regulatory adherence. These requirements demonstrate a focus on establishing clear accountability and oversight mechanisms for AI-driven product failures.",
+          "title": "CFPB Consent Order Against Apple Inc. - Apple Card Service Failures",
+          "url": "https://files.consumerfinance.gov/f/documents/cfpb_apple-inc-consent-order_2024-10.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Client Security Statement - Artificial Intelligence Security Section,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. It details Goldman Sachs' documented AI policy and standards, including a federated governance model, firmwide and divisional oversight for risk mitigation, and restricted access to external LLMs, which supports privacy controls. Furthermore, the policy outlines enterprise-wide training on responsible AI usage and associated risks, demonstrating a commitment to transparency and governance through education and documented standards for AI use case development.",
+          "title": "Client Security Statement - Artificial Intelligence Security Section",
+          "url": "https://goldmansachs.com/disclosures/client-security-statement.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document supports the **fairness**, **governance**, **privacy**, and **transparency** pillars. It demonstrates transparency by disclosing the use of AI systems and supports governance by outlining personnel training requirements for recognizing and mitigating bias. Furthermore, the policy addresses privacy concerns by mentioning the processing of personal information with AI and touches on fairness by detailing steps to mitigate bias in AI decisions.",
+          "title": "US Privacy Policy - Section 12 Use of Artificial Intelligence",
+          "url": "https://goldmansachs.com/privacy-and-cookies/us-privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC filing, Goldman Sachs' Form 10-K 2024, provides evidence for **governance** and **external accountability**. The document acknowledges AI risks, including potential hallucinations and biases, and details the establishment of an AI risk committee with oversight and reporting functions, demonstrating operational governance. Furthermore, it references regulatory mandates like DORA and the E.U. AI Act, indicating a commitment to compliance with external standards and rules for AI systems, thus supporting external accountability.",
+          "title": "Form 10-K 2024 - Artificial Intelligence Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the **governance** and **oversight** pillars of responsible AI. It details the structure of the Risk Committee and Technology Risk Subcommittee, demonstrating board-level engagement and established mechanisms for overseeing technology and AI risk. The document also outlines the governance framework for technology-related matters, indicating a structured approach to managing these areas under board direction.",
+          "title": "DEF 14A - 2025 Proxy Statement Full Filing",
+          "url": "https://sec.gov/Archives/edgar/data/886982/000119312525054559/d863231ddef14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "This proxy statement establishes the Technology Risk Subcommittee (TRiS), demonstrating strong **governance** by detailing its formation, oversight responsibilities for technology risks including AI, and its composition. The document further supports **governance** by outlining approval processes for third-party services, transaction approvals, director affiliations, and administrative authority for compensation plans, all of which indicate established decision-making and accountability structures.",
+          "title": "2025 Proxy Statement - Technology Risk Subcommittee Charter and Governance",
+          "url": "https://sec.gov/Archives/edgar/data/886982/000119312525054559/d863231ddef14a1.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "Policy documents describe firmwide and divisional oversight for risk mitigation. Proxy statements detail the structure of the Risk Committee and Technology Risk Subcommittee, demonstrating board-level engagement and established mechanisms for overseeing technology and AI risk.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Client Security Statement - Artificial Intelligence Security Section,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. It details Goldman Sachs' documented AI policy and standards, including a federated governance model, firmwide and divisional oversight for risk mitigation, and restricted access to external LLMs, which supports privacy controls. Furthermore, the policy outlines enterprise-wide training on responsible AI usage and associated risks, demonstrating a commitment to transparency and governance through education and documented standards for AI use case development.",
+          "title": "Client Security Statement - Artificial Intelligence Security Section",
+          "url": "https://goldmansachs.com/disclosures/client-security-statement.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the **governance** and **oversight** pillars of responsible AI. It details the structure of the Risk Committee and Technology Risk Subcommittee, demonstrating board-level engagement and established mechanisms for overseeing technology and AI risk. The document also outlines the governance framework for technology-related matters, indicating a structured approach to managing these areas under board direction.",
+          "title": "DEF 14A - 2025 Proxy Statement Full Filing",
+          "url": "https://sec.gov/Archives/edgar/data/886982/000119312525054559/d863231ddef14a.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "Policy documents describe restricted access to external LLMs. Additionally, policy documents mention the processing of personal information with AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **external accountability, governance, privacy, and transparency** by detailing Goldman Sachs' centralized GS AI Platform approach. The article highlights the firm's deployment of specific AI tools like GitHub Copilot, their compliance with regulations, and data safeguarding practices, all of which demonstrate robust governance and a commitment to privacy. Furthermore, the centralized management of AI activities and the tailoring of applications to specific use cases underscore the transparency of their AI initiatives.",
+          "title": "Case Study: Goldman Sachs Rolls Out Its First Generative AI Tool Firmwide",
+          "url": "https://aiexpert.network/goldman-sachs-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Client Security Statement - Artificial Intelligence Security Section,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. It details Goldman Sachs' documented AI policy and standards, including a federated governance model, firmwide and divisional oversight for risk mitigation, and restricted access to external LLMs, which supports privacy controls. Furthermore, the policy outlines enterprise-wide training on responsible AI usage and associated risks, demonstrating a commitment to transparency and governance through education and documented standards for AI use case development.",
+          "title": "Client Security Statement - Artificial Intelligence Security Section",
+          "url": "https://goldmansachs.com/disclosures/client-security-statement.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document supports the **fairness**, **governance**, **privacy**, and **transparency** pillars. It demonstrates transparency by disclosing the use of AI systems and supports governance by outlining personnel training requirements for recognizing and mitigating bias. Furthermore, the policy addresses privacy concerns by mentioning the processing of personal information with AI and touches on fairness by detailing steps to mitigate bias in AI decisions.",
+          "title": "US Privacy Policy - Section 12 Use of Artificial Intelligence",
+          "url": "https://goldmansachs.com/privacy-and-cookies/us-privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 7,
+      "findings": "Goldman Sachs' centralized management of AI activities and tailoring of applications to specific use cases underscore the transparency of their AI initiatives. Policy documents outline enterprise-wide training on responsible AI usage and associated risks. Additionally, policy documents disclose the use of AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **external accountability, governance, privacy, and transparency** by detailing Goldman Sachs' centralized GS AI Platform approach. The article highlights the firm's deployment of specific AI tools like GitHub Copilot, their compliance with regulations, and data safeguarding practices, all of which demonstrate robust governance and a commitment to privacy. Furthermore, the centralized management of AI activities and the tailoring of applications to specific use cases underscore the transparency of their AI initiatives.",
+          "title": "Case Study: Goldman Sachs Rolls Out Its First Generative AI Tool Firmwide",
+          "url": "https://aiexpert.network/goldman-sachs-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Client Security Statement - Artificial Intelligence Security Section,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. It details Goldman Sachs' documented AI policy and standards, including a federated governance model, firmwide and divisional oversight for risk mitigation, and restricted access to external LLMs, which supports privacy controls. Furthermore, the policy outlines enterprise-wide training on responsible AI usage and associated risks, demonstrating a commitment to transparency and governance through education and documented standards for AI use case development.",
+          "title": "Client Security Statement - Artificial Intelligence Security Section",
+          "url": "https://goldmansachs.com/disclosures/client-security-statement.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document supports the **fairness**, **governance**, **privacy**, and **transparency** pillars. It demonstrates transparency by disclosing the use of AI systems and supports governance by outlining personnel training requirements for recognizing and mitigating bias. Furthermore, the policy addresses privacy concerns by mentioning the processing of personal information with AI and touches on fairness by detailing steps to mitigate bias in AI decisions.",
+          "title": "US Privacy Policy - Section 12 Use of Artificial Intelligence",
+          "url": "https://goldmansachs.com/privacy-and-cookies/us-privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:51:28Z",
+  "run_id": "20260202_222140_d29d",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Goldman Sachs' public disclosures present evidence of both operational practices and policy-level commitments across its responsible AI framework. For instance, operational practices for oversight include proxy statements detailing the structure of the Risk Committee and Technology Risk Subcommittee, while governance practices highlight the establishment of a Firmwide Artificial Intelligence Risk and Controls Committee. The firm's materials address 6 of 7 evaluated pillars, with policy documents describing restricted access to external LLMs for privacy and outlining enterprise-wide training on responsible AI usage for transparency. Fairness and external accountability are also addressed at the policy level, with disclosures detailing steps to mitigate bias in AI decisions and referencing regulatory mandates like DORA and the E.U. AI Act. No qualifying public evidence was found for explainability. This assessment is based on a review of 17 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 53,
+    "total_sources_used": 9
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Caterpillar",
+  "company_slug": "caterpillar",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 40,
+      "OPERATIONAL": 5,
+      "POLICY": 5
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Caterpillar's privacy policy mentions automated decision-making and the right to object to it. This implies a need for notice and understanding regarding such decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This Caterpillar Global Data Privacy Statement - EEA Appendix, a third-party privacy policy, provides evidence for the **privacy**, **transparency**, **explainability**, and **oversight** pillars. It supports the privacy pillar by detailing the lawful bases for collecting and processing personal information, including sensitive data, and outlines data retention and security measures. The policy also demonstrates transparency and explainability by mentioning automated decision-making and the right to object to it, implying a need for notice and understanding. Furthermore, the explicit mention of the right to object to automated decision-making supports the oversight pillar by indicating a mechanism for human review or appeal.",
+          "title": "Caterpillar Global Data Privacy Statement - EEA Appendix",
+          "url": "https://caterpillargrimbergen.be/assets/caterpillargrimbergen-be_legal_appendix.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "A technical paper references the aspiration of \"ethical decision-making\" in relation to fairness.",
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It supports governance through mentions of a human-centric adoption philosophy, strategic external partnerships, and the use of vendor expertise for AI implementation. Oversight is demonstrated by the description of human experts reviewing AI-generated recommendations, while transparency is evidenced by the identification of specific AI systems and their capabilities, such as AI/ML algorithms used for financial forecasting and condition monitoring. The paper also touches on privacy through a general mention of a \"Privacy Policy\" and fairness through the aspiration of \"ethical decision-making.\"",
+          "title": "Caterpillar AI Strategy: Analysis of Industrial AI Dominance",
+          "url": "https://klover.ai/caterpillar-ai-strategy-analysis-of-dominance-in-construction-mining-energy-rail"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 10,
+      "findings": "Caterpillar's governance practices include the establishment of an Intelligent Automation Center of Excellence and a GenAI community of practice to foster employee participation in AI use cases. The company details the strategic adoption of AI technologies, including partnerships for hardware and software, and references a human-centric adoption philosophy. Additionally, AI is used to evaluate supplier performance, informing strategic decisions, and the company mentions strategic external partnerships and the use of vendor expertise for AI implementation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for **governance**, **oversight**, and **transparency** in responsible AI. It supports governance by describing the establishment of an Intelligent Automation Center of Excellence and a GenAI community of practice, fostering employee participation in AI use cases. Oversight is evidenced through the mention of a human-in-the-loop architecture where advisors review and approve AI recommendations. Transparency is supported by detailing AI use cases and the integration of AI into product development, allowing employees to stay informed.",
+          "title": "The Future of Artificial Intelligence (AI) at Caterpillar",
+          "url": "https://caterpillar.com/en/news/caterpillarNews/2024/future-of-ai-at-caterpillar.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing the strategic adoption of AI technologies and a partnership with NVIDIA for hardware and software. Transparency is evidenced by the description of the Cat AI Assistant's multimodal capabilities, its operational environment (on-machine, edge), and its purpose in transforming customer interactions. The press release also touches on privacy by mentioning real-time, private interactions.",
+          "title": "Cat AI Assistant: Transforming Customer Interactions",
+          "url": "https://caterpillar.com/en/news/caterpillarNews/2026/ai-transforming-way-we-help-customers.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **governance**, **oversight**, and **transparency**. It supports transparency by detailing Caterpillar's use of AI in various applications, such as failure prediction, autonomous systems, and predictive maintenance, explaining the capabilities and functions of these AI systems. Evidence for oversight is found in descriptions of AI systems alerting operators to defects, implying human review. Governance is touched upon through the use of AI to evaluate supplier performance, which informs strategic decisions.",
+          "title": "5 Ways Caterpillar Is Using AI - Comprehensive Case Study Analysis",
+          "url": "https://digitaldefynd.com/IQ/ways-caterpillar-using-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It supports governance through mentions of a human-centric adoption philosophy, strategic external partnerships, and the use of vendor expertise for AI implementation. Oversight is demonstrated by the description of human experts reviewing AI-generated recommendations, while transparency is evidenced by the identification of specific AI systems and their capabilities, such as AI/ML algorithms used for financial forecasting and condition monitoring. The paper also touches on privacy through a general mention of a \"Privacy Policy\" and fairness through the aspiration of \"ethical decision-making.\"",
+          "title": "Caterpillar AI Strategy: Analysis of Industrial AI Dominance",
+          "url": "https://klover.ai/caterpillar-ai-strategy-analysis-of-dominance-in-construction-mining-energy-rail"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 5,
+      "findings": "Caterpillar describes oversight mechanisms including a human-in-the-loop architecture where advisors and human experts review and approve AI-generated recommendations. Technical papers also describe AI systems alerting operators to defects. Furthermore, the company's privacy policy mentions the right to object to automated decision-making.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for **governance**, **oversight**, and **transparency** in responsible AI. It supports governance by describing the establishment of an Intelligent Automation Center of Excellence and a GenAI community of practice, fostering employee participation in AI use cases. Oversight is evidenced through the mention of a human-in-the-loop architecture where advisors review and approve AI recommendations. Transparency is supported by detailing AI use cases and the integration of AI into product development, allowing employees to stay informed.",
+          "title": "The Future of Artificial Intelligence (AI) at Caterpillar",
+          "url": "https://caterpillar.com/en/news/caterpillarNews/2024/future-of-ai-at-caterpillar.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This Caterpillar Global Data Privacy Statement - EEA Appendix, a third-party privacy policy, provides evidence for the **privacy**, **transparency**, **explainability**, and **oversight** pillars. It supports the privacy pillar by detailing the lawful bases for collecting and processing personal information, including sensitive data, and outlines data retention and security measures. The policy also demonstrates transparency and explainability by mentioning automated decision-making and the right to object to it, implying a need for notice and understanding. Furthermore, the explicit mention of the right to object to automated decision-making supports the oversight pillar by indicating a mechanism for human review or appeal.",
+          "title": "Caterpillar Global Data Privacy Statement - EEA Appendix",
+          "url": "https://caterpillargrimbergen.be/assets/caterpillargrimbergen-be_legal_appendix.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **governance**, **oversight**, and **transparency**. It supports transparency by detailing Caterpillar's use of AI in various applications, such as failure prediction, autonomous systems, and predictive maintenance, explaining the capabilities and functions of these AI systems. Evidence for oversight is found in descriptions of AI systems alerting operators to defects, implying human review. Governance is touched upon through the use of AI to evaluate supplier performance, which informs strategic decisions.",
+          "title": "5 Ways Caterpillar Is Using AI - Comprehensive Case Study Analysis",
+          "url": "https://digitaldefynd.com/IQ/ways-caterpillar-using-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It supports governance through mentions of a human-centric adoption philosophy, strategic external partnerships, and the use of vendor expertise for AI implementation. Oversight is demonstrated by the description of human experts reviewing AI-generated recommendations, while transparency is evidenced by the identification of specific AI systems and their capabilities, such as AI/ML algorithms used for financial forecasting and condition monitoring. The paper also touches on privacy through a general mention of a \"Privacy Policy\" and fairness through the aspiration of \"ethical decision-making.\"",
+          "title": "Caterpillar AI Strategy: Analysis of Industrial AI Dominance",
+          "url": "https://klover.ai/caterpillar-ai-strategy-analysis-of-dominance-in-construction-mining-energy-rail"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "Caterpillar addresses privacy by mentioning real-time, private interactions for its AI Assistant and its use of \"trusted data.\" The company's privacy policy details lawful bases for collecting and processing personal information, including sensitive data, and outlines data retention and security measures. A technical paper also references a \"Privacy Policy.\"",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing the strategic adoption of AI technologies and a partnership with NVIDIA for hardware and software. Transparency is evidenced by the description of the Cat AI Assistant's multimodal capabilities, its operational environment (on-machine, edge), and its purpose in transforming customer interactions. The press release also touches on privacy by mentioning real-time, private interactions.",
+          "title": "Cat AI Assistant: Transforming Customer Interactions",
+          "url": "https://caterpillar.com/en/news/caterpillarNews/2026/ai-transforming-way-we-help-customers.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** and **privacy** pillars of responsible AI. It supports transparency by announcing the development of an AI Assistant that unifies digital applications and by detailing collaborations for AI-powered features and agents, indicating a forward-looking approach to AI capabilities. The mention of the AI Assistant's use of \"trusted data\" suggests a focus on data protection, thereby supporting the privacy pillar.",
+          "title": "Caterpillar Unveils AI-Powered Future and Invests in Workforce",
+          "url": "https://caterpillar.com/en/news/corporate-press-releases/h/ai-powered-future.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This Caterpillar Global Data Privacy Statement - EEA Appendix, a third-party privacy policy, provides evidence for the **privacy**, **transparency**, **explainability**, and **oversight** pillars. It supports the privacy pillar by detailing the lawful bases for collecting and processing personal information, including sensitive data, and outlines data retention and security measures. The policy also demonstrates transparency and explainability by mentioning automated decision-making and the right to object to it, implying a need for notice and understanding. Furthermore, the explicit mention of the right to object to automated decision-making supports the oversight pillar by indicating a mechanism for human review or appeal.",
+          "title": "Caterpillar Global Data Privacy Statement - EEA Appendix",
+          "url": "https://caterpillargrimbergen.be/assets/caterpillargrimbergen-be_legal_appendix.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It supports governance through mentions of a human-centric adoption philosophy, strategic external partnerships, and the use of vendor expertise for AI implementation. Oversight is demonstrated by the description of human experts reviewing AI-generated recommendations, while transparency is evidenced by the identification of specific AI systems and their capabilities, such as AI/ML algorithms used for financial forecasting and condition monitoring. The paper also touches on privacy through a general mention of a \"Privacy Policy\" and fairness through the aspiration of \"ethical decision-making.\"",
+          "title": "Caterpillar AI Strategy: Analysis of Industrial AI Dominance",
+          "url": "https://klover.ai/caterpillar-ai-strategy-analysis-of-dominance-in-construction-mining-energy-rail"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 44,
+      "findings": "Caterpillar provides transparency by detailing AI use cases, the integration of AI into product development, and collaborations for AI-powered features and agents. Published materials describe the capabilities, operational environments, and functions of AI systems, including the Cat AI Assistant, autonomous construction solutions, and applications for predictive maintenance and financial forecasting. The company also mentions automated decision-making and the right to object to it in its privacy policy.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for **governance**, **oversight**, and **transparency** in responsible AI. It supports governance by describing the establishment of an Intelligent Automation Center of Excellence and a GenAI community of practice, fostering employee participation in AI use cases. Oversight is evidenced through the mention of a human-in-the-loop architecture where advisors review and approve AI recommendations. Transparency is supported by detailing AI use cases and the integration of AI into product development, allowing employees to stay informed.",
+          "title": "The Future of Artificial Intelligence (AI) at Caterpillar",
+          "url": "https://caterpillar.com/en/news/caterpillarNews/2024/future-of-ai-at-caterpillar.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing the strategic adoption of AI technologies and a partnership with NVIDIA for hardware and software. Transparency is evidenced by the description of the Cat AI Assistant's multimodal capabilities, its operational environment (on-machine, edge), and its purpose in transforming customer interactions. The press release also touches on privacy by mentioning real-time, private interactions.",
+          "title": "Cat AI Assistant: Transforming Customer Interactions",
+          "url": "https://caterpillar.com/en/news/caterpillarNews/2026/ai-transforming-way-we-help-customers.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** and **privacy** pillars of responsible AI. It supports transparency by announcing the development of an AI Assistant that unifies digital applications and by detailing collaborations for AI-powered features and agents, indicating a forward-looking approach to AI capabilities. The mention of the AI Assistant's use of \"trusted data\" suggests a focus on data protection, thereby supporting the privacy pillar.",
+          "title": "Caterpillar Unveils AI-Powered Future and Invests in Workforce",
+          "url": "https://caterpillar.com/en/news/corporate-press-releases/h/ai-powered-future.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This Caterpillar Global Data Privacy Statement - EEA Appendix, a third-party privacy policy, provides evidence for the **privacy**, **transparency**, **explainability**, and **oversight** pillars. It supports the privacy pillar by detailing the lawful bases for collecting and processing personal information, including sensitive data, and outlines data retention and security measures. The policy also demonstrates transparency and explainability by mentioning automated decision-making and the right to object to it, implying a need for notice and understanding. Furthermore, the explicit mention of the right to object to automated decision-making supports the oversight pillar by indicating a mechanism for human review or appeal.",
+          "title": "Caterpillar Global Data Privacy Statement - EEA Appendix",
+          "url": "https://caterpillargrimbergen.be/assets/caterpillargrimbergen-be_legal_appendix.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for the **transparency** pillar of responsible AI. It describes Caterpillar's data-driven AI approach, specifically highlighting how their Parts.Cat.Com e-commerce application uses machine learning trained on historical data to offer predictive parts recommendations. This demonstrates transparency by clearly outlining the AI's capabilities and its direct application for customer value.",
+          "title": "Three Ways Smart Technology Makes Work Easier",
+          "url": "https://cat.com/en_US/blog/ai-smart-tech.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **governance**, **oversight**, and **transparency**. It supports transparency by detailing Caterpillar's use of AI in various applications, such as failure prediction, autonomous systems, and predictive maintenance, explaining the capabilities and functions of these AI systems. Evidence for oversight is found in descriptions of AI systems alerting operators to defects, implying human review. Governance is touched upon through the use of AI to evaluate supplier performance, which informs strategic decisions.",
+          "title": "5 Ways Caterpillar Is Using AI - Comprehensive Case Study Analysis",
+          "url": "https://digitaldefynd.com/IQ/ways-caterpillar-using-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release from Caterpillar provides evidence for the **transparency** pillar of responsible AI. It supports this by describing the components and capabilities of their next-generation autonomous construction solutions, explicitly mentioning the use of AI/ML systems and their functions. The document details how these systems utilize sensor-based perception to process real-time environmental data for safe navigation and operations.",
+          "title": "Caterpillar Unveils the Next Era of Autonomy in Construction",
+          "url": "https://caterpillar.com/en/news/corporate-press-releases/h/next-era-autonomy.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It supports governance through mentions of a human-centric adoption philosophy, strategic external partnerships, and the use of vendor expertise for AI implementation. Oversight is demonstrated by the description of human experts reviewing AI-generated recommendations, while transparency is evidenced by the identification of specific AI systems and their capabilities, such as AI/ML algorithms used for financial forecasting and condition monitoring. The paper also touches on privacy through a general mention of a \"Privacy Policy\" and fairness through the aspiration of \"ethical decision-making.\"",
+          "title": "Caterpillar AI Strategy: Analysis of Industrial AI Dominance",
+          "url": "https://klover.ai/caterpillar-ai-strategy-analysis-of-dominance-in-construction-mining-energy-rail"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:46:10Z",
+  "run_id": "20260218_042819_c616",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Caterpillar's documented practices for responsible AI span both operational and policy levels, addressing 5 of 7 evaluated pillars. Operational practices include a human-in-the-loop architecture for AI recommendations, details on AI use cases in product development, and the establishment of an Intelligent Automation Center of Excellence. At the policy level, explainability is addressed through the right to object to automated decision-making, while privacy disclosures mention real-time, private interactions for the Cat AI Assistant. No qualifying public evidence was found for fairness or external accountability, based on a review of 9 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 50,
+    "total_sources_used": 8
+  }
+}

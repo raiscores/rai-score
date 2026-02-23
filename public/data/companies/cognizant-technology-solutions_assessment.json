@@ -1,0 +1,548 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Cognizant Technology Solutions",
+  "company_slug": "cognizant-technology-solutions",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 14,
+      "OPERATIONAL": 17,
+      "POLICY": 68
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 3,
+      "findings": "Cognizant's Decision AI service describes offering explainable decisions and explainability methods like rule sets and uncertainty quantification. The service explicitly references \"explainable\" as a core technique. Technical papers also describe explainable AI components for clarity.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This help page for Cognizant's Decision AI service provides evidence for **explainability**, **governance**, and **transparency**. It describes the service as offering explainable and trustworthy decisions, integrating explainability methods like rule sets and uncertainty quantification. The page also details the AI system's architecture and function, implying transparency through interactive exploration tools, and explicitly mentions \"transparent\" and \"explainable\" as core techniques.",
+          "title": "Decision AI Service - Cognizant",
+          "url": "https://cognizant.com/us/en/services/ai/decision-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Cognizant provides evidence for **governance**, **explainability**, **oversight**, **privacy**, and **transparency**. It describes policies and lifecycle management for AI, including guardrails for deployment, and mandates explainable AI components for clarity. The paper also details human oversight of AI agents, supervision of exceptions, and transparency through audit trails, alongside privacy-anchored governance and data control within AI/automation contexts.",
+          "title": "Fortify Cyber Defense with AI-Led Security Operations - Cognizant",
+          "url": "https://cognizant.com/en_us/about/documents/fortify-cyber-defense-with-ai-led-security-operations.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 12,
+      "findings": "Cognizant references ISO/IEC 42001:2023 accreditation and certification for external accountability. Blog posts describe mechanisms for AI self-auditing, quality control, and bias detection. Technical papers also describe using AI for regulatory compliance checks and implementing safeguards for IP infringement, while blog posts describe audit-ready governance and human-led oversight, ensuring compliance and clear lines of responsibility.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Principles - Cognizant,\" provides evidence for **external accountability, fairness, governance, and transparency**. It demonstrates a commitment to ethical AI through its Cognizant Trust™ framework and alignment with international standards like the OECD AI Principles, UNESCO Recommendation on Ethics of AI, EU AI Act, NIST AI RMF, and ISO/IEC 42001:2023. The document details a structured governance model and continuous oversight mechanisms for embedding AI principles throughout the AI lifecycle, including risk management and operationalization.",
+          "title": "Responsible AI Principles - Cognizant",
+          "url": "https://cognizant.com/us/en/about-cognizant/responsible-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This press release announces Cognizant's accreditation for the ISO/IEC 42001:2023 AI management system standard. The certification supports **governance** by detailing a framework for AI management, including risk and opportunity management, and **external accountability** through the accreditation itself. Furthermore, the press release indicates support for **fairness** and **transparency** by listing these as key aspects covered by the certification.",
+          "title": "ISO/IEC 42001:2023 Accredited Certification - Cognizant",
+          "url": "https://investors.cognizant.com/news-and-events/news/news-details/2024/Cognizant-First-to-Achieve-ISOIEC-420012023-Accredited-Certification-for-Artificial-Intelligence-Management-Systems"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Cognizant blog post provides evidence for external_accountability, fairness, governance, oversight, and transparency. The blog post details mechanisms for AI self-auditing, quality control, and bias detection, supporting fairness and external accountability. It also highlights a multilayered transparency approach with AI models cross-checking outputs for inconsistencies and factual errors, demonstrating a commitment to transparency and oversight, and mandates frameworks for examining AI implications and reversing damaging actions, aligning with governance.",
+          "title": "Building Consumer Trust in AI - Cognizant Blog",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/building-consumer-trust-in-ai-wf2729750"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Generative AI Services - Cognizant,\" provides evidence for **governance** and **external accountability**. The document supports governance by describing a structured approach to managing AI across its lifecycle, emphasizing responsible AI practices and trustworthy deployment, and referencing the ISO/IEC 42001:2023 standard. This mention of an AI management system standard and certification also supports external accountability.",
+          "title": "Generative AI Services - Cognizant",
+          "url": "https://cognizant.com/us/en/services/ai/generative-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Cognizant provides evidence for **external accountability, governance, oversight, and privacy**. It supports these pillars by discussing operational oversight and governance for AI compliance through central and country unit checks, and by highlighting the role of a CTO for AI in leading development. The paper also emphasizes designing data privacy into generative AI systems, establishing privacy-conscious design principles, and using private endpoints for LLMs, all of which demonstrate a focus on governance and privacy. Furthermore, it touches upon using AI for regulatory compliance checks and implementing safeguards for IP infringement, contributing to external accountability and governance.",
+          "title": "How Financial Firms Can Maximize Value, Minimize Risk with Generative AI - Cognizant",
+          "url": "https://cognizant.com/en_us/industries/documents/how-financial-firms-can-maximize-value-minimize-risk-with-gen-ai.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post details Cognizant's approach to operationalizing trust in agentic AI, providing evidence for **governance**, **privacy**, **fairness**, and **external accountability**. It describes the TRUST Platform's capabilities for bias monitoring and consent-aware pipelines, supporting **fairness** and **privacy** respectively. Furthermore, the post highlights audit-ready governance aligned with standards and human-led oversight, which directly addresses **governance** and **external accountability** by ensuring compliance and clear lines of responsibility.",
+          "title": "Operationalizing Trust in Agentic AI: How Cognizant and BigID Collaborate",
+          "url": "https://bigid.com/blog/how-cognizant-and-bigid-operationalize-agentic-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 6,
+      "findings": "Cognizant's technical papers describe continuous assessment, intervention, escalation, and human oversight protocols for evaluating AI system behavior in production. Blog posts describe the equitable implementation of AI and mechanisms for AI self-auditing, quality control, and bias detection. Additionally, the TRUST Platform's capabilities for bias monitoring are described.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Principles - Cognizant,\" provides evidence for **external accountability, fairness, governance, and transparency**. It demonstrates a commitment to ethical AI through its Cognizant Trust™ framework and alignment with international standards like the OECD AI Principles, UNESCO Recommendation on Ethics of AI, EU AI Act, NIST AI RMF, and ISO/IEC 42001:2023. The document details a structured governance model and continuous oversight mechanisms for embedding AI principles throughout the AI lifecycle, including risk management and operationalization.",
+          "title": "Responsible AI Principles - Cognizant",
+          "url": "https://cognizant.com/us/en/about-cognizant/responsible-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Real-Time AI Governance Blueprint - Cognizant,\" provides evidence for **governance**, **oversight**, and **fairness**. The blueprint details a policy for continuous AI governance by embedding compliance into the AI lifecycle and outlines operational execution through technical instrumentation like automated red-teaming and anomaly detection. It further supports oversight and fairness by describing continuous assessment, intervention, escalation, and human oversight protocols for evaluating AI system behavior in production.",
+          "title": "Real-Time AI Governance Blueprint - Cognizant",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/real-time-governance-framework-for-ai-systems"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This press release announces Cognizant's accreditation for the ISO/IEC 42001:2023 AI management system standard. The certification supports **governance** by detailing a framework for AI management, including risk and opportunity management, and **external accountability** through the accreditation itself. Furthermore, the press release indicates support for **fairness** and **transparency** by listing these as key aspects covered by the certification.",
+          "title": "ISO/IEC 42001:2023 Accredited Certification - Cognizant",
+          "url": "https://investors.cognizant.com/news-and-events/news/news-details/2024/Cognizant-First-to-Achieve-ISOIEC-420012023-Accredited-Certification-for-Artificial-Intelligence-Management-Systems"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post from Cognizant provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It supports fairness by discussing the equitable implementation of AI, governance through the emphasis on establishing frameworks and continuous monitoring, and transparency by highlighting the need for transparent platforms that embed performance, security, and quality.",
+          "title": "5 Steps Toward Responsible AI - Cognizant Blog",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/5-steps-businesses-should-take-toward-responsible-ai-wf2441991"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Cognizant blog post provides evidence for external_accountability, fairness, governance, oversight, and transparency. The blog post details mechanisms for AI self-auditing, quality control, and bias detection, supporting fairness and external accountability. It also highlights a multilayered transparency approach with AI models cross-checking outputs for inconsistencies and factual errors, demonstrating a commitment to transparency and oversight, and mandates frameworks for examining AI implications and reversing damaging actions, aligning with governance.",
+          "title": "Building Consumer Trust in AI - Cognizant Blog",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/building-consumer-trust-in-ai-wf2729750"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post details Cognizant's approach to operationalizing trust in agentic AI, providing evidence for **governance**, **privacy**, **fairness**, and **external accountability**. It describes the TRUST Platform's capabilities for bias monitoring and consent-aware pipelines, supporting **fairness** and **privacy** respectively. Furthermore, the post highlights audit-ready governance aligned with standards and human-led oversight, which directly addresses **governance** and **external accountability** by ensuring compliance and clear lines of responsibility.",
+          "title": "Operationalizing Trust in Agentic AI: How Cognizant and BigID Collaborate",
+          "url": "https://bigid.com/blog/how-cognizant-and-bigid-operationalize-agentic-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 91,
+      "findings": "Cognizant's policy documents describe a structured governance model and continuous oversight mechanisms for embedding AI principles throughout the AI lifecycle, including risk management and operationalization. Technical papers describe a policy for continuous AI governance, including operational execution through automated red-teaming and anomaly detection, and describe a risk-based quality assurance methodology for generative AI. The company also describes establishing frameworks, continuous monitoring, and audit-ready governance aligned with standards.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Principles - Cognizant,\" provides evidence for **external accountability, fairness, governance, and transparency**. It demonstrates a commitment to ethical AI through its Cognizant Trust™ framework and alignment with international standards like the OECD AI Principles, UNESCO Recommendation on Ethics of AI, EU AI Act, NIST AI RMF, and ISO/IEC 42001:2023. The document details a structured governance model and continuous oversight mechanisms for embedding AI principles throughout the AI lifecycle, including risk management and operationalization.",
+          "title": "Responsible AI Principles - Cognizant",
+          "url": "https://cognizant.com/us/en/about-cognizant/responsible-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Real-Time AI Governance Blueprint - Cognizant,\" provides evidence for **governance**, **oversight**, and **fairness**. The blueprint details a policy for continuous AI governance by embedding compliance into the AI lifecycle and outlines operational execution through technical instrumentation like automated red-teaming and anomaly detection. It further supports oversight and fairness by describing continuous assessment, intervention, escalation, and human oversight protocols for evaluating AI system behavior in production.",
+          "title": "Real-Time AI Governance Blueprint - Cognizant",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/real-time-governance-framework-for-ai-systems"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This help page for Cognizant's Decision AI service provides evidence for **explainability**, **governance**, and **transparency**. It describes the service as offering explainable and trustworthy decisions, integrating explainability methods like rule sets and uncertainty quantification. The page also details the AI system's architecture and function, implying transparency through interactive exploration tools, and explicitly mentions \"transparent\" and \"explainable\" as core techniques.",
+          "title": "Decision AI Service - Cognizant",
+          "url": "https://cognizant.com/us/en/services/ai/decision-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This press release announces Cognizant's accreditation for the ISO/IEC 42001:2023 AI management system standard. The certification supports **governance** by detailing a framework for AI management, including risk and opportunity management, and **external accountability** through the accreditation itself. Furthermore, the press release indicates support for **fairness** and **transparency** by listing these as key aspects covered by the certification.",
+          "title": "ISO/IEC 42001:2023 Accredited Certification - Cognizant",
+          "url": "https://investors.cognizant.com/news-and-events/news/news-details/2024/Cognizant-First-to-Achieve-ISOIEC-420012023-Accredited-Certification-for-Artificial-Intelligence-Management-Systems"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post from Cognizant provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It supports fairness by discussing the equitable implementation of AI, governance through the emphasis on establishing frameworks and continuous monitoring, and transparency by highlighting the need for transparent platforms that embed performance, security, and quality.",
+          "title": "5 Steps Toward Responsible AI - Cognizant Blog",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/5-steps-businesses-should-take-toward-responsible-ai-wf2441991"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post from Cognizant emphasizes the strategic necessity of integrating responsible AI practices into development, supporting the **governance** pillar by framing responsible AI as a critical risk mitigation strategy and a foundational requirement. It also provides evidence for **transparency** by highlighting the importance of data lineage and IP ownership as key components of responsible AI, essential for legal and financial compliance.",
+          "title": "Overlooking Responsible AI is a Risk That Cannot Be Ignored - Cognizant Blog",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/why-responsible-ai-for-business"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Cognizant blog post provides evidence for external_accountability, fairness, governance, oversight, and transparency. The blog post details mechanisms for AI self-auditing, quality control, and bias detection, supporting fairness and external accountability. It also highlights a multilayered transparency approach with AI models cross-checking outputs for inconsistencies and factual errors, demonstrating a commitment to transparency and oversight, and mandates frameworks for examining AI implications and reversing damaging actions, aligning with governance.",
+          "title": "Building Consumer Trust in AI - Cognizant Blog",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/building-consumer-trust-in-ai-wf2729750"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Modern Assurance: Fast-Track Effective AI Governance - Cognizant,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The document describes a service offering that emphasizes ongoing oversight and governance for AI, including AI risk management and transparency. It also details an AI-driven testing approach involving operational monitoring and quality testing, indicating the execution of AI governance practices.",
+          "title": "Modern Assurance: Fast-Track Effective AI Governance - Cognizant",
+          "url": "https://cognizant.com/us/en/services/enterprise-quality-engineering-assurance/ai-quality-assurance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Generative AI Services - Cognizant,\" provides evidence for **governance** and **external accountability**. The document supports governance by describing a structured approach to managing AI across its lifecycle, emphasizing responsible AI practices and trustworthy deployment, and referencing the ISO/IEC 42001:2023 standard. This mention of an AI management system standard and certification also supports external accountability.",
+          "title": "Generative AI Services - Cognizant",
+          "url": "https://cognizant.com/us/en/services/ai/generative-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Cognizant provides evidence for **external accountability, governance, oversight, and privacy**. It supports these pillars by discussing operational oversight and governance for AI compliance through central and country unit checks, and by highlighting the role of a CTO for AI in leading development. The paper also emphasizes designing data privacy into generative AI systems, establishing privacy-conscious design principles, and using private endpoints for LLMs, all of which demonstrate a focus on governance and privacy. Furthermore, it touches upon using AI for regulatory compliance checks and implementing safeguards for IP infringement, contributing to external accountability and governance.",
+          "title": "How Financial Firms Can Maximize Value, Minimize Risk with Generative AI - Cognizant",
+          "url": "https://cognizant.com/en_us/industries/documents/how-financial-firms-can-maximize-value-minimize-risk-with-gen-ai.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Cognizant provides evidence for **governance** and **transparency**. It describes a risk-based quality assurance methodology for generative AI, including red teaming to identify risks and blind spots, and details system-level and application-level risk mitigation strategies such as content filtering and developer controls. The paper also highlights the need for human oversight and transparency for users, suggesting pilot programs and training, which supports the transparency pillar.",
+          "title": "Risk-Based Quality Assurance of Generative AI Solutions - Cognizant",
+          "url": "https://cognizant.com/de/de/documents/gen-ai-security-whitepaper.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Cognizant provides evidence for **governance**, **explainability**, **oversight**, **privacy**, and **transparency**. It describes policies and lifecycle management for AI, including guardrails for deployment, and mandates explainable AI components for clarity. The paper also details human oversight of AI agents, supervision of exceptions, and transparency through audit trails, alongside privacy-anchored governance and data control within AI/automation contexts.",
+          "title": "Fortify Cyber Defense with AI-Led Security Operations - Cognizant",
+          "url": "https://cognizant.com/en_us/about/documents/fortify-cyber-defense-with-ai-led-security-operations.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This case study, \"Royal London Group - Responsible AI in Practice Case Study - Cognizant,\" provides evidence for **governance**, **oversight**, and **transparency**. It details the implementation of responsible AI governance through auditable review cycles and embedded skills, supporting the **governance** pillar. The case study also highlights a modular AI architecture with distinct personas and mandatory human oversight on all AI-generated content through subject matter expert review, demonstrating practices that support **oversight** and **transparency**.",
+          "title": "Royal London Group - Responsible AI in Practice Case Study - Cognizant",
+          "url": "https://cognizant.com/us/en/case-studies/royal-london-group-responsible-ai-in-practice"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post details Cognizant's approach to operationalizing trust in agentic AI, providing evidence for **governance**, **privacy**, **fairness**, and **external accountability**. It describes the TRUST Platform's capabilities for bias monitoring and consent-aware pipelines, supporting **fairness** and **privacy** respectively. Furthermore, the post highlights audit-ready governance aligned with standards and human-led oversight, which directly addresses **governance** and **external accountability** by ensuring compliance and clear lines of responsibility.",
+          "title": "Operationalizing Trust in Agentic AI: How Cognizant and BigID Collaborate",
+          "url": "https://bigid.com/blog/how-cognizant-and-bigid-operationalize-agentic-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This ITU profile of Cognizant's Chief Responsible AI Officer provides evidence for the **governance** and **transparency** pillars. The profile highlights the officer's leadership in embedding transparency and accountability into AI systems and overseeing a Responsible AI framework aligned with international standards, demonstrating a commitment to governance. Furthermore, the officer's contributions to AI policy, governance, and the advancement of standards for AI safety and accountability directly support the governance pillar.",
+          "title": "Amir Banifatemi - Chief Responsible AI Officer - ITU Profile",
+          "url": "https://aiforgood.itu.int/speaker/amir-banifatemi"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This ISACA blog post provides evidence for the **governance** and **oversight** pillars of responsible AI. The publication details Cognizant's approach to establishing a formal responsible AI policy and principles through a dedicated group, alongside a comprehensive governance framework that includes systematic monitoring of AI-related activities. Furthermore, it highlights the mandate for continuous oversight of generative AI solutions, emphasizing human supervision throughout the AI lifecycle.",
+          "title": "Integrating AI with CMMI: Cognizant's Path to Elevating Excellence - ISACA",
+          "url": "https://isaca.org/resources/news-and-trends/isaca-now-blog/2024/integrating-ai-with-cmmi-cognizants-path-to-elevating-excellence"
+        }
+      ],
+      "score": 2,
+      "source_count": 16
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 13,
+      "findings": "Cognizant's technical papers describe continuous assessment, intervention, escalation, and human oversight protocols for evaluating AI system behavior in production. Blog posts describe mechanisms for AI self-auditing, quality control, and a multilayered transparency approach with AI models cross-checking outputs. The company also describes the need for human oversight, including mandatory human oversight on AI-generated content through subject matter expert review, and describes human supervision throughout the AI lifecycle.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Real-Time AI Governance Blueprint - Cognizant,\" provides evidence for **governance**, **oversight**, and **fairness**. The blueprint details a policy for continuous AI governance by embedding compliance into the AI lifecycle and outlines operational execution through technical instrumentation like automated red-teaming and anomaly detection. It further supports oversight and fairness by describing continuous assessment, intervention, escalation, and human oversight protocols for evaluating AI system behavior in production.",
+          "title": "Real-Time AI Governance Blueprint - Cognizant",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/real-time-governance-framework-for-ai-systems"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Cognizant blog post provides evidence for external_accountability, fairness, governance, oversight, and transparency. The blog post details mechanisms for AI self-auditing, quality control, and bias detection, supporting fairness and external accountability. It also highlights a multilayered transparency approach with AI models cross-checking outputs for inconsistencies and factual errors, demonstrating a commitment to transparency and oversight, and mandates frameworks for examining AI implications and reversing damaging actions, aligning with governance.",
+          "title": "Building Consumer Trust in AI - Cognizant Blog",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/building-consumer-trust-in-ai-wf2729750"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Modern Assurance: Fast-Track Effective AI Governance - Cognizant,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The document describes a service offering that emphasizes ongoing oversight and governance for AI, including AI risk management and transparency. It also details an AI-driven testing approach involving operational monitoring and quality testing, indicating the execution of AI governance practices.",
+          "title": "Modern Assurance: Fast-Track Effective AI Governance - Cognizant",
+          "url": "https://cognizant.com/us/en/services/enterprise-quality-engineering-assurance/ai-quality-assurance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Cognizant provides evidence for **external accountability, governance, oversight, and privacy**. It supports these pillars by discussing operational oversight and governance for AI compliance through central and country unit checks, and by highlighting the role of a CTO for AI in leading development. The paper also emphasizes designing data privacy into generative AI systems, establishing privacy-conscious design principles, and using private endpoints for LLMs, all of which demonstrate a focus on governance and privacy. Furthermore, it touches upon using AI for regulatory compliance checks and implementing safeguards for IP infringement, contributing to external accountability and governance.",
+          "title": "How Financial Firms Can Maximize Value, Minimize Risk with Generative AI - Cognizant",
+          "url": "https://cognizant.com/en_us/industries/documents/how-financial-firms-can-maximize-value-minimize-risk-with-gen-ai.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Cognizant provides evidence for **governance** and **transparency**. It describes a risk-based quality assurance methodology for generative AI, including red teaming to identify risks and blind spots, and details system-level and application-level risk mitigation strategies such as content filtering and developer controls. The paper also highlights the need for human oversight and transparency for users, suggesting pilot programs and training, which supports the transparency pillar.",
+          "title": "Risk-Based Quality Assurance of Generative AI Solutions - Cognizant",
+          "url": "https://cognizant.com/de/de/documents/gen-ai-security-whitepaper.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Cognizant provides evidence for **governance**, **explainability**, **oversight**, **privacy**, and **transparency**. It describes policies and lifecycle management for AI, including guardrails for deployment, and mandates explainable AI components for clarity. The paper also details human oversight of AI agents, supervision of exceptions, and transparency through audit trails, alongside privacy-anchored governance and data control within AI/automation contexts.",
+          "title": "Fortify Cyber Defense with AI-Led Security Operations - Cognizant",
+          "url": "https://cognizant.com/en_us/about/documents/fortify-cyber-defense-with-ai-led-security-operations.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This case study, \"Royal London Group - Responsible AI in Practice Case Study - Cognizant,\" provides evidence for **governance**, **oversight**, and **transparency**. It details the implementation of responsible AI governance through auditable review cycles and embedded skills, supporting the **governance** pillar. The case study also highlights a modular AI architecture with distinct personas and mandatory human oversight on all AI-generated content through subject matter expert review, demonstrating practices that support **oversight** and **transparency**.",
+          "title": "Royal London Group - Responsible AI in Practice Case Study - Cognizant",
+          "url": "https://cognizant.com/us/en/case-studies/royal-london-group-responsible-ai-in-practice"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This ISACA blog post provides evidence for the **governance** and **oversight** pillars of responsible AI. The publication details Cognizant's approach to establishing a formal responsible AI policy and principles through a dedicated group, alongside a comprehensive governance framework that includes systematic monitoring of AI-related activities. Furthermore, it highlights the mandate for continuous oversight of generative AI solutions, emphasizing human supervision throughout the AI lifecycle.",
+          "title": "Integrating AI with CMMI: Cognizant's Path to Elevating Excellence - ISACA",
+          "url": "https://isaca.org/resources/news-and-trends/isaca-now-blog/2024/integrating-ai-with-cmmi-cognizants-path-to-elevating-excellence"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 9,
+      "findings": "Cognizant's technical papers describe designing data privacy into generative AI systems, establishing privacy-conscious design principles, and using private endpoints for LLMs. These papers also describe privacy-anchored governance and data control within AI/automation contexts. Additionally, blog posts describe the TRUST Platform's capabilities for consent-aware pipelines.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Cognizant provides evidence for **external accountability, governance, oversight, and privacy**. It supports these pillars by discussing operational oversight and governance for AI compliance through central and country unit checks, and by highlighting the role of a CTO for AI in leading development. The paper also emphasizes designing data privacy into generative AI systems, establishing privacy-conscious design principles, and using private endpoints for LLMs, all of which demonstrate a focus on governance and privacy. Furthermore, it touches upon using AI for regulatory compliance checks and implementing safeguards for IP infringement, contributing to external accountability and governance.",
+          "title": "How Financial Firms Can Maximize Value, Minimize Risk with Generative AI - Cognizant",
+          "url": "https://cognizant.com/en_us/industries/documents/how-financial-firms-can-maximize-value-minimize-risk-with-gen-ai.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Cognizant provides evidence for **governance**, **explainability**, **oversight**, **privacy**, and **transparency**. It describes policies and lifecycle management for AI, including guardrails for deployment, and mandates explainable AI components for clarity. The paper also details human oversight of AI agents, supervision of exceptions, and transparency through audit trails, alongside privacy-anchored governance and data control within AI/automation contexts.",
+          "title": "Fortify Cyber Defense with AI-Led Security Operations - Cognizant",
+          "url": "https://cognizant.com/en_us/about/documents/fortify-cyber-defense-with-ai-led-security-operations.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post details Cognizant's approach to operationalizing trust in agentic AI, providing evidence for **governance**, **privacy**, **fairness**, and **external accountability**. It describes the TRUST Platform's capabilities for bias monitoring and consent-aware pipelines, supporting **fairness** and **privacy** respectively. Furthermore, the post highlights audit-ready governance aligned with standards and human-led oversight, which directly addresses **governance** and **external accountability** by ensuring compliance and clear lines of responsibility.",
+          "title": "Operationalizing Trust in Agentic AI: How Cognizant and BigID Collaborate",
+          "url": "https://bigid.com/blog/how-cognizant-and-bigid-operationalize-agentic-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 25,
+      "findings": "Cognizant's Decision AI service describes offering transparent decisions, detailing the AI system's architecture and function, and referencing \"transparent\" as a core technique. The company describes the need for transparent platforms that embed performance, security, and quality, and describes data lineage and IP ownership as key components of responsible AI. Furthermore, Cognizant describes a multilayered transparency approach with AI models cross-checking outputs, the need for transparency for users, and transparency through audit trails.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Principles - Cognizant,\" provides evidence for **external accountability, fairness, governance, and transparency**. It demonstrates a commitment to ethical AI through its Cognizant Trust™ framework and alignment with international standards like the OECD AI Principles, UNESCO Recommendation on Ethics of AI, EU AI Act, NIST AI RMF, and ISO/IEC 42001:2023. The document details a structured governance model and continuous oversight mechanisms for embedding AI principles throughout the AI lifecycle, including risk management and operationalization.",
+          "title": "Responsible AI Principles - Cognizant",
+          "url": "https://cognizant.com/us/en/about-cognizant/responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This help page for Cognizant's Decision AI service provides evidence for **explainability**, **governance**, and **transparency**. It describes the service as offering explainable and trustworthy decisions, integrating explainability methods like rule sets and uncertainty quantification. The page also details the AI system's architecture and function, implying transparency through interactive exploration tools, and explicitly mentions \"transparent\" and \"explainable\" as core techniques.",
+          "title": "Decision AI Service - Cognizant",
+          "url": "https://cognizant.com/us/en/services/ai/decision-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This press release announces Cognizant's accreditation for the ISO/IEC 42001:2023 AI management system standard. The certification supports **governance** by detailing a framework for AI management, including risk and opportunity management, and **external accountability** through the accreditation itself. Furthermore, the press release indicates support for **fairness** and **transparency** by listing these as key aspects covered by the certification.",
+          "title": "ISO/IEC 42001:2023 Accredited Certification - Cognizant",
+          "url": "https://investors.cognizant.com/news-and-events/news/news-details/2024/Cognizant-First-to-Achieve-ISOIEC-420012023-Accredited-Certification-for-Artificial-Intelligence-Management-Systems"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post from Cognizant provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It supports fairness by discussing the equitable implementation of AI, governance through the emphasis on establishing frameworks and continuous monitoring, and transparency by highlighting the need for transparent platforms that embed performance, security, and quality.",
+          "title": "5 Steps Toward Responsible AI - Cognizant Blog",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/5-steps-businesses-should-take-toward-responsible-ai-wf2441991"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post from Cognizant emphasizes the strategic necessity of integrating responsible AI practices into development, supporting the **governance** pillar by framing responsible AI as a critical risk mitigation strategy and a foundational requirement. It also provides evidence for **transparency** by highlighting the importance of data lineage and IP ownership as key components of responsible AI, essential for legal and financial compliance.",
+          "title": "Overlooking Responsible AI is a Risk That Cannot Be Ignored - Cognizant Blog",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/why-responsible-ai-for-business"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Cognizant blog post provides evidence for external_accountability, fairness, governance, oversight, and transparency. The blog post details mechanisms for AI self-auditing, quality control, and bias detection, supporting fairness and external accountability. It also highlights a multilayered transparency approach with AI models cross-checking outputs for inconsistencies and factual errors, demonstrating a commitment to transparency and oversight, and mandates frameworks for examining AI implications and reversing damaging actions, aligning with governance.",
+          "title": "Building Consumer Trust in AI - Cognizant Blog",
+          "url": "https://cognizant.com/us/en/insights/insights-blog/building-consumer-trust-in-ai-wf2729750"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Modern Assurance: Fast-Track Effective AI Governance - Cognizant,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The document describes a service offering that emphasizes ongoing oversight and governance for AI, including AI risk management and transparency. It also details an AI-driven testing approach involving operational monitoring and quality testing, indicating the execution of AI governance practices.",
+          "title": "Modern Assurance: Fast-Track Effective AI Governance - Cognizant",
+          "url": "https://cognizant.com/us/en/services/enterprise-quality-engineering-assurance/ai-quality-assurance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Cognizant provides evidence for **governance** and **transparency**. It describes a risk-based quality assurance methodology for generative AI, including red teaming to identify risks and blind spots, and details system-level and application-level risk mitigation strategies such as content filtering and developer controls. The paper also highlights the need for human oversight and transparency for users, suggesting pilot programs and training, which supports the transparency pillar.",
+          "title": "Risk-Based Quality Assurance of Generative AI Solutions - Cognizant",
+          "url": "https://cognizant.com/de/de/documents/gen-ai-security-whitepaper.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Cognizant provides evidence for **governance**, **explainability**, **oversight**, **privacy**, and **transparency**. It describes policies and lifecycle management for AI, including guardrails for deployment, and mandates explainable AI components for clarity. The paper also details human oversight of AI agents, supervision of exceptions, and transparency through audit trails, alongside privacy-anchored governance and data control within AI/automation contexts.",
+          "title": "Fortify Cyber Defense with AI-Led Security Operations - Cognizant",
+          "url": "https://cognizant.com/en_us/about/documents/fortify-cyber-defense-with-ai-led-security-operations.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This case study, \"Royal London Group - Responsible AI in Practice Case Study - Cognizant,\" provides evidence for **governance**, **oversight**, and **transparency**. It details the implementation of responsible AI governance through auditable review cycles and embedded skills, supporting the **governance** pillar. The case study also highlights a modular AI architecture with distinct personas and mandatory human oversight on all AI-generated content through subject matter expert review, demonstrating practices that support **oversight** and **transparency**.",
+          "title": "Royal London Group - Responsible AI in Practice Case Study - Cognizant",
+          "url": "https://cognizant.com/us/en/case-studies/royal-london-group-responsible-ai-in-practice"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This ITU profile of Cognizant's Chief Responsible AI Officer provides evidence for the **governance** and **transparency** pillars. The profile highlights the officer's leadership in embedding transparency and accountability into AI systems and overseeing a Responsible AI framework aligned with international standards, demonstrating a commitment to governance. Furthermore, the officer's contributions to AI policy, governance, and the advancement of standards for AI safety and accountability directly support the governance pillar.",
+          "title": "Amir Banifatemi - Chief Responsible AI Officer - ITU Profile",
+          "url": "https://aiforgood.itu.int/speaker/amir-banifatemi"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This ISACA blog post provides evidence for the **governance** and **oversight** pillars of responsible AI. The publication details Cognizant's approach to establishing a formal responsible AI policy and principles through a dedicated group, alongside a comprehensive governance framework that includes systematic monitoring of AI-related activities. Furthermore, it highlights the mandate for continuous oversight of generative AI solutions, emphasizing human supervision throughout the AI lifecycle.",
+          "title": "Integrating AI with CMMI: Cognizant's Path to Elevating Excellence - ISACA",
+          "url": "https://isaca.org/resources/news-and-trends/isaca-now-blog/2024/integrating-ai-with-cmmi-cognizants-path-to-elevating-excellence"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    }
+  },
+  "published_at": "2026-02-23T21:47:27Z",
+  "run_id": "20260202_204126_daf8",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Based on 20 publicly available sources, Cognizant Technology Solutions' public disclosures address all 7 evaluated responsible AI pillars, with documented public evidence for each. Operational practices are documented across five pillars, including fairness, where technical papers describe continuous assessment and human oversight protocols for AI system behavior in production, and governance, which features a structured governance model for embedding AI principles throughout the AI lifecycle. Transparency materials describe the Decision AI service offering transparent decisions, while oversight is supported by blog posts detailing mechanisms for AI self-auditing and quality control. Explainability and privacy are addressed at the policy level, with the Decision AI service describing explainability methods like rule sets and technical papers outlining the design of data privacy into generative AI systems.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 99,
+    "total_sources_used": 16
+  }
+}

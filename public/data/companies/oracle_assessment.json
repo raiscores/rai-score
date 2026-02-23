@@ -1,0 +1,572 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Oracle",
+  "company_slug": "oracle",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 19,
+      "OPERATIONAL": 16,
+      "POLICY": 72
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 3,
+      "findings": "Oracle Integration AI Agents enable audit trails of agent decisions and trace how conclusions are reached. Select AI supports audit trails for conversation and SQL query generation, aiding in root-cause analysis. Additionally, the Financial Services AI Governance and Compliance Studio facilitates interpretation for regulators.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Oracle Integration AI - Auditability and Governance,\" provides evidence for explainability, external_accountability, governance, oversight, and transparency. It details how Oracle Integration AI Agents operate within a unified observability framework, enabling audit trails of agent decisions and tracing how conclusions are reached, which supports explainability and transparency. The post also highlights human oversight mechanisms and the use of Oracle Process Automation for managing AI agents, demonstrating operational governance and oversight, while the emphasis on auditability and tracking AI agent actions for trust and compliance supports external_accountability and governance.",
+          "title": "Oracle Integration AI - Auditability and Governance",
+          "url": "https://blogs.oracle.com/integration/oracle-integration-ai-strategy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Generative AI Auditing and Observability,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The post details how Select AI supports audit trails for conversation and SQL query generation, which aids in root-cause analysis and demonstrates regulatory compliance, thus supporting **governance** and **external_accountability**. It also touches upon AI usage control, cost management, and the security of private data, aligning with **governance** and **privacy**. Furthermore, the blog post highlights transparency by describing the AI agent framework, its integration, and capabilities like RAG automation and synthetic data generation, while also mentioning bias verification, which supports **transparency** and **fairness**.",
+          "title": "Generative AI Auditing and Observability",
+          "url": "https://blogs.oracle.com/machinelearning/verify-observe-and-secure-your-gen-ai-usage-with-adb-select-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_024",
+          "source_tier": "company_owned",
+          "summary": "This press release for Oracle's Financial Services AI Governance and Compliance Studio provides evidence for **explainability, fairness, governance, and transparency**. The studio supports transparency by documenting AI systems and model creation, and explainability by facilitating interpretation for regulators. It also addresses fairness through interactive bias testing and mitigation, and governance by offering required controls and capabilities for AI development and refinement.",
+          "title": "Financial Services AI Governance and Compliance Studio",
+          "url": "https://oracle.com/news/announcement/oracle-promotes-responsible-use-of-ai-in-financial-institutions-2021-10-04"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 9,
+      "findings": "Oracle highlights continuous monitoring, automated audit logs, and security training aligned with regulations like GDPR and CCPA. Documentation emphasizes auditability and tracking AI agent actions for trust and compliance. Select AI supports audit trails for conversation and SQL query generation, demonstrating regulatory compliance. Technical papers mention specific tools for managing and auditing AI models and highlight the need to safeguard data and defend against attacks.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and ML Security and Privacy Framework,\" provides evidence for **external accountability, governance, privacy, and transparency**. It supports these pillars by detailing OCI's integration of privacy by design principles, including encryption, data masking, and anonymization. The blog post also highlights continuous monitoring, automated audit logs, and security training aligned with regulations like GDPR and CCPA, demonstrating a commitment to operationalizing responsible AI practices.",
+          "title": "AI and ML Security and Privacy Framework",
+          "url": "https://blogs.oracle.com/cloud-infrastructure/emphasis-on-aiml-security-in-the-public-sector"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Oracle Integration AI - Auditability and Governance,\" provides evidence for explainability, external_accountability, governance, oversight, and transparency. It details how Oracle Integration AI Agents operate within a unified observability framework, enabling audit trails of agent decisions and tracing how conclusions are reached, which supports explainability and transparency. The post also highlights human oversight mechanisms and the use of Oracle Process Automation for managing AI agents, demonstrating operational governance and oversight, while the emphasis on auditability and tracking AI agent actions for trust and compliance supports external_accountability and governance.",
+          "title": "Oracle Integration AI - Auditability and Governance",
+          "url": "https://blogs.oracle.com/integration/oracle-integration-ai-strategy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Generative AI Auditing and Observability,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The post details how Select AI supports audit trails for conversation and SQL query generation, which aids in root-cause analysis and demonstrates regulatory compliance, thus supporting **governance** and **external_accountability**. It also touches upon AI usage control, cost management, and the security of private data, aligning with **governance** and **privacy**. Furthermore, the blog post highlights transparency by describing the AI agent framework, its integration, and capabilities like RAG automation and synthetic data generation, while also mentioning bias verification, which supports **transparency** and **fairness**.",
+          "title": "Generative AI Auditing and Observability",
+          "url": "https://blogs.oracle.com/machinelearning/verify-observe-and-secure-your-gen-ai-usage-with-adb-select-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Autonomous AI Database Security and Authentication,\" provides evidence for **external_accountability, governance, privacy, and transparency**. It details mechanisms like always-on encryption and comprehensive auditing with persistent logs to track user and system actions, supporting privacy and external accountability. Furthermore, the page describes granular access control via IAM and integration with Oracle Data Safe for risk evaluation and security controls, demonstrating strong governance practices and transparency in data handling.",
+          "title": "Autonomous AI Database Security and Authentication",
+          "url": "https://docs.oracle.com/en-us/iaas/autonomous-database-shared/doc/gs-security-and-authentation-autonomous-database.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"AI Innovation - Five Key Pillars for Sovereign AI,\" provides evidence for **external accountability**, **governance**, and **privacy**. It supports external accountability and governance by mentioning specific tools like Cloud Guard and Data Safe for managing and auditing AI models, and by highlighting the need to safeguard data and defend against attacks. The paper also supports the privacy pillar by discussing data privacy risks and sensitive data disclosure related to AI models, and by framing privacy, security, and legal controls as critical policy considerations.",
+          "title": "AI Innovation - Five Key Pillars for Sovereign AI",
+          "url": "https://oracle.com/a/ocom/docs/sovereign-ai-brief.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Center of Excellence Governance Framework,\" provides evidence for **governance**, **privacy**, and **external accountability**. It supports governance by detailing a framework for AI security, privacy, legal, risk measurement, and data management, including least-privilege access controls and guardrails for agent behavior. The document also supports privacy by mentioning data privacy and legal controls for AI, and external accountability through its emphasis on auditing AI assets and managing AI models with legal controls and certifications.",
+          "title": "AI Center of Excellence Governance Framework",
+          "url": "https://oracle.com/ca-en/artificial-intelligence/ai-center-excellence"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 13,
+      "findings": "Oracle's documentation mentions the role of engineers in avoiding bias and details best practices for trustworthiness and bias prevention, including bias verification. A framework for selecting fairness metrics and implementing bias mitigation algorithms to address detected bias in AI models is detailed, indicating a policy for responsible AI evaluation and compensation for AI bias. Policy documents commit to avoiding discriminatory automated decisions, and the Financial Services AI Governance and Compliance Studio addresses fairness through interactive bias testing and mitigation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This Oracle blog post discusses responsible AI development, providing evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars. The post supports fairness and privacy by mentioning the role of engineers in avoiding bias and protecting data, and it indicates operational governance through the mention of risk assessments and dedicated committees. Furthermore, it highlights policy commitments by discussing the establishment of governance structures, ethical guidelines, transparency, and accountability for AI systems.",
+          "title": "Is responsible AI synonymous with AI ethics? - Oracle Blogs",
+          "url": "https://blogs.oracle.com/ai-and-datascience/post/is-responsible-ai-synonymous-with-ai-ethics"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Generative AI Auditing and Observability,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The post details how Select AI supports audit trails for conversation and SQL query generation, which aids in root-cause analysis and demonstrates regulatory compliance, thus supporting **governance** and **external_accountability**. It also touches upon AI usage control, cost management, and the security of private data, aligning with **governance** and **privacy**. Furthermore, the blog post highlights transparency by describing the AI agent framework, its integration, and capabilities like RAG automation and synthetic data generation, while also mentioning bias verification, which supports **transparency** and **fairness**.",
+          "title": "Generative AI Auditing and Observability",
+          "url": "https://blogs.oracle.com/machinelearning/verify-observe-and-secure-your-gen-ai-usage-with-adb-select-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This Oracle help page, \"Oracle Analytics GenAI - Trustworthiness and Bias Prevention,\" provides evidence for **fairness, governance, and transparency**. It details the use of best practices for trustworthiness and bias prevention, along with controls for LLM contributions, supporting **fairness** and **governance**. The document also describes validation metrics, release gates with response assessments against ground truth and explanations, and adherence to security review processes, all of which contribute to **transparency** and operational controls. Furthermore, it mentions mandatory directives for AI/ML development, data, infrastructure, and governance, reinforcing the **governance** pillar.",
+          "title": "Oracle Analytics GenAI - Trustworthiness and Bias Prevention",
+          "url": "https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/faqs-oracle-analytics-generative-ai.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This system card, \"Oracle Guardian AI - Fairness Metrics Framework,\" provides evidence for the **fairness** pillar. It details a framework for selecting fairness metrics and implementing bias mitigation algorithms that adjust decision thresholds to address detected bias in AI models, indicating a policy for responsible AI evaluation and compensation for AI bias. The document also explicitly mentions AI, models, datasets, and fairness metrics, further supporting its focus on assessing AI fairness.",
+          "title": "Oracle Guardian AI - Fairness Metrics Framework",
+          "url": "https://oracle-guardian-ai.readthedocs.io/en/latest/user_guide/fairness/overview.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This help page on \"AI in Finance - Accountability and Transparency\" provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by mentioning the goal of eliminating implicit bias in areas like money laundering detection. For governance, the document highlights AI's role in supporting accountability, regulatory obligations, and automated auditing, indicating operational use and policy commitments. Transparency is supported by describing AI's capabilities for explainability through detailed analytics and exception alerts.",
+          "title": "AI in Finance - Accountability and Transparency",
+          "url": "https://oracle.com/ca-en/erp/ai-financials/what-is-ai-in-finance"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This Oracle privacy policy document provides evidence for the **fairness, governance, privacy, and transparency** pillars of responsible AI. It supports fairness and governance by committing to avoid discriminatory automated decisions and by specifying the context and business lines for AI/ML data processing. The policy also demonstrates privacy and transparency by outlining individual rights for data access and deletion, detailing data minimization and fraud detection practices, and explaining the use of data for AI/ML development and enhancement.",
+          "title": "Customer Data R&D and AI/ML Privacy Policy",
+          "url": "https://oracle.com/ca-en/legal/privacy/customer-data-research-development-privacy-policy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_024",
+          "source_tier": "company_owned",
+          "summary": "This press release for Oracle's Financial Services AI Governance and Compliance Studio provides evidence for **explainability, fairness, governance, and transparency**. The studio supports transparency by documenting AI systems and model creation, and explainability by facilitating interpretation for regulators. It also addresses fairness through interactive bias testing and mitigation, and governance by offering required controls and capabilities for AI development and refinement.",
+          "title": "Financial Services AI Governance and Compliance Studio",
+          "url": "https://oracle.com/news/announcement/oracle-promotes-responsible-use-of-ai-in-financial-institutions-2021-10-04"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 72,
+      "findings": "Oracle indicates operational governance through risk assessments and dedicated committees, with policy commitments discussing governance structures and ethical guidelines for AI systems. Documentation describes how AI automations and \"Access Guardrails\" enforce policies, manage access, and ensure authorized permissions for AI agent creation and deployment. The company highlights continuous monitoring, automated audit logs, and security training aligned with regulations, alongside response verification mechanisms and guardrails for AI agent behavior. A framework for AI security, privacy, legal, risk measurement, and data management is detailed, including least-privilege access controls and guardrails for agent behavior.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This Oracle blog post discusses responsible AI development, providing evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars. The post supports fairness and privacy by mentioning the role of engineers in avoiding bias and protecting data, and it indicates operational governance through the mention of risk assessments and dedicated committees. Furthermore, it highlights policy commitments by discussing the establishment of governance structures, ethical guidelines, transparency, and accountability for AI systems.",
+          "title": "Is responsible AI synonymous with AI ethics? - Oracle Blogs",
+          "url": "https://blogs.oracle.com/ai-and-datascience/post/is-responsible-ai-synonymous-with-ai-ethics"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI-Powered Automation with Access Governance,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It supports governance by describing how AI automations and \"Access Guardrails\" enforce policies and manage access bundles, ensuring authorized permissions for AI agent creation and deployment. Oversight is evidenced by the mention of manual override capabilities for an Application Owner, indicating human control over AI-assisted decisions.",
+          "title": "AI-Powered Automation with Access Governance",
+          "url": "https://blogs.oracle.com/cloud-infrastructure/ai-automation-access-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and ML Security and Privacy Framework,\" provides evidence for **external accountability, governance, privacy, and transparency**. It supports these pillars by detailing OCI's integration of privacy by design principles, including encryption, data masking, and anonymization. The blog post also highlights continuous monitoring, automated audit logs, and security training aligned with regulations like GDPR and CCPA, demonstrating a commitment to operationalizing responsible AI practices.",
+          "title": "AI and ML Security and Privacy Framework",
+          "url": "https://blogs.oracle.com/cloud-infrastructure/emphasis-on-aiml-security-in-the-public-sector"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"OCI AI Agent Platform - Security by Design,\" provides evidence for **governance**, **privacy**, and **transparency**. The post supports governance by describing response verification mechanisms for AI outputs and guardrails to constrain AI agent behavior, ensuring compliance and adherence to business logic. It also touches on privacy and security controls integrated into the AI service, and the description of AI systems and their capabilities contributes to transparency.",
+          "title": "OCI AI Agent Platform - Security by Design",
+          "url": "https://blogs.oracle.com/cloud-infrastructure/first-principles-oci-ai-agent-platform"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Oracle Integration AI - Auditability and Governance,\" provides evidence for explainability, external_accountability, governance, oversight, and transparency. It details how Oracle Integration AI Agents operate within a unified observability framework, enabling audit trails of agent decisions and tracing how conclusions are reached, which supports explainability and transparency. The post also highlights human oversight mechanisms and the use of Oracle Process Automation for managing AI agents, demonstrating operational governance and oversight, while the emphasis on auditability and tracking AI agent actions for trust and compliance supports external_accountability and governance.",
+          "title": "Oracle Integration AI - Auditability and Governance",
+          "url": "https://blogs.oracle.com/integration/oracle-integration-ai-strategy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Generative AI Auditing and Observability,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The post details how Select AI supports audit trails for conversation and SQL query generation, which aids in root-cause analysis and demonstrates regulatory compliance, thus supporting **governance** and **external_accountability**. It also touches upon AI usage control, cost management, and the security of private data, aligning with **governance** and **privacy**. Furthermore, the blog post highlights transparency by describing the AI agent framework, its integration, and capabilities like RAG automation and synthetic data generation, while also mentioning bias verification, which supports **transparency** and **fairness**.",
+          "title": "Generative AI Auditing and Observability",
+          "url": "https://blogs.oracle.com/machinelearning/verify-observe-and-secure-your-gen-ai-usage-with-adb-select-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Autonomous AI Database Security and Authentication,\" provides evidence for **external_accountability, governance, privacy, and transparency**. It details mechanisms like always-on encryption and comprehensive auditing with persistent logs to track user and system actions, supporting privacy and external accountability. Furthermore, the page describes granular access control via IAM and integration with Oracle Data Safe for risk evaluation and security controls, demonstrating strong governance practices and transparency in data handling.",
+          "title": "Autonomous AI Database Security and Authentication",
+          "url": "https://docs.oracle.com/en-us/iaas/autonomous-database-shared/doc/gs-security-and-authentation-autonomous-database.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This Oracle help page, \"Oracle Analytics GenAI - Trustworthiness and Bias Prevention,\" provides evidence for **fairness, governance, and transparency**. It details the use of best practices for trustworthiness and bias prevention, along with controls for LLM contributions, supporting **fairness** and **governance**. The document also describes validation metrics, release gates with response assessments against ground truth and explanations, and adherence to security review processes, all of which contribute to **transparency** and operational controls. Furthermore, it mentions mandatory directives for AI/ML development, data, infrastructure, and governance, reinforcing the **governance** pillar.",
+          "title": "Oracle Analytics GenAI - Trustworthiness and Bias Prevention",
+          "url": "https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/faqs-oracle-analytics-generative-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"AI Innovation - Five Key Pillars for Sovereign AI,\" provides evidence for **external accountability**, **governance**, and **privacy**. It supports external accountability and governance by mentioning specific tools like Cloud Guard and Data Safe for managing and auditing AI models, and by highlighting the need to safeguard data and defend against attacks. The paper also supports the privacy pillar by discussing data privacy risks and sensitive data disclosure related to AI models, and by framing privacy, security, and legal controls as critical policy considerations.",
+          "title": "AI Innovation - Five Key Pillars for Sovereign AI",
+          "url": "https://oracle.com/a/ocom/docs/sovereign-ai-brief.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Sovereign AI - Control and Transparency Framework,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing Oracle's management of AI models with access limitations and comprehensive auditing across the AI lifecycle, as well as outlining key considerations like regulatory compliance, preferred infrastructure, data residency, and legal controls. The framework also supports privacy by discussing data privacy controls and preventing unauthorized access to sensitive data.",
+          "title": "Sovereign AI - Control and Transparency Framework",
+          "url": "https://oracle.com/artificial-intelligence/what-is-sovereign-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Center of Excellence Governance Framework,\" provides evidence for **governance**, **privacy**, and **external accountability**. It supports governance by detailing a framework for AI security, privacy, legal, risk measurement, and data management, including least-privilege access controls and guardrails for agent behavior. The document also supports privacy by mentioning data privacy and legal controls for AI, and external accountability through its emphasis on auditing AI assets and managing AI models with legal controls and certifications.",
+          "title": "AI Center of Excellence Governance Framework",
+          "url": "https://oracle.com/ca-en/artificial-intelligence/ai-center-excellence"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This help page on \"AI in Finance - Accountability and Transparency\" provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by mentioning the goal of eliminating implicit bias in areas like money laundering detection. For governance, the document highlights AI's role in supporting accountability, regulatory obligations, and automated auditing, indicating operational use and policy commitments. Transparency is supported by describing AI's capabilities for explainability through detailed analytics and exception alerts.",
+          "title": "AI in Finance - Accountability and Transparency",
+          "url": "https://oracle.com/ca-en/erp/ai-financials/what-is-ai-in-finance"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This Oracle privacy policy document provides evidence for the **fairness, governance, privacy, and transparency** pillars of responsible AI. It supports fairness and governance by committing to avoid discriminatory automated decisions and by specifying the context and business lines for AI/ML data processing. The policy also demonstrates privacy and transparency by outlining individual rights for data access and deletion, detailing data minimization and fraud detection practices, and explaining the use of data for AI/ML development and enhancement.",
+          "title": "Customer Data R&D and AI/ML Privacy Policy",
+          "url": "https://oracle.com/ca-en/legal/privacy/customer-data-research-development-privacy-policy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_024",
+          "source_tier": "company_owned",
+          "summary": "This press release for Oracle's Financial Services AI Governance and Compliance Studio provides evidence for **explainability, fairness, governance, and transparency**. The studio supports transparency by documenting AI systems and model creation, and explainability by facilitating interpretation for regulators. It also addresses fairness through interactive bias testing and mitigation, and governance by offering required controls and capabilities for AI development and refinement.",
+          "title": "Financial Services AI Governance and Compliance Studio",
+          "url": "https://oracle.com/news/announcement/oracle-promotes-responsible-use-of-ai-in-financial-institutions-2021-10-04"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_025",
+          "source_tier": "authority",
+          "summary": "This Oracle proxy statement provides evidence for the **governance** and **oversight** pillars of responsible AI. The document details the Board's explicit oversight of artificial intelligence risks, including AI training and inference, and outlines the roles of specific committees in managing these and related technology risks. It also describes mechanisms for Board understanding and review of risk management, further supporting the oversight pillar.",
+          "title": "2025 Proxy Statement - Board Risk Oversight and Governance",
+          "url": "https://sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 15
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "Documentation mentions manual override capabilities for an Application Owner, indicating human control over AI-assisted decisions, and highlights human oversight mechanisms. A proxy statement details the Board's explicit oversight of artificial intelligence risks, including AI training and inference. It also outlines the roles of specific committees in managing AI and related technology risks and describes mechanisms for Board understanding and review of risk management.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI-Powered Automation with Access Governance,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It supports governance by describing how AI automations and \"Access Guardrails\" enforce policies and manage access bundles, ensuring authorized permissions for AI agent creation and deployment. Oversight is evidenced by the mention of manual override capabilities for an Application Owner, indicating human control over AI-assisted decisions.",
+          "title": "AI-Powered Automation with Access Governance",
+          "url": "https://blogs.oracle.com/cloud-infrastructure/ai-automation-access-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Oracle Integration AI - Auditability and Governance,\" provides evidence for explainability, external_accountability, governance, oversight, and transparency. It details how Oracle Integration AI Agents operate within a unified observability framework, enabling audit trails of agent decisions and tracing how conclusions are reached, which supports explainability and transparency. The post also highlights human oversight mechanisms and the use of Oracle Process Automation for managing AI agents, demonstrating operational governance and oversight, while the emphasis on auditability and tracking AI agent actions for trust and compliance supports external_accountability and governance.",
+          "title": "Oracle Integration AI - Auditability and Governance",
+          "url": "https://blogs.oracle.com/integration/oracle-integration-ai-strategy"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_025",
+          "source_tier": "authority",
+          "summary": "This Oracle proxy statement provides evidence for the **governance** and **oversight** pillars of responsible AI. The document details the Board's explicit oversight of artificial intelligence risks, including AI training and inference, and outlines the roles of specific committees in managing these and related technology risks. It also describes mechanisms for Board understanding and review of risk management, further supporting the oversight pillar.",
+          "title": "2025 Proxy Statement - Board Risk Oversight and Governance",
+          "url": "https://sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 25,
+      "findings": "Oracle's documentation mentions the role of engineers in protecting data and details OCI's integration of privacy by design principles, including encryption, data masking, and anonymization. It also touches on privacy and security controls integrated into AI services and the security of private data. Technical papers discuss data privacy risks, sensitive data disclosure, and frame privacy, security, and legal controls as critical policy considerations. Policy documents outline individual rights for data access and deletion, detail data minimization and fraud detection practices, and explain the use of data for AI/ML development and enhancement.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This Oracle blog post discusses responsible AI development, providing evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars. The post supports fairness and privacy by mentioning the role of engineers in avoiding bias and protecting data, and it indicates operational governance through the mention of risk assessments and dedicated committees. Furthermore, it highlights policy commitments by discussing the establishment of governance structures, ethical guidelines, transparency, and accountability for AI systems.",
+          "title": "Is responsible AI synonymous with AI ethics? - Oracle Blogs",
+          "url": "https://blogs.oracle.com/ai-and-datascience/post/is-responsible-ai-synonymous-with-ai-ethics"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and ML Security and Privacy Framework,\" provides evidence for **external accountability, governance, privacy, and transparency**. It supports these pillars by detailing OCI's integration of privacy by design principles, including encryption, data masking, and anonymization. The blog post also highlights continuous monitoring, automated audit logs, and security training aligned with regulations like GDPR and CCPA, demonstrating a commitment to operationalizing responsible AI practices.",
+          "title": "AI and ML Security and Privacy Framework",
+          "url": "https://blogs.oracle.com/cloud-infrastructure/emphasis-on-aiml-security-in-the-public-sector"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"OCI AI Agent Platform - Security by Design,\" provides evidence for **governance**, **privacy**, and **transparency**. The post supports governance by describing response verification mechanisms for AI outputs and guardrails to constrain AI agent behavior, ensuring compliance and adherence to business logic. It also touches on privacy and security controls integrated into the AI service, and the description of AI systems and their capabilities contributes to transparency.",
+          "title": "OCI AI Agent Platform - Security by Design",
+          "url": "https://blogs.oracle.com/cloud-infrastructure/first-principles-oci-ai-agent-platform"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Generative AI Auditing and Observability,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The post details how Select AI supports audit trails for conversation and SQL query generation, which aids in root-cause analysis and demonstrates regulatory compliance, thus supporting **governance** and **external_accountability**. It also touches upon AI usage control, cost management, and the security of private data, aligning with **governance** and **privacy**. Furthermore, the blog post highlights transparency by describing the AI agent framework, its integration, and capabilities like RAG automation and synthetic data generation, while also mentioning bias verification, which supports **transparency** and **fairness**.",
+          "title": "Generative AI Auditing and Observability",
+          "url": "https://blogs.oracle.com/machinelearning/verify-observe-and-secure-your-gen-ai-usage-with-adb-select-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Autonomous AI Database Security and Authentication,\" provides evidence for **external_accountability, governance, privacy, and transparency**. It details mechanisms like always-on encryption and comprehensive auditing with persistent logs to track user and system actions, supporting privacy and external accountability. Furthermore, the page describes granular access control via IAM and integration with Oracle Data Safe for risk evaluation and security controls, demonstrating strong governance practices and transparency in data handling.",
+          "title": "Autonomous AI Database Security and Authentication",
+          "url": "https://docs.oracle.com/en-us/iaas/autonomous-database-shared/doc/gs-security-and-authentation-autonomous-database.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"AI Innovation - Five Key Pillars for Sovereign AI,\" provides evidence for **external accountability**, **governance**, and **privacy**. It supports external accountability and governance by mentioning specific tools like Cloud Guard and Data Safe for managing and auditing AI models, and by highlighting the need to safeguard data and defend against attacks. The paper also supports the privacy pillar by discussing data privacy risks and sensitive data disclosure related to AI models, and by framing privacy, security, and legal controls as critical policy considerations.",
+          "title": "AI Innovation - Five Key Pillars for Sovereign AI",
+          "url": "https://oracle.com/a/ocom/docs/sovereign-ai-brief.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Sovereign AI - Control and Transparency Framework,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing Oracle's management of AI models with access limitations and comprehensive auditing across the AI lifecycle, as well as outlining key considerations like regulatory compliance, preferred infrastructure, data residency, and legal controls. The framework also supports privacy by discussing data privacy controls and preventing unauthorized access to sensitive data.",
+          "title": "Sovereign AI - Control and Transparency Framework",
+          "url": "https://oracle.com/artificial-intelligence/what-is-sovereign-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Center of Excellence Governance Framework,\" provides evidence for **governance**, **privacy**, and **external accountability**. It supports governance by detailing a framework for AI security, privacy, legal, risk measurement, and data management, including least-privilege access controls and guardrails for agent behavior. The document also supports privacy by mentioning data privacy and legal controls for AI, and external accountability through its emphasis on auditing AI assets and managing AI models with legal controls and certifications.",
+          "title": "AI Center of Excellence Governance Framework",
+          "url": "https://oracle.com/ca-en/artificial-intelligence/ai-center-excellence"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This Oracle privacy policy document provides evidence for the **fairness, governance, privacy, and transparency** pillars of responsible AI. It supports fairness and governance by committing to avoid discriminatory automated decisions and by specifying the context and business lines for AI/ML data processing. The policy also demonstrates privacy and transparency by outlining individual rights for data access and deletion, detailing data minimization and fraud detection practices, and explaining the use of data for AI/ML development and enhancement.",
+          "title": "Customer Data R&D and AI/ML Privacy Policy",
+          "url": "https://oracle.com/ca-en/legal/privacy/customer-data-research-development-privacy-policy"
+        }
+      ],
+      "score": 2,
+      "source_count": 9
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 41,
+      "findings": "Oracle's policy commitments discuss transparency for AI systems, with documentation describing AI systems, their capabilities, and the AI agent framework. Technical papers explain algorithms, training processes, model application, testing, and validation procedures for data mining models. The company also describes validation metrics, release gates, security review processes, and AI's capabilities for explainability through detailed analytics and exception alerts.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This Oracle blog post discusses responsible AI development, providing evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars. The post supports fairness and privacy by mentioning the role of engineers in avoiding bias and protecting data, and it indicates operational governance through the mention of risk assessments and dedicated committees. Furthermore, it highlights policy commitments by discussing the establishment of governance structures, ethical guidelines, transparency, and accountability for AI systems.",
+          "title": "Is responsible AI synonymous with AI ethics? - Oracle Blogs",
+          "url": "https://blogs.oracle.com/ai-and-datascience/post/is-responsible-ai-synonymous-with-ai-ethics"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI-Powered Automation with Access Governance,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It supports governance by describing how AI automations and \"Access Guardrails\" enforce policies and manage access bundles, ensuring authorized permissions for AI agent creation and deployment. Oversight is evidenced by the mention of manual override capabilities for an Application Owner, indicating human control over AI-assisted decisions.",
+          "title": "AI-Powered Automation with Access Governance",
+          "url": "https://blogs.oracle.com/cloud-infrastructure/ai-automation-access-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and ML Security and Privacy Framework,\" provides evidence for **external accountability, governance, privacy, and transparency**. It supports these pillars by detailing OCI's integration of privacy by design principles, including encryption, data masking, and anonymization. The blog post also highlights continuous monitoring, automated audit logs, and security training aligned with regulations like GDPR and CCPA, demonstrating a commitment to operationalizing responsible AI practices.",
+          "title": "AI and ML Security and Privacy Framework",
+          "url": "https://blogs.oracle.com/cloud-infrastructure/emphasis-on-aiml-security-in-the-public-sector"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"OCI AI Agent Platform - Security by Design,\" provides evidence for **governance**, **privacy**, and **transparency**. The post supports governance by describing response verification mechanisms for AI outputs and guardrails to constrain AI agent behavior, ensuring compliance and adherence to business logic. It also touches on privacy and security controls integrated into the AI service, and the description of AI systems and their capabilities contributes to transparency.",
+          "title": "OCI AI Agent Platform - Security by Design",
+          "url": "https://blogs.oracle.com/cloud-infrastructure/first-principles-oci-ai-agent-platform"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Oracle Integration AI - Auditability and Governance,\" provides evidence for explainability, external_accountability, governance, oversight, and transparency. It details how Oracle Integration AI Agents operate within a unified observability framework, enabling audit trails of agent decisions and tracing how conclusions are reached, which supports explainability and transparency. The post also highlights human oversight mechanisms and the use of Oracle Process Automation for managing AI agents, demonstrating operational governance and oversight, while the emphasis on auditability and tracking AI agent actions for trust and compliance supports external_accountability and governance.",
+          "title": "Oracle Integration AI - Auditability and Governance",
+          "url": "https://blogs.oracle.com/integration/oracle-integration-ai-strategy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Generative AI Auditing and Observability,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The post details how Select AI supports audit trails for conversation and SQL query generation, which aids in root-cause analysis and demonstrates regulatory compliance, thus supporting **governance** and **external_accountability**. It also touches upon AI usage control, cost management, and the security of private data, aligning with **governance** and **privacy**. Furthermore, the blog post highlights transparency by describing the AI agent framework, its integration, and capabilities like RAG automation and synthetic data generation, while also mentioning bias verification, which supports **transparency** and **fairness**.",
+          "title": "Generative AI Auditing and Observability",
+          "url": "https://blogs.oracle.com/machinelearning/verify-observe-and-secure-your-gen-ai-usage-with-adb-select-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Autonomous AI Database Security and Authentication,\" provides evidence for **external_accountability, governance, privacy, and transparency**. It details mechanisms like always-on encryption and comprehensive auditing with persistent logs to track user and system actions, supporting privacy and external accountability. Furthermore, the page describes granular access control via IAM and integration with Oracle Data Safe for risk evaluation and security controls, demonstrating strong governance practices and transparency in data handling.",
+          "title": "Autonomous AI Database Security and Authentication",
+          "url": "https://docs.oracle.com/en-us/iaas/autonomous-database-shared/doc/gs-security-and-authentation-autonomous-database.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This Oracle help page, \"Oracle Analytics GenAI - Trustworthiness and Bias Prevention,\" provides evidence for **fairness, governance, and transparency**. It details the use of best practices for trustworthiness and bias prevention, along with controls for LLM contributions, supporting **fairness** and **governance**. The document also describes validation metrics, release gates with response assessments against ground truth and explanations, and adherence to security review processes, all of which contribute to **transparency** and operational controls. Furthermore, it mentions mandatory directives for AI/ML development, data, infrastructure, and governance, reinforcing the **governance** pillar.",
+          "title": "Oracle Analytics GenAI - Trustworthiness and Bias Prevention",
+          "url": "https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/faqs-oracle-analytics-generative-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Oracle Data Mining - Model Training and Fairness,\" provides evidence for the **transparency** pillar of responsible AI. It achieves this by explaining the algorithms and training processes used in data mining models, detailing how models are applied to new data (scoring), and describing model testing and validation procedures. These explanations offer insight into the mechanics and generalizability of the AI systems.",
+          "title": "Oracle Data Mining - Model Training and Fairness",
+          "url": "https://docs.oracle.com/en/database/oracle/oracle-database/18/dmapi/data-mining-basics.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Sovereign AI - Control and Transparency Framework,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing Oracle's management of AI models with access limitations and comprehensive auditing across the AI lifecycle, as well as outlining key considerations like regulatory compliance, preferred infrastructure, data residency, and legal controls. The framework also supports privacy by discussing data privacy controls and preventing unauthorized access to sensitive data.",
+          "title": "Sovereign AI - Control and Transparency Framework",
+          "url": "https://oracle.com/artificial-intelligence/what-is-sovereign-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This help page on \"AI in Finance - Accountability and Transparency\" provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by mentioning the goal of eliminating implicit bias in areas like money laundering detection. For governance, the document highlights AI's role in supporting accountability, regulatory obligations, and automated auditing, indicating operational use and policy commitments. Transparency is supported by describing AI's capabilities for explainability through detailed analytics and exception alerts.",
+          "title": "AI in Finance - Accountability and Transparency",
+          "url": "https://oracle.com/ca-en/erp/ai-financials/what-is-ai-in-finance"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This Oracle privacy policy document provides evidence for the **fairness, governance, privacy, and transparency** pillars of responsible AI. It supports fairness and governance by committing to avoid discriminatory automated decisions and by specifying the context and business lines for AI/ML data processing. The policy also demonstrates privacy and transparency by outlining individual rights for data access and deletion, detailing data minimization and fraud detection practices, and explaining the use of data for AI/ML development and enhancement.",
+          "title": "Customer Data R&D and AI/ML Privacy Policy",
+          "url": "https://oracle.com/ca-en/legal/privacy/customer-data-research-development-privacy-policy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_024",
+          "source_tier": "company_owned",
+          "summary": "This press release for Oracle's Financial Services AI Governance and Compliance Studio provides evidence for **explainability, fairness, governance, and transparency**. The studio supports transparency by documenting AI systems and model creation, and explainability by facilitating interpretation for regulators. It also addresses fairness through interactive bias testing and mitigation, and governance by offering required controls and capabilities for AI development and refinement.",
+          "title": "Financial Services AI Governance and Compliance Studio",
+          "url": "https://oracle.com/news/announcement/oracle-promotes-responsible-use-of-ai-in-financial-institutions-2021-10-04"
+        }
+      ],
+      "score": 2,
+      "source_count": 13
+    }
+  },
+  "published_at": "2026-02-23T21:56:46Z",
+  "run_id": "20260218_045700_e51a",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Oracle's public disclosures demonstrate a balance of operational and policy-level practices across all 7 evaluated responsible AI pillars, with documented public evidence found for every pillar. Operational practices include documentation detailing OCI's integration of privacy by design principles, such as encryption and data masking, alongside disclosures highlighting human oversight mechanisms for managing AI agents. External accountability is also addressed operationally through continuous monitoring, automated audit logs, and security training aligned with regulations like GDPR and CCPA. Fairness and explainability are addressed at the policy level, with materials mentioning bias verification and detailing how Oracle Integration AI Agents enable audit trails of agent decisions. This assessment is based on a review of 25 publicly available sources.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 107,
+    "total_sources_used": 17
+  }
+}

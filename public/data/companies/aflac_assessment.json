@@ -1,0 +1,371 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Aflac",
+  "company_slug": "aflac",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 20,
+      "OPERATIONAL": 9,
+      "POLICY": 28
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 4,
+      "findings": "Aflac's blog posts highlight a commitment to addressing bias and developing unbiased models. Technical papers acknowledge potential bias in risk scoring, such as associating high activity with a high score, and discuss the challenges of supervised learning with unlabeled data. Additionally, privacy policies state a commitment to fairness in automated processes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post from MIT Sloan provides evidence for **fairness, governance, privacy, and transparency** in Aflac's AI practices. It highlights Aflac's commitment to addressing bias and protecting data, supporting the **fairness** and **privacy** pillars. Furthermore, the post details a formal innovation team for AI/ML solutions and refreshed governance policies for generative AI, demonstrating robust **governance** and a strategic approach to AI deployment that aligns with **transparency**.",
+          "title": "Continuous Learning With AI: Aflac's Shelia Anderson | MIT Sloan",
+          "url": "https://sloanreview.mit.edu/audio/continuous-learning-with-ai-aflacs-shelia-anderson"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post, analyzing Aflac's AI strategy, provides evidence for the **fairness**, **governance**, **oversight**, **privacy**, and **transparency** pillars. It supports these by detailing Aflac's commitment to developing unbiased models and embedding ethics and explainability to avoid the 'black box' problem, thus demonstrating a focus on fairness and transparency. The post also highlights the importance of data security and privacy, a governance structure, and cross-functional collaboration for AI initiatives, indicating a commitment to governance and oversight.",
+          "title": "Aflac's Strategic Approach to Generative AI Adoption Explained | Treu Partners",
+          "url": "https://treupartners.com/aflacs-strategic-approach-to-generative-ai-adoption-explained"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness** and **transparency** in responsible AI. It supports transparency by detailing the multi-step machine learning pipeline used for fraud detection, including data preparation and clustering techniques. The paper also touches on fairness by acknowledging potential bias in risk scoring, such as associating high activity with a high score, and discussing the challenges of supervised learning with unlabeled data.",
+          "title": "Leveraging Machine Learning to Remediate Fraud in Huge Datasets (Splunk)",
+          "url": "https://conf.splunk.com/files/2019/slides/SEC1904.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "Aflac's privacy policy provides evidence for the **privacy**, **governance**, **oversight**, **fairness**, and **transparency** pillars of responsible AI. The policy supports the **privacy** pillar by detailing consent for biometric data collection and the use of information for profiling. It addresses **governance** and **oversight** by stating that AI and automated processes are managed by an AI governance program that includes human oversight. Furthermore, the policy commits to **fairness** and **transparency** in these automated processes.",
+          "title": "Privacy Policy - Aflac",
+          "url": "https://aflac.com/privacy-center/privacy-policy.aspx"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 36,
+      "findings": "Aflac's press releases detail the formation of a global working group for AI security practices and describe a focus on business alignment and multidisciplinary teams for pilot programs. Technical papers highlight a foundational approach to AI governance, including policies for auditable agentic workflows and governing enterprise-scale 'Agentic AI.' Case studies detail the licensing of specific AI products and the deployment of an AI-native platform, while blog posts describe ensuring human agents retain control over critical decisions. Proxy statements indicate AI is a frequent topic in Board discussions and that related cybersecurity risks are reviewed quarterly. Blog posts also highlight a governance structure and cross-functional collaboration for AI initiatives. 10-K filings reference NAIC bulletins and NIST guidelines for AI systems, describing operational processes for tracking legislation and conducting risk reviews for AI vendor engagement. Finally, privacy policies state that AI and automated processes are managed by an AI governance program.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post from MIT Sloan provides evidence for **fairness, governance, privacy, and transparency** in Aflac's AI practices. It highlights Aflac's commitment to addressing bias and protecting data, supporting the **fairness** and **privacy** pillars. Furthermore, the post details a formal innovation team for AI/ML solutions and refreshed governance policies for generative AI, demonstrating robust **governance** and a strategic approach to AI deployment that aligns with **transparency**.",
+          "title": "Continuous Learning With AI: Aflac's Shelia Anderson | MIT Sloan",
+          "url": "https://sloanreview.mit.edu/audio/continuous-learning-with-ai-aflacs-shelia-anderson"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release from CIO Dive highlights Aflac's conservative approach to generative AI adoption, providing evidence for the **governance** and **privacy** pillars. The article details the formation of a global working group for AI security practices and a review of privacy guidelines, demonstrating operational oversight and a commitment to responsible AI development. Furthermore, Aflac's focus on business alignment and multidisciplinary teams for pilot programs underscores their governance strategy.",
+          "title": "Why Aflac isn't rushing generative AI adoption | CIO Dive",
+          "url": "https://ciodive.com/news/Aflac-CIO-Shelia-Anderson-generative-ai-cloud-strategy/742503"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights Aflac's foundational approach to AI governance, including policies for auditable agentic workflows and governing enterprise-scale \"Agentic AI.\" The paper also demonstrates transparency through the disclosure of AI-driven platform deployments and the use of AI analytics for system integration and customer views.",
+          "title": "Artificial Intelligence at Aflac - Two Use Cases | Emerj",
+          "url": "https://emerj.com/artificial-intelligence-at-aflac"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This CrowdStrike Falcon deployment case study provides evidence for **governance** and **transparency**. It supports governance by detailing the licensing of specific AI products and the deployment of an AI-native platform, indicating operational adoption and vendor oversight. The case study also supports transparency by describing AI-driven alerting as a transformation and discussing future aspirations for AI-powered security, including the role of generative AI in future strategy.",
+          "title": "Aflac Simplifies Security with Falcon Platform - CrowdStrike Case Study",
+          "url": "https://crowdstrike.com/en-us/resources/customer-stories/aflac-drives-consolidation-falcon-platform"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance, oversight, and transparency** in Aflac's AI implementation. It details how AI is used for agent assistance and claims automation, demonstrating transparency in its capabilities and governance by ensuring human agents retain control over critical decisions like claim denials. The narrative also highlights oversight through specialized teams handling sensitive calls and a \"bionic agent\" model that augments human capabilities.",
+          "title": "Human First: How Aflac Combines AI With Authentic Connections",
+          "url": "https://cmswire.com/customer-experience/human-first-how-aflac-combines-ai-with-authentic-connections"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This 2025 proxy statement provides evidence for the **governance** and **oversight** pillars of responsible AI. It indicates that AI has been a frequent topic in Board discussions and that cybersecurity risks, including those related to AI, are reviewed quarterly by the Audit & Risk Committee, demonstrating a high-level awareness and oversight of AI-related risks.",
+          "title": "Aflac 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/4977/000000497725000059/afl-20250319.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Workplace Benefits Trends: AI in Benefits Enrollment (2024),\" provides evidence for the **governance** pillar of responsible AI. The report highlights the challenge of integrating AI while maintaining personalization and balancing innovation with personal attention, indicating a need for strategic governance and oversight in AI implementation.",
+          "title": "Workplace Benefits Trends: AI in Benefits Enrollment (2024)",
+          "url": "https://aflac.com/docs/awr/pdf/2024-overview/2024-aflac-awr-executive-summary.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post, analyzing Aflac's AI strategy, provides evidence for the **fairness**, **governance**, **oversight**, **privacy**, and **transparency** pillars. It supports these by detailing Aflac's commitment to developing unbiased models and embedding ethics and explainability to avoid the 'black box' problem, thus demonstrating a focus on fairness and transparency. The post also highlights the importance of data security and privacy, a governance structure, and cross-functional collaboration for AI initiatives, indicating a commitment to governance and oversight.",
+          "title": "Aflac's Strategic Approach to Generative AI Adoption Explained | Treu Partners",
+          "url": "https://treupartners.com/aflacs-strategic-approach-to-generative-ai-adoption-explained"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "authority",
+          "summary": "This Aflac 10-K filing provides evidence for the **governance** and **privacy** pillars. It supports governance by referencing NAIC bulletins and NIST guidelines for AI systems, and by describing operational processes for tracking legislation and conducting risk reviews for AI vendor engagement. The filing also supports privacy by detailing operational processes for managing data subject requests and tracking compliance with regulations like CCPA and CPRA.",
+          "title": "Aflac 10-K Filing (Form 10-K, 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/4977/000000497724000072/afl12312310kars.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "Aflac's privacy policy provides evidence for the **privacy**, **governance**, **oversight**, **fairness**, and **transparency** pillars of responsible AI. The policy supports the **privacy** pillar by detailing consent for biometric data collection and the use of information for profiling. It addresses **governance** and **oversight** by stating that AI and automated processes are managed by an AI governance program that includes human oversight. Furthermore, the policy commits to **fairness** and **transparency** in these automated processes.",
+          "title": "Privacy Policy - Aflac",
+          "url": "https://aflac.com/privacy-center/privacy-policy.aspx"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 7,
+      "findings": "Aflac's blog posts describe human agents retaining control over critical decisions like claim denials, highlighting oversight through specialized teams handling sensitive calls and a 'bionic agent' model. Proxy statements indicate that AI is a frequent topic in Board discussions and that cybersecurity risks related to AI are reviewed quarterly by the Audit & Risk Committee. Additionally, privacy policies state that AI and automated processes are managed by an AI governance program that includes human oversight.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance, oversight, and transparency** in Aflac's AI implementation. It details how AI is used for agent assistance and claims automation, demonstrating transparency in its capabilities and governance by ensuring human agents retain control over critical decisions like claim denials. The narrative also highlights oversight through specialized teams handling sensitive calls and a \"bionic agent\" model that augments human capabilities.",
+          "title": "Human First: How Aflac Combines AI With Authentic Connections",
+          "url": "https://cmswire.com/customer-experience/human-first-how-aflac-combines-ai-with-authentic-connections"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This 2025 proxy statement provides evidence for the **governance** and **oversight** pillars of responsible AI. It indicates that AI has been a frequent topic in Board discussions and that cybersecurity risks, including those related to AI, are reviewed quarterly by the Audit & Risk Committee, demonstrating a high-level awareness and oversight of AI-related risks.",
+          "title": "Aflac 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/4977/000000497725000059/afl-20250319.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post, analyzing Aflac's AI strategy, provides evidence for the **fairness**, **governance**, **oversight**, **privacy**, and **transparency** pillars. It supports these by detailing Aflac's commitment to developing unbiased models and embedding ethics and explainability to avoid the 'black box' problem, thus demonstrating a focus on fairness and transparency. The post also highlights the importance of data security and privacy, a governance structure, and cross-functional collaboration for AI initiatives, indicating a commitment to governance and oversight.",
+          "title": "Aflac's Strategic Approach to Generative AI Adoption Explained | Treu Partners",
+          "url": "https://treupartners.com/aflacs-strategic-approach-to-generative-ai-adoption-explained"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "Aflac's privacy policy provides evidence for the **privacy**, **governance**, **oversight**, **fairness**, and **transparency** pillars of responsible AI. The policy supports the **privacy** pillar by detailing consent for biometric data collection and the use of information for profiling. It addresses **governance** and **oversight** by stating that AI and automated processes are managed by an AI governance program that includes human oversight. Furthermore, the policy commits to **fairness** and **transparency** in these automated processes.",
+          "title": "Privacy Policy - Aflac",
+          "url": "https://aflac.com/privacy-center/privacy-policy.aspx"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 8,
+      "findings": "Aflac's blog posts highlight a commitment to protecting data and emphasize the importance of data security and privacy. Press releases describe a review of privacy guidelines. 10-K filings detail operational processes for managing data subject requests and tracking compliance with regulations like CCPA and CPRA. Additionally, privacy policies detail consent for biometric data collection and the use of information for profiling.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post from MIT Sloan provides evidence for **fairness, governance, privacy, and transparency** in Aflac's AI practices. It highlights Aflac's commitment to addressing bias and protecting data, supporting the **fairness** and **privacy** pillars. Furthermore, the post details a formal innovation team for AI/ML solutions and refreshed governance policies for generative AI, demonstrating robust **governance** and a strategic approach to AI deployment that aligns with **transparency**.",
+          "title": "Continuous Learning With AI: Aflac's Shelia Anderson | MIT Sloan",
+          "url": "https://sloanreview.mit.edu/audio/continuous-learning-with-ai-aflacs-shelia-anderson"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release from CIO Dive highlights Aflac's conservative approach to generative AI adoption, providing evidence for the **governance** and **privacy** pillars. The article details the formation of a global working group for AI security practices and a review of privacy guidelines, demonstrating operational oversight and a commitment to responsible AI development. Furthermore, Aflac's focus on business alignment and multidisciplinary teams for pilot programs underscores their governance strategy.",
+          "title": "Why Aflac isn't rushing generative AI adoption | CIO Dive",
+          "url": "https://ciodive.com/news/Aflac-CIO-Shelia-Anderson-generative-ai-cloud-strategy/742503"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post, analyzing Aflac's AI strategy, provides evidence for the **fairness**, **governance**, **oversight**, **privacy**, and **transparency** pillars. It supports these by detailing Aflac's commitment to developing unbiased models and embedding ethics and explainability to avoid the 'black box' problem, thus demonstrating a focus on fairness and transparency. The post also highlights the importance of data security and privacy, a governance structure, and cross-functional collaboration for AI initiatives, indicating a commitment to governance and oversight.",
+          "title": "Aflac's Strategic Approach to Generative AI Adoption Explained | Treu Partners",
+          "url": "https://treupartners.com/aflacs-strategic-approach-to-generative-ai-adoption-explained"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "authority",
+          "summary": "This Aflac 10-K filing provides evidence for the **governance** and **privacy** pillars. It supports governance by referencing NAIC bulletins and NIST guidelines for AI systems, and by describing operational processes for tracking legislation and conducting risk reviews for AI vendor engagement. The filing also supports privacy by detailing operational processes for managing data subject requests and tracking compliance with regulations like CCPA and CPRA.",
+          "title": "Aflac 10-K Filing (Form 10-K, 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/4977/000000497724000072/afl12312310kars.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "Aflac's privacy policy provides evidence for the **privacy**, **governance**, **oversight**, **fairness**, and **transparency** pillars of responsible AI. The policy supports the **privacy** pillar by detailing consent for biometric data collection and the use of information for profiling. It addresses **governance** and **oversight** by stating that AI and automated processes are managed by an AI governance program that includes human oversight. Furthermore, the policy commits to **fairness** and **transparency** in these automated processes.",
+          "title": "Privacy Policy - Aflac",
+          "url": "https://aflac.com/privacy-center/privacy-policy.aspx"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 25,
+      "findings": "Aflac documents the use of AI-powered platforms and natural language processing for automating workflows and understanding customer queries, detailing how AI and virtual agents are applied in customer interactions. Technical papers disclose AI-driven platform deployments and describe the use of AI analytics for system integration and customer views, including the multi-step machine learning pipeline for fraud detection. Additionally, blog posts detail AI's use for agent assistance and claims automation, and reference embedding ethics and explainability to avoid the 'black box' problem.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This Pega platform deployment description provides evidence for the **transparency** pillar of responsible AI. The document highlights the use of AI-powered platforms and natural language processing (NLP) for automating workflows and understanding customer queries, which are foundational elements for transparent AI operations. The integration of AI and virtual agents further supports transparency by detailing how these technologies are applied in customer interactions.",
+          "title": "Aflac reshapes customer experience with AI and automation | Pega",
+          "url": "https://pega.com/customers/aflac-pega-platform"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post from MIT Sloan provides evidence for **fairness, governance, privacy, and transparency** in Aflac's AI practices. It highlights Aflac's commitment to addressing bias and protecting data, supporting the **fairness** and **privacy** pillars. Furthermore, the post details a formal innovation team for AI/ML solutions and refreshed governance policies for generative AI, demonstrating robust **governance** and a strategic approach to AI deployment that aligns with **transparency**.",
+          "title": "Continuous Learning With AI: Aflac's Shelia Anderson | MIT Sloan",
+          "url": "https://sloanreview.mit.edu/audio/continuous-learning-with-ai-aflacs-shelia-anderson"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights Aflac's foundational approach to AI governance, including policies for auditable agentic workflows and governing enterprise-scale \"Agentic AI.\" The paper also demonstrates transparency through the disclosure of AI-driven platform deployments and the use of AI analytics for system integration and customer views.",
+          "title": "Artificial Intelligence at Aflac - Two Use Cases | Emerj",
+          "url": "https://emerj.com/artificial-intelligence-at-aflac"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This CrowdStrike Falcon deployment case study provides evidence for **governance** and **transparency**. It supports governance by detailing the licensing of specific AI products and the deployment of an AI-native platform, indicating operational adoption and vendor oversight. The case study also supports transparency by describing AI-driven alerting as a transformation and discussing future aspirations for AI-powered security, including the role of generative AI in future strategy.",
+          "title": "Aflac Simplifies Security with Falcon Platform - CrowdStrike Case Study",
+          "url": "https://crowdstrike.com/en-us/resources/customer-stories/aflac-drives-consolidation-falcon-platform"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance, oversight, and transparency** in Aflac's AI implementation. It details how AI is used for agent assistance and claims automation, demonstrating transparency in its capabilities and governance by ensuring human agents retain control over critical decisions like claim denials. The narrative also highlights oversight through specialized teams handling sensitive calls and a \"bionic agent\" model that augments human capabilities.",
+          "title": "Human First: How Aflac Combines AI With Authentic Connections",
+          "url": "https://cmswire.com/customer-experience/human-first-how-aflac-combines-ai-with-authentic-connections"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post, analyzing Aflac's AI strategy, provides evidence for the **fairness**, **governance**, **oversight**, **privacy**, and **transparency** pillars. It supports these by detailing Aflac's commitment to developing unbiased models and embedding ethics and explainability to avoid the 'black box' problem, thus demonstrating a focus on fairness and transparency. The post also highlights the importance of data security and privacy, a governance structure, and cross-functional collaboration for AI initiatives, indicating a commitment to governance and oversight.",
+          "title": "Aflac's Strategic Approach to Generative AI Adoption Explained | Treu Partners",
+          "url": "https://treupartners.com/aflacs-strategic-approach-to-generative-ai-adoption-explained"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness** and **transparency** in responsible AI. It supports transparency by detailing the multi-step machine learning pipeline used for fraud detection, including data preparation and clustering techniques. The paper also touches on fairness by acknowledging potential bias in risk scoring, such as associating high activity with a high score, and discussing the challenges of supervised learning with unlabeled data.",
+          "title": "Leveraging Machine Learning to Remediate Fraud in Huge Datasets (Splunk)",
+          "url": "https://conf.splunk.com/files/2019/slides/SEC1904.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "Aflac's privacy policy provides evidence for the **privacy**, **governance**, **oversight**, **fairness**, and **transparency** pillars of responsible AI. The policy supports the **privacy** pillar by detailing consent for biometric data collection and the use of information for profiling. It addresses **governance** and **oversight** by stating that AI and automated processes are managed by an AI governance program that includes human oversight. Furthermore, the policy commits to **fairness** and **transparency** in these automated processes.",
+          "title": "Privacy Policy - Aflac",
+          "url": "https://aflac.com/privacy-center/privacy-policy.aspx"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:41:51Z",
+  "run_id": "20260202_203616_878c",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Drawing from 13 publicly available sources, Aflac's disclosures address 5 of 7 evaluated responsible AI pillars. Operational practices include human agents retaining control over critical decisions like claim denials, a commitment to protecting data, and the formation of a global working group for AI security practices. Transparency and fairness are addressed at the policy level, with materials highlighting the use of AI-powered platforms for automating workflows and a commitment to developing unbiased models. No qualifying public evidence was found for explainability or external accountability.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 57,
+    "total_sources_used": 12
+  }
+}

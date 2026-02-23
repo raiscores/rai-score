@@ -1,0 +1,506 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "Visa",
+  "company_slug": "visa",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 10,
+      "OPERATIONAL": 14,
+      "POLICY": 55
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Sources describe documented explainability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Building inclusive, trustworthy Artificial Intelligence (AI Fairness Toolkit),\" provides evidence for **fairness**, **transparency**, **governance**, and **explainability**. The paper describes Visa's AI Fairness Toolkit, which aims to align fairness, ethics, accountability, and transparency in machine learning systems, offering stakeholders a flexible perspective on fairness and its business value. It also mentions a commitment to mitigating harm from deployed AI models, implying accountability, and outlines a formal fairness framework with defined stakeholder responsibilities, supporting governance.",
+          "title": "Building inclusive, trustworthy Artificial Intelligence (AI Fairness Toolkit)",
+          "url": "https://visa.com.sg/dam/VCOM/regional/ap/documents/vca-building-inclusive-trustworthy-ai.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "Technical papers detail AI vendor risk management and accountability for third-party AI. Help pages also highlight adherence to regulatory and security standards.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This technical paper from Visa provides evidence for **governance**, **fairness**, and **external accountability**. It discusses AI governance controls for managing risk across a model's lifecycle and proactive harm prevention, as well as explicitly addressing fairness by suggesting quantitative recommendations and metrics for bias management. Furthermore, the document details AI vendor risk management and accountability for third-party AI, supporting the external accountability pillar.",
+          "title": "Visa comments on NIST AI Risk Management Framework (2nd draft)",
+          "url": "https://nist.gov/document/ai-rmf-2nd-draft-comments-visa-inc"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for **external_accountability, fairness, governance, and transparency**. The report details Visa's integration of generative AI for fraud detection, risk scoring, and compliance automation, demonstrating transparency in AI adoption and its impact. It also outlines governance guardrails, including model risk management and responsible AI practices, and mentions ethical AI principles like fairness and unbiased models, supporting the identified pillars.",
+          "title": "Transforming payments with generative AI technologies",
+          "url": "https://corporate.visa.com/en/services/visa-consulting-analytics/insights/vca-transforming-payments-gen-ai-tech.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **external accountability, governance, oversight, and transparency**. It details Visa's use of AI and machine-learning models for real-time fraud detection, risk scoring, and automated decision-making, demonstrating operational governance and transparency in their security strategy. The document also highlights adherence to regulatory and security standards, supporting external accountability.",
+          "title": "Guide to detecting and preventing payment fraud",
+          "url": "https://corporate.visa.com/en/solutions/visa-protect/insights/payment-fraud.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 8,
+      "findings": "Visa acknowledges equity and fairness as AI risks and mentions ethical AI principles like fairness and unbiased models. Technical papers describe an AI Fairness Toolkit and outline a formal fairness framework with defined stakeholder responsibilities, including quantitative recommendations and metrics for bias management. Reports also mention human oversight to minimize unfair outcomes and a commitment to mitigating harm from deployed AI models.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The \"2023 Corporate Responsibility & Sustainability Report\" provides evidence for **governance, oversight, fairness, and transparency** in responsible AI. The report details Visa's establishment of a dedicated AI governance function and cross-functional processes to champion AI Principles, supporting **governance**. It also highlights board oversight of technology and cyber risk, and mentions human oversight to minimize unfair outcomes, demonstrating **oversight** and **fairness**. Furthermore, the report describes a tool for estimating environmental impact, indicating a commitment to **transparency** regarding AI capabilities.",
+          "title": "2023 Corporate Responsibility & Sustainability Report",
+          "url": "https://corporate.visa.com/content/dam/VCOM/regional/na/us/about-visa/documents/2023-corporate-responsibility-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This technical paper from Visa provides evidence for **governance**, **fairness**, and **external accountability**. It discusses AI governance controls for managing risk across a model's lifecycle and proactive harm prevention, as well as explicitly addressing fairness by suggesting quantitative recommendations and metrics for bias management. Furthermore, the document details AI vendor risk management and accountability for third-party AI, supporting the external accountability pillar.",
+          "title": "Visa comments on NIST AI Risk Management Framework (2nd draft)",
+          "url": "https://nist.gov/document/ai-rmf-2nd-draft-comments-visa-inc"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Building inclusive, trustworthy Artificial Intelligence (AI Fairness Toolkit),\" provides evidence for **fairness**, **transparency**, **governance**, and **explainability**. The paper describes Visa's AI Fairness Toolkit, which aims to align fairness, ethics, accountability, and transparency in machine learning systems, offering stakeholders a flexible perspective on fairness and its business value. It also mentions a commitment to mitigating harm from deployed AI models, implying accountability, and outlines a formal fairness framework with defined stakeholder responsibilities, supporting governance.",
+          "title": "Building inclusive, trustworthy Artificial Intelligence (AI Fairness Toolkit)",
+          "url": "https://visa.com.sg/dam/VCOM/regional/ap/documents/vca-building-inclusive-trustworthy-ai.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Visa Perspectives blog post provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports the fairness pillar by acknowledging \"equity and fairness as AI risks,\" indicating awareness of potential biases. The governance pillar is supported by the mention of \"data governance committees,\" highlighting established mechanisms for overseeing data practices.",
+          "title": "Building resilient digital payments ecosystems for inclusive growth",
+          "url": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/building-resilient-digital-payment-ecosystems-for-inclusive-growth.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for **external_accountability, fairness, governance, and transparency**. The report details Visa's integration of generative AI for fraud detection, risk scoring, and compliance automation, demonstrating transparency in AI adoption and its impact. It also outlines governance guardrails, including model risk management and responsible AI practices, and mentions ethical AI principles like fairness and unbiased models, supporting the identified pillars.",
+          "title": "Transforming payments with generative AI technologies",
+          "url": "https://corporate.visa.com/en/services/visa-consulting-analytics/insights/vca-transforming-payments-gen-ai-tech.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 57,
+      "findings": "Visa documents a commitment to safely and responsibly integrating AI, including board oversight of AI risks and the establishment of a dedicated AI governance function with cross-functional processes to champion AI Principles. Technical papers outline governance guardrails, model risk management, and responsible AI practices, including controls for managing risk across a model's lifecycle and proactive harm prevention. Policy documents also establish contractual requirements for suppliers regarding AI data use and mandate compliance with AI laws, while describing protocols for AI agent authentication and risk management.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Enabling trusted commerce and protecting customers,\" provides evidence for the governance, privacy, and transparency pillars of responsible AI. It establishes AI Principles that guide development, deployment, and assessment, demonstrating strong governance. The document also commits to data stewardship and responsible practices for AI, supporting the privacy pillar, and mentions AI-powered tools for transaction evaluation and authentication, indicating operational deployment and transparency in their use.",
+          "title": "Enabling trusted commerce and protecting customers",
+          "url": "https://corporate.visa.com/en/about-visa/crs/securing-commerce.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The \"2023 Corporate Responsibility & Sustainability Report\" provides evidence for **governance, oversight, fairness, and transparency** in responsible AI. The report details Visa's establishment of a dedicated AI governance function and cross-functional processes to champion AI Principles, supporting **governance**. It also highlights board oversight of technology and cyber risk, and mentions human oversight to minimize unfair outcomes, demonstrating **oversight** and **fairness**. Furthermore, the report describes a tool for estimating environmental impact, indicating a commitment to **transparency** regarding AI capabilities.",
+          "title": "2023 Corporate Responsibility & Sustainability Report",
+          "url": "https://corporate.visa.com/content/dam/VCOM/regional/na/us/about-visa/documents/2023-corporate-responsibility-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This technical paper from Visa provides evidence for **governance**, **fairness**, and **external accountability**. It discusses AI governance controls for managing risk across a model's lifecycle and proactive harm prevention, as well as explicitly addressing fairness by suggesting quantitative recommendations and metrics for bias management. Furthermore, the document details AI vendor risk management and accountability for third-party AI, supporting the external accountability pillar.",
+          "title": "Visa comments on NIST AI Risk Management Framework (2nd draft)",
+          "url": "https://nist.gov/document/ai-rmf-2nd-draft-comments-visa-inc"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Building inclusive, trustworthy Artificial Intelligence (AI Fairness Toolkit),\" provides evidence for **fairness**, **transparency**, **governance**, and **explainability**. The paper describes Visa's AI Fairness Toolkit, which aims to align fairness, ethics, accountability, and transparency in machine learning systems, offering stakeholders a flexible perspective on fairness and its business value. It also mentions a commitment to mitigating harm from deployed AI models, implying accountability, and outlines a formal fairness framework with defined stakeholder responsibilities, supporting governance.",
+          "title": "Building inclusive, trustworthy Artificial Intelligence (AI Fairness Toolkit)",
+          "url": "https://visa.com.sg/dam/VCOM/regional/ap/documents/vca-building-inclusive-trustworthy-ai.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The Visa Global Privacy Notice supports the **governance** and **privacy** pillars. This policy document describes how Visa uses personal data, including identifiers and behavioral information, within AI and rules-based systems for purposes such as fraud detection, risk assessment, and personalization, which implies automated decision-making processes. It also outlines the legal bases for data processing and user rights concerning profiling and marketing, directly addressing privacy concerns.",
+          "title": "Visa Global Privacy Notice",
+          "url": "https://usa.visa.com/legal/global-privacy-notice.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Visa Supplier Privacy and Security Terms,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by establishing a formal contractual requirement that prohibits suppliers from using Visa data to train AI systems without consent and mandates compliance with AI laws. The policy also supports privacy by requiring suppliers to implement security safeguards and delete or return Visa data upon request.",
+          "title": "Visa Supplier Privacy and Security Terms",
+          "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/partner-with-us/documents/supplier-privacy-and-security-terms.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Visa Perspectives blog post provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports the fairness pillar by acknowledging \"equity and fairness as AI risks,\" indicating awareness of potential biases. The governance pillar is supported by the mention of \"data governance committees,\" highlighting established mechanisms for overseeing data practices.",
+          "title": "Building resilient digital payments ecosystems for inclusive growth",
+          "url": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/building-resilient-digital-payment-ecosystems-for-inclusive-growth.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for **external_accountability, fairness, governance, and transparency**. The report details Visa's integration of generative AI for fraud detection, risk scoring, and compliance automation, demonstrating transparency in AI adoption and its impact. It also outlines governance guardrails, including model risk management and responsible AI practices, and mentions ethical AI principles like fairness and unbiased models, supporting the identified pillars.",
+          "title": "Transforming payments with generative AI technologies",
+          "url": "https://corporate.visa.com/en/services/visa-consulting-analytics/insights/vca-transforming-payments-gen-ai-tech.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **external accountability, governance, oversight, and transparency**. It details Visa's use of AI and machine-learning models for real-time fraud detection, risk scoring, and automated decision-making, demonstrating operational governance and transparency in their security strategy. The document also highlights adherence to regulatory and security standards, supporting external accountability.",
+          "title": "Guide to detecting and preventing payment fraud",
+          "url": "https://corporate.visa.com/en/solutions/visa-protect/insights/payment-fraud.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This audit report on Pay.UK's fraud detection pilot with Visa Protect provides evidence for the **governance** and **transparency** pillars. It supports transparency by detailing the use of advanced AI/ML for network-level risk scoring and fraud detection, highlighting ongoing investment in AI innovation and the development of sophisticated AI models. The report also touches on governance by referencing the use of AI-driven risk scores by participating institutions.",
+          "title": "Pay.UK fraud detection pilot with Visa Protect for A2A Payments",
+          "url": "https://corporate.visa.com/content/dam/VCOM/corporate/products/documents/visa-protect-for-a2a-payments-pay.uk-case-study.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This system card for VisaNet +AI provides evidence for the **governance** and **transparency** pillars. It supports transparency by highlighting investments in AI platforms and detailing specific AI model performance metrics, along with mentioning internal simulations. The document also supports governance by describing the AI capabilities for authorization, clearing, and settlement, thus explaining what the system does.",
+          "title": "VisaNet +AI product overview",
+          "url": "https://visa.ca/en_CA/products/visanet-plus-ai.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning a dedicated team with a mission for AI use, implying oversight. Transparency is supported by references to \"AI developers\" and \"generative AI tools,\" as well as \"automation\" and \"advanced data tools,\" indicating the use of these technologies.",
+          "title": "Visa’s fight to defend the digital economy",
+          "url": "https://corporate.visa.com/en/sites/visa-perspectives/security-trust/visa-digital-economy-defense.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This Visa Perspectives blog post provides evidence for **governance** by describing Visa's investment and strategic decision-making in building AI platforms for fraud prevention, indicating accountability for AI development. It also supports **transparency** by detailing the capabilities of AI tools used for fraud detection, such as adaptive tactics, automation, and scalability.",
+          "title": "AI is changing fraud — and how to fight back",
+          "url": "https://corporate.visa.com/en/sites/visa-perspectives/security-trust/ai-and-the-future-of-fraud.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Trusted Agent Protocol – Visa Developer Center,\" provides evidence for the **governance** pillar of responsible AI. It describes a protocol designed to establish trust and accountability for AI agents interacting with merchant sites by using time-bound, purpose-specific signatures for authentication. The document outlines specific processes and best practices for agent identification, intent conveyance, and distinguishing trusted agents from malicious bots, thereby supporting governance requirements for agent interaction and secure commerce.",
+          "title": "Trusted Agent Protocol – Visa Developer Center",
+          "url": "https://developer.visa.com/capabilities/trusted-agent-protocol"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It describes Visa's \"Trusted Agent Protocol\" and related controls, which are designed to authenticate AI agents, manage risk, and protect against bot and abuse, demonstrating governance and transparency in their AI framework. The press release also highlights mechanisms for identity, authentication, and fraud controls for AI agents, supporting the privacy pillar by detailing how payments will be kept secure as agent-driven commerce scales.",
+          "title": "Visa and partners complete secure AI transactions",
+          "url": "https://corporate.visa.com/en/sites/visa-perspectives/newsroom/visa-partners-complete-secure-agentic-transactions.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This Visa Stories blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by highlighting risk management, data collection policies, and guardrails for AI deployment, as well as mentioning internal testing and iterative development. The blog post also touches on privacy through its discussion of data governance and implies transparency by mentioning the use and benefits of AI tools.",
+          "title": "How generative AI is heralding a payments revolution across Asia Pacific",
+          "url": "https://visa.com.sg/about-visa/stories/2023/how-generative-ai-is-heralding-a-payments-revolution-across-asia-pacific.html"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_020",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the governance, privacy, and transparency pillars of responsible AI. It highlights Visa's commitment to safely and responsibly integrating AI, including board oversight of AI risks and the use of secure generative AI tools by employees, demonstrating a focus on governed AI adoption. The document also mentions AI-enabled capabilities, suggesting a degree of transparency in their AI solutions.",
+          "title": "Visa Inc. 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1403161/000130817924000807/v4356611_def14.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 17
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "Reports highlight board oversight of technology and cyber risk. These reports also mention human oversight to minimize unfair outcomes.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The \"2023 Corporate Responsibility & Sustainability Report\" provides evidence for **governance, oversight, fairness, and transparency** in responsible AI. The report details Visa's establishment of a dedicated AI governance function and cross-functional processes to champion AI Principles, supporting **governance**. It also highlights board oversight of technology and cyber risk, and mentions human oversight to minimize unfair outcomes, demonstrating **oversight** and **fairness**. Furthermore, the report describes a tool for estimating environmental impact, indicating a commitment to **transparency** regarding AI capabilities.",
+          "title": "2023 Corporate Responsibility & Sustainability Report",
+          "url": "https://corporate.visa.com/content/dam/VCOM/regional/na/us/about-visa/documents/2023-corporate-responsibility-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **external accountability, governance, oversight, and transparency**. It details Visa's use of AI and machine-learning models for real-time fraud detection, risk scoring, and automated decision-making, demonstrating operational governance and transparency in their security strategy. The document also highlights adherence to regulatory and security standards, supporting external accountability.",
+          "title": "Guide to detecting and preventing payment fraud",
+          "url": "https://corporate.visa.com/en/solutions/visa-protect/insights/payment-fraud.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "Visa commits to data stewardship and responsible AI practices, with policy documents describing how personal data is used in AI systems for fraud detection, risk assessment, and personalization. These documents outline legal bases for data processing and user rights concerning profiling. Furthermore, Visa establishes contractual requirements prohibiting suppliers from using Visa data to train AI systems without consent, mandating security safeguards, and requiring data deletion or return upon request.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Enabling trusted commerce and protecting customers,\" provides evidence for the governance, privacy, and transparency pillars of responsible AI. It establishes AI Principles that guide development, deployment, and assessment, demonstrating strong governance. The document also commits to data stewardship and responsible practices for AI, supporting the privacy pillar, and mentions AI-powered tools for transaction evaluation and authentication, indicating operational deployment and transparency in their use.",
+          "title": "Enabling trusted commerce and protecting customers",
+          "url": "https://corporate.visa.com/en/about-visa/crs/securing-commerce.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The Visa Global Privacy Notice supports the **governance** and **privacy** pillars. This policy document describes how Visa uses personal data, including identifiers and behavioral information, within AI and rules-based systems for purposes such as fraud detection, risk assessment, and personalization, which implies automated decision-making processes. It also outlines the legal bases for data processing and user rights concerning profiling and marketing, directly addressing privacy concerns.",
+          "title": "Visa Global Privacy Notice",
+          "url": "https://usa.visa.com/legal/global-privacy-notice.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Visa Supplier Privacy and Security Terms,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by establishing a formal contractual requirement that prohibits suppliers from using Visa data to train AI systems without consent and mandates compliance with AI laws. The policy also supports privacy by requiring suppliers to implement security safeguards and delete or return Visa data upon request.",
+          "title": "Visa Supplier Privacy and Security Terms",
+          "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/partner-with-us/documents/supplier-privacy-and-security-terms.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It describes Visa's \"Trusted Agent Protocol\" and related controls, which are designed to authenticate AI agents, manage risk, and protect against bot and abuse, demonstrating governance and transparency in their AI framework. The press release also highlights mechanisms for identity, authentication, and fraud controls for AI agents, supporting the privacy pillar by detailing how payments will be kept secure as agent-driven commerce scales.",
+          "title": "Visa and partners complete secure AI transactions",
+          "url": "https://corporate.visa.com/en/sites/visa-perspectives/newsroom/visa-partners-complete-secure-agentic-transactions.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This Visa Stories blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by highlighting risk management, data collection policies, and guardrails for AI deployment, as well as mentioning internal testing and iterative development. The blog post also touches on privacy through its discussion of data governance and implies transparency by mentioning the use and benefits of AI tools.",
+          "title": "How generative AI is heralding a payments revolution across Asia Pacific",
+          "url": "https://visa.com.sg/about-visa/stories/2023/how-generative-ai-is-heralding-a-payments-revolution-across-asia-pacific.html"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_020",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the governance, privacy, and transparency pillars of responsible AI. It highlights Visa's commitment to safely and responsibly integrating AI, including board oversight of AI risks and the use of secure generative AI tools by employees, demonstrating a focus on governed AI adoption. The document also mentions AI-enabled capabilities, suggesting a degree of transparency in their AI solutions.",
+          "title": "Visa Inc. 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1403161/000130817924000807/v4356611_def14.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 42,
+      "findings": "Visa documents its use of AI-powered tools for various purposes, including transaction evaluation, authentication, fraud detection, risk scoring, and compliance automation. These materials detail AI model capabilities, performance metrics, training data features, and operational deployment. Visa also highlights investments in AI platforms and innovation, referencing tools like the AI Fairness Toolkit and the Trusted Agent Protocol.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Enabling trusted commerce and protecting customers,\" provides evidence for the governance, privacy, and transparency pillars of responsible AI. It establishes AI Principles that guide development, deployment, and assessment, demonstrating strong governance. The document also commits to data stewardship and responsible practices for AI, supporting the privacy pillar, and mentions AI-powered tools for transaction evaluation and authentication, indicating operational deployment and transparency in their use.",
+          "title": "Enabling trusted commerce and protecting customers",
+          "url": "https://corporate.visa.com/en/about-visa/crs/securing-commerce.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The \"2023 Corporate Responsibility & Sustainability Report\" provides evidence for **governance, oversight, fairness, and transparency** in responsible AI. The report details Visa's establishment of a dedicated AI governance function and cross-functional processes to champion AI Principles, supporting **governance**. It also highlights board oversight of technology and cyber risk, and mentions human oversight to minimize unfair outcomes, demonstrating **oversight** and **fairness**. Furthermore, the report describes a tool for estimating environmental impact, indicating a commitment to **transparency** regarding AI capabilities.",
+          "title": "2023 Corporate Responsibility & Sustainability Report",
+          "url": "https://corporate.visa.com/content/dam/VCOM/regional/na/us/about-visa/documents/2023-corporate-responsibility-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Building inclusive, trustworthy Artificial Intelligence (AI Fairness Toolkit),\" provides evidence for **fairness**, **transparency**, **governance**, and **explainability**. The paper describes Visa's AI Fairness Toolkit, which aims to align fairness, ethics, accountability, and transparency in machine learning systems, offering stakeholders a flexible perspective on fairness and its business value. It also mentions a commitment to mitigating harm from deployed AI models, implying accountability, and outlines a formal fairness framework with defined stakeholder responsibilities, supporting governance.",
+          "title": "Building inclusive, trustworthy Artificial Intelligence (AI Fairness Toolkit)",
+          "url": "https://visa.com.sg/dam/VCOM/regional/ap/documents/vca-building-inclusive-trustworthy-ai.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for **external_accountability, fairness, governance, and transparency**. The report details Visa's integration of generative AI for fraud detection, risk scoring, and compliance automation, demonstrating transparency in AI adoption and its impact. It also outlines governance guardrails, including model risk management and responsible AI practices, and mentions ethical AI principles like fairness and unbiased models, supporting the identified pillars.",
+          "title": "Transforming payments with generative AI technologies",
+          "url": "https://corporate.visa.com/en/services/visa-consulting-analytics/insights/vca-transforming-payments-gen-ai-tech.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post from Visa discusses how AI is used to combat fraud in digital finance, particularly in Latin America. It provides evidence for the **transparency** pillar by describing AI tools and their scope in analyzing transaction and behavioral data to identify scams and score risk. While it highlights the use of these AI solutions, the post does not offer specific execution details for operational or policy classification.",
+          "title": "Responsible AI in digital finance to combat fraud",
+          "url": "https://visa.com.bz/partner-with-us/info-for-partners/blog/responsible-ai-fraud-prevention-latin-america.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **external accountability, governance, oversight, and transparency**. It details Visa's use of AI and machine-learning models for real-time fraud detection, risk scoring, and automated decision-making, demonstrating operational governance and transparency in their security strategy. The document also highlights adherence to regulatory and security standards, supporting external accountability.",
+          "title": "Guide to detecting and preventing payment fraud",
+          "url": "https://corporate.visa.com/en/solutions/visa-protect/insights/payment-fraud.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This audit report on Pay.UK's fraud detection pilot with Visa Protect provides evidence for the **governance** and **transparency** pillars. It supports transparency by detailing the use of advanced AI/ML for network-level risk scoring and fraud detection, highlighting ongoing investment in AI innovation and the development of sophisticated AI models. The report also touches on governance by referencing the use of AI-driven risk scores by participating institutions.",
+          "title": "Pay.UK fraud detection pilot with Visa Protect for A2A Payments",
+          "url": "https://corporate.visa.com/content/dam/VCOM/corporate/products/documents/visa-protect-for-a2a-payments-pay.uk-case-study.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** pillar of responsible AI. It details the Visa Account Attack Intelligence (VAAI) Score's capabilities, including its use of generative AI to identify attack likelihood, its performance metrics like false positive rate reduction, and the scale and features used in its training data. The press release also explains the system's speed and how its risk score output is used in decisioning, offering transparency into the AI model's function and development.",
+          "title": "Visa announces generative AI-powered fraud solution to combat account attacks",
+          "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20661.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This system card for VisaNet +AI provides evidence for the **governance** and **transparency** pillars. It supports transparency by highlighting investments in AI platforms and detailing specific AI model performance metrics, along with mentioning internal simulations. The document also supports governance by describing the AI capabilities for authorization, clearing, and settlement, thus explaining what the system does.",
+          "title": "VisaNet +AI product overview",
+          "url": "https://visa.ca/en_CA/products/visanet-plus-ai.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning a dedicated team with a mission for AI use, implying oversight. Transparency is supported by references to \"AI developers\" and \"generative AI tools,\" as well as \"automation\" and \"advanced data tools,\" indicating the use of these technologies.",
+          "title": "Visa’s fight to defend the digital economy",
+          "url": "https://corporate.visa.com/en/sites/visa-perspectives/security-trust/visa-digital-economy-defense.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This Visa Perspectives blog post provides evidence for **governance** by describing Visa's investment and strategic decision-making in building AI platforms for fraud prevention, indicating accountability for AI development. It also supports **transparency** by detailing the capabilities of AI tools used for fraud detection, such as adaptive tactics, automation, and scalability.",
+          "title": "AI is changing fraud — and how to fight back",
+          "url": "https://corporate.visa.com/en/sites/visa-perspectives/security-trust/ai-and-the-future-of-fraud.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It describes Visa's \"Trusted Agent Protocol\" and related controls, which are designed to authenticate AI agents, manage risk, and protect against bot and abuse, demonstrating governance and transparency in their AI framework. The press release also highlights mechanisms for identity, authentication, and fraud controls for AI agents, supporting the privacy pillar by detailing how payments will be kept secure as agent-driven commerce scales.",
+          "title": "Visa and partners complete secure AI transactions",
+          "url": "https://corporate.visa.com/en/sites/visa-perspectives/newsroom/visa-partners-complete-secure-agentic-transactions.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This Visa Stories blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by highlighting risk management, data collection policies, and guardrails for AI deployment, as well as mentioning internal testing and iterative development. The blog post also touches on privacy through its discussion of data governance and implies transparency by mentioning the use and benefits of AI tools.",
+          "title": "How generative AI is heralding a payments revolution across Asia Pacific",
+          "url": "https://visa.com.sg/about-visa/stories/2023/how-generative-ai-is-heralding-a-payments-revolution-across-asia-pacific.html"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_020",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the governance, privacy, and transparency pillars of responsible AI. It highlights Visa's commitment to safely and responsibly integrating AI, including board oversight of AI risks and the use of secure generative AI tools by employees, demonstrating a focus on governed AI adoption. The document also mentions AI-enabled capabilities, suggesting a degree of transparency in their AI solutions.",
+          "title": "Visa Inc. 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1403161/000130817924000807/v4356611_def14.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 14
+    }
+  },
+  "published_at": "2026-02-23T22:00:22Z",
+  "run_id": "20260203_024531_9ab6",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Visa's public disclosures document both operational practices and policy commitments across its responsible AI pillars. Operational practices include reports detailing the establishment of a dedicated AI governance function and policy documents mentioning AI-powered tools for transaction evaluation. All 7 evaluated pillars have documented public evidence, drawing from 20 publicly available sources. At the policy level, materials address fairness through quantitative recommendations for bias management and describe how personal data is used within AI systems for fraud detection and personalization. Further policy-level documentation covers explainability and external accountability, including AI vendor risk management.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 79,
+    "total_sources_used": 19
+  }
+}

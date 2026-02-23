@@ -1,0 +1,1158 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 100.0,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 14
+  },
+  "company": "Alphabet",
+  "company_slug": "alphabet",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 51,
+      "OPERATIONAL": 221,
+      "POLICY": 548
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 33,
+      "findings": "Reports mention understanding model reasoning as a mitigation approach for explainability. Technical documentation describes capabilities and methodologies, such as Shapley values and feature attributions, to understand model decision-making, identify feature contributions, and use insights for debugging and improving models. Help pages further detail methods for feature importance analysis and model interpretability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This system card, the \"Gemini 3 Pro Frontier Safety Framework Report,\" provides evidence for explainability, external accountability, governance, oversight, privacy, and transparency. The report details structured risk assessment processes, including threat modeling and mitigation strategies like guardrails and filters, supporting governance and oversight. It also describes third-party red teaming efforts and evaluations, demonstrating external accountability, and mentions understanding model reasoning and monitoring behavior as mitigation approaches, aligning with explainability and transparency.",
+          "title": "Gemini 3 Pro Frontier Safety Framework Report",
+          "url": "https://deepmind.google/models/fsf-reports/gemini-3-pro"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Google Cloud Responsible AI,\" provides evidence for the pillars of explainability, fairness, governance, privacy, and transparency. It supports governance through the mention of named review bodies and guiding frameworks like \"AI Principles,\" as well as operational mechanisms for governing AI agents. The document also indicates commitments to privacy by referencing a \"secure platform\" and to transparency and fairness through the mention of specific tools and practices.",
+          "title": "Google Cloud Responsible AI",
+          "url": "https://cloud.google.com/responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This technical documentation for Vertex Explainable AI provides evidence for the **explainability** and **transparency** pillars. The source describes capabilities and methodologies, such as Shapley values and feature attributions, that enable users to understand model decision-making and identify feature contributions to inferences. It also discusses how these explainability insights can be used for debugging and improving models, aligning with the goal of transparent AI.",
+          "title": "Vertex Explainable AI",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/explainable-ai/overview"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"BigQuery Explainable AI,\" provides evidence for **explainability** and **transparency** by detailing methods like Shapley values and tree-based attribution for feature importance analysis and model interpretability. It also offers evidence for **governance** by mentioning cost and registration processes, implying oversight in system usage, and for **fairness** by describing bias detection as a capability of explainability.",
+          "title": "BigQuery Explainable AI",
+          "url": "https://docs.cloud.google.com/bigquery/docs/xai-overview"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_027",
+          "source_tier": "authority",
+          "summary": "This FTC investigative report provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. The report supports these pillars by outlining data practices, automated decision-making, data collection and use policies, and the need for transparency in AI operations. It also highlights issues such as inconsistent monitoring, potential harms like discrimination, and the need for legislation and regulation, indicating gaps in current governance and oversight.",
+          "title": "FTC Social Media and Video Streaming Report (6b)",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This class action complaint provides evidence for several responsible AI pillars. It supports the **privacy** pillar by detailing allegations of unauthorized collection and use of personal data, including sensitive PII, for AI training without consent. The source also supports **governance** by highlighting alleged disregard for intellectual property rights, website policies, and legal mandates regarding data collection and use, as well as discussing the establishment of an AI Council for oversight and decision-making. Furthermore, the complaint touches on **external accountability** by citing external warnings about illegal data collection and profiting from it, and implies issues with **transparency** through allegations of lack of disclosure and access controls for data used in AI training.",
+          "title": "J.L. et al. v. Alphabet Inc. - Data and Copyright Lawsuit",
+          "url": "https://classaction.org/media/jl-et-al-v-alphabet-inc-et-al.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 49,
+      "findings": "Alphabet demonstrates external accountability through collaboration with external experts and organizations like MLCommons and the UK AI Safety Institute. Reports describe third-party red teaming efforts and evaluations, while technical papers reference compliance certifications and assessments against frameworks like NIST. Proxy statements mention mechanisms for independent validation, auditor services, and independent expert reviews, and shareholder proposals request annual algorithmic bias audits and call for independent human rights impact assessments.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"End-to-End Responsibility: AI Lifecycle Approach,\" provides evidence for **external accountability, governance, privacy, and transparency**. It details Alphabet's lifecycle approach to responsible AI, including operational risk assessments against NIST AI RMF and ISO 42001, technical safeguards like \"layered protections,\" and collaboration with external experts and organizations like MLCommons and the UK AI Safety Institute, demonstrating external accountability and governance. The document also outlines AI responsibility-by-design policies, prohibited use policies, and mechanisms for private releases and feedback loops, supporting transparency and governance. Furthermore, it mentions standardized protections and model cards for auditable reporting, contributing to governance and transparency.",
+          "title": "End-to-End Responsibility: AI Lifecycle Approach",
+          "url": "https://ai.google/static/documents/ai-responsibility-2024-update.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This system card, the \"Gemini 3 Pro Frontier Safety Framework Report,\" provides evidence for explainability, external accountability, governance, oversight, privacy, and transparency. The report details structured risk assessment processes, including threat modeling and mitigation strategies like guardrails and filters, supporting governance and oversight. It also describes third-party red teaming efforts and evaluations, demonstrating external accountability, and mentions understanding model reasoning and monitoring behavior as mitigation approaches, aligning with explainability and transparency.",
+          "title": "Gemini 3 Pro Frontier Safety Framework Report",
+          "url": "https://deepmind.google/models/fsf-reports/gemini-3-pro"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Implementing SAIF Controls on Google Cloud,\" provides evidence for external_accountability, fairness, governance, privacy, and transparency. It details operational mechanisms for governance and privacy through tools for self-assessment and risk mitigation, and describes the use of Confidential Computing for data protection. The paper also highlights the enforcement of governance through a Model Registry requiring models to pass checks, and addresses fairness by mentioning AI Red Teams testing for biased responses. Furthermore, it discusses transparency through auditable logging and published technical reports on model development, and supports external accountability by referencing compliance certifications and assessments against frameworks like NIST.",
+          "title": "Implementing SAIF Controls on Google Cloud",
+          "url": "https://services.google.com/fh/files/misc/ociso_2025_saif_cloud_paper.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This Alphabet AI safety hub, \"Advancing AI Safely and Responsibly,\" provides evidence for external accountability, governance, oversight, and privacy. The help page details a commitment to AI principles and responsible development, supporting governance. It highlights 24/7 monitoring by safety/security teams, human review by independent experts, and automated red teaming, all of which demonstrate oversight and operational security practices that safeguard products and infrastructure, thereby supporting privacy. Furthermore, the mention of a bug bounty program with external researchers and incentives supports external accountability.",
+          "title": "Advancing AI Safely and Responsibly",
+          "url": "https://ai.google/safety"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_022",
+          "source_tier": "authority",
+          "summary": "The Alphabet 2024 Annual Report (Form 10-K) provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The report details Alphabet's AI strategy, investment plans, and commitment to responsible AI deployment, supporting **governance** and **external_accountability** through mentions of oversight committees and executive leadership responsibility for risk management. Evidence for **privacy** is found in discussions of data protection laws, incident tracking, and risks of personal data disclosure from AI use. The report also supports **transparency** by describing AI offerings and capabilities, such as Vertex AI and Gemini, and **fairness** through acknowledgments of risks like discrimination. Mechanisms like incident review processes and reporting cadences demonstrate **oversight**.",
+          "title": "Alphabet 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_023",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Alphabet's governance structures, including board committee oversight of AI risks and compliance, and mentions specific mechanisms like AI model cards and technical reports to ensure transparency. The document also references policies and processes for responsible AI development, including human oversight, guardrails, and assessments for potential fairness issues, as well as commitments to data privacy and security.",
+          "title": "Alphabet 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817925000511/goog012701-def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_024",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Alphabet's AI Principles, risk frameworks, product policies, and organizational governance structures, including the roles of the Board, Audit and Compliance Committee, and Compensation Committee. The document also references mechanisms for independent validation, human oversight in decision-making, due diligence, and compliance programs, as well as commitments to user privacy and transparent reporting on AI implementation.",
+          "title": "Alphabet 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817924000612/lgoog2024_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_025",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by outlining policies and procedures for algorithmic bias mitigation, including efforts to block offensive language and reduce discriminatory bias. The document also details governance structures, such as board and committee oversight of human capital management, risk management, and compensation programs, alongside commitments to transparency through algorithm disclosures and reporting on misinformation. Furthermore, it addresses privacy and security risks and mentions external accountability through auditor services and independent expert reviews.",
+          "title": "Alphabet 2022 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_026",
+          "source_tier": "authority",
+          "summary": "This shareholder proposal provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by requesting annual algorithmic bias audits to assess impacts on high-stakes decisions, reflecting investor concern about discriminatory effects and the need for transparency in algorithmic systems. The proposal also implies a need for management accountability and governance over AI/ML products, and touches upon data protection and security.",
+          "title": "Shareholder Proposal: Algorithmic Bias Audit (2022)",
+          "url": "https://sec.gov/divisions/corpfin/cf-noaction/14a-8/2022/trilliumalphabet041522-14a8.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_027",
+          "source_tier": "authority",
+          "summary": "This FTC investigative report provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. The report supports these pillars by outlining data practices, automated decision-making, data collection and use policies, and the need for transparency in AI operations. It also highlights issues such as inconsistent monitoring, potential harms like discrimination, and the need for legislation and regulation, indicating gaps in current governance and oversight.",
+          "title": "FTC Social Media and Video Streaming Report (6b)",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This class action complaint provides evidence for several responsible AI pillars. It supports the **privacy** pillar by detailing allegations of unauthorized collection and use of personal data, including sensitive PII, for AI training without consent. The source also supports **governance** by highlighting alleged disregard for intellectual property rights, website policies, and legal mandates regarding data collection and use, as well as discussing the establishment of an AI Council for oversight and decision-making. Furthermore, the complaint touches on **external accountability** by citing external warnings about illegal data collection and profiting from it, and implies issues with **transparency** through allegations of lack of disclosure and access controls for data used in AI training.",
+          "title": "J.L. et al. v. Alphabet Inc. - Data and Copyright Lawsuit",
+          "url": "https://classaction.org/media/jl-et-al-v-alphabet-inc-et-al.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_034",
+          "source_tier": "third_party",
+          "summary": "This shareholder proposal, \"Human Rights Impact Assessment,\" provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. It highlights concerns regarding the adequacy of due diligence measures for AI risks, the need for human oversight, and the insufficiency of current human rights governance structures. The proposal also calls for an independent human rights impact assessment, indicating a need for external accountability and touching upon privacy concerns related to AI-driven targeted advertising.",
+          "title": "Shareholder Proposal: Human Rights Impact Assessment",
+          "url": "https://iccr.org/wp-content/uploads/2025/05/Alphabet-human-rights.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_035",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Investor Views on AI Oversight and Proxy Analysis,\" provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The report details shareholder proposals and investor views advocating for enhanced AI governance structures, such as board committee amendments for AI risk oversight, and calls for transparency in AI usage, risks, and ethical guidelines. It also references third-party assessments and public reporting requirements, demonstrating a focus on external accountability and clear oversight mechanisms.",
+          "title": "Investor Views on AI Oversight and Proxy Analysis",
+          "url": "https://connect.sustainalytics.com/hubfs/INV/Reports/Proxy-Voting-Insights-Investor-Views-on-AI-Oversight-2025.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 13
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 64,
+      "findings": "Alphabet addresses fairness through AI Red Teams testing for biased responses and describes bias detection as a capability of explainability. Annual reports acknowledge discrimination risks, and proxy statements outline policies for algorithmic bias mitigation, including efforts to block offensive language and reduce discriminatory bias. Shareholder proposals request algorithmic bias audits and highlight concerns about algorithmic discrimination, specifically mentioning racial biases in face detection technology and impacts on BIPOC communities.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The Gemma Model Card provides evidence for fairness, governance, oversight, privacy, and transparency. It supports transparency by summarizing the model's architecture, capabilities, and evaluations. The model card also demonstrates governance and oversight through its description of structured evaluations, red-teaming, and adherence to internal safety policies and benchmarks. Furthermore, it addresses privacy by detailing the filtering of personal and sensitive data for safety and content exclusion, aligning with responsible AI practices.",
+          "title": "Gemma Model Card",
+          "url": "https://ai.google.dev/gemma/docs/core/model_card"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Implementing SAIF Controls on Google Cloud,\" provides evidence for external_accountability, fairness, governance, privacy, and transparency. It details operational mechanisms for governance and privacy through tools for self-assessment and risk mitigation, and describes the use of Confidential Computing for data protection. The paper also highlights the enforcement of governance through a Model Registry requiring models to pass checks, and addresses fairness by mentioning AI Red Teams testing for biased responses. Furthermore, it discusses transparency through auditable logging and published technical reports on model development, and supports external accountability by referencing compliance certifications and assessments against frameworks like NIST.",
+          "title": "Implementing SAIF Controls on Google Cloud",
+          "url": "https://services.google.com/fh/files/misc/ociso_2025_saif_cloud_paper.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Google Cloud Responsible AI,\" provides evidence for the pillars of explainability, fairness, governance, privacy, and transparency. It supports governance through the mention of named review bodies and guiding frameworks like \"AI Principles,\" as well as operational mechanisms for governing AI agents. The document also indicates commitments to privacy by referencing a \"secure platform\" and to transparency and fairness through the mention of specific tools and practices.",
+          "title": "Google Cloud Responsible AI",
+          "url": "https://cloud.google.com/responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"BigQuery Explainable AI,\" provides evidence for **explainability** and **transparency** by detailing methods like Shapley values and tree-based attribution for feature importance analysis and model interpretability. It also offers evidence for **governance** by mentioning cost and registration processes, implying oversight in system usage, and for **fairness** by describing bias detection as a capability of explainability.",
+          "title": "BigQuery Explainable AI",
+          "url": "https://docs.cloud.google.com/bigquery/docs/xai-overview"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_022",
+          "source_tier": "authority",
+          "summary": "The Alphabet 2024 Annual Report (Form 10-K) provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The report details Alphabet's AI strategy, investment plans, and commitment to responsible AI deployment, supporting **governance** and **external_accountability** through mentions of oversight committees and executive leadership responsibility for risk management. Evidence for **privacy** is found in discussions of data protection laws, incident tracking, and risks of personal data disclosure from AI use. The report also supports **transparency** by describing AI offerings and capabilities, such as Vertex AI and Gemini, and **fairness** through acknowledgments of risks like discrimination. Mechanisms like incident review processes and reporting cadences demonstrate **oversight**.",
+          "title": "Alphabet 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_023",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Alphabet's governance structures, including board committee oversight of AI risks and compliance, and mentions specific mechanisms like AI model cards and technical reports to ensure transparency. The document also references policies and processes for responsible AI development, including human oversight, guardrails, and assessments for potential fairness issues, as well as commitments to data privacy and security.",
+          "title": "Alphabet 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817925000511/goog012701-def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_024",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Alphabet's AI Principles, risk frameworks, product policies, and organizational governance structures, including the roles of the Board, Audit and Compliance Committee, and Compensation Committee. The document also references mechanisms for independent validation, human oversight in decision-making, due diligence, and compliance programs, as well as commitments to user privacy and transparent reporting on AI implementation.",
+          "title": "Alphabet 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817924000612/lgoog2024_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_025",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by outlining policies and procedures for algorithmic bias mitigation, including efforts to block offensive language and reduce discriminatory bias. The document also details governance structures, such as board and committee oversight of human capital management, risk management, and compensation programs, alongside commitments to transparency through algorithm disclosures and reporting on misinformation. Furthermore, it addresses privacy and security risks and mentions external accountability through auditor services and independent expert reviews.",
+          "title": "Alphabet 2022 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_026",
+          "source_tier": "authority",
+          "summary": "This shareholder proposal provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by requesting annual algorithmic bias audits to assess impacts on high-stakes decisions, reflecting investor concern about discriminatory effects and the need for transparency in algorithmic systems. The proposal also implies a need for management accountability and governance over AI/ML products, and touches upon data protection and security.",
+          "title": "Shareholder Proposal: Algorithmic Bias Audit (2022)",
+          "url": "https://sec.gov/divisions/corpfin/cf-noaction/14a-8/2022/trilliumalphabet041522-14a8.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_027",
+          "source_tier": "authority",
+          "summary": "This FTC investigative report provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. The report supports these pillars by outlining data practices, automated decision-making, data collection and use policies, and the need for transparency in AI operations. It also highlights issues such as inconsistent monitoring, potential harms like discrimination, and the need for legislation and regulation, indicating gaps in current governance and oversight.",
+          "title": "FTC Social Media and Video Streaming Report (6b)",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This class action complaint provides evidence for several responsible AI pillars. It supports the **privacy** pillar by detailing allegations of unauthorized collection and use of personal data, including sensitive PII, for AI training without consent. The source also supports **governance** by highlighting alleged disregard for intellectual property rights, website policies, and legal mandates regarding data collection and use, as well as discussing the establishment of an AI Council for oversight and decision-making. Furthermore, the complaint touches on **external accountability** by citing external warnings about illegal data collection and profiting from it, and implies issues with **transparency** through allegations of lack of disclosure and access controls for data used in AI training.",
+          "title": "J.L. et al. v. Alphabet Inc. - Data and Copyright Lawsuit",
+          "url": "https://classaction.org/media/jl-et-al-v-alphabet-inc-et-al.pdf"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_032",
+          "source_tier": "third_party",
+          "summary": "This court filing, an amicus brief, provides evidence for **fairness** by documenting alleged discrimination and bias in AI research contexts. It also strongly supports **governance** by detailing concerns about employment law violations, retaliation against researchers for their work, and the need for robust reporting mechanisms, anonymity, confidentiality, and anti-retaliation protections to ensure accountability and compliance.",
+          "title": "AI Researcher Dismissals and Labor Concerns",
+          "url": "https://business.cch.com/ald/USvGoogleLLCAlphabetWorkersUnionAmicusBrief.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_033",
+          "source_tier": "third_party",
+          "summary": "This shareholder proposal, \"Racial Equity Audit,\" provides evidence for the **fairness** and **governance** pillars. It supports fairness by highlighting concerns about algorithmic discrimination in AI tools, specifically mentioning racial biases in face detection technology and impacts on BIPOC communities. The proposal also touches on governance by expressing concerns regarding leadership in AI ethics and accountability.",
+          "title": "Shareholder Proposal: Racial Equity Audit",
+          "url": "https://iccr.org/resolutions/racial-equity-audit-21"
+        }
+      ],
+      "score": 2,
+      "source_count": 13
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 671,
+      "findings": "Alphabet establishes commitments to responsible AI development through active governance processes, risk assessment, evaluation, and mitigation techniques. Reports detail a structured approach to AI risk management, including codified risk taxonomies and launch requirements, and highlight ongoing governance requirements for post-launch assessments. Policy documents outline AI responsibility-by-design policies, prohibited use policies, and detail operational risk assessments against frameworks like NIST AI RMF and ISO 42001. Governance structures, including board committee oversight of AI risks and compliance, are detailed in proxy statements, which also reference policies and processes for responsible AI development.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"AI Principles,\" provides evidence for the **governance**, **oversight**, and **privacy** pillars. It establishes Alphabet's commitments to responsible AI development through mechanisms like active governance processes, risk assessment, evaluation, and mitigation techniques. The document also highlights a commitment to human oversight and due diligence, as well as safeguarding safety, security, and privacy throughout the AI lifecycle.",
+          "title": "AI Principles",
+          "url": "https://ai.google/principles"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This Responsible AI Progress Report 2024 system card provides evidence for governance, oversight, privacy, and transparency. It details a structured approach to AI risk management through a codified risk taxonomy and launch requirements including risk assessment and provenance (SynthID), supporting governance. The report also highlights executive leadership reviews and ongoing governance requirements for post-launch assessments, demonstrating oversight. Furthermore, it mentions training data filtering and privacy as part of governance requirements, and the operational deployment of SynthID watermarking in Google Image Search, which supports transparency.",
+          "title": "Responsible AI Progress Report 2024",
+          "url": "https://ai.google/static/documents/ai-responsibility-update-published-february-2025.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"End-to-End Responsibility: AI Lifecycle Approach,\" provides evidence for **external accountability, governance, privacy, and transparency**. It details Alphabet's lifecycle approach to responsible AI, including operational risk assessments against NIST AI RMF and ISO 42001, technical safeguards like \"layered protections,\" and collaboration with external experts and organizations like MLCommons and the UK AI Safety Institute, demonstrating external accountability and governance. The document also outlines AI responsibility-by-design policies, prohibited use policies, and mechanisms for private releases and feedback loops, supporting transparency and governance. Furthermore, it mentions standardized protections and model cards for auditable reporting, contributing to governance and transparency.",
+          "title": "End-to-End Responsibility: AI Lifecycle Approach",
+          "url": "https://ai.google/static/documents/ai-responsibility-2024-update.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Frontier Safety Framework (v1),\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It establishes protocols for identifying and mitigating severe AI capabilities, demonstrating a structured approach to risk management and a commitment to ongoing research and evaluation through a dedicated team. The framework also outlines the application of mitigation plans focused on security and deployment, which are relevant to governance and privacy concerns.",
+          "title": "Frontier Safety Framework (v1)",
+          "url": "https://deepmind.google/blog/introducing-the-frontier-safety-framework"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Frontier Safety Framework (v2),\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It supports governance by mentioning \"corporate governance body reviews\" and \"approved\" decisions, indicating human oversight and decision-making authority. The framework also supports oversight through descriptions of \"automated monitoring\" and \"detect\" capabilities, which are mechanisms for controlling and observing AI system behavior.",
+          "title": "Frontier Safety Framework (v2)",
+          "url": "https://deepmind.google/blog/updating-the-frontier-safety-framework"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Frontier Safety Framework (v3)\", provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing a formal risk assessment process, a structured framework for identifying and mitigating AI risks based on capabilities, and a commitment to rigorous governance and proactive security measures as a standard development approach, including execution of safety case reviews. The document also supports the privacy pillar through its commitment to evolving the framework based on input and collaboration, implying a mechanism for addressing privacy concerns within its risk management processes.",
+          "title": "Frontier Safety Framework (v3)",
+          "url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This system card, the \"Gemini 3 Pro Frontier Safety Framework Report,\" provides evidence for explainability, external accountability, governance, oversight, privacy, and transparency. The report details structured risk assessment processes, including threat modeling and mitigation strategies like guardrails and filters, supporting governance and oversight. It also describes third-party red teaming efforts and evaluations, demonstrating external accountability, and mentions understanding model reasoning and monitoring behavior as mitigation approaches, aligning with explainability and transparency.",
+          "title": "Gemini 3 Pro Frontier Safety Framework Report",
+          "url": "https://deepmind.google/models/fsf-reports/gemini-3-pro"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This Gemini 3 Pro Model Card provides evidence for governance, oversight, privacy, and transparency. It details safety policies and prohibited content categories, outlining governance standards for model output and a comprehensive set of safety and responsibility measures integrated throughout the AI lifecycle. The model card also describes the execution of evaluations against a defined framework, including manual red teaming by independent teams and ongoing refinement of evaluation processes, demonstrating operational oversight and quality governance.",
+          "title": "Gemini 3 Pro Model Card",
+          "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This Gemini 3 Pro Image Model Card provides evidence for **governance, oversight, and transparency**. It details specific evaluation types like human evaluations and Ethics & Safety Reviews, demonstrating operational execution and alignment with principles and policies. The model card also outlines integrated mitigation strategies and safety measures throughout the model lifecycle, reflecting policy commitments and controls.",
+          "title": "Gemini 3 Pro Image Model Card",
+          "url": "https://deepmind.google/models/model-cards/gemini-3-pro-image"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The Gemma Model Card provides evidence for fairness, governance, oversight, privacy, and transparency. It supports transparency by summarizing the model's architecture, capabilities, and evaluations. The model card also demonstrates governance and oversight through its description of structured evaluations, red-teaming, and adherence to internal safety policies and benchmarks. Furthermore, it addresses privacy by detailing the filtering of personal and sensitive data for safety and content exclusion, aligning with responsible AI practices.",
+          "title": "Gemma Model Card",
+          "url": "https://ai.google.dev/gemma/docs/core/model_card"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Implementing SAIF Controls on Google Cloud,\" provides evidence for external_accountability, fairness, governance, privacy, and transparency. It details operational mechanisms for governance and privacy through tools for self-assessment and risk mitigation, and describes the use of Confidential Computing for data protection. The paper also highlights the enforcement of governance through a Model Registry requiring models to pass checks, and addresses fairness by mentioning AI Red Teams testing for biased responses. Furthermore, it discusses transparency through auditable logging and published technical reports on model development, and supports external accountability by referencing compliance certifications and assessments against frameworks like NIST.",
+          "title": "Implementing SAIF Controls on Google Cloud",
+          "url": "https://services.google.com/fh/files/misc/ociso_2025_saif_cloud_paper.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This Alphabet AI safety hub, \"Advancing AI Safely and Responsibly,\" provides evidence for external accountability, governance, oversight, and privacy. The help page details a commitment to AI principles and responsible development, supporting governance. It highlights 24/7 monitoring by safety/security teams, human review by independent experts, and automated red teaming, all of which demonstrate oversight and operational security practices that safeguard products and infrastructure, thereby supporting privacy. Furthermore, the mention of a bug bounty program with external researchers and incentives supports external accountability.",
+          "title": "Advancing AI Safely and Responsibly",
+          "url": "https://ai.google/safety"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Google Cloud Responsible AI,\" provides evidence for the pillars of explainability, fairness, governance, privacy, and transparency. It supports governance through the mention of named review bodies and guiding frameworks like \"AI Principles,\" as well as operational mechanisms for governing AI agents. The document also indicates commitments to privacy by referencing a \"secure platform\" and to transparency and fairness through the mention of specific tools and practices.",
+          "title": "Google Cloud Responsible AI",
+          "url": "https://cloud.google.com/responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"BigQuery Explainable AI,\" provides evidence for **explainability** and **transparency** by detailing methods like Shapley values and tree-based attribution for feature importance analysis and model interpretability. It also offers evidence for **governance** by mentioning cost and registration processes, implying oversight in system usage, and for **fairness** by describing bias detection as a capability of explainability.",
+          "title": "BigQuery Explainable AI",
+          "url": "https://docs.cloud.google.com/bigquery/docs/xai-overview"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "The \"Google Cloud Acceptable Use Policy\" policy document provides evidence for the **governance** and **privacy** pillars. It supports governance by outlining prohibited uses of services, establishing rules, and defining accountability for data use and compliance. The policy also supports privacy by mentioning consent for recording, which is a key aspect of responsible data handling.",
+          "title": "Google Cloud Acceptable Use Policy",
+          "url": "https://workspace.google.com/terms/use_policy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Workspace API User Data Developer Policy,\" provides evidence for **governance, privacy, and transparency**. It supports governance by defining approved use cases and restrictions for third-party access to user data, including specific rules for AI model training. The policy also supports privacy by explicitly mentioning privacy, security, and data protection principles, and transparency by describing use cases for AI and stating mandatory adherence to transparency guidelines.",
+          "title": "Workspace API User Data Developer Policy",
+          "url": "https://developers.google.com/workspace/workspace-api-user-data-developer-policy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "The Google Privacy Policy and Terms of Service document provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing how AI risk is managed, outlining principles for AI applications and responsible development, and establishing usage standards and restrictions. The document also supports the privacy pillar by describing practices for handling user data, including controls and settings.",
+          "title": "Google Privacy Policy and Terms of Service",
+          "url": "https://transparency.google/intl/en_us/our-policies/privacy-policy-terms-of-service"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Responsible AI: 2024 Report and Ongoing Work,\" provides evidence for the **governance** pillar by detailing the establishment and ongoing refinement of governance frameworks, risk management processes, and AI principles. It also supports the **privacy** pillar through mentions of safeguards and a commitment to evaluating AI work based on risk-benefit assessments, implying a focus on protecting user data.",
+          "title": "Responsible AI: 2024 Report and Ongoing Work",
+          "url": "https://blog.google/innovation-and-ai/products/responsible-ai-2024-report-ongoing-work"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Building for our AI Future,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by outlining organizational restructuring for clearer accountability and mentions a commitment to objective information provision. The post also supports transparency through its aspiration for trustworthy and transparent products.",
+          "title": "Building for our AI Future",
+          "url": "https://blog.google/company-news/inside-google/company-announcements/building-ai-future-april-2024"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_022",
+          "source_tier": "authority",
+          "summary": "The Alphabet 2024 Annual Report (Form 10-K) provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The report details Alphabet's AI strategy, investment plans, and commitment to responsible AI deployment, supporting **governance** and **external_accountability** through mentions of oversight committees and executive leadership responsibility for risk management. Evidence for **privacy** is found in discussions of data protection laws, incident tracking, and risks of personal data disclosure from AI use. The report also supports **transparency** by describing AI offerings and capabilities, such as Vertex AI and Gemini, and **fairness** through acknowledgments of risks like discrimination. Mechanisms like incident review processes and reporting cadences demonstrate **oversight**.",
+          "title": "Alphabet 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_023",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Alphabet's governance structures, including board committee oversight of AI risks and compliance, and mentions specific mechanisms like AI model cards and technical reports to ensure transparency. The document also references policies and processes for responsible AI development, including human oversight, guardrails, and assessments for potential fairness issues, as well as commitments to data privacy and security.",
+          "title": "Alphabet 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817925000511/goog012701-def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_024",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Alphabet's AI Principles, risk frameworks, product policies, and organizational governance structures, including the roles of the Board, Audit and Compliance Committee, and Compensation Committee. The document also references mechanisms for independent validation, human oversight in decision-making, due diligence, and compliance programs, as well as commitments to user privacy and transparent reporting on AI implementation.",
+          "title": "Alphabet 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817924000612/lgoog2024_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_025",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by outlining policies and procedures for algorithmic bias mitigation, including efforts to block offensive language and reduce discriminatory bias. The document also details governance structures, such as board and committee oversight of human capital management, risk management, and compensation programs, alongside commitments to transparency through algorithm disclosures and reporting on misinformation. Furthermore, it addresses privacy and security risks and mentions external accountability through auditor services and independent expert reviews.",
+          "title": "Alphabet 2022 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_026",
+          "source_tier": "authority",
+          "summary": "This shareholder proposal provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by requesting annual algorithmic bias audits to assess impacts on high-stakes decisions, reflecting investor concern about discriminatory effects and the need for transparency in algorithmic systems. The proposal also implies a need for management accountability and governance over AI/ML products, and touches upon data protection and security.",
+          "title": "Shareholder Proposal: Algorithmic Bias Audit (2022)",
+          "url": "https://sec.gov/divisions/corpfin/cf-noaction/14a-8/2022/trilliumalphabet041522-14a8.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_027",
+          "source_tier": "authority",
+          "summary": "This FTC investigative report provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. The report supports these pillars by outlining data practices, automated decision-making, data collection and use policies, and the need for transparency in AI operations. It also highlights issues such as inconsistent monitoring, potential harms like discrimination, and the need for legislation and regulation, indicating gaps in current governance and oversight.",
+          "title": "FTC Social Media and Video Streaming Report (6b)",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_028",
+          "source_tier": "authority",
+          "summary": "The FTC AI Chatbot Inquiry (2025) enforcement action provides evidence for the governance, privacy, and transparency pillars. This inquiry supports governance by detailing the FTC's operational oversight and policy instruments, such as 6(b) information orders, to assess AI impacts, safety, and accountability. It also supports privacy by seeking operational details on companies' data handling practices, and transparency by requesting information on disclosures related to AI systems.",
+          "title": "FTC AI Chatbot Inquiry (2025)",
+          "url": "https://ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This enforcement action report from the Irish DPC Inquiry into Google AI (PaLM 2) provides evidence for the **governance** and **privacy** pillars. It supports **governance** by describing regulatory efforts and requirements for overseeing AI development and data processing, specifically highlighting the policy-level approach to oversight and compliance mandates under GDPR. The report also supports the **privacy** pillar by emphasizing the importance of Data Protection Impact Assessments (DPIAs) for mitigating risks, protecting individual rights, and ensuring appropriate data processing, framing these as policy requirements for high-risk technologies.",
+          "title": "Irish DPC Inquiry into Google AI (PaLM 2)",
+          "url": "https://dataprotection.ie/en/news-media/press-releases/data-protection-commission-launches-inquiry-google-ai-model"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_030",
+          "source_tier": "authority",
+          "summary": "This enforcement action, the \"FTC Children's Privacy Settlement (YouTube),\" provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by highlighting the prohibition of violations and the requirement for notice and consent for data collection. Furthermore, it demonstrates governance by mandating a system for COPPA compliance, including actions like training and notification.",
+          "title": "FTC Children's Privacy Settlement (YouTube)",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/09/google-youtube-will-pay-record-170-million-alleged-violations-childrens-privacy-law"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This class action complaint provides evidence for several responsible AI pillars. It supports the **privacy** pillar by detailing allegations of unauthorized collection and use of personal data, including sensitive PII, for AI training without consent. The source also supports **governance** by highlighting alleged disregard for intellectual property rights, website policies, and legal mandates regarding data collection and use, as well as discussing the establishment of an AI Council for oversight and decision-making. Furthermore, the complaint touches on **external accountability** by citing external warnings about illegal data collection and profiting from it, and implies issues with **transparency** through allegations of lack of disclosure and access controls for data used in AI training.",
+          "title": "J.L. et al. v. Alphabet Inc. - Data and Copyright Lawsuit",
+          "url": "https://classaction.org/media/jl-et-al-v-alphabet-inc-et-al.pdf"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_032",
+          "source_tier": "third_party",
+          "summary": "This court filing, an amicus brief, provides evidence for **fairness** by documenting alleged discrimination and bias in AI research contexts. It also strongly supports **governance** by detailing concerns about employment law violations, retaliation against researchers for their work, and the need for robust reporting mechanisms, anonymity, confidentiality, and anti-retaliation protections to ensure accountability and compliance.",
+          "title": "AI Researcher Dismissals and Labor Concerns",
+          "url": "https://business.cch.com/ald/USvGoogleLLCAlphabetWorkersUnionAmicusBrief.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_033",
+          "source_tier": "third_party",
+          "summary": "This shareholder proposal, \"Racial Equity Audit,\" provides evidence for the **fairness** and **governance** pillars. It supports fairness by highlighting concerns about algorithmic discrimination in AI tools, specifically mentioning racial biases in face detection technology and impacts on BIPOC communities. The proposal also touches on governance by expressing concerns regarding leadership in AI ethics and accountability.",
+          "title": "Shareholder Proposal: Racial Equity Audit",
+          "url": "https://iccr.org/resolutions/racial-equity-audit-21"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_034",
+          "source_tier": "third_party",
+          "summary": "This shareholder proposal, \"Human Rights Impact Assessment,\" provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. It highlights concerns regarding the adequacy of due diligence measures for AI risks, the need for human oversight, and the insufficiency of current human rights governance structures. The proposal also calls for an independent human rights impact assessment, indicating a need for external accountability and touching upon privacy concerns related to AI-driven targeted advertising.",
+          "title": "Shareholder Proposal: Human Rights Impact Assessment",
+          "url": "https://iccr.org/wp-content/uploads/2025/05/Alphabet-human-rights.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_035",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Investor Views on AI Oversight and Proxy Analysis,\" provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The report details shareholder proposals and investor views advocating for enhanced AI governance structures, such as board committee amendments for AI risk oversight, and calls for transparency in AI usage, risks, and ethical guidelines. It also references third-party assessments and public reporting requirements, demonstrating a focus on external accountability and clear oversight mechanisms.",
+          "title": "Investor Views on AI Oversight and Proxy Analysis",
+          "url": "https://connect.sustainalytics.com/hubfs/INV/Reports/Proxy-Voting-Insights-Investor-Views-on-AI-Oversight-2025.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 33
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 97,
+      "findings": "Alphabet documents oversight through a commitment to human oversight and due diligence, including executive leadership reviews and ongoing post-launch assessments. Policy documents describe automated monitoring, detect capabilities, and corporate governance body reviews, while reports detail structured risk assessment processes and mitigation strategies like guardrails. Model cards describe evaluations, manual red teaming by independent teams, and adherence to internal safety policies, with proxy statements detailing board committee oversight of AI risks, compliance, and human capital management.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"AI Principles,\" provides evidence for the **governance**, **oversight**, and **privacy** pillars. It establishes Alphabet's commitments to responsible AI development through mechanisms like active governance processes, risk assessment, evaluation, and mitigation techniques. The document also highlights a commitment to human oversight and due diligence, as well as safeguarding safety, security, and privacy throughout the AI lifecycle.",
+          "title": "AI Principles",
+          "url": "https://ai.google/principles"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This Responsible AI Progress Report 2024 system card provides evidence for governance, oversight, privacy, and transparency. It details a structured approach to AI risk management through a codified risk taxonomy and launch requirements including risk assessment and provenance (SynthID), supporting governance. The report also highlights executive leadership reviews and ongoing governance requirements for post-launch assessments, demonstrating oversight. Furthermore, it mentions training data filtering and privacy as part of governance requirements, and the operational deployment of SynthID watermarking in Google Image Search, which supports transparency.",
+          "title": "Responsible AI Progress Report 2024",
+          "url": "https://ai.google/static/documents/ai-responsibility-update-published-february-2025.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Frontier Safety Framework (v2),\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It supports governance by mentioning \"corporate governance body reviews\" and \"approved\" decisions, indicating human oversight and decision-making authority. The framework also supports oversight through descriptions of \"automated monitoring\" and \"detect\" capabilities, which are mechanisms for controlling and observing AI system behavior.",
+          "title": "Frontier Safety Framework (v2)",
+          "url": "https://deepmind.google/blog/updating-the-frontier-safety-framework"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This system card, the \"Gemini 3 Pro Frontier Safety Framework Report,\" provides evidence for explainability, external accountability, governance, oversight, privacy, and transparency. The report details structured risk assessment processes, including threat modeling and mitigation strategies like guardrails and filters, supporting governance and oversight. It also describes third-party red teaming efforts and evaluations, demonstrating external accountability, and mentions understanding model reasoning and monitoring behavior as mitigation approaches, aligning with explainability and transparency.",
+          "title": "Gemini 3 Pro Frontier Safety Framework Report",
+          "url": "https://deepmind.google/models/fsf-reports/gemini-3-pro"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This Gemini 3 Pro Model Card provides evidence for governance, oversight, privacy, and transparency. It details safety policies and prohibited content categories, outlining governance standards for model output and a comprehensive set of safety and responsibility measures integrated throughout the AI lifecycle. The model card also describes the execution of evaluations against a defined framework, including manual red teaming by independent teams and ongoing refinement of evaluation processes, demonstrating operational oversight and quality governance.",
+          "title": "Gemini 3 Pro Model Card",
+          "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This Gemini 3 Pro Image Model Card provides evidence for **governance, oversight, and transparency**. It details specific evaluation types like human evaluations and Ethics & Safety Reviews, demonstrating operational execution and alignment with principles and policies. The model card also outlines integrated mitigation strategies and safety measures throughout the model lifecycle, reflecting policy commitments and controls.",
+          "title": "Gemini 3 Pro Image Model Card",
+          "url": "https://deepmind.google/models/model-cards/gemini-3-pro-image"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The Gemma Model Card provides evidence for fairness, governance, oversight, privacy, and transparency. It supports transparency by summarizing the model's architecture, capabilities, and evaluations. The model card also demonstrates governance and oversight through its description of structured evaluations, red-teaming, and adherence to internal safety policies and benchmarks. Furthermore, it addresses privacy by detailing the filtering of personal and sensitive data for safety and content exclusion, aligning with responsible AI practices.",
+          "title": "Gemma Model Card",
+          "url": "https://ai.google.dev/gemma/docs/core/model_card"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This Alphabet AI safety hub, \"Advancing AI Safely and Responsibly,\" provides evidence for external accountability, governance, oversight, and privacy. The help page details a commitment to AI principles and responsible development, supporting governance. It highlights 24/7 monitoring by safety/security teams, human review by independent experts, and automated red teaming, all of which demonstrate oversight and operational security practices that safeguard products and infrastructure, thereby supporting privacy. Furthermore, the mention of a bug bounty program with external researchers and incentives supports external accountability.",
+          "title": "Advancing AI Safely and Responsibly",
+          "url": "https://ai.google/safety"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_022",
+          "source_tier": "authority",
+          "summary": "The Alphabet 2024 Annual Report (Form 10-K) provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The report details Alphabet's AI strategy, investment plans, and commitment to responsible AI deployment, supporting **governance** and **external_accountability** through mentions of oversight committees and executive leadership responsibility for risk management. Evidence for **privacy** is found in discussions of data protection laws, incident tracking, and risks of personal data disclosure from AI use. The report also supports **transparency** by describing AI offerings and capabilities, such as Vertex AI and Gemini, and **fairness** through acknowledgments of risks like discrimination. Mechanisms like incident review processes and reporting cadences demonstrate **oversight**.",
+          "title": "Alphabet 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_023",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Alphabet's governance structures, including board committee oversight of AI risks and compliance, and mentions specific mechanisms like AI model cards and technical reports to ensure transparency. The document also references policies and processes for responsible AI development, including human oversight, guardrails, and assessments for potential fairness issues, as well as commitments to data privacy and security.",
+          "title": "Alphabet 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817925000511/goog012701-def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_024",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Alphabet's AI Principles, risk frameworks, product policies, and organizational governance structures, including the roles of the Board, Audit and Compliance Committee, and Compensation Committee. The document also references mechanisms for independent validation, human oversight in decision-making, due diligence, and compliance programs, as well as commitments to user privacy and transparent reporting on AI implementation.",
+          "title": "Alphabet 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817924000612/lgoog2024_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_025",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by outlining policies and procedures for algorithmic bias mitigation, including efforts to block offensive language and reduce discriminatory bias. The document also details governance structures, such as board and committee oversight of human capital management, risk management, and compensation programs, alongside commitments to transparency through algorithm disclosures and reporting on misinformation. Furthermore, it addresses privacy and security risks and mentions external accountability through auditor services and independent expert reviews.",
+          "title": "Alphabet 2022 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_026",
+          "source_tier": "authority",
+          "summary": "This shareholder proposal provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by requesting annual algorithmic bias audits to assess impacts on high-stakes decisions, reflecting investor concern about discriminatory effects and the need for transparency in algorithmic systems. The proposal also implies a need for management accountability and governance over AI/ML products, and touches upon data protection and security.",
+          "title": "Shareholder Proposal: Algorithmic Bias Audit (2022)",
+          "url": "https://sec.gov/divisions/corpfin/cf-noaction/14a-8/2022/trilliumalphabet041522-14a8.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_027",
+          "source_tier": "authority",
+          "summary": "This FTC investigative report provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. The report supports these pillars by outlining data practices, automated decision-making, data collection and use policies, and the need for transparency in AI operations. It also highlights issues such as inconsistent monitoring, potential harms like discrimination, and the need for legislation and regulation, indicating gaps in current governance and oversight.",
+          "title": "FTC Social Media and Video Streaming Report (6b)",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This class action complaint provides evidence for several responsible AI pillars. It supports the **privacy** pillar by detailing allegations of unauthorized collection and use of personal data, including sensitive PII, for AI training without consent. The source also supports **governance** by highlighting alleged disregard for intellectual property rights, website policies, and legal mandates regarding data collection and use, as well as discussing the establishment of an AI Council for oversight and decision-making. Furthermore, the complaint touches on **external accountability** by citing external warnings about illegal data collection and profiting from it, and implies issues with **transparency** through allegations of lack of disclosure and access controls for data used in AI training.",
+          "title": "J.L. et al. v. Alphabet Inc. - Data and Copyright Lawsuit",
+          "url": "https://classaction.org/media/jl-et-al-v-alphabet-inc-et-al.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_034",
+          "source_tier": "third_party",
+          "summary": "This shareholder proposal, \"Human Rights Impact Assessment,\" provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. It highlights concerns regarding the adequacy of due diligence measures for AI risks, the need for human oversight, and the insufficiency of current human rights governance structures. The proposal also calls for an independent human rights impact assessment, indicating a need for external accountability and touching upon privacy concerns related to AI-driven targeted advertising.",
+          "title": "Shareholder Proposal: Human Rights Impact Assessment",
+          "url": "https://iccr.org/wp-content/uploads/2025/05/Alphabet-human-rights.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_035",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Investor Views on AI Oversight and Proxy Analysis,\" provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The report details shareholder proposals and investor views advocating for enhanced AI governance structures, such as board committee amendments for AI risk oversight, and calls for transparency in AI usage, risks, and ethical guidelines. It also references third-party assessments and public reporting requirements, demonstrating a focus on external accountability and clear oversight mechanisms.",
+          "title": "Investor Views on AI Oversight and Proxy Analysis",
+          "url": "https://connect.sustainalytics.com/hubfs/INV/Reports/Proxy-Voting-Insights-Investor-Views-on-AI-Oversight-2025.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 17
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 205,
+      "findings": "Alphabet highlights safeguarding privacy throughout the AI lifecycle, mentioning training data filtering and privacy as governance requirements. Policy documents detail technical safeguards, mechanisms for private releases, and explicitly mention privacy, security, and data protection principles. Practices for handling user data, including controls and settings, are described, alongside commitments to data privacy and security. Enforcement actions emphasize Data Protection Impact Assessments (DPIAs) and requirements for notice and consent for data collection.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"AI Principles,\" provides evidence for the **governance**, **oversight**, and **privacy** pillars. It establishes Alphabet's commitments to responsible AI development through mechanisms like active governance processes, risk assessment, evaluation, and mitigation techniques. The document also highlights a commitment to human oversight and due diligence, as well as safeguarding safety, security, and privacy throughout the AI lifecycle.",
+          "title": "AI Principles",
+          "url": "https://ai.google/principles"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This Responsible AI Progress Report 2024 system card provides evidence for governance, oversight, privacy, and transparency. It details a structured approach to AI risk management through a codified risk taxonomy and launch requirements including risk assessment and provenance (SynthID), supporting governance. The report also highlights executive leadership reviews and ongoing governance requirements for post-launch assessments, demonstrating oversight. Furthermore, it mentions training data filtering and privacy as part of governance requirements, and the operational deployment of SynthID watermarking in Google Image Search, which supports transparency.",
+          "title": "Responsible AI Progress Report 2024",
+          "url": "https://ai.google/static/documents/ai-responsibility-update-published-february-2025.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Frontier Safety Framework (v1),\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It establishes protocols for identifying and mitigating severe AI capabilities, demonstrating a structured approach to risk management and a commitment to ongoing research and evaluation through a dedicated team. The framework also outlines the application of mitigation plans focused on security and deployment, which are relevant to governance and privacy concerns.",
+          "title": "Frontier Safety Framework (v1)",
+          "url": "https://deepmind.google/blog/introducing-the-frontier-safety-framework"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Frontier Safety Framework (v3)\", provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing a formal risk assessment process, a structured framework for identifying and mitigating AI risks based on capabilities, and a commitment to rigorous governance and proactive security measures as a standard development approach, including execution of safety case reviews. The document also supports the privacy pillar through its commitment to evolving the framework based on input and collaboration, implying a mechanism for addressing privacy concerns within its risk management processes.",
+          "title": "Frontier Safety Framework (v3)",
+          "url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This system card, the \"Gemini 3 Pro Frontier Safety Framework Report,\" provides evidence for explainability, external accountability, governance, oversight, privacy, and transparency. The report details structured risk assessment processes, including threat modeling and mitigation strategies like guardrails and filters, supporting governance and oversight. It also describes third-party red teaming efforts and evaluations, demonstrating external accountability, and mentions understanding model reasoning and monitoring behavior as mitigation approaches, aligning with explainability and transparency.",
+          "title": "Gemini 3 Pro Frontier Safety Framework Report",
+          "url": "https://deepmind.google/models/fsf-reports/gemini-3-pro"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This Gemini 3 Pro Model Card provides evidence for governance, oversight, privacy, and transparency. It details safety policies and prohibited content categories, outlining governance standards for model output and a comprehensive set of safety and responsibility measures integrated throughout the AI lifecycle. The model card also describes the execution of evaluations against a defined framework, including manual red teaming by independent teams and ongoing refinement of evaluation processes, demonstrating operational oversight and quality governance.",
+          "title": "Gemini 3 Pro Model Card",
+          "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The Gemma Model Card provides evidence for fairness, governance, oversight, privacy, and transparency. It supports transparency by summarizing the model's architecture, capabilities, and evaluations. The model card also demonstrates governance and oversight through its description of structured evaluations, red-teaming, and adherence to internal safety policies and benchmarks. Furthermore, it addresses privacy by detailing the filtering of personal and sensitive data for safety and content exclusion, aligning with responsible AI practices.",
+          "title": "Gemma Model Card",
+          "url": "https://ai.google.dev/gemma/docs/core/model_card"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Implementing SAIF Controls on Google Cloud,\" provides evidence for external_accountability, fairness, governance, privacy, and transparency. It details operational mechanisms for governance and privacy through tools for self-assessment and risk mitigation, and describes the use of Confidential Computing for data protection. The paper also highlights the enforcement of governance through a Model Registry requiring models to pass checks, and addresses fairness by mentioning AI Red Teams testing for biased responses. Furthermore, it discusses transparency through auditable logging and published technical reports on model development, and supports external accountability by referencing compliance certifications and assessments against frameworks like NIST.",
+          "title": "Implementing SAIF Controls on Google Cloud",
+          "url": "https://services.google.com/fh/files/misc/ociso_2025_saif_cloud_paper.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This Alphabet AI safety hub, \"Advancing AI Safely and Responsibly,\" provides evidence for external accountability, governance, oversight, and privacy. The help page details a commitment to AI principles and responsible development, supporting governance. It highlights 24/7 monitoring by safety/security teams, human review by independent experts, and automated red teaming, all of which demonstrate oversight and operational security practices that safeguard products and infrastructure, thereby supporting privacy. Furthermore, the mention of a bug bounty program with external researchers and incentives supports external accountability.",
+          "title": "Advancing AI Safely and Responsibly",
+          "url": "https://ai.google/safety"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Google Cloud Responsible AI,\" provides evidence for the pillars of explainability, fairness, governance, privacy, and transparency. It supports governance through the mention of named review bodies and guiding frameworks like \"AI Principles,\" as well as operational mechanisms for governing AI agents. The document also indicates commitments to privacy by referencing a \"secure platform\" and to transparency and fairness through the mention of specific tools and practices.",
+          "title": "Google Cloud Responsible AI",
+          "url": "https://cloud.google.com/responsible-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "The \"Google Cloud Acceptable Use Policy\" policy document provides evidence for the **governance** and **privacy** pillars. It supports governance by outlining prohibited uses of services, establishing rules, and defining accountability for data use and compliance. The policy also supports privacy by mentioning consent for recording, which is a key aspect of responsible data handling.",
+          "title": "Google Cloud Acceptable Use Policy",
+          "url": "https://workspace.google.com/terms/use_policy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Workspace API User Data Developer Policy,\" provides evidence for **governance, privacy, and transparency**. It supports governance by defining approved use cases and restrictions for third-party access to user data, including specific rules for AI model training. The policy also supports privacy by explicitly mentioning privacy, security, and data protection principles, and transparency by describing use cases for AI and stating mandatory adherence to transparency guidelines.",
+          "title": "Workspace API User Data Developer Policy",
+          "url": "https://developers.google.com/workspace/workspace-api-user-data-developer-policy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "The Google Privacy Policy and Terms of Service document provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing how AI risk is managed, outlining principles for AI applications and responsible development, and establishing usage standards and restrictions. The document also supports the privacy pillar by describing practices for handling user data, including controls and settings.",
+          "title": "Google Privacy Policy and Terms of Service",
+          "url": "https://transparency.google/intl/en_us/our-policies/privacy-policy-terms-of-service"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Responsible AI: 2024 Report and Ongoing Work,\" provides evidence for the **governance** pillar by detailing the establishment and ongoing refinement of governance frameworks, risk management processes, and AI principles. It also supports the **privacy** pillar through mentions of safeguards and a commitment to evaluating AI work based on risk-benefit assessments, implying a focus on protecting user data.",
+          "title": "Responsible AI: 2024 Report and Ongoing Work",
+          "url": "https://blog.google/innovation-and-ai/products/responsible-ai-2024-report-ongoing-work"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_022",
+          "source_tier": "authority",
+          "summary": "The Alphabet 2024 Annual Report (Form 10-K) provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The report details Alphabet's AI strategy, investment plans, and commitment to responsible AI deployment, supporting **governance** and **external_accountability** through mentions of oversight committees and executive leadership responsibility for risk management. Evidence for **privacy** is found in discussions of data protection laws, incident tracking, and risks of personal data disclosure from AI use. The report also supports **transparency** by describing AI offerings and capabilities, such as Vertex AI and Gemini, and **fairness** through acknowledgments of risks like discrimination. Mechanisms like incident review processes and reporting cadences demonstrate **oversight**.",
+          "title": "Alphabet 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_023",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Alphabet's governance structures, including board committee oversight of AI risks and compliance, and mentions specific mechanisms like AI model cards and technical reports to ensure transparency. The document also references policies and processes for responsible AI development, including human oversight, guardrails, and assessments for potential fairness issues, as well as commitments to data privacy and security.",
+          "title": "Alphabet 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817925000511/goog012701-def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_024",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Alphabet's AI Principles, risk frameworks, product policies, and organizational governance structures, including the roles of the Board, Audit and Compliance Committee, and Compensation Committee. The document also references mechanisms for independent validation, human oversight in decision-making, due diligence, and compliance programs, as well as commitments to user privacy and transparent reporting on AI implementation.",
+          "title": "Alphabet 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817924000612/lgoog2024_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_025",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by outlining policies and procedures for algorithmic bias mitigation, including efforts to block offensive language and reduce discriminatory bias. The document also details governance structures, such as board and committee oversight of human capital management, risk management, and compensation programs, alongside commitments to transparency through algorithm disclosures and reporting on misinformation. Furthermore, it addresses privacy and security risks and mentions external accountability through auditor services and independent expert reviews.",
+          "title": "Alphabet 2022 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_026",
+          "source_tier": "authority",
+          "summary": "This shareholder proposal provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by requesting annual algorithmic bias audits to assess impacts on high-stakes decisions, reflecting investor concern about discriminatory effects and the need for transparency in algorithmic systems. The proposal also implies a need for management accountability and governance over AI/ML products, and touches upon data protection and security.",
+          "title": "Shareholder Proposal: Algorithmic Bias Audit (2022)",
+          "url": "https://sec.gov/divisions/corpfin/cf-noaction/14a-8/2022/trilliumalphabet041522-14a8.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_027",
+          "source_tier": "authority",
+          "summary": "This FTC investigative report provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. The report supports these pillars by outlining data practices, automated decision-making, data collection and use policies, and the need for transparency in AI operations. It also highlights issues such as inconsistent monitoring, potential harms like discrimination, and the need for legislation and regulation, indicating gaps in current governance and oversight.",
+          "title": "FTC Social Media and Video Streaming Report (6b)",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_028",
+          "source_tier": "authority",
+          "summary": "The FTC AI Chatbot Inquiry (2025) enforcement action provides evidence for the governance, privacy, and transparency pillars. This inquiry supports governance by detailing the FTC's operational oversight and policy instruments, such as 6(b) information orders, to assess AI impacts, safety, and accountability. It also supports privacy by seeking operational details on companies' data handling practices, and transparency by requesting information on disclosures related to AI systems.",
+          "title": "FTC AI Chatbot Inquiry (2025)",
+          "url": "https://ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This enforcement action report from the Irish DPC Inquiry into Google AI (PaLM 2) provides evidence for the **governance** and **privacy** pillars. It supports **governance** by describing regulatory efforts and requirements for overseeing AI development and data processing, specifically highlighting the policy-level approach to oversight and compliance mandates under GDPR. The report also supports the **privacy** pillar by emphasizing the importance of Data Protection Impact Assessments (DPIAs) for mitigating risks, protecting individual rights, and ensuring appropriate data processing, framing these as policy requirements for high-risk technologies.",
+          "title": "Irish DPC Inquiry into Google AI (PaLM 2)",
+          "url": "https://dataprotection.ie/en/news-media/press-releases/data-protection-commission-launches-inquiry-google-ai-model"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_030",
+          "source_tier": "authority",
+          "summary": "This enforcement action, the \"FTC Children's Privacy Settlement (YouTube),\" provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by highlighting the prohibition of violations and the requirement for notice and consent for data collection. Furthermore, it demonstrates governance by mandating a system for COPPA compliance, including actions like training and notification.",
+          "title": "FTC Children's Privacy Settlement (YouTube)",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/09/google-youtube-will-pay-record-170-million-alleged-violations-childrens-privacy-law"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This class action complaint provides evidence for several responsible AI pillars. It supports the **privacy** pillar by detailing allegations of unauthorized collection and use of personal data, including sensitive PII, for AI training without consent. The source also supports **governance** by highlighting alleged disregard for intellectual property rights, website policies, and legal mandates regarding data collection and use, as well as discussing the establishment of an AI Council for oversight and decision-making. Furthermore, the complaint touches on **external accountability** by citing external warnings about illegal data collection and profiting from it, and implies issues with **transparency** through allegations of lack of disclosure and access controls for data used in AI training.",
+          "title": "J.L. et al. v. Alphabet Inc. - Data and Copyright Lawsuit",
+          "url": "https://classaction.org/media/jl-et-al-v-alphabet-inc-et-al.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_034",
+          "source_tier": "third_party",
+          "summary": "This shareholder proposal, \"Human Rights Impact Assessment,\" provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. It highlights concerns regarding the adequacy of due diligence measures for AI risks, the need for human oversight, and the insufficiency of current human rights governance structures. The proposal also calls for an independent human rights impact assessment, indicating a need for external accountability and touching upon privacy concerns related to AI-driven targeted advertising.",
+          "title": "Shareholder Proposal: Human Rights Impact Assessment",
+          "url": "https://iccr.org/wp-content/uploads/2025/05/Alphabet-human-rights.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 25
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 206,
+      "findings": "Alphabet documents transparency through various means, including the operational deployment of SynthID watermarking and the use of model cards that summarize AI architecture, capabilities, and evaluations. Technical papers and help pages discuss auditable logging, published technical reports, and methods like Shapley values for understanding model decision-making and interpretability. Policy documents describe AI use cases and state mandatory adherence to transparency guidelines, while proxy statements outline algorithm disclosures and transparent reporting on AI implementation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This Responsible AI Progress Report 2024 system card provides evidence for governance, oversight, privacy, and transparency. It details a structured approach to AI risk management through a codified risk taxonomy and launch requirements including risk assessment and provenance (SynthID), supporting governance. The report also highlights executive leadership reviews and ongoing governance requirements for post-launch assessments, demonstrating oversight. Furthermore, it mentions training data filtering and privacy as part of governance requirements, and the operational deployment of SynthID watermarking in Google Image Search, which supports transparency.",
+          "title": "Responsible AI Progress Report 2024",
+          "url": "https://ai.google/static/documents/ai-responsibility-update-published-february-2025.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"End-to-End Responsibility: AI Lifecycle Approach,\" provides evidence for **external accountability, governance, privacy, and transparency**. It details Alphabet's lifecycle approach to responsible AI, including operational risk assessments against NIST AI RMF and ISO 42001, technical safeguards like \"layered protections,\" and collaboration with external experts and organizations like MLCommons and the UK AI Safety Institute, demonstrating external accountability and governance. The document also outlines AI responsibility-by-design policies, prohibited use policies, and mechanisms for private releases and feedback loops, supporting transparency and governance. Furthermore, it mentions standardized protections and model cards for auditable reporting, contributing to governance and transparency.",
+          "title": "End-to-End Responsibility: AI Lifecycle Approach",
+          "url": "https://ai.google/static/documents/ai-responsibility-2024-update.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Frontier Safety Framework (v1),\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It establishes protocols for identifying and mitigating severe AI capabilities, demonstrating a structured approach to risk management and a commitment to ongoing research and evaluation through a dedicated team. The framework also outlines the application of mitigation plans focused on security and deployment, which are relevant to governance and privacy concerns.",
+          "title": "Frontier Safety Framework (v1)",
+          "url": "https://deepmind.google/blog/introducing-the-frontier-safety-framework"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This system card, the \"Gemini 3 Pro Frontier Safety Framework Report,\" provides evidence for explainability, external accountability, governance, oversight, privacy, and transparency. The report details structured risk assessment processes, including threat modeling and mitigation strategies like guardrails and filters, supporting governance and oversight. It also describes third-party red teaming efforts and evaluations, demonstrating external accountability, and mentions understanding model reasoning and monitoring behavior as mitigation approaches, aligning with explainability and transparency.",
+          "title": "Gemini 3 Pro Frontier Safety Framework Report",
+          "url": "https://deepmind.google/models/fsf-reports/gemini-3-pro"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This Gemini 3 Pro Model Card provides evidence for governance, oversight, privacy, and transparency. It details safety policies and prohibited content categories, outlining governance standards for model output and a comprehensive set of safety and responsibility measures integrated throughout the AI lifecycle. The model card also describes the execution of evaluations against a defined framework, including manual red teaming by independent teams and ongoing refinement of evaluation processes, demonstrating operational oversight and quality governance.",
+          "title": "Gemini 3 Pro Model Card",
+          "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This Gemini 3 Pro Image Model Card provides evidence for **governance, oversight, and transparency**. It details specific evaluation types like human evaluations and Ethics & Safety Reviews, demonstrating operational execution and alignment with principles and policies. The model card also outlines integrated mitigation strategies and safety measures throughout the model lifecycle, reflecting policy commitments and controls.",
+          "title": "Gemini 3 Pro Image Model Card",
+          "url": "https://deepmind.google/models/model-cards/gemini-3-pro-image"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The Gemma Model Card provides evidence for fairness, governance, oversight, privacy, and transparency. It supports transparency by summarizing the model's architecture, capabilities, and evaluations. The model card also demonstrates governance and oversight through its description of structured evaluations, red-teaming, and adherence to internal safety policies and benchmarks. Furthermore, it addresses privacy by detailing the filtering of personal and sensitive data for safety and content exclusion, aligning with responsible AI practices.",
+          "title": "Gemma Model Card",
+          "url": "https://ai.google.dev/gemma/docs/core/model_card"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Implementing SAIF Controls on Google Cloud,\" provides evidence for external_accountability, fairness, governance, privacy, and transparency. It details operational mechanisms for governance and privacy through tools for self-assessment and risk mitigation, and describes the use of Confidential Computing for data protection. The paper also highlights the enforcement of governance through a Model Registry requiring models to pass checks, and addresses fairness by mentioning AI Red Teams testing for biased responses. Furthermore, it discusses transparency through auditable logging and published technical reports on model development, and supports external accountability by referencing compliance certifications and assessments against frameworks like NIST.",
+          "title": "Implementing SAIF Controls on Google Cloud",
+          "url": "https://services.google.com/fh/files/misc/ociso_2025_saif_cloud_paper.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Google Cloud Responsible AI,\" provides evidence for the pillars of explainability, fairness, governance, privacy, and transparency. It supports governance through the mention of named review bodies and guiding frameworks like \"AI Principles,\" as well as operational mechanisms for governing AI agents. The document also indicates commitments to privacy by referencing a \"secure platform\" and to transparency and fairness through the mention of specific tools and practices.",
+          "title": "Google Cloud Responsible AI",
+          "url": "https://cloud.google.com/responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This technical documentation for Vertex Explainable AI provides evidence for the **explainability** and **transparency** pillars. The source describes capabilities and methodologies, such as Shapley values and feature attributions, that enable users to understand model decision-making and identify feature contributions to inferences. It also discusses how these explainability insights can be used for debugging and improving models, aligning with the goal of transparent AI.",
+          "title": "Vertex Explainable AI",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/explainable-ai/overview"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"BigQuery Explainable AI,\" provides evidence for **explainability** and **transparency** by detailing methods like Shapley values and tree-based attribution for feature importance analysis and model interpretability. It also offers evidence for **governance** by mentioning cost and registration processes, implying oversight in system usage, and for **fairness** by describing bias detection as a capability of explainability.",
+          "title": "BigQuery Explainable AI",
+          "url": "https://docs.cloud.google.com/bigquery/docs/xai-overview"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Workspace API User Data Developer Policy,\" provides evidence for **governance, privacy, and transparency**. It supports governance by defining approved use cases and restrictions for third-party access to user data, including specific rules for AI model training. The policy also supports privacy by explicitly mentioning privacy, security, and data protection principles, and transparency by describing use cases for AI and stating mandatory adherence to transparency guidelines.",
+          "title": "Workspace API User Data Developer Policy",
+          "url": "https://developers.google.com/workspace/workspace-api-user-data-developer-policy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Building for our AI Future,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by outlining organizational restructuring for clearer accountability and mentions a commitment to objective information provision. The post also supports transparency through its aspiration for trustworthy and transparent products.",
+          "title": "Building for our AI Future",
+          "url": "https://blog.google/company-news/inside-google/company-announcements/building-ai-future-april-2024"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_022",
+          "source_tier": "authority",
+          "summary": "The Alphabet 2024 Annual Report (Form 10-K) provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The report details Alphabet's AI strategy, investment plans, and commitment to responsible AI deployment, supporting **governance** and **external_accountability** through mentions of oversight committees and executive leadership responsibility for risk management. Evidence for **privacy** is found in discussions of data protection laws, incident tracking, and risks of personal data disclosure from AI use. The report also supports **transparency** by describing AI offerings and capabilities, such as Vertex AI and Gemini, and **fairness** through acknowledgments of risks like discrimination. Mechanisms like incident review processes and reporting cadences demonstrate **oversight**.",
+          "title": "Alphabet 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_023",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, transparency, fairness, privacy, and external accountability**. It details Alphabet's governance structures, including board committee oversight of AI risks and compliance, and mentions specific mechanisms like AI model cards and technical reports to ensure transparency. The document also references policies and processes for responsible AI development, including human oversight, guardrails, and assessments for potential fairness issues, as well as commitments to data privacy and security.",
+          "title": "Alphabet 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817925000511/goog012701-def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_024",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Alphabet's AI Principles, risk frameworks, product policies, and organizational governance structures, including the roles of the Board, Audit and Compliance Committee, and Compensation Committee. The document also references mechanisms for independent validation, human oversight in decision-making, due diligence, and compliance programs, as well as commitments to user privacy and transparent reporting on AI implementation.",
+          "title": "Alphabet 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817924000612/lgoog2024_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_025",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by outlining policies and procedures for algorithmic bias mitigation, including efforts to block offensive language and reduce discriminatory bias. The document also details governance structures, such as board and committee oversight of human capital management, risk management, and compensation programs, alongside commitments to transparency through algorithm disclosures and reporting on misinformation. Furthermore, it addresses privacy and security risks and mentions external accountability through auditor services and independent expert reviews.",
+          "title": "Alphabet 2022 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1652044/000130817922000262/lgoog2022_def14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_026",
+          "source_tier": "authority",
+          "summary": "This shareholder proposal provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by requesting annual algorithmic bias audits to assess impacts on high-stakes decisions, reflecting investor concern about discriminatory effects and the need for transparency in algorithmic systems. The proposal also implies a need for management accountability and governance over AI/ML products, and touches upon data protection and security.",
+          "title": "Shareholder Proposal: Algorithmic Bias Audit (2022)",
+          "url": "https://sec.gov/divisions/corpfin/cf-noaction/14a-8/2022/trilliumalphabet041522-14a8.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_027",
+          "source_tier": "authority",
+          "summary": "This FTC investigative report provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. The report supports these pillars by outlining data practices, automated decision-making, data collection and use policies, and the need for transparency in AI operations. It also highlights issues such as inconsistent monitoring, potential harms like discrimination, and the need for legislation and regulation, indicating gaps in current governance and oversight.",
+          "title": "FTC Social Media and Video Streaming Report (6b)",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_028",
+          "source_tier": "authority",
+          "summary": "The FTC AI Chatbot Inquiry (2025) enforcement action provides evidence for the governance, privacy, and transparency pillars. This inquiry supports governance by detailing the FTC's operational oversight and policy instruments, such as 6(b) information orders, to assess AI impacts, safety, and accountability. It also supports privacy by seeking operational details on companies' data handling practices, and transparency by requesting information on disclosures related to AI systems.",
+          "title": "FTC AI Chatbot Inquiry (2025)",
+          "url": "https://ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This class action complaint provides evidence for several responsible AI pillars. It supports the **privacy** pillar by detailing allegations of unauthorized collection and use of personal data, including sensitive PII, for AI training without consent. The source also supports **governance** by highlighting alleged disregard for intellectual property rights, website policies, and legal mandates regarding data collection and use, as well as discussing the establishment of an AI Council for oversight and decision-making. Furthermore, the complaint touches on **external accountability** by citing external warnings about illegal data collection and profiting from it, and implies issues with **transparency** through allegations of lack of disclosure and access controls for data used in AI training.",
+          "title": "J.L. et al. v. Alphabet Inc. - Data and Copyright Lawsuit",
+          "url": "https://classaction.org/media/jl-et-al-v-alphabet-inc-et-al.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_035",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Investor Views on AI Oversight and Proxy Analysis,\" provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The report details shareholder proposals and investor views advocating for enhanced AI governance structures, such as board committee amendments for AI risk oversight, and calls for transparency in AI usage, risks, and ethical guidelines. It also references third-party assessments and public reporting requirements, demonstrating a focus on external accountability and clear oversight mechanisms.",
+          "title": "Investor Views on AI Oversight and Proxy Analysis",
+          "url": "https://connect.sustainalytics.com/hubfs/INV/Reports/Proxy-Voting-Insights-Investor-Views-on-AI-Oversight-2025.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 22
+    }
+  },
+  "published_at": "2026-02-23T21:42:18Z",
+  "run_id": "20260124_003028_15ef",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Drawing from 35 publicly available sources, Alphabet's published materials document evidence across all 7 evaluated responsible AI pillars. Operational practices for transparency include the deployment of SynthID watermarking in Google Image Search, while technical documentation for explainability describes methodologies such as Shapley values and feature attributions to understand model decision-making. Policy documents further highlight a commitment to human oversight and due diligence, and establish commitments to responsible AI development through active governance processes and risk assessment. Additionally, materials describe AI Red Teams testing for biased responses in fairness and detail collaboration with external experts and organizations like MLCommons for external accountability.",
+    "pillars_operational": 7,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 820,
+    "total_sources_used": 34
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Coca-Cola",
+  "company_slug": "coca-cola",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 27,
+      "OPERATIONAL": 14,
+      "POLICY": 64
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 4,
+      "findings": "The company's privacy policy outlines consumer rights regarding automated decision-making logic and consequences. Furthermore, a blog post recommends investment in tools with explainable outputs.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, governance, privacy, and transparency**. It supports explainability by outlining consumer rights regarding automated decision-making logic and consequences. The policy addresses governance through its discussion of data matching, clean rooms, and vendor data usage for insights and personalized advertising. Evidence for privacy is found in its descriptions of data use for profiling, IP anonymization, and data sharing controls. Finally, transparency is supported by the policy's mention of data use for personalized advertising and effectiveness assessment.",
+          "title": "Coca-Cola Privacy Policy - Automated Decision-Making Rights",
+          "url": "https://coca-cola.com/us/en/legal/privacy-policy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This blog post from Coca-Cola Europacific Partners discusses their commitment to responsible AI, providing evidence for the **governance**, **fairness**, **explainability**, and **privacy** pillars. The source highlights their focus on accountability and secure AI implementation, outlining commitments and key areas for responsible technology adoption across their operations.",
+          "title": "Coca-Cola CCEP: Responsible AI Framework for Growth",
+          "url": "https://cocacolaep.com/news-and-stories/how-ai-is-unleashing-growth-at-ccep"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post on Coca-Cola's ERM leader, John Berry, provides evidence for **governance**, **oversight**, **transparency**, and **explainability**. It discusses AI strategy and building credibility, recommending investment in tools with explainable outputs and internal controls, which supports governance and explainability. The post also highlights the necessity of human expertise for interpretation and ethical oversight, directly supporting the oversight pillar, and mentions transparency as a key requirement.",
+          "title": "Coca-Cola ERM: AI Applications for Monitoring Emerging Risks",
+          "url": "https://erm.ncsu.edu/resource-center/ai-in-erm-coca-cola-john-berry"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "Policy documents mandate vendor audits and reporting on violations, while also outlining vendor responsibilities for content moderation and compliance. Additionally, a blog post describes auditing AI tools and operational steps for testing AI accuracy and representation, including bias and output testing.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Coca-Cola Responsible Digital Media Principles,\" provides evidence for **external accountability**, **governance**, and **privacy**. It supports external accountability and governance by mandating vendor audits and reporting on violations, and by outlining vendor responsibilities for content moderation and compliance. The document also supports the privacy pillar through its commitment to working with platforms that respect user privacy.",
+          "title": "Coca-Cola Responsible Digital Media Principles",
+          "url": "https://cocacolacompany.com/policies-and-practices/responsible-digital-media-principles"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This blog post analyzing Coca-Cola's AI marketing campaigns provides evidence for **governance**, **external accountability**, **fairness**, and **transparency**. It describes auditing AI tools and operational steps for testing AI accuracy and representation, including bias and output testing, which directly supports **fairness**. The post also touches on **governance** and **external accountability** through the mention of auditing AI tools, and highlights **transparency** and **human oversight** as previously ignored ethics tenets, indicating a governance failure scenario.",
+          "title": "AI Ethics and Responsible Use: Coca-Cola Marketing Case Study",
+          "url": "https://aiforwardmarketer.com/ai-ethics-responsible-use-and-bias-from-policy-to-practice"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 5,
+      "findings": "The company's press release explicitly mentions guidelines to avoid social biases for AI pilots. Additionally, a blog post describes auditing AI tools and operational steps for testing AI accuracy and representation, including bias and output testing.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release details Coca-Cola's approach to AI governance, highlighting strict guidelines for AI pilots. It provides evidence for **governance** by outlining mandatory considerations for AI implementation, strategic vendor relationships, and authorization based on envisioned business outcomes. Furthermore, the press release supports **fairness** and **oversight** by explicitly mentioning guidelines to avoid social biases and a mechanism to react to issues, demonstrating a commitment to responsible AI development.",
+          "title": "Coca-Cola CIO: Strict Guidelines and Bias Mitigation for AI Pilots",
+          "url": "https://fortune.com/2025/07/09/why-coca-colas-cio-prioritizes-big-impact-ai-pilot-projects"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This blog post from Coca-Cola Europacific Partners discusses their commitment to responsible AI, providing evidence for the **governance**, **fairness**, **explainability**, and **privacy** pillars. The source highlights their focus on accountability and secure AI implementation, outlining commitments and key areas for responsible technology adoption across their operations.",
+          "title": "Coca-Cola CCEP: Responsible AI Framework for Growth",
+          "url": "https://cocacolaep.com/news-and-stories/how-ai-is-unleashing-growth-at-ccep"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This blog post analyzing Coca-Cola's AI marketing campaigns provides evidence for **governance**, **external accountability**, **fairness**, and **transparency**. It describes auditing AI tools and operational steps for testing AI accuracy and representation, including bias and output testing, which directly supports **fairness**. The post also touches on **governance** and **external accountability** through the mention of auditing AI tools, and highlights **transparency** and **human oversight** as previously ignored ethics tenets, indicating a governance failure scenario.",
+          "title": "AI Ethics and Responsible Use: Coca-Cola Marketing Case Study",
+          "url": "https://aiforwardmarketer.com/ai-ethics-responsible-use-and-bias-from-policy-to-practice"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 70,
+      "findings": "The company outlines mandatory considerations for AI implementation, strategic vendor relationships, and authorization for AI pilots, with a privacy policy addressing governance through data matching, clean rooms, and vendor data usage. An \"AI Risk Governance Council\" is established to advise on risk mitigation, overseeing investments in AI companies, platform development, and AI deployment. The company acknowledges evolving AI regulations, discusses the need for governance over AI and automation, and indicates the existence of an AI governance framework with guidance for responsible AI use, monitoring, and oversight. Furthermore, governance practices include auditing AI tools, detailing an \"AI + HI\" philosophy with ethical decision-making, and implementing mechanisms for continuous algorithmic improvement in ML systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release details Coca-Cola's approach to AI governance, highlighting strict guidelines for AI pilots. It provides evidence for **governance** by outlining mandatory considerations for AI implementation, strategic vendor relationships, and authorization based on envisioned business outcomes. Furthermore, the press release supports **fairness** and **oversight** by explicitly mentioning guidelines to avoid social biases and a mechanism to react to issues, demonstrating a commitment to responsible AI development.",
+          "title": "Coca-Cola CIO: Strict Guidelines and Bias Mitigation for AI Pilots",
+          "url": "https://fortune.com/2025/07/09/why-coca-colas-cio-prioritizes-big-impact-ai-pilot-projects"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, governance, privacy, and transparency**. It supports explainability by outlining consumer rights regarding automated decision-making logic and consequences. The policy addresses governance through its discussion of data matching, clean rooms, and vendor data usage for insights and personalized advertising. Evidence for privacy is found in its descriptions of data use for profiling, IP anonymization, and data sharing controls. Finally, transparency is supported by the policy's mention of data use for personalized advertising and effectiveness assessment.",
+          "title": "Coca-Cola Privacy Policy - Automated Decision-Making Rights",
+          "url": "https://coca-cola.com/us/en/legal/privacy-policy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Coca-Cola Responsible Digital Media Principles,\" provides evidence for **external accountability**, **governance**, and **privacy**. It supports external accountability and governance by mandating vendor audits and reporting on violations, and by outlining vendor responsibilities for content moderation and compliance. The document also supports the privacy pillar through its commitment to working with platforms that respect user privacy.",
+          "title": "Coca-Cola Responsible Digital Media Principles",
+          "url": "https://cocacolacompany.com/policies-and-practices/responsible-digital-media-principles"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This report on Coca-Cola Europacific Partners' partnership with Osapiens provides evidence for the **governance** pillar of responsible AI. The report details the use of AI analytics for monitoring and reporting on ESG metrics, implying governance over AI-driven compliance and regulatory alignment. Furthermore, it describes the use of an AI platform for compliance and efficiency, suggesting governance over AI-driven processes and vendor tools.",
+          "title": "Coca-Cola Europacific Partners: AI for Sustainability and ESG Monitoring",
+          "url": "https://finance.yahoo.com/news/coca-cola-turns-ai-solve-151500861.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This blog post from Coca-Cola Europacific Partners discusses their commitment to responsible AI, providing evidence for the **governance**, **fairness**, **explainability**, and **privacy** pillars. The source highlights their focus on accountability and secure AI implementation, outlining commitments and key areas for responsible technology adoption across their operations.",
+          "title": "Coca-Cola CCEP: Responsible AI Framework for Growth",
+          "url": "https://cocacolaep.com/news-and-stories/how-ai-is-unleashing-growth-at-ccep"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This SEC 10-K filing from Coca-Cola provides evidence for **governance**, **privacy**, and **transparency**. The document supports governance by acknowledging evolving AI regulations and compliance obligations, mentioning the strategic expansion of AI/ML capabilities, and discussing the need for governance over AI and automation in operations. Evidence for privacy is found in the discussion of data protection obligations and their potential impact on data utility due to regulations. Finally, transparency is supported by mentions of strengthening AI/ML capabilities as a commitment to business success.",
+          "title": "Coca-Cola 10-K Annual Report 2024: Data Protection Risks",
+          "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0000021344-25-000011/ko-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "The Coca-Cola 2025 Proxy Statement provides evidence for the **governance** pillar of responsible AI. This proxy statement details the establishment of an \"AI Risk Governance Council\" that meets regularly to advise on risk mitigation, demonstrating operational governance. Furthermore, it outlines responsibilities for overseeing investments in AI companies, developing AI platforms, and managing AI deployment, all of which indicate decision-making authority and oversight mechanisms related to AI.",
+          "title": "Coca-Cola 2025 Proxy Statement (DEF 14A)",
+          "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001558370-25-003056/ko-20250430xdef14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This industry analysis report, \"AI Risk in Food and Beverage Manufacturing Industry,\" provides evidence for **governance** and **oversight**. The report indicates the existence of an AI governance framework and mentions guidance for responsible AI use, monitoring, and oversight as risk mitigation strategies, demonstrating a commitment to policy-level management and control of AI. Furthermore, it highlights risks related to disclosure and regulatory standards for AI technology, underscoring the importance of policy requirements for compliance and risk management.",
+          "title": "AI Risk in Food and Beverage Manufacturing Industry",
+          "url": "https://foodnavigator.com/Article/2024/08/19/How-risky-is-AI-to-food-and-drink-manufacture"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post on Coca-Cola's ERM leader, John Berry, provides evidence for **governance**, **oversight**, **transparency**, and **explainability**. It discusses AI strategy and building credibility, recommending investment in tools with explainable outputs and internal controls, which supports governance and explainability. The post also highlights the necessity of human expertise for interpretation and ethical oversight, directly supporting the oversight pillar, and mentions transparency as a key requirement.",
+          "title": "Coca-Cola ERM: AI Applications for Monitoring Emerging Risks",
+          "url": "https://erm.ncsu.edu/resource-center/ai-in-erm-coca-cola-john-berry"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This blog post analyzing Coca-Cola's AI marketing campaigns provides evidence for **governance**, **external accountability**, **fairness**, and **transparency**. It describes auditing AI tools and operational steps for testing AI accuracy and representation, including bias and output testing, which directly supports **fairness**. The post also touches on **governance** and **external accountability** through the mention of auditing AI tools, and highlights **transparency** and **human oversight** as previously ignored ethics tenets, indicating a governance failure scenario.",
+          "title": "AI Ethics and Responsible Use: Coca-Cola Marketing Case Study",
+          "url": "https://aiforwardmarketer.com/ai-ethics-responsible-use-and-bias-from-policy-to-practice"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It details Coca-Cola's \"AI + HI\" philosophy, highlighting augmented human decisions and AI system governance with ethical decision-making. The post also points to oversight mechanisms like a Global VP of Generative AI and a dedicated team, alongside transparency through an \"AI hot sheet\" and customizable news streams for information delivery.",
+          "title": "Coca-Cola AI Strategy: AI+HI Philosophy and Demand Forecasting",
+          "url": "https://klover.ai/coca-cola-ai-strategy-market-dominance-in-consumer-packaged-goods"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Coca-Cola Growth Strategy: Generative AI Integration,\" provides evidence for the **governance** pillar. The post details Coca-Cola's commitment to \"lead and iterate our approach\" to generative AI, suggesting a structured policy for managing AI development and deployment. This indicates a proactive approach to overseeing the integration of emerging technologies.",
+          "title": "Coca-Cola Growth Strategy: Generative AI Integration",
+          "url": "https://investors.coca-colacompany.com/about/growth-strategy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical blog post provides evidence for **governance**, **oversight**, and **transparency**. It details the operational implementation of Coca-Cola's machine learning sales forecasting system, including mechanisms for continuous algorithmic improvement through feedback loops, anomaly detection, and A/B testing, which supports governance. The blog post also implies human oversight through the mention of strategic decision-making and manual overrides, and supports transparency by describing the use of probabilistic forecasting that provides uncertainty estimates.",
+          "title": "Coca-Cola Machine Learning Sales Forecasting: Technical Implementation",
+          "url": "https://articsledge.com/post/coca-cola-s-machine-learning-driven-sales-forecasting"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This Harvard case study on Coca-Cola's use of machine learning in the CPG industry provides evidence for **governance**, **privacy**, and **transparency**. The case study details how Coca-Cola leverages ML for product personalization and development, demonstrating a strategic governance approach and transparency in their data-driven insights. Furthermore, the analysis of consumer patterns for placement, promotion, and discounts suggests consideration of privacy.",
+          "title": "How Coca-Cola Leverages Machine Learning in CPG Industry",
+          "url": "https://d3.harvard.edu/platform-rctom/submission/how-coca-cola-is-leveraging-machine-learning-in-the-hyper-competitive-cpg-industry"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "The article \"Coca-Cola AI Advertising and Environmental Impact Concerns\" provides evidence for the **governance** pillar. It documents Coca-Cola's strategic plans for AI adoption and deployment, indicating a governance framework for their AI initiatives.",
+          "title": "Coca-Cola AI Advertising and Environmental Impact Concerns",
+          "url": "https://thecooldown.com/green-business/coca-cola-ai-advertising-soda-company"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "The \"Coca-Cola AI Skills Training Program\" document provides evidence for the **governance** pillar of responsible AI. This is supported by the mention of an \"AI Impact and Maturity (AIM) diagnostic\" which suggests a structured approach to benchmarking and scaling AI initiatives, indicating a governance process for AI adoption.",
+          "title": "Coca-Cola AI Skills Training Program",
+          "url": "https://correlation-one.com/coca-cola-cohort-7-0"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Coca-Cola AI Skills Challenges and Change Management,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing challenges in scaling generative AI and mentions plans for integration and partnership, implying oversight. The source also touches on privacy through discussions of data security, access controls, and trusted information for AI assistants, as well as the use of consumer data for personalization. Transparency is demonstrated through descriptions of various AI applications, including generative AI for employee productivity, AI for marketing campaigns, sentiment analysis, supply chain optimization, and product development, showcasing the capabilities and use cases of AI.",
+          "title": "Coca-Cola AI Skills Challenges and Change Management",
+          "url": "https://digitaldefynd.com/IQ/ways-coca-cola-uses-artificial-intelligence"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This report on the Coca-Cola CCEP cyber incident provides evidence for the **governance** pillar of responsible AI. The mention of \"agentic AI\" and \"control\" suggests a focus on the governance of AI systems, even though the report describes capabilities rather than their actual implementation.",
+          "title": "Coca-Cola CCEP Cyber Incident: Everest Ransomware and Salesforce Breach",
+          "url": "https://rescana.com/post/coca-cola-and-ccep-cyber-incident-everest-ransomware-and-gehenna-breach-of-salesforce-data"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This help page, \"Coca-Cola Employee AI Training for Production Processes,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing a program for workforce upskilling in AI technologies, indicating a commitment to responsible AI implementation and management. Transparency is supported by detailing specific AI applications in marketing and production, such as segmentation, content creation, and data analysis, which contribute to understanding how AI is being used.",
+          "title": "Coca-Cola Employee AI Training for Production Processes",
+          "url": "https://m.umu.com/ask/q11122301573854329297"
+        }
+      ],
+      "score": 2,
+      "source_count": 19
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 8,
+      "findings": "The company mentions a mechanism to react to issues for AI pilots and highlights the necessity of human expertise for interpretation and ethical oversight. Guidance for responsible AI use, monitoring, and oversight is referenced as a risk mitigation strategy. Furthermore, the company highlights augmented human decisions and implies human oversight through strategic decision-making and manual overrides, with oversight mechanisms including a Global VP of Generative AI and a dedicated team.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release details Coca-Cola's approach to AI governance, highlighting strict guidelines for AI pilots. It provides evidence for **governance** by outlining mandatory considerations for AI implementation, strategic vendor relationships, and authorization based on envisioned business outcomes. Furthermore, the press release supports **fairness** and **oversight** by explicitly mentioning guidelines to avoid social biases and a mechanism to react to issues, demonstrating a commitment to responsible AI development.",
+          "title": "Coca-Cola CIO: Strict Guidelines and Bias Mitigation for AI Pilots",
+          "url": "https://fortune.com/2025/07/09/why-coca-colas-cio-prioritizes-big-impact-ai-pilot-projects"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This industry analysis report, \"AI Risk in Food and Beverage Manufacturing Industry,\" provides evidence for **governance** and **oversight**. The report indicates the existence of an AI governance framework and mentions guidance for responsible AI use, monitoring, and oversight as risk mitigation strategies, demonstrating a commitment to policy-level management and control of AI. Furthermore, it highlights risks related to disclosure and regulatory standards for AI technology, underscoring the importance of policy requirements for compliance and risk management.",
+          "title": "AI Risk in Food and Beverage Manufacturing Industry",
+          "url": "https://foodnavigator.com/Article/2024/08/19/How-risky-is-AI-to-food-and-drink-manufacture"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post on Coca-Cola's ERM leader, John Berry, provides evidence for **governance**, **oversight**, **transparency**, and **explainability**. It discusses AI strategy and building credibility, recommending investment in tools with explainable outputs and internal controls, which supports governance and explainability. The post also highlights the necessity of human expertise for interpretation and ethical oversight, directly supporting the oversight pillar, and mentions transparency as a key requirement.",
+          "title": "Coca-Cola ERM: AI Applications for Monitoring Emerging Risks",
+          "url": "https://erm.ncsu.edu/resource-center/ai-in-erm-coca-cola-john-berry"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This blog post analyzing Coca-Cola's AI marketing campaigns provides evidence for **governance**, **external accountability**, **fairness**, and **transparency**. It describes auditing AI tools and operational steps for testing AI accuracy and representation, including bias and output testing, which directly supports **fairness**. The post also touches on **governance** and **external accountability** through the mention of auditing AI tools, and highlights **transparency** and **human oversight** as previously ignored ethics tenets, indicating a governance failure scenario.",
+          "title": "AI Ethics and Responsible Use: Coca-Cola Marketing Case Study",
+          "url": "https://aiforwardmarketer.com/ai-ethics-responsible-use-and-bias-from-policy-to-practice"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It details Coca-Cola's \"AI + HI\" philosophy, highlighting augmented human decisions and AI system governance with ethical decision-making. The post also points to oversight mechanisms like a Global VP of Generative AI and a dedicated team, alongside transparency through an \"AI hot sheet\" and customizable news streams for information delivery.",
+          "title": "Coca-Cola AI Strategy: AI+HI Philosophy and Demand Forecasting",
+          "url": "https://klover.ai/coca-cola-ai-strategy-market-dominance-in-consumer-packaged-goods"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical blog post provides evidence for **governance**, **oversight**, and **transparency**. It details the operational implementation of Coca-Cola's machine learning sales forecasting system, including mechanisms for continuous algorithmic improvement through feedback loops, anomaly detection, and A/B testing, which supports governance. The blog post also implies human oversight through the mention of strategic decision-making and manual overrides, and supports transparency by describing the use of probabilistic forecasting that provides uncertainty estimates.",
+          "title": "Coca-Cola Machine Learning Sales Forecasting: Technical Implementation",
+          "url": "https://articsledge.com/post/coca-cola-s-machine-learning-driven-sales-forecasting"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 19,
+      "findings": "The company's privacy policy describes data use for profiling, IP anonymization, and data sharing controls. Policy documents commit to working with platforms that respect user privacy, and annual reports discuss data protection obligations and their potential impact on data utility due to regulations. Furthermore, the analysis of consumer patterns suggests consideration of privacy, and blog posts discuss data security, access controls, trusted information for AI assistants, and the use of consumer data for personalization.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, governance, privacy, and transparency**. It supports explainability by outlining consumer rights regarding automated decision-making logic and consequences. The policy addresses governance through its discussion of data matching, clean rooms, and vendor data usage for insights and personalized advertising. Evidence for privacy is found in its descriptions of data use for profiling, IP anonymization, and data sharing controls. Finally, transparency is supported by the policy's mention of data use for personalized advertising and effectiveness assessment.",
+          "title": "Coca-Cola Privacy Policy - Automated Decision-Making Rights",
+          "url": "https://coca-cola.com/us/en/legal/privacy-policy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Coca-Cola Responsible Digital Media Principles,\" provides evidence for **external accountability**, **governance**, and **privacy**. It supports external accountability and governance by mandating vendor audits and reporting on violations, and by outlining vendor responsibilities for content moderation and compliance. The document also supports the privacy pillar through its commitment to working with platforms that respect user privacy.",
+          "title": "Coca-Cola Responsible Digital Media Principles",
+          "url": "https://cocacolacompany.com/policies-and-practices/responsible-digital-media-principles"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This blog post from Coca-Cola Europacific Partners discusses their commitment to responsible AI, providing evidence for the **governance**, **fairness**, **explainability**, and **privacy** pillars. The source highlights their focus on accountability and secure AI implementation, outlining commitments and key areas for responsible technology adoption across their operations.",
+          "title": "Coca-Cola CCEP: Responsible AI Framework for Growth",
+          "url": "https://cocacolaep.com/news-and-stories/how-ai-is-unleashing-growth-at-ccep"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This SEC 10-K filing from Coca-Cola provides evidence for **governance**, **privacy**, and **transparency**. The document supports governance by acknowledging evolving AI regulations and compliance obligations, mentioning the strategic expansion of AI/ML capabilities, and discussing the need for governance over AI and automation in operations. Evidence for privacy is found in the discussion of data protection obligations and their potential impact on data utility due to regulations. Finally, transparency is supported by mentions of strengthening AI/ML capabilities as a commitment to business success.",
+          "title": "Coca-Cola 10-K Annual Report 2024: Data Protection Risks",
+          "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0000021344-25-000011/ko-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It details Coca-Cola's \"AI + HI\" philosophy, highlighting augmented human decisions and AI system governance with ethical decision-making. The post also points to oversight mechanisms like a Global VP of Generative AI and a dedicated team, alongside transparency through an \"AI hot sheet\" and customizable news streams for information delivery.",
+          "title": "Coca-Cola AI Strategy: AI+HI Philosophy and Demand Forecasting",
+          "url": "https://klover.ai/coca-cola-ai-strategy-market-dominance-in-consumer-packaged-goods"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This Harvard case study on Coca-Cola's use of machine learning in the CPG industry provides evidence for **governance**, **privacy**, and **transparency**. The case study details how Coca-Cola leverages ML for product personalization and development, demonstrating a strategic governance approach and transparency in their data-driven insights. Furthermore, the analysis of consumer patterns for placement, promotion, and discounts suggests consideration of privacy.",
+          "title": "How Coca-Cola Leverages Machine Learning in CPG Industry",
+          "url": "https://d3.harvard.edu/platform-rctom/submission/how-coca-cola-is-leveraging-machine-learning-in-the-hyper-competitive-cpg-industry"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Coca-Cola AI Skills Challenges and Change Management,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing challenges in scaling generative AI and mentions plans for integration and partnership, implying oversight. The source also touches on privacy through discussions of data security, access controls, and trusted information for AI assistants, as well as the use of consumer data for personalization. Transparency is demonstrated through descriptions of various AI applications, including generative AI for employee productivity, AI for marketing campaigns, sentiment analysis, supply chain optimization, and product development, showcasing the capabilities and use cases of AI.",
+          "title": "Coca-Cola AI Skills Challenges and Change Management",
+          "url": "https://digitaldefynd.com/IQ/ways-coca-cola-uses-artificial-intelligence"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 51,
+      "findings": "The company's privacy policy outlines consumer rights regarding automated decision-making logic and consequences, also mentioning data use for personalized advertising and effectiveness assessment. Operational transparency is demonstrated through documentation of AI-enabled suggested order capabilities for demand prediction and customer ordering systems, and descriptions of various AI applications across employee productivity, marketing, supply chain, and product development. Furthermore, the company references transparency through an \"AI hot sheet,\" customizable news streams, and the use of probabilistic forecasting that provides uncertainty estimates.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, governance, privacy, and transparency**. It supports explainability by outlining consumer rights regarding automated decision-making logic and consequences. The policy addresses governance through its discussion of data matching, clean rooms, and vendor data usage for insights and personalized advertising. Evidence for privacy is found in its descriptions of data use for profiling, IP anonymization, and data sharing controls. Finally, transparency is supported by the policy's mention of data use for personalized advertising and effectiveness assessment.",
+          "title": "Coca-Cola Privacy Policy - Automated Decision-Making Rights",
+          "url": "https://coca-cola.com/us/en/legal/privacy-policy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** pillar of Responsible AI. It documents the operational implementation of AI-enabled suggested order capabilities, detailing their use in demand prediction and customer ordering systems. This narrative description of AI use cases and their impact demonstrates transparency by outlining how AI is being utilized within the company's retail operations.",
+          "title": "Q1 2024 Earnings Report: AI-Enabled Suggested Orders Deployment",
+          "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1107/coca-cola-reports-first-quarter-2024-results"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This SEC 10-K filing from Coca-Cola provides evidence for **governance**, **privacy**, and **transparency**. The document supports governance by acknowledging evolving AI regulations and compliance obligations, mentioning the strategic expansion of AI/ML capabilities, and discussing the need for governance over AI and automation in operations. Evidence for privacy is found in the discussion of data protection obligations and their potential impact on data utility due to regulations. Finally, transparency is supported by mentions of strengthening AI/ML capabilities as a commitment to business success.",
+          "title": "Coca-Cola 10-K Annual Report 2024: Data Protection Risks",
+          "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0000021344-25-000011/ko-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post on Coca-Cola's ERM leader, John Berry, provides evidence for **governance**, **oversight**, **transparency**, and **explainability**. It discusses AI strategy and building credibility, recommending investment in tools with explainable outputs and internal controls, which supports governance and explainability. The post also highlights the necessity of human expertise for interpretation and ethical oversight, directly supporting the oversight pillar, and mentions transparency as a key requirement.",
+          "title": "Coca-Cola ERM: AI Applications for Monitoring Emerging Risks",
+          "url": "https://erm.ncsu.edu/resource-center/ai-in-erm-coca-cola-john-berry"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This blog post analyzing Coca-Cola's AI marketing campaigns provides evidence for **governance**, **external accountability**, **fairness**, and **transparency**. It describes auditing AI tools and operational steps for testing AI accuracy and representation, including bias and output testing, which directly supports **fairness**. The post also touches on **governance** and **external accountability** through the mention of auditing AI tools, and highlights **transparency** and **human oversight** as previously ignored ethics tenets, indicating a governance failure scenario.",
+          "title": "AI Ethics and Responsible Use: Coca-Cola Marketing Case Study",
+          "url": "https://aiforwardmarketer.com/ai-ethics-responsible-use-and-bias-from-policy-to-practice"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It details Coca-Cola's \"AI + HI\" philosophy, highlighting augmented human decisions and AI system governance with ethical decision-making. The post also points to oversight mechanisms like a Global VP of Generative AI and a dedicated team, alongside transparency through an \"AI hot sheet\" and customizable news streams for information delivery.",
+          "title": "Coca-Cola AI Strategy: AI+HI Philosophy and Demand Forecasting",
+          "url": "https://klover.ai/coca-cola-ai-strategy-market-dominance-in-consumer-packaged-goods"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical blog post provides evidence for **governance**, **oversight**, and **transparency**. It details the operational implementation of Coca-Cola's machine learning sales forecasting system, including mechanisms for continuous algorithmic improvement through feedback loops, anomaly detection, and A/B testing, which supports governance. The blog post also implies human oversight through the mention of strategic decision-making and manual overrides, and supports transparency by describing the use of probabilistic forecasting that provides uncertainty estimates.",
+          "title": "Coca-Cola Machine Learning Sales Forecasting: Technical Implementation",
+          "url": "https://articsledge.com/post/coca-cola-s-machine-learning-driven-sales-forecasting"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This Harvard case study on Coca-Cola's use of machine learning in the CPG industry provides evidence for **governance**, **privacy**, and **transparency**. The case study details how Coca-Cola leverages ML for product personalization and development, demonstrating a strategic governance approach and transparency in their data-driven insights. Furthermore, the analysis of consumer patterns for placement, promotion, and discounts suggests consideration of privacy.",
+          "title": "How Coca-Cola Leverages Machine Learning in CPG Industry",
+          "url": "https://d3.harvard.edu/platform-rctom/submission/how-coca-cola-is-leveraging-machine-learning-in-the-hyper-competitive-cpg-industry"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Coca-Cola AI Skills Challenges and Change Management,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing challenges in scaling generative AI and mentions plans for integration and partnership, implying oversight. The source also touches on privacy through discussions of data security, access controls, and trusted information for AI assistants, as well as the use of consumer data for personalization. Transparency is demonstrated through descriptions of various AI applications, including generative AI for employee productivity, AI for marketing campaigns, sentiment analysis, supply chain optimization, and product development, showcasing the capabilities and use cases of AI.",
+          "title": "Coca-Cola AI Skills Challenges and Change Management",
+          "url": "https://digitaldefynd.com/IQ/ways-coca-cola-uses-artificial-intelligence"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This help page, \"Coca-Cola Employee AI Training for Production Processes,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing a program for workforce upskilling in AI technologies, indicating a commitment to responsible AI implementation and management. Transparency is supported by detailing specific AI applications in marketing and production, such as segmentation, content creation, and data analysis, which contribute to understanding how AI is being used.",
+          "title": "Coca-Cola Employee AI Training for Production Processes",
+          "url": "https://m.umu.com/ask/q11122301573854329297"
+        }
+      ],
+      "score": 1,
+      "source_count": 10
+    }
+  },
+  "published_at": "2026-02-23T21:47:21Z",
+  "run_id": "20260201_214012_7693",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Coca-Cola's public disclosures address responsible AI practices at both operational and policy levels across all 7 evaluated pillars. For governance, published materials outline mandatory considerations for AI implementation and discuss data matching and vendor data usage for insights. Policy-level documentation further addresses areas such as fairness, with guidelines to avoid social biases for AI pilots, and privacy, describing data use for profiling and data sharing controls. Additionally, disclosures for external accountability mandate vendor audits and reporting on violations. These findings are drawn from 35 publicly available sources.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 105,
+    "total_sources_used": 20
+  }
+}

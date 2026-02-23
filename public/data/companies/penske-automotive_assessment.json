@@ -1,0 +1,327 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Penske Automotive",
+  "company_slug": "penske-automotive",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 29,
+      "OPERATIONAL": 4,
+      "POLICY": 22
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 22,
+      "findings": "Penske describes the strategic integration and application of AI in operations, supported by \"deep industry knowledge\" and a structured approach to AI development and deployment. The company references its commitment to AI governance, including \"governed AI\" and the necessity of stewardship for AI projects. This framework also references executing an AI strategy, forming partnerships, and describes continuous learning from customer interactions.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post series on AI in supply chain management provides evidence for **governance** and **transparency**. The blog discusses AI and ML algorithms, implying transparency through the description of their operational mechanisms and capabilities for real-time insights. Furthermore, mentions of \"deep industry knowledge\" and \"industry expertise\" suggest governance over the development and application of these AI systems.",
+          "title": "AI in Supply Chain Management – Blog Series",
+          "url": "https://gopenske.com/tag/ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This press release, \"Q3 2024 Earnings Presentation – AI Initiatives,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by discussing the strategic integration and application of AI in sales and service operations, as well as continuous learning from customer interactions, suggesting a framework for oversight. Transparency is evidenced by the mention of AI use cases for efficiency and personalization, implying an openness about how AI is being deployed.",
+          "title": "Q3 2024 Earnings Presentation – AI Initiatives",
+          "url": "https://s203.q4cdn.com/686706497/files/doc_financials/2024/q3/PAG_3Q-2024-Earnings-Release-Presentation_FINAL.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post on \"The Benefits of AI in the Supply Chain\" provides evidence for **governance**, **oversight**, and **transparency**. It supports transparency by describing AI-driven analysis for network optimization and detailing an AI system's function and scale. The post also touches on governance through the mention of a VP role and supports oversight by highlighting the role of human expertise in leveraging AI insights for decision-making.",
+          "title": "The Benefits of AI in the Supply Chain",
+          "url": "https://penskelogistics.com/solutions/supply-chain-management/ai-in-the-supply-chain"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance, oversight, and transparency** by detailing Penske Logistics' implementation of an agentic AI platform. The announcement highlights the AI's capabilities in validating loads and enhancing workflows, offering transparency into its functions and intended benefits. Furthermore, the partnership with Augment and the explicit mention of human intervention for exceptions demonstrate mechanisms for oversight and strategic AI governance.",
+          "title": "Penske Logistics Accelerates Agentic AI – Official Newsroom",
+          "url": "https://gopenske.com/newsroom/penske-logistics-expands-ai-visibility"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This company blog post, \"Seeing the Supply Chain More Clearly with Agentic AI,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog's discussion of implementing an AI platform for supply chain operations implies governance over its use, and the mention of executing an AI strategy and forming partnerships further supports the governance pillar by indicating oversight of AI initiatives. The description of the platform's application also suggests transparency in how AI is being utilized.",
+          "title": "Seeing the Supply Chain More Clearly with Agentic AI",
+          "url": "https://gopenske.com/blog/logistics/seeing-the-supply-chain-clearly"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by detailing the capabilities of \"Catalyst AI,\" including its real-time analysis of over 100 billion data points annually and its use of 300+ simultaneous models for comparison logic and trend detection. The press release also indicates governance by highlighting the AI's role in delivering actionable insights and driving strategic decision-making, suggesting a structured approach to its development and deployment.",
+          "title": "Penske's Catalyst AI Powers Innovative New Era – May 2025 Release",
+          "url": "https://prnewswire.com/news-releases/penskes-catalyst-ai-powers-innovative-new-era-of-fleet-intelligence-302452406.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This third-party case study on Penske Logistics' use of Snowflake for generative AI implementation provides evidence for the **governance**, **privacy**, and **transparency** pillars. The document highlights the use of LLMs within a governed platform and secure data integration, implying policies around AI deployment, vendor access, and data security. It also mentions privacy and compliance in the context of AI development and data handling, suggesting a focus on responsible AI practices.",
+          "title": "Penske Drives Excellence with Gen AI Using Snowflake – Case Study",
+          "url": "https://snowflake.com/en/customers/all-customers/case-study/penske"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This third-party documentation of \"Penske Data Streaming Awards – Confluent Current\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The source implies a system for proactive diagnostics, supporting governance, and mentions the use of an AI/ML model for predicting vehicle failures, which supports transparency by describing the model's application. However, no execution details for these practices were provided.",
+          "title": "Penske Data Streaming Awards – Confluent Current",
+          "url": "https://current.confluent.io/data-streaming-awards-winners/penske"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This third-party blog post, \"From Trucks to Data on Wheels – Penske's AI Journey,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog highlights Penske's commitment to AI governance through mentions of \"governed AI\" and the necessity of stewardship and governance for AI projects. Transparency is demonstrated by the blog's description of AI capabilities, including predictive and generative AI, and the deployment of AI apps, which offers insight into their AI development and implementation.",
+          "title": "From Trucks to Data on Wheels – Penske's AI Journey – Qlik Blog",
+          "url": "https://qlik.com/blog/from-trucks-to-data-on-wheels-penskes-ai-and-data-journey"
+        }
+      ],
+      "score": 1,
+      "source_count": 9
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 5,
+      "findings": "Penske describes the role of human expertise in leveraging AI insights for decision-making. The company also references reliance on human intervention for exception handling within its agentic AI platform.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post on \"The Benefits of AI in the Supply Chain\" provides evidence for **governance**, **oversight**, and **transparency**. It supports transparency by describing AI-driven analysis for network optimization and detailing an AI system's function and scale. The post also touches on governance through the mention of a VP role and supports oversight by highlighting the role of human expertise in leveraging AI insights for decision-making.",
+          "title": "The Benefits of AI in the Supply Chain",
+          "url": "https://penskelogistics.com/solutions/supply-chain-management/ai-in-the-supply-chain"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **oversight** and **transparency** pillars of responsible AI. It supports oversight by mentioning reliance on human intervention for exception handling within the agentic AI platform. Transparency is supported by identifying the AI product and its function, as well as describing its proactive issue resolution capabilities, though without explicit operational details.",
+          "title": "Penske Logistics Accelerates Agentic AI Supply Chain Initiative – Press Release",
+          "url": "https://prnewswire.com/news-releases/penske-logistics-accelerates-agentic-ai-supply-chain-initiative-with-augment-302660410.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance, oversight, and transparency** by detailing Penske Logistics' implementation of an agentic AI platform. The announcement highlights the AI's capabilities in validating loads and enhancing workflows, offering transparency into its functions and intended benefits. Furthermore, the partnership with Augment and the explicit mention of human intervention for exceptions demonstrate mechanisms for oversight and strategic AI governance.",
+          "title": "Penske Logistics Accelerates Agentic AI – Official Newsroom",
+          "url": "https://gopenske.com/newsroom/penske-logistics-expands-ai-visibility"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "Penske references privacy and compliance in the context of AI development and data handling. Secure data integration is also described.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This third-party case study on Penske Logistics' use of Snowflake for generative AI implementation provides evidence for the **governance**, **privacy**, and **transparency** pillars. The document highlights the use of LLMs within a governed platform and secure data integration, implying policies around AI deployment, vendor access, and data security. It also mentions privacy and compliance in the context of AI development and data handling, suggesting a focus on responsible AI practices.",
+          "title": "Penske Drives Excellence with Gen AI Using Snowflake – Case Study",
+          "url": "https://snowflake.com/en/customers/all-customers/case-study/penske"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 46,
+      "findings": "Penske describes the capabilities, aspirations, and use cases of its AI and ML systems, such as Catalyst AI™ for fleet optimization and agentic AI for supply chain management. Documentation describes AI's analytical and predictive functions for decision support, maintenance, and network optimization, along with its operational mechanisms and real-time insight capabilities. This includes specifics on data analysis, model usage, and the deployment of AI apps for various operational needs.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release for Penske's Catalyst AI™ mentions AI and machine learning capabilities, describing its aspirations and use cases for commercial fleet benchmarking and performance optimization. The source provides evidence for the **transparency** pillar by detailing the AI and algorithm capabilities, even though it lacks specific execution details.",
+          "title": "Penske Introduces Catalyst AI™ – Official Press Release",
+          "url": "https://gopenske.com/newsroom/penske-introdues-catalyst-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This help page provides evidence for the **transparency** pillar of responsible AI. It highlights AI's analytical and predictive capabilities for decision support, root cause analysis, and triggering maintenance, demonstrating transparency in how AI is applied for predictive maintenance. The document describes AI-powered insights and monitoring for performance metrics, indicating transparency in AI use, though it lacks specific operational or governance details.",
+          "title": "Predictive Analytics Solutions for Reducing Downtime",
+          "url": "https://pensketruckleasing.com/resources/resource-library/predictive-analytics-solutions-for-reducing-downtime"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post series on AI in supply chain management provides evidence for **governance** and **transparency**. The blog discusses AI and ML algorithms, implying transparency through the description of their operational mechanisms and capabilities for real-time insights. Furthermore, mentions of \"deep industry knowledge\" and \"industry expertise\" suggest governance over the development and application of these AI systems.",
+          "title": "AI in Supply Chain Management – Blog Series",
+          "url": "https://gopenske.com/tag/ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This press release, \"Q3 2024 Earnings Presentation – AI Initiatives,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by discussing the strategic integration and application of AI in sales and service operations, as well as continuous learning from customer interactions, suggesting a framework for oversight. Transparency is evidenced by the mention of AI use cases for efficiency and personalization, implying an openness about how AI is being deployed.",
+          "title": "Q3 2024 Earnings Presentation – AI Initiatives",
+          "url": "https://s203.q4cdn.com/686706497/files/doc_financials/2024/q3/PAG_3Q-2024-Earnings-Release-Presentation_FINAL.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post on \"The Benefits of AI in the Supply Chain\" provides evidence for **governance**, **oversight**, and **transparency**. It supports transparency by describing AI-driven analysis for network optimization and detailing an AI system's function and scale. The post also touches on governance through the mention of a VP role and supports oversight by highlighting the role of human expertise in leveraging AI insights for decision-making.",
+          "title": "The Benefits of AI in the Supply Chain",
+          "url": "https://penskelogistics.com/solutions/supply-chain-management/ai-in-the-supply-chain"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **oversight** and **transparency** pillars of responsible AI. It supports oversight by mentioning reliance on human intervention for exception handling within the agentic AI platform. Transparency is supported by identifying the AI product and its function, as well as describing its proactive issue resolution capabilities, though without explicit operational details.",
+          "title": "Penske Logistics Accelerates Agentic AI Supply Chain Initiative – Press Release",
+          "url": "https://prnewswire.com/news-releases/penske-logistics-accelerates-agentic-ai-supply-chain-initiative-with-augment-302660410.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance, oversight, and transparency** by detailing Penske Logistics' implementation of an agentic AI platform. The announcement highlights the AI's capabilities in validating loads and enhancing workflows, offering transparency into its functions and intended benefits. Furthermore, the partnership with Augment and the explicit mention of human intervention for exceptions demonstrate mechanisms for oversight and strategic AI governance.",
+          "title": "Penske Logistics Accelerates Agentic AI – Official Newsroom",
+          "url": "https://gopenske.com/newsroom/penske-logistics-expands-ai-visibility"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This company blog post, \"Seeing the Supply Chain More Clearly with Agentic AI,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog's discussion of implementing an AI platform for supply chain operations implies governance over its use, and the mention of executing an AI strategy and forming partnerships further supports the governance pillar by indicating oversight of AI initiatives. The description of the platform's application also suggests transparency in how AI is being utilized.",
+          "title": "Seeing the Supply Chain More Clearly with Agentic AI",
+          "url": "https://gopenske.com/blog/logistics/seeing-the-supply-chain-clearly"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by detailing the capabilities of \"Catalyst AI,\" including its real-time analysis of over 100 billion data points annually and its use of 300+ simultaneous models for comparison logic and trend detection. The press release also indicates governance by highlighting the AI's role in delivering actionable insights and driving strategic decision-making, suggesting a structured approach to its development and deployment.",
+          "title": "Penske's Catalyst AI Powers Innovative New Era – May 2025 Release",
+          "url": "https://prnewswire.com/news-releases/penskes-catalyst-ai-powers-innovative-new-era-of-fleet-intelligence-302452406.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This third-party case study on Penske Logistics' use of Snowflake for generative AI implementation provides evidence for the **governance**, **privacy**, and **transparency** pillars. The document highlights the use of LLMs within a governed platform and secure data integration, implying policies around AI deployment, vendor access, and data security. It also mentions privacy and compliance in the context of AI development and data handling, suggesting a focus on responsible AI practices.",
+          "title": "Penske Drives Excellence with Gen AI Using Snowflake – Case Study",
+          "url": "https://snowflake.com/en/customers/all-customers/case-study/penske"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This third-party documentation of \"Penske Data Streaming Awards – Confluent Current\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The source implies a system for proactive diagnostics, supporting governance, and mentions the use of an AI/ML model for predicting vehicle failures, which supports transparency by describing the model's application. However, no execution details for these practices were provided.",
+          "title": "Penske Data Streaming Awards – Confluent Current",
+          "url": "https://current.confluent.io/data-streaming-awards-winners/penske"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This third-party blog post, \"From Trucks to Data on Wheels – Penske's AI Journey,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog highlights Penske's commitment to AI governance through mentions of \"governed AI\" and the necessity of stewardship and governance for AI projects. Transparency is demonstrated by the blog's description of AI capabilities, including predictive and generative AI, and the deployment of AI apps, which offers insight into their AI development and implementation.",
+          "title": "From Trucks to Data on Wheels – Penske's AI Journey – Qlik Blog",
+          "url": "https://qlik.com/blog/from-trucks-to-data-on-wheels-penskes-ai-and-data-journey"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This third-party customer story, \"AI-Driven Repair and Maintenance – Hitachi Digital Services,\" provides evidence for the **transparency** pillar. The document details the operational deployment of an AI/ML system for diagnostic support and proactive maintenance scheduling, indicating the use of AI-driven capabilities. It also mentions the development of an AI-driven hub, highlighting experience and team collaboration, though some aspects related to Gen AI for a knowledge hub are described as future aspirations rather than current execution.",
+          "title": "AI-Driven Repair and Maintenance – Hitachi Digital Services",
+          "url": "https://hitachids.com/customer-stories/ai-driven-repair-and-maintenance-for-117500-penske-trucks-improve-fleet-operations-sa"
+        }
+      ],
+      "score": 1,
+      "source_count": 13
+    }
+  },
+  "published_at": "2026-02-23T21:57:10Z",
+  "run_id": "20260203_024053_34f6",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Based on 20 publicly available sources, Penske Automotive's published materials address 4 of 7 evaluated responsible AI pillars. Transparency, oversight, privacy, and governance are the four pillars with documented policies. Transparency disclosures describe Penske's Catalyst AI™ capabilities, aspirations, and use cases for commercial fleet benchmarking and performance optimization, while materials related to oversight describe the role of human expertise in leveraging AI insights for decision-making. Privacy documentation references secure data integration, and governance materials describe the strategic integration and application of AI in sales and service operations. No qualifying public evidence was found for fairness, explainability, and 1 additional pillar.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 55,
+    "total_sources_used": 13
+  }
+}

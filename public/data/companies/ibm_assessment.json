@@ -1,0 +1,1030 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 100.0,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 14
+  },
+  "company": "IBM",
+  "company_slug": "ibm",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 30,
+      "OPERATIONAL": 56,
+      "POLICY": 139
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 25,
+      "findings": "IBM provides tools and practices to support AI explainability, such as the \"AI Explainability 360 Toolkit\" which offers algorithms and examples for understanding machine learning models. The company also references explainable AI workflows and the generation of AI model pipelines. IBM commits to making AI training data, algorithm recommendations, applications, and purposes clear, and requires AI systems to articulate their conclusions and maintain reviewable records.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This system card for IBM's \"AI Explainability 360 Toolkit\" provides evidence for the **explainability** and **transparency** pillars of responsible AI. The toolkit offers multiple algorithms and examples for understanding machine learning models and their lifecycle, directly supporting the explainability pillar by enabling users to interpret AI systems. Furthermore, by describing features that enhance transparency, the toolkit aligns with the transparency pillar, allowing diverse personas to gain insight into AI decision-making.",
+          "title": "AI Explainability 360 Toolkit",
+          "url": "https://aix360.factsheets.vpc.res.ibm.com"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This IBM Cloud Pak for Data help page provides evidence for **governance, transparency, fairness, and explainability**. It describes mechanisms for tracking AI models throughout their lifecycle, from request to production, which supports governance and transparency. The page also explicitly mentions monitoring for fairness and compliance, and the generation of AI model pipelines, which contributes to explainability.",
+          "title": "Using AI Factsheets for AI Governance - IBM Cloud Pak for Data",
+          "url": "https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/factsheets-model-inventory.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post provides evidence for explainability, fairness, and governance. It supports explainability by mentioning \"explainable AI workflows\" and governance through the establishment of \"frameworks, rules and standards\" for safety and fairness, as well as the creation of an \"AI Ethics Board.\" The post also indicates operational execution of AI governance by referencing \"monitoring for your agents in production.\"",
+          "title": "AI Governance Tools and Solutions - IBM",
+          "url": "https://ibm.com/ai-governance"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. It details IBM's Board oversight of AI governance, including an AI Ethics Board and robust processes for responsible technology use. The document also highlights commitments to trustworthy and explainable AI, privacy, and the company's active role in shaping AI standards and alliances, demonstrating a comprehensive approach to responsible AI practices.",
+          "title": "2024 Notice of Annual Meeting and Proxy Statement",
+          "url": "https://ibm.com/annualreport/assets/downloads/IBM_Proxy_2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This blog post describes IBM's partnership testing Data Provenance Standards to foster transparency across the data ecosystem. The source provides evidence for **explainability, fairness, governance, and transparency** by highlighting how adherence to data governance and risk criteria enhances AI model transparency, and by discussing standards for data provenance to enable transparency and responsible AI. It also mentions principles for trust and transparency, and embedding ethics into the AI lifecycle, indicating a policy commitment to AI governance.",
+          "title": "How IBM and the Data & Trust Alliance are fostering greater transparency across the data ecosystem",
+          "url": "https://ibm.com/case-studies/blog/how-ibm-and-the-data-trust-alliance-are-fostering-greater-transparency-across-the-data-ecosystem"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This IBM technical documentation for Watson OpenScale provides evidence for **fairness**, **explainability**, and **transparency**. It describes configuring fairness monitors to track and assess model bias, and mentions validating models and explaining results, indicating operational use of AI governance tools. The documentation also details configuring quality and drift monitors to evaluate model accuracy and consistency, showing operational oversight and evaluation of production models.",
+          "title": "Validating a model with IBM Watson OpenScale",
+          "url": "https://ibm.com/docs/en/wml-for-zos/enterprise/3.1.0?topic=wmlz-validating-models-watson-openscale"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"IBM Principles for Trust and Transparency,\" provides evidence for the **explainability**, **fairness**, and **transparency** pillars of responsible AI. It establishes a commitment to making AI training data and algorithm recommendations clear, demonstrating support for explainability and transparency. Furthermore, the document acknowledges an obligation to proactively address bias in AI training methods and data, supporting the fairness pillar, and commits to making AI applications and purposes clear, reinforcing transparency and explainability in deployment.",
+          "title": "IBM Principles for Trust and Transparency",
+          "url": "https://ibm.com/policy/trust-transparency"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This IBM insights blog post provides evidence for **governance, oversight, transparency, fairness, and explainability**. It details IBM's AI Ethics Board structure and its oversight role, along with an Advocacy Network and Focal Points for operationalizing ethical principles. The post also highlights the product watsonx.governance, which supports AI lifecycle tasks like bias monitoring and explainability, demonstrating operational capabilities for these pillars.",
+          "title": "A look into IBM's AI ethics governance framework",
+          "url": "https://ibm.com/think/insights/a-look-into-ibms-ai-ethics-governance-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post supports the pillars of explainability, external accountability, governance, privacy, and transparency. It discusses AI tools for explainability (XAI) and governance portfolios for monitoring and auditing AI models, as well as AI governance products for regulatory alignment and risk evaluation. The post also mentions AI standards, risk assessments, data protection (privacy), transparency, and accountability as key components of AI development and use, emphasizing the need to implement AI governance frameworks.",
+          "title": "AI Compliance: What It Is, Why It Matters and How to Get Started - IBM",
+          "url": "https://ibm.com/think/insights/ai-compliance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page provides evidence for **explainability, external accountability, fairness, governance, oversight, and transparency**. The document supports these pillars by detailing IBM's commitment to AI governance solutions, including policies for managing AI systems responsibly, investing in bias mitigation, and establishing frameworks for responsible AI development. It also highlights operational mechanisms like ongoing monitoring, testing, independent assessments for bias detection, and human-in-the-loop systems for oversight, as well as preparing for regulatory compliance.",
+          "title": "What Is AI Bias? - IBM",
+          "url": "https://ibm.com/think/topics/ai-bias"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page provides evidence for **explainability** and **fairness** by outlining specific pillars for responsible AI adoption and defining requirements for AI systems. It also details IBM's commitment to AI ethics through its **governance** framework, referencing the AI Ethics Board for centralized review and decision-making, and promoting solutions like watsonx.governance for overseeing the AI lifecycle via policies and processes.",
+          "title": "What is AI Ethics? - IBM",
+          "url": "https://ibm.com/think/topics/ai-ethics"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI governance provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document details structured approaches to AI governance, including policy and data governance for mitigating risks and ensuring fair decisions, as well as audit trails for accountability. It also highlights the existence of an AI Ethics Board for oversight, risk tiering for AI use cases, and the use of automated systems for bias detection and model monitoring, all contributing to a trusted and transparent AI framework.",
+          "title": "What is AI Governance? - IBM",
+          "url": "https://ibm.com/think/topics/ai-governance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI transparency provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. It supports these pillars by describing disclosure of algorithm logic, training data assessment, model evaluation methods, and regulatory compliance requirements, including alignment with the EU AI Act. The material outlines strategies for AI transparency throughout the AI lifecycle, discusses presenting transparency information, and highlights the importance of AI governance solutions for responsible, transparent, and explainable AI.",
+          "title": "What Is AI Transparency? - IBM",
+          "url": "https://ibm.com/think/topics/ai-transparency"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_029",
+          "source_tier": "company_owned",
+          "summary": "This IBM white paper, \"Everyday Ethics for Artificial Intelligence,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. The document supports explainability by requiring AI systems to articulate their conclusions and maintain reviewable records. It addresses fairness by discussing the mitigation of biases, including human bias embedded in AI, and ensuring AI does not exclude demographics. Governance is supported through mentions of proactive issue addressing, accountability for AI outcomes, and responsibility for building AI. Oversight is indicated by mechanisms like feedback loops and user ability to opt-out. Privacy is supported by the sensitivity to personal information used in AI decision-making. Finally, transparency is supported by the emphasis on explaining AI conclusions.",
+          "title": "Everyday Ethics for Artificial Intelligence",
+          "url": "https://ibm.com/watson/assets/duo/pdf/everydayethics.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 14
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 15,
+      "findings": "IBM documents its commitment to external accountability by discussing organizational accountability structures for responsible AI, including vendor contract requirements and assigning accountability for AI implementation. The company references the need for AI governance solutions to manage compliance with evolving AI regulations, such as the EU AI Act, and mentions preparing for regulatory compliance. Practices also include monitoring and auditing AI models, tracking potential lawsuits, and detailing audit trails for accountability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. It details IBM's Board oversight of AI governance, including an AI Ethics Board and robust processes for responsible technology use. The document also highlights commitments to trustworthy and explainable AI, privacy, and the company's active role in shaping AI standards and alliances, demonstrating a comprehensive approach to responsible AI practices.",
+          "title": "2024 Notice of Annual Meeting and Proxy Statement",
+          "url": "https://ibm.com/annualreport/assets/downloads/IBM_Proxy_2024.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Granite Responsible Use Guide,\" provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. It details practices such as routine testing of model checkpoints, manual review by human evaluators, and the use of red teaming techniques to identify weaknesses, supporting oversight. The guide also outlines policies for data handling and model behavior, addresses bias and misuse, and mentions a named AI Ethics Board, demonstrating governance and a commitment to fairness and transparency through practices like model cards.",
+          "title": "Granite Responsible Use Guide",
+          "url": "https://ibm.com/granite/docs/resources/responsible-use-guide.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post supports the pillars of explainability, external accountability, governance, privacy, and transparency. It discusses AI tools for explainability (XAI) and governance portfolios for monitoring and auditing AI models, as well as AI governance products for regulatory alignment and risk evaluation. The post also mentions AI standards, risk assessments, data protection (privacy), transparency, and accountability as key components of AI development and use, emphasizing the need to implement AI governance frameworks.",
+          "title": "AI Compliance: What It Is, Why It Matters and How to Get Started - IBM",
+          "url": "https://ibm.com/think/insights/ai-compliance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"A streamlined approach to managing regulatory compliance to scale AI,\" provides evidence for **governance** and **external_accountability**. It discusses the evolving landscape of AI regulations, such as the EU AI Act, and highlights the need for AI governance solutions to manage compliance and responsible AI principles. The post describes a challenge and a need for managing AI risk and trust within a dynamic regulatory environment, implying a policy-level approach to adherence.",
+          "title": "A streamlined approach to managing regulatory compliance to scale AI",
+          "url": "https://ibm.com/think/insights/managing-regulatory-compliance-scale-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post discusses organizational accountability structures for responsible AI, providing evidence for **governance**, **external accountability**, and **transparency**. The post highlights governance through vendor contract requirements and assigning accountability for AI implementation. Evidence for external accountability is found in discussions of auditing AI models and tracking potential lawsuits, while transparency is supported by descriptions of operational tasks like tracking AI inventory and metadata.",
+          "title": "Who is Accountable for Responsible AI? - IBM",
+          "url": "https://ibm.com/think/insights/who-is-accountable-for-responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page provides evidence for **explainability, external accountability, fairness, governance, oversight, and transparency**. The document supports these pillars by detailing IBM's commitment to AI governance solutions, including policies for managing AI systems responsibly, investing in bias mitigation, and establishing frameworks for responsible AI development. It also highlights operational mechanisms like ongoing monitoring, testing, independent assessments for bias detection, and human-in-the-loop systems for oversight, as well as preparing for regulatory compliance.",
+          "title": "What Is AI Bias? - IBM",
+          "url": "https://ibm.com/think/topics/ai-bias"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI governance provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document details structured approaches to AI governance, including policy and data governance for mitigating risks and ensuring fair decisions, as well as audit trails for accountability. It also highlights the existence of an AI Ethics Board for oversight, risk tiering for AI use cases, and the use of automated systems for bias detection and model monitoring, all contributing to a trusted and transparent AI framework.",
+          "title": "What is AI Governance? - IBM",
+          "url": "https://ibm.com/think/topics/ai-governance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI transparency provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. It supports these pillars by describing disclosure of algorithm logic, training data assessment, model evaluation methods, and regulatory compliance requirements, including alignment with the EU AI Act. The material outlines strategies for AI transparency throughout the AI lifecycle, discusses presenting transparency information, and highlights the importance of AI governance solutions for responsible, transparent, and explainable AI.",
+          "title": "What Is AI Transparency? - IBM",
+          "url": "https://ibm.com/think/topics/ai-transparency"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 38,
+      "findings": "IBM documents its commitment to fairness through various practices, including monitoring for fairness and compliance in AI models and establishing frameworks and standards for fair AI. The company utilizes tools like Watson OpenScale for configuring fairness monitors to track and assess model bias, and watsonx.governance for bias monitoring. IBM also outlines policies to address bias and misuse, proactively addresses bias in AI training data, and invests in bias mitigation and independent assessments for bias detection.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This IBM Cloud Pak for Data help page provides evidence for **governance, transparency, fairness, and explainability**. It describes mechanisms for tracking AI models throughout their lifecycle, from request to production, which supports governance and transparency. The page also explicitly mentions monitoring for fairness and compliance, and the generation of AI model pipelines, which contributes to explainability.",
+          "title": "Using AI Factsheets for AI Governance - IBM Cloud Pak for Data",
+          "url": "https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/factsheets-model-inventory.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post provides evidence for explainability, fairness, and governance. It supports explainability by mentioning \"explainable AI workflows\" and governance through the establishment of \"frameworks, rules and standards\" for safety and fairness, as well as the creation of an \"AI Ethics Board.\" The post also indicates operational execution of AI governance by referencing \"monitoring for your agents in production.\"",
+          "title": "AI Governance Tools and Solutions - IBM",
+          "url": "https://ibm.com/ai-governance"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. It details IBM's Board oversight of AI governance, including an AI Ethics Board and robust processes for responsible technology use. The document also highlights commitments to trustworthy and explainable AI, privacy, and the company's active role in shaping AI standards and alliances, demonstrating a comprehensive approach to responsible AI practices.",
+          "title": "2024 Notice of Annual Meeting and Proxy Statement",
+          "url": "https://ibm.com/annualreport/assets/downloads/IBM_Proxy_2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This blog post describes IBM's partnership testing Data Provenance Standards to foster transparency across the data ecosystem. The source provides evidence for **explainability, fairness, governance, and transparency** by highlighting how adherence to data governance and risk criteria enhances AI model transparency, and by discussing standards for data provenance to enable transparency and responsible AI. It also mentions principles for trust and transparency, and embedding ethics into the AI lifecycle, indicating a policy commitment to AI governance.",
+          "title": "How IBM and the Data & Trust Alliance are fostering greater transparency across the data ecosystem",
+          "url": "https://ibm.com/case-studies/blog/how-ibm-and-the-data-trust-alliance-are-fostering-greater-transparency-across-the-data-ecosystem"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post describes the implementation of their Privacy and AI Management System (PIMS), providing evidence for **governance, oversight, privacy, and transparency**. The post details how PIMS establishes a policy framework, tracks AI model lifecycles using AI Factsheets, and registers AI systems for risk assessment and ongoing monitoring. It also highlights the role of an AI Ethics Board in guiding decision-making and mentions the system's capabilities for capturing and making transparent AI lifecycle and privacy metadata.",
+          "title": "Privacy and AI Management System (PIMS) - IBM",
+          "url": "https://ibm.com/case-studies/ibm-oprt-pims"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post on AI governance services provides evidence for **governance**, **fairness**, and **transparency**. It supports the governance pillar by discussing the establishment of AI governance frameworks, organizational governance, and accountability structures. Evidence for fairness is found in mentions of AI ethics boards and diversity in AI processes, while the transparency pillar is supported by references to AI models and guardrails for responsible AI.",
+          "title": "AI governance services - Consulting - IBM",
+          "url": "https://ibm.com/consulting/ai-governance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This IBM technical documentation for Watson OpenScale provides evidence for **fairness**, **explainability**, and **transparency**. It describes configuring fairness monitors to track and assess model bias, and mentions validating models and explaining results, indicating operational use of AI governance tools. The documentation also details configuring quality and drift monitors to evaluate model accuracy and consistency, showing operational oversight and evaluation of production models.",
+          "title": "Validating a model with IBM Watson OpenScale",
+          "url": "https://ibm.com/docs/en/wml-for-zos/enterprise/3.1.0?topic=wmlz-validating-models-watson-openscale"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Granite Responsible Use Guide,\" provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. It details practices such as routine testing of model checkpoints, manual review by human evaluators, and the use of red teaming techniques to identify weaknesses, supporting oversight. The guide also outlines policies for data handling and model behavior, addresses bias and misuse, and mentions a named AI Ethics Board, demonstrating governance and a commitment to fairness and transparency through practices like model cards.",
+          "title": "Granite Responsible Use Guide",
+          "url": "https://ibm.com/granite/docs/resources/responsible-use-guide.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"IBM Principles for Trust and Transparency,\" provides evidence for the **explainability**, **fairness**, and **transparency** pillars of responsible AI. It establishes a commitment to making AI training data and algorithm recommendations clear, demonstrating support for explainability and transparency. Furthermore, the document acknowledges an obligation to proactively address bias in AI training methods and data, supporting the fairness pillar, and commits to making AI applications and purposes clear, reinforcing transparency and explainability in deployment.",
+          "title": "IBM Principles for Trust and Transparency",
+          "url": "https://ibm.com/policy/trust-transparency"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This IBM insights blog post provides evidence for **governance, oversight, transparency, fairness, and explainability**. It details IBM's AI Ethics Board structure and its oversight role, along with an Advocacy Network and Focal Points for operationalizing ethical principles. The post also highlights the product watsonx.governance, which supports AI lifecycle tasks like bias monitoring and explainability, demonstrating operational capabilities for these pillars.",
+          "title": "A look into IBM's AI ethics governance framework",
+          "url": "https://ibm.com/think/insights/a-look-into-ibms-ai-ethics-governance-framework"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page provides evidence for the **privacy**, **governance**, and **fairness** pillars. It supports the privacy pillar by discussing lawful data collection, consent, data retention, anonymization, and access controls for AI training data. The source also supports governance by mandating rigorous data governance and quality criteria, risk assessments, and the use of governance tools for AI systems. Finally, it touches on fairness by linking AI privacy risks to bias in data collection.",
+          "title": "Exploring privacy issues in the age of AI - IBM",
+          "url": "https://ibm.com/think/insights/ai-privacy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How our commitment to ethics, trust and transparency is differentiating IBM,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The post details IBM's commitment to applying AI principles to products, establishing an AI Ethics Board, and implementing tools for bias safeguards, all of which support governance and fairness. Furthermore, the mention of AI FactSheets and training for partners and suppliers indicates policies and frameworks aimed at enhancing transparency and ethical AI education.",
+          "title": "How our commitment to ethics, trust and transparency is differentiating IBM",
+          "url": "https://ibm.com/think/insights/how-our-commitment-to-ethics-trust-and-transparency-is-differentiating-ibm"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page provides evidence for **explainability, external accountability, fairness, governance, oversight, and transparency**. The document supports these pillars by detailing IBM's commitment to AI governance solutions, including policies for managing AI systems responsibly, investing in bias mitigation, and establishing frameworks for responsible AI development. It also highlights operational mechanisms like ongoing monitoring, testing, independent assessments for bias detection, and human-in-the-loop systems for oversight, as well as preparing for regulatory compliance.",
+          "title": "What Is AI Bias? - IBM",
+          "url": "https://ibm.com/think/topics/ai-bias"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page provides evidence for **explainability** and **fairness** by outlining specific pillars for responsible AI adoption and defining requirements for AI systems. It also details IBM's commitment to AI ethics through its **governance** framework, referencing the AI Ethics Board for centralized review and decision-making, and promoting solutions like watsonx.governance for overseeing the AI lifecycle via policies and processes.",
+          "title": "What is AI Ethics? - IBM",
+          "url": "https://ibm.com/think/topics/ai-ethics"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI governance provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document details structured approaches to AI governance, including policy and data governance for mitigating risks and ensuring fair decisions, as well as audit trails for accountability. It also highlights the existence of an AI Ethics Board for oversight, risk tiering for AI use cases, and the use of automated systems for bias detection and model monitoring, all contributing to a trusted and transparent AI framework.",
+          "title": "What is AI Governance? - IBM",
+          "url": "https://ibm.com/think/topics/ai-governance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI transparency provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. It supports these pillars by describing disclosure of algorithm logic, training data assessment, model evaluation methods, and regulatory compliance requirements, including alignment with the EU AI Act. The material outlines strategies for AI transparency throughout the AI lifecycle, discusses presenting transparency information, and highlights the importance of AI governance solutions for responsible, transparent, and explainable AI.",
+          "title": "What Is AI Transparency? - IBM",
+          "url": "https://ibm.com/think/topics/ai-transparency"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_029",
+          "source_tier": "company_owned",
+          "summary": "This IBM white paper, \"Everyday Ethics for Artificial Intelligence,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. The document supports explainability by requiring AI systems to articulate their conclusions and maintain reviewable records. It addresses fairness by discussing the mitigation of biases, including human bias embedded in AI, and ensuring AI does not exclude demographics. Governance is supported through mentions of proactive issue addressing, accountability for AI outcomes, and responsibility for building AI. Oversight is indicated by mechanisms like feedback loops and user ability to opt-out. Privacy is supported by the sensitivity to personal information used in AI decision-making. Finally, transparency is supported by the emphasis on explaining AI conclusions.",
+          "title": "Everyday Ethics for Artificial Intelligence",
+          "url": "https://ibm.com/watson/assets/duo/pdf/everydayethics.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_033",
+          "source_tier": "company_owned",
+          "summary": "This IBM Research blog post provides evidence for the **fairness** and **transparency** pillars of responsible AI. The post highlights IBM's commitment to safety and equity, which supports fairness, and details their policy of transparency by default for AI models, including disclosures on provenance and training details, as well as performance metrics and scoring.",
+          "title": "IBM's Granite model is one of the most transparent - IBM Research",
+          "url": "https://research.ibm.com/blog/ibm-granite-transparency-fmti"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_035",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"AI Fairness 360: An Extensible Toolkit for Detecting and Mitigating Algorithmic Bias,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It details a toolkit with fairness metrics and bias mitigation algorithms, supporting the fairness pillar by offering mechanisms for evaluating and improving AI models. The paper also implies governance policies through its framework for sharing and its objectives for research and industrial use, while the described web experience for understanding capabilities and extending algorithms supports transparency by enabling users to comprehend and interact with the toolkit.",
+          "title": "AI Fairness 360: An Extensible Toolkit for Detecting and Mitigating Algorithmic Bias",
+          "url": "https://research.ibm.com/publications/ai-fairness-360-an-extensible-toolkit-for-detecting-and-mitigating-algorithmic-bias"
+        }
+      ],
+      "score": 2,
+      "source_count": 19
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 172,
+      "findings": "IBM documents a comprehensive approach to AI governance, establishing frameworks, rules, and standards for responsible AI development and deployment. This includes the creation of an AI Ethics Board and the IBM Responsible Technology Board, which guide ethical guidelines, set standards, and provide oversight and decision-making. The company outlines mechanisms for tracking AI models throughout their lifecycle, managing compliance, and implementing tools for bias safeguards, alongside a systematic process for AI risk management.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This IBM Cloud Pak for Data help page provides evidence for **governance, transparency, fairness, and explainability**. It describes mechanisms for tracking AI models throughout their lifecycle, from request to production, which supports governance and transparency. The page also explicitly mentions monitoring for fairness and compliance, and the generation of AI model pipelines, which contributes to explainability.",
+          "title": "Using AI Factsheets for AI Governance - IBM Cloud Pak for Data",
+          "url": "https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/factsheets-model-inventory.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post provides evidence for explainability, fairness, and governance. It supports explainability by mentioning \"explainable AI workflows\" and governance through the establishment of \"frameworks, rules and standards\" for safety and fairness, as well as the creation of an \"AI Ethics Board.\" The post also indicates operational execution of AI governance by referencing \"monitoring for your agents in production.\"",
+          "title": "AI Governance Tools and Solutions - IBM",
+          "url": "https://ibm.com/ai-governance"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. It details IBM's Board oversight of AI governance, including an AI Ethics Board and robust processes for responsible technology use. The document also highlights commitments to trustworthy and explainable AI, privacy, and the company's active role in shaping AI standards and alliances, demonstrating a comprehensive approach to responsible AI practices.",
+          "title": "2024 Notice of Annual Meeting and Proxy Statement",
+          "url": "https://ibm.com/annualreport/assets/downloads/IBM_Proxy_2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post details the company's commitment to responsible AI, providing evidence for the **governance** and **transparency** pillars. The post highlights IBM's focus on AI governance and mentions a board that guides ethical guidelines, sets standards for AI development and deployment, and provides benchmarks and mitigations, all of which support the governance pillar. Furthermore, the blog post's emphasis on guiding \"safe and transparent AI systems\" directly supports the transparency pillar.",
+          "title": "AI Ethics - IBM",
+          "url": "https://ibm.com/artificial-intelligence/ai-ethics"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This blog post describes IBM's partnership testing Data Provenance Standards to foster transparency across the data ecosystem. The source provides evidence for **explainability, fairness, governance, and transparency** by highlighting how adherence to data governance and risk criteria enhances AI model transparency, and by discussing standards for data provenance to enable transparency and responsible AI. It also mentions principles for trust and transparency, and embedding ethics into the AI lifecycle, indicating a policy commitment to AI governance.",
+          "title": "How IBM and the Data & Trust Alliance are fostering greater transparency across the data ecosystem",
+          "url": "https://ibm.com/case-studies/blog/how-ibm-and-the-data-trust-alliance-are-fostering-greater-transparency-across-the-data-ecosystem"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post describes the implementation of their Privacy and AI Management System (PIMS), providing evidence for **governance, oversight, privacy, and transparency**. The post details how PIMS establishes a policy framework, tracks AI model lifecycles using AI Factsheets, and registers AI systems for risk assessment and ongoing monitoring. It also highlights the role of an AI Ethics Board in guiding decision-making and mentions the system's capabilities for capturing and making transparent AI lifecycle and privacy metadata.",
+          "title": "Privacy and AI Management System (PIMS) - IBM",
+          "url": "https://ibm.com/case-studies/ibm-oprt-pims"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post on AI governance services provides evidence for **governance**, **fairness**, and **transparency**. It supports the governance pillar by discussing the establishment of AI governance frameworks, organizational governance, and accountability structures. Evidence for fairness is found in mentions of AI ethics boards and diversity in AI processes, while the transparency pillar is supported by references to AI models and guardrails for responsible AI.",
+          "title": "AI governance services - Consulting - IBM",
+          "url": "https://ibm.com/consulting/ai-governance"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This IBM charter document, \"Reflecting on the Five-Year Anniversary of IBM's AI Ethics Board,\" provides evidence for **governance**, **oversight**, and **transparency**. The document details IBM's commitment to responsible AI through its AI Ethics Board, outlining mechanisms for operationalizing principles, embedding governance into the AI lifecycle, and establishing review processes for AI use cases. Specific practices mentioned include the AI Ethics Board's role in decision-making, the use of tools like the Risk Atlas for identifying and mitigating risks, and the integration of governance into AI development and deployment.",
+          "title": "Reflecting on the Five-Year Anniversary of IBM's AI Ethics Board",
+          "url": "https://ibm.com/granite/docs/resources/ai-ethics-board-5-year-anniversary.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Granite Responsible Use Guide,\" provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. It details practices such as routine testing of model checkpoints, manual review by human evaluators, and the use of red teaming techniques to identify weaknesses, supporting oversight. The guide also outlines policies for data handling and model behavior, addresses bias and misuse, and mentions a named AI Ethics Board, demonstrating governance and a commitment to fairness and transparency through practices like model cards.",
+          "title": "Granite Responsible Use Guide",
+          "url": "https://ibm.com/granite/docs/resources/responsible-use-guide.pdf"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This charter document for the IBM Responsible Technology Board establishes a formal governance structure for AI and emerging technology. It supports the **governance** pillar by outlining the board's mission to provide oversight and decision-making for the responsible development and deployment of these technologies.",
+          "title": "IBM Responsible Technology Board",
+          "url": "https://ibm.com/think/author/ibm-responsible-technology-board"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This IBM insights blog post provides evidence for **governance, oversight, transparency, fairness, and explainability**. It details IBM's AI Ethics Board structure and its oversight role, along with an Advocacy Network and Focal Points for operationalizing ethical principles. The post also highlights the product watsonx.governance, which supports AI lifecycle tasks like bias monitoring and explainability, demonstrating operational capabilities for these pillars.",
+          "title": "A look into IBM's AI ethics governance framework",
+          "url": "https://ibm.com/think/insights/a-look-into-ibms-ai-ethics-governance-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post supports the pillars of explainability, external accountability, governance, privacy, and transparency. It discusses AI tools for explainability (XAI) and governance portfolios for monitoring and auditing AI models, as well as AI governance products for regulatory alignment and risk evaluation. The post also mentions AI standards, risk assessments, data protection (privacy), transparency, and accountability as key components of AI development and use, emphasizing the need to implement AI governance frameworks.",
+          "title": "AI Compliance: What It Is, Why It Matters and How to Get Started - IBM",
+          "url": "https://ibm.com/think/insights/ai-compliance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page provides evidence for the **privacy**, **governance**, and **fairness** pillars. It supports the privacy pillar by discussing lawful data collection, consent, data retention, anonymization, and access controls for AI training data. The source also supports governance by mandating rigorous data governance and quality criteria, risk assessments, and the use of governance tools for AI systems. Finally, it touches on fairness by linking AI privacy risks to bias in data collection.",
+          "title": "Exploring privacy issues in the age of AI - IBM",
+          "url": "https://ibm.com/think/insights/ai-privacy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How our commitment to ethics, trust and transparency is differentiating IBM,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The post details IBM's commitment to applying AI principles to products, establishing an AI Ethics Board, and implementing tools for bias safeguards, all of which support governance and fairness. Furthermore, the mention of AI FactSheets and training for partners and suppliers indicates policies and frameworks aimed at enhancing transparency and ethical AI education.",
+          "title": "How our commitment to ethics, trust and transparency is differentiating IBM",
+          "url": "https://ibm.com/think/insights/how-our-commitment-to-ethics-trust-and-transparency-is-differentiating-ibm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"A streamlined approach to managing regulatory compliance to scale AI,\" provides evidence for **governance** and **external_accountability**. It discusses the evolving landscape of AI regulations, such as the EU AI Act, and highlights the need for AI governance solutions to manage compliance and responsible AI principles. The post describes a challenge and a need for managing AI risk and trust within a dynamic regulatory environment, implying a policy-level approach to adherence.",
+          "title": "A streamlined approach to managing regulatory compliance to scale AI",
+          "url": "https://ibm.com/think/insights/managing-regulatory-compliance-scale-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post discusses the need for AI governance by highlighting critical security and observability requirements, as well as identifying risks associated with AI adoption. It also supports the transparency pillar by emphasizing the necessity of intelligent observability and adherence to standards for fair AI development.",
+          "title": "Tackling bias in AI - IBM",
+          "url": "https://ibm.com/think/insights/tackling-bias-in-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post discusses organizational accountability structures for responsible AI, providing evidence for **governance**, **external accountability**, and **transparency**. The post highlights governance through vendor contract requirements and assigning accountability for AI implementation. Evidence for external accountability is found in discussions of auditing AI models and tracking potential lawsuits, while transparency is supported by descriptions of operational tasks like tracking AI inventory and metadata.",
+          "title": "Who is Accountable for Responsible AI? - IBM",
+          "url": "https://ibm.com/think/insights/who-is-accountable-for-responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page provides evidence for **explainability, external accountability, fairness, governance, oversight, and transparency**. The document supports these pillars by detailing IBM's commitment to AI governance solutions, including policies for managing AI systems responsibly, investing in bias mitigation, and establishing frameworks for responsible AI development. It also highlights operational mechanisms like ongoing monitoring, testing, independent assessments for bias detection, and human-in-the-loop systems for oversight, as well as preparing for regulatory compliance.",
+          "title": "What Is AI Bias? - IBM",
+          "url": "https://ibm.com/think/topics/ai-bias"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page provides evidence for **explainability** and **fairness** by outlining specific pillars for responsible AI adoption and defining requirements for AI systems. It also details IBM's commitment to AI ethics through its **governance** framework, referencing the AI Ethics Board for centralized review and decision-making, and promoting solutions like watsonx.governance for overseeing the AI lifecycle via policies and processes.",
+          "title": "What is AI Ethics? - IBM",
+          "url": "https://ibm.com/think/topics/ai-ethics"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_024",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI explainability supports the **governance** pillar by implying a commitment to responsible use and the **transparency** pillar by describing how explainability helps stakeholders understand AI decision-making processes. The document outlines the importance of AI explainability in building trust and accountability.",
+          "title": "What is AI Explainability? - IBM",
+          "url": "https://ibm.com/think/topics/ai-explainability"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI governance provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document details structured approaches to AI governance, including policy and data governance for mitigating risks and ensuring fair decisions, as well as audit trails for accountability. It also highlights the existence of an AI Ethics Board for oversight, risk tiering for AI use cases, and the use of automated systems for bias detection and model monitoring, all contributing to a trusted and transparent AI framework.",
+          "title": "What is AI Governance? - IBM",
+          "url": "https://ibm.com/think/topics/ai-governance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI transparency provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. It supports these pillars by describing disclosure of algorithm logic, training data assessment, model evaluation methods, and regulatory compliance requirements, including alignment with the EU AI Act. The material outlines strategies for AI transparency throughout the AI lifecycle, discusses presenting transparency information, and highlights the importance of AI governance solutions for responsible, transparent, and explainable AI.",
+          "title": "What Is AI Transparency? - IBM",
+          "url": "https://ibm.com/think/topics/ai-transparency"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_028",
+          "source_tier": "company_owned",
+          "summary": "The IBM Privacy Statement provides evidence for the governance, privacy, and transparency pillars of responsible AI. This policy document supports governance by outlining safeguards and tools for responsible AI development and mentions automated processes and product development. It supports privacy by detailing data handling practices for AI systems and their use in areas like modeling marketing audiences. Finally, it supports transparency by discussing the availability and use of AI systems.",
+          "title": "IBM Privacy Statement",
+          "url": "https://ibm.com/us-en/privacy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_029",
+          "source_tier": "company_owned",
+          "summary": "This IBM white paper, \"Everyday Ethics for Artificial Intelligence,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. The document supports explainability by requiring AI systems to articulate their conclusions and maintain reviewable records. It addresses fairness by discussing the mitigation of biases, including human bias embedded in AI, and ensuring AI does not exclude demographics. Governance is supported through mentions of proactive issue addressing, accountability for AI outcomes, and responsibility for building AI. Oversight is indicated by mechanisms like feedback loops and user ability to opt-out. Privacy is supported by the sensitivity to personal information used in AI decision-making. Finally, transparency is supported by the emphasis on explaining AI conclusions.",
+          "title": "Everyday Ethics for Artificial Intelligence",
+          "url": "https://ibm.com/watson/assets/duo/pdf/everydayethics.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This IBM newsroom blog post provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It details IBM's AI governance framework, including organizational structures and human oversight mechanisms for AI systems, and references AI principles and programs for AI ethics and data lineage. The post also describes a systematic process for AI risk management and the release of specific AI models trained transparently and ethically, demonstrating operational implementation of these commitments.",
+          "title": "Trustworthy AI at scale: IBM's AI Safety and Governance Framework",
+          "url": "https://newsroom.ibm.com/blog-trustworthy-ai-at-scale-ibms-ai-safety-and-governance-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_032",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"IBM reaffirms its commitment to the Rome Call for AI ethics,\" provides evidence for the **governance** pillar of responsible AI. The post highlights IBM's participation in the Rome Call for AI ethics and mentions an AI Ethics Board that governs AI processes, indicating operational governance and decision-making authority. It also describes AI governance principles integrated into platforms and models, reflecting policy commitments.",
+          "title": "IBM reaffirms its commitment to the Rome Call for AI ethics",
+          "url": "https://research.ibm.com/blog/ibm-ai-ethics-japan-rome-call"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_034",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Adversarial Robustness Toolbox - IBM Research,\" provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by detailing IBM's focus on machine learning security and trustworthy AI tools, including an AI Red and Blue Team approach to defend against threats like poisoning attacks. The paper also supports privacy by identifying inference attacks as a key threat area, and transparency by offering an open-source toolkit designed to make AI systems secure against various deep learning hack attacks.",
+          "title": "Adversarial Robustness Toolbox - IBM Research",
+          "url": "https://research.ibm.com/projects/adversarial-robustness-toolbox"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_035",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"AI Fairness 360: An Extensible Toolkit for Detecting and Mitigating Algorithmic Bias,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It details a toolkit with fairness metrics and bias mitigation algorithms, supporting the fairness pillar by offering mechanisms for evaluating and improving AI models. The paper also implies governance policies through its framework for sharing and its objectives for research and industrial use, while the described web experience for understanding capabilities and extending algorithms supports transparency by enabling users to comprehend and interact with the toolkit.",
+          "title": "AI Fairness 360: An Extensible Toolkit for Detecting and Mitigating Algorithmic Bias",
+          "url": "https://research.ibm.com/publications/ai-fairness-360-an-extensible-toolkit-for-detecting-and-mitigating-algorithmic-bias"
+        }
+      ],
+      "score": 2,
+      "source_count": 28
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 17,
+      "findings": "IBM documents various oversight mechanisms, including an AI Ethics Board that guides decision-making and oversees AI development and deployment. Practices include tracking AI model lifecycles, registering AI systems for risk assessment and ongoing monitoring, and establishing review processes for AI use cases. The company also employs routine testing of model checkpoints, manual review by human evaluators, red teaming techniques, and human-in-the-loop systems for oversight.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post describes the implementation of their Privacy and AI Management System (PIMS), providing evidence for **governance, oversight, privacy, and transparency**. The post details how PIMS establishes a policy framework, tracks AI model lifecycles using AI Factsheets, and registers AI systems for risk assessment and ongoing monitoring. It also highlights the role of an AI Ethics Board in guiding decision-making and mentions the system's capabilities for capturing and making transparent AI lifecycle and privacy metadata.",
+          "title": "Privacy and AI Management System (PIMS) - IBM",
+          "url": "https://ibm.com/case-studies/ibm-oprt-pims"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This IBM charter document, \"Reflecting on the Five-Year Anniversary of IBM's AI Ethics Board,\" provides evidence for **governance**, **oversight**, and **transparency**. The document details IBM's commitment to responsible AI through its AI Ethics Board, outlining mechanisms for operationalizing principles, embedding governance into the AI lifecycle, and establishing review processes for AI use cases. Specific practices mentioned include the AI Ethics Board's role in decision-making, the use of tools like the Risk Atlas for identifying and mitigating risks, and the integration of governance into AI development and deployment.",
+          "title": "Reflecting on the Five-Year Anniversary of IBM's AI Ethics Board",
+          "url": "https://ibm.com/granite/docs/resources/ai-ethics-board-5-year-anniversary.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Granite Responsible Use Guide,\" provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. It details practices such as routine testing of model checkpoints, manual review by human evaluators, and the use of red teaming techniques to identify weaknesses, supporting oversight. The guide also outlines policies for data handling and model behavior, addresses bias and misuse, and mentions a named AI Ethics Board, demonstrating governance and a commitment to fairness and transparency through practices like model cards.",
+          "title": "Granite Responsible Use Guide",
+          "url": "https://ibm.com/granite/docs/resources/responsible-use-guide.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This IBM insights blog post provides evidence for **governance, oversight, transparency, fairness, and explainability**. It details IBM's AI Ethics Board structure and its oversight role, along with an Advocacy Network and Focal Points for operationalizing ethical principles. The post also highlights the product watsonx.governance, which supports AI lifecycle tasks like bias monitoring and explainability, demonstrating operational capabilities for these pillars.",
+          "title": "A look into IBM's AI ethics governance framework",
+          "url": "https://ibm.com/think/insights/a-look-into-ibms-ai-ethics-governance-framework"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page provides evidence for **explainability, external accountability, fairness, governance, oversight, and transparency**. The document supports these pillars by detailing IBM's commitment to AI governance solutions, including policies for managing AI systems responsibly, investing in bias mitigation, and establishing frameworks for responsible AI development. It also highlights operational mechanisms like ongoing monitoring, testing, independent assessments for bias detection, and human-in-the-loop systems for oversight, as well as preparing for regulatory compliance.",
+          "title": "What Is AI Bias? - IBM",
+          "url": "https://ibm.com/think/topics/ai-bias"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI governance provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document details structured approaches to AI governance, including policy and data governance for mitigating risks and ensuring fair decisions, as well as audit trails for accountability. It also highlights the existence of an AI Ethics Board for oversight, risk tiering for AI use cases, and the use of automated systems for bias detection and model monitoring, all contributing to a trusted and transparent AI framework.",
+          "title": "What is AI Governance? - IBM",
+          "url": "https://ibm.com/think/topics/ai-governance"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_029",
+          "source_tier": "company_owned",
+          "summary": "This IBM white paper, \"Everyday Ethics for Artificial Intelligence,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. The document supports explainability by requiring AI systems to articulate their conclusions and maintain reviewable records. It addresses fairness by discussing the mitigation of biases, including human bias embedded in AI, and ensuring AI does not exclude demographics. Governance is supported through mentions of proactive issue addressing, accountability for AI outcomes, and responsibility for building AI. Oversight is indicated by mechanisms like feedback loops and user ability to opt-out. Privacy is supported by the sensitivity to personal information used in AI decision-making. Finally, transparency is supported by the emphasis on explaining AI conclusions.",
+          "title": "Everyday Ethics for Artificial Intelligence",
+          "url": "https://ibm.com/watson/assets/duo/pdf/everydayethics.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This IBM newsroom blog post provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It details IBM's AI governance framework, including organizational structures and human oversight mechanisms for AI systems, and references AI principles and programs for AI ethics and data lineage. The post also describes a systematic process for AI risk management and the release of specific AI models trained transparently and ethically, demonstrating operational implementation of these commitments.",
+          "title": "Trustworthy AI at scale: IBM's AI Safety and Governance Framework",
+          "url": "https://newsroom.ibm.com/blog-trustworthy-ai-at-scale-ibms-ai-safety-and-governance-framework"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 25,
+      "findings": "IBM documents its commitment to privacy through its Privacy and AI Management System (PIMS), which establishes a policy framework and captures AI lifecycle and privacy metadata. Policy documents outline data handling practices, including lawful data collection, consent, data retention, anonymization, and access controls for AI training data. The company also identifies inference attacks as a key threat area and considers the sensitivity of personal information in AI decision-making.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. It details IBM's Board oversight of AI governance, including an AI Ethics Board and robust processes for responsible technology use. The document also highlights commitments to trustworthy and explainable AI, privacy, and the company's active role in shaping AI standards and alliances, demonstrating a comprehensive approach to responsible AI practices.",
+          "title": "2024 Notice of Annual Meeting and Proxy Statement",
+          "url": "https://ibm.com/annualreport/assets/downloads/IBM_Proxy_2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post describes the implementation of their Privacy and AI Management System (PIMS), providing evidence for **governance, oversight, privacy, and transparency**. The post details how PIMS establishes a policy framework, tracks AI model lifecycles using AI Factsheets, and registers AI systems for risk assessment and ongoing monitoring. It also highlights the role of an AI Ethics Board in guiding decision-making and mentions the system's capabilities for capturing and making transparent AI lifecycle and privacy metadata.",
+          "title": "Privacy and AI Management System (PIMS) - IBM",
+          "url": "https://ibm.com/case-studies/ibm-oprt-pims"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Granite Responsible Use Guide,\" provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. It details practices such as routine testing of model checkpoints, manual review by human evaluators, and the use of red teaming techniques to identify weaknesses, supporting oversight. The guide also outlines policies for data handling and model behavior, addresses bias and misuse, and mentions a named AI Ethics Board, demonstrating governance and a commitment to fairness and transparency through practices like model cards.",
+          "title": "Granite Responsible Use Guide",
+          "url": "https://ibm.com/granite/docs/resources/responsible-use-guide.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post supports the pillars of explainability, external accountability, governance, privacy, and transparency. It discusses AI tools for explainability (XAI) and governance portfolios for monitoring and auditing AI models, as well as AI governance products for regulatory alignment and risk evaluation. The post also mentions AI standards, risk assessments, data protection (privacy), transparency, and accountability as key components of AI development and use, emphasizing the need to implement AI governance frameworks.",
+          "title": "AI Compliance: What It Is, Why It Matters and How to Get Started - IBM",
+          "url": "https://ibm.com/think/insights/ai-compliance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page provides evidence for the **privacy**, **governance**, and **fairness** pillars. It supports the privacy pillar by discussing lawful data collection, consent, data retention, anonymization, and access controls for AI training data. The source also supports governance by mandating rigorous data governance and quality criteria, risk assessments, and the use of governance tools for AI systems. Finally, it touches on fairness by linking AI privacy risks to bias in data collection.",
+          "title": "Exploring privacy issues in the age of AI - IBM",
+          "url": "https://ibm.com/think/insights/ai-privacy"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI governance provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document details structured approaches to AI governance, including policy and data governance for mitigating risks and ensuring fair decisions, as well as audit trails for accountability. It also highlights the existence of an AI Ethics Board for oversight, risk tiering for AI use cases, and the use of automated systems for bias detection and model monitoring, all contributing to a trusted and transparent AI framework.",
+          "title": "What is AI Governance? - IBM",
+          "url": "https://ibm.com/think/topics/ai-governance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI transparency provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. It supports these pillars by describing disclosure of algorithm logic, training data assessment, model evaluation methods, and regulatory compliance requirements, including alignment with the EU AI Act. The material outlines strategies for AI transparency throughout the AI lifecycle, discusses presenting transparency information, and highlights the importance of AI governance solutions for responsible, transparent, and explainable AI.",
+          "title": "What Is AI Transparency? - IBM",
+          "url": "https://ibm.com/think/topics/ai-transparency"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_028",
+          "source_tier": "company_owned",
+          "summary": "The IBM Privacy Statement provides evidence for the governance, privacy, and transparency pillars of responsible AI. This policy document supports governance by outlining safeguards and tools for responsible AI development and mentions automated processes and product development. It supports privacy by detailing data handling practices for AI systems and their use in areas like modeling marketing audiences. Finally, it supports transparency by discussing the availability and use of AI systems.",
+          "title": "IBM Privacy Statement",
+          "url": "https://ibm.com/us-en/privacy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_029",
+          "source_tier": "company_owned",
+          "summary": "This IBM white paper, \"Everyday Ethics for Artificial Intelligence,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. The document supports explainability by requiring AI systems to articulate their conclusions and maintain reviewable records. It addresses fairness by discussing the mitigation of biases, including human bias embedded in AI, and ensuring AI does not exclude demographics. Governance is supported through mentions of proactive issue addressing, accountability for AI outcomes, and responsibility for building AI. Oversight is indicated by mechanisms like feedback loops and user ability to opt-out. Privacy is supported by the sensitivity to personal information used in AI decision-making. Finally, transparency is supported by the emphasis on explaining AI conclusions.",
+          "title": "Everyday Ethics for Artificial Intelligence",
+          "url": "https://ibm.com/watson/assets/duo/pdf/everydayethics.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_034",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Adversarial Robustness Toolbox - IBM Research,\" provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by detailing IBM's focus on machine learning security and trustworthy AI tools, including an AI Red and Blue Team approach to defend against threats like poisoning attacks. The paper also supports privacy by identifying inference attacks as a key threat area, and transparency by offering an open-source toolkit designed to make AI systems secure against various deep learning hack attacks.",
+          "title": "Adversarial Robustness Toolbox - IBM Research",
+          "url": "https://research.ibm.com/projects/adversarial-robustness-toolbox"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 75,
+      "findings": "IBM documents practices that enhance transparency, such as providing features in its \"AI Explainability 360 Toolkit\" and tracking AI models throughout their lifecycle using IBM Cloud Pak for Data. The company outlines a policy of transparency by default for AI models, including disclosures on provenance, training details, performance metrics, and algorithm logic. IBM also supports transparency through operational tasks like tracking AI inventory and metadata, and by making AI training data, algorithm recommendations, and application purposes clear.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This system card for IBM's \"AI Explainability 360 Toolkit\" provides evidence for the **explainability** and **transparency** pillars of responsible AI. The toolkit offers multiple algorithms and examples for understanding machine learning models and their lifecycle, directly supporting the explainability pillar by enabling users to interpret AI systems. Furthermore, by describing features that enhance transparency, the toolkit aligns with the transparency pillar, allowing diverse personas to gain insight into AI decision-making.",
+          "title": "AI Explainability 360 Toolkit",
+          "url": "https://aix360.factsheets.vpc.res.ibm.com"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This IBM Cloud Pak for Data help page provides evidence for **governance, transparency, fairness, and explainability**. It describes mechanisms for tracking AI models throughout their lifecycle, from request to production, which supports governance and transparency. The page also explicitly mentions monitoring for fairness and compliance, and the generation of AI model pipelines, which contributes to explainability.",
+          "title": "Using AI Factsheets for AI Governance - IBM Cloud Pak for Data",
+          "url": "https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/factsheets-model-inventory.html"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. It details IBM's Board oversight of AI governance, including an AI Ethics Board and robust processes for responsible technology use. The document also highlights commitments to trustworthy and explainable AI, privacy, and the company's active role in shaping AI standards and alliances, demonstrating a comprehensive approach to responsible AI practices.",
+          "title": "2024 Notice of Annual Meeting and Proxy Statement",
+          "url": "https://ibm.com/annualreport/assets/downloads/IBM_Proxy_2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post details the company's commitment to responsible AI, providing evidence for the **governance** and **transparency** pillars. The post highlights IBM's focus on AI governance and mentions a board that guides ethical guidelines, sets standards for AI development and deployment, and provides benchmarks and mitigations, all of which support the governance pillar. Furthermore, the blog post's emphasis on guiding \"safe and transparent AI systems\" directly supports the transparency pillar.",
+          "title": "AI Ethics - IBM",
+          "url": "https://ibm.com/artificial-intelligence/ai-ethics"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This blog post describes IBM's partnership testing Data Provenance Standards to foster transparency across the data ecosystem. The source provides evidence for **explainability, fairness, governance, and transparency** by highlighting how adherence to data governance and risk criteria enhances AI model transparency, and by discussing standards for data provenance to enable transparency and responsible AI. It also mentions principles for trust and transparency, and embedding ethics into the AI lifecycle, indicating a policy commitment to AI governance.",
+          "title": "How IBM and the Data & Trust Alliance are fostering greater transparency across the data ecosystem",
+          "url": "https://ibm.com/case-studies/blog/how-ibm-and-the-data-trust-alliance-are-fostering-greater-transparency-across-the-data-ecosystem"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post describes the implementation of their Privacy and AI Management System (PIMS), providing evidence for **governance, oversight, privacy, and transparency**. The post details how PIMS establishes a policy framework, tracks AI model lifecycles using AI Factsheets, and registers AI systems for risk assessment and ongoing monitoring. It also highlights the role of an AI Ethics Board in guiding decision-making and mentions the system's capabilities for capturing and making transparent AI lifecycle and privacy metadata.",
+          "title": "Privacy and AI Management System (PIMS) - IBM",
+          "url": "https://ibm.com/case-studies/ibm-oprt-pims"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post on AI governance services provides evidence for **governance**, **fairness**, and **transparency**. It supports the governance pillar by discussing the establishment of AI governance frameworks, organizational governance, and accountability structures. Evidence for fairness is found in mentions of AI ethics boards and diversity in AI processes, while the transparency pillar is supported by references to AI models and guardrails for responsible AI.",
+          "title": "AI governance services - Consulting - IBM",
+          "url": "https://ibm.com/consulting/ai-governance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This IBM technical documentation for Watson OpenScale provides evidence for **fairness**, **explainability**, and **transparency**. It describes configuring fairness monitors to track and assess model bias, and mentions validating models and explaining results, indicating operational use of AI governance tools. The documentation also details configuring quality and drift monitors to evaluate model accuracy and consistency, showing operational oversight and evaluation of production models.",
+          "title": "Validating a model with IBM Watson OpenScale",
+          "url": "https://ibm.com/docs/en/wml-for-zos/enterprise/3.1.0?topic=wmlz-validating-models-watson-openscale"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This IBM charter document, \"Reflecting on the Five-Year Anniversary of IBM's AI Ethics Board,\" provides evidence for **governance**, **oversight**, and **transparency**. The document details IBM's commitment to responsible AI through its AI Ethics Board, outlining mechanisms for operationalizing principles, embedding governance into the AI lifecycle, and establishing review processes for AI use cases. Specific practices mentioned include the AI Ethics Board's role in decision-making, the use of tools like the Risk Atlas for identifying and mitigating risks, and the integration of governance into AI development and deployment.",
+          "title": "Reflecting on the Five-Year Anniversary of IBM's AI Ethics Board",
+          "url": "https://ibm.com/granite/docs/resources/ai-ethics-board-5-year-anniversary.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Granite Responsible Use Guide,\" provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. It details practices such as routine testing of model checkpoints, manual review by human evaluators, and the use of red teaming techniques to identify weaknesses, supporting oversight. The guide also outlines policies for data handling and model behavior, addresses bias and misuse, and mentions a named AI Ethics Board, demonstrating governance and a commitment to fairness and transparency through practices like model cards.",
+          "title": "Granite Responsible Use Guide",
+          "url": "https://ibm.com/granite/docs/resources/responsible-use-guide.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"IBM Principles for Trust and Transparency,\" provides evidence for the **explainability**, **fairness**, and **transparency** pillars of responsible AI. It establishes a commitment to making AI training data and algorithm recommendations clear, demonstrating support for explainability and transparency. Furthermore, the document acknowledges an obligation to proactively address bias in AI training methods and data, supporting the fairness pillar, and commits to making AI applications and purposes clear, reinforcing transparency and explainability in deployment.",
+          "title": "IBM Principles for Trust and Transparency",
+          "url": "https://ibm.com/policy/trust-transparency"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This IBM insights blog post provides evidence for **governance, oversight, transparency, fairness, and explainability**. It details IBM's AI Ethics Board structure and its oversight role, along with an Advocacy Network and Focal Points for operationalizing ethical principles. The post also highlights the product watsonx.governance, which supports AI lifecycle tasks like bias monitoring and explainability, demonstrating operational capabilities for these pillars.",
+          "title": "A look into IBM's AI ethics governance framework",
+          "url": "https://ibm.com/think/insights/a-look-into-ibms-ai-ethics-governance-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post supports the pillars of explainability, external accountability, governance, privacy, and transparency. It discusses AI tools for explainability (XAI) and governance portfolios for monitoring and auditing AI models, as well as AI governance products for regulatory alignment and risk evaluation. The post also mentions AI standards, risk assessments, data protection (privacy), transparency, and accountability as key components of AI development and use, emphasizing the need to implement AI governance frameworks.",
+          "title": "AI Compliance: What It Is, Why It Matters and How to Get Started - IBM",
+          "url": "https://ibm.com/think/insights/ai-compliance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How our commitment to ethics, trust and transparency is differentiating IBM,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The post details IBM's commitment to applying AI principles to products, establishing an AI Ethics Board, and implementing tools for bias safeguards, all of which support governance and fairness. Furthermore, the mention of AI FactSheets and training for partners and suppliers indicates policies and frameworks aimed at enhancing transparency and ethical AI education.",
+          "title": "How our commitment to ethics, trust and transparency is differentiating IBM",
+          "url": "https://ibm.com/think/insights/how-our-commitment-to-ethics-trust-and-transparency-is-differentiating-ibm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post discusses the need for AI governance by highlighting critical security and observability requirements, as well as identifying risks associated with AI adoption. It also supports the transparency pillar by emphasizing the necessity of intelligent observability and adherence to standards for fair AI development.",
+          "title": "Tackling bias in AI - IBM",
+          "url": "https://ibm.com/think/insights/tackling-bias-in-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This IBM blog post discusses organizational accountability structures for responsible AI, providing evidence for **governance**, **external accountability**, and **transparency**. The post highlights governance through vendor contract requirements and assigning accountability for AI implementation. Evidence for external accountability is found in discussions of auditing AI models and tracking potential lawsuits, while transparency is supported by descriptions of operational tasks like tracking AI inventory and metadata.",
+          "title": "Who is Accountable for Responsible AI? - IBM",
+          "url": "https://ibm.com/think/insights/who-is-accountable-for-responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page provides evidence for **explainability, external accountability, fairness, governance, oversight, and transparency**. The document supports these pillars by detailing IBM's commitment to AI governance solutions, including policies for managing AI systems responsibly, investing in bias mitigation, and establishing frameworks for responsible AI development. It also highlights operational mechanisms like ongoing monitoring, testing, independent assessments for bias detection, and human-in-the-loop systems for oversight, as well as preparing for regulatory compliance.",
+          "title": "What Is AI Bias? - IBM",
+          "url": "https://ibm.com/think/topics/ai-bias"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_024",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI explainability supports the **governance** pillar by implying a commitment to responsible use and the **transparency** pillar by describing how explainability helps stakeholders understand AI decision-making processes. The document outlines the importance of AI explainability in building trust and accountability.",
+          "title": "What is AI Explainability? - IBM",
+          "url": "https://ibm.com/think/topics/ai-explainability"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI governance provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document details structured approaches to AI governance, including policy and data governance for mitigating risks and ensuring fair decisions, as well as audit trails for accountability. It also highlights the existence of an AI Ethics Board for oversight, risk tiering for AI use cases, and the use of automated systems for bias detection and model monitoring, all contributing to a trusted and transparent AI framework.",
+          "title": "What is AI Governance? - IBM",
+          "url": "https://ibm.com/think/topics/ai-governance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This IBM help page on AI transparency provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. It supports these pillars by describing disclosure of algorithm logic, training data assessment, model evaluation methods, and regulatory compliance requirements, including alignment with the EU AI Act. The material outlines strategies for AI transparency throughout the AI lifecycle, discusses presenting transparency information, and highlights the importance of AI governance solutions for responsible, transparent, and explainable AI.",
+          "title": "What Is AI Transparency? - IBM",
+          "url": "https://ibm.com/think/topics/ai-transparency"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_028",
+          "source_tier": "company_owned",
+          "summary": "The IBM Privacy Statement provides evidence for the governance, privacy, and transparency pillars of responsible AI. This policy document supports governance by outlining safeguards and tools for responsible AI development and mentions automated processes and product development. It supports privacy by detailing data handling practices for AI systems and their use in areas like modeling marketing audiences. Finally, it supports transparency by discussing the availability and use of AI systems.",
+          "title": "IBM Privacy Statement",
+          "url": "https://ibm.com/us-en/privacy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_029",
+          "source_tier": "company_owned",
+          "summary": "This IBM white paper, \"Everyday Ethics for Artificial Intelligence,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. The document supports explainability by requiring AI systems to articulate their conclusions and maintain reviewable records. It addresses fairness by discussing the mitigation of biases, including human bias embedded in AI, and ensuring AI does not exclude demographics. Governance is supported through mentions of proactive issue addressing, accountability for AI outcomes, and responsibility for building AI. Oversight is indicated by mechanisms like feedback loops and user ability to opt-out. Privacy is supported by the sensitivity to personal information used in AI decision-making. Finally, transparency is supported by the emphasis on explaining AI conclusions.",
+          "title": "Everyday Ethics for Artificial Intelligence",
+          "url": "https://ibm.com/watson/assets/duo/pdf/everydayethics.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_030",
+          "source_tier": "company_owned",
+          "summary": "This IBM newsroom blog post provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It details IBM's AI governance framework, including organizational structures and human oversight mechanisms for AI systems, and references AI principles and programs for AI ethics and data lineage. The post also describes a systematic process for AI risk management and the release of specific AI models trained transparently and ethically, demonstrating operational implementation of these commitments.",
+          "title": "Trustworthy AI at scale: IBM's AI Safety and Governance Framework",
+          "url": "https://newsroom.ibm.com/blog-trustworthy-ai-at-scale-ibms-ai-safety-and-governance-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_033",
+          "source_tier": "company_owned",
+          "summary": "This IBM Research blog post provides evidence for the **fairness** and **transparency** pillars of responsible AI. The post highlights IBM's commitment to safety and equity, which supports fairness, and details their policy of transparency by default for AI models, including disclosures on provenance and training details, as well as performance metrics and scoring.",
+          "title": "IBM's Granite model is one of the most transparent - IBM Research",
+          "url": "https://research.ibm.com/blog/ibm-granite-transparency-fmti"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_034",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Adversarial Robustness Toolbox - IBM Research,\" provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by detailing IBM's focus on machine learning security and trustworthy AI tools, including an AI Red and Blue Team approach to defend against threats like poisoning attacks. The paper also supports privacy by identifying inference attacks as a key threat area, and transparency by offering an open-source toolkit designed to make AI systems secure against various deep learning hack attacks.",
+          "title": "Adversarial Robustness Toolbox - IBM Research",
+          "url": "https://research.ibm.com/projects/adversarial-robustness-toolbox"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_035",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"AI Fairness 360: An Extensible Toolkit for Detecting and Mitigating Algorithmic Bias,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It details a toolkit with fairness metrics and bias mitigation algorithms, supporting the fairness pillar by offering mechanisms for evaluating and improving AI models. The paper also implies governance policies through its framework for sharing and its objectives for research and industrial use, while the described web experience for understanding capabilities and extending algorithms supports transparency by enabling users to comprehend and interact with the toolkit.",
+          "title": "AI Fairness 360: An Extensible Toolkit for Detecting and Mitigating Algorithmic Bias",
+          "url": "https://research.ibm.com/publications/ai-fairness-360-an-extensible-toolkit-for-detecting-and-mitigating-algorithmic-bias"
+        }
+      ],
+      "score": 2,
+      "source_count": 26
+    }
+  },
+  "published_at": "2026-02-23T21:52:39Z",
+  "run_id": "20260202_222635_fb9f",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Based on 36 publicly available sources, IBM's published materials address all 7 evaluated responsible AI pillars, with documented public evidence for each. Operational practices are evident in areas such as transparency and explainability, where the \"AI Explainability 360 Toolkit\" describes features for gaining insight into AI decision-making and offers algorithms for understanding machine learning models. Additionally, IBM Cloud Pak for Data explicitly mentions monitoring for fairness and compliance, while the Privacy and AI Management System (PIMS) tracks AI model lifecycles for risk assessment and ongoing monitoring, supporting oversight. Policy documents outline data handling policies for privacy, and frameworks, rules, and standards are established for governance, with governance portfolios used for monitoring and auditing AI models, contributing to external accountability.",
+    "pillars_operational": 7,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 225,
+    "total_sources_used": 32
+  }
+}

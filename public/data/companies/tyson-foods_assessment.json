@@ -1,0 +1,336 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "Tyson Foods",
+  "company_slug": "tyson-foods",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 18,
+      "OPERATIONAL": 14,
+      "POLICY": 45
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 3,
+      "findings": "The company's privacy policy grants consumers rights to access and receive explanations for profiling decisions. Additionally, an interview highlights a commitment to explainable AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy document provides evidence for the **explainability, governance, oversight, privacy, and transparency** pillars of responsible AI. It supports these pillars by disclosing the company's use of artificial intelligence in processing personal information, outlining a framework for handling data collected through various platforms, and referencing data governance practices related to AI utilization. Specifically, the policy details automated profiling for personalization and advertising, the use of automated virtual agents, and grants consumers rights for access and explanation of profiling decisions, all of which touch upon the identified pillars.",
+          "title": "Privacy Policy - AI Use Disclosure",
+          "url": "https://tysonfoods.com/legal/privacy-policy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This interview with Tyson Foods' VP of Advanced Analytics provides evidence for **governance, oversight, transparency, and explainability**. The source details a structured AI governance program, including a steering committee for vetting AI requests and a scoring methodology developed with business stakeholders. It also highlights a commitment to explainable AI and the use of human gatekeepers for critical decisions, demonstrating transparency in their AI development and deployment processes.",
+          "title": "A Culture of AI: Tyson Foods' Lee Slezak On Scaling New Tech Across the Enterprise",
+          "url": "https://consumergoods.com/culture-ai-tyson-foods-lee-slezak-scaling-new-tech-across-enterprise"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "Documentation references AI and bias in recruitment processes.",
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "The \"AI-Driven Automation and Labor Productivity Initiative\" document provides evidence for **fairness**, **governance**, and **oversight**. It implies fairness by mentioning AI and bias in recruitment, and supports governance by detailing the leveraging of AI for operations. Furthermore, the initiative's focus on managing staff and human touch suggests mechanisms for oversight of new technologies.",
+          "title": "AI-Driven Automation and Labor Productivity Initiative",
+          "url": "https://unleash.ai/hr-technology/how-tyson-foods-reduces-labor-costs-with-ai"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 52,
+      "findings": "An annual report addresses AI as an emerging technological risk, indicating a need for management and oversight within the information security program. A Technology Committee Charter outlines responsibility for assessing AI/ML capabilities, and a privacy policy references data governance practices. Reports highlight the need for governance as AI adoption grows, discussing its impact on cyber risk and its importance for integrating AI into workflows, decision-making, model validation, and task automation. Documentation also describes collaboration with ML experts, leveraging AI for operations, and details a structured AI governance program including a steering committee and a scoring methodology for vetting AI requests.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This 2025 Form 10-K Annual Report, a SEC filing, provides evidence for the **governance** pillar of responsible AI. The report explicitly addresses artificial intelligence as an emerging technological risk and vulnerability, indicating a need for management and oversight of AI-related risks within the company's formal information security program. This aligns with governance by demonstrating a proactive approach to identifying and assessing potential threats.",
+          "title": "2025 Form 10-K Annual Report - Cybersecurity and AI Risk Disclosure",
+          "url": "https://s203.q4cdn.com/483587180/files/doc_financials/2025/10k/TSN-FY25-10K.pdf"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This Technology Committee Charter, a board-established document, provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by outlining the committee's principal responsibility to assess the company's capabilities in artificial intelligence and machine learning systems. Transparency is supported through the committee's authority to oversee cybersecurity frameworks and data privacy practices, and to receive reports on technology-related risks.",
+          "title": "Technology Committee Charter",
+          "url": "https://s203.q4cdn.com/483587180/files/doc_downloads/2025/12/Technology-Committee-Charter-Clean-3-12-25.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy document provides evidence for the **explainability, governance, oversight, privacy, and transparency** pillars of responsible AI. It supports these pillars by disclosing the company's use of artificial intelligence in processing personal information, outlining a framework for handling data collected through various platforms, and referencing data governance practices related to AI utilization. Specifically, the policy details automated profiling for personalization and advertising, the use of automated virtual agents, and grants consumers rights for access and explanation of profiling decisions, all of which touch upon the identified pillars.",
+          "title": "Privacy Policy - AI Use Disclosure",
+          "url": "https://tysonfoods.com/legal/privacy-policy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This third-party document, \"Computer Vision and Machine Learning Operations,\" provides evidence for **governance** and **transparency**. It supports transparency by detailing the deployment of specific ML/CV technologies like AWS Panorama and Amazon SageMaker for inventory tracking and quality detection, thus clarifying system capabilities and use cases. The document also implies governance through the mention of collaboration with ML experts for model building, suggesting oversight in AI development processes.",
+          "title": "Computer Vision and Machine Learning Operations",
+          "url": "https://aws.amazon.com/blogs/industries/tyson-foods-boosts-efficiency-with-computer-vision-and-machine-learning-from-aws"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"AI-Driven Supply Chain Optimization Strategy,\" provides evidence for the **governance** pillar of responsible AI. The document highlights the need for governance as AI adoption outpaces existing frameworks, discusses AI's impact on cyber risk, and emphasizes the importance of governance for integrating AI into workflows and complex decision-making processes. The report also suggests that governance is crucial for managing AI-driven model validation and task automation to ensure repeatable value.",
+          "title": "AI-Driven Supply Chain Optimization Strategy",
+          "url": "https://scmr.com/article/how-supply-chain-design-and-ai-are-shaping-the-future-of-tysons-adaptive-supply-chain"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Palantir Foundry's adoption by Tyson Foods provides evidence for **governance, oversight, privacy, and transparency**. The report highlights concerns regarding sensitive data compilation and the expansion of software use, pointing to governance needs. It also calls for transparency on product function and data aggregation purposes, while mentioning AI algorithms for monitoring and forecasting, which supports oversight and transparency. Furthermore, discussions of mass surveillance and data use imply privacy and governance issues related to the platform's capabilities.",
+          "title": "Palantir Foundry Platform Data Integration and Analytics",
+          "url": "https://sentientmedia.org/tyson-foods-leverages-palantirs-surveillance-tech"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "The \"AI-Driven Automation and Labor Productivity Initiative\" document provides evidence for **fairness**, **governance**, and **oversight**. It implies fairness by mentioning AI and bias in recruitment, and supports governance by detailing the leveraging of AI for operations. Furthermore, the initiative's focus on managing staff and human touch suggests mechanisms for oversight of new technologies.",
+          "title": "AI-Driven Automation and Labor Productivity Initiative",
+          "url": "https://unleash.ai/hr-technology/how-tyson-foods-reduces-labor-costs-with-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Tyson Foodservice's Generative AI Conversational Customer Engagement Platform provides evidence for **governance, privacy, and transparency**. The report details the implementation of an AI assistant using Anthropic Claude 3.5 Sonnet on Amazon Bedrock, demonstrating operational deployment and management (governance). It also describes the AI agent's interaction logic and use of LLM capabilities, along with tool augmentation, which contributes to transparency. Furthermore, the mention of responsible AI implies policies for security and privacy, supporting the privacy pillar.",
+          "title": "Generative AI Conversational Customer Engagement Platform",
+          "url": "https://aws.amazon.com/blogs/machine-learning/tyson-foods-elevates-customer-search-experience-with-an-ai-powered-conversational-assistant"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"Data Analytics and AI for Operational Efficiency,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report supports governance by describing the company's data system for analytics and their practices for building data models to manage operational aspects. Transparency is evidenced by discussions of future uses of computer vision models and unstructured data for monitoring and optimization, as well as mentions of ML/CV models.",
+          "title": "Data Analytics and AI for Operational Efficiency",
+          "url": "https://cloud.google.com/transform/tyson-foods-turns-chicken-feed-and-filets-into-data-riches"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This interview with Tyson Foods' VP of Advanced Analytics provides evidence for **governance, oversight, transparency, and explainability**. The source details a structured AI governance program, including a steering committee for vetting AI requests and a scoring methodology developed with business stakeholders. It also highlights a commitment to explainable AI and the use of human gatekeepers for critical decisions, demonstrating transparency in their AI development and deployment processes.",
+          "title": "A Culture of AI: Tyson Foods' Lee Slezak On Scaling New Tech Across the Enterprise",
+          "url": "https://consumergoods.com/culture-ai-tyson-foods-lee-slezak-scaling-new-tech-across-enterprise"
+        }
+      ],
+      "score": 1,
+      "source_count": 10
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "A privacy policy outlines a framework for handling data collected across platforms, while reports mention AI algorithms used for monitoring and forecasting. Documentation describes a focus on managing staff and human touch in relation to new technologies. Furthermore, an interview details a structured AI governance program, including a steering committee for vetting AI requests, a scoring methodology, and the use of human gatekeepers for critical decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy document provides evidence for the **explainability, governance, oversight, privacy, and transparency** pillars of responsible AI. It supports these pillars by disclosing the company's use of artificial intelligence in processing personal information, outlining a framework for handling data collected through various platforms, and referencing data governance practices related to AI utilization. Specifically, the policy details automated profiling for personalization and advertising, the use of automated virtual agents, and grants consumers rights for access and explanation of profiling decisions, all of which touch upon the identified pillars.",
+          "title": "Privacy Policy - AI Use Disclosure",
+          "url": "https://tysonfoods.com/legal/privacy-policy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Palantir Foundry's adoption by Tyson Foods provides evidence for **governance, oversight, privacy, and transparency**. The report highlights concerns regarding sensitive data compilation and the expansion of software use, pointing to governance needs. It also calls for transparency on product function and data aggregation purposes, while mentioning AI algorithms for monitoring and forecasting, which supports oversight and transparency. Furthermore, discussions of mass surveillance and data use imply privacy and governance issues related to the platform's capabilities.",
+          "title": "Palantir Foundry Platform Data Integration and Analytics",
+          "url": "https://sentientmedia.org/tyson-foods-leverages-palantirs-surveillance-tech"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "The \"AI-Driven Automation and Labor Productivity Initiative\" document provides evidence for **fairness**, **governance**, and **oversight**. It implies fairness by mentioning AI and bias in recruitment, and supports governance by detailing the leveraging of AI for operations. Furthermore, the initiative's focus on managing staff and human touch suggests mechanisms for oversight of new technologies.",
+          "title": "AI-Driven Automation and Labor Productivity Initiative",
+          "url": "https://unleash.ai/hr-technology/how-tyson-foods-reduces-labor-costs-with-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This interview with Tyson Foods' VP of Advanced Analytics provides evidence for **governance, oversight, transparency, and explainability**. The source details a structured AI governance program, including a steering committee for vetting AI requests and a scoring methodology developed with business stakeholders. It also highlights a commitment to explainable AI and the use of human gatekeepers for critical decisions, demonstrating transparency in their AI development and deployment processes.",
+          "title": "A Culture of AI: Tyson Foods' Lee Slezak On Scaling New Tech Across the Enterprise",
+          "url": "https://consumergoods.com/culture-ai-tyson-foods-lee-slezak-scaling-new-tech-across-enterprise"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 15,
+      "findings": "A privacy policy discloses the company's use of AI in processing personal information, outlining a framework for handling data collected across various platforms and referencing data governance practices. Reports highlight concerns regarding sensitive data compilation and the expansion of software use, discussing mass surveillance and data use related to the Palantir Foundry platform. Additionally, reports mention responsible AI, implying policies for security and privacy.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy document provides evidence for the **explainability, governance, oversight, privacy, and transparency** pillars of responsible AI. It supports these pillars by disclosing the company's use of artificial intelligence in processing personal information, outlining a framework for handling data collected through various platforms, and referencing data governance practices related to AI utilization. Specifically, the policy details automated profiling for personalization and advertising, the use of automated virtual agents, and grants consumers rights for access and explanation of profiling decisions, all of which touch upon the identified pillars.",
+          "title": "Privacy Policy - AI Use Disclosure",
+          "url": "https://tysonfoods.com/legal/privacy-policy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Palantir Foundry's adoption by Tyson Foods provides evidence for **governance, oversight, privacy, and transparency**. The report highlights concerns regarding sensitive data compilation and the expansion of software use, pointing to governance needs. It also calls for transparency on product function and data aggregation purposes, while mentioning AI algorithms for monitoring and forecasting, which supports oversight and transparency. Furthermore, discussions of mass surveillance and data use imply privacy and governance issues related to the platform's capabilities.",
+          "title": "Palantir Foundry Platform Data Integration and Analytics",
+          "url": "https://sentientmedia.org/tyson-foods-leverages-palantirs-surveillance-tech"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Tyson Foodservice's Generative AI Conversational Customer Engagement Platform provides evidence for **governance, privacy, and transparency**. The report details the implementation of an AI assistant using Anthropic Claude 3.5 Sonnet on Amazon Bedrock, demonstrating operational deployment and management (governance). It also describes the AI agent's interaction logic and use of LLM capabilities, along with tool augmentation, which contributes to transparency. Furthermore, the mention of responsible AI implies policies for security and privacy, supporting the privacy pillar.",
+          "title": "Generative AI Conversational Customer Engagement Platform",
+          "url": "https://aws.amazon.com/blogs/machine-learning/tyson-foods-elevates-customer-search-experience-with-an-ai-powered-conversational-assistant"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 43,
+      "findings": "The company's Technology Committee Charter outlines oversight of cybersecurity and data privacy, and the receipt of technology-related risk reports. A privacy policy discloses AI use in personal information processing, detailing automated profiling and virtual agents, and granting consumers rights to access and explain profiling decisions. Documentation further clarifies AI system capabilities and use cases, describes AI agent interaction logic, discusses future uses of computer vision models, and highlights a commitment to explainable AI and human gatekeepers for critical decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This Technology Committee Charter, a board-established document, provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by outlining the committee's principal responsibility to assess the company's capabilities in artificial intelligence and machine learning systems. Transparency is supported through the committee's authority to oversee cybersecurity frameworks and data privacy practices, and to receive reports on technology-related risks.",
+          "title": "Technology Committee Charter",
+          "url": "https://s203.q4cdn.com/483587180/files/doc_downloads/2025/12/Technology-Committee-Charter-Clean-3-12-25.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy document provides evidence for the **explainability, governance, oversight, privacy, and transparency** pillars of responsible AI. It supports these pillars by disclosing the company's use of artificial intelligence in processing personal information, outlining a framework for handling data collected through various platforms, and referencing data governance practices related to AI utilization. Specifically, the policy details automated profiling for personalization and advertising, the use of automated virtual agents, and grants consumers rights for access and explanation of profiling decisions, all of which touch upon the identified pillars.",
+          "title": "Privacy Policy - AI Use Disclosure",
+          "url": "https://tysonfoods.com/legal/privacy-policy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This third-party document, \"Computer Vision and Machine Learning Operations,\" provides evidence for **governance** and **transparency**. It supports transparency by detailing the deployment of specific ML/CV technologies like AWS Panorama and Amazon SageMaker for inventory tracking and quality detection, thus clarifying system capabilities and use cases. The document also implies governance through the mention of collaboration with ML experts for model building, suggesting oversight in AI development processes.",
+          "title": "Computer Vision and Machine Learning Operations",
+          "url": "https://aws.amazon.com/blogs/industries/tyson-foods-boosts-efficiency-with-computer-vision-and-machine-learning-from-aws"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Palantir Foundry's adoption by Tyson Foods provides evidence for **governance, oversight, privacy, and transparency**. The report highlights concerns regarding sensitive data compilation and the expansion of software use, pointing to governance needs. It also calls for transparency on product function and data aggregation purposes, while mentioning AI algorithms for monitoring and forecasting, which supports oversight and transparency. Furthermore, discussions of mass surveillance and data use imply privacy and governance issues related to the platform's capabilities.",
+          "title": "Palantir Foundry Platform Data Integration and Analytics",
+          "url": "https://sentientmedia.org/tyson-foods-leverages-palantirs-surveillance-tech"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Tyson Foodservice's Generative AI Conversational Customer Engagement Platform provides evidence for **governance, privacy, and transparency**. The report details the implementation of an AI assistant using Anthropic Claude 3.5 Sonnet on Amazon Bedrock, demonstrating operational deployment and management (governance). It also describes the AI agent's interaction logic and use of LLM capabilities, along with tool augmentation, which contributes to transparency. Furthermore, the mention of responsible AI implies policies for security and privacy, supporting the privacy pillar.",
+          "title": "Generative AI Conversational Customer Engagement Platform",
+          "url": "https://aws.amazon.com/blogs/machine-learning/tyson-foods-elevates-customer-search-experience-with-an-ai-powered-conversational-assistant"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"Data Analytics and AI for Operational Efficiency,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report supports governance by describing the company's data system for analytics and their practices for building data models to manage operational aspects. Transparency is evidenced by discussions of future uses of computer vision models and unstructured data for monitoring and optimization, as well as mentions of ML/CV models.",
+          "title": "Data Analytics and AI for Operational Efficiency",
+          "url": "https://cloud.google.com/transform/tyson-foods-turns-chicken-feed-and-filets-into-data-riches"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This interview with Tyson Foods' VP of Advanced Analytics provides evidence for **governance, oversight, transparency, and explainability**. The source details a structured AI governance program, including a steering committee for vetting AI requests and a scoring methodology developed with business stakeholders. It also highlights a commitment to explainable AI and the use of human gatekeepers for critical decisions, demonstrating transparency in their AI development and deployment processes.",
+          "title": "A Culture of AI: Tyson Foods' Lee Slezak On Scaling New Tech Across the Enterprise",
+          "url": "https://consumergoods.com/culture-ai-tyson-foods-lee-slezak-scaling-new-tech-across-enterprise"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:59:42Z",
+  "run_id": "20260203_025909_1e21",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Tyson Foods' Technology Committee Charter outlines its authority to oversee cybersecurity frameworks and data privacy practices, and to receive reports on technology-related risks, addressing aspects of transparency. This is part of the documented evidence found across 5 of 7 evaluated responsible AI pillars, which include a privacy policy disclosing the use of artificial intelligence in processing personal information and granting consumers rights for access and explanation of profiling decisions. Further disclosures, drawn from 15 publicly available sources, indicate an annual report addresses artificial intelligence as an emerging technological risk and vulnerability, highlighting governance considerations. No qualifying public evidence was found for fairness or external accountability.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 77,
+    "total_sources_used": 10
+  }
+}

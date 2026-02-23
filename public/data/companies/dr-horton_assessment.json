@@ -1,0 +1,151 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 14.3,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 2
+  },
+  "company": "D.R. Horton",
+  "company_slug": "dr-horton",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 6,
+      "OPERATIONAL": 0,
+      "POLICY": 6
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 7,
+      "findings": "Documentation references the organization-wide deployment of an AI platform for \"go/no-go\" acquisition decisions, indicating a structured approach to AI-driven decision-making and automated planning for business outcomes. It also describes the deployment of a specific AI tool for a defined business process within the company.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. Transparency is supported by the detailed description of the AI-native platform's components (ZoneAI and SiteAI) and its specific functions in extracting zoning rules, environmental data, and parcel records. Governance is implied by the organization-wide deployment of the platform to generate \"go/no-go\" acquisition decisions, indicating a structured approach to AI-driven decision-making and automated planning for business outcomes.",
+          "title": "Prophetic to Power D.R. Horton's AI-Driven Land Acquisition at National Scale",
+          "url": "https://prnewswire.com/news-releases/prophetic-to-power-dr-hortons-ai-driven-land-acquisition-at-national-scale-302610017.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by detailing the capabilities of Prophetic's AI, including its use of a large language model for automated zoning analysis and its ability to process zoning documents across multiple jurisdictions. The press release also implicitly supports governance by describing the deployment of a specific AI tool for a defined business process within D.R. Horton.",
+          "title": "D.R. Horton taps Prophetic AI to build more homes",
+          "url": "https://cnbc.com/2025/11/14/dr-horton-taps-prophetic-ai-to-build-more-homes.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 11,
+      "findings": "Documentation describes the components (ZoneAI and SiteAI) and specific functions of an AI-native platform, including its role in extracting zoning rules, environmental data, and parcel records. It also details the capabilities of Prophetic's AI, referencing its use of a large language model for automated zoning analysis and its ability to process zoning documents across multiple jurisdictions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. Transparency is supported by the detailed description of the AI-native platform's components (ZoneAI and SiteAI) and its specific functions in extracting zoning rules, environmental data, and parcel records. Governance is implied by the organization-wide deployment of the platform to generate \"go/no-go\" acquisition decisions, indicating a structured approach to AI-driven decision-making and automated planning for business outcomes.",
+          "title": "Prophetic to Power D.R. Horton's AI-Driven Land Acquisition at National Scale",
+          "url": "https://prnewswire.com/news-releases/prophetic-to-power-dr-hortons-ai-driven-land-acquisition-at-national-scale-302610017.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by detailing the capabilities of Prophetic's AI, including its use of a large language model for automated zoning analysis and its ability to process zoning documents across multiple jurisdictions. The press release also implicitly supports governance by describing the deployment of a specific AI tool for a defined business process within D.R. Horton.",
+          "title": "D.R. Horton taps Prophetic AI to build more homes",
+          "url": "https://cnbc.com/2025/11/14/dr-horton-taps-prophetic-ai-to-build-more-homes.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-02-23T21:49:04Z",
+  "run_id": "20260202_214701_413d",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "D.R. Horton's public disclosures describe the specific functions of its AI-native platform (ZoneAI and SiteAI) in extracting zoning rules, environmental data, and parcel records, addressing the transparency pillar. Published materials also reference the organization-wide deployment of an AI platform to generate \"go/no-go\" acquisition decisions, indicating a structured approach to AI-driven decision-making under governance, covering 2 of 7 evaluated pillars. Based on a review of 2 publicly available sources, no qualifying public evidence was found for the majority of the 7 evaluated pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 2,
+    "pillars_without_evidence": 5,
+    "total_evidence_items": 12,
+    "total_sources_used": 2
+  }
+}

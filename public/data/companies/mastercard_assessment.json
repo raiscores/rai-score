@@ -1,0 +1,386 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "Mastercard",
+  "company_slug": "mastercard",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 23,
+      "OPERATIONAL": 10,
+      "POLICY": 73
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Technical papers discuss the use of interpretability tools, such as SHAP values, for understanding AI model behavior.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness**, **transparency**, and **governance** in responsible AI. The report details various methods for measuring and mitigating bias in machine learning models, including specific fairness policies like equality of opportunity and demographic parity, supporting the **fairness** pillar. It also discusses the use of interpretability tools like SHAP values for understanding model behavior, contributing to **transparency**, and mentions AI governance frameworks and mechanisms for fairness evaluation, aligning with the **governance** pillar.",
+          "title": "Data Study Group Final Report - Mastercard Fairness Analysis",
+          "url": "https://arxiv.org/pdf/2501.10784.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "Mastercard's blog posts mention the practice of seeking external expert consultation. Policy documents emphasize monitoring and auditing AI in supply chains. Enforcement actions also detail a study into AI and algorithmic practices used by intermediaries.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Mastercard and Credo AI: Scaling Generative AI Governance,\" provides evidence for **governance**, **oversight**, and **transparency**. The case study details Mastercard's implementation of scalable generative AI governance through mechanisms like an AI Registry and Vendor Registry, which support transparency by providing visibility into AI usage and adoption. The report also highlights risk management practices and control tools for AI use cases, demonstrating strong governance and oversight capabilities.",
+          "title": "Mastercard and Credo AI: Scaling Generative AI Governance",
+          "url": "https://credo.ai/casestudies/mastercard"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This FTC enforcement action provides evidence for external accountability, fairness, governance, privacy, and transparency. The order supports external accountability and governance by detailing the FTC's study into AI and algorithmic practices used by intermediaries. It addresses fairness by discussing discriminatory outcomes from AI algorithms and concerns about differential pricing, and privacy by highlighting issues with data collection, surreptitious tracking, and profiling. The document also touches on transparency by describing the use of AI and algorithms for prediction and personalized pricing.",
+          "title": "FTC Surveillance Pricing Study - Mastercard 6(b) Order",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/sp6b-issue-spotlight.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Driving Responsible AI: How to Set the Rules of the Road,\" provides evidence for **governance**, **privacy**, **fairness**, and **external accountability**. It details Mastercard's AI Governance Council, established for oversight, and highlights their commitment to data responsibility principles and Privacy by Design for AI. The post also mentions addressing AI risks like bias and hallucinations, and the practice of seeking external expert consultation, which supports external accountability.",
+          "title": "Driving Responsible AI: How to Set the Rules of the Road",
+          "url": "https://mastercard.com/news/perspectives/2023/driving-responsible-ai-how-to-set-the-rules-of-the-road"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "This policy document, \"NIST AI Risk Management Framework - Mastercard Comments,\" provides evidence for **governance**, **external accountability**, and **privacy**. Mastercard's comments highlight the importance of integrating AI risk management within organizational risk appetite and suggest the need for AI governance frameworks and data responsibility principles, supporting **governance** and **privacy**. Furthermore, the document emphasizes monitoring and auditing AI in supply chains, indicating concerns for **external accountability**, and suggests including AI decision-making processes and oversight in the RMF, reinforcing the **governance** pillar.",
+          "title": "NIST AI Risk Management Framework - Mastercard Comments",
+          "url": "https://nist.gov/document/ai-rmf-2nd-draft-comments-mastercard"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 50,
+      "findings": "Mastercard's technical papers detail methods for measuring and mitigating bias in machine learning models, including specific fairness policies and mechanisms for fairness evaluation. Audit reports mention guiding principles for fairness, and blog posts reference addressing AI risks like bias. Enforcement actions also discuss discriminatory outcomes from AI algorithms and concerns about differential pricing.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness**, **transparency**, and **governance** in responsible AI. The report details various methods for measuring and mitigating bias in machine learning models, including specific fairness policies like equality of opportunity and demographic parity, supporting the **fairness** pillar. It also discusses the use of interpretability tools like SHAP values for understanding model behavior, contributing to **transparency**, and mentions AI governance frameworks and mechanisms for fairness evaluation, aligning with the **governance** pillar.",
+          "title": "Data Study Group Final Report - Mastercard Fairness Analysis",
+          "url": "https://arxiv.org/pdf/2501.10784.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This FTC enforcement action provides evidence for external accountability, fairness, governance, privacy, and transparency. The order supports external accountability and governance by detailing the FTC's study into AI and algorithmic practices used by intermediaries. It addresses fairness by discussing discriminatory outcomes from AI algorithms and concerns about differential pricing, and privacy by highlighting issues with data collection, surreptitious tracking, and profiling. The document also touches on transparency by describing the use of AI and algorithms for prediction and personalized pricing.",
+          "title": "FTC Surveillance Pricing Study - Mastercard 6(b) Order",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/sp6b-issue-spotlight.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Mastercard's Ethical Approach to Governing AI - IMD Business School,\" provides evidence for **fairness, governance, and transparency**. The case study highlights Mastercard's commitment to these principles through its AI governance framework, which integrates privacy foundations with specific AI oversight mechanisms, including employee ethical guidelines and robust data management. The report mentions guiding principles for AI governance, fairness, and transparency, indicating a policy commitment to these areas.",
+          "title": "Mastercard's Ethical Approach to Governing AI - IMD Business School",
+          "url": "https://imd.org/research-knowledge/digital/case-studies/mastercard-s-ethical-approach-to-governing-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Driving Responsible AI: How to Set the Rules of the Road,\" provides evidence for **governance**, **privacy**, **fairness**, and **external accountability**. It details Mastercard's AI Governance Council, established for oversight, and highlights their commitment to data responsibility principles and Privacy by Design for AI. The post also mentions addressing AI risks like bias and hallucinations, and the practice of seeking external expert consultation, which supports external accountability.",
+          "title": "Driving Responsible AI: How to Set the Rules of the Road",
+          "url": "https://mastercard.com/news/perspectives/2023/driving-responsible-ai-how-to-set-the-rules-of-the-road"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 53,
+      "findings": "Mastercard's documentation references guiding principles and frameworks for AI governance, including an AI framework with model governance and ethics standards. Case studies highlight a commitment to governance through an AI review board, ongoing model reviews, and a formal AI governance framework with continuous monitoring. The company also details an AI Governance Council and an interdisciplinary approach to AI management, including a council for evaluating AI use cases and developing differentiated policies for generative AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness**, **transparency**, and **governance** in responsible AI. The report details various methods for measuring and mitigating bias in machine learning models, including specific fairness policies like equality of opportunity and demographic parity, supporting the **fairness** pillar. It also discusses the use of interpretability tools like SHAP values for understanding model behavior, contributing to **transparency**, and mentions AI governance frameworks and mechanisms for fairness evaluation, aligning with the **governance** pillar.",
+          "title": "Data Study Group Final Report - Mastercard Fairness Analysis",
+          "url": "https://arxiv.org/pdf/2501.10784.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Advanced AI Technology - Brighterion AI Datasheet,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document details the platform's scoring and management modules, AI/ML model building, deployment, and management processes, as well as the use of custom and off-the-shelf models. These descriptions collectively indicate operational transparency and governance over the AI solution's development and use.",
+          "title": "Advanced AI Technology - Brighterion AI Datasheet",
+          "url": "https://b2b.mastercard.com/media/bfhlhchh/advanced-ai-technology-datasheet.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This Mastercard blog post, \"The Update: Artificial Intelligence Driving Security in Payments,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The publication discusses AI's role in decision intelligence and risk management, implying governance by outlining AI's application in critical financial processes. Furthermore, it highlights the capabilities of AI models, suggesting transparency in their function and contribution to understanding risks.",
+          "title": "The Update: Artificial Intelligence Driving Security in Payments",
+          "url": "https://b2b.mastercard.com/media/xqdhyvel/theupdate_issue1_2023.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Explainable AI: From Black Box to Transparency,\" provides evidence for the **governance** pillar of responsible AI. The post details Mastercard's AI framework, including model governance and ethics standards, and mentions the use of AI for transaction scoring and rule setting, which demonstrates a structured approach to AI decision-making and oversight.",
+          "title": "Explainable AI: From Black Box to Transparency",
+          "url": "https://b2b.mastercard.com/news-and-insights/blog/explainable-ai-from-black-box-to-transparency"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post case study on Mastercard's AI strategy provides evidence for the **governance** and **transparency** pillars. It highlights Mastercard's commitment to governance through an AI review board, ongoing model reviews, and a formal AI governance framework with continuous monitoring. The source also implies transparency by mentioning AI integration with a decision management platform, suggesting visibility into its use and function.",
+          "title": "How Mastercard Uses AI Strategically: A Case Study | Bernard Marr",
+          "url": "https://bernardmarr.com/how-mastercard-uses-ai-strategically-a-case-study"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Mastercard and Credo AI: Scaling Generative AI Governance,\" provides evidence for **governance**, **oversight**, and **transparency**. The case study details Mastercard's implementation of scalable generative AI governance through mechanisms like an AI Registry and Vendor Registry, which support transparency by providing visibility into AI usage and adoption. The report also highlights risk management practices and control tools for AI use cases, demonstrating strong governance and oversight capabilities.",
+          "title": "Mastercard and Credo AI: Scaling Generative AI Governance",
+          "url": "https://credo.ai/casestudies/mastercard"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This FTC enforcement action provides evidence for external accountability, fairness, governance, privacy, and transparency. The order supports external accountability and governance by detailing the FTC's study into AI and algorithmic practices used by intermediaries. It addresses fairness by discussing discriminatory outcomes from AI algorithms and concerns about differential pricing, and privacy by highlighting issues with data collection, surreptitious tracking, and profiling. The document also touches on transparency by describing the use of AI and algorithms for prediction and personalized pricing.",
+          "title": "FTC Surveillance Pricing Study - Mastercard 6(b) Order",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/sp6b-issue-spotlight.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Mastercard's Ethical Approach to Governing AI - IMD Business School,\" provides evidence for **fairness, governance, and transparency**. The case study highlights Mastercard's commitment to these principles through its AI governance framework, which integrates privacy foundations with specific AI oversight mechanisms, including employee ethical guidelines and robust data management. The report mentions guiding principles for AI governance, fairness, and transparency, indicating a policy commitment to these areas.",
+          "title": "Mastercard's Ethical Approach to Governing AI - IMD Business School",
+          "url": "https://imd.org/research-knowledge/digital/case-studies/mastercard-s-ethical-approach-to-governing-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Driving Responsible AI: How to Set the Rules of the Road,\" provides evidence for **governance**, **privacy**, **fairness**, and **external accountability**. It details Mastercard's AI Governance Council, established for oversight, and highlights their commitment to data responsibility principles and Privacy by Design for AI. The post also mentions addressing AI risks like bias and hallucinations, and the practice of seeking external expert consultation, which supports external accountability.",
+          "title": "Driving Responsible AI: How to Set the Rules of the Road",
+          "url": "https://mastercard.com/news/perspectives/2023/driving-responsible-ai-how-to-set-the-rules-of-the-road"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "This policy document, \"NIST AI Risk Management Framework - Mastercard Comments,\" provides evidence for **governance**, **external accountability**, and **privacy**. Mastercard's comments highlight the importance of integrating AI risk management within organizational risk appetite and suggest the need for AI governance frameworks and data responsibility principles, supporting **governance** and **privacy**. Furthermore, the document emphasizes monitoring and auditing AI in supply chains, indicating concerns for **external accountability**, and suggests including AI decision-making processes and oversight in the RMF, reinforcing the **governance** pillar.",
+          "title": "NIST AI Risk Management Framework - Mastercard Comments",
+          "url": "https://nist.gov/document/ai-rmf-2nd-draft-comments-mastercard"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Generative AI at Mastercard: Governance Takes Center Stage,\" provides evidence for the **governance** and **oversight** pillars. It details Mastercard's interdisciplinary approach to AI management, including an established council for evaluating AI use cases and the development of differentiated policies for generative AI. The paper also highlights mechanisms like \"humans in the loop\" and extensive testing for AI outputs, demonstrating a commitment to operational oversight and controls.",
+          "title": "Generative AI at Mastercard: Governance Takes Center Stage",
+          "url": "https://sloanreview.mit.edu/article/generative-ai-at-mastercard-governance-takes-center-stage"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Mastercard's audit reports detail the implementation of scalable generative AI governance through mechanisms like an AI Registry and Vendor Registry. Technical papers describe an interdisciplinary approach to AI management, including a council for evaluating AI use cases and the development of differentiated policies for generative AI. Policy documents also suggest including AI decision-making processes and oversight in the Risk Management Framework.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Mastercard and Credo AI: Scaling Generative AI Governance,\" provides evidence for **governance**, **oversight**, and **transparency**. The case study details Mastercard's implementation of scalable generative AI governance through mechanisms like an AI Registry and Vendor Registry, which support transparency by providing visibility into AI usage and adoption. The report also highlights risk management practices and control tools for AI use cases, demonstrating strong governance and oversight capabilities.",
+          "title": "Mastercard and Credo AI: Scaling Generative AI Governance",
+          "url": "https://credo.ai/casestudies/mastercard"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "This policy document, \"NIST AI Risk Management Framework - Mastercard Comments,\" provides evidence for **governance**, **external accountability**, and **privacy**. Mastercard's comments highlight the importance of integrating AI risk management within organizational risk appetite and suggest the need for AI governance frameworks and data responsibility principles, supporting **governance** and **privacy**. Furthermore, the document emphasizes monitoring and auditing AI in supply chains, indicating concerns for **external accountability**, and suggests including AI decision-making processes and oversight in the RMF, reinforcing the **governance** pillar.",
+          "title": "NIST AI Risk Management Framework - Mastercard Comments",
+          "url": "https://nist.gov/document/ai-rmf-2nd-draft-comments-mastercard"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Generative AI at Mastercard: Governance Takes Center Stage,\" provides evidence for the **governance** and **oversight** pillars. It details Mastercard's interdisciplinary approach to AI management, including an established council for evaluating AI use cases and the development of differentiated policies for generative AI. The paper also highlights mechanisms like \"humans in the loop\" and extensive testing for AI outputs, demonstrating a commitment to operational oversight and controls.",
+          "title": "Generative AI at Mastercard: Governance Takes Center Stage",
+          "url": "https://sloanreview.mit.edu/article/generative-ai-at-mastercard-governance-takes-center-stage"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 11,
+      "findings": "Mastercard's blog posts highlight a commitment to data responsibility principles and Privacy by Design for AI. Policy documents also suggest the need for data responsibility principles. Enforcement actions highlight issues related to data collection, surreptitious tracking, and profiling.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This FTC enforcement action provides evidence for external accountability, fairness, governance, privacy, and transparency. The order supports external accountability and governance by detailing the FTC's study into AI and algorithmic practices used by intermediaries. It addresses fairness by discussing discriminatory outcomes from AI algorithms and concerns about differential pricing, and privacy by highlighting issues with data collection, surreptitious tracking, and profiling. The document also touches on transparency by describing the use of AI and algorithms for prediction and personalized pricing.",
+          "title": "FTC Surveillance Pricing Study - Mastercard 6(b) Order",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/sp6b-issue-spotlight.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Driving Responsible AI: How to Set the Rules of the Road,\" provides evidence for **governance**, **privacy**, **fairness**, and **external accountability**. It details Mastercard's AI Governance Council, established for oversight, and highlights their commitment to data responsibility principles and Privacy by Design for AI. The post also mentions addressing AI risks like bias and hallucinations, and the practice of seeking external expert consultation, which supports external accountability.",
+          "title": "Driving Responsible AI: How to Set the Rules of the Road",
+          "url": "https://mastercard.com/news/perspectives/2023/driving-responsible-ai-how-to-set-the-rules-of-the-road"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "This policy document, \"NIST AI Risk Management Framework - Mastercard Comments,\" provides evidence for **governance**, **external accountability**, and **privacy**. Mastercard's comments highlight the importance of integrating AI risk management within organizational risk appetite and suggest the need for AI governance frameworks and data responsibility principles, supporting **governance** and **privacy**. Furthermore, the document emphasizes monitoring and auditing AI in supply chains, indicating concerns for **external accountability**, and suggests including AI decision-making processes and oversight in the RMF, reinforcing the **governance** pillar.",
+          "title": "NIST AI Risk Management Framework - Mastercard Comments",
+          "url": "https://nist.gov/document/ai-rmf-2nd-draft-comments-mastercard"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 23,
+      "findings": "Mastercard's documentation references guiding principles for transparency and highlights the capabilities of its AI models. Technical papers discuss interpretability tools like SHAP values, while system cards detail AI/ML model building, deployment, and management processes. The company also uses mechanisms like an AI Registry and Vendor Registry to provide visibility into AI usage and adoption.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness**, **transparency**, and **governance** in responsible AI. The report details various methods for measuring and mitigating bias in machine learning models, including specific fairness policies like equality of opportunity and demographic parity, supporting the **fairness** pillar. It also discusses the use of interpretability tools like SHAP values for understanding model behavior, contributing to **transparency**, and mentions AI governance frameworks and mechanisms for fairness evaluation, aligning with the **governance** pillar.",
+          "title": "Data Study Group Final Report - Mastercard Fairness Analysis",
+          "url": "https://arxiv.org/pdf/2501.10784.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Advanced AI Technology - Brighterion AI Datasheet,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document details the platform's scoring and management modules, AI/ML model building, deployment, and management processes, as well as the use of custom and off-the-shelf models. These descriptions collectively indicate operational transparency and governance over the AI solution's development and use.",
+          "title": "Advanced AI Technology - Brighterion AI Datasheet",
+          "url": "https://b2b.mastercard.com/media/bfhlhchh/advanced-ai-technology-datasheet.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This Mastercard blog post, \"The Update: Artificial Intelligence Driving Security in Payments,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The publication discusses AI's role in decision intelligence and risk management, implying governance by outlining AI's application in critical financial processes. Furthermore, it highlights the capabilities of AI models, suggesting transparency in their function and contribution to understanding risks.",
+          "title": "The Update: Artificial Intelligence Driving Security in Payments",
+          "url": "https://b2b.mastercard.com/media/xqdhyvel/theupdate_issue1_2023.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post case study on Mastercard's AI strategy provides evidence for the **governance** and **transparency** pillars. It highlights Mastercard's commitment to governance through an AI review board, ongoing model reviews, and a formal AI governance framework with continuous monitoring. The source also implies transparency by mentioning AI integration with a decision management platform, suggesting visibility into its use and function.",
+          "title": "How Mastercard Uses AI Strategically: A Case Study | Bernard Marr",
+          "url": "https://bernardmarr.com/how-mastercard-uses-ai-strategically-a-case-study"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Mastercard and Credo AI: Scaling Generative AI Governance,\" provides evidence for **governance**, **oversight**, and **transparency**. The case study details Mastercard's implementation of scalable generative AI governance through mechanisms like an AI Registry and Vendor Registry, which support transparency by providing visibility into AI usage and adoption. The report also highlights risk management practices and control tools for AI use cases, demonstrating strong governance and oversight capabilities.",
+          "title": "Mastercard and Credo AI: Scaling Generative AI Governance",
+          "url": "https://credo.ai/casestudies/mastercard"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This FTC enforcement action provides evidence for external accountability, fairness, governance, privacy, and transparency. The order supports external accountability and governance by detailing the FTC's study into AI and algorithmic practices used by intermediaries. It addresses fairness by discussing discriminatory outcomes from AI algorithms and concerns about differential pricing, and privacy by highlighting issues with data collection, surreptitious tracking, and profiling. The document also touches on transparency by describing the use of AI and algorithms for prediction and personalized pricing.",
+          "title": "FTC Surveillance Pricing Study - Mastercard 6(b) Order",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/sp6b-issue-spotlight.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Mastercard's Ethical Approach to Governing AI - IMD Business School,\" provides evidence for **fairness, governance, and transparency**. The case study highlights Mastercard's commitment to these principles through its AI governance framework, which integrates privacy foundations with specific AI oversight mechanisms, including employee ethical guidelines and robust data management. The report mentions guiding principles for AI governance, fairness, and transparency, indicating a policy commitment to these areas.",
+          "title": "Mastercard's Ethical Approach to Governing AI - IMD Business School",
+          "url": "https://imd.org/research-knowledge/digital/case-studies/mastercard-s-ethical-approach-to-governing-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:54:53Z",
+  "run_id": "20260203_001351_7605",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Mastercard's public disclosures demonstrate operational practices in transparency and governance, with documented evidence across all 7 evaluated responsible AI pillars. For transparency, technical papers discuss the use of interpretability tools like SHAP values, and system cards detail AI/ML model building and management processes for governance. External accountability is also documented through enforcement actions detailing a study into AI and algorithmic practices used by intermediaries. Fairness, explainability, oversight, and privacy are addressed at the policy level, with fairness policies including equality of opportunity and demographic parity, and audit reports detailing the implementation of scalable generative AI governance for oversight. This assessment draws on 16 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 106,
+    "total_sources_used": 11
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "American Electric Power",
+  "company_slug": "american-electric-power",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 0,
+      "OPERATIONAL": 4,
+      "POLICY": 5
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "An SEC filing describes computation methods for financial modeling and valuation processes. It also describes the use of independent third parties for calculations in these processes, supporting external accountability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external_accountability, governance, oversight, and transparency**. It details AEP's cybersecurity risk management processes, including the Audit Committee's primary oversight responsibility and the CIO's reporting on AI-related risks to the Board, demonstrating strong governance and oversight. The filing also implies transparency and governance over financial modeling and valuation processes through descriptions of computation methods and the use of independent third parties for calculations, supporting external accountability.",
+          "title": "Form 10-K 2024 Item 1C Cybersecurity Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/4904/000000490425000043/aep-20250312.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 8,
+      "findings": "An SEC filing describes computation methods and the use of independent third parties for calculations in financial modeling and valuation processes. Additionally, a proxy statement details the Technology Committee's role in reviewing and overseeing AI strategy and risk frameworks.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external_accountability, governance, oversight, and transparency**. It details AEP's cybersecurity risk management processes, including the Audit Committee's primary oversight responsibility and the CIO's reporting on AI-related risks to the Board, demonstrating strong governance and oversight. The filing also implies transparency and governance over financial modeling and valuation processes through descriptions of computation methods and the use of independent third parties for calculations, supporting external accountability.",
+          "title": "Form 10-K 2024 Item 1C Cybersecurity Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/4904/000000490425000043/aep-20250312.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for the **governance** and **oversight** pillars of responsible AI. The document details the Technology Committee's role in reviewing and overseeing AI strategy and risk frameworks, demonstrating established governance structures and active oversight mechanisms for AI development and deployment.",
+          "title": "2025 Proxy Statement (DEF14A)",
+          "url": "https://docs.aep.com/docs/investors/AnnualReportsProxies/docs/24annrep/2025ProxyStatement.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "A proxy statement details the Technology Committee's role in reviewing and overseeing AI strategy. The committee's role also includes reviewing and overseeing AI risk frameworks.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external_accountability, governance, oversight, and transparency**. It details AEP's cybersecurity risk management processes, including the Audit Committee's primary oversight responsibility and the CIO's reporting on AI-related risks to the Board, demonstrating strong governance and oversight. The filing also implies transparency and governance over financial modeling and valuation processes through descriptions of computation methods and the use of independent third parties for calculations, supporting external accountability.",
+          "title": "Form 10-K 2024 Item 1C Cybersecurity Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/4904/000000490425000043/aep-20250312.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for the **governance** and **oversight** pillars of responsible AI. The document details the Technology Committee's role in reviewing and overseeing AI strategy and risk frameworks, demonstrating established governance structures and active oversight mechanisms for AI development and deployment.",
+          "title": "2025 Proxy Statement (DEF14A)",
+          "url": "https://docs.aep.com/docs/investors/AnnualReportsProxies/docs/24annrep/2025ProxyStatement.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 2,
+      "findings": "An SEC filing describes computation methods for financial modeling and valuation processes. It also describes the use of independent third parties for calculations in these processes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external_accountability, governance, oversight, and transparency**. It details AEP's cybersecurity risk management processes, including the Audit Committee's primary oversight responsibility and the CIO's reporting on AI-related risks to the Board, demonstrating strong governance and oversight. The filing also implies transparency and governance over financial modeling and valuation processes through descriptions of computation methods and the use of independent third parties for calculations, supporting external accountability.",
+          "title": "Form 10-K 2024 Item 1C Cybersecurity Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/4904/000000490425000043/aep-20250312.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-02-23T21:42:44Z",
+  "run_id": "20260202_203726_9795",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Privacy & Security"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "American Electric Power's public disclosures detail operational practices for oversight, including the Technology Committee's role in reviewing and overseeing AI strategy, and for governance, which describes computation methods for financial modeling and valuation processes. These materials address 4 of 7 evaluated responsible AI pillars, with transparency and external accountability also addressed at the policy level. Published materials describe the use of independent third parties for calculations in financial modeling and valuation processes, alongside computation methods for these areas. No qualifying public evidence was found for fairness, explainability, and 1 additional pillar, based on a review of 7 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 9,
+    "total_sources_used": 2
+  }
+}

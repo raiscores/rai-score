@@ -1,0 +1,432 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "Liberty Mutual Insurance",
+  "company_slug": "liberty-mutual-insurance",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 17,
+      "OPERATIONAL": 16,
+      "POLICY": 42
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Sources describe documented explainability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post on \"AI-Driven Automation in Insurance Claims and Underwriting\" provides evidence for **explainability, external accountability, fairness, governance, oversight, and transparency**. It highlights practices like AI governance committee quarterly reviews, audit trails, and bias detection, which directly support **governance, fairness, and external accountability**. The mention of real-time monitoring and automatic retraining of AI models demonstrates operational **governance and oversight**, while the description of AI architecture and automation capabilities implies **transparency**, though specific mechanisms are not detailed.",
+          "title": "AI-Driven Automation in Insurance Claims and Underwriting",
+          "url": "https://blog.maplesage.com/ai-driven-automation-revolutionizes-insurance-claims-and-underwriting"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 8,
+      "findings": "Liberty Mutual mentions third-party partnerships and describes collaborations to define risk and safety standards for AI and autonomous vehicles. SEC filings discuss state-imposed restrictions and address compliance with AI laws and regulations. Additionally, blog posts highlight practices such as AI governance committee quarterly reviews and audit trails.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **transparency**, and **external accountability**. It details the establishment of a Responsible AI Steering Committee responsible for managing AI risks and providing guidance, supporting the governance pillar. The post also demonstrates transparency by describing AI deployment, specific capabilities, and internal GPT instances for safe experimentation. Furthermore, it mentions third-party partnerships, indicating support for the external accountability pillar.",
+          "title": "Responsible AI Steering Committee Implementation",
+          "url": "https://cio.com/article/3596471/liberty-mutual-cio-monica-caldas-on-developing-a-digital-savvy-workforce.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"Liberty Mutual Risk Factors - AI and Data Privacy Risks,\" provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. The document discusses limitations due to allegations of racial discrimination (fairness) and state-imposed restrictions (external_accountability). It also addresses compliance with AI laws and regulations, the consequences of noncompliance, and restrictions on customer data use due to AI laws, all of which highlight governance and external accountability requirements, as well as privacy concerns.",
+          "title": "Liberty Mutual Risk Factors - AI and Data Privacy Risks",
+          "url": "https://libertymutualgroup.com/documents/liberty-mutual-risk-factors.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This blog post describes Liberty Mutual's collaboration with MIT to advance AI research, which supports the **governance** and **external_accountability** pillars. The partnerships with Edge Case Research and Underwriters Laboratories to define risk and safety standards for AI and autonomous vehicles demonstrate a commitment to establishing governance frameworks and external accountability for AI development and deployment.",
+          "title": "Liberty Mutual AI Research Partnership with MIT",
+          "url": "https://business.libertymutual.com/insights/addressing-emerging-risks-with-evolving-innovation"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post on \"AI-Driven Automation in Insurance Claims and Underwriting\" provides evidence for **explainability, external accountability, fairness, governance, oversight, and transparency**. It highlights practices like AI governance committee quarterly reviews, audit trails, and bias detection, which directly support **governance, fairness, and external accountability**. The mention of real-time monitoring and automatic retraining of AI models demonstrates operational **governance and oversight**, while the description of AI architecture and automation capabilities implies **transparency**, though specific mechanisms are not detailed.",
+          "title": "AI-Driven Automation in Insurance Claims and Underwriting",
+          "url": "https://blog.maplesage.com/ai-driven-automation-revolutionizes-insurance-claims-and-underwriting"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "Liberty Mutual's SEC filings discuss limitations due to allegations of racial discrimination. The company highlights a commitment to developing AI research in areas such as risk-aware decision making. Additionally, blog posts describe practices like bias detection.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"Liberty Mutual Risk Factors - AI and Data Privacy Risks,\" provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. The document discusses limitations due to allegations of racial discrimination (fairness) and state-imposed restrictions (external_accountability). It also addresses compliance with AI laws and regulations, the consequences of noncompliance, and restrictions on customer data use due to AI laws, all of which highlight governance and external accountability requirements, as well as privacy concerns.",
+          "title": "Liberty Mutual Risk Factors - AI and Data Privacy Risks",
+          "url": "https://libertymutualgroup.com/documents/liberty-mutual-risk-factors.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release supports evidence for fairness, governance, privacy, and transparency. It highlights the collaboration's commitment to developing AI research in areas like data privacy and security, and risk-aware decision making, indicating a focus on responsible AI practices. The announcement also mentions the goal of producing AI tools and technologies, implying a focus on their capabilities and potential transparency.",
+          "title": "MIT and Liberty Mutual $25M AI Research Collaboration",
+          "url": "https://news.mit.edu/2019/liberty-mutual-insurance-establishes-artificial-intelligence-collaboration-mit-0430"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post on \"AI-Driven Automation in Insurance Claims and Underwriting\" provides evidence for **explainability, external accountability, fairness, governance, oversight, and transparency**. It highlights practices like AI governance committee quarterly reviews, audit trails, and bias detection, which directly support **governance, fairness, and external accountability**. The mention of real-time monitoring and automatic retraining of AI models demonstrates operational **governance and oversight**, while the description of AI architecture and automation capabilities implies **transparency**, though specific mechanisms are not detailed.",
+          "title": "AI-Driven Automation in Insurance Claims and Underwriting",
+          "url": "https://blog.maplesage.com/ai-driven-automation-revolutionizes-insurance-claims-and-underwriting"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 52,
+      "findings": "Liberty Mutual has established a responsible AI committee, a working team, and a Responsible AI Steering Committee to manage AI risks, provide guidance, and ensure company policies are maintained. The company details business purposes for data usage, outlines data sharing practices, and addresses compliance with AI laws and regulations. Governance practices include a foundation for AI adoption, a responsible AI working group, sandboxes for employee testing, and formal practices for model building and testing, alongside an incident response plan.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It details Liberty Mutual's establishment of a responsible AI committee and working team to manage risks and ensure company policies are maintained during AI transformation, supporting governance. The post also highlights efforts to protect customer data and adhere to privacy rules when using AI tools, directly addressing the privacy pillar, and mentions demystifying AI and teaching its limitations, which supports the transparency pillar.",
+          "title": "CIO Leadership on Responsible AI Governance",
+          "url": "https://fastforward.boldstart.vc/how-liberty-mutuals-cio-is-leading-the-shift-from-ai-experimentation-to-execution"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **transparency**, and **external accountability**. It details the establishment of a Responsible AI Steering Committee responsible for managing AI risks and providing guidance, supporting the governance pillar. The post also demonstrates transparency by describing AI deployment, specific capabilities, and internal GPT instances for safe experimentation. Furthermore, it mentions third-party partnerships, indicating support for the external accountability pillar.",
+          "title": "Responsible AI Steering Committee Implementation",
+          "url": "https://cio.com/article/3596471/liberty-mutual-cio-monica-caldas-on-developing-a-digital-savvy-workforce.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This privacy notice for a telematics application provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing the business purposes for data usage, including analytics, security, product improvement, and operations, and by mentioning the creation of \"profiles\" from data. The notice also supports the privacy pillar by outlining the collection, processing, and use of telematics data, including \"inferences\" derived from it.",
+          "title": "Telematics Applications Privacy Notice",
+          "url": "https://libertymutualgroup.com/general/about-lm/corporate-information/telematics-applications-privacy-notice"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This website data privacy policy provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports the privacy pillar by detailing the collection, use, and disclosure of personal data, including inferences used in automated decision-making systems. The policy also supports governance by outlining data sharing practices for business purposes, such as advertising and risk management, and by committing to notice updates regarding data use.",
+          "title": "Website Data Privacy Policy",
+          "url": "https://libertymutualgroup.com/general/about-lm/corporate-information/website-data-privacy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This California-specific privacy policy document provides evidence for the **governance** pillar of responsible AI. It supports this pillar by referencing the use of \"inferences\" and \"analytics\" for product improvement, customer service, and risk management, indicating the presence of automated decision-making systems. The policy's inclusion of these practices suggests a framework for managing the data and insights derived from these automated processes.",
+          "title": "California Commercial Privacy Notice",
+          "url": "https://libertymutualcanada.com/legal-notices/liberty-mutual-group-california-privacy-notice-commercial-lines-excluding-workers-compensation"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"Liberty Mutual Risk Factors - AI and Data Privacy Risks,\" provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. The document discusses limitations due to allegations of racial discrimination (fairness) and state-imposed restrictions (external_accountability). It also addresses compliance with AI laws and regulations, the consequences of noncompliance, and restrictions on customer data use due to AI laws, all of which highlight governance and external accountability requirements, as well as privacy concerns.",
+          "title": "Liberty Mutual Risk Factors - AI and Data Privacy Risks",
+          "url": "https://libertymutualgroup.com/documents/liberty-mutual-risk-factors.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release supports evidence for fairness, governance, privacy, and transparency. It highlights the collaboration's commitment to developing AI research in areas like data privacy and security, and risk-aware decision making, indicating a focus on responsible AI practices. The announcement also mentions the goal of producing AI tools and technologies, implying a focus on their capabilities and potential transparency.",
+          "title": "MIT and Liberty Mutual $25M AI Research Collaboration",
+          "url": "https://news.mit.edu/2019/liberty-mutual-insurance-establishes-artificial-intelligence-collaboration-mit-0430"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This blog post describes Liberty Mutual's collaboration with MIT to advance AI research, which supports the **governance** and **external_accountability** pillars. The partnerships with Edge Case Research and Underwriters Laboratories to define risk and safety standards for AI and autonomous vehicles demonstrate a commitment to establishing governance frameworks and external accountability for AI development and deployment.",
+          "title": "Liberty Mutual AI Research Partnership with MIT",
+          "url": "https://business.libertymutual.com/insights/addressing-emerging-risks-with-evolving-innovation"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing a foundation for AI adoption, including a responsible AI working group steering policies and procedures, and sandboxes for employee testing. The post also supports transparency by detailing the distillation of use cases into capabilities and the standing up of services, implying operational transparency of AI functions.",
+          "title": "Generative AI Governance Foundation and Implementation",
+          "url": "https://ciodive.com/news/Liberty-Mutual-generative-AI-employee-engagement-strategy/735972"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Liberty Mutual's establishment of a cross-functional AI committee and a dedicated \"FinOps for AI\" team, demonstrating operational oversight and cost management. Furthermore, the blog post's mention of building a \"model hub\" and centralizing code, alongside formal governance practices for model building and testing, supports the transparency pillar by indicating efforts to standardize and manage AI development.",
+          "title": "Data Strategy Enabling Generative AI Implementation",
+          "url": "https://runtime.news/how-liberty-mutual-was-able-to-jump-into-generative-ai-thanks-to-a-clear-data-strategy-and-finops"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Legal Department Generative AI Testing,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The post details the legal department's piloting of generative AI tools and design challenges, demonstrating a structured approach to AI adoption (governance). It highlights human involvement in the testing phase, underscoring the importance of oversight. Furthermore, the blog post offers transparency by describing specific AI capabilities, use cases like document review, and the application of AI in a contest.",
+          "title": "Legal Department Generative AI Testing",
+          "url": "https://legaldive.com/news/liberty-mutual-legal-design-challenge-legal-department-ai/703562"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post on \"AI-Driven Automation in Insurance Claims and Underwriting\" provides evidence for **explainability, external accountability, fairness, governance, oversight, and transparency**. It highlights practices like AI governance committee quarterly reviews, audit trails, and bias detection, which directly support **governance, fairness, and external accountability**. The mention of real-time monitoring and automatic retraining of AI models demonstrates operational **governance and oversight**, while the description of AI architecture and automation capabilities implies **transparency**, though specific mechanisms are not detailed.",
+          "title": "AI-Driven Automation in Insurance Claims and Underwriting",
+          "url": "https://blog.maplesage.com/ai-driven-automation-revolutionizes-insurance-claims-and-underwriting"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Liberty Mutual Board of Directors AI Oversight,\" provides evidence for the **governance** pillar. The post highlights the Board of Directors' strategic focus on investing in AI and their commitment to monitoring and mitigating AI-related risks, which demonstrates a proactive approach to overseeing AI initiatives and ensuring compliance with regulations.",
+          "title": "Liberty Mutual Board of Directors AI Oversight",
+          "url": "https://advisorycloud.com/blog/meet-the-board-of-directors-of-liberty-mutual-insurance-group"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This press release transcript provides evidence for the **governance** and **transparency** pillars of responsible AI. The company's commentary highlights investments in digital and AI capabilities, including automated underwriting and predictive models, which necessitates robust governance for managing these systems. Furthermore, the focus on extracting benefits and simplifying processes through automation and analytical approaches implies a need for transparency in how these AI-driven decisions are made and supported.",
+          "title": "2023 Analyst/Investor Day Transcript",
+          "url": "https://libertymutualgroup.com/about-lm/investor-relations/documents/2023-investor-event-transcript.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This press release, \"Data Security and Privacy by Design Commitments,\" provides evidence for the **governance** and **transparency** pillars. It supports governance by detailing the company's incident response plan, including prompt activation for suspected breaches and reporting to senior leadership and the Board. Transparency is supported by the mention of employee training for identifying and reporting data security incidents, as well as the company's stated commitment to 'privacy by design'.",
+          "title": "Data Security and Privacy by Design Commitments",
+          "url": "https://libertymutualgroup.com/documents/2024-purpose-and-impact-report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 15
+    },
+    "oversight": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "Liberty Mutual's blog posts highlight human involvement during the testing phase of generative AI tools. Additionally, the company mentions real-time monitoring and automatic retraining of AI models.",
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Legal Department Generative AI Testing,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The post details the legal department's piloting of generative AI tools and design challenges, demonstrating a structured approach to AI adoption (governance). It highlights human involvement in the testing phase, underscoring the importance of oversight. Furthermore, the blog post offers transparency by describing specific AI capabilities, use cases like document review, and the application of AI in a contest.",
+          "title": "Legal Department Generative AI Testing",
+          "url": "https://legaldive.com/news/liberty-mutual-legal-design-challenge-legal-department-ai/703562"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post on \"AI-Driven Automation in Insurance Claims and Underwriting\" provides evidence for **explainability, external accountability, fairness, governance, oversight, and transparency**. It highlights practices like AI governance committee quarterly reviews, audit trails, and bias detection, which directly support **governance, fairness, and external accountability**. The mention of real-time monitoring and automatic retraining of AI models demonstrates operational **governance and oversight**, while the description of AI architecture and automation capabilities implies **transparency**, though specific mechanisms are not detailed.",
+          "title": "AI-Driven Automation in Insurance Claims and Underwriting",
+          "url": "https://blog.maplesage.com/ai-driven-automation-revolutionizes-insurance-claims-and-underwriting"
+        }
+      ],
+      "score": 0,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 17,
+      "findings": "Liberty Mutual highlights efforts to protect customer data and adhere to privacy rules when using AI tools. Privacy notices and policies outline the collection, processing, and use of various data types, including inferences used in automated decision-making systems. The company also addresses restrictions on customer data use due to AI laws and commits to developing AI research in data privacy and security.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It details Liberty Mutual's establishment of a responsible AI committee and working team to manage risks and ensure company policies are maintained during AI transformation, supporting governance. The post also highlights efforts to protect customer data and adhere to privacy rules when using AI tools, directly addressing the privacy pillar, and mentions demystifying AI and teaching its limitations, which supports the transparency pillar.",
+          "title": "CIO Leadership on Responsible AI Governance",
+          "url": "https://fastforward.boldstart.vc/how-liberty-mutuals-cio-is-leading-the-shift-from-ai-experimentation-to-execution"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This privacy notice for a telematics application provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing the business purposes for data usage, including analytics, security, product improvement, and operations, and by mentioning the creation of \"profiles\" from data. The notice also supports the privacy pillar by outlining the collection, processing, and use of telematics data, including \"inferences\" derived from it.",
+          "title": "Telematics Applications Privacy Notice",
+          "url": "https://libertymutualgroup.com/general/about-lm/corporate-information/telematics-applications-privacy-notice"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This website data privacy policy provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports the privacy pillar by detailing the collection, use, and disclosure of personal data, including inferences used in automated decision-making systems. The policy also supports governance by outlining data sharing practices for business purposes, such as advertising and risk management, and by committing to notice updates regarding data use.",
+          "title": "Website Data Privacy Policy",
+          "url": "https://libertymutualgroup.com/general/about-lm/corporate-information/website-data-privacy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"Liberty Mutual Risk Factors - AI and Data Privacy Risks,\" provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. The document discusses limitations due to allegations of racial discrimination (fairness) and state-imposed restrictions (external_accountability). It also addresses compliance with AI laws and regulations, the consequences of noncompliance, and restrictions on customer data use due to AI laws, all of which highlight governance and external accountability requirements, as well as privacy concerns.",
+          "title": "Liberty Mutual Risk Factors - AI and Data Privacy Risks",
+          "url": "https://libertymutualgroup.com/documents/liberty-mutual-risk-factors.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release supports evidence for fairness, governance, privacy, and transparency. It highlights the collaboration's commitment to developing AI research in areas like data privacy and security, and risk-aware decision making, indicating a focus on responsible AI practices. The announcement also mentions the goal of producing AI tools and technologies, implying a focus on their capabilities and potential transparency.",
+          "title": "MIT and Liberty Mutual $25M AI Research Collaboration",
+          "url": "https://news.mit.edu/2019/liberty-mutual-insurance-establishes-artificial-intelligence-collaboration-mit-0430"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 32,
+      "findings": "Liberty Mutual documents efforts to demystify AI, teach its limitations, and describe AI deployment, specific capabilities, and use cases. The company also mentions building a 'model hub' and centralizing code to standardize AI development, alongside describing AI architecture and automation capabilities. Furthermore, there is a stated commitment to 'privacy by design' and employee training for data security incidents.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It details Liberty Mutual's establishment of a responsible AI committee and working team to manage risks and ensure company policies are maintained during AI transformation, supporting governance. The post also highlights efforts to protect customer data and adhere to privacy rules when using AI tools, directly addressing the privacy pillar, and mentions demystifying AI and teaching its limitations, which supports the transparency pillar.",
+          "title": "CIO Leadership on Responsible AI Governance",
+          "url": "https://fastforward.boldstart.vc/how-liberty-mutuals-cio-is-leading-the-shift-from-ai-experimentation-to-execution"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **transparency**, and **external accountability**. It details the establishment of a Responsible AI Steering Committee responsible for managing AI risks and providing guidance, supporting the governance pillar. The post also demonstrates transparency by describing AI deployment, specific capabilities, and internal GPT instances for safe experimentation. Furthermore, it mentions third-party partnerships, indicating support for the external accountability pillar.",
+          "title": "Responsible AI Steering Committee Implementation",
+          "url": "https://cio.com/article/3596471/liberty-mutual-cio-monica-caldas-on-developing-a-digital-savvy-workforce.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release supports evidence for fairness, governance, privacy, and transparency. It highlights the collaboration's commitment to developing AI research in areas like data privacy and security, and risk-aware decision making, indicating a focus on responsible AI practices. The announcement also mentions the goal of producing AI tools and technologies, implying a focus on their capabilities and potential transparency.",
+          "title": "MIT and Liberty Mutual $25M AI Research Collaboration",
+          "url": "https://news.mit.edu/2019/liberty-mutual-insurance-establishes-artificial-intelligence-collaboration-mit-0430"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing a foundation for AI adoption, including a responsible AI working group steering policies and procedures, and sandboxes for employee testing. The post also supports transparency by detailing the distillation of use cases into capabilities and the standing up of services, implying operational transparency of AI functions.",
+          "title": "Generative AI Governance Foundation and Implementation",
+          "url": "https://ciodive.com/news/Liberty-Mutual-generative-AI-employee-engagement-strategy/735972"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Liberty Mutual's establishment of a cross-functional AI committee and a dedicated \"FinOps for AI\" team, demonstrating operational oversight and cost management. Furthermore, the blog post's mention of building a \"model hub\" and centralizing code, alongside formal governance practices for model building and testing, supports the transparency pillar by indicating efforts to standardize and manage AI development.",
+          "title": "Data Strategy Enabling Generative AI Implementation",
+          "url": "https://runtime.news/how-liberty-mutual-was-able-to-jump-into-generative-ai-thanks-to-a-clear-data-strategy-and-finops"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Legal Department Generative AI Testing,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The post details the legal department's piloting of generative AI tools and design challenges, demonstrating a structured approach to AI adoption (governance). It highlights human involvement in the testing phase, underscoring the importance of oversight. Furthermore, the blog post offers transparency by describing specific AI capabilities, use cases like document review, and the application of AI in a contest.",
+          "title": "Legal Department Generative AI Testing",
+          "url": "https://legaldive.com/news/liberty-mutual-legal-design-challenge-legal-department-ai/703562"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post on \"AI-Driven Automation in Insurance Claims and Underwriting\" provides evidence for **explainability, external accountability, fairness, governance, oversight, and transparency**. It highlights practices like AI governance committee quarterly reviews, audit trails, and bias detection, which directly support **governance, fairness, and external accountability**. The mention of real-time monitoring and automatic retraining of AI models demonstrates operational **governance and oversight**, while the description of AI architecture and automation capabilities implies **transparency**, though specific mechanisms are not detailed.",
+          "title": "AI-Driven Automation in Insurance Claims and Underwriting",
+          "url": "https://blog.maplesage.com/ai-driven-automation-revolutionizes-insurance-claims-and-underwriting"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This press release transcript provides evidence for the **governance** and **transparency** pillars of responsible AI. The company's commentary highlights investments in digital and AI capabilities, including automated underwriting and predictive models, which necessitates robust governance for managing these systems. Furthermore, the focus on extracting benefits and simplifying processes through automation and analytical approaches implies a need for transparency in how these AI-driven decisions are made and supported.",
+          "title": "2023 Analyst/Investor Day Transcript",
+          "url": "https://libertymutualgroup.com/about-lm/investor-relations/documents/2023-investor-event-transcript.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This press release, \"Data Security and Privacy by Design Commitments,\" provides evidence for the **governance** and **transparency** pillars. It supports governance by detailing the company's incident response plan, including prompt activation for suspected breaches and reporting to senior leadership and the Board. Transparency is supported by the mention of employee training for identifying and reporting data security incidents, as well as the company's stated commitment to 'privacy by design'.",
+          "title": "Data Security and Privacy by Design Commitments",
+          "url": "https://libertymutualgroup.com/documents/2024-purpose-and-impact-report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 9
+    }
+  },
+  "published_at": "2026-02-23T21:53:52Z",
+  "run_id": "20260203_005040_3e54",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Human Oversight & Accountability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Liberty Mutual Insurance's published materials detail the establishment of a responsible AI committee and working team to manage risks and ensure company policies are maintained during AI transformation. These disclosures, drawn from 25 publicly available sources, address 6 of 7 evaluated responsible AI pillars, with transparency and privacy also documented. Transparency efforts include documentation describing attempts to demystify AI and teach its limitations, while privacy notices outline the collection, processing, and use of telematics data, including inferences derived from it. Fairness is also addressed, with SEC filings discussing limitations due to allegations of racial discrimination. No qualifying public evidence was found for oversight.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 75,
+    "total_sources_used": 15
+  }
+}

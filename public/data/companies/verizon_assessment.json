@@ -1,0 +1,428 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "Verizon",
+  "company_slug": "verizon",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 24,
+      "OPERATIONAL": 11,
+      "POLICY": 104
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 18,
+      "findings": "Verizon documents its commitment to fairness through various practices, including bias identification, reduction, and mitigation governance. The company mentions testing for bias in AI systems and outlines strategies for bias reduction and evaluation of AI outputs for accuracy and consistency. Policy documents also state that AI systems should be subject to oversight for bias.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, Verizon's 2024 ESG Report: Responsible AI Program, provides evidence for **governance, oversight, privacy, and fairness**. It supports governance and oversight by outlining a centralized, enterprise-wide program with a risk-based framework and established processes. Evidence for privacy is found in its explicit linkage of AI systems to privacy-by-design and policy compliance, while fairness is supported by its mention of bias identification, reduction, and mitigation governance.",
+          "title": "Verizon 2024 ESG Report: Responsible AI Program",
+          "url": "https://www.verizon.com/about/sites/default/files/Verizon-2024-ESG-Report.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document from Verizon's Responsible Artificial Intelligence Program provides evidence for **governance, oversight, fairness, and privacy**. It details the program's governance structure and risk-based framework, including oversight processes and employee roles in risk consideration. The document also outlines commitments to fairness through bias reduction strategies and to privacy by incorporating privacy-by-design principles and policy compliance.",
+          "title": "Verizon Responsible Artificial Intelligence Program Page",
+          "url": "https://verizon.com/about/investors/responsible-ai-program"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Verizon Full Privacy Policy document provides evidence for **fairness, governance, privacy, and transparency**. It supports the **privacy** pillar by detailing data retention and deletion policies for biometric data, outlining opt-out mechanisms for interest-based advertising, and describing data sharing practices for targeted advertising. The policy also addresses **fairness** by mentioning testing for bias in AI systems and supports **governance** through its descriptions of program management for algorithmic models, insights creation, and vendor oversight for AI-processed data. Finally, it contributes to **transparency** by mentioning the use of voice and facial recognition technologies.",
+          "title": "Verizon Full Privacy Policy",
+          "url": "https://verizon.com/about/privacy/full-privacy-policy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Beyond Connectivity: A Vision for the Future of AI-Powered Networks,\" provides evidence for **governance, oversight, transparency, and fairness**. The document outlines a \"governance-by-design\" approach and a risk-based framework for AI systems, demonstrating a commitment to **governance** and **oversight** by emphasizing accountability and human oversight for autonomous operations. It also supports **transparency** by detailing AI capabilities in areas like failure detection and anomaly prediction, and implicitly addresses **fairness** by stating AI systems should be subject to oversight for bias.",
+          "title": "Beyond Connectivity: A Vision for the Future of AI-Powered Networks",
+          "url": "https://verizon.com/business/resources/whitepapers/vision-for-future-ai-powered-networks.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Governing Generative AI Securely and Safely Across EMEA,\" provides evidence for **fairness, governance, oversight, and transparency**. It details AI governance measures such as model registration and bias scrutiny, supporting **fairness** and **governance**. The document also describes continuous monitoring for anomalies and the formation of an AI steering team, which demonstrates **transparency** into AI function and **oversight** mechanisms. Furthermore, it highlights a commitment to responsible AI through security measures and risk understanding, reinforcing the **governance** pillar.",
+          "title": "Governing Generative AI Securely and Safely Across EMEA",
+          "url": "https://verizon.com/business/resources/articles/governing-generative-ai-securely-and-safely-across-emea.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This Verizon 2024 Responsible Business Report provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The report details Verizon's commitment to transparency in explaining AI governance and use, supported by a centralized Responsible AI Program overseen by leadership councils and a dedicated team. It also highlights formal Board committee oversight of AI as a priority responsible business issue, active governance mechanisms through cross-functional management committees, and strategies for bias reduction and evaluation of AI outputs for accuracy and consistency.",
+          "title": "Verizon 2024 Responsible Business Report",
+          "url": "https://www.verizon.com/about/sites/default/files/2024-Responsible-Business-Update.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This FTC staff report provides evidence for **fairness, governance, privacy, and transparency**. It details how ISPs collect and combine personal, app usage, and web browsing data for automated targeting, raising concerns about privacy due to extensive data collection and sharing. The report also highlights fairness issues through the potential for disparate impact and digital redlining from data use, and touches on governance and transparency by examining consumer understanding of data practices and the illusory nature of opt-out choices.",
+          "title": "FTC Report: What ISPs Know About You - Examining Privacy Practices of ISPs",
+          "url": "https://www.ftc.gov/system/files/documents/reports/look-what-isps-know-about-you-examining-privacy-practices-six-major-internet-service-providers/p195402_isp_6b_staff_report.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 79,
+      "findings": "Verizon outlines a centralized, enterprise-wide Responsible AI Program with a risk-based framework and established processes, detailing its governance structure. The company describes program management for algorithmic models, insights creation, and vendor oversight for AI-processed data. Governance measures include a \"governance-by-design\" approach, AI model registration and review, bias scrutiny, and C-suite leadership for risk quantification. Formal Board committee oversight and active governance mechanisms through cross-functional management committees are also highlighted.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, Verizon's 2024 ESG Report: Responsible AI Program, provides evidence for **governance, oversight, privacy, and fairness**. It supports governance and oversight by outlining a centralized, enterprise-wide program with a risk-based framework and established processes. Evidence for privacy is found in its explicit linkage of AI systems to privacy-by-design and policy compliance, while fairness is supported by its mention of bias identification, reduction, and mitigation governance.",
+          "title": "Verizon 2024 ESG Report: Responsible AI Program",
+          "url": "https://www.verizon.com/about/sites/default/files/Verizon-2024-ESG-Report.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document from Verizon's Responsible Artificial Intelligence Program provides evidence for **governance, oversight, fairness, and privacy**. It details the program's governance structure and risk-based framework, including oversight processes and employee roles in risk consideration. The document also outlines commitments to fairness through bias reduction strategies and to privacy by incorporating privacy-by-design principles and policy compliance.",
+          "title": "Verizon Responsible Artificial Intelligence Program Page",
+          "url": "https://verizon.com/about/investors/responsible-ai-program"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Verizon Full Privacy Policy document provides evidence for **fairness, governance, privacy, and transparency**. It supports the **privacy** pillar by detailing data retention and deletion policies for biometric data, outlining opt-out mechanisms for interest-based advertising, and describing data sharing practices for targeted advertising. The policy also addresses **fairness** by mentioning testing for bias in AI systems and supports **governance** through its descriptions of program management for algorithmic models, insights creation, and vendor oversight for AI-processed data. Finally, it contributes to **transparency** by mentioning the use of voice and facial recognition technologies.",
+          "title": "Verizon Full Privacy Policy",
+          "url": "https://verizon.com/about/privacy/full-privacy-policy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This Verizon Fios Privacy Policy document provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by detailing data use for advertising and profiling, and privacy by outlining opt-out mechanisms for automated advertising and profiling. Transparency is evidenced through explicit mentions of AI use in chatbots for customer inquiries and AI/ML for network monitoring and personalization.",
+          "title": "Verizon Fios Privacy Policy",
+          "url": "https://verizon.com/about/privacy/fios-privacy-policy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Beyond Connectivity: A Vision for the Future of AI-Powered Networks,\" provides evidence for **governance, oversight, transparency, and fairness**. The document outlines a \"governance-by-design\" approach and a risk-based framework for AI systems, demonstrating a commitment to **governance** and **oversight** by emphasizing accountability and human oversight for autonomous operations. It also supports **transparency** by detailing AI capabilities in areas like failure detection and anomaly prediction, and implicitly addresses **fairness** by stating AI systems should be subject to oversight for bias.",
+          "title": "Beyond Connectivity: A Vision for the Future of AI-Powered Networks",
+          "url": "https://verizon.com/business/resources/whitepapers/vision-for-future-ai-powered-networks.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Governing Generative AI Securely and Safely Across EMEA,\" provides evidence for **fairness, governance, oversight, and transparency**. It details AI governance measures such as model registration and bias scrutiny, supporting **fairness** and **governance**. The document also describes continuous monitoring for anomalies and the formation of an AI steering team, which demonstrates **transparency** into AI function and **oversight** mechanisms. Furthermore, it highlights a commitment to responsible AI through security measures and risk understanding, reinforcing the **governance** pillar.",
+          "title": "Governing Generative AI Securely and Safely Across EMEA",
+          "url": "https://verizon.com/business/resources/articles/governing-generative-ai-securely-and-safely-across-emea.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Governing Generative AI Securely and Safely Across APAC,\" provides evidence for **governance**, **oversight**, **privacy**, and **transparency**. It outlines a governance framework requiring AI model registration and review, emphasizing C-suite leadership for risk quantification and the establishment of cross-functional AI steering teams for oversight. The document also implies transparency by acknowledging AI's tailored nature for specific needs and benefits/risks, and supports the privacy pillar through its emphasis on a \"conscientious approach\" balancing innovation with responsibility and privacy.",
+          "title": "Governing Generative AI Securely and Safely Across APAC",
+          "url": "https://verizon.com/business/en-au/resources/articles/governing-generative-ai-securely-and-safely-across-apac.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This CDO Magazine interview with Verizon's Chief Data Officer describes their AI Registry system, which supports **governance**, **oversight**, **privacy**, and **transparency**. The AI Registry requires business articulation of AI use cases, documentation of data sets, and a multi-team review process involving privacy, legal, and business teams before implementation, demonstrating robust governance and oversight. This process also inherently supports privacy by ensuring data usage is reviewed and documented, and transparency by making AI use cases and their underlying data visible.",
+          "title": "How Verizon Built a Trusted Data Foundation for AI - CDO Magazine Interview",
+          "url": "https://cdomagazine.tech/data-management/how-verizon-built-a-trusted-data-foundation-for-ai-a-cdos-inside-look"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This Verizon 2024 Responsible Business Report provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The report details Verizon's commitment to transparency in explaining AI governance and use, supported by a centralized Responsible AI Program overseen by leadership councils and a dedicated team. It also highlights formal Board committee oversight of AI as a priority responsible business issue, active governance mechanisms through cross-functional management committees, and strategies for bias reduction and evaluation of AI outputs for accuracy and consistency.",
+          "title": "Verizon 2024 Responsible Business Report",
+          "url": "https://www.verizon.com/about/sites/default/files/2024-Responsible-Business-Update.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This FTC staff report provides evidence for **fairness, governance, privacy, and transparency**. It details how ISPs collect and combine personal, app usage, and web browsing data for automated targeting, raising concerns about privacy due to extensive data collection and sharing. The report also highlights fairness issues through the potential for disparate impact and digital redlining from data use, and touches on governance and transparency by examining consumer understanding of data practices and the illusory nature of opt-out choices.",
+          "title": "FTC Report: What ISPs Know About You - Examining Privacy Practices of ISPs",
+          "url": "https://www.ftc.gov/system/files/documents/reports/look-what-isps-know-about-you-examining-privacy-practices-six-major-internet-service-providers/p195402_isp_6b_staff_report.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 10,
+      "findings": "Verizon outlines a centralized, enterprise-wide program with established processes for oversight, including employee roles in risk consideration. The company emphasizes accountability and human oversight for autonomous operations. Oversight mechanisms also include continuous monitoring for anomalies and the establishment of cross-functional AI steering teams, with C-suite leadership for risk quantification.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, Verizon's 2024 ESG Report: Responsible AI Program, provides evidence for **governance, oversight, privacy, and fairness**. It supports governance and oversight by outlining a centralized, enterprise-wide program with a risk-based framework and established processes. Evidence for privacy is found in its explicit linkage of AI systems to privacy-by-design and policy compliance, while fairness is supported by its mention of bias identification, reduction, and mitigation governance.",
+          "title": "Verizon 2024 ESG Report: Responsible AI Program",
+          "url": "https://www.verizon.com/about/sites/default/files/Verizon-2024-ESG-Report.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document from Verizon's Responsible Artificial Intelligence Program provides evidence for **governance, oversight, fairness, and privacy**. It details the program's governance structure and risk-based framework, including oversight processes and employee roles in risk consideration. The document also outlines commitments to fairness through bias reduction strategies and to privacy by incorporating privacy-by-design principles and policy compliance.",
+          "title": "Verizon Responsible Artificial Intelligence Program Page",
+          "url": "https://verizon.com/about/investors/responsible-ai-program"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Beyond Connectivity: A Vision for the Future of AI-Powered Networks,\" provides evidence for **governance, oversight, transparency, and fairness**. The document outlines a \"governance-by-design\" approach and a risk-based framework for AI systems, demonstrating a commitment to **governance** and **oversight** by emphasizing accountability and human oversight for autonomous operations. It also supports **transparency** by detailing AI capabilities in areas like failure detection and anomaly prediction, and implicitly addresses **fairness** by stating AI systems should be subject to oversight for bias.",
+          "title": "Beyond Connectivity: A Vision for the Future of AI-Powered Networks",
+          "url": "https://verizon.com/business/resources/whitepapers/vision-for-future-ai-powered-networks.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Governing Generative AI Securely and Safely Across EMEA,\" provides evidence for **fairness, governance, oversight, and transparency**. It details AI governance measures such as model registration and bias scrutiny, supporting **fairness** and **governance**. The document also describes continuous monitoring for anomalies and the formation of an AI steering team, which demonstrates **transparency** into AI function and **oversight** mechanisms. Furthermore, it highlights a commitment to responsible AI through security measures and risk understanding, reinforcing the **governance** pillar.",
+          "title": "Governing Generative AI Securely and Safely Across EMEA",
+          "url": "https://verizon.com/business/resources/articles/governing-generative-ai-securely-and-safely-across-emea.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Governing Generative AI Securely and Safely Across APAC,\" provides evidence for **governance**, **oversight**, **privacy**, and **transparency**. It outlines a governance framework requiring AI model registration and review, emphasizing C-suite leadership for risk quantification and the establishment of cross-functional AI steering teams for oversight. The document also implies transparency by acknowledging AI's tailored nature for specific needs and benefits/risks, and supports the privacy pillar through its emphasis on a \"conscientious approach\" balancing innovation with responsibility and privacy.",
+          "title": "Governing Generative AI Securely and Safely Across APAC",
+          "url": "https://verizon.com/business/en-au/resources/articles/governing-generative-ai-securely-and-safely-across-apac.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This CDO Magazine interview with Verizon's Chief Data Officer describes their AI Registry system, which supports **governance**, **oversight**, **privacy**, and **transparency**. The AI Registry requires business articulation of AI use cases, documentation of data sets, and a multi-team review process involving privacy, legal, and business teams before implementation, demonstrating robust governance and oversight. This process also inherently supports privacy by ensuring data usage is reviewed and documented, and transparency by making AI use cases and their underlying data visible.",
+          "title": "How Verizon Built a Trusted Data Foundation for AI - CDO Magazine Interview",
+          "url": "https://cdomagazine.tech/data-management/how-verizon-built-a-trusted-data-foundation-for-ai-a-cdos-inside-look"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 65,
+      "findings": "Verizon links AI systems to privacy-by-design principles and policy compliance. The company's privacy policies detail data retention and deletion policies for biometric data, and outline opt-out mechanisms for interest-based and automated advertising and profiling. Verizon also describes data sharing practices for targeted advertising and ensuring data usage is reviewed and documented.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, Verizon's 2024 ESG Report: Responsible AI Program, provides evidence for **governance, oversight, privacy, and fairness**. It supports governance and oversight by outlining a centralized, enterprise-wide program with a risk-based framework and established processes. Evidence for privacy is found in its explicit linkage of AI systems to privacy-by-design and policy compliance, while fairness is supported by its mention of bias identification, reduction, and mitigation governance.",
+          "title": "Verizon 2024 ESG Report: Responsible AI Program",
+          "url": "https://www.verizon.com/about/sites/default/files/Verizon-2024-ESG-Report.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document from Verizon's Responsible Artificial Intelligence Program provides evidence for **governance, oversight, fairness, and privacy**. It details the program's governance structure and risk-based framework, including oversight processes and employee roles in risk consideration. The document also outlines commitments to fairness through bias reduction strategies and to privacy by incorporating privacy-by-design principles and policy compliance.",
+          "title": "Verizon Responsible Artificial Intelligence Program Page",
+          "url": "https://verizon.com/about/investors/responsible-ai-program"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Verizon Full Privacy Policy document provides evidence for **fairness, governance, privacy, and transparency**. It supports the **privacy** pillar by detailing data retention and deletion policies for biometric data, outlining opt-out mechanisms for interest-based advertising, and describing data sharing practices for targeted advertising. The policy also addresses **fairness** by mentioning testing for bias in AI systems and supports **governance** through its descriptions of program management for algorithmic models, insights creation, and vendor oversight for AI-processed data. Finally, it contributes to **transparency** by mentioning the use of voice and facial recognition technologies.",
+          "title": "Verizon Full Privacy Policy",
+          "url": "https://verizon.com/about/privacy/full-privacy-policy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This Verizon Fios Privacy Policy document provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by detailing data use for advertising and profiling, and privacy by outlining opt-out mechanisms for automated advertising and profiling. Transparency is evidenced through explicit mentions of AI use in chatbots for customer inquiries and AI/ML for network monitoring and personalization.",
+          "title": "Verizon Fios Privacy Policy",
+          "url": "https://verizon.com/about/privacy/fios-privacy-policy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Governing Generative AI Securely and Safely Across APAC,\" provides evidence for **governance**, **oversight**, **privacy**, and **transparency**. It outlines a governance framework requiring AI model registration and review, emphasizing C-suite leadership for risk quantification and the establishment of cross-functional AI steering teams for oversight. The document also implies transparency by acknowledging AI's tailored nature for specific needs and benefits/risks, and supports the privacy pillar through its emphasis on a \"conscientious approach\" balancing innovation with responsibility and privacy.",
+          "title": "Governing Generative AI Securely and Safely Across APAC",
+          "url": "https://verizon.com/business/en-au/resources/articles/governing-generative-ai-securely-and-safely-across-apac.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This CDO Magazine interview with Verizon's Chief Data Officer describes their AI Registry system, which supports **governance**, **oversight**, **privacy**, and **transparency**. The AI Registry requires business articulation of AI use cases, documentation of data sets, and a multi-team review process involving privacy, legal, and business teams before implementation, demonstrating robust governance and oversight. This process also inherently supports privacy by ensuring data usage is reviewed and documented, and transparency by making AI use cases and their underlying data visible.",
+          "title": "How Verizon Built a Trusted Data Foundation for AI - CDO Magazine Interview",
+          "url": "https://cdomagazine.tech/data-management/how-verizon-built-a-trusted-data-foundation-for-ai-a-cdos-inside-look"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This FTC staff report provides evidence for **fairness, governance, privacy, and transparency**. It details how ISPs collect and combine personal, app usage, and web browsing data for automated targeting, raising concerns about privacy due to extensive data collection and sharing. The report also highlights fairness issues through the potential for disparate impact and digital redlining from data use, and touches on governance and transparency by examining consumer understanding of data practices and the illusory nature of opt-out choices.",
+          "title": "FTC Report: What ISPs Know About You - Examining Privacy Practices of ISPs",
+          "url": "https://www.ftc.gov/system/files/documents/reports/look-what-isps-know-about-you-examining-privacy-practices-six-major-internet-service-providers/p195402_isp_6b_staff_report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 38,
+      "findings": "Verizon documents its use of AI technologies, including voice and facial recognition, chatbots for customer inquiries, and AI/ML for network monitoring and personalization. The company also describes making AI use cases and their underlying data visible, and details a commitment to explaining AI governance and use.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Verizon Full Privacy Policy document provides evidence for **fairness, governance, privacy, and transparency**. It supports the **privacy** pillar by detailing data retention and deletion policies for biometric data, outlining opt-out mechanisms for interest-based advertising, and describing data sharing practices for targeted advertising. The policy also addresses **fairness** by mentioning testing for bias in AI systems and supports **governance** through its descriptions of program management for algorithmic models, insights creation, and vendor oversight for AI-processed data. Finally, it contributes to **transparency** by mentioning the use of voice and facial recognition technologies.",
+          "title": "Verizon Full Privacy Policy",
+          "url": "https://verizon.com/about/privacy/full-privacy-policy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This Verizon Fios Privacy Policy document provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by detailing data use for advertising and profiling, and privacy by outlining opt-out mechanisms for automated advertising and profiling. Transparency is evidenced through explicit mentions of AI use in chatbots for customer inquiries and AI/ML for network monitoring and personalization.",
+          "title": "Verizon Fios Privacy Policy",
+          "url": "https://verizon.com/about/privacy/fios-privacy-policy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Beyond Connectivity: A Vision for the Future of AI-Powered Networks,\" provides evidence for **governance, oversight, transparency, and fairness**. The document outlines a \"governance-by-design\" approach and a risk-based framework for AI systems, demonstrating a commitment to **governance** and **oversight** by emphasizing accountability and human oversight for autonomous operations. It also supports **transparency** by detailing AI capabilities in areas like failure detection and anomaly prediction, and implicitly addresses **fairness** by stating AI systems should be subject to oversight for bias.",
+          "title": "Beyond Connectivity: A Vision for the Future of AI-Powered Networks",
+          "url": "https://verizon.com/business/resources/whitepapers/vision-for-future-ai-powered-networks.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Governing Generative AI Securely and Safely Across EMEA,\" provides evidence for **fairness, governance, oversight, and transparency**. It details AI governance measures such as model registration and bias scrutiny, supporting **fairness** and **governance**. The document also describes continuous monitoring for anomalies and the formation of an AI steering team, which demonstrates **transparency** into AI function and **oversight** mechanisms. Furthermore, it highlights a commitment to responsible AI through security measures and risk understanding, reinforcing the **governance** pillar.",
+          "title": "Governing Generative AI Securely and Safely Across EMEA",
+          "url": "https://verizon.com/business/resources/articles/governing-generative-ai-securely-and-safely-across-emea.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Governing Generative AI Securely and Safely Across APAC,\" provides evidence for **governance**, **oversight**, **privacy**, and **transparency**. It outlines a governance framework requiring AI model registration and review, emphasizing C-suite leadership for risk quantification and the establishment of cross-functional AI steering teams for oversight. The document also implies transparency by acknowledging AI's tailored nature for specific needs and benefits/risks, and supports the privacy pillar through its emphasis on a \"conscientious approach\" balancing innovation with responsibility and privacy.",
+          "title": "Governing Generative AI Securely and Safely Across APAC",
+          "url": "https://verizon.com/business/en-au/resources/articles/governing-generative-ai-securely-and-safely-across-apac.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This CDO Magazine interview with Verizon's Chief Data Officer describes their AI Registry system, which supports **governance**, **oversight**, **privacy**, and **transparency**. The AI Registry requires business articulation of AI use cases, documentation of data sets, and a multi-team review process involving privacy, legal, and business teams before implementation, demonstrating robust governance and oversight. This process also inherently supports privacy by ensuring data usage is reviewed and documented, and transparency by making AI use cases and their underlying data visible.",
+          "title": "How Verizon Built a Trusted Data Foundation for AI - CDO Magazine Interview",
+          "url": "https://cdomagazine.tech/data-management/how-verizon-built-a-trusted-data-foundation-for-ai-a-cdos-inside-look"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This Verizon 2024 Responsible Business Report provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The report details Verizon's commitment to transparency in explaining AI governance and use, supported by a centralized Responsible AI Program overseen by leadership councils and a dedicated team. It also highlights formal Board committee oversight of AI as a priority responsible business issue, active governance mechanisms through cross-functional management committees, and strategies for bias reduction and evaluation of AI outputs for accuracy and consistency.",
+          "title": "Verizon 2024 Responsible Business Report",
+          "url": "https://www.verizon.com/about/sites/default/files/2024-Responsible-Business-Update.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This FTC staff report provides evidence for **fairness, governance, privacy, and transparency**. It details how ISPs collect and combine personal, app usage, and web browsing data for automated targeting, raising concerns about privacy due to extensive data collection and sharing. The report also highlights fairness issues through the potential for disparate impact and digital redlining from data use, and touches on governance and transparency by examining consumer understanding of data practices and the illusory nature of opt-out choices.",
+          "title": "FTC Report: What ISPs Know About You - Examining Privacy Practices of ISPs",
+          "url": "https://www.ftc.gov/system/files/documents/reports/look-what-isps-know-about-you-examining-privacy-practices-six-major-internet-service-providers/p195402_isp_6b_staff_report.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T22:00:19Z",
+  "run_id": "20260203_023420_acc4",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Drawing from 17 publicly available sources, Verizon's published materials address 5 of 7 evaluated responsible AI pillars. Operational practices are documented for transparency, fairness, oversight, and governance, with the Fios Privacy Policy explicitly mentioning AI use in chatbots for customer inquiries. Fairness disclosures outline commitments to fairness through bias reduction strategies, and governance materials detail a centralized, enterprise-wide program with a risk-based framework. Privacy is addressed at the policy level, referencing explicit linkage of AI systems to privacy-by-design. No qualifying public evidence was found for explainability or external accountability.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 139,
+    "total_sources_used": 10
+  }
+}

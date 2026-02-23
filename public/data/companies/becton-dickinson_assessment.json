@@ -1,0 +1,290 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Becton Dickinson",
+  "company_slug": "becton-dickinson",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 13,
+      "OPERATIONAL": 8,
+      "POLICY": 51
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 6,
+      "findings": "The proxy statement describes board-level oversight of AI governance through the Corporate Governance and Nominating Committee. Annual reports reference the regulatory landscape for AI in medical devices, including international expectations. An annual report also describes audits of financial reporting controls.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **external accountability**, and **transparency**. It demonstrates board-level oversight of AI governance through the Corporate Governance and Nominating Committee, which reviews the AI governance framework against global regulatory requirements and industry standards, indicating a commitment to external accountability and transparency in AI practices. The document also implies governance through its mention of AI algorithms used for optimization and scientific insights within product development.",
+          "title": "DEF 14A: 2024 Proxy Statement with Governance Committee Charter",
+          "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-24-000096/bdx-20241219.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This FY 2025 Annual Report (10-K filing) provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The report acknowledges the regulatory landscape for AI in medical devices, including international expectations, and discusses associated risks such as algorithmic bias and privacy concerns, indicating a policy-level commitment to compliance and management. Mechanisms like regular updates to governance committees (ERC, CSRC) on cybersecurity strategy and programs, as well as mentions of AI tools and their integration, demonstrate operational oversight and a structured approach to innovation.",
+          "title": "Form 10-K: FY 2025 Annual Report (PDF)",
+          "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-25-000099/0000010795-25-000099.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC filing, BD's FY 2025 Annual Report, provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The report supports **external_accountability** by detailing audits of financial reporting controls. It addresses **fairness** by mentioning risks related to algorithmic bias and privacy. **Governance** is supported through discussions of new AI regulations, cybersecurity risks associated with AI deployment, and the need for management and policy considerations for AI development and use. The filing also touches upon **privacy** by referencing data protection risks and new privacy laws. Finally, **transparency** is implicitly supported by the mention of AI-enabled clinical decision tools, suggesting a need for clear understanding of their function.",
+          "title": "Form 10-K: FY 2025 Annual Report (November 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/10795/000119312525324075/d945170dars.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "Annual reports reference risks of algorithmic bias. An annual report also references risks related to algorithmic bias to address fairness considerations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This 10-K filing supports the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The document acknowledges risks of \"algorithmic bias\" and \"privacy and data protection risks\" amplified by AI, indicating a need for governance and policy. It also mentions the use of AI in \"clinical decision tools,\" suggesting transparency about AI integration, and discusses the complex legal landscape surrounding AI, implying a commitment to governance and compliance.",
+          "title": "Form 10-K: FY 2025 Annual Report (Filed November 25, 2025)",
+          "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-25-000099/bdx-20250930.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This FY 2025 Annual Report (10-K filing) provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The report acknowledges the regulatory landscape for AI in medical devices, including international expectations, and discusses associated risks such as algorithmic bias and privacy concerns, indicating a policy-level commitment to compliance and management. Mechanisms like regular updates to governance committees (ERC, CSRC) on cybersecurity strategy and programs, as well as mentions of AI tools and their integration, demonstrate operational oversight and a structured approach to innovation.",
+          "title": "Form 10-K: FY 2025 Annual Report (PDF)",
+          "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-25-000099/0000010795-25-000099.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC filing, BD's FY 2025 Annual Report, provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The report supports **external_accountability** by detailing audits of financial reporting controls. It addresses **fairness** by mentioning risks related to algorithmic bias and privacy. **Governance** is supported through discussions of new AI regulations, cybersecurity risks associated with AI deployment, and the need for management and policy considerations for AI development and use. The filing also touches upon **privacy** by referencing data protection risks and new privacy laws. Finally, **transparency** is implicitly supported by the mention of AI-enabled clinical decision tools, suggesting a need for clear understanding of their function.",
+          "title": "Form 10-K: FY 2025 Annual Report (November 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/10795/000119312525324075/d945170dars.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 56,
+      "findings": "The proxy statement describes board-level oversight of AI governance through the Corporate Governance and Nominating Committee. Annual reports describe the complex legal and regulatory landscape for AI, including international expectations and new AI regulations. These reports also reference risks such as algorithmic bias, privacy, data protection, and cybersecurity, along with the need for management and policy considerations for AI development and use. Additionally, annual reports reference regular updates to governance committees on cybersecurity strategy and programs.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **external accountability**, and **transparency**. It demonstrates board-level oversight of AI governance through the Corporate Governance and Nominating Committee, which reviews the AI governance framework against global regulatory requirements and industry standards, indicating a commitment to external accountability and transparency in AI practices. The document also implies governance through its mention of AI algorithms used for optimization and scientific insights within product development.",
+          "title": "DEF 14A: 2024 Proxy Statement with Governance Committee Charter",
+          "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-24-000096/bdx-20241219.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This 10-K filing supports the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The document acknowledges risks of \"algorithmic bias\" and \"privacy and data protection risks\" amplified by AI, indicating a need for governance and policy. It also mentions the use of AI in \"clinical decision tools,\" suggesting transparency about AI integration, and discusses the complex legal landscape surrounding AI, implying a commitment to governance and compliance.",
+          "title": "Form 10-K: FY 2025 Annual Report (Filed November 25, 2025)",
+          "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-25-000099/bdx-20250930.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This FY 2025 Annual Report (10-K filing) provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The report acknowledges the regulatory landscape for AI in medical devices, including international expectations, and discusses associated risks such as algorithmic bias and privacy concerns, indicating a policy-level commitment to compliance and management. Mechanisms like regular updates to governance committees (ERC, CSRC) on cybersecurity strategy and programs, as well as mentions of AI tools and their integration, demonstrate operational oversight and a structured approach to innovation.",
+          "title": "Form 10-K: FY 2025 Annual Report (PDF)",
+          "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-25-000099/0000010795-25-000099.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release regarding the BD SEC settlement for the Alaris infusion pump software provides evidence for the **governance** pillar. The document's mention of \"Enterprise-Grade AI\" and \"GenAI in MedTech,\" alongside the implication of a \"Playbook,\" suggests the existence of structured approaches and frameworks for managing AI, which are key components of governance.",
+          "title": "BD SEC Settlement: Alaris Infusion Pump Software Risk Disclosure (December 2024)",
+          "url": "https://medtechdive.com/news/bd-settle-sec-order-alaris-pumps/735800"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC filing, BD's FY 2025 Annual Report, provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The report supports **external_accountability** by detailing audits of financial reporting controls. It addresses **fairness** by mentioning risks related to algorithmic bias and privacy. **Governance** is supported through discussions of new AI regulations, cybersecurity risks associated with AI deployment, and the need for management and policy considerations for AI development and use. The filing also touches upon **privacy** by referencing data protection risks and new privacy laws. Finally, **transparency** is implicitly supported by the mention of AI-enabled clinical decision tools, suggesting a need for clear understanding of their function.",
+          "title": "Form 10-K: FY 2025 Annual Report (November 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/10795/000119312525324075/d945170dars.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release for BD HemoSphere Alta provides evidence for **governance** and **transparency**. It demonstrates transparency by detailing the AI-driven software's predictive capabilities and how AI/ML algorithms offer clinical decision support and insights. The press release also implies a system is in place for the AI's operation, suggesting governance.",
+          "title": "BD HemoSphere Alta AI-Driven Hemodynamic Monitoring (April 2025)",
+          "url": "https://investors.bd.com/news-events/press-releases/detail/881/bd-launches-next-generation-hemodynamic-monitoring-solution-providing-clinicians-with-ai-driven-clinical-decision-support"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 13,
+      "findings": "Annual reports reference privacy and data protection risks amplified by AI. An annual report also references new privacy laws.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This 10-K filing supports the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The document acknowledges risks of \"algorithmic bias\" and \"privacy and data protection risks\" amplified by AI, indicating a need for governance and policy. It also mentions the use of AI in \"clinical decision tools,\" suggesting transparency about AI integration, and discusses the complex legal landscape surrounding AI, implying a commitment to governance and compliance.",
+          "title": "Form 10-K: FY 2025 Annual Report (Filed November 25, 2025)",
+          "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-25-000099/bdx-20250930.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This FY 2025 Annual Report (10-K filing) provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The report acknowledges the regulatory landscape for AI in medical devices, including international expectations, and discusses associated risks such as algorithmic bias and privacy concerns, indicating a policy-level commitment to compliance and management. Mechanisms like regular updates to governance committees (ERC, CSRC) on cybersecurity strategy and programs, as well as mentions of AI tools and their integration, demonstrate operational oversight and a structured approach to innovation.",
+          "title": "Form 10-K: FY 2025 Annual Report (PDF)",
+          "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-25-000099/0000010795-25-000099.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC filing, BD's FY 2025 Annual Report, provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The report supports **external_accountability** by detailing audits of financial reporting controls. It addresses **fairness** by mentioning risks related to algorithmic bias and privacy. **Governance** is supported through discussions of new AI regulations, cybersecurity risks associated with AI deployment, and the need for management and policy considerations for AI development and use. The filing also touches upon **privacy** by referencing data protection risks and new privacy laws. Finally, **transparency** is implicitly supported by the mention of AI-enabled clinical decision tools, suggesting a need for clear understanding of their function.",
+          "title": "Form 10-K: FY 2025 Annual Report (November 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/10795/000119312525324075/d945170dars.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 21,
+      "findings": "The company references AI algorithms used for optimization and scientific insights in product development and references the use of AI in clinical decision tools. Press releases describe the use of specific AI-powered tools like BD Horizon Panel Maker, outlining their capabilities and integration, and describe the predictive capabilities of AI-driven software.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **external accountability**, and **transparency**. It demonstrates board-level oversight of AI governance through the Corporate Governance and Nominating Committee, which reviews the AI governance framework against global regulatory requirements and industry standards, indicating a commitment to external accountability and transparency in AI practices. The document also implies governance through its mention of AI algorithms used for optimization and scientific insights within product development.",
+          "title": "DEF 14A: 2024 Proxy Statement with Governance Committee Charter",
+          "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-24-000096/bdx-20241219.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This 10-K filing supports the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The document acknowledges risks of \"algorithmic bias\" and \"privacy and data protection risks\" amplified by AI, indicating a need for governance and policy. It also mentions the use of AI in \"clinical decision tools,\" suggesting transparency about AI integration, and discusses the complex legal landscape surrounding AI, implying a commitment to governance and compliance.",
+          "title": "Form 10-K: FY 2025 Annual Report (Filed November 25, 2025)",
+          "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-25-000099/bdx-20250930.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** pillar of responsible AI. It highlights the use of an \"AI algorithm\" and an \"AI-powered tool\" within BD Research Cloud 7.0's BD Horizon Panel Maker, detailing its capabilities for generating optimized panel recommendations. This explicit description of the AI's function and application demonstrates transparency in how the AI is being deployed.",
+          "title": "BD Launches BD Horizon Panel Maker with AI Algorithm (January 2026)",
+          "url": "https://investors.bd.com/news-events/press-releases/detail/931/bd-helps-scientists-advance-immunology-and-cancer-research-with-a"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This FY 2025 Annual Report (10-K filing) provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The report acknowledges the regulatory landscape for AI in medical devices, including international expectations, and discusses associated risks such as algorithmic bias and privacy concerns, indicating a policy-level commitment to compliance and management. Mechanisms like regular updates to governance committees (ERC, CSRC) on cybersecurity strategy and programs, as well as mentions of AI tools and their integration, demonstrate operational oversight and a structured approach to innovation.",
+          "title": "Form 10-K: FY 2025 Annual Report (PDF)",
+          "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-25-000099/0000010795-25-000099.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC filing, BD's FY 2025 Annual Report, provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The report supports **external_accountability** by detailing audits of financial reporting controls. It addresses **fairness** by mentioning risks related to algorithmic bias and privacy. **Governance** is supported through discussions of new AI regulations, cybersecurity risks associated with AI deployment, and the need for management and policy considerations for AI development and use. The filing also touches upon **privacy** by referencing data protection risks and new privacy laws. Finally, **transparency** is implicitly supported by the mention of AI-enabled clinical decision tools, suggesting a need for clear understanding of their function.",
+          "title": "Form 10-K: FY 2025 Annual Report (November 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/10795/000119312525324075/d945170dars.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release for BD HemoSphere Alta provides evidence for **governance** and **transparency**. It demonstrates transparency by detailing the AI-driven software's predictive capabilities and how AI/ML algorithms offer clinical decision support and insights. The press release also implies a system is in place for the AI's operation, suggesting governance.",
+          "title": "BD HemoSphere Alta AI-Driven Hemodynamic Monitoring (April 2025)",
+          "url": "https://investors.bd.com/news-events/press-releases/detail/881/bd-launches-next-generation-hemodynamic-monitoring-solution-providing-clinicians-with-ai-driven-clinical-decision-support"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T21:44:38Z",
+  "run_id": "20260202_204215_aa7c",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Human Oversight & Accountability"
+    ],
+    "key_strengths": [
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Becton Dickinson's proxy statement describes board-level oversight of AI governance through the Corporate Governance and Nominating Committee. This is part of the evidence addressing 5 of 7 evaluated responsible AI pillars, with annual reports also referencing the regulatory landscape for AI in medical devices under external accountability. Transparency, fairness, and privacy are addressed at the policy level; for instance, published materials reference AI algorithms used for optimization and scientific insights within product development, and risks of algorithmic bias. No qualifying public evidence was found for explainability or oversight, based on a review of 14 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 72,
+    "total_sources_used": 7
+  }
+}

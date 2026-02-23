@@ -1,0 +1,445 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 92.9,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 13
+  },
+  "company": "American Express",
+  "company_slug": "american-express",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 8,
+      "OPERATIONAL": 20,
+      "POLICY": 95
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 5,
+      "findings": "American Express policy documents outline consumer and user rights to contest automated decisions. These documents also specify the right to request human intervention or review for automated decisions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"2024 Annual Report (Form 10-K)\", provides evidence for several Responsible AI pillars. It supports **governance** and **oversight** by detailing enterprise risk management programs, committee reviews, and Board oversight of cybersecurity and AI/ML systems. The report also touches upon **privacy** and **external accountability** by mentioning regulatory obligations under GDPR and the EU AI Act concerning data protection and the use of independent third parties for valuations. Furthermore, it acknowledges risks related to bias and interpretability, suggesting a need for **fairness** and **explainability** in AI development and deployment.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This Cardmember Privacy Statement (UK) provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. The policy document details the use of AI and automated processes for risk assessment and fraud detection, supporting **transparency** by disclosing these methods and **privacy** by outlining their application. It also demonstrates **governance** and **fairness** through regular testing for bias, and **oversight** and **explainability** by outlining consumer rights to contest automated decisions and request human intervention.",
+          "title": "Cardmember Privacy Statement (UK)",
+          "url": "https://americanexpress.com/en-gb/company/legal/privacy-centre/cardmember-privacy-statement"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Corporate Cardmember Privacy Statement (IEC) provides evidence for the **explainability**, **fairness**, **governance**, **oversight**, and **privacy** pillars. The policy document details automated decision-making processes for application approval, credit limit assignment, and fraud assessment, demonstrating **governance** over these AI systems. It also outlines user rights to contest automated decisions and request human review, supporting **oversight** and **explainability**, and mentions regular testing for fairness, aligning with the **fairness** pillar. Furthermore, the statement addresses data collection, consent management, and data use for profiling and risk assessment, which are key aspects of **privacy** in automated contexts.",
+          "title": "Corporate Cardmember Privacy Statement (IEC)",
+          "url": "https://americanexpress.com/en-iec/company/legal/privacy-centre/corporate-cardmember-privacy-statement"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 9,
+      "findings": "American Express's annual reports mention regulatory obligations under GDPR and the EU AI Act concerning data protection, and the use of independent third parties for valuations. Policy documents detail independent third-party verification, and consent orders mandate independent audits and annual reporting.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"2024 Annual Report (Form 10-K)\", provides evidence for several Responsible AI pillars. It supports **governance** and **oversight** by detailing enterprise risk management programs, committee reviews, and Board oversight of cybersecurity and AI/ML systems. The report also touches upon **privacy** and **external accountability** by mentioning regulatory obligations under GDPR and the EU AI Act concerning data protection and the use of independent third parties for valuations. Furthermore, it acknowledges risks related to bias and interpretability, suggesting a need for **fairness** and **explainability** in AI development and deployment.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"2019-2020 Environmental, Social and Governance Report,\" provides evidence for **external accountability, fairness, governance, and transparency**. It supports these pillars by detailing the establishment of data handling systems, the use of behavioral analytics and ML algorithms for decision-making, internal review processes, executive oversight, and independent third-party verification. Furthermore, the report outlines the role of an ESG Steering Committee and Board-level committees in guiding strategy and monitoring programs, demonstrating a robust governance structure and a commitment to fair outcomes through intentional model inputs and considerations of inclusion and equity.",
+          "title": "2019-2020 Environmental, Social and Governance Report",
+          "url": "https://americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/American-Express-2019-2020-ESG-Report.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This CFPB consent order provides evidence for **external accountability**, **fairness**, and **governance**. The order mandates independent audits and annual reporting, demonstrating external accountability for the institution's practices. It also details discriminatory credit decisions, such as differential treatment in pricing and credit limits based on geographic origin, highlighting significant fairness concerns. Furthermore, the requirement for system and model improvements indicates governance over automated decision-making processes.",
+          "title": "CFPB Consent Order – Discriminatory Card Terms Settlement",
+          "url": "https://files.consumerfinance.gov/f/documents/201708_cfpb_american-express_content-order.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 11,
+      "findings": "American Express policy documents detail intentional input selection, training, and monitoring to achieve fair outcomes in credit decisions, including specific goals for equitable access for underserved populations. The company also describes regular testing for bias and fairness in its AI and automated decision-making processes.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"2024 Annual Report (Form 10-K)\", provides evidence for several Responsible AI pillars. It supports **governance** and **oversight** by detailing enterprise risk management programs, committee reviews, and Board oversight of cybersecurity and AI/ML systems. The report also touches upon **privacy** and **external accountability** by mentioning regulatory obligations under GDPR and the EU AI Act concerning data protection and the use of independent third parties for valuations. Furthermore, it acknowledges risks related to bias and interpretability, suggesting a need for **fairness** and **explainability** in AI development and deployment.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document provides evidence for the **governance** and **fairness** pillars of responsible AI. It demonstrates governance through the commitment to responsible AI use overseen by a Global Risk and Compliance Team, and the deployment of analytical tools for fraud prediction and reduction with data protection. The document also supports fairness by detailing intentional input selection, training, and monitoring for fair outcomes in credit decisions, with specific goals for equitable access for underserved populations.",
+          "title": "2020-2021 Environmental, Social and Governance Report",
+          "url": "https://americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/AXP-2020-2021-ESG-Report.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"2019-2020 Environmental, Social and Governance Report,\" provides evidence for **external accountability, fairness, governance, and transparency**. It supports these pillars by detailing the establishment of data handling systems, the use of behavioral analytics and ML algorithms for decision-making, internal review processes, executive oversight, and independent third-party verification. Furthermore, the report outlines the role of an ESG Steering Committee and Board-level committees in guiding strategy and monitoring programs, demonstrating a robust governance structure and a commitment to fair outcomes through intentional model inputs and considerations of inclusion and equity.",
+          "title": "2019-2020 Environmental, Social and Governance Report",
+          "url": "https://americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/American-Express-2019-2020-ESG-Report.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This Cardmember Privacy Statement (UK) provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. The policy document details the use of AI and automated processes for risk assessment and fraud detection, supporting **transparency** by disclosing these methods and **privacy** by outlining their application. It also demonstrates **governance** and **fairness** through regular testing for bias, and **oversight** and **explainability** by outlining consumer rights to contest automated decisions and request human intervention.",
+          "title": "Cardmember Privacy Statement (UK)",
+          "url": "https://americanexpress.com/en-gb/company/legal/privacy-centre/cardmember-privacy-statement"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Corporate Cardmember Privacy Statement (IEC) provides evidence for the **explainability**, **fairness**, **governance**, **oversight**, and **privacy** pillars. The policy document details automated decision-making processes for application approval, credit limit assignment, and fraud assessment, demonstrating **governance** over these AI systems. It also outlines user rights to contest automated decisions and request human review, supporting **oversight** and **explainability**, and mentions regular testing for fairness, aligning with the **fairness** pillar. Furthermore, the statement addresses data collection, consent management, and data use for profiling and risk assessment, which are key aspects of **privacy** in automated contexts.",
+          "title": "Corporate Cardmember Privacy Statement (IEC)",
+          "url": "https://americanexpress.com/en-iec/company/legal/privacy-centre/corporate-cardmember-privacy-statement"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This CFPB consent order provides evidence for **external accountability**, **fairness**, and **governance**. The order mandates independent audits and annual reporting, demonstrating external accountability for the institution's practices. It also details discriminatory credit decisions, such as differential treatment in pricing and credit limits based on geographic origin, highlighting significant fairness concerns. Furthermore, the requirement for system and model improvements indicates governance over automated decision-making processes.",
+          "title": "CFPB Consent Order – Discriminatory Card Terms Settlement",
+          "url": "https://files.consumerfinance.gov/f/documents/201708_cfpb_american-express_content-order.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 91,
+      "findings": "American Express documents its governance through enterprise risk management programs, committee reviews, and Board oversight of cybersecurity and AI/ML systems. Policy documents outline a commitment to responsible AI use, overseen by a Global Risk and Compliance Team, and detail the establishment of data handling systems, internal review processes, and executive oversight. The company also establishes mandatory ethical standards, a compliance framework, and restrictions on generative AI use, with specific roles like the CIO overseeing AI platforms and the CRO managing global risk and compliance.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"2024 Annual Report (Form 10-K)\", provides evidence for several Responsible AI pillars. It supports **governance** and **oversight** by detailing enterprise risk management programs, committee reviews, and Board oversight of cybersecurity and AI/ML systems. The report also touches upon **privacy** and **external accountability** by mentioning regulatory obligations under GDPR and the EU AI Act concerning data protection and the use of independent third parties for valuations. Furthermore, it acknowledges risks related to bias and interpretability, suggesting a need for **fairness** and **explainability** in AI development and deployment.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document provides evidence for the **governance** and **fairness** pillars of responsible AI. It demonstrates governance through the commitment to responsible AI use overseen by a Global Risk and Compliance Team, and the deployment of analytical tools for fraud prediction and reduction with data protection. The document also supports fairness by detailing intentional input selection, training, and monitoring for fair outcomes in credit decisions, with specific goals for equitable access for underserved populations.",
+          "title": "2020-2021 Environmental, Social and Governance Report",
+          "url": "https://americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/AXP-2020-2021-ESG-Report.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"2019-2020 Environmental, Social and Governance Report,\" provides evidence for **external accountability, fairness, governance, and transparency**. It supports these pillars by detailing the establishment of data handling systems, the use of behavioral analytics and ML algorithms for decision-making, internal review processes, executive oversight, and independent third-party verification. Furthermore, the report outlines the role of an ESG Steering Committee and Board-level committees in guiding strategy and monitoring programs, demonstrating a robust governance structure and a commitment to fair outcomes through intentional model inputs and considerations of inclusion and equity.",
+          "title": "2019-2020 Environmental, Social and Governance Report",
+          "url": "https://americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/American-Express-2019-2020-ESG-Report.pdf"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned charter, \"Executive Committee & Directors,\" provides evidence for the **governance** pillar of responsible AI. It details how the Chief Information Officer oversees enterprise AI platforms and the Chief Risk Officer manages global risk and compliance, indicating established oversight and accountability for AI infrastructure and functions. The document also highlights leadership in AI research partnerships, further aligning with AI governance practices.",
+          "title": "Executive Committee & Directors",
+          "url": "https://ir.americanexpress.com/governance-and-corporate-responsibility/executive-committee-and-directors/default.aspx"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This Cardmember Privacy Statement (UK) provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. The policy document details the use of AI and automated processes for risk assessment and fraud detection, supporting **transparency** by disclosing these methods and **privacy** by outlining their application. It also demonstrates **governance** and **fairness** through regular testing for bias, and **oversight** and **explainability** by outlining consumer rights to contest automated decisions and request human intervention.",
+          "title": "Cardmember Privacy Statement (UK)",
+          "url": "https://americanexpress.com/en-gb/company/legal/privacy-centre/cardmember-privacy-statement"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Corporate Cardmember Privacy Statement (IEC) provides evidence for the **explainability**, **fairness**, **governance**, **oversight**, and **privacy** pillars. The policy document details automated decision-making processes for application approval, credit limit assignment, and fraud assessment, demonstrating **governance** over these AI systems. It also outlines user rights to contest automated decisions and request human review, supporting **oversight** and **explainability**, and mentions regular testing for fairness, aligning with the **fairness** pillar. Furthermore, the statement addresses data collection, consent management, and data use for profiling and risk assessment, which are key aspects of **privacy** in automated contexts.",
+          "title": "Corporate Cardmember Privacy Statement (IEC)",
+          "url": "https://americanexpress.com/en-iec/company/legal/privacy-centre/corporate-cardmember-privacy-statement"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Code of Conduct,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by establishing mandatory ethical standards and a compliance framework, including restrictions on generative AI use to approved applications and requiring approval for AI usage. The policy also supports privacy by prohibiting the submission of confidential data to AI tools, demonstrating data protection rules for AI use.",
+          "title": "Code of Conduct",
+          "url": "https://americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/AMEX-Code-of-Conduct-Policy_English.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This CFPB consent order provides evidence for **external accountability**, **fairness**, and **governance**. The order mandates independent audits and annual reporting, demonstrating external accountability for the institution's practices. It also details discriminatory credit decisions, such as differential treatment in pricing and credit limits based on geographic origin, highlighting significant fairness concerns. Furthermore, the requirement for system and model improvements indicates governance over automated decision-making processes.",
+          "title": "CFPB Consent Order – Discriminatory Card Terms Settlement",
+          "url": "https://files.consumerfinance.gov/f/documents/201708_cfpb_american-express_content-order.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Fraud Detection Blog – Machine Learning System Transparency,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog post describes the use of machine learning models for real-time fraud detection, which implies governance over their development and application. Furthermore, it supports transparency by explaining the data points and decision processes used by these automated systems to cardholders.",
+          "title": "Fraud Detection Blog – Machine Learning System Transparency",
+          "url": "https://americanexpress.com/en-us/credit-cards/credit-intel/fraud-alerts"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This Forbes interview provides evidence for **governance** and **transparency** in American Express's AI practices. The interview details the use of specific AI technologies like GANs and RNNs in their fraud detection models, demonstrating transparency about their AI capabilities. Furthermore, the discussion of ongoing AI development, release cadences, and the AI-powered nature of models across the entire customer lifecycle implies robust governance over their AI systems.",
+          "title": "Forbes Interview – AI at American Express",
+          "url": "https://forbes.com/sites/johnkoetsier/2020/09/21/50-less-fraud-how-amex-uses-ai-to-automate-8-billion-risk-decisions"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance, oversight, and transparency** in responsible AI. It describes American Express's Gen X fraud detection model, which incorporates hundreds of risk indicators and thousands of decision trees, demonstrating transparency in its design and operation. The post also highlights the use of human research review for continuous refinement, auditable agentic workflows, and an AI Labs body, all of which indicate strong governance and operational oversight mechanisms for AI systems.",
+          "title": "Emerj Case Study – AI at American Express",
+          "url": "https://emerj.com/artificial-intelligence-at-american-express"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This NVIDIA blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning vendor oversight and a named role responsible for AI monitoring and decision-making. Transparency is evidenced through the description of AI/ML model deployment for fraud detection, including the use of specific models like LSTMs and their performance improvements, as well as the tools used for building and training these models.",
+          "title": "NVIDIA Blog – American Express Deep Learning Deployment",
+          "url": "https://blogs.nvidia.com/blog/american-express-nvidia-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 10,
+      "findings": "American Express's annual reports detail enterprise risk management programs, committee reviews, and Board oversight specifically for cybersecurity and AI/ML systems. Policy documents also outline consumer and user rights to contest automated decisions and request human intervention or review.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"2024 Annual Report (Form 10-K)\", provides evidence for several Responsible AI pillars. It supports **governance** and **oversight** by detailing enterprise risk management programs, committee reviews, and Board oversight of cybersecurity and AI/ML systems. The report also touches upon **privacy** and **external accountability** by mentioning regulatory obligations under GDPR and the EU AI Act concerning data protection and the use of independent third parties for valuations. Furthermore, it acknowledges risks related to bias and interpretability, suggesting a need for **fairness** and **explainability** in AI development and deployment.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This Cardmember Privacy Statement (UK) provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. The policy document details the use of AI and automated processes for risk assessment and fraud detection, supporting **transparency** by disclosing these methods and **privacy** by outlining their application. It also demonstrates **governance** and **fairness** through regular testing for bias, and **oversight** and **explainability** by outlining consumer rights to contest automated decisions and request human intervention.",
+          "title": "Cardmember Privacy Statement (UK)",
+          "url": "https://americanexpress.com/en-gb/company/legal/privacy-centre/cardmember-privacy-statement"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Corporate Cardmember Privacy Statement (IEC) provides evidence for the **explainability**, **fairness**, **governance**, **oversight**, and **privacy** pillars. The policy document details automated decision-making processes for application approval, credit limit assignment, and fraud assessment, demonstrating **governance** over these AI systems. It also outlines user rights to contest automated decisions and request human review, supporting **oversight** and **explainability**, and mentions regular testing for fairness, aligning with the **fairness** pillar. Furthermore, the statement addresses data collection, consent management, and data use for profiling and risk assessment, which are key aspects of **privacy** in automated contexts.",
+          "title": "Corporate Cardmember Privacy Statement (IEC)",
+          "url": "https://americanexpress.com/en-iec/company/legal/privacy-centre/corporate-cardmember-privacy-statement"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance, oversight, and transparency** in responsible AI. It describes American Express's Gen X fraud detection model, which incorporates hundreds of risk indicators and thousands of decision trees, demonstrating transparency in its design and operation. The post also highlights the use of human research review for continuous refinement, auditable agentic workflows, and an AI Labs body, all of which indicate strong governance and operational oversight mechanisms for AI systems.",
+          "title": "Emerj Case Study – AI at American Express",
+          "url": "https://emerj.com/artificial-intelligence-at-american-express"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 19,
+      "findings": "American Express's annual reports mention regulatory obligations under GDPR and the EU AI Act concerning data protection. Policy documents reference the deployment of analytical tools for fraud prediction and reduction with data protection, and address data collection, consent management, and data use for profiling and risk assessment in automated contexts. Furthermore, policy documents prohibit the submission of confidential data to AI tools, demonstrating data protection rules for AI use.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"2024 Annual Report (Form 10-K)\", provides evidence for several Responsible AI pillars. It supports **governance** and **oversight** by detailing enterprise risk management programs, committee reviews, and Board oversight of cybersecurity and AI/ML systems. The report also touches upon **privacy** and **external accountability** by mentioning regulatory obligations under GDPR and the EU AI Act concerning data protection and the use of independent third parties for valuations. Furthermore, it acknowledges risks related to bias and interpretability, suggesting a need for **fairness** and **explainability** in AI development and deployment.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document provides evidence for the **governance** and **fairness** pillars of responsible AI. It demonstrates governance through the commitment to responsible AI use overseen by a Global Risk and Compliance Team, and the deployment of analytical tools for fraud prediction and reduction with data protection. The document also supports fairness by detailing intentional input selection, training, and monitoring for fair outcomes in credit decisions, with specific goals for equitable access for underserved populations.",
+          "title": "2020-2021 Environmental, Social and Governance Report",
+          "url": "https://americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/AXP-2020-2021-ESG-Report.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This Cardmember Privacy Statement (UK) provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. The policy document details the use of AI and automated processes for risk assessment and fraud detection, supporting **transparency** by disclosing these methods and **privacy** by outlining their application. It also demonstrates **governance** and **fairness** through regular testing for bias, and **oversight** and **explainability** by outlining consumer rights to contest automated decisions and request human intervention.",
+          "title": "Cardmember Privacy Statement (UK)",
+          "url": "https://americanexpress.com/en-gb/company/legal/privacy-centre/cardmember-privacy-statement"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Corporate Cardmember Privacy Statement (IEC) provides evidence for the **explainability**, **fairness**, **governance**, **oversight**, and **privacy** pillars. The policy document details automated decision-making processes for application approval, credit limit assignment, and fraud assessment, demonstrating **governance** over these AI systems. It also outlines user rights to contest automated decisions and request human review, supporting **oversight** and **explainability**, and mentions regular testing for fairness, aligning with the **fairness** pillar. Furthermore, the statement addresses data collection, consent management, and data use for profiling and risk assessment, which are key aspects of **privacy** in automated contexts.",
+          "title": "Corporate Cardmember Privacy Statement (IEC)",
+          "url": "https://americanexpress.com/en-iec/company/legal/privacy-centre/corporate-cardmember-privacy-statement"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Code of Conduct,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by establishing mandatory ethical standards and a compliance framework, including restrictions on generative AI use to approved applications and requiring approval for AI usage. The policy also supports privacy by prohibiting the submission of confidential data to AI tools, demonstrating data protection rules for AI use.",
+          "title": "Code of Conduct",
+          "url": "https://americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/AMEX-Code-of-Conduct-Policy_English.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 27,
+      "findings": "American Express documents its transparency practices by outlining data handling systems and the use of behavioral analytics and ML algorithms for decision-making. The company discloses the methods of AI and automated processes for risk assessment and fraud detection, explaining the data points and decision processes to cardholders. Furthermore, it details the specific AI technologies, model design, operation, and deployment, including models like GANs, RNNs, and LSTMs, along with their performance and development tools.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"2024 Annual Report (Form 10-K)\", provides evidence for several Responsible AI pillars. It supports **governance** and **oversight** by detailing enterprise risk management programs, committee reviews, and Board oversight of cybersecurity and AI/ML systems. The report also touches upon **privacy** and **external accountability** by mentioning regulatory obligations under GDPR and the EU AI Act concerning data protection and the use of independent third parties for valuations. Furthermore, it acknowledges risks related to bias and interpretability, suggesting a need for **fairness** and **explainability** in AI development and deployment.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/4962/000119312525054516/d824513dars.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"2019-2020 Environmental, Social and Governance Report,\" provides evidence for **external accountability, fairness, governance, and transparency**. It supports these pillars by detailing the establishment of data handling systems, the use of behavioral analytics and ML algorithms for decision-making, internal review processes, executive oversight, and independent third-party verification. Furthermore, the report outlines the role of an ESG Steering Committee and Board-level committees in guiding strategy and monitoring programs, demonstrating a robust governance structure and a commitment to fair outcomes through intentional model inputs and considerations of inclusion and equity.",
+          "title": "2019-2020 Environmental, Social and Governance Report",
+          "url": "https://americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/American-Express-2019-2020-ESG-Report.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This Cardmember Privacy Statement (UK) provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. The policy document details the use of AI and automated processes for risk assessment and fraud detection, supporting **transparency** by disclosing these methods and **privacy** by outlining their application. It also demonstrates **governance** and **fairness** through regular testing for bias, and **oversight** and **explainability** by outlining consumer rights to contest automated decisions and request human intervention.",
+          "title": "Cardmember Privacy Statement (UK)",
+          "url": "https://americanexpress.com/en-gb/company/legal/privacy-centre/cardmember-privacy-statement"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Fraud Detection Blog – Machine Learning System Transparency,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog post describes the use of machine learning models for real-time fraud detection, which implies governance over their development and application. Furthermore, it supports transparency by explaining the data points and decision processes used by these automated systems to cardholders.",
+          "title": "Fraud Detection Blog – Machine Learning System Transparency",
+          "url": "https://americanexpress.com/en-us/credit-cards/credit-intel/fraud-alerts"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This Forbes interview provides evidence for **governance** and **transparency** in American Express's AI practices. The interview details the use of specific AI technologies like GANs and RNNs in their fraud detection models, demonstrating transparency about their AI capabilities. Furthermore, the discussion of ongoing AI development, release cadences, and the AI-powered nature of models across the entire customer lifecycle implies robust governance over their AI systems.",
+          "title": "Forbes Interview – AI at American Express",
+          "url": "https://forbes.com/sites/johnkoetsier/2020/09/21/50-less-fraud-how-amex-uses-ai-to-automate-8-billion-risk-decisions"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance, oversight, and transparency** in responsible AI. It describes American Express's Gen X fraud detection model, which incorporates hundreds of risk indicators and thousands of decision trees, demonstrating transparency in its design and operation. The post also highlights the use of human research review for continuous refinement, auditable agentic workflows, and an AI Labs body, all of which indicate strong governance and operational oversight mechanisms for AI systems.",
+          "title": "Emerj Case Study – AI at American Express",
+          "url": "https://emerj.com/artificial-intelligence-at-american-express"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This NVIDIA blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning vendor oversight and a named role responsible for AI monitoring and decision-making. Transparency is evidenced through the description of AI/ML model deployment for fraud detection, including the use of specific models like LSTMs and their performance improvements, as well as the tools used for building and training these models.",
+          "title": "NVIDIA Blog – American Express Deep Learning Deployment",
+          "url": "https://blogs.nvidia.com/blog/american-express-nvidia-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:42:50Z",
+  "run_id": "20260126_233729_56b6",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "American Express' policy documents outline the establishment of data handling systems and the use of behavioral analytics and ML algorithms for decision-making, demonstrating practices in transparency. All 7 evaluated pillars have documented public evidence, drawing from 17 publicly available sources. Fairness is addressed through policy documents detailing intentional input selection, training, and monitoring for fair outcomes in credit decisions, while governance materials detail enterprise risk management programs and Board oversight of cybersecurity and AI/ML systems. Additionally, privacy is addressed at the policy level, with annual reports mentioning regulatory obligations under GDPR and the EU AI Act concerning data protection.",
+    "pillars_operational": 6,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 123,
+    "total_sources_used": 12
+  }
+}

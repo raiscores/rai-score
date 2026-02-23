@@ -1,0 +1,353 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "PayPal",
+  "company_slug": "paypal",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 43,
+      "OPERATIONAL": 19,
+      "POLICY": 94
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 5,
+      "findings": "PayPal highlights the need for AI models to articulate decision reasons and overcome the \"black box\" challenge. The company's Privacy Statement also mentions user rights to review and object to automated decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Building Trust, Transparency, and Security in Payments,\" provides evidence for the pillars of **governance, explainability, privacy, and fairness**. The post supports **governance** by describing frameworks for oversight and monitoring of AI systems, and it addresses **explainability** by highlighting the need for AI models to articulate decision reasons and overcome the \"black box\" challenge. Furthermore, the source supports **privacy** and **fairness** by identifying them as core principles of responsible AI in payment systems.",
+          "title": "Building Trust, Transparency, and Security in Payments",
+          "url": "https://developer.paypal.com/community/blog/trust-transperancy-security-payments"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This PayPal Privacy Statement, a company-owned policy document, provides evidence for several Responsible AI pillars. It supports **transparency** and **privacy** by disclosing the use of AI and automated decision-making (ADM) for various functions, including agentic AI tools, fraud detection, and personalized recommendations, while also outlining explicit consent requirements and data retention limits. Furthermore, the document supports **governance** and **oversight** by detailing AI's role in risk management, creditworthiness assessment, and fraud minimization, and by mentioning operational safety mechanisms, appeals processes, and user rights related to ADM. Evidence for **explainability** is also present through the mention of user rights to review and object to automated decisions.",
+          "title": "PayPal Privacy Statement",
+          "url": "https://paypal.com/us/legalhub/paypal/privacy-full"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "PayPal's annual report addresses regulatory compliance with AI standards.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document supports these pillars by detailing the technical components and processes of an AI system for fraud detection, including neural network architecture, training methodologies, and performance metrics. It also describes mechanisms for human review, confidence thresholds for automated decisions, and the use of specific algorithms, all of which contribute to a governed and transparent system with oversight.",
+          "title": "Detection system for identifying abuse and fraud using artificial intelligence",
+          "url": "https://patents.google.com/patent/US20190122258A1/en"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This PayPal Holdings Inc. Form 10-K Annual Report (FY 2024) provides evidence for **governance**, **oversight**, **transparency**, and **external accountability**. The report details the company's risk management governance, including the Audit, Risk and Compliance (ARC) Committee's oversight of cybersecurity. It also discusses the deployment of AI and algorithmic decision-making for credit decisions, fraud detection, and transaction authorization, indicating internal governance and transparency of these systems. Furthermore, the filing addresses regulatory compliance with AI standards, supporting the external accountability pillar.",
+          "title": "PayPal Holdings Inc. Form 10-K Annual Report (FY 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 4,
+      "findings": "PayPal identifies fairness as a core principle of responsible AI in payment systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Building Trust, Transparency, and Security in Payments,\" provides evidence for the pillars of **governance, explainability, privacy, and fairness**. The post supports **governance** by describing frameworks for oversight and monitoring of AI systems, and it addresses **explainability** by highlighting the need for AI models to articulate decision reasons and overcome the \"black box\" challenge. Furthermore, the source supports **privacy** and **fairness** by identifying them as core principles of responsible AI in payment systems.",
+          "title": "Building Trust, Transparency, and Security in Payments",
+          "url": "https://developer.paypal.com/community/blog/trust-transperancy-security-payments"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document supports these pillars by detailing the technical components and processes of an AI system for fraud detection, including neural network architecture, training methodologies, and performance metrics. It also describes mechanisms for human review, confidence thresholds for automated decisions, and the use of specific algorithms, all of which contribute to a governed and transparent system with oversight.",
+          "title": "Detection system for identifying abuse and fraud using artificial intelligence",
+          "url": "https://patents.google.com/patent/US20190122258A1/en"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 78,
+      "findings": "PayPal's governance practices include the establishment of a cross-functional Responsible AI Steering Committee and a governance structure for regular updates to leadership on AI deployment. The company details its AI approach for risk management, AML/CTF, and fraud detection, including the use of machine learning to automate transaction decisions. PayPal also describes frameworks for oversight and monitoring of AI systems, and an annual report details its risk management governance. Furthermore, a centralized AI governance approach is highlighted, with an AI center of excellence and a responsible AI framework and guidelines for employee use of generative AI tools.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This charter document, \"Responsible Business Practices - PayPal Corporate,\" provides evidence for the **governance** pillar of responsible AI. It details PayPal's establishment of a cross-functional Responsible AI Steering Committee and outlines a governance structure that ensures regular updates to leadership and key committees on AI deployment, demonstrating clear accountability and oversight mechanisms for AI systems.",
+          "title": "Responsible Business Practices - PayPal Corporate",
+          "url": "https://about.pypl.com/how-we-work/responsible-business-practices/default.aspx"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release from PayPal supports the **governance** and **transparency** pillars of responsible AI. It details PayPal's AI approach and the use of AI tools for risk management and AML/CTF, which implies governance in their AI application and transparency in how these tools are utilized.",
+          "title": "PayPal Responds To European Commission Consultation On AI In The Financial Sector",
+          "url": "https://newsroom.paypal-corp.com/2024-09-13-PayPal-Responds-To-European-Commission-Consultation-On-AI-In-The-Financial-Sector"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Building Trust, Transparency, and Security in Payments,\" provides evidence for the pillars of **governance, explainability, privacy, and fairness**. The post supports **governance** by describing frameworks for oversight and monitoring of AI systems, and it addresses **explainability** by highlighting the need for AI models to articulate decision reasons and overcome the \"black box\" challenge. Furthermore, the source supports **privacy** and **fairness** by identifying them as core principles of responsible AI in payment systems.",
+          "title": "Building Trust, Transparency, and Security in Payments",
+          "url": "https://developer.paypal.com/community/blog/trust-transperancy-security-payments"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This PayPal Privacy Statement, a company-owned policy document, provides evidence for several Responsible AI pillars. It supports **transparency** and **privacy** by disclosing the use of AI and automated decision-making (ADM) for various functions, including agentic AI tools, fraud detection, and personalized recommendations, while also outlining explicit consent requirements and data retention limits. Furthermore, the document supports **governance** and **oversight** by detailing AI's role in risk management, creditworthiness assessment, and fraud minimization, and by mentioning operational safety mechanisms, appeals processes, and user rights related to ADM. Evidence for **explainability** is also present through the mention of user rights to review and object to automated decisions.",
+          "title": "PayPal Privacy Statement",
+          "url": "https://paypal.com/us/legalhub/paypal/privacy-full"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Fortify Your Business Using PayPal's Risk and Fraud Management Solutions,\" provides evidence for **governance** and **oversight**. The post details PayPal's AI-powered fraud detection, highlighting how machine learning is used to generate dynamic risk scores and automate transaction decisions, indicating governance over the AI's function and data inputs. Furthermore, it mentions human oversight through review processes and user control via custom filters, demonstrating oversight mechanisms for AI-driven decisions.",
+          "title": "Fortify Your Business Using PayPal's Risk and Fraud Management Solutions",
+          "url": "https://developer.paypal.com/community/blog/paypal-fraud-risk-management-solutions"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document supports these pillars by detailing the technical components and processes of an AI system for fraud detection, including neural network architecture, training methodologies, and performance metrics. It also describes mechanisms for human review, confidence thresholds for automated decisions, and the use of specific algorithms, all of which contribute to a governed and transparent system with oversight.",
+          "title": "Detection system for identifying abuse and fraud using artificial intelligence",
+          "url": "https://patents.google.com/patent/US20190122258A1/en"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This PayPal Holdings Inc. Form 10-K Annual Report (FY 2024) provides evidence for **governance**, **oversight**, **transparency**, and **external accountability**. The report details the company's risk management governance, including the Audit, Risk and Compliance (ARC) Committee's oversight of cybersecurity. It also discusses the deployment of AI and algorithmic decision-making for credit decisions, fraud detection, and transaction authorization, indicating internal governance and transparency of these systems. Furthermore, the filing addresses regulatory compliance with AI standards, supporting the external accountability pillar.",
+          "title": "PayPal Holdings Inc. Form 10-K Annual Report (FY 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This blog post highlights PayPal's centralized AI governance approach, which supports the **governance** pillar by establishing an AI center of excellence to guide employees and develop approved use cases. It also supports the **oversight** pillar by mentioning the need to safeguard human judgment alongside automation, indicating a requirement for human oversight in automated decisions. The post further details PayPal's responsible AI framework and guidelines for employee use of generative AI tools, distinguishing between free public tools and subscription-based services with data protection protocols.",
+          "title": "Finance May Go Slower On Generative AI Adoption",
+          "url": "https://cfo.com/news/generative-AI-PayPal-KPMG-governance-controls-guidelines-auditing-prompt-library/700200"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 19,
+      "findings": "PayPal's Privacy Statement mentions operational safety mechanisms, appeals processes, and user rights related to automated decision-making. The company also describes human oversight through review processes, user control via custom filters, and confidence thresholds for AI-driven decisions. Furthermore, an annual report details the Audit, Risk and Compliance (ARC) Committee's oversight of cybersecurity, and a blog post highlights the need to safeguard human judgment alongside automation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This PayPal Privacy Statement, a company-owned policy document, provides evidence for several Responsible AI pillars. It supports **transparency** and **privacy** by disclosing the use of AI and automated decision-making (ADM) for various functions, including agentic AI tools, fraud detection, and personalized recommendations, while also outlining explicit consent requirements and data retention limits. Furthermore, the document supports **governance** and **oversight** by detailing AI's role in risk management, creditworthiness assessment, and fraud minimization, and by mentioning operational safety mechanisms, appeals processes, and user rights related to ADM. Evidence for **explainability** is also present through the mention of user rights to review and object to automated decisions.",
+          "title": "PayPal Privacy Statement",
+          "url": "https://paypal.com/us/legalhub/paypal/privacy-full"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Fortify Your Business Using PayPal's Risk and Fraud Management Solutions,\" provides evidence for **governance** and **oversight**. The post details PayPal's AI-powered fraud detection, highlighting how machine learning is used to generate dynamic risk scores and automate transaction decisions, indicating governance over the AI's function and data inputs. Furthermore, it mentions human oversight through review processes and user control via custom filters, demonstrating oversight mechanisms for AI-driven decisions.",
+          "title": "Fortify Your Business Using PayPal's Risk and Fraud Management Solutions",
+          "url": "https://developer.paypal.com/community/blog/paypal-fraud-risk-management-solutions"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document supports these pillars by detailing the technical components and processes of an AI system for fraud detection, including neural network architecture, training methodologies, and performance metrics. It also describes mechanisms for human review, confidence thresholds for automated decisions, and the use of specific algorithms, all of which contribute to a governed and transparent system with oversight.",
+          "title": "Detection system for identifying abuse and fraud using artificial intelligence",
+          "url": "https://patents.google.com/patent/US20190122258A1/en"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This PayPal Holdings Inc. Form 10-K Annual Report (FY 2024) provides evidence for **governance**, **oversight**, **transparency**, and **external accountability**. The report details the company's risk management governance, including the Audit, Risk and Compliance (ARC) Committee's oversight of cybersecurity. It also discusses the deployment of AI and algorithmic decision-making for credit decisions, fraud detection, and transaction authorization, indicating internal governance and transparency of these systems. Furthermore, the filing addresses regulatory compliance with AI standards, supporting the external accountability pillar.",
+          "title": "PayPal Holdings Inc. Form 10-K Annual Report (FY 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This blog post highlights PayPal's centralized AI governance approach, which supports the **governance** pillar by establishing an AI center of excellence to guide employees and develop approved use cases. It also supports the **oversight** pillar by mentioning the need to safeguard human judgment alongside automation, indicating a requirement for human oversight in automated decisions. The post further details PayPal's responsible AI framework and guidelines for employee use of generative AI tools, distinguishing between free public tools and subscription-based services with data protection protocols.",
+          "title": "Finance May Go Slower On Generative AI Adoption",
+          "url": "https://cfo.com/news/generative-AI-PayPal-KPMG-governance-controls-guidelines-auditing-prompt-library/700200"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 12,
+      "findings": "PayPal identifies privacy as a core principle of responsible AI in payment systems. The company's Privacy Statement discloses the use of AI and automated decision-making for various functions, outlining explicit consent requirements and data retention limits.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Building Trust, Transparency, and Security in Payments,\" provides evidence for the pillars of **governance, explainability, privacy, and fairness**. The post supports **governance** by describing frameworks for oversight and monitoring of AI systems, and it addresses **explainability** by highlighting the need for AI models to articulate decision reasons and overcome the \"black box\" challenge. Furthermore, the source supports **privacy** and **fairness** by identifying them as core principles of responsible AI in payment systems.",
+          "title": "Building Trust, Transparency, and Security in Payments",
+          "url": "https://developer.paypal.com/community/blog/trust-transperancy-security-payments"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This PayPal Privacy Statement, a company-owned policy document, provides evidence for several Responsible AI pillars. It supports **transparency** and **privacy** by disclosing the use of AI and automated decision-making (ADM) for various functions, including agentic AI tools, fraud detection, and personalized recommendations, while also outlining explicit consent requirements and data retention limits. Furthermore, the document supports **governance** and **oversight** by detailing AI's role in risk management, creditworthiness assessment, and fraud minimization, and by mentioning operational safety mechanisms, appeals processes, and user rights related to ADM. Evidence for **explainability** is also present through the mention of user rights to review and object to automated decisions.",
+          "title": "PayPal Privacy Statement",
+          "url": "https://paypal.com/us/legalhub/paypal/privacy-full"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 100,
+      "findings": "PayPal provides transparency by detailing its AI approach and the use of AI tools for risk management, AML/CTF, and fraud detection, including specific model types and their learning processes. The company's Privacy Statement discloses the use of AI and automated decision-making for various functions, outlining explicit consent requirements and data retention limits. Furthermore, PayPal discusses the deployment of AI for credit decisions and transaction authorization, and details mechanisms like cryptographic audit trails for AI-driven agent transactions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release from PayPal supports the **governance** and **transparency** pillars of responsible AI. It details PayPal's AI approach and the use of AI tools for risk management and AML/CTF, which implies governance in their AI application and transparency in how these tools are utilized.",
+          "title": "PayPal Responds To European Commission Consultation On AI In The Financial Sector",
+          "url": "https://newsroom.paypal-corp.com/2024-09-13-PayPal-Responds-To-European-Commission-Consultation-On-AI-In-The-Financial-Sector"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Building Trust, Transparency, and Security in Payments,\" provides evidence for the pillars of **governance, explainability, privacy, and fairness**. The post supports **governance** by describing frameworks for oversight and monitoring of AI systems, and it addresses **explainability** by highlighting the need for AI models to articulate decision reasons and overcome the \"black box\" challenge. Furthermore, the source supports **privacy** and **fairness** by identifying them as core principles of responsible AI in payment systems.",
+          "title": "Building Trust, Transparency, and Security in Payments",
+          "url": "https://developer.paypal.com/community/blog/trust-transperancy-security-payments"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This PayPal Privacy Statement, a company-owned policy document, provides evidence for several Responsible AI pillars. It supports **transparency** and **privacy** by disclosing the use of AI and automated decision-making (ADM) for various functions, including agentic AI tools, fraud detection, and personalized recommendations, while also outlining explicit consent requirements and data retention limits. Furthermore, the document supports **governance** and **oversight** by detailing AI's role in risk management, creditworthiness assessment, and fraud minimization, and by mentioning operational safety mechanisms, appeals processes, and user rights related to ADM. Evidence for **explainability** is also present through the mention of user rights to review and object to automated decisions.",
+          "title": "PayPal Privacy Statement",
+          "url": "https://paypal.com/us/legalhub/paypal/privacy-full"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This PayPal help page provides evidence for the **transparency** pillar of responsible AI. It explains PayPal's use of machine learning and AI for fraud detection, detailing specific model types like semi-supervised and supervised learning, and describing their capabilities and learning processes. The document offers transparency into the technology's function and use cases, including payment fraud detection, by explaining how these algorithms distinguish normal from fraudulent behavior.",
+          "title": "Harnessing machine learning fraud detection technologies - PayPal",
+          "url": "https://paypal.com/us/brc/article/payment-fraud-detection-machine-learning"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Fortify Your Business Using PayPal's Risk and Fraud Management Solutions,\" provides evidence for **governance** and **oversight**. The post details PayPal's AI-powered fraud detection, highlighting how machine learning is used to generate dynamic risk scores and automate transaction decisions, indicating governance over the AI's function and data inputs. Furthermore, it mentions human oversight through review processes and user control via custom filters, demonstrating oversight mechanisms for AI-driven decisions.",
+          "title": "Fortify Your Business Using PayPal's Risk and Fraud Management Solutions",
+          "url": "https://developer.paypal.com/community/blog/paypal-fraud-risk-management-solutions"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document supports these pillars by detailing the technical components and processes of an AI system for fraud detection, including neural network architecture, training methodologies, and performance metrics. It also describes mechanisms for human review, confidence thresholds for automated decisions, and the use of specific algorithms, all of which contribute to a governed and transparent system with oversight.",
+          "title": "Detection system for identifying abuse and fraud using artificial intelligence",
+          "url": "https://patents.google.com/patent/US20190122258A1/en"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Agent Payments Protocol: Building Verifiable Trust for Agentic Commerce,\" provides evidence for the **transparency** pillar. It details mechanisms like cryptographic audit trails and role separation architecture, which contribute to transparency by ensuring accountability and auditability in AI-driven agent transactions. The post also mentions how fraud engines ingest mandate metadata into ML models, further highlighting a transparent approach to AI system operation.",
+          "title": "Agent Payments Protocol: Building Verifiable Trust for Agentic Commerce",
+          "url": "https://developer.paypal.com/community/blog/Agent-Payments-Protocol"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This PayPal Holdings Inc. Form 10-K Annual Report (FY 2024) provides evidence for **governance**, **oversight**, **transparency**, and **external accountability**. The report details the company's risk management governance, including the Audit, Risk and Compliance (ARC) Committee's oversight of cybersecurity. It also discusses the deployment of AI and algorithmic decision-making for credit decisions, fraud detection, and transaction authorization, indicating internal governance and transparency of these systems. Furthermore, the filing addresses regulatory compliance with AI standards, supporting the external accountability pillar.",
+          "title": "PayPal Holdings Inc. Form 10-K Annual Report (FY 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:57:02Z",
+  "run_id": "20260202_235109_26bf",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "PayPal's published materials demonstrate evidence of both operational practices and policy-level commitments across its responsible AI pillars. For instance, operational practices in oversight include mentions of user rights related to automated decision-making and human review processes, while governance is supported by a Responsible AI Steering Committee and a structure for leadership updates. At the policy level, transparency disclosures outline the use of AI for fraud detection and personalized recommendations, and explainability materials highlight the need for models to articulate decision reasons. All 7 evaluated pillars have documented public evidence, drawing from 16 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 156,
+    "total_sources_used": 10
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 92.9,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 13
+  },
+  "company": "Travelers",
+  "company_slug": "travelers-insurance",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 23,
+      "OPERATIONAL": 10,
+      "POLICY": 52
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 9,
+      "findings": "Travelers' policy documents mention commitments to implementing explainability, and technical papers discuss techniques for making AI output predictable and repeatable. Blog posts highlight AI limitations and the importance of disclosing information about AI system functions and data, especially for high-risk AI. Additionally, webinars acknowledge challenges in AI explainability, and blog posts demonstrate familiarity with the NIST AI risk framework, which includes explainability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, Travelers' Sustainability Report, provides evidence for the pillars of **governance, oversight, transparency, explainability, and fairness**. It establishes a Responsible AI Framework with foundational principles, demonstrating a commitment to governance and accountability. The report also details mechanisms for human oversight and judgment, and explicitly mentions commitments to providing disclosures and implementing explainability, directly supporting the transparency and explainability pillars. Furthermore, the document addresses the fairness pillar by stating a commitment to being mindful of potential bias throughout the AI lifecycle.",
+          "title": "Responsible Business Practices | Travelers Sustainability Report",
+          "url": "https://sustainability.travelers.com/drivers-of-sustained-value/ethics-and-values/responsible-business-practices"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This technical paper details Travelers' use of generative AI for email classification, providing evidence for **explainability**, **governance**, and **transparency**. The paper demonstrates transparency by outlining the AI task, method (prompt engineering), and performance metrics like 91% accuracy. It also supports explainability and governance by discussing techniques for making AI output predictable and repeatable, and by mentioning the use of AI services and their benefits.",
+          "title": "How Travelers Insurance Classified Emails with Amazon Bedrock and Prompt Engineering",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-travelers-insurance-classified-emails-with-amazon-bedrock-and-prompt-engineering/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Balancing Innovation with Compliance - Travelers Insurance,\" provides evidence for several responsible AI pillars. It supports **governance** and **external accountability** by discussing the need for policies to manage legal risks like copyright, outlining requirements for AI documentation and risk notification, and mentioning the implementation of auditing and reporting tools for regulatory compliance. The source also touches upon **transparency** and **explainability** by highlighting AI limitations and the importance of disclosing information about AI system functions and data, particularly for high-risk AI. Furthermore, it addresses **privacy** through mentions of adhering to privacy laws and stringent data management for AI models, and **oversight** by discussing the necessity of human involvement in AI decision-making and the challenges of reducing human oversight. Finally, **fairness** is supported by mentions of guardrails for bias.",
+          "title": "Balancing Innovation with Compliance - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/balance-innovation-with-compliance"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This webinar, \"AI in Action: The Future of Risk Management,\" provides evidence for several responsible AI pillars. It supports **governance** and **external_accountability** by discussing mechanisms like clear responsibilities, regular audits of AI systems, and compliance verification. The source also touches upon **fairness** by mentioning bias in data and the need for fair assessment, and **privacy** through discussions on data privacy and security for AI. Furthermore, it addresses **transparency** by highlighting AI applications as a business case and **explainability** by acknowledging challenges in AI explainability. Finally, **oversight** is supported by descriptions of techniques like human intervention and checking AI outputs.",
+          "title": "AI in Action: The Future of Risk Management | Travelers Institute",
+          "url": "https://institute.travelers.com/webinar-series/symposia-series/ai-in-action"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Managing the Risks of Artificial Intelligence - Travelers Insurance,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. The post supports transparency by advocating for clear communication about data limitations and feedback loops for AI improvement. It addresses governance through discussions of AI end-use and risk assessment, and oversight by emphasizing the necessity of human review for AI outputs to mitigate issues like hallucinations. Furthermore, the blog post demonstrates familiarity with the NIST AI risk framework, which includes categories like accountability, bias, privacy, and explainability, indicating a policy or standard-based approach.",
+          "title": "Managing the Risks of Artificial Intelligence - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/managing-risks-evolution-artificial-intelligence"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 21,
+      "findings": "Travelers discusses the need for policies to manage legal risks like copyright and outlines requirements for AI documentation and risk notification. The company mentions the implementation of auditing and reporting tools for regulatory compliance. Additionally, webinars discuss mechanisms such as clear responsibilities, regular audits of AI systems, and compliance verification.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Balancing Innovation with Compliance - Travelers Insurance,\" provides evidence for several responsible AI pillars. It supports **governance** and **external accountability** by discussing the need for policies to manage legal risks like copyright, outlining requirements for AI documentation and risk notification, and mentioning the implementation of auditing and reporting tools for regulatory compliance. The source also touches upon **transparency** and **explainability** by highlighting AI limitations and the importance of disclosing information about AI system functions and data, particularly for high-risk AI. Furthermore, it addresses **privacy** through mentions of adhering to privacy laws and stringent data management for AI models, and **oversight** by discussing the necessity of human involvement in AI decision-making and the challenges of reducing human oversight. Finally, **fairness** is supported by mentions of guardrails for bias.",
+          "title": "Balancing Innovation with Compliance - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/balance-innovation-with-compliance"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This webinar, \"AI in Action: The Future of Risk Management,\" provides evidence for several responsible AI pillars. It supports **governance** and **external_accountability** by discussing mechanisms like clear responsibilities, regular audits of AI systems, and compliance verification. The source also touches upon **fairness** by mentioning bias in data and the need for fair assessment, and **privacy** through discussions on data privacy and security for AI. Furthermore, it addresses **transparency** by highlighting AI applications as a business case and **explainability** by acknowledging challenges in AI explainability. Finally, **oversight** is supported by descriptions of techniques like human intervention and checking AI outputs.",
+          "title": "AI in Action: The Future of Risk Management | Travelers Institute",
+          "url": "https://institute.travelers.com/webinar-series/symposia-series/ai-in-action"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 12,
+      "findings": "Travelers states a commitment to being mindful of potential bias throughout the AI lifecycle and references AI and algorithms impacting protected classes, indicating awareness of potential bias. The company mentions guardrails for bias and discusses bias in data, along with the need for fair assessment. Additionally, blog posts demonstrate familiarity with the NIST AI risk framework, which includes bias.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, Travelers' Sustainability Report, provides evidence for the pillars of **governance, oversight, transparency, explainability, and fairness**. It establishes a Responsible AI Framework with foundational principles, demonstrating a commitment to governance and accountability. The report also details mechanisms for human oversight and judgment, and explicitly mentions commitments to providing disclosures and implementing explainability, directly supporting the transparency and explainability pillars. Furthermore, the document addresses the fairness pillar by stating a commitment to being mindful of potential bias throughout the AI lifecycle.",
+          "title": "Responsible Business Practices | Travelers Sustainability Report",
+          "url": "https://sustainability.travelers.com/drivers-of-sustained-value/ethics-and-values/responsible-business-practices"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Travelers Companies, Inc. Form 10-K filing (2024) provides evidence for **governance** and **fairness**. This SEC filing details the company's strategic agenda for AI, including automated underwriting platforms, the use of predictive and third-party models for decision-making, and internal governance policies and training on AI risks. It also touches upon fairness by referencing AI and algorithms impacting protected classes, indicating awareness of potential bias and regulatory oversight.",
+          "title": "The Travelers Companies, Inc. Form 10-K Filing (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/86312/000008631225000012/trv-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Balancing Innovation with Compliance - Travelers Insurance,\" provides evidence for several responsible AI pillars. It supports **governance** and **external accountability** by discussing the need for policies to manage legal risks like copyright, outlining requirements for AI documentation and risk notification, and mentioning the implementation of auditing and reporting tools for regulatory compliance. The source also touches upon **transparency** and **explainability** by highlighting AI limitations and the importance of disclosing information about AI system functions and data, particularly for high-risk AI. Furthermore, it addresses **privacy** through mentions of adhering to privacy laws and stringent data management for AI models, and **oversight** by discussing the necessity of human involvement in AI decision-making and the challenges of reducing human oversight. Finally, **fairness** is supported by mentions of guardrails for bias.",
+          "title": "Balancing Innovation with Compliance - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/balance-innovation-with-compliance"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This webinar, \"AI in Action: The Future of Risk Management,\" provides evidence for several responsible AI pillars. It supports **governance** and **external_accountability** by discussing mechanisms like clear responsibilities, regular audits of AI systems, and compliance verification. The source also touches upon **fairness** by mentioning bias in data and the need for fair assessment, and **privacy** through discussions on data privacy and security for AI. Furthermore, it addresses **transparency** by highlighting AI applications as a business case and **explainability** by acknowledging challenges in AI explainability. Finally, **oversight** is supported by descriptions of techniques like human intervention and checking AI outputs.",
+          "title": "AI in Action: The Future of Risk Management | Travelers Institute",
+          "url": "https://institute.travelers.com/webinar-series/symposia-series/ai-in-action"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Managing the Risks of Artificial Intelligence - Travelers Insurance,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. The post supports transparency by advocating for clear communication about data limitations and feedback loops for AI improvement. It addresses governance through discussions of AI end-use and risk assessment, and oversight by emphasizing the necessity of human review for AI outputs to mitigate issues like hallucinations. Furthermore, the blog post demonstrates familiarity with the NIST AI risk framework, which includes categories like accountability, bias, privacy, and explainability, indicating a policy or standard-based approach.",
+          "title": "Managing the Risks of Artificial Intelligence - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/managing-risks-evolution-artificial-intelligence"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 61,
+      "findings": "Travelers establishes a Responsible AI Framework with foundational principles and demonstrates a commitment to governance and accountability. The company details its strategic agenda for AI, including automated underwriting platforms, predictive models, internal governance policies, and training on AI risks. Travelers also outlines requirements for AI documentation, risk notification, and mentions the implementation of auditing and reporting tools for regulatory compliance, alongside discussing mechanisms like clear responsibilities, regular audits of AI systems, and compliance verification.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, Travelers' Sustainability Report, provides evidence for the pillars of **governance, oversight, transparency, explainability, and fairness**. It establishes a Responsible AI Framework with foundational principles, demonstrating a commitment to governance and accountability. The report also details mechanisms for human oversight and judgment, and explicitly mentions commitments to providing disclosures and implementing explainability, directly supporting the transparency and explainability pillars. Furthermore, the document addresses the fairness pillar by stating a commitment to being mindful of potential bias throughout the AI lifecycle.",
+          "title": "Responsible Business Practices | Travelers Sustainability Report",
+          "url": "https://sustainability.travelers.com/drivers-of-sustained-value/ethics-and-values/responsible-business-practices"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Travelers Companies, Inc. Form 10-K filing (2024) provides evidence for **governance** and **fairness**. This SEC filing details the company's strategic agenda for AI, including automated underwriting platforms, the use of predictive and third-party models for decision-making, and internal governance policies and training on AI risks. It also touches upon fairness by referencing AI and algorithms impacting protected classes, indicating awareness of potential bias and regulatory oversight.",
+          "title": "The Travelers Companies, Inc. Form 10-K Filing (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/86312/000008631225000012/trv-20241231.htm"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Information Security Practices - Travelers Insurance,\" provides evidence for the **governance** pillar of responsible AI. The policy outlines training on AI risks, which directly supports governance by demonstrating a commitment to managing and governing AI systems and their associated risks.",
+          "title": "Information Security Practices - Travelers Insurance",
+          "url": "https://travelers.com/about-travelers/security/travelers-information-security-practices"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page for Travelers' IntelliDrive programs provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing the algorithmic pricing mechanisms that use smartphone app data to track driving behaviors for premium adjustments, indicating automated decision-making. The source also supports privacy by mentioning the use of personalized data for tips, which implies profiling and data handling practices.",
+          "title": "IntelliDrive® Programs: Telematics Car Insurance | Travelers",
+          "url": "https://travelers.com/car-insurance/intellidrive-programs"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This technical paper details Travelers' use of generative AI for email classification, providing evidence for **explainability**, **governance**, and **transparency**. The paper demonstrates transparency by outlining the AI task, method (prompt engineering), and performance metrics like 91% accuracy. It also supports explainability and governance by discussing techniques for making AI output predictable and repeatable, and by mentioning the use of AI services and their benefits.",
+          "title": "How Travelers Insurance Classified Emails with Amazon Bedrock and Prompt Engineering",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-travelers-insurance-classified-emails-with-amazon-bedrock-and-prompt-engineering/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Balancing Innovation with Compliance - Travelers Insurance,\" provides evidence for several responsible AI pillars. It supports **governance** and **external accountability** by discussing the need for policies to manage legal risks like copyright, outlining requirements for AI documentation and risk notification, and mentioning the implementation of auditing and reporting tools for regulatory compliance. The source also touches upon **transparency** and **explainability** by highlighting AI limitations and the importance of disclosing information about AI system functions and data, particularly for high-risk AI. Furthermore, it addresses **privacy** through mentions of adhering to privacy laws and stringent data management for AI models, and **oversight** by discussing the necessity of human involvement in AI decision-making and the challenges of reducing human oversight. Finally, **fairness** is supported by mentions of guardrails for bias.",
+          "title": "Balancing Innovation with Compliance - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/balance-innovation-with-compliance"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This webinar, \"AI in Action: The Future of Risk Management,\" provides evidence for several responsible AI pillars. It supports **governance** and **external_accountability** by discussing mechanisms like clear responsibilities, regular audits of AI systems, and compliance verification. The source also touches upon **fairness** by mentioning bias in data and the need for fair assessment, and **privacy** through discussions on data privacy and security for AI. Furthermore, it addresses **transparency** by highlighting AI applications as a business case and **explainability** by acknowledging challenges in AI explainability. Finally, **oversight** is supported by descriptions of techniques like human intervention and checking AI outputs.",
+          "title": "AI in Action: The Future of Risk Management | Travelers Institute",
+          "url": "https://institute.travelers.com/webinar-series/symposia-series/ai-in-action"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Managing the Risks of Artificial Intelligence - Travelers Insurance,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. The post supports transparency by advocating for clear communication about data limitations and feedback loops for AI improvement. It addresses governance through discussions of AI end-use and risk assessment, and oversight by emphasizing the necessity of human review for AI outputs to mitigate issues like hallucinations. Furthermore, the blog post demonstrates familiarity with the NIST AI risk framework, which includes categories like accountability, bias, privacy, and explainability, indicating a policy or standard-based approach.",
+          "title": "Managing the Risks of Artificial Intelligence - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/managing-risks-evolution-artificial-intelligence"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, the \"Travelers Sustainability Report,\" provides evidence for the **governance** pillar of responsible AI. It details an enterprise data governance framework that establishes data management practices, including a named Chief Data & Analytics Officer and team, which are foundational to preventing algorithmic bias and ensuring fair AI/ML application.",
+          "title": "Harnessing the Power of Data & Knowledge | Travelers Sustainability Report",
+          "url": "https://sustainability.travelers.com/drivers-of-sustained-value/innovation/harnessing-the-power-of-data-knowledge"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Travelers - IMD AI Maturity Profile (2025),\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The report highlights Travelers' AI ethics and governance framework, including principles and human oversight mechanisms, which directly supports governance and oversight. Furthermore, the mention of specific AI tool usage and deep learning for operational improvements demonstrates the company's commitment to transparency in its AI deployments.",
+          "title": "Travelers - IMD AI Maturity Profile (2025)",
+          "url": "https://imd.org/entity-profile/travelers-ai-maturity-2025"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 7,
+      "findings": "Travelers' policy documents detail mechanisms for human oversight and judgment. Blog posts discuss the necessity of human involvement in AI decision-making and the challenges of reducing human oversight, emphasizing the necessity of human review for AI outputs to mitigate issues like hallucinations. Webinars describe techniques such as human intervention and checking AI outputs, and audit reports highlight human oversight mechanisms within the AI ethics and governance framework.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, Travelers' Sustainability Report, provides evidence for the pillars of **governance, oversight, transparency, explainability, and fairness**. It establishes a Responsible AI Framework with foundational principles, demonstrating a commitment to governance and accountability. The report also details mechanisms for human oversight and judgment, and explicitly mentions commitments to providing disclosures and implementing explainability, directly supporting the transparency and explainability pillars. Furthermore, the document addresses the fairness pillar by stating a commitment to being mindful of potential bias throughout the AI lifecycle.",
+          "title": "Responsible Business Practices | Travelers Sustainability Report",
+          "url": "https://sustainability.travelers.com/drivers-of-sustained-value/ethics-and-values/responsible-business-practices"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Balancing Innovation with Compliance - Travelers Insurance,\" provides evidence for several responsible AI pillars. It supports **governance** and **external accountability** by discussing the need for policies to manage legal risks like copyright, outlining requirements for AI documentation and risk notification, and mentioning the implementation of auditing and reporting tools for regulatory compliance. The source also touches upon **transparency** and **explainability** by highlighting AI limitations and the importance of disclosing information about AI system functions and data, particularly for high-risk AI. Furthermore, it addresses **privacy** through mentions of adhering to privacy laws and stringent data management for AI models, and **oversight** by discussing the necessity of human involvement in AI decision-making and the challenges of reducing human oversight. Finally, **fairness** is supported by mentions of guardrails for bias.",
+          "title": "Balancing Innovation with Compliance - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/balance-innovation-with-compliance"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This webinar, \"AI in Action: The Future of Risk Management,\" provides evidence for several responsible AI pillars. It supports **governance** and **external_accountability** by discussing mechanisms like clear responsibilities, regular audits of AI systems, and compliance verification. The source also touches upon **fairness** by mentioning bias in data and the need for fair assessment, and **privacy** through discussions on data privacy and security for AI. Furthermore, it addresses **transparency** by highlighting AI applications as a business case and **explainability** by acknowledging challenges in AI explainability. Finally, **oversight** is supported by descriptions of techniques like human intervention and checking AI outputs.",
+          "title": "AI in Action: The Future of Risk Management | Travelers Institute",
+          "url": "https://institute.travelers.com/webinar-series/symposia-series/ai-in-action"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Managing the Risks of Artificial Intelligence - Travelers Insurance,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. The post supports transparency by advocating for clear communication about data limitations and feedback loops for AI improvement. It addresses governance through discussions of AI end-use and risk assessment, and oversight by emphasizing the necessity of human review for AI outputs to mitigate issues like hallucinations. Furthermore, the blog post demonstrates familiarity with the NIST AI risk framework, which includes categories like accountability, bias, privacy, and explainability, indicating a policy or standard-based approach.",
+          "title": "Managing the Risks of Artificial Intelligence - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/managing-risks-evolution-artificial-intelligence"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Travelers - IMD AI Maturity Profile (2025),\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The report highlights Travelers' AI ethics and governance framework, including principles and human oversight mechanisms, which directly supports governance and oversight. Furthermore, the mention of specific AI tool usage and deep learning for operational improvements demonstrates the company's commitment to transparency in its AI deployments.",
+          "title": "Travelers - IMD AI Maturity Profile (2025)",
+          "url": "https://imd.org/entity-profile/travelers-ai-maturity-2025"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 8,
+      "findings": "Travelers' help pages mention the use of personalized data for tips. Blog posts mention adhering to privacy laws and stringent data management for AI models. Webinars discuss data privacy and security for AI, and blog posts demonstrate familiarity with the NIST AI risk framework, which includes privacy.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Travelers Companies, Inc. Form 10-K filing (2024) provides evidence for **governance** and **fairness**. This SEC filing details the company's strategic agenda for AI, including automated underwriting platforms, the use of predictive and third-party models for decision-making, and internal governance policies and training on AI risks. It also touches upon fairness by referencing AI and algorithms impacting protected classes, indicating awareness of potential bias and regulatory oversight.",
+          "title": "The Travelers Companies, Inc. Form 10-K Filing (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/86312/000008631225000012/trv-20241231.htm"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page for Travelers' IntelliDrive programs provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing the algorithmic pricing mechanisms that use smartphone app data to track driving behaviors for premium adjustments, indicating automated decision-making. The source also supports privacy by mentioning the use of personalized data for tips, which implies profiling and data handling practices.",
+          "title": "IntelliDrive® Programs: Telematics Car Insurance | Travelers",
+          "url": "https://travelers.com/car-insurance/intellidrive-programs"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Balancing Innovation with Compliance - Travelers Insurance,\" provides evidence for several responsible AI pillars. It supports **governance** and **external accountability** by discussing the need for policies to manage legal risks like copyright, outlining requirements for AI documentation and risk notification, and mentioning the implementation of auditing and reporting tools for regulatory compliance. The source also touches upon **transparency** and **explainability** by highlighting AI limitations and the importance of disclosing information about AI system functions and data, particularly for high-risk AI. Furthermore, it addresses **privacy** through mentions of adhering to privacy laws and stringent data management for AI models, and **oversight** by discussing the necessity of human involvement in AI decision-making and the challenges of reducing human oversight. Finally, **fairness** is supported by mentions of guardrails for bias.",
+          "title": "Balancing Innovation with Compliance - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/balance-innovation-with-compliance"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This webinar, \"AI in Action: The Future of Risk Management,\" provides evidence for several responsible AI pillars. It supports **governance** and **external_accountability** by discussing mechanisms like clear responsibilities, regular audits of AI systems, and compliance verification. The source also touches upon **fairness** by mentioning bias in data and the need for fair assessment, and **privacy** through discussions on data privacy and security for AI. Furthermore, it addresses **transparency** by highlighting AI applications as a business case and **explainability** by acknowledging challenges in AI explainability. Finally, **oversight** is supported by descriptions of techniques like human intervention and checking AI outputs.",
+          "title": "AI in Action: The Future of Risk Management | Travelers Institute",
+          "url": "https://institute.travelers.com/webinar-series/symposia-series/ai-in-action"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Managing the Risks of Artificial Intelligence - Travelers Insurance,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. The post supports transparency by advocating for clear communication about data limitations and feedback loops for AI improvement. It addresses governance through discussions of AI end-use and risk assessment, and oversight by emphasizing the necessity of human review for AI outputs to mitigate issues like hallucinations. Furthermore, the blog post demonstrates familiarity with the NIST AI risk framework, which includes categories like accountability, bias, privacy, and explainability, indicating a policy or standard-based approach.",
+          "title": "Managing the Risks of Artificial Intelligence - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/managing-risks-evolution-artificial-intelligence"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 27,
+      "findings": "Travelers documents commitments to providing disclosures and outlines AI tasks, methods, and performance metrics in technical papers. The company highlights AI limitations and the importance of disclosing information about AI system functions and data, particularly for high-risk AI. Additionally, blog posts advocate for clear communication about data limitations and feedback loops for AI improvement, and audit reports mention specific AI tool usage.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, Travelers' Sustainability Report, provides evidence for the pillars of **governance, oversight, transparency, explainability, and fairness**. It establishes a Responsible AI Framework with foundational principles, demonstrating a commitment to governance and accountability. The report also details mechanisms for human oversight and judgment, and explicitly mentions commitments to providing disclosures and implementing explainability, directly supporting the transparency and explainability pillars. Furthermore, the document addresses the fairness pillar by stating a commitment to being mindful of potential bias throughout the AI lifecycle.",
+          "title": "Responsible Business Practices | Travelers Sustainability Report",
+          "url": "https://sustainability.travelers.com/drivers-of-sustained-value/ethics-and-values/responsible-business-practices"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This technical paper details Travelers' use of generative AI for email classification, providing evidence for **explainability**, **governance**, and **transparency**. The paper demonstrates transparency by outlining the AI task, method (prompt engineering), and performance metrics like 91% accuracy. It also supports explainability and governance by discussing techniques for making AI output predictable and repeatable, and by mentioning the use of AI services and their benefits.",
+          "title": "How Travelers Insurance Classified Emails with Amazon Bedrock and Prompt Engineering",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-travelers-insurance-classified-emails-with-amazon-bedrock-and-prompt-engineering/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Balancing Innovation with Compliance - Travelers Insurance,\" provides evidence for several responsible AI pillars. It supports **governance** and **external accountability** by discussing the need for policies to manage legal risks like copyright, outlining requirements for AI documentation and risk notification, and mentioning the implementation of auditing and reporting tools for regulatory compliance. The source also touches upon **transparency** and **explainability** by highlighting AI limitations and the importance of disclosing information about AI system functions and data, particularly for high-risk AI. Furthermore, it addresses **privacy** through mentions of adhering to privacy laws and stringent data management for AI models, and **oversight** by discussing the necessity of human involvement in AI decision-making and the challenges of reducing human oversight. Finally, **fairness** is supported by mentions of guardrails for bias.",
+          "title": "Balancing Innovation with Compliance - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/balance-innovation-with-compliance"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This webinar, \"AI in Action: The Future of Risk Management,\" provides evidence for several responsible AI pillars. It supports **governance** and **external_accountability** by discussing mechanisms like clear responsibilities, regular audits of AI systems, and compliance verification. The source also touches upon **fairness** by mentioning bias in data and the need for fair assessment, and **privacy** through discussions on data privacy and security for AI. Furthermore, it addresses **transparency** by highlighting AI applications as a business case and **explainability** by acknowledging challenges in AI explainability. Finally, **oversight** is supported by descriptions of techniques like human intervention and checking AI outputs.",
+          "title": "AI in Action: The Future of Risk Management | Travelers Institute",
+          "url": "https://institute.travelers.com/webinar-series/symposia-series/ai-in-action"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Managing the Risks of Artificial Intelligence - Travelers Insurance,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. The post supports transparency by advocating for clear communication about data limitations and feedback loops for AI improvement. It addresses governance through discussions of AI end-use and risk assessment, and oversight by emphasizing the necessity of human review for AI outputs to mitigate issues like hallucinations. Furthermore, the blog post demonstrates familiarity with the NIST AI risk framework, which includes categories like accountability, bias, privacy, and explainability, indicating a policy or standard-based approach.",
+          "title": "Managing the Risks of Artificial Intelligence - Travelers Insurance",
+          "url": "https://travelers.com/resources/business-industries/technology/managing-risks-evolution-artificial-intelligence"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Travelers - IMD AI Maturity Profile (2025),\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The report highlights Travelers' AI ethics and governance framework, including principles and human oversight mechanisms, which directly supports governance and oversight. Furthermore, the mention of specific AI tool usage and deep learning for operational improvements demonstrates the company's commitment to transparency in its AI deployments.",
+          "title": "Travelers - IMD AI Maturity Profile (2025)",
+          "url": "https://imd.org/entity-profile/travelers-ai-maturity-2025"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T21:59:36Z",
+  "run_id": "20260203_021705_20bc",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Travelers' technical papers outline the AI task, method, and performance metrics for generative AI used in email classification, demonstrating operational practices for transparency. These disclosures, along with policy documents detailing mechanisms for human oversight and judgment, indicate that all 7 evaluated pillars have documented public evidence. Further operational practices include policy documents establishing a Responsible AI Framework for governance and help pages mentioning the use of personalized data for privacy. Explainability, the only pillar addressed solely at the policy level, is documented through policy documents that discuss techniques for making AI output predictable and repeatable. This assessment draws on 11 publicly available sources.",
+    "pillars_operational": 6,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 85,
+    "total_sources_used": 10
+  }
+}

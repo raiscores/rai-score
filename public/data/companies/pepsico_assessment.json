@@ -1,0 +1,281 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "PepsiCo",
+  "company_slug": "pepsico",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 11,
+      "OPERATIONAL": 12,
+      "POLICY": 25
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "PepsiCo's formal guidelines for responsible AI describe fairness. Published materials also state awareness of bias avoidance as a company value.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It highlights PepsiCo's formal guidelines for responsible AI, including transparency and fairness, and describes an operational vetting process managed by a governance committee for HR technology, which sometimes eliminates vendors to ensure ethical standards. The article also indicates awareness of AI governance, transparency, and bias avoidance as company values.",
+          "title": "PepsiCo People Leader: Gen AI Has 'Changed the Game'",
+          "url": "https://hrexecutive.com/pepsico-people-leader-gen-ai-has-changed-the-game-for-product-roadmaps"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 39,
+      "findings": "PepsiCo's governance practices describe a strategic approach to AI, including centralized AI review boards, governance structures, and teams overseeing AI governance and policy development. The company describes formal guidelines for responsible AI, references a \"Global Responsible AI Policy,\" and outlines a governance structure including a Privacy Office and mandatory employee training. PepsiCo describes a commitment to research ethical and responsible AI, states its aim to be a leader in responsible AI applications, and describes a finalized roadmap for AI and automation, with Board oversight of related risks.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release describes PepsiCo's generative AI applications, providing evidence for **governance** and **transparency**. The document implicitly supports governance by mentioning \"responsible AI practices\" and strategic adoption aims. Transparency is supported by detailing AI capabilities and use cases across various business functions, such as demand forecasting and carbon footprint reduction, explaining what the AI does without detailing execution or specific governance mechanisms.",
+          "title": "How PepsiCo Utilizes Generative AI to Drive Innovation",
+          "url": "https://aimresearch.co/ai-in-cpg-retail/how-pepsico-utilizes-generative-ai-to-drive-innovation-and-efficiency"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This industry analysis report provides evidence for the **governance** pillar of responsible AI. It highlights PepsiCo's strategic approach to AI, including the establishment of centralized AI review boards and governance structures, the evaluation of platforms for risk management and observability, and the formation of teams to oversee AI governance and policy development. These actions demonstrate operational execution and policy commitment towards managing AI risks and defining use cases.",
+          "title": "Responsible AI: Strategic Imperative for Enterprise GenAI",
+          "url": "https://avasant.com/report/responsible-ai-a-strategic-imperative-for-enterprises-in-generative-ai-implementation"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release describes PepsiCo's partnership with Stanford HAI to research ethical and responsible AI. The announcement supports the **governance** pillar by stating PepsiCo's aim to be a leader in responsible AI applications and by committing to research ethical AI in specific operational areas, indicating a policy for AI development and use.",
+          "title": "PepsiCo Partners with Stanford for Human-Centered AI",
+          "url": "https://bakingbusiness.com/articles/59419-pepsico-partners-with-stanford-for-human-centered-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"PepsiCo and JetBlue: Securing RAG LLM Deployments,\" provides evidence for the **governance** and **privacy** pillars. It details robust security measures for RAG LLM deployments, including role-based access control (RBAC), multi-factor authentication, intrusion detection, and real-time SIEM monitoring, which demonstrate strong governance and data access controls supporting privacy. The paper also highlights security best practices like network isolation and incident response planning, further reinforcing its contribution to these pillars.",
+          "title": "PepsiCo and JetBlue: Securing RAG LLM Deployments",
+          "url": "https://cdotimes.com/2024/07/03/pepsico-and-jetblue-case-studies-in-securing-rag-llm-deployments"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights PepsiCo's formal research into ethical AI, including addressing algorithmic bias and transparency concerns, and their commitment to advancing policy and best practices for responsible AI adoption in the consumer goods industry. The press release also mentions a specific AI deployment for artwork generation, indicating transparency in use cases.",
+          "title": "PepsiCo Begins Ethical AI Research with Stanford",
+          "url": "https://ciodive.com/news/PepsiCo-AI-research-partnership-Stanford-ethical-responsible/654445"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post from ESM Magazine indicates PepsiCo's commitment to responsible AI by joining Stanford HAI's AI Responsible Standards Project. The source provides evidence for the **governance** pillar by highlighting PepsiCo's plans to focus research on ethical and responsible AI, demonstrating a policy commitment to AI governance and ethical considerations. Furthermore, their aim to lead in responsible AI and participation in a program dedicated to guiding AI underscores their dedication to governance.",
+          "title": "PepsiCo Joins AI Responsible Standards Project | ESM Magazine",
+          "url": "https://esmmagazine.com/technology/pepsico-joins-ai-responsible-standards-project-244097"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper from the Stanford HAI Industrial Affiliates Program 2025 highlights PepsiCo's commitment to responsible AI, providing evidence for the **governance** pillar. The document details concrete check-ins, year-end reviews for project renewal, and a stated \"strong commitment\" to responsible AI, all of which indicate operational and policy-level governance mechanisms for AI initiatives. Furthermore, the mention of AI priorities and the initiation of a process demonstrates a governance-related commitment to advancing these principles.",
+          "title": "Stanford HAI Industrial Affiliates Program 2025",
+          "url": "https://hai-production.s3.amazonaws.com/files/hai_industrialaffiliatesprogram2025.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It highlights PepsiCo's formal guidelines for responsible AI, including transparency and fairness, and describes an operational vetting process managed by a governance committee for HR technology, which sometimes eliminates vendors to ensure ethical standards. The article also indicates awareness of AI governance, transparency, and bias avoidance as company values.",
+          "title": "PepsiCo People Leader: Gen AI Has 'Changed the Game'",
+          "url": "https://hrexecutive.com/pepsico-people-leader-gen-ai-has-changed-the-game-for-product-roadmaps"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"PepsiCo Labs Finance Innovation Program Briefs,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by implying the need for management and oversight of AI systems, particularly concerning data use and actions. Transparency is supported through mentions of AI systems and automated processes for tasks like claims processing and policy queries, indicating the existence of such systems without detailing their specific implementation.",
+          "title": "PepsiCo Labs Finance Innovation Program Briefs",
+          "url": "https://labs.pepsico.com/prod/s3fs-public/2025-02/Finance%20Program%20Briefs%202025FEB10_0.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Data Privacy Policy with Responsible AI Policy Reference,\" provides evidence for the **governance** pillar of responsible AI. It demonstrates a commitment to AI governance by referencing a \"Global Responsible AI Policy,\" indicating formal standards are in place. The document also outlines a governance structure including a Privacy Office, dedicated privacy professionals, and mandatory employee training on data privacy risks and regulations.",
+          "title": "Data Privacy Policy with Responsible AI Policy Reference",
+          "url": "https://pepsico.com/en/esg-topics/data-privacy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This press release from PepsiCo provides evidence for **governance** and **transparency**. It supports governance by committing to AI skills training through their Digital Academy, indicating a structured approach to responsible adoption. Transparency is evidenced by descriptions of AI applications like machine learning for quality control and NLP for customer service, which illustrate how AI functions are being integrated and utilized.",
+          "title": "Artificial Intelligence at PepsiCo",
+          "url": "https://pepsico.com/en/newsroom/stories/2021/artificial-intelligence-at-pepsico"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_019",
+          "source_tier": "authority",
+          "summary": "This PepsiCo 2025 Proxy Statement provides evidence for the **governance** pillar of responsible AI. The proxy statement details the Board's oversight of risk management, including cybersecurity and emerging technology risks, and references the significant technology and data analytics expertise of its independent directors. Furthermore, the document indicates a finalized roadmap for AI and automation, demonstrating strategic direction and accountability for AI initiatives.",
+          "title": "PepsiCo 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/77476/000130817925000289/pep4354281-def14a.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"EqualAI Releases Responsible AI Governance Framework Report,\" provides evidence for the **governance** pillar of responsible AI. It outlines six key pillars of responsible AI governance, including \"accountability and clear lines of responsibility\" and \"defined processes,\" indicating policy commitments. The report also mentions the requirement for a designated authority responsible for AI governance, further supporting the establishment of accountability.",
+          "title": "EqualAI Releases Responsible AI Governance Framework Report",
+          "url": "https://techstrong.ai/articles/equalai-releases-a-report-containing-six-pillars-of-responsible-ai-use"
+        }
+      ],
+      "score": 2,
+      "source_count": 13
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 4,
+      "findings": "Technical papers describe security best practices, such as network isolation and incident response planning, in the context of securing RAG LLM deployments.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"PepsiCo and JetBlue: Securing RAG LLM Deployments,\" provides evidence for the **governance** and **privacy** pillars. It details robust security measures for RAG LLM deployments, including role-based access control (RBAC), multi-factor authentication, intrusion detection, and real-time SIEM monitoring, which demonstrate strong governance and data access controls supporting privacy. The paper also highlights security best practices like network isolation and incident response planning, further reinforcing its contribution to these pillars.",
+          "title": "PepsiCo and JetBlue: Securing RAG LLM Deployments",
+          "url": "https://cdotimes.com/2024/07/03/pepsico-and-jetblue-case-studies-in-securing-rag-llm-deployments"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 13,
+      "findings": "PepsiCo's published materials describe AI capabilities and use cases across various business functions, such as demand forecasting, carbon footprint reduction, artwork generation, quality control, and customer service. Formal guidelines for responsible AI describe transparency, which is also stated as a company value. Technical papers describe the existence of AI systems and automated processes for tasks like claims processing and policy queries.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release describes PepsiCo's generative AI applications, providing evidence for **governance** and **transparency**. The document implicitly supports governance by mentioning \"responsible AI practices\" and strategic adoption aims. Transparency is supported by detailing AI capabilities and use cases across various business functions, such as demand forecasting and carbon footprint reduction, explaining what the AI does without detailing execution or specific governance mechanisms.",
+          "title": "How PepsiCo Utilizes Generative AI to Drive Innovation",
+          "url": "https://aimresearch.co/ai-in-cpg-retail/how-pepsico-utilizes-generative-ai-to-drive-innovation-and-efficiency"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights PepsiCo's formal research into ethical AI, including addressing algorithmic bias and transparency concerns, and their commitment to advancing policy and best practices for responsible AI adoption in the consumer goods industry. The press release also mentions a specific AI deployment for artwork generation, indicating transparency in use cases.",
+          "title": "PepsiCo Begins Ethical AI Research with Stanford",
+          "url": "https://ciodive.com/news/PepsiCo-AI-research-partnership-Stanford-ethical-responsible/654445"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It highlights PepsiCo's formal guidelines for responsible AI, including transparency and fairness, and describes an operational vetting process managed by a governance committee for HR technology, which sometimes eliminates vendors to ensure ethical standards. The article also indicates awareness of AI governance, transparency, and bias avoidance as company values.",
+          "title": "PepsiCo People Leader: Gen AI Has 'Changed the Game'",
+          "url": "https://hrexecutive.com/pepsico-people-leader-gen-ai-has-changed-the-game-for-product-roadmaps"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"PepsiCo Labs Finance Innovation Program Briefs,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by implying the need for management and oversight of AI systems, particularly concerning data use and actions. Transparency is supported through mentions of AI systems and automated processes for tasks like claims processing and policy queries, indicating the existence of such systems without detailing their specific implementation.",
+          "title": "PepsiCo Labs Finance Innovation Program Briefs",
+          "url": "https://labs.pepsico.com/prod/s3fs-public/2025-02/Finance%20Program%20Briefs%202025FEB10_0.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This press release from PepsiCo provides evidence for **governance** and **transparency**. It supports governance by committing to AI skills training through their Digital Academy, indicating a structured approach to responsible adoption. Transparency is evidenced by descriptions of AI applications like machine learning for quality control and NLP for customer service, which illustrate how AI functions are being integrated and utilized.",
+          "title": "Artificial Intelligence at PepsiCo",
+          "url": "https://pepsico.com/en/newsroom/stories/2021/artificial-intelligence-at-pepsico"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:57:14Z",
+  "run_id": "20260203_030004_230f",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Governance & Accountability"
+    ],
+    "overall_findings": "PepsiCo's responsible AI documentation includes both operational practices and policy-level evidence across 4 of 7 evaluated pillars. Operational practices are documented for governance, with published materials describing responsible AI practices and strategic adoption aims. Policy-level evidence addresses transparency, fairness, and privacy; for instance, transparency materials describe AI capabilities for demand forecasting, and privacy disclosures detail security best practices like network isolation for RAG LLM deployments. No qualifying public evidence was found for explainability, oversight, and 1 additional pillar, based on a review of 22 publicly available sources.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 48,
+    "total_sources_used": 13
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Uber",
+  "company_slug": "uber",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 44,
+      "OPERATIONAL": 32,
+      "POLICY": 71
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 10,
+      "findings": "A privacy notice explicitly discloses automated decision-making processes and the factors considered for core functions like matching, pricing, safety, and fraud detection. However, third-party reports document Uber's opaque algorithmic decision-making processes, highlighting a lack of explainability in deactivation reasons and AI-driven pay and work assignment systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Driven Out by AI,\" provides evidence for **explainability, fairness, governance, oversight, and transparency**. The report documents Uber's opaque algorithmic decision-making processes, highlighting a lack of transparency and explainability in deactivation reasons. It also details racial disparities and disproportionate impacts on drivers of color, indicating significant fairness concerns, and critiques Uber's governance and oversight mechanisms, which often fail to provide adequate human review or accountability for automated decisions.",
+          "title": "Driven Out by AI: A Report on Uber's Opaque and Unfair Deactivation Process",
+          "url": "https://acrecampaigns.org/wp-content/uploads/2025/03/Driven-Out-by-AI-report.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "Uber's Privacy Notice for Drivers and Delivery People provides evidence for **transparency**, **governance**, **oversight**, and **explainability**. This policy document details the use of AI/ML tools for core functions like matching, pricing, safety, and fraud detection, explicitly disclosing automated decision-making processes and the factors considered. It also implies governance and oversight through mentions of vendor due diligence, management of automated systems for verification and fraud prevention, and the review of automated decisions by personnel.",
+          "title": "Uber Privacy Notice: Drivers and Delivery People",
+          "url": "https://uber.com/global/en/privacy-notice-drivers-delivery-people"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay,\" provides evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The study, utilizing GDPR subject access requests, documents how Uber's AI-driven pay and work assignment systems lack transparency and explainability, leading to reduced driver pay and increased company commissions. The report highlights concerns about fairness due to the \"gamblification\" of algorithmic pricing and limited worker ability to challenge automated decisions, underscoring the need for governance and oversight.",
+          "title": "New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay",
+          "url": "https://workerinfoexchange.org/post/new-research-exposes-deepening-exploitation-of-uber-drivers-by-algorithmic-pay"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 6,
+      "findings": "Uber has published its external algorithmic audit report, which is referenced in an audit report announcement and a proxy statement. An annual report's disclosures on AI/ML and algorithm risks, along with references to GDPR regulations concerning automated processing and personal data, indicate the need for and consideration of external accountability frameworks. A third-party report documents the utilization of GDPR subject access requests.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This audit report announcement from ORCAA indicates Uber has published its external algorithmic audit report, providing evidence for **external_accountability** and **governance**. The report's publication signifies a formal approach to managing AI through documented governance systems and processes, and the focus on algorithmic risk management and auditing directly supports these pillars.",
+          "title": "ORCAA - Uber Publishes Report on AI Governance Systems and Processes",
+          "url": "https://orcaarisk.com/in-the-news/2024/12/4/uber-publishes-orcaas-report-on-its-ai-governance"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **external accountability**, and **privacy**. It details the Board's oversight structure for AI governance, including regular updates and the inclusion of AI-related goals in executive compensation, demonstrating strong governance. The document also supports external accountability by referencing a publicly released external audit report on AI governance, and it touches upon privacy through its mention of policies covering AI and related areas.",
+          "title": "Uber Technologies Proxy Statement (DEF 14A) 2025",
+          "url": "https://sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "The Uber Technologies Form 10-K Annual Report 2024 provides evidence for **external_accountability, fairness, governance, and privacy**. This SEC filing discusses risks related to AI and automated decision-making systems, including potential algorithmic bias and regulatory compliance, which supports **fairness** and **governance**. Furthermore, the report's disclosures on AI/ML and algorithm risks, along with references to GDPR regulations concerning automated processing and personal data, indicate the need for and consideration of **privacy** and **external_accountability** frameworks.",
+          "title": "Uber Technologies Form 10-K Annual Report 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay,\" provides evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The study, utilizing GDPR subject access requests, documents how Uber's AI-driven pay and work assignment systems lack transparency and explainability, leading to reduced driver pay and increased company commissions. The report highlights concerns about fairness due to the \"gamblification\" of algorithmic pricing and limited worker ability to challenge automated decisions, underscoring the need for governance and oversight.",
+          "title": "New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay",
+          "url": "https://workerinfoexchange.org/post/new-research-exposes-deepening-exploitation-of-uber-drivers-by-algorithmic-pay"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 22,
+      "findings": "Third-party reports detail racial disparities and disproportionate impacts on drivers of color, indicating significant fairness concerns, and document how AI-driven pay systems lead to reduced driver pay. A technical paper investigates algorithmic fairness concerns in rideshare platforms and commits to evaluating and measuring fairness. Company documents outline bias mitigation strategies, operational quality frameworks, structured testing protocols for bias and accuracy, and describe trained agents conducting multi-step reviews of flagged accounts. An annual report also discusses risks related to potential algorithmic bias.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Driven Out by AI,\" provides evidence for **explainability, fairness, governance, oversight, and transparency**. The report documents Uber's opaque algorithmic decision-making processes, highlighting a lack of transparency and explainability in deactivation reasons. It also details racial disparities and disproportionate impacts on drivers of color, indicating significant fairness concerns, and critiques Uber's governance and oversight mechanisms, which often fail to provide adequate human review or accountability for automated decisions.",
+          "title": "Driven Out by AI: A Report on Uber's Opaque and Unfair Deactivation Process",
+          "url": "https://acrecampaigns.org/wp-content/uploads/2025/03/Driven-Out-by-AI-report.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Evaluating Fairness in Black-box Algorithmic Markets,\" provides evidence for the **fairness** and **transparency** pillars. The paper investigates algorithmic fairness concerns in rideshare platforms, specifically focusing on pricing and matching systems that may impact equity for drivers and riders. It highlights a lack of transparency due to \"black-box algorithms\" and commits to evaluating and measuring fairness by attempting to replicate these opaque pricing mechanisms.",
+          "title": "Evaluating Fairness in Black-box Algorithmic Markets",
+          "url": "https://arxiv.org/html/2407.20522v1"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "The Uber Technologies Form 10-K Annual Report 2024 provides evidence for **external_accountability, fairness, governance, and privacy**. This SEC filing discusses risks related to AI and automated decision-making systems, including potential algorithmic bias and regulatory compliance, which supports **fairness** and **governance**. Furthermore, the report's disclosures on AI/ML and algorithm risks, along with references to GDPR regulations concerning automated processing and personal data, indicate the need for and consideration of **privacy** and **external_accountability** frameworks.",
+          "title": "Uber Technologies Form 10-K Annual Report 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This Uber help page on driver and courier identity verification provides evidence for **transparency**, **governance**, **oversight**, and **fairness**. It supports transparency and governance by mentioning the use of machine learning tools for account integrity. Furthermore, it demonstrates oversight and fairness through its description of trained agents conducting multi-step reviews of flagged accounts.",
+          "title": "Strengthening our processes to verify driver and courier identity",
+          "url": "https://uber.com/newsroom/courier-identity-us"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Building Trust in Agentic AI: Governance & Responsible AI,\" provides evidence for the pillars of fairness, governance, privacy, and transparency. It supports fairness and transparency by outlining concrete practices for AI, including bias mitigation strategies like red-teaming and feedback loops, and operational quality frameworks such as golden datasets. The document also supports governance by mentioning accountability and agentic AI frameworks, and privacy by detailing how abstract values are translated into practices.",
+          "title": "Building Trust in Agentic AI: Governance & Responsible AI",
+          "url": "https://uber.com/us/en/ai-solutions/building-trust-in-agentic-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"How Uber's Scaled Solutions tests and evaluates LLM and AI models,\" provides evidence for **fairness, governance, oversight, and transparency**. The post details structured testing protocols and evaluation areas like bias and accuracy, supporting fairness and governance. Furthermore, it describes continuous monitoring and human expert review of AI outputs post-deployment, demonstrating operational oversight and governance.",
+          "title": "How Uber's Scaled Solutions tests and evaluates LLM and AI models",
+          "url": "https://uber.com/us/en/scaled-solutions/resources/llm-eval-ai-models"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay,\" provides evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The study, utilizing GDPR subject access requests, documents how Uber's AI-driven pay and work assignment systems lack transparency and explainability, leading to reduced driver pay and increased company commissions. The report highlights concerns about fairness due to the \"gamblification\" of algorithmic pricing and limited worker ability to challenge automated decisions, underscoring the need for governance and oversight.",
+          "title": "New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay",
+          "url": "https://workerinfoexchange.org/post/new-research-exposes-deepening-exploitation-of-uber-drivers-by-algorithmic-pay"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 89,
+      "findings": "Uber's governance practices include a framework for measuring ML quality with standardization for tracking and decision-making, and operational governance through version control, code review, and resource allocation schemes. Company documents also detail structured testing protocols, evaluation areas like bias and accuracy, continuous monitoring, and human expert review of AI outputs post-deployment. Furthermore, Uber references accountability and agentic AI frameworks, and implies governance through discussions of AI/ML system design challenges, LLM framework evaluation, and resource management frameworks, though third-party reports critique governance mechanisms for often failing to provide adequate human review or accountability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Driven Out by AI,\" provides evidence for **explainability, fairness, governance, oversight, and transparency**. The report documents Uber's opaque algorithmic decision-making processes, highlighting a lack of transparency and explainability in deactivation reasons. It also details racial disparities and disproportionate impacts on drivers of color, indicating significant fairness concerns, and critiques Uber's governance and oversight mechanisms, which often fail to provide adequate human review or accountability for automated decisions.",
+          "title": "Driven Out by AI: A Report on Uber's Opaque and Unfair Deactivation Process",
+          "url": "https://acrecampaigns.org/wp-content/uploads/2025/03/Driven-Out-by-AI-report.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This audit report announcement from ORCAA indicates Uber has published its external algorithmic audit report, providing evidence for **external_accountability** and **governance**. The report's publication signifies a formal approach to managing AI through documented governance systems and processes, and the focus on algorithmic risk management and auditing directly supports these pillars.",
+          "title": "ORCAA - Uber Publishes Report on AI Governance Systems and Processes",
+          "url": "https://orcaarisk.com/in-the-news/2024/12/4/uber-publishes-orcaas-report-on-its-ai-governance"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **external accountability**, and **privacy**. It details the Board's oversight structure for AI governance, including regular updates and the inclusion of AI-related goals in executive compensation, demonstrating strong governance. The document also supports external accountability by referencing a publicly released external audit report on AI governance, and it touches upon privacy through its mention of policies covering AI and related areas.",
+          "title": "Uber Technologies Proxy Statement (DEF 14A) 2025",
+          "url": "https://sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "The Uber Technologies Form 10-K Annual Report 2024 provides evidence for **external_accountability, fairness, governance, and privacy**. This SEC filing discusses risks related to AI and automated decision-making systems, including potential algorithmic bias and regulatory compliance, which supports **fairness** and **governance**. Furthermore, the report's disclosures on AI/ML and algorithm risks, along with references to GDPR regulations concerning automated processing and personal data, indicate the need for and consideration of **privacy** and **external_accountability** frameworks.",
+          "title": "Uber Technologies Form 10-K Annual Report 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Model Excellence Scores: A Framework for Enhancing the Quality of ML Systems,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The post describes a framework for measuring ML quality that includes standardization for tracking and decision-making, implying a commitment to governance. It also highlights a transparent reporting system for ML quality, emphasizing visibility and a culture of understanding ML systems, which directly supports the transparency pillar.",
+          "title": "Model Excellence Scores: A Framework for Enhancing the Quality of ML Systems",
+          "url": "https://uber.com/blog/enhancing-the-quality-of-machine-learning-systems-at-scale"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance, privacy, and transparency**. It details the evolution of Uber's Michelangelo platform, highlighting operational governance through practices like version control, code review, and a tiering scheme for resource allocation. The post also supports privacy by mentioning PII redaction and safeguarding privacy, and transparency through its description of an AI system inventory (Model Catalog) and operational workflows for AI development and deployment.",
+          "title": "From Predictive to Generative - How Michelangelo Accelerates AI",
+          "url": "https://uber.com/blog/from-predictive-to-generative-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Engineering More Reliable Transportation with ML and AI at Uber,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog post details Uber's use of machine learning across various core business functions, including dispatch, pricing, and fraud detection, and describes their Michelangelo ML-as-a-service platform. This comprehensive overview of their ML infrastructure, algorithms, and deployment processes demonstrates transparency in how AI is utilized and implies governance through the description of platform building for efficiency and reliability.",
+          "title": "Engineering More Reliable Transportation with ML and AI at Uber",
+          "url": "https://uber.com/blog/machine-learning"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Raising the Bar on ML Model Deployment Safety,\" provides evidence for **governance** and **transparency**. It details Uber's strategy for ML model deployment safety, including mandatory validation steps like backtesting and shadow testing, continuous monitoring with real-time health checks, and automated safeguards such as alerts and rollbacks, all of which demonstrate robust operational governance. Furthermore, the post outlines transparency in deployment readiness through scoring systems and coverage metrics, and transparency about AI systems in use by describing ML use cases and platform capabilities.",
+          "title": "Raising the Bar on ML Model Deployment Safety",
+          "url": "https://uber.com/blog/raising-the-bar-on-ml-model-deployment-safety"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This Uber blog post provides evidence for **governance** and **transparency** in Responsible AI. It supports transparency by detailing specific metrics and evaluation methods for LLM performance, describing AI/ML systems in use and their capabilities, and highlighting specific AI applications and their hardware requirements. The post also implies governance through its discussion of challenges in designing diverse AI/ML systems, mentioning the evaluation of LLM frameworks, and describing a framework for designing and experimenting with LLM resource management.",
+          "title": "Scaling AI/ML Infrastructure at Uber",
+          "url": "https://www.uber.com/blog/scaling-ai-ml-infrastructure-at-uber/"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "Uber's Privacy Notice for Drivers and Delivery People provides evidence for **transparency**, **governance**, **oversight**, and **explainability**. This policy document details the use of AI/ML tools for core functions like matching, pricing, safety, and fraud detection, explicitly disclosing automated decision-making processes and the factors considered. It also implies governance and oversight through mentions of vendor due diligence, management of automated systems for verification and fraud prevention, and the review of automated decisions by personnel.",
+          "title": "Uber Privacy Notice: Drivers and Delivery People",
+          "url": "https://uber.com/global/en/privacy-notice-drivers-delivery-people"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This Uber help page on driver and courier identity verification provides evidence for **transparency**, **governance**, **oversight**, and **fairness**. It supports transparency and governance by mentioning the use of machine learning tools for account integrity. Furthermore, it demonstrates oversight and fairness through its description of trained agents conducting multi-step reviews of flagged accounts.",
+          "title": "Strengthening our processes to verify driver and courier identity",
+          "url": "https://uber.com/newsroom/courier-identity-us"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Building Trust in Agentic AI: Governance & Responsible AI,\" provides evidence for the pillars of fairness, governance, privacy, and transparency. It supports fairness and transparency by outlining concrete practices for AI, including bias mitigation strategies like red-teaming and feedback loops, and operational quality frameworks such as golden datasets. The document also supports governance by mentioning accountability and agentic AI frameworks, and privacy by detailing how abstract values are translated into practices.",
+          "title": "Building Trust in Agentic AI: Governance & Responsible AI",
+          "url": "https://uber.com/us/en/ai-solutions/building-trust-in-agentic-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Human-in-the-Loop Data Validation for Physical AI,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It details Uber's commitment to data validation standards, a multi-stage review process with expert approval and escalation, and real-time monitoring with automated flagging for human re-evaluation, all of which demonstrate robust governance and operational oversight in their AI data services.",
+          "title": "Human-in-the-Loop Data Validation for Physical AI",
+          "url": "https://uber.com/us/en/ai-solutions/resources/human-in-the-loop-validation-for-physical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Human-in-the-Loop (HITL) for AI Data Labeling,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The post details mechanisms like human review, auditing, and quality checks within the uLabel platform, demonstrating operational oversight and governance for AI data. Furthermore, it highlights the importance of human corrections in a feedback loop to improve ML models and ensure data quality, underscoring the role of human oversight in achieving AI accuracy and reliability.",
+          "title": "Human-in-the-Loop (HITL) for AI Data Labeling",
+          "url": "https://uber.com/us/en/scaled-solutions/resources/human-in-the-loop"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"How Uber's Scaled Solutions tests and evaluates LLM and AI models,\" provides evidence for **fairness, governance, oversight, and transparency**. The post details structured testing protocols and evaluation areas like bias and accuracy, supporting fairness and governance. Furthermore, it describes continuous monitoring and human expert review of AI outputs post-deployment, demonstrating operational oversight and governance.",
+          "title": "How Uber's Scaled Solutions tests and evaluates LLM and AI models",
+          "url": "https://uber.com/us/en/scaled-solutions/resources/llm-eval-ai-models"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay,\" provides evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The study, utilizing GDPR subject access requests, documents how Uber's AI-driven pay and work assignment systems lack transparency and explainability, leading to reduced driver pay and increased company commissions. The report highlights concerns about fairness due to the \"gamblification\" of algorithmic pricing and limited worker ability to challenge automated decisions, underscoring the need for governance and oversight.",
+          "title": "New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay",
+          "url": "https://workerinfoexchange.org/post/new-research-exposes-deepening-exploitation-of-uber-drivers-by-algorithmic-pay"
+        }
+      ],
+      "score": 2,
+      "source_count": 16
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 25,
+      "findings": "Company documents describe operational oversight through mechanisms like human review, auditing, quality checks within the uLabel platform, and continuous monitoring and human expert review of AI outputs post-deployment. These documents also highlight the importance of human corrections in a feedback loop to improve ML models and ensure data quality. A privacy notice references vendor due diligence, management of automated systems, and review of automated decisions by personnel, though a third-party report critiques oversight mechanisms for often failing to provide adequate human review or accountability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Driven Out by AI,\" provides evidence for **explainability, fairness, governance, oversight, and transparency**. The report documents Uber's opaque algorithmic decision-making processes, highlighting a lack of transparency and explainability in deactivation reasons. It also details racial disparities and disproportionate impacts on drivers of color, indicating significant fairness concerns, and critiques Uber's governance and oversight mechanisms, which often fail to provide adequate human review or accountability for automated decisions.",
+          "title": "Driven Out by AI: A Report on Uber's Opaque and Unfair Deactivation Process",
+          "url": "https://acrecampaigns.org/wp-content/uploads/2025/03/Driven-Out-by-AI-report.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "Uber's Privacy Notice for Drivers and Delivery People provides evidence for **transparency**, **governance**, **oversight**, and **explainability**. This policy document details the use of AI/ML tools for core functions like matching, pricing, safety, and fraud detection, explicitly disclosing automated decision-making processes and the factors considered. It also implies governance and oversight through mentions of vendor due diligence, management of automated systems for verification and fraud prevention, and the review of automated decisions by personnel.",
+          "title": "Uber Privacy Notice: Drivers and Delivery People",
+          "url": "https://uber.com/global/en/privacy-notice-drivers-delivery-people"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This Uber help page on driver and courier identity verification provides evidence for **transparency**, **governance**, **oversight**, and **fairness**. It supports transparency and governance by mentioning the use of machine learning tools for account integrity. Furthermore, it demonstrates oversight and fairness through its description of trained agents conducting multi-step reviews of flagged accounts.",
+          "title": "Strengthening our processes to verify driver and courier identity",
+          "url": "https://uber.com/newsroom/courier-identity-us"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Human-in-the-Loop Data Validation for Physical AI,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It details Uber's commitment to data validation standards, a multi-stage review process with expert approval and escalation, and real-time monitoring with automated flagging for human re-evaluation, all of which demonstrate robust governance and operational oversight in their AI data services.",
+          "title": "Human-in-the-Loop Data Validation for Physical AI",
+          "url": "https://uber.com/us/en/ai-solutions/resources/human-in-the-loop-validation-for-physical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Human-in-the-Loop (HITL) for AI Data Labeling,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The post details mechanisms like human review, auditing, and quality checks within the uLabel platform, demonstrating operational oversight and governance for AI data. Furthermore, it highlights the importance of human corrections in a feedback loop to improve ML models and ensure data quality, underscoring the role of human oversight in achieving AI accuracy and reliability.",
+          "title": "Human-in-the-Loop (HITL) for AI Data Labeling",
+          "url": "https://uber.com/us/en/scaled-solutions/resources/human-in-the-loop"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"How Uber's Scaled Solutions tests and evaluates LLM and AI models,\" provides evidence for **fairness, governance, oversight, and transparency**. The post details structured testing protocols and evaluation areas like bias and accuracy, supporting fairness and governance. Furthermore, it describes continuous monitoring and human expert review of AI outputs post-deployment, demonstrating operational oversight and governance.",
+          "title": "How Uber's Scaled Solutions tests and evaluates LLM and AI models",
+          "url": "https://uber.com/us/en/scaled-solutions/resources/llm-eval-ai-models"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay,\" provides evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The study, utilizing GDPR subject access requests, documents how Uber's AI-driven pay and work assignment systems lack transparency and explainability, leading to reduced driver pay and increased company commissions. The report highlights concerns about fairness due to the \"gamblification\" of algorithmic pricing and limited worker ability to challenge automated decisions, underscoring the need for governance and oversight.",
+          "title": "New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay",
+          "url": "https://workerinfoexchange.org/post/new-research-exposes-deepening-exploitation-of-uber-drivers-by-algorithmic-pay"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 11,
+      "findings": "Company documents mention PII redaction and safeguarding privacy, and detail how abstract values are translated into practices supporting privacy. A proxy statement mentions policies covering AI and related areas, touching upon privacy. An annual report references GDPR regulations concerning automated processing and personal data, indicating the need for and consideration of privacy frameworks.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **external accountability**, and **privacy**. It details the Board's oversight structure for AI governance, including regular updates and the inclusion of AI-related goals in executive compensation, demonstrating strong governance. The document also supports external accountability by referencing a publicly released external audit report on AI governance, and it touches upon privacy through its mention of policies covering AI and related areas.",
+          "title": "Uber Technologies Proxy Statement (DEF 14A) 2025",
+          "url": "https://sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "The Uber Technologies Form 10-K Annual Report 2024 provides evidence for **external_accountability, fairness, governance, and privacy**. This SEC filing discusses risks related to AI and automated decision-making systems, including potential algorithmic bias and regulatory compliance, which supports **fairness** and **governance**. Furthermore, the report's disclosures on AI/ML and algorithm risks, along with references to GDPR regulations concerning automated processing and personal data, indicate the need for and consideration of **privacy** and **external_accountability** frameworks.",
+          "title": "Uber Technologies Form 10-K Annual Report 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance, privacy, and transparency**. It details the evolution of Uber's Michelangelo platform, highlighting operational governance through practices like version control, code review, and a tiering scheme for resource allocation. The post also supports privacy by mentioning PII redaction and safeguarding privacy, and transparency through its description of an AI system inventory (Model Catalog) and operational workflows for AI development and deployment.",
+          "title": "From Predictive to Generative - How Michelangelo Accelerates AI",
+          "url": "https://uber.com/blog/from-predictive-to-generative-ai"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "Uber's Privacy Notice for Drivers and Delivery People provides evidence for **transparency**, **governance**, **oversight**, and **explainability**. This policy document details the use of AI/ML tools for core functions like matching, pricing, safety, and fraud detection, explicitly disclosing automated decision-making processes and the factors considered. It also implies governance and oversight through mentions of vendor due diligence, management of automated systems for verification and fraud prevention, and the review of automated decisions by personnel.",
+          "title": "Uber Privacy Notice: Drivers and Delivery People",
+          "url": "https://uber.com/global/en/privacy-notice-drivers-delivery-people"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Building Trust in Agentic AI: Governance & Responsible AI,\" provides evidence for the pillars of fairness, governance, privacy, and transparency. It supports fairness and transparency by outlining concrete practices for AI, including bias mitigation strategies like red-teaming and feedback loops, and operational quality frameworks such as golden datasets. The document also supports governance by mentioning accountability and agentic AI frameworks, and privacy by detailing how abstract values are translated into practices.",
+          "title": "Building Trust in Agentic AI: Governance & Responsible AI",
+          "url": "https://uber.com/us/en/ai-solutions/building-trust-in-agentic-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 74,
+      "findings": "Company blog posts describe a transparent reporting system for ML quality, an AI system inventory (Model Catalog), and operational workflows for AI development and deployment. These posts also outline transparency in deployment readiness through scoring systems and coverage metrics, and describe AI/ML systems in use, their capabilities, specific applications, and evaluation methods for LLM performance. A privacy notice explicitly discloses automated decision-making processes and factors considered for core functions, though third-party reports document a lack of transparency in algorithmic decision-making, deactivation reasons, and AI-driven pay and work assignment systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Driven Out by AI,\" provides evidence for **explainability, fairness, governance, oversight, and transparency**. The report documents Uber's opaque algorithmic decision-making processes, highlighting a lack of transparency and explainability in deactivation reasons. It also details racial disparities and disproportionate impacts on drivers of color, indicating significant fairness concerns, and critiques Uber's governance and oversight mechanisms, which often fail to provide adequate human review or accountability for automated decisions.",
+          "title": "Driven Out by AI: A Report on Uber's Opaque and Unfair Deactivation Process",
+          "url": "https://acrecampaigns.org/wp-content/uploads/2025/03/Driven-Out-by-AI-report.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Evaluating Fairness in Black-box Algorithmic Markets,\" provides evidence for the **fairness** and **transparency** pillars. The paper investigates algorithmic fairness concerns in rideshare platforms, specifically focusing on pricing and matching systems that may impact equity for drivers and riders. It highlights a lack of transparency due to \"black-box algorithms\" and commits to evaluating and measuring fairness by attempting to replicate these opaque pricing mechanisms.",
+          "title": "Evaluating Fairness in Black-box Algorithmic Markets",
+          "url": "https://arxiv.org/html/2407.20522v1"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Model Excellence Scores: A Framework for Enhancing the Quality of ML Systems,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The post describes a framework for measuring ML quality that includes standardization for tracking and decision-making, implying a commitment to governance. It also highlights a transparent reporting system for ML quality, emphasizing visibility and a culture of understanding ML systems, which directly supports the transparency pillar.",
+          "title": "Model Excellence Scores: A Framework for Enhancing the Quality of ML Systems",
+          "url": "https://uber.com/blog/enhancing-the-quality-of-machine-learning-systems-at-scale"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance, privacy, and transparency**. It details the evolution of Uber's Michelangelo platform, highlighting operational governance through practices like version control, code review, and a tiering scheme for resource allocation. The post also supports privacy by mentioning PII redaction and safeguarding privacy, and transparency through its description of an AI system inventory (Model Catalog) and operational workflows for AI development and deployment.",
+          "title": "From Predictive to Generative - How Michelangelo Accelerates AI",
+          "url": "https://uber.com/blog/from-predictive-to-generative-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Engineering More Reliable Transportation with ML and AI at Uber,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog post details Uber's use of machine learning across various core business functions, including dispatch, pricing, and fraud detection, and describes their Michelangelo ML-as-a-service platform. This comprehensive overview of their ML infrastructure, algorithms, and deployment processes demonstrates transparency in how AI is utilized and implies governance through the description of platform building for efficiency and reliability.",
+          "title": "Engineering More Reliable Transportation with ML and AI at Uber",
+          "url": "https://uber.com/blog/machine-learning"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Raising the Bar on ML Model Deployment Safety,\" provides evidence for **governance** and **transparency**. It details Uber's strategy for ML model deployment safety, including mandatory validation steps like backtesting and shadow testing, continuous monitoring with real-time health checks, and automated safeguards such as alerts and rollbacks, all of which demonstrate robust operational governance. Furthermore, the post outlines transparency in deployment readiness through scoring systems and coverage metrics, and transparency about AI systems in use by describing ML use cases and platform capabilities.",
+          "title": "Raising the Bar on ML Model Deployment Safety",
+          "url": "https://uber.com/blog/raising-the-bar-on-ml-model-deployment-safety"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This Uber blog post provides evidence for **governance** and **transparency** in Responsible AI. It supports transparency by detailing specific metrics and evaluation methods for LLM performance, describing AI/ML systems in use and their capabilities, and highlighting specific AI applications and their hardware requirements. The post also implies governance through its discussion of challenges in designing diverse AI/ML systems, mentioning the evaluation of LLM frameworks, and describing a framework for designing and experimenting with LLM resource management.",
+          "title": "Scaling AI/ML Infrastructure at Uber",
+          "url": "https://www.uber.com/blog/scaling-ai-ml-infrastructure-at-uber/"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "Uber's Privacy Notice for Drivers and Delivery People provides evidence for **transparency**, **governance**, **oversight**, and **explainability**. This policy document details the use of AI/ML tools for core functions like matching, pricing, safety, and fraud detection, explicitly disclosing automated decision-making processes and the factors considered. It also implies governance and oversight through mentions of vendor due diligence, management of automated systems for verification and fraud prevention, and the review of automated decisions by personnel.",
+          "title": "Uber Privacy Notice: Drivers and Delivery People",
+          "url": "https://uber.com/global/en/privacy-notice-drivers-delivery-people"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This Uber help page on driver and courier identity verification provides evidence for **transparency**, **governance**, **oversight**, and **fairness**. It supports transparency and governance by mentioning the use of machine learning tools for account integrity. Furthermore, it demonstrates oversight and fairness through its description of trained agents conducting multi-step reviews of flagged accounts.",
+          "title": "Strengthening our processes to verify driver and courier identity",
+          "url": "https://uber.com/newsroom/courier-identity-us"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Building Trust in Agentic AI: Governance & Responsible AI,\" provides evidence for the pillars of fairness, governance, privacy, and transparency. It supports fairness and transparency by outlining concrete practices for AI, including bias mitigation strategies like red-teaming and feedback loops, and operational quality frameworks such as golden datasets. The document also supports governance by mentioning accountability and agentic AI frameworks, and privacy by detailing how abstract values are translated into practices.",
+          "title": "Building Trust in Agentic AI: Governance & Responsible AI",
+          "url": "https://uber.com/us/en/ai-solutions/building-trust-in-agentic-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"How Uber's Scaled Solutions tests and evaluates LLM and AI models,\" provides evidence for **fairness, governance, oversight, and transparency**. The post details structured testing protocols and evaluation areas like bias and accuracy, supporting fairness and governance. Furthermore, it describes continuous monitoring and human expert review of AI outputs post-deployment, demonstrating operational oversight and governance.",
+          "title": "How Uber's Scaled Solutions tests and evaluates LLM and AI models",
+          "url": "https://uber.com/us/en/scaled-solutions/resources/llm-eval-ai-models"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay,\" provides evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The study, utilizing GDPR subject access requests, documents how Uber's AI-driven pay and work assignment systems lack transparency and explainability, leading to reduced driver pay and increased company commissions. The report highlights concerns about fairness due to the \"gamblification\" of algorithmic pricing and limited worker ability to challenge automated decisions, underscoring the need for governance and oversight.",
+          "title": "New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay",
+          "url": "https://workerinfoexchange.org/post/new-research-exposes-deepening-exploitation-of-uber-drivers-by-algorithmic-pay"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    }
+  },
+  "published_at": "2026-02-23T21:59:46Z",
+  "run_id": "20260203_030427_764a",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "A company blog post describes a transparent reporting system for ML quality at Uber, with published materials addressing all 7 evaluated responsible AI pillars. Operational practices are also documented for governance, where an audit report announcement indicates the publication of an external algorithmic audit report, and for fairness, where third-party reports detail racial disparities and disproportionate impacts on drivers of color. Explainability and external accountability are addressed at the policy level, with a privacy notice explicitly disclosing automated decision-making processes. This assessment draws on 22 publicly available sources.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 147,
+    "total_sources_used": 17
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "Southwest Airlines",
+  "company_slug": "southwest-airlines",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 4,
+      "OPERATIONAL": 13,
+      "POLICY": 25
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 4,
+      "findings": "Southwest Airlines' Form 10-K (FY 2024) discusses regulatory requirements and compliance reviews related to AI. The Form 10-K (FY 2023) further demonstrates external accountability through monthly comparisons to third-party valuations for financial models.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Southwest Airlines Form 10-K (FY 2024) provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. This SEC filing discusses regulatory requirements and compliance reviews related to AI, as well as the company's processes for evaluating and managing cybersecurity risks, including those from AI vendors. It also mentions algorithmic biases, generative AI capabilities and testing, and the use of AI for operational improvements and threat detection, demonstrating transparency in AI application and operational governance.",
+          "title": "Southwest Airlines Form 10-K (FY 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This Southwest Airlines Form 10-K (FY 2023) provides evidence for **external_accountability, fairness, governance, and privacy**. The filing supports **governance** by describing the operational use of a \"predictive statistical model\" based on historical data and detailing an annual evaluation process with adjustments. It touches upon **fairness** and **governance** by mentioning AI risks and biases, and supports **privacy** by referencing data protection considerations. Furthermore, the document demonstrates **external_accountability** through monthly comparisons to third-party valuations for financial models.",
+          "title": "Southwest Airlines Form 10-K (FY 2023)",
+          "url": "https://sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "Southwest Airlines' Form 10-K (FY 2024) mentions algorithmic biases. Additionally, the Form 10-K (FY 2023) mentions AI risks and biases.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Southwest Airlines Form 10-K (FY 2024) provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. This SEC filing discusses regulatory requirements and compliance reviews related to AI, as well as the company's processes for evaluating and managing cybersecurity risks, including those from AI vendors. It also mentions algorithmic biases, generative AI capabilities and testing, and the use of AI for operational improvements and threat detection, demonstrating transparency in AI application and operational governance.",
+          "title": "Southwest Airlines Form 10-K (FY 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This Southwest Airlines Form 10-K (FY 2023) provides evidence for **external_accountability, fairness, governance, and privacy**. The filing supports **governance** by describing the operational use of a \"predictive statistical model\" based on historical data and detailing an annual evaluation process with adjustments. It touches upon **fairness** and **governance** by mentioning AI risks and biases, and supports **privacy** by referencing data protection considerations. Furthermore, the document demonstrates **external_accountability** through monthly comparisons to third-party valuations for financial models.",
+          "title": "Southwest Airlines Form 10-K (FY 2023)",
+          "url": "https://sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 22,
+      "findings": "Southwest Airlines' Form 10-K (FY 2024) discusses regulatory requirements, compliance reviews related to AI, and processes for evaluating and managing cybersecurity risks from AI vendors, demonstrating operational governance in AI application. The Form 10-K (FY 2023) describes the operational use of a predictive statistical model with an annual evaluation process and mentions AI risks and biases. A PwC case study highlights iterative reviews for \"GenAI tools\" and suggests an operational approach to managing GenAI implementation, while a technical paper details investment in AI/ML capabilities and demonstrates governance over specific applications like chatbots and operations optimization models.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Southwest Airlines Form 10-K (FY 2024) provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. This SEC filing discusses regulatory requirements and compliance reviews related to AI, as well as the company's processes for evaluating and managing cybersecurity risks, including those from AI vendors. It also mentions algorithmic biases, generative AI capabilities and testing, and the use of AI for operational improvements and threat detection, demonstrating transparency in AI application and operational governance.",
+          "title": "Southwest Airlines Form 10-K (FY 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This Southwest Airlines Form 10-K (FY 2023) provides evidence for **external_accountability, fairness, governance, and privacy**. The filing supports **governance** by describing the operational use of a \"predictive statistical model\" based on historical data and detailing an annual evaluation process with adjustments. It touches upon **fairness** and **governance** by mentioning AI risks and biases, and supports **privacy** by referencing data protection considerations. Furthermore, the document demonstrates **external_accountability** through monthly comparisons to third-party valuations for financial models.",
+          "title": "Southwest Airlines Form 10-K (FY 2023)",
+          "url": "https://sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This PwC case study on Southwest Airlines' GenAI Crew Management Modernization provides evidence for **governance** and **oversight**. The document highlights the use of \"GenAI tools\" and \"iterative reviews,\" indicating human oversight and governance in aligning AI outputs with business needs, suggesting an operational approach to managing the GenAI implementation.",
+          "title": "Southwest Airlines GenAI Crew Management Modernization (PwC Case Study)",
+          "url": "https://pwc.com/us/en/library/case-studies/southwest-ai-software-update.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper from the Harvard Digital Initiative provides evidence for the **governance** and **transparency** pillars of responsible AI. The document details Southwest's investment in AI/ML capabilities, including specific applications like a chatbot for customer queries and ML models for operations optimization, which demonstrates transparency in their AI strategy and governance over these applications. Furthermore, the description of AI model training for customer segmentation and the use of NLP in their chatbot highlights transparency in data use for profiling and the capabilities of their AI systems.",
+          "title": "Leveraging AI & Machine Learning at Southwest (Harvard Digital Initiative)",
+          "url": "https://d3.harvard.edu/platform-digit/submission/leveraging-ai-machine-learning-at-southwest"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "Southwest Airlines' Privacy Policy mentions a right against solely automated decisions and the right to object to profiling based on legitimate interests. The Form 10-K (FY 2024) discusses regulatory requirements, compliance reviews related to AI, and processes for evaluating and managing cybersecurity risks from AI vendors. A PwC case study highlights the use of \"GenAI tools\" with iterative reviews, indicating human oversight in aligning AI outputs with business needs.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The Southwest Airlines Privacy Policy provides evidence for the **oversight**, **privacy**, and **transparency** pillars. It supports **transparency** by disclosing the use of ML/automated technologies for customer service, monitoring, and analysis, and for applicant assessment. The policy also supports **privacy** by detailing data collection for profiling and personalized marketing, and by referencing rights related to automated processing and data transfer. Finally, it demonstrates **oversight** by mentioning a right against solely automated decisions and the right to object to profiling based on legitimate interests.",
+          "title": "Southwest Airlines Privacy Policy",
+          "url": "https://southwest.com/about-southwest/terms-and-conditions/privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Southwest Airlines Form 10-K (FY 2024) provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. This SEC filing discusses regulatory requirements and compliance reviews related to AI, as well as the company's processes for evaluating and managing cybersecurity risks, including those from AI vendors. It also mentions algorithmic biases, generative AI capabilities and testing, and the use of AI for operational improvements and threat detection, demonstrating transparency in AI application and operational governance.",
+          "title": "Southwest Airlines Form 10-K (FY 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This PwC case study on Southwest Airlines' GenAI Crew Management Modernization provides evidence for **governance** and **oversight**. The document highlights the use of \"GenAI tools\" and \"iterative reviews,\" indicating human oversight and governance in aligning AI outputs with business needs, suggesting an operational approach to managing the GenAI implementation.",
+          "title": "Southwest Airlines GenAI Crew Management Modernization (PwC Case Study)",
+          "url": "https://pwc.com/us/en/library/case-studies/southwest-ai-software-update.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 8,
+      "findings": "Southwest Airlines' Privacy Policy details data collection for profiling and personalized marketing, and references rights related to automated processing and data transfer. Additionally, the Form 10-K (FY 2023) references data protection considerations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The Southwest Airlines Privacy Policy provides evidence for the **oversight**, **privacy**, and **transparency** pillars. It supports **transparency** by disclosing the use of ML/automated technologies for customer service, monitoring, and analysis, and for applicant assessment. The policy also supports **privacy** by detailing data collection for profiling and personalized marketing, and by referencing rights related to automated processing and data transfer. Finally, it demonstrates **oversight** by mentioning a right against solely automated decisions and the right to object to profiling based on legitimate interests.",
+          "title": "Southwest Airlines Privacy Policy",
+          "url": "https://southwest.com/about-southwest/terms-and-conditions/privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Southwest Airlines Form 10-K (FY 2024) provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. This SEC filing discusses regulatory requirements and compliance reviews related to AI, as well as the company's processes for evaluating and managing cybersecurity risks, including those from AI vendors. It also mentions algorithmic biases, generative AI capabilities and testing, and the use of AI for operational improvements and threat detection, demonstrating transparency in AI application and operational governance.",
+          "title": "Southwest Airlines Form 10-K (FY 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This Southwest Airlines Form 10-K (FY 2023) provides evidence for **external_accountability, fairness, governance, and privacy**. The filing supports **governance** by describing the operational use of a \"predictive statistical model\" based on historical data and detailing an annual evaluation process with adjustments. It touches upon **fairness** and **governance** by mentioning AI risks and biases, and supports **privacy** by referencing data protection considerations. Furthermore, the document demonstrates **external_accountability** through monthly comparisons to third-party valuations for financial models.",
+          "title": "Southwest Airlines Form 10-K (FY 2023)",
+          "url": "https://sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 17,
+      "findings": "Southwest Airlines' Privacy Policy discloses the use of ML/automated technologies for customer service, monitoring, analysis, and applicant assessment, and details data collection for profiling and personalized marketing. The Form 10-K (FY 2024) mentions algorithmic biases, generative AI capabilities and testing, and the use of AI for operational improvements and threat detection. A technical paper further details investment in AI/ML capabilities, specific applications like chatbots and operations optimization models, AI model training for customer segmentation, and the use of NLP in their chatbot.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The Southwest Airlines Privacy Policy provides evidence for the **oversight**, **privacy**, and **transparency** pillars. It supports **transparency** by disclosing the use of ML/automated technologies for customer service, monitoring, and analysis, and for applicant assessment. The policy also supports **privacy** by detailing data collection for profiling and personalized marketing, and by referencing rights related to automated processing and data transfer. Finally, it demonstrates **oversight** by mentioning a right against solely automated decisions and the right to object to profiling based on legitimate interests.",
+          "title": "Southwest Airlines Privacy Policy",
+          "url": "https://southwest.com/about-southwest/terms-and-conditions/privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Southwest Airlines Form 10-K (FY 2024) provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. This SEC filing discusses regulatory requirements and compliance reviews related to AI, as well as the company's processes for evaluating and managing cybersecurity risks, including those from AI vendors. It also mentions algorithmic biases, generative AI capabilities and testing, and the use of AI for operational improvements and threat detection, demonstrating transparency in AI application and operational governance.",
+          "title": "Southwest Airlines Form 10-K (FY 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This PwC case study on Southwest Airlines' GenAI Crew Management Modernization provides evidence for **governance** and **oversight**. The document highlights the use of \"GenAI tools\" and \"iterative reviews,\" indicating human oversight and governance in aligning AI outputs with business needs, suggesting an operational approach to managing the GenAI implementation.",
+          "title": "Southwest Airlines GenAI Crew Management Modernization (PwC Case Study)",
+          "url": "https://pwc.com/us/en/library/case-studies/southwest-ai-software-update.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper from the Harvard Digital Initiative provides evidence for the **governance** and **transparency** pillars of responsible AI. The document details Southwest's investment in AI/ML capabilities, including specific applications like a chatbot for customer queries and ML models for operations optimization, which demonstrates transparency in their AI strategy and governance over these applications. Furthermore, the description of AI model training for customer segmentation and the use of NLP in their chatbot highlights transparency in data use for profiling and the capabilities of their AI systems.",
+          "title": "Leveraging AI & Machine Learning at Southwest (Harvard Digital Initiative)",
+          "url": "https://d3.harvard.edu/platform-digit/submission/leveraging-ai-machine-learning-at-southwest"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T21:58:39Z",
+  "run_id": "20260203_025824_45e9",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Based on 6 publicly available sources, Southwest Airlines' published materials address 6 of 7 evaluated responsible AI pillars. Operational practices are documented for transparency, fairness, governance, and external accountability, with the Privacy Policy disclosing the use of ML/automated technologies for customer service and applicant assessment. Additionally, oversight and privacy are addressed at the policy level, where the Privacy Policy mentions a right against solely automated decisions and details data collection for profiling and personalized marketing. No qualifying public evidence was found for explainability.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 42,
+    "total_sources_used": 5
+  }
+}

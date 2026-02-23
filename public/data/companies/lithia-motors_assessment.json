@@ -1,0 +1,183 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 14.3,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 2
+  },
+  "company": "Lithia Motors",
+  "company_slug": "lithia-motors",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 6,
+      "OPERATIONAL": 0,
+      "POLICY": 13
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 15,
+      "findings": "Policy documents demonstrate governance through the acquisition and contractual deployment of an AI platform, indicating oversight of AI development and vendor relationships. Press releases indicate mechanisms to govern AI application in customer financing guidance and imply the need for governance due to AI agents making \"intelligent decisions\" and operating autonomously. Audit reports mention the use of AI for compliance and fraud mitigation, indicating a policy for AI use.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for the **governance** and **transparency** pillars of responsible AI. It demonstrates governance through the acquisition of the \"Pinewood Automotive Intelligence™ Platform\" and the contractual agreement for its deployment, indicating oversight of AI development and vendor relationships. Transparency is supported by the detailed plans for piloting and rolling out the AI system, as well as the commitment to its adoption, which implies clear policies and timelines for AI deployment.",
+          "title": "Pinewood.AI Acquisition of Lithia's North American Joint Venture - Strategic Platform Details",
+          "url": "https://pinewood.ai/wp-content/uploads/2025/06/Acquisition-of-Lithias-Majority-Stake-in-North-America-JV.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It describes an \"AI-powered engine\" and an \"AI-based feedback tool\" for credit approval, indicating that the company has mechanisms in place to govern and be transparent about how its AI is applied in customer financing guidance.",
+          "title": "Driveway Enhances Customer Shopping Experience with Affordability and AI Financing Guidance Features",
+          "url": "https://investors.lithiadriveway.com/press-releases/l28wof09v4ecmwur8pa"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This audit report provides evidence for the governance and transparency pillars of responsible AI. It supports governance by mentioning the use of AI and automation for compliance and fraud mitigation, indicating a policy for AI use. Transparency is supported by the explicit mention of AI and its use case in identity verification and fraud detection, demonstrating openness about the AI's capabilities.",
+          "title": "Vouched Identity Verification Case Study - Lithia & Driveway Fraud Reduction Success",
+          "url": "https://vouched.id/customers/casestudies/lithia-driveway"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by detailing the capabilities and functions of various AI agents, such as Project Intelligence (Pi), Connect, Assist, Reach, and Serve, and by announcing their debut. The mention of \"intelligent decisions\" and autonomous operation within these AI agents implies the need for governance.",
+          "title": "Pinewood.AI NADA 2026 Announcement - Project Intelligence (Pi) and Automotive Intelligence Suite",
+          "url": "https://globenewswire.com/news-release/2026/01/22/3223603/0/en/Pinewood-Ai-to-Make-Official-North-American-Debut-at-NADA.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 11,
+      "findings": "Policy documents describe detailed plans for piloting and rolling out AI systems, referencing a commitment to adoption and implying clear policies and timelines for deployment. Press releases detail the capabilities and functions of various AI agents, including an \"AI-powered engine\" for credit approval, and indicate mechanisms for transparency regarding AI application. Audit reports explicitly mention AI use cases in identity verification and fraud detection, demonstrating openness about AI's capabilities.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for the **governance** and **transparency** pillars of responsible AI. It demonstrates governance through the acquisition of the \"Pinewood Automotive Intelligence™ Platform\" and the contractual agreement for its deployment, indicating oversight of AI development and vendor relationships. Transparency is supported by the detailed plans for piloting and rolling out the AI system, as well as the commitment to its adoption, which implies clear policies and timelines for AI deployment.",
+          "title": "Pinewood.AI Acquisition of Lithia's North American Joint Venture - Strategic Platform Details",
+          "url": "https://pinewood.ai/wp-content/uploads/2025/06/Acquisition-of-Lithias-Majority-Stake-in-North-America-JV.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It describes an \"AI-powered engine\" and an \"AI-based feedback tool\" for credit approval, indicating that the company has mechanisms in place to govern and be transparent about how its AI is applied in customer financing guidance.",
+          "title": "Driveway Enhances Customer Shopping Experience with Affordability and AI Financing Guidance Features",
+          "url": "https://investors.lithiadriveway.com/press-releases/l28wof09v4ecmwur8pa"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This audit report provides evidence for the governance and transparency pillars of responsible AI. It supports governance by mentioning the use of AI and automation for compliance and fraud mitigation, indicating a policy for AI use. Transparency is supported by the explicit mention of AI and its use case in identity verification and fraud detection, demonstrating openness about the AI's capabilities.",
+          "title": "Vouched Identity Verification Case Study - Lithia & Driveway Fraud Reduction Success",
+          "url": "https://vouched.id/customers/casestudies/lithia-driveway"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by detailing the capabilities and functions of various AI agents, such as Project Intelligence (Pi), Connect, Assist, Reach, and Serve, and by announcing their debut. The mention of \"intelligent decisions\" and autonomous operation within these AI agents implies the need for governance.",
+          "title": "Pinewood.AI NADA 2026 Announcement - Project Intelligence (Pi) and Automotive Intelligence Suite",
+          "url": "https://globenewswire.com/news-release/2026/01/22/3223603/0/en/Pinewood-Ai-to-Make-Official-North-American-Debut-at-NADA.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T21:54:02Z",
+  "run_id": "20260202_234951_6b77",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Policy documents for Lithia Motors describe detailed plans for piloting and rolling out an AI system, addressing the transparency pillar. Additionally, governance is addressed through disclosures demonstrating the acquisition of the \"Pinewood Automotive Intelligence™ Platform\" and a contractual agreement for its deployment, bringing the total to 2 of 7 evaluated pillars with documented evidence. Based on 6 publicly available sources, no qualifying public evidence was found for the majority of the 7 evaluated pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 2,
+    "pillars_without_evidence": 5,
+    "total_evidence_items": 19,
+    "total_sources_used": 4
+  }
+}

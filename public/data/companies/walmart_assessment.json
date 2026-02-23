@@ -1,0 +1,493 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "Walmart",
+  "company_slug": "walmart",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 8,
+      "OPERATIONAL": 24,
+      "POLICY": 90
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "A proxy statement outlines risk management procedures related to legal compliance. An annual report describes compliance with SEC guidance on AI risk disclosure and references responses to legal actions. Additionally, a privacy policy references the use of third-party services.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **transparency**. It details Walmart's board committee structure and their oversight of risk, strategy, and technology, including the recent appointment of a director with AI expertise to the Technology and eCommerce Committee. The document also outlines risk management procedures related to legal compliance and mentions ethical data use and responsible technology, supporting transparency and external accountability.",
+          "title": "2025 Proxy Statement - Board Governance and Risk Oversight",
+          "url": "https://stock.walmart.com/_assets/_ce43125c287746b5bb9dd177aebe127f/walmart/db/950/9949/proxy_statement/2025+Proxy+Statement.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "Walmart's fiscal 2025 10-K filing provides evidence for **governance, oversight, privacy, transparency, and external accountability**. The filing details risk factor disclosures related to AI, including potential issues like identity fraud and algorithmic errors, which necessitates robust governance and oversight mechanisms. It also acknowledges data privacy risks and compliance issues, indicating a focus on privacy, while mentioning AI use cases and strategic investments in automation supports transparency and governance respectively. Furthermore, the report's compliance with SEC guidance on AI risk disclosure and references to responses to legal actions demonstrate external accountability.",
+          "title": "Walmart 10-K Annual Report - AI Risk Disclosures",
+          "url": "https://sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document for the Walmart Connect Advertising Platform provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports the **privacy** pillar by detailing customer rights regarding personal information access, correction, deletion, and opt-outs. The policy also addresses **governance** by outlining data sharing practices, including disclosure to third parties and data use for verification, and supports **transparency** by mentioning the use of automated decision-making technologies (ADMT). Furthermore, it touches upon **oversight** by describing customer rights to appeal automated decisions and **external_accountability** by referencing the use of third-party services.",
+          "title": "Walmart Connect Advertising Platform - Data Privacy and Automated Decision Rights",
+          "url": "https://walmartconnect.com/privacy-policy"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "A framework explicitly lists fairness as a commitment within the Responsible AI Pledge. A charter mandates bias prevention for AI applications impacting human decisions, such as hiring. Additionally, a press release mentions a commitment to evaluating AI for bias.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This charter, \"Digital Citizenship and Digital Trust Commitments Framework,\" provides evidence for **fairness, governance, privacy, and transparency**. It supports **fairness** by explicitly listing it as a commitment within the Responsible AI Pledge. The framework supports **governance** by detailing oversight subgroups for Data Governance, Digital Identity, and Emerging Technologies, and by mentioning the development of an AI governance model. Evidence for **privacy** is found in its inclusion as a core Digital Trust Commitment, and **transparency** is supported by acknowledging that results may not be accurate and that usage is governed by guidelines and policies.",
+          "title": "Digital Citizenship and Digital Trust Commitments Framework",
+          "url": "https://tech.walmart.com/content/walmart-global-tech/en_us/blog/post/the-importance-of-digital-citizenship-at-walmart.html"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This charter document, \"AI Governance Steering Committee & Pre-Deployment Testing Protocols,\" provides evidence for **governance**, **fairness**, and **privacy**. It details Walmart's AI governance steering committee, which vets AI projects and partners, demonstrating strong **governance** through its decision-making authority and continuous testing protocols. The charter also supports **fairness** by mandating bias prevention for AI applications impacting human decisions, such as hiring. Finally, it reinforces **privacy** through descriptions of controlled environments for AI use and data protection measures within its subgroups.",
+          "title": "AI Governance Steering Committee & Pre-Deployment Testing Protocols",
+          "url": "https://siliconangle.com/2023/07/14/walmart-goes-generative-ai-guardrails"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This press release, \"Walmart Pledges Ethical AI, Tech Application,\" provides evidence for the **transparency**, **privacy**, **fairness**, and **governance** pillars of responsible AI. It supports transparency by mentioning a pledge to disclose data and technology use, and privacy by detailing commitments to protect sensitive information. The press release also addresses fairness through its commitment to evaluating AI for bias, and governance by highlighting a people-led approach to AI and the mention of a role responsible for digital citizenship.",
+          "title": "Walmart Pledges Ethical AI, Tech Application",
+          "url": "https://homepagenews.com/retail-articles/walmart-pledges-ethical-ai-tech-application"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 105,
+      "findings": "A framework details oversight subgroups for Data Governance, Digital Identity, and Emerging Technologies, and mentions the development of an AI governance model. Documentation outlines guidelines and policies that govern AI use, including operational processes for AI development, quality assurance, and structured processes for managing AI. Governance mechanisms also include OpenAI certifications, AI literacy training, and a people-led approach to AI with a role responsible for digital citizenship.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This charter, \"Digital Citizenship and Digital Trust Commitments Framework,\" provides evidence for **fairness, governance, privacy, and transparency**. It supports **fairness** by explicitly listing it as a commitment within the Responsible AI Pledge. The framework supports **governance** by detailing oversight subgroups for Data Governance, Digital Identity, and Emerging Technologies, and by mentioning the development of an AI governance model. Evidence for **privacy** is found in its inclusion as a core Digital Trust Commitment, and **transparency** is supported by acknowledging that results may not be accurate and that usage is governed by guidelines and policies.",
+          "title": "Digital Citizenship and Digital Trust Commitments Framework",
+          "url": "https://tech.walmart.com/content/walmart-global-tech/en_us/blog/post/the-importance-of-digital-citizenship-at-walmart.html"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This charter document, \"AI Governance Steering Committee & Pre-Deployment Testing Protocols,\" provides evidence for **governance**, **fairness**, and **privacy**. It details Walmart's AI governance steering committee, which vets AI projects and partners, demonstrating strong **governance** through its decision-making authority and continuous testing protocols. The charter also supports **fairness** by mandating bias prevention for AI applications impacting human decisions, such as hiring. Finally, it reinforces **privacy** through descriptions of controlled environments for AI use and data protection measures within its subgroups.",
+          "title": "AI Governance Steering Committee & Pre-Deployment Testing Protocols",
+          "url": "https://siliconangle.com/2023/07/14/walmart-goes-generative-ai-guardrails"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **transparency**. It details Walmart's board committee structure and their oversight of risk, strategy, and technology, including the recent appointment of a director with AI expertise to the Technology and eCommerce Committee. The document also outlines risk management procedures related to legal compliance and mentions ethical data use and responsible technology, supporting transparency and external accountability.",
+          "title": "2025 Proxy Statement - Board Governance and Risk Oversight",
+          "url": "https://stock.walmart.com/_assets/_ce43125c287746b5bb9dd177aebe127f/walmart/db/950/9949/proxy_statement/2025+Proxy+Statement.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This system card for the \"Sam's Club Computer Vision Exit Verification System\" provides evidence for **governance**, **privacy**, and **transparency**. It supports governance by detailing operational processes for AI development and quality assurance through iterative testing and model evaluation. Evidence for privacy is found in the system's explicit exclusion of facial recognition and biometric identification, focusing solely on object detection, and its clarification of the AI's limited use case. Transparency is supported by the system card's explanation of the AI system's capabilities and use case, detailing how computer models identify items by referencing features and inventory.",
+          "title": "Sam's Club Computer Vision Exit Verification System",
+          "url": "https://fastforward.boldstart.vc/how-the-sams-club-cto-used-computer-vision-and-ai-to-transform-the-member-exit-experience"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This system card for Walmart's \"Marketplace AI Fraud and Counterfeit Detection System\" provides evidence for **governance** and **oversight**. The system's description highlights its multi-layered approach, including machine learning, automation, and human oversight, which supports governance by outlining a structured process for managing AI. Furthermore, the mention of real-time monitoring by a trust and safety team demonstrates a commitment to oversight, ensuring ongoing management and accountability of the AI system's operations.",
+          "title": "Marketplace AI Fraud and Counterfeit Detection System",
+          "url": "https://retaildive.com/news/walmart-marketplace-ai-fraudulent-seller-counterfeit-detection/753936"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This enforcement action, \"Spark Delivery Biometric Privacy Settlement,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing allegations of violations related to consent, disclosure, and retention policies for biometric data, indicating a need for robust internal data practices and compliance. The source also supports the privacy pillar by highlighting the collection of biometric data for identity verification and fraud prevention, directly addressing privacy rights and biometric protections.",
+          "title": "Spark Delivery Biometric Privacy Settlement",
+          "url": "https://idtechwire.com/walmart-settles-privacy-lawsuit-over-spark-delivery-biometric-scans"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports the privacy pillar by detailing allegations of biometric data collection without customer knowledge or consent, and the governance pillar by citing violations of data retention policies and the use of third-party databases. The filing also touches on transparency by highlighting the lack of notification to customers regarding facial recognition technology.",
+          "title": "Facial Recognition Surveillance System - Illinois BIPA Litigation",
+          "url": "https://milberg.com/news/walmart-bipa-class-action-lawsuit"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "Walmart's fiscal 2025 10-K filing provides evidence for **governance, oversight, privacy, transparency, and external accountability**. The filing details risk factor disclosures related to AI, including potential issues like identity fraud and algorithmic errors, which necessitates robust governance and oversight mechanisms. It also acknowledges data privacy risks and compliance issues, indicating a focus on privacy, while mentioning AI use cases and strategic investments in automation supports transparency and governance respectively. Furthermore, the report's compliance with SEC guidance on AI risk disclosure and references to responses to legal actions demonstrate external accountability.",
+          "title": "Walmart 10-K Annual Report - AI Risk Disclosures",
+          "url": "https://sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Walmart Customer Privacy Notice, a company-owned policy document, provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing data use for services, specifying purposes for data collection, and outlining data sharing with vendors and partners. Evidence for privacy is found in its descriptions of consent mechanisms, data retention limits, and policies regarding the non-disclosure and deletion of personal information, including biometric data. The transparency pillar is supported by mentions of generative AI use and limitations, as well as descriptions of specific AI use cases like bot detection and personalized experiences.",
+          "title": "Walmart Customer Privacy Notice - Online and In-Store Data Practices",
+          "url": "https://corporate.walmart.com/privacy-security/walmart-privacy-notice"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Privacy & Security Portal - Comprehensive Data Protection Framework,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by outlining guidelines and policies that govern the use of AI, while transparency is demonstrated through its explicit mention of AI usage and its limitations.",
+          "title": "Privacy & Security Portal - Comprehensive Data Protection Framework",
+          "url": "https://corporate.walmart.com/privacy-security"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document for the Walmart Connect Advertising Platform provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports the **privacy** pillar by detailing customer rights regarding personal information access, correction, deletion, and opt-outs. The policy also addresses **governance** by outlining data sharing practices, including disclosure to third parties and data use for verification, and supports **transparency** by mentioning the use of automated decision-making technologies (ADMT). Furthermore, it touches upon **oversight** by describing customer rights to appeal automated decisions and **external_accountability** by referencing the use of third-party services.",
+          "title": "Walmart Connect Advertising Platform - Data Privacy and Automated Decision Rights",
+          "url": "https://walmartconnect.com/privacy-policy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It details AI use cases within ChatGPT Enterprise and highlights governance mechanisms such as OpenAI certifications and AI literacy training, demonstrating a formal commitment to AI standards. Furthermore, the press release offers transparency on AI applications by describing how it enhances product catalogs and customer care.",
+          "title": "Walmart-OpenAI Partnership - ChatGPT Shopping Integration",
+          "url": "https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **governance** by detailing how Walmart uses its data labeling infrastructure to improve AI performance and achieve specific goals, implying a policy direction for AI development. It also supports **transparency** by describing AI capabilities like model-assisted labeling that enhance visibility and quality control in the data labeling process, addressing previous limitations.",
+          "title": "Walmart LLM and Conversational AI Data Labeling Infrastructure",
+          "url": "https://labelbox.com/customers/walmart-customer-story"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This press release, \"Walmart Pledges Ethical AI, Tech Application,\" provides evidence for the **transparency**, **privacy**, **fairness**, and **governance** pillars of responsible AI. It supports transparency by mentioning a pledge to disclose data and technology use, and privacy by detailing commitments to protect sensitive information. The press release also addresses fairness through its commitment to evaluating AI for bias, and governance by highlighting a people-led approach to AI and the mention of a role responsible for digital citizenship.",
+          "title": "Walmart Pledges Ethical AI, Tech Application",
+          "url": "https://homepagenews.com/retail-articles/walmart-pledges-ethical-ai-tech-application"
+        }
+      ],
+      "score": 2,
+      "source_count": 14
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 8,
+      "findings": "A proxy statement details a board committee structure and its oversight of risk, strategy, and technology, including the appointment of a director with AI expertise. A system card mentions real-time monitoring by a trust and safety team. Additionally, a privacy policy describes customer rights to appeal automated decisions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **transparency**. It details Walmart's board committee structure and their oversight of risk, strategy, and technology, including the recent appointment of a director with AI expertise to the Technology and eCommerce Committee. The document also outlines risk management procedures related to legal compliance and mentions ethical data use and responsible technology, supporting transparency and external accountability.",
+          "title": "2025 Proxy Statement - Board Governance and Risk Oversight",
+          "url": "https://stock.walmart.com/_assets/_ce43125c287746b5bb9dd177aebe127f/walmart/db/950/9949/proxy_statement/2025+Proxy+Statement.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This system card for Walmart's \"Marketplace AI Fraud and Counterfeit Detection System\" provides evidence for **governance** and **oversight**. The system's description highlights its multi-layered approach, including machine learning, automation, and human oversight, which supports governance by outlining a structured process for managing AI. Furthermore, the mention of real-time monitoring by a trust and safety team demonstrates a commitment to oversight, ensuring ongoing management and accountability of the AI system's operations.",
+          "title": "Marketplace AI Fraud and Counterfeit Detection System",
+          "url": "https://retaildive.com/news/walmart-marketplace-ai-fraudulent-seller-counterfeit-detection/753936"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "Walmart's fiscal 2025 10-K filing provides evidence for **governance, oversight, privacy, transparency, and external accountability**. The filing details risk factor disclosures related to AI, including potential issues like identity fraud and algorithmic errors, which necessitates robust governance and oversight mechanisms. It also acknowledges data privacy risks and compliance issues, indicating a focus on privacy, while mentioning AI use cases and strategic investments in automation supports transparency and governance respectively. Furthermore, the report's compliance with SEC guidance on AI risk disclosure and references to responses to legal actions demonstrate external accountability.",
+          "title": "Walmart 10-K Annual Report - AI Risk Disclosures",
+          "url": "https://sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document for the Walmart Connect Advertising Platform provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports the **privacy** pillar by detailing customer rights regarding personal information access, correction, deletion, and opt-outs. The policy also addresses **governance** by outlining data sharing practices, including disclosure to third parties and data use for verification, and supports **transparency** by mentioning the use of automated decision-making technologies (ADMT). Furthermore, it touches upon **oversight** by describing customer rights to appeal automated decisions and **external_accountability** by referencing the use of third-party services.",
+          "title": "Walmart Connect Advertising Platform - Data Privacy and Automated Decision Rights",
+          "url": "https://walmartconnect.com/privacy-policy"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 37,
+      "findings": "Privacy is included as a core Digital Trust Commitment, with commitments to protect sensitive information. Documentation describes controlled environments for AI use, data protection measures, consent mechanisms, and data retention limits. Policies also outline the non-disclosure and deletion of personal information, including biometric data, and detail customer rights regarding personal information access, correction, deletion, and opt-outs.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This charter, \"Digital Citizenship and Digital Trust Commitments Framework,\" provides evidence for **fairness, governance, privacy, and transparency**. It supports **fairness** by explicitly listing it as a commitment within the Responsible AI Pledge. The framework supports **governance** by detailing oversight subgroups for Data Governance, Digital Identity, and Emerging Technologies, and by mentioning the development of an AI governance model. Evidence for **privacy** is found in its inclusion as a core Digital Trust Commitment, and **transparency** is supported by acknowledging that results may not be accurate and that usage is governed by guidelines and policies.",
+          "title": "Digital Citizenship and Digital Trust Commitments Framework",
+          "url": "https://tech.walmart.com/content/walmart-global-tech/en_us/blog/post/the-importance-of-digital-citizenship-at-walmart.html"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This charter document, \"AI Governance Steering Committee & Pre-Deployment Testing Protocols,\" provides evidence for **governance**, **fairness**, and **privacy**. It details Walmart's AI governance steering committee, which vets AI projects and partners, demonstrating strong **governance** through its decision-making authority and continuous testing protocols. The charter also supports **fairness** by mandating bias prevention for AI applications impacting human decisions, such as hiring. Finally, it reinforces **privacy** through descriptions of controlled environments for AI use and data protection measures within its subgroups.",
+          "title": "AI Governance Steering Committee & Pre-Deployment Testing Protocols",
+          "url": "https://siliconangle.com/2023/07/14/walmart-goes-generative-ai-guardrails"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **transparency**. It details Walmart's board committee structure and their oversight of risk, strategy, and technology, including the recent appointment of a director with AI expertise to the Technology and eCommerce Committee. The document also outlines risk management procedures related to legal compliance and mentions ethical data use and responsible technology, supporting transparency and external accountability.",
+          "title": "2025 Proxy Statement - Board Governance and Risk Oversight",
+          "url": "https://stock.walmart.com/_assets/_ce43125c287746b5bb9dd177aebe127f/walmart/db/950/9949/proxy_statement/2025+Proxy+Statement.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This system card for the \"Sam's Club Computer Vision Exit Verification System\" provides evidence for **governance**, **privacy**, and **transparency**. It supports governance by detailing operational processes for AI development and quality assurance through iterative testing and model evaluation. Evidence for privacy is found in the system's explicit exclusion of facial recognition and biometric identification, focusing solely on object detection, and its clarification of the AI's limited use case. Transparency is supported by the system card's explanation of the AI system's capabilities and use case, detailing how computer models identify items by referencing features and inventory.",
+          "title": "Sam's Club Computer Vision Exit Verification System",
+          "url": "https://fastforward.boldstart.vc/how-the-sams-club-cto-used-computer-vision-and-ai-to-transform-the-member-exit-experience"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This enforcement action, \"Spark Delivery Biometric Privacy Settlement,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing allegations of violations related to consent, disclosure, and retention policies for biometric data, indicating a need for robust internal data practices and compliance. The source also supports the privacy pillar by highlighting the collection of biometric data for identity verification and fraud prevention, directly addressing privacy rights and biometric protections.",
+          "title": "Spark Delivery Biometric Privacy Settlement",
+          "url": "https://idtechwire.com/walmart-settles-privacy-lawsuit-over-spark-delivery-biometric-scans"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports the privacy pillar by detailing allegations of biometric data collection without customer knowledge or consent, and the governance pillar by citing violations of data retention policies and the use of third-party databases. The filing also touches on transparency by highlighting the lack of notification to customers regarding facial recognition technology.",
+          "title": "Facial Recognition Surveillance System - Illinois BIPA Litigation",
+          "url": "https://milberg.com/news/walmart-bipa-class-action-lawsuit"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "Walmart's fiscal 2025 10-K filing provides evidence for **governance, oversight, privacy, transparency, and external accountability**. The filing details risk factor disclosures related to AI, including potential issues like identity fraud and algorithmic errors, which necessitates robust governance and oversight mechanisms. It also acknowledges data privacy risks and compliance issues, indicating a focus on privacy, while mentioning AI use cases and strategic investments in automation supports transparency and governance respectively. Furthermore, the report's compliance with SEC guidance on AI risk disclosure and references to responses to legal actions demonstrate external accountability.",
+          "title": "Walmart 10-K Annual Report - AI Risk Disclosures",
+          "url": "https://sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Walmart Customer Privacy Notice, a company-owned policy document, provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing data use for services, specifying purposes for data collection, and outlining data sharing with vendors and partners. Evidence for privacy is found in its descriptions of consent mechanisms, data retention limits, and policies regarding the non-disclosure and deletion of personal information, including biometric data. The transparency pillar is supported by mentions of generative AI use and limitations, as well as descriptions of specific AI use cases like bot detection and personalized experiences.",
+          "title": "Walmart Customer Privacy Notice - Online and In-Store Data Practices",
+          "url": "https://corporate.walmart.com/privacy-security/walmart-privacy-notice"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document for the Walmart Connect Advertising Platform provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports the **privacy** pillar by detailing customer rights regarding personal information access, correction, deletion, and opt-outs. The policy also addresses **governance** by outlining data sharing practices, including disclosure to third parties and data use for verification, and supports **transparency** by mentioning the use of automated decision-making technologies (ADMT). Furthermore, it touches upon **oversight** by describing customer rights to appeal automated decisions and **external_accountability** by referencing the use of third-party services.",
+          "title": "Walmart Connect Advertising Platform - Data Privacy and Automated Decision Rights",
+          "url": "https://walmartconnect.com/privacy-policy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This press release, \"Walmart Pledges Ethical AI, Tech Application,\" provides evidence for the **transparency**, **privacy**, **fairness**, and **governance** pillars of responsible AI. It supports transparency by mentioning a pledge to disclose data and technology use, and privacy by detailing commitments to protect sensitive information. The press release also addresses fairness through its commitment to evaluating AI for bias, and governance by highlighting a people-led approach to AI and the mention of a role responsible for digital citizenship.",
+          "title": "Walmart Pledges Ethical AI, Tech Application",
+          "url": "https://homepagenews.com/retail-articles/walmart-pledges-ethical-ai-tech-application"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 34,
+      "findings": "Documentation acknowledges that AI results may not be accurate and that usage is governed by guidelines and policies, with a pledge to disclose data and technology use. System cards and privacy notices explain AI system capabilities, use cases, and limitations, including generative AI and automated decision-making technologies. Reports also mention ethical data use, responsible technology, and AI capabilities that enhance visibility and quality control.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This charter, \"Digital Citizenship and Digital Trust Commitments Framework,\" provides evidence for **fairness, governance, privacy, and transparency**. It supports **fairness** by explicitly listing it as a commitment within the Responsible AI Pledge. The framework supports **governance** by detailing oversight subgroups for Data Governance, Digital Identity, and Emerging Technologies, and by mentioning the development of an AI governance model. Evidence for **privacy** is found in its inclusion as a core Digital Trust Commitment, and **transparency** is supported by acknowledging that results may not be accurate and that usage is governed by guidelines and policies.",
+          "title": "Digital Citizenship and Digital Trust Commitments Framework",
+          "url": "https://tech.walmart.com/content/walmart-global-tech/en_us/blog/post/the-importance-of-digital-citizenship-at-walmart.html"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **transparency**. It details Walmart's board committee structure and their oversight of risk, strategy, and technology, including the recent appointment of a director with AI expertise to the Technology and eCommerce Committee. The document also outlines risk management procedures related to legal compliance and mentions ethical data use and responsible technology, supporting transparency and external accountability.",
+          "title": "2025 Proxy Statement - Board Governance and Risk Oversight",
+          "url": "https://stock.walmart.com/_assets/_ce43125c287746b5bb9dd177aebe127f/walmart/db/950/9949/proxy_statement/2025+Proxy+Statement.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This system card for the \"Sam's Club Computer Vision Exit Verification System\" provides evidence for **governance**, **privacy**, and **transparency**. It supports governance by detailing operational processes for AI development and quality assurance through iterative testing and model evaluation. Evidence for privacy is found in the system's explicit exclusion of facial recognition and biometric identification, focusing solely on object detection, and its clarification of the AI's limited use case. Transparency is supported by the system card's explanation of the AI system's capabilities and use case, detailing how computer models identify items by referencing features and inventory.",
+          "title": "Sam's Club Computer Vision Exit Verification System",
+          "url": "https://fastforward.boldstart.vc/how-the-sams-club-cto-used-computer-vision-and-ai-to-transform-the-member-exit-experience"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This system card for Walmart's \"Marketplace AI Fraud and Counterfeit Detection System\" provides evidence for **governance** and **oversight**. The system's description highlights its multi-layered approach, including machine learning, automation, and human oversight, which supports governance by outlining a structured process for managing AI. Furthermore, the mention of real-time monitoring by a trust and safety team demonstrates a commitment to oversight, ensuring ongoing management and accountability of the AI system's operations.",
+          "title": "Marketplace AI Fraud and Counterfeit Detection System",
+          "url": "https://retaildive.com/news/walmart-marketplace-ai-fraudulent-seller-counterfeit-detection/753936"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports the privacy pillar by detailing allegations of biometric data collection without customer knowledge or consent, and the governance pillar by citing violations of data retention policies and the use of third-party databases. The filing also touches on transparency by highlighting the lack of notification to customers regarding facial recognition technology.",
+          "title": "Facial Recognition Surveillance System - Illinois BIPA Litigation",
+          "url": "https://milberg.com/news/walmart-bipa-class-action-lawsuit"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "Walmart's fiscal 2025 10-K filing provides evidence for **governance, oversight, privacy, transparency, and external accountability**. The filing details risk factor disclosures related to AI, including potential issues like identity fraud and algorithmic errors, which necessitates robust governance and oversight mechanisms. It also acknowledges data privacy risks and compliance issues, indicating a focus on privacy, while mentioning AI use cases and strategic investments in automation supports transparency and governance respectively. Furthermore, the report's compliance with SEC guidance on AI risk disclosure and references to responses to legal actions demonstrate external accountability.",
+          "title": "Walmart 10-K Annual Report - AI Risk Disclosures",
+          "url": "https://sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Walmart Customer Privacy Notice, a company-owned policy document, provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing data use for services, specifying purposes for data collection, and outlining data sharing with vendors and partners. Evidence for privacy is found in its descriptions of consent mechanisms, data retention limits, and policies regarding the non-disclosure and deletion of personal information, including biometric data. The transparency pillar is supported by mentions of generative AI use and limitations, as well as descriptions of specific AI use cases like bot detection and personalized experiences.",
+          "title": "Walmart Customer Privacy Notice - Online and In-Store Data Practices",
+          "url": "https://corporate.walmart.com/privacy-security/walmart-privacy-notice"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Privacy & Security Portal - Comprehensive Data Protection Framework,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by outlining guidelines and policies that govern the use of AI, while transparency is demonstrated through its explicit mention of AI usage and its limitations.",
+          "title": "Privacy & Security Portal - Comprehensive Data Protection Framework",
+          "url": "https://corporate.walmart.com/privacy-security"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document for the Walmart Connect Advertising Platform provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports the **privacy** pillar by detailing customer rights regarding personal information access, correction, deletion, and opt-outs. The policy also addresses **governance** by outlining data sharing practices, including disclosure to third parties and data use for verification, and supports **transparency** by mentioning the use of automated decision-making technologies (ADMT). Furthermore, it touches upon **oversight** by describing customer rights to appeal automated decisions and **external_accountability** by referencing the use of third-party services.",
+          "title": "Walmart Connect Advertising Platform - Data Privacy and Automated Decision Rights",
+          "url": "https://walmartconnect.com/privacy-policy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It details AI use cases within ChatGPT Enterprise and highlights governance mechanisms such as OpenAI certifications and AI literacy training, demonstrating a formal commitment to AI standards. Furthermore, the press release offers transparency on AI applications by describing how it enhances product catalogs and customer care.",
+          "title": "Walmart-OpenAI Partnership - ChatGPT Shopping Integration",
+          "url": "https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **governance** by detailing how Walmart uses its data labeling infrastructure to improve AI performance and achieve specific goals, implying a policy direction for AI development. It also supports **transparency** by describing AI capabilities like model-assisted labeling that enhance visibility and quality control in the data labeling process, addressing previous limitations.",
+          "title": "Walmart LLM and Conversational AI Data Labeling Infrastructure",
+          "url": "https://labelbox.com/customers/walmart-customer-story"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This press release, \"Walmart Pledges Ethical AI, Tech Application,\" provides evidence for the **transparency**, **privacy**, **fairness**, and **governance** pillars of responsible AI. It supports transparency by mentioning a pledge to disclose data and technology use, and privacy by detailing commitments to protect sensitive information. The press release also addresses fairness through its commitment to evaluating AI for bias, and governance by highlighting a people-led approach to AI and the mention of a role responsible for digital citizenship.",
+          "title": "Walmart Pledges Ethical AI, Tech Application",
+          "url": "https://homepagenews.com/retail-articles/walmart-pledges-ethical-ai-tech-application"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    }
+  },
+  "published_at": "2026-02-23T22:00:32Z",
+  "run_id": "20260124_004614_37d5",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Walmart's public disclosures address 6 of 7 evaluated responsible AI pillars, with evidence found at both the operational and policy levels. Operational practices are documented across transparency, oversight, privacy, governance, and external accountability, including a framework acknowledging that AI results may not be accurate and a proxy statement detailing board committee oversight of technology. Furthermore, a charter describes controlled environments for AI use and data protection measures, while fairness is addressed at the policy level through a commitment within the Responsible AI Pledge. No qualifying public evidence was found for explainability. These findings are based on a review of 19 publicly available sources.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 122,
+    "total_sources_used": 14
+  }
+}

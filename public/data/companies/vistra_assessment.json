@@ -1,0 +1,233 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "Vistra",
+  "company_slug": "vistra",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 23,
+      "OPERATIONAL": 3,
+      "POLICY": 18
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 3,
+      "findings": "Technical papers mention the incorporation of explainable ML algorithms into a tool chain. These documents also detail AI model types, testing, and validation, balancing performance with clarity, and mention AI models providing insights and recommendations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"UT Dallas CAIML: Current and Past Projects,\" provides evidence for the **explainability** and **transparency** pillars of responsible AI. The document supports transparency by describing the use of ML for road health and repair prioritization, and by mentioning the incorporation of explainable ML algorithms into a tool chain. Furthermore, it indicates an aspiration to improve ML solution scalability and accuracy, which implies a focus on transparency of capabilities.",
+          "title": "UT Dallas CAIML: Current and Past Projects",
+          "url": "https://caiml.utdallas.edu/projects"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"WIRED: Vistra's AI Transformation at Power Plants,\" provides evidence for explainability, governance, and transparency. It details AI model types, testing, and validation, supporting explainability by balancing performance with clarity. The paper also describes the deployment, MLOps infrastructure, and team capabilities for sustaining AI models, which demonstrates strong governance and transparency in their AI operations. Furthermore, the mention of AI models providing insights and recommendations implies transparency and explainability of the AI's outcomes.",
+          "title": "WIRED: Vistra's AI Transformation at Power Plants",
+          "url": "https://wired.com/sponsored/story/ai-gives-power-plants-a-power-up"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "An SEC filing acknowledges the risks associated with AI, specifically referencing the potential for \"biased\" content and analyses.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **fairness** and **governance** by explicitly acknowledging the risks associated with AI, including the potential for \"biased\" content and analyses. The document also details the company's governance over automated market mechanisms, describing policies for algorithmic calculations that trigger price adjustments and market cap changes, and outlining plans for the future replacement of these systems.",
+          "title": "Vistra Corp Form 10-K (December 31, 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/1692819/000169281925000013/vistra-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 20,
+      "findings": "A charter mandates the review of risks associated with AI deployment and assigns oversight responsibilities for AI to a board-level committee. An SEC filing details governance over automated market mechanisms, describing policies for algorithmic calculations and outlining plans for their future replacement. Additionally, a press release details a vendor partnership for AI solutions, and technical papers describe the establishment and purpose of an AI/ML center, and mention vendor selection, architecture considerations, and vendor assessment for AI/ML.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned charter, the \"Sustainability and Risk Committee Charter (October 2024),\" provides evidence for the **governance** pillar of responsible AI. The charter explicitly mandates the review of risks associated with AI deployment and assigns oversight responsibilities for AI to a board-level committee, demonstrating established governance structures and accountability mechanisms.",
+          "title": "Sustainability and Risk Committee Charter (October 2024)",
+          "url": "https://vistracorp.com/documents/governance/Sustainability-and-Risk-Committee-Charter.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **fairness** and **governance** by explicitly acknowledging the risks associated with AI, including the potential for \"biased\" content and analyses. The document also details the company's governance over automated market mechanisms, describing policies for algorithmic calculations that trigger price adjustments and market cap changes, and outlining plans for the future replacement of these systems.",
+          "title": "Vistra Corp Form 10-K (December 31, 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/1692819/000169281925000013/vistra-20241231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing a vendor partnership for AI solutions, and it supports transparency by mentioning the AI's capabilities in analyzing smart meter data for appliance fault detection and load disaggregation.",
+          "title": "Vistra Press Release: Smart Meter Data AI Program (April 2021)",
+          "url": "https://investor.vistracorp.com/2021-04-29-Vistra-Puts-Smart-Meter-Data-to-Work-to-Assist-Texas-Customers-in-Prepping-for-Summer"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper documents the UT Dallas Center for Applied AI & Machine Learning's partnership with Vistra for electricity price forecasting. The paper provides evidence for **governance** by describing the establishment and purpose of the AI/ML center, and for **transparency** by detailing the application of ML methods for prediction models, AI techniques for pricing projections, and ML/DL capabilities for insights and forecasts.",
+          "title": "UT Dallas Center for Applied AI & Machine Learning: Vistra Partnership (2020)",
+          "url": "https://cs.utdallas.edu/24575/ut-dallas-cs-researchers-apply-power-of-ai-to-forecast-energy-supply-demand"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"WIRED: Vistra's AI Transformation at Power Plants,\" provides evidence for explainability, governance, and transparency. It details AI model types, testing, and validation, supporting explainability by balancing performance with clarity. The paper also describes the deployment, MLOps infrastructure, and team capabilities for sustaining AI models, which demonstrates strong governance and transparency in their AI operations. Furthermore, the mention of AI models providing insights and recommendations implies transparency and explainability of the AI's outcomes.",
+          "title": "WIRED: Vistra's AI Transformation at Power Plants",
+          "url": "https://wired.com/sponsored/story/ai-gives-power-plants-a-power-up"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Grid4C: AI at the Grid Edge (Applied to Vistra),\" provides evidence for **governance** and **transparency**. Governance is supported by mentions of vendor selection, architecture considerations, and vendor assessment, indicating oversight in technology choices. Transparency is demonstrated through the detailed description of AI/ML algorithms, their specific use cases (such as appliance fault detection and load disaggregation), and the AI-powered analytics capabilities embedded within Vistra's smart meter infrastructure.",
+          "title": "Grid4C: AI at the Grid Edge (Applied to Vistra)",
+          "url": "https://grid4c.com/hubfs/2021/AI-at-the-grid-edge.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 29,
+      "findings": "Published materials describe the capabilities of AI in analyzing smart meter data for appliance fault detection and load disaggregation. Technical papers detail the application of ML methods for prediction models, AI techniques for pricing projections, and ML/DL capabilities for insights and forecasts. These documents also describe the use of ML for road health and repair prioritization, mention the incorporation of explainable ML algorithms, and indicate an aspiration to improve ML solution scalability and accuracy.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing a vendor partnership for AI solutions, and it supports transparency by mentioning the AI's capabilities in analyzing smart meter data for appliance fault detection and load disaggregation.",
+          "title": "Vistra Press Release: Smart Meter Data AI Program (April 2021)",
+          "url": "https://investor.vistracorp.com/2021-04-29-Vistra-Puts-Smart-Meter-Data-to-Work-to-Assist-Texas-Customers-in-Prepping-for-Summer"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper documents the UT Dallas Center for Applied AI & Machine Learning's partnership with Vistra for electricity price forecasting. The paper provides evidence for **governance** by describing the establishment and purpose of the AI/ML center, and for **transparency** by detailing the application of ML methods for prediction models, AI techniques for pricing projections, and ML/DL capabilities for insights and forecasts.",
+          "title": "UT Dallas Center for Applied AI & Machine Learning: Vistra Partnership (2020)",
+          "url": "https://cs.utdallas.edu/24575/ut-dallas-cs-researchers-apply-power-of-ai-to-forecast-energy-supply-demand"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"UT Dallas CAIML: Current and Past Projects,\" provides evidence for the **explainability** and **transparency** pillars of responsible AI. The document supports transparency by describing the use of ML for road health and repair prioritization, and by mentioning the incorporation of explainable ML algorithms into a tool chain. Furthermore, it indicates an aspiration to improve ML solution scalability and accuracy, which implies a focus on transparency of capabilities.",
+          "title": "UT Dallas CAIML: Current and Past Projects",
+          "url": "https://caiml.utdallas.edu/projects"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"WIRED: Vistra's AI Transformation at Power Plants,\" provides evidence for explainability, governance, and transparency. It details AI model types, testing, and validation, supporting explainability by balancing performance with clarity. The paper also describes the deployment, MLOps infrastructure, and team capabilities for sustaining AI models, which demonstrates strong governance and transparency in their AI operations. Furthermore, the mention of AI models providing insights and recommendations implies transparency and explainability of the AI's outcomes.",
+          "title": "WIRED: Vistra's AI Transformation at Power Plants",
+          "url": "https://wired.com/sponsored/story/ai-gives-power-plants-a-power-up"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Grid4C: AI at the Grid Edge (Applied to Vistra),\" provides evidence for **governance** and **transparency**. Governance is supported by mentions of vendor selection, architecture considerations, and vendor assessment, indicating oversight in technology choices. Transparency is demonstrated through the detailed description of AI/ML algorithms, their specific use cases (such as appliance fault detection and load disaggregation), and the AI-powered analytics capabilities embedded within Vistra's smart meter infrastructure.",
+          "title": "Grid4C: AI at the Grid Edge (Applied to Vistra)",
+          "url": "https://grid4c.com/hubfs/2021/AI-at-the-grid-edge.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T22:00:26Z",
+  "run_id": "20260203_025705_7a06",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Vistra's governance framework includes a charter that mandates the review of risks associated with AI deployment, with another charter assigning oversight responsibilities for AI to a board-level committee. These operational practices contribute to the 4 of 7 responsible AI pillars for which documented evidence was found. Transparency, fairness, and explainability are also addressed at the policy level; for instance, published materials mention the AI's capabilities in analyzing smart meter data and acknowledge risks of \"biased\" content. Drawing from 9 publicly available sources, no qualifying public evidence was found for oversight, privacy, and 1 additional pillar.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 44,
+    "total_sources_used": 7
+  }
+}

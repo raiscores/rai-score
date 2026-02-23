@@ -1,0 +1,210 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Dollar General",
+  "company_slug": "dollar-general",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 1,
+      "OPERATIONAL": 5,
+      "POLICY": 11
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Sources mention the use of AI technology on a third-party basis. They also reference vendor oversight and management for this AI technology.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **external_accountability**, **governance**, and **transparency**. It supports external_accountability and governance by mentioning the use of AI technology and \"Just Walk Out technology\" on a third-party basis, implying vendor oversight and management. Transparency is supported by the blog post's statement about not committing to a rollout, which indicates openness about the current deployment status of the computer vision solution.",
+          "title": "AiFi Frictionless Checkout Computer Vision Pilot",
+          "url": "https://progressivegrocer.com/dollar-general-testing-checkout-free-operations-north-carolina"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "Sources detail a settlement concerning a criminal history screening matrix that had a disparate impact on African American applicants. This settlement references requirements for an individualized assessment of criminal history in hiring practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This enforcement action, \"EEOC Settlement - Criminal Background Check Disparate Impact,\" provides evidence for the **fairness** pillar. The document details a settlement stemming from a lawsuit that found Dollar General's criminal history screening matrix had a disparate impact on African American applicants, demonstrating a historical instance of algorithmic discrimination in employment decisions. The settlement's requirements for an individualized assessment of criminal history directly address concerns related to fairness in hiring practices.",
+          "title": "EEOC Settlement - Criminal Background Check Disparate Impact",
+          "url": "https://eeoc.gov/newsroom/dollar-general-pay-6-million-settle-eeoc-class-race-discrimination-suit"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 13,
+      "findings": "Sources detail board oversight of AI risk management, including quarterly discussions by the Audit Committee on AI risks and cybersecurity risks. They also highlight education on AI risk management, governance, ethics, and privacy. Furthermore, sources mention the deployment and strategic adoption of AI solutions, including an AI produce ordering system and an AI solution to analyze self-checkout transactions, and reference vendor oversight for third-party AI technology.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the **governance** and **privacy** pillars of responsible AI. It details board oversight of AI risk management, including quarterly discussions by the Audit Committee on AI risks and data privacy for AI, demonstrating a structured governance approach. The document also highlights education on AI risk management, governance, ethics, and privacy, further supporting its contribution to these pillars.",
+          "title": "2024 Annual Report and 2025 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/29534/000110465925033066/tm255785d2_ars.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for the **governance** pillar of responsible AI. The report details the Audit Committee's quarterly reviews of cybersecurity risks, including discussions on AI risk management processes and exposures, and their receipt of education on AI governance and ethics. These mechanisms demonstrate operational oversight and adherence to external governance policies affecting AI.",
+          "title": "Form 10-K Annual Report (January 31, 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/29534/000155837025003413/dg-20250131x10k.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance** and **transparency** by mentioning the deployment of Shelf Engine's AI produce ordering system and its strategic adoption for operational efficiency. The description of the AI-driven platform's purpose also contributes to transparency, although specific execution details are absent.",
+          "title": "Shelf Engine National Rollout - AI Produce Ordering",
+          "url": "https://progressivegrocer.com/dollar-general-implements-fully-automated-ai-powered-produce-ordering-nationwide"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the operational deployment of an AI solution to analyze self-checkout transactions and inform business decisions. The source also touches on transparency by describing the AI's application in identifying store performance metrics, though it lacks disclosure on fairness validation or bias assessments.",
+          "title": "AI Analysis of Self-Checkout Shrink and Theft Detection",
+          "url": "https://fortune.com/2025/03/14/dollar-general-cfo-shoplifting-shrink-problem-control-earnings"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **external_accountability**, **governance**, and **transparency**. It supports external_accountability and governance by mentioning the use of AI technology and \"Just Walk Out technology\" on a third-party basis, implying vendor oversight and management. Transparency is supported by the blog post's statement about not committing to a rollout, which indicates openness about the current deployment status of the computer vision solution.",
+          "title": "AiFi Frictionless Checkout Computer Vision Pilot",
+          "url": "https://progressivegrocer.com/dollar-general-testing-checkout-free-operations-north-carolina"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 2,
+      "findings": "Sources detail board oversight of AI risk management, which includes quarterly discussions on data privacy for AI. They also highlight education on AI risk management, governance, ethics, and privacy.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the **governance** and **privacy** pillars of responsible AI. It details board oversight of AI risk management, including quarterly discussions by the Audit Committee on AI risks and data privacy for AI, demonstrating a structured governance approach. The document also highlights education on AI risk management, governance, ethics, and privacy, further supporting its contribution to these pillars.",
+          "title": "2024 Annual Report and 2025 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/29534/000110465925033066/tm255785d2_ars.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 5,
+      "findings": "Sources describe the purpose and deployment of an AI produce ordering system. They also outline the application of AI in analyzing self-checkout transactions and identifying store performance metrics. Furthermore, sources state the current deployment status of a computer vision solution for frictionless checkout, including that a rollout has not been committed.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance** and **transparency** by mentioning the deployment of Shelf Engine's AI produce ordering system and its strategic adoption for operational efficiency. The description of the AI-driven platform's purpose also contributes to transparency, although specific execution details are absent.",
+          "title": "Shelf Engine National Rollout - AI Produce Ordering",
+          "url": "https://progressivegrocer.com/dollar-general-implements-fully-automated-ai-powered-produce-ordering-nationwide"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the operational deployment of an AI solution to analyze self-checkout transactions and inform business decisions. The source also touches on transparency by describing the AI's application in identifying store performance metrics, though it lacks disclosure on fairness validation or bias assessments.",
+          "title": "AI Analysis of Self-Checkout Shrink and Theft Detection",
+          "url": "https://fortune.com/2025/03/14/dollar-general-cfo-shoplifting-shrink-problem-control-earnings"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **external_accountability**, **governance**, and **transparency**. It supports external_accountability and governance by mentioning the use of AI technology and \"Just Walk Out technology\" on a third-party basis, implying vendor oversight and management. Transparency is supported by the blog post's statement about not committing to a rollout, which indicates openness about the current deployment status of the computer vision solution.",
+          "title": "AiFi Frictionless Checkout Computer Vision Pilot",
+          "url": "https://progressivegrocer.com/dollar-general-testing-checkout-free-operations-north-carolina"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:48:47Z",
+  "run_id": "20260201_220832_30ea",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Human Oversight & Accountability"
+    ],
+    "key_strengths": [
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Dollar General's responsible AI evaluation shows evidence at both the operational and policy levels across 5 of 7 evaluated pillars. At the operational level, privacy disclosures detail board-level review of AI risk management, including quarterly discussions on data privacy for AI, while governance materials reference quarterly discussions by the Audit Committee on AI risks. Policy-level evidence includes transparency disclosures describing the purpose of an AI produce ordering system, fairness materials detailing a settlement related to a criminal history screening matrix, and external accountability references to vendor oversight for AI technology. No qualifying public evidence was found for explainability or oversight, based on a review of 6 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 17,
+    "total_sources_used": 6
+  }
+}

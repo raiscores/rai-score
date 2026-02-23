@@ -1,0 +1,230 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "New York Life Insurance",
+  "company_slug": "new-york-life-insurance",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 5,
+      "POLICY": 21
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "New York Life describes a hybrid AI underwriting approach that utilizes non-black-box models. This approach involves close collaboration between data scientists and underwriters, stating that decision drivers are explainable.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"CIO Dive: NY Life Hybrid AI Underwriting Approach,\" provides evidence for explainability, governance, oversight, privacy, and transparency. It highlights a hybrid AI underwriting approach where non-black-box models are used with close collaboration between data scientists and underwriters, ensuring transparency and explainability in decision drivers. The post also mentions client consent for data usage, supporting the privacy pillar, and describes human underwriters making final determinations, demonstrating oversight and governance.",
+          "title": "CIO Dive: NY Life Hybrid AI Underwriting Approach",
+          "url": "https://ciodive.com/news/new-york-life-big-data-AI-innovation/631164"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Sources state that insurers are mandated to establish governance frameworks. This mandate also includes conducting regular testing for discrimination and ensuring compliance with laws.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "NY DFS Circular Letter No. 7 (2024) provides evidence for **external_accountability**, **fairness**, **governance**, and **oversight**. This enforcement action mandates insurers establish governance frameworks, conduct regular testing for discrimination, and ensure compliance with laws, demonstrating a commitment to **fairness** and **external_accountability**. The guidance also details requirements for senior management oversight, policy development, and due diligence for third-party vendors, supporting the **governance** and **oversight** pillars.",
+          "title": "NY DFS Circular Letter No. 7 (2024): AI Use and External Data",
+          "url": "https://dfs.ny.gov/industry-guidance/circular-letters/cl2024-07"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "Sources state that insurers are mandated to conduct regular testing for discrimination. This mandate also includes ensuring compliance with laws related to fairness.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "NY DFS Circular Letter No. 7 (2024) provides evidence for **external_accountability**, **fairness**, **governance**, and **oversight**. This enforcement action mandates insurers establish governance frameworks, conduct regular testing for discrimination, and ensure compliance with laws, demonstrating a commitment to **fairness** and **external_accountability**. The guidance also details requirements for senior management oversight, policy development, and due diligence for third-party vendors, supporting the **governance** and **oversight** pillars.",
+          "title": "NY DFS Circular Letter No. 7 (2024): AI Use and External Data",
+          "url": "https://dfs.ny.gov/industry-guidance/circular-letters/cl2024-07"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 22,
+      "findings": "New York Life details its evaluation and selection of AI solutions and references a commitment to sharing best practices for responsible AI. The company describes the integration of AI tools into compliance workflows and references the central role of compliance professionals in decision-making. Sources also state that insurers are mandated to establish governance frameworks, detailing requirements for policy development and due diligence for third-party vendors. Human underwriters are described as making final determinations.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This AWS case study blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing New York Life's evaluation and selection of AI solutions and their commitment to sharing best practices for responsible AI. The blog post also implies transparency through its mention of AI experimentation and the establishment of a central platform for AI development.",
+          "title": "AWS Case Study: Reframing Data and AI Approach",
+          "url": "https://aws.amazon.com/solutions/case-studies/new-york-life-case-study"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post details New York Life's partnership with Norm AI to scale compliance operations, providing evidence for **governance**, **oversight**, and **transparency**. The partnership demonstrates governance and oversight through the integration of AI tools into compliance workflows and the central role of compliance professionals in decision-making. Furthermore, the AI's capability to review sales and marketing content against regulations implies transparency in its application.",
+          "title": "New York Life Norm Ai Partnership: Scaling Compliance",
+          "url": "https://fintech.global/2026/01/15/new-york-life-partners-norm-ai-to-scale-ai-driven-compliance"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "NY DFS Circular Letter No. 7 (2024) provides evidence for **external_accountability**, **fairness**, **governance**, and **oversight**. This enforcement action mandates insurers establish governance frameworks, conduct regular testing for discrimination, and ensure compliance with laws, demonstrating a commitment to **fairness** and **external_accountability**. The guidance also details requirements for senior management oversight, policy development, and due diligence for third-party vendors, supporting the **governance** and **oversight** pillars.",
+          "title": "NY DFS Circular Letter No. 7 (2024): AI Use and External Data",
+          "url": "https://dfs.ny.gov/industry-guidance/circular-letters/cl2024-07"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"CIO Dive: NY Life Hybrid AI Underwriting Approach,\" provides evidence for explainability, governance, oversight, privacy, and transparency. It highlights a hybrid AI underwriting approach where non-black-box models are used with close collaboration between data scientists and underwriters, ensuring transparency and explainability in decision drivers. The post also mentions client consent for data usage, supporting the privacy pillar, and describes human underwriters making final determinations, demonstrating oversight and governance.",
+          "title": "CIO Dive: NY Life Hybrid AI Underwriting Approach",
+          "url": "https://ciodive.com/news/new-york-life-big-data-AI-innovation/631164"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "New York Life describes the integration of AI tools into compliance workflows and references the central role of compliance professionals in decision-making. Sources also detail requirements for senior management oversight and due diligence for third-party vendors. Additionally, human underwriters are described as making final determinations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post details New York Life's partnership with Norm AI to scale compliance operations, providing evidence for **governance**, **oversight**, and **transparency**. The partnership demonstrates governance and oversight through the integration of AI tools into compliance workflows and the central role of compliance professionals in decision-making. Furthermore, the AI's capability to review sales and marketing content against regulations implies transparency in its application.",
+          "title": "New York Life Norm Ai Partnership: Scaling Compliance",
+          "url": "https://fintech.global/2026/01/15/new-york-life-partners-norm-ai-to-scale-ai-driven-compliance"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "NY DFS Circular Letter No. 7 (2024) provides evidence for **external_accountability**, **fairness**, **governance**, and **oversight**. This enforcement action mandates insurers establish governance frameworks, conduct regular testing for discrimination, and ensure compliance with laws, demonstrating a commitment to **fairness** and **external_accountability**. The guidance also details requirements for senior management oversight, policy development, and due diligence for third-party vendors, supporting the **governance** and **oversight** pillars.",
+          "title": "NY DFS Circular Letter No. 7 (2024): AI Use and External Data",
+          "url": "https://dfs.ny.gov/industry-guidance/circular-letters/cl2024-07"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"CIO Dive: NY Life Hybrid AI Underwriting Approach,\" provides evidence for explainability, governance, oversight, privacy, and transparency. It highlights a hybrid AI underwriting approach where non-black-box models are used with close collaboration between data scientists and underwriters, ensuring transparency and explainability in decision drivers. The post also mentions client consent for data usage, supporting the privacy pillar, and describes human underwriters making final determinations, demonstrating oversight and governance.",
+          "title": "CIO Dive: NY Life Hybrid AI Underwriting Approach",
+          "url": "https://ciodive.com/news/new-york-life-big-data-AI-innovation/631164"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "Sources mention client consent for data usage.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"CIO Dive: NY Life Hybrid AI Underwriting Approach,\" provides evidence for explainability, governance, oversight, privacy, and transparency. It highlights a hybrid AI underwriting approach where non-black-box models are used with close collaboration between data scientists and underwriters, ensuring transparency and explainability in decision drivers. The post also mentions client consent for data usage, supporting the privacy pillar, and describes human underwriters making final determinations, demonstrating oversight and governance.",
+          "title": "CIO Dive: NY Life Hybrid AI Underwriting Approach",
+          "url": "https://ciodive.com/news/new-york-life-big-data-AI-innovation/631164"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 6,
+      "findings": "New York Life references AI experimentation and the establishment of a central platform for AI development. The company also references AI's capability to review sales and marketing content against regulations. Furthermore, a hybrid AI underwriting approach is described, which uses non-black-box models and involves close collaboration between data scientists and underwriters, stating that decision drivers are transparent.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This AWS case study blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing New York Life's evaluation and selection of AI solutions and their commitment to sharing best practices for responsible AI. The blog post also implies transparency through its mention of AI experimentation and the establishment of a central platform for AI development.",
+          "title": "AWS Case Study: Reframing Data and AI Approach",
+          "url": "https://aws.amazon.com/solutions/case-studies/new-york-life-case-study"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post details New York Life's partnership with Norm AI to scale compliance operations, providing evidence for **governance**, **oversight**, and **transparency**. The partnership demonstrates governance and oversight through the integration of AI tools into compliance workflows and the central role of compliance professionals in decision-making. Furthermore, the AI's capability to review sales and marketing content against regulations implies transparency in its application.",
+          "title": "New York Life Norm Ai Partnership: Scaling Compliance",
+          "url": "https://fintech.global/2026/01/15/new-york-life-partners-norm-ai-to-scale-ai-driven-compliance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"CIO Dive: NY Life Hybrid AI Underwriting Approach,\" provides evidence for explainability, governance, oversight, privacy, and transparency. It highlights a hybrid AI underwriting approach where non-black-box models are used with close collaboration between data scientists and underwriters, ensuring transparency and explainability in decision drivers. The post also mentions client consent for data usage, supporting the privacy pillar, and describes human underwriters making final determinations, demonstrating oversight and governance.",
+          "title": "CIO Dive: NY Life Hybrid AI Underwriting Approach",
+          "url": "https://ciodive.com/news/new-york-life-big-data-AI-innovation/631164"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:56:00Z",
+  "run_id": "20260202_232909_8ba0",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [],
+    "overall_findings": "Explainability and oversight are among the responsible AI pillars addressed in New York Life Insurance's published materials, which describe a hybrid AI underwriting approach that uses non-black-box models and the integration of AI tools into compliance workflows. All seven evaluated responsible AI pillars have documented public evidence, drawing from 23 publicly available sources. Further disclosures mention client consent for data usage for privacy and state that insurers are mandated to conduct regular testing for discrimination for fairness. Additionally, materials detail the company's evaluation and selection of AI solutions for governance, and reference the establishment of a central platform for AI development under transparency.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 7,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 28,
+    "total_sources_used": 4
+  }
+}

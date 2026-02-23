@@ -1,0 +1,371 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "Deere",
+  "company_slug": "deere",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 32,
+      "OPERATIONAL": 6,
+      "POLICY": 43
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Policy documents require information on the logic and consequences of automated decision-making and profiling.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The Deere Group Binding Corporate Rules policy document provides evidence for **explainability, governance, oversight, privacy, and transparency**. It supports explainability and transparency by requiring information on the logic and consequences of automated decision-making and profiling. The policy also strengthens governance and oversight through vendor due diligence requirements for data processors and by granting data subjects rights regarding automated decisions and profiling. Furthermore, it addresses privacy by allowing objections to profiling and data processing based on legitimate interests.",
+          "title": "Deere Group Binding Corporate Rules",
+          "url": "https://deere.com/assets/pdfs/common/privacy-and-data/bcr-statements/bcr_en_EN.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "The company collaborates with organizations like the Alliance for Trust in AI and the NIST AI Safety Institute Consortium, and references NIST-based Generative AI impact assessments. Technical papers mention auditable agentic workflows and regulatory pressures. Annual reports detail operational audit procedures and external audit focus on model methodology.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned sustainability appendix provides evidence for **governance** and **oversight** by detailing the board and management governance structure for sustainability, including the Corporate Governance Committee's quarterly oversight and the Chief Privacy Officer's reporting lines. The document also supports **external_accountability** through its mention of collaborations with organizations like the Alliance for Trust in AI and the NIST AI Safety Institute Consortium, and by referencing NIST-based Generative AI impact assessments.",
+          "title": "2024 Sustainability Disclosures and Metrics",
+          "url": "https://deere.com/assets/pdfs/common/our-company/sustainability/data-book-2024.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at John Deere,\" provides evidence for **transparency**, **governance**, and **external accountability**. The paper supports transparency by detailing AI capabilities, applications, and the integration of AI systems with features like 360-degree visibility. Evidence for governance is found in discussions of governing AI, foundational governance policies, frameworks for ROI, and the need for governance around GenAI and enterprise AI assistants. Finally, the paper touches on external accountability through mentions of auditable agentic workflows and regulatory pressures.",
+          "title": "Artificial Intelligence at John Deere",
+          "url": "https://emerj.com/artificial-intelligence-at-john-deere"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The report details operational audit procedures and external audit focus on model methodology, supporting external accountability and governance. It describes the operational use of models with management review and qualitative adjustments, indicating oversight and governance, and mentions risks like programmed bias and data leakage, which relate to fairness and privacy. Furthermore, the filing discusses the use of machine learning and automation in products and processes, along with statistical models for forecasting, contributing to transparency and governance.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/315189/000155837025000116/de-20241027xars.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "Annual reports mention risks related to fairness, specifically referencing programmed bias.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The report details operational audit procedures and external audit focus on model methodology, supporting external accountability and governance. It describes the operational use of models with management review and qualitative adjustments, indicating oversight and governance, and mentions risks like programmed bias and data leakage, which relate to fairness and privacy. Furthermore, the filing discusses the use of machine learning and automation in products and processes, along with statistical models for forecasting, contributing to transparency and governance.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/315189/000155837025000116/de-20241027xars.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 56,
+      "findings": "The company participates in the U.S. Artificial Intelligence Safety Institute Consortium (AISIC) and states an intent to shape AI standards and develop measurement science for trustworthy AI. Governance structures are detailed through board and management oversight for sustainability, including the Chief Privacy Officer's reporting lines. Policy documents strengthen governance through vendor due diligence, data subject rights, and clear API license restrictions, while technical papers discuss foundational governance policies and the need for governance around GenAI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This press release indicates Deere's commitment to responsible AI through its participation in the U.S. Artificial Intelligence Safety Institute Consortium (AISIC). The company's intent to shape AI standards, test methods, and safe practices for deployment across its product lines provides evidence for the **governance** pillar. This participation and commitment to developing measurement science for trustworthy AI demonstrates a policy-level engagement with AI governance and standards.",
+          "title": "Deere Joins AI Safety Consortium",
+          "url": "https://deere.com/en/stories/featured/john-deere-joins-ai-safety-consortium"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned sustainability appendix provides evidence for **governance** and **oversight** by detailing the board and management governance structure for sustainability, including the Corporate Governance Committee's quarterly oversight and the Chief Privacy Officer's reporting lines. The document also supports **external_accountability** through its mention of collaborations with organizations like the Alliance for Trust in AI and the NIST AI Safety Institute Consortium, and by referencing NIST-based Generative AI impact assessments.",
+          "title": "2024 Sustainability Disclosures and Metrics",
+          "url": "https://deere.com/assets/pdfs/common/our-company/sustainability/data-book-2024.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The \"John Deere Data Services & Subscriptions Statement\" provides evidence for the **governance** pillar of responsible AI. This policy document implies AI/ML use through its mention of data analysis for product development and improvement, and suggests governance in the context of how data is used for targeted marketing and customer offerings, which may involve profiling and inference systems.",
+          "title": "John Deere Data Services & Subscriptions Statement",
+          "url": "https://deere.com/en/privacy-and-data/data-services/index.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The Deere Group Binding Corporate Rules policy document provides evidence for **explainability, governance, oversight, privacy, and transparency**. It supports explainability and transparency by requiring information on the logic and consequences of automated decision-making and profiling. The policy also strengthens governance and oversight through vendor due diligence requirements for data processors and by granting data subjects rights regarding automated decisions and profiling. Furthermore, it addresses privacy by allowing objections to profiling and data processing based on legitimate interests.",
+          "title": "Deere Group Binding Corporate Rules",
+          "url": "https://deere.com/assets/pdfs/common/privacy-and-data/bcr-statements/bcr_en_EN.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "The \"My John Deere Privacy Notice\" policy document provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports **governance** by detailing data sharing with trusted suppliers and outlining procedures for addressing complaints. Evidence for **privacy** is found in its description of data de-identification, anonymization for product development, and explicit consent for data analytics. The policy also supports **transparency** by acknowledging data use for statistical purposes and product development, and by describing AI capabilities like predictive service needs.",
+          "title": "My John Deere Privacy Notice",
+          "url": "https://deere.com/assets/pdfs/common/privacy-and-data/mjd-privacy-notice/mjd-privacy-notice_r2_5.25.18_en_EN.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This API License Agreement policy document provides evidence for the **governance** pillar. It establishes clear policies and restrictions on how API licenses can be used, including requirements for compliance with agreements and laws, limitations on excessive usage, and defined accountability for Licensee Applications. The document also outlines specific, documented restrictions on the use of materials to prevent harm.",
+          "title": "API License Agreement",
+          "url": "https://developer.deere.com/ApiAgreementPDF.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This help page for the See & Spray Select product provides evidence for **governance** and **transparency**. It supports these pillars by describing the AI system's components, such as boom-mounted cameras and vision processing units, and explaining its automated decision-making process for targeted herbicide application. The documentation details how the system uses computer vision and color-detecting technology to identify weeds in real-time, aligning with transparency by outlining system function and governance by describing its automated capabilities.",
+          "title": "See & Spray™ Select - Precision Ag Product",
+          "url": "https://deere.com/en/sprayers/see-spray-select"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper on See & Spray technology provides evidence for the **transparency** and **governance** pillars of responsible AI. It supports transparency by detailing the system's AI/ML capabilities, including computer vision and machine learning used for differentiating crops from weeds and enabling real-time decision-making. The mention of \"safe, real-time decisions\" also implies governance by highlighting the system's operational safety and control.",
+          "title": "See & Spray Technology Technical Overview",
+          "url": "https://extension.msstate.edu/publications/see-spray-technology"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at John Deere,\" provides evidence for **transparency**, **governance**, and **external accountability**. The paper supports transparency by detailing AI capabilities, applications, and the integration of AI systems with features like 360-degree visibility. Evidence for governance is found in discussions of governing AI, foundational governance policies, frameworks for ROI, and the need for governance around GenAI and enterprise AI assistants. Finally, the paper touches on external accountability through mentions of auditable agentic workflows and regulatory pressures.",
+          "title": "Artificial Intelligence at John Deere",
+          "url": "https://emerj.com/artificial-intelligence-at-john-deere"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The report details operational audit procedures and external audit focus on model methodology, supporting external accountability and governance. It describes the operational use of models with management review and qualitative adjustments, indicating oversight and governance, and mentions risks like programmed bias and data leakage, which relate to fairness and privacy. Furthermore, the filing discusses the use of machine learning and automation in products and processes, along with statistical models for forecasting, contributing to transparency and governance.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/315189/000155837025000116/de-20241027xars.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"2024 Business Impact Report\" provides evidence for **governance** and **transparency**. The report details the deployment of various AI-powered systems, such as AutoTrac, AutoPath, SmartDetect, and TruSet Active, which imply governance over their application and performance. Furthermore, the documentation of intelligent systems like See & Spray and precision solutions, along with the use of machine-generated data for carbon emissions calculations, suggests transparency regarding AI capabilities and their impact.",
+          "title": "2024 Business Impact Report",
+          "url": "https://deere.com/assets/pdfs/common/our-company/sustainability/business-impact-report-2024.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This press release on John Deere's AI strategy provides evidence for the **governance** and **transparency** pillars. It implies governance through mentions of farmer needs, product testing, and the need for reliable performance in AI development. Transparency is supported by explanations of AI/ML capabilities and benefits for farmers, as well as descriptions of AI deployment contexts and the tasks performed by the AI.",
+          "title": "John Deere CTO on AI Integration and Edge Deployment",
+          "url": "https://observer.com/2025/09/jahmy-hindman-john-deere-ai-farming"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Sustainability disclosures detail the board and management governance structure for sustainability, including quarterly oversight by the Corporate Governance Committee and the Chief Privacy Officer's reporting lines. Policy documents strengthen oversight through vendor due diligence requirements for data processors. Annual reports describe the operational use of models with management review and qualitative adjustments.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned sustainability appendix provides evidence for **governance** and **oversight** by detailing the board and management governance structure for sustainability, including the Corporate Governance Committee's quarterly oversight and the Chief Privacy Officer's reporting lines. The document also supports **external_accountability** through its mention of collaborations with organizations like the Alliance for Trust in AI and the NIST AI Safety Institute Consortium, and by referencing NIST-based Generative AI impact assessments.",
+          "title": "2024 Sustainability Disclosures and Metrics",
+          "url": "https://deere.com/assets/pdfs/common/our-company/sustainability/data-book-2024.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The Deere Group Binding Corporate Rules policy document provides evidence for **explainability, governance, oversight, privacy, and transparency**. It supports explainability and transparency by requiring information on the logic and consequences of automated decision-making and profiling. The policy also strengthens governance and oversight through vendor due diligence requirements for data processors and by granting data subjects rights regarding automated decisions and profiling. Furthermore, it addresses privacy by allowing objections to profiling and data processing based on legitimate interests.",
+          "title": "Deere Group Binding Corporate Rules",
+          "url": "https://deere.com/assets/pdfs/common/privacy-and-data/bcr-statements/bcr_en_EN.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The report details operational audit procedures and external audit focus on model methodology, supporting external accountability and governance. It describes the operational use of models with management review and qualitative adjustments, indicating oversight and governance, and mentions risks like programmed bias and data leakage, which relate to fairness and privacy. Furthermore, the filing discusses the use of machine learning and automation in products and processes, along with statistical models for forecasting, contributing to transparency and governance.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/315189/000155837025000116/de-20241027xars.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 11,
+      "findings": "Policy documents allow objections to profiling and data processing based on legitimate interests. Privacy notices describe data de-identification, anonymization for product development, and explicit consent for data analytics. Annual reports also mention risks such as data leakage.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The Deere Group Binding Corporate Rules policy document provides evidence for **explainability, governance, oversight, privacy, and transparency**. It supports explainability and transparency by requiring information on the logic and consequences of automated decision-making and profiling. The policy also strengthens governance and oversight through vendor due diligence requirements for data processors and by granting data subjects rights regarding automated decisions and profiling. Furthermore, it addresses privacy by allowing objections to profiling and data processing based on legitimate interests.",
+          "title": "Deere Group Binding Corporate Rules",
+          "url": "https://deere.com/assets/pdfs/common/privacy-and-data/bcr-statements/bcr_en_EN.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "The \"My John Deere Privacy Notice\" policy document provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports **governance** by detailing data sharing with trusted suppliers and outlining procedures for addressing complaints. Evidence for **privacy** is found in its description of data de-identification, anonymization for product development, and explicit consent for data analytics. The policy also supports **transparency** by acknowledging data use for statistical purposes and product development, and by describing AI capabilities like predictive service needs.",
+          "title": "My John Deere Privacy Notice",
+          "url": "https://deere.com/assets/pdfs/common/privacy-and-data/mjd-privacy-notice/mjd-privacy-notice_r2_5.25.18_en_EN.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The report details operational audit procedures and external audit focus on model methodology, supporting external accountability and governance. It describes the operational use of models with management review and qualitative adjustments, indicating oversight and governance, and mentions risks like programmed bias and data leakage, which relate to fairness and privacy. Furthermore, the filing discusses the use of machine learning and automation in products and processes, along with statistical models for forecasting, contributing to transparency and governance.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/315189/000155837025000116/de-20241027xars.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 34,
+      "findings": "Policy documents require information on the logic and consequences of automated decision-making and profiling. Various company materials, including privacy notices, product documentation, and technical papers, describe AI/ML capabilities, applications, and system components. These materials also explain automated decision-making processes, such as targeted herbicide application, and discuss the use of machine learning, automation, and statistical models in products and processes.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The Deere Group Binding Corporate Rules policy document provides evidence for **explainability, governance, oversight, privacy, and transparency**. It supports explainability and transparency by requiring information on the logic and consequences of automated decision-making and profiling. The policy also strengthens governance and oversight through vendor due diligence requirements for data processors and by granting data subjects rights regarding automated decisions and profiling. Furthermore, it addresses privacy by allowing objections to profiling and data processing based on legitimate interests.",
+          "title": "Deere Group Binding Corporate Rules",
+          "url": "https://deere.com/assets/pdfs/common/privacy-and-data/bcr-statements/bcr_en_EN.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "The \"My John Deere Privacy Notice\" policy document provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports **governance** by detailing data sharing with trusted suppliers and outlining procedures for addressing complaints. Evidence for **privacy** is found in its description of data de-identification, anonymization for product development, and explicit consent for data analytics. The policy also supports **transparency** by acknowledging data use for statistical purposes and product development, and by describing AI capabilities like predictive service needs.",
+          "title": "My John Deere Privacy Notice",
+          "url": "https://deere.com/assets/pdfs/common/privacy-and-data/mjd-privacy-notice/mjd-privacy-notice_r2_5.25.18_en_EN.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This help page for the See & Spray Select product provides evidence for **governance** and **transparency**. It supports these pillars by describing the AI system's components, such as boom-mounted cameras and vision processing units, and explaining its automated decision-making process for targeted herbicide application. The documentation details how the system uses computer vision and color-detecting technology to identify weeds in real-time, aligning with transparency by outlining system function and governance by describing its automated capabilities.",
+          "title": "See & Spray™ Select - Precision Ag Product",
+          "url": "https://deere.com/en/sprayers/see-spray-select"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper on See & Spray technology provides evidence for the **transparency** and **governance** pillars of responsible AI. It supports transparency by detailing the system's AI/ML capabilities, including computer vision and machine learning used for differentiating crops from weeds and enabling real-time decision-making. The mention of \"safe, real-time decisions\" also implies governance by highlighting the system's operational safety and control.",
+          "title": "See & Spray Technology Technical Overview",
+          "url": "https://extension.msstate.edu/publications/see-spray-technology"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at John Deere,\" provides evidence for **transparency**, **governance**, and **external accountability**. The paper supports transparency by detailing AI capabilities, applications, and the integration of AI systems with features like 360-degree visibility. Evidence for governance is found in discussions of governing AI, foundational governance policies, frameworks for ROI, and the need for governance around GenAI and enterprise AI assistants. Finally, the paper touches on external accountability through mentions of auditable agentic workflows and regulatory pressures.",
+          "title": "Artificial Intelligence at John Deere",
+          "url": "https://emerj.com/artificial-intelligence-at-john-deere"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The report details operational audit procedures and external audit focus on model methodology, supporting external accountability and governance. It describes the operational use of models with management review and qualitative adjustments, indicating oversight and governance, and mentions risks like programmed bias and data leakage, which relate to fairness and privacy. Furthermore, the filing discusses the use of machine learning and automation in products and processes, along with statistical models for forecasting, contributing to transparency and governance.",
+          "title": "2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/315189/000155837025000116/de-20241027xars.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"2024 Business Impact Report\" provides evidence for **governance** and **transparency**. The report details the deployment of various AI-powered systems, such as AutoTrac, AutoPath, SmartDetect, and TruSet Active, which imply governance over their application and performance. Furthermore, the documentation of intelligent systems like See & Spray and precision solutions, along with the use of machine-generated data for carbon emissions calculations, suggests transparency regarding AI capabilities and their impact.",
+          "title": "2024 Business Impact Report",
+          "url": "https://deere.com/assets/pdfs/common/our-company/sustainability/business-impact-report-2024.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This press release on John Deere's AI strategy provides evidence for the **governance** and **transparency** pillars. It implies governance through mentions of farmer needs, product testing, and the need for reliable performance in AI development. Transparency is supported by explanations of AI/ML capabilities and benefits for farmers, as well as descriptions of AI deployment contexts and the tasks performed by the AI.",
+          "title": "John Deere CTO on AI Integration and Edge Deployment",
+          "url": "https://observer.com/2025/09/jahmy-hindman-john-deere-ai-farming"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:48:25Z",
+  "run_id": "20260201_220532_0669",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Deere's public materials address governance and transparency with operational practices, covering all 7 evaluated responsible AI pillars. For governance, press releases indicate participation in the U.S. Artificial Intelligence Safety Institute Consortium, while transparency policy documents require information on the logic and consequences of automated decision-making and profiling. Additionally, privacy notices describe data de-identification and anonymization for product development, and policy documents allow objections to profiling. Fairness and explainability are also addressed at the policy level, with annual reports mentioning risks such as programmed bias. Drawing from 16 publicly available sources, all 7 evaluated pillars have documented public evidence.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 81,
+    "total_sources_used": 12
+  }
+}

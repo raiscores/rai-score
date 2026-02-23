@@ -1,0 +1,329 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "TIAA",
+  "company_slug": "tiaa",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 1,
+      "OPERATIONAL": 10,
+      "POLICY": 27
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Sources describe documented explainability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This policy document from the NYDFS provides evidence for **explainability, external accountability, fairness, governance, and transparency**. It mandates comprehensive documentation, bias testing with multiple statistical metrics, and qualitative explainability for AI systems. Furthermore, it requires fairness assessments, risk/impact assessments for adverse effects, and due diligence for third-party AI use, establishing robust governance and accountability mechanisms.",
+          "title": "NYDFS Proposed Guidance on AI and External Consumer Data Use",
+          "url": "https://mwe.com/insights/nydfs-issues-proposed-guidance-on-ai-and-external-consumer-data-use"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "A technical paper describes TIAA's structured approach to AI integration, referencing audit and fallback controls as mechanisms for external accountability. A press release describes TIAA's participation in industry AI governance advisory boards and references a commitment to shaping AI norms and ensuring accountability. A statement from federal agencies states a commitment to ensuring AI use aligns with federal laws.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Intelligence Equilibrium: TIAA's AI Operating Model,\" provides evidence for **external accountability, fairness, governance, and oversight**. The document details TIAA's structured approach to AI integration, including mentions of \"bias\" supporting **fairness**, and \"audit\" and \"fallback controls\" indicating mechanisms for **external accountability** and **oversight**. Furthermore, the paper describes embedding AI with \"guardrails\" to maintain trust, which supports **governance**, and highlights human oversight through practices like judging GenAI output and challenging weak AI answers, demonstrating **oversight**.",
+          "title": "Intelligence Equilibrium: TIAA's AI Operating Model",
+          "url": "https://cmr.berkeley.edu/2025/10/intelligence-equilibrium-a-new-operating-model"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This press release announces TIAA's participation in industry AI governance advisory boards, providing evidence for **governance** and **external accountability**. The document highlights the formation of specific committees with executive leadership focused on AI agents and regulatory compliance, demonstrating a structured approach to AI policy and strategy development. This participation in external boards and the appointment of legal and compliance experts underscore TIAA's commitment to shaping AI norms and ensuring accountability.",
+          "title": "Norm AI Advisory Boards - TIAA Executive Leadership Participation",
+          "url": "https://fintech.global/2025/04/22/norm-ai-builds-executive-led-advisory-boards-to-shape-ai-governance-in-finance"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This policy document from the NYDFS provides evidence for **explainability, external accountability, fairness, governance, and transparency**. It mandates comprehensive documentation, bias testing with multiple statistical metrics, and qualitative explainability for AI systems. Furthermore, it requires fairness assessments, risk/impact assessments for adverse effects, and due diligence for third-party AI use, establishing robust governance and accountability mechanisms.",
+          "title": "NYDFS Proposed Guidance on AI and External Consumer Data Use",
+          "url": "https://mwe.com/insights/nydfs-issues-proposed-guidance-on-ai-and-external-consumer-data-use"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "The \"Joint Federal Agencies Statement on AI Enforcement\" supports the **external_accountability**, **fairness**, **governance**, and **privacy** pillars. This enforcement action highlights concerns about bias and discriminatory impacts in AI systems, directly addressing **fairness**. It also establishes the agencies' commitment to ensuring AI use aligns with federal laws, demonstrating **external_accountability** and **governance**. Furthermore, the statement's mention of requirements for data use indicates support for the **privacy** pillar.",
+          "title": "Joint Federal Agencies Statement on AI Enforcement",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement(final).pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 12,
+      "findings": "TIAA's technical papers reference bias within its structured AI integration approach. A policy document states a commitment to fairness principles in the U.S. Supplier Code of Conduct for AI. Furthermore, a blog post describes an AI Governance Committee tasked with evaluating pilots for bias and outlines a policy-driven approach to AI implementation and operational governance. A statement from federal agencies references concerns about bias and discriminatory impacts in AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Intelligence Equilibrium: TIAA's AI Operating Model,\" provides evidence for **external accountability, fairness, governance, and oversight**. The document details TIAA's structured approach to AI integration, including mentions of \"bias\" supporting **fairness**, and \"audit\" and \"fallback controls\" indicating mechanisms for **external accountability** and **oversight**. Furthermore, the paper describes embedding AI with \"guardrails\" to maintain trust, which supports **governance**, and highlights human oversight through practices like judging GenAI output and challenging weak AI answers, demonstrating **oversight**.",
+          "title": "Intelligence Equilibrium: TIAA's AI Operating Model",
+          "url": "https://cmr.berkeley.edu/2025/10/intelligence-equilibrium-a-new-operating-model"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"TIAA U.S. Supplier Code of Conduct - Artificial Intelligence Section,\" establishes TIAA's commitment to responsible AI innovation. It supports the **governance** and **oversight** pillars by outlining requirements for AI technology, and the **fairness** and **transparency** pillars by stating a commitment to these principles. Furthermore, it addresses the **privacy** pillar by requiring suppliers to comply with privacy and data protection laws in their use of AI.",
+          "title": "TIAA U.S. Supplier Code of Conduct - Artificial Intelligence Section",
+          "url": "https://tiaa.org/public/pdf/t/TIAA_Code_of_Conduct.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"The Great AI Reset - TIAA Enterprise AI Deployment Framework,\" provides evidence for the **governance** and **fairness** pillars of responsible AI. The article details TIAA's commitment to establishing formalized governance structures, including risk and security controls, data quality guardrails, and an AI Governance Committee tasked with evaluating pilots for bias. This indicates a policy-driven approach to AI implementation and operational governance through metrics, accountability, and early KPI testing.",
+          "title": "The Great AI Reset - TIAA Enterprise AI Deployment Framework",
+          "url": "https://cio.com/article/4080608/the-great-ai-reset-cios-pivot-from-pilots-to-business-value.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This policy document from the NYDFS provides evidence for **explainability, external accountability, fairness, governance, and transparency**. It mandates comprehensive documentation, bias testing with multiple statistical metrics, and qualitative explainability for AI systems. Furthermore, it requires fairness assessments, risk/impact assessments for adverse effects, and due diligence for third-party AI use, establishing robust governance and accountability mechanisms.",
+          "title": "NYDFS Proposed Guidance on AI and External Consumer Data Use",
+          "url": "https://mwe.com/insights/nydfs-issues-proposed-guidance-on-ai-and-external-consumer-data-use"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "The \"Joint Federal Agencies Statement on AI Enforcement\" supports the **external_accountability**, **fairness**, **governance**, and **privacy** pillars. This enforcement action highlights concerns about bias and discriminatory impacts in AI systems, directly addressing **fairness**. It also establishes the agencies' commitment to ensuring AI use aligns with federal laws, demonstrating **external_accountability** and **governance**. Furthermore, the statement's mention of requirements for data use indicates support for the **privacy** pillar.",
+          "title": "Joint Federal Agencies Statement on AI Enforcement",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement(final).pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 34,
+      "findings": "A company charter describes a committee's responsibility for overseeing artificial intelligence systems and outlines annual review and approval of related policies and procedures. TIAA's structured approach to AI integration is described in a technical paper, and a policy document states a commitment to responsible AI innovation and outlines requirements for AI technology. A press release describes TIAA's participation in industry AI governance advisory boards and the formation of specific committees focused on AI agents and regulatory compliance. A blog post describes a commitment to formalized governance structures, including risk and security controls, data quality guardrails, and an AI Governance Committee, indicating a policy-driven approach to AI implementation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This TIAA Risk and Compliance Committee Charter provides evidence for **governance** and **oversight** by explicitly assigning the committee responsibility for overseeing artificial intelligence systems (AIS). The charter mandates annual review and approval of AIS-related policies and procedures, demonstrating a structured approach to managing AI risks and ensuring alignment with evolving technology and regulations.",
+          "title": "TIAA Risk and Compliance Committee Charter",
+          "url": "https://tiaa.org/public/pdf/r/riskcompliancecommittee.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Intelligence Equilibrium: TIAA's AI Operating Model,\" provides evidence for **external accountability, fairness, governance, and oversight**. The document details TIAA's structured approach to AI integration, including mentions of \"bias\" supporting **fairness**, and \"audit\" and \"fallback controls\" indicating mechanisms for **external accountability** and **oversight**. Furthermore, the paper describes embedding AI with \"guardrails\" to maintain trust, which supports **governance**, and highlights human oversight through practices like judging GenAI output and challenging weak AI answers, demonstrating **oversight**.",
+          "title": "Intelligence Equilibrium: TIAA's AI Operating Model",
+          "url": "https://cmr.berkeley.edu/2025/10/intelligence-equilibrium-a-new-operating-model"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"TIAA U.S. Supplier Code of Conduct - Artificial Intelligence Section,\" establishes TIAA's commitment to responsible AI innovation. It supports the **governance** and **oversight** pillars by outlining requirements for AI technology, and the **fairness** and **transparency** pillars by stating a commitment to these principles. Furthermore, it addresses the **privacy** pillar by requiring suppliers to comply with privacy and data protection laws in their use of AI.",
+          "title": "TIAA U.S. Supplier Code of Conduct - Artificial Intelligence Section",
+          "url": "https://tiaa.org/public/pdf/t/TIAA_Code_of_Conduct.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This press release announces TIAA's participation in industry AI governance advisory boards, providing evidence for **governance** and **external accountability**. The document highlights the formation of specific committees with executive leadership focused on AI agents and regulatory compliance, demonstrating a structured approach to AI policy and strategy development. This participation in external boards and the appointment of legal and compliance experts underscore TIAA's commitment to shaping AI norms and ensuring accountability.",
+          "title": "Norm AI Advisory Boards - TIAA Executive Leadership Participation",
+          "url": "https://fintech.global/2025/04/22/norm-ai-builds-executive-led-advisory-boards-to-shape-ai-governance-in-finance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This TIAA help page provides evidence for the **governance** and **privacy** pillars of responsible AI. It establishes policies for AI use, including requirements for notification and consent, and prohibits unauthorized material use, demonstrating strong governance. Furthermore, the document outlines a commitment to responsible innovation and supplier policies, reinforcing its governance framework and implicitly supporting privacy by detailing how AI is managed and protected.",
+          "title": "AI Scams Prevention - TIAA Security Guidance",
+          "url": "https://tiaa.org/public/invest/services/wealth-management/perspectives/ai-scams-prevention"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"The Great AI Reset - TIAA Enterprise AI Deployment Framework,\" provides evidence for the **governance** and **fairness** pillars of responsible AI. The article details TIAA's commitment to establishing formalized governance structures, including risk and security controls, data quality guardrails, and an AI Governance Committee tasked with evaluating pilots for bias. This indicates a policy-driven approach to AI implementation and operational governance through metrics, accountability, and early KPI testing.",
+          "title": "The Great AI Reset - TIAA Enterprise AI Deployment Framework",
+          "url": "https://cio.com/article/4080608/the-great-ai-reset-cios-pivot-from-pilots-to-business-value.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This policy document from the NYDFS provides evidence for **explainability, external accountability, fairness, governance, and transparency**. It mandates comprehensive documentation, bias testing with multiple statistical metrics, and qualitative explainability for AI systems. Furthermore, it requires fairness assessments, risk/impact assessments for adverse effects, and due diligence for third-party AI use, establishing robust governance and accountability mechanisms.",
+          "title": "NYDFS Proposed Guidance on AI and External Consumer Data Use",
+          "url": "https://mwe.com/insights/nydfs-issues-proposed-guidance-on-ai-and-external-consumer-data-use"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "The \"Joint Federal Agencies Statement on AI Enforcement\" supports the **external_accountability**, **fairness**, **governance**, and **privacy** pillars. This enforcement action highlights concerns about bias and discriminatory impacts in AI systems, directly addressing **fairness**. It also establishes the agencies' commitment to ensuring AI use aligns with federal laws, demonstrating **external_accountability** and **governance**. Furthermore, the statement's mention of requirements for data use indicates support for the **privacy** pillar.",
+          "title": "Joint Federal Agencies Statement on AI Enforcement",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement(final).pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "A company charter describes a committee's responsibility for overseeing artificial intelligence systems and outlines annual review and approval of related policies and procedures. TIAA's structured approach to AI integration includes audit and fallback controls for oversight, and a policy document outlines requirements for AI technology.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This TIAA Risk and Compliance Committee Charter provides evidence for **governance** and **oversight** by explicitly assigning the committee responsibility for overseeing artificial intelligence systems (AIS). The charter mandates annual review and approval of AIS-related policies and procedures, demonstrating a structured approach to managing AI risks and ensuring alignment with evolving technology and regulations.",
+          "title": "TIAA Risk and Compliance Committee Charter",
+          "url": "https://tiaa.org/public/pdf/r/riskcompliancecommittee.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Intelligence Equilibrium: TIAA's AI Operating Model,\" provides evidence for **external accountability, fairness, governance, and oversight**. The document details TIAA's structured approach to AI integration, including mentions of \"bias\" supporting **fairness**, and \"audit\" and \"fallback controls\" indicating mechanisms for **external accountability** and **oversight**. Furthermore, the paper describes embedding AI with \"guardrails\" to maintain trust, which supports **governance**, and highlights human oversight through practices like judging GenAI output and challenging weak AI answers, demonstrating **oversight**.",
+          "title": "Intelligence Equilibrium: TIAA's AI Operating Model",
+          "url": "https://cmr.berkeley.edu/2025/10/intelligence-equilibrium-a-new-operating-model"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"TIAA U.S. Supplier Code of Conduct - Artificial Intelligence Section,\" establishes TIAA's commitment to responsible AI innovation. It supports the **governance** and **oversight** pillars by outlining requirements for AI technology, and the **fairness** and **transparency** pillars by stating a commitment to these principles. Furthermore, it addresses the **privacy** pillar by requiring suppliers to comply with privacy and data protection laws in their use of AI.",
+          "title": "TIAA U.S. Supplier Code of Conduct - Artificial Intelligence Section",
+          "url": "https://tiaa.org/public/pdf/t/TIAA_Code_of_Conduct.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "A policy document outlines requirements for suppliers to comply with privacy and data protection laws in their use of AI. A help page implicitly supports privacy by describing how AI is managed and protected. Additionally, a statement from federal agencies references requirements for data use.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"TIAA U.S. Supplier Code of Conduct - Artificial Intelligence Section,\" establishes TIAA's commitment to responsible AI innovation. It supports the **governance** and **oversight** pillars by outlining requirements for AI technology, and the **fairness** and **transparency** pillars by stating a commitment to these principles. Furthermore, it addresses the **privacy** pillar by requiring suppliers to comply with privacy and data protection laws in their use of AI.",
+          "title": "TIAA U.S. Supplier Code of Conduct - Artificial Intelligence Section",
+          "url": "https://tiaa.org/public/pdf/t/TIAA_Code_of_Conduct.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This TIAA help page provides evidence for the **governance** and **privacy** pillars of responsible AI. It establishes policies for AI use, including requirements for notification and consent, and prohibits unauthorized material use, demonstrating strong governance. Furthermore, the document outlines a commitment to responsible innovation and supplier policies, reinforcing its governance framework and implicitly supporting privacy by detailing how AI is managed and protected.",
+          "title": "AI Scams Prevention - TIAA Security Guidance",
+          "url": "https://tiaa.org/public/invest/services/wealth-management/perspectives/ai-scams-prevention"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "The \"Joint Federal Agencies Statement on AI Enforcement\" supports the **external_accountability**, **fairness**, **governance**, and **privacy** pillars. This enforcement action highlights concerns about bias and discriminatory impacts in AI systems, directly addressing **fairness**. It also establishes the agencies' commitment to ensuring AI use aligns with federal laws, demonstrating **external_accountability** and **governance**. Furthermore, the statement's mention of requirements for data use indicates support for the **privacy** pillar.",
+          "title": "Joint Federal Agencies Statement on AI Enforcement",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement(final).pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 3,
+      "findings": "A policy document states TIAA's commitment to transparency principles for AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"TIAA U.S. Supplier Code of Conduct - Artificial Intelligence Section,\" establishes TIAA's commitment to responsible AI innovation. It supports the **governance** and **oversight** pillars by outlining requirements for AI technology, and the **fairness** and **transparency** pillars by stating a commitment to these principles. Furthermore, it addresses the **privacy** pillar by requiring suppliers to comply with privacy and data protection laws in their use of AI.",
+          "title": "TIAA U.S. Supplier Code of Conduct - Artificial Intelligence Section",
+          "url": "https://tiaa.org/public/pdf/t/TIAA_Code_of_Conduct.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This policy document from the NYDFS provides evidence for **explainability, external accountability, fairness, governance, and transparency**. It mandates comprehensive documentation, bias testing with multiple statistical metrics, and qualitative explainability for AI systems. Furthermore, it requires fairness assessments, risk/impact assessments for adverse effects, and due diligence for third-party AI use, establishing robust governance and accountability mechanisms.",
+          "title": "NYDFS Proposed Guidance on AI and External Consumer Data Use",
+          "url": "https://mwe.com/insights/nydfs-issues-proposed-guidance-on-ai-and-external-consumer-data-use"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-02-23T21:59:29Z",
+  "run_id": "20260218_050855_f85f",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Based on 20 publicly available sources, TIAA's published materials show that all 7 evaluated pillars have documented public evidence. Operational practices for oversight and governance are detailed through a company charter that describes a committee's responsibility for overseeing artificial intelligence systems and outlines annual review and approval of related policies. At the policy level, transparency disclosures state a commitment to transparency principles for AI, while fairness materials reference bias in the company's structured approach to AI integration and a commitment to fairness principles in its U.S. Supplier Code of Conduct. Additional policy-level evidence includes explainability practices, requirements for suppliers to comply with privacy and data protection laws, and descriptions of audit and fallback controls for external accountability.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 38,
+    "total_sources_used": 8
+  }
+}

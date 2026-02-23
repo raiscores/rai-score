@@ -1,0 +1,175 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 14.3,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 2
+  },
+  "company": "ConocoPhillips",
+  "company_slug": "conocophillips",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 6,
+      "OPERATIONAL": 1,
+      "POLICY": 4
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 6,
+      "findings": "The company references its management of AI/ML systems and vendor partnerships for software. It highlights an existing cybersecurity risk management and governance structure, including multilayered IT/OT security, annual risk assessments, and Board/Audit Committee oversight, while also explicitly noting risks from generative AI. Furthermore, a structured process for identifying and executing AI opportunities is detailed, which includes use-case analysis and vendor evaluation criteria for AI development and procurement.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Digitizing our business - AI and machine learning applications,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports transparency by detailing AI/ML use cases and algorithms for predictions. Governance is implied through the company's management of these AI/ML systems, although specific execution details for operational or policy aspects are not provided.",
+          "title": "Digitizing our business - AI and machine learning applications",
+          "url": "https://conocophillips.com/what-we-do/innovation-and-technology/digitizing-our-business"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Lower 48 ML optimization - Eagle Ford drilling prediction,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The post demonstrates transparency by detailing the use of machine learning for predicting drilling-motor failures and optimizing operating parameters, explicitly stating the application of AI/ML. Evidence for governance is found in the mention of vendor partnerships for software, suggesting oversight in the AI development and deployment process.",
+          "title": "Lower 48 ML optimization - Eagle Ford drilling prediction",
+          "url": "https://conocophillips.com/spiritnow/story/how-conocophillips-is-leveraging-data-to-optimize-its-lower-48-operations"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing provides evidence for the **governance** pillar of responsible AI. The document highlights the company's existing cybersecurity risk management and governance structure, including multilayered IT/OT security, annual risk assessments, and Board/Audit Committee oversight, which are relevant to managing AI-related risks. The filing also explicitly notes risks from generative AI, indicating a need for governance to address these emerging challenges.",
+          "title": "2024 Form 10-K - Item 1C Cybersecurity",
+          "url": "https://sec.gov/Archives/edgar/data/1163165/000116316525000012/cop-20241231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It details a structured process for identifying and executing AI opportunities, including use-case analysis and vendor evaluation criteria, demonstrating transparency and governance over AI development and procurement. The press release also highlights the AI strategy and its applications, indicating transparency about AI deployment and its intended outcomes.",
+          "title": "Chief Digital and Information Officer interview on AI strategy",
+          "url": "https://cio.com/article/4045908/ai-powered-transformation-at-conocophillips-is-fueling-the-future.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 9,
+      "findings": "The company details AI/ML use cases and algorithms for predictions, including specific applications like machine learning for predicting drilling-motor failures and optimizing operating parameters. It also outlines a structured process for identifying and executing AI opportunities, which includes use-case analysis and vendor evaluation criteria. Furthermore, published materials highlight the company's AI strategy, its applications, and intended outcomes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Digitizing our business - AI and machine learning applications,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports transparency by detailing AI/ML use cases and algorithms for predictions. Governance is implied through the company's management of these AI/ML systems, although specific execution details for operational or policy aspects are not provided.",
+          "title": "Digitizing our business - AI and machine learning applications",
+          "url": "https://conocophillips.com/what-we-do/innovation-and-technology/digitizing-our-business"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Lower 48 ML optimization - Eagle Ford drilling prediction,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The post demonstrates transparency by detailing the use of machine learning for predicting drilling-motor failures and optimizing operating parameters, explicitly stating the application of AI/ML. Evidence for governance is found in the mention of vendor partnerships for software, suggesting oversight in the AI development and deployment process.",
+          "title": "Lower 48 ML optimization - Eagle Ford drilling prediction",
+          "url": "https://conocophillips.com/spiritnow/story/how-conocophillips-is-leveraging-data-to-optimize-its-lower-48-operations"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It details a structured process for identifying and executing AI opportunities, including use-case analysis and vendor evaluation criteria, demonstrating transparency and governance over AI development and procurement. The press release also highlights the AI strategy and its applications, indicating transparency about AI deployment and its intended outcomes.",
+          "title": "Chief Digital and Information Officer interview on AI strategy",
+          "url": "https://cio.com/article/4045908/ai-powered-transformation-at-conocophillips-is-fueling-the-future.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:47:44Z",
+  "run_id": "20260201_220525_abe5",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "ConocoPhillips' public disclosures address transparency, with published materials detailing AI/ML use cases and algorithms for predictions, including the use of machine learning for predicting drilling-motor failures and optimizing operating parameters. Governance is also addressed, with documentation referencing the company's management of AI/ML systems and vendor partnerships for software; these are the only two responsible AI pillars addressed out of 7 evaluated areas. No qualifying public evidence was found for the majority of the 7 evaluated pillars. This assessment draws on 6 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 2,
+    "pillars_without_evidence": 5,
+    "total_evidence_items": 11,
+    "total_sources_used": 4
+  }
+}

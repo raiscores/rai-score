@@ -1,0 +1,821 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "CVS Health",
+  "company_slug": "cvs-health",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 31,
+      "OPERATIONAL": 97,
+      "POLICY": 147
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 41,
+      "findings": "CVS Health documents external accountability through external audit processes and the Audit Committee's review of independent auditors. The company's commitments are validated by external bodies and independent verification firms, and it undergoes regular independent third-party assessments for compliance with security standards. Furthermore, CVS Health outlines plans for a voluntary certification program and the incorporation of AI governance into accreditation processes.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This CVS Health 2024 Form 10-K filing provides evidence for **governance**, **oversight**, **external accountability**, **privacy**, and **transparency**. The document details the company's board and audit committee oversight of cybersecurity and information governance, including regular updates on security matters. It also describes risk management frameworks, compliance obligations, and external audit processes, demonstrating external accountability and governance over data and technology. Furthermore, the filing touches upon safeguarding data and implementing security policies, supporting the privacy pillar, and mentions AI use cases and disclosure requirements, contributing to transparency.",
+          "title": "CVS Health 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000006480325000007/cvs-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **fairness**. It details the structure and responsibilities of various Board committees, including the Audit Committee's oversight of cybersecurity risk management and information security programs, demonstrating robust governance and oversight mechanisms. The document also highlights external accountability through the Audit Committee's review of independent auditors and fairness considerations through the MP&D Committee's application of a \"Workforce Modifier\" to executive compensation.",
+          "title": "CVS Health 2024 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000130817924000463/lcvs2024_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This 2025 proxy statement provides evidence for **governance, oversight, transparency, external accountability, fairness, and privacy**. It details the establishment of standing committees with explicit responsibilities for AI oversight and technology governance, demonstrating robust governance structures. The document also outlines review and recommendation processes involving named committees and external consultants, supporting external accountability and operational governance, while mentions of AI use cases and data protection contribute to transparency and privacy.",
+          "title": "CVS Health 2025 Proxy Statement (DEFA 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000130817925000386/cvs012729_def14a.htm"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This audit report appendix provides evidence for **governance**, **privacy**, and **external accountability**. It details CVS Health's governance structures and oversight mechanisms for data privacy and cybersecurity, supporting the **governance** and **privacy** pillars. Furthermore, the report highlights commitments validated by external bodies and mentions independent verification firms, demonstrating **external accountability**.",
+          "title": "Healthy 2030 2023 Impact Report Appendix",
+          "url": "https://cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/2023/Healthy-2030-Impact-Report-Appendix.pdf"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "The CVS Health Audit Committee charter provides evidence for **governance**, **external accountability**, and **privacy**. This charter documents the committee's oversight of information governance frameworks, privacy programs, and cybersecurity risk management, including mandates for annual review and approval of controls, and regular reporting to the Board. The charter also details the review of risk management policies and ESG disclosures, supporting the governance and external accountability pillars through documented oversight mechanisms.",
+          "title": "Audit Committee - CVS Health Investor Relations",
+          "url": "https://investors.cvshealth.com/governance/committee-composition/audit-committee"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This CVS Health Corp 10-K cybersecurity filing provides evidence for **governance**, **oversight**, **external_accountability**, and **privacy**. The document details the reporting structure of key technology and security officers to the CEO, demonstrating strong **governance**. It also outlines the Audit Committee's annual review of the cybersecurity program and the Board's notification process for material incidents, supporting **oversight**. Furthermore, the filing mentions commitments to safeguarding data and using third-party risk assessments, which are operationalized through regular independent third-party assessments for compliance with security standards, thus supporting **external_accountability** and **privacy**.",
+          "title": "CVS Health Corp 10-K Cybersecurity GRC Analysis",
+          "url": "https://board-cybersecurity.com/annual-reports/tracker/20250212-cvs-health-corp-cybersecurity-10k"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Who Will Determine the Standards for AI Governance in U.S. Healthcare?\", provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document highlights CVS Health's involvement in establishing policy frameworks, including a \"Blueprint for Trustworthy AI\" and recommendations for \"transparency\" and \"fairness.\" It also outlines plans for a \"voluntary certification program\" and the incorporation of AI governance into accreditation processes, demonstrating a commitment to external accountability and formal governance structures with oversight mechanisms.",
+          "title": "Who Will Determine the Standards for AI Governance in U.S. Healthcare?",
+          "url": "https://appliedpolicy.com/setting-standards-for-ai-governance-in-u-s-healthcare"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This press release from CVS Caremark outlines their responsible AI principles, providing evidence for external accountability, fairness, governance, oversight, and transparency. The document supports oversight by explicitly stating that humans will always review denials, and it mentions collaboration for guidelines, indicating governance. Furthermore, the press release highlights efforts to address bias, supporting the fairness pillar, and discusses offering tools for review, which aligns with external accountability and transparency.",
+          "title": "Prioritizing human connection in health care AI innovation",
+          "url": "https://business.caremark.com/insights/2025/balancing-act-ai-innovation.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This press release from CVS Health provides evidence for **oversight** and **external accountability**. It supports oversight by stating that \"human decision making remains central\" in their AI applications, though it lacks specific execution details. The press release also indicates external accountability through its mention of \"auditing calls\" as an AI-driven quality management practice.",
+          "title": "Improving health plan member experiences with AI",
+          "url": "https://cvshealth.com/news/innovation/improving-health-plan-member-experiences-with-ai.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 9
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 19,
+      "findings": "CVS Health documents its commitment to fairness through various practices, including advancing health equity, assessing algorithms for fairness, and addressing bias in models. Policy documents outline commitments to an equitable and accessible hiring experience and neurodiversity inclusion. The company also references fairness considerations in executive compensation and the deployment of predictive technology to identify at-risk members.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **fairness**. It details the structure and responsibilities of various Board committees, including the Audit Committee's oversight of cybersecurity risk management and information security programs, demonstrating robust governance and oversight mechanisms. The document also highlights external accountability through the Audit Committee's review of independent auditors and fairness considerations through the MP&D Committee's application of a \"Workforce Modifier\" to executive compensation.",
+          "title": "CVS Health 2024 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000130817924000463/lcvs2024_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This 2025 proxy statement provides evidence for **governance, oversight, transparency, external accountability, fairness, and privacy**. It details the establishment of standing committees with explicit responsibilities for AI oversight and technology governance, demonstrating robust governance structures. The document also outlines review and recommendation processes involving named committees and external consultants, supporting external accountability and operational governance, while mentions of AI use cases and data protection contribute to transparency and privacy.",
+          "title": "CVS Health 2025 Proxy Statement (DEFA 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000130817925000386/cvs012729_def14a.htm"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Healthy Business - CVS Health,\" provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports fairness by mentioning commitments to an \"equitable and accessible hiring experience\" and \"neurodiversity inclusion.\" Evidence for governance is found in the company's commitment to principles guiding AI use in a regulated industry, the strategic adoption of AI with a supporting learning academy, and its partnership in the Coalition for Health AI (CHAI), all of which indicate a focus on oversight and responsible implementation.",
+          "title": "Healthy Business - CVS Health",
+          "url": "https://cvshealth.com/impact/healthy-business.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "The \"Healthy 2030 2023 Impact Report\" provides evidence for **fairness, governance, and transparency** in responsible AI. The report details the deployment of predictive technology to identify at-risk members, demonstrating a commitment to equitable practices. It also highlights the implementation of automation systems with measured outcomes and mentions a policy approach to responsible data use, including transparency and risk management.",
+          "title": "Healthy 2030 2023 Impact Report",
+          "url": "https://cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/2023/Healthy-2030-Impact-Report.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This press release documents CVS Health's White House AI commitments, providing evidence for the **fairness**, **governance**, and **transparency** pillars. The company's focus on advancing health equity supports fairness, while adherence to a risk management framework and commitments to transparent use and responsible model development demonstrate governance. Furthermore, informing patients about AI-generated content and assessing algorithms for fairness directly addresses the transparency pillar.",
+          "title": "White House gets pledges from big healthcare players on AI safety and ethics",
+          "url": "https://healthcareitnews.com/news/white-house-gets-pledges-big-healthcare-players-ai-safety-and-ethics"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Who Will Determine the Standards for AI Governance in U.S. Healthcare?\", provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document highlights CVS Health's involvement in establishing policy frameworks, including a \"Blueprint for Trustworthy AI\" and recommendations for \"transparency\" and \"fairness.\" It also outlines plans for a \"voluntary certification program\" and the incorporation of AI governance into accreditation processes, demonstrating a commitment to external accountability and formal governance structures with oversight mechanisms.",
+          "title": "Who Will Determine the Standards for AI Governance in U.S. Healthcare?",
+          "url": "https://appliedpolicy.com/setting-standards-for-ai-governance-in-u-s-healthcare"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "The CHAI Applied Model Card framework supports the **transparency**, **fairness**, and **privacy** pillars by outlining requirements for describing AI technology, its decision-making capabilities, and its use cases. This model card also contributes to **governance** by announcing a public registry for Health AI, involving multiple partners to establish structured oversight.",
+          "title": "Applied Model Card - Coalition for Health AI (CHAI)",
+          "url": "https://chai.org/workgroup/applied-model"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This press release from CVS Caremark outlines their responsible AI principles, providing evidence for external accountability, fairness, governance, oversight, and transparency. The document supports oversight by explicitly stating that humans will always review denials, and it mentions collaboration for guidelines, indicating governance. Furthermore, the press release highlights efforts to address bias, supporting the fairness pillar, and discusses offering tools for review, which aligns with external accountability and transparency.",
+          "title": "Prioritizing human connection in health care AI innovation",
+          "url": "https://business.caremark.com/insights/2025/balancing-act-ai-innovation.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This press release details CVS's commitment to responsible AI, providing evidence for **fairness** by stating a goal of no bias in models. It supports **transparency** through the emphasis on clear enumerated use cases and understanding of AI models, as well as informing users about AI interaction. Furthermore, the source offers evidence for **oversight** by highlighting that AI will assist human decision-makers rather than making final health decisions, and for **governance** by mentioning AI's role in identifying individuals for proactive engagement and guiding health journeys, implying data use and decision-making authority.",
+          "title": "Inside CVS's bold AI health care plan—and the tech chief's warning",
+          "url": "https://fortune.com/2025/07/09/inside-cvs-ai-health-care-tech-warning"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for fairness, governance, oversight, privacy, and transparency. It supports fairness by detailing allegations of bias and discrimination through the analysis of subjective traits. Governance is evidenced by the description of AI use for scoring and concerns about legal compliance in HR AI. Oversight is supported by the mention of an inability to challenge AI-driven decisions, while privacy is addressed through the lack of opt-out options and data protection concerns. Finally, transparency is supported by the description of the AI use case and the data collected.",
+          "title": "CVS settles lawsuit alleging it used AI 'lie detector' in interviews",
+          "url": "https://hrdive.com/news/cvs-settles-lawsuit-over-using-ai-based-lie-detector/722249"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_030",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The ruling highlights concerns about the fair and appropriate use of AI in hiring, touching on governance principles for future AI deployment. Furthermore, the case's focus on CVS's alleged failure to provide required notice about lie detector use and the court's recognition of informational injury as legal standing underscore the importance of transparency in AI systems and their deployment.",
+          "title": "Federal judge allows lawsuit against CVS to proceed over alleged lie detector use",
+          "url": "https://valawyersweekly.com/2024/02/23/federal-judge-allows-lawsuit-against-cvs-to-proceed-over-alleged-lie-detector-use"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_034",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Advancing Health Equity - CVS Health,\" provides evidence for the **fairness** and **governance** pillars. The policy describes the establishment of an Advisory Board that offers oversight on strategies to address discrimination and identify disparities, thereby supporting fairness. Furthermore, it details the practice of combining data for insights, which contributes to the governance pillar by informing decisions.",
+          "title": "Advancing Health Equity - CVS Health",
+          "url": "https://cvshealth.com/impact/health-equity"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 214,
+      "findings": "CVS Health documents its governance through board and audit committee oversight of cybersecurity and information governance, risk management frameworks, and compliance obligations. The company's Code of Conduct mandates responsible AI use and requires pre-approval for AI applications, while policy documents outline commitments to principles guiding AI use in a regulated industry. CVS Health is involved in establishing policy frameworks, including a \"Blueprint for Trustworthy AI,\" and collaborates on guidelines and a public registry for Health AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This CVS Health 2024 Form 10-K filing provides evidence for **governance**, **oversight**, **external accountability**, **privacy**, and **transparency**. The document details the company's board and audit committee oversight of cybersecurity and information governance, including regular updates on security matters. It also describes risk management frameworks, compliance obligations, and external audit processes, demonstrating external accountability and governance over data and technology. Furthermore, the filing touches upon safeguarding data and implementing security policies, supporting the privacy pillar, and mentions AI use cases and disclosure requirements, contributing to transparency.",
+          "title": "CVS Health 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000006480325000007/cvs-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **fairness**. It details the structure and responsibilities of various Board committees, including the Audit Committee's oversight of cybersecurity risk management and information security programs, demonstrating robust governance and oversight mechanisms. The document also highlights external accountability through the Audit Committee's review of independent auditors and fairness considerations through the MP&D Committee's application of a \"Workforce Modifier\" to executive compensation.",
+          "title": "CVS Health 2024 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000130817924000463/lcvs2024_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This 2025 proxy statement provides evidence for **governance, oversight, transparency, external accountability, fairness, and privacy**. It details the establishment of standing committees with explicit responsibilities for AI oversight and technology governance, demonstrating robust governance structures. The document also outlines review and recommendation processes involving named committees and external consultants, supporting external accountability and operational governance, while mentions of AI use cases and data protection contribute to transparency and privacy.",
+          "title": "CVS Health 2025 Proxy Statement (DEFA 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000130817925000386/cvs012729_def14a.htm"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Our commitment to patient and colleague safety,\" provides evidence for the **governance** pillar of responsible AI. It demonstrates this by explicitly stating CVS Health's commitment to building resilient systems and preserving human connection, indicating a formal policy for responsible technology use and governance.",
+          "title": "Our commitment to patient and colleague safety",
+          "url": "https://cvshealth.com/about/our-strategy/our-commitment-to-safety.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Healthy Business - CVS Health,\" provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports fairness by mentioning commitments to an \"equitable and accessible hiring experience\" and \"neurodiversity inclusion.\" Evidence for governance is found in the company's commitment to principles guiding AI use in a regulated industry, the strategic adoption of AI with a supporting learning academy, and its partnership in the Coalition for Health AI (CHAI), all of which indicate a focus on oversight and responsible implementation.",
+          "title": "Healthy Business - CVS Health",
+          "url": "https://cvshealth.com/impact/healthy-business.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "The \"Healthy 2030 2023 Impact Report\" provides evidence for **fairness, governance, and transparency** in responsible AI. The report details the deployment of predictive technology to identify at-risk members, demonstrating a commitment to equitable practices. It also highlights the implementation of automation systems with measured outcomes and mentions a policy approach to responsible data use, including transparency and risk management.",
+          "title": "Healthy 2030 2023 Impact Report",
+          "url": "https://cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/2023/Healthy-2030-Impact-Report.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This audit report appendix provides evidence for **governance**, **privacy**, and **external accountability**. It details CVS Health's governance structures and oversight mechanisms for data privacy and cybersecurity, supporting the **governance** and **privacy** pillars. Furthermore, the report highlights commitments validated by external bodies and mentions independent verification firms, demonstrating **external accountability**.",
+          "title": "Healthy 2030 2023 Impact Report Appendix",
+          "url": "https://cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/2023/Healthy-2030-Impact-Report-Appendix.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This CVS App Personal Health Record Privacy Policy provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by outlining data selling/sharing policies and requiring consent for targeted advertising. The policy demonstrates privacy by detailing data protection measures and consent requirements for PHR data, and transparency by describing AI capabilities like recommendations and alerts, along with their associated data usage and consent mechanisms.",
+          "title": "CVS App Personal Health Record Privacy Policy",
+          "url": "https://cvs.com/retail/help/phr_privacy_policy"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "The CVS Health Code of Conduct, a company-owned charter, provides evidence for the **governance** and **oversight** pillars of responsible AI. This document mandates responsible AI use and requires pre-approval for AI/Gen AI applications, demonstrating a commitment to governance. Furthermore, it assigns oversight and implementation responsibilities to the Chief Compliance Officer, including components for auditing and monitoring, which directly supports the oversight pillar.",
+          "title": "CVS Health Code of Conduct",
+          "url": "https://cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/cvs-health-code-of-conduct.pdf"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "The CVS Health Audit Committee charter provides evidence for **governance**, **external accountability**, and **privacy**. This charter documents the committee's oversight of information governance frameworks, privacy programs, and cybersecurity risk management, including mandates for annual review and approval of controls, and regular reporting to the Board. The charter also details the review of risk management policies and ESG disclosures, supporting the governance and external accountability pillars through documented oversight mechanisms.",
+          "title": "Audit Committee - CVS Health Investor Relations",
+          "url": "https://investors.cvshealth.com/governance/committee-composition/audit-committee"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This CVS Health Corp 10-K cybersecurity filing provides evidence for **governance**, **oversight**, **external_accountability**, and **privacy**. The document details the reporting structure of key technology and security officers to the CEO, demonstrating strong **governance**. It also outlines the Audit Committee's annual review of the cybersecurity program and the Board's notification process for material incidents, supporting **oversight**. Furthermore, the filing mentions commitments to safeguarding data and using third-party risk assessments, which are operationalized through regular independent third-party assessments for compliance with security standards, thus supporting **external_accountability** and **privacy**.",
+          "title": "CVS Health Corp 10-K Cybersecurity GRC Analysis",
+          "url": "https://board-cybersecurity.com/annual-reports/tracker/20250212-cvs-health-corp-cybersecurity-10k"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This press release documents CVS Health's White House AI commitments, providing evidence for the **fairness**, **governance**, and **transparency** pillars. The company's focus on advancing health equity supports fairness, while adherence to a risk management framework and commitments to transparent use and responsible model development demonstrate governance. Furthermore, informing patients about AI-generated content and assessing algorithms for fairness directly addresses the transparency pillar.",
+          "title": "White House gets pledges from big healthcare players on AI safety and ethics",
+          "url": "https://healthcareitnews.com/news/white-house-gets-pledges-big-healthcare-players-ai-safety-and-ethics"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Who Will Determine the Standards for AI Governance in U.S. Healthcare?\", provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document highlights CVS Health's involvement in establishing policy frameworks, including a \"Blueprint for Trustworthy AI\" and recommendations for \"transparency\" and \"fairness.\" It also outlines plans for a \"voluntary certification program\" and the incorporation of AI governance into accreditation processes, demonstrating a commitment to external accountability and formal governance structures with oversight mechanisms.",
+          "title": "Who Will Determine the Standards for AI Governance in U.S. Healthcare?",
+          "url": "https://appliedpolicy.com/setting-standards-for-ai-governance-in-u-s-healthcare"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "The CHAI Applied Model Card framework supports the **transparency**, **fairness**, and **privacy** pillars by outlining requirements for describing AI technology, its decision-making capabilities, and its use cases. This model card also contributes to **governance** by announcing a public registry for Health AI, involving multiple partners to establish structured oversight.",
+          "title": "Applied Model Card - Coalition for Health AI (CHAI)",
+          "url": "https://chai.org/workgroup/applied-model"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This press release from CVS Caremark outlines their responsible AI principles, providing evidence for external accountability, fairness, governance, oversight, and transparency. The document supports oversight by explicitly stating that humans will always review denials, and it mentions collaboration for guidelines, indicating governance. Furthermore, the press release highlights efforts to address bias, supporting the fairness pillar, and discusses offering tools for review, which aligns with external accountability and transparency.",
+          "title": "Prioritizing human connection in health care AI innovation",
+          "url": "https://business.caremark.com/insights/2025/balancing-act-ai-innovation.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This press release details CVS's commitment to responsible AI, providing evidence for **fairness** by stating a goal of no bias in models. It supports **transparency** through the emphasis on clear enumerated use cases and understanding of AI models, as well as informing users about AI interaction. Furthermore, the source offers evidence for **oversight** by highlighting that AI will assist human decision-makers rather than making final health decisions, and for **governance** by mentioning AI's role in identifying individuals for proactive engagement and guiding health journeys, implying data use and decision-making authority.",
+          "title": "Inside CVS's bold AI health care plan—and the tech chief's warning",
+          "url": "https://fortune.com/2025/07/09/inside-cvs-ai-health-care-tech-warning"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. The interview details CVS Health's approach to AI, including their emphasis on governance through rigorous testing, measurement of accuracy and effectiveness, and codesigning experiences. The discussion of AI capabilities and use cases, such as personalized care plans and consumer 360s, along with the mention of data use and sharing across architectures, implies a structured approach to data management and operational execution, contributing to transparency.",
+          "title": "Delivering More Connected Care Through AI: CVS Health's Josh Weiner",
+          "url": "https://sloanreview.mit.edu/audio/delivering-more-connected-care-through-ai-cvs-healths-josh-weiner"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_024",
+          "source_tier": "company_owned",
+          "summary": "This press release from CVS Health provides evidence for **governance, oversight, and transparency** in their AI initiatives. It details the integration of AI-powered tools like Aetna Care Paths with human support, demonstrating a commitment to oversight by maintaining human decision-making. The announcement also highlights AI's role in personalizing member support and generating summaries to enhance clinician efficiency, suggesting a strategic direction for AI use and offering transparency into their approach.",
+          "title": "Aetna Launches New AI and Digital Tools to Improve Access and Care",
+          "url": "https://cvshealth.com/news/innovation/aetna-launches-new-ai-and-digital-tools-to-improve-access-and-care.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing a framework for the deployment of their AI-native consumer engagement platform, implying established decision-making authority for its development. The press release also supports transparency by outlining specific AI use cases within the platform.",
+          "title": "CVS Health Updates Financial Guidance at 2025 Investor Day",
+          "url": "https://cvshealth.com/news/company-news/cvs-health-updates-to-uniquely-reimagine-health-care-at-investor-day-event.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at CVS Health,\" provides evidence for the **governance** and **transparency** pillars. It supports transparency by describing CVS Health's AI applications and capabilities, such as their personalization engine for medication adherence and augmented intelligence for forecasting. The paper also indicates governance by mentioning the existence of \"frameworks and guides to AI application\" and a commitment to maintaining standards for safety, integrity, and compliance.",
+          "title": "Artificial Intelligence at CVS Health",
+          "url": "https://emerj.com/artificial-intelligence-at-cvs-health"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for fairness, governance, oversight, privacy, and transparency. It supports fairness by detailing allegations of bias and discrimination through the analysis of subjective traits. Governance is evidenced by the description of AI use for scoring and concerns about legal compliance in HR AI. Oversight is supported by the mention of an inability to challenge AI-driven decisions, while privacy is addressed through the lack of opt-out options and data protection concerns. Finally, transparency is supported by the description of the AI use case and the data collected.",
+          "title": "CVS settles lawsuit alleging it used AI 'lie detector' in interviews",
+          "url": "https://hrdive.com/news/cvs-settles-lawsuit-over-using-ai-based-lie-detector/722249"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_030",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The ruling highlights concerns about the fair and appropriate use of AI in hiring, touching on governance principles for future AI deployment. Furthermore, the case's focus on CVS's alleged failure to provide required notice about lie detector use and the court's recognition of informational injury as legal standing underscore the importance of transparency in AI systems and their deployment.",
+          "title": "Federal judge allows lawsuit against CVS to proceed over alleged lie detector use",
+          "url": "https://valawyersweekly.com/2024/02/23/federal-judge-allows-lawsuit-against-cvs-to-proceed-over-alleged-lie-detector-use"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by advising on the assessment of AI tools for legal compliance and highlights transparency by emphasizing the importance of understanding the functions of AI hiring software. The source also notes the use of an AI system for applicant screening, though it lacks details on its execution or commitments.",
+          "title": "Massachusetts Employers, Do Your Applications Contain Required Lie Detector Notices?",
+          "url": "https://jdsupra.com/legalnews/compliance-check-massachusetts-6012056"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_033",
+          "source_tier": "third_party",
+          "summary": "This press release announces the appointment of Dr. Kyu Rhee to the Coalition for Health AI (CHAI) Board, providing evidence for the **governance** pillar. The announcement highlights Dr. Rhee's prior leadership role in integrating health solutions for millions, demonstrating a commitment to AI governance standards. Furthermore, CHAI's mission to provide guidelines for responsible AI and develop playbooks establishes governance mechanisms for AI use in healthcare.",
+          "title": "Coalition for Health AI Announces New Board Member",
+          "url": "https://chai.org/blog/coalition-for-health-ai-announces-new-board-member"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_034",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Advancing Health Equity - CVS Health,\" provides evidence for the **fairness** and **governance** pillars. The policy describes the establishment of an Advisory Board that offers oversight on strategies to address discrimination and identify disparities, thereby supporting fairness. Furthermore, it details the practice of combining data for insights, which contributes to the governance pillar by informing decisions.",
+          "title": "Advancing Health Equity - CVS Health",
+          "url": "https://cvshealth.com/impact/health-equity"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_036",
+          "source_tier": "third_party",
+          "summary": "This technical paper from the 2025 Data + AI Summit provides evidence for the **governance** pillar by mentioning an \"enterprise-grade solution\" and a commitment to improvement through \"lessons learned,\" suggesting adherence to standards and a focus on continuous development. It also offers some support for **transparency** by detailing the AI use case and its benefits, indicating a willingness to share information about the system's capabilities and intended applications.",
+          "title": "Real-Time Botnet Defense at CVS: AI-Driven Detection and Mitigation on Databricks",
+          "url": "https://www.databricks.com/dataaisummit/session/real-time-botnet-defense-cvs-ai-driven-detection-and-mitigation"
+        }
+      ],
+      "score": 2,
+      "source_count": 26
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 43,
+      "findings": "CVS Health documents oversight through board and audit committee reviews of cybersecurity and information governance, including regular updates and incident notifications. The company's Code of Conduct assigns oversight responsibilities to the Chief Compliance Officer, including auditing and monitoring, and requires pre-approval for AI/Gen AI applications. Furthermore, CVS Health states that human decision-making remains central in AI applications, with humans always reviewing denials and AI assisting rather than making final health decisions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This CVS Health 2024 Form 10-K filing provides evidence for **governance**, **oversight**, **external accountability**, **privacy**, and **transparency**. The document details the company's board and audit committee oversight of cybersecurity and information governance, including regular updates on security matters. It also describes risk management frameworks, compliance obligations, and external audit processes, demonstrating external accountability and governance over data and technology. Furthermore, the filing touches upon safeguarding data and implementing security policies, supporting the privacy pillar, and mentions AI use cases and disclosure requirements, contributing to transparency.",
+          "title": "CVS Health 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000006480325000007/cvs-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **fairness**. It details the structure and responsibilities of various Board committees, including the Audit Committee's oversight of cybersecurity risk management and information security programs, demonstrating robust governance and oversight mechanisms. The document also highlights external accountability through the Audit Committee's review of independent auditors and fairness considerations through the MP&D Committee's application of a \"Workforce Modifier\" to executive compensation.",
+          "title": "CVS Health 2024 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000130817924000463/lcvs2024_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This 2025 proxy statement provides evidence for **governance, oversight, transparency, external accountability, fairness, and privacy**. It details the establishment of standing committees with explicit responsibilities for AI oversight and technology governance, demonstrating robust governance structures. The document also outlines review and recommendation processes involving named committees and external consultants, supporting external accountability and operational governance, while mentions of AI use cases and data protection contribute to transparency and privacy.",
+          "title": "CVS Health 2025 Proxy Statement (DEFA 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000130817925000386/cvs012729_def14a.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "The CVS Health Code of Conduct, a company-owned charter, provides evidence for the **governance** and **oversight** pillars of responsible AI. This document mandates responsible AI use and requires pre-approval for AI/Gen AI applications, demonstrating a commitment to governance. Furthermore, it assigns oversight and implementation responsibilities to the Chief Compliance Officer, including components for auditing and monitoring, which directly supports the oversight pillar.",
+          "title": "CVS Health Code of Conduct",
+          "url": "https://cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/cvs-health-code-of-conduct.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This CVS Health Corp 10-K cybersecurity filing provides evidence for **governance**, **oversight**, **external_accountability**, and **privacy**. The document details the reporting structure of key technology and security officers to the CEO, demonstrating strong **governance**. It also outlines the Audit Committee's annual review of the cybersecurity program and the Board's notification process for material incidents, supporting **oversight**. Furthermore, the filing mentions commitments to safeguarding data and using third-party risk assessments, which are operationalized through regular independent third-party assessments for compliance with security standards, thus supporting **external_accountability** and **privacy**.",
+          "title": "CVS Health Corp 10-K Cybersecurity GRC Analysis",
+          "url": "https://board-cybersecurity.com/annual-reports/tracker/20250212-cvs-health-corp-cybersecurity-10k"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Who Will Determine the Standards for AI Governance in U.S. Healthcare?\", provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document highlights CVS Health's involvement in establishing policy frameworks, including a \"Blueprint for Trustworthy AI\" and recommendations for \"transparency\" and \"fairness.\" It also outlines plans for a \"voluntary certification program\" and the incorporation of AI governance into accreditation processes, demonstrating a commitment to external accountability and formal governance structures with oversight mechanisms.",
+          "title": "Who Will Determine the Standards for AI Governance in U.S. Healthcare?",
+          "url": "https://appliedpolicy.com/setting-standards-for-ai-governance-in-u-s-healthcare"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This press release from CVS Caremark outlines their responsible AI principles, providing evidence for external accountability, fairness, governance, oversight, and transparency. The document supports oversight by explicitly stating that humans will always review denials, and it mentions collaboration for guidelines, indicating governance. Furthermore, the press release highlights efforts to address bias, supporting the fairness pillar, and discusses offering tools for review, which aligns with external accountability and transparency.",
+          "title": "Prioritizing human connection in health care AI innovation",
+          "url": "https://business.caremark.com/insights/2025/balancing-act-ai-innovation.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This press release details CVS's commitment to responsible AI, providing evidence for **fairness** by stating a goal of no bias in models. It supports **transparency** through the emphasis on clear enumerated use cases and understanding of AI models, as well as informing users about AI interaction. Furthermore, the source offers evidence for **oversight** by highlighting that AI will assist human decision-makers rather than making final health decisions, and for **governance** by mentioning AI's role in identifying individuals for proactive engagement and guiding health journeys, implying data use and decision-making authority.",
+          "title": "Inside CVS's bold AI health care plan—and the tech chief's warning",
+          "url": "https://fortune.com/2025/07/09/inside-cvs-ai-health-care-tech-warning"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_024",
+          "source_tier": "company_owned",
+          "summary": "This press release from CVS Health provides evidence for **governance, oversight, and transparency** in their AI initiatives. It details the integration of AI-powered tools like Aetna Care Paths with human support, demonstrating a commitment to oversight by maintaining human decision-making. The announcement also highlights AI's role in personalizing member support and generating summaries to enhance clinician efficiency, suggesting a strategic direction for AI use and offering transparency into their approach.",
+          "title": "Aetna Launches New AI and Digital Tools to Improve Access and Care",
+          "url": "https://cvshealth.com/news/innovation/aetna-launches-new-ai-and-digital-tools-to-improve-access-and-care.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This press release from CVS Health provides evidence for **oversight** and **external accountability**. It supports oversight by stating that \"human decision making remains central\" in their AI applications, though it lacks specific execution details. The press release also indicates external accountability through its mention of \"auditing calls\" as an AI-driven quality management practice.",
+          "title": "Improving health plan member experiences with AI",
+          "url": "https://cvshealth.com/news/innovation/improving-health-plan-member-experiences-with-ai.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for fairness, governance, oversight, privacy, and transparency. It supports fairness by detailing allegations of bias and discrimination through the analysis of subjective traits. Governance is evidenced by the description of AI use for scoring and concerns about legal compliance in HR AI. Oversight is supported by the mention of an inability to challenge AI-driven decisions, while privacy is addressed through the lack of opt-out options and data protection concerns. Finally, transparency is supported by the description of the AI use case and the data collected.",
+          "title": "CVS settles lawsuit alleging it used AI 'lie detector' in interviews",
+          "url": "https://hrdive.com/news/cvs-settles-lawsuit-over-using-ai-based-lie-detector/722249"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_034",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Advancing Health Equity - CVS Health,\" provides evidence for the **fairness** and **governance** pillars. The policy describes the establishment of an Advisory Board that offers oversight on strategies to address discrimination and identify disparities, thereby supporting fairness. Furthermore, it details the practice of combining data for insights, which contributes to the governance pillar by informing decisions.",
+          "title": "Advancing Health Equity - CVS Health",
+          "url": "https://cvshealth.com/impact/health-equity"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 22,
+      "findings": "CVS Health documents its commitment to privacy through safeguarding data, implementing security policies, and detailing data protection measures. Governance structures and oversight mechanisms for data privacy and cybersecurity are in place, including the Audit Committee's oversight of privacy programs. The company's privacy policy outlines data selling/sharing policies, consent requirements for targeted advertising and PHR data, and addresses data protection concerns in AI use.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This CVS Health 2024 Form 10-K filing provides evidence for **governance**, **oversight**, **external accountability**, **privacy**, and **transparency**. The document details the company's board and audit committee oversight of cybersecurity and information governance, including regular updates on security matters. It also describes risk management frameworks, compliance obligations, and external audit processes, demonstrating external accountability and governance over data and technology. Furthermore, the filing touches upon safeguarding data and implementing security policies, supporting the privacy pillar, and mentions AI use cases and disclosure requirements, contributing to transparency.",
+          "title": "CVS Health 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000006480325000007/cvs-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **fairness**. It details the structure and responsibilities of various Board committees, including the Audit Committee's oversight of cybersecurity risk management and information security programs, demonstrating robust governance and oversight mechanisms. The document also highlights external accountability through the Audit Committee's review of independent auditors and fairness considerations through the MP&D Committee's application of a \"Workforce Modifier\" to executive compensation.",
+          "title": "CVS Health 2024 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000130817924000463/lcvs2024_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This 2025 proxy statement provides evidence for **governance, oversight, transparency, external accountability, fairness, and privacy**. It details the establishment of standing committees with explicit responsibilities for AI oversight and technology governance, demonstrating robust governance structures. The document also outlines review and recommendation processes involving named committees and external consultants, supporting external accountability and operational governance, while mentions of AI use cases and data protection contribute to transparency and privacy.",
+          "title": "CVS Health 2025 Proxy Statement (DEFA 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000130817925000386/cvs012729_def14a.htm"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This audit report appendix provides evidence for **governance**, **privacy**, and **external accountability**. It details CVS Health's governance structures and oversight mechanisms for data privacy and cybersecurity, supporting the **governance** and **privacy** pillars. Furthermore, the report highlights commitments validated by external bodies and mentions independent verification firms, demonstrating **external accountability**.",
+          "title": "Healthy 2030 2023 Impact Report Appendix",
+          "url": "https://cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/2023/Healthy-2030-Impact-Report-Appendix.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This CVS App Personal Health Record Privacy Policy provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by outlining data selling/sharing policies and requiring consent for targeted advertising. The policy demonstrates privacy by detailing data protection measures and consent requirements for PHR data, and transparency by describing AI capabilities like recommendations and alerts, along with their associated data usage and consent mechanisms.",
+          "title": "CVS App Personal Health Record Privacy Policy",
+          "url": "https://cvs.com/retail/help/phr_privacy_policy"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "The CVS Health Audit Committee charter provides evidence for **governance**, **external accountability**, and **privacy**. This charter documents the committee's oversight of information governance frameworks, privacy programs, and cybersecurity risk management, including mandates for annual review and approval of controls, and regular reporting to the Board. The charter also details the review of risk management policies and ESG disclosures, supporting the governance and external accountability pillars through documented oversight mechanisms.",
+          "title": "Audit Committee - CVS Health Investor Relations",
+          "url": "https://investors.cvshealth.com/governance/committee-composition/audit-committee"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This CVS Health Corp 10-K cybersecurity filing provides evidence for **governance**, **oversight**, **external_accountability**, and **privacy**. The document details the reporting structure of key technology and security officers to the CEO, demonstrating strong **governance**. It also outlines the Audit Committee's annual review of the cybersecurity program and the Board's notification process for material incidents, supporting **oversight**. Furthermore, the filing mentions commitments to safeguarding data and using third-party risk assessments, which are operationalized through regular independent third-party assessments for compliance with security standards, thus supporting **external_accountability** and **privacy**.",
+          "title": "CVS Health Corp 10-K Cybersecurity GRC Analysis",
+          "url": "https://board-cybersecurity.com/annual-reports/tracker/20250212-cvs-health-corp-cybersecurity-10k"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "The CHAI Applied Model Card framework supports the **transparency**, **fairness**, and **privacy** pillars by outlining requirements for describing AI technology, its decision-making capabilities, and its use cases. This model card also contributes to **governance** by announcing a public registry for Health AI, involving multiple partners to establish structured oversight.",
+          "title": "Applied Model Card - Coalition for Health AI (CHAI)",
+          "url": "https://chai.org/workgroup/applied-model"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for fairness, governance, oversight, privacy, and transparency. It supports fairness by detailing allegations of bias and discrimination through the analysis of subjective traits. Governance is evidenced by the description of AI use for scoring and concerns about legal compliance in HR AI. Oversight is supported by the mention of an inability to challenge AI-driven decisions, while privacy is addressed through the lack of opt-out options and data protection concerns. Finally, transparency is supported by the description of the AI use case and the data collected.",
+          "title": "CVS settles lawsuit alleging it used AI 'lie detector' in interviews",
+          "url": "https://hrdive.com/news/cvs-settles-lawsuit-over-using-ai-based-lie-detector/722249"
+        }
+      ],
+      "score": 2,
+      "source_count": 9
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 64,
+      "findings": "CVS Health documents its AI use cases, capabilities, and disclosure requirements across various filings and reports. The company commits to transparent AI use, responsible model development, and informing patients and users about AI-generated content and interactions. Furthermore, policy frameworks and model card guidelines outline requirements for describing AI technology, its decision-making capabilities, and associated data usage.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This CVS Health 2024 Form 10-K filing provides evidence for **governance**, **oversight**, **external accountability**, **privacy**, and **transparency**. The document details the company's board and audit committee oversight of cybersecurity and information governance, including regular updates on security matters. It also describes risk management frameworks, compliance obligations, and external audit processes, demonstrating external accountability and governance over data and technology. Furthermore, the filing touches upon safeguarding data and implementing security policies, supporting the privacy pillar, and mentions AI use cases and disclosure requirements, contributing to transparency.",
+          "title": "CVS Health 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000006480325000007/cvs-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **fairness**. It details the structure and responsibilities of various Board committees, including the Audit Committee's oversight of cybersecurity risk management and information security programs, demonstrating robust governance and oversight mechanisms. The document also highlights external accountability through the Audit Committee's review of independent auditors and fairness considerations through the MP&D Committee's application of a \"Workforce Modifier\" to executive compensation.",
+          "title": "CVS Health 2024 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000130817924000463/lcvs2024_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This 2025 proxy statement provides evidence for **governance, oversight, transparency, external accountability, fairness, and privacy**. It details the establishment of standing committees with explicit responsibilities for AI oversight and technology governance, demonstrating robust governance structures. The document also outlines review and recommendation processes involving named committees and external consultants, supporting external accountability and operational governance, while mentions of AI use cases and data protection contribute to transparency and privacy.",
+          "title": "CVS Health 2025 Proxy Statement (DEFA 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/64803/000130817925000386/cvs012729_def14a.htm"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "The \"Healthy 2030 2023 Impact Report\" provides evidence for **fairness, governance, and transparency** in responsible AI. The report details the deployment of predictive technology to identify at-risk members, demonstrating a commitment to equitable practices. It also highlights the implementation of automation systems with measured outcomes and mentions a policy approach to responsible data use, including transparency and risk management.",
+          "title": "Healthy 2030 2023 Impact Report",
+          "url": "https://cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/2023/Healthy-2030-Impact-Report.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This CVS App Personal Health Record Privacy Policy provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by outlining data selling/sharing policies and requiring consent for targeted advertising. The policy demonstrates privacy by detailing data protection measures and consent requirements for PHR data, and transparency by describing AI capabilities like recommendations and alerts, along with their associated data usage and consent mechanisms.",
+          "title": "CVS App Personal Health Record Privacy Policy",
+          "url": "https://cvs.com/retail/help/phr_privacy_policy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This press release documents CVS Health's White House AI commitments, providing evidence for the **fairness**, **governance**, and **transparency** pillars. The company's focus on advancing health equity supports fairness, while adherence to a risk management framework and commitments to transparent use and responsible model development demonstrate governance. Furthermore, informing patients about AI-generated content and assessing algorithms for fairness directly addresses the transparency pillar.",
+          "title": "White House gets pledges from big healthcare players on AI safety and ethics",
+          "url": "https://healthcareitnews.com/news/white-house-gets-pledges-big-healthcare-players-ai-safety-and-ethics"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Who Will Determine the Standards for AI Governance in U.S. Healthcare?\", provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document highlights CVS Health's involvement in establishing policy frameworks, including a \"Blueprint for Trustworthy AI\" and recommendations for \"transparency\" and \"fairness.\" It also outlines plans for a \"voluntary certification program\" and the incorporation of AI governance into accreditation processes, demonstrating a commitment to external accountability and formal governance structures with oversight mechanisms.",
+          "title": "Who Will Determine the Standards for AI Governance in U.S. Healthcare?",
+          "url": "https://appliedpolicy.com/setting-standards-for-ai-governance-in-u-s-healthcare"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "The CHAI Applied Model Card framework supports the **transparency**, **fairness**, and **privacy** pillars by outlining requirements for describing AI technology, its decision-making capabilities, and its use cases. This model card also contributes to **governance** by announcing a public registry for Health AI, involving multiple partners to establish structured oversight.",
+          "title": "Applied Model Card - Coalition for Health AI (CHAI)",
+          "url": "https://chai.org/workgroup/applied-model"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This press release from CVS Caremark outlines their responsible AI principles, providing evidence for external accountability, fairness, governance, oversight, and transparency. The document supports oversight by explicitly stating that humans will always review denials, and it mentions collaboration for guidelines, indicating governance. Furthermore, the press release highlights efforts to address bias, supporting the fairness pillar, and discusses offering tools for review, which aligns with external accountability and transparency.",
+          "title": "Prioritizing human connection in health care AI innovation",
+          "url": "https://business.caremark.com/insights/2025/balancing-act-ai-innovation.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This press release details CVS's commitment to responsible AI, providing evidence for **fairness** by stating a goal of no bias in models. It supports **transparency** through the emphasis on clear enumerated use cases and understanding of AI models, as well as informing users about AI interaction. Furthermore, the source offers evidence for **oversight** by highlighting that AI will assist human decision-makers rather than making final health decisions, and for **governance** by mentioning AI's role in identifying individuals for proactive engagement and guiding health journeys, implying data use and decision-making authority.",
+          "title": "Inside CVS's bold AI health care plan—and the tech chief's warning",
+          "url": "https://fortune.com/2025/07/09/inside-cvs-ai-health-care-tech-warning"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. The interview details CVS Health's approach to AI, including their emphasis on governance through rigorous testing, measurement of accuracy and effectiveness, and codesigning experiences. The discussion of AI capabilities and use cases, such as personalized care plans and consumer 360s, along with the mention of data use and sharing across architectures, implies a structured approach to data management and operational execution, contributing to transparency.",
+          "title": "Delivering More Connected Care Through AI: CVS Health's Josh Weiner",
+          "url": "https://sloanreview.mit.edu/audio/delivering-more-connected-care-through-ai-cvs-healths-josh-weiner"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_024",
+          "source_tier": "company_owned",
+          "summary": "This press release from CVS Health provides evidence for **governance, oversight, and transparency** in their AI initiatives. It details the integration of AI-powered tools like Aetna Care Paths with human support, demonstrating a commitment to oversight by maintaining human decision-making. The announcement also highlights AI's role in personalizing member support and generating summaries to enhance clinician efficiency, suggesting a strategic direction for AI use and offering transparency into their approach.",
+          "title": "Aetna Launches New AI and Digital Tools to Improve Access and Care",
+          "url": "https://cvshealth.com/news/innovation/aetna-launches-new-ai-and-digital-tools-to-improve-access-and-care.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing a framework for the deployment of their AI-native consumer engagement platform, implying established decision-making authority for its development. The press release also supports transparency by outlining specific AI use cases within the platform.",
+          "title": "CVS Health Updates Financial Guidance at 2025 Investor Day",
+          "url": "https://cvshealth.com/news/company-news/cvs-health-updates-to-uniquely-reimagine-health-care-at-investor-day-event.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This press release for CVS Health Investor Day 2025 describes aspirational AI use cases for personalized health and call center support, providing evidence for the **transparency** pillar. The document outlines how AI will be used to create more personalized member engagement and frictionless experiences, implying a need for transparency in how these AI systems operate.",
+          "title": "CVS Health Investor Day 2025",
+          "url": "https://investors.cvshealth.com/CVS-health-investor-day-2025"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at CVS Health,\" provides evidence for the **governance** and **transparency** pillars. It supports transparency by describing CVS Health's AI applications and capabilities, such as their personalization engine for medication adherence and augmented intelligence for forecasting. The paper also indicates governance by mentioning the existence of \"frameworks and guides to AI application\" and a commitment to maintaining standards for safety, integrity, and compliance.",
+          "title": "Artificial Intelligence at CVS Health",
+          "url": "https://emerj.com/artificial-intelligence-at-cvs-health"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for fairness, governance, oversight, privacy, and transparency. It supports fairness by detailing allegations of bias and discrimination through the analysis of subjective traits. Governance is evidenced by the description of AI use for scoring and concerns about legal compliance in HR AI. Oversight is supported by the mention of an inability to challenge AI-driven decisions, while privacy is addressed through the lack of opt-out options and data protection concerns. Finally, transparency is supported by the description of the AI use case and the data collected.",
+          "title": "CVS settles lawsuit alleging it used AI 'lie detector' in interviews",
+          "url": "https://hrdive.com/news/cvs-settles-lawsuit-over-using-ai-based-lie-detector/722249"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_030",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The ruling highlights concerns about the fair and appropriate use of AI in hiring, touching on governance principles for future AI deployment. Furthermore, the case's focus on CVS's alleged failure to provide required notice about lie detector use and the court's recognition of informational injury as legal standing underscore the importance of transparency in AI systems and their deployment.",
+          "title": "Federal judge allows lawsuit against CVS to proceed over alleged lie detector use",
+          "url": "https://valawyersweekly.com/2024/02/23/federal-judge-allows-lawsuit-against-cvs-to-proceed-over-alleged-lie-detector-use"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by advising on the assessment of AI tools for legal compliance and highlights transparency by emphasizing the importance of understanding the functions of AI hiring software. The source also notes the use of an AI system for applicant screening, though it lacks details on its execution or commitments.",
+          "title": "Massachusetts Employers, Do Your Applications Contain Required Lie Detector Notices?",
+          "url": "https://jdsupra.com/legalnews/compliance-check-massachusetts-6012056"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_036",
+          "source_tier": "third_party",
+          "summary": "This technical paper from the 2025 Data + AI Summit provides evidence for the **governance** pillar by mentioning an \"enterprise-grade solution\" and a commitment to improvement through \"lessons learned,\" suggesting adherence to standards and a focus on continuous development. It also offers some support for **transparency** by detailing the AI use case and its benefits, indicating a willingness to share information about the system's capabilities and intended applications.",
+          "title": "Real-Time Botnet Defense at CVS: AI-Driven Detection and Mitigation on Databricks",
+          "url": "https://www.databricks.com/dataaisummit/session/real-time-botnet-defense-cvs-ai-driven-detection-and-mitigation"
+        }
+      ],
+      "score": 1,
+      "source_count": 19
+    }
+  },
+  "published_at": "2026-02-23T21:48:13Z",
+  "run_id": "20260124_003659_ddda",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "CVS Health's public disclosures detail operational practices in fairness, referencing a \"Workforce Modifier\" in executive compensation, and in oversight, where the 2024 Form 10-K details board and audit committee oversight of cybersecurity. These materials address 6 of 7 evaluated responsible AI pillars, with further operational evidence found for privacy, where the 2024 Form 10-K touches upon safeguarding data, and for governance, describing risk management frameworks. External accountability is also documented operationally through descriptions of external audit processes in the 2024 Form 10-K. Transparency is addressed at the policy level, with the 2024 Form 10-K mentioning AI use cases and disclosure requirements, drawing from 36 publicly available sources. No qualifying public evidence was found for explainability.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 275,
+    "total_sources_used": 28
+  }
+}

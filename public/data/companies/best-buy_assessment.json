@@ -1,0 +1,339 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Best Buy",
+  "company_slug": "best-buy",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 4,
+      "OPERATIONAL": 13,
+      "POLICY": 60
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 15,
+      "findings": "Corporate Responsibility & Sustainability Reports reference adherence to external guidance and vendor partnerships with training and certification for AI use. SEC filings reference compliance in the context of statutes and regulations for AI deployment and usage. Audit Committee Charters reference implied audits for the cybersecurity program and quarterly meetings with the Chief Information Security Officer. Press releases also describe the notification of law enforcement following a third-party vendor's cyber incident.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Corporate Responsibility & Sustainability Report FY25 provides evidence for **external_accountability**, **governance**, and **oversight**. The report details the development of a Responsible GenAI Policy, articulates five AI Guiding Principles, and describes CISO oversight and Board governance through the Nominating, Corporate Governance and Public Policy Committee, demonstrating robust governance and oversight mechanisms. Furthermore, it references adherence to external guidance and vendor partnerships with training and certification, indicating external accountability for AI use.",
+          "title": "Corporate Responsibility & Sustainability Report FY25",
+          "url": "https://corporate.bestbuy.com/wp-content/uploads/2025/07/BestBuy-CRS-Report-2025.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K, Fiscal Year Ended February 1, 2025,\" provides evidence for **governance**, **oversight**, **privacy**, and **external_accountability**. The document explicitly states that AI integration increases cybersecurity and privacy risks, and that the Audit Committee oversees management processes for identifying and mitigating these risks, demonstrating strong governance and oversight mechanisms. Furthermore, it mentions customer data privacy and compliance, as well as the need for governance over AI deployment and usage in the context of statutes and regulations, supporting the privacy and external_accountability pillars.",
+          "title": "Form 10-K, Fiscal Year Ended February 1, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/764478/000076447825000007/bby-20250201x10k.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This Audit Committee Charter establishes oversight mechanisms for artificial intelligence, supporting the **governance** and **external_accountability** pillars. The charter explicitly lists AI among major risk exposures to be discussed with management, demonstrating a governance structure for AI risks. Furthermore, the committee's quarterly meetings with the Chief Information Security Officer and implied audits suggest external accountability for the cybersecurity program, which would encompass AI. The charter also touches upon the **privacy** pillar by mentioning AI risks in conjunction with privacy concerns.",
+          "title": "Audit Committee Charter (September 2024)",
+          "url": "https://s204.q4cdn.com/864376893/files/doc_downloads/committee_charters/10/Audit-Committee-Charter-Sept-2024.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release from Best Buy supports the **external_accountability**, **governance**, and **privacy** pillars. It demonstrates external accountability by detailing the notification of law enforcement following a third-party vendor's cyber incident. The statement also provides evidence for governance through its description of collaboration with the vendor and implies vendor oversight processes. Finally, it supports the privacy pillar by outlining actions taken to assess data impact and mitigate harm to customers.",
+          "title": "Best Buy Statement on [24]7.ai Cyber Incident",
+          "url": "https://corporate.bestbuy.com/2018/best-buy-statement-247-ai-cyber-incident"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 61,
+      "findings": "Best Buy's policy documents outline parameters for ethical engagement and commit to internal guidelines and evaluation regarding AI usage. Corporate Responsibility Reports reference adherence to external guidance and vendor partnerships, while privacy policies describe data sharing practices and contractual agreements for third-party data handling. SEC filings reference the need for governance over AI deployment and usage in the context of statutes and regulations. Audit Committee Charters explicitly list AI among major risk exposures to be discussed with management and describe a governance structure for AI risks. Company blog posts reference partnerships, vendor oversight, and procurement processes, and case studies explicitly reference the management of AI agents, the use of an AI platform, and policies and controls over AI systems. Press releases also describe collaboration with vendors and reference vendor oversight processes following cyber incidents.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for governance, oversight, privacy, and transparency. It supports privacy by explicitly stating no Personally Identifiable Information (PII) is used and that data usage is compliant with laws. The policy demonstrates oversight through its described human review process for AI-generated content, including fact-checking and revision, and supports governance and transparency by outlining parameters for ethical engagement and committing to internal guidelines and evaluation regarding AI usage.",
+          "title": "Policy on the Use of Generative AI Content",
+          "url": "https://bestbuy.ca/en-ca/help/policies-and-terms-and-conditions/policy-on-the-use-of-gen-ai"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Corporate Responsibility & Sustainability Report FY25 provides evidence for **external_accountability**, **governance**, and **oversight**. The report details the development of a Responsible GenAI Policy, articulates five AI Guiding Principles, and describes CISO oversight and Board governance through the Nominating, Corporate Governance and Public Policy Committee, demonstrating robust governance and oversight mechanisms. Furthermore, it references adherence to external guidance and vendor partnerships with training and certification, indicating external accountability for AI use.",
+          "title": "Corporate Responsibility & Sustainability Report FY25",
+          "url": "https://corporate.bestbuy.com/wp-content/uploads/2025/07/BestBuy-CRS-Report-2025.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing data sharing practices with third parties for advertising and service delivery, outlining controller roles, and mentioning contractual agreements to ensure third-party data handling aligns with policy. The policy also supports the privacy pillar by describing the use of encryption for data transport and outlining data subject rights such as access and deletion.",
+          "title": "Privacy Policy (Best Buy Canada)",
+          "url": "https://bestbuy.ca/en-ca/help/policies-and-terms-and-conditions/privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K, Fiscal Year Ended February 1, 2025,\" provides evidence for **governance**, **oversight**, **privacy**, and **external_accountability**. The document explicitly states that AI integration increases cybersecurity and privacy risks, and that the Audit Committee oversees management processes for identifying and mitigating these risks, demonstrating strong governance and oversight mechanisms. Furthermore, it mentions customer data privacy and compliance, as well as the need for governance over AI deployment and usage in the context of statutes and regulations, supporting the privacy and external_accountability pillars.",
+          "title": "Form 10-K, Fiscal Year Ended February 1, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/764478/000076447825000007/bby-20250201x10k.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This Audit Committee Charter establishes oversight mechanisms for artificial intelligence, supporting the **governance** and **external_accountability** pillars. The charter explicitly lists AI among major risk exposures to be discussed with management, demonstrating a governance structure for AI risks. Furthermore, the committee's quarterly meetings with the Chief Information Security Officer and implied audits suggest external accountability for the cybersecurity program, which would encompass AI. The charter also touches upon the **privacy** pillar by mentioning AI risks in conjunction with privacy concerns.",
+          "title": "Audit Committee Charter (September 2024)",
+          "url": "https://s204.q4cdn.com/864376893/files/doc_downloads/committee_charters/10/Audit-Committee-Charter-Sept-2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for **governance** and **transparency** in Best Buy's use of generative AI. It details specific AI systems like a virtual assistant for customer self-service and AI tools for agents, outlining their capabilities and data usage for improvement, which supports transparency. Furthermore, the post mentions partnerships with Google Cloud and Accenture, indicating vendor oversight and procurement processes, aligning with governance.",
+          "title": "How Best Buy is using generative AI to create better customer support experiences",
+          "url": "https://corporate.bestbuy.com/2024/generative-ai-customer-support"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This Best Buy case study provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The document supports governance by explicitly mentioning the management of AI agents and the use of an AI platform, indicating policies and controls over AI systems. Transparency is demonstrated through the naming of AI systems like Vertex AI and Gemini, and their specific applications such as the Gift Finder tool and product Q&A generation. Evidence for privacy is found in mentions of secure platforms and security outcomes related to AI agents, suggesting considerations for data protection.",
+          "title": "Best Buy Case Study | Google Cloud",
+          "url": "https://cloud.google.com/customers/bestbuy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release from Best Buy supports the **external_accountability**, **governance**, and **privacy** pillars. It demonstrates external accountability by detailing the notification of law enforcement following a third-party vendor's cyber incident. The statement also provides evidence for governance through its description of collaboration with the vendor and implies vendor oversight processes. Finally, it supports the privacy pillar by outlining actions taken to assess data impact and mitigate harm to customers.",
+          "title": "Best Buy Statement on [24]7.ai Cyber Incident",
+          "url": "https://corporate.bestbuy.com/2018/best-buy-statement-247-ai-cyber-incident"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Policy documents describe a human review process for AI-generated content, including fact-checking and revision. Additionally, customer-facing educational resources state that users should think carefully and double-check information before acting on AI outputs.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for governance, oversight, privacy, and transparency. It supports privacy by explicitly stating no Personally Identifiable Information (PII) is used and that data usage is compliant with laws. The policy demonstrates oversight through its described human review process for AI-generated content, including fact-checking and revision, and supports governance and transparency by outlining parameters for ethical engagement and committing to internal guidelines and evaluation regarding AI usage.",
+          "title": "Policy on the Use of Generative AI Content",
+          "url": "https://bestbuy.ca/en-ca/help/policies-and-terms-and-conditions/policy-on-the-use-of-gen-ai"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Corporate Responsibility & Sustainability Report FY25 provides evidence for **external_accountability**, **governance**, and **oversight**. The report details the development of a Responsible GenAI Policy, articulates five AI Guiding Principles, and describes CISO oversight and Board governance through the Nominating, Corporate Governance and Public Policy Committee, demonstrating robust governance and oversight mechanisms. Furthermore, it references adherence to external guidance and vendor partnerships with training and certification, indicating external accountability for AI use.",
+          "title": "Corporate Responsibility & Sustainability Report FY25",
+          "url": "https://corporate.bestbuy.com/wp-content/uploads/2025/07/BestBuy-CRS-Report-2025.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K, Fiscal Year Ended February 1, 2025,\" provides evidence for **governance**, **oversight**, **privacy**, and **external_accountability**. The document explicitly states that AI integration increases cybersecurity and privacy risks, and that the Audit Committee oversees management processes for identifying and mitigating these risks, demonstrating strong governance and oversight mechanisms. Furthermore, it mentions customer data privacy and compliance, as well as the need for governance over AI deployment and usage in the context of statutes and regulations, supporting the privacy and external_accountability pillars.",
+          "title": "Form 10-K, Fiscal Year Ended February 1, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/764478/000076447825000007/bby-20250201x10k.htm"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This customer-facing educational resource, \"How to Stay Safe When Using AI - Best Buy Digital Citizen,\" provides evidence for the **privacy** and **oversight** pillars. It supports the privacy pillar by advising customers on protecting personal information from AI tools, warning about sensitive data AI shouldn't need, and explaining that data isn't completely private. The resource also supports oversight by encouraging users to think carefully and double-check information before acting on AI outputs.",
+          "title": "How to Stay Safe When Using AI - Best Buy Digital Citizen",
+          "url": "https://digitalcitizen.bestbuy.ca/courses/introduction-to-artificial-intelligence/lessons/how-to-stay-safe-when-using-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 21,
+      "findings": "Best Buy's policy documents state that no PII is used and data usage is compliant with laws, while privacy policies describe encryption for data transport and outline data subject rights like access and deletion. SEC filings and Audit Committee Charters reference customer data privacy and AI risks in conjunction with privacy concerns. Furthermore, case studies reference secure platforms and security outcomes for AI agents, and customer-facing resources state how to protect personal information from AI tools, warn about sensitive data, and explain data privacy limitations. Press releases also outline actions taken to assess data impact and mitigate harm to customers following cyber incidents.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for governance, oversight, privacy, and transparency. It supports privacy by explicitly stating no Personally Identifiable Information (PII) is used and that data usage is compliant with laws. The policy demonstrates oversight through its described human review process for AI-generated content, including fact-checking and revision, and supports governance and transparency by outlining parameters for ethical engagement and committing to internal guidelines and evaluation regarding AI usage.",
+          "title": "Policy on the Use of Generative AI Content",
+          "url": "https://bestbuy.ca/en-ca/help/policies-and-terms-and-conditions/policy-on-the-use-of-gen-ai"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing data sharing practices with third parties for advertising and service delivery, outlining controller roles, and mentioning contractual agreements to ensure third-party data handling aligns with policy. The policy also supports the privacy pillar by describing the use of encryption for data transport and outlining data subject rights such as access and deletion.",
+          "title": "Privacy Policy (Best Buy Canada)",
+          "url": "https://bestbuy.ca/en-ca/help/policies-and-terms-and-conditions/privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K, Fiscal Year Ended February 1, 2025,\" provides evidence for **governance**, **oversight**, **privacy**, and **external_accountability**. The document explicitly states that AI integration increases cybersecurity and privacy risks, and that the Audit Committee oversees management processes for identifying and mitigating these risks, demonstrating strong governance and oversight mechanisms. Furthermore, it mentions customer data privacy and compliance, as well as the need for governance over AI deployment and usage in the context of statutes and regulations, supporting the privacy and external_accountability pillars.",
+          "title": "Form 10-K, Fiscal Year Ended February 1, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/764478/000076447825000007/bby-20250201x10k.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This Audit Committee Charter establishes oversight mechanisms for artificial intelligence, supporting the **governance** and **external_accountability** pillars. The charter explicitly lists AI among major risk exposures to be discussed with management, demonstrating a governance structure for AI risks. Furthermore, the committee's quarterly meetings with the Chief Information Security Officer and implied audits suggest external accountability for the cybersecurity program, which would encompass AI. The charter also touches upon the **privacy** pillar by mentioning AI risks in conjunction with privacy concerns.",
+          "title": "Audit Committee Charter (September 2024)",
+          "url": "https://s204.q4cdn.com/864376893/files/doc_downloads/committee_charters/10/Audit-Committee-Charter-Sept-2024.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This Best Buy case study provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The document supports governance by explicitly mentioning the management of AI agents and the use of an AI platform, indicating policies and controls over AI systems. Transparency is demonstrated through the naming of AI systems like Vertex AI and Gemini, and their specific applications such as the Gift Finder tool and product Q&A generation. Evidence for privacy is found in mentions of secure platforms and security outcomes related to AI agents, suggesting considerations for data protection.",
+          "title": "Best Buy Case Study | Google Cloud",
+          "url": "https://cloud.google.com/customers/bestbuy"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This customer-facing educational resource, \"How to Stay Safe When Using AI - Best Buy Digital Citizen,\" provides evidence for the **privacy** and **oversight** pillars. It supports the privacy pillar by advising customers on protecting personal information from AI tools, warning about sensitive data AI shouldn't need, and explaining that data isn't completely private. The resource also supports oversight by encouraging users to think carefully and double-check information before acting on AI outputs.",
+          "title": "How to Stay Safe When Using AI - Best Buy Digital Citizen",
+          "url": "https://digitalcitizen.bestbuy.ca/courses/introduction-to-artificial-intelligence/lessons/how-to-stay-safe-when-using-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release from Best Buy supports the **external_accountability**, **governance**, and **privacy** pillars. It demonstrates external accountability by detailing the notification of law enforcement following a third-party vendor's cyber incident. The statement also provides evidence for governance through its description of collaboration with the vendor and implies vendor oversight processes. Finally, it supports the privacy pillar by outlining actions taken to assess data impact and mitigate harm to customers.",
+          "title": "Best Buy Statement on [24]7.ai Cyber Incident",
+          "url": "https://corporate.bestbuy.com/2018/best-buy-statement-247-ai-cyber-incident"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 15,
+      "findings": "Best Buy's policy documents outline parameters for ethical engagement and commit to internal guidelines and evaluation regarding AI usage. Company blog posts describe specific AI systems, their capabilities, and data usage for improvement. Case studies reference specific AI systems like Vertex AI and Gemini and specify their applications such as the Gift Finder tool and product Q&A generation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for governance, oversight, privacy, and transparency. It supports privacy by explicitly stating no Personally Identifiable Information (PII) is used and that data usage is compliant with laws. The policy demonstrates oversight through its described human review process for AI-generated content, including fact-checking and revision, and supports governance and transparency by outlining parameters for ethical engagement and committing to internal guidelines and evaluation regarding AI usage.",
+          "title": "Policy on the Use of Generative AI Content",
+          "url": "https://bestbuy.ca/en-ca/help/policies-and-terms-and-conditions/policy-on-the-use-of-gen-ai"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Corporate Responsibility & Sustainability Report FY25 provides evidence for **external_accountability**, **governance**, and **oversight**. The report details the development of a Responsible GenAI Policy, articulates five AI Guiding Principles, and describes CISO oversight and Board governance through the Nominating, Corporate Governance and Public Policy Committee, demonstrating robust governance and oversight mechanisms. Furthermore, it references adherence to external guidance and vendor partnerships with training and certification, indicating external accountability for AI use.",
+          "title": "Corporate Responsibility & Sustainability Report FY25",
+          "url": "https://corporate.bestbuy.com/wp-content/uploads/2025/07/BestBuy-CRS-Report-2025.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for **governance** and **transparency** in Best Buy's use of generative AI. It details specific AI systems like a virtual assistant for customer self-service and AI tools for agents, outlining their capabilities and data usage for improvement, which supports transparency. Furthermore, the post mentions partnerships with Google Cloud and Accenture, indicating vendor oversight and procurement processes, aligning with governance.",
+          "title": "How Best Buy is using generative AI to create better customer support experiences",
+          "url": "https://corporate.bestbuy.com/2024/generative-ai-customer-support"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This Best Buy case study provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The document supports governance by explicitly mentioning the management of AI agents and the use of an AI platform, indicating policies and controls over AI systems. Transparency is demonstrated through the naming of AI systems like Vertex AI and Gemini, and their specific applications such as the Gift Finder tool and product Q&A generation. Evidence for privacy is found in mentions of secure platforms and security outcomes related to AI agents, suggesting considerations for data protection.",
+          "title": "Best Buy Case Study | Google Cloud",
+          "url": "https://cloud.google.com/customers/bestbuy"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T21:44:51Z",
+  "run_id": "20260126_234342_69de",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Policy documents for Best Buy describe a human review process for AI-generated content, falling under the oversight pillar. These materials also outline parameters for ethical engagement regarding AI usage within governance and transparency, and state that no Personally Identifiable Information (PII) is used for privacy. Overall, 5 of 7 responsible AI pillars have documented evidence, drawing from 14 publicly available sources. No qualifying public evidence was found for fairness or explainability.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 77,
+    "total_sources_used": 9
+  }
+}

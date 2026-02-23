@@ -1,0 +1,772 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Nvidia",
+  "company_slug": "nvidia",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 47,
+      "OPERATIONAL": 27,
+      "POLICY": 189
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 18,
+      "findings": "NVIDIA documents its commitment to explainability by describing tools and techniques for understanding AI decisions and model interpretability. This includes the development of an XAI approach using SHAP and the inclusion of Explainability subcards within its Model Card++ framework. Corporate Responsibility Reports also detail NVIDIA's focus on developing \"explainable AI\" and \"trustworthy AI.\"",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA blog post provides evidence for **explainability, fairness, governance, and transparency**. It supports explainability by describing tools and techniques for understanding AI decisions and model interpretability, and it touches on fairness and transparency by discussing bias mitigation and model training processes. The blog post also implies governance through its mention of best practices and design principles for building trust.",
+          "title": "What Is Explainable AI (XAI)? - NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/what-is-explainable-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"What Is Trustworthy AI?\", provides evidence for the **explainability**, **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports these pillars by defining trustworthy AI with an emphasis on transparency, bias mitigation, and privacy compliance, and by discussing AI safety, security, and risk mitigation. The post also addresses data privacy and consent, nondiscrimination, and bias mitigation, and focuses on transparency and explainability for AI models.",
+          "title": "What Is Trustworthy AI?",
+          "url": "https://blogs.nvidia.com/blog/what-is-trustworthy-ai"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This model card for the \"llama-3.1-nemoguard-8b-content-safety\" model provides evidence for **governance, transparency, explainability, fairness, and privacy**. It details a library for AI guardrails and safety taxonomies, indicating structured governance and transparent development practices. The model card also references subcards for Bias and Explainability, and mentions tuning on approved datasets, supporting the fairness and privacy pillars by demonstrating a commitment to responsible data handling and model behavior.",
+          "title": "llama-3.1-nemoguard-8b-content-safety Model Card",
+          "url": "https://build.nvidia.com/nvidia/llama-3_1-nemoguard-8b-content-safety/modelcard"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Accelerating Trustworthy AI for Credit Risk Management,\" provides evidence for the **explainability**, **governance**, **oversight**, **privacy**, and **transparency** pillars. The post discusses the development of an XAI approach using SHAP for understanding and explaining AI/ML decision-making, directly supporting **explainability** and **transparency**. It also addresses documentation requirements for AI systems, data lineage, and audit trails, aligning with **governance** and **transparency**, and mentions human-in-the-loop oversight and data protection, supporting the **oversight** and **privacy** pillars respectively.",
+          "title": "Accelerating Trustworthy AI for Credit Risk Management",
+          "url": "https://developer.nvidia.com/blog/accelerating-trustworthy-ai-for-credit-risk-management"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enhancing AI Transparency and Ethical Considerations with Model Card,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The post details NVIDIA's Model Card++ framework, which includes specific subcards for Bias, Explainability, and Privacy, demonstrating a commitment to transparent disclosure of model characteristics and performance. Furthermore, the framework's cross-functional approach and alignment with evolving regulations like the EU AI Act highlight its support for governance and external accountability.",
+          "title": "Enhancing AI Transparency and Ethical Considerations with Model Card",
+          "url": "https://developer.nvidia.com/blog/enhancing-ai-transparency-and-ethical-considerations-with-model-card"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Responsibility Report provides evidence for **explainability, external accountability, governance, and transparency**. The report details NVIDIA's focus on developing \"explainable AI\" and \"trustworthy AI,\" their participation in shaping AI regulation through trade associations and the OECD, and their commitment to AI model compliance with global privacy laws and transparency about model design. Furthermore, it documents an AI Ethics Committee, model risk management guidance integrated into the AI product lifecycle, and external certification by TÜV SÜD, all contributing to robust governance and accountability frameworks.",
+          "title": "NVIDIA 2023 Corporate Responsibility Report",
+          "url": "https://images.nvidia.com/aem-dam/Solutions/documents/FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Social Responsibility Report provides evidence for **governance, fairness, transparency, and explainability**. The report details NVIDIA's governance framework for AI, including board oversight and a CSR committee, and highlights their use of AI-based tools to eliminate bias in job descriptions, directly supporting the fairness pillar. Furthermore, it mentions commitments to standards of accountability, transparency, and explainability for AI, and discusses AI use cases and collaborations, contributing to transparency and explainability.",
+          "title": "NVIDIA 2020 Corporate Social Responsibility Report",
+          "url": "https://nvidia.com/content/dam/en-zz/Solutions/documents/FY2020-NVIDIA-CSR-Social-Responsibility.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 15,
+      "findings": "NVIDIA demonstrates external accountability by assigning responsibility for compliance with third-party AI licenses and aligning its Model Card++ framework with evolving regulations like the EU AI Act. The company details its commitment to trustworthy AI through external framework alignment and participation in industry standardization activities, including shaping AI regulation through trade associations and the OECD. Form 10-Q and 10-K filings address engagement with the AI regulatory landscape and compliance needs.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"NVIDIA API Trial Terms of Service,\" provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. It supports **governance** by referencing \"Trustworthy AI terms\" and assigning responsibility for compliance with third-party AI licenses. The document also supports **privacy** by addressing the collection and use of personal data for API services, subject to consent, and implies **transparency** by mentioning AI models and their use cases.",
+          "title": "NVIDIA API Trial Terms of Service",
+          "url": "https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enhancing AI Transparency and Ethical Considerations with Model Card,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The post details NVIDIA's Model Card++ framework, which includes specific subcards for Bias, Explainability, and Privacy, demonstrating a commitment to transparent disclosure of model characteristics and performance. Furthermore, the framework's cross-functional approach and alignment with evolving regulations like the EU AI Act highlight its support for governance and external accountability.",
+          "title": "Enhancing AI Transparency and Ethical Considerations with Model Card",
+          "url": "https://developer.nvidia.com/blog/enhancing-ai-transparency-and-ethical-considerations-with-model-card"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Responsibility Report provides evidence for external_accountability, fairness, governance, privacy, and transparency. The report details NVIDIA's commitment to trustworthy AI through internal principles, external framework alignment, and participation in industry standardization activities. It also highlights specific tools and processes for AI development, such as model cards and bias mitigation software, and mentions efforts towards unbiased recruiting, demonstrating a focus on governance, fairness, and transparency in their AI practices.",
+          "title": "NVIDIA 2022 Corporate Responsibility Report",
+          "url": "https://images.nvidia.com/aem-dam/Solutions/documents/FY2022-NVIDIA-Corporate-Responsibility.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Responsibility Report provides evidence for **explainability, external accountability, governance, and transparency**. The report details NVIDIA's focus on developing \"explainable AI\" and \"trustworthy AI,\" their participation in shaping AI regulation through trade associations and the OECD, and their commitment to AI model compliance with global privacy laws and transparency about model design. Furthermore, it documents an AI Ethics Committee, model risk management guidance integrated into the AI product lifecycle, and external certification by TÜV SÜD, all contributing to robust governance and accountability frameworks.",
+          "title": "NVIDIA 2023 Corporate Responsibility Report",
+          "url": "https://images.nvidia.com/aem-dam/Solutions/documents/FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"NVIDIA Frontier AI Risk Assessment,\" provides evidence for external_accountability, fairness, governance, oversight, and transparency. The document details the composition of an AI governance board and outlines preliminary risk assessment procedures, including red teaming activities to identify harmful or biased outputs, supporting governance and fairness. It also describes model evaluation datasets, safety metrics, and Operational Design Domain (ODD) specification and testing methodologies, demonstrating oversight and transparency in their AI risk management framework. Furthermore, the paper discusses AI safeguards, trustworthiness assessment, and risk mitigation strategies, indicating a commitment to external accountability and responsible AI deployment.",
+          "title": "NVIDIA Frontier AI Risk Assessment",
+          "url": "https://images.nvidia.com/content/pdf/NVIDIA-Frontier-AI-Risk-Assessment.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Form 10-Q filing provides evidence for **governance**, **external accountability**, and **transparency**. The report details the company's engagement with an evolving AI regulatory landscape, including specific proposals like the EU AI Act and IFR, which directly impact governance and external accountability through licensing requirements and compliance needs. Furthermore, the filing mentions the responsible use of AI and addresses concerns about third-party misuse, indicating policy commitments and governance oversight related to AI deployment and transparency.",
+          "title": "NVIDIA Form 10-Q - Q3 2025",
+          "url": "https://investor.nvidia.com/files/doc_financials/2026/q3/13e6981b-95ed-4aac-a602-ebc5865d0590.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_031",
+          "source_tier": "authority",
+          "summary": "This NVIDIA Form 10-K filing provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The report addresses AI-related governance and regulatory compliance, including export controls and state-level AI regulations, supporting **governance** and **external_accountability**. It also acknowledges potential bias in AI datasets, contributing to the **fairness** pillar, and highlights risks related to third-party AI data privacy, supporting the **privacy** pillar. Furthermore, the mention of specific AI software products and platforms indicates a degree of **transparency** regarding NVIDIA's AI offerings.",
+          "title": "NVIDIA Form 10-K - Fiscal 2025 (Filed January 26, 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 31,
+      "findings": "NVIDIA addresses fairness through various practices, including discussions on bias mitigation and model training processes in blog posts. The company's Model Card++ framework and other model cards reference specific subcards for Bias, demonstrating a commitment to transparent disclosure. Corporate Responsibility Reports highlight the use of bias mitigation software, efforts towards unbiased recruiting, and tools for unbiased datasets and model alignment.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA blog post provides evidence for **explainability, fairness, governance, and transparency**. It supports explainability by describing tools and techniques for understanding AI decisions and model interpretability, and it touches on fairness and transparency by discussing bias mitigation and model training processes. The blog post also implies governance through its mention of best practices and design principles for building trust.",
+          "title": "What Is Explainable AI (XAI)? - NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/what-is-explainable-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"What Is Trustworthy AI?\", provides evidence for the **explainability**, **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports these pillars by defining trustworthy AI with an emphasis on transparency, bias mitigation, and privacy compliance, and by discussing AI safety, security, and risk mitigation. The post also addresses data privacy and consent, nondiscrimination, and bias mitigation, and focuses on transparency and explainability for AI models.",
+          "title": "What Is Trustworthy AI?",
+          "url": "https://blogs.nvidia.com/blog/what-is-trustworthy-ai"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This model card for the \"llama-3.1-nemoguard-8b-content-safety\" model provides evidence for **governance, transparency, explainability, fairness, and privacy**. It details a library for AI guardrails and safety taxonomies, indicating structured governance and transparent development practices. The model card also references subcards for Bias and Explainability, and mentions tuning on approved datasets, supporting the fairness and privacy pillars by demonstrating a commitment to responsible data handling and model behavior.",
+          "title": "llama-3.1-nemoguard-8b-content-safety Model Card",
+          "url": "https://build.nvidia.com/nvidia/llama-3_1-nemoguard-8b-content-safety/modelcard"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enhancing AI Transparency and Ethical Considerations with Model Card,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The post details NVIDIA's Model Card++ framework, which includes specific subcards for Bias, Explainability, and Privacy, demonstrating a commitment to transparent disclosure of model characteristics and performance. Furthermore, the framework's cross-functional approach and alignment with evolving regulations like the EU AI Act highlight its support for governance and external accountability.",
+          "title": "Enhancing AI Transparency and Ethical Considerations with Model Card",
+          "url": "https://developer.nvidia.com/blog/enhancing-ai-transparency-and-ethical-considerations-with-model-card"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Responsibility Report provides evidence for external_accountability, fairness, governance, privacy, and transparency. The report details NVIDIA's commitment to trustworthy AI through internal principles, external framework alignment, and participation in industry standardization activities. It also highlights specific tools and processes for AI development, such as model cards and bias mitigation software, and mentions efforts towards unbiased recruiting, demonstrating a focus on governance, fairness, and transparency in their AI practices.",
+          "title": "NVIDIA 2022 Corporate Responsibility Report",
+          "url": "https://images.nvidia.com/aem-dam/Solutions/documents/FY2022-NVIDIA-Corporate-Responsibility.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"NVIDIA Frontier AI Risk Assessment,\" provides evidence for external_accountability, fairness, governance, oversight, and transparency. The document details the composition of an AI governance board and outlines preliminary risk assessment procedures, including red teaming activities to identify harmful or biased outputs, supporting governance and fairness. It also describes model evaluation datasets, safety metrics, and Operational Design Domain (ODD) specification and testing methodologies, demonstrating oversight and transparency in their AI risk management framework. Furthermore, the paper discusses AI safeguards, trustworthiness assessment, and risk mitigation strategies, indicating a commitment to external accountability and responsible AI deployment.",
+          "title": "NVIDIA Frontier AI Risk Assessment",
+          "url": "https://images.nvidia.com/content/pdf/NVIDIA-Frontier-AI-Risk-Assessment.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Social Responsibility Report provides evidence for **governance, fairness, transparency, and explainability**. The report details NVIDIA's governance framework for AI, including board oversight and a CSR committee, and highlights their use of AI-based tools to eliminate bias in job descriptions, directly supporting the fairness pillar. Furthermore, it mentions commitments to standards of accountability, transparency, and explainability for AI, and discusses AI use cases and collaborations, contributing to transparency and explainability.",
+          "title": "NVIDIA 2020 Corporate Social Responsibility Report",
+          "url": "https://nvidia.com/content/dam/en-zz/Solutions/documents/FY2020-NVIDIA-CSR-Social-Responsibility.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "The NVIDIA Trustworthy AI Terms policy document provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It demonstrates transparency by describing various AI capabilities and applications, and implies governance through mentions of enterprise infrastructure, cybersecurity, and data center management. Furthermore, the policy explicitly commits to encouraging bias mitigation, supporting the fairness pillar, although the execution of these practices is not detailed.",
+          "title": "NVIDIA Trustworthy AI Terms",
+          "url": "https://nvidia.com/en-us/agreements/trustworthy-ai/terms"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA blog post provides evidence for fairness, governance, privacy, and transparency in responsible AI. It supports governance through mentions of a safety stack for AI development, tools like NeMo Guardrails for controlling LLM behavior, and AI infrastructure for scaling. Transparency is evidenced by the description of AI capabilities and applications, as well as the mention of AI model cards for documentation. The post also touches on fairness by highlighting tools for unbiased datasets and model alignment, and privacy by stating a commitment to respecting user privacy.",
+          "title": "Trustworthy AI For A Better World - NVIDIA",
+          "url": "https://nvidia.com/en-us/ai-data-science/trustworthy-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA policy document, \"Trustworthy AI For A Better World,\" provides evidence for the pillars of fairness, governance, privacy, and transparency. It supports fairness and transparency by detailing efforts to build tools for unbiased datasets and model alignment, and by focusing on AI model cards. Governance is supported through the description of a safety stack for AI development and guardrails for LLMs to ensure accuracy and appropriateness. The policy also addresses privacy by committing to AI respecting user privacy.",
+          "title": "Trustworthy AI For A Better World",
+          "url": "https://nvidia.com/en-us/ai-trust-center/trustworthy-ai"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_031",
+          "source_tier": "authority",
+          "summary": "This NVIDIA Form 10-K filing provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The report addresses AI-related governance and regulatory compliance, including export controls and state-level AI regulations, supporting **governance** and **external_accountability**. It also acknowledges potential bias in AI datasets, contributing to the **fairness** pillar, and highlights risks related to third-party AI data privacy, supporting the **privacy** pillar. Furthermore, the mention of specific AI software products and platforms indicates a degree of **transparency** regarding NVIDIA's AI offerings.",
+          "title": "NVIDIA Form 10-K - Fiscal 2025 (Filed January 26, 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 201,
+      "findings": "NVIDIA documents a comprehensive approach to AI governance, outlining structured processes for vulnerability reporting and compliance with third-party AI licenses. The company details its commitment to creating standards for AI development and deployment, including a multi-step safety framework for autonomous AI systems and a toolkit for implementing guardrails in LLM systems. Governance practices also include the establishment of a PSIRT team, formal evaluation processes for AI offerings against human rights standards, and engagement with evolving AI regulatory landscapes.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"NVIDIA Vulnerability Disclosure Program,\" provides evidence for the **governance** pillar of responsible AI. It outlines a structured process for security researchers to report vulnerabilities in NVIDIA's AI platforms, demonstrating a commitment to managing the integrity and security of these technologies. The program's requirements for technical descriptions, impact assessments, and severity classifications further support this governance approach.",
+          "title": "NVIDIA Vulnerability Disclosure Program",
+          "url": "https://app.intigriti.com/programs/nvidia/nvidiavdp/detail"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"NVIDIA API Trial Terms of Service,\" provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. It supports **governance** by referencing \"Trustworthy AI terms\" and assigning responsibility for compliance with third-party AI licenses. The document also supports **privacy** by addressing the collection and use of personal data for API services, subject to consent, and implies **transparency** by mentioning AI models and their use cases.",
+          "title": "NVIDIA API Trial Terms of Service",
+          "url": "https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This blog post announces NVIDIA's participation in the NIST AI Safety Institute Consortium, providing evidence for **governance** and **transparency**. The post details NVIDIA's commitment to creating standards for AI development and deployment, and their work on NeMo Guardrails, which contributes to AI accuracy, appropriateness, and security, thereby supporting transparency and governance.",
+          "title": "NIST Launches Artificial Intelligence Safety Institute Consortium",
+          "url": "https://blogs.nvidia.com/blog/aisic-trustworthy-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA blog post provides evidence for **explainability, fairness, governance, and transparency**. It supports explainability by describing tools and techniques for understanding AI decisions and model interpretability, and it touches on fairness and transparency by discussing bias mitigation and model training processes. The blog post also implies governance through its mention of best practices and design principles for building trust.",
+          "title": "What Is Explainable AI (XAI)? - NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/what-is-explainable-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"What Is Trustworthy AI?\", provides evidence for the **explainability**, **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports these pillars by defining trustworthy AI with an emphasis on transparency, bias mitigation, and privacy compliance, and by discussing AI safety, security, and risk mitigation. The post also addresses data privacy and consent, nondiscrimination, and bias mitigation, and focuses on transparency and explainability for AI models.",
+          "title": "What Is Trustworthy AI?",
+          "url": "https://blogs.nvidia.com/blog/what-is-trustworthy-ai"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This model card for the \"llama-3.1-nemoguard-8b-content-safety\" model provides evidence for **governance, transparency, explainability, fairness, and privacy**. It details a library for AI guardrails and safety taxonomies, indicating structured governance and transparent development practices. The model card also references subcards for Bias and Explainability, and mentions tuning on approved datasets, supporting the fairness and privacy pillars by demonstrating a commitment to responsible data handling and model behavior.",
+          "title": "llama-3.1-nemoguard-8b-content-safety Model Card",
+          "url": "https://build.nvidia.com/nvidia/llama-3_1-nemoguard-8b-content-safety/modelcard"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Safety for Agentic AI Blueprint,\" provides evidence for the **governance** pillar of responsible AI. It details a structured, multi-step safety framework for autonomous AI systems, including vulnerability scanning with garak, post-training safety measures, runtime safeguards with NeMo Guardrails, and continuous monitoring. These documented practices demonstrate operational governance, risk assessment policies, and enforceable safety mechanisms.",
+          "title": "Safety for Agentic AI Blueprint",
+          "url": "https://build.nvidia.com/nvidia/safety-for-agentic-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Accelerating Trustworthy AI for Credit Risk Management,\" provides evidence for the **explainability**, **governance**, **oversight**, **privacy**, and **transparency** pillars. The post discusses the development of an XAI approach using SHAP for understanding and explaining AI/ML decision-making, directly supporting **explainability** and **transparency**. It also addresses documentation requirements for AI systems, data lineage, and audit trails, aligning with **governance** and **transparency**, and mentions human-in-the-loop oversight and data protection, supporting the **oversight** and **privacy** pillars respectively.",
+          "title": "Accelerating Trustworthy AI for Credit Risk Management",
+          "url": "https://developer.nvidia.com/blog/accelerating-trustworthy-ai-for-credit-risk-management"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enhancing AI Transparency and Ethical Considerations with Model Card,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The post details NVIDIA's Model Card++ framework, which includes specific subcards for Bias, Explainability, and Privacy, demonstrating a commitment to transparent disclosure of model characteristics and performance. Furthermore, the framework's cross-functional approach and alignment with evolving regulations like the EU AI Act highlight its support for governance and external accountability.",
+          "title": "Enhancing AI Transparency and Ethical Considerations with Model Card",
+          "url": "https://developer.nvidia.com/blog/enhancing-ai-transparency-and-ethical-considerations-with-model-card"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "The \"NVIDIA Technology Access Terms of Use\" policy document provides evidence for the **governance** pillar of responsible AI. This policy document explicitly commits to AI ethics requirements and compliance, demonstrating a commitment to establishing and adhering to responsible AI practices.",
+          "title": "NVIDIA Technology Access Terms of Use",
+          "url": "https://developer.nvidia.com/legal/terms"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This system card for NVIDIA's NeMo Guardrails demonstrates evidence for the **governance** and **privacy** pillars. It supports governance by highlighting customizable policies for content moderation, enforcing custom rules for AI operations, and evaluating AI inputs/responses based on policies to ensure safety, security, and compliance. The platform also supports privacy through its PII detection capabilities and by enforcing guardrails for data protection.",
+          "title": "NeMo Guardrails | NVIDIA Developer",
+          "url": "https://developer.nvidia.com/nemo-guardrails"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"NVIDIA AI Enterprise Security White Paper - Vulnerability Response,\" provides evidence for the **governance** pillar of responsible AI. It details the establishment of a dedicated PSIRT team with defined responsibilities, operational vulnerability scanning processes with strict gating criteria, and documented patching priorities and SLAs. Furthermore, the paper outlines an exception process and the use of VEX documents, all of which demonstrate robust governance over software security and vulnerability management.",
+          "title": "NVIDIA AI Enterprise Security White Paper - Vulnerability Response",
+          "url": "https://docs.nvidia.com/ai-enterprise/planning-resource/ai-enterprise-security-white-paper/latest/vulnerability-response.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"NVIDIA NeMo Guardrails Documentation,\" provides evidence for the **governance** pillar of responsible AI. It details a toolkit for implementing guardrails in LLM systems, outlining mechanisms for controlling AI behavior through policy specification and a dedicated language (colang), which directly supports governance practices.",
+          "title": "NVIDIA NeMo Guardrails Documentation",
+          "url": "https://docs.nvidia.com/nemo-guardrails/index.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Responsibility Report provides evidence for external_accountability, fairness, governance, privacy, and transparency. The report details NVIDIA's commitment to trustworthy AI through internal principles, external framework alignment, and participation in industry standardization activities. It also highlights specific tools and processes for AI development, such as model cards and bias mitigation software, and mentions efforts towards unbiased recruiting, demonstrating a focus on governance, fairness, and transparency in their AI practices.",
+          "title": "NVIDIA 2022 Corporate Responsibility Report",
+          "url": "https://images.nvidia.com/aem-dam/Solutions/documents/FY2022-NVIDIA-Corporate-Responsibility.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Responsibility Report provides evidence for **explainability, external accountability, governance, and transparency**. The report details NVIDIA's focus on developing \"explainable AI\" and \"trustworthy AI,\" their participation in shaping AI regulation through trade associations and the OECD, and their commitment to AI model compliance with global privacy laws and transparency about model design. Furthermore, it documents an AI Ethics Committee, model risk management guidance integrated into the AI product lifecycle, and external certification by TÜV SÜD, all contributing to robust governance and accountability frameworks.",
+          "title": "NVIDIA 2023 Corporate Responsibility Report",
+          "url": "https://images.nvidia.com/aem-dam/Solutions/documents/FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"NVIDIA Frontier AI Risk Assessment,\" provides evidence for external_accountability, fairness, governance, oversight, and transparency. The document details the composition of an AI governance board and outlines preliminary risk assessment procedures, including red teaming activities to identify harmful or biased outputs, supporting governance and fairness. It also describes model evaluation datasets, safety metrics, and Operational Design Domain (ODD) specification and testing methodologies, demonstrating oversight and transparency in their AI risk management framework. Furthermore, the paper discusses AI safeguards, trustworthiness assessment, and risk mitigation strategies, indicating a commitment to external accountability and responsible AI deployment.",
+          "title": "NVIDIA Frontier AI Risk Assessment",
+          "url": "https://images.nvidia.com/content/pdf/NVIDIA-Frontier-AI-Risk-Assessment.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Form 10-Q filing provides evidence for **governance**, **external accountability**, and **transparency**. The report details the company's engagement with an evolving AI regulatory landscape, including specific proposals like the EU AI Act and IFR, which directly impact governance and external accountability through licensing requirements and compliance needs. Furthermore, the filing mentions the responsible use of AI and addresses concerns about third-party misuse, indicating policy commitments and governance oversight related to AI deployment and transparency.",
+          "title": "NVIDIA Form 10-Q - Q3 2025",
+          "url": "https://investor.nvidia.com/files/doc_financials/2026/q3/13e6981b-95ed-4aac-a602-ebc5865d0590.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "The NVIDIA Human Rights Policy document provides evidence for the **governance** pillar. This policy outlines a formal evaluation process for assessing AI offerings against human rights standards, demonstrating a commitment to responsible AI governance through established procedures and board oversight.",
+          "title": "NVIDIA Human Rights Policy",
+          "url": "https://nvidia.com/content/dam/en-zz/Solutions/about-us/documents/HumanRightsPolicy.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Social Responsibility Report provides evidence for **governance, fairness, transparency, and explainability**. The report details NVIDIA's governance framework for AI, including board oversight and a CSR committee, and highlights their use of AI-based tools to eliminate bias in job descriptions, directly supporting the fairness pillar. Furthermore, it mentions commitments to standards of accountability, transparency, and explainability for AI, and discusses AI use cases and collaborations, contributing to transparency and explainability.",
+          "title": "NVIDIA 2020 Corporate Social Responsibility Report",
+          "url": "https://nvidia.com/content/dam/en-zz/Solutions/documents/FY2020-NVIDIA-CSR-Social-Responsibility.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Privacy Policy document provides evidence for **governance, privacy, and transparency**. It supports governance by detailing contractual restrictions for third parties, legitimate interests for AI development, and oversight of AI solutions in areas like robotics and autonomous vehicles. The policy demonstrates privacy by outlining data use for AI training, anonymization techniques, data retention policies, and user rights for data access and deletion. Transparency is evidenced through descriptions of AI applications and infrastructure, implying clear understanding and communication of how these systems operate.",
+          "title": "NVIDIA Privacy Policy",
+          "url": "https://nvidia.com/en-us/about-nvidia/privacy-policy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_024",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Software License Agreement, a company-owned policy document, provides evidence for the **governance** pillar of responsible AI. It mandates adherence to \"Trustworthy AI terms\" and defines \"Critical Application\" for AI solutions, indicating a commitment to establishing governance frameworks and ethical standards for the use of NVIDIA's AI offerings, particularly in high-risk scenarios.",
+          "title": "NVIDIA Software License Agreement - AI Ethics",
+          "url": "https://nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "The NVIDIA Trustworthy AI Terms policy document provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It demonstrates transparency by describing various AI capabilities and applications, and implies governance through mentions of enterprise infrastructure, cybersecurity, and data center management. Furthermore, the policy explicitly commits to encouraging bias mitigation, supporting the fairness pillar, although the execution of these practices is not detailed.",
+          "title": "NVIDIA Trustworthy AI Terms",
+          "url": "https://nvidia.com/en-us/agreements/trustworthy-ai/terms"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA blog post provides evidence for fairness, governance, privacy, and transparency in responsible AI. It supports governance through mentions of a safety stack for AI development, tools like NeMo Guardrails for controlling LLM behavior, and AI infrastructure for scaling. Transparency is evidenced by the description of AI capabilities and applications, as well as the mention of AI model cards for documentation. The post also touches on fairness by highlighting tools for unbiased datasets and model alignment, and privacy by stating a commitment to respecting user privacy.",
+          "title": "Trustworthy AI For A Better World - NVIDIA",
+          "url": "https://nvidia.com/en-us/ai-data-science/trustworthy-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA policy document, \"Trustworthy AI For A Better World,\" provides evidence for the pillars of fairness, governance, privacy, and transparency. It supports fairness and transparency by detailing efforts to build tools for unbiased datasets and model alignment, and by focusing on AI model cards. Governance is supported through the description of a safety stack for AI development and guardrails for LLMs to ensure accuracy and appropriateness. The policy also addresses privacy by committing to AI respecting user privacy.",
+          "title": "Trustworthy AI For A Better World",
+          "url": "https://nvidia.com/en-us/ai-trust-center/trustworthy-ai"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_031",
+          "source_tier": "authority",
+          "summary": "This NVIDIA Form 10-K filing provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The report addresses AI-related governance and regulatory compliance, including export controls and state-level AI regulations, supporting **governance** and **external_accountability**. It also acknowledges potential bias in AI datasets, contributing to the **fairness** pillar, and highlights risks related to third-party AI data privacy, supporting the **privacy** pillar. Furthermore, the mention of specific AI software products and platforms indicates a degree of **transparency** regarding NVIDIA's AI offerings.",
+          "title": "NVIDIA Form 10-K - Fiscal 2025 (Filed January 26, 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 25
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "NVIDIA documents oversight practices including human-in-the-loop oversight. Technical papers describe model evaluation datasets, safety metrics, and Operational Design Domain (ODD) specification and testing methodologies. These documents also discuss AI safeguards, trustworthiness assessment, and risk mitigation strategies.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Accelerating Trustworthy AI for Credit Risk Management,\" provides evidence for the **explainability**, **governance**, **oversight**, **privacy**, and **transparency** pillars. The post discusses the development of an XAI approach using SHAP for understanding and explaining AI/ML decision-making, directly supporting **explainability** and **transparency**. It also addresses documentation requirements for AI systems, data lineage, and audit trails, aligning with **governance** and **transparency**, and mentions human-in-the-loop oversight and data protection, supporting the **oversight** and **privacy** pillars respectively.",
+          "title": "Accelerating Trustworthy AI for Credit Risk Management",
+          "url": "https://developer.nvidia.com/blog/accelerating-trustworthy-ai-for-credit-risk-management"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"NVIDIA Frontier AI Risk Assessment,\" provides evidence for external_accountability, fairness, governance, oversight, and transparency. The document details the composition of an AI governance board and outlines preliminary risk assessment procedures, including red teaming activities to identify harmful or biased outputs, supporting governance and fairness. It also describes model evaluation datasets, safety metrics, and Operational Design Domain (ODD) specification and testing methodologies, demonstrating oversight and transparency in their AI risk management framework. Furthermore, the paper discusses AI safeguards, trustworthiness assessment, and risk mitigation strategies, indicating a commitment to external accountability and responsible AI deployment.",
+          "title": "NVIDIA Frontier AI Risk Assessment",
+          "url": "https://images.nvidia.com/content/pdf/NVIDIA-Frontier-AI-Risk-Assessment.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 28,
+      "findings": "NVIDIA addresses privacy by outlining the collection and use of personal data for API services, subject to consent, and defining trustworthy AI with an emphasis on privacy compliance. The company's Model Card++ framework includes specific subcards for Privacy, and NeMo Guardrails supports privacy through PII detection capabilities and data protection guardrails. Privacy Policy documents outline data use for AI training, anonymization techniques, data retention policies, and user rights for data access and deletion.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"NVIDIA API Trial Terms of Service,\" provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. It supports **governance** by referencing \"Trustworthy AI terms\" and assigning responsibility for compliance with third-party AI licenses. The document also supports **privacy** by addressing the collection and use of personal data for API services, subject to consent, and implies **transparency** by mentioning AI models and their use cases.",
+          "title": "NVIDIA API Trial Terms of Service",
+          "url": "https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"What Is Trustworthy AI?\", provides evidence for the **explainability**, **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports these pillars by defining trustworthy AI with an emphasis on transparency, bias mitigation, and privacy compliance, and by discussing AI safety, security, and risk mitigation. The post also addresses data privacy and consent, nondiscrimination, and bias mitigation, and focuses on transparency and explainability for AI models.",
+          "title": "What Is Trustworthy AI?",
+          "url": "https://blogs.nvidia.com/blog/what-is-trustworthy-ai"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This model card for the \"llama-3.1-nemoguard-8b-content-safety\" model provides evidence for **governance, transparency, explainability, fairness, and privacy**. It details a library for AI guardrails and safety taxonomies, indicating structured governance and transparent development practices. The model card also references subcards for Bias and Explainability, and mentions tuning on approved datasets, supporting the fairness and privacy pillars by demonstrating a commitment to responsible data handling and model behavior.",
+          "title": "llama-3.1-nemoguard-8b-content-safety Model Card",
+          "url": "https://build.nvidia.com/nvidia/llama-3_1-nemoguard-8b-content-safety/modelcard"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Accelerating Trustworthy AI for Credit Risk Management,\" provides evidence for the **explainability**, **governance**, **oversight**, **privacy**, and **transparency** pillars. The post discusses the development of an XAI approach using SHAP for understanding and explaining AI/ML decision-making, directly supporting **explainability** and **transparency**. It also addresses documentation requirements for AI systems, data lineage, and audit trails, aligning with **governance** and **transparency**, and mentions human-in-the-loop oversight and data protection, supporting the **oversight** and **privacy** pillars respectively.",
+          "title": "Accelerating Trustworthy AI for Credit Risk Management",
+          "url": "https://developer.nvidia.com/blog/accelerating-trustworthy-ai-for-credit-risk-management"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enhancing AI Transparency and Ethical Considerations with Model Card,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The post details NVIDIA's Model Card++ framework, which includes specific subcards for Bias, Explainability, and Privacy, demonstrating a commitment to transparent disclosure of model characteristics and performance. Furthermore, the framework's cross-functional approach and alignment with evolving regulations like the EU AI Act highlight its support for governance and external accountability.",
+          "title": "Enhancing AI Transparency and Ethical Considerations with Model Card",
+          "url": "https://developer.nvidia.com/blog/enhancing-ai-transparency-and-ethical-considerations-with-model-card"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This system card for NVIDIA's NeMo Guardrails demonstrates evidence for the **governance** and **privacy** pillars. It supports governance by highlighting customizable policies for content moderation, enforcing custom rules for AI operations, and evaluating AI inputs/responses based on policies to ensure safety, security, and compliance. The platform also supports privacy through its PII detection capabilities and by enforcing guardrails for data protection.",
+          "title": "NeMo Guardrails | NVIDIA Developer",
+          "url": "https://developer.nvidia.com/nemo-guardrails"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Responsibility Report provides evidence for external_accountability, fairness, governance, privacy, and transparency. The report details NVIDIA's commitment to trustworthy AI through internal principles, external framework alignment, and participation in industry standardization activities. It also highlights specific tools and processes for AI development, such as model cards and bias mitigation software, and mentions efforts towards unbiased recruiting, demonstrating a focus on governance, fairness, and transparency in their AI practices.",
+          "title": "NVIDIA 2022 Corporate Responsibility Report",
+          "url": "https://images.nvidia.com/aem-dam/Solutions/documents/FY2022-NVIDIA-Corporate-Responsibility.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Social Responsibility Report provides evidence for **governance, fairness, transparency, and explainability**. The report details NVIDIA's governance framework for AI, including board oversight and a CSR committee, and highlights their use of AI-based tools to eliminate bias in job descriptions, directly supporting the fairness pillar. Furthermore, it mentions commitments to standards of accountability, transparency, and explainability for AI, and discusses AI use cases and collaborations, contributing to transparency and explainability.",
+          "title": "NVIDIA 2020 Corporate Social Responsibility Report",
+          "url": "https://nvidia.com/content/dam/en-zz/Solutions/documents/FY2020-NVIDIA-CSR-Social-Responsibility.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Privacy Policy document provides evidence for **governance, privacy, and transparency**. It supports governance by detailing contractual restrictions for third parties, legitimate interests for AI development, and oversight of AI solutions in areas like robotics and autonomous vehicles. The policy demonstrates privacy by outlining data use for AI training, anonymization techniques, data retention policies, and user rights for data access and deletion. Transparency is evidenced through descriptions of AI applications and infrastructure, implying clear understanding and communication of how these systems operate.",
+          "title": "NVIDIA Privacy Policy",
+          "url": "https://nvidia.com/en-us/about-nvidia/privacy-policy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA blog post provides evidence for fairness, governance, privacy, and transparency in responsible AI. It supports governance through mentions of a safety stack for AI development, tools like NeMo Guardrails for controlling LLM behavior, and AI infrastructure for scaling. Transparency is evidenced by the description of AI capabilities and applications, as well as the mention of AI model cards for documentation. The post also touches on fairness by highlighting tools for unbiased datasets and model alignment, and privacy by stating a commitment to respecting user privacy.",
+          "title": "Trustworthy AI For A Better World - NVIDIA",
+          "url": "https://nvidia.com/en-us/ai-data-science/trustworthy-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA policy document, \"Trustworthy AI For A Better World,\" provides evidence for the pillars of fairness, governance, privacy, and transparency. It supports fairness and transparency by detailing efforts to build tools for unbiased datasets and model alignment, and by focusing on AI model cards. Governance is supported through the description of a safety stack for AI development and guardrails for LLMs to ensure accuracy and appropriateness. The policy also addresses privacy by committing to AI respecting user privacy.",
+          "title": "Trustworthy AI For A Better World",
+          "url": "https://nvidia.com/en-us/ai-trust-center/trustworthy-ai"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_031",
+          "source_tier": "authority",
+          "summary": "This NVIDIA Form 10-K filing provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The report addresses AI-related governance and regulatory compliance, including export controls and state-level AI regulations, supporting **governance** and **external_accountability**. It also acknowledges potential bias in AI datasets, contributing to the **fairness** pillar, and highlights risks related to third-party AI data privacy, supporting the **privacy** pillar. Furthermore, the mention of specific AI software products and platforms indicates a degree of **transparency** regarding NVIDIA's AI offerings.",
+          "title": "NVIDIA Form 10-K - Fiscal 2025 (Filed January 26, 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 12
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 106,
+      "findings": "NVIDIA documents its commitment to transparency through various reports and policy documents, which describe AI models, their use cases, and development practices. This includes detailing efforts in bias mitigation, model training processes, and the use of model cards for transparent disclosure of model characteristics and performance. NVIDIA also outlines documentation requirements for AI systems, data lineage, audit trails, and describes model evaluation datasets and safety metrics.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"NVIDIA API Trial Terms of Service,\" provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. It supports **governance** by referencing \"Trustworthy AI terms\" and assigning responsibility for compliance with third-party AI licenses. The document also supports **privacy** by addressing the collection and use of personal data for API services, subject to consent, and implies **transparency** by mentioning AI models and their use cases.",
+          "title": "NVIDIA API Trial Terms of Service",
+          "url": "https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This blog post announces NVIDIA's participation in the NIST AI Safety Institute Consortium, providing evidence for **governance** and **transparency**. The post details NVIDIA's commitment to creating standards for AI development and deployment, and their work on NeMo Guardrails, which contributes to AI accuracy, appropriateness, and security, thereby supporting transparency and governance.",
+          "title": "NIST Launches Artificial Intelligence Safety Institute Consortium",
+          "url": "https://blogs.nvidia.com/blog/aisic-trustworthy-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA blog post provides evidence for **explainability, fairness, governance, and transparency**. It supports explainability by describing tools and techniques for understanding AI decisions and model interpretability, and it touches on fairness and transparency by discussing bias mitigation and model training processes. The blog post also implies governance through its mention of best practices and design principles for building trust.",
+          "title": "What Is Explainable AI (XAI)? - NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/what-is-explainable-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"What Is Trustworthy AI?\", provides evidence for the **explainability**, **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports these pillars by defining trustworthy AI with an emphasis on transparency, bias mitigation, and privacy compliance, and by discussing AI safety, security, and risk mitigation. The post also addresses data privacy and consent, nondiscrimination, and bias mitigation, and focuses on transparency and explainability for AI models.",
+          "title": "What Is Trustworthy AI?",
+          "url": "https://blogs.nvidia.com/blog/what-is-trustworthy-ai"
+        },
+        {
+          "artifact_type": "model_card",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This model card for the \"llama-3.1-nemoguard-8b-content-safety\" model provides evidence for **governance, transparency, explainability, fairness, and privacy**. It details a library for AI guardrails and safety taxonomies, indicating structured governance and transparent development practices. The model card also references subcards for Bias and Explainability, and mentions tuning on approved datasets, supporting the fairness and privacy pillars by demonstrating a commitment to responsible data handling and model behavior.",
+          "title": "llama-3.1-nemoguard-8b-content-safety Model Card",
+          "url": "https://build.nvidia.com/nvidia/llama-3_1-nemoguard-8b-content-safety/modelcard"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Accelerating Trustworthy AI for Credit Risk Management,\" provides evidence for the **explainability**, **governance**, **oversight**, **privacy**, and **transparency** pillars. The post discusses the development of an XAI approach using SHAP for understanding and explaining AI/ML decision-making, directly supporting **explainability** and **transparency**. It also addresses documentation requirements for AI systems, data lineage, and audit trails, aligning with **governance** and **transparency**, and mentions human-in-the-loop oversight and data protection, supporting the **oversight** and **privacy** pillars respectively.",
+          "title": "Accelerating Trustworthy AI for Credit Risk Management",
+          "url": "https://developer.nvidia.com/blog/accelerating-trustworthy-ai-for-credit-risk-management"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enhancing AI Transparency and Ethical Considerations with Model Card,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. The post details NVIDIA's Model Card++ framework, which includes specific subcards for Bias, Explainability, and Privacy, demonstrating a commitment to transparent disclosure of model characteristics and performance. Furthermore, the framework's cross-functional approach and alignment with evolving regulations like the EU AI Act highlight its support for governance and external accountability.",
+          "title": "Enhancing AI Transparency and Ethical Considerations with Model Card",
+          "url": "https://developer.nvidia.com/blog/enhancing-ai-transparency-and-ethical-considerations-with-model-card"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Responsibility Report provides evidence for external_accountability, fairness, governance, privacy, and transparency. The report details NVIDIA's commitment to trustworthy AI through internal principles, external framework alignment, and participation in industry standardization activities. It also highlights specific tools and processes for AI development, such as model cards and bias mitigation software, and mentions efforts towards unbiased recruiting, demonstrating a focus on governance, fairness, and transparency in their AI practices.",
+          "title": "NVIDIA 2022 Corporate Responsibility Report",
+          "url": "https://images.nvidia.com/aem-dam/Solutions/documents/FY2022-NVIDIA-Corporate-Responsibility.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Responsibility Report provides evidence for **explainability, external accountability, governance, and transparency**. The report details NVIDIA's focus on developing \"explainable AI\" and \"trustworthy AI,\" their participation in shaping AI regulation through trade associations and the OECD, and their commitment to AI model compliance with global privacy laws and transparency about model design. Furthermore, it documents an AI Ethics Committee, model risk management guidance integrated into the AI product lifecycle, and external certification by TÜV SÜD, all contributing to robust governance and accountability frameworks.",
+          "title": "NVIDIA 2023 Corporate Responsibility Report",
+          "url": "https://images.nvidia.com/aem-dam/Solutions/documents/FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"NVIDIA Frontier AI Risk Assessment,\" provides evidence for external_accountability, fairness, governance, oversight, and transparency. The document details the composition of an AI governance board and outlines preliminary risk assessment procedures, including red teaming activities to identify harmful or biased outputs, supporting governance and fairness. It also describes model evaluation datasets, safety metrics, and Operational Design Domain (ODD) specification and testing methodologies, demonstrating oversight and transparency in their AI risk management framework. Furthermore, the paper discusses AI safeguards, trustworthiness assessment, and risk mitigation strategies, indicating a commitment to external accountability and responsible AI deployment.",
+          "title": "NVIDIA Frontier AI Risk Assessment",
+          "url": "https://images.nvidia.com/content/pdf/NVIDIA-Frontier-AI-Risk-Assessment.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Form 10-Q filing provides evidence for **governance**, **external accountability**, and **transparency**. The report details the company's engagement with an evolving AI regulatory landscape, including specific proposals like the EU AI Act and IFR, which directly impact governance and external accountability through licensing requirements and compliance needs. Furthermore, the filing mentions the responsible use of AI and addresses concerns about third-party misuse, indicating policy commitments and governance oversight related to AI deployment and transparency.",
+          "title": "NVIDIA Form 10-Q - Q3 2025",
+          "url": "https://investor.nvidia.com/files/doc_financials/2026/q3/13e6981b-95ed-4aac-a602-ebc5865d0590.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Corporate Social Responsibility Report provides evidence for **governance, fairness, transparency, and explainability**. The report details NVIDIA's governance framework for AI, including board oversight and a CSR committee, and highlights their use of AI-based tools to eliminate bias in job descriptions, directly supporting the fairness pillar. Furthermore, it mentions commitments to standards of accountability, transparency, and explainability for AI, and discusses AI use cases and collaborations, contributing to transparency and explainability.",
+          "title": "NVIDIA 2020 Corporate Social Responsibility Report",
+          "url": "https://nvidia.com/content/dam/en-zz/Solutions/documents/FY2020-NVIDIA-CSR-Social-Responsibility.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA Privacy Policy document provides evidence for **governance, privacy, and transparency**. It supports governance by detailing contractual restrictions for third parties, legitimate interests for AI development, and oversight of AI solutions in areas like robotics and autonomous vehicles. The policy demonstrates privacy by outlining data use for AI training, anonymization techniques, data retention policies, and user rights for data access and deletion. Transparency is evidenced through descriptions of AI applications and infrastructure, implying clear understanding and communication of how these systems operate.",
+          "title": "NVIDIA Privacy Policy",
+          "url": "https://nvidia.com/en-us/about-nvidia/privacy-policy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "The NVIDIA Trustworthy AI Terms policy document provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It demonstrates transparency by describing various AI capabilities and applications, and implies governance through mentions of enterprise infrastructure, cybersecurity, and data center management. Furthermore, the policy explicitly commits to encouraging bias mitigation, supporting the fairness pillar, although the execution of these practices is not detailed.",
+          "title": "NVIDIA Trustworthy AI Terms",
+          "url": "https://nvidia.com/en-us/agreements/trustworthy-ai/terms"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA blog post provides evidence for fairness, governance, privacy, and transparency in responsible AI. It supports governance through mentions of a safety stack for AI development, tools like NeMo Guardrails for controlling LLM behavior, and AI infrastructure for scaling. Transparency is evidenced by the description of AI capabilities and applications, as well as the mention of AI model cards for documentation. The post also touches on fairness by highlighting tools for unbiased datasets and model alignment, and privacy by stating a commitment to respecting user privacy.",
+          "title": "Trustworthy AI For A Better World - NVIDIA",
+          "url": "https://nvidia.com/en-us/ai-data-science/trustworthy-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This NVIDIA policy document, \"Trustworthy AI For A Better World,\" provides evidence for the pillars of fairness, governance, privacy, and transparency. It supports fairness and transparency by detailing efforts to build tools for unbiased datasets and model alignment, and by focusing on AI model cards. Governance is supported through the description of a safety stack for AI development and guardrails for LLMs to ensure accuracy and appropriateness. The policy also addresses privacy by committing to AI respecting user privacy.",
+          "title": "Trustworthy AI For A Better World",
+          "url": "https://nvidia.com/en-us/ai-trust-center/trustworthy-ai"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_031",
+          "source_tier": "authority",
+          "summary": "This NVIDIA Form 10-K filing provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The report addresses AI-related governance and regulatory compliance, including export controls and state-level AI regulations, supporting **governance** and **external_accountability**. It also acknowledges potential bias in AI datasets, contributing to the **fairness** pillar, and highlights risks related to third-party AI data privacy, supporting the **privacy** pillar. Furthermore, the mention of specific AI software products and platforms indicates a degree of **transparency** regarding NVIDIA's AI offerings.",
+          "title": "NVIDIA Form 10-K - Fiscal 2025 (Filed January 26, 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 17
+    }
+  },
+  "published_at": "2026-02-23T21:56:34Z",
+  "run_id": "20260203_003028_be7e",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Nvidia's published materials document operational practices for transparency, including mentions of AI models and their use cases in API Trial Terms of Service, and for fairness, with blog posts discussing bias mitigation. All 7 evaluated pillars have documented public evidence, indicating full coverage across the responsible AI framework. Further operational evidence is present for oversight, with technical papers describing Operational Design Domain (ODD) specification and testing methodologies, and for governance, which outlines a structured process for security researchers to report vulnerabilities. Additionally, explainability and privacy are addressed at the policy level, with materials describing tools for understanding AI decisions and addressing personal data collection for API services. These findings are based on a review of 31 publicly available sources.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 263,
+    "total_sources_used": 25
+  }
+}

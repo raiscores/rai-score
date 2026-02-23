@@ -1,0 +1,267 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "Synchrony Financial",
+  "company_slug": "synchrony-financial",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 8,
+      "OPERATIONAL": 9,
+      "POLICY": 27
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "An SEC filing references \"models\" and the concept of them being \"misinterpreted\" in the context of AI usage. This indicates a focus on explainability within the company's AI practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This SEC filing provides evidence for **explainability, governance, and transparency** in AI usage. The document describes the use of proprietary models and analytical techniques for credit decisions and fraud detection, indicating a need for governance over these systems. Furthermore, the mention of \"models\" and \"misinterpreted\" suggests a focus on explainability, while the description of automated processes and proprietary scoring models points to transparency in decision-making.",
+          "title": "2024 Form 10-K - PRISM Credit Platform and Fraud Detection",
+          "url": "https://synchronyannualreport.com/downloads/synchrony_2024_10k.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "A policy document details the use of automated credit systems, including Synchrony PRISM, to extend credit to \"credit invisible\" applicants. This document also outlines a formal policy commitment to algorithmic fairness in credit underwriting through the Alternative Credit Assessment Utility Workstream.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, the \"2023 Environmental, Social and Governance Report,\" provides evidence for **fairness** and **governance**. It supports fairness by detailing the use of automated credit systems like Synchrony PRISM to extend credit to \"credit invisible\" applicants and by outlining a formal policy commitment to algorithmic fairness in credit underwriting through the Alternative Credit Assessment Utility Workstream. The report also supports governance by describing the Technology Committee's oversight of technology innovation, the Risk Committee's cybersecurity oversight, and board-level governance structures for ESG, including regular updates to the Nominating and Corporate Governance Committee.",
+          "title": "2023 Environmental, Social and Governance Report",
+          "url": "https://synchrony.com/esgreport2023.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 35,
+      "findings": "The company documents various governance structures, including a Technology Committee that oversees technology innovation, AI strategy, and workstreams for credit access, and a Risk Committee for cybersecurity oversight. Board-level governance structures for ESG are also described, with regular updates to the Nominating and Corporate Governance Committee. Furthermore, a Responsible AI Working Group and a Responsible AI Governance Group are mentioned, with the latter setting internal standards for AI use and overseeing new AI applications. The company also describes the use of proprietary models, AI/ML for underwriting and risk assessment, and the PRISM platform for credit decisioning, emphasizing the responsible use of data and technology.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, the \"2023 Environmental, Social and Governance Report,\" provides evidence for **fairness** and **governance**. It supports fairness by detailing the use of automated credit systems like Synchrony PRISM to extend credit to \"credit invisible\" applicants and by outlining a formal policy commitment to algorithmic fairness in credit underwriting through the Alternative Credit Assessment Utility Workstream. The report also supports governance by describing the Technology Committee's oversight of technology innovation, the Risk Committee's cybersecurity oversight, and board-level governance structures for ESG, including regular updates to the Nominating and Corporate Governance Committee.",
+          "title": "2023 Environmental, Social and Governance Report",
+          "url": "https://synchrony.com/esgreport2023.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the **governance** pillar of responsible AI. It details the establishment and responsibilities of a Technology Committee tasked with reviewing and advising on the company's approach to technology innovation, including generative AI. The committee's oversight of AI strategy and its involvement in workstreams aimed at improving credit access demonstrate a commitment to responsible practices and governance in technology development and deployment.",
+          "title": "2025 Proxy Statement (DEF 14A) - Board Governance and Technology Committee",
+          "url": "https://sec.gov/Archives/edgar/data/1601712/000160171225000149/syf-20250425.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This SEC filing provides evidence for **explainability, governance, and transparency** in AI usage. The document describes the use of proprietary models and analytical techniques for credit decisions and fraud detection, indicating a need for governance over these systems. Furthermore, the mention of \"models\" and \"misinterpreted\" suggests a focus on explainability, while the description of automated processes and proprietary scoring models points to transparency in decision-making.",
+          "title": "2024 Form 10-K - PRISM Credit Platform and Fraud Detection",
+          "url": "https://synchronyannualreport.com/downloads/synchrony_2024_10k.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance** and **transparency**. It supports transparency by describing the use of AI/ML for credit access, underwriting, and risk assessment, and by detailing the deployment of an AI virtual assistant. The mention of AI/ML for underwriting and risk assessment also implies governance over AI-driven decisions.",
+          "title": "Blog Post - AI and Real-Time Credit Decision Making",
+          "url": "https://synchrony.com/contenthub/insights/harnessing-ai-to-transform-the-customer-experience.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Building Smarter Credit for All Americans - Whitepaper,\" provides evidence for the **governance** pillar of responsible AI. The whitepaper describes Synchrony's PRISM platform, which utilizes a large number of attributes and alternative data for credit decisioning, indicating the presence of automated decision-making systems. Furthermore, it mentions the responsible use of data and technology to identify customers and outlines a credit decisioning platform, all of which support the governance pillar by detailing system components and purpose.",
+          "title": "Building Smarter Credit for All Americans - Whitepaper",
+          "url": "https://synchrony.com/downloads/Building_Smarter_Credit.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"AI at Synchrony: Empowering Our People, Shaping the Future,\" provides evidence for **governance** and **transparency**. The blog post mentions a \"Responsible AI Working Group\" which supports governance by ensuring trust and transparency. It also supports transparency by discussing specific AI use cases like fraud detection and marketing optimization, demonstrating the capabilities and impact of their AI integration.",
+          "title": "AI at Synchrony: Empowering Our People, Shaping the Future",
+          "url": "https://synchrony.com/contenthub/insights/linkedin-post-by-carol-juel.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This help page describes the Innovation Incubation Team's work with the Responsible AI Governance Group, providing evidence for **governance**, **privacy**, and **transparency**. The document supports governance by detailing the formation and function of the Responsible AI Governance Group, which sets internal standards for AI use and oversees exploration of new AI applications. Evidence for privacy is found in the mention of protecting customer data within the AI context, and transparency is implicitly supported by the focus on responsible development and use of generative AI tools.",
+          "title": "Innovation Incubation Team and Responsible AI Governance",
+          "url": "https://synchronycareers.com/life-at-synchrony/innovation-incubation-team"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Project REACh Participation - Financial Inclusion Initiative,\" provides evidence for the **governance** pillar of responsible AI. The document's references to \"data science,\" \"better loan decisions,\" and \"advanced underwriting techniques\" indicate the use of automated systems for decision-making, which falls under the governance pillar's purview of decision-making authority for AI.",
+          "title": "Project REACh Participation - Financial Inclusion Initiative",
+          "url": "https://synchrony.com/contenthub/insights/strengthen-the-economy-and-middle-class.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "A company blog post mentions a \"Responsible AI Working Group.\" This working group supports governance by ensuring trust and transparency, indicating an oversight function.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"AI at Synchrony: Empowering Our People, Shaping the Future,\" provides evidence for **governance** and **transparency**. The blog post mentions a \"Responsible AI Working Group\" which supports governance by ensuring trust and transparency. It also supports transparency by discussing specific AI use cases like fraud detection and marketing optimization, demonstrating the capabilities and impact of their AI integration.",
+          "title": "AI at Synchrony: Empowering Our People, Shaping the Future",
+          "url": "https://synchrony.com/contenthub/insights/linkedin-post-by-carol-juel.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "Documentation mentions the protection of customer data within the context of AI usage.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This help page describes the Innovation Incubation Team's work with the Responsible AI Governance Group, providing evidence for **governance**, **privacy**, and **transparency**. The document supports governance by detailing the formation and function of the Responsible AI Governance Group, which sets internal standards for AI use and oversees exploration of new AI applications. Evidence for privacy is found in the mention of protecting customer data within the AI context, and transparency is implicitly supported by the focus on responsible development and use of generative AI tools.",
+          "title": "Innovation Incubation Team and Responsible AI Governance",
+          "url": "https://synchronycareers.com/life-at-synchrony/innovation-incubation-team"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 13,
+      "findings": "The company describes its use of automated processes and proprietary scoring models in decision-making, along with the deployment of an AI virtual assistant and the application of AI/ML for credit access, underwriting, and risk assessment. Specific AI use cases like fraud detection and marketing optimization are discussed, demonstrating the capabilities and impact of AI integration. Transparency is implicitly supported by a focus on the responsible development and use of generative AI tools.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, the \"2023 Environmental, Social and Governance Report,\" provides evidence for **fairness** and **governance**. It supports fairness by detailing the use of automated credit systems like Synchrony PRISM to extend credit to \"credit invisible\" applicants and by outlining a formal policy commitment to algorithmic fairness in credit underwriting through the Alternative Credit Assessment Utility Workstream. The report also supports governance by describing the Technology Committee's oversight of technology innovation, the Risk Committee's cybersecurity oversight, and board-level governance structures for ESG, including regular updates to the Nominating and Corporate Governance Committee.",
+          "title": "2023 Environmental, Social and Governance Report",
+          "url": "https://synchrony.com/esgreport2023.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This SEC filing provides evidence for **explainability, governance, and transparency** in AI usage. The document describes the use of proprietary models and analytical techniques for credit decisions and fraud detection, indicating a need for governance over these systems. Furthermore, the mention of \"models\" and \"misinterpreted\" suggests a focus on explainability, while the description of automated processes and proprietary scoring models points to transparency in decision-making.",
+          "title": "2024 Form 10-K - PRISM Credit Platform and Fraud Detection",
+          "url": "https://synchronyannualreport.com/downloads/synchrony_2024_10k.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance** and **transparency**. It supports transparency by describing the use of AI/ML for credit access, underwriting, and risk assessment, and by detailing the deployment of an AI virtual assistant. The mention of AI/ML for underwriting and risk assessment also implies governance over AI-driven decisions.",
+          "title": "Blog Post - AI and Real-Time Credit Decision Making",
+          "url": "https://synchrony.com/contenthub/insights/harnessing-ai-to-transform-the-customer-experience.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"AI at Synchrony: Empowering Our People, Shaping the Future,\" provides evidence for **governance** and **transparency**. The blog post mentions a \"Responsible AI Working Group\" which supports governance by ensuring trust and transparency. It also supports transparency by discussing specific AI use cases like fraud detection and marketing optimization, demonstrating the capabilities and impact of their AI integration.",
+          "title": "AI at Synchrony: Empowering Our People, Shaping the Future",
+          "url": "https://synchrony.com/contenthub/insights/linkedin-post-by-carol-juel.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This help page describes the Innovation Incubation Team's work with the Responsible AI Governance Group, providing evidence for **governance**, **privacy**, and **transparency**. The document supports governance by detailing the formation and function of the Responsible AI Governance Group, which sets internal standards for AI use and oversees exploration of new AI applications. Evidence for privacy is found in the mention of protecting customer data within the AI context, and transparency is implicitly supported by the focus on responsible development and use of generative AI tools.",
+          "title": "Innovation Incubation Team and Responsible AI Governance",
+          "url": "https://synchronycareers.com/life-at-synchrony/innovation-incubation-team"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This \"Synchrony Emerging Technology Center Partnership\" document provides evidence for the **transparency** pillar. While it mentions machine learning applications, it describes potential uses rather than detailing documented systems or governance practices, thus offering limited insight into transparency mechanisms.",
+          "title": "Synchrony Emerging Technology Center Partnership",
+          "url": "https://researchpark.illinois.edu/synchrony-opens-emerging-technology-center-at-research-park"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T21:59:04Z",
+  "run_id": "20260203_024818_27d3",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "An SEC filing from Synchrony Financial describes automated processes and proprietary scoring models used in decision-making, documenting practices related to transparency. Operational practices also include a policy document detailing the use of automated credit systems, such as Synchrony PRISM, to extend credit to \"credit invisible\" applicants, addressing fairness. Furthermore, a policy document describes the Technology Committee's oversight of technology innovation, contributing to evidence for governance, and 6 of 7 evaluated responsible AI pillars have documented evidence. Explainability, oversight, and privacy are addressed at the policy level, with published materials mentioning protecting customer data within the AI context and a \"Responsible AI Working Group\" supporting governance. No qualifying public evidence was found for external accountability, based on a review of 15 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 44,
+    "total_sources_used": 9
+  }
+}

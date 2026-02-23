@@ -1,0 +1,276 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "C.H. Robinson Worldwide",
+  "company_slug": "ch-robinson",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 20,
+      "OPERATIONAL": 3,
+      "POLICY": 12
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "The company demonstrates a commitment to external validation through mentions of AI Excellence Awards in its press releases.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **external_accountability**, **governance**, and **transparency** by detailing C.H. Robinson's deployment of over 30 generative AI agents for shipping tasks. The company's emphasis on prioritizing AI agents with tangible business results and clear ROI, alongside mentions of AI Excellence Awards, demonstrates a disciplined approach to AI adoption and a commitment to external validation, supporting governance and external accountability. Furthermore, the public disclosure of AI capabilities and their impact on productivity and cost savings offers transparency into their AI deployments.",
+          "title": "Industrial AI Strategy and Agentic AI Deployment",
+          "url": "https://chrobinson.com/en-us/about-us/newsroom/news/2025/investment-community-recognizes-chrobinson-as-ai-leader"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 16,
+      "findings": "The company demonstrates a structured approach to AI governance, detailing a Lean AI Operating Model and disciplined practices for AI adoption, including prioritizing agents with clear ROI. This framework includes a formal organizational structure with an AI Center of Excellence and a Vice President of AI role, and acknowledges risks associated with AI. Governance is further supported by a \"process-first\" approach to AI deployment, strategic use of proprietary AI technology, and the mention of a Chief Strategy Officer.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement establishes a Technology & Innovation Subcommittee, demonstrating strong **governance** for AI by outlining its oversight responsibilities for advanced analytics, AI, and data governance. The charter's focus on these areas, including the mention of \"algorithmic\" capabilities and \"generative AI,\" indicates a structured approach to managing and directing the company's AI initiatives.",
+          "title": "2025 Proxy Statement - Technology & Innovation Subcommittee Charter",
+          "url": "https://sec.gov/Archives/edgar/data/1043277/000104327725000014/chrw-20250324.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **external_accountability**, **governance**, and **transparency** by detailing C.H. Robinson's deployment of over 30 generative AI agents for shipping tasks. The company's emphasis on prioritizing AI agents with tangible business results and clear ROI, alongside mentions of AI Excellence Awards, demonstrates a disciplined approach to AI adoption and a commitment to external validation, supporting governance and external accountability. Furthermore, the public disclosure of AI capabilities and their impact on productivity and cost savings offers transparency into their AI deployments.",
+          "title": "Industrial AI Strategy and Agentic AI Deployment",
+          "url": "https://chrobinson.com/en-us/about-us/newsroom/news/2025/investment-community-recognizes-chrobinson-as-ai-leader"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Lean AI Operating Model and Disciplined AI Governance,\" provides evidence for **governance**, **oversight**, and **transparency**. The post details C.H. Robinson's disciplined approach to AI deployment, including how they prioritize AI agents based on tangible business results and clear ROI, demonstrating strong governance. It also mentions the accountability for AI agents within the organizational structure and the team overseeing their development and application, indicating oversight. Furthermore, the description of specific AI agent use cases and their scale suggests a level of operational transparency.",
+          "title": "Lean AI Operating Model and Disciplined AI Governance",
+          "url": "https://chrobinson.com/en-us/resources/blog/how-chrobinson-ensures-roi-from-agentic-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This press release for C.H. Robinson's \"Freight Classification AI Agent for LTL Automation\" provides evidence for **governance** and **transparency**. The press release demonstrates transparency by detailing the AI agent's specific function, its operational metrics, and its impact on automation and efficiency. The mention of a Chief Strategy Officer also implies a level of governance within the company's AI initiatives.",
+          "title": "Freight Classification AI Agent for LTL Automation",
+          "url": "https://chrobinson.com/en-us/about-us/newsroom/press-releases/2025/chrobinson-launches-an-ai-agent-to-help-shippers-adapt"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This SEC filing, C.H. Robinson's 2024 Form 10-K, provides evidence for **governance** and **transparency**. The document supports governance by mentioning the company's strategic use of AI and algorithmic dynamic pricing, its development of proprietary AI technology, and its acknowledgment of associated risks, implying a need for internal control and risk management. Transparency is supported by references to the expanding use of generative AI across the quote-to-cash lifecycle and its application in providing shipment details and ETA adjustments, indicating system capabilities and use cases.",
+          "title": "2024 Form 10-K - AI and Algorithmic Dynamic Pricing",
+          "url": "https://sec.gov/Archives/edgar/data/1043277/000104327725000012/chrw-20241231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "The press release \"2023 ESG Report - AI Center of Excellence Establishment\" provides evidence for the **governance** pillar of responsible AI. This is supported by the establishment of an AI Center of Excellence and a newly created Vice President of AI role, which signifies a formal organizational structure and oversight for the company's AI initiatives. This structure is highlighted as part of their AI governance framework, enabling broader and more controlled use of AI in business processes.",
+          "title": "2023 ESG Report - AI Center of Excellence Establishment",
+          "url": "https://www.chrobinson.com/en-us/about-us/newsroom/news/2024/2023-esg-report/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Lean AI Framework and Continuous Improvement Model,\" provides evidence for governance, oversight, and transparency. The post supports transparency by describing the purpose and application of AI to solve customer pain points, detailing AI agent functions, and mentioning continuous evaluation of AI technology. It also supports oversight through the description of human review and fine-tuning within the AI process, and governance by highlighting in-house AI development and domain expertise.",
+          "title": "Lean AI Framework and Continuous Improvement Model",
+          "url": "https://chrobinson.com/en-us/resources/blog/what-is-lean-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This press release describes a \"process-first\" approach to AI governance, drawing parallels to Lean manufacturing principles. It supports the **governance** pillar by framing AI deployment as an execution discipline woven into the operating model, aiming to drive accountability through precise automation of routine tasks within existing workflows. While not explicitly stated, the emphasis on mapping workflows and identifying bottlenecks implies a degree of **transparency** in understanding system capabilities and deployment.",
+          "title": "Lean AI Strategy: Process-First AI Governance Approach",
+          "url": "https://chrobinson.com/en-us/about-us/newsroom/news/2026/how-a-lean-ai-strategy-delivers-results"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "The company's blog posts mention accountability for AI agents within its organizational structure and reference a team overseeing their development and application. Additionally, these posts describe human review and fine-tuning as part of the AI process.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Lean AI Operating Model and Disciplined AI Governance,\" provides evidence for **governance**, **oversight**, and **transparency**. The post details C.H. Robinson's disciplined approach to AI deployment, including how they prioritize AI agents based on tangible business results and clear ROI, demonstrating strong governance. It also mentions the accountability for AI agents within the organizational structure and the team overseeing their development and application, indicating oversight. Furthermore, the description of specific AI agent use cases and their scale suggests a level of operational transparency.",
+          "title": "Lean AI Operating Model and Disciplined AI Governance",
+          "url": "https://chrobinson.com/en-us/resources/blog/how-chrobinson-ensures-roi-from-agentic-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Lean AI Framework and Continuous Improvement Model,\" provides evidence for governance, oversight, and transparency. The post supports transparency by describing the purpose and application of AI to solve customer pain points, detailing AI agent functions, and mentioning continuous evaluation of AI technology. It also supports oversight through the description of human review and fine-tuning within the AI process, and governance by highlighting in-house AI development and domain expertise.",
+          "title": "Lean AI Framework and Continuous Improvement Model",
+          "url": "https://chrobinson.com/en-us/resources/blog/what-is-lean-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 23,
+      "findings": "The company provides transparency by describing its use of AI and machine learning for various business functions, including automated decision-making, and detailing the capabilities, purposes, and impact of its AI deployments. Public disclosures, blog posts, and SEC filings outline specific AI agent use cases, their operational metrics, and their application in areas like supply chain management and generative AI across the quote-to-cash lifecycle. This includes explanations of how AI enhances predictions, decisions, and addresses customer pain points, alongside mentions of continuous evaluation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy, \"Global Privacy Notice - Automated Decision-Making Tools,\" provides evidence for the **transparency** pillar. The document describes C.H. Robinson's use of AI and machine learning for various business functions, including data analysis and product development, and explains how these technologies enhance predictions and decisions. While it outlines the general purposes and legal bases for automated decision-making, it does not detail specific fairness testing or bias mitigation mechanisms.",
+          "title": "Global Privacy Notice - Automated Decision-Making Tools",
+          "url": "https://chrobinson.com/-/media/chrglobal/privacy-policy/2025-global-privacy-notice.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **external_accountability**, **governance**, and **transparency** by detailing C.H. Robinson's deployment of over 30 generative AI agents for shipping tasks. The company's emphasis on prioritizing AI agents with tangible business results and clear ROI, alongside mentions of AI Excellence Awards, demonstrates a disciplined approach to AI adoption and a commitment to external validation, supporting governance and external accountability. Furthermore, the public disclosure of AI capabilities and their impact on productivity and cost savings offers transparency into their AI deployments.",
+          "title": "Industrial AI Strategy and Agentic AI Deployment",
+          "url": "https://chrobinson.com/en-us/about-us/newsroom/news/2025/investment-community-recognizes-chrobinson-as-ai-leader"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Lean AI Operating Model and Disciplined AI Governance,\" provides evidence for **governance**, **oversight**, and **transparency**. The post details C.H. Robinson's disciplined approach to AI deployment, including how they prioritize AI agents based on tangible business results and clear ROI, demonstrating strong governance. It also mentions the accountability for AI agents within the organizational structure and the team overseeing their development and application, indicating oversight. Furthermore, the description of specific AI agent use cases and their scale suggests a level of operational transparency.",
+          "title": "Lean AI Operating Model and Disciplined AI Governance",
+          "url": "https://chrobinson.com/en-us/resources/blog/how-chrobinson-ensures-roi-from-agentic-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This press release for C.H. Robinson's \"Freight Classification AI Agent for LTL Automation\" provides evidence for **governance** and **transparency**. The press release demonstrates transparency by detailing the AI agent's specific function, its operational metrics, and its impact on automation and efficiency. The mention of a Chief Strategy Officer also implies a level of governance within the company's AI initiatives.",
+          "title": "Freight Classification AI Agent for LTL Automation",
+          "url": "https://chrobinson.com/en-us/about-us/newsroom/press-releases/2025/chrobinson-launches-an-ai-agent-to-help-shippers-adapt"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and IoT Integration for Supply Chain Optimization,\" provides evidence for the **transparency** pillar of responsible AI. The post discusses C.H. Robinson's application of AI and machine learning for supply chain management, suggesting transparency regarding the capabilities and benefits of these technologies for carriers. By detailing how AI uncovers patterns and enables real-time decision-making, the blog post implicitly highlights the transparent use of AI in their operations.",
+          "title": "AI and IoT Integration for Supply Chain Optimization",
+          "url": "https://chrobinson.com/en-us/resources/blog/how-ai-and-iot-are-transforming-supply-chain-management"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This SEC filing, C.H. Robinson's 2024 Form 10-K, provides evidence for **governance** and **transparency**. The document supports governance by mentioning the company's strategic use of AI and algorithmic dynamic pricing, its development of proprietary AI technology, and its acknowledgment of associated risks, implying a need for internal control and risk management. Transparency is supported by references to the expanding use of generative AI across the quote-to-cash lifecycle and its application in providing shipment details and ETA adjustments, indicating system capabilities and use cases.",
+          "title": "2024 Form 10-K - AI and Algorithmic Dynamic Pricing",
+          "url": "https://sec.gov/Archives/edgar/data/1043277/000104327725000012/chrw-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Lean AI Framework and Continuous Improvement Model,\" provides evidence for governance, oversight, and transparency. The post supports transparency by describing the purpose and application of AI to solve customer pain points, detailing AI agent functions, and mentioning continuous evaluation of AI technology. It also supports oversight through the description of human review and fine-tuning within the AI process, and governance by highlighting in-house AI development and domain expertise.",
+          "title": "Lean AI Framework and Continuous Improvement Model",
+          "url": "https://chrobinson.com/en-us/resources/blog/what-is-lean-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This press release describes a \"process-first\" approach to AI governance, drawing parallels to Lean manufacturing principles. It supports the **governance** pillar by framing AI deployment as an execution discipline woven into the operating model, aiming to drive accountability through precise automation of routine tasks within existing workflows. While not explicitly stated, the emphasis on mapping workflows and identifying bottlenecks implies a degree of **transparency** in understanding system capabilities and deployment.",
+          "title": "Lean AI Strategy: Process-First AI Governance Approach",
+          "url": "https://chrobinson.com/en-us/about-us/newsroom/news/2026/how-a-lean-ai-strategy-delivers-results"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:46:34Z",
+  "run_id": "20260202_204051_262e",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Privacy & Security"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "C.H. Robinson Worldwide's privacy policy describes the company's use of AI and machine learning for business functions, explaining how these technologies enhance predictions and decisions. This practice is part of the documented evidence found across 4 of 7 evaluated responsible AI pillars, which also includes governance disclosures where a charter indicates a structured approach to managing and directing the company's AI initiatives, referencing algorithmic capabilities and generative AI. Additionally, blog posts mention accountability for AI agents within the organizational structure for oversight, and press releases mention AI Excellence Awards for external accountability. No qualifying public evidence was found for fairness, explainability, and 1 additional pillar. This assessment is based on a review of 14 publicly available sources.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 35,
+    "total_sources_used": 10
+  }
+}

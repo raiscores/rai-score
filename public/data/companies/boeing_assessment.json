@@ -1,0 +1,419 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "Boeing",
+  "company_slug": "boeing",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 8,
+      "OPERATIONAL": 12,
+      "POLICY": 58
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Boeing's blog posts reference AI-enabled systems and traceability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Shaping AI for the Sky - Innovation Quarterly,\" provides evidence for **governance**, **oversight**, **explainability**, and **privacy**. The post details Boeing's AI governance framework with centralized oversight, highlighting that every AI initiative operates within a strict governance and ethics framework. It also mentions AI-enabled systems and traceability, supporting explainability, and discusses data protection within the network, which addresses privacy.",
+          "title": "Shaping AI for the Sky - Innovation Quarterly",
+          "url": "https://boeing.com/innovation/innovation-quarterly/2025/12/shaping-ai-for-the-sky"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 4,
+      "findings": "Boeing's technical papers describe the establishment of regulatory requirements and a validation and verification strategy for ML systems, referencing EASA's AI paper. Blog posts also reference the company's pursuit of \"certifiable AI systems\" and a \"certifiable AI safety process\" with regulators.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"BEACON Project - Boeing & EASA AI/ML Certification,\" provides evidence for external accountability, governance, oversight, and transparency. It details the establishment of regulatory requirements and a validation and verification strategy for ML systems, referencing EASA's AI paper, which supports external accountability and governance. The document also describes crew responsibilities for monitoring and overriding automated systems, as well as AI system capabilities and human monitoring abilities, demonstrating operational oversight and transparency. Furthermore, it outlines future phases focusing on human factors, safety assessment, and oversight, indicating governance and oversight policies.",
+          "title": "BEACON Project - Boeing & EASA AI/ML Certification",
+          "url": "https://eurocontrol.int/sites/default/files/2025-04/20250422-flyai-forum-session1-jahn-boeing.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **external accountability, fairness, governance, and transparency**. It supports external accountability by mentioning the pursuit of \"certifiable AI systems\" and a \"certifiable AI safety process\" with regulators. Evidence for fairness is found in the link between fear of retaliation and biased/unreliable data, implying a need for cultural oversight. The source demonstrates governance through the description of a \"centralized AI/Data organization,\" a \"Chief Enterprise AI Officer,\" and a formalized four-pillar AI strategy, as well as strategic approaches to AI acquisition and partnerships. Transparency is supported by mentions of an \"AI hot sheet\" and an \"AI system\" for transparency, alongside details on ML algorithms for data analysis and risk detection.",
+          "title": "Boeing AI Strategy Analysis - Klover",
+          "url": "https://klover.ai/boeing-ai-strategy-analysis-of-dominance-in-aerospace-defense"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "Boeing's proxy statements reference the use of an analytics platform to identify and resolve pay inequities.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance** and **fairness**. It details Boeing's joint development with the FAA of machine learning algorithms for hazard identification, which are shared openly, demonstrating a commitment to transparency and collaboration in AI development. Furthermore, the document indicates the Board's oversight of AI topics and director participation in AI education, highlighting robust governance structures. The proxy statement also mentions the use of an analytics platform to identify and resolve pay inequities, directly supporting the **fairness** pillar.",
+          "title": "Boeing 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/12927/000119312524088568/d550077ddef14a.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **external accountability, fairness, governance, and transparency**. It supports external accountability by mentioning the pursuit of \"certifiable AI systems\" and a \"certifiable AI safety process\" with regulators. Evidence for fairness is found in the link between fear of retaliation and biased/unreliable data, implying a need for cultural oversight. The source demonstrates governance through the description of a \"centralized AI/Data organization,\" a \"Chief Enterprise AI Officer,\" and a formalized four-pillar AI strategy, as well as strategic approaches to AI acquisition and partnerships. Transparency is supported by mentions of an \"AI hot sheet\" and an \"AI system\" for transparency, alongside details on ML algorithms for data analysis and risk detection.",
+          "title": "Boeing AI Strategy Analysis - Klover",
+          "url": "https://klover.ai/boeing-ai-strategy-analysis-of-dominance-in-aerospace-defense"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 59,
+      "findings": "Boeing's reports describe the development and use of machine learning algorithms for safety insights and hazard identification, often in collaboration with the FAA, and describe proactive management within a safety program. Policy documents outline the use of AI and machine learning for business operations and describe safeguards and legal bases for automated decision-making. The company's blog posts describe an AI governance framework with centralized oversight, stating that every AI initiative operates within a strict governance and ethics framework, and describe a \"centralized AI/Data organization\" and a \"Chief Enterprise AI Officer.\" Technical papers also describe regulatory requirements, validation strategies for ML systems, and the development of a secure internal platform for AI agents with built-in security and compliance controls.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, the \"2025 Chief Aerospace Safety Officer Report,\" provides evidence for **governance**, **oversight**, and **transparency**. The report details the use of \"machine learning algorithms\" and \"data analytics\" for safety insights, demonstrating transparency and governance in AI system development. Furthermore, it mentions the widening application of ML and the augmentation of teams for hazard identification, indicating operational use and human oversight in AI-assisted processes.",
+          "title": "2025 Chief Aerospace Safety Officer Report",
+          "url": "https://boeing.com/content/dam/boeing/boeingdotcom/safety/caso/caso-report-2025.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, the \"2024 Chief Aerospace Safety Officer Report,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the development of machine learning algorithms in collaboration with the FAA and describing proactive management within a safety program. Transparency is evidenced by the mention of machine learning algorithms and their sharing via GitHub, indicating openness about the algorithms and their availability.",
+          "title": "2024 Chief Aerospace Safety Officer Report",
+          "url": "https://boeing.com/content/dam/boeing/boeingdotcom/safety/caso/caso-report-2024.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for **governance**, **oversight**, and **transparency**. It supports governance and oversight by describing proactive monitoring and weekly human review meetings for AI-driven insights, and transparency by explicitly stating the use of machine learning for hazard identification and mentioning ML algorithms and a platform for insights.",
+          "title": "2023 Chief Aerospace Safety Officer Report",
+          "url": "https://boeing.com/content/dam/boeing/boeingdotcom/safety/caso/caso-report-2023.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance** and **fairness**. It details Boeing's joint development with the FAA of machine learning algorithms for hazard identification, which are shared openly, demonstrating a commitment to transparency and collaboration in AI development. Furthermore, the document indicates the Board's oversight of AI topics and director participation in AI education, highlighting robust governance structures. The proxy statement also mentions the use of an analytics platform to identify and resolve pay inequities, directly supporting the **fairness** pillar.",
+          "title": "Boeing 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/12927/000119312524088568/d550077ddef14a.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This Boeing Employee Privacy Notice provides evidence for **governance, oversight, privacy, and transparency**. The policy document details safeguards and legal bases for automated decision-making, emphasizing human judgment and recruiter discretion over AI tools, which supports governance and oversight. It also addresses data collection, use, and inferring information, along with AI response verification and data retention for AI logs, contributing to privacy and transparency.",
+          "title": "Boeing Employee Privacy Notice",
+          "url": "https://boeing.com/privacy/boeing-employee-privacy-notice"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This Boeing Applicant Privacy Notice provides evidence for **governance, oversight, privacy, and transparency**. The policy document supports **transparency** by mentioning AI use for data processing and job matching, and by describing AI tools and their capabilities. It addresses **privacy** through statements on data retention periods for AI processing and the requirement for consent for personal data use. Evidence for **governance** and **oversight** is found in the description of safeguards for automated decision-making, the requirement for a legal basis, and the mention of a right to object to automated decisions, implying human review mechanisms.",
+          "title": "Boeing Applicant Privacy Notice",
+          "url": "https://boeing.com/privacy/pdfs/applicant_privacy_notice.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Boeing Privacy and Cookie Policy document provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The policy outlines the use of AI and machine learning for business operations, supporting **governance** by implying decision-making authority and monitoring for proper use. It demonstrates **oversight** through mentions of human verification and safeguards for automated decision-making. Furthermore, the policy addresses **privacy** by detailing data collection for AI use, data retention for AI logs, and the requirement for consent for automated decisions. Finally, **transparency** is supported by the disclosure of AI tool usage and the reference to a portal for data subject rights.",
+          "title": "Boeing Privacy and Cookie Policy",
+          "url": "https://boeing.com/privacy-and-cookie-policy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Shaping AI for the Sky - Innovation Quarterly,\" provides evidence for **governance**, **oversight**, **explainability**, and **privacy**. The post details Boeing's AI governance framework with centralized oversight, highlighting that every AI initiative operates within a strict governance and ethics framework. It also mentions AI-enabled systems and traceability, supporting explainability, and discusses data protection within the network, which addresses privacy.",
+          "title": "Shaping AI for the Sky - Innovation Quarterly",
+          "url": "https://boeing.com/innovation/innovation-quarterly/2025/12/shaping-ai-for-the-sky"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"BEACON Project - Boeing & EASA AI/ML Certification,\" provides evidence for external accountability, governance, oversight, and transparency. It details the establishment of regulatory requirements and a validation and verification strategy for ML systems, referencing EASA's AI paper, which supports external accountability and governance. The document also describes crew responsibilities for monitoring and overriding automated systems, as well as AI system capabilities and human monitoring abilities, demonstrating operational oversight and transparency. Furthermore, it outlines future phases focusing on human factors, safety assessment, and oversight, indicating governance and oversight policies.",
+          "title": "BEACON Project - Boeing & EASA AI/ML Certification",
+          "url": "https://eurocontrol.int/sites/default/files/2025-04/20250422-flyai-forum-session1-jahn-boeing.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** pillar of responsible AI. It describes the development of a unified, secure, and scalable internal platform for AI agents, highlighting built-in security, compliance, and access controls. The paper also mentions addressing compliance hurdles and the need for structured AI development and oversight to avoid silos and duplication.",
+          "title": "Jeppesen Unified Chatbot Framework - LlamaIndex",
+          "url": "https://llamaindex.ai/customers/jeppesen-a-boeing-company-saves-2-000-engineering-hours-with-unified-chat-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **external accountability, fairness, governance, and transparency**. It supports external accountability by mentioning the pursuit of \"certifiable AI systems\" and a \"certifiable AI safety process\" with regulators. Evidence for fairness is found in the link between fear of retaliation and biased/unreliable data, implying a need for cultural oversight. The source demonstrates governance through the description of a \"centralized AI/Data organization,\" a \"Chief Enterprise AI Officer,\" and a formalized four-pillar AI strategy, as well as strategic approaches to AI acquisition and partnerships. Transparency is supported by mentions of an \"AI hot sheet\" and an \"AI system\" for transparency, alongside details on ML algorithms for data analysis and risk detection.",
+          "title": "Boeing AI Strategy Analysis - Klover",
+          "url": "https://klover.ai/boeing-ai-strategy-analysis-of-dominance-in-aerospace-defense"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Artificial Intelligence at Boeing - EMERJ,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Boeing's \"Predict to Prevent\" initiative, which uses data integration and machine learning for hazard identification, implying governance through the tracking of safety-related performance measures and the mention of a safety analytics lead. The post also touches on transparency by describing the use of \"AI capabilities\" and \"AI applications\" for hazard identification, though the evidence for transparency is noted as narrative.",
+          "title": "Artificial Intelligence at Boeing - EMERJ",
+          "url": "https://emerj.com/artificial-intelligence-at-boeing"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 13,
+      "findings": "Boeing's reports and technical papers describe proactive monitoring, weekly human review meetings for AI-driven insights, and reference the augmentation of teams for hazard identification, indicating human oversight in AI-assisted processes. Policy documents describe safeguards and legal bases for automated decision-making, emphasizing human judgment and recruiter discretion, and reference a right to object to automated decisions. Furthermore, blog posts describe a centralized oversight within Boeing's AI governance framework, and technical papers describe crew responsibilities for monitoring and overriding automated systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, the \"2025 Chief Aerospace Safety Officer Report,\" provides evidence for **governance**, **oversight**, and **transparency**. The report details the use of \"machine learning algorithms\" and \"data analytics\" for safety insights, demonstrating transparency and governance in AI system development. Furthermore, it mentions the widening application of ML and the augmentation of teams for hazard identification, indicating operational use and human oversight in AI-assisted processes.",
+          "title": "2025 Chief Aerospace Safety Officer Report",
+          "url": "https://boeing.com/content/dam/boeing/boeingdotcom/safety/caso/caso-report-2025.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for **governance**, **oversight**, and **transparency**. It supports governance and oversight by describing proactive monitoring and weekly human review meetings for AI-driven insights, and transparency by explicitly stating the use of machine learning for hazard identification and mentioning ML algorithms and a platform for insights.",
+          "title": "2023 Chief Aerospace Safety Officer Report",
+          "url": "https://boeing.com/content/dam/boeing/boeingdotcom/safety/caso/caso-report-2023.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This Boeing Employee Privacy Notice provides evidence for **governance, oversight, privacy, and transparency**. The policy document details safeguards and legal bases for automated decision-making, emphasizing human judgment and recruiter discretion over AI tools, which supports governance and oversight. It also addresses data collection, use, and inferring information, along with AI response verification and data retention for AI logs, contributing to privacy and transparency.",
+          "title": "Boeing Employee Privacy Notice",
+          "url": "https://boeing.com/privacy/boeing-employee-privacy-notice"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This Boeing Applicant Privacy Notice provides evidence for **governance, oversight, privacy, and transparency**. The policy document supports **transparency** by mentioning AI use for data processing and job matching, and by describing AI tools and their capabilities. It addresses **privacy** through statements on data retention periods for AI processing and the requirement for consent for personal data use. Evidence for **governance** and **oversight** is found in the description of safeguards for automated decision-making, the requirement for a legal basis, and the mention of a right to object to automated decisions, implying human review mechanisms.",
+          "title": "Boeing Applicant Privacy Notice",
+          "url": "https://boeing.com/privacy/pdfs/applicant_privacy_notice.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Boeing Privacy and Cookie Policy document provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The policy outlines the use of AI and machine learning for business operations, supporting **governance** by implying decision-making authority and monitoring for proper use. It demonstrates **oversight** through mentions of human verification and safeguards for automated decision-making. Furthermore, the policy addresses **privacy** by detailing data collection for AI use, data retention for AI logs, and the requirement for consent for automated decisions. Finally, **transparency** is supported by the disclosure of AI tool usage and the reference to a portal for data subject rights.",
+          "title": "Boeing Privacy and Cookie Policy",
+          "url": "https://boeing.com/privacy-and-cookie-policy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Shaping AI for the Sky - Innovation Quarterly,\" provides evidence for **governance**, **oversight**, **explainability**, and **privacy**. The post details Boeing's AI governance framework with centralized oversight, highlighting that every AI initiative operates within a strict governance and ethics framework. It also mentions AI-enabled systems and traceability, supporting explainability, and discusses data protection within the network, which addresses privacy.",
+          "title": "Shaping AI for the Sky - Innovation Quarterly",
+          "url": "https://boeing.com/innovation/innovation-quarterly/2025/12/shaping-ai-for-the-sky"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"BEACON Project - Boeing & EASA AI/ML Certification,\" provides evidence for external accountability, governance, oversight, and transparency. It details the establishment of regulatory requirements and a validation and verification strategy for ML systems, referencing EASA's AI paper, which supports external accountability and governance. The document also describes crew responsibilities for monitoring and overriding automated systems, as well as AI system capabilities and human monitoring abilities, demonstrating operational oversight and transparency. Furthermore, it outlines future phases focusing on human factors, safety assessment, and oversight, indicating governance and oversight policies.",
+          "title": "BEACON Project - Boeing & EASA AI/ML Certification",
+          "url": "https://eurocontrol.int/sites/default/files/2025-04/20250422-flyai-forum-session1-jahn-boeing.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 17,
+      "findings": "Boeing's policy documents describe data collection, use, and inferring information related to AI, including data retention for AI logs and processing. These documents also outline the requirement for consent for personal data use and automated decisions. Additionally, blog posts describe data protection within the network.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This Boeing Employee Privacy Notice provides evidence for **governance, oversight, privacy, and transparency**. The policy document details safeguards and legal bases for automated decision-making, emphasizing human judgment and recruiter discretion over AI tools, which supports governance and oversight. It also addresses data collection, use, and inferring information, along with AI response verification and data retention for AI logs, contributing to privacy and transparency.",
+          "title": "Boeing Employee Privacy Notice",
+          "url": "https://boeing.com/privacy/boeing-employee-privacy-notice"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This Boeing Applicant Privacy Notice provides evidence for **governance, oversight, privacy, and transparency**. The policy document supports **transparency** by mentioning AI use for data processing and job matching, and by describing AI tools and their capabilities. It addresses **privacy** through statements on data retention periods for AI processing and the requirement for consent for personal data use. Evidence for **governance** and **oversight** is found in the description of safeguards for automated decision-making, the requirement for a legal basis, and the mention of a right to object to automated decisions, implying human review mechanisms.",
+          "title": "Boeing Applicant Privacy Notice",
+          "url": "https://boeing.com/privacy/pdfs/applicant_privacy_notice.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Boeing Privacy and Cookie Policy document provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The policy outlines the use of AI and machine learning for business operations, supporting **governance** by implying decision-making authority and monitoring for proper use. It demonstrates **oversight** through mentions of human verification and safeguards for automated decision-making. Furthermore, the policy addresses **privacy** by detailing data collection for AI use, data retention for AI logs, and the requirement for consent for automated decisions. Finally, **transparency** is supported by the disclosure of AI tool usage and the reference to a portal for data subject rights.",
+          "title": "Boeing Privacy and Cookie Policy",
+          "url": "https://boeing.com/privacy-and-cookie-policy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Shaping AI for the Sky - Innovation Quarterly,\" provides evidence for **governance**, **oversight**, **explainability**, and **privacy**. The post details Boeing's AI governance framework with centralized oversight, highlighting that every AI initiative operates within a strict governance and ethics framework. It also mentions AI-enabled systems and traceability, supporting explainability, and discusses data protection within the network, which addresses privacy.",
+          "title": "Shaping AI for the Sky - Innovation Quarterly",
+          "url": "https://boeing.com/innovation/innovation-quarterly/2025/12/shaping-ai-for-the-sky"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 28,
+      "findings": "Boeing's reports and policy documents describe the use of machine learning algorithms and data analytics for safety insights and hazard identification, with some algorithms referenced as being shared via GitHub. The company outlines the disclosure of AI tool usage, including their capabilities for data processing and job matching, and references a portal for data subject rights. Technical papers also describe AI system capabilities and human monitoring abilities, while blog posts reference an \"AI hot sheet\" and an \"AI system\" for transparency.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, the \"2025 Chief Aerospace Safety Officer Report,\" provides evidence for **governance**, **oversight**, and **transparency**. The report details the use of \"machine learning algorithms\" and \"data analytics\" for safety insights, demonstrating transparency and governance in AI system development. Furthermore, it mentions the widening application of ML and the augmentation of teams for hazard identification, indicating operational use and human oversight in AI-assisted processes.",
+          "title": "2025 Chief Aerospace Safety Officer Report",
+          "url": "https://boeing.com/content/dam/boeing/boeingdotcom/safety/caso/caso-report-2025.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, the \"2024 Chief Aerospace Safety Officer Report,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the development of machine learning algorithms in collaboration with the FAA and describing proactive management within a safety program. Transparency is evidenced by the mention of machine learning algorithms and their sharing via GitHub, indicating openness about the algorithms and their availability.",
+          "title": "2024 Chief Aerospace Safety Officer Report",
+          "url": "https://boeing.com/content/dam/boeing/boeingdotcom/safety/caso/caso-report-2024.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for **governance**, **oversight**, and **transparency**. It supports governance and oversight by describing proactive monitoring and weekly human review meetings for AI-driven insights, and transparency by explicitly stating the use of machine learning for hazard identification and mentioning ML algorithms and a platform for insights.",
+          "title": "2023 Chief Aerospace Safety Officer Report",
+          "url": "https://boeing.com/content/dam/boeing/boeingdotcom/safety/caso/caso-report-2023.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This Boeing Employee Privacy Notice provides evidence for **governance, oversight, privacy, and transparency**. The policy document details safeguards and legal bases for automated decision-making, emphasizing human judgment and recruiter discretion over AI tools, which supports governance and oversight. It also addresses data collection, use, and inferring information, along with AI response verification and data retention for AI logs, contributing to privacy and transparency.",
+          "title": "Boeing Employee Privacy Notice",
+          "url": "https://boeing.com/privacy/boeing-employee-privacy-notice"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This Boeing Applicant Privacy Notice provides evidence for **governance, oversight, privacy, and transparency**. The policy document supports **transparency** by mentioning AI use for data processing and job matching, and by describing AI tools and their capabilities. It addresses **privacy** through statements on data retention periods for AI processing and the requirement for consent for personal data use. Evidence for **governance** and **oversight** is found in the description of safeguards for automated decision-making, the requirement for a legal basis, and the mention of a right to object to automated decisions, implying human review mechanisms.",
+          "title": "Boeing Applicant Privacy Notice",
+          "url": "https://boeing.com/privacy/pdfs/applicant_privacy_notice.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Boeing Privacy and Cookie Policy document provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The policy outlines the use of AI and machine learning for business operations, supporting **governance** by implying decision-making authority and monitoring for proper use. It demonstrates **oversight** through mentions of human verification and safeguards for automated decision-making. Furthermore, the policy addresses **privacy** by detailing data collection for AI use, data retention for AI logs, and the requirement for consent for automated decisions. Finally, **transparency** is supported by the disclosure of AI tool usage and the reference to a portal for data subject rights.",
+          "title": "Boeing Privacy and Cookie Policy",
+          "url": "https://boeing.com/privacy-and-cookie-policy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"BEACON Project - Boeing & EASA AI/ML Certification,\" provides evidence for external accountability, governance, oversight, and transparency. It details the establishment of regulatory requirements and a validation and verification strategy for ML systems, referencing EASA's AI paper, which supports external accountability and governance. The document also describes crew responsibilities for monitoring and overriding automated systems, as well as AI system capabilities and human monitoring abilities, demonstrating operational oversight and transparency. Furthermore, it outlines future phases focusing on human factors, safety assessment, and oversight, indicating governance and oversight policies.",
+          "title": "BEACON Project - Boeing & EASA AI/ML Certification",
+          "url": "https://eurocontrol.int/sites/default/files/2025-04/20250422-flyai-forum-session1-jahn-boeing.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **external accountability, fairness, governance, and transparency**. It supports external accountability by mentioning the pursuit of \"certifiable AI systems\" and a \"certifiable AI safety process\" with regulators. Evidence for fairness is found in the link between fear of retaliation and biased/unreliable data, implying a need for cultural oversight. The source demonstrates governance through the description of a \"centralized AI/Data organization,\" a \"Chief Enterprise AI Officer,\" and a formalized four-pillar AI strategy, as well as strategic approaches to AI acquisition and partnerships. Transparency is supported by mentions of an \"AI hot sheet\" and an \"AI system\" for transparency, alongside details on ML algorithms for data analysis and risk detection.",
+          "title": "Boeing AI Strategy Analysis - Klover",
+          "url": "https://klover.ai/boeing-ai-strategy-analysis-of-dominance-in-aerospace-defense"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Artificial Intelligence at Boeing - EMERJ,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Boeing's \"Predict to Prevent\" initiative, which uses data integration and machine learning for hazard identification, implying governance through the tracking of safety-related performance measures and the mention of a safety analytics lead. The post also touches on transparency by describing the use of \"AI capabilities\" and \"AI applications\" for hazard identification, though the evidence for transparency is noted as narrative.",
+          "title": "Artificial Intelligence at Boeing - EMERJ",
+          "url": "https://emerj.com/artificial-intelligence-at-boeing"
+        }
+      ],
+      "score": 2,
+      "source_count": 9
+    }
+  },
+  "published_at": "2026-02-23T21:45:21Z",
+  "run_id": "20260126_234157_2200",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Boeing's published materials address transparency and oversight at the operational level, among other pillars. For transparency, reports describe the use of machine learning algorithms for safety insights, while oversight is evidenced by proactive monitoring and weekly human review meetings for AI-driven insights. All 7 evaluated pillars have documented public evidence, with explainability, privacy, and external accountability addressed through policies. For example, policy documents describe data retention for AI logs, and technical papers describe the establishment of regulatory requirements for ML systems. This assessment draws on 20 publicly available sources.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 78,
+    "total_sources_used": 12
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "ManpowerGroup",
+  "company_slug": "manpower",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 7,
+      "OPERATIONAL": 3,
+      "POLICY": 14
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "Annual reports describe the disclosure of regulatory requirements such as the EU AI Act. These reports also describe the Board's oversight of technology and compliance risks, and the company's acknowledgment of external accountability for AI use.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "ManpowerGroup's 2024 10-K Annual Report provides evidence for **governance** and **external accountability**. The report details material AI risks such as algorithm flaws and biased datasets, indicating the need for robust governance to manage these challenges. Furthermore, the disclosure of regulatory requirements like the EU AI Act and the Board's oversight of technology and compliance risks demonstrates the company's acknowledgment of external accountability for AI use.",
+          "title": "Form 10-K Annual Report (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/871763/000095017025023186/man-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "Privacy policy documents reference annual evaluations for accuracy and bias in AI/ML systems. These evaluations are conducted for systems used in profiling and relevance.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for **fairness** and **transparency** in AI usage. It supports fairness by mentioning annual evaluations for accuracy and bias in AI/ML systems used for profiling and relevance. Transparency is supported through descriptions of AI/ML use for content analysis and personalized recommendations, clarification of what is not AI-powered, and explicit statements that no automated decisions with significant effects are made.",
+          "title": "Right Management Privacy Policy (GDPR Automated Decision-Making)",
+          "url": "https://rightmanagement.co.uk/privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 12,
+      "findings": "ManpowerGroup's ESG reports describe the establishment of an AI New Projects Review Committee, which evaluates AI projects against ethical priorities. Proxy statements describe a board governance structure for AI oversight, detailing the roles of the Governance and Sustainability Committee and the Audit Committee in overseeing AI strategy, risks, and responsible use. Blog posts also reference an AI New Projects Review Committee for evaluating opportunities and providing guidance.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "ManpowerGroup's 2024 10-K Annual Report provides evidence for **governance** and **external accountability**. The report details material AI risks such as algorithm flaws and biased datasets, indicating the need for robust governance to manage these challenges. Furthermore, the disclosure of regulatory requirements like the EU AI Act and the Board's oversight of technology and compliance risks demonstrates the company's acknowledgment of external accountability for AI use.",
+          "title": "Form 10-K Annual Report (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/871763/000095017025023186/man-20241231.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The 2023-2024 ESG Report from ManpowerGroup provides evidence for the **governance** and **oversight** pillars of responsible AI. The report details the establishment of an AI New Projects Review Committee, which evaluates AI projects against ethical priorities, demonstrating a governance structure. Furthermore, the report's emphasis on human oversight and a human-centered approach to AI development directly supports the oversight pillar by highlighting mechanisms for human involvement in AI systems.",
+          "title": "Working to Change the World: 2023-2024 ESG Report",
+          "url": "https://go.manpowergroup.com/hubfs/2025%20Year%20In%20Review%20Images/MPG_2024_ESG.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement establishes a board governance structure for AI oversight, supporting the **governance** pillar by detailing the roles of the Governance and Sustainability Committee and the Audit Committee in overseeing AI strategy, risks, and responsible use. The document also provides evidence for the **transparency** pillar by mentioning the use of \"AI tools\" for transparency and a commitment to \"responsible use\" of AI.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/871763/000095017025034717/man-20250306.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This blog post from Thomson Reuters details ManpowerGroup's AI Guidelines framework, providing evidence for **governance**, **oversight**, and **privacy**. The framework supports governance through its mention of an \"AI New Projects Review Committee\" for evaluating opportunities and providing guidance. Evidence for oversight is found in the emphasis on human verification and fact-checking of AI output. Finally, the guidelines support privacy by explicitly stating the need to protect personal data and comply with relevant laws in AI use.",
+          "title": "Forum: Ethical AI — How ManpowerGroup Navigates the Human Impact of AI",
+          "url": "https://thomsonreuters.com/en-us/posts/technology/forum-ethical-ai-manpowergroup"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "ESG reports describe an emphasis on human oversight and a human-centered approach to AI development, referencing mechanisms for human involvement in AI systems. Blog posts further describe an emphasis on human verification and fact-checking of AI output.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The 2023-2024 ESG Report from ManpowerGroup provides evidence for the **governance** and **oversight** pillars of responsible AI. The report details the establishment of an AI New Projects Review Committee, which evaluates AI projects against ethical priorities, demonstrating a governance structure. Furthermore, the report's emphasis on human oversight and a human-centered approach to AI development directly supports the oversight pillar by highlighting mechanisms for human involvement in AI systems.",
+          "title": "Working to Change the World: 2023-2024 ESG Report",
+          "url": "https://go.manpowergroup.com/hubfs/2025%20Year%20In%20Review%20Images/MPG_2024_ESG.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This blog post from Thomson Reuters details ManpowerGroup's AI Guidelines framework, providing evidence for **governance**, **oversight**, and **privacy**. The framework supports governance through its mention of an \"AI New Projects Review Committee\" for evaluating opportunities and providing guidance. Evidence for oversight is found in the emphasis on human verification and fact-checking of AI output. Finally, the guidelines support privacy by explicitly stating the need to protect personal data and comply with relevant laws in AI use.",
+          "title": "Forum: Ethical AI — How ManpowerGroup Navigates the Human Impact of AI",
+          "url": "https://thomsonreuters.com/en-us/posts/technology/forum-ethical-ai-manpowergroup"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 2,
+      "findings": "Blog posts state the need to protect personal data when using AI. They also state the need to comply with relevant laws in AI use.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This blog post from Thomson Reuters details ManpowerGroup's AI Guidelines framework, providing evidence for **governance**, **oversight**, and **privacy**. The framework supports governance through its mention of an \"AI New Projects Review Committee\" for evaluating opportunities and providing guidance. Evidence for oversight is found in the emphasis on human verification and fact-checking of AI output. Finally, the guidelines support privacy by explicitly stating the need to protect personal data and comply with relevant laws in AI use.",
+          "title": "Forum: Ethical AI — How ManpowerGroup Navigates the Human Impact of AI",
+          "url": "https://thomsonreuters.com/en-us/posts/technology/forum-ethical-ai-manpowergroup"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 8,
+      "findings": "ManpowerGroup's proxy statements reference the use of AI tools for transparency and a commitment to responsible AI use. Privacy policy documents describe AI/ML use for content analysis and personalized recommendations, clarify non-AI-powered aspects, and state that no automated decisions with significant effects are made. Press releases also reference the use of AI tools and artificial intelligence in transforming jobs and roles.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement establishes a board governance structure for AI oversight, supporting the **governance** pillar by detailing the roles of the Governance and Sustainability Committee and the Audit Committee in overseeing AI strategy, risks, and responsible use. The document also provides evidence for the **transparency** pillar by mentioning the use of \"AI tools\" for transparency and a commitment to \"responsible use\" of AI.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/871763/000095017025034717/man-20250306.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for **fairness** and **transparency** in AI usage. It supports fairness by mentioning annual evaluations for accuracy and bias in AI/ML systems used for profiling and relevance. Transparency is supported through descriptions of AI/ML use for content analysis and personalized recommendations, clarification of what is not AI-powered, and explicit statements that no automated decisions with significant effects are made.",
+          "title": "Right Management Privacy Policy (GDPR Automated Decision-Making)",
+          "url": "https://rightmanagement.co.uk/privacy-policy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This press release from ManpowerGroup discusses their new Work Intelligence Lab, which analyzes AI's impact on the workforce using extensive data. The announcement supports the **transparency** pillar by highlighting the use of \"AI tools\" and \"artificial intelligence\" in transforming jobs and roles, implying a need for clarity on how these systems operate and affect workers.",
+          "title": "ManpowerGroup Launches Work Intelligence Lab Press Release",
+          "url": "https://staffinghub.com/press-releases/manpowergroup-launches-work-intelligence-lab-to-lead-ai-powered-workforce-transformation"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:54:30Z",
+  "run_id": "20260203_000731_eaf1",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Based on 9 publicly available sources, ManpowerGroup's published materials address 6 of 7 evaluated responsible AI pillars, with evidence found at the policy level across these areas. For instance, governance disclosures describe the establishment of an AI New Projects Review Committee that evaluates projects against ethical priorities, while privacy materials state the need to protect personal data in AI use. Additionally, fairness is addressed through privacy policy references to annual evaluations for accuracy and bias in AI/ML systems. No qualifying public evidence was found for explainability.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 24,
+    "total_sources_used": 6
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Walt Disney",
+  "company_slug": "walt-disney",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 4,
+      "OPERATIONAL": 6,
+      "POLICY": 43
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "A keynote address highlights regulatory enforcement, specifically mentioning the Disney COPPA settlement and the TAKE IT DOWN Act. This demonstrates external accountability for AI practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This keynote address by FTC Commissioner Mark R. Meador provides evidence for **external_accountability** and **governance**. The speech highlights regulatory enforcement, specifically mentioning the Disney COPPA settlement and the TAKE IT DOWN Act, which demonstrates external accountability for AI practices. Furthermore, the discussion of unlawful data collection, algorithmic labeling, targeted advertising, dark patterns, AI chatbots, and algorithmic manipulation targeting youth indicates a focus on AI governance and compliance with existing regulations.",
+          "title": "FTC Commissioner Mark R. Meador Keynote Address",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/2025-09-16-meador-nad-keynote.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 6,
+      "findings": "The company commits to AI principles including fairness and mentions ongoing monitoring and reassessment of AI impacts. A help page outlines protections for minors regarding data selling for targeted advertising.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned document, \"ARTIFICIAL INTELLIGENCE - Disney Impact,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It describes an operational AI governance structure with a central review process for AI use cases, demonstrating strong governance and oversight. The document also commits to AI principles like fairness, transparency, and privacy, and mentions ongoing monitoring and reassessment of AI impacts, supporting these pillars.",
+          "title": "ARTIFICIAL INTELLIGENCE - Disney Impact",
+          "url": "https://impact.disney.com/resources/artificial-intelligence-topic-brief"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Your US State Privacy Rights,\" provides evidence for the **fairness, oversight, privacy, and transparency** pillars of responsible AI. It supports transparency by detailing data processing purposes for targeted advertising and disclosing data categories used for algorithmic targeting. The page also addresses fairness and privacy by outlining protections for minors regarding data selling for targeted advertising, and demonstrates oversight and privacy by describing mechanisms like GPC for users to control data processing and opt-out of targeted advertising.",
+          "title": "Your US State Privacy Rights",
+          "url": "https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-us-state-privacy-rights"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC no-action letter provides evidence for **governance**, **oversight**, and **transparency**. The document highlights a shareholder proposal requesting disclosure of a company's AI use, the Board's oversight role, and adopted ethical guidelines, indicating a focus on corporate governance and transparency regarding AI. It also touches upon the need for policies to address AI decision-making and potential risks, implying a need for oversight mechanisms.",
+          "title": "SEC No-Action Response - AFL-CIO AI Transparency Proposal",
+          "url": "https://sec.gov/files/corpfin/no-action/14a-8/aflciodisney010324-14a8.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 36,
+      "findings": "The company's AI governance process operates under a principle-based framework, with updates reaching executive management and the Board. The company commits to AI principles, mentions ongoing monitoring and reassessment of AI impacts, and is aware of evolving AI regulations and compliance obligations. Documentation details practices for data collection and use in algorithmic systems, outlines consumer data rights, and indicates a need for vendor compliance, while also addressing risks related to AI tools and IP infringement, including those from unapproved third-party tools.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This keynote address by FTC Commissioner Mark R. Meador provides evidence for **external_accountability** and **governance**. The speech highlights regulatory enforcement, specifically mentioning the Disney COPPA settlement and the TAKE IT DOWN Act, which demonstrates external accountability for AI practices. Furthermore, the discussion of unlawful data collection, algorithmic labeling, targeted advertising, dark patterns, AI chatbots, and algorithmic manipulation targeting youth indicates a focus on AI governance and compliance with existing regulations.",
+          "title": "FTC Commissioner Mark R. Meador Keynote Address",
+          "url": "https://ftc.gov/system/files/ftc_gov/pdf/2025-09-16-meador-nad-keynote.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Operating Responsibly - AI Governance Process,\" provides evidence for the **governance** and **privacy** pillars. It details the company's AI governance process, which operates under a principle-based framework and identifies various risks, including privacy risks. The policy also outlines how governance updates reach executive management and the Board, establishing company-wide oversight for AI implementation.",
+          "title": "Operating Responsibly - AI Governance Process",
+          "url": "https://impact.disney.com/operating-responsibly"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned document, \"ARTIFICIAL INTELLIGENCE - Disney Impact,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It describes an operational AI governance structure with a central review process for AI use cases, demonstrating strong governance and oversight. The document also commits to AI principles like fairness, transparency, and privacy, and mentions ongoing monitoring and reassessment of AI impacts, supporting these pillars.",
+          "title": "ARTIFICIAL INTELLIGENCE - Disney Impact",
+          "url": "https://impact.disney.com/resources/artificial-intelligence-topic-brief"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** pillar of responsible AI. It details the company's practices regarding data collection and use for purposes like algorithmic personalization, recommendation systems, and targeted advertising, indicating the presence of automated systems and the need for vendor compliance in data handling. The policy also outlines consumer rights related to their data, further supporting the governance aspect.",
+          "title": "Privacy Policy - The Walt Disney Company",
+          "url": "https://privacy.thewaltdisneycompany.com/en/current-privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This Form 10-K filing from The Walt Disney Company provides evidence for the **governance** pillar of responsible AI. The document highlights the company's awareness of evolving AI regulations and compliance obligations, and mentions rules governing AI developments to manage its impact on business models. Furthermore, it describes an ongoing security program that monitors and updates due to AI tools, and addresses risks related to AI tools and IP infringement, indicating a need for governance to manage these emerging technological and legal uncertainties.",
+          "title": "The Walt Disney Company Form 10-K - Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1744489/000174448925000058/ars_2024.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC no-action letter provides evidence for **governance**, **oversight**, and **transparency**. The document highlights a shareholder proposal requesting disclosure of a company's AI use, the Board's oversight role, and adopted ethical guidelines, indicating a focus on corporate governance and transparency regarding AI. It also touches upon the need for policies to address AI decision-making and potential risks, implying a need for oversight mechanisms.",
+          "title": "SEC No-Action Response - AFL-CIO AI Transparency Proposal",
+          "url": "https://sec.gov/files/corpfin/no-action/14a-8/aflciodisney010324-14a8.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Disney's security breach provides evidence for **governance** and **transparency**. It supports governance by detailing how an unverified AI tool led to a breach, highlighting risks associated with unapproved software and the need for policies and approval processes for third-party AI tools. The report also touches on transparency by mentioning capabilities to identify AI tools for tracking and monitoring.",
+          "title": "Disney's Security Breach: The Hidden Risks of AI-Based Applications",
+          "url": "https://suridata.ai/blog/disneys-security-breach-the-hidden-risks-of-ai-based-applications"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "Documentation mentions ongoing monitoring and reassessment of AI impacts. A help page describes mechanisms for users to control data processing and opt-out of targeted advertising. Additionally, a shareholder proposal highlights the Board's oversight role regarding AI and touches upon the need for policies to address AI decision-making and potential risks.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned document, \"ARTIFICIAL INTELLIGENCE - Disney Impact,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It describes an operational AI governance structure with a central review process for AI use cases, demonstrating strong governance and oversight. The document also commits to AI principles like fairness, transparency, and privacy, and mentions ongoing monitoring and reassessment of AI impacts, supporting these pillars.",
+          "title": "ARTIFICIAL INTELLIGENCE - Disney Impact",
+          "url": "https://impact.disney.com/resources/artificial-intelligence-topic-brief"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Your US State Privacy Rights,\" provides evidence for the **fairness, oversight, privacy, and transparency** pillars of responsible AI. It supports transparency by detailing data processing purposes for targeted advertising and disclosing data categories used for algorithmic targeting. The page also addresses fairness and privacy by outlining protections for minors regarding data selling for targeted advertising, and demonstrates oversight and privacy by describing mechanisms like GPC for users to control data processing and opt-out of targeted advertising.",
+          "title": "Your US State Privacy Rights",
+          "url": "https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-us-state-privacy-rights"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC no-action letter provides evidence for **governance**, **oversight**, and **transparency**. The document highlights a shareholder proposal requesting disclosure of a company's AI use, the Board's oversight role, and adopted ethical guidelines, indicating a focus on corporate governance and transparency regarding AI. It also touches upon the need for policies to address AI decision-making and potential risks, implying a need for oversight mechanisms.",
+          "title": "SEC No-Action Response - AFL-CIO AI Transparency Proposal",
+          "url": "https://sec.gov/files/corpfin/no-action/14a-8/aflciodisney010324-14a8.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 16,
+      "findings": "The company commits to AI principles including privacy, and documentation mentions ongoing monitoring and reassessment of AI impacts. A policy document identifies privacy risks within its AI governance process. Furthermore, a help page outlines protections for minors regarding data selling for targeted advertising and describes mechanisms for users to control data processing and opt-out of targeted advertising.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Operating Responsibly - AI Governance Process,\" provides evidence for the **governance** and **privacy** pillars. It details the company's AI governance process, which operates under a principle-based framework and identifies various risks, including privacy risks. The policy also outlines how governance updates reach executive management and the Board, establishing company-wide oversight for AI implementation.",
+          "title": "Operating Responsibly - AI Governance Process",
+          "url": "https://impact.disney.com/operating-responsibly"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned document, \"ARTIFICIAL INTELLIGENCE - Disney Impact,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It describes an operational AI governance structure with a central review process for AI use cases, demonstrating strong governance and oversight. The document also commits to AI principles like fairness, transparency, and privacy, and mentions ongoing monitoring and reassessment of AI impacts, supporting these pillars.",
+          "title": "ARTIFICIAL INTELLIGENCE - Disney Impact",
+          "url": "https://impact.disney.com/resources/artificial-intelligence-topic-brief"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Your US State Privacy Rights,\" provides evidence for the **fairness, oversight, privacy, and transparency** pillars of responsible AI. It supports transparency by detailing data processing purposes for targeted advertising and disclosing data categories used for algorithmic targeting. The page also addresses fairness and privacy by outlining protections for minors regarding data selling for targeted advertising, and demonstrates oversight and privacy by describing mechanisms like GPC for users to control data processing and opt-out of targeted advertising.",
+          "title": "Your US State Privacy Rights",
+          "url": "https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-us-state-privacy-rights"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC no-action letter provides evidence for **governance**, **oversight**, and **transparency**. The document highlights a shareholder proposal requesting disclosure of a company's AI use, the Board's oversight role, and adopted ethical guidelines, indicating a focus on corporate governance and transparency regarding AI. It also touches upon the need for policies to address AI decision-making and potential risks, implying a need for oversight mechanisms.",
+          "title": "SEC No-Action Response - AFL-CIO AI Transparency Proposal",
+          "url": "https://sec.gov/files/corpfin/no-action/14a-8/aflciodisney010324-14a8.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 15,
+      "findings": "The company commits to AI principles including transparency and mentions ongoing monitoring and reassessment of AI impacts. A help page details data processing purposes and discloses data categories used for algorithmic targeting. Furthermore, a shareholder proposal requests disclosure of the company's AI use and adopted ethical guidelines, and a report mentions capabilities to identify AI tools for tracking and monitoring.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned document, \"ARTIFICIAL INTELLIGENCE - Disney Impact,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It describes an operational AI governance structure with a central review process for AI use cases, demonstrating strong governance and oversight. The document also commits to AI principles like fairness, transparency, and privacy, and mentions ongoing monitoring and reassessment of AI impacts, supporting these pillars.",
+          "title": "ARTIFICIAL INTELLIGENCE - Disney Impact",
+          "url": "https://impact.disney.com/resources/artificial-intelligence-topic-brief"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Your US State Privacy Rights,\" provides evidence for the **fairness, oversight, privacy, and transparency** pillars of responsible AI. It supports transparency by detailing data processing purposes for targeted advertising and disclosing data categories used for algorithmic targeting. The page also addresses fairness and privacy by outlining protections for minors regarding data selling for targeted advertising, and demonstrates oversight and privacy by describing mechanisms like GPC for users to control data processing and opt-out of targeted advertising.",
+          "title": "Your US State Privacy Rights",
+          "url": "https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-us-state-privacy-rights"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This SEC no-action letter provides evidence for **governance**, **oversight**, and **transparency**. The document highlights a shareholder proposal requesting disclosure of a company's AI use, the Board's oversight role, and adopted ethical guidelines, indicating a focus on corporate governance and transparency regarding AI. It also touches upon the need for policies to address AI decision-making and potential risks, implying a need for oversight mechanisms.",
+          "title": "SEC No-Action Response - AFL-CIO AI Transparency Proposal",
+          "url": "https://sec.gov/files/corpfin/no-action/14a-8/aflciodisney010324-14a8.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Disney's security breach provides evidence for **governance** and **transparency**. It supports governance by detailing how an unverified AI tool led to a breach, highlighting risks associated with unapproved software and the need for policies and approval processes for third-party AI tools. The report also touches on transparency by mentioning capabilities to identify AI tools for tracking and monitoring.",
+          "title": "Disney's Security Breach: The Hidden Risks of AI-Based Applications",
+          "url": "https://suridata.ai/blog/disneys-security-breach-the-hidden-risks-of-ai-based-applications"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T22:00:35Z",
+  "run_id": "20260203_030523_a59f",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Walt Disney's public disclosures indicate operational practices in privacy and governance, with a policy document identifying various risks, including privacy risks, within its AI governance process, and a keynote address highlighting a focus on AI governance and compliance with existing regulations. Overall, 6 of 7 evaluated responsible AI pillars have documented evidence, with transparency, fairness, oversight, and external accountability addressed at the policy level. The company commits to AI principles including transparency and fairness, and published materials mention ongoing monitoring and reassessment of AI impacts, while oversight disclosures also describe mechanisms for users to control data processing. No qualifying public evidence was found for explainability. This assessment draws on 18 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 53,
+    "total_sources_used": 8
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Dollar Tree",
+  "company_slug": "dollar-tree",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 9,
+      "OPERATIONAL": 4,
+      "POLICY": 11
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "A blog post mentions AI governance and regulatory guidance. This suggests a forward-looking approach to AI.",
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post profiles Elvia Patricia Gastelo, highlighting her role in supporting Dollar Tree's legally compliant integration of AI tools and her involvement in future AI governance. The source provides evidence for **governance** by discussing leadership in AI governance programs and leveraging privacy frameworks. It supports **privacy** by emphasizing the integration of AI in a legally compliant manner. Finally, it contributes to **external accountability** by mentioning AI governance and regulatory guidance, suggesting a forward-looking approach to AI.",
+          "title": "Hispanic Executive: Elvia Patricia Gastelo Builds a Thriving Privacy Program",
+          "url": "https://hispanicexecutive.com/elvia-patricia-gastelo-dollar-tree"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 11,
+      "findings": "Sources highlight the use of AI-native capabilities for labor forecasting, scheduling, and compliance automation, and mention features that enhance compliance within AI products. Published materials describe the use of AI for product sorting, profit maximization, and location analytics for site selection. Additionally, sources detail AI deployment, algorithm testing, autonomous operation, and the collection, transmission, and analysis of user data by third parties. Leadership in AI governance programs, leveraging privacy frameworks, and supporting legally compliant AI tool integration are also discussed.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This vendor press release provides evidence for the **governance** pillar of responsible AI. It highlights the use of AI-native capabilities such as advanced labor forecasting, automated scheduling, and compliance automation within Legion's workforce management platform. The mention of \"Legion AI Products\" and features that \"enhance compliance\" directly indicates the need for and implementation of governance practices around these AI functionalities.",
+          "title": "Dollar Tree selects Legion WFM to transform labor operations",
+          "url": "https://legion.co/company/press-releases/2025/10/14/dollar-tree-selects-legion-wfm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post reports on Dollar Tree's CEO discussing the company's shift towards becoming an AI-enabled enterprise. The source provides evidence for **governance** by suggesting a principle for AI experiences related to authority, and for **oversight** by detailing the use of agentic automation for candidate screening with human review at the final stage. Additionally, it supports **transparency** by mentioning the use of AI-enabled platforms for various business functions, though without specific execution or policy details.",
+          "title": "Retail Dive: Dollar Tree CEO on tech and AI adoption",
+          "url": "https://retaildive.com/news/dollar-tree-ceo-tech-ai-adoption/803528"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** pillar of responsible AI. It describes how Dollar Tree is using AI-based technology for product sorting and profit maximization, which implies the existence of a governance framework to oversee and direct the application of these AI tools.",
+          "title": "Dollar Tree enhances multi-price strategy with AI-backed brand positioning",
+          "url": "https://supermarketnews.com/grocery-technology/dollar-tree-enhances-multi-price-strategy-with-brand-positioning-backed-by-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Placer.ai location analytics on Dollar Tree’s 99 Cents Only acquisition,\" provides evidence for the governance and transparency pillars of responsible AI. The post mentions the use of \"AI-powered location analytics\" for site selection, which indicates a degree of transparency in how AI is being utilized and suggests governance practices are in place for its application.",
+          "title": "Placer.ai location analytics on Dollar Tree’s 99 Cents Only acquisition",
+          "url": "https://convenience.org/Media/Daily/2026/January/22/6-Placer-ai-Dollar-Trees-Shows-Struggle_Research"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by detailing the collection, transmission, and analysis of user data by third parties, suggesting a need for oversight in automated profiling. The filing also supports the privacy pillar by discussing consent for data tracking via cookie banners, the handling of sensitive user data, and alleged privacy intrusions and harm from the loss of value of personal information.",
+          "title": "Walsh v. Dollar Tree Stores, Inc. cookie-banner litigation order",
+          "url": "https://business.cch.com/ald/walshVdollar10162025.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the AI deployment, algorithm testing, and autonomous operation, indicating operational execution and oversight. The post also supports transparency by explaining how the AI transforms energy usage and enables data-driven decisions, highlighting the system's capabilities and outcomes.",
+          "title": "BrainBox AI web case study overview for Dollar Tree portfolio",
+          "url": "https://brainboxai.com/en/case-studies/dollar-tree-unlocks-major-energy-and-emissions-savings-with-brainbox-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post profiles Elvia Patricia Gastelo, highlighting her role in supporting Dollar Tree's legally compliant integration of AI tools and her involvement in future AI governance. The source provides evidence for **governance** by discussing leadership in AI governance programs and leveraging privacy frameworks. It supports **privacy** by emphasizing the integration of AI in a legally compliant manner. Finally, it contributes to **external accountability** by mentioning AI governance and regulatory guidance, suggesting a forward-looking approach to AI.",
+          "title": "Hispanic Executive: Elvia Patricia Gastelo Builds a Thriving Privacy Program",
+          "url": "https://hispanicexecutive.com/elvia-patricia-gastelo-dollar-tree"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "A blog post details the use of agentic automation for candidate screening. This process includes human review at the final stage.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post reports on Dollar Tree's CEO discussing the company's shift towards becoming an AI-enabled enterprise. The source provides evidence for **governance** by suggesting a principle for AI experiences related to authority, and for **oversight** by detailing the use of agentic automation for candidate screening with human review at the final stage. Additionally, it supports **transparency** by mentioning the use of AI-enabled platforms for various business functions, though without specific execution or policy details.",
+          "title": "Retail Dive: Dollar Tree CEO on tech and AI adoption",
+          "url": "https://retaildive.com/news/dollar-tree-ceo-tech-ai-adoption/803528"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "A court filing discusses consent for data tracking via cookie banners, the handling of sensitive user data, and alleged privacy intrusions. Additionally, a blog post emphasizes the integration of AI in a legally compliant manner.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by detailing the collection, transmission, and analysis of user data by third parties, suggesting a need for oversight in automated profiling. The filing also supports the privacy pillar by discussing consent for data tracking via cookie banners, the handling of sensitive user data, and alleged privacy intrusions and harm from the loss of value of personal information.",
+          "title": "Walsh v. Dollar Tree Stores, Inc. cookie-banner litigation order",
+          "url": "https://business.cch.com/ald/walshVdollar10162025.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post profiles Elvia Patricia Gastelo, highlighting her role in supporting Dollar Tree's legally compliant integration of AI tools and her involvement in future AI governance. The source provides evidence for **governance** by discussing leadership in AI governance programs and leveraging privacy frameworks. It supports **privacy** by emphasizing the integration of AI in a legally compliant manner. Finally, it contributes to **external accountability** by mentioning AI governance and regulatory guidance, suggesting a forward-looking approach to AI.",
+          "title": "Hispanic Executive: Elvia Patricia Gastelo Builds a Thriving Privacy Program",
+          "url": "https://hispanicexecutive.com/elvia-patricia-gastelo-dollar-tree"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 10,
+      "findings": "Sources describe the deployment of an AI HVAC optimization solution, detailing its operational deployment, testing, and the use of AI, algorithms, and an algorithm library for data-driven decision-making. Published materials also mention the use of AI-enabled platforms for various business functions, including AI-powered location analytics for site selection. Additionally, a blog post explains how AI transforms energy usage and enables data-driven decisions, highlighting system capabilities and outcomes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **transparency** pillar of responsible AI. It details the deployment of an AI HVAC optimization solution, mentioning the use of \"AI,\" \"algorithms,\" and an \"algorithm library\" to drive \"data-driven decision-making.\" The case study's description of the solution's operational deployment and testing further supports transparency regarding the AI's capabilities and execution.",
+          "title": "BrainBox AI HVAC optimization case study for Dollar Tree",
+          "url": "https://brainboxai.com/hubfs/Case%20Studies/BrainBox%20AI%20Dollar%20Tree%20Case%20Study.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post reports on Dollar Tree's CEO discussing the company's shift towards becoming an AI-enabled enterprise. The source provides evidence for **governance** by suggesting a principle for AI experiences related to authority, and for **oversight** by detailing the use of agentic automation for candidate screening with human review at the final stage. Additionally, it supports **transparency** by mentioning the use of AI-enabled platforms for various business functions, though without specific execution or policy details.",
+          "title": "Retail Dive: Dollar Tree CEO on tech and AI adoption",
+          "url": "https://retaildive.com/news/dollar-tree-ceo-tech-ai-adoption/803528"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Placer.ai location analytics on Dollar Tree’s 99 Cents Only acquisition,\" provides evidence for the governance and transparency pillars of responsible AI. The post mentions the use of \"AI-powered location analytics\" for site selection, which indicates a degree of transparency in how AI is being utilized and suggests governance practices are in place for its application.",
+          "title": "Placer.ai location analytics on Dollar Tree’s 99 Cents Only acquisition",
+          "url": "https://convenience.org/Media/Daily/2026/January/22/6-Placer-ai-Dollar-Trees-Shows-Struggle_Research"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the AI deployment, algorithm testing, and autonomous operation, indicating operational execution and oversight. The post also supports transparency by explaining how the AI transforms energy usage and enables data-driven decisions, highlighting the system's capabilities and outcomes.",
+          "title": "BrainBox AI web case study overview for Dollar Tree portfolio",
+          "url": "https://brainboxai.com/en/case-studies/dollar-tree-unlocks-major-energy-and-emissions-savings-with-brainbox-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T21:48:53Z",
+  "run_id": "20260201_221257_5597",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Based on 10 publicly available sources, Dollar Tree's published materials address 4 of 7 evaluated responsible AI pillars. Transparency disclosures detail the deployment of an AI HVAC optimization solution, while oversight materials describe the use of agentic automation for candidate screening with human review at the final stage. Additionally, privacy is addressed through discussions of consent for data tracking via cookie banners and the handling of sensitive user data, and governance materials highlight AI-native capabilities such as advanced labor forecasting and automated scheduling within a workforce management platform. No qualifying public evidence was found for fairness, explainability, and 1 additional pillar.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 24,
+    "total_sources_used": 8
+  }
+}

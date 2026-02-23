@@ -1,0 +1,365 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 92.9,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 13
+  },
+  "company": "Hewlett Packard Enterprise",
+  "company_slug": "hpe",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 14,
+      "OPERATIONAL": 22,
+      "POLICY": 59
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Sources describe documented explainability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "The World Benchmarking Alliance's \"WBA Digital CIC 2023 Progress Report\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. This audit report highlights policy commitments to responsible AI development and deployment, including discussions of AI governance and oversight mechanisms, a \"Blueprint for an AI Bill of Rights,\" and vendor due diligence. It also addresses AI principles for fairness, privacy, and transparency, and mentions regulatory policies like the AI Act, indicating a focus on risk-based approaches and compliance obligations.",
+          "title": "WBA Digital CIC 2023 Progress Report",
+          "url": "https://assets.worldbenchmarkingalliance.org/app/uploads/2023/09/Digital-CIC-2023-Progress-Report_2023.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "HPE demonstrates external accountability through documented audit procedures and policy commitments. An SEC filing describes audit procedures for AI reporting units. Additionally, an audit report highlights policy commitments to responsible AI development and deployment, mentions vendor due diligence, and references regulatory policies like the AI Act, indicating a focus on risk-based approaches and compliance obligations.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K FY2023 - AI Business Segments,\" provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The report details HPE's enterprise-wide integration of ethical AI governance, including the establishment of named bodies like an AI Ethics Committee and Working Group, operational actions such as monitoring and refining AI approaches to mitigate bias, and audit procedures for AI reporting units. It also mentions privacy-enabled AI use and a strategic focus on AI, indicating transparency around AI capabilities and the need for robust governance.",
+          "title": "Form 10-K FY2023 - AI Business Segments",
+          "url": "https://sec.gov/Archives/edgar/data/1645590/000164559024000046/hpefy23ars.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "The World Benchmarking Alliance's \"WBA Digital CIC 2023 Progress Report\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. This audit report highlights policy commitments to responsible AI development and deployment, including discussions of AI governance and oversight mechanisms, a \"Blueprint for an AI Bill of Rights,\" and vendor due diligence. It also addresses AI principles for fairness, privacy, and transparency, and mentions regulatory policies like the AI Act, indicating a focus on risk-based approaches and compliance obligations.",
+          "title": "WBA Digital CIC 2023 Progress Report",
+          "url": "https://assets.worldbenchmarkingalliance.org/app/uploads/2023/09/Digital-CIC-2023-Progress-Report_2023.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 6,
+      "findings": "HPE addresses fairness in its AI practices through various documented approaches. A privacy policy describes testing for fairness in AI and automated tools used for support inquiries. Additionally, an SEC filing outlines operational actions like monitoring and refining AI approaches to mitigate bias, while an audit report references AI principles for fairness.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It addresses the use of AI and automated tools for analyzing support inquiries, including mechanisms for human oversight and testing for accuracy and fairness. The policy also outlines user rights to object or request human review of automated decisions, and discusses data use for AI/ML data mining and profiling, supporting the privacy and governance pillars.",
+          "title": "Privacy Policy - AI and Automation",
+          "url": "https://hpe.com/us/en/legal/privacy.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K FY2023 - AI Business Segments,\" provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The report details HPE's enterprise-wide integration of ethical AI governance, including the establishment of named bodies like an AI Ethics Committee and Working Group, operational actions such as monitoring and refining AI approaches to mitigate bias, and audit procedures for AI reporting units. It also mentions privacy-enabled AI use and a strategic focus on AI, indicating transparency around AI capabilities and the need for robust governance.",
+          "title": "Form 10-K FY2023 - AI Business Segments",
+          "url": "https://sec.gov/Archives/edgar/data/1645590/000164559024000046/hpefy23ars.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "The World Benchmarking Alliance's \"WBA Digital CIC 2023 Progress Report\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. This audit report highlights policy commitments to responsible AI development and deployment, including discussions of AI governance and oversight mechanisms, a \"Blueprint for an AI Bill of Rights,\" and vendor due diligence. It also addresses AI principles for fairness, privacy, and transparency, and mentions regulatory policies like the AI Act, indicating a focus on risk-based approaches and compliance obligations.",
+          "title": "WBA Digital CIC 2023 Progress Report",
+          "url": "https://assets.worldbenchmarkingalliance.org/app/uploads/2023/09/Digital-CIC-2023-Progress-Report_2023.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 88,
+      "findings": "HPE documents extensive AI governance practices through various reports, policies, and statements. These materials detail the establishment of AI governance bodies and committees, such as an AI Ethics Advisory Board and an AI Ethics Responsibility Committee, which oversee AI risk management and ethical principles. The company also describes an AI Governance and Enablement Hub, mandatory AI Ethics training, a formalized AI intake process, and a Human Rights Due Diligence process optimized for AI, alongside operational engagement in external AI governance standards and regulatory compliance.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AI Ethics and Principles,\" provides evidence for the **governance** pillar of responsible AI. It describes mechanisms such as an expert group approving ML/DL deployments, an advisory board for AI ethics, and AI Ethics Assessment meetings, all of which establish policies and guidelines for responsible AI development and deployment. Furthermore, the document highlights the necessity of data governance programs for AI systems, reinforcing its support for robust governance practices.",
+          "title": "AI Ethics and Principles",
+          "url": "https://hpe.com/us/en/solutions/artificial-intelligence/ethics.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This audit report, HPE's 2024 Living Progress Report, provides evidence for **governance** and **transparency**. It details the launch of an AI Governance and Enablement Hub to centralize policies, tools, and training, alongside the AI Ethics Responsibility Committee's oversight and a platform for AI ethics assessments and mitigation. The report also highlights operational engagement in external AI governance standards and a policy for responsible AI integration that encourages human rights consideration and risk assessments guided by AI Ethics Principles.",
+          "title": "2024 Living Progress Report",
+          "url": "https://hpe.com/psnow/doc/a00147418enw"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance** and **transparency**. It details HPE's AI governance bodies and committees, including the AI Oversight Committee and AI Ethics Responsibility Committee, which oversee AI risk management and align AI with ethical principles. The document also indicates transparency through mentions of AI tools, AI strategy insights for investors, and the availability of AI ethics training for internal teams and partners.",
+          "title": "2025 Proxy Statement - AI Risk Management",
+          "url": "https://sec.gov/Archives/edgar/data/1645590/000164559025000024/hpe-20250211.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This 2023 proxy statement provides evidence for the **governance** pillar of responsible AI. It details the establishment of an AI Ethics Advisory Board in 2020, mandatory AI Ethics training for all team members, and a formalized AI intake process, all of which demonstrate structured oversight and management of AI development and deployment. The document also implies governance through the mention of an acquisition, suggesting oversight of AI-related entities.",
+          "title": "2023 Proxy Statement - AI Ethics Advisory Board",
+          "url": "https://sec.gov/Archives/edgar/data/1645590/000164559023000022/a2023hpeproxy.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It addresses the use of AI and automated tools for analyzing support inquiries, including mechanisms for human oversight and testing for accuracy and fairness. The policy also outlines user rights to object or request human review of automated decisions, and discusses data use for AI/ML data mining and profiling, supporting the privacy and governance pillars.",
+          "title": "Privacy Policy - AI and Automation",
+          "url": "https://hpe.com/us/en/legal/privacy.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This press release from HPE highlights their secure AI factory solutions, providing evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The announcement emphasizes foundational requirements for trustworthy AI, including transparency, ethics, and human oversight, and details mechanisms like air-gapped management and agentic AI-powered governance for compliance enforcement and data access control. Furthermore, the press release indicates a policy focus on responsible AI adoption through the integration of secure, ethical, and energy-efficient AI, with sustainability as a design criterion.",
+          "title": "Press Release: Secure AI Factory Innovations",
+          "url": "https://hpe.com/us/en/newsroom/press-release/2025/10/hpe-advances-government-and-enterprise-ai-adoption-through-secure-ai-factory-innovations.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"3rd Annual Human Rights Report - AI Governance,\" provides evidence for the **governance** pillar of responsible AI. It details HPE's Human Rights Due Diligence process optimized for AI, including specific assessment criteria and the operationalization of AI Ethics Principles with safeguards for high-risk AI. Furthermore, the report describes enforcement actions like blocking sales for misaligned partners, demonstrating governance over technology use.",
+          "title": "3rd Annual Human Rights Report - AI Governance",
+          "url": "https://hpe.com/us/en/newsroom/blog-post/2025/06/hpes-human-rights-progress-a-year-in-review.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This HPE blog post, \"GreenLake Intelligence - Agentic AI Governance,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog details an agentic AI framework that supports governance through autonomous operations with human permission gates and the orchestration of resources for shared intelligence and optimization. Transparency is demonstrated by the description of AI agents collaborating, detecting anomalies, making intelligent decisions, and communicating via a Model Context Protocol, all within a unified AI platform.",
+          "title": "GreenLake Intelligence - Agentic AI Governance",
+          "url": "https://hpe.com/us/en/newsroom/blog-post/2025/06/greenlake-intelligence-hpes-vision-for-ai-driven-it-operations.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K FY2023 - AI Business Segments,\" provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The report details HPE's enterprise-wide integration of ethical AI governance, including the establishment of named bodies like an AI Ethics Committee and Working Group, operational actions such as monitoring and refining AI approaches to mitigate bias, and audit procedures for AI reporting units. It also mentions privacy-enabled AI use and a strategic focus on AI, indicating transparency around AI capabilities and the need for robust governance.",
+          "title": "Form 10-K FY2023 - AI Business Segments",
+          "url": "https://sec.gov/Archives/edgar/data/1645590/000164559024000046/hpefy23ars.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"WBA Digital Inclusion Benchmark - HPE Assessment,\" provides evidence for the **governance** pillar of responsible AI. The assessment highlights HPE's adoption of a publicly available ethical AI framework, which includes comprehensive principles for AI research and development, notably incorporating human rights considerations. This demonstrates a formal commitment to governing AI practices.",
+          "title": "WBA Digital Inclusion Benchmark - HPE Assessment",
+          "url": "https://worldbenchmarkingalliance.org/publication/digital-inclusion/companies/hpe"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "The World Benchmarking Alliance's \"WBA Digital CIC 2023 Progress Report\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. This audit report highlights policy commitments to responsible AI development and deployment, including discussions of AI governance and oversight mechanisms, a \"Blueprint for an AI Bill of Rights,\" and vendor due diligence. It also addresses AI principles for fairness, privacy, and transparency, and mentions regulatory policies like the AI Act, indicating a focus on risk-based approaches and compliance obligations.",
+          "title": "WBA Digital CIC 2023 Progress Report",
+          "url": "https://assets.worldbenchmarkingalliance.org/app/uploads/2023/09/Digital-CIC-2023-Progress-Report_2023.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "HPE documents its approach to AI oversight through various materials. A privacy policy addresses the use of AI and automated tools, including mechanisms for human oversight. A press release emphasizes human oversight as a foundational requirement for trustworthy AI, and an audit report highlights policy commitments that include discussions of AI oversight mechanisms.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It addresses the use of AI and automated tools for analyzing support inquiries, including mechanisms for human oversight and testing for accuracy and fairness. The policy also outlines user rights to object or request human review of automated decisions, and discusses data use for AI/ML data mining and profiling, supporting the privacy and governance pillars.",
+          "title": "Privacy Policy - AI and Automation",
+          "url": "https://hpe.com/us/en/legal/privacy.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This press release from HPE highlights their secure AI factory solutions, providing evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The announcement emphasizes foundational requirements for trustworthy AI, including transparency, ethics, and human oversight, and details mechanisms like air-gapped management and agentic AI-powered governance for compliance enforcement and data access control. Furthermore, the press release indicates a policy focus on responsible AI adoption through the integration of secure, ethical, and energy-efficient AI, with sustainability as a design criterion.",
+          "title": "Press Release: Secure AI Factory Innovations",
+          "url": "https://hpe.com/us/en/newsroom/press-release/2025/10/hpe-advances-government-and-enterprise-ai-adoption-through-secure-ai-factory-innovations.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "The World Benchmarking Alliance's \"WBA Digital CIC 2023 Progress Report\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. This audit report highlights policy commitments to responsible AI development and deployment, including discussions of AI governance and oversight mechanisms, a \"Blueprint for an AI Bill of Rights,\" and vendor due diligence. It also addresses AI principles for fairness, privacy, and transparency, and mentions regulatory policies like the AI Act, indicating a focus on risk-based approaches and compliance obligations.",
+          "title": "WBA Digital CIC 2023 Progress Report",
+          "url": "https://assets.worldbenchmarkingalliance.org/app/uploads/2023/09/Digital-CIC-2023-Progress-Report_2023.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 13,
+      "findings": "HPE addresses privacy in its AI practices through documented principles and policies. A privacy policy discusses data use for AI/ML data mining and profiling. Additionally, an audit report addresses AI principles specifically related to privacy.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It addresses the use of AI and automated tools for analyzing support inquiries, including mechanisms for human oversight and testing for accuracy and fairness. The policy also outlines user rights to object or request human review of automated decisions, and discusses data use for AI/ML data mining and profiling, supporting the privacy and governance pillars.",
+          "title": "Privacy Policy - AI and Automation",
+          "url": "https://hpe.com/us/en/legal/privacy.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K FY2023 - AI Business Segments,\" provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The report details HPE's enterprise-wide integration of ethical AI governance, including the establishment of named bodies like an AI Ethics Committee and Working Group, operational actions such as monitoring and refining AI approaches to mitigate bias, and audit procedures for AI reporting units. It also mentions privacy-enabled AI use and a strategic focus on AI, indicating transparency around AI capabilities and the need for robust governance.",
+          "title": "Form 10-K FY2023 - AI Business Segments",
+          "url": "https://sec.gov/Archives/edgar/data/1645590/000164559024000046/hpefy23ars.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "The World Benchmarking Alliance's \"WBA Digital CIC 2023 Progress Report\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. This audit report highlights policy commitments to responsible AI development and deployment, including discussions of AI governance and oversight mechanisms, a \"Blueprint for an AI Bill of Rights,\" and vendor due diligence. It also addresses AI principles for fairness, privacy, and transparency, and mentions regulatory policies like the AI Act, indicating a focus on risk-based approaches and compliance obligations.",
+          "title": "WBA Digital CIC 2023 Progress Report",
+          "url": "https://assets.worldbenchmarkingalliance.org/app/uploads/2023/09/Digital-CIC-2023-Progress-Report_2023.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 25,
+      "findings": "HPE documents its commitment to transparency through various reports and policies. These materials detail the launch of an AI Governance and Enablement Hub, operational engagement in external AI governance standards, and a policy for responsible AI integration. Furthermore, the company outlines user rights regarding automated decisions, discusses data use for AI/ML, and describes how AI agents communicate within a unified platform.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This audit report, HPE's 2024 Living Progress Report, provides evidence for **governance** and **transparency**. It details the launch of an AI Governance and Enablement Hub to centralize policies, tools, and training, alongside the AI Ethics Responsibility Committee's oversight and a platform for AI ethics assessments and mitigation. The report also highlights operational engagement in external AI governance standards and a policy for responsible AI integration that encourages human rights consideration and risk assessments guided by AI Ethics Principles.",
+          "title": "2024 Living Progress Report",
+          "url": "https://hpe.com/psnow/doc/a00147418enw"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance** and **transparency**. It details HPE's AI governance bodies and committees, including the AI Oversight Committee and AI Ethics Responsibility Committee, which oversee AI risk management and align AI with ethical principles. The document also indicates transparency through mentions of AI tools, AI strategy insights for investors, and the availability of AI ethics training for internal teams and partners.",
+          "title": "2025 Proxy Statement - AI Risk Management",
+          "url": "https://sec.gov/Archives/edgar/data/1645590/000164559025000024/hpe-20250211.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It addresses the use of AI and automated tools for analyzing support inquiries, including mechanisms for human oversight and testing for accuracy and fairness. The policy also outlines user rights to object or request human review of automated decisions, and discusses data use for AI/ML data mining and profiling, supporting the privacy and governance pillars.",
+          "title": "Privacy Policy - AI and Automation",
+          "url": "https://hpe.com/us/en/legal/privacy.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This press release from HPE highlights their secure AI factory solutions, providing evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The announcement emphasizes foundational requirements for trustworthy AI, including transparency, ethics, and human oversight, and details mechanisms like air-gapped management and agentic AI-powered governance for compliance enforcement and data access control. Furthermore, the press release indicates a policy focus on responsible AI adoption through the integration of secure, ethical, and energy-efficient AI, with sustainability as a design criterion.",
+          "title": "Press Release: Secure AI Factory Innovations",
+          "url": "https://hpe.com/us/en/newsroom/press-release/2025/10/hpe-advances-government-and-enterprise-ai-adoption-through-secure-ai-factory-innovations.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This HPE blog post, \"GreenLake Intelligence - Agentic AI Governance,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog details an agentic AI framework that supports governance through autonomous operations with human permission gates and the orchestration of resources for shared intelligence and optimization. Transparency is demonstrated by the description of AI agents collaborating, detecting anomalies, making intelligent decisions, and communicating via a Model Context Protocol, all within a unified AI platform.",
+          "title": "GreenLake Intelligence - Agentic AI Governance",
+          "url": "https://hpe.com/us/en/newsroom/blog-post/2025/06/greenlake-intelligence-hpes-vision-for-ai-driven-it-operations.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K FY2023 - AI Business Segments,\" provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The report details HPE's enterprise-wide integration of ethical AI governance, including the establishment of named bodies like an AI Ethics Committee and Working Group, operational actions such as monitoring and refining AI approaches to mitigate bias, and audit procedures for AI reporting units. It also mentions privacy-enabled AI use and a strategic focus on AI, indicating transparency around AI capabilities and the need for robust governance.",
+          "title": "Form 10-K FY2023 - AI Business Segments",
+          "url": "https://sec.gov/Archives/edgar/data/1645590/000164559024000046/hpefy23ars.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "The World Benchmarking Alliance's \"WBA Digital CIC 2023 Progress Report\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. This audit report highlights policy commitments to responsible AI development and deployment, including discussions of AI governance and oversight mechanisms, a \"Blueprint for an AI Bill of Rights,\" and vendor due diligence. It also addresses AI principles for fairness, privacy, and transparency, and mentions regulatory policies like the AI Act, indicating a focus on risk-based approaches and compliance obligations.",
+          "title": "WBA Digital CIC 2023 Progress Report",
+          "url": "https://assets.worldbenchmarkingalliance.org/app/uploads/2023/09/Digital-CIC-2023-Progress-Report_2023.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:52:29Z",
+  "run_id": "20260218_043343_0548",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Hewlett Packard Enterprise's public disclosures demonstrate evidence across both operational and policy levels for all 7 evaluated responsible AI pillars. Operational practices are documented for six pillars, including the launch of an AI Governance and Enablement Hub for transparency and an expert group approving ML/DL deployments for governance. Further operational evidence includes monitoring and refining AI approaches to mitigate bias for fairness, and mechanisms for human oversight addressed in a privacy policy. Explainability is addressed at the policy level, with documented practices described in published materials, based on a review of 20 publicly available sources.",
+    "pillars_operational": 6,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 95,
+    "total_sources_used": 11
+  }
+}

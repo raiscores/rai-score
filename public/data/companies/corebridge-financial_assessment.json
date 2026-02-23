@@ -1,0 +1,218 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Corebridge Financial",
+  "company_slug": "corebridge-financial",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 6,
+      "OPERATIONAL": 3,
+      "POLICY": 24
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "An SEC filing mentions engaging with regulators on AI laws.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document discusses the use of AI, algorithms, and automated decision-making platforms, referencing internal models and vendor engagement policies. It highlights commitments to transparency and fairness, mentions engaging with regulators on AI laws, and details operational controls like monitoring, back-testing, and audits for automated systems, demonstrating a focus on governance and accountability for AI use.",
+          "title": "Corebridge Financial Form 10-K - Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1889539/000188953925000014/crbg-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "An SEC filing highlights commitments to fairness.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document discusses the use of AI, algorithms, and automated decision-making platforms, referencing internal models and vendor engagement policies. It highlights commitments to transparency and fairness, mentions engaging with regulators on AI laws, and details operational controls like monitoring, back-testing, and audits for automated systems, demonstrating a focus on governance and accountability for AI use.",
+          "title": "Corebridge Financial Form 10-K - Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1889539/000188953925000014/crbg-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 28,
+      "findings": "Documentation describes the use of algorithms and predictive analytics for risk evaluation and statistical modeling for risk assessment. An SEC filing discusses the use of AI, algorithms, and automated decision-making platforms, referencing internal models and vendor engagement policies, and detailing operational controls like monitoring, back-testing, and audits. A proxy statement discusses management's strategic initiatives for AI advancement and lists executive leadership responsible for technology and risk oversight.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Behind the Scenes of Life Insurance Underwriting,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing the use of algorithms and predictive analytics for risk evaluation and statistical modeling for risk assessment, indicating decision support mechanisms. The page also supports transparency by detailing the system's capabilities, including its reliance on algorithms, automated decision-making, and the use of third-party data for rapid underwriting decisions without medical exams.",
+          "title": "Behind the Scenes of Life Insurance Underwriting - Corebridge Financial",
+          "url": "https://corebridgefinancial.com/insights-education/behind-the-scenes-of-life-insurance-underwriting"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This event summary for \"Corebridge + Pega: Turbocharging Insurance with AI-Powered Automation\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document highlights the use of AI capabilities and an AI platform for transformation and trust, implying established governance over AI-driven systems and their operational impact. The mention of AI capabilities and their tangible operational outcomes, such as reduced manual work and accelerated response times, suggests a degree of transparency in how AI is being utilized.",
+          "title": "Corebridge + Pega: Turbocharging Insurance with AI-Powered Automation",
+          "url": "https://pega.com/events/pegaworld/agenda/corebridge-pega-turbocharging-insurance-ai-powered-automation"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document discusses the use of AI, algorithms, and automated decision-making platforms, referencing internal models and vendor engagement policies. It highlights commitments to transparency and fairness, mentions engaging with regulators on AI laws, and details operational controls like monitoring, back-testing, and audits for automated systems, demonstrating a focus on governance and accountability for AI use.",
+          "title": "Corebridge Financial Form 10-K - Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1889539/000188953925000014/crbg-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the **governance** pillar of responsible AI. It demonstrates governance through its discussion of management's strategic initiatives, including the planned and committed advancement of the company's use of AI, and by listing executive leadership responsible for technology and risk oversight. The document also details formal policies and compliance requirements related to equity grants, further underscoring established governance practices.",
+          "title": "Corebridge Financial 2025 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/1889539/000114036125014088/ny20041938x1_def14a.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "An SEC filing describes controls for automated systems, including monitoring, back-testing, and audits.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document discusses the use of AI, algorithms, and automated decision-making platforms, referencing internal models and vendor engagement policies. It highlights commitments to transparency and fairness, mentions engaging with regulators on AI laws, and details operational controls like monitoring, back-testing, and audits for automated systems, demonstrating a focus on governance and accountability for AI use.",
+          "title": "Corebridge Financial Form 10-K - Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1889539/000188953925000014/crbg-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 8,
+      "findings": "Documentation details the capabilities of the life insurance underwriting system, including its reliance on algorithms, automated decision-making, and the use of third-party data. An SEC filing highlights commitments to transparency, while an event summary mentions AI capabilities and their operational outcomes. Job postings also reference the use of machine learning models for fraud detection and describe necessary skills for such roles.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Behind the Scenes of Life Insurance Underwriting,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing the use of algorithms and predictive analytics for risk evaluation and statistical modeling for risk assessment, indicating decision support mechanisms. The page also supports transparency by detailing the system's capabilities, including its reliance on algorithms, automated decision-making, and the use of third-party data for rapid underwriting decisions without medical exams.",
+          "title": "Behind the Scenes of Life Insurance Underwriting - Corebridge Financial",
+          "url": "https://corebridgefinancial.com/insights-education/behind-the-scenes-of-life-insurance-underwriting"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This event summary for \"Corebridge + Pega: Turbocharging Insurance with AI-Powered Automation\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document highlights the use of AI capabilities and an AI platform for transformation and trust, implying established governance over AI-driven systems and their operational impact. The mention of AI capabilities and their tangible operational outcomes, such as reduced manual work and accelerated response times, suggests a degree of transparency in how AI is being utilized.",
+          "title": "Corebridge + Pega: Turbocharging Insurance with AI-Powered Automation",
+          "url": "https://pega.com/events/pegaworld/agenda/corebridge-pega-turbocharging-insurance-ai-powered-automation"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The document discusses the use of AI, algorithms, and automated decision-making platforms, referencing internal models and vendor engagement policies. It highlights commitments to transparency and fairness, mentions engaging with regulators on AI laws, and details operational controls like monitoring, back-testing, and audits for automated systems, demonstrating a focus on governance and accountability for AI use.",
+          "title": "Corebridge Financial Form 10-K - Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1889539/000188953925000014/crbg-20241231.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This job posting for a Fraud Analytics Specialist at Corebridge Financial provides evidence for the **transparency** pillar. The posting's mention of requiring experience with machine learning models for fraud detection indicates the company's use of AI in this area, and the description of necessary skills suggests a transparent approach to communicating the technical requirements of such roles.",
+          "title": "Fraud Analytics Specialist Job Posting at Corebridge Financial",
+          "url": "https://jobright.ai/jobs/info/695ea57508ab990f2829e233"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This job posting for a Fraud Analytics Specialist at Corebridge Financial provides evidence for the **transparency** pillar. The posting mentions the use of \"machine learning\" and \"machine learning models,\" suggesting the company's engagement with these technologies in fraud analysis. However, the language used, such as \"explore\" and \"experience,\" indicates an aspirational or past usage rather than a documented description of current systems or processes.",
+          "title": "Fraud Analytics Specialist Job Posting at Corebridge Financial",
+          "url": "https://jobright.ai/jobs/info/695ec3110badca5763af3950"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:47:50Z",
+  "run_id": "20260202_204200_b25c",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Privacy & Security"
+    ],
+    "key_strengths": [
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Corebridge Financial's public disclosures address governance and external accountability at the operational level, with governance materials describing the use of algorithms and predictive analytics for risk evaluation, and an SEC filing mentioning engagement with regulators on AI laws. Overall, 5 of 7 evaluated responsible AI pillars have documented evidence. Transparency, fairness, and oversight are addressed through policies; for instance, transparency documentation details the capabilities of the life insurance underwriting system, including its reliance on algorithms and automated decision-making. An SEC filing further describes controls for automated systems, including monitoring, back-testing, and audits under oversight. No qualifying public evidence was found for explainability or privacy, based on 7 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 33,
+    "total_sources_used": 6
+  }
+}

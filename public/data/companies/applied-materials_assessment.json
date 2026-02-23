@@ -1,0 +1,152 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 21.4,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 3
+  },
+  "company": "Applied Materials",
+  "company_slug": "applied-materials",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 0,
+      "POLICY": 1
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "A candidate privacy policy document states that the AI system provides recommendations rather than decisions. This policy also states that the AI system explicitly excludes protected attributes from its matching process.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This candidate privacy policy document provides evidence for **fairness** and **governance**. It supports fairness by stating that the AI system provides recommendations rather than decisions, ensuring human oversight and explicitly excluding protected attributes from its matching process. The policy also supports governance by detailing mechanisms for applicants to object to algorithmic processing, demonstrating a commitment to responsible AI practices.",
+          "title": "Candidate Privacy Policy",
+          "url": "https://appliedmaterials.com/us/en/pages/candidate-privacy-policy.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 1,
+      "findings": "A candidate privacy policy document details mechanisms for applicants to object to algorithmic processing. This demonstrates a commitment to responsible AI practices.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This candidate privacy policy document provides evidence for **fairness** and **governance**. It supports fairness by stating that the AI system provides recommendations rather than decisions, ensuring human oversight and explicitly excluding protected attributes from its matching process. The policy also supports governance by detailing mechanisms for applicants to object to algorithmic processing, demonstrating a commitment to responsible AI practices.",
+          "title": "Candidate Privacy Policy",
+          "url": "https://appliedmaterials.com/us/en/pages/candidate-privacy-policy.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "A candidate privacy policy document states that the AI system provides recommendations rather than decisions. This practice ensures human oversight.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This candidate privacy policy document provides evidence for **fairness** and **governance**. It supports fairness by stating that the AI system provides recommendations rather than decisions, ensuring human oversight and explicitly excluding protected attributes from its matching process. The policy also supports governance by detailing mechanisms for applicants to object to algorithmic processing, demonstrating a commitment to responsible AI practices.",
+          "title": "Candidate Privacy Policy",
+          "url": "https://appliedmaterials.com/us/en/pages/candidate-privacy-policy.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Transparency",
+      "evidence_count": 2,
+      "findings": "The \"Applied Materials Careers Portal\" help page describes an AI-powered job matching system. This system uses candidate skills and experience to suggest suitable roles, demonstrating transparency in how candidate qualifications are matched to open positions.",
+      "max_score": 2,
+      "path_to_improvement": "Document AI systems in use, including vendor/third-party AI tools.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The \"Applied Materials Careers Portal\" help page provides evidence for the **transparency** pillar of responsible AI. It describes an AI-powered job matching system that uses candidate skills and experience to suggest suitable roles, demonstrating transparency in how candidate qualifications are matched to open positions.",
+          "title": "Applied Materials Careers Portal",
+          "url": "https://appliedmaterials.com/us/en/careers.html"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-02-23T21:43:29Z",
+  "run_id": "20260202_200851_4c45",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Transparency",
+      "Explainability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Applied Materials' candidate privacy policy document states that its AI system provides recommendations rather than decisions, ensuring human oversight. This policy further indicates that the AI system explicitly excludes protected attributes from its matching process, addressing fairness, and details mechanisms for applicants to object to algorithmic processing, covering governance. These policy-level disclosures contribute to 3 of 7 evaluated responsible AI pillars having documented evidence, based on a review of 2 publicly available sources. No qualifying public evidence was found for transparency, explainability, and 2 additional pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 3,
+    "total_sources_used": 2
+  }
+}

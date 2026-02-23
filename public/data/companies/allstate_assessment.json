@@ -1,0 +1,275 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "Allstate",
+  "company_slug": "allstate",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 5,
+      "POLICY": 44
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "A court filing describes Allstate's use of a secret algorithm (CGR) for microsegmentation and non-risk-based pricing adjustments. This document references a lack of disclosure and disparate rates that raise explainability concerns.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for **explainability, external_accountability, fairness, governance, and transparency**. It details Allstate's use of a secret algorithm (CGR) for microsegmentation and non-risk-based pricing adjustments, highlighting a lack of disclosure and disparate rates that raise fairness and explainability concerns. The document also points to external accountability issues due to regulatory rejection and governance over the proprietary retention model used for factor selection.",
+          "title": "Trzeciak v. Allstate Property & Casualty Insurance Co. - Michigan Court Decision",
+          "url": "https://govinfo.gov/content/pkg/USCOURTS-mied-2_21-cv-10737/pdf/USCOURTS-mied-2_21-cv-10737-0.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 4,
+      "findings": "Allstate's 2023 annual report describes a baseline disclosure of algorithm-driven risk management practices subject to regulatory oversight. However, a court filing references external accountability issues due to regulatory rejection.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "The Allstate 2024 Form 10-K Annual Report provides evidence for **external accountability, governance, privacy, and transparency**. This SEC filing details Allstate's analytics-driven underwriting strategy, which utilizes proprietary pricing algorithms incorporating telematics, insurance scoring, and risk evaluation factors. The report documents material risks associated with algorithmic decision-making, mentions the use of vendor and internal models, and discusses the expansion of AI/ML utilization, all of which imply robust governance frameworks and considerations for transparency and privacy in data collection and use.",
+          "title": "Allstate 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/899051/000089905125000015/all-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "The Allstate 2023 Form 10-K Annual Report provides evidence for external accountability, fairness, governance, privacy, and transparency. This SEC filing establishes Allstate's long-standing use of data analytics, telematics, and algorithmic decision systems in underwriting and pricing, indicating a baseline disclosure of algorithm-driven risk management practices subject to regulatory oversight (external_accountability, governance). The report also mentions a commitment to responsible and compliant implementation of AI/ML, including the expansion of its utilization, and details an IDE framework with specific roles and actions for operational governance. Furthermore, it touches upon fair and equitable compensation practices and pay equity analyses to address pay gaps (fairness), and describes an AI system's capabilities regarding transparency and data capture (transparency, privacy). The mention of a \"flawed, biased\" third-party valuation tool also highlights potential fairness issues and the need for governance over vendor tools.",
+          "title": "Allstate 2023 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/899051/000089905124000013/all-20231231.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for **explainability, external_accountability, fairness, governance, and transparency**. It details Allstate's use of a secret algorithm (CGR) for microsegmentation and non-risk-based pricing adjustments, highlighting a lack of disclosure and disparate rates that raise fairness and explainability concerns. The document also points to external accountability issues due to regulatory rejection and governance over the proprietary retention model used for factor selection.",
+          "title": "Trzeciak v. Allstate Property & Casualty Insurance Co. - Michigan Court Decision",
+          "url": "https://govinfo.gov/content/pkg/USCOURTS-mied-2_21-cv-10737/pdf/USCOURTS-mied-2_21-cv-10737-0.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 11,
+      "findings": "Allstate's 2023 annual report references fair and equitable compensation practices, pay equity analyses, and potential fairness issues with a third-party valuation tool. However, a court filing and technical paper detail how Allstate's secret CGR algorithm uses non-risk factors, leading to disparate pricing and disproportionately impacting certain demographic groups, raising fairness concerns.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "The Allstate 2023 Form 10-K Annual Report provides evidence for external accountability, fairness, governance, privacy, and transparency. This SEC filing establishes Allstate's long-standing use of data analytics, telematics, and algorithmic decision systems in underwriting and pricing, indicating a baseline disclosure of algorithm-driven risk management practices subject to regulatory oversight (external_accountability, governance). The report also mentions a commitment to responsible and compliant implementation of AI/ML, including the expansion of its utilization, and details an IDE framework with specific roles and actions for operational governance. Furthermore, it touches upon fair and equitable compensation practices and pay equity analyses to address pay gaps (fairness), and describes an AI system's capabilities regarding transparency and data capture (transparency, privacy). The mention of a \"flawed, biased\" third-party valuation tool also highlights potential fairness issues and the need for governance over vendor tools.",
+          "title": "Allstate 2023 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/899051/000089905124000013/all-20231231.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for **explainability, external_accountability, fairness, governance, and transparency**. It details Allstate's use of a secret algorithm (CGR) for microsegmentation and non-risk-based pricing adjustments, highlighting a lack of disclosure and disparate rates that raise fairness and explainability concerns. The document also points to external accountability issues due to regulatory rejection and governance over the proprietary retention model used for factor selection.",
+          "title": "Trzeciak v. Allstate Property & Casualty Insurance Co. - Michigan Court Decision",
+          "url": "https://govinfo.gov/content/pkg/USCOURTS-mied-2_21-cv-10737/pdf/USCOURTS-mied-2_21-cv-10737-0.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by detailing how Allstate's CGR algorithm uses non-risk factors like prior premium levels and price elasticity, leading to disparate pricing for customers with identical risk profiles and disproportionately impacting certain demographic groups. Evidence for governance is found in the mention of algorithms being approved by state regulators. Transparency is supported by the paper's analysis of input variables, model types (decision trees, regression), and the critique of the non-disclosure of algorithm details to the public.",
+          "title": "The Markup - Algorithmic Analysis of Allstate Pricing Model",
+          "url": "https://themarkup.org/allstates-algorithm/2020/02/25/show-your-work-car-insurance-suckers-list"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 33,
+      "findings": "Allstate Health Solutions' privacy policy explicitly commits to the responsible use of AI and protecting personal information. Allstate's 2023 annual report describes a baseline disclosure of algorithm-driven risk management practices subject to regulatory oversight, details an IDE framework for operational governance, and references a commitment to responsible AI/ML implementation and the need for governance over vendor tools. Additionally, a court filing references governance over a proprietary retention model, and a technical paper references algorithms approved by state regulators.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document from Allstate Health Solutions provides evidence for the **governance** and **privacy** pillars of responsible AI. It demonstrates governance by explicitly committing to the responsible use of AI and protecting personal information when AI is employed. The policy supports the privacy pillar by outlining that sensitive personal information is used only as reasonably necessary for service delivery.",
+          "title": "Allstate Health Solutions Privacy Statement - Responsible AI Commitment",
+          "url": "https://allstatehealth.com/privacy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "The Allstate 2024 Form 10-K Annual Report provides evidence for **external accountability, governance, privacy, and transparency**. This SEC filing details Allstate's analytics-driven underwriting strategy, which utilizes proprietary pricing algorithms incorporating telematics, insurance scoring, and risk evaluation factors. The report documents material risks associated with algorithmic decision-making, mentions the use of vendor and internal models, and discusses the expansion of AI/ML utilization, all of which imply robust governance frameworks and considerations for transparency and privacy in data collection and use.",
+          "title": "Allstate 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/899051/000089905125000015/all-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "The Allstate 2023 Form 10-K Annual Report provides evidence for external accountability, fairness, governance, privacy, and transparency. This SEC filing establishes Allstate's long-standing use of data analytics, telematics, and algorithmic decision systems in underwriting and pricing, indicating a baseline disclosure of algorithm-driven risk management practices subject to regulatory oversight (external_accountability, governance). The report also mentions a commitment to responsible and compliant implementation of AI/ML, including the expansion of its utilization, and details an IDE framework with specific roles and actions for operational governance. Furthermore, it touches upon fair and equitable compensation practices and pay equity analyses to address pay gaps (fairness), and describes an AI system's capabilities regarding transparency and data capture (transparency, privacy). The mention of a \"flawed, biased\" third-party valuation tool also highlights potential fairness issues and the need for governance over vendor tools.",
+          "title": "Allstate 2023 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/899051/000089905124000013/all-20231231.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for **explainability, external_accountability, fairness, governance, and transparency**. It details Allstate's use of a secret algorithm (CGR) for microsegmentation and non-risk-based pricing adjustments, highlighting a lack of disclosure and disparate rates that raise fairness and explainability concerns. The document also points to external accountability issues due to regulatory rejection and governance over the proprietary retention model used for factor selection.",
+          "title": "Trzeciak v. Allstate Property & Casualty Insurance Co. - Michigan Court Decision",
+          "url": "https://govinfo.gov/content/pkg/USCOURTS-mied-2_21-cv-10737/pdf/USCOURTS-mied-2_21-cv-10737-0.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by detailing how Allstate's CGR algorithm uses non-risk factors like prior premium levels and price elasticity, leading to disparate pricing for customers with identical risk profiles and disproportionately impacting certain demographic groups. Evidence for governance is found in the mention of algorithms being approved by state regulators. Transparency is supported by the paper's analysis of input variables, model types (decision trees, regression), and the critique of the non-disclosure of algorithm details to the public.",
+          "title": "The Markup - Algorithmic Analysis of Allstate Pricing Model",
+          "url": "https://themarkup.org/allstates-algorithm/2020/02/25/show-your-work-car-insurance-suckers-list"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "Allstate Health Solutions' privacy policy outlines that sensitive personal information is used only as reasonably necessary for service delivery. Allstate's 2023 annual report also describes an AI system's capabilities regarding data capture.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document from Allstate Health Solutions provides evidence for the **governance** and **privacy** pillars of responsible AI. It demonstrates governance by explicitly committing to the responsible use of AI and protecting personal information when AI is employed. The policy supports the privacy pillar by outlining that sensitive personal information is used only as reasonably necessary for service delivery.",
+          "title": "Allstate Health Solutions Privacy Statement - Responsible AI Commitment",
+          "url": "https://allstatehealth.com/privacy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "The Allstate 2024 Form 10-K Annual Report provides evidence for **external accountability, governance, privacy, and transparency**. This SEC filing details Allstate's analytics-driven underwriting strategy, which utilizes proprietary pricing algorithms incorporating telematics, insurance scoring, and risk evaluation factors. The report documents material risks associated with algorithmic decision-making, mentions the use of vendor and internal models, and discusses the expansion of AI/ML utilization, all of which imply robust governance frameworks and considerations for transparency and privacy in data collection and use.",
+          "title": "Allstate 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/899051/000089905125000015/all-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "The Allstate 2023 Form 10-K Annual Report provides evidence for external accountability, fairness, governance, privacy, and transparency. This SEC filing establishes Allstate's long-standing use of data analytics, telematics, and algorithmic decision systems in underwriting and pricing, indicating a baseline disclosure of algorithm-driven risk management practices subject to regulatory oversight (external_accountability, governance). The report also mentions a commitment to responsible and compliant implementation of AI/ML, including the expansion of its utilization, and details an IDE framework with specific roles and actions for operational governance. Furthermore, it touches upon fair and equitable compensation practices and pay equity analyses to address pay gaps (fairness), and describes an AI system's capabilities regarding transparency and data capture (transparency, privacy). The mention of a \"flawed, biased\" third-party valuation tool also highlights potential fairness issues and the need for governance over vendor tools.",
+          "title": "Allstate 2023 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/899051/000089905124000013/all-20231231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 20,
+      "findings": "Allstate's annual reports detail an analytics-driven underwriting strategy utilizing proprietary pricing algorithms and describe a baseline disclosure of algorithm-driven risk management practices, including an AI system's capabilities regarding transparency. However, a court filing and technical paper reference a lack of disclosure regarding a secret algorithm (CGR) and critique the non-disclosure of algorithm details to the public, despite analyzing its input variables and model types.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "The Allstate 2024 Form 10-K Annual Report provides evidence for **external accountability, governance, privacy, and transparency**. This SEC filing details Allstate's analytics-driven underwriting strategy, which utilizes proprietary pricing algorithms incorporating telematics, insurance scoring, and risk evaluation factors. The report documents material risks associated with algorithmic decision-making, mentions the use of vendor and internal models, and discusses the expansion of AI/ML utilization, all of which imply robust governance frameworks and considerations for transparency and privacy in data collection and use.",
+          "title": "Allstate 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/899051/000089905125000015/all-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "The Allstate 2023 Form 10-K Annual Report provides evidence for external accountability, fairness, governance, privacy, and transparency. This SEC filing establishes Allstate's long-standing use of data analytics, telematics, and algorithmic decision systems in underwriting and pricing, indicating a baseline disclosure of algorithm-driven risk management practices subject to regulatory oversight (external_accountability, governance). The report also mentions a commitment to responsible and compliant implementation of AI/ML, including the expansion of its utilization, and details an IDE framework with specific roles and actions for operational governance. Furthermore, it touches upon fair and equitable compensation practices and pay equity analyses to address pay gaps (fairness), and describes an AI system's capabilities regarding transparency and data capture (transparency, privacy). The mention of a \"flawed, biased\" third-party valuation tool also highlights potential fairness issues and the need for governance over vendor tools.",
+          "title": "Allstate 2023 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/899051/000089905124000013/all-20231231.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for **explainability, external_accountability, fairness, governance, and transparency**. It details Allstate's use of a secret algorithm (CGR) for microsegmentation and non-risk-based pricing adjustments, highlighting a lack of disclosure and disparate rates that raise fairness and explainability concerns. The document also points to external accountability issues due to regulatory rejection and governance over the proprietary retention model used for factor selection.",
+          "title": "Trzeciak v. Allstate Property & Casualty Insurance Co. - Michigan Court Decision",
+          "url": "https://govinfo.gov/content/pkg/USCOURTS-mied-2_21-cv-10737/pdf/USCOURTS-mied-2_21-cv-10737-0.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by detailing how Allstate's CGR algorithm uses non-risk factors like prior premium levels and price elasticity, leading to disparate pricing for customers with identical risk profiles and disproportionately impacting certain demographic groups. Evidence for governance is found in the mention of algorithms being approved by state regulators. Transparency is supported by the paper's analysis of input variables, model types (decision trees, regression), and the critique of the non-disclosure of algorithm details to the public.",
+          "title": "The Markup - Algorithmic Analysis of Allstate Pricing Model",
+          "url": "https://themarkup.org/allstates-algorithm/2020/02/25/show-your-work-car-insurance-suckers-list"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T21:42:11Z",
+  "run_id": "20260126_233124_e5bf",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Human Oversight & Accountability"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Allstate's public materials address 6 of 7 evaluated responsible AI pillars, with evidence found at both operational and policy levels. Operationally, transparency is documented through an analytics-driven underwriting strategy utilizing proprietary pricing algorithms, and privacy materials outline that sensitive personal information is used only as reasonably necessary for service delivery. Governance practices further include an explicit commitment to the responsible use of AI and protecting personal information when AI is employed. Policy-level evidence addresses fairness, referencing fair and equitable compensation practices, explainability, noting concerns regarding a secret algorithm for pricing adjustments, and external accountability, with disclosures referencing algorithm-driven risk management practices subject to regulatory oversight. No qualifying public evidence was found for oversight. These findings are based on a review of 13 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 51,
+    "total_sources_used": 5
+  }
+}

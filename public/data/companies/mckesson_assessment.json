@@ -1,0 +1,443 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "McKesson",
+  "company_slug": "mckesson",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 9,
+      "OPERATIONAL": 35,
+      "POLICY": 66
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "McKesson's job postings require promoting principles of explainability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This job posting for a McKesson Technical Program Manager for AI/ML Initiatives provides evidence for **fairness, transparency, explainability, and governance**. The role explicitly requires promoting principles of fairness, transparency, and explainability, and ensuring adherence to compliance frameworks. Furthermore, responsibilities include maintaining documentation, data lineage, reproducibility, and MLOps governance, indicating a focus on operationalizing responsible AI practices.",
+          "title": "McKesson Technical Program Manager - AI/ML Initiatives",
+          "url": "https://careers.mckesson.com/en/job/ontario/technical-program-manager-ai-ml-initiatives/733/90414965168"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 8,
+      "findings": "McKesson discusses potential future AI regulation and states a commitment to responding to legal requests. The Compliance Committee Charter grants authority to hire independent advisors, and the Audit Committee Charter grants authority for auditor oversight and preapproval of services.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The McKesson FY2024 Annual Report (Form 10-K) provides evidence for **governance**, **external accountability**, **fairness**, and **privacy**. The report details governance structures, including risk management oversight by committees and management's role in financial valuations and data use. It also touches upon external accountability through discussions of potential future AI regulation and a commitment to responding to legal requests. Evidence for fairness is found in the acknowledgment of AI-introduced bias as a risk, and privacy is supported by explicit mentions of compliance with privacy and data protection laws.",
+          "title": "McKesson FY2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/927653/000092765324000069/a756587-008xars.pdf"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The McKesson Compliance Committee Charter establishes a committee responsible for overseeing technology-related risks, providing evidence for **governance** by outlining its meeting cadence, risk review processes, and authority to conduct investigations. This charter also supports **external accountability** by granting the committee the authority to hire independent advisors, demonstrating mechanisms for external oversight.",
+          "title": "McKesson Compliance Committee Charter",
+          "url": "https://mckesson.com/about-us/corporate-governance/board-committee-composition-and-charters/compliance-committee-charter"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This McKesson Audit Committee Charter supports the **governance**, **external_accountability**, and **privacy** pillars. The charter outlines the Audit Committee's role in coordinating with the Compliance Committee on risk oversight, including technology, cybersecurity, and privacy matters, demonstrating governance. It also grants authority for auditor oversight and preapproval of services, which are key components of external_accountability, and explicitly mentions privacy as an area of risk oversight.",
+          "title": "McKesson Audit Committee Charter",
+          "url": "https://mckesson.com/about-us/corporate-governance/board-committee-composition-and-charters/audit-committee-charter"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_019",
+          "source_tier": "authority",
+          "summary": "The McKesson 2024 Proxy Statement provides evidence for **governance**, **oversight**, **external_accountability**, and **privacy**. This proxy statement details the Board's structure for technology and cybersecurity oversight, including the joint responsibility of the Compliance and Audit Committees for technology-related risk. Furthermore, the document highlights the Board's engagement with AI developments through educational sessions and tabletop exercises, demonstrating a commitment to understanding and governing AI, which also supports the privacy pillar through its focus on data governance and cybersecurity initiatives.",
+          "title": "McKesson 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/927653/000092765324000065/mck-2024xdef14a.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 4,
+      "findings": "McKesson acknowledges AI-introduced bias as a risk and commits to technologies that benefit underserved populations, aiming for equitable access. Job postings require promoting fairness principles. The company has also made commitments to non-discriminatory hiring and training following alleged systemic hiring discrimination.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The McKesson FY2024 Annual Report (Form 10-K) provides evidence for **governance**, **external accountability**, **fairness**, and **privacy**. The report details governance structures, including risk management oversight by committees and management's role in financial valuations and data use. It also touches upon external accountability through discussions of potential future AI regulation and a commitment to responding to legal requests. Evidence for fairness is found in the acknowledgment of AI-introduced bias as a risk, and privacy is supported by explicit mentions of compliance with privacy and data protection laws.",
+          "title": "McKesson FY2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/927653/000092765324000069/a756587-008xars.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This job posting for a McKesson Technical Program Manager for AI/ML Initiatives provides evidence for **fairness, transparency, explainability, and governance**. The role explicitly requires promoting principles of fairness, transparency, and explainability, and ensuring adherence to compliance frameworks. Furthermore, responsibilities include maintaining documentation, data lineage, reproducibility, and MLOps governance, indicating a focus on operationalizing responsible AI practices.",
+          "title": "McKesson Technical Program Manager - AI/ML Initiatives",
+          "url": "https://careers.mckesson.com/en/job/ontario/technical-program-manager-ai-ml-initiatives/733/90414965168"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"McKesson Recommendations to Achieve Health Equity,\" provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports fairness by committing to technologies that benefit underserved populations, aiming for equitable access. The document also supports governance by outlining a commitment to leveraging technology to address health disparities, indicating a strategic direction for responsible AI implementation.",
+          "title": "McKesson Recommendations to Achieve Health Equity",
+          "url": "https://www.mckesson.com/siteassets/documents/about-mckesson/public-affairs/mckesson-health-equity-priorities/mckesson-health-equity-priorities/"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_022",
+          "source_tier": "authority",
+          "summary": "This U.S. Department of Labor press release provides evidence for the **fairness** and **governance** pillars of responsible AI. The enforcement action against McKesson Medical-Surgical Inc. highlights alleged systemic hiring discrimination, indicating a failure in fair treatment of applicants. The company's agreement to resolve these allegations, which includes commitments to non-discriminatory hiring and training, demonstrates a move towards establishing governance principles to ensure fairness in their practices.",
+          "title": "US Department of Labor: McKesson Corp. subsidiary to pay $448K to resolve alleged systemic racial hiring discrimination",
+          "url": "https://dol.gov/newsroom/releases/ofccp/ofccp20241104"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 101,
+      "findings": "McKesson details governance structures, including risk management oversight by committees and management's role in data use. Charters outline risk oversight for technology, cybersecurity, and privacy, with a Code of Conduct including AI content and aligning with ethical leadership training. Job postings detail responsibilities for developing AI governance frameworks, conducting risk assessments, implementing mitigation strategies, and establishing standards for model evaluation, data quality, and ethical AI use. The Board engages with AI developments through educational sessions and tabletop exercises, and the company leverages algorithms for proactive decision-making and uses smart contracts for data sharing.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The McKesson FY2024 Annual Report (Form 10-K) provides evidence for **governance**, **external accountability**, **fairness**, and **privacy**. The report details governance structures, including risk management oversight by committees and management's role in financial valuations and data use. It also touches upon external accountability through discussions of potential future AI regulation and a commitment to responding to legal requests. Evidence for fairness is found in the acknowledgment of AI-introduced bias as a risk, and privacy is supported by explicit mentions of compliance with privacy and data protection laws.",
+          "title": "McKesson FY2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/927653/000092765324000069/a756587-008xars.pdf"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The McKesson Compliance Committee Charter establishes a committee responsible for overseeing technology-related risks, providing evidence for **governance** by outlining its meeting cadence, risk review processes, and authority to conduct investigations. This charter also supports **external accountability** by granting the committee the authority to hire independent advisors, demonstrating mechanisms for external oversight.",
+          "title": "McKesson Compliance Committee Charter",
+          "url": "https://mckesson.com/about-us/corporate-governance/board-committee-composition-and-charters/compliance-committee-charter"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This McKesson Audit Committee Charter supports the **governance**, **external_accountability**, and **privacy** pillars. The charter outlines the Audit Committee's role in coordinating with the Compliance Committee on risk oversight, including technology, cybersecurity, and privacy matters, demonstrating governance. It also grants authority for auditor oversight and preapproval of services, which are key components of external_accountability, and explicitly mentions privacy as an area of risk oversight.",
+          "title": "McKesson Audit Committee Charter",
+          "url": "https://mckesson.com/about-us/corporate-governance/board-committee-composition-and-charters/audit-committee-charter"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"McKesson Code of Conduct,\" provides evidence for the **governance** pillar of responsible AI. The updated code explicitly includes new content related to Artificial Intelligence and aligns with ethical leadership training principles, indicating a policy-level commitment to governing AI practices within the company.",
+          "title": "McKesson Code of Conduct",
+          "url": "https://mckesson.com/commitments/compliance-and-ethics/code-of-conduct-revision-history"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post describes Ontada's AI-powered oncology data platform, providing evidence for **governance** and **transparency**. The platform's ability to process vast amounts of unstructured oncology data to generate real-world evidence for drug development and provider education suggests a focus on responsible data use and decision-making. The mention of maintaining data quality and accuracy standards further supports the transparency pillar by indicating a commitment to reliable AI outputs.",
+          "title": "Ontada AI-Powered Oncology Data Platform",
+          "url": "https://mckesson.com/stories-insights/five-ways-ontada-powers-speed-and-precision"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"McKesson Utilization Analytics: Predictive Analytics for Health Systems,\" provides evidence for the **governance** pillar of responsible AI. The post highlights the use of algorithms for proactive decision-making in areas like drug procurement, formulary decisions, and pharmacy budgeting, demonstrating a commitment to data-driven governance and strategy development. Furthermore, it describes how the tool offers insights for understanding decisions and facilitating discussions, suggesting a policy for data-informed governance and investment in data analysis tools for decision-making.",
+          "title": "McKesson Utilization Analytics: Predictive Analytics for Health Systems",
+          "url": "https://www.mckesson.com/health-systems/prescribed-perspectives/how-mckesson-uses-predictive-analytics-to-help-health-systems-identify-drug-profitability/"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned description of BlistAssist, an automated medication packaging system, provides evidence for the **governance** and **oversight** pillars. The system's documentation of operator activity, lot numbers, and expiration dates supports governance by ensuring traceability and compliance for audit trails and recalls. Furthermore, the mention of human review steps like \"verify\" and \"approve\" directly indicates oversight mechanisms within the process.",
+          "title": "BlistAssist: Automated Medication Blister Card Packaging System",
+          "url": "https://mckesson.com/automation/blister-card-packaging-solutions/blistassist"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This job posting for McKesson's Chief Counsel of Data, Privacy & Regulatory AI Governance provides evidence for the **governance**, **privacy**, and **transparency** pillars. It details operational activities such as developing governance frameworks, conducting risk assessments, and implementing mitigation strategies for AI, directly supporting the **governance** pillar. The role's focus on ensuring compliance with Canadian privacy laws like PIPEDA and establishing policies for responsible data use supports the **privacy** pillar. Furthermore, the mention of an AI system (virtual assistant Gia) and its use case in recruiting communications indicates a focus on the **transparency** of AI deployment.",
+          "title": "McKesson Chief Counsel - Data, Privacy & Regulatory AI Governance Role",
+          "url": "https://careers.mckesson.com/en/job/mississauga/chief-counsel-data-privacy-and-regulatory/733/90288016576"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This job posting for a McKesson Technical Program Manager for AI/ML Initiatives provides evidence for **fairness, transparency, explainability, and governance**. The role explicitly requires promoting principles of fairness, transparency, and explainability, and ensuring adherence to compliance frameworks. Furthermore, responsibilities include maintaining documentation, data lineage, reproducibility, and MLOps governance, indicating a focus on operationalizing responsible AI practices.",
+          "title": "McKesson Technical Program Manager - AI/ML Initiatives",
+          "url": "https://careers.mckesson.com/en/job/ontario/technical-program-manager-ai-ml-initiatives/733/90414965168"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This job posting for a Sr. Data Governance Analyst provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the role's responsibility in leading AI initiatives, ensuring compliance with data governance policies, and shaping frameworks for AI/ML models, emphasizing ethical data usage. The posting also touches on transparency by describing an AI system and its use case, though this is presented as a factual statement rather than a commitment to execution.",
+          "title": "McKesson Sr. Data Governance Analyst Position",
+          "url": "https://careers.mckesson.com/en/job/ontario/sr-data-governance-analyst/733/90916601072"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This job posting for a Director, Data & AI Products role provides evidence for **governance, privacy, and transparency**. It supports governance by outlining responsibilities for establishing standards in model evaluation, data quality, and ethical AI use, as well as shaping strategy and evaluating value. The posting also supports privacy through its emphasis on \"privacy by design\" and secure defaults, and transparency by mentioning \"AI transparency\" and the use of an AI system (virtual assistant Gia) in recruiting.",
+          "title": "McKesson Director, Data & AI Products Position",
+          "url": "https://careers.mckesson.com/en/job/irving/director-data-and-ai-products/733/90414966128"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_019",
+          "source_tier": "authority",
+          "summary": "The McKesson 2024 Proxy Statement provides evidence for **governance**, **oversight**, **external_accountability**, and **privacy**. This proxy statement details the Board's structure for technology and cybersecurity oversight, including the joint responsibility of the Compliance and Audit Committees for technology-related risk. Furthermore, the document highlights the Board's engagement with AI developments through educational sessions and tabletop exercises, demonstrating a commitment to understanding and governing AI, which also supports the privacy pillar through its focus on data governance and cybersecurity initiatives.",
+          "title": "McKesson 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/927653/000092765324000065/mck-2024xdef14a.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This technical paper on McKesson's Distributed Ledger Technology for drug supply chain traceability provides evidence for **governance, privacy, and transparency**. It supports governance by describing the use of smart contracts for automated payments and data sharing, indicating accountability and decision-making. The paper also touches on privacy by mentioning improvements and regulatory guidance, and supports transparency through its discussion of AI's role in identifying fraud and anomalies within the blockchain data.",
+          "title": "McKesson Distributed Ledger Technology for Drug Supply Chain Traceability",
+          "url": "https://impactfactor.org/PDF/IJPQA/15/IJPQA,Vol15,Issue2,Article71.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"McKesson Recommendations to Achieve Health Equity,\" provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports fairness by committing to technologies that benefit underserved populations, aiming for equitable access. The document also supports governance by outlining a commitment to leveraging technology to address health disparities, indicating a strategic direction for responsible AI implementation.",
+          "title": "McKesson Recommendations to Achieve Health Equity",
+          "url": "https://www.mckesson.com/siteassets/documents/about-mckesson/public-affairs/mckesson-health-equity-priorities/mckesson-health-equity-priorities/"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_022",
+          "source_tier": "authority",
+          "summary": "This U.S. Department of Labor press release provides evidence for the **fairness** and **governance** pillars of responsible AI. The enforcement action against McKesson Medical-Surgical Inc. highlights alleged systemic hiring discrimination, indicating a failure in fair treatment of applicants. The company's agreement to resolve these allegations, which includes commitments to non-discriminatory hiring and training, demonstrates a move towards establishing governance principles to ensure fairness in their practices.",
+          "title": "US Department of Labor: McKesson Corp. subsidiary to pay $448K to resolve alleged systemic racial hiring discrimination",
+          "url": "https://dol.gov/newsroom/releases/ofccp/ofccp20241104"
+        }
+      ],
+      "score": 2,
+      "source_count": 15
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 12,
+      "findings": "McKesson's Board structure details technology and cybersecurity oversight, including engagement with AI developments through educational sessions and tabletop exercises. Human review steps, such as \"verify\" and \"approve,\" are mentioned within an automated medication packaging system.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned description of BlistAssist, an automated medication packaging system, provides evidence for the **governance** and **oversight** pillars. The system's documentation of operator activity, lot numbers, and expiration dates supports governance by ensuring traceability and compliance for audit trails and recalls. Furthermore, the mention of human review steps like \"verify\" and \"approve\" directly indicates oversight mechanisms within the process.",
+          "title": "BlistAssist: Automated Medication Blister Card Packaging System",
+          "url": "https://mckesson.com/automation/blister-card-packaging-solutions/blistassist"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_019",
+          "source_tier": "authority",
+          "summary": "The McKesson 2024 Proxy Statement provides evidence for **governance**, **oversight**, **external_accountability**, and **privacy**. This proxy statement details the Board's structure for technology and cybersecurity oversight, including the joint responsibility of the Compliance and Audit Committees for technology-related risk. Furthermore, the document highlights the Board's engagement with AI developments through educational sessions and tabletop exercises, demonstrating a commitment to understanding and governing AI, which also supports the privacy pillar through its focus on data governance and cybersecurity initiatives.",
+          "title": "McKesson 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/927653/000092765324000065/mck-2024xdef14a.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 11,
+      "findings": "McKesson explicitly mentions compliance with privacy and data protection laws, with an Audit Committee Charter outlining risk oversight for privacy matters. Job postings emphasize \"privacy by design\" and secure defaults, focusing on compliance with Canadian privacy laws like PIPEDA and establishing policies for responsible data use. A proxy statement references a focus on data governance and cybersecurity initiatives related to privacy, and a technical paper mentions improvements and regulatory guidance.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The McKesson FY2024 Annual Report (Form 10-K) provides evidence for **governance**, **external accountability**, **fairness**, and **privacy**. The report details governance structures, including risk management oversight by committees and management's role in financial valuations and data use. It also touches upon external accountability through discussions of potential future AI regulation and a commitment to responding to legal requests. Evidence for fairness is found in the acknowledgment of AI-introduced bias as a risk, and privacy is supported by explicit mentions of compliance with privacy and data protection laws.",
+          "title": "McKesson FY2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/927653/000092765324000069/a756587-008xars.pdf"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This McKesson Audit Committee Charter supports the **governance**, **external_accountability**, and **privacy** pillars. The charter outlines the Audit Committee's role in coordinating with the Compliance Committee on risk oversight, including technology, cybersecurity, and privacy matters, demonstrating governance. It also grants authority for auditor oversight and preapproval of services, which are key components of external_accountability, and explicitly mentions privacy as an area of risk oversight.",
+          "title": "McKesson Audit Committee Charter",
+          "url": "https://mckesson.com/about-us/corporate-governance/board-committee-composition-and-charters/audit-committee-charter"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This job posting for McKesson's Chief Counsel of Data, Privacy & Regulatory AI Governance provides evidence for the **governance**, **privacy**, and **transparency** pillars. It details operational activities such as developing governance frameworks, conducting risk assessments, and implementing mitigation strategies for AI, directly supporting the **governance** pillar. The role's focus on ensuring compliance with Canadian privacy laws like PIPEDA and establishing policies for responsible data use supports the **privacy** pillar. Furthermore, the mention of an AI system (virtual assistant Gia) and its use case in recruiting communications indicates a focus on the **transparency** of AI deployment.",
+          "title": "McKesson Chief Counsel - Data, Privacy & Regulatory AI Governance Role",
+          "url": "https://careers.mckesson.com/en/job/mississauga/chief-counsel-data-privacy-and-regulatory/733/90288016576"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This job posting for a Director, Data & AI Products role provides evidence for **governance, privacy, and transparency**. It supports governance by outlining responsibilities for establishing standards in model evaluation, data quality, and ethical AI use, as well as shaping strategy and evaluating value. The posting also supports privacy through its emphasis on \"privacy by design\" and secure defaults, and transparency by mentioning \"AI transparency\" and the use of an AI system (virtual assistant Gia) in recruiting.",
+          "title": "McKesson Director, Data & AI Products Position",
+          "url": "https://careers.mckesson.com/en/job/irving/director-data-and-ai-products/733/90414966128"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_019",
+          "source_tier": "authority",
+          "summary": "The McKesson 2024 Proxy Statement provides evidence for **governance**, **oversight**, **external_accountability**, and **privacy**. This proxy statement details the Board's structure for technology and cybersecurity oversight, including the joint responsibility of the Compliance and Audit Committees for technology-related risk. Furthermore, the document highlights the Board's engagement with AI developments through educational sessions and tabletop exercises, demonstrating a commitment to understanding and governing AI, which also supports the privacy pillar through its focus on data governance and cybersecurity initiatives.",
+          "title": "McKesson 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/927653/000092765324000065/mck-2024xdef14a.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This technical paper on McKesson's Distributed Ledger Technology for drug supply chain traceability provides evidence for **governance, privacy, and transparency**. It supports governance by describing the use of smart contracts for automated payments and data sharing, indicating accountability and decision-making. The paper also touches on privacy by mentioning improvements and regulatory guidance, and supports transparency through its discussion of AI's role in identifying fraud and anomalies within the blockchain data.",
+          "title": "McKesson Distributed Ledger Technology for Drug Supply Chain Traceability",
+          "url": "https://impactfactor.org/PDF/IJPQA/15/IJPQA,Vol15,Issue2,Article71.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 13,
+      "findings": "McKesson's practices include maintaining data quality and accuracy standards for reliable AI outputs. The company references AI systems and their use cases, such as a virtual assistant Gia in recruiting communications, and mentions \"AI transparency.\" Job postings also require promoting transparency principles and maintaining documentation, data lineage, and reproducibility.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The McKesson FY2024 Annual Report (Form 10-K) provides evidence for **governance**, **external accountability**, **fairness**, and **privacy**. The report details governance structures, including risk management oversight by committees and management's role in financial valuations and data use. It also touches upon external accountability through discussions of potential future AI regulation and a commitment to responding to legal requests. Evidence for fairness is found in the acknowledgment of AI-introduced bias as a risk, and privacy is supported by explicit mentions of compliance with privacy and data protection laws.",
+          "title": "McKesson FY2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/927653/000092765324000069/a756587-008xars.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post describes Ontada's AI-powered oncology data platform, providing evidence for **governance** and **transparency**. The platform's ability to process vast amounts of unstructured oncology data to generate real-world evidence for drug development and provider education suggests a focus on responsible data use and decision-making. The mention of maintaining data quality and accuracy standards further supports the transparency pillar by indicating a commitment to reliable AI outputs.",
+          "title": "Ontada AI-Powered Oncology Data Platform",
+          "url": "https://mckesson.com/stories-insights/five-ways-ontada-powers-speed-and-precision"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This job posting for McKesson's Chief Counsel of Data, Privacy & Regulatory AI Governance provides evidence for the **governance**, **privacy**, and **transparency** pillars. It details operational activities such as developing governance frameworks, conducting risk assessments, and implementing mitigation strategies for AI, directly supporting the **governance** pillar. The role's focus on ensuring compliance with Canadian privacy laws like PIPEDA and establishing policies for responsible data use supports the **privacy** pillar. Furthermore, the mention of an AI system (virtual assistant Gia) and its use case in recruiting communications indicates a focus on the **transparency** of AI deployment.",
+          "title": "McKesson Chief Counsel - Data, Privacy & Regulatory AI Governance Role",
+          "url": "https://careers.mckesson.com/en/job/mississauga/chief-counsel-data-privacy-and-regulatory/733/90288016576"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This job posting for a McKesson Technical Program Manager for AI/ML Initiatives provides evidence for **fairness, transparency, explainability, and governance**. The role explicitly requires promoting principles of fairness, transparency, and explainability, and ensuring adherence to compliance frameworks. Furthermore, responsibilities include maintaining documentation, data lineage, reproducibility, and MLOps governance, indicating a focus on operationalizing responsible AI practices.",
+          "title": "McKesson Technical Program Manager - AI/ML Initiatives",
+          "url": "https://careers.mckesson.com/en/job/ontario/technical-program-manager-ai-ml-initiatives/733/90414965168"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This job posting for a Sr. Data Governance Analyst provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the role's responsibility in leading AI initiatives, ensuring compliance with data governance policies, and shaping frameworks for AI/ML models, emphasizing ethical data usage. The posting also touches on transparency by describing an AI system and its use case, though this is presented as a factual statement rather than a commitment to execution.",
+          "title": "McKesson Sr. Data Governance Analyst Position",
+          "url": "https://careers.mckesson.com/en/job/ontario/sr-data-governance-analyst/733/90916601072"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This job posting for a Director, Data & AI Products role provides evidence for **governance, privacy, and transparency**. It supports governance by outlining responsibilities for establishing standards in model evaluation, data quality, and ethical AI use, as well as shaping strategy and evaluating value. The posting also supports privacy through its emphasis on \"privacy by design\" and secure defaults, and transparency by mentioning \"AI transparency\" and the use of an AI system (virtual assistant Gia) in recruiting.",
+          "title": "McKesson Director, Data & AI Products Position",
+          "url": "https://careers.mckesson.com/en/job/irving/director-data-and-ai-products/733/90414966128"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_019",
+          "source_tier": "authority",
+          "summary": "The McKesson 2024 Proxy Statement provides evidence for **governance**, **oversight**, **external_accountability**, and **privacy**. This proxy statement details the Board's structure for technology and cybersecurity oversight, including the joint responsibility of the Compliance and Audit Committees for technology-related risk. Furthermore, the document highlights the Board's engagement with AI developments through educational sessions and tabletop exercises, demonstrating a commitment to understanding and governing AI, which also supports the privacy pillar through its focus on data governance and cybersecurity initiatives.",
+          "title": "McKesson 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/927653/000092765324000065/mck-2024xdef14a.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This technical paper on McKesson's Distributed Ledger Technology for drug supply chain traceability provides evidence for **governance, privacy, and transparency**. It supports governance by describing the use of smart contracts for automated payments and data sharing, indicating accountability and decision-making. The paper also touches on privacy by mentioning improvements and regulatory guidance, and supports transparency through its discussion of AI's role in identifying fraud and anomalies within the blockchain data.",
+          "title": "McKesson Distributed Ledger Technology for Drug Supply Chain Traceability",
+          "url": "https://impactfactor.org/PDF/IJPQA/15/IJPQA,Vol15,Issue2,Article71.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:55:02Z",
+  "run_id": "20260124_004155_7e48",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Evidence for McKesson's responsible AI practices spans both operational and policy levels, covering all 7 evaluated pillars. Operational practices include a company-owned description detailing human review steps like \"verify\" and \"approve\" within an automated medication packaging system for oversight, and an annual report explicitly mentioning compliance with privacy and data protection laws. Policy-level evidence addresses transparency through a blog post describing data quality and accuracy standards for reliable AI outputs, alongside commitments to fairness and explainability principles found in job postings. All 7 evaluated pillars have documented public evidence, with the assessment drawing on 22 publicly available sources.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 110,
+    "total_sources_used": 15
+  }
+}

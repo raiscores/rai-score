@@ -1,0 +1,219 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "US Foods",
+  "company_slug": "us-foods",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 14,
+      "OPERATIONAL": 3,
+      "POLICY": 7
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 16,
+      "findings": "Reports describe the establishment of the \"AI Catalysts\" group as a named AI governance body and mention a structured operating model for reviewing AI use cases. SEC filings identify risks associated with generative AI content, reference the use of AI/ML for safety technologies, and mention vendor oversight. Proxy statements outline board composition, describe governance committee responsibilities, and describe a policy for approving audit and non-audit services. Blog posts describe AI capabilities for customer analytics, targeted marketing, inventory, and fraud detection. Case studies reference discussions of building AI agents and trustworthy data, and reference underlying policies for AI system development and data management.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"2024 Sustainability Report - AI Catalysts Spotlight,\" provides evidence for **governance**, **oversight**, and **transparency**. The report details the establishment of the \"AI Catalysts\" group, a cross-functional senior leadership team, which acts as a named AI governance body. It also describes mechanisms for human review of AI output and training, demonstrating oversight and transparency in AI operations, and mentions a structured operating model for reviewing AI use cases to ensure strategic alignment and responsibility, supporting governance.",
+          "title": "2024 Sustainability Report - AI Catalysts Spotlight",
+          "url": "https://usfoods.com/content/dam/usf/pdf/dce/supporting_materials/US-Foods-2024-Sustainability-Report.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for the **governance** pillar of responsible AI. The document implicitly supports governance by identifying risks associated with generative AI content, suggesting a need for oversight of AI use and its outputs. Furthermore, it implies the use of AI/ML for safety technologies and mentions vendor oversight through its description of technology utilization.",
+          "title": "Form 10-K Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1665918/000166591825000017/usfd-20241228.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This proxy statement provides evidence for the **governance** pillar of responsible AI. It outlines the company's board composition, including technology leaders, and details the responsibilities of its governance committee. Furthermore, the document describes a policy for approving audit and non-audit services, demonstrating governance over vendor engagements.",
+          "title": "2024 Proxy Statement",
+          "url": "https://s203.q4cdn.com/467738510/files/doc_financials/2023/ar/proxy-final.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"AI-Driven Customer Engagement,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights AI's capabilities for customer analytics and targeted marketing, implying governance over these customer-facing applications. The post also demonstrates transparency by describing AI use cases for content creation, data maximization, and marketing efforts like menu item testing and promotion.",
+          "title": "Business Trends: AI-Driven Customer Engagement",
+          "url": "https://usfoods.com/our-services/business-trends/use-ai-to-drive-restaurant-customer-engagement-and-loyalty.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI in Restaurants: Transforming Operations,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The blog post supports transparency by describing AI's analytical functions for menu optimization and pricing, as well as its forecasting capabilities for staffing. It also suggests governance and oversight use cases through mentions of AI for inventory and fraud detection, and its role in performance monitoring and real-time coaching.",
+          "title": "AI in Restaurants: Transforming Operations",
+          "url": "https://usfoods.com/tools-tips-and-ideas/articles-and-publications/articles/ai-in-restaurants-is-transforming-operations"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical case study provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by mentioning \"agentic AI\" and its capabilities, indicating awareness of AI use and system design. The case study also implies governance through discussions of building AI agents and trustworthy data, suggesting underlying policies for AI system development and data management, though specific operational details are not provided.",
+          "title": "Building Digital-First Ecommerce at US Foods - Confluent Case Study",
+          "url": "https://confluent.io/blog/us-foods-digital-first-ecommerce-platform"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "Reports describe mechanisms for human review of AI output and training. Blog posts also mention AI use cases for inventory and fraud detection, and AI's role in performance monitoring and real-time coaching.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"2024 Sustainability Report - AI Catalysts Spotlight,\" provides evidence for **governance**, **oversight**, and **transparency**. The report details the establishment of the \"AI Catalysts\" group, a cross-functional senior leadership team, which acts as a named AI governance body. It also describes mechanisms for human review of AI output and training, demonstrating oversight and transparency in AI operations, and mentions a structured operating model for reviewing AI use cases to ensure strategic alignment and responsibility, supporting governance.",
+          "title": "2024 Sustainability Report - AI Catalysts Spotlight",
+          "url": "https://usfoods.com/content/dam/usf/pdf/dce/supporting_materials/US-Foods-2024-Sustainability-Report.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI in Restaurants: Transforming Operations,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The blog post supports transparency by describing AI's analytical functions for menu optimization and pricing, as well as its forecasting capabilities for staffing. It also suggests governance and oversight use cases through mentions of AI for inventory and fraud detection, and its role in performance monitoring and real-time coaching.",
+          "title": "AI in Restaurants: Transforming Operations",
+          "url": "https://usfoods.com/tools-tips-and-ideas/articles-and-publications/articles/ai-in-restaurants-is-transforming-operations"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 15,
+      "findings": "Reports describe mechanisms for human review of AI output and training. Blog posts describe various AI use cases, including content creation, data maximization, menu item testing, promotion, menu optimization, pricing, and staffing forecasting. Case studies also mention \"agentic AI\" and its capabilities, and describe awareness of AI use and system design.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"2024 Sustainability Report - AI Catalysts Spotlight,\" provides evidence for **governance**, **oversight**, and **transparency**. The report details the establishment of the \"AI Catalysts\" group, a cross-functional senior leadership team, which acts as a named AI governance body. It also describes mechanisms for human review of AI output and training, demonstrating oversight and transparency in AI operations, and mentions a structured operating model for reviewing AI use cases to ensure strategic alignment and responsibility, supporting governance.",
+          "title": "2024 Sustainability Report - AI Catalysts Spotlight",
+          "url": "https://usfoods.com/content/dam/usf/pdf/dce/supporting_materials/US-Foods-2024-Sustainability-Report.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"AI-Driven Customer Engagement,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights AI's capabilities for customer analytics and targeted marketing, implying governance over these customer-facing applications. The post also demonstrates transparency by describing AI use cases for content creation, data maximization, and marketing efforts like menu item testing and promotion.",
+          "title": "Business Trends: AI-Driven Customer Engagement",
+          "url": "https://usfoods.com/our-services/business-trends/use-ai-to-drive-restaurant-customer-engagement-and-loyalty.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI in Restaurants: Transforming Operations,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The blog post supports transparency by describing AI's analytical functions for menu optimization and pricing, as well as its forecasting capabilities for staffing. It also suggests governance and oversight use cases through mentions of AI for inventory and fraud detection, and its role in performance monitoring and real-time coaching.",
+          "title": "AI in Restaurants: Transforming Operations",
+          "url": "https://usfoods.com/tools-tips-and-ideas/articles-and-publications/articles/ai-in-restaurants-is-transforming-operations"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical case study provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by mentioning \"agentic AI\" and its capabilities, indicating awareness of AI use and system design. The case study also implies governance through discussions of building AI agents and trustworthy data, suggesting underlying policies for AI system development and data management, though specific operational details are not provided.",
+          "title": "Building Digital-First Ecommerce at US Foods - Confluent Case Study",
+          "url": "https://confluent.io/blog/us-foods-digital-first-ecommerce-platform"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T22:00:09Z",
+  "run_id": "20260203_024232_19b6",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Based on 8 publicly available sources, US Foods' published materials address 3 of 7 evaluated responsible AI pillars. Operational practices are documented for transparency, with reports describing mechanisms for human review of AI output and training, and blog posts detailing AI use cases for content creation, data maximization, menu item testing, and promotion. Oversight also includes documented mechanisms for human review of AI output and training, while governance materials describe the establishment of the \"AI Catalysts\" group as a named AI governance body and a structured operating model for reviewing AI use cases. No qualifying public evidence was found for fairness, explainability, and 2 additional pillars.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 24,
+    "total_sources_used": 6
+  }
+}

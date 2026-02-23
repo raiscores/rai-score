@@ -1,0 +1,322 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "USAA",
+  "company_slug": "usaa",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 15,
+      "POLICY": 23
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "A technical paper highlights explainability through iterative feature engineering with feature importance analysis.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper documents a collaboration between Google Cloud and USAA on ML models for claims processing, providing evidence for **explainability, governance, oversight, and transparency**. The paper details a robust model risk management validation process, including human-in-the-loop mechanisms for model promotion and automated, auditable processes for retraining and lineage tracking, which support **oversight and governance**. Furthermore, it highlights transparency through the description of an AI service for vehicle damage assessment, automated model deployment, and iterative feature engineering with feature importance analysis, directly addressing **transparency and explainability**. The document also explicitly mentions ethical analysis and AI governance processes, reinforcing the **governance** pillar.",
+          "title": "Google Cloud & USAA: ML Model Development for Claims Processing",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/usaa-and-google-cloud-transform-insurance-operations"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "A company help page outlines USAA's commitment to responsible AI, specifically including external accountability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The USAA Responsible Use of Artificial Intelligence help page outlines the company's commitment to responsible AI, providing evidence for **external accountability, fairness, governance, oversight, privacy, and transparency**. This company webpage supports these pillars by discussing AI systems, data handling and protection, adherence to legal compliance and industry standards, commitment to treating members fairly, and the inclusion of human guidance and monitoring of AI technologies. The page also highlights alignment with USAA's Privacy Promise, further reinforcing its commitment to responsible data use.",
+          "title": "USAA Responsible Use of Artificial Intelligence",
+          "url": "https://usaa.com/about/artificial-intelligence"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "A company help page outlines USAA's commitment to responsible AI, specifically discussing fairness. This page discusses the commitment to treating members fairly.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The USAA Responsible Use of Artificial Intelligence help page outlines the company's commitment to responsible AI, providing evidence for **external accountability, fairness, governance, oversight, privacy, and transparency**. This company webpage supports these pillars by discussing AI systems, data handling and protection, adherence to legal compliance and industry standards, commitment to treating members fairly, and the inclusion of human guidance and monitoring of AI technologies. The page also highlights alignment with USAA's Privacy Promise, further reinforcing its commitment to responsible data use.",
+          "title": "USAA Responsible Use of Artificial Intelligence",
+          "url": "https://usaa.com/about/artificial-intelligence"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 30,
+      "findings": "USAA's commitment to responsible AI, including governance, is outlined on a help page that discusses adherence to legal compliance and industry standards. Policy documents outline accountability and adherence guidelines for AI use and vendor oversight responsibilities for third-party data processing. A privacy notice states a policy against using profiling for automated decisions with significant effects. Furthermore, a technical paper highlights the AI Council's oversight, and a blog post details USAA's AI governance structure, describing an AI Council that guides intake and assesses AI feasibility, value, and impact. Ethical analysis and AI governance processes are mentioned, and a press release highlights the establishment of an AI council to assess use cases and mentions a formal AI governance program director. A blog post also highlights challenges in data security and system governance.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The USAA Responsible Use of Artificial Intelligence help page outlines the company's commitment to responsible AI, providing evidence for **external accountability, fairness, governance, oversight, privacy, and transparency**. This company webpage supports these pillars by discussing AI systems, data handling and protection, adherence to legal compliance and industry standards, commitment to treating members fairly, and the inclusion of human guidance and monitoring of AI technologies. The page also highlights alignment with USAA's Privacy Promise, further reinforcing its commitment to responsible data use.",
+          "title": "USAA Responsible Use of Artificial Intelligence",
+          "url": "https://usaa.com/about/artificial-intelligence"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, the \"USAA Code of Business Ethics and Conduct,\" provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It supports governance by establishing accountability and adherence guidelines for AI use, and by outlining vendor oversight and data protection responsibilities for third-party data processing. The policy also supports oversight by highlighting employee responsibility and the need to seek manager guidance for AI risks.",
+          "title": "USAA Code of Business Ethics and Conduct",
+          "url": "https://content.usaa.com/mcontent/static_assets/Media/USAA_code_of_conduct.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This USAA U.S. Consumer Privacy Notice provides evidence for **governance**, **oversight**, and **privacy**. The notice supports governance and privacy by defining \"inferences\" and \"profiling\" and detailing data sharing for targeted advertising. It further supports oversight and governance by explicitly stating a policy against using profiling for automated decisions that produce legal or similarly significant effects.",
+          "title": "USAA U.S. Consumer Privacy Notice",
+          "url": "https://static.usaa.com/content/dam/digital/documents/pdf/enterprise/ent-us-consumer-privacy-notice.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"MIT Sloan: How GenAI Helps USAA Innovate,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It details USAA's three-layer risk management structure for GenAI, including intake assessment, model validation, and ongoing monitoring, demonstrating robust operational governance. Furthermore, the paper highlights the AI Council's oversight and the \"AI Aware\" training for all employees, contributing to transparency in their responsible implementation priorities and the operational transparency of specific use cases like analyzing employee feedback and code generation.",
+          "title": "MIT Sloan: How GenAI Helps USAA Innovate",
+          "url": "https://sloanreview.mit.edu/article/how-genai-helps-usaa-innovate"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"TechTarget: USAA's AI Experimentation and Governance Approach,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It details USAA's AI governance structure, including an AI Council with executive members that guides intake and assesses AI feasibility, value, and impact. The source also describes operational processes for model validation and ongoing monitoring, as well as a strategic approach to selecting AI platforms based on use case needs, indicating transparency about AI capabilities and strategic deployment.",
+          "title": "TechTarget: USAA's AI Experimentation and Governance Approach",
+          "url": "https://techtarget.com/searchenterpriseai/news/366623771/USAA-takes-an-experiment-and-see-approach-with-AI"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper documents a collaboration between Google Cloud and USAA on ML models for claims processing, providing evidence for **explainability, governance, oversight, and transparency**. The paper details a robust model risk management validation process, including human-in-the-loop mechanisms for model promotion and automated, auditable processes for retraining and lineage tracking, which support **oversight and governance**. Furthermore, it highlights transparency through the description of an AI service for vehicle damage assessment, automated model deployment, and iterative feature engineering with feature importance analysis, directly addressing **transparency and explainability**. The document also explicitly mentions ethical analysis and AI governance processes, reinforcing the **governance** pillar.",
+          "title": "Google Cloud & USAA: ML Model Development for Claims Processing",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/usaa-and-google-cloud-transform-insurance-operations"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"USAA Data Breach: April 2024 System Error Exposure,\" provides evidence for the **governance** pillar of responsible AI. The report details a system error during a software update that exposed sensitive member data, highlighting challenges in data security and system governance. The mention of AI framework vulnerabilities and AI security further implies the need for robust governance over AI systems to manage risks.",
+          "title": "USAA Data Breach: April 2024 System Error Exposure",
+          "url": "https://technijian.com/cyber-security/usaa-data-breach-affects-over-32k-consumers-what-you-need-to-know"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This blog post update on USAA's discrimination litigation provides evidence for the **governance** pillar. It highlights the ongoing legal exposure related to algorithmic pricing and underwriting practices, indicating a need for robust governance mechanisms to oversee the responsible implementation and impact of AI technologies.",
+          "title": "USAA Discrimination Litigation Update",
+          "url": "https://propertycasualty360.com/2025/01/16/usaa-beats-one-discrimination-class-action-but-faces-another"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It highlights the establishment of an AI council to assess use cases and mentions a formal AI governance program director, demonstrating structured oversight and a commitment to safe and responsible AI. The discussion of balancing speed with reliability, accuracy, trust, and privacy for Gen AI also directly supports the privacy pillar.",
+          "title": "Evident Insights: Ramnik Bajaj on AI Council Architecture",
+          "url": "https://evidentinsights.com/bankingbrief/evident-ai-insurance-index-special-edition-2025"
+        }
+      ],
+      "score": 2,
+      "source_count": 9
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "USAA's commitment to responsible AI, including oversight, is outlined on a help page, which discusses human guidance and monitoring of AI technologies. Policy documents highlight employee responsibility for AI risks and the need to seek manager guidance. A privacy notice states a policy against using profiling for automated decisions that produce legal or similarly significant effects. Additionally, a press release highlights the establishment of an AI council to assess use cases and mentions a formal AI governance program director.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The USAA Responsible Use of Artificial Intelligence help page outlines the company's commitment to responsible AI, providing evidence for **external accountability, fairness, governance, oversight, privacy, and transparency**. This company webpage supports these pillars by discussing AI systems, data handling and protection, adherence to legal compliance and industry standards, commitment to treating members fairly, and the inclusion of human guidance and monitoring of AI technologies. The page also highlights alignment with USAA's Privacy Promise, further reinforcing its commitment to responsible data use.",
+          "title": "USAA Responsible Use of Artificial Intelligence",
+          "url": "https://usaa.com/about/artificial-intelligence"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, the \"USAA Code of Business Ethics and Conduct,\" provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It supports governance by establishing accountability and adherence guidelines for AI use, and by outlining vendor oversight and data protection responsibilities for third-party data processing. The policy also supports oversight by highlighting employee responsibility and the need to seek manager guidance for AI risks.",
+          "title": "USAA Code of Business Ethics and Conduct",
+          "url": "https://content.usaa.com/mcontent/static_assets/Media/USAA_code_of_conduct.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This USAA U.S. Consumer Privacy Notice provides evidence for **governance**, **oversight**, and **privacy**. The notice supports governance and privacy by defining \"inferences\" and \"profiling\" and detailing data sharing for targeted advertising. It further supports oversight and governance by explicitly stating a policy against using profiling for automated decisions that produce legal or similarly significant effects.",
+          "title": "USAA U.S. Consumer Privacy Notice",
+          "url": "https://static.usaa.com/content/dam/digital/documents/pdf/enterprise/ent-us-consumer-privacy-notice.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper documents a collaboration between Google Cloud and USAA on ML models for claims processing, providing evidence for **explainability, governance, oversight, and transparency**. The paper details a robust model risk management validation process, including human-in-the-loop mechanisms for model promotion and automated, auditable processes for retraining and lineage tracking, which support **oversight and governance**. Furthermore, it highlights transparency through the description of an AI service for vehicle damage assessment, automated model deployment, and iterative feature engineering with feature importance analysis, directly addressing **transparency and explainability**. The document also explicitly mentions ethical analysis and AI governance processes, reinforcing the **governance** pillar.",
+          "title": "Google Cloud & USAA: ML Model Development for Claims Processing",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/usaa-and-google-cloud-transform-insurance-operations"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It highlights the establishment of an AI council to assess use cases and mentions a formal AI governance program director, demonstrating structured oversight and a commitment to safe and responsible AI. The discussion of balancing speed with reliability, accuracy, trust, and privacy for Gen AI also directly supports the privacy pillar.",
+          "title": "Evident Insights: Ramnik Bajaj on AI Council Architecture",
+          "url": "https://evidentinsights.com/bankingbrief/evident-ai-insurance-index-special-edition-2025"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "USAA's commitment to responsible AI, including privacy, is outlined on a help page that discusses data handling and protection and highlights alignment with USAA's Privacy Promise. A policy document outlines data protection responsibilities for third-party data processing. Furthermore, a privacy notice defines \"inferences\" and \"profiling\" and details data sharing for targeted advertising, while a press release discusses balancing speed with reliability, accuracy, trust, and privacy for Gen AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The USAA Responsible Use of Artificial Intelligence help page outlines the company's commitment to responsible AI, providing evidence for **external accountability, fairness, governance, oversight, privacy, and transparency**. This company webpage supports these pillars by discussing AI systems, data handling and protection, adherence to legal compliance and industry standards, commitment to treating members fairly, and the inclusion of human guidance and monitoring of AI technologies. The page also highlights alignment with USAA's Privacy Promise, further reinforcing its commitment to responsible data use.",
+          "title": "USAA Responsible Use of Artificial Intelligence",
+          "url": "https://usaa.com/about/artificial-intelligence"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, the \"USAA Code of Business Ethics and Conduct,\" provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It supports governance by establishing accountability and adherence guidelines for AI use, and by outlining vendor oversight and data protection responsibilities for third-party data processing. The policy also supports oversight by highlighting employee responsibility and the need to seek manager guidance for AI risks.",
+          "title": "USAA Code of Business Ethics and Conduct",
+          "url": "https://content.usaa.com/mcontent/static_assets/Media/USAA_code_of_conduct.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This USAA U.S. Consumer Privacy Notice provides evidence for **governance**, **oversight**, and **privacy**. The notice supports governance and privacy by defining \"inferences\" and \"profiling\" and detailing data sharing for targeted advertising. It further supports oversight and governance by explicitly stating a policy against using profiling for automated decisions that produce legal or similarly significant effects.",
+          "title": "USAA U.S. Consumer Privacy Notice",
+          "url": "https://static.usaa.com/content/dam/digital/documents/pdf/enterprise/ent-us-consumer-privacy-notice.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It highlights the establishment of an AI council to assess use cases and mentions a formal AI governance program director, demonstrating structured oversight and a commitment to safe and responsible AI. The discussion of balancing speed with reliability, accuracy, trust, and privacy for Gen AI also directly supports the privacy pillar.",
+          "title": "Evident Insights: Ramnik Bajaj on AI Council Architecture",
+          "url": "https://evidentinsights.com/bankingbrief/evident-ai-insurance-index-special-edition-2025"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 18,
+      "findings": "USAA's responsible AI commitment is outlined on a help page, which discusses AI systems, data handling, legal compliance, and human guidance and monitoring of AI technologies. Transparency is further supported by \"AI Aware\" training for employees and the operational transparency of specific use cases like analyzing employee feedback and code generation. Additionally, operational processes for model validation, ongoing monitoring, and a strategic approach to AI platform selection are described, alongside transparency in an AI service for vehicle damage assessment, automated model deployment, and feature engineering.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The USAA Responsible Use of Artificial Intelligence help page outlines the company's commitment to responsible AI, providing evidence for **external accountability, fairness, governance, oversight, privacy, and transparency**. This company webpage supports these pillars by discussing AI systems, data handling and protection, adherence to legal compliance and industry standards, commitment to treating members fairly, and the inclusion of human guidance and monitoring of AI technologies. The page also highlights alignment with USAA's Privacy Promise, further reinforcing its commitment to responsible data use.",
+          "title": "USAA Responsible Use of Artificial Intelligence",
+          "url": "https://usaa.com/about/artificial-intelligence"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"MIT Sloan: How GenAI Helps USAA Innovate,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It details USAA's three-layer risk management structure for GenAI, including intake assessment, model validation, and ongoing monitoring, demonstrating robust operational governance. Furthermore, the paper highlights the AI Council's oversight and the \"AI Aware\" training for all employees, contributing to transparency in their responsible implementation priorities and the operational transparency of specific use cases like analyzing employee feedback and code generation.",
+          "title": "MIT Sloan: How GenAI Helps USAA Innovate",
+          "url": "https://sloanreview.mit.edu/article/how-genai-helps-usaa-innovate"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"TechTarget: USAA's AI Experimentation and Governance Approach,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It details USAA's AI governance structure, including an AI Council with executive members that guides intake and assesses AI feasibility, value, and impact. The source also describes operational processes for model validation and ongoing monitoring, as well as a strategic approach to selecting AI platforms based on use case needs, indicating transparency about AI capabilities and strategic deployment.",
+          "title": "TechTarget: USAA's AI Experimentation and Governance Approach",
+          "url": "https://techtarget.com/searchenterpriseai/news/366623771/USAA-takes-an-experiment-and-see-approach-with-AI"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper documents a collaboration between Google Cloud and USAA on ML models for claims processing, providing evidence for **explainability, governance, oversight, and transparency**. The paper details a robust model risk management validation process, including human-in-the-loop mechanisms for model promotion and automated, auditable processes for retraining and lineage tracking, which support **oversight and governance**. Furthermore, it highlights transparency through the description of an AI service for vehicle damage assessment, automated model deployment, and iterative feature engineering with feature importance analysis, directly addressing **transparency and explainability**. The document also explicitly mentions ethical analysis and AI governance processes, reinforcing the **governance** pillar.",
+          "title": "Google Cloud & USAA: ML Model Development for Claims Processing",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/usaa-and-google-cloud-transform-insurance-operations"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T22:00:12Z",
+  "run_id": "20260218_025543_794c",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "USAA's public disclosures include operational practices for oversight and privacy, with help pages outlining the company's commitment to responsible AI and discussing human guidance, monitoring, data handling, and protection. All 7 evaluated pillars have documented public evidence, with transparency, fairness, explainability, and external accountability addressed at the policy level. Governance is also supported by operational practices, including adherence to legal compliance and industry standards, while a technical paper highlights explainability through iterative feature engineering with feature importance analysis. These disclosures are drawn from 20 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 40,
+    "total_sources_used": 9
+  }
+}

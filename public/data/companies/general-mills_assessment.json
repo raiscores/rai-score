@@ -1,0 +1,232 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 21.4,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 3
+  },
+  "company": "General Mills",
+  "company_slug": "general-mills",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 14,
+      "OPERATIONAL": 6,
+      "POLICY": 7
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 17,
+      "findings": "General Mills outlines how AI is used for consumer data understanding and communication, and mentions using a vendor for its supply chain digital twin. The company details its commitment to implementing AI solutions, including piloting AI-driven exclusion approaches with human oversight from fact-checkers, and ties significant cost savings to AI initiatives. Furthermore, General Mills references data traceability improvements, AI-driven data initiatives, a cybersecurity governance structure overseen by the Audit Committee and the Vice President of Cybersecurity, and investments in AI startups.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This case study provides evidence for the **governance** and **transparency** pillars of responsible AI. It details the use of specific AI tools like Einstein AI for audience analysis, cadence prediction, and personalized recommendations, demonstrating transparency in AI use cases and functions. The document also implies governance by outlining how AI is used to understand consumer data and tailor communications at scale.",
+          "title": "General Mills Consumer Engagement Case Study: AI + Data + CRM",
+          "url": "https://salesforce.com/resources/customer-stories/general-mills-consumer-engagement-ai-data"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This third-party description of General Mills' supply chain digital twin, built with Palantir, provides evidence for governance, oversight, and transparency. The document supports governance by mentioning the use of a vendor for building the platform. Transparency is evidenced by the system's consumption of real-time data for daily assessments and its provision of visibility and analysis. Oversight is implied through the automated assessment and recommendation generation, which allows for the oversight of automated decisions.",
+          "title": "General Mills Supply Chain Digital Twin with Palantir",
+          "url": "https://supplychaindive.com/news/general-mills-ai-supply-chain-digitization-paul-gallagher/710981"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This third-party document, \"General Mills Digital Roadmap: Agentic AI, Digital Twins, Personas,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The roadmap details AI/ML implementations such as predictive inventory models, AI-moderated buyer personas, and machine learning in oat breeding, which imply transparency in AI application and the need for governance. Furthermore, the document's focus on data traceability improvements and the mention of agentic AI use cases suggest a commitment to responsible data handling and governance for AI acceleration.",
+          "title": "General Mills Digital Roadmap: Agentic AI, Digital Twins, Personas",
+          "url": "https://consumergoods.com/general-mills-digital-roadmap-agentic-infrastructure-digital-twins-ai-personas"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This third-party report on General Mills testing AI to combat marketing misinformation provides evidence for **governance** and **transparency**. The report supports governance by detailing the company's commitment to implementing AI solutions, piloting AI-driven exclusion approaches, and describing operational mechanisms like human oversight from fact-checkers. Transparency is supported by the description of the AI system's function in scoring and blocking content, as well as its use in monitoring and flagging.",
+          "title": "General Mills Testing AI to Combat Marketing Misinformation",
+          "url": "https://consumergoods.com/how-general-mills-readying-generative-ai-fueled-misinformation"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This third-party document, \"General Mills Cost Savings via AI Logistics and Manufacturing,\" provides evidence for the **governance** pillar. The report details how General Mills is tying significant cost savings, projected to be over $20 million in transportation and $50 million in manufacturing waste reduction, directly to AI initiatives. This strategic allocation and accountability for AI projects demonstrates a commitment to responsible AI governance.",
+          "title": "General Mills Cost Savings via AI Logistics and Manufacturing",
+          "url": "https://ciodive.com/news/General-Mills-AI-cost-saving-strategy/740416"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party description of General Mills' use of AI for business functions, including product innovation and marketing, provides evidence for the **governance** pillar. The document implies governance over AI deployment and data usage by mentioning the company's AI-driven data initiatives and their cybersecurity governance structure, which is overseen by the Audit Committee and the Vice President of Cybersecurity. Furthermore, the mention of investments in AI startups suggests strategic oversight of AI technology adoption.",
+          "title": "General Mills: Creating Brands That Feed the World",
+          "url": "https://brandsensitize.com/general-mills-creating-brands-that-feed-the-world"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "General Mills' supply chain digital twin, built with Palantir, generates automated assessments and recommendations. This functionality allows for the oversight of automated decisions made by the system.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This third-party description of General Mills' supply chain digital twin, built with Palantir, provides evidence for governance, oversight, and transparency. The document supports governance by mentioning the use of a vendor for building the platform. Transparency is evidenced by the system's consumption of real-time data for daily assessments and its provision of visibility and analysis. Oversight is implied through the automated assessment and recommendation generation, which allows for the oversight of automated decisions.",
+          "title": "General Mills Supply Chain Digital Twin with Palantir",
+          "url": "https://supplychaindive.com/news/general-mills-ai-supply-chain-digitization-paul-gallagher/710981"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "A company blog post references privacy considerations in the context of an AI-powered refrigerator system. This system uses camera data to collect information on consumer eating patterns and product usage.",
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company blog post documents General Mills' partnership with an AI-powered refrigerator system, providing evidence for the **privacy** and **transparency** pillars. The post describes the system's AI capabilities, such as automated grocery replenishment and recipe recommendations, and its use of camera data to collect information on consumer eating patterns and product usage. This data collection and its potential for generating insights imply the need for privacy considerations, while the description of the AI's functions and data usage supports transparency.",
+          "title": "General Mills at CES 2023: Connected Kitchen Innovation",
+          "url": "https://globalprivacy.generalmills.com/news/stories/a-look-inside-general-mills-experience-at-the-2023-consumer-electronics-show"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 18,
+      "findings": "General Mills documents its AI applications and data usage across various domains, including descriptions of AI-powered refrigerator systems collecting consumer data and AI for monitoring agricultural practices and biodiversity. The company also outlines specific AI tools used for consumer engagement and details AI/ML implementations in supply chain management, inventory models, buyer personas, and efforts to combat marketing misinformation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company blog post documents General Mills' partnership with an AI-powered refrigerator system, providing evidence for the **privacy** and **transparency** pillars. The post describes the system's AI capabilities, such as automated grocery replenishment and recipe recommendations, and its use of camera data to collect information on consumer eating patterns and product usage. This data collection and its potential for generating insights imply the need for privacy considerations, while the description of the AI's functions and data usage supports transparency.",
+          "title": "General Mills at CES 2023: Connected Kitchen Innovation",
+          "url": "https://globalprivacy.generalmills.com/news/stories/a-look-inside-general-mills-experience-at-the-2023-consumer-electronics-show"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Regenerative Agriculture: Monitoring Biodiversity via AI,\" provides evidence for the **transparency** pillar. It describes the use of AI, including satellite imagery and machine learning, to monitor agricultural practices and model greenhouse gas impacts, offering a clear overview of the AI's application. Furthermore, it details scalable approaches to biodiversity monitoring using AI-powered sensors like microphones and cameras to detect insects and birds, demonstrating a transparent approach to how AI can be utilized in this domain.",
+          "title": "Regenerative Agriculture: Monitoring Biodiversity via AI",
+          "url": "https://generalmills.com/how-we-make-it/healthier-planet/environmental-impact/regenerative-agriculture"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This case study provides evidence for the **governance** and **transparency** pillars of responsible AI. It details the use of specific AI tools like Einstein AI for audience analysis, cadence prediction, and personalized recommendations, demonstrating transparency in AI use cases and functions. The document also implies governance by outlining how AI is used to understand consumer data and tailor communications at scale.",
+          "title": "General Mills Consumer Engagement Case Study: AI + Data + CRM",
+          "url": "https://salesforce.com/resources/customer-stories/general-mills-consumer-engagement-ai-data"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This third-party description of General Mills' supply chain digital twin, built with Palantir, provides evidence for governance, oversight, and transparency. The document supports governance by mentioning the use of a vendor for building the platform. Transparency is evidenced by the system's consumption of real-time data for daily assessments and its provision of visibility and analysis. Oversight is implied through the automated assessment and recommendation generation, which allows for the oversight of automated decisions.",
+          "title": "General Mills Supply Chain Digital Twin with Palantir",
+          "url": "https://supplychaindive.com/news/general-mills-ai-supply-chain-digitization-paul-gallagher/710981"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This third-party document, \"General Mills Digital Roadmap: Agentic AI, Digital Twins, Personas,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The roadmap details AI/ML implementations such as predictive inventory models, AI-moderated buyer personas, and machine learning in oat breeding, which imply transparency in AI application and the need for governance. Furthermore, the document's focus on data traceability improvements and the mention of agentic AI use cases suggest a commitment to responsible data handling and governance for AI acceleration.",
+          "title": "General Mills Digital Roadmap: Agentic AI, Digital Twins, Personas",
+          "url": "https://consumergoods.com/general-mills-digital-roadmap-agentic-infrastructure-digital-twins-ai-personas"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This third-party report on General Mills testing AI to combat marketing misinformation provides evidence for **governance** and **transparency**. The report supports governance by detailing the company's commitment to implementing AI solutions, piloting AI-driven exclusion approaches, and describing operational mechanisms like human oversight from fact-checkers. Transparency is supported by the description of the AI system's function in scoring and blocking content, as well as its use in monitoring and flagging.",
+          "title": "General Mills Testing AI to Combat Marketing Misinformation",
+          "url": "https://consumergoods.com/how-general-mills-readying-generative-ai-fueled-misinformation"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T21:51:02Z",
+  "run_id": "20260202_221347_2044",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Drawing from 10 publicly available sources, General Mills' published materials address 3 of 7 evaluated responsible AI pillars. Transparency, oversight, and governance are the pillars with documented evidence, with transparency materials describing an AI-powered refrigerator system's capabilities, including automated grocery replenishment and recipe recommendations, and its use of camera data to collect information on consumer eating patterns. Oversight materials reference automated assessment and recommendation generation for a supply chain digital twin, while governance disclosures outline how AI is used to understand consumer data and tailor communications at scale. No qualifying public evidence was found for fairness, explainability, and 2 additional pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 27,
+    "total_sources_used": 8
+  }
+}

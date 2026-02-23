@@ -1,0 +1,239 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "W.W. Grainger",
+  "company_slug": "grainger",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 4,
+      "OPERATIONAL": 2,
+      "POLICY": 22
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "Sources describe documented external accountability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"W.W. Grainger 2024 Annual Report (Form 10-K)\", provides evidence for **governance**, **external accountability**, **fairness**, and **privacy**. The report acknowledges the risks and uncertainties of AI adoption, including potential bias in datasets and flawed algorithms, which directly supports **fairness**. It also highlights compliance obligations with evolving AI regulations and potential legal/regulatory liability due to AI failures, underscoring the need for robust **governance** and **external accountability** policies. Furthermore, the document touches upon ethical issues and privacy concerns related to AI capabilities, indicating support for the **privacy** pillar.",
+          "title": "W.W. Grainger 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/277135/000110465925021510/tm257487d2_ars.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 4,
+      "findings": "Reports and SEC filings acknowledge potential bias in AI datasets and flawed algorithms. These filings also indicate a policy consideration for fairness regarding such potential bias.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"W.W. Grainger 2024 Annual Report (Form 10-K)\", provides evidence for **governance**, **external accountability**, **fairness**, and **privacy**. The report acknowledges the risks and uncertainties of AI adoption, including potential bias in datasets and flawed algorithms, which directly supports **fairness**. It also highlights compliance obligations with evolving AI regulations and potential legal/regulatory liability due to AI failures, underscoring the need for robust **governance** and **external accountability** policies. Furthermore, the document touches upon ethical issues and privacy concerns related to AI capabilities, indicating support for the **privacy** pillar.",
+          "title": "W.W. Grainger 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/277135/000110465925021510/tm257487d2_ars.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This SEC filing supports the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The filing acknowledges potential bias in AI datasets and algorithms, indicating a policy consideration for fairness. It also implies governance over AI initiatives by mentioning their integration into business strategy and technology implementation, and highlights legal and regulatory risks, including privacy laws, related to AI failures. Furthermore, the document reflects transparency goals by stating an intent to incorporate AI capabilities and ongoing research.",
+          "title": "W.W. Grainger 2024 Form 10-K SEC Filing (XBRL)",
+          "url": "https://sec.gov/Archives/edgar/data/277135/000027713525000010/gww-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 22,
+      "findings": "Documentation describes management tools and platform features for AI control, highlighting a strategic approach to AI development. This includes the development of internal technology talent, implementation of tailored algorithms with a focus on data integrity, and organizational changes and resource allocation for AI. SEC filings mention the integration of AI initiatives into business strategy and technology implementation, highlighting legal and regulatory risks and implying oversight in data usage for AI.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by describing management tools and platform features for AI control. Transparency is evidenced through the description of GenAI models, their optimization, and how RAG tools and LLMs interact with data to produce responses. The source also supports privacy by mentioning secure access to data.",
+          "title": "Grainger uses GenAI innovation to help keep industries up and running",
+          "url": "https://databricks.com/customers/grainger"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"W.W. Grainger 2024 Annual Report (Form 10-K)\", provides evidence for **governance**, **external accountability**, **fairness**, and **privacy**. The report acknowledges the risks and uncertainties of AI adoption, including potential bias in datasets and flawed algorithms, which directly supports **fairness**. It also highlights compliance obligations with evolving AI regulations and potential legal/regulatory liability due to AI failures, underscoring the need for robust **governance** and **external accountability** policies. Furthermore, the document touches upon ethical issues and privacy concerns related to AI capabilities, indicating support for the **privacy** pillar.",
+          "title": "W.W. Grainger 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/277135/000110465925021510/tm257487d2_ars.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** pillar of responsible AI. It highlights Grainger's strategic approach to AI development, including the development of internal technology talent and the implementation of tailored algorithms with a focus on data integrity, indicating a structured and managed approach to AI. The article also points to organizational changes and resource allocation for AI, further supporting the notion of a governance framework.",
+          "title": "3 reasons Grainger prioritizes AI - Digital Commerce 360",
+          "url": "https://digitalcommerce360.com/2024/06/07/3-reasons-why-grainger-prioritizes-ai"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This SEC filing supports the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The filing acknowledges potential bias in AI datasets and algorithms, indicating a policy consideration for fairness. It also implies governance over AI initiatives by mentioning their integration into business strategy and technology implementation, and highlights legal and regulatory risks, including privacy laws, related to AI failures. Furthermore, the document reflects transparency goals by stating an intent to incorporate AI capabilities and ongoing research.",
+          "title": "W.W. Grainger 2024 Form 10-K SEC Filing (XBRL)",
+          "url": "https://sec.gov/Archives/edgar/data/277135/000027713525000010/gww-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post indicates Grainger's continued strategic focus on AI, providing evidence for the **governance** and **transparency** pillars. The article suggests governance and transparency by mentioning the development of ML/LLM models and the exploration of new technologies, implying oversight in data usage for AI. Furthermore, it details the use of ML models for planning and a specific computer vision use case for process streamlining, which demonstrates transparency into AI system capabilities and operational deployment.",
+          "title": "Grainger eyes growth through data, technology, and AI",
+          "url": "https://digitalcommerce360.com/2025/02/03/grainger-ecommerce-sales-q4-fy24"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "Documentation mentions secure access to data. Reports touch upon ethical issues and privacy concerns related to AI capabilities. SEC filings also highlight legal and regulatory risks, including privacy laws, related to AI failures.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by describing management tools and platform features for AI control. Transparency is evidenced through the description of GenAI models, their optimization, and how RAG tools and LLMs interact with data to produce responses. The source also supports privacy by mentioning secure access to data.",
+          "title": "Grainger uses GenAI innovation to help keep industries up and running",
+          "url": "https://databricks.com/customers/grainger"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"W.W. Grainger 2024 Annual Report (Form 10-K)\", provides evidence for **governance**, **external accountability**, **fairness**, and **privacy**. The report acknowledges the risks and uncertainties of AI adoption, including potential bias in datasets and flawed algorithms, which directly supports **fairness**. It also highlights compliance obligations with evolving AI regulations and potential legal/regulatory liability due to AI failures, underscoring the need for robust **governance** and **external accountability** policies. Furthermore, the document touches upon ethical issues and privacy concerns related to AI capabilities, indicating support for the **privacy** pillar.",
+          "title": "W.W. Grainger 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/277135/000110465925021510/tm257487d2_ars.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This SEC filing supports the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The filing acknowledges potential bias in AI datasets and algorithms, indicating a policy consideration for fairness. It also implies governance over AI initiatives by mentioning their integration into business strategy and technology implementation, and highlights legal and regulatory risks, including privacy laws, related to AI failures. Furthermore, the document reflects transparency goals by stating an intent to incorporate AI capabilities and ongoing research.",
+          "title": "W.W. Grainger 2024 Form 10-K SEC Filing (XBRL)",
+          "url": "https://sec.gov/Archives/edgar/data/277135/000027713525000010/gww-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 10,
+      "findings": "Documentation describes GenAI models, their optimization, and how RAG tools and LLMs interact with data to produce responses. SEC filings state an intent to incorporate AI capabilities and ongoing research. The company also details the use of ML models for planning and a specific computer vision use case for process streamlining.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by describing management tools and platform features for AI control. Transparency is evidenced through the description of GenAI models, their optimization, and how RAG tools and LLMs interact with data to produce responses. The source also supports privacy by mentioning secure access to data.",
+          "title": "Grainger uses GenAI innovation to help keep industries up and running",
+          "url": "https://databricks.com/customers/grainger"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"W.W. Grainger 2024 Annual Report (Form 10-K)\", provides evidence for **governance**, **external accountability**, **fairness**, and **privacy**. The report acknowledges the risks and uncertainties of AI adoption, including potential bias in datasets and flawed algorithms, which directly supports **fairness**. It also highlights compliance obligations with evolving AI regulations and potential legal/regulatory liability due to AI failures, underscoring the need for robust **governance** and **external accountability** policies. Furthermore, the document touches upon ethical issues and privacy concerns related to AI capabilities, indicating support for the **privacy** pillar.",
+          "title": "W.W. Grainger 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/277135/000110465925021510/tm257487d2_ars.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This SEC filing supports the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The filing acknowledges potential bias in AI datasets and algorithms, indicating a policy consideration for fairness. It also implies governance over AI initiatives by mentioning their integration into business strategy and technology implementation, and highlights legal and regulatory risks, including privacy laws, related to AI failures. Furthermore, the document reflects transparency goals by stating an intent to incorporate AI capabilities and ongoing research.",
+          "title": "W.W. Grainger 2024 Form 10-K SEC Filing (XBRL)",
+          "url": "https://sec.gov/Archives/edgar/data/277135/000027713525000010/gww-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post indicates Grainger's continued strategic focus on AI, providing evidence for the **governance** and **transparency** pillars. The article suggests governance and transparency by mentioning the development of ML/LLM models and the exploration of new technologies, implying oversight in data usage for AI. Furthermore, it details the use of ML models for planning and a specific computer vision use case for process streamlining, which demonstrates transparency into AI system capabilities and operational deployment.",
+          "title": "Grainger eyes growth through data, technology, and AI",
+          "url": "https://digitalcommerce360.com/2025/02/03/grainger-ecommerce-sales-q4-fy24"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T21:51:38Z",
+  "run_id": "20260202_221513_c274",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Human Oversight & Accountability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "W.W. Grainger's documentation describes GenAI models and their optimization, addressing transparency within its responsible AI framework. These materials, along with disclosures on fairness, privacy, governance, and external accountability, collectively address 5 of 7 evaluated pillars at the policy level. For instance, reports acknowledge potential bias in datasets and flawed algorithms, while published materials highlight a strategic approach to AI development and describe management tools for AI control. No qualifying public evidence was found for explainability or oversight, based on a review of 5 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 28,
+    "total_sources_used": 5
+  }
+}

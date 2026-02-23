@@ -1,0 +1,361 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "Morgan Stanley",
+  "company_slug": "morgan-stanley",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 3,
+      "OPERATIONAL": 15,
+      "POLICY": 26
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Morgan Stanley describes efforts to ensure explainability by understanding which inputs drive recommendations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **explainability, governance, oversight, and transparency** in AI. It details Morgan Stanley's AI governance framework, including testing and approval processes, and highlights efforts to ensure explainability by understanding which inputs drive recommendations. The press release also demonstrates transparency by describing specific GenAI tools and their functions, and supports oversight through mentions of advisor validation and human judgment in AI output delivery.",
+          "title": "98% of Morgan Stanley Wealth Management Advisors Use AI Chatbot with Improved Productivity",
+          "url": "https://cdomagazine.tech/aiml/98-of-morgan-stanley-wealth-management-advisors-use-its-ai-chatbot-with-improved-productivity-cao-explains-how"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "Morgan Stanley describes a partnership to launch an open-source AI governance framework for ethical standards and describes industry collaboration on ethical guidelines. An audit report describes a third-party bias audit conducted to comply with NYC Local Law 144, and describes adherence to regulatory requirements. Additionally, Morgan Stanley references external certification for the AI system lifecycle (ISO 42001).",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release from Morgan Stanley provides evidence for **external accountability**, **governance**, and **transparency**. It details the appointment of a Head of Firmwide Artificial Intelligence to coordinate strategy and governance, demonstrating a formal commitment to **governance**. The press release also highlights the deployment of generative AI tools and a partnership to launch an open-source AI governance framework for ethical standards, supporting **external accountability** and **transparency** by showcasing operational use and industry collaboration on ethical guidelines.",
+          "title": "Morgan Stanley - IMD Business School AI Maturity Profile",
+          "url": "https://imd.org/entity-profile/morgan-stanley-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This audit report provides evidence for **external accountability** and **fairness**. It details a third-party bias audit conducted to comply with NYC Local Law 144, demonstrating adherence to regulatory requirements. The report's findings on impact ratios across demographic categories, concluding no disparate impact from the Eightfold algorithmic model, directly support the **fairness** pillar by evaluating algorithmic bias.",
+          "title": "Bias Audit of Morgan Stanley's Use of Eightfold Model for Scoring Applicants",
+          "url": "https://morganstanley.com/content/dam/msdotcom/en/disclosures/Bias_Audit_of_Morgan_Stanleys_Use_of_Eightfold_Model_For_Scoring_Applicants.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"ESG Update | Morgan Stanley,\" provides evidence for **governance**, **transparency**, and **external accountability**. The post highlights the establishment of a cross-functional AI governance committee for centralized oversight and risk monitoring, demonstrating operational governance. It also mentions \"transparent policies\" for risk mitigation, supporting the transparency pillar, and references external certification for the AI system lifecycle (ISO 42001), which serves as evidence for external accountability.",
+          "title": "ESG Update | Morgan Stanley",
+          "url": "https://morganstanley.com/im/publication/insights/articles/article_esgupdate_a4.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "Morgan Stanley addresses fairness through an audit report that describes findings on impact ratios across demographic categories for an algorithmic model. This report states no disparate impact from the Eightfold algorithmic model and describes algorithmic bias evaluation. Additionally, a blog post describes specific components of AI, including reliability and bias avoidance.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This audit report provides evidence for **external accountability** and **fairness**. It details a third-party bias audit conducted to comply with NYC Local Law 144, demonstrating adherence to regulatory requirements. The report's findings on impact ratios across demographic categories, concluding no disparate impact from the Eightfold algorithmic model, directly support the **fairness** pillar by evaluating algorithmic bias.",
+          "title": "Bias Audit of Morgan Stanley's Use of Eightfold Model for Scoring Applicants",
+          "url": "https://morganstanley.com/content/dam/msdotcom/en/disclosures/Bias_Audit_of_Morgan_Stanleys_Use_of_Eightfold_Model_For_Scoring_Applicants.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This Morgan Stanley blog post, \"Responsible AI: Safety and Regulation,\" provides evidence for **fairness, governance, privacy, and transparency**. The article supports these pillars by defining specific components of AI like reliability and bias avoidance (fairness), referencing codified guidelines and standards for AI systems (governance), and discussing data protection (privacy) and the need for transparency in AI development and deployment.",
+          "title": "Responsible AI: Safety and Regulation",
+          "url": "https://morganstanley.com/ideas/thoughts-on-the-market-responsible-ai-mike-canfield"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 34,
+      "findings": "Morgan Stanley describes a structured process for vetting employee-pitched AI solutions and its AI governance framework, which includes testing and approval processes. The company describes the appointment of a Head of Firmwide Artificial Intelligence to coordinate strategy and governance, and describes the establishment of a cross-functional AI governance committee for centralized oversight and risk monitoring. Policy documents, such as the Code of Conduct and U.S. Privacy Policy, specify AI application approval, outline clear rules for use, and describe policies for AI operations, including the use of AI/ML technologies and inferences from personal data.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance** and **transparency** by detailing Morgan Stanley's structured process for vetting employee-pitched AI solutions. The article highlights a formalized AI steering group, mandatory training on AI principles and security, and a multi-step pitching process involving executive review, all of which demonstrate robust operational governance. Furthermore, the mention of AI use cases in progress and a launched generative AI product showcases transparency in their AI development and deployment.",
+          "title": "Inside Morgan Stanley's AI Pipeline: How the Bank's AI Head Vets New Solutions",
+          "url": "https://businessinsider.com/how-morgan-stanley-ai-leader-vets-new-solutions-2024-11"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **explainability, governance, oversight, and transparency** in AI. It details Morgan Stanley's AI governance framework, including testing and approval processes, and highlights efforts to ensure explainability by understanding which inputs drive recommendations. The press release also demonstrates transparency by describing specific GenAI tools and their functions, and supports oversight through mentions of advisor validation and human judgment in AI output delivery.",
+          "title": "98% of Morgan Stanley Wealth Management Advisors Use AI Chatbot with Improved Productivity",
+          "url": "https://cdomagazine.tech/aiml/98-of-morgan-stanley-wealth-management-advisors-use-its-ai-chatbot-with-improved-productivity-cao-explains-how"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release from FINOS announces the release of their AI Governance Framework for Financial Services, which directly supports the **governance** pillar. The framework outlines 15 specific risks and 15 controls tailored for AI/LLM systems in financial services, demonstrating a policy-level approach to managing AI risks and a commitment to responsible AI implementation. The press release also highlights the collaborative development of this framework by member institutions, indicating a broader industry effort towards establishing policies and operationalizing responsible AI deployment.",
+          "title": "FINOS Releases First Draft of AI Governance Framework for Financial Services",
+          "url": "https://finos.org/press/ai-governance-framework-release"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release from Morgan Stanley provides evidence for **external accountability**, **governance**, and **transparency**. It details the appointment of a Head of Firmwide Artificial Intelligence to coordinate strategy and governance, demonstrating a formal commitment to **governance**. The press release also highlights the deployment of generative AI tools and a partnership to launch an open-source AI governance framework for ethical standards, supporting **external accountability** and **transparency** by showcasing operational use and industry collaboration on ethical guidelines.",
+          "title": "Morgan Stanley - IMD Business School AI Maturity Profile",
+          "url": "https://imd.org/entity-profile/morgan-stanley-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Code of Conduct,\" provides evidence for the **governance** pillar of responsible AI. It supports this pillar by mandating that AI applications must be Firm-approved, establishing clear rules for their use, and indicating a commitment to firm policy on AI governance and acceptable use.",
+          "title": "Code of Conduct",
+          "url": "https://morganstanley.com/about-us-governance/code-of-conduct"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Artificial Intelligence: Firmwide Team,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It supports governance and oversight by mentioning the firm's \"AI team\" and its associated \"controls\" and \"oversight\" mechanisms. Furthermore, the document suggests transparency through its reference to a \"Machine Learning Research team\" and its \"publications.\"",
+          "title": "Artificial Intelligence: Firmwide Team",
+          "url": "https://morganstanley.com/about-us/technology/artificial-intelligence-firmwide-team"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This U.S. Privacy Policy and Notice document provides evidence for **governance** and **transparency**. It supports governance by outlining policies for AI operations, including the use of AI/ML technologies and inferences derived from personal data. Transparency is supported through disclosures about data use purposes, the collection of biometric information, and cross-context behavioral advertising, as well as mentioning consumer rights and emerging technology notification requirements.",
+          "title": "U.S. Privacy Policy and Notice",
+          "url": "https://morganstanley.com/disclosures/us-privacy-policy-and-notice"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This Morgan Stanley blog post, \"Responsible AI: Safety and Regulation,\" provides evidence for **fairness, governance, privacy, and transparency**. The article supports these pillars by defining specific components of AI like reliability and bias avoidance (fairness), referencing codified guidelines and standards for AI systems (governance), and discussing data protection (privacy) and the need for transparency in AI development and deployment.",
+          "title": "Responsible AI: Safety and Regulation",
+          "url": "https://morganstanley.com/ideas/thoughts-on-the-market-responsible-ai-mike-canfield"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"ESG Update | Morgan Stanley,\" provides evidence for **governance**, **transparency**, and **external accountability**. The post highlights the establishment of a cross-functional AI governance committee for centralized oversight and risk monitoring, demonstrating operational governance. It also mentions \"transparent policies\" for risk mitigation, supporting the transparency pillar, and references external certification for the AI system lifecycle (ISO 42001), which serves as evidence for external accountability.",
+          "title": "ESG Update | Morgan Stanley",
+          "url": "https://morganstanley.com/im/publication/insights/articles/article_esgupdate_a4.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This press release details Morgan Stanley's use of an AI evaluation framework and operational fine-tuning of AI retrieval methods, providing evidence for **governance** and **transparency**. The document also highlights the testing of AI use cases and the operational testing of AI performance with human grading and refinement, which supports **governance**, **transparency**, and **oversight**.",
+          "title": "Morgan Stanley Uses AI Evals to Shape the Future of Financial Services",
+          "url": "https://openai.com/index/morgan-stanley"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "Morgan Stanley describes advisor validation and human judgment in AI output delivery. The firm also references its AI team and associated controls and oversight mechanisms. Furthermore, Morgan Stanley describes the testing of AI use cases and the operational testing of AI performance with human grading and refinement.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **explainability, governance, oversight, and transparency** in AI. It details Morgan Stanley's AI governance framework, including testing and approval processes, and highlights efforts to ensure explainability by understanding which inputs drive recommendations. The press release also demonstrates transparency by describing specific GenAI tools and their functions, and supports oversight through mentions of advisor validation and human judgment in AI output delivery.",
+          "title": "98% of Morgan Stanley Wealth Management Advisors Use AI Chatbot with Improved Productivity",
+          "url": "https://cdomagazine.tech/aiml/98-of-morgan-stanley-wealth-management-advisors-use-its-ai-chatbot-with-improved-productivity-cao-explains-how"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Artificial Intelligence: Firmwide Team,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It supports governance and oversight by mentioning the firm's \"AI team\" and its associated \"controls\" and \"oversight\" mechanisms. Furthermore, the document suggests transparency through its reference to a \"Machine Learning Research team\" and its \"publications.\"",
+          "title": "Artificial Intelligence: Firmwide Team",
+          "url": "https://morganstanley.com/about-us/technology/artificial-intelligence-firmwide-team"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This press release details Morgan Stanley's use of an AI evaluation framework and operational fine-tuning of AI retrieval methods, providing evidence for **governance** and **transparency**. The document also highlights the testing of AI use cases and the operational testing of AI performance with human grading and refinement, which supports **governance**, **transparency**, and **oversight**.",
+          "title": "Morgan Stanley Uses AI Evals to Shape the Future of Financial Services",
+          "url": "https://openai.com/index/morgan-stanley"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 2,
+      "findings": "Morgan Stanley describes data protection in a blog post. The Privacy Pledge outlines details about AI/ML use and data processing and states a commitment to protecting personal data.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This Morgan Stanley blog post, \"Responsible AI: Safety and Regulation,\" provides evidence for **fairness, governance, privacy, and transparency**. The article supports these pillars by defining specific components of AI like reliability and bias avoidance (fairness), referencing codified guidelines and standards for AI systems (governance), and discussing data protection (privacy) and the need for transparency in AI development and deployment.",
+          "title": "Responsible AI: Safety and Regulation",
+          "url": "https://morganstanley.com/ideas/thoughts-on-the-market-responsible-ai-mike-canfield"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Privacy Pledge,\" provides evidence for the **privacy** and **transparency** pillars. It supports privacy by directing users to details about AI/ML use and data processing, indicating a commitment to protecting personal data. The pledge also supports transparency by publicly committing to disclosing information regarding algorithmic decision-making and how AI processes personal data.",
+          "title": "Privacy Pledge",
+          "url": "https://morganstanley.com/privacy-pledge"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 16,
+      "findings": "Morgan Stanley describes transparency in AI development and deployment by referencing AI use cases and specific GenAI tools and their functions. The company outlines disclosures regarding data use purposes, biometric information collection, and behavioral advertising, and states a public commitment to disclosing information about algorithmic decision-making and how AI processes personal data. Furthermore, Morgan Stanley describes its AI evaluation framework, operational fine-tuning of AI retrieval methods, and testing of AI use cases.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance** and **transparency** by detailing Morgan Stanley's structured process for vetting employee-pitched AI solutions. The article highlights a formalized AI steering group, mandatory training on AI principles and security, and a multi-step pitching process involving executive review, all of which demonstrate robust operational governance. Furthermore, the mention of AI use cases in progress and a launched generative AI product showcases transparency in their AI development and deployment.",
+          "title": "Inside Morgan Stanley's AI Pipeline: How the Bank's AI Head Vets New Solutions",
+          "url": "https://businessinsider.com/how-morgan-stanley-ai-leader-vets-new-solutions-2024-11"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **explainability, governance, oversight, and transparency** in AI. It details Morgan Stanley's AI governance framework, including testing and approval processes, and highlights efforts to ensure explainability by understanding which inputs drive recommendations. The press release also demonstrates transparency by describing specific GenAI tools and their functions, and supports oversight through mentions of advisor validation and human judgment in AI output delivery.",
+          "title": "98% of Morgan Stanley Wealth Management Advisors Use AI Chatbot with Improved Productivity",
+          "url": "https://cdomagazine.tech/aiml/98-of-morgan-stanley-wealth-management-advisors-use-its-ai-chatbot-with-improved-productivity-cao-explains-how"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release from Morgan Stanley provides evidence for **external accountability**, **governance**, and **transparency**. It details the appointment of a Head of Firmwide Artificial Intelligence to coordinate strategy and governance, demonstrating a formal commitment to **governance**. The press release also highlights the deployment of generative AI tools and a partnership to launch an open-source AI governance framework for ethical standards, supporting **external accountability** and **transparency** by showcasing operational use and industry collaboration on ethical guidelines.",
+          "title": "Morgan Stanley - IMD Business School AI Maturity Profile",
+          "url": "https://imd.org/entity-profile/morgan-stanley-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Artificial Intelligence: Firmwide Team,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It supports governance and oversight by mentioning the firm's \"AI team\" and its associated \"controls\" and \"oversight\" mechanisms. Furthermore, the document suggests transparency through its reference to a \"Machine Learning Research team\" and its \"publications.\"",
+          "title": "Artificial Intelligence: Firmwide Team",
+          "url": "https://morganstanley.com/about-us/technology/artificial-intelligence-firmwide-team"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This U.S. Privacy Policy and Notice document provides evidence for **governance** and **transparency**. It supports governance by outlining policies for AI operations, including the use of AI/ML technologies and inferences derived from personal data. Transparency is supported through disclosures about data use purposes, the collection of biometric information, and cross-context behavioral advertising, as well as mentioning consumer rights and emerging technology notification requirements.",
+          "title": "U.S. Privacy Policy and Notice",
+          "url": "https://morganstanley.com/disclosures/us-privacy-policy-and-notice"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This Morgan Stanley blog post, \"Responsible AI: Safety and Regulation,\" provides evidence for **fairness, governance, privacy, and transparency**. The article supports these pillars by defining specific components of AI like reliability and bias avoidance (fairness), referencing codified guidelines and standards for AI systems (governance), and discussing data protection (privacy) and the need for transparency in AI development and deployment.",
+          "title": "Responsible AI: Safety and Regulation",
+          "url": "https://morganstanley.com/ideas/thoughts-on-the-market-responsible-ai-mike-canfield"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"ESG Update | Morgan Stanley,\" provides evidence for **governance**, **transparency**, and **external accountability**. The post highlights the establishment of a cross-functional AI governance committee for centralized oversight and risk monitoring, demonstrating operational governance. It also mentions \"transparent policies\" for risk mitigation, supporting the transparency pillar, and references external certification for the AI system lifecycle (ISO 42001), which serves as evidence for external accountability.",
+          "title": "ESG Update | Morgan Stanley",
+          "url": "https://morganstanley.com/im/publication/insights/articles/article_esgupdate_a4.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Privacy Pledge,\" provides evidence for the **privacy** and **transparency** pillars. It supports privacy by directing users to details about AI/ML use and data processing, indicating a commitment to protecting personal data. The pledge also supports transparency by publicly committing to disclosing information regarding algorithmic decision-making and how AI processes personal data.",
+          "title": "Privacy Pledge",
+          "url": "https://morganstanley.com/privacy-pledge"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This press release details Morgan Stanley's use of an AI evaluation framework and operational fine-tuning of AI retrieval methods, providing evidence for **governance** and **transparency**. The document also highlights the testing of AI use cases and the operational testing of AI performance with human grading and refinement, which supports **governance**, **transparency**, and **oversight**.",
+          "title": "Morgan Stanley Uses AI Evals to Shape the Future of Financial Services",
+          "url": "https://openai.com/index/morgan-stanley"
+        }
+      ],
+      "score": 1,
+      "source_count": 9
+    }
+  },
+  "published_at": "2026-02-23T21:55:42Z",
+  "run_id": "20260218_044652_be94",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Morgan Stanley's public disclosures address all 7 evaluated pillars, with evidence found at both the operational and policy levels. Operational practices are documented for governance and external accountability, including a structured process for vetting employee-pitched AI solutions and industry collaboration on ethical guidelines. Policy-level evidence is present for transparency, fairness, explainability, oversight, and privacy. For instance, transparency materials describe specific GenAI tools and their functions, while an audit report states no disparate impact from an algorithmic model, addressing fairness. These findings are based on a review of 16 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 44,
+    "total_sources_used": 12
+  }
+}

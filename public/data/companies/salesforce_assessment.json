@@ -1,0 +1,781 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 92.9,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 13
+  },
+  "company": "Salesforce",
+  "company_slug": "salesforce",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 25,
+      "OPERATIONAL": 22,
+      "POLICY": 102
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 15,
+      "findings": "The company uses model cards to document AI model capabilities, limitations, and ethical considerations, supporting explainability. Commitments are detailed for verifiable results, communication of uncertainty, and explainability, alongside principles for accuracy, constraints, and user validation. Additionally, tools like feature importance and predictive factors are detailed to enhance understanding of AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Increase Prediction Transparency with Model Cards,\" provides evidence for the **explainability** and **transparency** pillars of responsible AI. It describes the model card feature in Einstein Discovery, which documents AI model capabilities, limitations, intended use cases, training metrics, and variable correlations. This detailed documentation aims to increase user understanding of model predictions and limitations, thereby promoting transparency in how AI models are used and their outputs are presented.",
+          "title": "Increase Prediction Transparency with Model Cards",
+          "url": "https://help.salesforce.com/s/articleView?id=release-notes.rn_bi_edd_model_card.htm&language=en_US&release=232&type=5"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI Is Everywhere — But Are You Building it Responsibly?\", provides evidence for explainability, fairness, governance, oversight, and transparency. It supports explainability by discussing the need for AI system explanations, fairness by detailing how to avoid protected attributes and proxy variables, and governance by highlighting the importance of building a culture with diverse experts for risk flagging. Furthermore, it addresses oversight through the mention of requiring human review for significant decisions and transparency by describing a commitment to publishing model cards.",
+          "title": "AI Is Everywhere — But Are You Building it Responsibly?",
+          "url": "https://salesforce.com/blog/build-ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce blog post outlines their commitment to responsible AI, providing evidence for **transparency**, **explainability**, **fairness**, **governance**, and **external accountability**. The post supports these pillars by describing the use of model cards for transparency and explainability, testing models with diverse data for fairness, establishing a dedicated office and articulating AI principles for governance, and detailing engagement with external experts for accountability.",
+          "title": "Meet Salesforce's Trusted AI Principles",
+          "url": "https://salesforce.com/blog/meet-salesforces-trusted-ai-principles"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce blog post provides evidence for **transparency**, **governance**, and **explainability** by detailing their standardized model card procedure. The post explains how model cards document critical information about AI models, such as inputs, outputs, and ethical considerations, thereby committing to transparency. It also highlights the development of these cards by specific roles and their alignment with the company's mission and principles for ethical AI, demonstrating governance.",
+          "title": "Model Cards for AI Model Transparency",
+          "url": "https://salesforce.com/blog/model-cards-for-ai-model-transparency"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI and Technology,\" provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by outlining guidelines for AI safety including bias mitigation and PII protection, establishing an office to guide AI development with standards for trustworthiness and transparency, and describing operational processes like adversarial testing for safety and accuracy. Furthermore, the policy details a framework requiring safety testing, human oversight, and user guidance, and sets guidelines for AI accuracy and transparency through source citation.",
+          "title": "Responsible AI and Technology",
+          "url": "https://salesforce.com/company/responsible-ai-and-technology"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Literacy and Compliance at Salesforce,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. It details commitments to AI transparency and explainability through Model Cards and tools like feature importance, supports external accountability and governance by aligning with the EU AI Act and monitoring regulations, and addresses fairness through bias mitigation efforts and diverse datasets. The document also highlights governance through its AI Council and internal audits, and privacy through mandatory training on AI privacy tenets.",
+          "title": "AI Literacy and Compliance at Salesforce",
+          "url": "https://salesforce.com/en-us/wp-content/uploads/sites/4/documents/guides/ai-literacy-and-compliance.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This AI Acceptable Use Policy document provides evidence for **governance, oversight, transparency, fairness, and explainability**. It establishes governance by assigning customer responsibility for AI use safety, and mandates oversight through requirements for human review of AI-assisted advice and disclosure of automated systems. The policy also supports transparency by requiring disclosure of AI's role in decisions and fairness by explicitly mentioning the identification and reduction of bias in AI Services.",
+          "title": "AI Acceptable Use Policy",
+          "url": "https://salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/Agreements/policies/ai-acceptable-use-policy.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This company-owned press release, \"Generative AI: 5 Guidelines for Responsible Development,\" provides evidence for several responsible AI pillars. It supports **governance** and **transparency** by committing to embedding ethical guardrails and guidelines for development and implementation, and by stating a commitment to data provenance and transparency about AI-generated content. The press release also addresses **fairness** and **safety** through its commitment to mitigating bias and implementing guardrails for AI safety and harm prevention, and touches on **explainability** and **oversight** by detailing commitments to verifiable results, communication of uncertainty, explainability, and human review for AI accuracy.",
+          "title": "Generative AI: 5 Guidelines for Responsible Development",
+          "url": "https://salesforce.com/news/stories/generative-ai-guidelines"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This press release details Salesforce's five guidelines for responsible agentic AI, providing evidence for **fairness, explainability, privacy, transparency, and governance**. It supports fairness and privacy by committing to bias and toxicity mitigation and PII protection. Transparency and privacy are further supported by emphasizing data consent and disclosure of AI-generated content, while governance is evidenced by the mention of \"responsible AI principles\" guiding development and the implementation of Atlas Reasoning Engine and Einstein Trust Layer. The press release also highlights transparency and explainability through principles for accuracy, constraints, and user validation.",
+          "title": "How Salesforce Shapes Ethical AI Standards in the Agent Era",
+          "url": "https://salesforce.com/news/stories/responsible-agentic-ai-guidelines"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This charter, \"Meet the Office of Ethical and Humane Use of Technology,\" provides evidence for explainability, fairness, governance, and transparency. It supports explainability by detailing features like predictive factors, fairness through the mention of Sensitive Fields, and transparency by outlining requirements for disclosing AI-generated content and utilizing Model Cards. The charter also demonstrates governance by specifying policy restrictions and requirements for AI use.",
+          "title": "Meet the Office of Ethical and Humane Use of Technology",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/ethics-by-design/meet-the-office-of-ethical-and-humane-use-of-technology"
+        }
+      ],
+      "score": 1,
+      "source_count": 10
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 13,
+      "findings": "The company describes the establishment of an external ethics board and public documentation, alongside iterative feedback loops involving external parties. Engagement with external experts for accountability is detailed, and the company states it is accountable to a Council. Furthermore, external accountability is supported by aligning with the EU AI Act and monitoring regulations, and demonstrated through an AI Advisory Committee and Ethical Use Advisory Council.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Applying AI Ethics Research in Practice,\" provides evidence for **fairness**, **governance**, and **external accountability**. The post details practical applications of fairness-aware approaches, including fairness-aware ranking algorithms and bias/fairness notions, demonstrating a policy commitment to fairness. It also highlights operational governance through the mention of specific roles focused on ethical AI practice and the integration of fairness reviews into development processes. Furthermore, the blog post supports external accountability by describing the establishment of an external ethics board and public documentation, as well as iterative feedback loops involving external parties.",
+          "title": "Applying AI Ethics Research in Practice",
+          "url": "https://salesforce.com/blog/applying-ai-ethics-research-in-practice"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce blog post outlines their commitment to responsible AI, providing evidence for **transparency**, **explainability**, **fairness**, **governance**, and **external accountability**. The post supports these pillars by describing the use of model cards for transparency and explainability, testing models with diverse data for fairness, establishing a dedicated office and articulating AI principles for governance, and detailing engagement with external experts for accountability.",
+          "title": "Meet Salesforce's Trusted AI Principles",
+          "url": "https://salesforce.com/blog/meet-salesforces-trusted-ai-principles"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Ethical and Humane Use at Salesforce,\" provides evidence for **governance**, **oversight**, **transparency**, **fairness**, and **external accountability**. It describes an operational governance body that oversees policy, implying mechanisms for **governance**. The policy also mentions guiding responsible AI development and deployment, supporting **fairness** through ethical and inclusive design principles. Furthermore, it highlights human oversight and review of AI-generated content, demonstrating practices for **oversight** and **transparency**. The mention of being \"accountable to...Council\" directly supports the **external accountability** pillar.",
+          "title": "Ethical and Humane Use at Salesforce",
+          "url": "https://salesforce.com/company/ethical-and-humane-use"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Literacy and Compliance at Salesforce,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. It details commitments to AI transparency and explainability through Model Cards and tools like feature importance, supports external accountability and governance by aligning with the EU AI Act and monitoring regulations, and addresses fairness through bias mitigation efforts and diverse datasets. The document also highlights governance through its AI Council and internal audits, and privacy through mandatory training on AI privacy tenets.",
+          "title": "AI Literacy and Compliance at Salesforce",
+          "url": "https://salesforce.com/en-us/wp-content/uploads/sites/4/documents/guides/ai-literacy-and-compliance.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This World Economic Forum case study provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The audit report details Salesforce's establishment of an Office of Ethical and Humane Use, including an AI Advisory Committee and Ethical Use Advisory Council, demonstrating operational governance and external accountability. It also highlights the Einstein Trust Guide and Einstein Content Selection's bias mitigation features, supporting fairness and governance, while the focus on responsible data use and the \"Build with Intention Toolkit\" point to policies for privacy and ethical product development. Furthermore, the case study mentions the mandatory publication of model cards, a key transparency mechanism.",
+          "title": "Responsible Use of Technology: The Salesforce Case Study",
+          "url": "https://www3.weforum.org/docs/WEF_Responsible_Use_of_Technology_Salesforce_Case_Study_2022.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 33,
+      "findings": "The company describes testing mechanisms like model benchmarking for bias and outlines guidelines for AI safety, including bias and toxicity mitigation. Practices detail how to avoid protected attributes and proxy variables, and models are tested with diverse data. Furthermore, ethical and inclusive design principles guide responsible AI development, with a focus on eliminating bias in AI systems by examining data and algorithms.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Einstein Trust Layer: Designed for Trust,\" provides evidence for **governance, transparency, privacy, and fairness**. It details system policies designed to instruct LLM behavior and prevent harm, supporting governance and transparency. The card also highlights AI privacy through a zero data retention policy for model providers and AI/ML-driven data masking for sensitive data identification, directly addressing the privacy pillar. Furthermore, it mentions AI accuracy and responsible use as policy goals, implying considerations for fairness.",
+          "title": "Einstein Trust Layer: Designed for Trust",
+          "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm&language=en_US&type=5"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce Trusted AI Impact Report blog post provides evidence for fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing the development of principles for responsible generative AI, operationalizing AI through the Einstein Trust Layer for privacy and ethical standards, and outlining decision-making structures like board reporting and advisory council reviews. Furthermore, the report describes implementing testing mechanisms such as model benchmarking for bias, privacy, and robustness.",
+          "title": "Salesforce Trusted AI Impact Report",
+          "url": "https://salesforce.com/ap/blog/achieving-a-trusted-agentic-ai-ecosystem-salesforce-report-offers-a-roadmap"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Applying AI Ethics Research in Practice,\" provides evidence for **fairness**, **governance**, and **external accountability**. The post details practical applications of fairness-aware approaches, including fairness-aware ranking algorithms and bias/fairness notions, demonstrating a policy commitment to fairness. It also highlights operational governance through the mention of specific roles focused on ethical AI practice and the integration of fairness reviews into development processes. Furthermore, the blog post supports external accountability by describing the establishment of an external ethics board and public documentation, as well as iterative feedback loops involving external parties.",
+          "title": "Applying AI Ethics Research in Practice",
+          "url": "https://salesforce.com/blog/applying-ai-ethics-research-in-practice"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI Is Everywhere — But Are You Building it Responsibly?\", provides evidence for explainability, fairness, governance, oversight, and transparency. It supports explainability by discussing the need for AI system explanations, fairness by detailing how to avoid protected attributes and proxy variables, and governance by highlighting the importance of building a culture with diverse experts for risk flagging. Furthermore, it addresses oversight through the mention of requiring human review for significant decisions and transparency by describing a commitment to publishing model cards.",
+          "title": "AI Is Everywhere — But Are You Building it Responsibly?",
+          "url": "https://salesforce.com/blog/build-ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce blog post outlines their commitment to responsible AI, providing evidence for **transparency**, **explainability**, **fairness**, **governance**, and **external accountability**. The post supports these pillars by describing the use of model cards for transparency and explainability, testing models with diverse data for fairness, establishing a dedicated office and articulating AI principles for governance, and detailing engagement with external experts for accountability.",
+          "title": "Meet Salesforce's Trusted AI Principles",
+          "url": "https://salesforce.com/blog/meet-salesforces-trusted-ai-principles"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Ethical and Humane Use at Salesforce,\" provides evidence for **governance**, **oversight**, **transparency**, **fairness**, and **external accountability**. It describes an operational governance body that oversees policy, implying mechanisms for **governance**. The policy also mentions guiding responsible AI development and deployment, supporting **fairness** through ethical and inclusive design principles. Furthermore, it highlights human oversight and review of AI-generated content, demonstrating practices for **oversight** and **transparency**. The mention of being \"accountable to...Council\" directly supports the **external accountability** pillar.",
+          "title": "Ethical and Humane Use at Salesforce",
+          "url": "https://salesforce.com/company/ethical-and-humane-use"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Human Rights Policy,\" provides evidence for **governance** by detailing Salesforce's human rights governance structure, including a Human Rights Steering Committee with cross-functional representation and a defined due diligence process for identifying risks. It also supports the **fairness** pillar by referencing specific AI policies and commitments to external ethical AI principles, and by defining focus areas for responsible AI such as bias and ethical use.",
+          "title": "Human Rights Policy",
+          "url": "https://salesforce.com/company/human-rights"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI and Technology,\" provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by outlining guidelines for AI safety including bias mitigation and PII protection, establishing an office to guide AI development with standards for trustworthiness and transparency, and describing operational processes like adversarial testing for safety and accuracy. Furthermore, the policy details a framework requiring safety testing, human oversight, and user guidance, and sets guidelines for AI accuracy and transparency through source citation.",
+          "title": "Responsible AI and Technology",
+          "url": "https://salesforce.com/company/responsible-ai-and-technology"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Literacy and Compliance at Salesforce,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. It details commitments to AI transparency and explainability through Model Cards and tools like feature importance, supports external accountability and governance by aligning with the EU AI Act and monitoring regulations, and addresses fairness through bias mitigation efforts and diverse datasets. The document also highlights governance through its AI Council and internal audits, and privacy through mandatory training on AI privacy tenets.",
+          "title": "AI Literacy and Compliance at Salesforce",
+          "url": "https://salesforce.com/en-us/wp-content/uploads/sites/4/documents/guides/ai-literacy-and-compliance.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This AI Acceptable Use Policy document provides evidence for **governance, oversight, transparency, fairness, and explainability**. It establishes governance by assigning customer responsibility for AI use safety, and mandates oversight through requirements for human review of AI-assisted advice and disclosure of automated systems. The policy also supports transparency by requiring disclosure of AI's role in decisions and fairness by explicitly mentioning the identification and reduction of bias in AI Services.",
+          "title": "AI Acceptable Use Policy",
+          "url": "https://salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/Agreements/policies/ai-acceptable-use-policy.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce blog post details their approach to building trust in AI products, providing evidence for **fairness, oversight, and transparency**. The post highlights mechanisms like \"Bias & Toxicity Safeguards\" and \"guardrails\" to ensure fairness, while \"human oversight,\" \"human control,\" and \"Mindful Friction\" for intentional human engagement and review demonstrate a commitment to oversight. Furthermore, the blog post defines \"Awareness of AI\" as a functionality for transparency and outlines a policy for disclosure of AI-generated content.",
+          "title": "How Salesforce Builds Trust in Our AI Products",
+          "url": "https://salesforce.com/news/stories/ai-trust-patterns"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This company-owned press release, \"Generative AI: 5 Guidelines for Responsible Development,\" provides evidence for several responsible AI pillars. It supports **governance** and **transparency** by committing to embedding ethical guardrails and guidelines for development and implementation, and by stating a commitment to data provenance and transparency about AI-generated content. The press release also addresses **fairness** and **safety** through its commitment to mitigating bias and implementing guardrails for AI safety and harm prevention, and touches on **explainability** and **oversight** by detailing commitments to verifiable results, communication of uncertainty, explainability, and human review for AI accuracy.",
+          "title": "Generative AI: 5 Guidelines for Responsible Development",
+          "url": "https://salesforce.com/news/stories/generative-ai-guidelines"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This press release details Salesforce's five guidelines for responsible agentic AI, providing evidence for **fairness, explainability, privacy, transparency, and governance**. It supports fairness and privacy by committing to bias and toxicity mitigation and PII protection. Transparency and privacy are further supported by emphasizing data consent and disclosure of AI-generated content, while governance is evidenced by the mention of \"responsible AI principles\" guiding development and the implementation of Atlas Reasoning Engine and Einstein Trust Layer. The press release also highlights transparency and explainability through principles for accuracy, constraints, and user validation.",
+          "title": "How Salesforce Shapes Ethical AI Standards in the Agent Era",
+          "url": "https://salesforce.com/news/stories/responsible-agentic-ai-guidelines"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "authority",
+          "summary": "Salesforce's \"Form 10-K Fiscal Year Ended January 31, 2025\" filing provides evidence for **fairness, governance, privacy, and transparency**. The document supports **governance** by discussing evolving AI regulations, investment in agentic AI, reliance on third-party AI, and the need for governance over data and AI systems. Evidence for **transparency** is found in mentions of AI-powered capabilities, AI-based recommendations, and AI service offerings. The filing also touches upon **privacy** concerns related to AI services and acknowledges risks like \"bias\" and \"privacy\" associated with AI products, indicating a need for governance in these areas.",
+          "title": "Form 10-K Fiscal Year Ended January 31, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This charter, \"Meet the Office of Ethical and Humane Use of Technology,\" provides evidence for explainability, fairness, governance, and transparency. It supports explainability by detailing features like predictive factors, fairness through the mention of Sensitive Fields, and transparency by outlining requirements for disclosing AI-generated content and utilizing Model Cards. The charter also demonstrates governance by specifying policy restrictions and requirements for AI use.",
+          "title": "Meet the Office of Ethical and Humane Use of Technology",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/ethics-by-design/meet-the-office-of-ethical-and-humane-use-of-technology"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_024",
+          "source_tier": "company_owned",
+          "summary": "The help page \"Responsible Creation of Artificial Intelligence\" provides evidence for the **fairness** pillar. This foundational module directly addresses the elimination of bias in AI systems by examining data and algorithms, identifying excluded groups, and detecting unknown unknowns in model predictions. It also outlines strategies for reducing interaction bias, demonstrating a commitment to actionable practices for fair AI development.",
+          "title": "Responsible Creation of Artificial Intelligence",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/responsible-creation-of-artificial-intelligence"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This World Economic Forum case study provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The audit report details Salesforce's establishment of an Office of Ethical and Humane Use, including an AI Advisory Committee and Ethical Use Advisory Council, demonstrating operational governance and external accountability. It also highlights the Einstein Trust Guide and Einstein Content Selection's bias mitigation features, supporting fairness and governance, while the focus on responsible data use and the \"Build with Intention Toolkit\" point to policies for privacy and ethical product development. Furthermore, the case study mentions the mandatory publication of model cards, a key transparency mechanism.",
+          "title": "Responsible Use of Technology: The Salesforce Case Study",
+          "url": "https://www3.weforum.org/docs/WEF_Responsible_Use_of_Technology_Salesforce_Case_Study_2022.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 17
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 90,
+      "findings": "The company details system policies designed to instruct LLM behavior and prevent harm, alongside the development of principles for responsible generative AI. Operational governance is demonstrated through specific roles focused on ethical AI practice, the integration of fairness reviews, and the establishment of a dedicated office and an AI Council. Furthermore, decision-making structures like board reporting and advisory council reviews are outlined, with board-level oversight provided by a Privacy & Ethical Use Committee.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Einstein Trust Layer: Designed for Trust,\" provides evidence for **governance, transparency, privacy, and fairness**. It details system policies designed to instruct LLM behavior and prevent harm, supporting governance and transparency. The card also highlights AI privacy through a zero data retention policy for model providers and AI/ML-driven data masking for sensitive data identification, directly addressing the privacy pillar. Furthermore, it mentions AI accuracy and responsible use as policy goals, implying considerations for fairness.",
+          "title": "Einstein Trust Layer: Designed for Trust",
+          "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm&language=en_US&type=5"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This system card for the Einstein Trust Layer documents practices that support the **governance** and **privacy** pillars of responsible AI. It details mechanisms like PII/PCI data masking, personalized masking configuration, and a zero-data retention policy, which directly address data protection and privacy controls for generative AI and LLM usage. Furthermore, the documentation of an audit trail for tracking generative AI usage demonstrates a commitment to operational governance and the protection of sensitive data from external LLM exposure.",
+          "title": "Einstein Trust Layer - Salesforce Help",
+          "url": "https://help.salesforce.com/s/articleView?id=release-notes.rn_einstein_trust_layer.htm&language=en_US&release=248&type=5"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce Trusted AI Impact Report blog post provides evidence for fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing the development of principles for responsible generative AI, operationalizing AI through the Einstein Trust Layer for privacy and ethical standards, and outlining decision-making structures like board reporting and advisory council reviews. Furthermore, the report describes implementing testing mechanisms such as model benchmarking for bias, privacy, and robustness.",
+          "title": "Salesforce Trusted AI Impact Report",
+          "url": "https://salesforce.com/ap/blog/achieving-a-trusted-agentic-ai-ecosystem-salesforce-report-offers-a-roadmap"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Applying AI Ethics Research in Practice,\" provides evidence for **fairness**, **governance**, and **external accountability**. The post details practical applications of fairness-aware approaches, including fairness-aware ranking algorithms and bias/fairness notions, demonstrating a policy commitment to fairness. It also highlights operational governance through the mention of specific roles focused on ethical AI practice and the integration of fairness reviews into development processes. Furthermore, the blog post supports external accountability by describing the establishment of an external ethics board and public documentation, as well as iterative feedback loops involving external parties.",
+          "title": "Applying AI Ethics Research in Practice",
+          "url": "https://salesforce.com/blog/applying-ai-ethics-research-in-practice"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI Is Everywhere — But Are You Building it Responsibly?\", provides evidence for explainability, fairness, governance, oversight, and transparency. It supports explainability by discussing the need for AI system explanations, fairness by detailing how to avoid protected attributes and proxy variables, and governance by highlighting the importance of building a culture with diverse experts for risk flagging. Furthermore, it addresses oversight through the mention of requiring human review for significant decisions and transparency by describing a commitment to publishing model cards.",
+          "title": "AI Is Everywhere — But Are You Building it Responsibly?",
+          "url": "https://salesforce.com/blog/build-ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce blog post outlines their commitment to responsible AI, providing evidence for **transparency**, **explainability**, **fairness**, **governance**, and **external accountability**. The post supports these pillars by describing the use of model cards for transparency and explainability, testing models with diverse data for fairness, establishing a dedicated office and articulating AI principles for governance, and detailing engagement with external experts for accountability.",
+          "title": "Meet Salesforce's Trusted AI Principles",
+          "url": "https://salesforce.com/blog/meet-salesforces-trusted-ai-principles"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce blog post provides evidence for **transparency**, **governance**, and **explainability** by detailing their standardized model card procedure. The post explains how model cards document critical information about AI models, such as inputs, outputs, and ethical considerations, thereby committing to transparency. It also highlights the development of these cards by specific roles and their alignment with the company's mission and principles for ethical AI, demonstrating governance.",
+          "title": "Model Cards for AI Model Transparency",
+          "url": "https://salesforce.com/blog/model-cards-for-ai-model-transparency"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Ethical and Humane Use at Salesforce,\" provides evidence for **governance**, **oversight**, **transparency**, **fairness**, and **external accountability**. It describes an operational governance body that oversees policy, implying mechanisms for **governance**. The policy also mentions guiding responsible AI development and deployment, supporting **fairness** through ethical and inclusive design principles. Furthermore, it highlights human oversight and review of AI-generated content, demonstrating practices for **oversight** and **transparency**. The mention of being \"accountable to...Council\" directly supports the **external accountability** pillar.",
+          "title": "Ethical and Humane Use at Salesforce",
+          "url": "https://salesforce.com/company/ethical-and-humane-use"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Human Rights Policy,\" provides evidence for **governance** by detailing Salesforce's human rights governance structure, including a Human Rights Steering Committee with cross-functional representation and a defined due diligence process for identifying risks. It also supports the **fairness** pillar by referencing specific AI policies and commitments to external ethical AI principles, and by defining focus areas for responsible AI such as bias and ethical use.",
+          "title": "Human Rights Policy",
+          "url": "https://salesforce.com/company/human-rights"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI and Technology,\" provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by outlining guidelines for AI safety including bias mitigation and PII protection, establishing an office to guide AI development with standards for trustworthiness and transparency, and describing operational processes like adversarial testing for safety and accuracy. Furthermore, the policy details a framework requiring safety testing, human oversight, and user guidance, and sets guidelines for AI accuracy and transparency through source citation.",
+          "title": "Responsible AI and Technology",
+          "url": "https://salesforce.com/company/responsible-ai-and-technology"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Literacy and Compliance at Salesforce,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. It details commitments to AI transparency and explainability through Model Cards and tools like feature importance, supports external accountability and governance by aligning with the EU AI Act and monitoring regulations, and addresses fairness through bias mitigation efforts and diverse datasets. The document also highlights governance through its AI Council and internal audits, and privacy through mandatory training on AI privacy tenets.",
+          "title": "AI Literacy and Compliance at Salesforce",
+          "url": "https://salesforce.com/en-us/wp-content/uploads/sites/4/documents/guides/ai-literacy-and-compliance.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This AI Acceptable Use Policy document provides evidence for **governance, oversight, transparency, fairness, and explainability**. It establishes governance by assigning customer responsibility for AI use safety, and mandates oversight through requirements for human review of AI-assisted advice and disclosure of automated systems. The policy also supports transparency by requiring disclosure of AI's role in decisions and fairness by explicitly mentioning the identification and reduction of bias in AI Services.",
+          "title": "AI Acceptable Use Policy",
+          "url": "https://salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/Agreements/policies/ai-acceptable-use-policy.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This company-owned press release, \"Generative AI: 5 Guidelines for Responsible Development,\" provides evidence for several responsible AI pillars. It supports **governance** and **transparency** by committing to embedding ethical guardrails and guidelines for development and implementation, and by stating a commitment to data provenance and transparency about AI-generated content. The press release also addresses **fairness** and **safety** through its commitment to mitigating bias and implementing guardrails for AI safety and harm prevention, and touches on **explainability** and **oversight** by detailing commitments to verifiable results, communication of uncertainty, explainability, and human review for AI accuracy.",
+          "title": "Generative AI: 5 Guidelines for Responsible Development",
+          "url": "https://salesforce.com/news/stories/generative-ai-guidelines"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This press release details Salesforce's five guidelines for responsible agentic AI, providing evidence for **fairness, explainability, privacy, transparency, and governance**. It supports fairness and privacy by committing to bias and toxicity mitigation and PII protection. Transparency and privacy are further supported by emphasizing data consent and disclosure of AI-generated content, while governance is evidenced by the mention of \"responsible AI principles\" guiding development and the implementation of Atlas Reasoning Engine and Einstein Trust Layer. The press release also highlights transparency and explainability through principles for accuracy, constraints, and user validation.",
+          "title": "How Salesforce Shapes Ethical AI Standards in the Agent Era",
+          "url": "https://salesforce.com/news/stories/responsible-agentic-ai-guidelines"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "authority",
+          "summary": "Salesforce's \"Form 10-K Fiscal Year Ended January 31, 2025\" filing provides evidence for **fairness, governance, privacy, and transparency**. The document supports **governance** by discussing evolving AI regulations, investment in agentic AI, reliance on third-party AI, and the need for governance over data and AI systems. Evidence for **transparency** is found in mentions of AI-powered capabilities, AI-based recommendations, and AI service offerings. The filing also touches upon **privacy** concerns related to AI services and acknowledges risks like \"bias\" and \"privacy\" associated with AI products, indicating a need for governance in these areas.",
+          "title": "Form 10-K Fiscal Year Ended January 31, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_022",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the **governance** pillar of responsible AI. It documents the establishment of a Privacy & Ethical Use Committee, demonstrating board-level oversight of AI governance and responsible technology development. Furthermore, the statement details the Audit Committee's processes for approving third-party services, highlighting governance and accountability in operational practices.",
+          "title": "Proxy Statement DEF 14A",
+          "url": "https://sec.gov/Archives/edgar/data/1108524/000119312522127612/d301179ddef14a.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This charter, \"Meet the Office of Ethical and Humane Use of Technology,\" provides evidence for explainability, fairness, governance, and transparency. It supports explainability by detailing features like predictive factors, fairness through the mention of Sensitive Fields, and transparency by outlining requirements for disclosing AI-generated content and utilizing Model Cards. The charter also demonstrates governance by specifying policy restrictions and requirements for AI use.",
+          "title": "Meet the Office of Ethical and Humane Use of Technology",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/ethics-by-design/meet-the-office-of-ethical-and-humane-use-of-technology"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This World Economic Forum case study provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The audit report details Salesforce's establishment of an Office of Ethical and Humane Use, including an AI Advisory Committee and Ethical Use Advisory Council, demonstrating operational governance and external accountability. It also highlights the Einstein Trust Guide and Einstein Content Selection's bias mitigation features, supporting fairness and governance, while the focus on responsible data use and the \"Build with Intention Toolkit\" point to policies for privacy and ethical product development. Furthermore, the case study mentions the mandatory publication of model cards, a key transparency mechanism.",
+          "title": "Responsible Use of Technology: The Salesforce Case Study",
+          "url": "https://www3.weforum.org/docs/WEF_Responsible_Use_of_Technology_Salesforce_Case_Study_2022.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 18
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 12,
+      "findings": "The company outlines decision-making structures such as board reporting and advisory council reviews. Policies mandate human review for significant decisions, AI-assisted advice, and AI accuracy. Furthermore, a framework details requirements for human oversight and review of AI-generated content, highlighting \"human control\" and \"Mindful Friction\" for intentional human engagement.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce Trusted AI Impact Report blog post provides evidence for fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing the development of principles for responsible generative AI, operationalizing AI through the Einstein Trust Layer for privacy and ethical standards, and outlining decision-making structures like board reporting and advisory council reviews. Furthermore, the report describes implementing testing mechanisms such as model benchmarking for bias, privacy, and robustness.",
+          "title": "Salesforce Trusted AI Impact Report",
+          "url": "https://salesforce.com/ap/blog/achieving-a-trusted-agentic-ai-ecosystem-salesforce-report-offers-a-roadmap"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI Is Everywhere — But Are You Building it Responsibly?\", provides evidence for explainability, fairness, governance, oversight, and transparency. It supports explainability by discussing the need for AI system explanations, fairness by detailing how to avoid protected attributes and proxy variables, and governance by highlighting the importance of building a culture with diverse experts for risk flagging. Furthermore, it addresses oversight through the mention of requiring human review for significant decisions and transparency by describing a commitment to publishing model cards.",
+          "title": "AI Is Everywhere — But Are You Building it Responsibly?",
+          "url": "https://salesforce.com/blog/build-ethical-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Ethical and Humane Use at Salesforce,\" provides evidence for **governance**, **oversight**, **transparency**, **fairness**, and **external accountability**. It describes an operational governance body that oversees policy, implying mechanisms for **governance**. The policy also mentions guiding responsible AI development and deployment, supporting **fairness** through ethical and inclusive design principles. Furthermore, it highlights human oversight and review of AI-generated content, demonstrating practices for **oversight** and **transparency**. The mention of being \"accountable to...Council\" directly supports the **external accountability** pillar.",
+          "title": "Ethical and Humane Use at Salesforce",
+          "url": "https://salesforce.com/company/ethical-and-humane-use"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI and Technology,\" provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by outlining guidelines for AI safety including bias mitigation and PII protection, establishing an office to guide AI development with standards for trustworthiness and transparency, and describing operational processes like adversarial testing for safety and accuracy. Furthermore, the policy details a framework requiring safety testing, human oversight, and user guidance, and sets guidelines for AI accuracy and transparency through source citation.",
+          "title": "Responsible AI and Technology",
+          "url": "https://salesforce.com/company/responsible-ai-and-technology"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This AI Acceptable Use Policy document provides evidence for **governance, oversight, transparency, fairness, and explainability**. It establishes governance by assigning customer responsibility for AI use safety, and mandates oversight through requirements for human review of AI-assisted advice and disclosure of automated systems. The policy also supports transparency by requiring disclosure of AI's role in decisions and fairness by explicitly mentioning the identification and reduction of bias in AI Services.",
+          "title": "AI Acceptable Use Policy",
+          "url": "https://salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/Agreements/policies/ai-acceptable-use-policy.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce blog post details their approach to building trust in AI products, providing evidence for **fairness, oversight, and transparency**. The post highlights mechanisms like \"Bias & Toxicity Safeguards\" and \"guardrails\" to ensure fairness, while \"human oversight,\" \"human control,\" and \"Mindful Friction\" for intentional human engagement and review demonstrate a commitment to oversight. Furthermore, the blog post defines \"Awareness of AI\" as a functionality for transparency and outlines a policy for disclosure of AI-generated content.",
+          "title": "How Salesforce Builds Trust in Our AI Products",
+          "url": "https://salesforce.com/news/stories/ai-trust-patterns"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This company-owned press release, \"Generative AI: 5 Guidelines for Responsible Development,\" provides evidence for several responsible AI pillars. It supports **governance** and **transparency** by committing to embedding ethical guardrails and guidelines for development and implementation, and by stating a commitment to data provenance and transparency about AI-generated content. The press release also addresses **fairness** and **safety** through its commitment to mitigating bias and implementing guardrails for AI safety and harm prevention, and touches on **explainability** and **oversight** by detailing commitments to verifiable results, communication of uncertainty, explainability, and human review for AI accuracy.",
+          "title": "Generative AI: 5 Guidelines for Responsible Development",
+          "url": "https://salesforce.com/news/stories/generative-ai-guidelines"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 20,
+      "findings": "The company highlights AI privacy through a zero data retention policy for model providers and AI/ML-driven data masking for sensitive data identification. Mechanisms like PII/PCI data masking and personalized masking configuration are detailed, alongside an audit trail for tracking generative AI usage to protect sensitive data. Furthermore, mandatory training on AI privacy tenets is detailed, and policies for privacy focus on responsible data use.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Einstein Trust Layer: Designed for Trust,\" provides evidence for **governance, transparency, privacy, and fairness**. It details system policies designed to instruct LLM behavior and prevent harm, supporting governance and transparency. The card also highlights AI privacy through a zero data retention policy for model providers and AI/ML-driven data masking for sensitive data identification, directly addressing the privacy pillar. Furthermore, it mentions AI accuracy and responsible use as policy goals, implying considerations for fairness.",
+          "title": "Einstein Trust Layer: Designed for Trust",
+          "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm&language=en_US&type=5"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This system card for the Einstein Trust Layer documents practices that support the **governance** and **privacy** pillars of responsible AI. It details mechanisms like PII/PCI data masking, personalized masking configuration, and a zero-data retention policy, which directly address data protection and privacy controls for generative AI and LLM usage. Furthermore, the documentation of an audit trail for tracking generative AI usage demonstrates a commitment to operational governance and the protection of sensitive data from external LLM exposure.",
+          "title": "Einstein Trust Layer - Salesforce Help",
+          "url": "https://help.salesforce.com/s/articleView?id=release-notes.rn_einstein_trust_layer.htm&language=en_US&release=248&type=5"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce Trusted AI Impact Report blog post provides evidence for fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing the development of principles for responsible generative AI, operationalizing AI through the Einstein Trust Layer for privacy and ethical standards, and outlining decision-making structures like board reporting and advisory council reviews. Furthermore, the report describes implementing testing mechanisms such as model benchmarking for bias, privacy, and robustness.",
+          "title": "Salesforce Trusted AI Impact Report",
+          "url": "https://salesforce.com/ap/blog/achieving-a-trusted-agentic-ai-ecosystem-salesforce-report-offers-a-roadmap"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI and Technology,\" provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by outlining guidelines for AI safety including bias mitigation and PII protection, establishing an office to guide AI development with standards for trustworthiness and transparency, and describing operational processes like adversarial testing for safety and accuracy. Furthermore, the policy details a framework requiring safety testing, human oversight, and user guidance, and sets guidelines for AI accuracy and transparency through source citation.",
+          "title": "Responsible AI and Technology",
+          "url": "https://salesforce.com/company/responsible-ai-and-technology"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Literacy and Compliance at Salesforce,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. It details commitments to AI transparency and explainability through Model Cards and tools like feature importance, supports external accountability and governance by aligning with the EU AI Act and monitoring regulations, and addresses fairness through bias mitigation efforts and diverse datasets. The document also highlights governance through its AI Council and internal audits, and privacy through mandatory training on AI privacy tenets.",
+          "title": "AI Literacy and Compliance at Salesforce",
+          "url": "https://salesforce.com/en-us/wp-content/uploads/sites/4/documents/guides/ai-literacy-and-compliance.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This company-owned press release, \"Generative AI: 5 Guidelines for Responsible Development,\" provides evidence for several responsible AI pillars. It supports **governance** and **transparency** by committing to embedding ethical guardrails and guidelines for development and implementation, and by stating a commitment to data provenance and transparency about AI-generated content. The press release also addresses **fairness** and **safety** through its commitment to mitigating bias and implementing guardrails for AI safety and harm prevention, and touches on **explainability** and **oversight** by detailing commitments to verifiable results, communication of uncertainty, explainability, and human review for AI accuracy.",
+          "title": "Generative AI: 5 Guidelines for Responsible Development",
+          "url": "https://salesforce.com/news/stories/generative-ai-guidelines"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This press release details Salesforce's five guidelines for responsible agentic AI, providing evidence for **fairness, explainability, privacy, transparency, and governance**. It supports fairness and privacy by committing to bias and toxicity mitigation and PII protection. Transparency and privacy are further supported by emphasizing data consent and disclosure of AI-generated content, while governance is evidenced by the mention of \"responsible AI principles\" guiding development and the implementation of Atlas Reasoning Engine and Einstein Trust Layer. The press release also highlights transparency and explainability through principles for accuracy, constraints, and user validation.",
+          "title": "How Salesforce Shapes Ethical AI Standards in the Agent Era",
+          "url": "https://salesforce.com/news/stories/responsible-agentic-ai-guidelines"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "authority",
+          "summary": "Salesforce's \"Form 10-K Fiscal Year Ended January 31, 2025\" filing provides evidence for **fairness, governance, privacy, and transparency**. The document supports **governance** by discussing evolving AI regulations, investment in agentic AI, reliance on third-party AI, and the need for governance over data and AI systems. Evidence for **transparency** is found in mentions of AI-powered capabilities, AI-based recommendations, and AI service offerings. The filing also touches upon **privacy** concerns related to AI services and acknowledges risks like \"bias\" and \"privacy\" associated with AI products, indicating a need for governance in these areas.",
+          "title": "Form 10-K Fiscal Year Ended January 31, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This World Economic Forum case study provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The audit report details Salesforce's establishment of an Office of Ethical and Humane Use, including an AI Advisory Committee and Ethical Use Advisory Council, demonstrating operational governance and external accountability. It also highlights the Einstein Trust Guide and Einstein Content Selection's bias mitigation features, supporting fairness and governance, while the focus on responsible data use and the \"Build with Intention Toolkit\" point to policies for privacy and ethical product development. Furthermore, the case study mentions the mandatory publication of model cards, a key transparency mechanism.",
+          "title": "Responsible Use of Technology: The Salesforce Case Study",
+          "url": "https://www3.weforum.org/docs/WEF_Responsible_Use_of_Technology_Salesforce_Case_Study_2022.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 9
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 55,
+      "findings": "The company documents AI model capabilities, limitations, and ethical considerations through model cards, which are mandatorily published. Policies outline requirements for disclosing AI-generated content and the role of AI in decisions, alongside guidelines for AI accuracy via source citation. Furthermore, the company states a commitment to data provenance and emphasizes data consent.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Einstein Trust Layer: Designed for Trust,\" provides evidence for **governance, transparency, privacy, and fairness**. It details system policies designed to instruct LLM behavior and prevent harm, supporting governance and transparency. The card also highlights AI privacy through a zero data retention policy for model providers and AI/ML-driven data masking for sensitive data identification, directly addressing the privacy pillar. Furthermore, it mentions AI accuracy and responsible use as policy goals, implying considerations for fairness.",
+          "title": "Einstein Trust Layer: Designed for Trust",
+          "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm&language=en_US&type=5"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Increase Prediction Transparency with Model Cards,\" provides evidence for the **explainability** and **transparency** pillars of responsible AI. It describes the model card feature in Einstein Discovery, which documents AI model capabilities, limitations, intended use cases, training metrics, and variable correlations. This detailed documentation aims to increase user understanding of model predictions and limitations, thereby promoting transparency in how AI models are used and their outputs are presented.",
+          "title": "Increase Prediction Transparency with Model Cards",
+          "url": "https://help.salesforce.com/s/articleView?id=release-notes.rn_bi_edd_model_card.htm&language=en_US&release=232&type=5"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce Trusted AI Impact Report blog post provides evidence for fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing the development of principles for responsible generative AI, operationalizing AI through the Einstein Trust Layer for privacy and ethical standards, and outlining decision-making structures like board reporting and advisory council reviews. Furthermore, the report describes implementing testing mechanisms such as model benchmarking for bias, privacy, and robustness.",
+          "title": "Salesforce Trusted AI Impact Report",
+          "url": "https://salesforce.com/ap/blog/achieving-a-trusted-agentic-ai-ecosystem-salesforce-report-offers-a-roadmap"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI Is Everywhere — But Are You Building it Responsibly?\", provides evidence for explainability, fairness, governance, oversight, and transparency. It supports explainability by discussing the need for AI system explanations, fairness by detailing how to avoid protected attributes and proxy variables, and governance by highlighting the importance of building a culture with diverse experts for risk flagging. Furthermore, it addresses oversight through the mention of requiring human review for significant decisions and transparency by describing a commitment to publishing model cards.",
+          "title": "AI Is Everywhere — But Are You Building it Responsibly?",
+          "url": "https://salesforce.com/blog/build-ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce blog post outlines their commitment to responsible AI, providing evidence for **transparency**, **explainability**, **fairness**, **governance**, and **external accountability**. The post supports these pillars by describing the use of model cards for transparency and explainability, testing models with diverse data for fairness, establishing a dedicated office and articulating AI principles for governance, and detailing engagement with external experts for accountability.",
+          "title": "Meet Salesforce's Trusted AI Principles",
+          "url": "https://salesforce.com/blog/meet-salesforces-trusted-ai-principles"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce blog post provides evidence for **transparency**, **governance**, and **explainability** by detailing their standardized model card procedure. The post explains how model cards document critical information about AI models, such as inputs, outputs, and ethical considerations, thereby committing to transparency. It also highlights the development of these cards by specific roles and their alignment with the company's mission and principles for ethical AI, demonstrating governance.",
+          "title": "Model Cards for AI Model Transparency",
+          "url": "https://salesforce.com/blog/model-cards-for-ai-model-transparency"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Ethical and Humane Use at Salesforce,\" provides evidence for **governance**, **oversight**, **transparency**, **fairness**, and **external accountability**. It describes an operational governance body that oversees policy, implying mechanisms for **governance**. The policy also mentions guiding responsible AI development and deployment, supporting **fairness** through ethical and inclusive design principles. Furthermore, it highlights human oversight and review of AI-generated content, demonstrating practices for **oversight** and **transparency**. The mention of being \"accountable to...Council\" directly supports the **external accountability** pillar.",
+          "title": "Ethical and Humane Use at Salesforce",
+          "url": "https://salesforce.com/company/ethical-and-humane-use"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI and Technology,\" provides evidence for **explainability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by outlining guidelines for AI safety including bias mitigation and PII protection, establishing an office to guide AI development with standards for trustworthiness and transparency, and describing operational processes like adversarial testing for safety and accuracy. Furthermore, the policy details a framework requiring safety testing, human oversight, and user guidance, and sets guidelines for AI accuracy and transparency through source citation.",
+          "title": "Responsible AI and Technology",
+          "url": "https://salesforce.com/company/responsible-ai-and-technology"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Literacy and Compliance at Salesforce,\" provides evidence for **explainability, external_accountability, fairness, governance, privacy, and transparency**. It details commitments to AI transparency and explainability through Model Cards and tools like feature importance, supports external accountability and governance by aligning with the EU AI Act and monitoring regulations, and addresses fairness through bias mitigation efforts and diverse datasets. The document also highlights governance through its AI Council and internal audits, and privacy through mandatory training on AI privacy tenets.",
+          "title": "AI Literacy and Compliance at Salesforce",
+          "url": "https://salesforce.com/en-us/wp-content/uploads/sites/4/documents/guides/ai-literacy-and-compliance.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This AI Acceptable Use Policy document provides evidence for **governance, oversight, transparency, fairness, and explainability**. It establishes governance by assigning customer responsibility for AI use safety, and mandates oversight through requirements for human review of AI-assisted advice and disclosure of automated systems. The policy also supports transparency by requiring disclosure of AI's role in decisions and fairness by explicitly mentioning the identification and reduction of bias in AI Services.",
+          "title": "AI Acceptable Use Policy",
+          "url": "https://salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/Agreements/policies/ai-acceptable-use-policy.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This Salesforce blog post details their approach to building trust in AI products, providing evidence for **fairness, oversight, and transparency**. The post highlights mechanisms like \"Bias & Toxicity Safeguards\" and \"guardrails\" to ensure fairness, while \"human oversight,\" \"human control,\" and \"Mindful Friction\" for intentional human engagement and review demonstrate a commitment to oversight. Furthermore, the blog post defines \"Awareness of AI\" as a functionality for transparency and outlines a policy for disclosure of AI-generated content.",
+          "title": "How Salesforce Builds Trust in Our AI Products",
+          "url": "https://salesforce.com/news/stories/ai-trust-patterns"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This company-owned press release, \"Generative AI: 5 Guidelines for Responsible Development,\" provides evidence for several responsible AI pillars. It supports **governance** and **transparency** by committing to embedding ethical guardrails and guidelines for development and implementation, and by stating a commitment to data provenance and transparency about AI-generated content. The press release also addresses **fairness** and **safety** through its commitment to mitigating bias and implementing guardrails for AI safety and harm prevention, and touches on **explainability** and **oversight** by detailing commitments to verifiable results, communication of uncertainty, explainability, and human review for AI accuracy.",
+          "title": "Generative AI: 5 Guidelines for Responsible Development",
+          "url": "https://salesforce.com/news/stories/generative-ai-guidelines"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This press release details Salesforce's five guidelines for responsible agentic AI, providing evidence for **fairness, explainability, privacy, transparency, and governance**. It supports fairness and privacy by committing to bias and toxicity mitigation and PII protection. Transparency and privacy are further supported by emphasizing data consent and disclosure of AI-generated content, while governance is evidenced by the mention of \"responsible AI principles\" guiding development and the implementation of Atlas Reasoning Engine and Einstein Trust Layer. The press release also highlights transparency and explainability through principles for accuracy, constraints, and user validation.",
+          "title": "How Salesforce Shapes Ethical AI Standards in the Agent Era",
+          "url": "https://salesforce.com/news/stories/responsible-agentic-ai-guidelines"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "authority",
+          "summary": "Salesforce's \"Form 10-K Fiscal Year Ended January 31, 2025\" filing provides evidence for **fairness, governance, privacy, and transparency**. The document supports **governance** by discussing evolving AI regulations, investment in agentic AI, reliance on third-party AI, and the need for governance over data and AI systems. Evidence for **transparency** is found in mentions of AI-powered capabilities, AI-based recommendations, and AI service offerings. The filing also touches upon **privacy** concerns related to AI services and acknowledges risks like \"bias\" and \"privacy\" associated with AI products, indicating a need for governance in these areas.",
+          "title": "Form 10-K Fiscal Year Ended January 31, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This charter, \"Meet the Office of Ethical and Humane Use of Technology,\" provides evidence for explainability, fairness, governance, and transparency. It supports explainability by detailing features like predictive factors, fairness through the mention of Sensitive Fields, and transparency by outlining requirements for disclosing AI-generated content and utilizing Model Cards. The charter also demonstrates governance by specifying policy restrictions and requirements for AI use.",
+          "title": "Meet the Office of Ethical and Humane Use of Technology",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/ethics-by-design/meet-the-office-of-ethical-and-humane-use-of-technology"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This World Economic Forum case study provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The audit report details Salesforce's establishment of an Office of Ethical and Humane Use, including an AI Advisory Committee and Ethical Use Advisory Council, demonstrating operational governance and external accountability. It also highlights the Einstein Trust Guide and Einstein Content Selection's bias mitigation features, supporting fairness and governance, while the focus on responsible data use and the \"Build with Intention Toolkit\" point to policies for privacy and ethical product development. Furthermore, the case study mentions the mandatory publication of model cards, a key transparency mechanism.",
+          "title": "Responsible Use of Technology: The Salesforce Case Study",
+          "url": "https://www3.weforum.org/docs/WEF_Responsible_Use_of_Technology_Salesforce_Case_Study_2022.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 16
+    }
+  },
+  "published_at": "2026-02-23T21:58:28Z",
+  "run_id": "20260203_030345_5a36",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Salesforce's published materials detail operational practices for transparency and fairness, among other responsible AI pillars. For transparency, system cards detail policies designed to instruct LLM behavior and prevent harm, while fairness disclosures describe testing mechanisms such as model benchmarking for bias. All 7 evaluated pillars have documented public evidence, with explainability addressed at the policy level. Further operational evidence includes a zero data retention policy for model providers under privacy, and the outlining of decision-making structures like board reporting and advisory council reviews for oversight. An audit trail for tracking generative AI usage also demonstrates operational governance, with all findings drawing from 25 publicly available sources.",
+    "pillars_operational": 6,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 149,
+    "total_sources_used": 21
+  }
+}

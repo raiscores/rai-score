@@ -1,0 +1,483 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "American Airlines",
+  "company_slug": "american-airlines",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 16,
+      "OPERATIONAL": 25,
+      "POLICY": 45
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "A blog post describes the decision-making criteria of the Connect Assist AI system. It also describes automated notifications from this system.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **explainability, governance, oversight, and transparency**. It describes the Connect Assist AI system's decision-making criteria and automated notifications, demonstrating transparency and explainability in its operations. The report also highlights the system's testing and integration into American Airlines' strategy, indicating governance and oversight through human involvement in the final decision-making process.",
+          "title": "American Airlines Tests AI That Delays Flights to Save Tight Connections",
+          "url": "https://thetraveler.org/american-airlines-tests-ai-that-delays-flights-to-save-tight-connections"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "Platform terms and conditions assign user responsibility for AI inputs concerning data privacy and proprietary rights. A sustainability report details corporate governance structures overseeing sustainability strategy, including ESG risk management.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The \"American Airlines Platform terms and conditions\" help page provides evidence for **external accountability, governance, privacy, and transparency**. This company-owned document supports these pillars by disclosing the use of AI/machine learning/LLMs, outlining an authorization process for third-party AI tools that requires demonstrated compliance with best practices and law, and assigning user responsibility for AI inputs concerning data privacy and proprietary rights. It also details data handling practices for AI tool outputs and implies transparency in data usage for AI training data.",
+          "title": "American Airlines Platform terms and conditions",
+          "url": "https://aa.com/i18n/customer-service/support/legal-information.jsp"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This American Airlines Sustainability Report 2023 provides evidence for **external accountability, fairness, governance, and transparency**. The report details corporate governance structures overseeing sustainability strategy, including ESG risk management, and describes the operational testing and validation of AI models for tasks like contrail forecasting and schedule adjustments. Furthermore, it highlights efforts in pay equity certification and the use of platforms to address pay gaps, demonstrating a commitment to fairness and transparency in AI-driven decision-making and operational processes.",
+          "title": "American Airlines Sustainability Report 2023",
+          "url": "https://news.aa.com/files/images/esg/American-Airlines-Sustainability-Report-2023.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "The company's sustainability report highlights efforts in pay equity certification. It also references the use of platforms to address pay gaps.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This American Airlines Sustainability Report 2023 provides evidence for **external accountability, fairness, governance, and transparency**. The report details corporate governance structures overseeing sustainability strategy, including ESG risk management, and describes the operational testing and validation of AI models for tasks like contrail forecasting and schedule adjustments. Furthermore, it highlights efforts in pay equity certification and the use of platforms to address pay gaps, demonstrating a commitment to fairness and transparency in AI-driven decision-making and operational processes.",
+          "title": "American Airlines Sustainability Report 2023",
+          "url": "https://news.aa.com/files/images/esg/American-Airlines-Sustainability-Report-2023.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 57,
+      "findings": "The company describes a commitment to a centralized management approach and the establishment of a governance framework for generative AI. It outlines an authorization process for third-party AI tools requiring compliance with best practices and law, and details corporate governance structures overseeing sustainability strategy and ESG risk management. The company also discusses risks associated with AI and automated systems, including material risks from dependence on these systems, and describes the operational testing and validation of AI models for various tasks.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing a commitment to a centralized management approach and the establishment of a governance framework for generative AI. Transparency is evidenced by mentions of AI/ML use cases for customer rebooking and scheduling, indicating openness about how AI is being utilized.",
+          "title": "Artificial intelligence at American",
+          "url": "https://news.aa.com/news/news-details/2025/Artificial-intelligence-at-American-CORP-OTH-01/default.aspx"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This customer privacy policy document provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. It supports the privacy pillar by detailing data collection, use, and retention practices, including consent mechanisms for profiling. The policy also supports transparency and oversight by describing opt-out mechanisms for interest-based advertising and outlining third-party data sharing for profiling and tailored ad predictions, implying the use of automated systems.",
+          "title": "Privacy policy",
+          "url": "https://aa.com/i18n/customer-service/support/privacy-policy.jsp"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The \"American Airlines Platform terms and conditions\" help page provides evidence for **external accountability, governance, privacy, and transparency**. This company-owned document supports these pillars by disclosing the use of AI/machine learning/LLMs, outlining an authorization process for third-party AI tools that requires demonstrated compliance with best practices and law, and assigning user responsibility for AI inputs concerning data privacy and proprietary rights. It also details data handling practices for AI tool outputs and implies transparency in data usage for AI training data.",
+          "title": "American Airlines Platform terms and conditions",
+          "url": "https://aa.com/i18n/customer-service/support/legal-information.jsp"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "The \"American Airlines Sustainability Report 2024\" provides evidence for **governance** and **transparency**. The report details a comprehensive GenAI governance framework, including a centralized center of excellence, a steering committee for prioritizing use cases and ensuring compliance with regulations and ethical standards, and board-level oversight through the Audit Committee. This demonstrates structured oversight and defined roles for AI implementation, supporting the governance pillar. Furthermore, the report's description of the GenAI operating model and its emphasis on transparency guidelines and audit protocols directly supports the transparency pillar.",
+          "title": "American Airlines Sustainability Report 2024",
+          "url": "https://news.aa.com/files/images/esg/American-Airlines-Sustainability-Report-2024.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This American Airlines Sustainability Report 2023 provides evidence for **external accountability, fairness, governance, and transparency**. The report details corporate governance structures overseeing sustainability strategy, including ESG risk management, and describes the operational testing and validation of AI models for tasks like contrail forecasting and schedule adjustments. Furthermore, it highlights efforts in pay equity certification and the use of platforms to address pay gaps, demonstrating a commitment to fairness and transparency in AI-driven decision-making and operational processes.",
+          "title": "American Airlines Sustainability Report 2023",
+          "url": "https://news.aa.com/files/images/esg/American-Airlines-Sustainability-Report-2023.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for the governance, privacy, and transparency pillars of responsible AI. The report discusses risks associated with AI and automated systems, including the potential inability to implement preventative measures and evolving regulatory scrutiny, which highlights governance obligations and potential gaps. Furthermore, the mention of statistical models for estimation and tailored offers implies algorithmic use and profiling, underscoring the need for governance over these practices and compliance with privacy regulations.",
+          "title": "2024 Annual Report on Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/6201/000119312525100815/d936106dars.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "The 2023 Annual Report on Form 10-K provides evidence for the **governance** pillar of responsible AI. This SEC filing discusses the use of statistical models for estimates, indicating a governed process for decision-making inputs, and mentions automated systems and their potential harm, implying a need for management and oversight.",
+          "title": "2023 Annual Report on Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/6201/000119312524114062/d636721dars.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing the testing of generative AI tools for specific use cases, such as assisting customers during travel disruptions and schedule changes, indicating operational deployment and oversight. The mention of testing technology for decision-making and identifying customer needs also points to governance mechanisms in place.",
+          "title": "Technology is making travel even easier this summer",
+          "url": "https://news.aa.com/news/news-details/2025/Technology-is-making-travel-even-easier-this-summer-MKG-OTH-06/default.aspx"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "The American Airlines ESG Report 2021 provides evidence for the **governance** pillar of responsible AI. This company-owned audit report details the company's governance structure for ESG, including a Managing Director for ESG, a cross-functional steering committee, and board-level oversight by the CGPR Committee. This structure is relevant to responsible AI as it outlines mechanisms for assessing strategy effectiveness and monitoring progress, which can be applied to AI initiatives.",
+          "title": "American Airlines ESG Report 2021",
+          "url": "https://news.aa.com/files/images/esg/aag-esg-report-2021.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by mentioning the use of \"AI tools\" and specifically referencing an AI tool named \"AImee,\" indicating an awareness and documentation of AI usage in their processes. The mention of \"AImee\" also contributes to governance by highlighting a specific AI tool being utilized within the organization.",
+          "title": "American Airlines Strengthens Ethical Business Practices With Updated Supply Chain Policy",
+          "url": "https://accessnewswire.com/newsroom/en/travel/american-airlines-strengthens-ethical-business-practices-with-updated-supply-c"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This press release from American Airlines reports on their first-quarter 2025 financial results and provides evidence for the **governance** pillar of responsible AI. The document mentions material risks arising from dependence on automated systems, including artificial intelligence, which implies a need for governance to manage these risks and ensure the reliability of such systems.",
+          "title": "American Airlines reports first-quarter 2025 financial results",
+          "url": "https://news.aa.com/news/news-details/2025/American-Airlines-reports-first-quarter-2025-financial-results-CORP-FI-04/default.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **explainability, governance, oversight, and transparency**. It describes the Connect Assist AI system's decision-making criteria and automated notifications, demonstrating transparency and explainability in its operations. The report also highlights the system's testing and integration into American Airlines' strategy, indicating governance and oversight through human involvement in the final decision-making process.",
+          "title": "American Airlines Tests AI That Delays Flights to Save Tight Connections",
+          "url": "https://thetraveler.org/american-airlines-tests-ai-that-delays-flights-to-save-tight-connections"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by indicating ongoing evaluation and potential expansion of the AI program, suggesting a development and deployment process. Evidence for privacy is found in the description of personal data matching and clearance for verification, while transparency is supported by detailing the operational steps and capabilities of the deployed facial recognition program.",
+          "title": "Biometric Boarding Arrives at DFW for American Airlines Customers",
+          "url": "https://news.aa.com/news/news-details/2019/Biometric-Boarding-Arrives-at-DFW-for-American-Airlines-Customers/default.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports transparency by mentioning the AI system and its capabilities, and it indicates a commitment to governance and privacy by describing the establishment of a framework and controls for the use of biometric technologies.",
+          "title": "American Airlines Expands Biometric Screening to Ease Summer Travel",
+          "url": "https://idtechwire.com/american-airlines-expands-biometric-screening-to-ease-summer-travel"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by describing the use of facial recognition technology and its capabilities, as well as outlining future expansion plans for biometric technology across the customer journey. The post also demonstrates governance by addressing concerns about AI use and explicitly stating a sole use case for the technology.",
+          "title": "American Airlines Rolls Out Touchless ID For TSA PreCheck",
+          "url": "https://simpleflying.com/american-airlines-touchless-id-tsa-precheck"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This blog post describes American Airlines' modernization of data governance using Alation and Databricks, providing evidence for **governance**, **oversight**, and **transparency**. The case study details the implementation of tools for data lineage and quality, which supports governance for AI systems by enabling impact assessment. It also highlights AI capabilities that enhance transparency and mentions human verification for AI suggestions, implying oversight and governance for AI trust.",
+          "title": "How American Airlines Modernized Data Governance with Alation and Databricks",
+          "url": "https://alation.com/blog/american-airlines-data-governance-alation-databricks"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the operational use of Smart Gating machine learning for gate assignments and the use of data points for these assignments. The press release also supports transparency by mentioning the use of machine learning and automated assignment processes.",
+          "title": "Team members leverage technology to support customers this summer",
+          "url": "https://news.aa.com/news/news-details/2024/Team-members-leverage-technology-to-support-customers-this-summer-OPS-OTH-05/default.aspx"
+        }
+      ],
+      "score": 2,
+      "source_count": 17
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "The company's privacy policy describes opt-out mechanisms for interest-based advertising and outlines third-party data sharing for profiling. Published materials mention human oversight in the operational use of AI capabilities, including expert teams analyzing data and human verification for AI suggestions. Human involvement in the final decision-making process for AI systems is also highlighted.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This customer privacy policy document provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. It supports the privacy pillar by detailing data collection, use, and retention practices, including consent mechanisms for profiling. The policy also supports transparency and oversight by describing opt-out mechanisms for interest-based advertising and outlining third-party data sharing for profiling and tailored ad predictions, implying the use of automated systems.",
+          "title": "Privacy policy",
+          "url": "https://aa.com/i18n/customer-service/support/privacy-policy.jsp"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Travel reinvented: Where innovation meets care,\" provides evidence for the **oversight** and **transparency** pillars of responsible AI. The announcement of a \"Gen AI-powered tool\" and its \"rolling out\" demonstrates transparency regarding the technology's existence and deployment. Furthermore, the mention of \"expert teams use the tool to analyze data\" indicates human oversight in the operational use of this AI capability.",
+          "title": "Travel reinvented: Where innovation meets care",
+          "url": "https://news.aa.com/news/news-details/2025/Travel-reinvented-Where-innovation-meets-care-MKG-OTH-10/default.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **explainability, governance, oversight, and transparency**. It describes the Connect Assist AI system's decision-making criteria and automated notifications, demonstrating transparency and explainability in its operations. The report also highlights the system's testing and integration into American Airlines' strategy, indicating governance and oversight through human involvement in the final decision-making process.",
+          "title": "American Airlines Tests AI That Delays Flights to Save Tight Connections",
+          "url": "https://thetraveler.org/american-airlines-tests-ai-that-delays-flights-to-save-tight-connections"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This blog post describes American Airlines' modernization of data governance using Alation and Databricks, providing evidence for **governance**, **oversight**, and **transparency**. The case study details the implementation of tools for data lineage and quality, which supports governance for AI systems by enabling impact assessment. It also highlights AI capabilities that enhance transparency and mentions human verification for AI suggestions, implying oversight and governance for AI trust.",
+          "title": "How American Airlines Modernized Data Governance with Alation and Databricks",
+          "url": "https://alation.com/blog/american-airlines-data-governance-alation-databricks"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 11,
+      "findings": "The company's privacy policy details data collection, use, and retention practices, including consent mechanisms for profiling. Platform terms and conditions assign user responsibility for AI inputs concerning data privacy and detail data handling practices for AI tool outputs. The company also describes personal data matching and clearance for verification in biometric programs and discusses risks associated with AI and automated systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This customer privacy policy document provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. It supports the privacy pillar by detailing data collection, use, and retention practices, including consent mechanisms for profiling. The policy also supports transparency and oversight by describing opt-out mechanisms for interest-based advertising and outlining third-party data sharing for profiling and tailored ad predictions, implying the use of automated systems.",
+          "title": "Privacy policy",
+          "url": "https://aa.com/i18n/customer-service/support/privacy-policy.jsp"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The \"American Airlines Platform terms and conditions\" help page provides evidence for **external accountability, governance, privacy, and transparency**. This company-owned document supports these pillars by disclosing the use of AI/machine learning/LLMs, outlining an authorization process for third-party AI tools that requires demonstrated compliance with best practices and law, and assigning user responsibility for AI inputs concerning data privacy and proprietary rights. It also details data handling practices for AI tool outputs and implies transparency in data usage for AI training data.",
+          "title": "American Airlines Platform terms and conditions",
+          "url": "https://aa.com/i18n/customer-service/support/legal-information.jsp"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for the governance, privacy, and transparency pillars of responsible AI. The report discusses risks associated with AI and automated systems, including the potential inability to implement preventative measures and evolving regulatory scrutiny, which highlights governance obligations and potential gaps. Furthermore, the mention of statistical models for estimation and tailored offers implies algorithmic use and profiling, underscoring the need for governance over these practices and compliance with privacy regulations.",
+          "title": "2024 Annual Report on Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/6201/000119312525100815/d936106dars.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by indicating ongoing evaluation and potential expansion of the AI program, suggesting a development and deployment process. Evidence for privacy is found in the description of personal data matching and clearance for verification, while transparency is supported by detailing the operational steps and capabilities of the deployed facial recognition program.",
+          "title": "Biometric Boarding Arrives at DFW for American Airlines Customers",
+          "url": "https://news.aa.com/news/news-details/2019/Biometric-Boarding-Arrives-at-DFW-for-American-Airlines-Customers/default.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports transparency by mentioning the AI system and its capabilities, and it indicates a commitment to governance and privacy by describing the establishment of a framework and controls for the use of biometric technologies.",
+          "title": "American Airlines Expands Biometric Screening to Ease Summer Travel",
+          "url": "https://idtechwire.com/american-airlines-expands-biometric-screening-to-ease-summer-travel"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 44,
+      "findings": "The company provides transparency by disclosing the use of AI/machine learning/LLMs and specific AI tools like \"AImee\" and \"Connect Assist AI.\" Documentation describes AI/ML use cases for customer rebooking, scheduling, and gate assignments, including the operational steps and capabilities of deployed facial recognition programs. The company also outlines opt-out mechanisms for interest-based advertising and details third-party data sharing for profiling.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing a commitment to a centralized management approach and the establishment of a governance framework for generative AI. Transparency is evidenced by mentions of AI/ML use cases for customer rebooking and scheduling, indicating openness about how AI is being utilized.",
+          "title": "Artificial intelligence at American",
+          "url": "https://news.aa.com/news/news-details/2025/Artificial-intelligence-at-American-CORP-OTH-01/default.aspx"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This customer privacy policy document provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. It supports the privacy pillar by detailing data collection, use, and retention practices, including consent mechanisms for profiling. The policy also supports transparency and oversight by describing opt-out mechanisms for interest-based advertising and outlining third-party data sharing for profiling and tailored ad predictions, implying the use of automated systems.",
+          "title": "Privacy policy",
+          "url": "https://aa.com/i18n/customer-service/support/privacy-policy.jsp"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The \"American Airlines Platform terms and conditions\" help page provides evidence for **external accountability, governance, privacy, and transparency**. This company-owned document supports these pillars by disclosing the use of AI/machine learning/LLMs, outlining an authorization process for third-party AI tools that requires demonstrated compliance with best practices and law, and assigning user responsibility for AI inputs concerning data privacy and proprietary rights. It also details data handling practices for AI tool outputs and implies transparency in data usage for AI training data.",
+          "title": "American Airlines Platform terms and conditions",
+          "url": "https://aa.com/i18n/customer-service/support/legal-information.jsp"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This American Airlines Sustainability Report 2023 provides evidence for **external accountability, fairness, governance, and transparency**. The report details corporate governance structures overseeing sustainability strategy, including ESG risk management, and describes the operational testing and validation of AI models for tasks like contrail forecasting and schedule adjustments. Furthermore, it highlights efforts in pay equity certification and the use of platforms to address pay gaps, demonstrating a commitment to fairness and transparency in AI-driven decision-making and operational processes.",
+          "title": "American Airlines Sustainability Report 2023",
+          "url": "https://news.aa.com/files/images/esg/American-Airlines-Sustainability-Report-2023.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for the governance, privacy, and transparency pillars of responsible AI. The report discusses risks associated with AI and automated systems, including the potential inability to implement preventative measures and evolving regulatory scrutiny, which highlights governance obligations and potential gaps. Furthermore, the mention of statistical models for estimation and tailored offers implies algorithmic use and profiling, underscoring the need for governance over these practices and compliance with privacy regulations.",
+          "title": "2024 Annual Report on Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/6201/000119312525100815/d936106dars.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Travel reinvented: Where innovation meets care,\" provides evidence for the **oversight** and **transparency** pillars of responsible AI. The announcement of a \"Gen AI-powered tool\" and its \"rolling out\" demonstrates transparency regarding the technology's existence and deployment. Furthermore, the mention of \"expert teams use the tool to analyze data\" indicates human oversight in the operational use of this AI capability.",
+          "title": "Travel reinvented: Where innovation meets care",
+          "url": "https://news.aa.com/news/news-details/2025/Travel-reinvented-Where-innovation-meets-care-MKG-OTH-10/default.aspx"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing the testing of generative AI tools for specific use cases, such as assisting customers during travel disruptions and schedule changes, indicating operational deployment and oversight. The mention of testing technology for decision-making and identifying customer needs also points to governance mechanisms in place.",
+          "title": "Technology is making travel even easier this summer",
+          "url": "https://news.aa.com/news/news-details/2025/Technology-is-making-travel-even-easier-this-summer-MKG-OTH-06/default.aspx"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by mentioning the use of \"AI tools\" and specifically referencing an AI tool named \"AImee,\" indicating an awareness and documentation of AI usage in their processes. The mention of \"AImee\" also contributes to governance by highlighting a specific AI tool being utilized within the organization.",
+          "title": "American Airlines Strengthens Ethical Business Practices With Updated Supply Chain Policy",
+          "url": "https://accessnewswire.com/newsroom/en/travel/american-airlines-strengthens-ethical-business-practices-with-updated-supply-c"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **explainability, governance, oversight, and transparency**. It describes the Connect Assist AI system's decision-making criteria and automated notifications, demonstrating transparency and explainability in its operations. The report also highlights the system's testing and integration into American Airlines' strategy, indicating governance and oversight through human involvement in the final decision-making process.",
+          "title": "American Airlines Tests AI That Delays Flights to Save Tight Connections",
+          "url": "https://thetraveler.org/american-airlines-tests-ai-that-delays-flights-to-save-tight-connections"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by indicating ongoing evaluation and potential expansion of the AI program, suggesting a development and deployment process. Evidence for privacy is found in the description of personal data matching and clearance for verification, while transparency is supported by detailing the operational steps and capabilities of the deployed facial recognition program.",
+          "title": "Biometric Boarding Arrives at DFW for American Airlines Customers",
+          "url": "https://news.aa.com/news/news-details/2019/Biometric-Boarding-Arrives-at-DFW-for-American-Airlines-Customers/default.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports transparency by mentioning the AI system and its capabilities, and it indicates a commitment to governance and privacy by describing the establishment of a framework and controls for the use of biometric technologies.",
+          "title": "American Airlines Expands Biometric Screening to Ease Summer Travel",
+          "url": "https://idtechwire.com/american-airlines-expands-biometric-screening-to-ease-summer-travel"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by describing the use of facial recognition technology and its capabilities, as well as outlining future expansion plans for biometric technology across the customer journey. The post also demonstrates governance by addressing concerns about AI use and explicitly stating a sole use case for the technology.",
+          "title": "American Airlines Rolls Out Touchless ID For TSA PreCheck",
+          "url": "https://simpleflying.com/american-airlines-touchless-id-tsa-precheck"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This blog post describes American Airlines' modernization of data governance using Alation and Databricks, providing evidence for **governance**, **oversight**, and **transparency**. The case study details the implementation of tools for data lineage and quality, which supports governance for AI systems by enabling impact assessment. It also highlights AI capabilities that enhance transparency and mentions human verification for AI suggestions, implying oversight and governance for AI trust.",
+          "title": "How American Airlines Modernized Data Governance with Alation and Databricks",
+          "url": "https://alation.com/blog/american-airlines-data-governance-alation-databricks"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the operational use of Smart Gating machine learning for gate assignments and the use of data points for these assignments. The press release also supports transparency by mentioning the use of machine learning and automated assignment processes.",
+          "title": "Team members leverage technology to support customers this summer",
+          "url": "https://news.aa.com/news/news-details/2024/Team-members-leverage-technology-to-support-customers-this-summer-OPS-OTH-05/default.aspx"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_026",
+          "source_tier": "company_owned",
+          "summary": "This press release describes American Airlines' use of machine learning for aircraft gate assignment, supporting the **transparency** pillar. The announcement details the purpose and application of their Smart Gating technology, which utilizes real-time flight data to reduce gate conflicts and improve operational efficiency. This narrative documentation of an AI/ML tool in use provides evidence of transparency regarding its implementation.",
+          "title": "American is using machine learning to keep its hubs moving this holiday season",
+          "url": "https://news.aa.com/news/news-details/2023/American-is-using-machine-learning-to-keep-its-hubs-moving-this-holiday-season-OPS-DIS-12/default.aspx"
+        }
+      ],
+      "score": 2,
+      "source_count": 15
+    }
+  },
+  "published_at": "2026-02-23T21:42:37Z",
+  "run_id": "20260126_233244_f976",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "American Airlines' published materials describe AI/ML use cases for customer rebooking and scheduling, documented under transparency. All 7 evaluated pillars have documented public evidence. Operational practices also include privacy disclosures detailing data collection, use, and retention, and governance materials describing a commitment to a centralized management approach for AI. Fairness, explainability, and external accountability are addressed at the policy level. This assessment draws on 29 publicly available sources.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 86,
+    "total_sources_used": 19
+  }
+}

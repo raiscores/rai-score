@@ -1,0 +1,183 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Coupang",
+  "company_slug": "coupang",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 1,
+      "OPERATIONAL": 0,
+      "POLICY": 14
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 10,
+      "findings": "The company's annual report discusses its awareness of and need to comply with evolving AI regulations and laws. An enforcement action report details a fine imposed by the Korea Fair Trade Commission for manipulating search ranking algorithms. An SEC filing outlines the company's response to this fine, challenging the KFTC's determination and asserting their search ranking practices align with global e-commerce standards.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This annual report (Form 10-K) provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. It supports external accountability and governance by discussing the company's awareness of and need to comply with evolving AI regulations and laws. The report also touches on fairness by mentioning potential \"bias\" in AI algorithms and addresses privacy by acknowledging risks related to sensitive information in the context of AI/ML use.",
+          "title": "Form 10-K: Annual Report for Fiscal Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1834584/000183458425000030/cpng-20241231.htm"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This enforcement action report details the Korea Fair Trade Commission's imposition of a significant fine on Coupang for manipulating search ranking algorithms. The report provides evidence for the **external_accountability** pillar by documenting regulatory action taken by a government watchdog against algorithmic manipulation, specifically highlighting the commission's findings on artificial product promotion and the subsequent sanctions.",
+          "title": "Korea Fair Trade Commission Fine for Algorithm Manipulation (June 2024)",
+          "url": "https://koreaherald.com/article/3415795"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This SEC filing from Coupang provides evidence for **external accountability** and **governance** by detailing the company's response to a fine levied by the KFTC regarding search algorithm manipulation. The document highlights Coupang's challenge to the KFTC's determination, asserting their search ranking practices align with global e-commerce standards and are not deceptive or illegal, thereby demonstrating external accountability for their AI practices and the governance structures in place to address regulatory findings.",
+          "title": "Coupang SEC Disclosure: Response to KFTC Algorithm Fine",
+          "url": "https://pulse.mk.co.kr/news/english/11043251"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "The company's annual report references potential bias in AI algorithms, indicating an awareness of this aspect of AI system development.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This annual report (Form 10-K) provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. It supports external accountability and governance by discussing the company's awareness of and need to comply with evolving AI regulations and laws. The report also touches on fairness by mentioning potential \"bias\" in AI algorithms and addresses privacy by acknowledging risks related to sensitive information in the context of AI/ML use.",
+          "title": "Form 10-K: Annual Report for Fiscal Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1834584/000183458425000030/cpng-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 9,
+      "findings": "The company's annual reports discuss its awareness of and need to comply with evolving AI regulations and laws, and detail ongoing litigation concerning allegations of algorithm manipulation. An SEC filing outlines the company's response to a KFTC fine regarding search algorithm manipulation, asserting their practices align with global e-commerce standards.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This annual report (Form 10-K) provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. It supports external accountability and governance by discussing the company's awareness of and need to comply with evolving AI regulations and laws. The report also touches on fairness by mentioning potential \"bias\" in AI algorithms and addresses privacy by acknowledging risks related to sensitive information in the context of AI/ML use.",
+          "title": "Form 10-K: Annual Report for Fiscal Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1834584/000183458425000030/cpng-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This SEC filing, Coupang's 2023 annual report, provides evidence for the **governance** pillar of responsible AI. The report details ongoing litigation concerning allegations of algorithm manipulation, including claims of adjusting ranking algorithms to favor certain products. This disclosure highlights the company's engagement with regulatory bodies and the need for oversight and accountability in AI system development and deployment.",
+          "title": "Form 10-K: Annual Report for Fiscal Year Ended December 31, 2023",
+          "url": "https://sec.gov/Archives/edgar/data/1834584/000183458424000023/cpng-20231231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This SEC filing from Coupang provides evidence for **external accountability** and **governance** by detailing the company's response to a fine levied by the KFTC regarding search algorithm manipulation. The document highlights Coupang's challenge to the KFTC's determination, asserting their search ranking practices align with global e-commerce standards and are not deceptive or illegal, thereby demonstrating external accountability for their AI practices and the governance structures in place to address regulatory findings.",
+          "title": "Coupang SEC Disclosure: Response to KFTC Algorithm Fine",
+          "url": "https://pulse.mk.co.kr/news/english/11043251"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "The company's annual report acknowledges risks related to sensitive information within the context of AI/ML use, addressing privacy considerations for AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This annual report (Form 10-K) provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. It supports external accountability and governance by discussing the company's awareness of and need to comply with evolving AI regulations and laws. The report also touches on fairness by mentioning potential \"bias\" in AI algorithms and addresses privacy by acknowledging risks related to sensitive information in the context of AI/ML use.",
+          "title": "Form 10-K: Annual Report for Fiscal Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1834584/000183458425000030/cpng-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": null,
+      "display_name": "Transparency",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document AI systems in use, including vendor/third-party AI tools.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    }
+  },
+  "published_at": "2026-02-23T21:48:02Z",
+  "run_id": "20260201_221022_7772",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Transparency",
+      "Explainability",
+      "Human Oversight & Accountability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Based on 13 publicly available sources, Coupang's published materials address 4 of 7 evaluated responsible AI pillars, with evidence found at the policy level for fairness, privacy, governance, and external accountability. For instance, the annual report mentions potential bias in AI algorithms within its fairness disclosures. Additionally, an enforcement action report details the Korea Fair Trade Commission's imposition of a fine on the company for manipulating search ranking algorithms, which relates to external accountability. No qualifying public evidence was found for transparency, explainability, and 1 additional pillar.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 15,
+    "total_sources_used": 4
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 21.4,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 3
+  },
+  "company": "Loews",
+  "company_slug": "loews",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 4,
+      "POLICY": 10
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Documentation mentions \"contextual guidance\" for AI systems, suggesting their ability to provide understandable insights into fraud detection.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **explainability** and **transparency** pillars of responsible AI. The document highlights Shift Technology's \"AI-native\" solutions and mentions \"contextual guidance,\" suggesting transparency in how the AI system operates and its ability to provide understandable insights into fraud detection. The contrast drawn between AI analysis and static rules further indicates transparency regarding the AI's functioning and data utilization.",
+          "title": "CNA Selects Shift Technology for AI-driven Fraud Detection",
+          "url": "https://shift-technology.com/en-gb/resources/news/cna-selects-shift-technology-for-ai-driven-fraud-detection"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 11,
+      "findings": "An SEC filing indicates the company's regulatory environment is evolving with AI oversight and references ongoing regulatory evolution concerning AI practices. It also states the board assigns cybersecurity risk management to the Audit Committee and mentions the use of analytical models. Press releases highlight how AI-driven solutions enable operational governance through network optimization and issue resolution, and reference \"AI-enabled solutions and expertise\" in the context of governance over AI system development and deployment.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"2024 Form 10-K - Cybersecurity and AI Regulatory Environment,\" provides evidence for the **governance** pillar of responsible AI. The document indicates that the company's regulatory environment is evolving with AI oversight and that the board assigns cybersecurity risk management to the Audit Committee. Furthermore, it mentions the use of analytical models for pricing, reserving, and capital modeling, alongside ongoing regulatory evolution concerning AI practices, suggesting a policy-level awareness and consideration for AI governance.",
+          "title": "2024 Form 10-K - Cybersecurity and AI Regulatory Environment",
+          "url": "https://s203.q4cdn.com/873173963/files/doc_financials/2024/q4/5c66c05c-0438-4b7b-ba1e-a1673b5cbfcf.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights how RUCKUS AI-driven solutions at Loews Hotels enable operational governance through AI-driven network optimization and proactive issue resolution, leading to improved IT efficiency. The press release also demonstrates transparency by detailing the AI platform's visibility into network performance and its role in providing personalized guest experiences based on loyalty, implying clear oversight of AI systems and their impact.",
+          "title": "RUCKUS AI-driven Solutions at Loews Hotels",
+          "url": "https://ruckusnetworks.com/press-releases/2024/ruckus-networks-launches-ai-driven-solutions-for-hospitality"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release for Loews Hotels & Co's implementation of RobosizeME's AI workflow automation provides evidence for the **governance** pillar. The mention of \"AI-enabled solutions and expertise\" suggests that Loews Hotels & Co has established governance over the development and deployment of these AI systems within their back-office operations.",
+          "title": "RobosizeME AI Workflow Automation at Loews Hotels",
+          "url": "https://hospitalitynet.org/news/4126050.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 10,
+      "findings": "Documentation mentions \"contextual guidance\" for AI systems, suggesting transparency in operation and the ability to provide understandable insights into fraud detection, and references transparency regarding AI's functioning and data utilization. A press release details an AI platform's visibility into network performance and its role in providing personalized guest experiences based on loyalty.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **explainability** and **transparency** pillars of responsible AI. The document highlights Shift Technology's \"AI-native\" solutions and mentions \"contextual guidance,\" suggesting transparency in how the AI system operates and its ability to provide understandable insights into fraud detection. The contrast drawn between AI analysis and static rules further indicates transparency regarding the AI's functioning and data utilization.",
+          "title": "CNA Selects Shift Technology for AI-driven Fraud Detection",
+          "url": "https://shift-technology.com/en-gb/resources/news/cna-selects-shift-technology-for-ai-driven-fraud-detection"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights how RUCKUS AI-driven solutions at Loews Hotels enable operational governance through AI-driven network optimization and proactive issue resolution, leading to improved IT efficiency. The press release also demonstrates transparency by detailing the AI platform's visibility into network performance and its role in providing personalized guest experiences based on loyalty, implying clear oversight of AI systems and their impact.",
+          "title": "RUCKUS AI-driven Solutions at Loews Hotels",
+          "url": "https://ruckusnetworks.com/press-releases/2024/ruckus-networks-launches-ai-driven-solutions-for-hospitality"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-02-23T21:54:16Z",
+  "run_id": "20260203_000654_244a",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Loews' published materials indicate a focus on transparency, referencing contextual guidance for AI systems and contrasting AI analysis with static rules. Additionally, governance disclosures note that the company's regulatory environment is evolving with AI oversight, and the board assigns cybersecurity risk management to the Audit Committee. Explainability is also addressed through mentions of contextual guidance for AI systems, suggesting their ability to provide understandable insights into fraud detection. These practices contribute to documented evidence across 3 of 7 evaluated responsible AI pillars: transparency, explainability, and governance. No qualifying public evidence was found for fairness, oversight, and 2 additional pillars. This assessment draws on 5 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 16,
+    "total_sources_used": 4
+  }
+}

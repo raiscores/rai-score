@@ -1,0 +1,217 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Molina Healthcare",
+  "company_slug": "molina-healthcare",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 10,
+      "POLICY": 18
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "Reports detail CMS audit approaches and mention risk scores subject to audits.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "Molina's 2024 Form 10-K annual report provides evidence for **external accountability, fairness, governance, privacy, and transparency** in its AI practices. The report supports **external accountability** by detailing CMS audit approaches and mentioning risk scores subject to audits. **Fairness** is addressed through the description of criteria used in auto-assignment algorithms and changes to risk adjustment model methodologies. **Governance** is evidenced by the discussion of risks associated with AI investments, the need to manage sophisticated security threats, and the use of predictive analytics for decision-making. **Privacy** is implicitly supported by the awareness of data privacy risks. Finally, **transparency** is indicated by the mention of AI tools and initiatives.",
+          "title": "2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1179929/000117992925000023/moh-20241231.htm"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Molina Healthcare Kentucky Medicaid - Utilization Management Strategy,\" provides evidence for **external accountability, governance, oversight, and transparency**. The strategy details the use of algorithms and machine learning for utilization management, supported by annual and monthly audits, a Healthcare Services Committee, and a clear human review and escalation process for authorization decisions, demonstrating robust governance and oversight. Furthermore, the commitment to using standardized criteria, involving physicians in development, and making guidelines available supports transparency in their decision-making processes.",
+          "title": "Molina Healthcare Kentucky Medicaid - Utilization Management Strategy",
+          "url": "https://finance.ky.gov/eProcurement/MolinaResponse/I.C.10%20Utilization%20Management.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "Reports describe criteria used in auto-assignment algorithms and changes to risk adjustment model methodologies. Additionally, documentation highlights an AI model's achievement of a 60% reduction in racial disparities in preterm births for Black mothers.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "Molina's 2024 Form 10-K annual report provides evidence for **external accountability, fairness, governance, privacy, and transparency** in its AI practices. The report supports **external accountability** by detailing CMS audit approaches and mentioning risk scores subject to audits. **Fairness** is addressed through the description of criteria used in auto-assignment algorithms and changes to risk adjustment model methodologies. **Governance** is evidenced by the discussion of risks associated with AI investments, the need to manage sophisticated security threats, and the use of predictive analytics for decision-making. **Privacy** is implicitly supported by the awareness of data privacy risks. Finally, **transparency** is indicated by the mention of AI tools and initiatives.",
+          "title": "2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1179929/000117992925000023/moh-20241231.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This independent documentation from \"AI-Powered Maternal Health Model Results - FemTech Insider\" provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by highlighting the AI model's achievement of a 60% reduction in racial disparities in preterm births for Black mothers. Transparency is supported by describing the AI tool's capabilities and specific use case, as well as detailing its extended application and purpose. The mention of AI platform use for specific entities and outcomes indicates a commitment to responsible AI deployment, contributing to governance.",
+          "title": "AI-Powered Maternal Health Model Results - FemTech Insider",
+          "url": "https://femtechinsider.com/ai-powered-health-care-model-proves-successful-in-reducing-preterm-births-and-nicu-admissions"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 22,
+      "findings": "Reports discuss risks associated with AI investments, the need to manage sophisticated security threats, and the use of predictive analytics for decision-making. Additionally, documentation mentions AI platform use for specific entities and outcomes, indicating a commitment to responsible AI deployment.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "Molina's 2024 Form 10-K annual report provides evidence for **external accountability, fairness, governance, privacy, and transparency** in its AI practices. The report supports **external accountability** by detailing CMS audit approaches and mentioning risk scores subject to audits. **Fairness** is addressed through the description of criteria used in auto-assignment algorithms and changes to risk adjustment model methodologies. **Governance** is evidenced by the discussion of risks associated with AI investments, the need to manage sophisticated security threats, and the use of predictive analytics for decision-making. **Privacy** is implicitly supported by the awareness of data privacy risks. Finally, **transparency** is indicated by the mention of AI tools and initiatives.",
+          "title": "2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1179929/000117992925000023/moh-20241231.htm"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Molina Healthcare Kentucky Medicaid - Utilization Management Strategy,\" provides evidence for **external accountability, governance, oversight, and transparency**. The strategy details the use of algorithms and machine learning for utilization management, supported by annual and monthly audits, a Healthcare Services Committee, and a clear human review and escalation process for authorization decisions, demonstrating robust governance and oversight. Furthermore, the commitment to using standardized criteria, involving physicians in development, and making guidelines available supports transparency in their decision-making processes.",
+          "title": "Molina Healthcare Kentucky Medicaid - Utilization Management Strategy",
+          "url": "https://finance.ky.gov/eProcurement/MolinaResponse/I.C.10%20Utilization%20Management.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This independent documentation from \"AI-Powered Maternal Health Model Results - FemTech Insider\" provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by highlighting the AI model's achievement of a 60% reduction in racial disparities in preterm births for Black mothers. Transparency is supported by describing the AI tool's capabilities and specific use case, as well as detailing its extended application and purpose. The mention of AI platform use for specific entities and outcomes indicates a commitment to responsible AI deployment, contributing to governance.",
+          "title": "AI-Powered Maternal Health Model Results - FemTech Insider",
+          "url": "https://femtechinsider.com/ai-powered-health-care-model-proves-successful-in-reducing-preterm-births-and-nicu-admissions"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 5,
+      "findings": "Sources describe documented oversight practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Molina Healthcare Kentucky Medicaid - Utilization Management Strategy,\" provides evidence for **external accountability, governance, oversight, and transparency**. The strategy details the use of algorithms and machine learning for utilization management, supported by annual and monthly audits, a Healthcare Services Committee, and a clear human review and escalation process for authorization decisions, demonstrating robust governance and oversight. Furthermore, the commitment to using standardized criteria, involving physicians in development, and making guidelines available supports transparency in their decision-making processes.",
+          "title": "Molina Healthcare Kentucky Medicaid - Utilization Management Strategy",
+          "url": "https://finance.ky.gov/eProcurement/MolinaResponse/I.C.10%20Utilization%20Management.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "Reports reference an awareness of data privacy risks.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "Molina's 2024 Form 10-K annual report provides evidence for **external accountability, fairness, governance, privacy, and transparency** in its AI practices. The report supports **external accountability** by detailing CMS audit approaches and mentioning risk scores subject to audits. **Fairness** is addressed through the description of criteria used in auto-assignment algorithms and changes to risk adjustment model methodologies. **Governance** is evidenced by the discussion of risks associated with AI investments, the need to manage sophisticated security threats, and the use of predictive analytics for decision-making. **Privacy** is implicitly supported by the awareness of data privacy risks. Finally, **transparency** is indicated by the mention of AI tools and initiatives.",
+          "title": "2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1179929/000117992925000023/moh-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 6,
+      "findings": "Molina's reports mention AI tools and initiatives. Policy documents describe a commitment to using standardized criteria, involving physicians in development, and making guidelines available for decision-making processes. Additionally, documentation describes an AI tool's capabilities, specific use case, extended application, and purpose.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "Molina's 2024 Form 10-K annual report provides evidence for **external accountability, fairness, governance, privacy, and transparency** in its AI practices. The report supports **external accountability** by detailing CMS audit approaches and mentioning risk scores subject to audits. **Fairness** is addressed through the description of criteria used in auto-assignment algorithms and changes to risk adjustment model methodologies. **Governance** is evidenced by the discussion of risks associated with AI investments, the need to manage sophisticated security threats, and the use of predictive analytics for decision-making. **Privacy** is implicitly supported by the awareness of data privacy risks. Finally, **transparency** is indicated by the mention of AI tools and initiatives.",
+          "title": "2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1179929/000117992925000023/moh-20241231.htm"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Molina Healthcare Kentucky Medicaid - Utilization Management Strategy,\" provides evidence for **external accountability, governance, oversight, and transparency**. The strategy details the use of algorithms and machine learning for utilization management, supported by annual and monthly audits, a Healthcare Services Committee, and a clear human review and escalation process for authorization decisions, demonstrating robust governance and oversight. Furthermore, the commitment to using standardized criteria, involving physicians in development, and making guidelines available supports transparency in their decision-making processes.",
+          "title": "Molina Healthcare Kentucky Medicaid - Utilization Management Strategy",
+          "url": "https://finance.ky.gov/eProcurement/MolinaResponse/I.C.10%20Utilization%20Management.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This independent documentation from \"AI-Powered Maternal Health Model Results - FemTech Insider\" provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by highlighting the AI model's achievement of a 60% reduction in racial disparities in preterm births for Black mothers. Transparency is supported by describing the AI tool's capabilities and specific use case, as well as detailing its extended application and purpose. The mention of AI platform use for specific entities and outcomes indicates a commitment to responsible AI deployment, contributing to governance.",
+          "title": "AI-Powered Maternal Health Model Results - FemTech Insider",
+          "url": "https://femtechinsider.com/ai-powered-health-care-model-proves-successful-in-reducing-preterm-births-and-nicu-admissions"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:55:33Z",
+  "run_id": "20260202_232648_2095",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Molina Healthcare's public disclosures detail CMS audit approaches and mention risk scores subject to audits, addressing external accountability at an operational level. Overall, 6 of 7 evaluated responsible AI pillars have documented evidence, with transparency, fairness, oversight, privacy, and governance addressed through policy-level disclosures. For instance, transparency materials mention AI tools and initiatives, while fairness disclosures describe criteria used in auto-assignment algorithms and changes to risk adjustment model methodologies. No qualifying public evidence was found for explainability. This assessment is based on a review of 11 publicly available sources.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 30,
+    "total_sources_used": 3
+  }
+}

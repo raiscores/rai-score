@@ -1,0 +1,330 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "Thermo Fisher Scientific",
+  "company_slug": "thermo-fisher-scientific",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 6,
+      "OPERATIONAL": 10,
+      "POLICY": 43
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Technical papers describe the need for explainability in clinical settings. This need arises due to the nature of AI models.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the following Responsible AI pillars: explainability, fairness, governance, privacy, and transparency. It highlights Thermo Fisher's Responsible AI Framework and AI Technology Council, demonstrating a commitment to governance and addressing privacy concerns. The paper also discusses the need for explainability in clinical settings due to the \"black box\" nature of AI models and acknowledges potential fairness issues arising from data biases, while detailing AI integration across products which supports transparency.",
+          "title": "Thermo Fisher Scientific's AI Strategy: Analysis of Dominance in Life Sciences",
+          "url": "https://klover.ai/thermo-fisher-scientific-ai-strategy-analysis-of-dominance-in-life-sciences"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Posts mention regulatory compliance as part of external accountability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This blog post from Thermo Fisher's clinical division details robust oversight mechanisms for generative AI in clinical research, supporting **governance** and **oversight** through cross-functional review boards, adversarial AI for output validation, and human oversight tools for hallucination detection. The post also touches upon **external accountability** by mentioning regulatory compliance, **fairness** through adversarial scrutiny for bias detection, and **transparency** by emphasizing AI literacy and understanding of AI capabilities.",
+          "title": "Opportunities and Risks: Generative AI Use for Clinical Research - PPD",
+          "url": "https://ppd.com/blog/managing-opportunities-risks-generative-ai-clinical-research"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 6,
+      "findings": "Proxy statements reference a commitment to a governance structure for fair AI use. Company-owned help pages mention an AI tool for inclusive language and describe AI capabilities that reduce bias. Technical papers acknowledge potential fairness issues arising from data biases, and posts reference adversarial scrutiny for bias detection.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, and transparency** in responsible AI. It details Thermo Fisher Scientific's governance structure, including an AI Leadership Committee and a Bioethics Committee, which offer advice and monitor AI implications, demonstrating robust oversight. The document also mentions the use of \"AI tools\" for transparency and a commitment to a governance structure for fair, ethical, and safe AI use, indicating a focus on responsible AI practices.",
+          "title": "2025 Proxy Statement (DEF 14A) - Thermo Fisher Scientific",
+          "url": "https://sec.gov/Archives/edgar/data/97745/000119312525075101/d864455ddef14a.htm"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Talent Management & AI-Driven HR,\" provides evidence for **fairness** and **governance**. It supports fairness by mentioning an AI tool for inclusive language, suggesting a commitment to equitable hiring practices. The document also supports governance by describing AI capabilities and their role in reducing bias, though it lacks specific operational details or formal policy commitments.",
+          "title": "Talent Management & AI-Driven HR",
+          "url": "https://corporate.thermofisher.com/content/tfcorpsite/us/en/index/corporate-social-responsibility/colleagues/talent.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the following Responsible AI pillars: explainability, fairness, governance, privacy, and transparency. It highlights Thermo Fisher's Responsible AI Framework and AI Technology Council, demonstrating a commitment to governance and addressing privacy concerns. The paper also discusses the need for explainability in clinical settings due to the \"black box\" nature of AI models and acknowledges potential fairness issues arising from data biases, while detailing AI integration across products which supports transparency.",
+          "title": "Thermo Fisher Scientific's AI Strategy: Analysis of Dominance in Life Sciences",
+          "url": "https://klover.ai/thermo-fisher-scientific-ai-strategy-analysis-of-dominance-in-life-sciences"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This blog post from Thermo Fisher's clinical division details robust oversight mechanisms for generative AI in clinical research, supporting **governance** and **oversight** through cross-functional review boards, adversarial AI for output validation, and human oversight tools for hallucination detection. The post also touches upon **external accountability** by mentioning regulatory compliance, **fairness** through adversarial scrutiny for bias detection, and **transparency** by emphasizing AI literacy and understanding of AI capabilities.",
+          "title": "Opportunities and Risks: Generative AI Use for Clinical Research - PPD",
+          "url": "https://ppd.com/blog/managing-opportunities-risks-generative-ai-clinical-research"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 41,
+      "findings": "The company's governance practices include a global data privacy program with a Privacy by Design framework and ISO 27001 certification, alongside oversight mechanisms like an AI Leadership Committee and a Generative AI Center of Excellence. A Bioethics Committee monitors ethical AI implications, investigates concerns, and determines remedial actions. The company also references oversight of third-party AI use, highlights a Responsible AI Framework and an AI Technology Council, and emphasizes establishing clear frameworks and policies before AI deployment.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Data Privacy & Security,\" provides evidence for the **governance** pillar of responsible AI. It details the company's global data privacy program, including the Privacy by Design framework and ISO 27001 certification, and outlines oversight mechanisms such as the AI Leadership Committee and Generative AI Center of Excellence, demonstrating established structures for managing AI data handling and governance.",
+          "title": "Data Privacy & Security",
+          "url": "https://corporate.thermofisher.com/us/en/index/corporate-social-responsibility/csr-commitment/data-privacy-and-security.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Ethics & Bioethics Committee,\" provides evidence for the **governance** pillar of responsible AI. It details the establishment and function of a Bioethics Committee, a senior leadership body reporting to the CEO, which is responsible for monitoring ethical implications of AI use, investigating concerns, and determining remedial actions. This demonstrates a structured approach to oversight and accountability for AI ethics.",
+          "title": "Ethics & Bioethics Committee",
+          "url": "https://corporate.thermofisher.com/content/tfcorpsite/us/en/index/corporate-social-responsibility/csr-commitment/ethics.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Artificial Intelligence Hub,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning collaborations with vendors like OpenAI and NVIDIA, which necessitates oversight of third-party AI use. The page also supports transparency by discussing the company's AI-powered tools and capabilities, implying a need for clarity in their development and deployment.",
+          "title": "Artificial Intelligence Hub",
+          "url": "https://corporate.thermofisher.com/content/tfcorpsite/us/en/index/artificial-intelligence.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This privacy notice provides evidence for the **governance** and **privacy** pillars. It supports governance by outlining commitments to respecting Global Privacy Control (GPC) signals for cookie management and vendor oversight for third-party data use. The notice also supports privacy by detailing data subject rights, the use of data for profiling and targeted advertising, and commitments to not re-identifying data.",
+          "title": "Thermo Fisher Scientific Privacy Notice",
+          "url": "https://thermofisher.com/us/en/home/global/privacy-policy.html"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, and transparency** in responsible AI. It details Thermo Fisher Scientific's governance structure, including an AI Leadership Committee and a Bioethics Committee, which offer advice and monitor AI implications, demonstrating robust oversight. The document also mentions the use of \"AI tools\" for transparency and a commitment to a governance structure for fair, ethical, and safe AI use, indicating a focus on responsible AI practices.",
+          "title": "2025 Proxy Statement (DEF 14A) - Thermo Fisher Scientific",
+          "url": "https://sec.gov/Archives/edgar/data/97745/000119312525075101/d864455ddef14a.htm"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Talent Management & AI-Driven HR,\" provides evidence for **fairness** and **governance**. It supports fairness by mentioning an AI tool for inclusive language, suggesting a commitment to equitable hiring practices. The document also supports governance by describing AI capabilities and their role in reducing bias, though it lacks specific operational details or formal policy commitments.",
+          "title": "Talent Management & AI-Driven HR",
+          "url": "https://corporate.thermofisher.com/content/tfcorpsite/us/en/index/corporate-social-responsibility/colleagues/talent.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the following Responsible AI pillars: explainability, fairness, governance, privacy, and transparency. It highlights Thermo Fisher's Responsible AI Framework and AI Technology Council, demonstrating a commitment to governance and addressing privacy concerns. The paper also discusses the need for explainability in clinical settings due to the \"black box\" nature of AI models and acknowledges potential fairness issues arising from data biases, while detailing AI integration across products which supports transparency.",
+          "title": "Thermo Fisher Scientific's AI Strategy: Analysis of Dominance in Life Sciences",
+          "url": "https://klover.ai/thermo-fisher-scientific-ai-strategy-analysis-of-dominance-in-life-sciences"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Thermo Fisher Scientific AI Maturity Assessment - IMD,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document highlights the appointment of a Chief Data Analytics & AI Officer and an AI Technology Council, demonstrating formal structures for AI oversight and accountability. Furthermore, it mentions company-wide AI training and experimentation with a secure enterprise generative AI platform, indicating a transparent approach to AI adoption and governance over its use.",
+          "title": "Thermo Fisher Scientific AI Maturity Assessment - IMD",
+          "url": "https://imd.org/entity-profile/thermo-fisher-scientific-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This press release from Thermo Fisher Scientific highlights their commitment to responsible AI through a \"governance-first\" approach. The document provides evidence for the **governance** pillar by emphasizing the establishment of clear frameworks and policies before AI technology deployment, and by detailing data stewardship responsibilities within technical teams. It also suggests a policy for responsible AI integration and vendor engagement through their partnership with OpenAI, which is built on a responsible AI foundation.",
+          "title": "Building the Foundation for Meaningful AI in Drug Development",
+          "url": "https://massbio.org/news/recent-news/building-the-foundation-for-meaningful-ai-in-drug-development"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This blog post from Thermo Fisher's clinical division details robust oversight mechanisms for generative AI in clinical research, supporting **governance** and **oversight** through cross-functional review boards, adversarial AI for output validation, and human oversight tools for hallucination detection. The post also touches upon **external accountability** by mentioning regulatory compliance, **fairness** through adversarial scrutiny for bias detection, and **transparency** by emphasizing AI literacy and understanding of AI capabilities.",
+          "title": "Opportunities and Risks: Generative AI Use for Clinical Research - PPD",
+          "url": "https://ppd.com/blog/managing-opportunities-risks-generative-ai-clinical-research"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 12,
+      "findings": "Sources describe documented oversight practices in 2 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, and transparency** in responsible AI. It details Thermo Fisher Scientific's governance structure, including an AI Leadership Committee and a Bioethics Committee, which offer advice and monitor AI implications, demonstrating robust oversight. The document also mentions the use of \"AI tools\" for transparency and a commitment to a governance structure for fair, ethical, and safe AI use, indicating a focus on responsible AI practices.",
+          "title": "2025 Proxy Statement (DEF 14A) - Thermo Fisher Scientific",
+          "url": "https://sec.gov/Archives/edgar/data/97745/000119312525075101/d864455ddef14a.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This blog post from Thermo Fisher's clinical division details robust oversight mechanisms for generative AI in clinical research, supporting **governance** and **oversight** through cross-functional review boards, adversarial AI for output validation, and human oversight tools for hallucination detection. The post also touches upon **external accountability** by mentioning regulatory compliance, **fairness** through adversarial scrutiny for bias detection, and **transparency** by emphasizing AI literacy and understanding of AI capabilities.",
+          "title": "Opportunities and Risks: Generative AI Use for Clinical Research - PPD",
+          "url": "https://ppd.com/blog/managing-opportunities-risks-generative-ai-clinical-research"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 9,
+      "findings": "Privacy notices outline commitments to respecting Global Privacy Control signals for cookie management and vendor oversight for third-party data use. These notices also detail data subject rights, the use of data for profiling and targeted advertising, and commitments to not re-identifying data. Additionally, technical papers reference addressing privacy concerns.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This privacy notice provides evidence for the **governance** and **privacy** pillars. It supports governance by outlining commitments to respecting Global Privacy Control (GPC) signals for cookie management and vendor oversight for third-party data use. The notice also supports privacy by detailing data subject rights, the use of data for profiling and targeted advertising, and commitments to not re-identifying data.",
+          "title": "Thermo Fisher Scientific Privacy Notice",
+          "url": "https://thermofisher.com/us/en/home/global/privacy-policy.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the following Responsible AI pillars: explainability, fairness, governance, privacy, and transparency. It highlights Thermo Fisher's Responsible AI Framework and AI Technology Council, demonstrating a commitment to governance and addressing privacy concerns. The paper also discusses the need for explainability in clinical settings due to the \"black box\" nature of AI models and acknowledges potential fairness issues arising from data biases, while detailing AI integration across products which supports transparency.",
+          "title": "Thermo Fisher Scientific's AI Strategy: Analysis of Dominance in Life Sciences",
+          "url": "https://klover.ai/thermo-fisher-scientific-ai-strategy-analysis-of-dominance-in-life-sciences"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 21,
+      "findings": "The company discusses its AI-powered tools and capabilities, and proxy statements mention the use of AI tools for transparency. Technical papers detail AI integration across products, and mention company-wide AI training and experimentation with a secure enterprise generative AI platform. Additionally, posts emphasize AI literacy and understanding of AI capabilities.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Artificial Intelligence Hub,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning collaborations with vendors like OpenAI and NVIDIA, which necessitates oversight of third-party AI use. The page also supports transparency by discussing the company's AI-powered tools and capabilities, implying a need for clarity in their development and deployment.",
+          "title": "Artificial Intelligence Hub",
+          "url": "https://corporate.thermofisher.com/content/tfcorpsite/us/en/index/artificial-intelligence.html"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, and transparency** in responsible AI. It details Thermo Fisher Scientific's governance structure, including an AI Leadership Committee and a Bioethics Committee, which offer advice and monitor AI implications, demonstrating robust oversight. The document also mentions the use of \"AI tools\" for transparency and a commitment to a governance structure for fair, ethical, and safe AI use, indicating a focus on responsible AI practices.",
+          "title": "2025 Proxy Statement (DEF 14A) - Thermo Fisher Scientific",
+          "url": "https://sec.gov/Archives/edgar/data/97745/000119312525075101/d864455ddef14a.htm"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Talent Management & AI-Driven HR,\" provides evidence for **fairness** and **governance**. It supports fairness by mentioning an AI tool for inclusive language, suggesting a commitment to equitable hiring practices. The document also supports governance by describing AI capabilities and their role in reducing bias, though it lacks specific operational details or formal policy commitments.",
+          "title": "Talent Management & AI-Driven HR",
+          "url": "https://corporate.thermofisher.com/content/tfcorpsite/us/en/index/corporate-social-responsibility/colleagues/talent.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the following Responsible AI pillars: explainability, fairness, governance, privacy, and transparency. It highlights Thermo Fisher's Responsible AI Framework and AI Technology Council, demonstrating a commitment to governance and addressing privacy concerns. The paper also discusses the need for explainability in clinical settings due to the \"black box\" nature of AI models and acknowledges potential fairness issues arising from data biases, while detailing AI integration across products which supports transparency.",
+          "title": "Thermo Fisher Scientific's AI Strategy: Analysis of Dominance in Life Sciences",
+          "url": "https://klover.ai/thermo-fisher-scientific-ai-strategy-analysis-of-dominance-in-life-sciences"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Thermo Fisher Scientific AI Maturity Assessment - IMD,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document highlights the appointment of a Chief Data Analytics & AI Officer and an AI Technology Council, demonstrating formal structures for AI oversight and accountability. Furthermore, it mentions company-wide AI training and experimentation with a secure enterprise generative AI platform, indicating a transparent approach to AI adoption and governance over its use.",
+          "title": "Thermo Fisher Scientific AI Maturity Assessment - IMD",
+          "url": "https://imd.org/entity-profile/thermo-fisher-scientific-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This blog post from Thermo Fisher's clinical division details robust oversight mechanisms for generative AI in clinical research, supporting **governance** and **oversight** through cross-functional review boards, adversarial AI for output validation, and human oversight tools for hallucination detection. The post also touches upon **external accountability** by mentioning regulatory compliance, **fairness** through adversarial scrutiny for bias detection, and **transparency** by emphasizing AI literacy and understanding of AI capabilities.",
+          "title": "Opportunities and Risks: Generative AI Use for Clinical Research - PPD",
+          "url": "https://ppd.com/blog/managing-opportunities-risks-generative-ai-clinical-research"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T21:59:25Z",
+  "run_id": "20260203_015901_0bcb",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Drawing from 18 publicly available sources, Thermo Fisher Scientific's published materials address all 7 evaluated responsible AI pillars, with documented public evidence found for each. Operational practices are documented for transparency, oversight, and governance, with company-owned help pages discussing AI-powered tools and capabilities. Policy documents further detail the company's global data privacy program, including the Privacy by Design framework, under governance. Policy-level evidence is present for fairness, explainability, privacy, and external accountability, with privacy notices outlining commitments to respecting Global Privacy Control (GPC) signals for cookie management.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 59,
+    "total_sources_used": 10
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 21.4,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 3
+  },
+  "company": "AutoZone",
+  "company_slug": "autozone",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 14,
+      "OPERATIONAL": 1,
+      "POLICY": 4
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 7,
+      "findings": "Interviews describe a commitment to building \"well-orchestrated agent-to-agent systems\" and a systematic approach to AI development, testing, and measurement. Technical papers further describe the critical need for high-quality data for machine learning models and challenges related to system integration, technology upgrades, and staff training.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This interview with AutoZone's Director of Engineering for Generative AI and Automation provides evidence for **governance** and **oversight**. The discussion highlights a commitment to building \"well-orchestrated agent-to-agent systems\" and a systematic approach to AI development, testing, and measurement, all of which fall under governance. Furthermore, the interview describes mechanisms for human assessment of AI outputs to iteratively improve the system, demonstrating human oversight.",
+          "title": "AI Agents Architecture: AutoZone Engineering Insights",
+          "url": "https://shiftmag.dev/how-to-build-ai-agents-that-work-5330"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"How AutoZone Uses Machine Learning for Demand Forecasting,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by describing the capabilities and functioning of AutoZone's machine learning models for demand forecasting and inventory optimization, detailing their use cases and benefits. The paper also touches upon governance by mentioning the critical need for high-quality data for ML models and discussing challenges related to system integration, technology upgrades, and staff training.",
+          "title": "How AutoZone Uses Machine Learning for Demand Forecasting",
+          "url": "https://cleverence.com/articles/business-blogs/how-autozone-and-napa-auto-parts-use-machine-learning-to-forecast-demand"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "AutoZone's press releases describe \"planner-driven\" processes and human oversight in its AI-powered demand forecasting and inventory replenishment system. Additionally, interviews describe mechanisms for human assessment of AI outputs and human oversight for iteratively improving AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release from AutoZone and RELEX Solutions provides evidence for the **oversight** and **transparency** pillars of responsible AI. The press release mentions \"planner-driven\" processes, suggesting human oversight in the AI-powered demand forecasting and inventory replenishment system. Furthermore, it highlights \"Expanding AI Capabilities\" and \"advances agentic AI roadmap,\" indicating transparency regarding the company's ongoing development and deployment of AI technologies.",
+          "title": "AutoZone Expands Partnership with RELEX Solutions",
+          "url": "https://relexsolutions.com/news/autozone-expands-partnership-with-relex-solutions-to-optimize-efficiency-across-north-and-south-america"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This interview with AutoZone's Director of Engineering for Generative AI and Automation provides evidence for **governance** and **oversight**. The discussion highlights a commitment to building \"well-orchestrated agent-to-agent systems\" and a systematic approach to AI development, testing, and measurement, all of which fall under governance. Furthermore, the interview describes mechanisms for human assessment of AI outputs to iteratively improve the system, demonstrating human oversight.",
+          "title": "AI Agents Architecture: AutoZone Engineering Insights",
+          "url": "https://shiftmag.dev/how-to-build-ai-agents-that-work-5330"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "AutoZone's privacy policy documents describe the company's practices for collecting and using sensitive personal information. These documents state a policy against using such data for inference and describe data protection in automated profiling contexts.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This AutoZone Applicant and AutoZoner Privacy Policy document provides evidence for the **privacy** pillar. It supports this pillar by detailing the company's practices regarding the collection and use of sensitive personal information, specifically stating a policy against using such data for inference, which directly addresses data protection in automated profiling contexts.",
+          "title": "AutoZone Applicant and AutoZoner Privacy Policy",
+          "url": "https://autozone.com/cdn/docs/careers/Applicant-and-AutoZoner-Privacy-Policy-English.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Transparency",
+      "evidence_count": 11,
+      "findings": "AutoZone's press releases describe the company's expanding AI capabilities, agentic AI roadmap, and ongoing development and deployment of AI technologies. These releases also describe an AI system that provides transparent recommendations and explainability in its diagnostic suggestions. Technical papers further describe the capabilities, functioning, use cases, and benefits of machine learning models for demand forecasting and inventory optimization.",
+      "max_score": 2,
+      "path_to_improvement": "Document AI systems in use, including vendor/third-party AI tools.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release from AutoZone and RELEX Solutions provides evidence for the **oversight** and **transparency** pillars of responsible AI. The press release mentions \"planner-driven\" processes, suggesting human oversight in the AI-powered demand forecasting and inventory replenishment system. Furthermore, it highlights \"Expanding AI Capabilities\" and \"advances agentic AI roadmap,\" indicating transparency regarding the company's ongoing development and deployment of AI technologies.",
+          "title": "AutoZone Expands Partnership with RELEX Solutions",
+          "url": "https://relexsolutions.com/news/autozone-expands-partnership-with-relex-solutions-to-optimize-efficiency-across-north-and-south-america"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release from ALLDATA supports the **transparency** pillar of responsible AI. It mentions an AI system that provides \"transparent recommendations,\" indicating a degree of explainability in its diagnostic suggestions.",
+          "title": "ALLDATA Flagship Products Receive Significant Enhancements",
+          "url": "https://tractionnews.com/alldata-flagship-products-receive-significant-enhancements"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"How AutoZone Uses Machine Learning for Demand Forecasting,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by describing the capabilities and functioning of AutoZone's machine learning models for demand forecasting and inventory optimization, detailing their use cases and benefits. The paper also touches upon governance by mentioning the critical need for high-quality data for ML models and discussing challenges related to system integration, technology upgrades, and staff training.",
+          "title": "How AutoZone Uses Machine Learning for Demand Forecasting",
+          "url": "https://cleverence.com/articles/business-blogs/how-autozone-and-napa-auto-parts-use-machine-learning-to-forecast-demand"
+        }
+      ],
+      "score": 0,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:44:13Z",
+  "run_id": "20260202_204035_2362",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "AutoZone's public materials describe human oversight in its AI-powered demand forecasting and inventory replenishment system, alongside policies against using sensitive personal information for inference. These practices contribute to the documentation of 3 of 7 evaluated responsible AI pillars, which also include governance, where a systematic approach to AI development, testing, and measurement is described. No qualifying public evidence was found for transparency, fairness, and 2 additional pillars. This assessment is based on a review of 11 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 19,
+    "total_sources_used": 5
+  }
+}

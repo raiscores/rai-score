@@ -1,0 +1,191 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Lear",
+  "company_slug": "lear-corp",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 4,
+      "OPERATIONAL": 0,
+      "POLICY": 15
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 8,
+      "findings": "An SEC filing discloses the integration of AI and automation into production facilities and business operations, indicating strategic investments and commitment to advanced technologies. A website privacy policy discloses the use of AI-enabled chatbots for job applications, clarifying that no automated hiring decisions are made and personal information is not used for AI training. Additionally, a press release references \"Automated\" as a key pillar and mentions \"Automated systems\" and their benefits within a digital transformation initiative.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This SEC filing discloses the integration of AI and automation into production facilities and business operations, supporting the **governance** pillar by indicating strategic investments and commitment to advanced technologies. The filing also touches upon the **transparency** pillar by mentioning AI capabilities, and the **privacy** pillar through implied personalization features. However, the document lacks specific disclosures on AI governance frameworks or algorithmic risk management.",
+          "title": "Form 10-K for fiscal year ended December 31, 2024 - AI and Automation Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/842162/000084216225000033/lear-2024dec31_10xkxfinal.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This website privacy policy document provides evidence for **governance, oversight, privacy, and transparency**. It supports these pillars by disclosing the use of AI-enabled chatbots for job applications, clarifying that no automated hiring decisions are made and that personal information is not used for AI training. The policy also outlines safeguards regarding chatbot limitations and accuracy, mentions profiling and consumer rights, and discusses data processing for analytics and social media, demonstrating a commitment to responsible data handling and user awareness.",
+          "title": "Website Privacy Policy - AI-Enabled Chatbots and Data Processing",
+          "url": "https://lear.com/privacy-policy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"IDEA by Lear - Digital Transformation Initiative,\" provides evidence for the **governance** pillar. The initiative's mention of \"Automated\" as a key pillar, along with references to \"Automated systems\" and their benefits, suggests a framework for the management and implementation of automated technologies, which falls under the scope of governance.",
+          "title": "IDEA by Lear - Digital Transformation Initiative",
+          "url": "https://lear.com/idea-by-lear"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "A website privacy policy outlines safeguards regarding chatbot limitations and accuracy. This policy also clarifies that no automated hiring decisions are made.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This website privacy policy document provides evidence for **governance, oversight, privacy, and transparency**. It supports these pillars by disclosing the use of AI-enabled chatbots for job applications, clarifying that no automated hiring decisions are made and that personal information is not used for AI training. The policy also outlines safeguards regarding chatbot limitations and accuracy, mentions profiling and consumer rights, and discusses data processing for analytics and social media, demonstrating a commitment to responsible data handling and user awareness.",
+          "title": "Website Privacy Policy - AI-Enabled Chatbots and Data Processing",
+          "url": "https://lear.com/privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 10,
+      "findings": "An SEC filing references privacy through implied personalization features. A website privacy policy states that personal information is not used for AI training. This policy also mentions profiling and consumer rights, and discusses data processing for analytics and social media.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This SEC filing discloses the integration of AI and automation into production facilities and business operations, supporting the **governance** pillar by indicating strategic investments and commitment to advanced technologies. The filing also touches upon the **transparency** pillar by mentioning AI capabilities, and the **privacy** pillar through implied personalization features. However, the document lacks specific disclosures on AI governance frameworks or algorithmic risk management.",
+          "title": "Form 10-K for fiscal year ended December 31, 2024 - AI and Automation Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/842162/000084216225000033/lear-2024dec31_10xkxfinal.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This website privacy policy document provides evidence for **governance, oversight, privacy, and transparency**. It supports these pillars by disclosing the use of AI-enabled chatbots for job applications, clarifying that no automated hiring decisions are made and that personal information is not used for AI training. The policy also outlines safeguards regarding chatbot limitations and accuracy, mentions profiling and consumer rights, and discusses data processing for analytics and social media, demonstrating a commitment to responsible data handling and user awareness.",
+          "title": "Website Privacy Policy - AI-Enabled Chatbots and Data Processing",
+          "url": "https://lear.com/privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 7,
+      "findings": "An SEC filing and a press release mention AI capabilities. A website privacy policy discloses the use of AI-enabled chatbots for job applications, clarifying that automated hiring decisions are not made and personal information is not used for AI training. This policy also outlines safeguards for chatbot limitations and accuracy, mentions profiling and consumer rights, and discusses data processing for analytics and social media.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This SEC filing discloses the integration of AI and automation into production facilities and business operations, supporting the **governance** pillar by indicating strategic investments and commitment to advanced technologies. The filing also touches upon the **transparency** pillar by mentioning AI capabilities, and the **privacy** pillar through implied personalization features. However, the document lacks specific disclosures on AI governance frameworks or algorithmic risk management.",
+          "title": "Form 10-K for fiscal year ended December 31, 2024 - AI and Automation Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/842162/000084216225000033/lear-2024dec31_10xkxfinal.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This website privacy policy document provides evidence for **governance, oversight, privacy, and transparency**. It supports these pillars by disclosing the use of AI-enabled chatbots for job applications, clarifying that no automated hiring decisions are made and that personal information is not used for AI training. The policy also outlines safeguards regarding chatbot limitations and accuracy, mentions profiling and consumer rights, and discusses data processing for analytics and social media, demonstrating a commitment to responsible data handling and user awareness.",
+          "title": "Website Privacy Policy - AI-Enabled Chatbots and Data Processing",
+          "url": "https://lear.com/privacy-policy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This press release announces the acquisition of WIP Industrial Automation, highlighting the company's robotics and AI-based computer vision capabilities. The document supports the **transparency** pillar by mentioning AI capabilities, indicating openness about the AI systems involved in the acquisition.",
+          "title": "Press Release - WIP Industrial Automation Acquisition",
+          "url": "https://www.lear.com/newsroom/lear-completes-acquisition-of-wip-industrial-automation"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:53:43Z",
+  "run_id": "20260202_235729_6d5b",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "A website privacy policy for Lear discloses the use of AI-enabled chatbots for job applications, addressing transparency, and clarifies that no automated hiring decisions are made, pertaining to oversight. These practices are part of the documented evidence found for 4 of 7 responsible AI pillars, all of which are addressed through policies. Additionally, privacy materials state that personal information is not used for AI training, and governance disclosures reference the integration of AI and automation into production facilities. Drawing from 6 publicly available sources, no qualifying public evidence was found for fairness, explainability, and 1 additional pillar.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 19,
+    "total_sources_used": 4
+  }
+}

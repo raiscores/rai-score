@@ -1,0 +1,279 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "MGM Resorts International",
+  "company_slug": "mgm-resorts-international",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 15,
+      "OPERATIONAL": 1,
+      "POLICY": 34
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "A blog post describes how AI recommendation engines in online casinos use tooltips, such as \"Because you played...\", to demystify algorithms for users. This practice aims to make AI recommendations more understandable.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **explainability**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports explainability and transparency by describing how AI recommendation engines in online casinos use tooltips like \"Because you played...\" to demystify algorithms for users. The post also implies data protection requirements for profiling through its description of data collection for AI models and details AI mechanisms for player protection, including explanations and data synchronization for limits, which speaks to governance.",
+          "title": "BetMGM AI Game Recommendations and Responsible Gaming Explainability",
+          "url": "https://certainly.io/blog/ai-game-recommendations"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 8,
+      "findings": "A federal court filing references regulatory guidance on algorithmic pricing and antitrust concerns related to third-party algorithms. Additionally, documentation references how AI/ML capabilities contribute to regulatory compliance.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This federal court filing provides evidence for **external accountability**, **governance**, and **transparency**. The document supports external accountability by citing regulatory guidance on algorithmic pricing and discussing antitrust concerns related to third-party algorithms. Evidence for governance is found in descriptions of how pricing algorithms were used to manipulate room rates, suppress supply, and elevate prices, indicating a need for oversight of these automated systems. Transparency is supported by the naming of specific pricing algorithms (GuestRev, RevCaster, GroupRev) and descriptions of their functions, such as gathering competitor data and providing recommendations.",
+          "title": "Gibson et al. v. MGM Resorts International - Algorithmic Pricing Lawsuit",
+          "url": "https://classaction.org/media/gibson-et-al-v-mgm-resorts-international-et-al.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release from BetMGM details their use of AI and machine learning for Know Your Customer (KYC) processes, including real-time identity verification and fraud detection. The document provides evidence for **governance** by describing the application of AI in monitoring transactions and assessing risk to prevent fraud and money laundering, aligning with security and compliance policies. It also supports **external accountability** by highlighting how these AI/ML capabilities contribute to regulatory compliance.",
+          "title": "BetMGM AI and Machine Learning for KYC and Fraud Detection",
+          "url": "https://casinobeats.com/2024/08/12/betmgm-liron-warhaftig-the-two-most-promising-financial-innovations-for-igaming"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 41,
+      "findings": "Documentation describes the monitoring of employee AI prompts and the application of policies to generative AI use, alongside AI's role in anomaly detection and incident response. An annual report describes the use of advanced analytics for customer segmentation and references governance over data use for profiling and third-party AI providers. Furthermore, sources reference the need for governance through guidelines for AI tools, describe AI's application in preventing fraud, and describe AI mechanisms for player protection.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release details MGM Resorts' implementation of an AI-driven security operations center, providing evidence for **governance, privacy, and transparency**. The document supports governance by describing the monitoring of millions of employee AI prompts weekly and the application of policies to generative AI use, as well as AI's role in anomaly detection and incident response. Evidence for privacy is found in the description of inspecting prompts and responses to protect data, while transparency is implied through AI's anomaly detection and predictive capabilities.",
+          "title": "MGM Resorts Zero Trust Architecture with AI-Driven Security Operations",
+          "url": "https://cio.com/article/3973947/zero-trust-everywhere-how-mgm-resorts-found-agility-and-security-with-zscaler.html"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This federal court filing provides evidence for **external accountability**, **governance**, and **transparency**. The document supports external accountability by citing regulatory guidance on algorithmic pricing and discussing antitrust concerns related to third-party algorithms. Evidence for governance is found in descriptions of how pricing algorithms were used to manipulate room rates, suppress supply, and elevate prices, indicating a need for oversight of these automated systems. Transparency is supported by the naming of specific pricing algorithms (GuestRev, RevCaster, GroupRev) and descriptions of their functions, such as gathering competitor data and providing recommendations.",
+          "title": "Gibson et al. v. MGM Resorts International - Algorithmic Pricing Lawsuit",
+          "url": "https://classaction.org/media/gibson-et-al-v-mgm-resorts-international-et-al.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "The MGM Resorts 2024 Form 10-K Annual Report provides evidence for the **governance** pillar of responsible AI. The report details the use of advanced analytics and data capabilities to segment customers based on preferences and behaviors for personalized experiences and marketing. This implies governance over data use for profiling and personalization, as well as the need for governance over third-party AI providers and risk profiling tools.",
+          "title": "MGM Resorts 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/789570/000078957025000008/mgm-20241231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release announces MGM Resorts' use of Workday Contract Intelligence powered by Evisort AI for contract lifecycle management. The press release supports the **governance** pillar by mentioning the use of AI capabilities and the vendor's AI. It also supports the **transparency** pillar by describing the AI-driven analysis of contracts to extract terms, risks, and obligations, although it lacks specific execution details for operational or policy aspects.",
+          "title": "MGM Resorts Workday Partnership - AI Contract Intelligence",
+          "url": "https://futurecio.tech/mgm-to-harness-ai-driven-innovations-for-workforce-excellence-through-extended-partnership-with-workday"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release from MGM Resorts outlines their AI strategy, focusing on personalization and automated bookings. The document provides evidence for the **governance** pillar by mentioning AI taking responsibility for tasks and handling customer service, indicating future aspirations for AI oversight. It also supports the **privacy** pillar by discussing the use of data and AI for insights, though specific governance mechanisms or policy details are not elaborated upon.",
+          "title": "MGM Resorts AI Strategy and Personalization Framework",
+          "url": "https://diginomica.com/cloudworld-24-mgm-resorts-and-cia-tell-oracle-ceo-safra-catz-we-are-ready-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release from BetMGM details their use of AI and machine learning for Know Your Customer (KYC) processes, including real-time identity verification and fraud detection. The document provides evidence for **governance** by describing the application of AI in monitoring transactions and assessing risk to prevent fraud and money laundering, aligning with security and compliance policies. It also supports **external accountability** by highlighting how these AI/ML capabilities contribute to regulatory compliance.",
+          "title": "BetMGM AI and Machine Learning for KYC and Fraud Detection",
+          "url": "https://casinobeats.com/2024/08/12/betmgm-liron-warhaftig-the-two-most-promising-financial-innovations-for-igaming"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This interview with MGM's CISO Stephen Harrison provides evidence for the governance, privacy, and transparency pillars of responsible AI. The discussion highlights the need for governance through the creation of guidelines and safe engagement practices for AI tools, while also touching on the importance of transparency regarding AI model limitations like hallucinations. Furthermore, the interview implicitly supports the privacy pillar by acknowledging the need to consider privacy risks when adopting AI.",
+          "title": "MGM Resorts CISO Stephen Harrison - AI Security Operations Interview",
+          "url": "https://esipodcast.com/ciso-episodes/ep-18-ai-human-error-how-technology-secures-the-future-with-mgm-resorts-international-svp-ciso-stephen-harrison"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **explainability**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports explainability and transparency by describing how AI recommendation engines in online casinos use tooltips like \"Because you played...\" to demystify algorithms for users. The post also implies data protection requirements for profiling through its description of data collection for AI models and details AI mechanisms for player protection, including explanations and data synchronization for limits, which speaks to governance.",
+          "title": "BetMGM AI Game Recommendations and Responsible Gaming Explainability",
+          "url": "https://certainly.io/blog/ai-game-recommendations"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "Documentation describes inspecting AI prompts and responses to protect data. A press release describes the use of data and AI for insights, while an interview references the need to consider privacy risks when adopting AI. Furthermore, a blog post references data protection requirements for profiling through its description of data collection for AI models.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release details MGM Resorts' implementation of an AI-driven security operations center, providing evidence for **governance, privacy, and transparency**. The document supports governance by describing the monitoring of millions of employee AI prompts weekly and the application of policies to generative AI use, as well as AI's role in anomaly detection and incident response. Evidence for privacy is found in the description of inspecting prompts and responses to protect data, while transparency is implied through AI's anomaly detection and predictive capabilities.",
+          "title": "MGM Resorts Zero Trust Architecture with AI-Driven Security Operations",
+          "url": "https://cio.com/article/3973947/zero-trust-everywhere-how-mgm-resorts-found-agility-and-security-with-zscaler.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release from MGM Resorts outlines their AI strategy, focusing on personalization and automated bookings. The document provides evidence for the **governance** pillar by mentioning AI taking responsibility for tasks and handling customer service, indicating future aspirations for AI oversight. It also supports the **privacy** pillar by discussing the use of data and AI for insights, though specific governance mechanisms or policy details are not elaborated upon.",
+          "title": "MGM Resorts AI Strategy and Personalization Framework",
+          "url": "https://diginomica.com/cloudworld-24-mgm-resorts-and-cia-tell-oracle-ceo-safra-catz-we-are-ready-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This interview with MGM's CISO Stephen Harrison provides evidence for the governance, privacy, and transparency pillars of responsible AI. The discussion highlights the need for governance through the creation of guidelines and safe engagement practices for AI tools, while also touching on the importance of transparency regarding AI model limitations like hallucinations. Furthermore, the interview implicitly supports the privacy pillar by acknowledging the need to consider privacy risks when adopting AI.",
+          "title": "MGM Resorts CISO Stephen Harrison - AI Security Operations Interview",
+          "url": "https://esipodcast.com/ciso-episodes/ep-18-ai-human-error-how-technology-secures-the-future-with-mgm-resorts-international-svp-ciso-stephen-harrison"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **explainability**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports explainability and transparency by describing how AI recommendation engines in online casinos use tooltips like \"Because you played...\" to demystify algorithms for users. The post also implies data protection requirements for profiling through its description of data collection for AI models and details AI mechanisms for player protection, including explanations and data synchronization for limits, which speaks to governance.",
+          "title": "BetMGM AI Game Recommendations and Responsible Gaming Explainability",
+          "url": "https://certainly.io/blog/ai-game-recommendations"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 9,
+      "findings": "Documentation references AI's anomaly detection and predictive capabilities as implying transparency. A federal court filing names specific pricing algorithms and describes their functions, while a press release describes AI-driven analysis of contracts. An interview references the importance of transparency regarding AI model limitations, and a blog post describes how AI recommendation engines use tooltips to demystify algorithms for users.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release details MGM Resorts' implementation of an AI-driven security operations center, providing evidence for **governance, privacy, and transparency**. The document supports governance by describing the monitoring of millions of employee AI prompts weekly and the application of policies to generative AI use, as well as AI's role in anomaly detection and incident response. Evidence for privacy is found in the description of inspecting prompts and responses to protect data, while transparency is implied through AI's anomaly detection and predictive capabilities.",
+          "title": "MGM Resorts Zero Trust Architecture with AI-Driven Security Operations",
+          "url": "https://cio.com/article/3973947/zero-trust-everywhere-how-mgm-resorts-found-agility-and-security-with-zscaler.html"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This federal court filing provides evidence for **external accountability**, **governance**, and **transparency**. The document supports external accountability by citing regulatory guidance on algorithmic pricing and discussing antitrust concerns related to third-party algorithms. Evidence for governance is found in descriptions of how pricing algorithms were used to manipulate room rates, suppress supply, and elevate prices, indicating a need for oversight of these automated systems. Transparency is supported by the naming of specific pricing algorithms (GuestRev, RevCaster, GroupRev) and descriptions of their functions, such as gathering competitor data and providing recommendations.",
+          "title": "Gibson et al. v. MGM Resorts International - Algorithmic Pricing Lawsuit",
+          "url": "https://classaction.org/media/gibson-et-al-v-mgm-resorts-international-et-al.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release announces MGM Resorts' use of Workday Contract Intelligence powered by Evisort AI for contract lifecycle management. The press release supports the **governance** pillar by mentioning the use of AI capabilities and the vendor's AI. It also supports the **transparency** pillar by describing the AI-driven analysis of contracts to extract terms, risks, and obligations, although it lacks specific execution details for operational or policy aspects.",
+          "title": "MGM Resorts Workday Partnership - AI Contract Intelligence",
+          "url": "https://futurecio.tech/mgm-to-harness-ai-driven-innovations-for-workforce-excellence-through-extended-partnership-with-workday"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This interview with MGM's CISO Stephen Harrison provides evidence for the governance, privacy, and transparency pillars of responsible AI. The discussion highlights the need for governance through the creation of guidelines and safe engagement practices for AI tools, while also touching on the importance of transparency regarding AI model limitations like hallucinations. Furthermore, the interview implicitly supports the privacy pillar by acknowledging the need to consider privacy risks when adopting AI.",
+          "title": "MGM Resorts CISO Stephen Harrison - AI Security Operations Interview",
+          "url": "https://esipodcast.com/ciso-episodes/ep-18-ai-human-error-how-technology-secures-the-future-with-mgm-resorts-international-svp-ciso-stephen-harrison"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **explainability**, **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports explainability and transparency by describing how AI recommendation engines in online casinos use tooltips like \"Because you played...\" to demystify algorithms for users. The post also implies data protection requirements for profiling through its description of data collection for AI models and details AI mechanisms for player protection, including explanations and data synchronization for limits, which speaks to governance.",
+          "title": "BetMGM AI Game Recommendations and Responsible Gaming Explainability",
+          "url": "https://certainly.io/blog/ai-game-recommendations"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:55:20Z",
+  "run_id": "20260203_000753_08a6",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "MGM Resorts International's published materials indicate transparency through a federal court filing that names specific pricing algorithms, such as GuestRev, RevCaster, and GroupRev, and describes their functions, like gathering competitor data and providing recommendations. These materials address 5 of 7 evaluated responsible AI pillars, with all covered pillars having documented policies. Further disclosures describe how AI recommendation engines in online casinos use tooltips to demystify algorithms for users, addressing explainability, and outline the monitoring of employee AI prompts weekly for governance. No qualifying public evidence was found for fairness or oversight, based on a review of 12 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 50,
+    "total_sources_used": 8
+  }
+}

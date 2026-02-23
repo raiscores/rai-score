@@ -1,0 +1,312 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "MetLife",
+  "company_slug": "metlife",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 18,
+      "OPERATIONAL": 3,
+      "POLICY": 12
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "A blog post mentions policy commitments to AI systems being aligned with human judgment.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Artificial Intelligence at MetLife - Three Use Cases,\" provides evidence for explainability, governance, oversight, and transparency. It supports explainability by mentioning policy commitments to AI systems being aligned with human judgment. Governance is supported through descriptions of frameworks for ROI generation and explicit statements that governance is foundational to AI. Oversight is implied through the mention of investing in AI startups and partnering with vendors, suggesting due diligence. Finally, transparency is evidenced by the description of an \"AI application\" map and mentions of \"AI capabilities.\"",
+          "title": "Artificial Intelligence at MetLife - Three Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-metlife"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "A blog post indicates a focus on developing an AI platform (MetIQ) with integrated frameworks for responsible AI principles, including external accountability. The blog post also mentions a commitment to responsible AI use, including external accountability.",
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post discusses MetLife's approach to responsible AI implementation, providing evidence for **governance**, **fairness**, **transparency**, **privacy**, and **external accountability**. The source indicates a focus on developing an AI platform (MetIQ) with integrated frameworks for these principles, mentioning the management of AI change and regulatory environments, and a commitment to responsible AI use, though some aspects are described as aspirations or challenges.",
+          "title": "How MetLife Is Scaling AI for Customer Impact",
+          "url": "https://equisoft.com/podcasts/inside-metlifes-new-strategy-tech-operations-bill-pappas"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "A blog post indicates a focus on developing an AI platform (MetIQ) with integrated frameworks for responsible AI principles, including fairness, and mentions a commitment to responsible AI use. Another blog post highlights disparities in AI adoption and employee understanding across different demographics.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post discusses MetLife's approach to responsible AI implementation, providing evidence for **governance**, **fairness**, **transparency**, **privacy**, and **external accountability**. The source indicates a focus on developing an AI platform (MetIQ) with integrated frameworks for these principles, mentioning the management of AI change and regulatory environments, and a commitment to responsible AI use, though some aspects are described as aspirations or challenges.",
+          "title": "How MetLife Is Scaling AI for Customer Impact",
+          "url": "https://equisoft.com/podcasts/inside-metlifes-new-strategy-tech-operations-bill-pappas"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI Attitudes: Transforming Workplace Dynamics,\" provides evidence for the **fairness** pillar of responsible AI. It highlights disparities in AI adoption and employee understanding across different demographics, indicating potential fairness concerns within the organization.",
+          "title": "AI Attitudes: Transforming Workplace Dynamics",
+          "url": "https://metlife.com/workforce-insights/ai-attitudes-transforming-workplace-dynamics"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 17,
+      "findings": "A policy document details MetLife's governance structure for responsible AI, including board-level oversight and management committees, and mentions the publication of an AI Policy. The MetLife Privacy Statement implies established practices for AI/ML tool usage. A blog post states that governance is foundational to AI and describes frameworks for ROI generation. An interview highlights vendor scrutiny and risk management through annual assessments and continuous monitoring, and a blog post indicates a focus on developing an AI platform (MetIQ) with integrated frameworks for responsible AI principles, mentioning the management of AI change and regulatory environments and a commitment to responsible AI use.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Governance - MetLife Sustainability Report,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It details MetLife's governance structure for responsible AI, including board-level oversight and management committees, and mentions the publication of an AI Policy and mandatory privacy training, demonstrating commitments to both governance and privacy in AI use.",
+          "title": "Responsible Governance - MetLife Sustainability Report",
+          "url": "https://sustainabilityreport.metlife.com/responsible-governance"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The MetLife Privacy Statement, a company-owned policy document, provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. This policy document supports governance and transparency by mentioning the use of AI/ML tools for service enhancement and data processing, implying established practices for their usage. It also supports the privacy pillar by outlining considerations for data processing within these AI-driven interactions.",
+          "title": "MetLife Privacy Statement",
+          "url": "https://metlife.com/about-us/privacy-policy/metLife-privacy-statement"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Artificial Intelligence at MetLife - Three Use Cases,\" provides evidence for explainability, governance, oversight, and transparency. It supports explainability by mentioning policy commitments to AI systems being aligned with human judgment. Governance is supported through descriptions of frameworks for ROI generation and explicit statements that governance is foundational to AI. Oversight is implied through the mention of investing in AI startups and partnering with vendors, suggesting due diligence. Finally, transparency is evidenced by the description of an \"AI application\" map and mentions of \"AI capabilities.\"",
+          "title": "Artificial Intelligence at MetLife - Three Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-metlife"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This interview with MetLife's Director of IT Risk and Security provides evidence for governance, oversight, privacy, and transparency. The discussion highlights vendor scrutiny and risk management through annual assessments and continuous monitoring, supporting governance. It also touches on data classification and access control for AI tools, bolstering the privacy pillar, and mentions human oversight in AI decision-making, which supports the oversight pillar. Furthermore, the interview discusses AI capabilities and use cases, contributing to the transparency pillar.",
+          "title": "MetLife Cyber Leader on AI Risk and Data Management",
+          "url": "https://adapt.com.au/article/metlife-cyber-leader-shares-how-theyre-tackling-data-sprawl-ai-risk-and-vendor-security"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post discusses MetLife's approach to responsible AI implementation, providing evidence for **governance**, **fairness**, **transparency**, **privacy**, and **external accountability**. The source indicates a focus on developing an AI platform (MetIQ) with integrated frameworks for these principles, mentioning the management of AI change and regulatory environments, and a commitment to responsible AI use, though some aspects are described as aspirations or challenges.",
+          "title": "How MetLife Is Scaling AI for Customer Impact",
+          "url": "https://equisoft.com/podcasts/inside-metlifes-new-strategy-tech-operations-bill-pappas"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "A blog post implies oversight through the mention of investing in AI startups and partnering with vendors. A press release implies oversight by highlighting how AI is designed to complement human expertise, suggesting human involvement in decision-making. An interview also mentions human oversight in AI decision-making.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Artificial Intelligence at MetLife - Three Use Cases,\" provides evidence for explainability, governance, oversight, and transparency. It supports explainability by mentioning policy commitments to AI systems being aligned with human judgment. Governance is supported through descriptions of frameworks for ROI generation and explicit statements that governance is foundational to AI. Oversight is implied through the mention of investing in AI startups and partnering with vendors, suggesting due diligence. Finally, transparency is evidenced by the description of an \"AI application\" map and mentions of \"AI capabilities.\"",
+          "title": "Artificial Intelligence at MetLife - Three Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-metlife"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release announces MetLife's partnership with Sprout.ai for claims automation, providing evidence for the **oversight** and **transparency** pillars. The announcement implies oversight by highlighting how the AI is designed to complement human expertise, suggesting a system where humans remain involved in the decision-making process. Furthermore, the emphasis on fairness and accuracy in automated claims decisions points towards transparency in how the AI operates and its intended outcomes.",
+          "title": "MetLife Partners with Sprout.ai for Claims Automation",
+          "url": "https://sprout.ai/resource/metlife-partners-with-sprout-ai-to-accelerate-claims-automation-across-global-markets"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This interview with MetLife's Director of IT Risk and Security provides evidence for governance, oversight, privacy, and transparency. The discussion highlights vendor scrutiny and risk management through annual assessments and continuous monitoring, supporting governance. It also touches on data classification and access control for AI tools, bolstering the privacy pillar, and mentions human oversight in AI decision-making, which supports the oversight pillar. Furthermore, the interview discusses AI capabilities and use cases, contributing to the transparency pillar.",
+          "title": "MetLife Cyber Leader on AI Risk and Data Management",
+          "url": "https://adapt.com.au/article/metlife-cyber-leader-shares-how-theyre-tackling-data-sprawl-ai-risk-and-vendor-security"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 7,
+      "findings": "A policy document mentions mandatory privacy training related to AI use, and the MetLife Privacy Statement outlines considerations for data processing within AI-driven interactions. An interview touches on data classification and access control for AI tools. Furthermore, a blog post indicates a focus on developing an AI platform (MetIQ) with integrated frameworks for responsible AI principles, including privacy, and mentions a commitment to responsible AI use.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Governance - MetLife Sustainability Report,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It details MetLife's governance structure for responsible AI, including board-level oversight and management committees, and mentions the publication of an AI Policy and mandatory privacy training, demonstrating commitments to both governance and privacy in AI use.",
+          "title": "Responsible Governance - MetLife Sustainability Report",
+          "url": "https://sustainabilityreport.metlife.com/responsible-governance"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The MetLife Privacy Statement, a company-owned policy document, provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. This policy document supports governance and transparency by mentioning the use of AI/ML tools for service enhancement and data processing, implying established practices for their usage. It also supports the privacy pillar by outlining considerations for data processing within these AI-driven interactions.",
+          "title": "MetLife Privacy Statement",
+          "url": "https://metlife.com/about-us/privacy-policy/metLife-privacy-statement"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This interview with MetLife's Director of IT Risk and Security provides evidence for governance, oversight, privacy, and transparency. The discussion highlights vendor scrutiny and risk management through annual assessments and continuous monitoring, supporting governance. It also touches on data classification and access control for AI tools, bolstering the privacy pillar, and mentions human oversight in AI decision-making, which supports the oversight pillar. Furthermore, the interview discusses AI capabilities and use cases, contributing to the transparency pillar.",
+          "title": "MetLife Cyber Leader on AI Risk and Data Management",
+          "url": "https://adapt.com.au/article/metlife-cyber-leader-shares-how-theyre-tackling-data-sprawl-ai-risk-and-vendor-security"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post discusses MetLife's approach to responsible AI implementation, providing evidence for **governance**, **fairness**, **transparency**, **privacy**, and **external accountability**. The source indicates a focus on developing an AI platform (MetIQ) with integrated frameworks for these principles, mentioning the management of AI change and regulatory environments, and a commitment to responsible AI use, though some aspects are described as aspirations or challenges.",
+          "title": "How MetLife Is Scaling AI for Customer Impact",
+          "url": "https://equisoft.com/podcasts/inside-metlifes-new-strategy-tech-operations-bill-pappas"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** pillar by mentioning AI capabilities and use cases, as well as generative AI capabilities and limitations. It also offers some support for the **privacy** pillar by implying data use for fraud protection, though this is more descriptive than policy-based.",
+          "title": "MetLife and Aura Introduce AI-Powered Identity and Fraud Protection Tools",
+          "url": "https://metlife.com/about-us/newsroom/2025/may/metlife-and-aura-introduce-new-category-of-ai-powered-tools-to-us-employer-benefits-channel-to-take-on-the-mental-health-crisis"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 20,
+      "findings": "MetLife's Privacy Statement mentions the use of AI/ML tools for service enhancement and data processing. The company describes an \"AI application\" map and discusses various AI capabilities and use cases, including in customer service, fraud detection, personalization, and claims processing. A press release emphasizes fairness and accuracy in automated claims decisions, indicating transparency in AI operation and intended outcomes, and a blog post mentions a commitment to responsible AI use and a focus on developing an AI platform (MetIQ) with integrated frameworks for responsible AI principles.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The MetLife Privacy Statement, a company-owned policy document, provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. This policy document supports governance and transparency by mentioning the use of AI/ML tools for service enhancement and data processing, implying established practices for their usage. It also supports the privacy pillar by outlining considerations for data processing within these AI-driven interactions.",
+          "title": "MetLife Privacy Statement",
+          "url": "https://metlife.com/about-us/privacy-policy/metLife-privacy-statement"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Artificial Intelligence at MetLife - Three Use Cases,\" provides evidence for explainability, governance, oversight, and transparency. It supports explainability by mentioning policy commitments to AI systems being aligned with human judgment. Governance is supported through descriptions of frameworks for ROI generation and explicit statements that governance is foundational to AI. Oversight is implied through the mention of investing in AI startups and partnering with vendors, suggesting due diligence. Finally, transparency is evidenced by the description of an \"AI application\" map and mentions of \"AI capabilities.\"",
+          "title": "Artificial Intelligence at MetLife - Three Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-metlife"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release announces MetLife's partnership with Sprout.ai for claims automation, providing evidence for the **oversight** and **transparency** pillars. The announcement implies oversight by highlighting how the AI is designed to complement human expertise, suggesting a system where humans remain involved in the decision-making process. Furthermore, the emphasis on fairness and accuracy in automated claims decisions points towards transparency in how the AI operates and its intended outcomes.",
+          "title": "MetLife Partners with Sprout.ai for Claims Automation",
+          "url": "https://sprout.ai/resource/metlife-partners-with-sprout-ai-to-accelerate-claims-automation-across-global-markets"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This interview with MetLife's Director of IT Risk and Security provides evidence for governance, oversight, privacy, and transparency. The discussion highlights vendor scrutiny and risk management through annual assessments and continuous monitoring, supporting governance. It also touches on data classification and access control for AI tools, bolstering the privacy pillar, and mentions human oversight in AI decision-making, which supports the oversight pillar. Furthermore, the interview discusses AI capabilities and use cases, contributing to the transparency pillar.",
+          "title": "MetLife Cyber Leader on AI Risk and Data Management",
+          "url": "https://adapt.com.au/article/metlife-cyber-leader-shares-how-theyre-tackling-data-sprawl-ai-risk-and-vendor-security"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Delivering Research and Insights,\" provides evidence for the **transparency** pillar of responsible AI. It supports this by describing AI use cases in customer service, fraud detection, personalization, and claims processing, indicating transparency about the company's AI applications.",
+          "title": "Delivering Research and Insights",
+          "url": "https://sustainabilityreport.metlife.com/for-our-customers/research-and-insights"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post discusses MetLife's approach to responsible AI implementation, providing evidence for **governance**, **fairness**, **transparency**, **privacy**, and **external accountability**. The source indicates a focus on developing an AI platform (MetIQ) with integrated frameworks for these principles, mentioning the management of AI change and regulatory environments, and a commitment to responsible AI use, though some aspects are described as aspirations or challenges.",
+          "title": "How MetLife Is Scaling AI for Customer Impact",
+          "url": "https://equisoft.com/podcasts/inside-metlifes-new-strategy-tech-operations-bill-pappas"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** pillar by mentioning AI capabilities and use cases, as well as generative AI capabilities and limitations. It also offers some support for the **privacy** pillar by implying data use for fraud protection, though this is more descriptive than policy-based.",
+          "title": "MetLife and Aura Introduce AI-Powered Identity and Fraud Protection Tools",
+          "url": "https://metlife.com/about-us/newsroom/2025/may/metlife-and-aura-introduce-new-category-of-ai-powered-tools-to-us-employer-benefits-channel-to-take-on-the-mental-health-crisis"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:55:16Z",
+  "run_id": "20260202_232622_cb73",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "MetLife's governance structure for responsible AI, detailed in a policy document, includes board-level oversight and management committees. This is part of the documented evidence for 6 of 7 evaluated responsible AI pillars, with published materials also outlining mandatory privacy training related to AI use and policy commitments for AI systems to align with human judgment. Further disclosures, drawn from 21 publicly available sources, describe the MetLife Privacy Statement's mention of AI/ML tools for service enhancement and data processing, and indicate a focus on developing an AI platform with integrated frameworks for fairness. No qualifying public evidence was found for external accountability.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 33,
+    "total_sources_used": 9
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Albertsons",
+  "company_slug": "albertsons",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 8,
+      "OPERATIONAL": 1,
+      "POLICY": 37
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Albertsons' blog post, \"Enabling an AI-Capable Workforce with AI Resources from Microsoft,\" references explicit commitments to explainability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enabling an AI-Capable Workforce with AI Resources from Microsoft,\" provides evidence for the pillars of **transparency**, **explainability**, **governance**, and **privacy**. The post supports transparency by discussing AI tools, AI-enabled workplaces, and AI deployment plans. It addresses explainability through explicit commitments. Governance is supported by mentions of guardrails for responsible AI use and a commitment to equipping teams. Finally, privacy is explicitly committed to within the blog post.",
+          "title": "Enabling an AI-Capable Workforce with AI Resources from Microsoft",
+          "url": "https://www.albertsonscompanies.com/newsroom/blog/blog-details/2025/Enabling-an-AI-capable-workforce-with-AI-resources-from-Microsoft-and-more/default.aspx"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 29,
+      "findings": "Albertsons' governance practices include describing data sharing with third parties for AI/ML analytics and referencing user control mechanisms. The company references guardrails for responsible AI use, a commitment to equipping teams, and the importance of data governance, evaluation, validation, ethics, and social responsibility for AI use cases. Furthermore, Albertsons documents the use of AI-driven test automation, references a commitment to building a platform for AI adoption, and references the reliance on generative AI for workforce management and scaling AI solutions.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This Albertsons Companies Privacy Policy document provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by detailing data sharing practices with third parties and service providers, including those involved in AI/ML analytics and lookalike models. The policy addresses privacy through its discussion of data use for personalized advertising, fraud detection, and AI-powered chatbots, as well as mentioning anonymization and user controls. Transparency is evidenced by the disclosure of profiling and inference systems, and the offering of opt-outs for targeted advertising.",
+          "title": "Albertsons Companies Privacy Policy",
+          "url": "https://albertsonscompanies.com/policies-and-disclosures/privacy-policy/default.aspx"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document for the Albertsons Media Collective provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by detailing data collection methods like cookies for personalization and site analysis, which imply automated profiling. Furthermore, the policy's mention of user control mechanisms indicates adherence to governance principles by offering users agency over their data.",
+          "title": "Albertsons Media Collective Privacy Policy",
+          "url": "https://albertsonsmediacollective.com/privacy-policy/default.aspx?ItemId=3ee209eb-8a1b-4e72-8961-e1e3209e7f0e"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enabling an AI-Capable Workforce with AI Resources from Microsoft,\" provides evidence for the pillars of **transparency**, **explainability**, **governance**, and **privacy**. The post supports transparency by discussing AI tools, AI-enabled workplaces, and AI deployment plans. It addresses explainability through explicit commitments. Governance is supported by mentions of guardrails for responsible AI use and a commitment to equipping teams. Finally, privacy is explicitly committed to within the blog post.",
+          "title": "Enabling an AI-Capable Workforce with AI Resources from Microsoft",
+          "url": "https://www.albertsonscompanies.com/newsroom/blog/blog-details/2025/Enabling-an-AI-capable-workforce-with-AI-resources-from-Microsoft-and-more/default.aspx"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Albertsons Eggplant Test Automation Case Study,\" provides evidence for the **governance** pillar of responsible AI. The case study documents the use of AI-driven test automation and a vendor partnership, which implies a governance process for selecting and implementing AI solutions.",
+          "title": "Albertsons Eggplant Test Automation Case Study",
+          "url": "https://info.eggplantsoftware.com/hubfs/Case%20Study%20PDFs/Albertsons%20Case%20Study.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This press release discusses Albertsons' approach to Responsible AI governance, highlighting the need for cross-disciplinary leadership and executive commitment. The source provides evidence for the **governance** pillar by mentioning the importance of \"data governance,\" \"evaluation,\" \"validation,\" and \"guardrails, ethics, and social responsibility\" for AI use cases, indicating a conceptual framework for managing powerful technology.",
+          "title": "Maria Latushkin on Responsible AI Governance at Albertsons",
+          "url": "https://mayfield.com/maria-latushkin-group-vice-president-of-technology-and-engineering-albertsons"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** pillar of responsible AI. The document highlights Albertsons' development of a comprehensive data platform for AI adoption and operations, indicating a strategic approach to leveraging AI technologies. This commitment to building and utilizing such a platform suggests a foundational element of AI governance and strategy is in place.",
+          "title": "Albertsons Builds Data Acumen for AI Adoption and Operations",
+          "url": "https://ciodive.com/news/Albertsons-data-platform-AI-adoption-productivity-initiative/745580"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This press release on Albertsons Media Collective's in-store optimization provides evidence for **governance** and **transparency**. It supports governance by mentioning testing agentic AI for automation, addressing risks of poor training data, and using AI to link advertising to sales outcomes, indicating oversight and policies for AI deployment. The source also touches on transparency by noting AI's role in unlocking signals, though specific AI systems and governance details are not elaborated.",
+          "title": "Albertsons Media Collective Real-Time In-Store Optimization",
+          "url": "https://beet.tv/2026/01/albertsons-media-collective-targets-real-time-optimization-for-in-store-screens.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by highlighting the reliance on generative AI for workforce management and the scaling of AI solutions, implying a need for oversight. Transparency is evidenced by the description of an AI assistant tool and its positive outcomes, indicating openness about its use and capabilities.",
+          "title": "Albertsons AI Transformation Across Four Business Areas",
+          "url": "https://ciodive.com/news/albertsons-ai-transform-operations/809156"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 22,
+      "findings": "Albertsons' privacy policies describe data use for personalized advertising, fraud detection, and AI-powered chatbots, and reference anonymization and user controls. These policies describe data collection methods for personalization and site analysis, and outline user control over data sharing, including specifying data use restrictions regarding health status inference. Additionally, a blog post states an explicit commitment to privacy.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This Albertsons Companies Privacy Policy document provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by detailing data sharing practices with third parties and service providers, including those involved in AI/ML analytics and lookalike models. The policy addresses privacy through its discussion of data use for personalized advertising, fraud detection, and AI-powered chatbots, as well as mentioning anonymization and user controls. Transparency is evidenced by the disclosure of profiling and inference systems, and the offering of opt-outs for targeted advertising.",
+          "title": "Albertsons Companies Privacy Policy",
+          "url": "https://albertsonscompanies.com/policies-and-disclosures/privacy-policy/default.aspx"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document for the Albertsons Media Collective provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by detailing data collection methods like cookies for personalization and site analysis, which imply automated profiling. Furthermore, the policy's mention of user control mechanisms indicates adherence to governance principles by offering users agency over their data.",
+          "title": "Albertsons Media Collective Privacy Policy",
+          "url": "https://albertsonsmediacollective.com/privacy-policy/default.aspx?ItemId=3ee209eb-8a1b-4e72-8961-e1e3209e7f0e"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Albertsons Companies Consumer Health Data Privacy Policy provides evidence for the **transparency** and **privacy** pillars. It supports transparency by detailing data collection for personalization and explaining recommendation logic. The policy supports privacy by outlining user control over data sharing and specifying data use restrictions regarding health status inference.",
+          "title": "Consumer Health Data Privacy Policy - Albertsons Companies",
+          "url": "https://albertsonscompanies.com/policies-and-disclosures/Consumer-Health-Data-Privacy-Policy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enabling an AI-Capable Workforce with AI Resources from Microsoft,\" provides evidence for the pillars of **transparency**, **explainability**, **governance**, and **privacy**. The post supports transparency by discussing AI tools, AI-enabled workplaces, and AI deployment plans. It addresses explainability through explicit commitments. Governance is supported by mentions of guardrails for responsible AI use and a commitment to equipping teams. Finally, privacy is explicitly committed to within the blog post.",
+          "title": "Enabling an AI-Capable Workforce with AI Resources from Microsoft",
+          "url": "https://www.albertsonscompanies.com/newsroom/blog/blog-details/2025/Enabling-an-AI-capable-workforce-with-AI-resources-from-Microsoft-and-more/default.aspx"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 14,
+      "findings": "Albertsons' policies and public communications describe various transparency practices, including the disclosure of profiling and inference systems, and outlining opt-outs for targeted advertising. These documents describe data collection for personalization, recommendation logic, AI tools, AI-enabled workplaces, and AI deployment plans. Furthermore, the company references AI's role in unlocking signals and describes an AI assistant tool and its positive outcomes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This Albertsons Companies Privacy Policy document provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by detailing data sharing practices with third parties and service providers, including those involved in AI/ML analytics and lookalike models. The policy addresses privacy through its discussion of data use for personalized advertising, fraud detection, and AI-powered chatbots, as well as mentioning anonymization and user controls. Transparency is evidenced by the disclosure of profiling and inference systems, and the offering of opt-outs for targeted advertising.",
+          "title": "Albertsons Companies Privacy Policy",
+          "url": "https://albertsonscompanies.com/policies-and-disclosures/privacy-policy/default.aspx"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Albertsons Companies Consumer Health Data Privacy Policy provides evidence for the **transparency** and **privacy** pillars. It supports transparency by detailing data collection for personalization and explaining recommendation logic. The policy supports privacy by outlining user control over data sharing and specifying data use restrictions regarding health status inference.",
+          "title": "Consumer Health Data Privacy Policy - Albertsons Companies",
+          "url": "https://albertsonscompanies.com/policies-and-disclosures/Consumer-Health-Data-Privacy-Policy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enabling an AI-Capable Workforce with AI Resources from Microsoft,\" provides evidence for the pillars of **transparency**, **explainability**, **governance**, and **privacy**. The post supports transparency by discussing AI tools, AI-enabled workplaces, and AI deployment plans. It addresses explainability through explicit commitments. Governance is supported by mentions of guardrails for responsible AI use and a commitment to equipping teams. Finally, privacy is explicitly committed to within the blog post.",
+          "title": "Enabling an AI-Capable Workforce with AI Resources from Microsoft",
+          "url": "https://www.albertsonscompanies.com/newsroom/blog/blog-details/2025/Enabling-an-AI-capable-workforce-with-AI-resources-from-Microsoft-and-more/default.aspx"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This press release on Albertsons Media Collective's in-store optimization provides evidence for **governance** and **transparency**. It supports governance by mentioning testing agentic AI for automation, addressing risks of poor training data, and using AI to link advertising to sales outcomes, indicating oversight and policies for AI deployment. The source also touches on transparency by noting AI's role in unlocking signals, though specific AI systems and governance details are not elaborated.",
+          "title": "Albertsons Media Collective Real-Time In-Store Optimization",
+          "url": "https://beet.tv/2026/01/albertsons-media-collective-targets-real-time-optimization-for-in-store-screens.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by highlighting the reliance on generative AI for workforce management and the scaling of AI solutions, implying a need for oversight. Transparency is evidenced by the description of an AI assistant tool and its positive outcomes, indicating openness about its use and capabilities.",
+          "title": "Albertsons AI Transformation Across Four Business Areas",
+          "url": "https://ciodive.com/news/albertsons-ai-transform-operations/809156"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:42:04Z",
+  "run_id": "20260126_233001_0ac3",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Based on 28 publicly available sources, Albertsons' published materials address 4 of 7 evaluated responsible AI pillars, with evidence found at the policy level for transparency, explainability, privacy, and governance. For transparency, the Albertsons Companies Privacy Policy describes the disclosure of profiling and inference systems and outlines opt-outs for targeted advertising. Additionally, privacy disclosures describe data use for personalized advertising, fraud detection, and AI-powered chatbots, while governance materials detail data sharing practices with third parties involved in AI/ML analytics. No qualifying public evidence was found for fairness, oversight, and 1 additional pillar.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 46,
+    "total_sources_used": 9
+  }
+}

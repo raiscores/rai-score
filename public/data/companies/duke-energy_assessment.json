@@ -1,0 +1,255 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Duke Energy",
+  "company_slug": "duke-energy",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 14,
+      "OPERATIONAL": 3,
+      "POLICY": 19
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Documentation describes the development of a \"Scientific Machine Learning\" approach that combines machine learning with scientific knowledge, suggesting a move towards more interpretable AI models. Sources also reference the success of a hybrid model in explaining equipment failures and mention interpretable ML systems (SciML).",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **explainability** and **transparency** pillars of responsible AI. It describes Duke Energy's development of a \"Scientific Machine Learning\" approach, which combines machine learning with scientific knowledge, suggesting a move towards more interpretable AI models. Furthermore, the paper highlights Duke Energy's extensive research and evaluation process for AI/ML tools, including their focus on classifying data and appropriately flagging uncertain cases, which implies a need for clear rules and audit trails for operational AI.",
+          "title": "Hybrid engineered analytics and AI for transformer diagnostics",
+          "url": "https://doble.com/wp-content/uploads/Successful-application-of-AI-techniques.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Duke Energy's Hybrid Approach to AI,\" provides evidence for explainability, governance, oversight, and transparency. The hybrid model's success in explaining equipment failures, the mention of interpretable ML systems (SciML), and the acknowledgment of AI limitations all contribute to explainability and transparency. Furthermore, the blog post implies governance through the development of hybrid models and annual evaluations, and suggests oversight by highlighting the focus of human experts on exceptions.",
+          "title": "Duke Energy's Hybrid Approach to AI",
+          "url": "https://tdworld.com/digital-innovations/article/21262976/duke-energys-hybrid-approach-to-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 13,
+      "findings": "Documentation references commissioning and installation phases for algorithmic systems and details strategic collaborations for building AI-driven grid planning software. Sources also reference governance over AI-driven actions, such as the IdentiFlight system, and highlight a commitment to applying AI for specific purposes like methane leak detection, suggesting a planned approach and adherence to frameworks or standards. Furthermore, governance is implied through the development of hybrid models and annual evaluations.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This U.S. Fish and Wildlife Service Environmental Assessment provides evidence for the **governance** and **transparency** pillars of responsible AI. The report details the operational use of an algorithmic system, IdentiFlight, by describing its specific modules and iterative updating processes, which supports transparency. Furthermore, the mention of commissioning and installation phases implies oversight and decision-making processes, thus supporting the governance pillar.",
+          "title": "USFWS Environmental Assessment for Top of the World Wind and eagle take permit",
+          "url": "https://fws.gov/sites/default/files/documents/TOTW_EA-Final.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** pillar of responsible AI. The document details Duke Energy's strategic collaboration with AWS to build and expand AI-driven grid planning software. This implies the need for governance over the development, deployment, and data-driven decision-making processes of these AI systems, which are used for forecasting needs, estimating load, and planning grid investments.",
+          "title": "Smart grid and Intelligent Grid Services collaboration with AWS",
+          "url": "https://news.duke-energy.com/releases/duke-energy-collaborates-with-aws-to-develop-smart-grid-solutions-to-better-serve-customers-and-drive-its-clean-energy-transition"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance** and **transparency** by detailing how Duke Energy Renewables uses the IdentiFlight system. The document explains the AI's automated detection and classification of eagles, and its ability to signal turbines for curtailment when a collision risk is identified, demonstrating transparency in the system's functions and governance over AI-driven actions.",
+          "title": "Duke Energy Renewables deploys IdentiFlight eagle-protection system",
+          "url": "https://news.duke-energy.com/releases/duke-energy-renewables-protects-eagles-with-identiflight-system"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** pillar of responsible AI. It highlights the commitment to applying AI and analytics to detect methane leaks, indicating a planned approach to using AI for a specific purpose. The mention of AI and its application suggests a framework or standard will be followed in its implementation.",
+          "title": "Methane-emissions monitoring platform with Accenture and Microsoft",
+          "url": "https://news.duke-energy.com/releases/duke-energy-teams-with-accenture-and-microsoft-to-develop-first-of-its-kind-methane-emissions-monitoring-platform"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Duke Energy's Hybrid Approach to AI,\" provides evidence for explainability, governance, oversight, and transparency. The hybrid model's success in explaining equipment failures, the mention of interpretable ML systems (SciML), and the acknowledgment of AI limitations all contribute to explainability and transparency. Furthermore, the blog post implies governance through the development of hybrid models and annual evaluations, and suggests oversight by highlighting the focus of human experts on exceptions.",
+          "title": "Duke Energy's Hybrid Approach to AI",
+          "url": "https://tdworld.com/digital-innovations/article/21262976/duke-energys-hybrid-approach-to-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "Documentation mentions an AI chatbot's ability to escalate complex issues to human agents, indicating a mechanism for human intervention. Sources also highlight the focus of human experts on exceptions within AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **transparency** and **oversight** pillars of responsible AI. It supports transparency by detailing the AI chatbot's capabilities in handling customer inquiries and providing information. The post also supports oversight by mentioning the chatbot's ability to escalate complex issues to human agents, indicating a mechanism for human intervention.",
+          "title": "Mobile app AI chatbot for customer self-service",
+          "url": "https://questline.com/blog/utility-self-service-options-improve-the-customer-experience"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Duke Energy's Hybrid Approach to AI,\" provides evidence for explainability, governance, oversight, and transparency. The hybrid model's success in explaining equipment failures, the mention of interpretable ML systems (SciML), and the acknowledgment of AI limitations all contribute to explainability and transparency. Furthermore, the blog post implies governance through the development of hybrid models and annual evaluations, and suggests oversight by highlighting the focus of human experts on exceptions.",
+          "title": "Duke Energy's Hybrid Approach to AI",
+          "url": "https://tdworld.com/digital-innovations/article/21262976/duke-energys-hybrid-approach-to-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 29,
+      "findings": "Documentation describes the specific AI models and tools used, including details on training methods, data sources, and operational use of systems like IdentiFlight. It also discusses the application of data science and machine learning for forecasting grid scenarios, customer behavior, and weather impacts. Furthermore, sources explain the capabilities of AI systems like the IdentiFlight eagle protection system and customer service chatbots, while also referencing interpretable ML systems and acknowledging AI limitations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **transparency** pillar of responsible AI. It details the specific AI models and tools used, such as Amazon Rekognition Custom Labels and self-distillation Vision Transformer (ViT) models, and explains how these models are trained, including data sources and methods. This information enhances transparency by clarifying the AI techniques and capabilities employed in the anomaly detection system.",
+          "title": "Computer vision anomaly detection for wooden utility poles",
+          "url": "https://aws.amazon.com/blogs/machine-learning/improving-asset-health-and-grid-resilience-using-machine-learning"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **explainability** and **transparency** pillars of responsible AI. It describes Duke Energy's development of a \"Scientific Machine Learning\" approach, which combines machine learning with scientific knowledge, suggesting a move towards more interpretable AI models. Furthermore, the paper highlights Duke Energy's extensive research and evaluation process for AI/ML tools, including their focus on classifying data and appropriately flagging uncertain cases, which implies a need for clear rules and audit trails for operational AI.",
+          "title": "Hybrid engineered analytics and AI for transformer diagnostics",
+          "url": "https://doble.com/wp-content/uploads/Successful-application-of-AI-techniques.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This U.S. Fish and Wildlife Service Environmental Assessment provides evidence for the **governance** and **transparency** pillars of responsible AI. The report details the operational use of an algorithmic system, IdentiFlight, by describing its specific modules and iterative updating processes, which supports transparency. Furthermore, the mention of commissioning and installation phases implies oversight and decision-making processes, thus supporting the governance pillar.",
+          "title": "USFWS Environmental Assessment for Top of the World Wind and eagle take permit",
+          "url": "https://fws.gov/sites/default/files/documents/TOTW_EA-Final.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for the **transparency** pillar of responsible AI. It demonstrates transparency by discussing the use of advanced data science and forecasting models, implying the application of AI/ML, to study future grid scenarios and customer behavior. The post also highlights the development of tools for forecasting and analysis, and describes a use case for these models in projecting demand, all of which contribute to an open understanding of the team's analytical approach.",
+          "title": "Data science team modeling future grid and customer behavior",
+          "url": "https://illumination.duke-energy.com/articles/ben-zhang-and-team-use-data-science-for-a-cleaner-resilient-electric-grid"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for the **transparency** pillar of responsible AI. It supports this by mentioning the use of machine learning and its application in forecasting weather impacts on the grid, indicating a degree of openness about the AI tools employed.",
+          "title": "Storm command center using data science and machine learning",
+          "url": "https://illumination.duke-energy.com/articles/inside-the-storm-command-center-how-meteorologists-power-the-grid"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance** and **transparency** by detailing how Duke Energy Renewables uses the IdentiFlight system. The document explains the AI's automated detection and classification of eagles, and its ability to signal turbines for curtailment when a collision risk is identified, demonstrating transparency in the system's functions and governance over AI-driven actions.",
+          "title": "Duke Energy Renewables deploys IdentiFlight eagle-protection system",
+          "url": "https://news.duke-energy.com/releases/duke-energy-renewables-protects-eagles-with-identiflight-system"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **transparency** and **oversight** pillars of responsible AI. It supports transparency by detailing the AI chatbot's capabilities in handling customer inquiries and providing information. The post also supports oversight by mentioning the chatbot's ability to escalate complex issues to human agents, indicating a mechanism for human intervention.",
+          "title": "Mobile app AI chatbot for customer self-service",
+          "url": "https://questline.com/blog/utility-self-service-options-improve-the-customer-experience"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Duke Energy's Hybrid Approach to AI,\" provides evidence for explainability, governance, oversight, and transparency. The hybrid model's success in explaining equipment failures, the mention of interpretable ML systems (SciML), and the acknowledgment of AI limitations all contribute to explainability and transparency. Furthermore, the blog post implies governance through the development of hybrid models and annual evaluations, and suggests oversight by highlighting the focus of human experts on exceptions.",
+          "title": "Duke Energy's Hybrid Approach to AI",
+          "url": "https://tdworld.com/digital-innovations/article/21262976/duke-energys-hybrid-approach-to-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:49:09Z",
+  "run_id": "20260202_221629_6195",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Duke Energy's published materials address transparency and oversight, among other responsible AI pillars. For transparency, technical papers detail specific AI models and tools used, such as Amazon Rekognition Custom Labels, while blog posts mention an AI chatbot's ability to escalate complex issues to human agents for oversight. These disclosures, along with evidence for explainability and governance, mean that 4 of 7 evaluated responsible AI pillars have documented evidence. All four of these pillars are addressed at the policy level, drawing from 14 publicly available sources. No qualifying public evidence was found for fairness, privacy, and 1 additional pillar.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 36,
+    "total_sources_used": 10
+  }
+}

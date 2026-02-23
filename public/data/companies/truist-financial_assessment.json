@@ -1,0 +1,304 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "Truist Financial",
+  "company_slug": "truist-financial",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 11,
+      "OPERATIONAL": 6,
+      "POLICY": 28
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Sources describe documented explainability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post by Truist's Chandra Kapireddy provides evidence for **governance, oversight, privacy, explainability, transparency, and fairness**. The source details Truist's AI governance model, which codifies responsible AI dimensions across the AI lifecycle, including mandatory steps for GenAI applications, clear AI disclosure, and user training. It also references established frameworks like the NIST AI Risk Management Framework and SR 11-7, demonstrating a commitment to managing AI risks and ensuring model reliability and conceptual fit.",
+          "title": "Overcoming AI Hallucinations: Truist's Chandra Kapireddy",
+          "url": "https://sloanreview.mit.edu/audio/overcoming-ai-hallucinations-truists-chandra-kapireddy"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Truist's Chief Privacy Officer mentions the need for regulatory compliance as part of AI governance strategies.",
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This blog post discusses Truist's Chief Privacy Officer's approach to AI governance, highlighting the importance of privacy-first foundations for AI readiness. The source provides evidence for **governance** by mentioning AI governance strategies and the need for regulatory compliance, and for **privacy** by discussing privacy inventories and maturity as a foundation for AI. While the blog post implies a focus on these areas, it lacks specific details on execution or operational mechanisms.",
+          "title": "RadarFirst: From Privacy to AI Governance - Truist's Chief Privacy Officer",
+          "url": "https://radarfirst.com/resources/the-ai-governance-playbook-on-demand"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "Truist describes AI's potential to extend credit to individuals by utilizing alternative data sources, which could include previously excluded groups. The company also describes bias mitigation with real-time checks and model monitoring in its operational deployment of AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post by Truist's Chandra Kapireddy provides evidence for **governance, oversight, privacy, explainability, transparency, and fairness**. The source details Truist's AI governance model, which codifies responsible AI dimensions across the AI lifecycle, including mandatory steps for GenAI applications, clear AI disclosure, and user training. It also references established frameworks like the NIST AI Risk Management Framework and SR 11-7, demonstrating a commitment to managing AI risks and ensuring model reliability and conceptual fit.",
+          "title": "Overcoming AI Hallucinations: Truist's Chandra Kapireddy",
+          "url": "https://sloanreview.mit.edu/audio/overcoming-ai-hallucinations-truists-chandra-kapireddy"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This help page from Truist Bank provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports fairness by discussing AI's potential to extend credit to individuals by utilizing alternative data sources like utility and rent payments, which could include previously excluded groups. The page also supports governance by highlighting AI's application in transactional processes and its role in optimizing employee time for more strategic tasks, indicating a deliberate approach to AI integration.",
+          "title": "3 Ways Artificial Intelligence Is Changing Homebuying - Truist Bank",
+          "url": "https://truist.com/resources/mortgage/articles/3-ways-artificial-intelligence-changing-homebuying"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for **fairness, governance, and oversight** by detailing Truist's operational deployment of AI and LLMs for threat detection. It highlights practices like bias mitigation with real-time checks and model monitoring, a \"champion-challenger\" model for performance assessment, and vendor partnerships for AI development, all of which contribute to responsible AI practices.",
+          "title": "How Truist and Western Alliance deploy AI to fight fraud",
+          "url": "https://americanbanker.com/news/how-truist-and-western-alliance-deploy-ai-to-fight-fraud"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 31,
+      "findings": "Truist's AI governance model describes codifying responsible AI dimensions across the AI lifecycle, including mandatory steps for GenAI applications, and references frameworks like the NIST AI Risk Management Framework and SR 11-7. The company's AI program is built upon this framework, describing technology risk governance, AI governance strategies, and the need for regulatory compliance. Truist describes a structured approach to AI deployment, including an \"AI director,\" consolidation of AI efforts, a cautious approach to low-risk use cases, and highlights vendor partnerships and an implied procurement process.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post by Truist's Chandra Kapireddy provides evidence for **governance, oversight, privacy, explainability, transparency, and fairness**. The source details Truist's AI governance model, which codifies responsible AI dimensions across the AI lifecycle, including mandatory steps for GenAI applications, clear AI disclosure, and user training. It also references established frameworks like the NIST AI Risk Management Framework and SR 11-7, demonstrating a commitment to managing AI risks and ensuring model reliability and conceptual fit.",
+          "title": "Overcoming AI Hallucinations: Truist's Chandra Kapireddy",
+          "url": "https://sloanreview.mit.edu/audio/overcoming-ai-hallucinations-truists-chandra-kapireddy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This SEC filing from Truist Financial Corporation provides evidence for the **governance** pillar of responsible AI. The document indicates that Truist's AI program is built upon the NIST AI Risk Management Framework, demonstrating a formal policy for managing AI risks. Furthermore, it describes oversight mechanisms like the Scenario Committee and discusses technology risk governance, highlighting a structured approach to AI adoption, investment, and the management of associated risks.",
+          "title": "Truist Financial Corporation Form 10-K (2024)",
+          "url": "https://filecache.investorroom.com/mr5ir_truist/997/download/TFC%20Form%2010-K%20-%202024%20-%20Final.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This blog post discusses Truist's Chief Privacy Officer's approach to AI governance, highlighting the importance of privacy-first foundations for AI readiness. The source provides evidence for **governance** by mentioning AI governance strategies and the need for regulatory compliance, and for **privacy** by discussing privacy inventories and maturity as a foundation for AI. While the blog post implies a focus on these areas, it lacks specific details on execution or operational mechanisms.",
+          "title": "RadarFirst: From Privacy to AI Governance - Truist's Chief Privacy Officer",
+          "url": "https://radarfirst.com/resources/the-ai-governance-playbook-on-demand"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights Truist's acquisition of the Zaloni Arena platform, which is described as enabling automated governance, intelligent governance, and a data catalog. These features directly support AI governance policies and contribute to transparency by facilitating better management and understanding of data used in AI/ML use cases.",
+          "title": "Truist Acquires Zaloni Arena Data Governance Platform",
+          "url": "https://ir.truist.com/2022-08-22-Truist-extends-data-management-capabilities-with-acquisition-of-Arena-platform"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This help page from Truist Bank provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports fairness by discussing AI's potential to extend credit to individuals by utilizing alternative data sources like utility and rent payments, which could include previously excluded groups. The page also supports governance by highlighting AI's application in transactional processes and its role in optimizing employee time for more strategic tasks, indicating a deliberate approach to AI integration.",
+          "title": "3 Ways Artificial Intelligence Is Changing Homebuying - Truist Bank",
+          "url": "https://truist.com/resources/mortgage/articles/3-ways-artificial-intelligence-changing-homebuying"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This news article provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights Truist's structured approach to AI deployment, including the establishment of an \"AI director\" and the consolidation of AI efforts, demonstrating clear governance. The article also supports transparency by detailing current AI use cases and their distribution, offering insight into the bank's AI system capabilities and deployments. Furthermore, it mentions a cautious approach to AI adoption, starting with low-risk use cases, which implies a strategic governance framework for managing AI risks.",
+          "title": "How 3 Banks Capitalize on AI: Truist Case Study",
+          "url": "https://ciodive.com/news/banking-ai-tech-lloyds-natwest-truist-evident-insights/750366"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for **fairness, governance, and oversight** by detailing Truist's operational deployment of AI and LLMs for threat detection. It highlights practices like bias mitigation with real-time checks and model monitoring, a \"champion-challenger\" model for performance assessment, and vendor partnerships for AI development, all of which contribute to responsible AI practices.",
+          "title": "How Truist and Western Alliance deploy AI to fight fraud",
+          "url": "https://americanbanker.com/news/how-truist-and-western-alliance-deploy-ai-to-fight-fraud"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This news article provides evidence for **governance, oversight, and transparency** in AI use. It describes mechanisms for tracking AI agents and mentions requirements for AI data quality, indicating governance and oversight controls. Furthermore, the article implies a procurement process and transparency regarding AI deployment through the mention of embedding vendor AI.",
+          "title": "How BMO and Truist use AI to improve customer experience",
+          "url": "https://americanbanker.com/news/how-bmo-and-truist-use-ai-to-improve-customer-experience"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "Truist describes model monitoring and a \"champion-challenger\" model for performance assessment in its AI deployment. The company also describes mechanisms for tracking AI agents and mentions requirements for AI data quality.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post by Truist's Chandra Kapireddy provides evidence for **governance, oversight, privacy, explainability, transparency, and fairness**. The source details Truist's AI governance model, which codifies responsible AI dimensions across the AI lifecycle, including mandatory steps for GenAI applications, clear AI disclosure, and user training. It also references established frameworks like the NIST AI Risk Management Framework and SR 11-7, demonstrating a commitment to managing AI risks and ensuring model reliability and conceptual fit.",
+          "title": "Overcoming AI Hallucinations: Truist's Chandra Kapireddy",
+          "url": "https://sloanreview.mit.edu/audio/overcoming-ai-hallucinations-truists-chandra-kapireddy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for **fairness, governance, and oversight** by detailing Truist's operational deployment of AI and LLMs for threat detection. It highlights practices like bias mitigation with real-time checks and model monitoring, a \"champion-challenger\" model for performance assessment, and vendor partnerships for AI development, all of which contribute to responsible AI practices.",
+          "title": "How Truist and Western Alliance deploy AI to fight fraud",
+          "url": "https://americanbanker.com/news/how-truist-and-western-alliance-deploy-ai-to-fight-fraud"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This news article provides evidence for **governance, oversight, and transparency** in AI use. It describes mechanisms for tracking AI agents and mentions requirements for AI data quality, indicating governance and oversight controls. Furthermore, the article implies a procurement process and transparency regarding AI deployment through the mention of embedding vendor AI.",
+          "title": "How BMO and Truist use AI to improve customer experience",
+          "url": "https://americanbanker.com/news/how-bmo-and-truist-use-ai-to-improve-customer-experience"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "Truist's Chief Privacy Officer discusses privacy inventories and privacy maturity as a foundation for AI readiness.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post by Truist's Chandra Kapireddy provides evidence for **governance, oversight, privacy, explainability, transparency, and fairness**. The source details Truist's AI governance model, which codifies responsible AI dimensions across the AI lifecycle, including mandatory steps for GenAI applications, clear AI disclosure, and user training. It also references established frameworks like the NIST AI Risk Management Framework and SR 11-7, demonstrating a commitment to managing AI risks and ensuring model reliability and conceptual fit.",
+          "title": "Overcoming AI Hallucinations: Truist's Chandra Kapireddy",
+          "url": "https://sloanreview.mit.edu/audio/overcoming-ai-hallucinations-truists-chandra-kapireddy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This blog post discusses Truist's Chief Privacy Officer's approach to AI governance, highlighting the importance of privacy-first foundations for AI readiness. The source provides evidence for **governance** by mentioning AI governance strategies and the need for regulatory compliance, and for **privacy** by discussing privacy inventories and maturity as a foundation for AI. While the blog post implies a focus on these areas, it lacks specific details on execution or operational mechanisms.",
+          "title": "RadarFirst: From Privacy to AI Governance - Truist's Chief Privacy Officer",
+          "url": "https://radarfirst.com/resources/the-ai-governance-playbook-on-demand"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 17,
+      "findings": "Truist's AI governance model describes clear AI disclosure and user training. The acquisition of the Zaloni Arena platform describes facilitating better management and understanding of data used in AI/ML use cases. Published articles detail current AI use cases and their distribution, offering insight into the bank's AI system capabilities and deployments, and reference transparency regarding AI deployment through embedded vendor AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post by Truist's Chandra Kapireddy provides evidence for **governance, oversight, privacy, explainability, transparency, and fairness**. The source details Truist's AI governance model, which codifies responsible AI dimensions across the AI lifecycle, including mandatory steps for GenAI applications, clear AI disclosure, and user training. It also references established frameworks like the NIST AI Risk Management Framework and SR 11-7, demonstrating a commitment to managing AI risks and ensuring model reliability and conceptual fit.",
+          "title": "Overcoming AI Hallucinations: Truist's Chandra Kapireddy",
+          "url": "https://sloanreview.mit.edu/audio/overcoming-ai-hallucinations-truists-chandra-kapireddy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights Truist's acquisition of the Zaloni Arena platform, which is described as enabling automated governance, intelligent governance, and a data catalog. These features directly support AI governance policies and contribute to transparency by facilitating better management and understanding of data used in AI/ML use cases.",
+          "title": "Truist Acquires Zaloni Arena Data Governance Platform",
+          "url": "https://ir.truist.com/2022-08-22-Truist-extends-data-management-capabilities-with-acquisition-of-Arena-platform"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This news article provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights Truist's structured approach to AI deployment, including the establishment of an \"AI director\" and the consolidation of AI efforts, demonstrating clear governance. The article also supports transparency by detailing current AI use cases and their distribution, offering insight into the bank's AI system capabilities and deployments. Furthermore, it mentions a cautious approach to AI adoption, starting with low-risk use cases, which implies a strategic governance framework for managing AI risks.",
+          "title": "How 3 Banks Capitalize on AI: Truist Case Study",
+          "url": "https://ciodive.com/news/banking-ai-tech-lloyds-natwest-truist-evident-insights/750366"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for **fairness, governance, and oversight** by detailing Truist's operational deployment of AI and LLMs for threat detection. It highlights practices like bias mitigation with real-time checks and model monitoring, a \"champion-challenger\" model for performance assessment, and vendor partnerships for AI development, all of which contribute to responsible AI practices.",
+          "title": "How Truist and Western Alliance deploy AI to fight fraud",
+          "url": "https://americanbanker.com/news/how-truist-and-western-alliance-deploy-ai-to-fight-fraud"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This news article provides evidence for **governance, oversight, and transparency** in AI use. It describes mechanisms for tracking AI agents and mentions requirements for AI data quality, indicating governance and oversight controls. Furthermore, the article implies a procurement process and transparency regarding AI deployment through the mention of embedding vendor AI.",
+          "title": "How BMO and Truist use AI to improve customer experience",
+          "url": "https://americanbanker.com/news/how-bmo-and-truist-use-ai-to-improve-customer-experience"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:59:39Z",
+  "run_id": "20260203_024908_a3c2",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Truist Financial's AI governance model describes clear AI disclosure and codifies responsible AI dimensions across the AI lifecycle, addressing both transparency and governance. These are among the 6 of 7 evaluated responsible AI pillars for which documented evidence exists, with materials also outlining bias mitigation with real-time checks for AI models under fairness. Additionally, model monitoring for AI is described under oversight, and privacy inventories are discussed as a foundation for AI. This assessment draws on 10 publicly available sources. No qualifying public evidence was found for external accountability.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 45,
+    "total_sources_used": 8
+  }
+}

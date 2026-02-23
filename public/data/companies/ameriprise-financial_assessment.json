@@ -1,0 +1,233 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "Ameriprise Financial",
+  "company_slug": "ameriprise-financial",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 5,
+      "POLICY": 18
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "A CEO statement references external scrutiny and regulatory investigation into AI use.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This CEO statement provides evidence for **external accountability**, **governance**, and **transparency** in responsible AI. The announcement of a beta test and planned release of an AI product, along with its use as a co-pilot for advisors and for identifying client opportunities, demonstrates transparency and operationalization. Furthermore, the mention of partnerships for AI development and external scrutiny/regulatory investigation into AI use points to governance and external accountability mechanisms.",
+          "title": "LPL, Ameriprise Wade Into AI Applications for Advisors",
+          "url": "https://investmentnews.com/fintech/lpl-ameriprise-wade-into-ai-applications-for-advisors/240737"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 19,
+      "findings": "A press release describes a commitment to responsible AI implementation through efforts to improve AI technologies, and a corporate blog post references AI-fueled tools with policy considerations for their application. Disclosures outline requirements for advance notification of algorithm changes and bank list updates. An enforcement action document describes automated controls as policy enhancements and describes a need for improved governance of automated decision-making processes. An SEC comment letter describes concerns about existing policies for managing AI-related conflicts of interest, references proposed regulatory requirements, and outlines a compliance program for inventorying, reviewing, testing, and monitoring AI technologies. Additionally, a CEO statement references partnerships for AI development and external scrutiny and regulatory investigation into AI use.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by mentioning the use of \"AI tools\" and \"intelligent automation,\" indicating awareness and disclosure of AI systems. The press release also suggests a commitment to responsible implementation by noting efforts to \"improve\" these technologies, aligning with governance principles.",
+          "title": "2024 Annual Report",
+          "url": "https://ameriprise.com/microsite/2024-annual-report"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Ameriprise corporate blog post provides evidence for **governance, privacy, and transparency**. It supports governance by mentioning AI-fueled tools and a commitment to understanding customer needs for personalized advice, suggesting policy considerations for AI application. The blog post addresses privacy by advising users to consider data-sharing implications when using AI tools. Finally, it supports transparency by describing AI capabilities and potential uses, framing the narrative around AI's evolving role in finance.",
+          "title": "Artificial Intelligence and Your Financial Life - Ameriprise Corporate Blog",
+          "url": "https://ameriprise.com/financial-goals-priorities/personal-finance/ai-and-your-financial-life"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Form 402469 – Other Important Brokerage Disclosures,\" provides evidence for **governance** and **transparency**. It supports transparency by explicitly mentioning the use of an algorithm to determine bank deposit placement and client agreement to these algorithmic decisions. The document also supports governance by outlining the requirement for advance notification of algorithm changes and bank list updates, indicating oversight and control over the system.",
+          "title": "Form 402469 – Other Important Brokerage Disclosures",
+          "url": "https://ameriprise.com/binaries/content/assets/ampcom/wcm/AMP_402469.PDF"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This enforcement action document provides evidence for **governance**, **oversight**, and **privacy**. It details failures in automated fraud detection systems (FEDS and Analysis Tool) that used pre-set criteria and algorithmic thresholds, highlighting issues with their logic, data usage, and effectiveness. The document describes the implementation of these automated controls as policy enhancements and reveals limitations in their fraud detection capabilities, indicating a need for improved governance and oversight of automated decision-making processes and the privacy of representative data used.",
+          "title": "SEC Administrative Proceeding - Ameriprise Financial Services, Inc. (2018)",
+          "url": "https://sec.gov/files/litigation/admin/2018/34-83848.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This SEC comment letter from Ameriprise Financial provides evidence for the **governance** pillar of responsible AI. The document highlights concerns that existing policies are insufficient for managing conflicts of interest arising from AI and machine learning in investment advice. It specifically mentions proposed regulatory requirements for \"neutralizing\" conflicts in covered technologies and outlines a compliance program for inventorying, reviewing, testing, and monitoring these technologies, all of which are key components of AI governance.",
+          "title": "Ameriprise Financial - SEC Comment Letter on AI in Investment Advice (2023)",
+          "url": "https://sec.gov/comments/s7-12-23/s71223-270440-653062.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This CEO statement provides evidence for **external accountability**, **governance**, and **transparency** in responsible AI. The announcement of a beta test and planned release of an AI product, along with its use as a co-pilot for advisors and for identifying client opportunities, demonstrates transparency and operationalization. Furthermore, the mention of partnerships for AI development and external scrutiny/regulatory investigation into AI use points to governance and external accountability mechanisms.",
+          "title": "LPL, Ameriprise Wade Into AI Applications for Advisors",
+          "url": "https://investmentnews.com/fintech/lpl-ameriprise-wade-into-ai-applications-for-advisors/240737"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "An enforcement action document details failures in automated fraud detection systems that used pre-set criteria and algorithmic thresholds. This document describes issues with the logic, data usage, and effectiveness of these systems, and describes limitations in their fraud detection capabilities. It indicates a need for improved oversight of automated decision-making processes.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This enforcement action document provides evidence for **governance**, **oversight**, and **privacy**. It details failures in automated fraud detection systems (FEDS and Analysis Tool) that used pre-set criteria and algorithmic thresholds, highlighting issues with their logic, data usage, and effectiveness. The document describes the implementation of these automated controls as policy enhancements and reveals limitations in their fraud detection capabilities, indicating a need for improved governance and oversight of automated decision-making processes and the privacy of representative data used.",
+          "title": "SEC Administrative Proceeding - Ameriprise Financial Services, Inc. (2018)",
+          "url": "https://sec.gov/files/litigation/admin/2018/34-83848.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 4,
+      "findings": "A corporate blog post describes privacy considerations by advising users to consider data-sharing implications when using AI tools. Additionally, an enforcement action document references the privacy of representative data used in automated fraud detection systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Ameriprise corporate blog post provides evidence for **governance, privacy, and transparency**. It supports governance by mentioning AI-fueled tools and a commitment to understanding customer needs for personalized advice, suggesting policy considerations for AI application. The blog post addresses privacy by advising users to consider data-sharing implications when using AI tools. Finally, it supports transparency by describing AI capabilities and potential uses, framing the narrative around AI's evolving role in finance.",
+          "title": "Artificial Intelligence and Your Financial Life - Ameriprise Corporate Blog",
+          "url": "https://ameriprise.com/financial-goals-priorities/personal-finance/ai-and-your-financial-life"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This enforcement action document provides evidence for **governance**, **oversight**, and **privacy**. It details failures in automated fraud detection systems (FEDS and Analysis Tool) that used pre-set criteria and algorithmic thresholds, highlighting issues with their logic, data usage, and effectiveness. The document describes the implementation of these automated controls as policy enhancements and reveals limitations in their fraud detection capabilities, indicating a need for improved governance and oversight of automated decision-making processes and the privacy of representative data used.",
+          "title": "SEC Administrative Proceeding - Ameriprise Financial Services, Inc. (2018)",
+          "url": "https://sec.gov/files/litigation/admin/2018/34-83848.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 7,
+      "findings": "The company references its use of AI tools and intelligent automation, with a corporate blog post describing AI capabilities and potential uses in finance. Disclosures explicitly state the use of an algorithm for bank deposit placement and state client agreement to these algorithmic decisions. Furthermore, a CEO statement states a beta test and planned release of an AI product, describing its use as a co-pilot for advisors and for identifying client opportunities.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by mentioning the use of \"AI tools\" and \"intelligent automation,\" indicating awareness and disclosure of AI systems. The press release also suggests a commitment to responsible implementation by noting efforts to \"improve\" these technologies, aligning with governance principles.",
+          "title": "2024 Annual Report",
+          "url": "https://ameriprise.com/microsite/2024-annual-report"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This Ameriprise corporate blog post provides evidence for **governance, privacy, and transparency**. It supports governance by mentioning AI-fueled tools and a commitment to understanding customer needs for personalized advice, suggesting policy considerations for AI application. The blog post addresses privacy by advising users to consider data-sharing implications when using AI tools. Finally, it supports transparency by describing AI capabilities and potential uses, framing the narrative around AI's evolving role in finance.",
+          "title": "Artificial Intelligence and Your Financial Life - Ameriprise Corporate Blog",
+          "url": "https://ameriprise.com/financial-goals-priorities/personal-finance/ai-and-your-financial-life"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Form 402469 – Other Important Brokerage Disclosures,\" provides evidence for **governance** and **transparency**. It supports transparency by explicitly mentioning the use of an algorithm to determine bank deposit placement and client agreement to these algorithmic decisions. The document also supports governance by outlining the requirement for advance notification of algorithm changes and bank list updates, indicating oversight and control over the system.",
+          "title": "Form 402469 – Other Important Brokerage Disclosures",
+          "url": "https://ameriprise.com/binaries/content/assets/ampcom/wcm/AMP_402469.PDF"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This CEO statement provides evidence for **external accountability**, **governance**, and **transparency** in responsible AI. The announcement of a beta test and planned release of an AI product, along with its use as a co-pilot for advisors and for identifying client opportunities, demonstrates transparency and operationalization. Furthermore, the mention of partnerships for AI development and external scrutiny/regulatory investigation into AI use points to governance and external accountability mechanisms.",
+          "title": "LPL, Ameriprise Wade Into AI Applications for Advisors",
+          "url": "https://investmentnews.com/fintech/lpl-ameriprise-wade-into-ai-applications-for-advisors/240737"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T21:43:03Z",
+  "run_id": "20260202_203833_2627",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability"
+    ],
+    "overall_findings": "Ameriprise Financial's public disclosures detail operational practices in oversight, where an enforcement action document describes failures in automated fraud detection systems that used pre-set criteria and algorithmic thresholds. These materials address 5 of 7 evaluated responsible AI pillars, with transparency, privacy, governance, and external accountability documented at the policy level. For instance, transparency materials reference the use of AI tools and intelligent automation, while privacy disclosures advise users to consider data-sharing implications when using AI tools. No qualifying public evidence was found for fairness or explainability, based on a review of 9 publicly available sources.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 25,
+    "total_sources_used": 6
+  }
+}

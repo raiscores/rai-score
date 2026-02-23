@@ -1,0 +1,678 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Cisco Systems",
+  "company_slug": "cisco-systems",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 16,
+      "OPERATIONAL": 28,
+      "POLICY": 87
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "Cisco describes alignment with external frameworks such as OWASP, MITRE, and NIST, and engages in the co-development of AI policy frameworks with partners. Policy documents also detail the company's right to audit subcontractor compliance with Generative AI requirements.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post describes Cisco's AI Defense framework, providing evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The framework supports **governance** and **transparency** through its Discover-Detect-Protect model, which includes algorithmic red-teaming, continuous testing, and integration of findings across the AI lifecycle. Evidence for **privacy** is found in the emphasis on on-premises deployment for data and model assurance, while **external_accountability** is supported by the alignment with external frameworks like OWASP, MITRE, and NIST, and the co-development of AI policy frameworks with partners.",
+          "title": "Securing the Era of AI: How Cisco AI Defense Protects the Entire AI Lifecycle",
+          "url": "https://wwt.com/blog/securing-the-era-of-ai-how-cisco-ai-defense-protects-the-entire-ai-lifecycle"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_032",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Subcontractor Generative Artificial Intelligence Exhibit,\" provides evidence for **governance**, **privacy**, and **external accountability**. It establishes governance through mandates for legally binding contracts with LLM suppliers covering data usage and IP, and by specifying approved GenAI tools and models. The policy supports privacy by prohibiting the use of Cisco data for AI model training without explicit permission. Finally, it demonstrates external accountability by detailing Cisco's right to audit subcontractor compliance with GenAI requirements.",
+          "title": "Subcontractor Generative Artificial Intelligence Exhibit",
+          "url": "https://cisco.com/c/dam/en_us/about/doing_business/legal/docs/Subcontractor-GAI-Exhibit.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 17,
+      "findings": "Cisco policy documents state a commitment to identifying and remediating bias in algorithms and data for consequential decisions, and describe the review of AI uses and incident reports for bias. The company outlines a Responsible AI Framework to ensure AI/ML solutions are developed fairly, including practices like auditing data, involving diverse perspectives in design and testing, and continuously monitoring outcomes for bias. Annual reports detail the use of analytics to test for and correct pay parity issues, while technical papers highlight AI Impact Assessments for model behavior and output.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"The Cisco Responsible AI Framework,\" provides evidence for the **fairness, governance, oversight, and privacy** pillars. It establishes a Responsible AI Committee for leadership oversight and governance, mandates assessments for AI risks including privacy and security, and describes the review of AI uses and incident reports for bias, supporting fairness and operational oversight. The framework also commits to incorporating privacy and security principles into AI design, reinforcing the governance and privacy pillars.",
+          "title": "The Cisco Responsible AI Framework",
+          "url": "https://cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-responsible-artificial-intelligence-framework.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Cisco Principles for Responsible Artificial Intelligence,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by committing to identifying and remediating bias in algorithms and data for consequential decisions. The document also demonstrates governance and oversight through its mention of an AI governance framework, required impact assessments, documentation, and feedback mechanisms within the AI lifecycle. Furthermore, it aligns with transparency and privacy policies by committing to informing users about AI use, intent, data, and controls.",
+          "title": "Cisco Principles for Responsible Artificial Intelligence",
+          "url": "https://cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-responsible-artificial-intelligence-principles.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Webex Connect Text Summarization AI Transparency Note,\" provides evidence for **governance, oversight, fairness, privacy, and transparency**. It details the AI Impact Assessment review process and adherence to a six-principle Responsible AI Framework, demonstrating governance. The paper also supports oversight through vendor reviews and mentions of ongoing evaluation and human sampling of AI model inputs/outputs. Evidence for fairness and privacy is found in the description of content filtering and security measures, while transparency is addressed by referencing the third-party LLM vendor's transparency note.",
+          "title": "Webex Connect Text Summarization AI Transparency Note",
+          "url": "https://trustportal.cisco.com/c/dam/r/ctp/docs/transparency/webex-connect-text-summarization-ai-transparency-note.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company blog post introduces Cisco's Integrated AI Security and Safety Framework, which provides evidence for **governance**, **fairness**, and **transparency**. The framework supports governance by detailing AI risks, vulnerabilities, and a lifecycle-aware risk management approach, including AI supply chain threat taxonomies and protocols for governing AI interactions. It also addresses fairness by defining AI safety goals related to ethical and fair behavior, and transparency by describing design elements of the AI framework that relate to system transparency.",
+          "title": "Introducing Cisco's Integrated AI Security and Safety Framework",
+          "url": "https://blogs.cisco.com/ai/security-framework"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Cisco Integrated AI Security and Safety Framework Report,\" provides evidence for the **governance**, **transparency**, and **privacy** pillars of responsible AI. The report details a lifecycle-aware threat taxonomy and standardized evaluation suites, demonstrating a structured approach to AI governance and risk management. It also discusses AI supply chain integrity and AI Bills of Materials, which directly support transparency, and mentions privacy-related risks, contributing to the privacy pillar.",
+          "title": "Cisco Integrated AI Security and Safety Framework Report",
+          "url": "https://arxiv.org/html/2512.12921v1"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This Cisco 2024 Annual Report on Form 10-K provides evidence for **fairness**, **governance**, and **transparency**. The report supports fairness by detailing the use of \"analytics\" to \"test for pay parity\" and \"correct them.\" Governance is evidenced through the mention of an AI framework and an annual certification requirement for ethical data use, indicating structured oversight and policy. Transparency is supported by the description of AI/ML capabilities embedded in products and automated insights, which implies openness about their function and operation.",
+          "title": "Cisco 2024 Annual Report on Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/858877/000110465924109864/tm2414474d4_ars.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This press release details Cisco's integration of human rights principles into its AI/ML solutions, providing evidence for the **fairness**, **governance**, and **transparency** pillars. The document outlines a Responsible AI Framework, including AI Impact Assessments and design controls, to ensure AI/ML solutions are developed transparently and fairly, supported by a governance framework. Cisco's approach emphasizes human rights due diligence and impact assessment mechanisms throughout the AI lifecycle.",
+          "title": "Building human rights into every Cisco product, policy, and process",
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2022/m12/building-human-rights-into-every-cisco-product-policy-and-process.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Empowering Agents and Supervisors with Cisco AI Assistant,\" provides evidence for the **privacy**, **transparency**, and **fairness** pillars of Responsible AI. The post states a commitment to data protection and explainability, supporting privacy and transparency respectively. It also mentions a framework for AI that includes fairness, indicating a policy stance on these principles.",
+          "title": "Empowering Agents and Supervisors with Cisco AI Assistant",
+          "url": "https://blog.webex.com/customer-experience/empowering-agents-supervisors-cisco-ai-assistant-contact-center-redefining-customer-experience"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Cisco Confidential AI Transparency Technical Notes,\" provides evidence for fairness, governance, privacy, and transparency. It supports fairness by highlighting AI Impact Assessments for model behavior and output, and governance through acknowledging third-party AI limitations and referencing a trust portal. The paper also supports privacy by addressing data sharing for AI features and vendor contracting standards, and transparency by referencing technical notes for AI model architecture and data.",
+          "title": "Cisco Confidential AI Transparency Technical Notes",
+          "url": "https://cisco.com/c/dam/en/us/solutions/collateral/artificial-intelligence/responsible-ai/webexone-branded.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI for Good: Leading with ethics, inclusion, and impact,\" provides evidence for the **fairness**, **transparency**, **governance**, and **privacy** pillars of responsible AI. It supports fairness and transparency by detailing practices like auditing data, involving diverse perspectives in design and testing, and continuously monitoring outcomes for bias. The blog post also touches on governance through its description of operationalizing a Responsible AI Framework and privacy by discussing the commitment to building systems that prevent harm.",
+          "title": "AI for Good: Leading with ethics, inclusion, and impact",
+          "url": "https://blogs.cisco.com/our-corporate-purpose/ai-for-good-leading-with-ethics-inclusion-and-impact"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This press release announces Cisco's commitment to the Rome Call for AI Ethics, providing evidence for **fairness**, **governance**, and **transparency**. The document supports fairness by recognizing the need for unbiased datasets, governance through its commitment to top-down governance frameworks and proactive risk mitigation, and transparency by aligning with principles for transparent and accountable AI systems.",
+          "title": "Cisco signs the Rome Call for AI Ethics",
+          "url": "https://romecall.org/cisco-signs-the-rome-call-for-ai-ethics"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_028",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **fairness, governance, privacy, and transparency**. It supports these pillars by describing a commitment to AI ethics principles, the operationalization of these principles through an AI Impact Assessment process that analyzes models, data, and privacy practices, and the implementation of mandatory employee training on AI use. The post explicitly states the goal of addressing principles like transparency, fairness, accountability, and privacy.",
+          "title": "Safe and trustworthy AI is a shared responsibility",
+          "url": "https://blogs.cisco.com/news/safe-and-trustworthy-ai-is-a-shared-responsibility"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 114,
+      "findings": "Cisco documents its AI governance through an AI governance framework, required impact assessments, documentation, and feedback mechanisms within the AI lifecycle. The company details AI risks, vulnerabilities, and a lifecycle-aware risk management approach, including AI supply chain threat taxonomies and protocols for governing AI interactions. Cisco also outlines a Responsible AI Framework, including AI Impact Assessments and design controls, and describes the operationalization of AI ethics principles through an AI Impact Assessment process and mandatory employee training on AI use.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"The Cisco Responsible AI Framework,\" provides evidence for the **fairness, governance, oversight, and privacy** pillars. It establishes a Responsible AI Committee for leadership oversight and governance, mandates assessments for AI risks including privacy and security, and describes the review of AI uses and incident reports for bias, supporting fairness and operational oversight. The framework also commits to incorporating privacy and security principles into AI design, reinforcing the governance and privacy pillars.",
+          "title": "The Cisco Responsible AI Framework",
+          "url": "https://cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-responsible-artificial-intelligence-framework.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Cisco Principles for Responsible Artificial Intelligence,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by committing to identifying and remediating bias in algorithms and data for consequential decisions. The document also demonstrates governance and oversight through its mention of an AI governance framework, required impact assessments, documentation, and feedback mechanisms within the AI lifecycle. Furthermore, it aligns with transparency and privacy policies by committing to informing users about AI use, intent, data, and controls.",
+          "title": "Cisco Principles for Responsible Artificial Intelligence",
+          "url": "https://cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-responsible-artificial-intelligence-principles.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Webex Connect Text Summarization AI Transparency Note,\" provides evidence for **governance, oversight, fairness, privacy, and transparency**. It details the AI Impact Assessment review process and adherence to a six-principle Responsible AI Framework, demonstrating governance. The paper also supports oversight through vendor reviews and mentions of ongoing evaluation and human sampling of AI model inputs/outputs. Evidence for fairness and privacy is found in the description of content filtering and security measures, while transparency is addressed by referencing the third-party LLM vendor's transparency note.",
+          "title": "Webex Connect Text Summarization AI Transparency Note",
+          "url": "https://trustportal.cisco.com/c/dam/r/ctp/docs/transparency/webex-connect-text-summarization-ai-transparency-note.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company blog post introduces Cisco's Integrated AI Security and Safety Framework, which provides evidence for **governance**, **fairness**, and **transparency**. The framework supports governance by detailing AI risks, vulnerabilities, and a lifecycle-aware risk management approach, including AI supply chain threat taxonomies and protocols for governing AI interactions. It also addresses fairness by defining AI safety goals related to ethical and fair behavior, and transparency by describing design elements of the AI framework that relate to system transparency.",
+          "title": "Introducing Cisco's Integrated AI Security and Safety Framework",
+          "url": "https://blogs.cisco.com/ai/security-framework"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Cisco Integrated AI Security and Safety Framework Report,\" provides evidence for the **governance**, **transparency**, and **privacy** pillars of responsible AI. The report details a lifecycle-aware threat taxonomy and standardized evaluation suites, demonstrating a structured approach to AI governance and risk management. It also discusses AI supply chain integrity and AI Bills of Materials, which directly support transparency, and mentions privacy-related risks, contributing to the privacy pillar.",
+          "title": "Cisco Integrated AI Security and Safety Framework Report",
+          "url": "https://arxiv.org/html/2512.12921v1"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of Responsible AI. It describes Cisco's mandatory AI Impact Assessment process, which includes privacy impact assessments for product approval, demonstrating governance and privacy execution. The post also highlights the use of AI impact assessments for trust and the formalization of AI principles and frameworks, supporting transparency and governance by detailing mechanisms for operationalizing AI risks and surfacing use cases.",
+          "title": "Responsible AI is built on a foundation of privacy",
+          "url": "https://blogs.cisco.com/news/responsible-ai-is-built-on-a-foundation-of-privacy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This SEC annual report provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It indicates a policy-level commitment to AI governance by mentioning the need for compliance and the aim to develop and use AI responsibly, including identifying and mitigating ethical/legal issues. The report also touches upon transparency by detailing the integration of AI/ML capabilities across its product portfolio and mentions maintaining privacy in the context of ML/analytics. However, the evidence primarily reflects aspirational statements and a need for governance rather than detailed execution or operational policies.",
+          "title": "Cisco 2023 Annual Report on Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/858877/000110465923109645/tm2320954d8_ars.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This Cisco 2024 Annual Report on Form 10-K provides evidence for **fairness**, **governance**, and **transparency**. The report supports fairness by detailing the use of \"analytics\" to \"test for pay parity\" and \"correct them.\" Governance is evidenced through the mention of an AI framework and an annual certification requirement for ethical data use, indicating structured oversight and policy. Transparency is supported by the description of AI/ML capabilities embedded in products and automated insights, which implies openness about their function and operation.",
+          "title": "Cisco 2024 Annual Report on Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/858877/000110465924109864/tm2414474d4_ars.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This press release details Cisco's integration of human rights principles into its AI/ML solutions, providing evidence for the **fairness**, **governance**, and **transparency** pillars. The document outlines a Responsible AI Framework, including AI Impact Assessments and design controls, to ensure AI/ML solutions are developed transparently and fairly, supported by a governance framework. Cisco's approach emphasizes human rights due diligence and impact assessment mechanisms throughout the AI lifecycle.",
+          "title": "Building human rights into every Cisco product, policy, and process",
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2022/m12/building-human-rights-into-every-cisco-product-policy-and-process.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "The \"Human Rights at Cisco\" help page provides evidence for the **governance** pillar of responsible AI. This company-owned document outlines Cisco's commitment to human rights due diligence and impact assessments, which are integral to establishing robust AI governance frameworks by identifying and addressing risks associated with AI decision-making.",
+          "title": "Human Rights at Cisco",
+          "url": "https://cisco.com/c/m/en_us/about/csr/esg-hub/trust/human-rights.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post describes Cisco's AI Defense framework, providing evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The framework supports **governance** and **transparency** through its Discover-Detect-Protect model, which includes algorithmic red-teaming, continuous testing, and integration of findings across the AI lifecycle. Evidence for **privacy** is found in the emphasis on on-premises deployment for data and model assurance, while **external_accountability** is supported by the alignment with external frameworks like OWASP, MITRE, and NIST, and the co-development of AI policy frameworks with partners.",
+          "title": "Securing the Era of AI: How Cisco AI Defense Protects the Entire AI Lifecycle",
+          "url": "https://wwt.com/blog/securing-the-era-of-ai-how-cisco-ai-defense-protects-the-entire-ai-lifecycle"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance** and **transparency** by highlighting Cisco Hypershield's AI-native design, which incorporates AI from its inception for security enforcement. The announcement details AI's role in addressing AI-enabled threats, enabling autonomous actions, and leveraging specific AI frameworks through collaborations, demonstrating transparency in AI use and governance over its defensive capabilities and automated systems.",
+          "title": "Cisco Reimagines Security for Data Centers and Clouds in Era of AI",
+          "url": "https://investor.cisco.com/news/news-details/2024/Cisco-Reimagines-Security-for-Data-Centers-and-Clouds-in-Era-of-AI/default.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Cisco AI Assistant for Webex: New Features and Integrations,\" provides evidence for **governance, privacy, and transparency**. It supports governance by detailing an actionable control for IT Admins regarding LLM selection and mentioning consistency in data security and privacy. The blog post also supports transparency by referencing 22 AI Transparency Technical Notes that cover AI feature operations, ethical principles, and guardrails, demonstrating a commitment to openness in AI implementation.",
+          "title": "Cisco AI Assistant for Webex: New Features and Integrations",
+          "url": "https://blog.webex.com/collaboration/cisco-ai-assistant-for-webex-new-features-and-integrations"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Cisco Confidential AI Transparency Technical Notes,\" provides evidence for fairness, governance, privacy, and transparency. It supports fairness by highlighting AI Impact Assessments for model behavior and output, and governance through acknowledging third-party AI limitations and referencing a trust portal. The paper also supports privacy by addressing data sharing for AI features and vendor contracting standards, and transparency by referencing technical notes for AI model architecture and data.",
+          "title": "Cisco Confidential AI Transparency Technical Notes",
+          "url": "https://cisco.com/c/dam/en/us/solutions/collateral/artificial-intelligence/responsible-ai/webexone-branded.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by detailing AI-driven automated security controls, remediation, and deployment processes, as well as AI's role in security segmentation. The source supports privacy through its commitment to guardrails, data anonymization for AI, and responsible AI as a non-negotiable policy. Transparency is implied through descriptions of AI-driven automation and learning for security insights and segmentation.",
+          "title": "Q&A: Cisco on Enhancing Privacy and Cybersecurity With AI Tools",
+          "url": "https://techpost.bsa.org/2024/06/25/qa-cisco-on-enhancing-privacy-and-cybersecurity-with-ai-tools"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI for Good: Leading with ethics, inclusion, and impact,\" provides evidence for the **fairness**, **transparency**, **governance**, and **privacy** pillars of responsible AI. It supports fairness and transparency by detailing practices like auditing data, involving diverse perspectives in design and testing, and continuously monitoring outcomes for bias. The blog post also touches on governance through its description of operationalizing a Responsible AI Framework and privacy by discussing the commitment to building systems that prevent harm.",
+          "title": "AI for Good: Leading with ethics, inclusion, and impact",
+          "url": "https://blogs.cisco.com/our-corporate-purpose/ai-for-good-leading-with-ethics-inclusion-and-impact"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This press release announces Cisco's commitment to the Rome Call for AI Ethics, providing evidence for **fairness**, **governance**, and **transparency**. The document supports fairness by recognizing the need for unbiased datasets, governance through its commitment to top-down governance frameworks and proactive risk mitigation, and transparency by aligning with principles for transparent and accountable AI systems.",
+          "title": "Cisco signs the Rome Call for AI Ethics",
+          "url": "https://romecall.org/cisco-signs-the-rome-call-for-ai-ethics"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This Cisco 2024 Proxy Statement provides evidence for the **governance** pillar of responsible AI. The document details the Board's structure, including the Environmental/Social/Public Policy Committee which explicitly oversees AI governance, and mentions an operational process for reviewing AI trends and reporting to the Board. Furthermore, the proxy statement implies a strategic commitment and governance over AI deployment through its mention of AI integration into products.",
+          "title": "Cisco 2024 Proxy Statement",
+          "url": "https://cisco.com/c/dam/en_us/about/annual-report/2024-cisco-proxy.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_028",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **fairness, governance, privacy, and transparency**. It supports these pillars by describing a commitment to AI ethics principles, the operationalization of these principles through an AI Impact Assessment process that analyzes models, data, and privacy practices, and the implementation of mandatory employee training on AI use. The post explicitly states the goal of addressing principles like transparency, fairness, accountability, and privacy.",
+          "title": "Safe and trustworthy AI is a shared responsibility",
+          "url": "https://blogs.cisco.com/news/safe-and-trustworthy-ai-is-a-shared-responsibility"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_030",
+          "source_tier": "third_party",
+          "summary": "This blog post announces a partnership focused on unified AI risk management, providing evidence for the **governance** pillar. The source describes a platform that assesses AI-specific controls, models AI risk scenarios, and translates technical risks into business impacts, enabling security teams to prioritize and operationalize AI governance. It highlights capabilities for real-time evaluation of AI governance effectiveness and mentions \"AI security governance\" and the \"secure adoption of AI.\"",
+          "title": "SAFE and Cisco Partner for Unified AI Risk Management",
+          "url": "https://safe.security/resources/blog/news/safe-cisco-partner-unified-ai-risk-management"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_032",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Subcontractor Generative Artificial Intelligence Exhibit,\" provides evidence for **governance**, **privacy**, and **external accountability**. It establishes governance through mandates for legally binding contracts with LLM suppliers covering data usage and IP, and by specifying approved GenAI tools and models. The policy supports privacy by prohibiting the use of Cisco data for AI model training without explicit permission. Finally, it demonstrates external accountability by detailing Cisco's right to audit subcontractor compliance with GenAI requirements.",
+          "title": "Subcontractor Generative Artificial Intelligence Exhibit",
+          "url": "https://cisco.com/c/dam/en_us/about/doing_business/legal/docs/Subcontractor-GAI-Exhibit.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 21
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Cisco policy documents describe the review of AI uses and incident reports for operational oversight. These documents also mention an AI governance framework, required impact assessments, documentation, and feedback mechanisms within the AI lifecycle. Technical papers support oversight through vendor reviews and mention ongoing evaluation and human sampling of AI model inputs/outputs.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"The Cisco Responsible AI Framework,\" provides evidence for the **fairness, governance, oversight, and privacy** pillars. It establishes a Responsible AI Committee for leadership oversight and governance, mandates assessments for AI risks including privacy and security, and describes the review of AI uses and incident reports for bias, supporting fairness and operational oversight. The framework also commits to incorporating privacy and security principles into AI design, reinforcing the governance and privacy pillars.",
+          "title": "The Cisco Responsible AI Framework",
+          "url": "https://cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-responsible-artificial-intelligence-framework.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Cisco Principles for Responsible Artificial Intelligence,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by committing to identifying and remediating bias in algorithms and data for consequential decisions. The document also demonstrates governance and oversight through its mention of an AI governance framework, required impact assessments, documentation, and feedback mechanisms within the AI lifecycle. Furthermore, it aligns with transparency and privacy policies by committing to informing users about AI use, intent, data, and controls.",
+          "title": "Cisco Principles for Responsible Artificial Intelligence",
+          "url": "https://cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-responsible-artificial-intelligence-principles.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Webex Connect Text Summarization AI Transparency Note,\" provides evidence for **governance, oversight, fairness, privacy, and transparency**. It details the AI Impact Assessment review process and adherence to a six-principle Responsible AI Framework, demonstrating governance. The paper also supports oversight through vendor reviews and mentions of ongoing evaluation and human sampling of AI model inputs/outputs. Evidence for fairness and privacy is found in the description of content filtering and security measures, while transparency is addressed by referencing the third-party LLM vendor's transparency note.",
+          "title": "Webex Connect Text Summarization AI Transparency Note",
+          "url": "https://trustportal.cisco.com/c/dam/r/ctp/docs/transparency/webex-connect-text-summarization-ai-transparency-note.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 24,
+      "findings": "Cisco policy documents mandate assessments for AI risks, including privacy, and state a commitment to incorporating privacy principles into AI design. The company describes a mandatory AI Impact Assessment process that includes privacy impact assessments for product approval. Cisco also states a commitment to data protection, data anonymization for AI, and prohibits the use of Cisco data for AI model training without explicit permission.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"The Cisco Responsible AI Framework,\" provides evidence for the **fairness, governance, oversight, and privacy** pillars. It establishes a Responsible AI Committee for leadership oversight and governance, mandates assessments for AI risks including privacy and security, and describes the review of AI uses and incident reports for bias, supporting fairness and operational oversight. The framework also commits to incorporating privacy and security principles into AI design, reinforcing the governance and privacy pillars.",
+          "title": "The Cisco Responsible AI Framework",
+          "url": "https://cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-responsible-artificial-intelligence-framework.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Cisco Principles for Responsible Artificial Intelligence,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by committing to identifying and remediating bias in algorithms and data for consequential decisions. The document also demonstrates governance and oversight through its mention of an AI governance framework, required impact assessments, documentation, and feedback mechanisms within the AI lifecycle. Furthermore, it aligns with transparency and privacy policies by committing to informing users about AI use, intent, data, and controls.",
+          "title": "Cisco Principles for Responsible Artificial Intelligence",
+          "url": "https://cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-responsible-artificial-intelligence-principles.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Webex Connect Text Summarization AI Transparency Note,\" provides evidence for **governance, oversight, fairness, privacy, and transparency**. It details the AI Impact Assessment review process and adherence to a six-principle Responsible AI Framework, demonstrating governance. The paper also supports oversight through vendor reviews and mentions of ongoing evaluation and human sampling of AI model inputs/outputs. Evidence for fairness and privacy is found in the description of content filtering and security measures, while transparency is addressed by referencing the third-party LLM vendor's transparency note.",
+          "title": "Webex Connect Text Summarization AI Transparency Note",
+          "url": "https://trustportal.cisco.com/c/dam/r/ctp/docs/transparency/webex-connect-text-summarization-ai-transparency-note.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Cisco Integrated AI Security and Safety Framework Report,\" provides evidence for the **governance**, **transparency**, and **privacy** pillars of responsible AI. The report details a lifecycle-aware threat taxonomy and standardized evaluation suites, demonstrating a structured approach to AI governance and risk management. It also discusses AI supply chain integrity and AI Bills of Materials, which directly support transparency, and mentions privacy-related risks, contributing to the privacy pillar.",
+          "title": "Cisco Integrated AI Security and Safety Framework Report",
+          "url": "https://arxiv.org/html/2512.12921v1"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of Responsible AI. It describes Cisco's mandatory AI Impact Assessment process, which includes privacy impact assessments for product approval, demonstrating governance and privacy execution. The post also highlights the use of AI impact assessments for trust and the formalization of AI principles and frameworks, supporting transparency and governance by detailing mechanisms for operationalizing AI risks and surfacing use cases.",
+          "title": "Responsible AI is built on a foundation of privacy",
+          "url": "https://blogs.cisco.com/news/responsible-ai-is-built-on-a-foundation-of-privacy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This SEC annual report provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It indicates a policy-level commitment to AI governance by mentioning the need for compliance and the aim to develop and use AI responsibly, including identifying and mitigating ethical/legal issues. The report also touches upon transparency by detailing the integration of AI/ML capabilities across its product portfolio and mentions maintaining privacy in the context of ML/analytics. However, the evidence primarily reflects aspirational statements and a need for governance rather than detailed execution or operational policies.",
+          "title": "Cisco 2023 Annual Report on Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/858877/000110465923109645/tm2320954d8_ars.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post describes Cisco's AI Defense framework, providing evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The framework supports **governance** and **transparency** through its Discover-Detect-Protect model, which includes algorithmic red-teaming, continuous testing, and integration of findings across the AI lifecycle. Evidence for **privacy** is found in the emphasis on on-premises deployment for data and model assurance, while **external_accountability** is supported by the alignment with external frameworks like OWASP, MITRE, and NIST, and the co-development of AI policy frameworks with partners.",
+          "title": "Securing the Era of AI: How Cisco AI Defense Protects the Entire AI Lifecycle",
+          "url": "https://wwt.com/blog/securing-the-era-of-ai-how-cisco-ai-defense-protects-the-entire-ai-lifecycle"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Empowering Agents and Supervisors with Cisco AI Assistant,\" provides evidence for the **privacy**, **transparency**, and **fairness** pillars of Responsible AI. The post states a commitment to data protection and explainability, supporting privacy and transparency respectively. It also mentions a framework for AI that includes fairness, indicating a policy stance on these principles.",
+          "title": "Empowering Agents and Supervisors with Cisco AI Assistant",
+          "url": "https://blog.webex.com/customer-experience/empowering-agents-supervisors-cisco-ai-assistant-contact-center-redefining-customer-experience"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Cisco AI Assistant for Webex: New Features and Integrations,\" provides evidence for **governance, privacy, and transparency**. It supports governance by detailing an actionable control for IT Admins regarding LLM selection and mentioning consistency in data security and privacy. The blog post also supports transparency by referencing 22 AI Transparency Technical Notes that cover AI feature operations, ethical principles, and guardrails, demonstrating a commitment to openness in AI implementation.",
+          "title": "Cisco AI Assistant for Webex: New Features and Integrations",
+          "url": "https://blog.webex.com/collaboration/cisco-ai-assistant-for-webex-new-features-and-integrations"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Cisco Confidential AI Transparency Technical Notes,\" provides evidence for fairness, governance, privacy, and transparency. It supports fairness by highlighting AI Impact Assessments for model behavior and output, and governance through acknowledging third-party AI limitations and referencing a trust portal. The paper also supports privacy by addressing data sharing for AI features and vendor contracting standards, and transparency by referencing technical notes for AI model architecture and data.",
+          "title": "Cisco Confidential AI Transparency Technical Notes",
+          "url": "https://cisco.com/c/dam/en/us/solutions/collateral/artificial-intelligence/responsible-ai/webexone-branded.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by detailing AI-driven automated security controls, remediation, and deployment processes, as well as AI's role in security segmentation. The source supports privacy through its commitment to guardrails, data anonymization for AI, and responsible AI as a non-negotiable policy. Transparency is implied through descriptions of AI-driven automation and learning for security insights and segmentation.",
+          "title": "Q&A: Cisco on Enhancing Privacy and Cybersecurity With AI Tools",
+          "url": "https://techpost.bsa.org/2024/06/25/qa-cisco-on-enhancing-privacy-and-cybersecurity-with-ai-tools"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI for Good: Leading with ethics, inclusion, and impact,\" provides evidence for the **fairness**, **transparency**, **governance**, and **privacy** pillars of responsible AI. It supports fairness and transparency by detailing practices like auditing data, involving diverse perspectives in design and testing, and continuously monitoring outcomes for bias. The blog post also touches on governance through its description of operationalizing a Responsible AI Framework and privacy by discussing the commitment to building systems that prevent harm.",
+          "title": "AI for Good: Leading with ethics, inclusion, and impact",
+          "url": "https://blogs.cisco.com/our-corporate-purpose/ai-for-good-leading-with-ethics-inclusion-and-impact"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_028",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **fairness, governance, privacy, and transparency**. It supports these pillars by describing a commitment to AI ethics principles, the operationalization of these principles through an AI Impact Assessment process that analyzes models, data, and privacy practices, and the implementation of mandatory employee training on AI use. The post explicitly states the goal of addressing principles like transparency, fairness, accountability, and privacy.",
+          "title": "Safe and trustworthy AI is a shared responsibility",
+          "url": "https://blogs.cisco.com/news/safe-and-trustworthy-ai-is-a-shared-responsibility"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_032",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Subcontractor Generative Artificial Intelligence Exhibit,\" provides evidence for **governance**, **privacy**, and **external accountability**. It establishes governance through mandates for legally binding contracts with LLM suppliers covering data usage and IP, and by specifying approved GenAI tools and models. The policy supports privacy by prohibiting the use of Cisco data for AI model training without explicit permission. Finally, it demonstrates external accountability by detailing Cisco's right to audit subcontractor compliance with GenAI requirements.",
+          "title": "Subcontractor Generative Artificial Intelligence Exhibit",
+          "url": "https://cisco.com/c/dam/en_us/about/doing_business/legal/docs/Subcontractor-GAI-Exhibit.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 14
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 49,
+      "findings": "Cisco documents its commitment to informing users about AI use, intent, data, and controls, and references AI Transparency Technical Notes covering feature operations, ethical principles, and guardrails. The company describes design elements of its AI framework related to system transparency, including discussions on AI supply chain integrity and AI Bills of Materials. Practices such as auditing data, involving diverse perspectives in design and testing, and continuously monitoring outcomes for bias are detailed to support transparency.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Cisco Principles for Responsible Artificial Intelligence,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by committing to identifying and remediating bias in algorithms and data for consequential decisions. The document also demonstrates governance and oversight through its mention of an AI governance framework, required impact assessments, documentation, and feedback mechanisms within the AI lifecycle. Furthermore, it aligns with transparency and privacy policies by committing to informing users about AI use, intent, data, and controls.",
+          "title": "Cisco Principles for Responsible Artificial Intelligence",
+          "url": "https://cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-responsible-artificial-intelligence-principles.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Webex Connect Text Summarization AI Transparency Note,\" provides evidence for **governance, oversight, fairness, privacy, and transparency**. It details the AI Impact Assessment review process and adherence to a six-principle Responsible AI Framework, demonstrating governance. The paper also supports oversight through vendor reviews and mentions of ongoing evaluation and human sampling of AI model inputs/outputs. Evidence for fairness and privacy is found in the description of content filtering and security measures, while transparency is addressed by referencing the third-party LLM vendor's transparency note.",
+          "title": "Webex Connect Text Summarization AI Transparency Note",
+          "url": "https://trustportal.cisco.com/c/dam/r/ctp/docs/transparency/webex-connect-text-summarization-ai-transparency-note.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company blog post introduces Cisco's Integrated AI Security and Safety Framework, which provides evidence for **governance**, **fairness**, and **transparency**. The framework supports governance by detailing AI risks, vulnerabilities, and a lifecycle-aware risk management approach, including AI supply chain threat taxonomies and protocols for governing AI interactions. It also addresses fairness by defining AI safety goals related to ethical and fair behavior, and transparency by describing design elements of the AI framework that relate to system transparency.",
+          "title": "Introducing Cisco's Integrated AI Security and Safety Framework",
+          "url": "https://blogs.cisco.com/ai/security-framework"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Cisco Integrated AI Security and Safety Framework Report,\" provides evidence for the **governance**, **transparency**, and **privacy** pillars of responsible AI. The report details a lifecycle-aware threat taxonomy and standardized evaluation suites, demonstrating a structured approach to AI governance and risk management. It also discusses AI supply chain integrity and AI Bills of Materials, which directly support transparency, and mentions privacy-related risks, contributing to the privacy pillar.",
+          "title": "Cisco Integrated AI Security and Safety Framework Report",
+          "url": "https://arxiv.org/html/2512.12921v1"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of Responsible AI. It describes Cisco's mandatory AI Impact Assessment process, which includes privacy impact assessments for product approval, demonstrating governance and privacy execution. The post also highlights the use of AI impact assessments for trust and the formalization of AI principles and frameworks, supporting transparency and governance by detailing mechanisms for operationalizing AI risks and surfacing use cases.",
+          "title": "Responsible AI is built on a foundation of privacy",
+          "url": "https://blogs.cisco.com/news/responsible-ai-is-built-on-a-foundation-of-privacy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This SEC annual report provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It indicates a policy-level commitment to AI governance by mentioning the need for compliance and the aim to develop and use AI responsibly, including identifying and mitigating ethical/legal issues. The report also touches upon transparency by detailing the integration of AI/ML capabilities across its product portfolio and mentions maintaining privacy in the context of ML/analytics. However, the evidence primarily reflects aspirational statements and a need for governance rather than detailed execution or operational policies.",
+          "title": "Cisco 2023 Annual Report on Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/858877/000110465923109645/tm2320954d8_ars.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This Cisco 2024 Annual Report on Form 10-K provides evidence for **fairness**, **governance**, and **transparency**. The report supports fairness by detailing the use of \"analytics\" to \"test for pay parity\" and \"correct them.\" Governance is evidenced through the mention of an AI framework and an annual certification requirement for ethical data use, indicating structured oversight and policy. Transparency is supported by the description of AI/ML capabilities embedded in products and automated insights, which implies openness about their function and operation.",
+          "title": "Cisco 2024 Annual Report on Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/858877/000110465924109864/tm2414474d4_ars.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This press release details Cisco's integration of human rights principles into its AI/ML solutions, providing evidence for the **fairness**, **governance**, and **transparency** pillars. The document outlines a Responsible AI Framework, including AI Impact Assessments and design controls, to ensure AI/ML solutions are developed transparently and fairly, supported by a governance framework. Cisco's approach emphasizes human rights due diligence and impact assessment mechanisms throughout the AI lifecycle.",
+          "title": "Building human rights into every Cisco product, policy, and process",
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2022/m12/building-human-rights-into-every-cisco-product-policy-and-process.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post describes Cisco's AI Defense framework, providing evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The framework supports **governance** and **transparency** through its Discover-Detect-Protect model, which includes algorithmic red-teaming, continuous testing, and integration of findings across the AI lifecycle. Evidence for **privacy** is found in the emphasis on on-premises deployment for data and model assurance, while **external_accountability** is supported by the alignment with external frameworks like OWASP, MITRE, and NIST, and the co-development of AI policy frameworks with partners.",
+          "title": "Securing the Era of AI: How Cisco AI Defense Protects the Entire AI Lifecycle",
+          "url": "https://wwt.com/blog/securing-the-era-of-ai-how-cisco-ai-defense-protects-the-entire-ai-lifecycle"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Empowering Agents and Supervisors with Cisco AI Assistant,\" provides evidence for the **privacy**, **transparency**, and **fairness** pillars of Responsible AI. The post states a commitment to data protection and explainability, supporting privacy and transparency respectively. It also mentions a framework for AI that includes fairness, indicating a policy stance on these principles.",
+          "title": "Empowering Agents and Supervisors with Cisco AI Assistant",
+          "url": "https://blog.webex.com/customer-experience/empowering-agents-supervisors-cisco-ai-assistant-contact-center-redefining-customer-experience"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance** and **transparency** by highlighting Cisco Hypershield's AI-native design, which incorporates AI from its inception for security enforcement. The announcement details AI's role in addressing AI-enabled threats, enabling autonomous actions, and leveraging specific AI frameworks through collaborations, demonstrating transparency in AI use and governance over its defensive capabilities and automated systems.",
+          "title": "Cisco Reimagines Security for Data Centers and Clouds in Era of AI",
+          "url": "https://investor.cisco.com/news/news-details/2024/Cisco-Reimagines-Security-for-Data-Centers-and-Clouds-in-Era-of-AI/default.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Cisco AI Assistant for Webex: New Features and Integrations,\" provides evidence for **governance, privacy, and transparency**. It supports governance by detailing an actionable control for IT Admins regarding LLM selection and mentioning consistency in data security and privacy. The blog post also supports transparency by referencing 22 AI Transparency Technical Notes that cover AI feature operations, ethical principles, and guardrails, demonstrating a commitment to openness in AI implementation.",
+          "title": "Cisco AI Assistant for Webex: New Features and Integrations",
+          "url": "https://blog.webex.com/collaboration/cisco-ai-assistant-for-webex-new-features-and-integrations"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Cisco Confidential AI Transparency Technical Notes,\" provides evidence for fairness, governance, privacy, and transparency. It supports fairness by highlighting AI Impact Assessments for model behavior and output, and governance through acknowledging third-party AI limitations and referencing a trust portal. The paper also supports privacy by addressing data sharing for AI features and vendor contracting standards, and transparency by referencing technical notes for AI model architecture and data.",
+          "title": "Cisco Confidential AI Transparency Technical Notes",
+          "url": "https://cisco.com/c/dam/en/us/solutions/collateral/artificial-intelligence/responsible-ai/webexone-branded.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by detailing AI-driven automated security controls, remediation, and deployment processes, as well as AI's role in security segmentation. The source supports privacy through its commitment to guardrails, data anonymization for AI, and responsible AI as a non-negotiable policy. Transparency is implied through descriptions of AI-driven automation and learning for security insights and segmentation.",
+          "title": "Q&A: Cisco on Enhancing Privacy and Cybersecurity With AI Tools",
+          "url": "https://techpost.bsa.org/2024/06/25/qa-cisco-on-enhancing-privacy-and-cybersecurity-with-ai-tools"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI for Good: Leading with ethics, inclusion, and impact,\" provides evidence for the **fairness**, **transparency**, **governance**, and **privacy** pillars of responsible AI. It supports fairness and transparency by detailing practices like auditing data, involving diverse perspectives in design and testing, and continuously monitoring outcomes for bias. The blog post also touches on governance through its description of operationalizing a Responsible AI Framework and privacy by discussing the commitment to building systems that prevent harm.",
+          "title": "AI for Good: Leading with ethics, inclusion, and impact",
+          "url": "https://blogs.cisco.com/our-corporate-purpose/ai-for-good-leading-with-ethics-inclusion-and-impact"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This press release announces Cisco's commitment to the Rome Call for AI Ethics, providing evidence for **fairness**, **governance**, and **transparency**. The document supports fairness by recognizing the need for unbiased datasets, governance through its commitment to top-down governance frameworks and proactive risk mitigation, and transparency by aligning with principles for transparent and accountable AI systems.",
+          "title": "Cisco signs the Rome Call for AI Ethics",
+          "url": "https://romecall.org/cisco-signs-the-rome-call-for-ai-ethics"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_028",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **fairness, governance, privacy, and transparency**. It supports these pillars by describing a commitment to AI ethics principles, the operationalization of these principles through an AI Impact Assessment process that analyzes models, data, and privacy practices, and the implementation of mandatory employee training on AI use. The post explicitly states the goal of addressing principles like transparency, fairness, accountability, and privacy.",
+          "title": "Safe and trustworthy AI is a shared responsibility",
+          "url": "https://blogs.cisco.com/news/safe-and-trustworthy-ai-is-a-shared-responsibility"
+        }
+      ],
+      "score": 2,
+      "source_count": 17
+    }
+  },
+  "published_at": "2026-02-23T21:47:03Z",
+  "run_id": "20260201_201130_bbb9",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Cisco Systems' public disclosures address transparency and fairness, among other responsible AI pillars. These materials document 6 of 7 evaluated pillars, with many practices described at the policy level. For instance, policy documents state a commitment to informing users about AI use and describe the review of AI uses for bias. Additionally, published materials describe alignment with external frameworks like OWASP for external accountability and mandate assessments for AI risks including privacy. No qualifying public evidence was found for explainability, based on a review of 34 publicly available sources.",
+    "pillars_operational": 6,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 131,
+    "total_sources_used": 22
+  }
+}

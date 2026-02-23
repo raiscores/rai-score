@@ -1,0 +1,175 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 14.3,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 2
+  },
+  "company": "Freeport-McMoRan",
+  "company_slug": "freeport-mcmoran",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 9,
+      "OPERATIONAL": 1,
+      "POLICY": 10
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 8,
+      "findings": "Freeport-McMoRan's documentation mentions the company's long-term strategy and goals for AI, alongside efforts in building AI capability and talent development. It describes governance over AI use, including machine-learning models and data analysis for optimization, and discusses AI's role in ensuring data fidelity for operational goals and performance optimization. Technical papers further outline a strategic approach to AI/ML implementation and suggest decision-making authority over AI/ML opportunities.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post describes Freeport-McMoRan's AI initiative, providing evidence for **governance** and **transparency**. The post mentions the company's long-term strategy and goals for AI, as well as efforts in building AI capability and talent development, indicating governance intent. Furthermore, the description of using machine-learning models and data analysis for optimization implies transparency and governance over their AI use.",
+          "title": "Case Study: AI Transformation at Freeport-McMoRan - AIX",
+          "url": "https://aiexpert.network/ai-at-freeport-mcmoran"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by detailing the deployment of AI and robotics in mining operations, highlighting AI's capabilities for emissions reduction, and explaining how diverse data is leveraged for maintenance and capital deployment. The source also indicates governance through discussions of AI's role in ensuring data fidelity for operational goals and performance optimization.",
+          "title": "Gecko Robotics: AI and Robotics at Freeport-McMoRan Mine Sites",
+          "url": "https://mining-technology.com/features/robots-ai-mines-gecko-robotics"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Democratizing Data: Freeport-McMoRan Haul Truck Operator Scorecard - WWT,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by outlining a strategic approach to AI/ML implementation, suggesting decision-making authority over opportunities. Transparency is evidenced by the description of an ML application and its components, as well as mentions of AI's technical sophistication and required capabilities, all of which indicate openness about the solution's use case, functionality, and needs.",
+          "title": "Democratizing Data: Freeport-McMoRan Haul Truck Operator Scorecard - WWT",
+          "url": "https://wwt.com/case-study/democratizing-data-to-reach-new-levels-of-productivity-with-freeport-mcmoran"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 15,
+      "findings": "Freeport-McMoRan's documentation describes the use of machine learning models and data analysis for optimization, detailing the deployment of AI and robotics in mining operations, and highlighting AI's capabilities for emissions reduction. Various AI applications, including safety and environmental monitoring, autonomous navigation, resource identification, and failure prediction, are outlined, along with explanations of how diverse data is leveraged for maintenance and capital deployment. Technical papers further describe ML application components, technical sophistication, required capabilities, use cases, functionality, and needs.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post describes Freeport-McMoRan's AI initiative, providing evidence for **governance** and **transparency**. The post mentions the company's long-term strategy and goals for AI, as well as efforts in building AI capability and talent development, indicating governance intent. Furthermore, the description of using machine-learning models and data analysis for optimization implies transparency and governance over their AI use.",
+          "title": "Case Study: AI Transformation at Freeport-McMoRan - AIX",
+          "url": "https://aiexpert.network/ai-at-freeport-mcmoran"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by detailing the deployment of AI and robotics in mining operations, highlighting AI's capabilities for emissions reduction, and explaining how diverse data is leveraged for maintenance and capital deployment. The source also indicates governance through discussions of AI's role in ensuring data fidelity for operational goals and performance optimization.",
+          "title": "Gecko Robotics: AI and Robotics at Freeport-McMoRan Mine Sites",
+          "url": "https://mining-technology.com/features/robots-ai-mines-gecko-robotics"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis, \"Freeport-McMoRan AI Use Cases 2024 (PitchGrade),\" provides evidence for the **transparency** pillar. The document describes various AI applications, including safety monitoring, environmental monitoring, autonomous navigation systems, resource identification, and failure prediction, without detailing the underlying data or algorithmic specifics, thus supporting transparency by outlining capabilities.",
+          "title": "Freeport-McMoRan AI Use Cases 2024 (PitchGrade)",
+          "url": "https://pitchgrade.com/companies/freeport-mcmoran-ai-use-cases"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Democratizing Data: Freeport-McMoRan Haul Truck Operator Scorecard - WWT,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by outlining a strategic approach to AI/ML implementation, suggesting decision-making authority over opportunities. Transparency is evidenced by the description of an ML application and its components, as well as mentions of AI's technical sophistication and required capabilities, all of which indicate openness about the solution's use case, functionality, and needs.",
+          "title": "Democratizing Data: Freeport-McMoRan Haul Truck Operator Scorecard - WWT",
+          "url": "https://wwt.com/case-study/democratizing-data-to-reach-new-levels-of-productivity-with-freeport-mcmoran"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T21:50:36Z",
+  "run_id": "20260202_221824_c3e5",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Transparency and governance are the only responsible AI pillars addressed in Freeport-McMoRan's public disclosures, covering 2 of 7 evaluated areas. Transparency disclosures describe the use of machine-learning models and data analysis for optimization, alongside the deployment of AI and robotics in mining operations. Published materials on governance mention the company's long-term strategy and goals for AI, as well as efforts in building AI capability and talent development. Drawing from 9 publicly available sources, no qualifying public evidence was found for the majority of the 7 evaluated pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 2,
+    "pillars_without_evidence": 5,
+    "total_evidence_items": 20,
+    "total_sources_used": 4
+  }
+}

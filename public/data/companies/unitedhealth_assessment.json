@@ -1,0 +1,1525 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 92.9,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 13
+  },
+  "company": "UnitedHealth",
+  "company_slug": "unitedhealth",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 72,
+      "OPERATIONAL": 108,
+      "POLICY": 342
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 6,
+      "findings": "Policy documents require validation for explainability in AI models. Technical papers highlight training providers to interpret algorithms, and case study analyses emphasize the need for explainable AI models and transparent decision-making to identify bias sources. Strategic analyses acknowledge both the risks and potential regulatory mandates concerning explainability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This UnitedHealth vendor policy, \"Responsible Use of Artificial Intelligence – Minimum Standards,\" provides evidence for the **governance**, **fairness**, **explainability**, **oversight**, and **privacy** pillars. The policy mandates a comprehensive AI governance program, including annual risk assessments, bias testing, ongoing monitoring, and enterprise-wide AI policies, which directly supports **governance** and **oversight**. It also requires validation for accuracy, unbiasedness, and explainability, along with human review, demonstrating support for the **fairness** and **explainability** pillars. Furthermore, the policy's emphasis on record retention and adherence to industry standards indicates a commitment to responsible AI practices that touch upon **privacy** considerations.",
+          "title": "Responsible Use of Artificial Intelligence – Minimum Standards",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/About/responsible_ai_minimum_standards.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Making Health Care Work Smarter - AI Infrastructure and Oversight,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing the AI Review Board's role in model review for fairness and safety, and by describing the United AI Studio platform's features for managing privacy, fairness, and governance throughout the AI lifecycle. The document also emphasizes AI's role in supporting human decision-making, reinforcing the importance of human control and oversight.",
+          "title": "Making Health Care Work Smarter - AI Infrastructure and Oversight",
+          "url": "https://unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_033",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Ensuring Equity in Health AI Algorithms - Optum Impact Pro Case,\" provides evidence for **fairness, governance, and explainability**. The paper documents Optum's efforts to prevent bias through data selection, stakeholder communication, expert feedback, and periodic testing, demonstrating operational fairness and governance. It also highlights training providers to interpret the algorithm, supporting explainability, and discusses equitable performance and balancing datasets, reinforcing a commitment to fairness.",
+          "title": "Ensuring Equity in Health AI Algorithms - Optum Impact Pro Case",
+          "url": "https://libraopen.lib.virginia.edu/downloads/v692t6392"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_034",
+          "source_tier": "third_party",
+          "summary": "This case study analysis of healthcare AI bias provides evidence for **explainability**, **fairness**, and **oversight**. It highlights the need for explainable AI models and transparent decision-making to identify bias sources, and discusses strategies and technical approaches for mitigating algorithmic bias and ensuring equitable performance through fairness constraints and specific metrics. The source also mentions regulatory oversight bodies like the FDA and the need for frameworks to evaluate AI systems.",
+          "title": "Real-world Examples of Healthcare AI Bias",
+          "url": "https://paubox.com/blog/real-world-examples-of-healthcare-ai-bias"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_042",
+          "source_tier": "third_party",
+          "summary": "This policy document from the American Medical Association establishes principles for responsible AI use in healthcare, providing evidence for **fairness**, **governance**, **oversight**, **transparency**, and **privacy**. It mandates efforts to identify and mitigate algorithmic discrimination, promoting health equity and addressing disparate impacts. The policy also outlines requirements for risk-based oversight, validation, data protection, HIPAA compliance, and transparency in AI systems, including human intervention points for clinical decisions.",
+          "title": "American Medical Association - AI Principles and Clinical Algorithm Rule",
+          "url": "https://ama-assn.org/system/files/ama-ai-principles.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_064",
+          "source_tier": "third_party",
+          "summary": "This strategic analysis of UnitedHealth Group's AI strategy provides evidence for several responsible AI pillars. The document supports **governance** through its discussion of an \"AI governance framework,\" \"Statement of AI Principles,\" and the establishment of \"technical and compliance standards.\" Evidence for **oversight** is found in the mention of a \"Review Board\" and a \"human-in-the-loop emphasis.\" The source also touches upon **fairness** and **external accountability** by describing a commitment to diverse data and continuous fairness audits, and **transparency** is implied through the offering of \"ready-to-implement AI solutions and APIs.\" Finally, the report acknowledges risks and potential regulatory mandates for **explainability**, indicating concerns and aspirations in this area.",
+          "title": "UnitedHealth Group AI Strategy: Dominance in Healthcare AI",
+          "url": "https://klover.ai/unitedhealth-group-ai-strategy-dominance-in-healthcare-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 28,
+      "findings": "The company demonstrates external accountability through partnerships with external firms for risk assessments and security program evaluations. Shareholder engagement on AI is described, and there is a commitment to collaboration on auditing methodology. Audit reports highlight external accountability through legal challenges and the mention of a named investigative body, alongside references to organizational responsibility for AI training and oversight.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"2021 Sustainability Report - Responsible AI Governance\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The report details a governance structure across the enterprise for AI/ML strategy and responsible use, including the integration of a Machine Learning Review Board to proactively review models for bias. It also outlines commitments to embedding health equity into policies, acknowledging and mitigating potential bias throughout the AI lifecycle, and establishing security controls and third-party validation for data protection, thereby supporting privacy and external accountability.",
+          "title": "2021 Sustainability Report - Responsible AI Governance",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/2024/sustainability/2021-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "authority",
+          "summary": "This SEC 10-K filing from UnitedHealth Group provides evidence for **governance**, **oversight**, **privacy**, and **external accountability**. The document supports governance by detailing leadership frameworks, risk evaluation processes, and policies for responsible AI/ML design and development. Oversight is evidenced through management's responsibility for internal controls and the evaluation of controls by named officers. Privacy is supported by discussions of security threats to data and systems, including those from AI/ML, and compliance with emerging data protection laws. Finally, external accountability is indicated by partnerships with external firms for risk assessments and security program evaluations.",
+          "title": "Form 10-K - UnitedHealth Group 2024 Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/731766/000073176625000063/unh-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, fairness, privacy, external accountability, and transparency**. It details the Board's oversight of AI through specific committees (Audit and Finance, Health and Clinical Practice) responsible for AI governance, risk mitigation, and ethical application. The document also highlights the AI Review Board's authority, the shift of AI ownership to Legal/Compliance, and the inclusion of AI in shareholder engagement and risk management discussions, demonstrating established governance structures and accountability mechanisms.",
+          "title": "2025 Proxy Statement - Artificial Intelligence Risk Oversight",
+          "url": "https://sec.gov/Archives/edgar/data/731766/000110465925036829/tm252303-2_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing the Board's oversight of an AI framework, including governance mechanisms to monitor and mitigate AI risks, and the responsibility of specific committees for overseeing the ethical application of AI in healthcare. The document also mentions privacy and data protection as areas of oversight, and describes various governance practices such as compensation clawback policies and shareholder engagement on AI.",
+          "title": "2025 Annual Proxy Statement - Board Governance and AI",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/2025_proxy_statement_final.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"2025 Annual Meeting FAQs - AI Use and Clinician Support,\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. The document supports these pillars by mentioning the involvement of a \"cyber expert\" and \"Audit Committee\" for oversight and privacy, discussing AI use cases that emphasize human judgment for transparency, and referencing \"cybersecurity\" and \"data protection\" measures. It also indicates governance through discussions of risk assessment and pricing disciplines, and a commitment to collaboration on auditing methodology.",
+          "title": "2025 Annual Meeting FAQs - AI Use and Clinician Support",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/2025_Annual_Meeting_FAQs.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This audit report from the OCR details a HIPAA compliance investigation into Change Healthcare, providing evidence for **external_accountability**, **governance**, and **privacy**. The report highlights the organization's security management processes, including risk analysis, regular reviews, and safeguarding of patient data, which support governance and privacy. Furthermore, it touches upon accountability for business associate compliance and workforce sanctions policies, demonstrating external accountability and governance.",
+          "title": "OCR Opens HIPAA Compliance Investigation of Change Healthcare",
+          "url": "https://hipaajournal.com/ocr-opens-hipaa-compliance-investigation-of-change-healthcare"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Senate Subcommittee Investigation - MA Algorithm Use,\" provides evidence for **external_accountability**, **governance**, and **transparency**. The report details an investigation into the use of unregulated algorithms by UnitedHealth and NaviHealth, supporting **external_accountability** through the mention of a named investigative body. It also highlights issues with **governance** by describing how employees were pressured to adhere to AI predictions despite clinical objections, indicating a lack of appropriate decision-making authority and accountability. Finally, the report's description of the AI use case and its impact on patient care cutoff timing supports the **transparency** pillar.",
+          "title": "Senate Subcommittee Investigation - MA Algorithm Use",
+          "url": "https://statnews.com/2024/10/17/medicare-advantage-insurers-ai-technology-prior-authorization-claims-denials-senate-investig"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This ProPublica audit report provides evidence for **external accountability, governance, oversight, and transparency**. It details an algorithmic system (ALERT) used to limit mental health coverage, revealing governance over its creation and purpose, as well as oversight mechanisms like human review processes and escalation procedures. The report also highlights external accountability through legal challenges and implies transparency concerns by describing the system's use of arbitrary thresholds and internal playbooks for cost targets.",
+          "title": "Inside UnitedHealth's Playbook for Limiting Mental Health Coverage",
+          "url": "https://propublica.org/article/unitedhealth-mental-health-care-denied-illegal-algorithm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_047",
+          "source_tier": "third_party",
+          "summary": "This FTI Communications report on AI shareholder proposals provides evidence for **external accountability, governance, oversight, and transparency**. The report details shareholder proposals requesting AI transparency, ethical guidelines, and board oversight, with some proposals leading to company commitments for improved disclosures and policy updates. Specific examples include requests for independent assessments of AI oversight and reporting on AI use, demonstrating mechanisms for accountability and governance.",
+          "title": "FTI Communications - AI Shareholder Proposals Trends Analysis",
+          "url": "https://fticommunications.com/unveiling-key-trends-in-ai-shareholder-proposals"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_052",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"CMS Sets New Guardrails for AI in Medicare Advantage,\" provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. It mandates validation of AI tools, mitigation of bias, and audits of existing algorithms, supporting governance and oversight. The policy also emphasizes transparency through public criteria and prohibits denials based on proprietary algorithmic analysis, directly addressing fairness and transparency. Furthermore, it implies privacy and external accountability through references to ISO certification and audit requirements.",
+          "title": "CMS Sets New Guardrails for AI in Medicare Advantage",
+          "url": "https://inovaare.com/blog/cms-guidance-ai-medicare-advantage"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_061",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis of \"AI in Healthcare - UnitedHealthcare Controversy and Public Scrutiny\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. The source discusses the need for \"defensible quality control workflows\" and \"audits\" (external_accountability, governance), highlights manual review as an oversight mechanism (oversight), and mentions security and data protection requirements (privacy). Furthermore, it touches upon transparency challenges in handling complex use cases and the need to understand pricing dynamics for AI (transparency, governance).",
+          "title": "AI in Healthcare - UnitedHealthcare Controversy and Public Scrutiny",
+          "url": "https://complexdiscovery.com/ai-in-healthcare-unitedhealthcares-controversy-and-the-tragic-death-of-ceo"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_064",
+          "source_tier": "third_party",
+          "summary": "This strategic analysis of UnitedHealth Group's AI strategy provides evidence for several responsible AI pillars. The document supports **governance** through its discussion of an \"AI governance framework,\" \"Statement of AI Principles,\" and the establishment of \"technical and compliance standards.\" Evidence for **oversight** is found in the mention of a \"Review Board\" and a \"human-in-the-loop emphasis.\" The source also touches upon **fairness** and **external accountability** by describing a commitment to diverse data and continuous fairness audits, and **transparency** is implied through the offering of \"ready-to-implement AI solutions and APIs.\" Finally, the report acknowledges risks and potential regulatory mandates for **explainability**, indicating concerns and aspirations in this area.",
+          "title": "UnitedHealth Group AI Strategy: Dominance in Healthcare AI",
+          "url": "https://klover.ai/unitedhealth-group-ai-strategy-dominance-in-healthcare-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 73,
+      "findings": "Policy documents require validation for unbiasedness, cooperation with bias assessments, and compliance with policies for detecting and mitigating algorithmic bias. There is a commitment to embedding health equity, acknowledging and mitigating potential bias throughout the AI lifecycle, and ensuring no automated denials. Efforts to prevent bias through data selection, stakeholder communication, expert feedback, and periodic testing are documented, alongside mandates for mitigating algorithmic discrimination and promoting equitable access.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This UnitedHealth vendor policy, \"Responsible Use of Artificial Intelligence – Minimum Standards,\" provides evidence for the **governance**, **fairness**, **explainability**, **oversight**, and **privacy** pillars. The policy mandates a comprehensive AI governance program, including annual risk assessments, bias testing, ongoing monitoring, and enterprise-wide AI policies, which directly supports **governance** and **oversight**. It also requires validation for accuracy, unbiasedness, and explainability, along with human review, demonstrating support for the **fairness** and **explainability** pillars. Furthermore, the policy's emphasis on record retention and adherence to industry standards indicates a commitment to responsible AI practices that touch upon **privacy** considerations.",
+          "title": "Responsible Use of Artificial Intelligence – Minimum Standards",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/About/responsible_ai_minimum_standards.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Supplier Code of Conduct - AI/ML Requirements,\" provides evidence for the **governance** and **fairness** pillars. It mandates that suppliers establish and maintain responsible AI/ML use policies, demonstrating a commitment to governance. Furthermore, the policy requires cooperation with bias assessments and compliance with responsible use policies, including the detection and mitigation of algorithmic bias, which directly supports the fairness pillar.",
+          "title": "Supplier Code of Conduct - AI/ML Requirements",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/About/Supplier_Code_of_Conduct_2020.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Making Health Care Work Smarter - AI Infrastructure and Oversight,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing the AI Review Board's role in model review for fairness and safety, and by describing the United AI Studio platform's features for managing privacy, fairness, and governance throughout the AI lifecycle. The document also emphasizes AI's role in supporting human decision-making, reinforcing the importance of human control and oversight.",
+          "title": "Making Health Care Work Smarter - AI Infrastructure and Oversight",
+          "url": "https://unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"2021 Sustainability Report - Responsible AI Governance\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The report details a governance structure across the enterprise for AI/ML strategy and responsible use, including the integration of a Machine Learning Review Board to proactively review models for bias. It also outlines commitments to embedding health equity into policies, acknowledging and mitigating potential bias throughout the AI lifecycle, and establishing security controls and third-party validation for data protection, thereby supporting privacy and external accountability.",
+          "title": "2021 Sustainability Report - Responsible AI Governance",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/2024/sustainability/2021-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "authority",
+          "summary": "This SEC 10-K filing from UnitedHealth Group provides evidence for **governance**, **oversight**, **privacy**, and **external accountability**. The document supports governance by detailing leadership frameworks, risk evaluation processes, and policies for responsible AI/ML design and development. Oversight is evidenced through management's responsibility for internal controls and the evaluation of controls by named officers. Privacy is supported by discussions of security threats to data and systems, including those from AI/ML, and compliance with emerging data protection laws. Finally, external accountability is indicated by partnerships with external firms for risk assessments and security program evaluations.",
+          "title": "Form 10-K - UnitedHealth Group 2024 Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/731766/000073176625000063/unh-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, fairness, privacy, external accountability, and transparency**. It details the Board's oversight of AI through specific committees (Audit and Finance, Health and Clinical Practice) responsible for AI governance, risk mitigation, and ethical application. The document also highlights the AI Review Board's authority, the shift of AI ownership to Legal/Compliance, and the inclusion of AI in shareholder engagement and risk management discussions, demonstrating established governance structures and accountability mechanisms.",
+          "title": "2025 Proxy Statement - Artificial Intelligence Risk Oversight",
+          "url": "https://sec.gov/Archives/edgar/data/731766/000110465925036829/tm252303-2_def14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This legal analysis of discovery disputes in Estate of Lokken v. UnitedHealth Group provides evidence for **fairness**, **governance**, and **transparency**. The document discusses the plaintiffs' aggressive strategy to compel the production of AI system details, including algorithm source code, data, rules, and development documentation, highlighting the tension between transparency and trade secret protection. It also touches upon the need for explainability and the assessment of AI error rates and bias, which are critical aspects of fairness and transparency, and details demands for AI system lifecycle processes, indicating governance-related information requirements.",
+          "title": "Discovery Battle Analysis - nH Predict Litigation Strategy",
+          "url": "https://jdsupra.com/legalnews/the-lokken-v-uhc-discovery-battle-and-2812574"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_032",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Denial—Artificial Intelligence Tools and Health Insurance Coverage Decisions,\" provides evidence for fairness, governance, oversight, and transparency. It highlights concerns for health equity and potential discrimination patterns related to AI use in insurance decisions, supporting the **fairness** pillar. The paper also discusses the importance of algorithmic governance, potential conflicts of interest, and the need for clarity on human review and override mechanisms, all of which support the **governance** and **oversight** pillars. Furthermore, it touches upon transparency and ethical considerations for algorithm use, aligning with the **transparency** pillar.",
+          "title": "Denial—Artificial Intelligence Tools and Health Insurance Coverage Decisions",
+          "url": "https://jamanetwork.com/journals/jama-health-forum/fullarticle/2816204"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_033",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Ensuring Equity in Health AI Algorithms - Optum Impact Pro Case,\" provides evidence for **fairness, governance, and explainability**. The paper documents Optum's efforts to prevent bias through data selection, stakeholder communication, expert feedback, and periodic testing, demonstrating operational fairness and governance. It also highlights training providers to interpret the algorithm, supporting explainability, and discusses equitable performance and balancing datasets, reinforcing a commitment to fairness.",
+          "title": "Ensuring Equity in Health AI Algorithms - Optum Impact Pro Case",
+          "url": "https://libraopen.lib.virginia.edu/downloads/v692t6392"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_034",
+          "source_tier": "third_party",
+          "summary": "This case study analysis of healthcare AI bias provides evidence for **explainability**, **fairness**, and **oversight**. It highlights the need for explainable AI models and transparent decision-making to identify bias sources, and discusses strategies and technical approaches for mitigating algorithmic bias and ensuring equitable performance through fairness constraints and specific metrics. The source also mentions regulatory oversight bodies like the FDA and the need for frameworks to evaluate AI systems.",
+          "title": "Real-world Examples of Healthcare AI Bias",
+          "url": "https://paubox.com/blog/real-world-examples-of-healthcare-ai-bias"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_042",
+          "source_tier": "third_party",
+          "summary": "This policy document from the American Medical Association establishes principles for responsible AI use in healthcare, providing evidence for **fairness**, **governance**, **oversight**, **transparency**, and **privacy**. It mandates efforts to identify and mitigate algorithmic discrimination, promoting health equity and addressing disparate impacts. The policy also outlines requirements for risk-based oversight, validation, data protection, HIPAA compliance, and transparency in AI systems, including human intervention points for clinical decisions.",
+          "title": "American Medical Association - AI Principles and Clinical Algorithm Rule",
+          "url": "https://ama-assn.org/system/files/ama-ai-principles.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_045",
+          "source_tier": "third_party",
+          "summary": "The \"SHARE - Shareholder Engagement on AI at UnitedHealth\" document provides evidence for **governance** and **fairness**. It supports governance by detailing the company's commitment to produce a report on AI ethical guidelines, governance structures, guardrails, and review mechanisms, indicating operational execution. Evidence for fairness is found in mentions of algorithmic bias, inequities, and the goal of ensuring no automated denials, alongside the development of safeguards and human-in-the-loop oversight.",
+          "title": "SHARE - Shareholder Engagement on AI at UnitedHealth",
+          "url": "https://share.ca/blog/shareholder-engagement-for-ai-oversight"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_046",
+          "source_tier": "third_party",
+          "summary": "The \"ICCR - Investor Statement on AI in Healthcare\" provides evidence for **fairness, governance, oversight, and transparency**. This investor statement highlights concerns about algorithmic bias and inequities, directly supporting the **fairness** pillar. It also discusses the need for regulatory authority and accountability for AI product outcomes, which relates to **governance**. Furthermore, the statement calls for regulations and oversight to manage AI risks, underscoring the **oversight** pillar, and implies a need for transparency in mitigation plans, supporting the **transparency** pillar.",
+          "title": "ICCR - Investor Statement on AI in Healthcare",
+          "url": "https://iccr.org/ai-in-healthcare"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_048",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"CMS 2024 Medicare Advantage Final Rule - UM Requirements,\" provides evidence for the **fairness** pillar of responsible AI. It supports fairness by explicitly requiring efforts to reduce disparities, promoting improved access for diverse populations through listed provider capabilities, and mentioning a health equity index designed to enhance care for enrollees with social risk factors.",
+          "title": "CMS 2024 Medicare Advantage Final Rule - UM Requirements",
+          "url": "https://cms.gov/newsroom/fact-sheets/2024-medicare-advantage-and-part-d-final-rule-cms-4201-f"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_050",
+          "source_tier": "third_party",
+          "summary": "This proposed rule from CMS provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The document supports fairness by referencing \"equitable access,\" \"antidiscrimination provisions,\" and the need to address \"biased inputs\" and use AI in a \"nondiscriminatory way.\" Governance is supported through requirements for MA plans to be \"responsible for ensuring\" AI compliance and through binding responsibilities for AI use. Finally, transparency is evidenced by the requirement for \"analyses\" and \"report transparency data.\"",
+          "title": "CMS Proposes AI Limits and UM Guardrails - Proposed Rule",
+          "url": "https://www.sidley.com/en/insights/newsupdates/2024/12/cms-proposes-artificial-intelligence-limits-and-utilization-management-guardrails"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_051",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for **governance** and **oversight** by discussing FAQs clarifying rules for AI/algorithms in coverage and utilization management, urging monitoring and reporting for AI use in coverage decisions, and highlighting the need to rein in inappropriate AI use. It also supports **transparency** by seeking input on data to guide policy, specifically mentioning algorithms in utilization management. Furthermore, the document touches on **privacy** by addressing data use consent and raises **fairness** concerns by highlighting disparate impacts on MA enrollees.",
+          "title": "American Hospital Association - CMS Prior Authorization Rule Analysis",
+          "url": "https://aha.org/system/files/media/file/2024/03/health-plan-accountability-update-march-2024.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_052",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"CMS Sets New Guardrails for AI in Medicare Advantage,\" provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. It mandates validation of AI tools, mitigation of bias, and audits of existing algorithms, supporting governance and oversight. The policy also emphasizes transparency through public criteria and prohibits denials based on proprietary algorithmic analysis, directly addressing fairness and transparency. Furthermore, it implies privacy and external accountability through references to ISO certification and audit requirements.",
+          "title": "CMS Sets New Guardrails for AI in Medicare Advantage",
+          "url": "https://inovaare.com/blog/cms-guidance-ai-medicare-advantage"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_062",
+          "source_tier": "third_party",
+          "summary": "This Forbes article, \"AI Ethics Essentials: Lawsuit Over AI Denial of Healthcare,\" provides evidence for fairness, governance, oversight, privacy, and transparency. The source highlights the critical role of data governance in ensuring data integrity, security, and usability, which directly supports the privacy and governance pillars. Furthermore, it underscores the importance of ethical implementation, accountability, and transparency in AI decision-making for patient interests, thereby supporting the fairness, governance, oversight, and transparency pillars.",
+          "title": "Forbes - AI Ethics Essentials: Lawsuit Over AI Denial of Healthcare",
+          "url": "https://forbes.com/sites/douglaslaney/2023/11/16/ai-ethics-essentials-lawsuit-over-ai-denial-of-healthcare"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_063",
+          "source_tier": "third_party",
+          "summary": "This audit report highlights significant external scrutiny of insurer AI use in healthcare, providing evidence for **external_accountability**, **fairness**, **governance**, **oversight**, and **transparency**. The report details regulatory concerns, congressional investigations, and legal actions like the nHPredict lawsuits, demonstrating calls for algorithmic transparency and oversight. It also references directives for proactive bias assessment and organizational responsibility for AI training and oversight, alongside CMS clarifications on AI use in coverage decisions, indicating established governance and the need for AI tools to avoid perpetuating bias.",
+          "title": "Insurer Use of AI in Healthcare Draws Expansive Scrutiny",
+          "url": "https://greenbaumlaw.com/assets/htmldocuments/InsurerUseofAlinHealthcareDrawsExpansiveScrutiny.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_064",
+          "source_tier": "third_party",
+          "summary": "This strategic analysis of UnitedHealth Group's AI strategy provides evidence for several responsible AI pillars. The document supports **governance** through its discussion of an \"AI governance framework,\" \"Statement of AI Principles,\" and the establishment of \"technical and compliance standards.\" Evidence for **oversight** is found in the mention of a \"Review Board\" and a \"human-in-the-loop emphasis.\" The source also touches upon **fairness** and **external accountability** by describing a commitment to diverse data and continuous fairness audits, and **transparency** is implied through the offering of \"ready-to-implement AI solutions and APIs.\" Finally, the report acknowledges risks and potential regulatory mandates for **explainability**, indicating concerns and aspirations in this area.",
+          "title": "UnitedHealth Group AI Strategy: Dominance in Healthcare AI",
+          "url": "https://klover.ai/unitedhealth-group-ai-strategy-dominance-in-healthcare-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_065",
+          "source_tier": "third_party",
+          "summary": "This UnitedHealthcare policy document provides evidence for the **fairness**, **governance**, and **oversight** pillars of responsible AI. The policy commits to assessing bias and ensuring fair treatment, establishing governance structures and monitoring mechanisms, and describes testing and continuous evaluation to ensure AI performance and fulfillment of purpose.",
+          "title": "AI for better care: Our commitment to using AI responsibly",
+          "url": "https://www.uhc.com/agents-brokers/employer-sponsored-plans/news-strategies/ai-for-better-care-responsible-use"
+        }
+      ],
+      "score": 2,
+      "source_count": 21
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 395,
+      "findings": "The company's governance practices include mandating suppliers to establish and maintain responsible AI/ML use policies, and detailing the AI Review Board's role in model review. A governance structure across the enterprise for AI/ML strategy and responsible use is described, including the integration of a Machine Learning Review Board. The Board's oversight of an AI framework, risk evaluation processes, and policies for responsible AI/ML design and development are detailed, with AI ownership shifting to Legal/Compliance.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This UnitedHealth vendor policy, \"Responsible Use of Artificial Intelligence – Minimum Standards,\" provides evidence for the **governance**, **fairness**, **explainability**, **oversight**, and **privacy** pillars. The policy mandates a comprehensive AI governance program, including annual risk assessments, bias testing, ongoing monitoring, and enterprise-wide AI policies, which directly supports **governance** and **oversight**. It also requires validation for accuracy, unbiasedness, and explainability, along with human review, demonstrating support for the **fairness** and **explainability** pillars. Furthermore, the policy's emphasis on record retention and adherence to industry standards indicates a commitment to responsible AI practices that touch upon **privacy** considerations.",
+          "title": "Responsible Use of Artificial Intelligence – Minimum Standards",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/About/responsible_ai_minimum_standards.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Supplier Code of Conduct - AI/ML Requirements,\" provides evidence for the **governance** and **fairness** pillars. It mandates that suppliers establish and maintain responsible AI/ML use policies, demonstrating a commitment to governance. Furthermore, the policy requires cooperation with bias assessments and compliance with responsible use policies, including the detection and mitigation of algorithmic bias, which directly supports the fairness pillar.",
+          "title": "Supplier Code of Conduct - AI/ML Requirements",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/About/Supplier_Code_of_Conduct_2020.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Making Health Care Work Smarter - AI Infrastructure and Oversight,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing the AI Review Board's role in model review for fairness and safety, and by describing the United AI Studio platform's features for managing privacy, fairness, and governance throughout the AI lifecycle. The document also emphasizes AI's role in supporting human decision-making, reinforcing the importance of human control and oversight.",
+          "title": "Making Health Care Work Smarter - AI Infrastructure and Oversight",
+          "url": "https://unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"2021 Sustainability Report - Responsible AI Governance\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The report details a governance structure across the enterprise for AI/ML strategy and responsible use, including the integration of a Machine Learning Review Board to proactively review models for bias. It also outlines commitments to embedding health equity into policies, acknowledging and mitigating potential bias throughout the AI lifecycle, and establishing security controls and third-party validation for data protection, thereby supporting privacy and external accountability.",
+          "title": "2021 Sustainability Report - Responsible AI Governance",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/2024/sustainability/2021-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This corporate investor conference material supports the **governance** pillar by describing how AI is integrated into healthcare operations for improved claims accuracy and clinical decision support, implying data management and use for decision-making. It also supports the **transparency** pillar by explicitly stating transparency as a goal for AI use within health systems.",
+          "title": "2024 Investor Conference - AI Strategy and Governance",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2024/ic24/Investor-Conference-2024-Book.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "The \"Investor Conference 2024 - AI as Enablement Tool\" document provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing how AI is used to simplify administrative processes and support clinical decision-making, implying a structured approach to AI implementation. The document also supports transparency by explicitly mentioning transparency as a key consideration in their AI strategy.",
+          "title": "Investor Conference 2024 - AI as Enablement Tool",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2024/ic24/IC24_UNH%20Overview_All.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This executive summary of the 2024 Sustainability Report provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It supports governance by mentioning a commitment to the \"integrity of data\" and explicitly stating \"governance.\" The report also supports oversight through the documented action of adding to an \"AI Review Board\" and by explicitly mentioning \"AI oversight.\" Finally, evidence for the privacy pillar is found in the mention of \"security\" in relation to data.",
+          "title": "2024 Sustainability Report Executive Summary",
+          "url": "https://unitedhealthgroup.com/content/dam/sustainability-report/2024/pdf/2024-SR_Executive-Summary.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "authority",
+          "summary": "This SEC 10-K filing from UnitedHealth Group provides evidence for **governance**, **oversight**, **privacy**, and **external accountability**. The document supports governance by detailing leadership frameworks, risk evaluation processes, and policies for responsible AI/ML design and development. Oversight is evidenced through management's responsibility for internal controls and the evaluation of controls by named officers. Privacy is supported by discussions of security threats to data and systems, including those from AI/ML, and compliance with emerging data protection laws. Finally, external accountability is indicated by partnerships with external firms for risk assessments and security program evaluations.",
+          "title": "Form 10-K - UnitedHealth Group 2024 Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/731766/000073176625000063/unh-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, fairness, privacy, external accountability, and transparency**. It details the Board's oversight of AI through specific committees (Audit and Finance, Health and Clinical Practice) responsible for AI governance, risk mitigation, and ethical application. The document also highlights the AI Review Board's authority, the shift of AI ownership to Legal/Compliance, and the inclusion of AI in shareholder engagement and risk management discussions, demonstrating established governance structures and accountability mechanisms.",
+          "title": "2025 Proxy Statement - Artificial Intelligence Risk Oversight",
+          "url": "https://sec.gov/Archives/edgar/data/731766/000110465925036829/tm252303-2_def14a.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This company-owned charter, \"Public Responsibility Committee Charter - Risk Oversight,\" provides evidence for the **governance** pillar of responsible AI. The charter explicitly outlines the committee's responsibility to \"oversee enterprise AI risks,\" demonstrating a mechanism for managing and directing AI-related activities within the organization.",
+          "title": "Public Responsibility Committee Charter - Risk Oversight",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/About/UNH-Public-Responsibility-Committee-Charter.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing the Board's oversight of an AI framework, including governance mechanisms to monitor and mitigate AI risks, and the responsibility of specific committees for overseeing the ethical application of AI in healthcare. The document also mentions privacy and data protection as areas of oversight, and describes various governance practices such as compensation clawback policies and shareholder engagement on AI.",
+          "title": "2025 Annual Proxy Statement - Board Governance and AI",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/2025_proxy_statement_final.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"2025 Annual Meeting FAQs - AI Use and Clinician Support,\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. The document supports these pillars by mentioning the involvement of a \"cyber expert\" and \"Audit Committee\" for oversight and privacy, discussing AI use cases that emphasize human judgment for transparency, and referencing \"cybersecurity\" and \"data protection\" measures. It also indicates governance through discussions of risk assessment and pricing disciplines, and a commitment to collaboration on auditing methodology.",
+          "title": "2025 Annual Meeting FAQs - AI Use and Clinician Support",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/2025_Annual_Meeting_FAQs.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "This FTC administrative complaint provides evidence for the **governance** pillar by detailing alleged unfair algorithm-driven rebate practices. The complaint highlights the FTC's authority and oversight in enforcing laws against market manipulation and abuse of economic power, demonstrating accountability for business conduct.",
+          "title": "FTC Administrative Complaint - OptumRx Rebate Practices",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-sues-prescription-drug-middlemen-artificially-inflating-insulin-drug-prices"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This audit report from the OCR details a HIPAA compliance investigation into Change Healthcare, providing evidence for **external_accountability**, **governance**, and **privacy**. The report highlights the organization's security management processes, including risk analysis, regular reviews, and safeguarding of patient data, which support governance and privacy. Furthermore, it touches upon accountability for business associate compliance and workforce sanctions policies, demonstrating external accountability and governance.",
+          "title": "OCR Opens HIPAA Compliance Investigation of Change Healthcare",
+          "url": "https://hipaajournal.com/ocr-opens-hipaa-compliance-investigation-of-change-healthcare"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This federal court filing provides evidence for **governance**, **oversight**, and **transparency**. The court order touches upon governance and oversight by referencing CMS guidance that algorithms should assist, not dictate, coverage decisions, and by describing a discovery process focused on decision-making authority and accountability. Transparency is supported by the clarification that coverage decisions are based on established criteria, not solely the AI tool.",
+          "title": "Federal Court Order - nH Predict Discovery Denial",
+          "url": "https://beckerspayer.com/payer/medicare-advantage/judge-denies-unitedhealths-bid-to-limit-discovery-in-ai-coverage-denial-ca"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This legal analysis of discovery disputes in Estate of Lokken v. UnitedHealth Group provides evidence for **fairness**, **governance**, and **transparency**. The document discusses the plaintiffs' aggressive strategy to compel the production of AI system details, including algorithm source code, data, rules, and development documentation, highlighting the tension between transparency and trade secret protection. It also touches upon the need for explainability and the assessment of AI error rates and bias, which are critical aspects of fairness and transparency, and details demands for AI system lifecycle processes, indicating governance-related information requirements.",
+          "title": "Discovery Battle Analysis - nH Predict Litigation Strategy",
+          "url": "https://jdsupra.com/legalnews/the-lokken-v-uhc-discovery-battle-and-2812574"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This STAT audit report provides evidence for the **governance** and **oversight** pillars of responsible AI. The report details how UnitedHealth allegedly used the nH Predict algorithm for claims denials, indicating a decision-making process and operational governance. Furthermore, it highlights a lack of human review in the denial process and a low appeal rate, suggesting deficiencies in oversight mechanisms and the effectiveness of existing governance structures.",
+          "title": "STAT Investigation - UnitedHealth Class Action Lawsuit",
+          "url": "https://statnews.com/2023/11/14/unitedhealth-class-action-lawsuit-algorithm-medicare-advantage"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Senate Subcommittee Investigation - MA Algorithm Use,\" provides evidence for **external_accountability**, **governance**, and **transparency**. The report details an investigation into the use of unregulated algorithms by UnitedHealth and NaviHealth, supporting **external_accountability** through the mention of a named investigative body. It also highlights issues with **governance** by describing how employees were pressured to adhere to AI predictions despite clinical objections, indicating a lack of appropriate decision-making authority and accountability. Finally, the report's description of the AI use case and its impact on patient care cutoff timing supports the **transparency** pillar.",
+          "title": "Senate Subcommittee Investigation - MA Algorithm Use",
+          "url": "https://statnews.com/2024/10/17/medicare-advantage-insurers-ai-technology-prior-authorization-claims-denials-senate-investig"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This investigative series, \"STAT - Denied by AI Series Overview,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The report details how algorithms were used in decision-making processes, referencing \"secret rules\" that governed these decisions and highlighting an algorithm's role in guiding employee actions and overriding clinician judgment. This demonstrates a lack of transparency and control over AI systems, which are key concerns for both governance and oversight.",
+          "title": "STAT - Denied by AI Series Overview (Pulitzer Finalist)",
+          "url": "https://statnews.com/denied-by-ai-unitedhealth-investigative-series"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This STAT investigation audit report provides evidence for **governance** and **oversight**. It reveals that an algorithm dictated payment decisions, with employees pressured to adhere to its projections, demonstrating a lack of independent decision-making and highlighting issues with operational governance. The report also points to specific targets and accountability measures for missing them, indicating a form of human oversight, albeit one that appears to be misaligned with patient care needs.",
+          "title": "STAT Investigation - How Algorithm Drove Care Denials",
+          "url": "https://statnews.com/2023/11/14/unitedhealth-algorithm-medicare-advantage-investigation"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"STAT - Health Care's Colossus Series Overview,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The report highlights a policy failure by referencing \"unregulated algorithm\" use, which directly relates to governance, and describes instances of algorithms \"override[ing] clinicians’ judgments,\" indicating a lack of effective oversight.",
+          "title": "STAT - Health Care's Colossus Series Overview",
+          "url": "https://statnews.com/2024/12/23/unitedhealth-group-stat-investigations-claims-denials-health-care-colossus"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"STAT - Individual Impact Story and Algorithmic Denials,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The report discusses governance through the involvement of a regulatory body and oversight by medical directors who are directed by AI. It also addresses transparency by documenting UnitedHealth's statements denying the use of AI for adverse determinations, thereby shedding light on the company's policies regarding AI usage.",
+          "title": "STAT - Individual Impact Story and Algorithmic Denials",
+          "url": "https://statnews.com/2025/05/19/unitedhealth-algorithm-ai-denials-of-care"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This ProPublica audit report provides evidence for **external accountability, governance, oversight, and transparency**. It details an algorithmic system (ALERT) used to limit mental health coverage, revealing governance over its creation and purpose, as well as oversight mechanisms like human review processes and escalation procedures. The report also highlights external accountability through legal challenges and implies transparency concerns by describing the system's use of arbitrary thresholds and internal playbooks for cost targets.",
+          "title": "Inside UnitedHealth's Playbook for Limiting Mental Health Coverage",
+          "url": "https://propublica.org/article/unitedhealth-mental-health-care-denied-illegal-algorithm"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_030",
+          "source_tier": "third_party",
+          "summary": "This ProPublica audit report provides evidence for the **governance** and **oversight** pillars of responsible AI. The report details Optum's strategies and processes for managing provider networks and authorizing treatments, including the use of data-driven scrutiny, clinical reviews, and human oversight through care advocates and appeal processes. These mechanisms demonstrate how the company governs its decision-making and exercises oversight in its operations, particularly concerning access to care for vulnerable populations.",
+          "title": "UnitedHealth Limits Access to Key Treatment for Kids With Autism",
+          "url": "https://propublica.org/article/unitedhealthcare-insurance-autism-denials-applied-behavior-analysis-medicaid"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_032",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Denial—Artificial Intelligence Tools and Health Insurance Coverage Decisions,\" provides evidence for fairness, governance, oversight, and transparency. It highlights concerns for health equity and potential discrimination patterns related to AI use in insurance decisions, supporting the **fairness** pillar. The paper also discusses the importance of algorithmic governance, potential conflicts of interest, and the need for clarity on human review and override mechanisms, all of which support the **governance** and **oversight** pillars. Furthermore, it touches upon transparency and ethical considerations for algorithm use, aligning with the **transparency** pillar.",
+          "title": "Denial—Artificial Intelligence Tools and Health Insurance Coverage Decisions",
+          "url": "https://jamanetwork.com/journals/jama-health-forum/fullarticle/2816204"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_033",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Ensuring Equity in Health AI Algorithms - Optum Impact Pro Case,\" provides evidence for **fairness, governance, and explainability**. The paper documents Optum's efforts to prevent bias through data selection, stakeholder communication, expert feedback, and periodic testing, demonstrating operational fairness and governance. It also highlights training providers to interpret the algorithm, supporting explainability, and discusses equitable performance and balancing datasets, reinforcing a commitment to fairness.",
+          "title": "Ensuring Equity in Health AI Algorithms - Optum Impact Pro Case",
+          "url": "https://libraopen.lib.virginia.edu/downloads/v692t6392"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_035",
+          "source_tier": "third_party",
+          "summary": "This audit report on the UnitedHealth nHPredict case provides evidence for governance, oversight, and transparency. It details operational governance through case managers being trained to defend algorithmic predictions and held to specific targets, as well as a company shift towards performance metrics influencing AI use. Oversight is demonstrated by the mention of physician medical reviewers and the overriding of physician judgments. Transparency is supported by the description of the AI system's use case and data input, alongside the denial of access to proprietary AI reports.",
+          "title": "AI Incident Database - UnitedHealth nHPredict Case",
+          "url": "https://incidentdatabase.ai/reports/3348"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_036",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing allegations of an AI tool being used to \"decide\" and \"deny\" care duration, and setting specific targets for its projections. The filing also supports transparency by naming the AI tool (\"nH Predict\") and describing its use in determining care cutoff and coverage limits.",
+          "title": "Medicare Advantage Algorithm-Denied Claims Lawsuits",
+          "url": "https://classaction.org/healthcare-algorithm-scandal-lawsuit"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_037",
+          "source_tier": "third_party",
+          "summary": "This news report provides evidence for **governance** and **oversight** by detailing allegations that UnitedHealth knowingly deployed an AI with a high error rate, leading to improper denial of care for elderly patients. The claims suggest failures in establishing proper accountability for AI-driven decisions and a lack of robust mechanisms to prevent the misuse of AI for financial gain at the expense of beneficiaries.",
+          "title": "UnitedHealth Lawsuit - Elderly Patients Denied by Faulty AI",
+          "url": "https://cbsnews.com/news/unitedhealth-lawsuit-ai-deny-claims-medicare-advantage-health-insurance-denials"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_038",
+          "source_tier": "third_party",
+          "summary": "This news coverage provides evidence for the **governance** and **oversight** pillars of responsible AI. It highlights the existence of disciplinary actions for deviations from AI guidelines and model projections, demonstrating accountability and governance. Furthermore, the mention of a \"human in the loop\" for oversight and an approval process indicates mechanisms for operational governance and oversight in the AI's application.",
+          "title": "Lawsuits Take Aim at Insurer Use of AI Algorithm",
+          "url": "https://cbsnews.com/news/health-insurance-humana-united-health-ai-algorithm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_041",
+          "source_tier": "third_party",
+          "summary": "This journalism award analysis provides evidence for **governance, oversight, and transparency** by detailing how UnitedHealth Group (UHG) used an AI for predictions, highlighting physician reviewers deferring to the algorithm, and exposing the unregulated use of AI that prioritized algorithmic projections over clinical evidence. The report indicates that UHG's AI use case demonstrates governance, while the deferral to algorithms and lack of ability to question its outputs point to issues with oversight and transparency.",
+          "title": "STAT 'Denied by AI' Series as Exemplar of Healthcare Journalism",
+          "url": "https://healthjournalism.org/blog/2024/10/stats-denied-by-ai-series-a-model-of-solid-investigative-journalism"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_042",
+          "source_tier": "third_party",
+          "summary": "This policy document from the American Medical Association establishes principles for responsible AI use in healthcare, providing evidence for **fairness**, **governance**, **oversight**, **transparency**, and **privacy**. It mandates efforts to identify and mitigate algorithmic discrimination, promoting health equity and addressing disparate impacts. The policy also outlines requirements for risk-based oversight, validation, data protection, HIPAA compliance, and transparency in AI systems, including human intervention points for clinical decisions.",
+          "title": "American Medical Association - AI Principles and Clinical Algorithm Rule",
+          "url": "https://ama-assn.org/system/files/ama-ai-principles.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_043",
+          "source_tier": "third_party",
+          "summary": "The Interfaith Center on Corporate Responsibility's AI Transparency Resolution provides evidence for the **governance**, **oversight**, and **transparency** pillars. This shareholder resolution requests UnitedHealth Group to publicly disclose a transparency report detailing their AI use, the Board's oversight role, and adopted ethical guidelines, thereby mandating disclosures on data use, purpose, and consequences for AI systems. The resolution also requires policies and controls for AI use, directly supporting governance and oversight.",
+          "title": "Interfaith Center on Corporate Responsibility - AI Transparency Resolution",
+          "url": "https://iccr.org/resolutions/ai-transparency-report-2"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_044",
+          "source_tier": "third_party",
+          "summary": "This investor network resource on UnitedHealth Group's AI governance provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. The document highlights the company's commitment to board oversight of AI compliance and ethical guidelines, and its intention to produce transparency reports detailing AI use, data usage, and governance structures. It also mentions proactive disclosures on data use and the purpose of AI systems, aiming for ethical implementation.",
+          "title": "PRI - AI Governance at UnitedHealth Group",
+          "url": "https://collaborate.unpri.org/group/20796/home"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_045",
+          "source_tier": "third_party",
+          "summary": "The \"SHARE - Shareholder Engagement on AI at UnitedHealth\" document provides evidence for **governance** and **fairness**. It supports governance by detailing the company's commitment to produce a report on AI ethical guidelines, governance structures, guardrails, and review mechanisms, indicating operational execution. Evidence for fairness is found in mentions of algorithmic bias, inequities, and the goal of ensuring no automated denials, alongside the development of safeguards and human-in-the-loop oversight.",
+          "title": "SHARE - Shareholder Engagement on AI at UnitedHealth",
+          "url": "https://share.ca/blog/shareholder-engagement-for-ai-oversight"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_046",
+          "source_tier": "third_party",
+          "summary": "The \"ICCR - Investor Statement on AI in Healthcare\" provides evidence for **fairness, governance, oversight, and transparency**. This investor statement highlights concerns about algorithmic bias and inequities, directly supporting the **fairness** pillar. It also discusses the need for regulatory authority and accountability for AI product outcomes, which relates to **governance**. Furthermore, the statement calls for regulations and oversight to manage AI risks, underscoring the **oversight** pillar, and implies a need for transparency in mitigation plans, supporting the **transparency** pillar.",
+          "title": "ICCR - Investor Statement on AI in Healthcare",
+          "url": "https://iccr.org/ai-in-healthcare"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_047",
+          "source_tier": "third_party",
+          "summary": "This FTI Communications report on AI shareholder proposals provides evidence for **external accountability, governance, oversight, and transparency**. The report details shareholder proposals requesting AI transparency, ethical guidelines, and board oversight, with some proposals leading to company commitments for improved disclosures and policy updates. Specific examples include requests for independent assessments of AI oversight and reporting on AI use, demonstrating mechanisms for accountability and governance.",
+          "title": "FTI Communications - AI Shareholder Proposals Trends Analysis",
+          "url": "https://fticommunications.com/unveiling-key-trends-in-ai-shareholder-proposals"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_049",
+          "source_tier": "third_party",
+          "summary": "This CMS FAQ document provides evidence for the **governance** and **transparency** pillars of responsible AI. It clarifies that while Medicare Advantage plans can use algorithms to assist in coverage determinations, the organizations themselves are ultimately responsible for ensuring compliance with all applicable rules, thus supporting the governance pillar. Furthermore, the document explicitly outlines requirements for public transparency regarding the use of AI and algorithms, offering guidance on how this information should be presented, which directly supports the transparency pillar.",
+          "title": "CMS FAQs on Medicare Advantage Use of Artificial Intelligence",
+          "url": "https://hrsonline.org/news/cms-releases-faq-ma-plan-using-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_050",
+          "source_tier": "third_party",
+          "summary": "This proposed rule from CMS provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The document supports fairness by referencing \"equitable access,\" \"antidiscrimination provisions,\" and the need to address \"biased inputs\" and use AI in a \"nondiscriminatory way.\" Governance is supported through requirements for MA plans to be \"responsible for ensuring\" AI compliance and through binding responsibilities for AI use. Finally, transparency is evidenced by the requirement for \"analyses\" and \"report transparency data.\"",
+          "title": "CMS Proposes AI Limits and UM Guardrails - Proposed Rule",
+          "url": "https://www.sidley.com/en/insights/newsupdates/2024/12/cms-proposes-artificial-intelligence-limits-and-utilization-management-guardrails"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_051",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for **governance** and **oversight** by discussing FAQs clarifying rules for AI/algorithms in coverage and utilization management, urging monitoring and reporting for AI use in coverage decisions, and highlighting the need to rein in inappropriate AI use. It also supports **transparency** by seeking input on data to guide policy, specifically mentioning algorithms in utilization management. Furthermore, the document touches on **privacy** by addressing data use consent and raises **fairness** concerns by highlighting disparate impacts on MA enrollees.",
+          "title": "American Hospital Association - CMS Prior Authorization Rule Analysis",
+          "url": "https://aha.org/system/files/media/file/2024/03/health-plan-accountability-update-march-2024.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_052",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"CMS Sets New Guardrails for AI in Medicare Advantage,\" provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. It mandates validation of AI tools, mitigation of bias, and audits of existing algorithms, supporting governance and oversight. The policy also emphasizes transparency through public criteria and prohibits denials based on proprietary algorithmic analysis, directly addressing fairness and transparency. Furthermore, it implies privacy and external accountability through references to ISO certification and audit requirements.",
+          "title": "CMS Sets New Guardrails for AI in Medicare Advantage",
+          "url": "https://inovaare.com/blog/cms-guidance-ai-medicare-advantage"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_054",
+          "source_tier": "third_party",
+          "summary": "This Healthcare Dive article provides evidence for the **governance** pillar of responsible AI. It highlights the formation of a new public responsibility committee at UnitedHealth, which will provide an additional layer of oversight for core operations, including areas where AI has faced scrutiny, such as claim denials. The article details the committee's specific responsibilities, indicating defined areas of accountability and decision-making authority for managing risks.",
+          "title": "Healthcare Dive - UnitedHealth Forms Public Responsibility Committee",
+          "url": "https://healthcaredive.com/news/unitedhealth-board-committee-reputational-regulatory-risks/758246"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_055",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis of the Change Healthcare data breach provides evidence for the **governance** and **privacy** pillars. The report highlights a critical lack of multifactor authentication on remote servers, a violation of HIPAA requirements, and the exfiltration of over 6TB of sensitive patient data, directly impacting privacy. The breach's scale and the failure to implement basic security measures underscore significant governance failures in protecting sensitive information.",
+          "title": "Change Healthcare Data Breach 2024 - Key Findings",
+          "url": "https://ispartnersllc.com/blog/change-healthcare-data-breach-2024"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_059",
+          "source_tier": "third_party",
+          "summary": "This news report on the Change Healthcare cyberattack investigation provides evidence for the **governance** and **privacy** pillars. It highlights the federal government's focus on HIPAA Rules compliance and timely notification requirements, indicating a commitment to established governance frameworks. Furthermore, the mention of potential Protected Health Information (PHI) breaches underscores the importance of privacy considerations within the healthcare sector.",
+          "title": "HHS Opens Investigation into Change Healthcare Cyberattack",
+          "url": "https://cybersecuritydive.com/news/hhs-investigates-change-healthcare/710286"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_061",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis of \"AI in Healthcare - UnitedHealthcare Controversy and Public Scrutiny\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. The source discusses the need for \"defensible quality control workflows\" and \"audits\" (external_accountability, governance), highlights manual review as an oversight mechanism (oversight), and mentions security and data protection requirements (privacy). Furthermore, it touches upon transparency challenges in handling complex use cases and the need to understand pricing dynamics for AI (transparency, governance).",
+          "title": "AI in Healthcare - UnitedHealthcare Controversy and Public Scrutiny",
+          "url": "https://complexdiscovery.com/ai-in-healthcare-unitedhealthcares-controversy-and-the-tragic-death-of-ceo"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_062",
+          "source_tier": "third_party",
+          "summary": "This Forbes article, \"AI Ethics Essentials: Lawsuit Over AI Denial of Healthcare,\" provides evidence for fairness, governance, oversight, privacy, and transparency. The source highlights the critical role of data governance in ensuring data integrity, security, and usability, which directly supports the privacy and governance pillars. Furthermore, it underscores the importance of ethical implementation, accountability, and transparency in AI decision-making for patient interests, thereby supporting the fairness, governance, oversight, and transparency pillars.",
+          "title": "Forbes - AI Ethics Essentials: Lawsuit Over AI Denial of Healthcare",
+          "url": "https://forbes.com/sites/douglaslaney/2023/11/16/ai-ethics-essentials-lawsuit-over-ai-denial-of-healthcare"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_063",
+          "source_tier": "third_party",
+          "summary": "This audit report highlights significant external scrutiny of insurer AI use in healthcare, providing evidence for **external_accountability**, **fairness**, **governance**, **oversight**, and **transparency**. The report details regulatory concerns, congressional investigations, and legal actions like the nHPredict lawsuits, demonstrating calls for algorithmic transparency and oversight. It also references directives for proactive bias assessment and organizational responsibility for AI training and oversight, alongside CMS clarifications on AI use in coverage decisions, indicating established governance and the need for AI tools to avoid perpetuating bias.",
+          "title": "Insurer Use of AI in Healthcare Draws Expansive Scrutiny",
+          "url": "https://greenbaumlaw.com/assets/htmldocuments/InsurerUseofAlinHealthcareDrawsExpansiveScrutiny.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_064",
+          "source_tier": "third_party",
+          "summary": "This strategic analysis of UnitedHealth Group's AI strategy provides evidence for several responsible AI pillars. The document supports **governance** through its discussion of an \"AI governance framework,\" \"Statement of AI Principles,\" and the establishment of \"technical and compliance standards.\" Evidence for **oversight** is found in the mention of a \"Review Board\" and a \"human-in-the-loop emphasis.\" The source also touches upon **fairness** and **external accountability** by describing a commitment to diverse data and continuous fairness audits, and **transparency** is implied through the offering of \"ready-to-implement AI solutions and APIs.\" Finally, the report acknowledges risks and potential regulatory mandates for **explainability**, indicating concerns and aspirations in this area.",
+          "title": "UnitedHealth Group AI Strategy: Dominance in Healthcare AI",
+          "url": "https://klover.ai/unitedhealth-group-ai-strategy-dominance-in-healthcare-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_065",
+          "source_tier": "third_party",
+          "summary": "This UnitedHealthcare policy document provides evidence for the **fairness**, **governance**, and **oversight** pillars of responsible AI. The policy commits to assessing bias and ensuring fair treatment, establishing governance structures and monitoring mechanisms, and describes testing and continuous evaluation to ensure AI performance and fulfillment of purpose.",
+          "title": "AI for better care: Our commitment to using AI responsibly",
+          "url": "https://www.uhc.com/agents-brokers/employer-sponsored-plans/news-strategies/ai-for-better-care-responsible-use"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_066",
+          "source_tier": "third_party",
+          "summary": "This UnitedHealthcare help page provides evidence for the governance, oversight, privacy, and transparency pillars of responsible AI. It clarifies that AI is used to inform providers and caregivers, not to make coverage decisions or adverse clinical determinations, demonstrating governance over AI's role and authority. The page also highlights a commitment to responsible AI use, prioritizing human review, privacy, security, and accuracy.",
+          "title": "AI for better care: Your questions answered",
+          "url": "https://www.uhc.com/agents-brokers/employer-sponsored-plans/news-strategies/ai-for-better-care-faq"
+        }
+      ],
+      "score": 2,
+      "source_count": 50
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 123,
+      "findings": "The company's oversight practices include human review for AI, with an AI Review Board and Machine Learning Review Board playing roles in model review for fairness and safety. Board oversight of AI frameworks and ethical application is detailed through specific committees, and management is responsible for internal controls. Oversight mechanisms also include human review processes, escalation procedures, clinical reviews, and human oversight through care advocates and appeal processes, with a human-in-the-loop emphasis.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This UnitedHealth vendor policy, \"Responsible Use of Artificial Intelligence – Minimum Standards,\" provides evidence for the **governance**, **fairness**, **explainability**, **oversight**, and **privacy** pillars. The policy mandates a comprehensive AI governance program, including annual risk assessments, bias testing, ongoing monitoring, and enterprise-wide AI policies, which directly supports **governance** and **oversight**. It also requires validation for accuracy, unbiasedness, and explainability, along with human review, demonstrating support for the **fairness** and **explainability** pillars. Furthermore, the policy's emphasis on record retention and adherence to industry standards indicates a commitment to responsible AI practices that touch upon **privacy** considerations.",
+          "title": "Responsible Use of Artificial Intelligence – Minimum Standards",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/About/responsible_ai_minimum_standards.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Making Health Care Work Smarter - AI Infrastructure and Oversight,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing the AI Review Board's role in model review for fairness and safety, and by describing the United AI Studio platform's features for managing privacy, fairness, and governance throughout the AI lifecycle. The document also emphasizes AI's role in supporting human decision-making, reinforcing the importance of human control and oversight.",
+          "title": "Making Health Care Work Smarter - AI Infrastructure and Oversight",
+          "url": "https://unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"2021 Sustainability Report - Responsible AI Governance\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The report details a governance structure across the enterprise for AI/ML strategy and responsible use, including the integration of a Machine Learning Review Board to proactively review models for bias. It also outlines commitments to embedding health equity into policies, acknowledging and mitigating potential bias throughout the AI lifecycle, and establishing security controls and third-party validation for data protection, thereby supporting privacy and external accountability.",
+          "title": "2021 Sustainability Report - Responsible AI Governance",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/2024/sustainability/2021-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This executive summary of the 2024 Sustainability Report provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It supports governance by mentioning a commitment to the \"integrity of data\" and explicitly stating \"governance.\" The report also supports oversight through the documented action of adding to an \"AI Review Board\" and by explicitly mentioning \"AI oversight.\" Finally, evidence for the privacy pillar is found in the mention of \"security\" in relation to data.",
+          "title": "2024 Sustainability Report Executive Summary",
+          "url": "https://unitedhealthgroup.com/content/dam/sustainability-report/2024/pdf/2024-SR_Executive-Summary.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "authority",
+          "summary": "This SEC 10-K filing from UnitedHealth Group provides evidence for **governance**, **oversight**, **privacy**, and **external accountability**. The document supports governance by detailing leadership frameworks, risk evaluation processes, and policies for responsible AI/ML design and development. Oversight is evidenced through management's responsibility for internal controls and the evaluation of controls by named officers. Privacy is supported by discussions of security threats to data and systems, including those from AI/ML, and compliance with emerging data protection laws. Finally, external accountability is indicated by partnerships with external firms for risk assessments and security program evaluations.",
+          "title": "Form 10-K - UnitedHealth Group 2024 Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/731766/000073176625000063/unh-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, fairness, privacy, external accountability, and transparency**. It details the Board's oversight of AI through specific committees (Audit and Finance, Health and Clinical Practice) responsible for AI governance, risk mitigation, and ethical application. The document also highlights the AI Review Board's authority, the shift of AI ownership to Legal/Compliance, and the inclusion of AI in shareholder engagement and risk management discussions, demonstrating established governance structures and accountability mechanisms.",
+          "title": "2025 Proxy Statement - Artificial Intelligence Risk Oversight",
+          "url": "https://sec.gov/Archives/edgar/data/731766/000110465925036829/tm252303-2_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing the Board's oversight of an AI framework, including governance mechanisms to monitor and mitigate AI risks, and the responsibility of specific committees for overseeing the ethical application of AI in healthcare. The document also mentions privacy and data protection as areas of oversight, and describes various governance practices such as compensation clawback policies and shareholder engagement on AI.",
+          "title": "2025 Annual Proxy Statement - Board Governance and AI",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/2025_proxy_statement_final.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"2025 Annual Meeting FAQs - AI Use and Clinician Support,\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. The document supports these pillars by mentioning the involvement of a \"cyber expert\" and \"Audit Committee\" for oversight and privacy, discussing AI use cases that emphasize human judgment for transparency, and referencing \"cybersecurity\" and \"data protection\" measures. It also indicates governance through discussions of risk assessment and pricing disciplines, and a commitment to collaboration on auditing methodology.",
+          "title": "2025 Annual Meeting FAQs - AI Use and Clinician Support",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/2025_Annual_Meeting_FAQs.pdf"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This federal court filing provides evidence for **governance**, **oversight**, and **transparency**. The court order touches upon governance and oversight by referencing CMS guidance that algorithms should assist, not dictate, coverage decisions, and by describing a discovery process focused on decision-making authority and accountability. Transparency is supported by the clarification that coverage decisions are based on established criteria, not solely the AI tool.",
+          "title": "Federal Court Order - nH Predict Discovery Denial",
+          "url": "https://beckerspayer.com/payer/medicare-advantage/judge-denies-unitedhealths-bid-to-limit-discovery-in-ai-coverage-denial-ca"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This STAT audit report provides evidence for the **governance** and **oversight** pillars of responsible AI. The report details how UnitedHealth allegedly used the nH Predict algorithm for claims denials, indicating a decision-making process and operational governance. Furthermore, it highlights a lack of human review in the denial process and a low appeal rate, suggesting deficiencies in oversight mechanisms and the effectiveness of existing governance structures.",
+          "title": "STAT Investigation - UnitedHealth Class Action Lawsuit",
+          "url": "https://statnews.com/2023/11/14/unitedhealth-class-action-lawsuit-algorithm-medicare-advantage"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This investigative series, \"STAT - Denied by AI Series Overview,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The report details how algorithms were used in decision-making processes, referencing \"secret rules\" that governed these decisions and highlighting an algorithm's role in guiding employee actions and overriding clinician judgment. This demonstrates a lack of transparency and control over AI systems, which are key concerns for both governance and oversight.",
+          "title": "STAT - Denied by AI Series Overview (Pulitzer Finalist)",
+          "url": "https://statnews.com/denied-by-ai-unitedhealth-investigative-series"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This STAT investigation audit report provides evidence for **governance** and **oversight**. It reveals that an algorithm dictated payment decisions, with employees pressured to adhere to its projections, demonstrating a lack of independent decision-making and highlighting issues with operational governance. The report also points to specific targets and accountability measures for missing them, indicating a form of human oversight, albeit one that appears to be misaligned with patient care needs.",
+          "title": "STAT Investigation - How Algorithm Drove Care Denials",
+          "url": "https://statnews.com/2023/11/14/unitedhealth-algorithm-medicare-advantage-investigation"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"STAT - Health Care's Colossus Series Overview,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The report highlights a policy failure by referencing \"unregulated algorithm\" use, which directly relates to governance, and describes instances of algorithms \"override[ing] clinicians’ judgments,\" indicating a lack of effective oversight.",
+          "title": "STAT - Health Care's Colossus Series Overview",
+          "url": "https://statnews.com/2024/12/23/unitedhealth-group-stat-investigations-claims-denials-health-care-colossus"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"STAT - Individual Impact Story and Algorithmic Denials,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The report discusses governance through the involvement of a regulatory body and oversight by medical directors who are directed by AI. It also addresses transparency by documenting UnitedHealth's statements denying the use of AI for adverse determinations, thereby shedding light on the company's policies regarding AI usage.",
+          "title": "STAT - Individual Impact Story and Algorithmic Denials",
+          "url": "https://statnews.com/2025/05/19/unitedhealth-algorithm-ai-denials-of-care"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This ProPublica audit report provides evidence for **external accountability, governance, oversight, and transparency**. It details an algorithmic system (ALERT) used to limit mental health coverage, revealing governance over its creation and purpose, as well as oversight mechanisms like human review processes and escalation procedures. The report also highlights external accountability through legal challenges and implies transparency concerns by describing the system's use of arbitrary thresholds and internal playbooks for cost targets.",
+          "title": "Inside UnitedHealth's Playbook for Limiting Mental Health Coverage",
+          "url": "https://propublica.org/article/unitedhealth-mental-health-care-denied-illegal-algorithm"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_030",
+          "source_tier": "third_party",
+          "summary": "This ProPublica audit report provides evidence for the **governance** and **oversight** pillars of responsible AI. The report details Optum's strategies and processes for managing provider networks and authorizing treatments, including the use of data-driven scrutiny, clinical reviews, and human oversight through care advocates and appeal processes. These mechanisms demonstrate how the company governs its decision-making and exercises oversight in its operations, particularly concerning access to care for vulnerable populations.",
+          "title": "UnitedHealth Limits Access to Key Treatment for Kids With Autism",
+          "url": "https://propublica.org/article/unitedhealthcare-insurance-autism-denials-applied-behavior-analysis-medicaid"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_032",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Denial—Artificial Intelligence Tools and Health Insurance Coverage Decisions,\" provides evidence for fairness, governance, oversight, and transparency. It highlights concerns for health equity and potential discrimination patterns related to AI use in insurance decisions, supporting the **fairness** pillar. The paper also discusses the importance of algorithmic governance, potential conflicts of interest, and the need for clarity on human review and override mechanisms, all of which support the **governance** and **oversight** pillars. Furthermore, it touches upon transparency and ethical considerations for algorithm use, aligning with the **transparency** pillar.",
+          "title": "Denial—Artificial Intelligence Tools and Health Insurance Coverage Decisions",
+          "url": "https://jamanetwork.com/journals/jama-health-forum/fullarticle/2816204"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_034",
+          "source_tier": "third_party",
+          "summary": "This case study analysis of healthcare AI bias provides evidence for **explainability**, **fairness**, and **oversight**. It highlights the need for explainable AI models and transparent decision-making to identify bias sources, and discusses strategies and technical approaches for mitigating algorithmic bias and ensuring equitable performance through fairness constraints and specific metrics. The source also mentions regulatory oversight bodies like the FDA and the need for frameworks to evaluate AI systems.",
+          "title": "Real-world Examples of Healthcare AI Bias",
+          "url": "https://paubox.com/blog/real-world-examples-of-healthcare-ai-bias"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_035",
+          "source_tier": "third_party",
+          "summary": "This audit report on the UnitedHealth nHPredict case provides evidence for governance, oversight, and transparency. It details operational governance through case managers being trained to defend algorithmic predictions and held to specific targets, as well as a company shift towards performance metrics influencing AI use. Oversight is demonstrated by the mention of physician medical reviewers and the overriding of physician judgments. Transparency is supported by the description of the AI system's use case and data input, alongside the denial of access to proprietary AI reports.",
+          "title": "AI Incident Database - UnitedHealth nHPredict Case",
+          "url": "https://incidentdatabase.ai/reports/3348"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_037",
+          "source_tier": "third_party",
+          "summary": "This news report provides evidence for **governance** and **oversight** by detailing allegations that UnitedHealth knowingly deployed an AI with a high error rate, leading to improper denial of care for elderly patients. The claims suggest failures in establishing proper accountability for AI-driven decisions and a lack of robust mechanisms to prevent the misuse of AI for financial gain at the expense of beneficiaries.",
+          "title": "UnitedHealth Lawsuit - Elderly Patients Denied by Faulty AI",
+          "url": "https://cbsnews.com/news/unitedhealth-lawsuit-ai-deny-claims-medicare-advantage-health-insurance-denials"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_038",
+          "source_tier": "third_party",
+          "summary": "This news coverage provides evidence for the **governance** and **oversight** pillars of responsible AI. It highlights the existence of disciplinary actions for deviations from AI guidelines and model projections, demonstrating accountability and governance. Furthermore, the mention of a \"human in the loop\" for oversight and an approval process indicates mechanisms for operational governance and oversight in the AI's application.",
+          "title": "Lawsuits Take Aim at Insurer Use of AI Algorithm",
+          "url": "https://cbsnews.com/news/health-insurance-humana-united-health-ai-algorithm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_041",
+          "source_tier": "third_party",
+          "summary": "This journalism award analysis provides evidence for **governance, oversight, and transparency** by detailing how UnitedHealth Group (UHG) used an AI for predictions, highlighting physician reviewers deferring to the algorithm, and exposing the unregulated use of AI that prioritized algorithmic projections over clinical evidence. The report indicates that UHG's AI use case demonstrates governance, while the deferral to algorithms and lack of ability to question its outputs point to issues with oversight and transparency.",
+          "title": "STAT 'Denied by AI' Series as Exemplar of Healthcare Journalism",
+          "url": "https://healthjournalism.org/blog/2024/10/stats-denied-by-ai-series-a-model-of-solid-investigative-journalism"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_042",
+          "source_tier": "third_party",
+          "summary": "This policy document from the American Medical Association establishes principles for responsible AI use in healthcare, providing evidence for **fairness**, **governance**, **oversight**, **transparency**, and **privacy**. It mandates efforts to identify and mitigate algorithmic discrimination, promoting health equity and addressing disparate impacts. The policy also outlines requirements for risk-based oversight, validation, data protection, HIPAA compliance, and transparency in AI systems, including human intervention points for clinical decisions.",
+          "title": "American Medical Association - AI Principles and Clinical Algorithm Rule",
+          "url": "https://ama-assn.org/system/files/ama-ai-principles.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_043",
+          "source_tier": "third_party",
+          "summary": "The Interfaith Center on Corporate Responsibility's AI Transparency Resolution provides evidence for the **governance**, **oversight**, and **transparency** pillars. This shareholder resolution requests UnitedHealth Group to publicly disclose a transparency report detailing their AI use, the Board's oversight role, and adopted ethical guidelines, thereby mandating disclosures on data use, purpose, and consequences for AI systems. The resolution also requires policies and controls for AI use, directly supporting governance and oversight.",
+          "title": "Interfaith Center on Corporate Responsibility - AI Transparency Resolution",
+          "url": "https://iccr.org/resolutions/ai-transparency-report-2"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_044",
+          "source_tier": "third_party",
+          "summary": "This investor network resource on UnitedHealth Group's AI governance provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. The document highlights the company's commitment to board oversight of AI compliance and ethical guidelines, and its intention to produce transparency reports detailing AI use, data usage, and governance structures. It also mentions proactive disclosures on data use and the purpose of AI systems, aiming for ethical implementation.",
+          "title": "PRI - AI Governance at UnitedHealth Group",
+          "url": "https://collaborate.unpri.org/group/20796/home"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_045",
+          "source_tier": "third_party",
+          "summary": "The \"SHARE - Shareholder Engagement on AI at UnitedHealth\" document provides evidence for **governance** and **fairness**. It supports governance by detailing the company's commitment to produce a report on AI ethical guidelines, governance structures, guardrails, and review mechanisms, indicating operational execution. Evidence for fairness is found in mentions of algorithmic bias, inequities, and the goal of ensuring no automated denials, alongside the development of safeguards and human-in-the-loop oversight.",
+          "title": "SHARE - Shareholder Engagement on AI at UnitedHealth",
+          "url": "https://share.ca/blog/shareholder-engagement-for-ai-oversight"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_046",
+          "source_tier": "third_party",
+          "summary": "The \"ICCR - Investor Statement on AI in Healthcare\" provides evidence for **fairness, governance, oversight, and transparency**. This investor statement highlights concerns about algorithmic bias and inequities, directly supporting the **fairness** pillar. It also discusses the need for regulatory authority and accountability for AI product outcomes, which relates to **governance**. Furthermore, the statement calls for regulations and oversight to manage AI risks, underscoring the **oversight** pillar, and implies a need for transparency in mitigation plans, supporting the **transparency** pillar.",
+          "title": "ICCR - Investor Statement on AI in Healthcare",
+          "url": "https://iccr.org/ai-in-healthcare"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_047",
+          "source_tier": "third_party",
+          "summary": "This FTI Communications report on AI shareholder proposals provides evidence for **external accountability, governance, oversight, and transparency**. The report details shareholder proposals requesting AI transparency, ethical guidelines, and board oversight, with some proposals leading to company commitments for improved disclosures and policy updates. Specific examples include requests for independent assessments of AI oversight and reporting on AI use, demonstrating mechanisms for accountability and governance.",
+          "title": "FTI Communications - AI Shareholder Proposals Trends Analysis",
+          "url": "https://fticommunications.com/unveiling-key-trends-in-ai-shareholder-proposals"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_051",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for **governance** and **oversight** by discussing FAQs clarifying rules for AI/algorithms in coverage and utilization management, urging monitoring and reporting for AI use in coverage decisions, and highlighting the need to rein in inappropriate AI use. It also supports **transparency** by seeking input on data to guide policy, specifically mentioning algorithms in utilization management. Furthermore, the document touches on **privacy** by addressing data use consent and raises **fairness** concerns by highlighting disparate impacts on MA enrollees.",
+          "title": "American Hospital Association - CMS Prior Authorization Rule Analysis",
+          "url": "https://aha.org/system/files/media/file/2024/03/health-plan-accountability-update-march-2024.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_052",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"CMS Sets New Guardrails for AI in Medicare Advantage,\" provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. It mandates validation of AI tools, mitigation of bias, and audits of existing algorithms, supporting governance and oversight. The policy also emphasizes transparency through public criteria and prohibits denials based on proprietary algorithmic analysis, directly addressing fairness and transparency. Furthermore, it implies privacy and external accountability through references to ISO certification and audit requirements.",
+          "title": "CMS Sets New Guardrails for AI in Medicare Advantage",
+          "url": "https://inovaare.com/blog/cms-guidance-ai-medicare-advantage"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_061",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis of \"AI in Healthcare - UnitedHealthcare Controversy and Public Scrutiny\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. The source discusses the need for \"defensible quality control workflows\" and \"audits\" (external_accountability, governance), highlights manual review as an oversight mechanism (oversight), and mentions security and data protection requirements (privacy). Furthermore, it touches upon transparency challenges in handling complex use cases and the need to understand pricing dynamics for AI (transparency, governance).",
+          "title": "AI in Healthcare - UnitedHealthcare Controversy and Public Scrutiny",
+          "url": "https://complexdiscovery.com/ai-in-healthcare-unitedhealthcares-controversy-and-the-tragic-death-of-ceo"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_062",
+          "source_tier": "third_party",
+          "summary": "This Forbes article, \"AI Ethics Essentials: Lawsuit Over AI Denial of Healthcare,\" provides evidence for fairness, governance, oversight, privacy, and transparency. The source highlights the critical role of data governance in ensuring data integrity, security, and usability, which directly supports the privacy and governance pillars. Furthermore, it underscores the importance of ethical implementation, accountability, and transparency in AI decision-making for patient interests, thereby supporting the fairness, governance, oversight, and transparency pillars.",
+          "title": "Forbes - AI Ethics Essentials: Lawsuit Over AI Denial of Healthcare",
+          "url": "https://forbes.com/sites/douglaslaney/2023/11/16/ai-ethics-essentials-lawsuit-over-ai-denial-of-healthcare"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_064",
+          "source_tier": "third_party",
+          "summary": "This strategic analysis of UnitedHealth Group's AI strategy provides evidence for several responsible AI pillars. The document supports **governance** through its discussion of an \"AI governance framework,\" \"Statement of AI Principles,\" and the establishment of \"technical and compliance standards.\" Evidence for **oversight** is found in the mention of a \"Review Board\" and a \"human-in-the-loop emphasis.\" The source also touches upon **fairness** and **external accountability** by describing a commitment to diverse data and continuous fairness audits, and **transparency** is implied through the offering of \"ready-to-implement AI solutions and APIs.\" Finally, the report acknowledges risks and potential regulatory mandates for **explainability**, indicating concerns and aspirations in this area.",
+          "title": "UnitedHealth Group AI Strategy: Dominance in Healthcare AI",
+          "url": "https://klover.ai/unitedhealth-group-ai-strategy-dominance-in-healthcare-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_065",
+          "source_tier": "third_party",
+          "summary": "This UnitedHealthcare policy document provides evidence for the **fairness**, **governance**, and **oversight** pillars of responsible AI. The policy commits to assessing bias and ensuring fair treatment, establishing governance structures and monitoring mechanisms, and describes testing and continuous evaluation to ensure AI performance and fulfillment of purpose.",
+          "title": "AI for better care: Our commitment to using AI responsibly",
+          "url": "https://www.uhc.com/agents-brokers/employer-sponsored-plans/news-strategies/ai-for-better-care-responsible-use"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_066",
+          "source_tier": "third_party",
+          "summary": "This UnitedHealthcare help page provides evidence for the governance, oversight, privacy, and transparency pillars of responsible AI. It clarifies that AI is used to inform providers and caregivers, not to make coverage decisions or adverse clinical determinations, demonstrating governance over AI's role and authority. The page also highlights a commitment to responsible AI use, prioritizing human review, privacy, security, and accuracy.",
+          "title": "AI for better care: Your questions answered",
+          "url": "https://www.uhc.com/agents-brokers/employer-sponsored-plans/news-strategies/ai-for-better-care-faq"
+        }
+      ],
+      "score": 2,
+      "source_count": 35
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 59,
+      "findings": "The company demonstrates a commitment to privacy through security controls and data protection measures, including third-party validation and compliance with emerging data protection laws. Policy documents outline requirements for HIPAA compliance and data protection, and the United AI Studio platform features for managing privacy throughout the AI lifecycle are described. Oversight of privacy and data protection is mentioned, with involvement from cyber experts and an Audit Committee, alongside discussions of security threats to data and systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This UnitedHealth vendor policy, \"Responsible Use of Artificial Intelligence – Minimum Standards,\" provides evidence for the **governance**, **fairness**, **explainability**, **oversight**, and **privacy** pillars. The policy mandates a comprehensive AI governance program, including annual risk assessments, bias testing, ongoing monitoring, and enterprise-wide AI policies, which directly supports **governance** and **oversight**. It also requires validation for accuracy, unbiasedness, and explainability, along with human review, demonstrating support for the **fairness** and **explainability** pillars. Furthermore, the policy's emphasis on record retention and adherence to industry standards indicates a commitment to responsible AI practices that touch upon **privacy** considerations.",
+          "title": "Responsible Use of Artificial Intelligence – Minimum Standards",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/About/responsible_ai_minimum_standards.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Making Health Care Work Smarter - AI Infrastructure and Oversight,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing the AI Review Board's role in model review for fairness and safety, and by describing the United AI Studio platform's features for managing privacy, fairness, and governance throughout the AI lifecycle. The document also emphasizes AI's role in supporting human decision-making, reinforcing the importance of human control and oversight.",
+          "title": "Making Health Care Work Smarter - AI Infrastructure and Oversight",
+          "url": "https://unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"2021 Sustainability Report - Responsible AI Governance\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The report details a governance structure across the enterprise for AI/ML strategy and responsible use, including the integration of a Machine Learning Review Board to proactively review models for bias. It also outlines commitments to embedding health equity into policies, acknowledging and mitigating potential bias throughout the AI lifecycle, and establishing security controls and third-party validation for data protection, thereby supporting privacy and external accountability.",
+          "title": "2021 Sustainability Report - Responsible AI Governance",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/2024/sustainability/2021-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This executive summary of the 2024 Sustainability Report provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It supports governance by mentioning a commitment to the \"integrity of data\" and explicitly stating \"governance.\" The report also supports oversight through the documented action of adding to an \"AI Review Board\" and by explicitly mentioning \"AI oversight.\" Finally, evidence for the privacy pillar is found in the mention of \"security\" in relation to data.",
+          "title": "2024 Sustainability Report Executive Summary",
+          "url": "https://unitedhealthgroup.com/content/dam/sustainability-report/2024/pdf/2024-SR_Executive-Summary.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "authority",
+          "summary": "This SEC 10-K filing from UnitedHealth Group provides evidence for **governance**, **oversight**, **privacy**, and **external accountability**. The document supports governance by detailing leadership frameworks, risk evaluation processes, and policies for responsible AI/ML design and development. Oversight is evidenced through management's responsibility for internal controls and the evaluation of controls by named officers. Privacy is supported by discussions of security threats to data and systems, including those from AI/ML, and compliance with emerging data protection laws. Finally, external accountability is indicated by partnerships with external firms for risk assessments and security program evaluations.",
+          "title": "Form 10-K - UnitedHealth Group 2024 Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/731766/000073176625000063/unh-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, fairness, privacy, external accountability, and transparency**. It details the Board's oversight of AI through specific committees (Audit and Finance, Health and Clinical Practice) responsible for AI governance, risk mitigation, and ethical application. The document also highlights the AI Review Board's authority, the shift of AI ownership to Legal/Compliance, and the inclusion of AI in shareholder engagement and risk management discussions, demonstrating established governance structures and accountability mechanisms.",
+          "title": "2025 Proxy Statement - Artificial Intelligence Risk Oversight",
+          "url": "https://sec.gov/Archives/edgar/data/731766/000110465925036829/tm252303-2_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing the Board's oversight of an AI framework, including governance mechanisms to monitor and mitigate AI risks, and the responsibility of specific committees for overseeing the ethical application of AI in healthcare. The document also mentions privacy and data protection as areas of oversight, and describes various governance practices such as compensation clawback policies and shareholder engagement on AI.",
+          "title": "2025 Annual Proxy Statement - Board Governance and AI",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/2025_proxy_statement_final.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"2025 Annual Meeting FAQs - AI Use and Clinician Support,\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. The document supports these pillars by mentioning the involvement of a \"cyber expert\" and \"Audit Committee\" for oversight and privacy, discussing AI use cases that emphasize human judgment for transparency, and referencing \"cybersecurity\" and \"data protection\" measures. It also indicates governance through discussions of risk assessment and pricing disciplines, and a commitment to collaboration on auditing methodology.",
+          "title": "2025 Annual Meeting FAQs - AI Use and Clinician Support",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/2025_Annual_Meeting_FAQs.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This audit report from the OCR details a HIPAA compliance investigation into Change Healthcare, providing evidence for **external_accountability**, **governance**, and **privacy**. The report highlights the organization's security management processes, including risk analysis, regular reviews, and safeguarding of patient data, which support governance and privacy. Furthermore, it touches upon accountability for business associate compliance and workforce sanctions policies, demonstrating external accountability and governance.",
+          "title": "OCR Opens HIPAA Compliance Investigation of Change Healthcare",
+          "url": "https://hipaajournal.com/ocr-opens-hipaa-compliance-investigation-of-change-healthcare"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_042",
+          "source_tier": "third_party",
+          "summary": "This policy document from the American Medical Association establishes principles for responsible AI use in healthcare, providing evidence for **fairness**, **governance**, **oversight**, **transparency**, and **privacy**. It mandates efforts to identify and mitigate algorithmic discrimination, promoting health equity and addressing disparate impacts. The policy also outlines requirements for risk-based oversight, validation, data protection, HIPAA compliance, and transparency in AI systems, including human intervention points for clinical decisions.",
+          "title": "American Medical Association - AI Principles and Clinical Algorithm Rule",
+          "url": "https://ama-assn.org/system/files/ama-ai-principles.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_044",
+          "source_tier": "third_party",
+          "summary": "This investor network resource on UnitedHealth Group's AI governance provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. The document highlights the company's commitment to board oversight of AI compliance and ethical guidelines, and its intention to produce transparency reports detailing AI use, data usage, and governance structures. It also mentions proactive disclosures on data use and the purpose of AI systems, aiming for ethical implementation.",
+          "title": "PRI - AI Governance at UnitedHealth Group",
+          "url": "https://collaborate.unpri.org/group/20796/home"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_051",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for **governance** and **oversight** by discussing FAQs clarifying rules for AI/algorithms in coverage and utilization management, urging monitoring and reporting for AI use in coverage decisions, and highlighting the need to rein in inappropriate AI use. It also supports **transparency** by seeking input on data to guide policy, specifically mentioning algorithms in utilization management. Furthermore, the document touches on **privacy** by addressing data use consent and raises **fairness** concerns by highlighting disparate impacts on MA enrollees.",
+          "title": "American Hospital Association - CMS Prior Authorization Rule Analysis",
+          "url": "https://aha.org/system/files/media/file/2024/03/health-plan-accountability-update-march-2024.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_052",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"CMS Sets New Guardrails for AI in Medicare Advantage,\" provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. It mandates validation of AI tools, mitigation of bias, and audits of existing algorithms, supporting governance and oversight. The policy also emphasizes transparency through public criteria and prohibits denials based on proprietary algorithmic analysis, directly addressing fairness and transparency. Furthermore, it implies privacy and external accountability through references to ISO certification and audit requirements.",
+          "title": "CMS Sets New Guardrails for AI in Medicare Advantage",
+          "url": "https://inovaare.com/blog/cms-guidance-ai-medicare-advantage"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_055",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis of the Change Healthcare data breach provides evidence for the **governance** and **privacy** pillars. The report highlights a critical lack of multifactor authentication on remote servers, a violation of HIPAA requirements, and the exfiltration of over 6TB of sensitive patient data, directly impacting privacy. The breach's scale and the failure to implement basic security measures underscore significant governance failures in protecting sensitive information.",
+          "title": "Change Healthcare Data Breach 2024 - Key Findings",
+          "url": "https://ispartnersllc.com/blog/change-healthcare-data-breach-2024"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_059",
+          "source_tier": "third_party",
+          "summary": "This news report on the Change Healthcare cyberattack investigation provides evidence for the **governance** and **privacy** pillars. It highlights the federal government's focus on HIPAA Rules compliance and timely notification requirements, indicating a commitment to established governance frameworks. Furthermore, the mention of potential Protected Health Information (PHI) breaches underscores the importance of privacy considerations within the healthcare sector.",
+          "title": "HHS Opens Investigation into Change Healthcare Cyberattack",
+          "url": "https://cybersecuritydive.com/news/hhs-investigates-change-healthcare/710286"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_061",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis of \"AI in Healthcare - UnitedHealthcare Controversy and Public Scrutiny\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. The source discusses the need for \"defensible quality control workflows\" and \"audits\" (external_accountability, governance), highlights manual review as an oversight mechanism (oversight), and mentions security and data protection requirements (privacy). Furthermore, it touches upon transparency challenges in handling complex use cases and the need to understand pricing dynamics for AI (transparency, governance).",
+          "title": "AI in Healthcare - UnitedHealthcare Controversy and Public Scrutiny",
+          "url": "https://complexdiscovery.com/ai-in-healthcare-unitedhealthcares-controversy-and-the-tragic-death-of-ceo"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_062",
+          "source_tier": "third_party",
+          "summary": "This Forbes article, \"AI Ethics Essentials: Lawsuit Over AI Denial of Healthcare,\" provides evidence for fairness, governance, oversight, privacy, and transparency. The source highlights the critical role of data governance in ensuring data integrity, security, and usability, which directly supports the privacy and governance pillars. Furthermore, it underscores the importance of ethical implementation, accountability, and transparency in AI decision-making for patient interests, thereby supporting the fairness, governance, oversight, and transparency pillars.",
+          "title": "Forbes - AI Ethics Essentials: Lawsuit Over AI Denial of Healthcare",
+          "url": "https://forbes.com/sites/douglaslaney/2023/11/16/ai-ethics-essentials-lawsuit-over-ai-denial-of-healthcare"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_064",
+          "source_tier": "third_party",
+          "summary": "This strategic analysis of UnitedHealth Group's AI strategy provides evidence for several responsible AI pillars. The document supports **governance** through its discussion of an \"AI governance framework,\" \"Statement of AI Principles,\" and the establishment of \"technical and compliance standards.\" Evidence for **oversight** is found in the mention of a \"Review Board\" and a \"human-in-the-loop emphasis.\" The source also touches upon **fairness** and **external accountability** by describing a commitment to diverse data and continuous fairness audits, and **transparency** is implied through the offering of \"ready-to-implement AI solutions and APIs.\" Finally, the report acknowledges risks and potential regulatory mandates for **explainability**, indicating concerns and aspirations in this area.",
+          "title": "UnitedHealth Group AI Strategy: Dominance in Healthcare AI",
+          "url": "https://klover.ai/unitedhealth-group-ai-strategy-dominance-in-healthcare-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_066",
+          "source_tier": "third_party",
+          "summary": "This UnitedHealthcare help page provides evidence for the governance, oversight, privacy, and transparency pillars of responsible AI. It clarifies that AI is used to inform providers and caregivers, not to make coverage decisions or adverse clinical determinations, demonstrating governance over AI's role and authority. The page also highlights a commitment to responsible AI use, prioritizing human review, privacy, security, and accuracy.",
+          "title": "AI for better care: Your questions answered",
+          "url": "https://www.uhc.com/agents-brokers/employer-sponsored-plans/news-strategies/ai-for-better-care-faq"
+        }
+      ],
+      "score": 2,
+      "source_count": 19
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 146,
+      "findings": "Documentation states transparency as a key goal and consideration for AI use within health systems, including requirements for public transparency regarding algorithms. The company's intention to produce transparency reports detailing AI use, data usage, and governance structures is highlighted. Furthermore, policy documents outline requirements for transparency in AI systems, including human intervention points for clinical decisions, and clarify that AI is used to inform providers and caregivers, not to make coverage decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Making Health Care Work Smarter - AI Infrastructure and Oversight,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing the AI Review Board's role in model review for fairness and safety, and by describing the United AI Studio platform's features for managing privacy, fairness, and governance throughout the AI lifecycle. The document also emphasizes AI's role in supporting human decision-making, reinforcing the importance of human control and oversight.",
+          "title": "Making Health Care Work Smarter - AI Infrastructure and Oversight",
+          "url": "https://unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"2021 Sustainability Report - Responsible AI Governance\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The report details a governance structure across the enterprise for AI/ML strategy and responsible use, including the integration of a Machine Learning Review Board to proactively review models for bias. It also outlines commitments to embedding health equity into policies, acknowledging and mitigating potential bias throughout the AI lifecycle, and establishing security controls and third-party validation for data protection, thereby supporting privacy and external accountability.",
+          "title": "2021 Sustainability Report - Responsible AI Governance",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/2024/sustainability/2021-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This corporate investor conference material supports the **governance** pillar by describing how AI is integrated into healthcare operations for improved claims accuracy and clinical decision support, implying data management and use for decision-making. It also supports the **transparency** pillar by explicitly stating transparency as a goal for AI use within health systems.",
+          "title": "2024 Investor Conference - AI Strategy and Governance",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2024/ic24/Investor-Conference-2024-Book.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "The \"Investor Conference 2024 - AI as Enablement Tool\" document provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing how AI is used to simplify administrative processes and support clinical decision-making, implying a structured approach to AI implementation. The document also supports transparency by explicitly mentioning transparency as a key consideration in their AI strategy.",
+          "title": "Investor Conference 2024 - AI as Enablement Tool",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2024/ic24/IC24_UNH%20Overview_All.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, fairness, privacy, external accountability, and transparency**. It details the Board's oversight of AI through specific committees (Audit and Finance, Health and Clinical Practice) responsible for AI governance, risk mitigation, and ethical application. The document also highlights the AI Review Board's authority, the shift of AI ownership to Legal/Compliance, and the inclusion of AI in shareholder engagement and risk management discussions, demonstrating established governance structures and accountability mechanisms.",
+          "title": "2025 Proxy Statement - Artificial Intelligence Risk Oversight",
+          "url": "https://sec.gov/Archives/edgar/data/731766/000110465925036829/tm252303-2_def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing the Board's oversight of an AI framework, including governance mechanisms to monitor and mitigate AI risks, and the responsibility of specific committees for overseeing the ethical application of AI in healthcare. The document also mentions privacy and data protection as areas of oversight, and describes various governance practices such as compensation clawback policies and shareholder engagement on AI.",
+          "title": "2025 Annual Proxy Statement - Board Governance and AI",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/2025_proxy_statement_final.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"2025 Annual Meeting FAQs - AI Use and Clinician Support,\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. The document supports these pillars by mentioning the involvement of a \"cyber expert\" and \"Audit Committee\" for oversight and privacy, discussing AI use cases that emphasize human judgment for transparency, and referencing \"cybersecurity\" and \"data protection\" measures. It also indicates governance through discussions of risk assessment and pricing disciplines, and a commitment to collaboration on auditing methodology.",
+          "title": "2025 Annual Meeting FAQs - AI Use and Clinician Support",
+          "url": "https://unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/2025_Annual_Meeting_FAQs.pdf"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This federal court filing provides evidence for **governance**, **oversight**, and **transparency**. The court order touches upon governance and oversight by referencing CMS guidance that algorithms should assist, not dictate, coverage decisions, and by describing a discovery process focused on decision-making authority and accountability. Transparency is supported by the clarification that coverage decisions are based on established criteria, not solely the AI tool.",
+          "title": "Federal Court Order - nH Predict Discovery Denial",
+          "url": "https://beckerspayer.com/payer/medicare-advantage/judge-denies-unitedhealths-bid-to-limit-discovery-in-ai-coverage-denial-ca"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This legal analysis of discovery disputes in Estate of Lokken v. UnitedHealth Group provides evidence for **fairness**, **governance**, and **transparency**. The document discusses the plaintiffs' aggressive strategy to compel the production of AI system details, including algorithm source code, data, rules, and development documentation, highlighting the tension between transparency and trade secret protection. It also touches upon the need for explainability and the assessment of AI error rates and bias, which are critical aspects of fairness and transparency, and details demands for AI system lifecycle processes, indicating governance-related information requirements.",
+          "title": "Discovery Battle Analysis - nH Predict Litigation Strategy",
+          "url": "https://jdsupra.com/legalnews/the-lokken-v-uhc-discovery-battle-and-2812574"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Senate Subcommittee Investigation - MA Algorithm Use,\" provides evidence for **external_accountability**, **governance**, and **transparency**. The report details an investigation into the use of unregulated algorithms by UnitedHealth and NaviHealth, supporting **external_accountability** through the mention of a named investigative body. It also highlights issues with **governance** by describing how employees were pressured to adhere to AI predictions despite clinical objections, indicating a lack of appropriate decision-making authority and accountability. Finally, the report's description of the AI use case and its impact on patient care cutoff timing supports the **transparency** pillar.",
+          "title": "Senate Subcommittee Investigation - MA Algorithm Use",
+          "url": "https://statnews.com/2024/10/17/medicare-advantage-insurers-ai-technology-prior-authorization-claims-denials-senate-investig"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"STAT - Individual Impact Story and Algorithmic Denials,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The report discusses governance through the involvement of a regulatory body and oversight by medical directors who are directed by AI. It also addresses transparency by documenting UnitedHealth's statements denying the use of AI for adverse determinations, thereby shedding light on the company's policies regarding AI usage.",
+          "title": "STAT - Individual Impact Story and Algorithmic Denials",
+          "url": "https://statnews.com/2025/05/19/unitedhealth-algorithm-ai-denials-of-care"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This ProPublica audit report provides evidence for **external accountability, governance, oversight, and transparency**. It details an algorithmic system (ALERT) used to limit mental health coverage, revealing governance over its creation and purpose, as well as oversight mechanisms like human review processes and escalation procedures. The report also highlights external accountability through legal challenges and implies transparency concerns by describing the system's use of arbitrary thresholds and internal playbooks for cost targets.",
+          "title": "Inside UnitedHealth's Playbook for Limiting Mental Health Coverage",
+          "url": "https://propublica.org/article/unitedhealth-mental-health-care-denied-illegal-algorithm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_032",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Denial—Artificial Intelligence Tools and Health Insurance Coverage Decisions,\" provides evidence for fairness, governance, oversight, and transparency. It highlights concerns for health equity and potential discrimination patterns related to AI use in insurance decisions, supporting the **fairness** pillar. The paper also discusses the importance of algorithmic governance, potential conflicts of interest, and the need for clarity on human review and override mechanisms, all of which support the **governance** and **oversight** pillars. Furthermore, it touches upon transparency and ethical considerations for algorithm use, aligning with the **transparency** pillar.",
+          "title": "Denial—Artificial Intelligence Tools and Health Insurance Coverage Decisions",
+          "url": "https://jamanetwork.com/journals/jama-health-forum/fullarticle/2816204"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_033",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Ensuring Equity in Health AI Algorithms - Optum Impact Pro Case,\" provides evidence for **fairness, governance, and explainability**. The paper documents Optum's efforts to prevent bias through data selection, stakeholder communication, expert feedback, and periodic testing, demonstrating operational fairness and governance. It also highlights training providers to interpret the algorithm, supporting explainability, and discusses equitable performance and balancing datasets, reinforcing a commitment to fairness.",
+          "title": "Ensuring Equity in Health AI Algorithms - Optum Impact Pro Case",
+          "url": "https://libraopen.lib.virginia.edu/downloads/v692t6392"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_035",
+          "source_tier": "third_party",
+          "summary": "This audit report on the UnitedHealth nHPredict case provides evidence for governance, oversight, and transparency. It details operational governance through case managers being trained to defend algorithmic predictions and held to specific targets, as well as a company shift towards performance metrics influencing AI use. Oversight is demonstrated by the mention of physician medical reviewers and the overriding of physician judgments. Transparency is supported by the description of the AI system's use case and data input, alongside the denial of access to proprietary AI reports.",
+          "title": "AI Incident Database - UnitedHealth nHPredict Case",
+          "url": "https://incidentdatabase.ai/reports/3348"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_036",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing allegations of an AI tool being used to \"decide\" and \"deny\" care duration, and setting specific targets for its projections. The filing also supports transparency by naming the AI tool (\"nH Predict\") and describing its use in determining care cutoff and coverage limits.",
+          "title": "Medicare Advantage Algorithm-Denied Claims Lawsuits",
+          "url": "https://classaction.org/healthcare-algorithm-scandal-lawsuit"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_037",
+          "source_tier": "third_party",
+          "summary": "This news report provides evidence for **governance** and **oversight** by detailing allegations that UnitedHealth knowingly deployed an AI with a high error rate, leading to improper denial of care for elderly patients. The claims suggest failures in establishing proper accountability for AI-driven decisions and a lack of robust mechanisms to prevent the misuse of AI for financial gain at the expense of beneficiaries.",
+          "title": "UnitedHealth Lawsuit - Elderly Patients Denied by Faulty AI",
+          "url": "https://cbsnews.com/news/unitedhealth-lawsuit-ai-deny-claims-medicare-advantage-health-insurance-denials"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_038",
+          "source_tier": "third_party",
+          "summary": "This news coverage provides evidence for the **governance** and **oversight** pillars of responsible AI. It highlights the existence of disciplinary actions for deviations from AI guidelines and model projections, demonstrating accountability and governance. Furthermore, the mention of a \"human in the loop\" for oversight and an approval process indicates mechanisms for operational governance and oversight in the AI's application.",
+          "title": "Lawsuits Take Aim at Insurer Use of AI Algorithm",
+          "url": "https://cbsnews.com/news/health-insurance-humana-united-health-ai-algorithm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_041",
+          "source_tier": "third_party",
+          "summary": "This journalism award analysis provides evidence for **governance, oversight, and transparency** by detailing how UnitedHealth Group (UHG) used an AI for predictions, highlighting physician reviewers deferring to the algorithm, and exposing the unregulated use of AI that prioritized algorithmic projections over clinical evidence. The report indicates that UHG's AI use case demonstrates governance, while the deferral to algorithms and lack of ability to question its outputs point to issues with oversight and transparency.",
+          "title": "STAT 'Denied by AI' Series as Exemplar of Healthcare Journalism",
+          "url": "https://healthjournalism.org/blog/2024/10/stats-denied-by-ai-series-a-model-of-solid-investigative-journalism"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_042",
+          "source_tier": "third_party",
+          "summary": "This policy document from the American Medical Association establishes principles for responsible AI use in healthcare, providing evidence for **fairness**, **governance**, **oversight**, **transparency**, and **privacy**. It mandates efforts to identify and mitigate algorithmic discrimination, promoting health equity and addressing disparate impacts. The policy also outlines requirements for risk-based oversight, validation, data protection, HIPAA compliance, and transparency in AI systems, including human intervention points for clinical decisions.",
+          "title": "American Medical Association - AI Principles and Clinical Algorithm Rule",
+          "url": "https://ama-assn.org/system/files/ama-ai-principles.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_043",
+          "source_tier": "third_party",
+          "summary": "The Interfaith Center on Corporate Responsibility's AI Transparency Resolution provides evidence for the **governance**, **oversight**, and **transparency** pillars. This shareholder resolution requests UnitedHealth Group to publicly disclose a transparency report detailing their AI use, the Board's oversight role, and adopted ethical guidelines, thereby mandating disclosures on data use, purpose, and consequences for AI systems. The resolution also requires policies and controls for AI use, directly supporting governance and oversight.",
+          "title": "Interfaith Center on Corporate Responsibility - AI Transparency Resolution",
+          "url": "https://iccr.org/resolutions/ai-transparency-report-2"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_044",
+          "source_tier": "third_party",
+          "summary": "This investor network resource on UnitedHealth Group's AI governance provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. The document highlights the company's commitment to board oversight of AI compliance and ethical guidelines, and its intention to produce transparency reports detailing AI use, data usage, and governance structures. It also mentions proactive disclosures on data use and the purpose of AI systems, aiming for ethical implementation.",
+          "title": "PRI - AI Governance at UnitedHealth Group",
+          "url": "https://collaborate.unpri.org/group/20796/home"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_046",
+          "source_tier": "third_party",
+          "summary": "The \"ICCR - Investor Statement on AI in Healthcare\" provides evidence for **fairness, governance, oversight, and transparency**. This investor statement highlights concerns about algorithmic bias and inequities, directly supporting the **fairness** pillar. It also discusses the need for regulatory authority and accountability for AI product outcomes, which relates to **governance**. Furthermore, the statement calls for regulations and oversight to manage AI risks, underscoring the **oversight** pillar, and implies a need for transparency in mitigation plans, supporting the **transparency** pillar.",
+          "title": "ICCR - Investor Statement on AI in Healthcare",
+          "url": "https://iccr.org/ai-in-healthcare"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_047",
+          "source_tier": "third_party",
+          "summary": "This FTI Communications report on AI shareholder proposals provides evidence for **external accountability, governance, oversight, and transparency**. The report details shareholder proposals requesting AI transparency, ethical guidelines, and board oversight, with some proposals leading to company commitments for improved disclosures and policy updates. Specific examples include requests for independent assessments of AI oversight and reporting on AI use, demonstrating mechanisms for accountability and governance.",
+          "title": "FTI Communications - AI Shareholder Proposals Trends Analysis",
+          "url": "https://fticommunications.com/unveiling-key-trends-in-ai-shareholder-proposals"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_049",
+          "source_tier": "third_party",
+          "summary": "This CMS FAQ document provides evidence for the **governance** and **transparency** pillars of responsible AI. It clarifies that while Medicare Advantage plans can use algorithms to assist in coverage determinations, the organizations themselves are ultimately responsible for ensuring compliance with all applicable rules, thus supporting the governance pillar. Furthermore, the document explicitly outlines requirements for public transparency regarding the use of AI and algorithms, offering guidance on how this information should be presented, which directly supports the transparency pillar.",
+          "title": "CMS FAQs on Medicare Advantage Use of Artificial Intelligence",
+          "url": "https://hrsonline.org/news/cms-releases-faq-ma-plan-using-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_050",
+          "source_tier": "third_party",
+          "summary": "This proposed rule from CMS provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The document supports fairness by referencing \"equitable access,\" \"antidiscrimination provisions,\" and the need to address \"biased inputs\" and use AI in a \"nondiscriminatory way.\" Governance is supported through requirements for MA plans to be \"responsible for ensuring\" AI compliance and through binding responsibilities for AI use. Finally, transparency is evidenced by the requirement for \"analyses\" and \"report transparency data.\"",
+          "title": "CMS Proposes AI Limits and UM Guardrails - Proposed Rule",
+          "url": "https://www.sidley.com/en/insights/newsupdates/2024/12/cms-proposes-artificial-intelligence-limits-and-utilization-management-guardrails"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_051",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for **governance** and **oversight** by discussing FAQs clarifying rules for AI/algorithms in coverage and utilization management, urging monitoring and reporting for AI use in coverage decisions, and highlighting the need to rein in inappropriate AI use. It also supports **transparency** by seeking input on data to guide policy, specifically mentioning algorithms in utilization management. Furthermore, the document touches on **privacy** by addressing data use consent and raises **fairness** concerns by highlighting disparate impacts on MA enrollees.",
+          "title": "American Hospital Association - CMS Prior Authorization Rule Analysis",
+          "url": "https://aha.org/system/files/media/file/2024/03/health-plan-accountability-update-march-2024.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_052",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"CMS Sets New Guardrails for AI in Medicare Advantage,\" provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. It mandates validation of AI tools, mitigation of bias, and audits of existing algorithms, supporting governance and oversight. The policy also emphasizes transparency through public criteria and prohibits denials based on proprietary algorithmic analysis, directly addressing fairness and transparency. Furthermore, it implies privacy and external accountability through references to ISO certification and audit requirements.",
+          "title": "CMS Sets New Guardrails for AI in Medicare Advantage",
+          "url": "https://inovaare.com/blog/cms-guidance-ai-medicare-advantage"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_061",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis of \"AI in Healthcare - UnitedHealthcare Controversy and Public Scrutiny\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. The source discusses the need for \"defensible quality control workflows\" and \"audits\" (external_accountability, governance), highlights manual review as an oversight mechanism (oversight), and mentions security and data protection requirements (privacy). Furthermore, it touches upon transparency challenges in handling complex use cases and the need to understand pricing dynamics for AI (transparency, governance).",
+          "title": "AI in Healthcare - UnitedHealthcare Controversy and Public Scrutiny",
+          "url": "https://complexdiscovery.com/ai-in-healthcare-unitedhealthcares-controversy-and-the-tragic-death-of-ceo"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_062",
+          "source_tier": "third_party",
+          "summary": "This Forbes article, \"AI Ethics Essentials: Lawsuit Over AI Denial of Healthcare,\" provides evidence for fairness, governance, oversight, privacy, and transparency. The source highlights the critical role of data governance in ensuring data integrity, security, and usability, which directly supports the privacy and governance pillars. Furthermore, it underscores the importance of ethical implementation, accountability, and transparency in AI decision-making for patient interests, thereby supporting the fairness, governance, oversight, and transparency pillars.",
+          "title": "Forbes - AI Ethics Essentials: Lawsuit Over AI Denial of Healthcare",
+          "url": "https://forbes.com/sites/douglaslaney/2023/11/16/ai-ethics-essentials-lawsuit-over-ai-denial-of-healthcare"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_064",
+          "source_tier": "third_party",
+          "summary": "This strategic analysis of UnitedHealth Group's AI strategy provides evidence for several responsible AI pillars. The document supports **governance** through its discussion of an \"AI governance framework,\" \"Statement of AI Principles,\" and the establishment of \"technical and compliance standards.\" Evidence for **oversight** is found in the mention of a \"Review Board\" and a \"human-in-the-loop emphasis.\" The source also touches upon **fairness** and **external accountability** by describing a commitment to diverse data and continuous fairness audits, and **transparency** is implied through the offering of \"ready-to-implement AI solutions and APIs.\" Finally, the report acknowledges risks and potential regulatory mandates for **explainability**, indicating concerns and aspirations in this area.",
+          "title": "UnitedHealth Group AI Strategy: Dominance in Healthcare AI",
+          "url": "https://klover.ai/unitedhealth-group-ai-strategy-dominance-in-healthcare-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_066",
+          "source_tier": "third_party",
+          "summary": "This UnitedHealthcare help page provides evidence for the governance, oversight, privacy, and transparency pillars of responsible AI. It clarifies that AI is used to inform providers and caregivers, not to make coverage decisions or adverse clinical determinations, demonstrating governance over AI's role and authority. The page also highlights a commitment to responsible AI use, prioritizing human review, privacy, security, and accuracy.",
+          "title": "AI for better care: Your questions answered",
+          "url": "https://www.uhc.com/agents-brokers/employer-sponsored-plans/news-strategies/ai-for-better-care-faq"
+        }
+      ],
+      "score": 1,
+      "source_count": 32
+    }
+  },
+  "published_at": "2026-02-23T21:59:59Z",
+  "run_id": "20260124_004334_9212",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Based on 66 publicly available sources, UnitedHealth's published materials address all 7 evaluated responsible AI pillars, with documented public evidence for each. Operational practices are evident in areas such as fairness, where policy documents require validation for unbiasedness in AI, and explainability, with technical papers highlighting training providers to interpret algorithms. Further operational details include privacy, where policy documents describe the United AI Studio platform's features for managing privacy throughout the AI lifecycle, and governance, which mandates that suppliers establish responsible AI/ML use policies. Transparency is addressed at the policy level, with disclosures describing the AI Review Board's role in model review for safety.",
+    "pillars_operational": 6,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 522,
+    "total_sources_used": 52
+  }
+}

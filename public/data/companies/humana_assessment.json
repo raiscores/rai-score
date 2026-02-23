@@ -1,0 +1,284 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Humana",
+  "company_slug": "humana",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 9,
+      "OPERATIONAL": 4,
+      "POLICY": 50
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Explainability",
+      "evidence_count": 4,
+      "findings": "Sources describe documented explainability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for explainability, external accountability, fairness, governance, oversight, and transparency. It highlights issues with the \"black box\" nature of the nH Predict algorithm, its lack of transparency due to proprietary data and absence of published performance studies, and its potential for unfairness by failing to adjust for patient circumstances. The article also points to a lack of regulatory scrutiny for insurer AI compared to physician AI, and proposes new rules for insurers, including committee reviews and criteria based on publicly available evidence, which relate to governance, oversight, and external accountability.",
+          "title": "How Medicare Advantage Plans Use AI to Cut Off Care for Seniors",
+          "url": "https://statnews.com/2023/03/13/medicare-advantage-plans-denial-artificial-intelligence"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "A proxy statement indicates external accountability through third-party validation of automated systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability**, **fairness**, and **governance**. It supports these pillars by detailing commitments to bias detection and review for AI models, requiring vendors to adhere to fairness pledges, and mentioning governance committees responsible for AI deployment and quality. Furthermore, the document indicates governance and external accountability through the internal approval and third-party validation of automated systems.",
+          "title": "Humana Inc. 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/49071/000119312524062915/d52608ddef14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for explainability, external accountability, fairness, governance, oversight, and transparency. It highlights issues with the \"black box\" nature of the nH Predict algorithm, its lack of transparency due to proprietary data and absence of published performance studies, and its potential for unfairness by failing to adjust for patient circumstances. The article also points to a lack of regulatory scrutiny for insurer AI compared to physician AI, and proposes new rules for insurers, including committee reviews and criteria based on publicly available evidence, which relate to governance, oversight, and external accountability.",
+          "title": "How Medicare Advantage Plans Use AI to Cut Off Care for Seniors",
+          "url": "https://statnews.com/2023/03/13/medicare-advantage-plans-denial-artificial-intelligence"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 13,
+      "findings": "Humana references a commitment to reducing bias through signing the Equal AI pledge. Documents address potential biases and inaccuracies in AI/ML use, highlighting the need for effective system integration and maintenance. Commitments to bias detection and review for AI models are detailed, and vendors are required to adhere to fairness pledges.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This federal court filing provides evidence for fairness, governance, oversight, and transparency. The complaint alleges that Humana unlawfully used the nH Predict AI algorithm to deny Medicare Advantage coverage without individualized physician review, indicating failures in fairness and oversight. Furthermore, the filing points to governance issues through the alleged \"malicious implementation\" of the AI system and the company's knowledge of its inadequacy, while the high reversal rate of denials suggests a lack of transparency in the AI's decision-making process.",
+          "title": "Barrows et al. v. Humana, Inc. - Class Action Complaint (3:23-cv-00654)",
+          "url": "https://classaction.org/media/barrows-et-al-v-humana-inc.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Improving human care with ethical Augmented Intelligence,\" provides evidence for the **fairness** and **governance** pillars of responsible AI. The post highlights Humana's commitment to reducing bias through signing the Equal AI pledge, which implies actions to ensure fairness. Furthermore, the establishment of AI Ethics Operating and Governance Committees demonstrates concrete governance mechanisms aimed at fostering equitable and inclusive AI.",
+          "title": "Improving human care with ethical Augmented Intelligence",
+          "url": "https://news.humana.com/news/articles/improving-human-care-with-ethical-augmented-intelligence"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This Form 10-K filing from Humana Inc. provides evidence for **governance** and **fairness**. The document discusses the company's strategic approach to developing and integrating AI/ML systems, implying robust governance over these technologies. Furthermore, it addresses potential biases and inaccuracies stemming from AI/ML use, highlighting the need for effective system integration and maintenance, which directly relates to ensuring fairness.",
+          "title": "Humana Inc. Form 10-K for Fiscal Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/49071/000004907125000007/hum-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability**, **fairness**, and **governance**. It supports these pillars by detailing commitments to bias detection and review for AI models, requiring vendors to adhere to fairness pledges, and mentioning governance committees responsible for AI deployment and quality. Furthermore, the document indicates governance and external accountability through the internal approval and third-party validation of automated systems.",
+          "title": "Humana Inc. 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/49071/000119312524062915/d52608ddef14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for explainability, external accountability, fairness, governance, oversight, and transparency. It highlights issues with the \"black box\" nature of the nH Predict algorithm, its lack of transparency due to proprietary data and absence of published performance studies, and its potential for unfairness by failing to adjust for patient circumstances. The article also points to a lack of regulatory scrutiny for insurer AI compared to physician AI, and proposes new rules for insurers, including committee reviews and criteria based on publicly available evidence, which relate to governance, oversight, and external accountability.",
+          "title": "How Medicare Advantage Plans Use AI to Cut Off Care for Seniors",
+          "url": "https://statnews.com/2023/03/13/medicare-advantage-plans-denial-artificial-intelligence"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 47,
+      "findings": "A blog post references the establishment of AI Ethics Operating and Governance Committees. A press release details Humana's commitment to ethical AI use. A proxy statement mentions governance committees responsible for AI deployment and quality.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This federal court filing provides evidence for fairness, governance, oversight, and transparency. The complaint alleges that Humana unlawfully used the nH Predict AI algorithm to deny Medicare Advantage coverage without individualized physician review, indicating failures in fairness and oversight. Furthermore, the filing points to governance issues through the alleged \"malicious implementation\" of the AI system and the company's knowledge of its inadequacy, while the high reversal rate of denials suggests a lack of transparency in the AI's decision-making process.",
+          "title": "Barrows et al. v. Humana, Inc. - Class Action Complaint (3:23-cv-00654)",
+          "url": "https://classaction.org/media/barrows-et-al-v-humana-inc.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Improving human care with ethical Augmented Intelligence,\" provides evidence for the **fairness** and **governance** pillars of responsible AI. The post highlights Humana's commitment to reducing bias through signing the Equal AI pledge, which implies actions to ensure fairness. Furthermore, the establishment of AI Ethics Operating and Governance Committees demonstrates concrete governance mechanisms aimed at fostering equitable and inclusive AI.",
+          "title": "Improving human care with ethical Augmented Intelligence",
+          "url": "https://news.humana.com/news/articles/improving-human-care-with-ethical-augmented-intelligence"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release from Humana and Google provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The document supports governance and oversight by detailing Humana's commitment to ethical AI use and incorporating human-in-the-loop decision-making for clinical determinations. Transparency is supported through the mention of specific AI use cases and the description of AI capabilities and offerings being explored.",
+          "title": "Humana and Google Expand Partnership to Help Reduce Cost of Care",
+          "url": "https://news.humana.com/press-room/press-releases/2024/humana-and-google-expand-partnership-to-help-reduce-cost-of-care.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This Form 10-K filing from Humana Inc. provides evidence for **governance** and **fairness**. The document discusses the company's strategic approach to developing and integrating AI/ML systems, implying robust governance over these technologies. Furthermore, it addresses potential biases and inaccuracies stemming from AI/ML use, highlighting the need for effective system integration and maintenance, which directly relates to ensuring fairness.",
+          "title": "Humana Inc. Form 10-K for Fiscal Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/49071/000004907125000007/hum-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external_accountability**, **fairness**, and **governance**. It supports these pillars by detailing commitments to bias detection and review for AI models, requiring vendors to adhere to fairness pledges, and mentioning governance committees responsible for AI deployment and quality. Furthermore, the document indicates governance and external accountability through the internal approval and third-party validation of automated systems.",
+          "title": "Humana Inc. 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/49071/000119312524062915/d52608ddef14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for explainability, external accountability, fairness, governance, oversight, and transparency. It highlights issues with the \"black box\" nature of the nH Predict algorithm, its lack of transparency due to proprietary data and absence of published performance studies, and its potential for unfairness by failing to adjust for patient circumstances. The article also points to a lack of regulatory scrutiny for insurer AI compared to physician AI, and proposes new rules for insurers, including committee reviews and criteria based on publicly available evidence, which relate to governance, oversight, and external accountability.",
+          "title": "How Medicare Advantage Plans Use AI to Cut Off Care for Seniors",
+          "url": "https://statnews.com/2023/03/13/medicare-advantage-plans-denial-artificial-intelligence"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 19,
+      "findings": "A press release details Humana's commitment to ethical AI use. It also references the incorporation of human-in-the-loop decision-making for clinical determinations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This federal court filing provides evidence for fairness, governance, oversight, and transparency. The complaint alleges that Humana unlawfully used the nH Predict AI algorithm to deny Medicare Advantage coverage without individualized physician review, indicating failures in fairness and oversight. Furthermore, the filing points to governance issues through the alleged \"malicious implementation\" of the AI system and the company's knowledge of its inadequacy, while the high reversal rate of denials suggests a lack of transparency in the AI's decision-making process.",
+          "title": "Barrows et al. v. Humana, Inc. - Class Action Complaint (3:23-cv-00654)",
+          "url": "https://classaction.org/media/barrows-et-al-v-humana-inc.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release from Humana and Google provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The document supports governance and oversight by detailing Humana's commitment to ethical AI use and incorporating human-in-the-loop decision-making for clinical determinations. Transparency is supported through the mention of specific AI use cases and the description of AI capabilities and offerings being explored.",
+          "title": "Humana and Google Expand Partnership to Help Reduce Cost of Care",
+          "url": "https://news.humana.com/press-room/press-releases/2024/humana-and-google-expand-partnership-to-help-reduce-cost-of-care.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for explainability, external accountability, fairness, governance, oversight, and transparency. It highlights issues with the \"black box\" nature of the nH Predict algorithm, its lack of transparency due to proprietary data and absence of published performance studies, and its potential for unfairness by failing to adjust for patient circumstances. The article also points to a lack of regulatory scrutiny for insurer AI compared to physician AI, and proposes new rules for insurers, including committee reviews and criteria based on publicly available evidence, which relate to governance, oversight, and external accountability.",
+          "title": "How Medicare Advantage Plans Use AI to Cut Off Care for Seniors",
+          "url": "https://statnews.com/2023/03/13/medicare-advantage-plans-denial-artificial-intelligence"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 11,
+      "findings": "A press release references specific AI use cases and describes AI capabilities and offerings being explored.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This federal court filing provides evidence for fairness, governance, oversight, and transparency. The complaint alleges that Humana unlawfully used the nH Predict AI algorithm to deny Medicare Advantage coverage without individualized physician review, indicating failures in fairness and oversight. Furthermore, the filing points to governance issues through the alleged \"malicious implementation\" of the AI system and the company's knowledge of its inadequacy, while the high reversal rate of denials suggests a lack of transparency in the AI's decision-making process.",
+          "title": "Barrows et al. v. Humana, Inc. - Class Action Complaint (3:23-cv-00654)",
+          "url": "https://classaction.org/media/barrows-et-al-v-humana-inc.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release from Humana and Google provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The document supports governance and oversight by detailing Humana's commitment to ethical AI use and incorporating human-in-the-loop decision-making for clinical determinations. Transparency is supported through the mention of specific AI use cases and the description of AI capabilities and offerings being explored.",
+          "title": "Humana and Google Expand Partnership to Help Reduce Cost of Care",
+          "url": "https://news.humana.com/press-room/press-releases/2024/humana-and-google-expand-partnership-to-help-reduce-cost-of-care.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for explainability, external accountability, fairness, governance, oversight, and transparency. It highlights issues with the \"black box\" nature of the nH Predict algorithm, its lack of transparency due to proprietary data and absence of published performance studies, and its potential for unfairness by failing to adjust for patient circumstances. The article also points to a lack of regulatory scrutiny for insurer AI compared to physician AI, and proposes new rules for insurers, including committee reviews and criteria based on publicly available evidence, which relate to governance, oversight, and external accountability.",
+          "title": "How Medicare Advantage Plans Use AI to Cut Off Care for Seniors",
+          "url": "https://statnews.com/2023/03/13/medicare-advantage-plans-denial-artificial-intelligence"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:52:34Z",
+  "run_id": "20260202_222519_e2ea",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Privacy & Security"
+    ],
+    "key_strengths": [
+      "Fairness & Bias Mitigation",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Humana's commitment to reducing bias through signing the Equal AI pledge is referenced in a blog post, contributing to documented evidence for fairness. This is one of five responsible AI pillars for which documented evidence was found, out of seven evaluated areas. Operational practices are also detailed for governance, including the establishment of AI Ethics Operating and Governance Committees, and for external accountability, through third-party validation of automated systems. Additionally, policy-level evidence exists for transparency, with disclosures mentioning specific AI use cases, and for oversight, which incorporates human-in-the-loop decision-making for clinical determinations. No qualifying public evidence was found for explainability or privacy, based on a review of 15 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 63,
+    "total_sources_used": 6
+  }
+}

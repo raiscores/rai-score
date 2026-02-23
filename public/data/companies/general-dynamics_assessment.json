@@ -1,0 +1,330 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "General Dynamics",
+  "company_slug": "general-dynamics",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 20,
+      "OPERATIONAL": 8,
+      "POLICY": 55
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 14,
+      "findings": "General Dynamics references explainability as a trustworthiness characteristic. The company also includes discussions on explainability needs and XAI standards in its documentation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This GDIT blog post provides evidence for the **governance**, **privacy**, **transparency**, and **explainability** pillars of responsible AI. It supports governance by highlighting the adoption of the NIST AI Risk Management Framework and integrating AI risks into data management and governance policies. The post also touches on privacy and explainability by mentioning trustworthiness characteristics like accountability, transparency, and explainability, and supports transparency through its emphasis on risk management and security practices throughout the AI lifecycle.",
+          "title": "GDIT Safe & Secure AI: 4 Cyber Best Practices",
+          "url": "https://gdit.com/perspectives/latest/safe-and-secure-ai-4-cyber-best-practices"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "authority",
+          "summary": "This response to the FDIC's AI risk information request provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document details GDIT's approach to bias detection and mitigation, data quality management, and training/testing procedures, directly supporting **fairness** and **governance**. It also touches upon privacy concerns related to data handling and regulatory uncertainties, contributing to the **privacy** and **governance** pillars. Furthermore, the report's emphasis on identifying and prioritizing AI risks, along with discussions on explainability needs and XAI standards, supports **oversight**, **explainability**, and **transparency**. The mention of audits for algorithmic decision-making and accountability requirements points to **external accountability**.",
+          "title": "General Dynamics Information Technology Response to FDIC AI Risk Information Request",
+          "url": "https://fdic.gov/system/files/2024-06/2021-rfi-financial-institutions-ai-3064-za24-c-011.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "General Dynamics' documentation mentions audits for algorithmic decision-making. The company also references accountability requirements in its response document.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "authority",
+          "summary": "This response to the FDIC's AI risk information request provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document details GDIT's approach to bias detection and mitigation, data quality management, and training/testing procedures, directly supporting **fairness** and **governance**. It also touches upon privacy concerns related to data handling and regulatory uncertainties, contributing to the **privacy** and **governance** pillars. Furthermore, the report's emphasis on identifying and prioritizing AI risks, along with discussions on explainability needs and XAI standards, supports **oversight**, **explainability**, and **transparency**. The mention of audits for algorithmic decision-making and accountability requirements points to **external accountability**.",
+          "title": "General Dynamics Information Technology Response to FDIC AI Risk Information Request",
+          "url": "https://fdic.gov/system/files/2024-06/2021-rfi-financial-institutions-ai-3064-za24-c-011.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 14,
+      "findings": "General Dynamics describes an approach to bias detection and mitigation. This includes operational experimentation with data labeling tools and algorithmic model development using human-led labeling, aiming to mitigate bias. The company also details data quality management and training/testing procedures.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This GDIT blog post provides evidence for **fairness, governance, oversight, and transparency** in AI/ML development. The post describes operational experimentation with data labeling tools and algorithmic model development with human-led labeling, which supports fairness and transparency by aiming to mitigate bias. Furthermore, the discussion of building and refining AI models for specific use cases, along with mentions of human-in-loop oversight for decision-making, indicates governance and oversight in the system's function and development.",
+          "title": "GDIT Leveraging Collaboration and Research to Build Top-Notch Geospatial AI/ML",
+          "url": "https://gdit.com/perspectives/latest/leveraging-collaboration-and-research-to-build-top-notch-geospatial-ai-ml"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "authority",
+          "summary": "This response to the FDIC's AI risk information request provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document details GDIT's approach to bias detection and mitigation, data quality management, and training/testing procedures, directly supporting **fairness** and **governance**. It also touches upon privacy concerns related to data handling and regulatory uncertainties, contributing to the **privacy** and **governance** pillars. Furthermore, the report's emphasis on identifying and prioritizing AI risks, along with discussions on explainability needs and XAI standards, supports **oversight**, **explainability**, and **transparency**. The mention of audits for algorithmic decision-making and accountability requirements points to **external accountability**.",
+          "title": "General Dynamics Information Technology Response to FDIC AI Risk Information Request",
+          "url": "https://fdic.gov/system/files/2024-06/2021-rfi-financial-institutions-ai-3064-za24-c-011.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 55,
+      "findings": "General Dynamics identifies AI governance as a topic discussed with shareholders, indicating board-level awareness and a policy commitment to managing AI, and references a formal policy or structure for AI oversight. The company's governance policy details how the board and senior management oversee risks and approve policies annually. General Dynamics highlights the adoption of the NIST AI Risk Management Framework, integrates AI risks into data management policies, and emphasizes establishing clear roles and responsibilities for AI officers, including clarifying accountabilities through data governance.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The General Dynamics 2025 Proxy Statement provides evidence for the **governance** pillar of responsible AI. This proxy statement explicitly identifies \"AI governance\" as a topic discussed with shareholders during investor engagement, demonstrating board-level awareness and a policy commitment to managing AI. The mention of AI governance as a key item indicates a formal policy or structure for AI oversight is in place or under discussion.",
+          "title": "General Dynamics 2025 Proxy Statement (DEF 14A) - AI Governance Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/40533/000130817925000291/gd013194-def14a.htm"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned governance policy document, \"General Dynamics Corporate Governance - Risk Oversight,\" provides evidence for the **governance** pillar. The document demonstrates governance and operational oversight by detailing how the board and senior management oversee various risks, including cybersecurity, and how the board reviews and approves relevant policies annually.",
+          "title": "General Dynamics Corporate Governance - Risk Oversight",
+          "url": "https://gd.com/responsibility/governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This GDIT blog post provides evidence for the **governance**, **privacy**, **transparency**, and **explainability** pillars of responsible AI. It supports governance by highlighting the adoption of the NIST AI Risk Management Framework and integrating AI risks into data management and governance policies. The post also touches on privacy and explainability by mentioning trustworthiness characteristics like accountability, transparency, and explainability, and supports transparency through its emphasis on risk management and security practices throughout the AI lifecycle.",
+          "title": "GDIT Safe & Secure AI: 4 Cyber Best Practices",
+          "url": "https://gdit.com/perspectives/latest/safe-and-secure-ai-4-cyber-best-practices"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"GDIT Data Governance: Foundation for AI and Privacy,\" provides evidence for the **governance** pillar of responsible AI. It highlights the importance of establishing clear roles and responsibilities for AI officers, emphasizing how data governance principles and policies are crucial for managing both the value and risks associated with AI initiatives. The post specifically points to the need for data governance to clarify accountabilities for AI officers, demonstrating a focus on organizational structures for AI governance.",
+          "title": "GDIT Data Governance: Foundation for AI and Privacy",
+          "url": "https://gdit.com/perspectives/latest/data-governance-the-foundation-for-ai-privacy-and-so-much-more"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This GDIT blog post provides evidence for **fairness, governance, oversight, and transparency** in AI/ML development. The post describes operational experimentation with data labeling tools and algorithmic model development with human-led labeling, which supports fairness and transparency by aiming to mitigate bias. Furthermore, the discussion of building and refining AI models for specific use cases, along with mentions of human-in-loop oversight for decision-making, indicates governance and oversight in the system's function and development.",
+          "title": "GDIT Leveraging Collaboration and Research to Build Top-Notch Geospatial AI/ML",
+          "url": "https://gdit.com/perspectives/latest/leveraging-collaboration-and-research-to-build-top-notch-geospatial-ai-ml"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It highlights a focus on governance through discussions of policy changes enabling AI leverage and the aspiration for common AI standards. Evidence for privacy and transparency is found in the description of AI capabilities being shared without revealing training data, and the operational use of generative AI for data tagging and sharing, implying privacy considerations for data.",
+          "title": "GDIT Revolutionizing Mission Partner Environments with AI",
+          "url": "https://gdit.com/perspectives/latest/revolutionizing-mission-partner-environments-with-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "authority",
+          "summary": "This response to the FDIC's AI risk information request provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document details GDIT's approach to bias detection and mitigation, data quality management, and training/testing procedures, directly supporting **fairness** and **governance**. It also touches upon privacy concerns related to data handling and regulatory uncertainties, contributing to the **privacy** and **governance** pillars. Furthermore, the report's emphasis on identifying and prioritizing AI risks, along with discussions on explainability needs and XAI standards, supports **oversight**, **explainability**, and **transparency**. The mention of audits for algorithmic decision-making and accountability requirements points to **external accountability**.",
+          "title": "General Dynamics Information Technology Response to FDIC AI Risk Information Request",
+          "url": "https://fdic.gov/system/files/2024-06/2021-rfi-financial-institutions-ai-3064-za24-c-011.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release, \"GDIT Successfully Demonstrates AI at Tactical Edge,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The press release implies governance by mentioning the AI's integration and use for national security missions, suggesting oversight in its deployment. It also supports transparency by highlighting the AI's role in situational awareness and decision-making speed, indicating clarity about its capabilities for threat assessment, and the title itself explicitly states the demonstration of AI.",
+          "title": "GDIT Successfully Demonstrates AI at Tactical Edge",
+          "url": "https://gdit.com/about-gdit/press-releases/gdit-successfully-demonstrates-artificial-intelligence-at-the-tactical-edge"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights GDIT's focus on \"AI leadership\" and \"generative AI,\" demonstrating transparency in their AI integration and delivery. Furthermore, the mention of developing and deploying \"mission edge AI solutions\" and \"AI capabilities\" indicates governance over AI development and deployment.",
+          "title": "General Dynamics GDIT Google Public Sector AI Collaboration Announcement",
+          "url": "https://gd.com/Articles/2025/11/gdit-expands-collaboration-with-google-public-sector-to-drive-mission-ai-solutions"
+        }
+      ],
+      "score": 2,
+      "source_count": 9
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "General Dynamics mentions human-in-loop oversight for decision-making. The company also emphasizes identifying and prioritizing AI risks in its documentation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This GDIT blog post provides evidence for **fairness, governance, oversight, and transparency** in AI/ML development. The post describes operational experimentation with data labeling tools and algorithmic model development with human-led labeling, which supports fairness and transparency by aiming to mitigate bias. Furthermore, the discussion of building and refining AI models for specific use cases, along with mentions of human-in-loop oversight for decision-making, indicates governance and oversight in the system's function and development.",
+          "title": "GDIT Leveraging Collaboration and Research to Build Top-Notch Geospatial AI/ML",
+          "url": "https://gdit.com/perspectives/latest/leveraging-collaboration-and-research-to-build-top-notch-geospatial-ai-ml"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "authority",
+          "summary": "This response to the FDIC's AI risk information request provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document details GDIT's approach to bias detection and mitigation, data quality management, and training/testing procedures, directly supporting **fairness** and **governance**. It also touches upon privacy concerns related to data handling and regulatory uncertainties, contributing to the **privacy** and **governance** pillars. Furthermore, the report's emphasis on identifying and prioritizing AI risks, along with discussions on explainability needs and XAI standards, supports **oversight**, **explainability**, and **transparency**. The mention of audits for algorithmic decision-making and accountability requirements points to **external accountability**.",
+          "title": "General Dynamics Information Technology Response to FDIC AI Risk Information Request",
+          "url": "https://fdic.gov/system/files/2024-06/2021-rfi-financial-institutions-ai-3064-za24-c-011.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 14,
+      "findings": "General Dynamics mentions privacy as a trustworthiness characteristic. The company describes sharing AI capabilities without revealing training data and the operational use of generative AI for data tagging and sharing, implying data privacy considerations. Documentation also references privacy concerns related to data handling and regulatory uncertainties.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This GDIT blog post provides evidence for the **governance**, **privacy**, **transparency**, and **explainability** pillars of responsible AI. It supports governance by highlighting the adoption of the NIST AI Risk Management Framework and integrating AI risks into data management and governance policies. The post also touches on privacy and explainability by mentioning trustworthiness characteristics like accountability, transparency, and explainability, and supports transparency through its emphasis on risk management and security practices throughout the AI lifecycle.",
+          "title": "GDIT Safe & Secure AI: 4 Cyber Best Practices",
+          "url": "https://gdit.com/perspectives/latest/safe-and-secure-ai-4-cyber-best-practices"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It highlights a focus on governance through discussions of policy changes enabling AI leverage and the aspiration for common AI standards. Evidence for privacy and transparency is found in the description of AI capabilities being shared without revealing training data, and the operational use of generative AI for data tagging and sharing, implying privacy considerations for data.",
+          "title": "GDIT Revolutionizing Mission Partner Environments with AI",
+          "url": "https://gdit.com/perspectives/latest/revolutionizing-mission-partner-environments-with-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "authority",
+          "summary": "This response to the FDIC's AI risk information request provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document details GDIT's approach to bias detection and mitigation, data quality management, and training/testing procedures, directly supporting **fairness** and **governance**. It also touches upon privacy concerns related to data handling and regulatory uncertainties, contributing to the **privacy** and **governance** pillars. Furthermore, the report's emphasis on identifying and prioritizing AI risks, along with discussions on explainability needs and XAI standards, supports **oversight**, **explainability**, and **transparency**. The mention of audits for algorithmic decision-making and accountability requirements points to **external accountability**.",
+          "title": "General Dynamics Information Technology Response to FDIC AI Risk Information Request",
+          "url": "https://fdic.gov/system/files/2024-06/2021-rfi-financial-institutions-ai-3064-za24-c-011.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 31,
+      "findings": "General Dynamics demonstrates transparency by describing the use of AI/ML for specific purposes, including fraud detection, and stating its inclusion in acquired solutions and the broader portfolio. Published materials highlight AI's role in situational awareness and decision-making, discuss explainability needs, and describe operational experimentation with human-led labeling to mitigate bias. The company also describes sharing AI capabilities without revealing training data and the operational use of generative AI for data tagging.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The General Dynamics 2024 Form 10-K Annual Report provides evidence for the **transparency** pillar of responsible AI. This annual filing demonstrates transparency by describing the use of AI/ML for specific purposes, including fraud detection, and by stating that AI/ML is part of acquired solutions and its broader portfolio.",
+          "title": "General Dynamics 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/40533/000004053325000008/gd-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This GDIT blog post provides evidence for the **governance**, **privacy**, **transparency**, and **explainability** pillars of responsible AI. It supports governance by highlighting the adoption of the NIST AI Risk Management Framework and integrating AI risks into data management and governance policies. The post also touches on privacy and explainability by mentioning trustworthiness characteristics like accountability, transparency, and explainability, and supports transparency through its emphasis on risk management and security practices throughout the AI lifecycle.",
+          "title": "GDIT Safe & Secure AI: 4 Cyber Best Practices",
+          "url": "https://gdit.com/perspectives/latest/safe-and-secure-ai-4-cyber-best-practices"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This GDIT blog post provides evidence for **fairness, governance, oversight, and transparency** in AI/ML development. The post describes operational experimentation with data labeling tools and algorithmic model development with human-led labeling, which supports fairness and transparency by aiming to mitigate bias. Furthermore, the discussion of building and refining AI models for specific use cases, along with mentions of human-in-loop oversight for decision-making, indicates governance and oversight in the system's function and development.",
+          "title": "GDIT Leveraging Collaboration and Research to Build Top-Notch Geospatial AI/ML",
+          "url": "https://gdit.com/perspectives/latest/leveraging-collaboration-and-research-to-build-top-notch-geospatial-ai-ml"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It highlights a focus on governance through discussions of policy changes enabling AI leverage and the aspiration for common AI standards. Evidence for privacy and transparency is found in the description of AI capabilities being shared without revealing training data, and the operational use of generative AI for data tagging and sharing, implying privacy considerations for data.",
+          "title": "GDIT Revolutionizing Mission Partner Environments with AI",
+          "url": "https://gdit.com/perspectives/latest/revolutionizing-mission-partner-environments-with-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "authority",
+          "summary": "This response to the FDIC's AI risk information request provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document details GDIT's approach to bias detection and mitigation, data quality management, and training/testing procedures, directly supporting **fairness** and **governance**. It also touches upon privacy concerns related to data handling and regulatory uncertainties, contributing to the **privacy** and **governance** pillars. Furthermore, the report's emphasis on identifying and prioritizing AI risks, along with discussions on explainability needs and XAI standards, supports **oversight**, **explainability**, and **transparency**. The mention of audits for algorithmic decision-making and accountability requirements points to **external accountability**.",
+          "title": "General Dynamics Information Technology Response to FDIC AI Risk Information Request",
+          "url": "https://fdic.gov/system/files/2024-06/2021-rfi-financial-institutions-ai-3064-za24-c-011.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release, \"GDIT Successfully Demonstrates AI at Tactical Edge,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The press release implies governance by mentioning the AI's integration and use for national security missions, suggesting oversight in its deployment. It also supports transparency by highlighting the AI's role in situational awareness and decision-making speed, indicating clarity about its capabilities for threat assessment, and the title itself explicitly states the demonstration of AI.",
+          "title": "GDIT Successfully Demonstrates AI at Tactical Edge",
+          "url": "https://gdit.com/about-gdit/press-releases/gdit-successfully-demonstrates-artificial-intelligence-at-the-tactical-edge"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights GDIT's focus on \"AI leadership\" and \"generative AI,\" demonstrating transparency in their AI integration and delivery. Furthermore, the mention of developing and deploying \"mission edge AI solutions\" and \"AI capabilities\" indicates governance over AI development and deployment.",
+          "title": "General Dynamics GDIT Google Public Sector AI Collaboration Announcement",
+          "url": "https://gd.com/Articles/2025/11/gdit-expands-collaboration-with-google-public-sector-to-drive-mission-ai-solutions"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:50:51Z",
+  "run_id": "20260202_211204_60e6",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "General Dynamics' published materials describe human-in-loop oversight for decision-making, an operational practice documented under the oversight pillar. Further operational practices include mentions of audits for algorithmic decision-making under external accountability, while policy-level disclosures detail an approach to bias detection and mitigation for fairness. Transparency materials also describe the use of AI/ML for specific purposes, including fraud detection. All 7 evaluated pillars have documented public evidence, including explainability and privacy at the policy level. These findings are based on a review of 15 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 83,
+    "total_sources_used": 10
+  }
+}

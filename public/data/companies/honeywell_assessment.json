@@ -1,0 +1,529 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "Honeywell",
+  "company_slug": "honeywell",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 52,
+      "OPERATIONAL": 22,
+      "POLICY": 286
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 34,
+      "findings": "Technical papers discuss the need for explainability measures and highlight a commitment to Explainable AI (XAI). Documentation describes an approach to explainable AI that combines deterministic and probabilistic models, causal AI, machine learning via knowledge graphs, and reinforcement learning, emphasizing transparent decision-making for industrial operators.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"7 Ways AI Is Changing Access Control & Security,\" provides evidence for explainability, fairness, governance, privacy, and transparency. The post discusses AI's role in biometrics and behavioral analysis, highlighting transparency and privacy implications of data usage. It also touches on AI system learning and improvement, potential failures like bias, and the importance of showing decision-making processes, all of which relate to transparency and fairness. Furthermore, the blog post details ML capabilities for pattern identification and policy verification, as well as AI tools and management, supporting governance and transparency.",
+          "title": "7 Ways AI Is Changing Access Control & Security",
+          "url": "https://buildings.honeywell.com/content/hbtbt/us/en/brands/our-brands/lenels2/news/insights/7-ways-ai-is-changing-access-control.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This Honeywell Privacy Statement provides evidence for **explainability, governance, oversight, privacy, and transparency**. The policy document supports the **privacy** pillar by detailing data collection, use, and destruction protocols for AI-related data, including biometric data, and by referencing consent mechanisms for AI applications. It addresses **governance** and **oversight** through its commitment to Responsible AI Principles and Trust Center governance, requiring IT approval for AI tools, and outlining rights related to automated decision-making and profiling. **Transparency** is supported by the document's explicit mention of AI use cases and AI-supported communication channels.",
+          "title": "Honeywell Privacy Statement",
+          "url": "https://honeywell.com/us/en/privacy-statement"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"CyberEdBoard AI Fear and Risk Management White Paper,\" provides evidence for **explainability**, **external accountability**, **governance**, and **transparency**. The paper discusses the need for explainability and accountability measures, and recommends ISO 42001-compliant governance frameworks for AI implementation, indicating policy-level guidance and commitment to structured AI risk management. It also touches on AI system characteristics and associated risks, framing them as perceptions that necessitate structured governance and informed decision-making.",
+          "title": "CyberEdBoard AI Fear and Risk Management White Paper",
+          "url": "https://ismg.io/cyberedboard-releases-ai-fear-and-risk-management-white-paper-in-partnership-with-global-working-group"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, governance, and transparency. It highlights Honeywell's commitment to Explainable AI (XAI) as a competitive differentiator, particularly for trust in safety-critical and regulated industries. The paper also details Honeywell's IT/OT data convergence strategy and mentions mechanisms for transparency and auditability, alongside strategic approaches to AI development and partnerships that imply governance.",
+          "title": "Honeywell's AI Strategy: Analysis Across Domains",
+          "url": "https://klover.ai/honeywell-ai-strategy-analysis-of-dominance-in-aerospace-building-automation-industrial-automation-ess"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_029",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Industrial AI Solutions Brochure,\" provides evidence for the **transparency** and **explainability** pillars of responsible AI. The brochure describes Honeywell's approach to explainable AI, which combines deterministic and probabilistic models, causal AI, machine learning via knowledge graphs, and reinforcement learning to emphasize transparent decision-making for industrial operators.",
+          "title": "Industrial AI Solutions Brochure",
+          "url": "https://process.honeywell.com/content/dam/process/en/documents/document-lists/hps-bro-industrial-ai-solutions-EN.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "A help page states a commitment to protect against harm from AI use. A technical paper discusses the need for accountability measures.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "The Honeywell Trust Center, a company-owned help page, provides evidence for **external_accountability**, **fairness**, and **governance**. This resource details Honeywell's commitment to responsible AI use and principles, supporting **governance** by outlining AI governance frameworks, monitoring, and partner expectations. It also demonstrates a commitment to **fairness** through explicit statements on mitigating algorithmic bias, and supports **external_accountability** by stating a commitment to protect against harm from AI use.",
+          "title": "Honeywell Trust Center",
+          "url": "https://honeywell.com/us/en/company/trust-center"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, and **privacy** by detailing Honeywell's board governance structure and AI oversight enhancements. Specifically, it documents the assignment of AI risk oversight to the Audit Committee, highlighting a commitment to responsible AI governance and the monitoring of AI regulations and data use, which supports the privacy pillar. The document also indicates ongoing board engagement with AI matters and the integration of AI strategy into leadership transitions.",
+          "title": "Honeywell 2025 Proxy Statement (DEF 14A)",
+          "url": "https://investor.honeywell.com/static-files/0d8c55c0-5252-49ec-9a96-c6053dfc23d8"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"CyberEdBoard AI Fear and Risk Management White Paper,\" provides evidence for **explainability**, **external accountability**, **governance**, and **transparency**. The paper discusses the need for explainability and accountability measures, and recommends ISO 42001-compliant governance frameworks for AI implementation, indicating policy-level guidance and commitment to structured AI risk management. It also touches on AI system characteristics and associated risks, framing them as perceptions that necessitate structured governance and informed decision-making.",
+          "title": "CyberEdBoard AI Fear and Risk Management White Paper",
+          "url": "https://ismg.io/cyberedboard-releases-ai-fear-and-risk-management-white-paper-in-partnership-with-global-working-group"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 5,
+      "findings": "Documentation discusses potential failures of AI systems, such as bias. Policy documents and help pages state a commitment to treating people equitably and mitigating algorithmic bias.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"7 Ways AI Is Changing Access Control & Security,\" provides evidence for explainability, fairness, governance, privacy, and transparency. The post discusses AI's role in biometrics and behavioral analysis, highlighting transparency and privacy implications of data usage. It also touches on AI system learning and improvement, potential failures like bias, and the importance of showing decision-making processes, all of which relate to transparency and fairness. Furthermore, the blog post details ML capabilities for pattern identification and policy verification, as well as AI tools and management, supporting governance and transparency.",
+          "title": "7 Ways AI Is Changing Access Control & Security",
+          "url": "https://buildings.honeywell.com/content/hbtbt/us/en/brands/our-brands/lenels2/news/insights/7-ways-ai-is-changing-access-control.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Honeywell Responsible AI Principles,\" provides evidence for the **governance** and **fairness** pillars. It supports governance by stating a commitment to AI governance, accountability, monitoring, and setting expectations for partners and suppliers. Evidence for the fairness pillar is found in the explicit mention of treating people equitably and mitigating algorithmic bias.",
+          "title": "Honeywell Responsible AI Principles",
+          "url": "https://honeywell.com/content/dam/honeywellbt/en/documents/downloads/hon-honeywell-responsible-ai-principles.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "The Honeywell Trust Center, a company-owned help page, provides evidence for **external_accountability**, **fairness**, and **governance**. This resource details Honeywell's commitment to responsible AI use and principles, supporting **governance** by outlining AI governance frameworks, monitoring, and partner expectations. It also demonstrates a commitment to **fairness** through explicit statements on mitigating algorithmic bias, and supports **external_accountability** by stating a commitment to protect against harm from AI use.",
+          "title": "Honeywell Trust Center",
+          "url": "https://honeywell.com/us/en/company/trust-center"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **fairness, governance, oversight, and transparency** in responsible AI. It highlights Honeywell's use of AI for compliance monitoring, detailing rigorous bias checking and alert cleansing processes that support fairness and governance. The case study also describes how the AI system informs business leaders and involves human review of AI-generated alerts, demonstrating operational oversight and transparency in its development and deployment.",
+          "title": "How AI is Transforming Honeywell's Compliance and Audit Practice",
+          "url": "https://marketscale.com/industries/business-services/how-ai-is-transforming-honeywells-compliance-and-audit-practice"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 178,
+      "findings": "Documentation details a six-chapter AI framework and top-down governance model for strategic guidance, outlining policies for AI use and governance. This includes a cross-functional Generative AI Council, value hypothesis frameworks, and a structured approach to AI strategy with centralized oversight. Policy documents state a commitment to AI governance, accountability, monitoring, and set expectations for partners and suppliers, including vendor oversight. Charters and proxy statements detail board governance structures, assign AI risk oversight to the Audit Committee, and assign the Corporate Governance and Responsibility Committee (CGRC) oversight of responsible AI governance, including reviewing AI policies and monitoring compliance with frameworks.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"7 Ways AI Is Changing Access Control & Security,\" provides evidence for explainability, fairness, governance, privacy, and transparency. The post discusses AI's role in biometrics and behavioral analysis, highlighting transparency and privacy implications of data usage. It also touches on AI system learning and improvement, potential failures like bias, and the importance of showing decision-making processes, all of which relate to transparency and fairness. Furthermore, the blog post details ML capabilities for pattern identification and policy verification, as well as AI tools and management, supporting governance and transparency.",
+          "title": "7 Ways AI Is Changing Access Control & Security",
+          "url": "https://buildings.honeywell.com/content/hbtbt/us/en/brands/our-brands/lenels2/news/insights/7-ways-ai-is-changing-access-control.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Honeywell's six-chapter AI framework, established for top-down strategic guidance across various business functions, which establishes policies for AI use and governance. The press release also offers transparency by describing specific AI capabilities and systems like \"Honeywell GPT,\" and highlights the company's AI maturity and the scale of its AI initiatives.",
+          "title": "Honeywell AI Chiefs on Six-Chapter Framework",
+          "url": "https://finance.yahoo.com/news/chapters-enterprise-honeywell-ai-chiefs-084500428.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance**, **oversight**, and **transparency** in Honeywell's AI strategy. It details the company's cross-functional Generative AI Council, value hypothesis frameworks, and a focus on responsible AI governance with centralized oversight, demonstrating a structured approach to AI deployment. The press release also highlights transparency through the description of AI use cases, tools like the virtual assistant \"Red,\" and the accessibility of AI capabilities, alongside oversight mechanisms like human escalation paths for complex issues.",
+          "title": "Why Honeywell Has Placed Such a Big Bet on Gen AI",
+          "url": "https://finance.yahoo.com/news/why-honeywell-placed-big-bet-163944142.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release details Honeywell's six-chapter AI framework and top-down governance model, providing evidence for the **governance** and **transparency** pillars. The source highlights a structured approach to AI strategy, the use of specific AI tools and LLM sources, and a process for tracking AI use cases and their impact, all of which demonstrate mechanisms for governing and making transparent AI deployment and capabilities across the organization.",
+          "title": "Honeywell CTO on Six-Chapter AI Framework and Top-Down Governance",
+          "url": "https://fortune.com/2025/10/07/honeywell-international-artificial-intelligence-manufacturing-operations"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release highlights Honeywell's AI deployment and use cases, demonstrating transparency in AI capabilities and tools. It also details a comprehensive AI governance framework, including dedicated program leadership, training, use case validation procedures, and performance metrics tracking, which supports the governance pillar.",
+          "title": "Honeywell Microsoft Partnership for AI Deployment",
+          "url": "https://getcoai.com/news/honeywell-partners-with-microsoft-to-deploy-ai-across-global-operations"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Honeywell Responsible AI Principles,\" provides evidence for the **governance** and **fairness** pillars. It supports governance by stating a commitment to AI governance, accountability, monitoring, and setting expectations for partners and suppliers. Evidence for the fairness pillar is found in the explicit mention of treating people equitably and mitigating algorithmic bias.",
+          "title": "Honeywell Responsible AI Principles",
+          "url": "https://honeywell.com/content/dam/honeywellbt/en/documents/downloads/hon-honeywell-responsible-ai-principles.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "The Honeywell Supplier Code of Conduct policy document provides evidence for the **governance** pillar. This is because the policy explicitly outlines supplier expectations for integrity and compliance, including vendor oversight and accountability, which are key components of responsible AI governance.",
+          "title": "Honeywell Supplier Code of Conduct",
+          "url": "https://honeywell.com/content/dam/honeywellbt/en/documents/downloads/supplier-code-of-conduct/hon-corp-supplier-coc-english.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for **governance** and **transparency**. It supports governance by detailing a framework and guidelines for AI integration, and by referring to algorithms and system resilience, implying oversight of automated system behavior. Transparency is supported through mentions of ML techniques and capabilities, suggesting mechanisms for understanding and auditing AI decisions.",
+          "title": "How AI Enables Autonomous Industrial Operations",
+          "url": "https://honeywell.com/content/dam/honeywellbt/en/documents/gated/hon-corp-ai-autonomous-industrial-operations-whitepaper.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "The Honeywell Trust Center, a company-owned help page, provides evidence for **external_accountability**, **fairness**, and **governance**. This resource details Honeywell's commitment to responsible AI use and principles, supporting **governance** by outlining AI governance frameworks, monitoring, and partner expectations. It also demonstrates a commitment to **fairness** through explicit statements on mitigating algorithmic bias, and supports **external_accountability** by stating a commitment to protect against harm from AI use.",
+          "title": "Honeywell Trust Center",
+          "url": "https://honeywell.com/us/en/company/trust-center"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This Honeywell Privacy Statement provides evidence for **explainability, governance, oversight, privacy, and transparency**. The policy document supports the **privacy** pillar by detailing data collection, use, and destruction protocols for AI-related data, including biometric data, and by referencing consent mechanisms for AI applications. It addresses **governance** and **oversight** through its commitment to Responsible AI Principles and Trust Center governance, requiring IT approval for AI tools, and outlining rights related to automated decision-making and profiling. **Transparency** is supported by the document's explicit mention of AI use cases and AI-supported communication channels.",
+          "title": "Honeywell Privacy Statement",
+          "url": "https://honeywell.com/us/en/privacy-statement"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This press release announces a partnership that demonstrates evidence for **governance** and **transparency**. It supports governance by detailing the intended use of AI agents for specific industrial needs and discussing future AI model applications, indicating a policy direction for AI integration. Transparency is supported by highlighting the use of LLMs and AI agents for technical assistance, explaining their multimodal capabilities for engineers, and describing their purpose.",
+          "title": "Honeywell and Google Cloud Partnership on AI Agents",
+          "url": "https://industrialcyber.co/news/honeywell-google-cloud-boost-autonomous-operations-with-ai-agents-for-industrial-sector"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, and **privacy** by detailing Honeywell's board governance structure and AI oversight enhancements. Specifically, it documents the assignment of AI risk oversight to the Audit Committee, highlighting a commitment to responsible AI governance and the monitoring of AI regulations and data use, which supports the privacy pillar. The document also indicates ongoing board engagement with AI matters and the integration of AI strategy into leadership transitions.",
+          "title": "Honeywell 2025 Proxy Statement (DEF 14A)",
+          "url": "https://investor.honeywell.com/static-files/0d8c55c0-5252-49ec-9a96-c6053dfc23d8"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This Audit Committee Charter, a company-owned document, provides evidence for the **governance** pillar of responsible AI. The charter explicitly assigns the Audit Committee responsibility for overseeing artificial intelligence risk, including compliance with AI regulations, cybersecurity, data use risks, and product security, demonstrating a formal mechanism for AI governance. The recent amendment in December 2024 further highlights the company's commitment to enhancing its AI governance framework.",
+          "title": "Audit Committee Charter",
+          "url": "https://investor.honeywell.com/static-files/9d3176d4-3240-4b97-8d6b-5942dbcd56f9"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_024",
+          "source_tier": "company_owned",
+          "summary": "This corporate governance charter provides evidence for the **governance** pillar by assigning the Corporate Governance and Responsibility Committee (CGRC) oversight of responsible AI governance. The charter explicitly states the committee's role in reviewing AI policies and monitoring compliance with responsible AI governance frameworks, demonstrating a structured approach to managing AI risks.",
+          "title": "Corporate Governance and Responsibility Committee Charter",
+          "url": "https://investor.honeywell.com/static-files/cbece508-57e1-42bc-b5e5-41cb62146e94"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"CyberEdBoard AI Fear and Risk Management White Paper,\" provides evidence for **explainability**, **external accountability**, **governance**, and **transparency**. The paper discusses the need for explainability and accountability measures, and recommends ISO 42001-compliant governance frameworks for AI implementation, indicating policy-level guidance and commitment to structured AI risk management. It also touches on AI system characteristics and associated risks, framing them as perceptions that necessitate structured governance and informed decision-making.",
+          "title": "CyberEdBoard AI Fear and Risk Management White Paper",
+          "url": "https://ismg.io/cyberedboard-releases-ai-fear-and-risk-management-white-paper-in-partnership-with-global-working-group"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, governance, and transparency. It highlights Honeywell's commitment to Explainable AI (XAI) as a competitive differentiator, particularly for trust in safety-critical and regulated industries. The paper also details Honeywell's IT/OT data convergence strategy and mentions mechanisms for transparency and auditability, alongside strategic approaches to AI development and partnerships that imply governance.",
+          "title": "Honeywell's AI Strategy: Analysis Across Domains",
+          "url": "https://klover.ai/honeywell-ai-strategy-analysis-of-dominance-in-aerospace-building-automation-industrial-automation-ess"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **fairness, governance, oversight, and transparency** in responsible AI. It highlights Honeywell's use of AI for compliance monitoring, detailing rigorous bias checking and alert cleansing processes that support fairness and governance. The case study also describes how the AI system informs business leaders and involves human review of AI-generated alerts, demonstrating operational oversight and transparency in its development and deployment.",
+          "title": "How AI is Transforming Honeywell's Compliance and Audit Practice",
+          "url": "https://marketscale.com/industries/business-services/how-ai-is-transforming-honeywells-compliance-and-audit-practice"
+        }
+      ],
+      "score": 2,
+      "source_count": 17
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 56,
+      "findings": "Documentation references human escalation paths for complex AI issues and describes human review of AI-generated alerts as operational oversight. A privacy statement references a commitment to Responsible AI Principles and Trust Center governance for oversight, requiring IT approval for AI tools and outlining rights related to automated decision-making and profiling. A proxy statement documents the assignment of AI risk oversight to the Audit Committee and indicates ongoing board engagement with AI matters.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance**, **oversight**, and **transparency** in Honeywell's AI strategy. It details the company's cross-functional Generative AI Council, value hypothesis frameworks, and a focus on responsible AI governance with centralized oversight, demonstrating a structured approach to AI deployment. The press release also highlights transparency through the description of AI use cases, tools like the virtual assistant \"Red,\" and the accessibility of AI capabilities, alongside oversight mechanisms like human escalation paths for complex issues.",
+          "title": "Why Honeywell Has Placed Such a Big Bet on Gen AI",
+          "url": "https://finance.yahoo.com/news/why-honeywell-placed-big-bet-163944142.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This Honeywell Privacy Statement provides evidence for **explainability, governance, oversight, privacy, and transparency**. The policy document supports the **privacy** pillar by detailing data collection, use, and destruction protocols for AI-related data, including biometric data, and by referencing consent mechanisms for AI applications. It addresses **governance** and **oversight** through its commitment to Responsible AI Principles and Trust Center governance, requiring IT approval for AI tools, and outlining rights related to automated decision-making and profiling. **Transparency** is supported by the document's explicit mention of AI use cases and AI-supported communication channels.",
+          "title": "Honeywell Privacy Statement",
+          "url": "https://honeywell.com/us/en/privacy-statement"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, and **privacy** by detailing Honeywell's board governance structure and AI oversight enhancements. Specifically, it documents the assignment of AI risk oversight to the Audit Committee, highlighting a commitment to responsible AI governance and the monitoring of AI regulations and data use, which supports the privacy pillar. The document also indicates ongoing board engagement with AI matters and the integration of AI strategy into leadership transitions.",
+          "title": "Honeywell 2025 Proxy Statement (DEF 14A)",
+          "url": "https://investor.honeywell.com/static-files/0d8c55c0-5252-49ec-9a96-c6053dfc23d8"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **fairness, governance, oversight, and transparency** in responsible AI. It highlights Honeywell's use of AI for compliance monitoring, detailing rigorous bias checking and alert cleansing processes that support fairness and governance. The case study also describes how the AI system informs business leaders and involves human review of AI-generated alerts, demonstrating operational oversight and transparency in its development and deployment.",
+          "title": "How AI is Transforming Honeywell's Compliance and Audit Practice",
+          "url": "https://marketscale.com/industries/business-services/how-ai-is-transforming-honeywells-compliance-and-audit-practice"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 194,
+      "findings": "A blog post highlights privacy implications of data usage in AI's role in biometrics and behavioral analysis. A privacy statement details data collection, use, and destruction protocols for AI-related data, including biometric data, and references consent mechanisms for AI applications. A proxy statement documents the monitoring of AI regulations and data use.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"7 Ways AI Is Changing Access Control & Security,\" provides evidence for explainability, fairness, governance, privacy, and transparency. The post discusses AI's role in biometrics and behavioral analysis, highlighting transparency and privacy implications of data usage. It also touches on AI system learning and improvement, potential failures like bias, and the importance of showing decision-making processes, all of which relate to transparency and fairness. Furthermore, the blog post details ML capabilities for pattern identification and policy verification, as well as AI tools and management, supporting governance and transparency.",
+          "title": "7 Ways AI Is Changing Access Control & Security",
+          "url": "https://buildings.honeywell.com/content/hbtbt/us/en/brands/our-brands/lenels2/news/insights/7-ways-ai-is-changing-access-control.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This Honeywell Privacy Statement provides evidence for **explainability, governance, oversight, privacy, and transparency**. The policy document supports the **privacy** pillar by detailing data collection, use, and destruction protocols for AI-related data, including biometric data, and by referencing consent mechanisms for AI applications. It addresses **governance** and **oversight** through its commitment to Responsible AI Principles and Trust Center governance, requiring IT approval for AI tools, and outlining rights related to automated decision-making and profiling. **Transparency** is supported by the document's explicit mention of AI use cases and AI-supported communication channels.",
+          "title": "Honeywell Privacy Statement",
+          "url": "https://honeywell.com/us/en/privacy-statement"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, and **privacy** by detailing Honeywell's board governance structure and AI oversight enhancements. Specifically, it documents the assignment of AI risk oversight to the Audit Committee, highlighting a commitment to responsible AI governance and the monitoring of AI regulations and data use, which supports the privacy pillar. The document also indicates ongoing board engagement with AI matters and the integration of AI strategy into leadership transitions.",
+          "title": "Honeywell 2025 Proxy Statement (DEF 14A)",
+          "url": "https://investor.honeywell.com/static-files/0d8c55c0-5252-49ec-9a96-c6053dfc23d8"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 130,
+      "findings": "Documentation highlights transparency implications of data usage in AI, discussing the importance of showing AI decision-making processes and describing an approach to explainable AI for transparent decision-making. The company describes specific AI capabilities, systems like \"Honeywell GPT\" and the virtual assistant \"Red,\" and details AI deployment, use cases, tools, and management. Furthermore, documentation mentions ML techniques, AI/ML capabilities for threat detection, and mechanisms for transparency and auditability, including human review of AI-generated alerts and human escalation paths for complex issues.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"7 Ways AI Is Changing Access Control & Security,\" provides evidence for explainability, fairness, governance, privacy, and transparency. The post discusses AI's role in biometrics and behavioral analysis, highlighting transparency and privacy implications of data usage. It also touches on AI system learning and improvement, potential failures like bias, and the importance of showing decision-making processes, all of which relate to transparency and fairness. Furthermore, the blog post details ML capabilities for pattern identification and policy verification, as well as AI tools and management, supporting governance and transparency.",
+          "title": "7 Ways AI Is Changing Access Control & Security",
+          "url": "https://buildings.honeywell.com/content/hbtbt/us/en/brands/our-brands/lenels2/news/insights/7-ways-ai-is-changing-access-control.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release for Honeywell's Red Assistant provides evidence for the **transparency** pillar of responsible AI. It highlights the use of \"generative AI\" and its \"continuous learning capabilities,\" demonstrating transparency about the AI's evolving functions and how it becomes \"smarter and more intuitive.\" The document also shows transparency in AI's accessibility and improvement by mentioning its \"democratizing\" effect and how it learns through adoption.",
+          "title": "DataIQ AI Awards 2024: Honeywell Red Assistant",
+          "url": "https://dataiq.global/award-winner/most-effective-use-of-generative-ai-honeywell"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Honeywell's six-chapter AI framework, established for top-down strategic guidance across various business functions, which establishes policies for AI use and governance. The press release also offers transparency by describing specific AI capabilities and systems like \"Honeywell GPT,\" and highlights the company's AI maturity and the scale of its AI initiatives.",
+          "title": "Honeywell AI Chiefs on Six-Chapter Framework",
+          "url": "https://finance.yahoo.com/news/chapters-enterprise-honeywell-ai-chiefs-084500428.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance**, **oversight**, and **transparency** in Honeywell's AI strategy. It details the company's cross-functional Generative AI Council, value hypothesis frameworks, and a focus on responsible AI governance with centralized oversight, demonstrating a structured approach to AI deployment. The press release also highlights transparency through the description of AI use cases, tools like the virtual assistant \"Red,\" and the accessibility of AI capabilities, alongside oversight mechanisms like human escalation paths for complex issues.",
+          "title": "Why Honeywell Has Placed Such a Big Bet on Gen AI",
+          "url": "https://finance.yahoo.com/news/why-honeywell-placed-big-bet-163944142.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release details Honeywell's six-chapter AI framework and top-down governance model, providing evidence for the **governance** and **transparency** pillars. The source highlights a structured approach to AI strategy, the use of specific AI tools and LLM sources, and a process for tracking AI use cases and their impact, all of which demonstrate mechanisms for governing and making transparent AI deployment and capabilities across the organization.",
+          "title": "Honeywell CTO on Six-Chapter AI Framework and Top-Down Governance",
+          "url": "https://fortune.com/2025/10/07/honeywell-international-artificial-intelligence-manufacturing-operations"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release highlights Honeywell's AI deployment and use cases, demonstrating transparency in AI capabilities and tools. It also details a comprehensive AI governance framework, including dedicated program leadership, training, use case validation procedures, and performance metrics tracking, which supports the governance pillar.",
+          "title": "Honeywell Microsoft Partnership for AI Deployment",
+          "url": "https://getcoai.com/news/honeywell-partners-with-microsoft-to-deploy-ai-across-global-operations"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for **governance** and **transparency**. It supports governance by detailing a framework and guidelines for AI integration, and by referring to algorithms and system resilience, implying oversight of automated system behavior. Transparency is supported through mentions of ML techniques and capabilities, suggesting mechanisms for understanding and auditing AI decisions.",
+          "title": "How AI Enables Autonomous Industrial Operations",
+          "url": "https://honeywell.com/content/dam/honeywellbt/en/documents/gated/hon-corp-ai-autonomous-industrial-operations-whitepaper.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "The Honeywell OT Security Operations Center (SOC) help page provides evidence for the **transparency** pillar of responsible AI. This is because the description of the service explicitly mentions its AI/ML capabilities for threat detection, which aligns with the principle of transparency by indicating how AI is utilized within the system.",
+          "title": "Honeywell OT Security Operations Center (SOC)",
+          "url": "https://honeywell.com/us/en/company/ot-cybersecurity/ot-soc"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This help page for \"Honeywell OT Threat Intelligence Solutions\" provides evidence for the **transparency** pillar. The document supports this by mentioning the use of AI and machine learning for defense capabilities, implying transparency about their application within the threat intelligence platform.",
+          "title": "Honeywell OT Threat Intelligence Solutions",
+          "url": "https://honeywell.com/us/en/company/ot-cybersecurity/ot-threat-intelligence"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This Honeywell Privacy Statement provides evidence for **explainability, governance, oversight, privacy, and transparency**. The policy document supports the **privacy** pillar by detailing data collection, use, and destruction protocols for AI-related data, including biometric data, and by referencing consent mechanisms for AI applications. It addresses **governance** and **oversight** through its commitment to Responsible AI Principles and Trust Center governance, requiring IT approval for AI tools, and outlining rights related to automated decision-making and profiling. **Transparency** is supported by the document's explicit mention of AI use cases and AI-supported communication channels.",
+          "title": "Honeywell Privacy Statement",
+          "url": "https://honeywell.com/us/en/privacy-statement"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This press release announces a partnership that demonstrates evidence for **governance** and **transparency**. It supports governance by detailing the intended use of AI agents for specific industrial needs and discussing future AI model applications, indicating a policy direction for AI integration. Transparency is supported by highlighting the use of LLMs and AI agents for technical assistance, explaining their multimodal capabilities for engineers, and describing their purpose.",
+          "title": "Honeywell and Google Cloud Partnership on AI Agents",
+          "url": "https://industrialcyber.co/news/honeywell-google-cloud-boost-autonomous-operations-with-ai-agents-for-industrial-sector"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"CyberEdBoard AI Fear and Risk Management White Paper,\" provides evidence for **explainability**, **external accountability**, **governance**, and **transparency**. The paper discusses the need for explainability and accountability measures, and recommends ISO 42001-compliant governance frameworks for AI implementation, indicating policy-level guidance and commitment to structured AI risk management. It also touches on AI system characteristics and associated risks, framing them as perceptions that necessitate structured governance and informed decision-making.",
+          "title": "CyberEdBoard AI Fear and Risk Management White Paper",
+          "url": "https://ismg.io/cyberedboard-releases-ai-fear-and-risk-management-white-paper-in-partnership-with-global-working-group"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, governance, and transparency. It highlights Honeywell's commitment to Explainable AI (XAI) as a competitive differentiator, particularly for trust in safety-critical and regulated industries. The paper also details Honeywell's IT/OT data convergence strategy and mentions mechanisms for transparency and auditability, alongside strategic approaches to AI development and partnerships that imply governance.",
+          "title": "Honeywell's AI Strategy: Analysis Across Domains",
+          "url": "https://klover.ai/honeywell-ai-strategy-analysis-of-dominance-in-aerospace-building-automation-industrial-automation-ess"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **fairness, governance, oversight, and transparency** in responsible AI. It highlights Honeywell's use of AI for compliance monitoring, detailing rigorous bias checking and alert cleansing processes that support fairness and governance. The case study also describes how the AI system informs business leaders and involves human review of AI-generated alerts, demonstrating operational oversight and transparency in its development and deployment.",
+          "title": "How AI is Transforming Honeywell's Compliance and Audit Practice",
+          "url": "https://marketscale.com/industries/business-services/how-ai-is-transforming-honeywells-compliance-and-audit-practice"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_029",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Industrial AI Solutions Brochure,\" provides evidence for the **transparency** and **explainability** pillars of responsible AI. The brochure describes Honeywell's approach to explainable AI, which combines deterministic and probabilistic models, causal AI, machine learning via knowledge graphs, and reinforcement learning to emphasize transparent decision-making for industrial operators.",
+          "title": "Industrial AI Solutions Brochure",
+          "url": "https://process.honeywell.com/content/dam/process/en/documents/document-lists/hps-bro-industrial-ai-solutions-EN.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 15
+    }
+  },
+  "published_at": "2026-02-23T21:52:19Z",
+  "run_id": "20260202_224410_cfa8",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Honeywell's public disclosures address privacy and governance at the operational level, detailing specific practices. All 7 evaluated pillars have documented public evidence, with privacy materials outlining data collection, use, and destruction protocols for AI-related data, including biometric data. Additionally, governance disclosures detail AI tools and management, while transparency, fairness, explainability, oversight, and external accountability are addressed through policy-level evidence. For instance, published materials discuss an approach to explainable AI emphasizing transparent decision-making for industrial operators and state a commitment to treating people equitably. These findings are based on a review of 31 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 360,
+    "total_sources_used": 21
+  }
+}

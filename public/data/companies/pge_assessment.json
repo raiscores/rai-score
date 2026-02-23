@@ -1,0 +1,382 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "PG&E",
+  "company_slug": "pge",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 60,
+      "OPERATIONAL": 33,
+      "POLICY": 129
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Blog post transcripts highlight the use of model cards for documenting model intent and purpose. These transcripts also emphasize clarity on data origins and assumptions to support explainability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post transcript discusses PG&E's responsible AI practices, providing evidence for **explainability, governance, and transparency**. The source highlights the use of model cards for documenting model intent and purpose, emphasizing clarity on data origins and assumptions for explainability. It also details the importance of robust data governance frameworks to address data quality issues and mentions federated learning and algorithmic risk assessment as approaches to responsible AI development and deployment.",
+          "title": "Teaming Up on AI Models & Data - Panel Transcript",
+          "url": "https://pge.com/assets/pge/transcripts/teaming-up-on-ai-models-data.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "CPUC filings discuss vendor comparison criteria and audit rights, contributing to external accountability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This CPUC filing, \"Advice Letter 7145-E - EPIC Program Innovation Plan,\" provides evidence for **external accountability, fairness, governance, oversight, and transparency**. The document details the design, validation, and deployment of AI systems, including descriptions of AI capabilities, analytical models, and automated tools, which supports transparency. It also mentions processes for ML analysis, verification, issue resolution, and human review, indicating oversight and governance. Furthermore, the filing explicitly references embedding equity and applying an equity framework, directly supporting the fairness pillar, and discusses vendor comparison criteria and audit rights, contributing to external accountability.",
+          "title": "Advice Letter 7145-E - EPIC Program Innovation Plan",
+          "url": "https://pge.com/assets/pge/docs/about/corporate-responsibility-and-sustainability/pge-al-7145-e.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 9,
+      "findings": "CPUC filings reference embedding equity and applying an equity framework. Technical reports detail AI system performance metrics, such as accuracy and false positive rates, which support fairness goals.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This CPUC filing, \"Advice Letter 7145-E - EPIC Program Innovation Plan,\" provides evidence for **external accountability, fairness, governance, oversight, and transparency**. The document details the design, validation, and deployment of AI systems, including descriptions of AI capabilities, analytical models, and automated tools, which supports transparency. It also mentions processes for ML analysis, verification, issue resolution, and human review, indicating oversight and governance. Furthermore, the filing explicitly references embedding equity and applying an equity framework, directly supporting the fairness pillar, and discusses vendor comparison criteria and audit rights, contributing to external accountability.",
+          "title": "Advice Letter 7145-E - EPIC Program Innovation Plan",
+          "url": "https://pge.com/assets/pge/docs/about/corporate-responsibility-and-sustainability/pge-al-7145-e.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"EPIC Final Report - AI Early Wildfire Detection,\" provides evidence for fairness, governance, privacy, and transparency. The report details the AI system's capabilities, integration into an operational tool with human validation, and performance metrics like accuracy and false positive rates, supporting transparency and fairness goals. Furthermore, it mentions secure architecture for vendor integration and data access controls, which supports privacy and governance.",
+          "title": "EPIC Final Report - AI Early Wildfire Detection",
+          "url": "https://pge.com/assets/pge/docs/about/corporate-responsibility-and-sustainability/pge-epic-project-3.45.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 134,
+      "findings": "Documentation highlights a strategic policy and commitment to integrating ML/DL algorithms, including specific tools like FLISR and STAR. It details the use of AI algorithms for wildfire detection and decision-making, indicating ongoing management and oversight. The company mentions processes for ML analysis, verification, issue resolution, human review, and AI capabilities coupled with human review and approval. Furthermore, policy documents require prior written approval for supplier use of AI, and transcripts discuss centralized AI governance structures, dedicated teams to mitigate risks, and the importance of data infrastructure and strategic alignment for AI models.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, and **transparency** by detailing PG&E's use of the Sherlock Suite for wildfire risk reduction. The post supports governance through its mention of AI use cases and the implied role of a product manager, as well as a collaborative development philosophy. Oversight is demonstrated by the description of a human-in-the-loop workflow where desktop inspectors validate AI predictions. Transparency is evident in the discussion of automation levels and challenges, which openly addresses the system's current capabilities and limitations.",
+          "title": "PG&E Reduces Wildfire Risk with AI - Sherlock Suite",
+          "url": "https://cio.com/article/193851/pge-reduces-wildfire-risk-with-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** and **transparency** pillars. It highlights PG&E's strategic policy and commitment to integrating ML/DL algorithms with IoT data for improved grid outcomes, as demonstrated by the FLISR self-healing algorithm and the STAR dynamic risk scoring model for predictive maintenance. The detailed description of these specific ML tools and their applications indicates a policy of leveraging AI for operational efficiency and reliability.",
+          "title": "PG&E Grid Algorithms: FLISR and STAR Systems",
+          "url": "https://d3.harvard.edu/platform-rctom/submission/no-more-blackouts-how-pge-is-using-machine-learning-to-strengthen-the-power-grid/"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the use of AI algorithms trained on global datasets for a specific wildfire detection use case, and it demonstrates transparency through the description of AI redeployment for updated capabilities, indicating ongoing management and oversight of the AI system.",
+          "title": "Dryad Networks-PG&E Wildfire Detection Collaboration",
+          "url": "https://dryad.net/research/pge"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This CPUC filing, \"Advice Letter 7145-E - EPIC Program Innovation Plan,\" provides evidence for **external accountability, fairness, governance, oversight, and transparency**. The document details the design, validation, and deployment of AI systems, including descriptions of AI capabilities, analytical models, and automated tools, which supports transparency. It also mentions processes for ML analysis, verification, issue resolution, and human review, indicating oversight and governance. Furthermore, the filing explicitly references embedding equity and applying an equity framework, directly supporting the fairness pillar, and discusses vendor comparison criteria and audit rights, contributing to external accountability.",
+          "title": "Advice Letter 7145-E - EPIC Program Innovation Plan",
+          "url": "https://pge.com/assets/pge/docs/about/corporate-responsibility-and-sustainability/pge-al-7145-e.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"EPIC Final Report - AI Early Wildfire Detection,\" provides evidence for fairness, governance, privacy, and transparency. The report details the AI system's capabilities, integration into an operational tool with human validation, and performance metrics like accuracy and false positive rates, supporting transparency and fairness goals. Furthermore, it mentions secure architecture for vendor integration and data access controls, which supports privacy and governance.",
+          "title": "EPIC Final Report - AI Early Wildfire Detection",
+          "url": "https://pge.com/assets/pge/docs/about/corporate-responsibility-and-sustainability/pge-epic-project-3.45.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Supplier Code of Conduct (Revision 3, August 2024),\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by explicitly requiring prior written approval from PG&E for any use of AI or generative AI tools by suppliers. Furthermore, it strengthens the privacy pillar by prohibiting the use of PG&E customer, employee, or third-party data with AI tools for training or testing, and by classifying violations as data loss events.",
+          "title": "Supplier Code of Conduct (Revision 3, August 2024)",
+          "url": "https://pge.com/assets/pge/docs/about/doing-business-with-pge/SupplierCodeofConductPGE.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"2024 R&D Strategy Report Executive Summary,\" provides evidence for **governance**, **oversight**, and **transparency**. The report highlights AI capabilities for intelligent coordination, data analysis, and proactive suggestions, supporting **transparency**. Furthermore, it mentions AI capabilities coupled with human review and approval, indicating mechanisms for **governance** and **oversight**. The document also expresses a commitment to human oversight for ensuring safety and accuracy, reinforcing the **oversight** pillar.",
+          "title": "2024 R&D Strategy Report Executive Summary",
+          "url": "https://pge.com/assets/pge/docs/about/pge-systems/pge-rd-strategy-report-executive-summary-2024.pdf.coredownload.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This transcript, \"Getting to Value on AI,\" provides evidence for **governance, oversight, privacy, and transparency**. It discusses the implementation of centralized AI governance structures and dedicated teams to mitigate risks, emphasizing the importance of data infrastructure and strategic alignment for AI models. The source also highlights operational processes such as human review of AI outputs, post-deployment monitoring, and due diligence for AI adoption, which support oversight and transparency in AI accuracy and capabilities. Furthermore, it touches upon privacy considerations and data preparation as crucial steps before AI launches, indicating responsible data handling.",
+          "title": "Getting to Value on AI",
+          "url": "https://pge.com/assets/pge/transcripts/getting-to-value-on-ai.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post transcript discusses PG&E's responsible AI practices, providing evidence for **explainability, governance, and transparency**. The source highlights the use of model cards for documenting model intent and purpose, emphasizing clarity on data origins and assumptions for explainability. It also details the importance of robust data governance frameworks to address data quality issues and mentions federated learning and algorithmic risk assessment as approaches to responsible AI development and deployment.",
+          "title": "Teaming Up on AI Models & Data - Panel Transcript",
+          "url": "https://pge.com/assets/pge/transcripts/teaming-up-on-ai-models-data.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. The deployment of AI-enabled smoke detection cameras and weather prediction models for outage and fire risk forecasting demonstrates a commitment to grid safety and reliability, implying strong governance. Furthermore, the description of these AI/ML use cases and tools suggests transparency in how the technology is being utilized for operational improvements.",
+          "title": "PG&E Using Machine Learning to Build Smarter, More Resilient Grid",
+          "url": "https://pge.com/en/newsroom/currents/future-of-energy/pg-e-using-machine-learning-to-build-a-smarter--more-resilient-g.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This press release describes PG&E's use of AI for wildfire risk characterization, providing evidence for **governance** and **transparency**. The document supports governance by detailing how AI is used for decision-making and improving risk models for ignition probability and consequence. Transparency is evidenced by the explanation of how hyperspectral data and AI-generated forest health metrics are used to characterize patterns and identify failure modes, filling intelligence gaps.",
+          "title": "PG&E Using Satellite Imagery for Wildfire Risk Characterization",
+          "url": "https://powermag.com/how-pge-is-reducing-wildfire-risks-using-satellite-imagery"
+        }
+      ],
+      "score": 1,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 11,
+      "findings": "Documentation describes a human-in-the-loop workflow where desktop inspectors validate AI predictions. It also mentions processes for ML analysis, verification, issue resolution, and human review, including AI capabilities coupled with human review and approval. Technical reports express a commitment to human oversight for ensuring safety and accuracy, and transcripts highlight post-deployment monitoring.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, and **transparency** by detailing PG&E's use of the Sherlock Suite for wildfire risk reduction. The post supports governance through its mention of AI use cases and the implied role of a product manager, as well as a collaborative development philosophy. Oversight is demonstrated by the description of a human-in-the-loop workflow where desktop inspectors validate AI predictions. Transparency is evident in the discussion of automation levels and challenges, which openly addresses the system's current capabilities and limitations.",
+          "title": "PG&E Reduces Wildfire Risk with AI - Sherlock Suite",
+          "url": "https://cio.com/article/193851/pge-reduces-wildfire-risk-with-ai.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This CPUC filing, \"Advice Letter 7145-E - EPIC Program Innovation Plan,\" provides evidence for **external accountability, fairness, governance, oversight, and transparency**. The document details the design, validation, and deployment of AI systems, including descriptions of AI capabilities, analytical models, and automated tools, which supports transparency. It also mentions processes for ML analysis, verification, issue resolution, and human review, indicating oversight and governance. Furthermore, the filing explicitly references embedding equity and applying an equity framework, directly supporting the fairness pillar, and discusses vendor comparison criteria and audit rights, contributing to external accountability.",
+          "title": "Advice Letter 7145-E - EPIC Program Innovation Plan",
+          "url": "https://pge.com/assets/pge/docs/about/corporate-responsibility-and-sustainability/pge-al-7145-e.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"2024 R&D Strategy Report Executive Summary,\" provides evidence for **governance**, **oversight**, and **transparency**. The report highlights AI capabilities for intelligent coordination, data analysis, and proactive suggestions, supporting **transparency**. Furthermore, it mentions AI capabilities coupled with human review and approval, indicating mechanisms for **governance** and **oversight**. The document also expresses a commitment to human oversight for ensuring safety and accuracy, reinforcing the **oversight** pillar.",
+          "title": "2024 R&D Strategy Report Executive Summary",
+          "url": "https://pge.com/assets/pge/docs/about/pge-systems/pge-rd-strategy-report-executive-summary-2024.pdf.coredownload.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This transcript, \"Getting to Value on AI,\" provides evidence for **governance, oversight, privacy, and transparency**. It discusses the implementation of centralized AI governance structures and dedicated teams to mitigate risks, emphasizing the importance of data infrastructure and strategic alignment for AI models. The source also highlights operational processes such as human review of AI outputs, post-deployment monitoring, and due diligence for AI adoption, which support oversight and transparency in AI accuracy and capabilities. Furthermore, it touches upon privacy considerations and data preparation as crucial steps before AI launches, indicating responsible data handling.",
+          "title": "Getting to Value on AI",
+          "url": "https://pge.com/assets/pge/transcripts/getting-to-value-on-ai.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "Technical reports mention secure architecture for vendor integration and data access controls. Policy documents prohibit the use of PG&E customer, employee, or third-party data with AI tools for training or testing, classifying violations as data loss events. Transcripts also reference privacy considerations and data preparation as crucial steps before AI launches.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"EPIC Final Report - AI Early Wildfire Detection,\" provides evidence for fairness, governance, privacy, and transparency. The report details the AI system's capabilities, integration into an operational tool with human validation, and performance metrics like accuracy and false positive rates, supporting transparency and fairness goals. Furthermore, it mentions secure architecture for vendor integration and data access controls, which supports privacy and governance.",
+          "title": "EPIC Final Report - AI Early Wildfire Detection",
+          "url": "https://pge.com/assets/pge/docs/about/corporate-responsibility-and-sustainability/pge-epic-project-3.45.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Supplier Code of Conduct (Revision 3, August 2024),\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by explicitly requiring prior written approval from PG&E for any use of AI or generative AI tools by suppliers. Furthermore, it strengthens the privacy pillar by prohibiting the use of PG&E customer, employee, or third-party data with AI tools for training or testing, and by classifying violations as data loss events.",
+          "title": "Supplier Code of Conduct (Revision 3, August 2024)",
+          "url": "https://pge.com/assets/pge/docs/about/doing-business-with-pge/SupplierCodeofConductPGE.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This transcript, \"Getting to Value on AI,\" provides evidence for **governance, oversight, privacy, and transparency**. It discusses the implementation of centralized AI governance structures and dedicated teams to mitigate risks, emphasizing the importance of data infrastructure and strategic alignment for AI models. The source also highlights operational processes such as human review of AI outputs, post-deployment monitoring, and due diligence for AI adoption, which support oversight and transparency in AI accuracy and capabilities. Furthermore, it touches upon privacy considerations and data preparation as crucial steps before AI launches, indicating responsible data handling.",
+          "title": "Getting to Value on AI",
+          "url": "https://pge.com/assets/pge/transcripts/getting-to-value-on-ai.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 154,
+      "findings": "Documentation, including blog posts, technical papers, press releases, CPUC filings, and transcripts, describes AI system capabilities, limitations, and operational processes. These materials detail the design, validation, deployment, and redeployment of AI systems, including specific ML tools, their applications, and performance metrics. The company also highlights the use of model cards for documenting model intent and purpose, and explains how AI is used for tasks like wildfire risk assessment and operational improvements.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, and **transparency** by detailing PG&E's use of the Sherlock Suite for wildfire risk reduction. The post supports governance through its mention of AI use cases and the implied role of a product manager, as well as a collaborative development philosophy. Oversight is demonstrated by the description of a human-in-the-loop workflow where desktop inspectors validate AI predictions. Transparency is evident in the discussion of automation levels and challenges, which openly addresses the system's current capabilities and limitations.",
+          "title": "PG&E Reduces Wildfire Risk with AI - Sherlock Suite",
+          "url": "https://cio.com/article/193851/pge-reduces-wildfire-risk-with-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** and **transparency** pillars. It highlights PG&E's strategic policy and commitment to integrating ML/DL algorithms with IoT data for improved grid outcomes, as demonstrated by the FLISR self-healing algorithm and the STAR dynamic risk scoring model for predictive maintenance. The detailed description of these specific ML tools and their applications indicates a policy of leveraging AI for operational efficiency and reliability.",
+          "title": "PG&E Grid Algorithms: FLISR and STAR Systems",
+          "url": "https://d3.harvard.edu/platform-rctom/submission/no-more-blackouts-how-pge-is-using-machine-learning-to-strengthen-the-power-grid/"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the use of AI algorithms trained on global datasets for a specific wildfire detection use case, and it demonstrates transparency through the description of AI redeployment for updated capabilities, indicating ongoing management and oversight of the AI system.",
+          "title": "Dryad Networks-PG&E Wildfire Detection Collaboration",
+          "url": "https://dryad.net/research/pge"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release for PG&E's \"Fire Potential Index Algorithm Implementation\" provides evidence for the **transparency** pillar. It describes the use of an AI/ML algorithm and model to project future probabilities, indicating transparency in the system's capabilities for assessing fire risk.",
+          "title": "PG&E Fire Potential Index Algorithm Implementation",
+          "url": "https://krcrtv.com/news/local/pge-explains-how-ai-machine-learning-enhance-wildfire-prevention-efforts"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This CPUC filing, \"Advice Letter 7145-E - EPIC Program Innovation Plan,\" provides evidence for **external accountability, fairness, governance, oversight, and transparency**. The document details the design, validation, and deployment of AI systems, including descriptions of AI capabilities, analytical models, and automated tools, which supports transparency. It also mentions processes for ML analysis, verification, issue resolution, and human review, indicating oversight and governance. Furthermore, the filing explicitly references embedding equity and applying an equity framework, directly supporting the fairness pillar, and discusses vendor comparison criteria and audit rights, contributing to external accountability.",
+          "title": "Advice Letter 7145-E - EPIC Program Innovation Plan",
+          "url": "https://pge.com/assets/pge/docs/about/corporate-responsibility-and-sustainability/pge-al-7145-e.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"EPIC Final Report - AI Early Wildfire Detection,\" provides evidence for fairness, governance, privacy, and transparency. The report details the AI system's capabilities, integration into an operational tool with human validation, and performance metrics like accuracy and false positive rates, supporting transparency and fairness goals. Furthermore, it mentions secure architecture for vendor integration and data access controls, which supports privacy and governance.",
+          "title": "EPIC Final Report - AI Early Wildfire Detection",
+          "url": "https://pge.com/assets/pge/docs/about/corporate-responsibility-and-sustainability/pge-epic-project-3.45.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"2024 R&D Strategy Report Executive Summary,\" provides evidence for **governance**, **oversight**, and **transparency**. The report highlights AI capabilities for intelligent coordination, data analysis, and proactive suggestions, supporting **transparency**. Furthermore, it mentions AI capabilities coupled with human review and approval, indicating mechanisms for **governance** and **oversight**. The document also expresses a commitment to human oversight for ensuring safety and accuracy, reinforcing the **oversight** pillar.",
+          "title": "2024 R&D Strategy Report Executive Summary",
+          "url": "https://pge.com/assets/pge/docs/about/pge-systems/pge-rd-strategy-report-executive-summary-2024.pdf.coredownload.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This transcript, \"Getting to Value on AI,\" provides evidence for **governance, oversight, privacy, and transparency**. It discusses the implementation of centralized AI governance structures and dedicated teams to mitigate risks, emphasizing the importance of data infrastructure and strategic alignment for AI models. The source also highlights operational processes such as human review of AI outputs, post-deployment monitoring, and due diligence for AI adoption, which support oversight and transparency in AI accuracy and capabilities. Furthermore, it touches upon privacy considerations and data preparation as crucial steps before AI launches, indicating responsible data handling.",
+          "title": "Getting to Value on AI",
+          "url": "https://pge.com/assets/pge/transcripts/getting-to-value-on-ai.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post transcript discusses PG&E's responsible AI practices, providing evidence for **explainability, governance, and transparency**. The source highlights the use of model cards for documenting model intent and purpose, emphasizing clarity on data origins and assumptions for explainability. It also details the importance of robust data governance frameworks to address data quality issues and mentions federated learning and algorithmic risk assessment as approaches to responsible AI development and deployment.",
+          "title": "Teaming Up on AI Models & Data - Panel Transcript",
+          "url": "https://pge.com/assets/pge/transcripts/teaming-up-on-ai-models-data.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. The deployment of AI-enabled smoke detection cameras and weather prediction models for outage and fire risk forecasting demonstrates a commitment to grid safety and reliability, implying strong governance. Furthermore, the description of these AI/ML use cases and tools suggests transparency in how the technology is being utilized for operational improvements.",
+          "title": "PG&E Using Machine Learning to Build Smarter, More Resilient Grid",
+          "url": "https://pge.com/en/newsroom/currents/future-of-energy/pg-e-using-machine-learning-to-build-a-smarter--more-resilient-g.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This press release describes PG&E's use of AI for wildfire risk characterization, providing evidence for **governance** and **transparency**. The document supports governance by detailing how AI is used for decision-making and improving risk models for ignition probability and consequence. Transparency is evidenced by the explanation of how hyperspectral data and AI-generated forest health metrics are used to characterize patterns and identify failure modes, filling intelligence gaps.",
+          "title": "PG&E Using Satellite Imagery for Wildfire Risk Characterization",
+          "url": "https://powermag.com/how-pge-is-reducing-wildfire-risks-using-satellite-imagery"
+        }
+      ],
+      "score": 1,
+      "source_count": 11
+    }
+  },
+  "published_at": "2026-02-23T21:57:26Z",
+  "run_id": "20260203_030059_5961",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [],
+    "overall_findings": "PG&E's published materials describe a human-in-the-loop workflow where desktop inspectors validate AI predictions for oversight, and secure architecture for vendor integration is noted for privacy. All 7 evaluated pillars have documented public evidence, with policy-level details also present for fairness, which references embedding equity, and external accountability, which discusses audit rights. Furthermore, transparency disclosures discuss AI system automation levels and challenges, while explainability materials highlight the use of model cards for documenting model intent and purpose. This assessment draws on 19 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 7,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 222,
+    "total_sources_used": 12
+  }
+}

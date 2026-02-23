@@ -1,0 +1,387 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "State Street",
+  "company_slug": "state-street",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 15,
+      "OPERATIONAL": 21,
+      "POLICY": 56
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Sources describe documented explainability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release from State Street Global Advisors' COO outlines their commitment to responsible AI through a robust governance framework. Evidence was found supporting **governance**, **oversight**, **transparency**, **fairness**, **external_accountability**, and **explainability**. The document details the establishment of an AI Governance and Controls Team responsible for risk management, regulatory monitoring, and setting standards, demonstrating strong governance and oversight. Furthermore, it highlights adherence to a responsible AI standard that includes guidelines for transparency, fairness, and accountability in AI use cases, directly supporting those pillars.",
+          "title": "Building Trust in AI Models: SSGA COO Interview",
+          "url": "https://ftfnews.com/building-trust-in-a-i-models-is-crucial-ssgas-coo"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 7,
+      "findings": "Policy documents discuss vendor due diligence and contractual liability for third-party AI. The company adheres to a responsible AI standard that includes guidelines for accountability in AI use cases. Additionally, blog posts discuss AI standard-setting by governments and international bodies, as well as the development of AI legislation and reports.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"State Street Response to Bank of England/PRA/FCA Discussion Paper on AI & ML,\" provides evidence for **governance**, **transparency**, **fairness**, and **external accountability**. It details State Street's tiered risk framework for AI/ML solutions, their model risk management, and governance frameworks, supporting **governance**. The document highlights the use of AI/ML for tasks like compliance rule identification and suspicious activity detection, demonstrating **transparency** in system capabilities. Furthermore, it addresses bias risks in AI models and outlines mitigation strategies, supporting **fairness**, and discusses vendor due diligence and contractual liability for third-party AI, indicating **external accountability**.",
+          "title": "State Street Response to Bank of England/PRA/FCA Discussion Paper on AI & ML",
+          "url": "https://statestreet.com/web/disclosures-and-disclaimers/documents/boe-pra-fca-discussion-paper-on-artificial-intelligence-and-machine-learning.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release from State Street Global Advisors' COO outlines their commitment to responsible AI through a robust governance framework. Evidence was found supporting **governance**, **oversight**, **transparency**, **fairness**, **external_accountability**, and **explainability**. The document details the establishment of an AI Governance and Controls Team responsible for risk management, regulatory monitoring, and setting standards, demonstrating strong governance and oversight. Furthermore, it highlights adherence to a responsible AI standard that includes guidelines for transparency, fairness, and accountability in AI use cases, directly supporting those pillars.",
+          "title": "Building Trust in AI Models: SSGA COO Interview",
+          "url": "https://ftfnews.com/building-trust-in-a-i-models-is-crucial-ssgas-coo"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for **external accountability** and **governance**. It discusses the establishment of AI risk and governance frameworks, AI standard-setting by governments and international bodies, and the development of AI legislation and reports. The source also highlights internal efforts to adapt AI policies and risk management to evolving standards, including the creation of specific roles and working groups to address AI governance and regulatory compliance.",
+          "title": "2025 Regulatory Preview: Digital Assets and AI Regulation",
+          "url": "https://statestreet.com/us/en/insights/digital-digest-march-2025-digital-assets-ai-regulation"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This State Street Corporation Form 10-K filing provides evidence for **governance**, **external accountability**, and **transparency**. The document details the company's enterprise-wide risk management framework, including specific processes for model risk management that encompass AI and advanced analytics. This includes requirements for model validation before deployment, oversight by a Model Risk Committee (MRC), and adherence to defined frameworks like Basel III, demonstrating robust governance and external accountability through regulatory compliance. Furthermore, the mention of models being used in various business decisions suggests transparency regarding the application of AI/ML systems.",
+          "title": "State Street Corporation Form 10-K for Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/93751/000009375125000111/stt-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 7,
+      "findings": "The company addresses bias risks in AI models, outlines mitigation strategies, and acknowledges potential bias in AI systems. It adheres to a responsible AI standard that includes guidelines for fairness in AI use cases. Additionally, filings describe policies for equitable resource allocation and potential conflicts.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"State Street Response to Bank of England/PRA/FCA Discussion Paper on AI & ML,\" provides evidence for **governance**, **transparency**, **fairness**, and **external accountability**. It details State Street's tiered risk framework for AI/ML solutions, their model risk management, and governance frameworks, supporting **governance**. The document highlights the use of AI/ML for tasks like compliance rule identification and suspicious activity detection, demonstrating **transparency** in system capabilities. Furthermore, it addresses bias risks in AI models and outlines mitigation strategies, supporting **fairness**, and discusses vendor due diligence and contractual liability for third-party AI, indicating **external accountability**.",
+          "title": "State Street Response to Bank of England/PRA/FCA Discussion Paper on AI & ML",
+          "url": "https://statestreet.com/web/disclosures-and-disclaimers/documents/boe-pra-fca-discussion-paper-on-artificial-intelligence-and-machine-learning.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release from State Street Global Advisors' COO outlines their commitment to responsible AI through a robust governance framework. Evidence was found supporting **governance**, **oversight**, **transparency**, **fairness**, **external_accountability**, and **explainability**. The document details the establishment of an AI Governance and Controls Team responsible for risk management, regulatory monitoring, and setting standards, demonstrating strong governance and oversight. Furthermore, it highlights adherence to a responsible AI standard that includes guidelines for transparency, fairness, and accountability in AI use cases, directly supporting those pillars.",
+          "title": "Building Trust in AI Models: SSGA COO Interview",
+          "url": "https://ftfnews.com/building-trust-in-a-i-models-is-crucial-ssgas-coo"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This policy document from State Street Global Advisors provides evidence for **governance, oversight, transparency, fairness, and privacy**. It details governance structures and board oversight mechanisms for technology risks, aligning with governance and oversight pillars. The document also explicitly states commitments to providing information on AI decision-making and data usage, supporting transparency, and acknowledges potential bias in AI systems while mentioning bias mitigation and AI data privacy, thus supporting fairness and privacy.",
+          "title": "Opportunities and Risks Related to Emerging Technologies",
+          "url": "https://ssga.com/library-content/assets/pdf/global/asset-stewardship/2025/opportunities-and-risks-related-to-emerging-technologies.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "This SEC filing for SSGA Active Trust provides evidence for **governance, oversight, fairness, and privacy**. It details mechanisms for **governance and oversight** through Board-approved procedures, vendor due diligence, and the designation of an Adviser for valuation, including human judgment and review of investment models. The filing also addresses **fairness** by describing policies for equitable resource allocation and potential conflicts, and touches upon **privacy** by acknowledging risks to personal data associated with AI/ML.",
+          "title": "SSGA Active Trust – AI and Machine Learning Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/1516212/000119312524261064/d824091d485apos.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 67,
+      "findings": "The company details tiered risk frameworks, model risk management, and governance frameworks for AI/ML solutions. It highlights data management requirements and the need for timely data for AI/ML systems. The company discusses the establishment of AI risk and governance frameworks, internal efforts to adapt AI policies, and the creation of specific roles and working groups for AI governance and regulatory compliance. Filings also detail the enterprise-wide risk management framework, including model risk management for AI, and describe an internal governance body responsible for overseeing stewardship strategy and policy implementation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"State Street Response to Bank of England/PRA/FCA Discussion Paper on AI & ML,\" provides evidence for **governance**, **transparency**, **fairness**, and **external accountability**. It details State Street's tiered risk framework for AI/ML solutions, their model risk management, and governance frameworks, supporting **governance**. The document highlights the use of AI/ML for tasks like compliance rule identification and suspicious activity detection, demonstrating **transparency** in system capabilities. Furthermore, it addresses bias risks in AI models and outlines mitigation strategies, supporting **fairness**, and discusses vendor due diligence and contractual liability for third-party AI, indicating **external accountability**.",
+          "title": "State Street Response to Bank of England/PRA/FCA Discussion Paper on AI & ML",
+          "url": "https://statestreet.com/web/disclosures-and-disclaimers/documents/boe-pra-fca-discussion-paper-on-artificial-intelligence-and-machine-learning.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release from State Street Global Advisors' COO outlines their commitment to responsible AI through a robust governance framework. Evidence was found supporting **governance**, **oversight**, **transparency**, **fairness**, **external_accountability**, and **explainability**. The document details the establishment of an AI Governance and Controls Team responsible for risk management, regulatory monitoring, and setting standards, demonstrating strong governance and oversight. Furthermore, it highlights adherence to a responsible AI standard that includes guidelines for transparency, fairness, and accountability in AI use cases, directly supporting those pillars.",
+          "title": "Building Trust in AI Models: SSGA COO Interview",
+          "url": "https://ftfnews.com/building-trust-in-a-i-models-is-crucial-ssgas-coo"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"AI and the Future of Intelligent Investing,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The article supports governance by highlighting the data management requirements and the need for timely data for AI/ML systems. Transparency is evidenced by the description of AI applications across specific use cases, including LLM-based regulatory filing scans and ML-based anomaly detection, as well as the mention of transparent usage metering for AI models.",
+          "title": "AI and the Future of Intelligent Investing",
+          "url": "https://statestreet.com/alpha/insights/artificial-intelligence-investing"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This State Street blog post provides evidence for the **governance** pillar of responsible AI. The insights piece describes the use of AI and machine learning for risk management, compliance automation, and decision-making, which implies governance mechanisms are in place. However, the source lacks specific details on the execution of these governance practices or explicit commitments.",
+          "title": "Finding Operational and Investment Alpha: How AI is Reshaping the Investment Industry",
+          "url": "https://statestreet.com/br/en/insights/artificial-intelligence-reshaping-investment-industry"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for **external accountability** and **governance**. It discusses the establishment of AI risk and governance frameworks, AI standard-setting by governments and international bodies, and the development of AI legislation and reports. The source also highlights internal efforts to adapt AI policies and risk management to evolving standards, including the creation of specific roles and working groups to address AI governance and regulatory compliance.",
+          "title": "2025 Regulatory Preview: Digital Assets and AI Regulation",
+          "url": "https://statestreet.com/us/en/insights/digital-digest-march-2025-digital-assets-ai-regulation"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Private Markets and the Data Revolution: AI Applications,\" provides evidence for **governance**, **privacy**, and **transparency**. The post discusses investment in AI talent and technology, the deployment of LLMs with attention to data security and training data use, and the strategy for creating domain-specific AI agents, all of which imply the need for robust governance and transparency. Furthermore, concerns about data security and use for training models directly support the privacy pillar.",
+          "title": "Private Markets and the Data Revolution: AI Applications",
+          "url": "https://statestreet.com/us/en/insights/private-markets-and-artificial-intelligence"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This policy document from State Street Global Advisors provides evidence for **governance, oversight, transparency, fairness, and privacy**. It details governance structures and board oversight mechanisms for technology risks, aligning with governance and oversight pillars. The document also explicitly states commitments to providing information on AI decision-making and data usage, supporting transparency, and acknowledges potential bias in AI systems while mentioning bias mitigation and AI data privacy, thus supporting fairness and privacy.",
+          "title": "Opportunities and Risks Related to Emerging Technologies",
+          "url": "https://ssga.com/library-content/assets/pdf/global/asset-stewardship/2025/opportunities-and-risks-related-to-emerging-technologies.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This State Street Corporation Form 10-K filing provides evidence for **governance**, **external accountability**, and **transparency**. The document details the company's enterprise-wide risk management framework, including specific processes for model risk management that encompass AI and advanced analytics. This includes requirements for model validation before deployment, oversight by a Model Risk Committee (MRC), and adherence to defined frameworks like Basel III, demonstrating robust governance and external accountability through regulatory compliance. Furthermore, the mention of models being used in various business decisions suggests transparency regarding the application of AI/ML systems.",
+          "title": "State Street Corporation Form 10-K for Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/93751/000009375125000111/stt-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "The State Street Corporation Form 10-Q for the quarter ended September 30, 2025, provides evidence for the **governance** pillar of responsible AI. The filing mentions \"advanced systems\" and the need for \"judgment,\" suggesting oversight in their design and application. Furthermore, it refers to \"advanced approaches rules\" and \"model updates/revalidation,\" indicating governance over risk models, even without explicit AI/ML terminology.",
+          "title": "State Street Corporation Form 10-Q for Quarter Ended September 30, 2025",
+          "url": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q3/STT-2025-09-30-10-Q.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for the **governance** pillar of responsible AI. It details the oversight of AI-driven investment processes within the fund's risk management framework and mentions the use of a third-party vendor for proxy voting services, implying vendor oversight and governance requirements. Furthermore, the filing describes an internal governance body responsible for overseeing stewardship strategy and policy implementation, indicating a structured approach to AI governance.",
+          "title": "State Street Institutional Investment Trust – Registration Statement with AI Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/1107414/000119312525282942/d899290d485apos.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "This SEC filing for SSGA Active Trust provides evidence for **governance, oversight, fairness, and privacy**. It details mechanisms for **governance and oversight** through Board-approved procedures, vendor due diligence, and the designation of an Adviser for valuation, including human judgment and review of investment models. The filing also addresses **fairness** by describing policies for equitable resource allocation and potential conflicts, and touches upon **privacy** by acknowledging risks to personal data associated with AI/ML.",
+          "title": "SSGA Active Trust – AI and Machine Learning Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/1516212/000119312524261064/d824091d485apos.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 7,
+      "findings": "Policy documents detail board oversight mechanisms for technology risks. Filings describe mechanisms for oversight through Board-approved procedures and vendor due diligence. Additionally, filings reference the designation of an Adviser for valuation, which includes human judgment and review of investment models.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release from State Street Global Advisors' COO outlines their commitment to responsible AI through a robust governance framework. Evidence was found supporting **governance**, **oversight**, **transparency**, **fairness**, **external_accountability**, and **explainability**. The document details the establishment of an AI Governance and Controls Team responsible for risk management, regulatory monitoring, and setting standards, demonstrating strong governance and oversight. Furthermore, it highlights adherence to a responsible AI standard that includes guidelines for transparency, fairness, and accountability in AI use cases, directly supporting those pillars.",
+          "title": "Building Trust in AI Models: SSGA COO Interview",
+          "url": "https://ftfnews.com/building-trust-in-a-i-models-is-crucial-ssgas-coo"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This policy document from State Street Global Advisors provides evidence for **governance, oversight, transparency, fairness, and privacy**. It details governance structures and board oversight mechanisms for technology risks, aligning with governance and oversight pillars. The document also explicitly states commitments to providing information on AI decision-making and data usage, supporting transparency, and acknowledges potential bias in AI systems while mentioning bias mitigation and AI data privacy, thus supporting fairness and privacy.",
+          "title": "Opportunities and Risks Related to Emerging Technologies",
+          "url": "https://ssga.com/library-content/assets/pdf/global/asset-stewardship/2025/opportunities-and-risks-related-to-emerging-technologies.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "This SEC filing for SSGA Active Trust provides evidence for **governance, oversight, fairness, and privacy**. It details mechanisms for **governance and oversight** through Board-approved procedures, vendor due diligence, and the designation of an Adviser for valuation, including human judgment and review of investment models. The filing also addresses **fairness** by describing policies for equitable resource allocation and potential conflicts, and touches upon **privacy** by acknowledging risks to personal data associated with AI/ML.",
+          "title": "SSGA Active Trust – AI and Machine Learning Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/1516212/000119312524261064/d824091d485apos.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 4,
+      "findings": "Company blog posts reference concerns about data security and the use of data for training models. Policy documents mention AI data privacy. Filings also acknowledge risks to personal data associated with AI/ML.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Private Markets and the Data Revolution: AI Applications,\" provides evidence for **governance**, **privacy**, and **transparency**. The post discusses investment in AI talent and technology, the deployment of LLMs with attention to data security and training data use, and the strategy for creating domain-specific AI agents, all of which imply the need for robust governance and transparency. Furthermore, concerns about data security and use for training models directly support the privacy pillar.",
+          "title": "Private Markets and the Data Revolution: AI Applications",
+          "url": "https://statestreet.com/us/en/insights/private-markets-and-artificial-intelligence"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This policy document from State Street Global Advisors provides evidence for **governance, oversight, transparency, fairness, and privacy**. It details governance structures and board oversight mechanisms for technology risks, aligning with governance and oversight pillars. The document also explicitly states commitments to providing information on AI decision-making and data usage, supporting transparency, and acknowledges potential bias in AI systems while mentioning bias mitigation and AI data privacy, thus supporting fairness and privacy.",
+          "title": "Opportunities and Risks Related to Emerging Technologies",
+          "url": "https://ssga.com/library-content/assets/pdf/global/asset-stewardship/2025/opportunities-and-risks-related-to-emerging-technologies.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "This SEC filing for SSGA Active Trust provides evidence for **governance, oversight, fairness, and privacy**. It details mechanisms for **governance and oversight** through Board-approved procedures, vendor due diligence, and the designation of an Adviser for valuation, including human judgment and review of investment models. The filing also addresses **fairness** by describing policies for equitable resource allocation and potential conflicts, and touches upon **privacy** by acknowledging risks to personal data associated with AI/ML.",
+          "title": "SSGA Active Trust – AI and Machine Learning Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/1516212/000119312524261064/d824091d485apos.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 24,
+      "findings": "The company highlights the use of AI/ML for tasks like compliance rule identification, suspicious activity detection, LLM-based regulatory filing scans, and ML-based anomaly detection. It adheres to a responsible AI standard that includes guidelines for transparency in AI use cases and states commitments to providing information on AI decision-making and data usage. Furthermore, company materials describe AI applications, mention transparent usage metering for AI models, and reference the use of AI/ML models in various business decisions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"State Street Response to Bank of England/PRA/FCA Discussion Paper on AI & ML,\" provides evidence for **governance**, **transparency**, **fairness**, and **external accountability**. It details State Street's tiered risk framework for AI/ML solutions, their model risk management, and governance frameworks, supporting **governance**. The document highlights the use of AI/ML for tasks like compliance rule identification and suspicious activity detection, demonstrating **transparency** in system capabilities. Furthermore, it addresses bias risks in AI models and outlines mitigation strategies, supporting **fairness**, and discusses vendor due diligence and contractual liability for third-party AI, indicating **external accountability**.",
+          "title": "State Street Response to Bank of England/PRA/FCA Discussion Paper on AI & ML",
+          "url": "https://statestreet.com/web/disclosures-and-disclaimers/documents/boe-pra-fca-discussion-paper-on-artificial-intelligence-and-machine-learning.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release from State Street Global Advisors' COO outlines their commitment to responsible AI through a robust governance framework. Evidence was found supporting **governance**, **oversight**, **transparency**, **fairness**, **external_accountability**, and **explainability**. The document details the establishment of an AI Governance and Controls Team responsible for risk management, regulatory monitoring, and setting standards, demonstrating strong governance and oversight. Furthermore, it highlights adherence to a responsible AI standard that includes guidelines for transparency, fairness, and accountability in AI use cases, directly supporting those pillars.",
+          "title": "Building Trust in AI Models: SSGA COO Interview",
+          "url": "https://ftfnews.com/building-trust-in-a-i-models-is-crucial-ssgas-coo"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"AI and the Future of Intelligent Investing,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The article supports governance by highlighting the data management requirements and the need for timely data for AI/ML systems. Transparency is evidenced by the description of AI applications across specific use cases, including LLM-based regulatory filing scans and ML-based anomaly detection, as well as the mention of transparent usage metering for AI models.",
+          "title": "AI and the Future of Intelligent Investing",
+          "url": "https://statestreet.com/alpha/insights/artificial-intelligence-investing"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Assessing the Economic Impact of Generative AI,\" provides evidence for the **transparency** pillar of responsible AI. It supports this by defining a concept related to AI applications and human abilities, serving as descriptive information about AI's role. While it discusses potential benefits and use cases, the blog post lacks operational or policy details, indicating a focus on conceptual understanding rather than specific implementation mechanisms.",
+          "title": "Assessing the Economic Impact of Generative AI",
+          "url": "https://statestreet.com/web/insights/articles/documents/assessing-the-economic-impact-of-generative-ai.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Private Markets and the Data Revolution: AI Applications,\" provides evidence for **governance**, **privacy**, and **transparency**. The post discusses investment in AI talent and technology, the deployment of LLMs with attention to data security and training data use, and the strategy for creating domain-specific AI agents, all of which imply the need for robust governance and transparency. Furthermore, concerns about data security and use for training models directly support the privacy pillar.",
+          "title": "Private Markets and the Data Revolution: AI Applications",
+          "url": "https://statestreet.com/us/en/insights/private-markets-and-artificial-intelligence"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This policy document from State Street Global Advisors provides evidence for **governance, oversight, transparency, fairness, and privacy**. It details governance structures and board oversight mechanisms for technology risks, aligning with governance and oversight pillars. The document also explicitly states commitments to providing information on AI decision-making and data usage, supporting transparency, and acknowledges potential bias in AI systems while mentioning bias mitigation and AI data privacy, thus supporting fairness and privacy.",
+          "title": "Opportunities and Risks Related to Emerging Technologies",
+          "url": "https://ssga.com/library-content/assets/pdf/global/asset-stewardship/2025/opportunities-and-risks-related-to-emerging-technologies.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "This State Street Corporation Form 10-K filing provides evidence for **governance**, **external accountability**, and **transparency**. The document details the company's enterprise-wide risk management framework, including specific processes for model risk management that encompass AI and advanced analytics. This includes requirements for model validation before deployment, oversight by a Model Risk Committee (MRC), and adherence to defined frameworks like Basel III, demonstrating robust governance and external accountability through regulatory compliance. Furthermore, the mention of models being used in various business decisions suggests transparency regarding the application of AI/ML systems.",
+          "title": "State Street Corporation Form 10-K for Year Ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/93751/000009375125000111/stt-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:58:50Z",
+  "run_id": "20260203_025234_f23b",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Transparency and oversight are among the responsible AI pillars for which State Street's public disclosures demonstrate operational practices. Policy documents highlight the use of AI/ML for compliance rule identification and detail board oversight mechanisms for technology risks. All 7 evaluated pillars have documented public evidence, drawing from 17 publicly available sources. Further operational practices are evident in governance, where policy documents detail a tiered risk framework for AI/ML solutions, and in external accountability, which discusses vendor due diligence for third-party AI. Additionally, fairness, explainability, and privacy are addressed at the policy level, with materials outlining bias mitigation strategies and mentioning AI data privacy.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 92,
+    "total_sources_used": 12
+  }
+}

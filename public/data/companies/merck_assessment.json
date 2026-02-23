@@ -1,0 +1,314 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "Merck",
+  "company_slug": "merck",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 26,
+      "OPERATIONAL": 6,
+      "POLICY": 31
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "A blog post mentions the need for reliable and trustworthy outputs from AI/ML models. This includes referencing the challenge of dealing with unexplainable predictions from these models.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This blog post from Nature highlights Merck's commitment to responsible AI by discussing their use of AI/ML in drug discovery. The publication supports **explainability** by mentioning the need for reliable and trustworthy outputs from AI/ML models, even when dealing with unexplainable predictions. It also provides evidence for **governance** by implying the necessity of such frameworks for managing AI, and for **transparency** through descriptions of AI-assisted tools, AI/ML model usage, training data, and the capabilities of their AI platform for molecule design and prediction.",
+          "title": "Merck: Innovation powered by digital and data",
+          "url": "https://nature.com/articles/d42473-024-00195-z"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "A technical paper mentions compliance with regulations like the AI Act, indicating a focus on external accountability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"GPTeal: Merck's Generative AI Strategy for Pharma R&D,\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It details Merck's GPTeal platform, which employs query encryption and data vetting to protect proprietary research and patient data, directly supporting the **privacy** pillar. The paper also highlights a strong emphasis on data governance, risk management, ethical use, and transparency in AI outputs, demonstrating robust **governance** and **oversight** through mandatory human review of LLM outputs and a commitment to traceable, validated AI processes. Furthermore, the description of AI systems in use and their intended purpose contributes to **transparency**, while mentions of compliance with regulations like the AI Act indicate a focus on **external_accountability**.",
+          "title": "GPTeal: Merck's Generative AI Strategy for Pharma R&D",
+          "url": "https://intuitionlabs.ai/articles/merck-gpteal-ai-pharma-rd"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "Merck's Form 10-K describes AI risks, bias, and discrimination. This document references policy concerns and a need for fairness within the company's AI practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "The Form 10-K for the fiscal year ended December 31, 2024, provides evidence for **fairness, governance, privacy, and transparency**. The SEC filing discusses AI risks, bias, and discrimination, indicating policy concerns and a need for fairness. It also highlights the use of AI systems for decision-making and associated cybersecurity risks, implying a need for governance mechanisms such as Chief Information Security Officer oversight and board-level risk reporting. Furthermore, the document touches upon data protection for AI, supporting the privacy pillar, and mentions a lack of transparency, underscoring the need for transparency policies.",
+          "title": "Form 10-K for fiscal year ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/310158/000162828025007732/mrk-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 42,
+      "findings": "Merck's Form 10-K references a need for governance mechanisms, including Chief Information Security Officer oversight and board-level risk reporting. A help page states Merck's principles for AI use and references a commitment to responsible AI practices and ethical application. Furthermore, a technical paper mentions AI decision-making, ethical decision-making, and accountability as design principles, while a company blog post mentions training on responsible AI use.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "The Form 10-K for the fiscal year ended December 31, 2024, provides evidence for **fairness, governance, privacy, and transparency**. The SEC filing discusses AI risks, bias, and discrimination, indicating policy concerns and a need for fairness. It also highlights the use of AI systems for decision-making and associated cybersecurity risks, implying a need for governance mechanisms such as Chief Information Security Officer oversight and board-level risk reporting. Furthermore, the document touches upon data protection for AI, supporting the privacy pillar, and mentions a lack of transparency, underscoring the need for transparency policies.",
+          "title": "Form 10-K for fiscal year ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/310158/000162828025007732/mrk-20241231.htm"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Data science and artificial intelligence,\" provides evidence for the **governance** pillar of responsible AI. It supports this by stating Merck's principles for AI use, demonstrating a commitment to responsible AI practices and ethical application across various therapeutic areas.",
+          "title": "Data science and artificial intelligence",
+          "url": "https://merck.com/research/areas-of-innovation/data-science-and-artificial-intelligence"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance**, **oversight**, and **transparency** by detailing Merck's generative AI platform for clinical study reports. The document highlights rigorous human oversight by qualified medical writers, indicating strong governance and operational oversight. Furthermore, it mentions the use of LLMs and their integration into workflows, demonstrating transparency about the AI system and its application.",
+          "title": "Merck Expands Innovative Internal Generative AI Solutions for Clinical Study Reports",
+          "url": "https://merck.com/news/merck-expands-innovative-internal-generative-ai-solutions-helping-to-deliver-medicines-to-patients-faster"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"GPTeal: Merck's Generative AI Strategy for Pharma R&D,\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It details Merck's GPTeal platform, which employs query encryption and data vetting to protect proprietary research and patient data, directly supporting the **privacy** pillar. The paper also highlights a strong emphasis on data governance, risk management, ethical use, and transparency in AI outputs, demonstrating robust **governance** and **oversight** through mandatory human review of LLM outputs and a commitment to traceable, validated AI processes. Furthermore, the description of AI systems in use and their intended purpose contributes to **transparency**, while mentions of compliance with regulations like the AI Act indicate a focus on **external_accountability**.",
+          "title": "GPTeal: Merck's Generative AI Strategy for Pharma R&D",
+          "url": "https://intuitionlabs.ai/articles/merck-gpteal-ai-pharma-rd"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, and **transparency** by detailing Merck's \"human-in-the-loop\" AI strategy. The interview highlights the adoption of generative and agentic AI tools, emphasizing human oversight and approval processes for AI outputs, and discussing the strategic reallocation of human expertise to complex tasks. This approach aims to augment human capabilities while ensuring human control and decision-making authority within AI-driven workflows.",
+          "title": "For Merck, AI Puts Humans in the 'Right Room'",
+          "url": "https://medcitynews.com/2025/12/for-merck-ai-puts-humans-in-the-right-room"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **governance**, **oversight**, and **transparency** in responsible AI. The document details Merck's AI strategy across various functions, mentioning specific platforms like GPTeal and Quris-AI, and highlighting the use of AI/ML for discovery, clinical trials, manufacturing, and supply chain optimization. Evidence for governance is found in the mention of AI decision-making, ethical decision-making, and accountability as design principles. Oversight is supported by the mention of human-in-the-loop processes. Transparency is demonstrated through the explicit mention of AI systems, LLMs, AI tools, and the training and validation of internal AI models.",
+          "title": "Merck's AI Strategy: Analysis of Dominating Biopharmaceutical Approach",
+          "url": "https://klover.ai/merck-ai-strategy-analysis-of-dominating-biopharmaceutical"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This blog post from Nature highlights Merck's commitment to responsible AI by discussing their use of AI/ML in drug discovery. The publication supports **explainability** by mentioning the need for reliable and trustworthy outputs from AI/ML models, even when dealing with unexplainable predictions. It also provides evidence for **governance** by implying the necessity of such frameworks for managing AI, and for **transparency** through descriptions of AI-assisted tools, AI/ML model usage, training data, and the capabilities of their AI platform for molecule design and prediction.",
+          "title": "Merck: Innovation powered by digital and data",
+          "url": "https://nature.com/articles/d42473-024-00195-z"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"5 ways we're transforming artificial intelligence into impact,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning training on responsible AI use, and it demonstrates transparency through descriptions of AI/ML models for drug design, a proprietary AI platform with LLMs, a specific computer vision use case, AI integration across a lifecycle, a generative AI chatbot, and AI's role in patient outcome tools.",
+          "title": "5 ways we're transforming artificial intelligence into impact",
+          "url": "https://merck.com/stories/5-ways-were-transforming-artificial-intelligence-into-impact"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 14,
+      "findings": "Merck's \"human-in-the-loop\" AI strategy is detailed in a blog post, which describes human oversight and approval processes for AI outputs. This strategy also describes the strategic reallocation of human expertise to complex tasks within AI-driven workflows. A technical paper further mentions human-in-the-loop processes.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance**, **oversight**, and **transparency** by detailing Merck's generative AI platform for clinical study reports. The document highlights rigorous human oversight by qualified medical writers, indicating strong governance and operational oversight. Furthermore, it mentions the use of LLMs and their integration into workflows, demonstrating transparency about the AI system and its application.",
+          "title": "Merck Expands Innovative Internal Generative AI Solutions for Clinical Study Reports",
+          "url": "https://merck.com/news/merck-expands-innovative-internal-generative-ai-solutions-helping-to-deliver-medicines-to-patients-faster"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"GPTeal: Merck's Generative AI Strategy for Pharma R&D,\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It details Merck's GPTeal platform, which employs query encryption and data vetting to protect proprietary research and patient data, directly supporting the **privacy** pillar. The paper also highlights a strong emphasis on data governance, risk management, ethical use, and transparency in AI outputs, demonstrating robust **governance** and **oversight** through mandatory human review of LLM outputs and a commitment to traceable, validated AI processes. Furthermore, the description of AI systems in use and their intended purpose contributes to **transparency**, while mentions of compliance with regulations like the AI Act indicate a focus on **external_accountability**.",
+          "title": "GPTeal: Merck's Generative AI Strategy for Pharma R&D",
+          "url": "https://intuitionlabs.ai/articles/merck-gpteal-ai-pharma-rd"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, and **transparency** by detailing Merck's \"human-in-the-loop\" AI strategy. The interview highlights the adoption of generative and agentic AI tools, emphasizing human oversight and approval processes for AI outputs, and discussing the strategic reallocation of human expertise to complex tasks. This approach aims to augment human capabilities while ensuring human control and decision-making authority within AI-driven workflows.",
+          "title": "For Merck, AI Puts Humans in the 'Right Room'",
+          "url": "https://medcitynews.com/2025/12/for-merck-ai-puts-humans-in-the-right-room"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **governance**, **oversight**, and **transparency** in responsible AI. The document details Merck's AI strategy across various functions, mentioning specific platforms like GPTeal and Quris-AI, and highlighting the use of AI/ML for discovery, clinical trials, manufacturing, and supply chain optimization. Evidence for governance is found in the mention of AI decision-making, ethical decision-making, and accountability as design principles. Oversight is supported by the mention of human-in-the-loop processes. Transparency is demonstrated through the explicit mention of AI systems, LLMs, AI tools, and the training and validation of internal AI models.",
+          "title": "Merck's AI Strategy: Analysis of Dominating Biopharmaceutical Approach",
+          "url": "https://klover.ai/merck-ai-strategy-analysis-of-dominating-biopharmaceutical"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "Merck's Form 10-K references data protection for AI. Additionally, a technical paper details Merck's GPTeal platform, stating that it employs query encryption and data vetting to protect proprietary research and patient data.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "The Form 10-K for the fiscal year ended December 31, 2024, provides evidence for **fairness, governance, privacy, and transparency**. The SEC filing discusses AI risks, bias, and discrimination, indicating policy concerns and a need for fairness. It also highlights the use of AI systems for decision-making and associated cybersecurity risks, implying a need for governance mechanisms such as Chief Information Security Officer oversight and board-level risk reporting. Furthermore, the document touches upon data protection for AI, supporting the privacy pillar, and mentions a lack of transparency, underscoring the need for transparency policies.",
+          "title": "Form 10-K for fiscal year ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/310158/000162828025007732/mrk-20241231.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"GPTeal: Merck's Generative AI Strategy for Pharma R&D,\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It details Merck's GPTeal platform, which employs query encryption and data vetting to protect proprietary research and patient data, directly supporting the **privacy** pillar. The paper also highlights a strong emphasis on data governance, risk management, ethical use, and transparency in AI outputs, demonstrating robust **governance** and **oversight** through mandatory human review of LLM outputs and a commitment to traceable, validated AI processes. Furthermore, the description of AI systems in use and their intended purpose contributes to **transparency**, while mentions of compliance with regulations like the AI Act indicate a focus on **external_accountability**.",
+          "title": "GPTeal: Merck's Generative AI Strategy for Pharma R&D",
+          "url": "https://intuitionlabs.ai/articles/merck-gpteal-ai-pharma-rd"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 34,
+      "findings": "Merck provides transparency through descriptions of its AI systems, tools, and strategies, including detailing its generative AI platform for clinical study reports and mentioning the use of LLMs and their integration into workflows. A blog post details Merck's \"human-in-the-loop\" AI strategy, while technical papers explicitly mention AI systems, LLMs, AI tools, and the training and validation of internal AI models. Furthermore, Merck describes its AI strategy across various functions, specific platforms like GPTeal and Quris-AI, AI/ML model usage, training data, and the capabilities of its AI platform for molecule design and prediction, as well as AI's role in patient outcome tools.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "The Form 10-K for the fiscal year ended December 31, 2024, provides evidence for **fairness, governance, privacy, and transparency**. The SEC filing discusses AI risks, bias, and discrimination, indicating policy concerns and a need for fairness. It also highlights the use of AI systems for decision-making and associated cybersecurity risks, implying a need for governance mechanisms such as Chief Information Security Officer oversight and board-level risk reporting. Furthermore, the document touches upon data protection for AI, supporting the privacy pillar, and mentions a lack of transparency, underscoring the need for transparency policies.",
+          "title": "Form 10-K for fiscal year ended December 31, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/310158/000162828025007732/mrk-20241231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance**, **oversight**, and **transparency** by detailing Merck's generative AI platform for clinical study reports. The document highlights rigorous human oversight by qualified medical writers, indicating strong governance and operational oversight. Furthermore, it mentions the use of LLMs and their integration into workflows, demonstrating transparency about the AI system and its application.",
+          "title": "Merck Expands Innovative Internal Generative AI Solutions for Clinical Study Reports",
+          "url": "https://merck.com/news/merck-expands-innovative-internal-generative-ai-solutions-helping-to-deliver-medicines-to-patients-faster"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"GPTeal: Merck's Generative AI Strategy for Pharma R&D,\" provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It details Merck's GPTeal platform, which employs query encryption and data vetting to protect proprietary research and patient data, directly supporting the **privacy** pillar. The paper also highlights a strong emphasis on data governance, risk management, ethical use, and transparency in AI outputs, demonstrating robust **governance** and **oversight** through mandatory human review of LLM outputs and a commitment to traceable, validated AI processes. Furthermore, the description of AI systems in use and their intended purpose contributes to **transparency**, while mentions of compliance with regulations like the AI Act indicate a focus on **external_accountability**.",
+          "title": "GPTeal: Merck's Generative AI Strategy for Pharma R&D",
+          "url": "https://intuitionlabs.ai/articles/merck-gpteal-ai-pharma-rd"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, and **transparency** by detailing Merck's \"human-in-the-loop\" AI strategy. The interview highlights the adoption of generative and agentic AI tools, emphasizing human oversight and approval processes for AI outputs, and discussing the strategic reallocation of human expertise to complex tasks. This approach aims to augment human capabilities while ensuring human control and decision-making authority within AI-driven workflows.",
+          "title": "For Merck, AI Puts Humans in the 'Right Room'",
+          "url": "https://medcitynews.com/2025/12/for-merck-ai-puts-humans-in-the-right-room"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **governance**, **oversight**, and **transparency** in responsible AI. The document details Merck's AI strategy across various functions, mentioning specific platforms like GPTeal and Quris-AI, and highlighting the use of AI/ML for discovery, clinical trials, manufacturing, and supply chain optimization. Evidence for governance is found in the mention of AI decision-making, ethical decision-making, and accountability as design principles. Oversight is supported by the mention of human-in-the-loop processes. Transparency is demonstrated through the explicit mention of AI systems, LLMs, AI tools, and the training and validation of internal AI models.",
+          "title": "Merck's AI Strategy: Analysis of Dominating Biopharmaceutical Approach",
+          "url": "https://klover.ai/merck-ai-strategy-analysis-of-dominating-biopharmaceutical"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This blog post from Nature highlights Merck's commitment to responsible AI by discussing their use of AI/ML in drug discovery. The publication supports **explainability** by mentioning the need for reliable and trustworthy outputs from AI/ML models, even when dealing with unexplainable predictions. It also provides evidence for **governance** by implying the necessity of such frameworks for managing AI, and for **transparency** through descriptions of AI-assisted tools, AI/ML model usage, training data, and the capabilities of their AI platform for molecule design and prediction.",
+          "title": "Merck: Innovation powered by digital and data",
+          "url": "https://nature.com/articles/d42473-024-00195-z"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"5 ways we're transforming artificial intelligence into impact,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning training on responsible AI use, and it demonstrates transparency through descriptions of AI/ML models for drug design, a proprietary AI platform with LLMs, a specific computer vision use case, AI integration across a lifecycle, a generative AI chatbot, and AI's role in patient outcome tools.",
+          "title": "5 ways we're transforming artificial intelligence into impact",
+          "url": "https://merck.com/stories/5-ways-were-transforming-artificial-intelligence-into-impact"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:55:07Z",
+  "run_id": "20260202_232601_4620",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Drawing from 14 publicly available sources, Merck's published materials address all 7 evaluated responsible AI pillars, with documented public evidence found for each. Operational practices are detailed for transparency, oversight, and governance, with disclosures referencing Merck's generative AI platform for clinical study reports and a \"human-in-the-loop\" AI strategy. Policy-level evidence is present for fairness, explainability, privacy, and external accountability. Fairness materials describe AI risks, bias, and discrimination, while privacy disclosures reference data protection for AI. Furthermore, governance materials reference a need for board-level risk reporting.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 63,
+    "total_sources_used": 8
+  }
+}

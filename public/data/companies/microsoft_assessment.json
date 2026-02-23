@@ -1,0 +1,476 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Microsoft",
+  "company_slug": "microsoft",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 19,
+      "OPERATIONAL": 16,
+      "POLICY": 81
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 5,
+      "findings": "A technical paper describes a monitoring dashboard that supports explainability. This support is provided through disaggregated analysis and interpretability tools.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI Dashboard - Design and Implementation,\" provides evidence for explainability, fairness, governance, and transparency. The document describes a monitoring dashboard designed to detect fairness and performance issues, supporting fairness and explainability through disaggregated analysis and interpretability tools. It also highlights mechanisms for ongoing system supervision, including scorecards for compliance and approval, and tools for model debugging and decision-making, which support governance and transparency.",
+          "title": "Responsible AI Dashboard - Design and Implementation",
+          "url": "https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai-dashboard"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 4,
+      "findings": "A report details the company's commitment to sharing AI safety innovations with the broader ecosystem. The report also outlines a commitment to sharing AI best practices with the broader ecosystem.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The \"Responsible AI Transparency Report 2025\" provides evidence for **external accountability, governance, oversight, and transparency**. This company-owned report details Microsoft's commitment to sharing AI safety innovations and best practices with the broader ecosystem, supporting external accountability. It outlines a comprehensive governance framework for AI development and deployment, including formalized internal requirements for generative AI systems and adherence to international standards like ISO/IEC 42001:2023, demonstrating strong governance. The report also highlights oversight mechanisms through the Sensitive Uses team and accountable executives, alongside transparency efforts such as expanded documentation for AI services and in-product disclosures.",
+          "title": "Responsible AI Transparency Report 2025",
+          "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2025-vertical.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 26,
+      "findings": "The company outlines a commitment to fairness principles, integrating them into AI system design and development. Documentation details operational assessment methodologies for AI fairness, including group fairness concepts, disparity metrics, and capabilities within AI dashboards for evaluation. The company also describes an open-source toolkit designed to measure and mitigate algorithmic bias in machine learning systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned technical implementation guidance, \"Code of conduct for the Azure OpenAI Service - human oversight,\" provides evidence for fairness, governance, oversight, and transparency. It details requirements for AI use cases and adherence to principles, establishing policy for responsible AI deployment. Specifically, it defines \"human oversight\" and specifies human validation/approval for AI decisions in critical situations, aligning with values and norms.",
+          "title": "Code of conduct for the azure open AI service - human oversight",
+          "url": "https://learn.microsoft.com/en-us/answers/questions/1661619/code-of-conduct-for-the-azure-open-ai-service-huma"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This Microsoft help page, \"Fairness in Machine Learning - Azure Guidance,\" provides evidence for the **fairness** pillar of responsible AI. The documentation details operational assessment methodologies for AI fairness, including group fairness concepts and disparity metrics across subgroups, as well as capabilities within an AI dashboard for evaluating fairness. It also acknowledges fairness as a challenge and mentions tools for assessment, emphasizing human decision-making for trade-offs.",
+          "title": "Fairness in Machine Learning - Azure Guidance",
+          "url": "https://learn.microsoft.com/en-us/azure/machine-learning/concept-fairness-ml"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Azure documentation on Responsible AI in Azure Machine Learning supports the pillars of fairness, governance, privacy, and transparency. It describes operational MLOps capabilities for tracking model lifecycle and lineage, contributing to governance and transparency. The documentation also details dashboards for assessing model fairness across sensitive groups and analyzing model errors, directly supporting fairness and transparency. Furthermore, it establishes a formal AI Standard with principles of fairness, transparency, privacy, and accountability, reflecting a foundational policy for responsible AI development.",
+          "title": "Responsible AI in Azure Machine Learning",
+          "url": "https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Microsoft AI Principles,\" provides evidence for the **fairness, privacy, transparency, and accountability** pillars of responsible AI. It outlines Microsoft's commitment to these principles and their integration into AI system design and development, including practices for strengthening privacy and security. The document explicitly mentions these principles and their application to AI systems, indicating a policy-driven approach to responsible AI.",
+          "title": "Microsoft AI Principles",
+          "url": "https://www.microsoft.com/en-us/ai/responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Microsoft Corporate Hub help page provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. The page outlines Microsoft's commitment to these principles in AI system development, referencing policies and ethical considerations such as fairness, privacy, transparency, accountability, and human oversight. It also details operational steps like establishing an office and implementing tools for monitoring and managing AI systems.",
+          "title": "Responsible AI at Microsoft - Corporate Hub",
+          "url": "https://microsoft.com/en-us/ai/responsible-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"FairLearn: A Toolkit for Assessing and Improving Fairness in AI,\" provides evidence for the **fairness** pillar. The paper describes Microsoft's open-source toolkit, FairLearn, which is designed to measure and mitigate algorithmic bias in machine learning systems, explicitly addressing the challenge of fairness in AI and aiming to reduce associated harms.",
+          "title": "FairLearn: A Toolkit for Assessing and Improving Fairness in AI",
+          "url": "https://microsoft.com/en-us/research/publication/fairlearn-a-toolkit-for-assessing-and-improving-fairness-in-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI Dashboard - Design and Implementation,\" provides evidence for explainability, fairness, governance, and transparency. The document describes a monitoring dashboard designed to detect fairness and performance issues, supporting fairness and explainability through disaggregated analysis and interpretability tools. It also highlights mechanisms for ongoing system supervision, including scorecards for compliance and approval, and tools for model debugging and decision-making, which support governance and transparency.",
+          "title": "Responsible AI Dashboard - Design and Implementation",
+          "url": "https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai-dashboard"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_023",
+          "source_tier": "authority",
+          "summary": "Microsoft's 10-K SEC Filing provides evidence for **fairness, governance, privacy, and transparency**. The filing discusses potential risks of biased data, supporting the **fairness** pillar. It also addresses emerging legislative and regulatory actions for AI, as well as legal liability and regulatory requirements, which are relevant to **governance**. Furthermore, the document mentions data protection in the context of AI and data handling concerns, indicating support for the **privacy** pillar. Finally, the filing highlights AI cognitive services, AI-backed tools, AI-based security, AI capabilities, AI innovations, and AI solutions, all of which contribute to the **transparency** pillar by indicating the company's focus on and offerings in AI.",
+          "title": "Microsoft 10-K SEC Filing (Annual Report)",
+          "url": "https://sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 77,
+      "findings": "The company outlines commitments to implementing AI risk management frameworks and cybersecurity practices, establishing policy for responsible AI deployment. Governance practices include detailing requirements for AI use cases, tracking model lifecycle and lineage, conducting AI impact assessments, and outlining criteria for evaluating third-party AI partnerships. The company also addresses emerging legislative and regulatory actions for AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Our commitments to advance safe, secure, and trustworthy AI,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The post outlines commitments to implementing AI risk management frameworks and cybersecurity practices, demonstrating a formal policy stance on governance. Furthermore, it highlights advocacy for AI registries and the promotion of transparency reports and red-team testing, directly supporting the transparency pillar.",
+          "title": "Our commitments to advance safe, secure, and trustworthy AI",
+          "url": "https://blogs.microsoft.com/on-the-issues/2023/07/21/commitment-safe-secure-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enhancing trust and protecting privacy in the AI era,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The post outlines publicly available materials detailing AI product design, testing, and deployment, demonstrating transparency in how privacy and accountability are addressed. It also highlights a commitment to privacy and data protection regulations for AI systems, referencing a \"Blueprint for Governing AI\" and internal Responsible AI standards that incorporate privacy and security as core principles, indicating strong governance and privacy policies.",
+          "title": "Enhancing trust and protecting privacy in the AI era",
+          "url": "https://blogs.microsoft.com/on-the-issues/2023/12/19/trust-privacy-bing-copilot-responsible-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The \"Responsible AI Transparency Report 2025\" provides evidence for **external accountability, governance, oversight, and transparency**. This company-owned report details Microsoft's commitment to sharing AI safety innovations and best practices with the broader ecosystem, supporting external accountability. It outlines a comprehensive governance framework for AI development and deployment, including formalized internal requirements for generative AI systems and adherence to international standards like ISO/IEC 42001:2023, demonstrating strong governance. The report also highlights oversight mechanisms through the Sensitive Uses team and accountable executives, alongside transparency efforts such as expanded documentation for AI services and in-product disclosures.",
+          "title": "Responsible AI Transparency Report 2025",
+          "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2025-vertical.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned technical implementation guidance, \"Code of conduct for the Azure OpenAI Service - human oversight,\" provides evidence for fairness, governance, oversight, and transparency. It details requirements for AI use cases and adherence to principles, establishing policy for responsible AI deployment. Specifically, it defines \"human oversight\" and specifies human validation/approval for AI decisions in critical situations, aligning with values and norms.",
+          "title": "Code of conduct for the azure open AI service - human oversight",
+          "url": "https://learn.microsoft.com/en-us/answers/questions/1661619/code-of-conduct-for-the-azure-open-ai-service-huma"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Azure documentation on Responsible AI in Azure Machine Learning supports the pillars of fairness, governance, privacy, and transparency. It describes operational MLOps capabilities for tracking model lifecycle and lineage, contributing to governance and transparency. The documentation also details dashboards for assessing model fairness across sensitive groups and analyzing model errors, directly supporting fairness and transparency. Furthermore, it establishes a formal AI Standard with principles of fairness, transparency, privacy, and accountability, reflecting a foundational policy for responsible AI development.",
+          "title": "Responsible AI in Azure Machine Learning",
+          "url": "https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Microsoft AI Principles,\" provides evidence for the **fairness, privacy, transparency, and accountability** pillars of responsible AI. It outlines Microsoft's commitment to these principles and their integration into AI system design and development, including practices for strengthening privacy and security. The document explicitly mentions these principles and their application to AI systems, indicating a policy-driven approach to responsible AI.",
+          "title": "Microsoft AI Principles",
+          "url": "https://www.microsoft.com/en-us/ai/responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Microsoft Corporate Hub help page provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. The page outlines Microsoft's commitment to these principles in AI system development, referencing policies and ethical considerations such as fairness, privacy, transparency, accountability, and human oversight. It also details operational steps like establishing an office and implementing tools for monitoring and managing AI systems.",
+          "title": "Responsible AI at Microsoft - Corporate Hub",
+          "url": "https://microsoft.com/en-us/ai/responsible-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release, the \"Microsoft Corporate Responsibility and Sustainability Report,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report mentions specific AI initiatives like \"Microsoft AI,\" \"AI for education,\" and \"Microsoft 365 Copilot,\" which inherently require robust governance and transparency. Furthermore, the document details practices such as AI impact assessments and saliency assessments, directly supporting the documented governance and transparency policies for AI.",
+          "title": "Microsoft Corporate Responsibility and Sustainability Report",
+          "url": "https://microsoft.com/en-us/corporate-responsibility/report"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Microsoft Sustainability and Responsible AI Metrics,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by detailing commitments to standards, public reporting on AI progress, and conducting impact assessments for AI technologies, which implies oversight and vendor management for AI marketplace applications. Transparency is supported through the public reporting of metrics on AI progress and the commitment to sharing this information.",
+          "title": "Microsoft Sustainability and Responsible AI Metrics",
+          "url": "https://www.microsoft.com/en-us/corporate-responsibility/reports-hub"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release from Microsoft outlines criteria for evaluating third-party AI partnerships, providing evidence for the **governance** and **transparency** pillars. It supports governance by describing operational actions related to AI security and accountability, such as taking down hackers. The press release also supports transparency by mentioning AI use and disclaimers, indicating a commitment to being open about potential AI limitations.",
+          "title": "Microsoft Guidelines for Responsible AI Partnerships",
+          "url": "https://microsoft.com/en-us/news/press-releases/2021/01/29/microsoft-announces-release-of-guidelines-for-responsible-ai-partnerships"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI Dashboard - Design and Implementation,\" provides evidence for explainability, fairness, governance, and transparency. The document describes a monitoring dashboard designed to detect fairness and performance issues, supporting fairness and explainability through disaggregated analysis and interpretability tools. It also highlights mechanisms for ongoing system supervision, including scorecards for compliance and approval, and tools for model debugging and decision-making, which support governance and transparency.",
+          "title": "Responsible AI Dashboard - Design and Implementation",
+          "url": "https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai-dashboard"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_023",
+          "source_tier": "authority",
+          "summary": "Microsoft's 10-K SEC Filing provides evidence for **fairness, governance, privacy, and transparency**. The filing discusses potential risks of biased data, supporting the **fairness** pillar. It also addresses emerging legislative and regulatory actions for AI, as well as legal liability and regulatory requirements, which are relevant to **governance**. Furthermore, the document mentions data protection in the context of AI and data handling concerns, indicating support for the **privacy** pillar. Finally, the filing highlights AI cognitive services, AI-backed tools, AI-based security, AI capabilities, AI innovations, and AI solutions, all of which contribute to the **transparency** pillar by indicating the company's focus on and offerings in AI.",
+          "title": "Microsoft 10-K SEC Filing (Annual Report)",
+          "url": "https://sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "The company highlights oversight mechanisms through a Sensitive Uses team and accountable executives. Technical guidance defines \"human oversight\" and specifies human validation and approval for AI decisions in critical situations. Additionally, a corporate hub page references human oversight as an ethical consideration and details operational steps for monitoring and managing AI systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The \"Responsible AI Transparency Report 2025\" provides evidence for **external accountability, governance, oversight, and transparency**. This company-owned report details Microsoft's commitment to sharing AI safety innovations and best practices with the broader ecosystem, supporting external accountability. It outlines a comprehensive governance framework for AI development and deployment, including formalized internal requirements for generative AI systems and adherence to international standards like ISO/IEC 42001:2023, demonstrating strong governance. The report also highlights oversight mechanisms through the Sensitive Uses team and accountable executives, alongside transparency efforts such as expanded documentation for AI services and in-product disclosures.",
+          "title": "Responsible AI Transparency Report 2025",
+          "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2025-vertical.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned technical implementation guidance, \"Code of conduct for the Azure OpenAI Service - human oversight,\" provides evidence for fairness, governance, oversight, and transparency. It details requirements for AI use cases and adherence to principles, establishing policy for responsible AI deployment. Specifically, it defines \"human oversight\" and specifies human validation/approval for AI decisions in critical situations, aligning with values and norms.",
+          "title": "Code of conduct for the azure open AI service - human oversight",
+          "url": "https://learn.microsoft.com/en-us/answers/questions/1661619/code-of-conduct-for-the-azure-open-ai-service-huma"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Microsoft Corporate Hub help page provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. The page outlines Microsoft's commitment to these principles in AI system development, referencing policies and ethical considerations such as fairness, privacy, transparency, accountability, and human oversight. It also details operational steps like establishing an office and implementing tools for monitoring and managing AI systems.",
+          "title": "Responsible AI at Microsoft - Corporate Hub",
+          "url": "https://microsoft.com/en-us/ai/responsible-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 25,
+      "findings": "The company outlines a commitment to privacy principles, integrating them into AI system design and development, and detailing practices for strengthening privacy. Publicly available materials outline how privacy is addressed in AI product design, testing, and deployment. User-facing controls and mechanisms are detailed for managing data collection and processing for AI-driven features.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enhancing trust and protecting privacy in the AI era,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The post outlines publicly available materials detailing AI product design, testing, and deployment, demonstrating transparency in how privacy and accountability are addressed. It also highlights a commitment to privacy and data protection regulations for AI systems, referencing a \"Blueprint for Governing AI\" and internal Responsible AI standards that incorporate privacy and security as core principles, indicating strong governance and privacy policies.",
+          "title": "Enhancing trust and protecting privacy in the AI era",
+          "url": "https://blogs.microsoft.com/on-the-issues/2023/12/19/trust-privacy-bing-copilot-responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Azure documentation on Responsible AI in Azure Machine Learning supports the pillars of fairness, governance, privacy, and transparency. It describes operational MLOps capabilities for tracking model lifecycle and lineage, contributing to governance and transparency. The documentation also details dashboards for assessing model fairness across sensitive groups and analyzing model errors, directly supporting fairness and transparency. Furthermore, it establishes a formal AI Standard with principles of fairness, transparency, privacy, and accountability, reflecting a foundational policy for responsible AI development.",
+          "title": "Responsible AI in Azure Machine Learning",
+          "url": "https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Microsoft AI Principles,\" provides evidence for the **fairness, privacy, transparency, and accountability** pillars of responsible AI. It outlines Microsoft's commitment to these principles and their integration into AI system design and development, including practices for strengthening privacy and security. The document explicitly mentions these principles and their application to AI systems, indicating a policy-driven approach to responsible AI.",
+          "title": "Microsoft AI Principles",
+          "url": "https://www.microsoft.com/en-us/ai/responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Microsoft Corporate Hub help page provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. The page outlines Microsoft's commitment to these principles in AI system development, referencing policies and ethical considerations such as fairness, privacy, transparency, accountability, and human oversight. It also details operational steps like establishing an office and implementing tools for monitoring and managing AI systems.",
+          "title": "Responsible AI at Microsoft - Corporate Hub",
+          "url": "https://microsoft.com/en-us/ai/responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This Microsoft help page provides evidence for the **privacy** and **transparency** pillars of responsible AI. It details user-facing controls and mechanisms that allow individuals to manage data collection and processing for AI-driven features like speech recognition and personalized experiences. The page also explains the conditions under which browse and search activity are collected and visible, linking these to AI services and user accounts, thereby offering transparency into data usage.",
+          "title": "Microsoft Privacy Dashboard and Controls",
+          "url": "https://account.microsoft.com/privacy/"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_023",
+          "source_tier": "authority",
+          "summary": "Microsoft's 10-K SEC Filing provides evidence for **fairness, governance, privacy, and transparency**. The filing discusses potential risks of biased data, supporting the **fairness** pillar. It also addresses emerging legislative and regulatory actions for AI, as well as legal liability and regulatory requirements, which are relevant to **governance**. Furthermore, the document mentions data protection in the context of AI and data handling concerns, indicating support for the **privacy** pillar. Finally, the filing highlights AI cognitive services, AI-backed tools, AI-based security, AI capabilities, AI innovations, and AI solutions, all of which contribute to the **transparency** pillar by indicating the company's focus on and offerings in AI.",
+          "title": "Microsoft 10-K SEC Filing (Annual Report)",
+          "url": "https://sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 54,
+      "findings": "The company promotes transparency through various practices, including advocating for AI registries, promoting transparency reports, and conducting red-team testing. Publicly available materials outline AI product design, testing, and deployment, alongside expanded documentation for AI services and in-product disclosures. The company also details AI impact and saliency assessments, tracks model lifecycle and lineage, and publicly reports metrics on AI progress.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Our commitments to advance safe, secure, and trustworthy AI,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The post outlines commitments to implementing AI risk management frameworks and cybersecurity practices, demonstrating a formal policy stance on governance. Furthermore, it highlights advocacy for AI registries and the promotion of transparency reports and red-team testing, directly supporting the transparency pillar.",
+          "title": "Our commitments to advance safe, secure, and trustworthy AI",
+          "url": "https://blogs.microsoft.com/on-the-issues/2023/07/21/commitment-safe-secure-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Enhancing trust and protecting privacy in the AI era,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The post outlines publicly available materials detailing AI product design, testing, and deployment, demonstrating transparency in how privacy and accountability are addressed. It also highlights a commitment to privacy and data protection regulations for AI systems, referencing a \"Blueprint for Governing AI\" and internal Responsible AI standards that incorporate privacy and security as core principles, indicating strong governance and privacy policies.",
+          "title": "Enhancing trust and protecting privacy in the AI era",
+          "url": "https://blogs.microsoft.com/on-the-issues/2023/12/19/trust-privacy-bing-copilot-responsible-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The \"Responsible AI Transparency Report 2025\" provides evidence for **external accountability, governance, oversight, and transparency**. This company-owned report details Microsoft's commitment to sharing AI safety innovations and best practices with the broader ecosystem, supporting external accountability. It outlines a comprehensive governance framework for AI development and deployment, including formalized internal requirements for generative AI systems and adherence to international standards like ISO/IEC 42001:2023, demonstrating strong governance. The report also highlights oversight mechanisms through the Sensitive Uses team and accountable executives, alongside transparency efforts such as expanded documentation for AI services and in-product disclosures.",
+          "title": "Responsible AI Transparency Report 2025",
+          "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2025-vertical.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned technical implementation guidance, \"Code of conduct for the Azure OpenAI Service - human oversight,\" provides evidence for fairness, governance, oversight, and transparency. It details requirements for AI use cases and adherence to principles, establishing policy for responsible AI deployment. Specifically, it defines \"human oversight\" and specifies human validation/approval for AI decisions in critical situations, aligning with values and norms.",
+          "title": "Code of conduct for the azure open AI service - human oversight",
+          "url": "https://learn.microsoft.com/en-us/answers/questions/1661619/code-of-conduct-for-the-azure-open-ai-service-huma"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Azure documentation on Responsible AI in Azure Machine Learning supports the pillars of fairness, governance, privacy, and transparency. It describes operational MLOps capabilities for tracking model lifecycle and lineage, contributing to governance and transparency. The documentation also details dashboards for assessing model fairness across sensitive groups and analyzing model errors, directly supporting fairness and transparency. Furthermore, it establishes a formal AI Standard with principles of fairness, transparency, privacy, and accountability, reflecting a foundational policy for responsible AI development.",
+          "title": "Responsible AI in Azure Machine Learning",
+          "url": "https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Microsoft AI Principles,\" provides evidence for the **fairness, privacy, transparency, and accountability** pillars of responsible AI. It outlines Microsoft's commitment to these principles and their integration into AI system design and development, including practices for strengthening privacy and security. The document explicitly mentions these principles and their application to AI systems, indicating a policy-driven approach to responsible AI.",
+          "title": "Microsoft AI Principles",
+          "url": "https://www.microsoft.com/en-us/ai/responsible-ai"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Microsoft Corporate Hub help page provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. The page outlines Microsoft's commitment to these principles in AI system development, referencing policies and ethical considerations such as fairness, privacy, transparency, accountability, and human oversight. It also details operational steps like establishing an office and implementing tools for monitoring and managing AI systems.",
+          "title": "Responsible AI at Microsoft - Corporate Hub",
+          "url": "https://microsoft.com/en-us/ai/responsible-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release, the \"Microsoft Corporate Responsibility and Sustainability Report,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report mentions specific AI initiatives like \"Microsoft AI,\" \"AI for education,\" and \"Microsoft 365 Copilot,\" which inherently require robust governance and transparency. Furthermore, the document details practices such as AI impact assessments and saliency assessments, directly supporting the documented governance and transparency policies for AI.",
+          "title": "Microsoft Corporate Responsibility and Sustainability Report",
+          "url": "https://microsoft.com/en-us/corporate-responsibility/report"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Microsoft Sustainability and Responsible AI Metrics,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by detailing commitments to standards, public reporting on AI progress, and conducting impact assessments for AI technologies, which implies oversight and vendor management for AI marketplace applications. Transparency is supported through the public reporting of metrics on AI progress and the commitment to sharing this information.",
+          "title": "Microsoft Sustainability and Responsible AI Metrics",
+          "url": "https://www.microsoft.com/en-us/corporate-responsibility/reports-hub"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release from Microsoft outlines criteria for evaluating third-party AI partnerships, providing evidence for the **governance** and **transparency** pillars. It supports governance by describing operational actions related to AI security and accountability, such as taking down hackers. The press release also supports transparency by mentioning AI use and disclaimers, indicating a commitment to being open about potential AI limitations.",
+          "title": "Microsoft Guidelines for Responsible AI Partnerships",
+          "url": "https://microsoft.com/en-us/news/press-releases/2021/01/29/microsoft-announces-release-of-guidelines-for-responsible-ai-partnerships"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This Microsoft help page provides evidence for the **privacy** and **transparency** pillars of responsible AI. It details user-facing controls and mechanisms that allow individuals to manage data collection and processing for AI-driven features like speech recognition and personalized experiences. The page also explains the conditions under which browse and search activity are collected and visible, linking these to AI services and user accounts, thereby offering transparency into data usage.",
+          "title": "Microsoft Privacy Dashboard and Controls",
+          "url": "https://account.microsoft.com/privacy/"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI Dashboard - Design and Implementation,\" provides evidence for explainability, fairness, governance, and transparency. The document describes a monitoring dashboard designed to detect fairness and performance issues, supporting fairness and explainability through disaggregated analysis and interpretability tools. It also highlights mechanisms for ongoing system supervision, including scorecards for compliance and approval, and tools for model debugging and decision-making, which support governance and transparency.",
+          "title": "Responsible AI Dashboard - Design and Implementation",
+          "url": "https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai-dashboard"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_023",
+          "source_tier": "authority",
+          "summary": "Microsoft's 10-K SEC Filing provides evidence for **fairness, governance, privacy, and transparency**. The filing discusses potential risks of biased data, supporting the **fairness** pillar. It also addresses emerging legislative and regulatory actions for AI, as well as legal liability and regulatory requirements, which are relevant to **governance**. Furthermore, the document mentions data protection in the context of AI and data handling concerns, indicating support for the **privacy** pillar. Finally, the filing highlights AI cognitive services, AI-backed tools, AI-based security, AI capabilities, AI innovations, and AI solutions, all of which contribute to the **transparency** pillar by indicating the company's focus on and offerings in AI.",
+          "title": "Microsoft 10-K SEC Filing (Annual Report)",
+          "url": "https://sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 13
+    }
+  },
+  "published_at": "2026-02-23T21:55:29Z",
+  "run_id": "20260203_001447_2fcc",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Microsoft's responsible AI documentation demonstrates evidence across both operational and policy levels, covering all 7 evaluated pillars. Operational practices are evident in areas such as fairness, where technical guidance details requirements for AI use cases, and privacy, with publicly available materials outlining how privacy is addressed in AI product design. Furthermore, the company advocates for AI registries under transparency and highlights oversight mechanisms through a Sensitive Uses team. Policy-level evidence addresses explainability and external accountability, with a technical paper describing a monitoring dashboard supporting explainability through interpretability tools and a report detailing a commitment to sharing AI safety innovations. This assessment is based on 23 publicly available sources.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 116,
+    "total_sources_used": 15
+  }
+}

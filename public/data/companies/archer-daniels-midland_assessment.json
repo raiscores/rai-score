@@ -1,0 +1,258 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Archer Daniels Midland",
+  "company_slug": "archer-daniels-midland",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 3,
+      "OPERATIONAL": 4,
+      "POLICY": 23
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 8,
+      "findings": "Company filings indicate a need for policies and controls to ensure compliance with evolving regulations, touching upon evolving AI regulations and legal challenges. A corporate report describes a commitment to engage a third-party for verification of sustainability results. Press releases highlight legal and regulatory issues as barriers to AI investment, mention AI governance concerns with third-party providers, and touch on the regulatory backdrop for AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The \"2025 Proxy Statement and 2024 Form 10-K\" provides evidence for **governance, oversight, privacy, external_accountability, and fairness**. This document details ADM's governance structures, including the Board of Directors and the Sustainability and Technology Committee's oversight of AI strategy and risk management. It also highlights the company's awareness of AI-related data security and privacy risks, as well as potential bias in AI systems, indicating a need for policies and controls to ensure fairness and compliance with evolving regulations.",
+          "title": "2025 Proxy Statement and 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/7084/000119312525062697/d815355dars.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing supports the **governance**, **privacy**, **fairness**, and **external_accountability** pillars of responsible AI. It details ADM's cybersecurity governance structure, including CISO oversight and a Global Information and Cyber Security Council, and discusses risks related to AI development and maintenance, implying governance needs. The filing also addresses AI's impact on data privacy and protection, highlighting risks of data breaches and unauthorized access, and explicitly mentions the risk of bias and unfair or discriminatory AI-driven decisions, supporting the fairness pillar. Furthermore, it touches upon evolving AI regulations and legal challenges, indicating considerations for external accountability.",
+          "title": "2024 Form 10-K - AI Risk Factors and Cybersecurity",
+          "url": "https://sec.gov/Archives/edgar/data/7084/000000708425000011/adm-20241231.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The \"2024 Corporate Sustainability Report\" provides evidence for **external_accountability**, **governance**, and **transparency**. The report supports **governance** by detailing the development of an AI module and **transparency** through its interactive and cited nature. Furthermore, the commitment to engage a third-party for verification demonstrates **external_accountability** for the company's sustainability results.",
+          "title": "2024 Corporate Sustainability Report",
+          "url": "https://adm.com/globalassets/sustainability/sustainability-reports/archer_daniels_2024_corporate_sustainability_report.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This press release from ADM discusses AI-related risks, including data privacy and security vulnerabilities, which supports the **external_accountability** pillar by highlighting legal and regulatory issues as barriers to AI investment and mentioning AI governance concerns with third-party providers. The press release also touches on AI adoption risks and the regulatory backdrop, further indicating **governance** and **external_accountability**. Finally, the mention of \"generative systems\" used for R&D acceleration provides evidence for the **transparency** pillar by describing AI deployment and capabilities.",
+          "title": "ADM's AI Risk Disclosure - Data Privacy and Security",
+          "url": "https://agriculturedive.com/news/ai-could-create-risk-for-food-and-ag-companies-ADM-Coca-Cola/724981"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "Company filings highlight awareness of potential bias in AI systems and indicate a need for policies and controls to ensure fairness. These documents explicitly mention the risk of bias and unfair or discriminatory AI-driven decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The \"2025 Proxy Statement and 2024 Form 10-K\" provides evidence for **governance, oversight, privacy, external_accountability, and fairness**. This document details ADM's governance structures, including the Board of Directors and the Sustainability and Technology Committee's oversight of AI strategy and risk management. It also highlights the company's awareness of AI-related data security and privacy risks, as well as potential bias in AI systems, indicating a need for policies and controls to ensure fairness and compliance with evolving regulations.",
+          "title": "2025 Proxy Statement and 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/7084/000119312525062697/d815355dars.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing supports the **governance**, **privacy**, **fairness**, and **external_accountability** pillars of responsible AI. It details ADM's cybersecurity governance structure, including CISO oversight and a Global Information and Cyber Security Council, and discusses risks related to AI development and maintenance, implying governance needs. The filing also addresses AI's impact on data privacy and protection, highlighting risks of data breaches and unauthorized access, and explicitly mentions the risk of bias and unfair or discriminatory AI-driven decisions, supporting the fairness pillar. Furthermore, it touches upon evolving AI regulations and legal challenges, indicating considerations for external accountability.",
+          "title": "2024 Form 10-K - AI Risk Factors and Cybersecurity",
+          "url": "https://sec.gov/Archives/edgar/data/7084/000000708425000011/adm-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 14,
+      "findings": "Company filings detail the company's governance structures, including its cybersecurity governance structure with CISO oversight and a Global Information and Cyber Security Council. These documents discuss risks related to AI development and maintenance, AI adoption risks, and the regulatory backdrop. A corporate report details the development of an AI module, and press releases detail the company's approach to responsible AI and mention AI governance concerns with third-party providers.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The \"2025 Proxy Statement and 2024 Form 10-K\" provides evidence for **governance, oversight, privacy, external_accountability, and fairness**. This document details ADM's governance structures, including the Board of Directors and the Sustainability and Technology Committee's oversight of AI strategy and risk management. It also highlights the company's awareness of AI-related data security and privacy risks, as well as potential bias in AI systems, indicating a need for policies and controls to ensure fairness and compliance with evolving regulations.",
+          "title": "2025 Proxy Statement and 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/7084/000119312525062697/d815355dars.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing supports the **governance**, **privacy**, **fairness**, and **external_accountability** pillars of responsible AI. It details ADM's cybersecurity governance structure, including CISO oversight and a Global Information and Cyber Security Council, and discusses risks related to AI development and maintenance, implying governance needs. The filing also addresses AI's impact on data privacy and protection, highlighting risks of data breaches and unauthorized access, and explicitly mentions the risk of bias and unfair or discriminatory AI-driven decisions, supporting the fairness pillar. Furthermore, it touches upon evolving AI regulations and legal challenges, indicating considerations for external accountability.",
+          "title": "2024 Form 10-K - AI Risk Factors and Cybersecurity",
+          "url": "https://sec.gov/Archives/edgar/data/7084/000000708425000011/adm-20241231.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The \"2024 Corporate Sustainability Report\" provides evidence for **external_accountability**, **governance**, and **transparency**. The report supports **governance** by detailing the development of an AI module and **transparency** through its interactive and cited nature. Furthermore, the commitment to engage a third-party for verification demonstrates **external_accountability** for the company's sustainability results.",
+          "title": "2024 Corporate Sustainability Report",
+          "url": "https://adm.com/globalassets/sustainability/sustainability-reports/archer_daniels_2024_corporate_sustainability_report.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release from ADM details their approach to responsible AI, providing evidence for **governance** and **transparency**. The report highlights the establishment of an AI council for responsible decision-making and oversight of AI implementation, demonstrating strong governance practices. Furthermore, the press release describes the operational use of an internal AI platform for prototyping and a generative AI tool for knowledge capture, indicating transparency in AI deployment and its applications.",
+          "title": "ADM's AI Governance and Innovation Strategy",
+          "url": "https://forbes.com/sites/peterhigh/2025/01/07/how-adm-is-innovating-with-ai-under-kristy-folkweins-leadership"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This press release from ADM discusses AI-related risks, including data privacy and security vulnerabilities, which supports the **external_accountability** pillar by highlighting legal and regulatory issues as barriers to AI investment and mentioning AI governance concerns with third-party providers. The press release also touches on AI adoption risks and the regulatory backdrop, further indicating **governance** and **external_accountability**. Finally, the mention of \"generative systems\" used for R&D acceleration provides evidence for the **transparency** pillar by describing AI deployment and capabilities.",
+          "title": "ADM's AI Risk Disclosure - Data Privacy and Security",
+          "url": "https://agriculturedive.com/news/ai-could-create-risk-for-food-and-ag-companies-ADM-Coca-Cola/724981"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "The 2025 Proxy Statement and 2024 Form 10-K details the Board of Directors' oversight of AI strategy and risk management. It also specifies the Sustainability and Technology Committee's oversight of AI strategy and risk management.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The \"2025 Proxy Statement and 2024 Form 10-K\" provides evidence for **governance, oversight, privacy, external_accountability, and fairness**. This document details ADM's governance structures, including the Board of Directors and the Sustainability and Technology Committee's oversight of AI strategy and risk management. It also highlights the company's awareness of AI-related data security and privacy risks, as well as potential bias in AI systems, indicating a need for policies and controls to ensure fairness and compliance with evolving regulations.",
+          "title": "2025 Proxy Statement and 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/7084/000119312525062697/d815355dars.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 4,
+      "findings": "Company filings highlight awareness of AI-related data security and privacy risks. These documents address AI's impact on data privacy and protection, specifically highlighting risks of data breaches and unauthorized access.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The \"2025 Proxy Statement and 2024 Form 10-K\" provides evidence for **governance, oversight, privacy, external_accountability, and fairness**. This document details ADM's governance structures, including the Board of Directors and the Sustainability and Technology Committee's oversight of AI strategy and risk management. It also highlights the company's awareness of AI-related data security and privacy risks, as well as potential bias in AI systems, indicating a need for policies and controls to ensure fairness and compliance with evolving regulations.",
+          "title": "2025 Proxy Statement and 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/7084/000119312525062697/d815355dars.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing supports the **governance**, **privacy**, **fairness**, and **external_accountability** pillars of responsible AI. It details ADM's cybersecurity governance structure, including CISO oversight and a Global Information and Cyber Security Council, and discusses risks related to AI development and maintenance, implying governance needs. The filing also addresses AI's impact on data privacy and protection, highlighting risks of data breaches and unauthorized access, and explicitly mentions the risk of bias and unfair or discriminatory AI-driven decisions, supporting the fairness pillar. Furthermore, it touches upon evolving AI regulations and legal challenges, indicating considerations for external accountability.",
+          "title": "2024 Form 10-K - AI Risk Factors and Cybersecurity",
+          "url": "https://sec.gov/Archives/edgar/data/7084/000000708425000011/adm-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 9,
+      "findings": "The 2024 Corporate Sustainability Report describes transparency through its interactive and cited nature. Press releases describe the operational use of an internal AI platform for prototyping and a generative AI tool for knowledge capture. Additionally, published materials describe the deployment and capabilities of generative systems used for R&D acceleration.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The \"2024 Corporate Sustainability Report\" provides evidence for **external_accountability**, **governance**, and **transparency**. The report supports **governance** by detailing the development of an AI module and **transparency** through its interactive and cited nature. Furthermore, the commitment to engage a third-party for verification demonstrates **external_accountability** for the company's sustainability results.",
+          "title": "2024 Corporate Sustainability Report",
+          "url": "https://adm.com/globalassets/sustainability/sustainability-reports/archer_daniels_2024_corporate_sustainability_report.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release from ADM details their approach to responsible AI, providing evidence for **governance** and **transparency**. The report highlights the establishment of an AI council for responsible decision-making and oversight of AI implementation, demonstrating strong governance practices. Furthermore, the press release describes the operational use of an internal AI platform for prototyping and a generative AI tool for knowledge capture, indicating transparency in AI deployment and its applications.",
+          "title": "ADM's AI Governance and Innovation Strategy",
+          "url": "https://forbes.com/sites/peterhigh/2025/01/07/how-adm-is-innovating-with-ai-under-kristy-folkweins-leadership"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This press release from ADM discusses AI-related risks, including data privacy and security vulnerabilities, which supports the **external_accountability** pillar by highlighting legal and regulatory issues as barriers to AI investment and mentioning AI governance concerns with third-party providers. The press release also touches on AI adoption risks and the regulatory backdrop, further indicating **governance** and **external_accountability**. Finally, the mention of \"generative systems\" used for R&D acceleration provides evidence for the **transparency** pillar by describing AI deployment and capabilities.",
+          "title": "ADM's AI Risk Disclosure - Data Privacy and Security",
+          "url": "https://agriculturedive.com/news/ai-could-create-risk-for-food-and-ag-companies-ADM-Coca-Cola/724981"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:43:41Z",
+  "run_id": "20260126_232709_a484",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Archer Daniels Midland's 2025 Proxy Statement and 2024 Form 10-K detail the Board of Directors' oversight of AI strategy and risk management. These published materials address 6 of 7 evaluated responsible AI pillars, with governance disclosures outlining the company's cybersecurity governance structure, including CISO oversight. Transparency, fairness, privacy, and external accountability are each addressed at the policy level; for instance, the 2024 Corporate Sustainability Report describes transparency through its interactive and cited nature, and disclosures highlight awareness of potential bias in AI systems. No qualifying public evidence was found for explainability, and the assessment draws on a review of 7 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 30,
+    "total_sources_used": 5
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "Starbucks",
+  "company_slug": "starbucks",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 30,
+      "OPERATIONAL": 7,
+      "POLICY": 39
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Technical papers reference explainability as a pillar of responsible AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **explainability, fairness, governance, privacy, and transparency**. It supports **transparency** by describing Starbucks' AI strategy as a \"Digital Flywheel\" and detailing its AI capabilities and partnerships. **Governance** is evidenced by the mention of a proprietary AI platform (Deep Brew) and a decade-long strategy for AI infrastructure, alongside a commitment to \"responsible innovation\" and \"Ethics by Design\" principles. The paper also touches upon **fairness** by explicitly discussing AI bias and algorithmic fairness, and **privacy** by mentioning anonymized data use for AI. While the paper states a commitment to these pillars, it lacks independent verification or specific execution details for the claimed mitigation strategies.",
+          "title": "Klover.ai: Starbucks AI Strategy - Deep Brew and Competitive Analysis",
+          "url": "https://klover.ai/starbucks-ai-strategy-analysis-of-dominance-in-coffee"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 6,
+      "findings": "Technical papers detail bias detection and mitigation protocols within Starbucks' AI systems. These papers also explicitly discuss AI bias and algorithmic fairness as part of the company's approach.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing Starbucks' implementation of ML algorithms, data governance and ethical guidelines, bias detection and mitigation protocols, and human-centric design to avoid 'creepy' personalization. The paper also mentions anonymization/aggregation and opt-in/opt-out options, demonstrating a commitment to privacy and transparency in their AI systems.",
+          "title": "Starbucks Deep Brew AI Technical Architecture Framework Analysis",
+          "url": "https://kernelgrowth.io/starbucks-ai-framework"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **explainability, fairness, governance, privacy, and transparency**. It supports **transparency** by describing Starbucks' AI strategy as a \"Digital Flywheel\" and detailing its AI capabilities and partnerships. **Governance** is evidenced by the mention of a proprietary AI platform (Deep Brew) and a decade-long strategy for AI infrastructure, alongside a commitment to \"responsible innovation\" and \"Ethics by Design\" principles. The paper also touches upon **fairness** by explicitly discussing AI bias and algorithmic fairness, and **privacy** by mentioning anonymized data use for AI. While the paper states a commitment to these pillars, it lacks independent verification or specific execution details for the claimed mitigation strategies.",
+          "title": "Klover.ai: Starbucks AI Strategy - Deep Brew and Competitive Analysis",
+          "url": "https://klover.ai/starbucks-ai-strategy-analysis-of-dominance-in-coffee"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 42,
+      "findings": "Starbucks' policy documents state a policy against automated decision-making with legal or significant effects and establish accountability for data processing. Documentation details the operational deployment of AI tools like \"Green Dot Assist\" and the use of vendor AI platforms, alongside discussions of AI system partnerships and strategic deployment goals. Technical papers also mention a proprietary AI platform (Deep Brew), a decade-long strategy for AI infrastructure, and a commitment to \"responsible innovation\" and \"Ethics by Design\" principles, while also detailing data governance and ethical guidelines.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The Starbucks Privacy Notice, a company-owned policy document, provides evidence for the **governance** and **privacy** pillars. It supports governance by explicitly stating Starbucks' policy against engaging in automated decision-making with legal or significant effects, and by establishing accountability for data processing and onward transfers. The notice supports the privacy pillar by detailing data collection practices, including the use of inferences for personalized advertising and targeted marketing, and by outlining consumer rights such as opt-out options for data sharing related to these automated profiling activities.",
+          "title": "Starbucks Privacy Notice",
+          "url": "https://starbucks.com/terms/privacy-notice"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance** and **transparency**. It details the deployment of the \"Green Dot Assist\" AI tool for barista support, indicating operational governance and transparency in its use for efficiency. The article also mentions ongoing AI experimentation and strategic direction, further supporting transparency regarding the company's approach to AI.",
+          "title": "Starbucks CEO Reveals Green Dot AI Assistant at Dreamforce",
+          "url": "https://fortune.com/2025/10/16/starbucks-ceo-brian-niccol-secret-ai-barista-green-dot"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing Starbucks' implementation of ML algorithms, data governance and ethical guidelines, bias detection and mitigation protocols, and human-centric design to avoid 'creepy' personalization. The paper also mentions anonymization/aggregation and opt-in/opt-out options, demonstrating a commitment to privacy and transparency in their AI systems.",
+          "title": "Starbucks Deep Brew AI Technical Architecture Framework Analysis",
+          "url": "https://kernelgrowth.io/starbucks-ai-framework"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **explainability, fairness, governance, privacy, and transparency**. It supports **transparency** by describing Starbucks' AI strategy as a \"Digital Flywheel\" and detailing its AI capabilities and partnerships. **Governance** is evidenced by the mention of a proprietary AI platform (Deep Brew) and a decade-long strategy for AI infrastructure, alongside a commitment to \"responsible innovation\" and \"Ethics by Design\" principles. The paper also touches upon **fairness** by explicitly discussing AI bias and algorithmic fairness, and **privacy** by mentioning anonymized data use for AI. While the paper states a commitment to these pillars, it lacks independent verification or specific execution details for the claimed mitigation strategies.",
+          "title": "Klover.ai: Starbucks AI Strategy - Deep Brew and Competitive Analysis",
+          "url": "https://klover.ai/starbucks-ai-strategy-analysis-of-dominance-in-coffee"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the use of a vendor AI platform (OpenAI via Microsoft Azure) and contributes to transparency by describing the AI assistant's capabilities, use cases, and stated business objective of streamlining operations.",
+          "title": "Investopedia: Starbucks Green Dot Assist Generative AI Assistant",
+          "url": "https://investopedia.com/starbucks-is-piloting-a-genai-virtual-assistant-for-baristas-11752338"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This Yahoo Finance press release provides evidence for the **governance** and **transparency** pillars of responsible AI. The article details the operational use of an AI tool called \"Green Dot\" to assist baristas and mentions future plans for AI to predict customer orders, demonstrating transparency in their AI initiatives and governance over its application for operational efficiency and customer service.",
+          "title": "Yahoo Finance: Starbucks CEO on AI Barista and Future Innovations",
+          "url": "https://finance.yahoo.com/news/starbucks-ceo-reveals-secret-ai-164931101.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This press release discusses Starbucks' philosophical approach to AI deployment, highlighting how their \"Deep Brew\" platform was designed to foster connection and customer loyalty. While the article implies a need for governance by discussing the underlying philosophies guiding AI development and use, it does not document any formal governance policies, ethics charters, or accountability structures. Therefore, this source provides evidence for the **governance** pillar by indicating the importance of philosophical frameworks in AI, but notes a lack of documented formal governance mechanisms.",
+          "title": "Fortune: Starbucks and Amazon's Philosophical Approach to AI Deployment",
+          "url": "https://fortune.com/2025/01/27/starbucks-amazon-drawing-philosophy-deploy-ai-models-cfo"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Starbucks' shift in AI strategy towards \"collaborative intelligence\" and mentions specific AI technologies like \"Green Dot Assist\" and their planned deployment, indicating transparency in their approach. The article also touches upon governance through discussions of AI system partnerships and strategic deployment goals.",
+          "title": "Bank Info Security: Starbucks Reboots AI Approach After Automation Stalls",
+          "url": "https://bankinfosecurity.com/starbucks-reboots-its-ai-approach-after-automation-stalls-a-29240"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "Technical papers detail data governance and ethical guidelines as part of Starbucks' responsible AI practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing Starbucks' implementation of ML algorithms, data governance and ethical guidelines, bias detection and mitigation protocols, and human-centric design to avoid 'creepy' personalization. The paper also mentions anonymization/aggregation and opt-in/opt-out options, demonstrating a commitment to privacy and transparency in their AI systems.",
+          "title": "Starbucks Deep Brew AI Technical Architecture Framework Analysis",
+          "url": "https://kernelgrowth.io/starbucks-ai-framework"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 14,
+      "findings": "Starbucks' policy documents detail data collection practices, including the use of inferences for personalized advertising and targeted marketing, and outline consumer rights such as opt-out options for data sharing. Technical papers also mention anonymization/aggregation and opt-in/opt-out options within their AI systems, referencing anonymized data use for AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The Starbucks Privacy Notice, a company-owned policy document, provides evidence for the **governance** and **privacy** pillars. It supports governance by explicitly stating Starbucks' policy against engaging in automated decision-making with legal or significant effects, and by establishing accountability for data processing and onward transfers. The notice supports the privacy pillar by detailing data collection practices, including the use of inferences for personalized advertising and targeted marketing, and by outlining consumer rights such as opt-out options for data sharing related to these automated profiling activities.",
+          "title": "Starbucks Privacy Notice",
+          "url": "https://starbucks.com/terms/privacy-notice"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing Starbucks' implementation of ML algorithms, data governance and ethical guidelines, bias detection and mitigation protocols, and human-centric design to avoid 'creepy' personalization. The paper also mentions anonymization/aggregation and opt-in/opt-out options, demonstrating a commitment to privacy and transparency in their AI systems.",
+          "title": "Starbucks Deep Brew AI Technical Architecture Framework Analysis",
+          "url": "https://kernelgrowth.io/starbucks-ai-framework"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **explainability, fairness, governance, privacy, and transparency**. It supports **transparency** by describing Starbucks' AI strategy as a \"Digital Flywheel\" and detailing its AI capabilities and partnerships. **Governance** is evidenced by the mention of a proprietary AI platform (Deep Brew) and a decade-long strategy for AI infrastructure, alongside a commitment to \"responsible innovation\" and \"Ethics by Design\" principles. The paper also touches upon **fairness** by explicitly discussing AI bias and algorithmic fairness, and **privacy** by mentioning anonymized data use for AI. While the paper states a commitment to these pillars, it lacks independent verification or specific execution details for the claimed mitigation strategies.",
+          "title": "Klover.ai: Starbucks AI Strategy - Deep Brew and Competitive Analysis",
+          "url": "https://klover.ai/starbucks-ai-strategy-analysis-of-dominance-in-coffee"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 49,
+      "findings": "Starbucks documents the deployment and operational use of AI tools like \"Green Dot Assist\" for barista support, detailing their capabilities, use cases, and business objectives. Published materials also describe the company's AI strategy, including its \"Digital Flywheel\" approach, AI capabilities, partnerships, and future plans for AI to predict customer orders. Furthermore, technical papers mention the implementation of ML algorithms, anonymization/aggregation, and opt-in/opt-out options within their AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance** and **transparency**. It details the deployment of the \"Green Dot Assist\" AI tool for barista support, indicating operational governance and transparency in its use for efficiency. The article also mentions ongoing AI experimentation and strategic direction, further supporting transparency regarding the company's approach to AI.",
+          "title": "Starbucks CEO Reveals Green Dot AI Assistant at Dreamforce",
+          "url": "https://fortune.com/2025/10/16/starbucks-ceo-brian-niccol-secret-ai-barista-green-dot"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **transparency** pillar by describing the AI system's capabilities, such as automated item identification and reorder flagging using 3D vision and AR. However, it lacks details on governance, bias mitigation, or explainability frameworks, indicating a limited scope of disclosed transparency regarding the AI's internal workings and oversight.",
+          "title": "Starbucks Partners with NomadGo for AI Inventory Automation",
+          "url": "https://finance.yahoo.com/news/starbucks-teams-ai-startup-nomadgo-123108207.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing Starbucks' implementation of ML algorithms, data governance and ethical guidelines, bias detection and mitigation protocols, and human-centric design to avoid 'creepy' personalization. The paper also mentions anonymization/aggregation and opt-in/opt-out options, demonstrating a commitment to privacy and transparency in their AI systems.",
+          "title": "Starbucks Deep Brew AI Technical Architecture Framework Analysis",
+          "url": "https://kernelgrowth.io/starbucks-ai-framework"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **explainability, fairness, governance, privacy, and transparency**. It supports **transparency** by describing Starbucks' AI strategy as a \"Digital Flywheel\" and detailing its AI capabilities and partnerships. **Governance** is evidenced by the mention of a proprietary AI platform (Deep Brew) and a decade-long strategy for AI infrastructure, alongside a commitment to \"responsible innovation\" and \"Ethics by Design\" principles. The paper also touches upon **fairness** by explicitly discussing AI bias and algorithmic fairness, and **privacy** by mentioning anonymized data use for AI. While the paper states a commitment to these pillars, it lacks independent verification or specific execution details for the claimed mitigation strategies.",
+          "title": "Klover.ai: Starbucks AI Strategy - Deep Brew and Competitive Analysis",
+          "url": "https://klover.ai/starbucks-ai-strategy-analysis-of-dominance-in-coffee"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the use of a vendor AI platform (OpenAI via Microsoft Azure) and contributes to transparency by describing the AI assistant's capabilities, use cases, and stated business objective of streamlining operations.",
+          "title": "Investopedia: Starbucks Green Dot Assist Generative AI Assistant",
+          "url": "https://investopedia.com/starbucks-is-piloting-a-genai-virtual-assistant-for-baristas-11752338"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This Yahoo Finance press release provides evidence for the **governance** and **transparency** pillars of responsible AI. The article details the operational use of an AI tool called \"Green Dot\" to assist baristas and mentions future plans for AI to predict customer orders, demonstrating transparency in their AI initiatives and governance over its application for operational efficiency and customer service.",
+          "title": "Yahoo Finance: Starbucks CEO on AI Barista and Future Innovations",
+          "url": "https://finance.yahoo.com/news/starbucks-ceo-reveals-secret-ai-164931101.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Starbucks' shift in AI strategy towards \"collaborative intelligence\" and mentions specific AI technologies like \"Green Dot Assist\" and their planned deployment, indicating transparency in their approach. The article also touches upon governance through discussions of AI system partnerships and strategic deployment goals.",
+          "title": "Bank Info Security: Starbucks Reboots AI Approach After Automation Stalls",
+          "url": "https://bankinfosecurity.com/starbucks-reboots-its-ai-approach-after-automation-stalls-a-29240"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:58:43Z",
+  "run_id": "20260203_024208_9c94",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Starbucks' public disclosures detail practices related to fairness and privacy, addressing 6 of 7 evaluated responsible AI pillars. Technical papers from the company detail bias detection and mitigation protocols, and policy documents outline consumer rights, such as opt-out options for data sharing related to automated profiling activities. Further materials reference explainability as a pillar of responsible AI and state the company's policy against engaging in automated decision-making with legal or significant effects under governance. No qualifying public evidence was found for external accountability, based on 11 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 76,
+    "total_sources_used": 9
+  }
+}

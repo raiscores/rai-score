@@ -1,0 +1,414 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "General Electric",
+  "company_slug": "general-electric",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 16,
+      "OPERATIONAL": 8,
+      "POLICY": 52
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 3,
+      "findings": "Policy documents outline a commitment to designing and documenting AI systems for traceability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This policy document from GE HealthCare outlines their Responsible AI Principles, providing evidence for **governance, oversight, transparency, explainability, and fairness**. The document supports governance and oversight through its commitment to human oversight mechanisms and acknowledging AI system capabilities. Transparency is evidenced by the commitment to providing information about AI systems, while explainability is addressed by a commitment to designing and documenting systems for traceability. Finally, the document supports fairness by expressing an aim to develop and use AI systems that encourage fairness and mitigate biases.",
+          "title": "Responsible AI in Healthcare: From theory to practice",
+          "url": "https://gehealthcare.com/en-my/insights/article/responsible-ai-in-healthcare-from-theory-to-practice"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "The GE Vernova Sustainability Report 2024 provides evidence for several responsible AI pillars. It supports **governance** and **oversight** through the establishment of an AI Strategy and Governance initiative led by a Global AI Strategy and Technology Leader, as well as an AI Tech Council for reviewing use cases. The report also demonstrates **transparency** by mentioning AI-enabled grid management tools like GridOS and GridBeats and their capabilities, and **fairness** by stating a commitment to prevent unfair, biased, or discriminatory impacts from AI systems. Furthermore, the report touches upon **external accountability** by referencing vendor due diligence criteria and processes for engaging third parties for AI capabilities.",
+          "title": "GE Vernova Sustainability Report 2024",
+          "url": "https://gevernova.com/sustainability/documents/Sustainability/ge-vernova-sustainability-report-2024.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **transparency**, **explainability**, and **fairness** by highlighting specific AI/ML technologies and their applications, such as Auto Positioning and AIR Recon DL. It also supports **external accountability** by mentioning GE HealthCare's achievement of 100 FDA authorizations for AI-enabled medical devices, demonstrating external validation and compliance with regulatory standards. The press release further indicates a commitment to responsible AI principles integrated into product development.",
+          "title": "GE HealthCare tops FDA list for AI-enabled medical devices for fourth year in a row",
+          "url": "https://medicaleconomics.com/view/ge-healthcare-tops-fda-list-for-ai-enabled-medical-devices-for-fourth-year-in-a-row"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 13,
+      "findings": "The company demonstrates external accountability through mentions of AI pillars for safety, validation, and regulatory evaluation. Reports reference vendor due diligence criteria and processes for engaging third parties for AI capabilities, while policy documents mandate controls for AI model integrity, access, authentication, and recertification. Press releases highlight achievements like FDA authorizations and premarket approvals, demonstrating external validation and compliance with regulatory standards, further supported by references to peer-reviewed studies and collaborative approaches to AI validation and clinical evidence generation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper from GE HealthCare outlines an agentic AI architecture with five design pillars, providing evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The paper supports **governance** and **transparency** by detailing research into managing emergent AI behaviors and implementing immutable audit trails. Evidence for **privacy** is found in the discussion of dynamic attribute-based access controls, while **external_accountability** is supported by the mention of AI pillars for safety, validation, and regulatory evaluation.",
+          "title": "Agents of Change: Exploring the next era of AI in healthcare",
+          "url": "https://research.gehealthcare.com/wp-content/uploads/2025/10/Agents-of-change-Exploring-the-next-era-of-AI-in-healthcare-1.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "The GE Vernova Sustainability Report 2024 provides evidence for several responsible AI pillars. It supports **governance** and **oversight** through the establishment of an AI Strategy and Governance initiative led by a Global AI Strategy and Technology Leader, as well as an AI Tech Council for reviewing use cases. The report also demonstrates **transparency** by mentioning AI-enabled grid management tools like GridOS and GridBeats and their capabilities, and **fairness** by stating a commitment to prevent unfair, biased, or discriminatory impacts from AI systems. Furthermore, the report touches upon **external accountability** by referencing vendor due diligence criteria and processes for engaging third parties for AI capabilities.",
+          "title": "GE Vernova Sustainability Report 2024",
+          "url": "https://gevernova.com/sustainability/documents/Sustainability/ge-vernova-sustainability-report-2024.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"GE Vernova Third-Party Cyber Security Requirements,\" provides evidence for **governance**, **external accountability**, and **privacy**. It mandates controls for AI model integrity, access, authentication, and recertification, demonstrating governance over AI systems and external accountability for third parties. Furthermore, the document requires privacy impact assessments and bias detection/mitigation for AI, directly supporting the privacy pillar.",
+          "title": "GE Vernova Third-Party Cyber Security Requirements",
+          "url": "https://gevernova.com/sites/default/files/2024-05/ge-vernova-3rd-party-requirement.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **transparency**, **explainability**, and **fairness** by highlighting specific AI/ML technologies and their applications, such as Auto Positioning and AIR Recon DL. It also supports **external accountability** by mentioning GE HealthCare's achievement of 100 FDA authorizations for AI-enabled medical devices, demonstrating external validation and compliance with regulatory standards. The press release further indicates a commitment to responsible AI principles integrated into product development.",
+          "title": "GE HealthCare tops FDA list for AI-enabled medical devices for fourth year in a row",
+          "url": "https://medicaleconomics.com/view/ge-healthcare-tops-fda-list-for-ai-enabled-medical-devices-for-fourth-year-in-a-row"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"TrueFidelity DL CT Deep Learning Image Reconstruction Whitepaper,\" provides evidence for **external accountability** and **transparency**. It supports external accountability by referencing peer-reviewed studies that validate the AI technology's performance, and it contributes to transparency by describing the capabilities and benefits of the deep learning system, including its use of deep neural networks and FDA clearance.",
+          "title": "TrueFidelity DL CT Deep Learning Image Reconstruction Whitepaper",
+          "url": "https://gehealthcare.com/-/jssmedia/040dd213fa89463287155151fdb01922.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external accountability**, **governance**, and **transparency**. It supports transparency by detailing the AI models' capabilities in predicting patient responses and adverse reactions, as well as their performance accuracy. The press release also indicates governance and external accountability through the mention of plans for commercialization contingent on regulatory authorization and the collaborative approach to AI validation and clinical evidence generation.",
+          "title": "GE HealthCare & Vanderbilt publish data on AI models predicting patient response to immunotherapy",
+          "url": "https://news.vumc.org/2024/03/05/ge-healthcare-vanderbilt-publish-data-on-ai-models-predicting-patient-response-to-immunotherapy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external accountability**, **governance**, and **transparency**. It supports transparency by describing the software's capabilities and use case. The announcement of FDA premarket approval and mention of GE Healthcare's role imply external accountability and governance for the deployed system, further supported by the mention of investment in algorithm development and clinical validation.",
+          "title": "GE Healthcare wins FDA premarket approval for software used in anesthesia delivery system",
+          "url": "https://drugdeliverybusiness.com/ge-healthcare-wins-fda-premarket-approval-for-software-used-in-anesthesia-delivery-system"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "Policy documents express an aim to develop and use AI systems that encourage fairness and mitigate biases. Reports further state a commitment to prevent unfair, biased, or discriminatory impacts from AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This policy document from GE HealthCare outlines their Responsible AI Principles, providing evidence for **governance, oversight, transparency, explainability, and fairness**. The document supports governance and oversight through its commitment to human oversight mechanisms and acknowledging AI system capabilities. Transparency is evidenced by the commitment to providing information about AI systems, while explainability is addressed by a commitment to designing and documenting systems for traceability. Finally, the document supports fairness by expressing an aim to develop and use AI systems that encourage fairness and mitigate biases.",
+          "title": "Responsible AI in Healthcare: From theory to practice",
+          "url": "https://gehealthcare.com/en-my/insights/article/responsible-ai-in-healthcare-from-theory-to-practice"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "The GE Vernova Sustainability Report 2024 provides evidence for several responsible AI pillars. It supports **governance** and **oversight** through the establishment of an AI Strategy and Governance initiative led by a Global AI Strategy and Technology Leader, as well as an AI Tech Council for reviewing use cases. The report also demonstrates **transparency** by mentioning AI-enabled grid management tools like GridOS and GridBeats and their capabilities, and **fairness** by stating a commitment to prevent unfair, biased, or discriminatory impacts from AI systems. Furthermore, the report touches upon **external accountability** by referencing vendor due diligence criteria and processes for engaging third parties for AI capabilities.",
+          "title": "GE Vernova Sustainability Report 2024",
+          "url": "https://gevernova.com/sustainability/documents/Sustainability/ge-vernova-sustainability-report-2024.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **transparency**, **explainability**, and **fairness** by highlighting specific AI/ML technologies and their applications, such as Auto Positioning and AIR Recon DL. It also supports **external accountability** by mentioning GE HealthCare's achievement of 100 FDA authorizations for AI-enabled medical devices, demonstrating external validation and compliance with regulatory standards. The press release further indicates a commitment to responsible AI principles integrated into product development.",
+          "title": "GE HealthCare tops FDA list for AI-enabled medical devices for fourth year in a row",
+          "url": "https://medicaleconomics.com/view/ge-healthcare-tops-fda-list-for-ai-enabled-medical-devices-for-fourth-year-in-a-row"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 47,
+      "findings": "The company outlines a commitment to human oversight mechanisms and acknowledges AI system capabilities. Documents establish guiding principles for AI development, including trusted data, and technical papers outline an AI adoption framework that considers risk and automation maturity, indicating policies for AI implementation and risk management. Governance is further supported by mandated controls for AI model integrity, access, authentication, and recertification, alongside references to an AI Strategy and Governance initiative and an AI Tech Council for reviewing use cases.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This policy document from GE HealthCare outlines their Responsible AI Principles, providing evidence for **governance, oversight, transparency, explainability, and fairness**. The document supports governance and oversight through its commitment to human oversight mechanisms and acknowledging AI system capabilities. Transparency is evidenced by the commitment to providing information about AI systems, while explainability is addressed by a commitment to designing and documenting systems for traceability. Finally, the document supports fairness by expressing an aim to develop and use AI systems that encourage fairness and mitigate biases.",
+          "title": "Responsible AI in Healthcare: From theory to practice",
+          "url": "https://gehealthcare.com/en-my/insights/article/responsible-ai-in-healthcare-from-theory-to-practice"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper from GE HealthCare outlines an agentic AI architecture with five design pillars, providing evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The paper supports **governance** and **transparency** by detailing research into managing emergent AI behaviors and implementing immutable audit trails. Evidence for **privacy** is found in the discussion of dynamic attribute-based access controls, while **external_accountability** is supported by the mention of AI pillars for safety, validation, and regulatory evaluation.",
+          "title": "Agents of Change: Exploring the next era of AI in healthcare",
+          "url": "https://research.gehealthcare.com/wp-content/uploads/2025/10/Agents-of-change-Exploring-the-next-era-of-AI-in-healthcare-1.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "The \"AI @ GE Aerospace\" document provides evidence for **governance**, **oversight**, and **transparency**. It supports governance by establishing guiding principles for AI development, including \"trusted data.\" The document also supports oversight through its commitment to \"human-in-the-loop decision-making\" and transparency by emphasizing \"full transparency of AI insights and actions.\"",
+          "title": "AI @ GE Aerospace",
+          "url": "https://geaerospace.com/sites/default/files/ai-fact-sheet.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the governance and transparency pillars of responsible AI. It supports governance by outlining an AI adoption framework that considers risk and automation maturity, indicating a policy for AI implementation and risk management. Transparency is supported through the identification of the GridOS platform for AI/ML journeys and the explicit listing of current and emerging AI/ML capabilities, documenting systems and their functions.",
+          "title": "GE Vernova whitepapers offer pragmatic approach on AI for more intelligent energy grids",
+          "url": "https://gevernova.com/news/press-releases/ge-vernova-whitepapers-offer-pragmatic-approach-ai-more-intelligent-energy-grids"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "The GE Vernova Sustainability Report 2024 provides evidence for several responsible AI pillars. It supports **governance** and **oversight** through the establishment of an AI Strategy and Governance initiative led by a Global AI Strategy and Technology Leader, as well as an AI Tech Council for reviewing use cases. The report also demonstrates **transparency** by mentioning AI-enabled grid management tools like GridOS and GridBeats and their capabilities, and **fairness** by stating a commitment to prevent unfair, biased, or discriminatory impacts from AI systems. Furthermore, the report touches upon **external accountability** by referencing vendor due diligence criteria and processes for engaging third parties for AI capabilities.",
+          "title": "GE Vernova Sustainability Report 2024",
+          "url": "https://gevernova.com/sustainability/documents/Sustainability/ge-vernova-sustainability-report-2024.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"GE Vernova Third-Party Cyber Security Requirements,\" provides evidence for **governance**, **external accountability**, and **privacy**. It mandates controls for AI model integrity, access, authentication, and recertification, demonstrating governance over AI systems and external accountability for third parties. Furthermore, the document requires privacy impact assessments and bias detection/mitigation for AI, directly supporting the privacy pillar.",
+          "title": "GE Vernova Third-Party Cyber Security Requirements",
+          "url": "https://gevernova.com/sites/default/files/2024-05/ge-vernova-3rd-party-requirement.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"TrueFidelity DL CT Deep Learning Image Reconstruction Whitepaper,\" provides evidence for **external accountability** and **transparency**. It supports external accountability by referencing peer-reviewed studies that validate the AI technology's performance, and it contributes to transparency by describing the capabilities and benefits of the deep learning system, including its use of deep neural networks and FDA clearance.",
+          "title": "TrueFidelity DL CT Deep Learning Image Reconstruction Whitepaper",
+          "url": "https://gehealthcare.com/-/jssmedia/040dd213fa89463287155151fdb01922.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external accountability**, **governance**, and **transparency**. It supports transparency by detailing the AI models' capabilities in predicting patient responses and adverse reactions, as well as their performance accuracy. The press release also indicates governance and external accountability through the mention of plans for commercialization contingent on regulatory authorization and the collaborative approach to AI validation and clinical evidence generation.",
+          "title": "GE HealthCare & Vanderbilt publish data on AI models predicting patient response to immunotherapy",
+          "url": "https://news.vumc.org/2024/03/05/ge-healthcare-vanderbilt-publish-data-on-ai-models-predicting-patient-response-to-immunotherapy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external accountability**, **governance**, and **transparency**. It supports transparency by describing the software's capabilities and use case. The announcement of FDA premarket approval and mention of GE Healthcare's role imply external accountability and governance for the deployed system, further supported by the mention of investment in algorithm development and clinical validation.",
+          "title": "GE Healthcare wins FDA premarket approval for software used in anesthesia delivery system",
+          "url": "https://drugdeliverybusiness.com/ge-healthcare-wins-fda-premarket-approval-for-software-used-in-anesthesia-delivery-system"
+        }
+      ],
+      "score": 1,
+      "source_count": 9
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Policy documents outline a commitment to human oversight mechanisms and human-in-the-loop decision-making, while also acknowledging AI system capabilities. Reports reference an AI Strategy and Governance initiative led by a Global AI Strategy and Technology Leader and an AI Tech Council for reviewing use cases.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This policy document from GE HealthCare outlines their Responsible AI Principles, providing evidence for **governance, oversight, transparency, explainability, and fairness**. The document supports governance and oversight through its commitment to human oversight mechanisms and acknowledging AI system capabilities. Transparency is evidenced by the commitment to providing information about AI systems, while explainability is addressed by a commitment to designing and documenting systems for traceability. Finally, the document supports fairness by expressing an aim to develop and use AI systems that encourage fairness and mitigate biases.",
+          "title": "Responsible AI in Healthcare: From theory to practice",
+          "url": "https://gehealthcare.com/en-my/insights/article/responsible-ai-in-healthcare-from-theory-to-practice"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "The \"AI @ GE Aerospace\" document provides evidence for **governance**, **oversight**, and **transparency**. It supports governance by establishing guiding principles for AI development, including \"trusted data.\" The document also supports oversight through its commitment to \"human-in-the-loop decision-making\" and transparency by emphasizing \"full transparency of AI insights and actions.\"",
+          "title": "AI @ GE Aerospace",
+          "url": "https://geaerospace.com/sites/default/files/ai-fact-sheet.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "The GE Vernova Sustainability Report 2024 provides evidence for several responsible AI pillars. It supports **governance** and **oversight** through the establishment of an AI Strategy and Governance initiative led by a Global AI Strategy and Technology Leader, as well as an AI Tech Council for reviewing use cases. The report also demonstrates **transparency** by mentioning AI-enabled grid management tools like GridOS and GridBeats and their capabilities, and **fairness** by stating a commitment to prevent unfair, biased, or discriminatory impacts from AI systems. Furthermore, the report touches upon **external accountability** by referencing vendor due diligence criteria and processes for engaging third parties for AI capabilities.",
+          "title": "GE Vernova Sustainability Report 2024",
+          "url": "https://gevernova.com/sustainability/documents/Sustainability/ge-vernova-sustainability-report-2024.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "Technical papers discuss dynamic attribute-based access controls. Policy documents require privacy impact assessments for AI and mandate bias detection/mitigation for AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper from GE HealthCare outlines an agentic AI architecture with five design pillars, providing evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The paper supports **governance** and **transparency** by detailing research into managing emergent AI behaviors and implementing immutable audit trails. Evidence for **privacy** is found in the discussion of dynamic attribute-based access controls, while **external_accountability** is supported by the mention of AI pillars for safety, validation, and regulatory evaluation.",
+          "title": "Agents of Change: Exploring the next era of AI in healthcare",
+          "url": "https://research.gehealthcare.com/wp-content/uploads/2025/10/Agents-of-change-Exploring-the-next-era-of-AI-in-healthcare-1.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"GE Vernova Third-Party Cyber Security Requirements,\" provides evidence for **governance**, **external accountability**, and **privacy**. It mandates controls for AI model integrity, access, authentication, and recertification, demonstrating governance over AI systems and external accountability for third parties. Furthermore, the document requires privacy impact assessments and bias detection/mitigation for AI, directly supporting the privacy pillar.",
+          "title": "GE Vernova Third-Party Cyber Security Requirements",
+          "url": "https://gevernova.com/sites/default/files/2024-05/ge-vernova-3rd-party-requirement.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 38,
+      "findings": "The company outlines a commitment to providing information about its AI systems, emphasizing full transparency of AI insights and actions. This includes detailing research into emergent AI behaviors, implementing immutable audit trails, and explicitly listing current and emerging AI/ML capabilities. Furthermore, press releases and technical papers describe the capabilities, benefits, and use cases of various AI-enabled medical devices and deep learning systems, often highlighting FDA clearances and authorizations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This policy document from GE HealthCare outlines their Responsible AI Principles, providing evidence for **governance, oversight, transparency, explainability, and fairness**. The document supports governance and oversight through its commitment to human oversight mechanisms and acknowledging AI system capabilities. Transparency is evidenced by the commitment to providing information about AI systems, while explainability is addressed by a commitment to designing and documenting systems for traceability. Finally, the document supports fairness by expressing an aim to develop and use AI systems that encourage fairness and mitigate biases.",
+          "title": "Responsible AI in Healthcare: From theory to practice",
+          "url": "https://gehealthcare.com/en-my/insights/article/responsible-ai-in-healthcare-from-theory-to-practice"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper from GE HealthCare outlines an agentic AI architecture with five design pillars, providing evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The paper supports **governance** and **transparency** by detailing research into managing emergent AI behaviors and implementing immutable audit trails. Evidence for **privacy** is found in the discussion of dynamic attribute-based access controls, while **external_accountability** is supported by the mention of AI pillars for safety, validation, and regulatory evaluation.",
+          "title": "Agents of Change: Exploring the next era of AI in healthcare",
+          "url": "https://research.gehealthcare.com/wp-content/uploads/2025/10/Agents-of-change-Exploring-the-next-era-of-AI-in-healthcare-1.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "The \"AI @ GE Aerospace\" document provides evidence for **governance**, **oversight**, and **transparency**. It supports governance by establishing guiding principles for AI development, including \"trusted data.\" The document also supports oversight through its commitment to \"human-in-the-loop decision-making\" and transparency by emphasizing \"full transparency of AI insights and actions.\"",
+          "title": "AI @ GE Aerospace",
+          "url": "https://geaerospace.com/sites/default/files/ai-fact-sheet.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the governance and transparency pillars of responsible AI. It supports governance by outlining an AI adoption framework that considers risk and automation maturity, indicating a policy for AI implementation and risk management. Transparency is supported through the identification of the GridOS platform for AI/ML journeys and the explicit listing of current and emerging AI/ML capabilities, documenting systems and their functions.",
+          "title": "GE Vernova whitepapers offer pragmatic approach on AI for more intelligent energy grids",
+          "url": "https://gevernova.com/news/press-releases/ge-vernova-whitepapers-offer-pragmatic-approach-ai-more-intelligent-energy-grids"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "The GE Vernova Sustainability Report 2024 provides evidence for several responsible AI pillars. It supports **governance** and **oversight** through the establishment of an AI Strategy and Governance initiative led by a Global AI Strategy and Technology Leader, as well as an AI Tech Council for reviewing use cases. The report also demonstrates **transparency** by mentioning AI-enabled grid management tools like GridOS and GridBeats and their capabilities, and **fairness** by stating a commitment to prevent unfair, biased, or discriminatory impacts from AI systems. Furthermore, the report touches upon **external accountability** by referencing vendor due diligence criteria and processes for engaging third parties for AI capabilities.",
+          "title": "GE Vernova Sustainability Report 2024",
+          "url": "https://gevernova.com/sustainability/documents/Sustainability/ge-vernova-sustainability-report-2024.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release from GE HealthCare supports the **transparency** pillar by highlighting their significant number of AI-enabled medical device authorizations. The announcement of 72 FDA 510(k) clearances and authorizations, along with specific examples of approved devices, demonstrates a commitment to bringing AI solutions to market, which implies a level of transparency in their AI development and deployment processes.",
+          "title": "GE HealthCare Tops List for Third Year in a Row with Highest Number of AI-Enabled Device Authorizations",
+          "url": "https://gehealthcare.com/about/newsroom/press-releases/ge-healthcare-tops-list-for-third-year-in-a-row-with-highest-number-of-ai-enabled-device-authorizations"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **transparency**, **explainability**, and **fairness** by highlighting specific AI/ML technologies and their applications, such as Auto Positioning and AIR Recon DL. It also supports **external accountability** by mentioning GE HealthCare's achievement of 100 FDA authorizations for AI-enabled medical devices, demonstrating external validation and compliance with regulatory standards. The press release further indicates a commitment to responsible AI principles integrated into product development.",
+          "title": "GE HealthCare tops FDA list for AI-enabled medical devices for fourth year in a row",
+          "url": "https://medicaleconomics.com/view/ge-healthcare-tops-fda-list-for-ai-enabled-medical-devices-for-fourth-year-in-a-row"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"TrueFidelity DL CT Deep Learning Image Reconstruction Whitepaper,\" provides evidence for **external accountability** and **transparency**. It supports external accountability by referencing peer-reviewed studies that validate the AI technology's performance, and it contributes to transparency by describing the capabilities and benefits of the deep learning system, including its use of deep neural networks and FDA clearance.",
+          "title": "TrueFidelity DL CT Deep Learning Image Reconstruction Whitepaper",
+          "url": "https://gehealthcare.com/-/jssmedia/040dd213fa89463287155151fdb01922.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external accountability**, **governance**, and **transparency**. It supports transparency by detailing the AI models' capabilities in predicting patient responses and adverse reactions, as well as their performance accuracy. The press release also indicates governance and external accountability through the mention of plans for commercialization contingent on regulatory authorization and the collaborative approach to AI validation and clinical evidence generation.",
+          "title": "GE HealthCare & Vanderbilt publish data on AI models predicting patient response to immunotherapy",
+          "url": "https://news.vumc.org/2024/03/05/ge-healthcare-vanderbilt-publish-data-on-ai-models-predicting-patient-response-to-immunotherapy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external accountability**, **governance**, and **transparency**. It supports transparency by describing the software's capabilities and use case. The announcement of FDA premarket approval and mention of GE Healthcare's role imply external accountability and governance for the deployed system, further supported by the mention of investment in algorithm development and clinical validation.",
+          "title": "GE Healthcare wins FDA premarket approval for software used in anesthesia delivery system",
+          "url": "https://drugdeliverybusiness.com/ge-healthcare-wins-fda-premarket-approval-for-software-used-in-anesthesia-delivery-system"
+        }
+      ],
+      "score": 1,
+      "source_count": 10
+    }
+  },
+  "published_at": "2026-02-23T21:50:56Z",
+  "run_id": "20260202_214922_934e",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [],
+    "overall_findings": "Based on 16 publicly available sources, General Electric's published materials address all 7 evaluated responsible AI pillars, with documented public evidence found for each. For instance, transparency policy documents outline a commitment to providing information about AI systems, while privacy disclosures discuss dynamic attribute-based access controls and require privacy impact assessments for AI. Furthermore, policy documents for fairness express an aim to mitigate biases, and explainability materials outline a commitment to designing systems for traceability. Technical papers also mention AI pillars for safety and validation under external accountability, alongside policy commitments to human oversight mechanisms for both oversight and governance.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 7,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 76,
+    "total_sources_used": 11
+  }
+}

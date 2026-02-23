@@ -1,0 +1,211 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Cigna",
+  "company_slug": "cigna",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 6,
+      "OPERATIONAL": 2,
+      "POLICY": 6
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 4,
+      "findings": "Technical papers highlight the need for independent validation of AI tools. These papers describe assessing the reliability and validity of an AI tool through independent verification, demonstrating a mechanism for external accountability and operational review.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external accountability**, **governance**, and **transparency** by highlighting the need for independent validation of AI tools and scrutinizing the claims of a widely-available stress assessment tool. The study's focus on assessing the reliability and validity of an AI tool through independent verification demonstrates a mechanism for external accountability and operational review, while the call for verifiable claims and published evidence underscores the importance of transparency and governance in AI deployment.",
+          "title": "Reliability and validity of a widely-available AI tool for assessment of stress based on speech",
+          "url": "https://nature.com/articles/s41598-023-47153-1"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 7,
+      "findings": "Policy documents outline a commitment to responsible AI practices and highlight an AI Center of Enablement, a cross-functional governance body that assesses AI use cases against ethical principles. Company materials describe Cigna's approach to using AI, indicating governance in their practices. Additionally, press releases describe the renaming of a board committee to include oversight of artificial intelligence, indicating a formal governance mechanism.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This press release from The Cigna Group outlines their commitment to responsible AI practices, providing evidence for **governance**, **oversight**, and **transparency**. The document highlights the establishment of an AI Center of Enablement, a cross-functional governance body, which assesses AI use cases against ethical principles. Furthermore, it explicitly states a mandate for human oversight in AI solutions and identifies transparency as a core ethical principle, demonstrating a policy commitment to responsible AI.",
+          "title": "The Cigna Group's approach to ethical AI practices",
+          "url": "https://newsroom.thecignagroup.com/the-cigna-group-approach-to-ethical-ai-practices"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Using Data and Predictive Analytics to Improve Health Care,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The post describes Cigna's approach to using AI, indicating governance in their practices, and highlights the use of ML and predictive modeling, which demonstrates transparency in the platform's capabilities and system components.",
+          "title": "Using Data and Predictive Analytics to Improve Health Care",
+          "url": "https://newsroom.cigna.com/using-data-and-predictive-analytics-to-improve-health-care"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning the development of an \"AI governance framework\" and \"rigorous research and testing,\" indicating a structured approach to AI development. The press release also supports transparency by describing the \"AI tool\" and its \"capabilities\" in providing conversational, personalized answers to members.",
+          "title": "Cigna Healthcare Unveils Industry-Leading AI-Powered Digital Tools",
+          "url": "https://newsroom.cigna.com/cigna-healthcare-unveils-industry-leading-ai-powered-digital-tools"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external accountability**, **governance**, and **transparency** by highlighting the need for independent validation of AI tools and scrutinizing the claims of a widely-available stress assessment tool. The study's focus on assessing the reliability and validity of an AI tool through independent verification demonstrates a mechanism for external accountability and operational review, while the call for verifiable claims and published evidence underscores the importance of transparency and governance in AI deployment.",
+          "title": "Reliability and validity of a widely-available AI tool for assessment of stress based on speech",
+          "url": "https://nature.com/articles/s41598-023-47153-1"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** pillar of responsible AI. The restructuring of Cigna's board committees, specifically the renaming of the Finance Committee to the Finance and Technology Committee to include oversight of artificial intelligence, demonstrates a formal governance mechanism for managing AI-related risks and strategies.",
+          "title": "Cigna Restructures Board Committees",
+          "url": "https://beckerspayer.com/payer/cigna-restructures-board-committees"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "Policy documents state a mandate for human oversight in AI solutions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This press release from The Cigna Group outlines their commitment to responsible AI practices, providing evidence for **governance**, **oversight**, and **transparency**. The document highlights the establishment of an AI Center of Enablement, a cross-functional governance body, which assesses AI use cases against ethical principles. Furthermore, it explicitly states a mandate for human oversight in AI solutions and identifies transparency as a core ethical principle, demonstrating a policy commitment to responsible AI.",
+          "title": "The Cigna Group's approach to ethical AI practices",
+          "url": "https://newsroom.thecignagroup.com/the-cigna-group-approach-to-ethical-ai-practices"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 8,
+      "findings": "Policy documents identify transparency as a core ethical principle for responsible AI. Company materials highlight the use of machine learning and predictive modeling, describing platform capabilities and system components. Press releases also describe specific AI tools and their capabilities in providing personalized answers to members, while technical papers reference the importance of verifiable claims and published evidence for transparency in AI deployment.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This press release from The Cigna Group outlines their commitment to responsible AI practices, providing evidence for **governance**, **oversight**, and **transparency**. The document highlights the establishment of an AI Center of Enablement, a cross-functional governance body, which assesses AI use cases against ethical principles. Furthermore, it explicitly states a mandate for human oversight in AI solutions and identifies transparency as a core ethical principle, demonstrating a policy commitment to responsible AI.",
+          "title": "The Cigna Group's approach to ethical AI practices",
+          "url": "https://newsroom.thecignagroup.com/the-cigna-group-approach-to-ethical-ai-practices"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Using Data and Predictive Analytics to Improve Health Care,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The post describes Cigna's approach to using AI, indicating governance in their practices, and highlights the use of ML and predictive modeling, which demonstrates transparency in the platform's capabilities and system components.",
+          "title": "Using Data and Predictive Analytics to Improve Health Care",
+          "url": "https://newsroom.cigna.com/using-data-and-predictive-analytics-to-improve-health-care"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning the development of an \"AI governance framework\" and \"rigorous research and testing,\" indicating a structured approach to AI development. The press release also supports transparency by describing the \"AI tool\" and its \"capabilities\" in providing conversational, personalized answers to members.",
+          "title": "Cigna Healthcare Unveils Industry-Leading AI-Powered Digital Tools",
+          "url": "https://newsroom.cigna.com/cigna-healthcare-unveils-industry-leading-ai-powered-digital-tools"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **external accountability**, **governance**, and **transparency** by highlighting the need for independent validation of AI tools and scrutinizing the claims of a widely-available stress assessment tool. The study's focus on assessing the reliability and validity of an AI tool through independent verification demonstrates a mechanism for external accountability and operational review, while the call for verifiable claims and published evidence underscores the importance of transparency and governance in AI deployment.",
+          "title": "Reliability and validity of a widely-available AI tool for assessment of stress based on speech",
+          "url": "https://nature.com/articles/s41598-023-47153-1"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T21:46:58Z",
+  "run_id": "20260201_201115_b71a",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Privacy & Security"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Cigna's published materials document operational practices for transparency and governance, among other responsible AI pillars. These materials address 4 of 7 evaluated pillars, with transparency disclosures identifying it as a core ethical principle and governance documentation highlighting an AI Center of Enablement as a cross-functional body assessing use cases. Oversight is also addressed at the operational level through policy documents mandating human oversight, while external accountability is covered at the policy level, with technical papers describing independent verification for assessing AI tool reliability. No qualifying public evidence was found for fairness, explainability, and 1 additional pillar, based on a review of 10 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 14,
+    "total_sources_used": 5
+  }
+}

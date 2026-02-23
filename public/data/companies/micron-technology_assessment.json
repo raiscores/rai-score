@@ -1,0 +1,322 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "Micron Technology",
+  "company_slug": "micron-technology",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 22,
+      "OPERATIONAL": 3,
+      "POLICY": 31
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "A company-owned blog post discusses explainable AI (XAI) frameworks and techniques. These frameworks and techniques enable AI systems to articulate their decisions in human-understandable terms.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"From data to decisions: The role of memory in AI,\" provides evidence for explainability, fairness, privacy, and transparency. The post discusses explainable AI (XAI) frameworks and techniques that enable AI systems to articulate their decisions in human-understandable terms, directly supporting explainability and transparency. Furthermore, it highlights the importance of addressing bias and privacy as key ethical concerns within AI systems, thereby supporting the fairness and privacy pillars.",
+          "title": "From data to decisions: The role of memory in AI",
+          "url": "https://micron.com/about/blog/applications/ai/from-data-to-decisions-the-role-of-memory-in-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "An SEC filing acknowledges evolving AI regulations and potential legal liabilities. This supports external accountability for the company's AI practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The report acknowledges evolving AI regulations and potential legal liabilities, supporting external accountability. It touches upon potential bias in algorithms and datasets, indicating concerns related to fairness. The filing also demonstrates governance through mentions of strategic reorganization for AI growth, training on AI tools, and awareness of risks requiring management. Furthermore, it addresses data privacy risks associated with AI use and states policy requirements for AI systems to be transparent and accountable.",
+          "title": "SEC Form 10-K (Fiscal Year 2025, filed August 28, 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 7,
+      "findings": "The company's blog posts highlight the importance of addressing bias as a key ethical concern within AI systems. SEC filings touch upon potential bias in algorithms and datasets and mention AI requirements for fairness principles. Additionally, a news report highlights concerns about bias in automated systems and industry demographics.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"From data to decisions: The role of memory in AI,\" provides evidence for explainability, fairness, privacy, and transparency. The post discusses explainable AI (XAI) frameworks and techniques that enable AI systems to articulate their decisions in human-understandable terms, directly supporting explainability and transparency. Furthermore, it highlights the importance of addressing bias and privacy as key ethical concerns within AI systems, thereby supporting the fairness and privacy pillars.",
+          "title": "From data to decisions: The role of memory in AI",
+          "url": "https://micron.com/about/blog/applications/ai/from-data-to-decisions-the-role-of-memory-in-ai"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The report acknowledges evolving AI regulations and potential legal liabilities, supporting external accountability. It touches upon potential bias in algorithms and datasets, indicating concerns related to fairness. The filing also demonstrates governance through mentions of strategic reorganization for AI growth, training on AI tools, and awareness of risks requiring management. Furthermore, it addresses data privacy risks associated with AI use and states policy requirements for AI systems to be transparent and accountable.",
+          "title": "SEC Form 10-K (Fiscal Year 2025, filed August 28, 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "The SEC Form 10-K filing provides evidence for **governance**, **transparency**, and **fairness**. It supports governance by acknowledging AI-related risks and the need for management and policy, as well as mentioning AI deployment and the unknown trajectory of generative AI. The filing also indicates a commitment to transparency and fairness by mentioning AI requirements for these principles, and by discussing AI capabilities in products designed to meet AI demands.",
+          "title": "SEC Form 10-K (Fiscal Year 2024, filed August 29, 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/723125/000072312524000027/mu-20240829.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This news report on the Micron Foundation's $1 million grant for AI ethics supports the **fairness**, **governance**, **privacy**, and **transparency** pillars. The report highlights concerns about bias in automated systems and industry demographics, directly addressing fairness. It also indicates governance and transparency requirements for grant recipients, and expresses expectations for them to consider privacy and ethical issues related to data collection in AI systems.",
+          "title": "Micron Foundation is 'Advancing Curiosity' in AI ethics with $1M grant",
+          "url": "https://siliconangle.com/2018/10/12/micron-foundation-advancing-curiosity-ai-ethics-1m-grant-womenintech"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 33,
+      "findings": "The company's sustainability reports detail an AI governance framework, including the adoption of an AI governance policy and working principles in 2024, and outline a generative AI governance initiative. These reports also reference a generative AI governance operating committee with board support, board-level accountability for AI, and the integration of AI risk management into sustainability efforts. Blog posts discuss clear guidelines for responsible AI use, accountability, and governance mechanisms, while SEC filings mention strategic reorganization for AI growth, training on AI tools, and acknowledge AI-related risks requiring management and policy.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The \"2024 Micron Sustainability Report\" provides evidence for the **governance** pillar of responsible AI. This company-owned report details Micron's AI governance framework, including the establishment of a generative AI governance operating committee with board support, demonstrating executive oversight and board input on responsible AI use. The report also highlights the integration of AI risk management into their sustainability efforts and board-level accountability.",
+          "title": "2024 Micron Sustainability Report",
+          "url": "https://micron.com/content/dam/micron/educatorhub/sustainability/2024-micron-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The 2025 Micron Sustainability Report provides evidence for the **governance** and **oversight** pillars of responsible AI. This company-owned report details Micron's adoption of an AI governance policy and working principles in 2024, requiring team member acknowledgment. It further outlines specific governance mechanisms, including an adaptable AI governance framework, a generative AI governance initiative, architecture and risk reviews by a cross-functional operating committee, and oversight by an AI executive steering committee.",
+          "title": "2025 Micron Sustainability Report",
+          "url": "https://www.micron.com/~/media/client/global/documents/general/sustainability/micron-2025-sustainability-report.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance** and **transparency** in responsible AI. It details the use of AI, specifically computer vision and deep learning for automatic defect classification, demonstrating transparency in the scope and function of AI systems. The post also mentions a VP role overseeing AI, suggesting a level of governance, though specific operational or policy execution details are not elaborated upon.",
+          "title": "Smart sight: how Micron uses AI to enhance yield and quality",
+          "url": "https://micron.com/about/blog/applications/ai/smart-sight-how-micron-uses-ai-to-enhance-yield-quality"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"From data to intelligence: Micron's role in the AI revolution,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by discussing clear guidelines for responsible AI use, accountability, and governance mechanisms that pair innovation with oversight. Transparency is evidenced by the blog post detailing specific AI tools and their applications, as well as describing AI deployments and use cases embedded in daily operations.",
+          "title": "From data to intelligence: Micron's role in the AI revolution",
+          "url": "https://micron.com/about/blog/applications/ai/from-data-to-intelligence-microns-role-in-the-ai-revolution"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The report acknowledges evolving AI regulations and potential legal liabilities, supporting external accountability. It touches upon potential bias in algorithms and datasets, indicating concerns related to fairness. The filing also demonstrates governance through mentions of strategic reorganization for AI growth, training on AI tools, and awareness of risks requiring management. Furthermore, it addresses data privacy risks associated with AI use and states policy requirements for AI systems to be transparent and accountable.",
+          "title": "SEC Form 10-K (Fiscal Year 2025, filed August 28, 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "The SEC Form 10-K filing provides evidence for **governance**, **transparency**, and **fairness**. It supports governance by acknowledging AI-related risks and the need for management and policy, as well as mentioning AI deployment and the unknown trajectory of generative AI. The filing also indicates a commitment to transparency and fairness by mentioning AI requirements for these principles, and by discussing AI capabilities in products designed to meet AI demands.",
+          "title": "SEC Form 10-K (Fiscal Year 2024, filed August 29, 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/723125/000072312524000027/mu-20240829.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This news report on the Micron Foundation's $1 million grant for AI ethics supports the **fairness**, **governance**, **privacy**, and **transparency** pillars. The report highlights concerns about bias in automated systems and industry demographics, directly addressing fairness. It also indicates governance and transparency requirements for grant recipients, and expresses expectations for them to consider privacy and ethical issues related to data collection in AI systems.",
+          "title": "Micron Foundation is 'Advancing Curiosity' in AI ethics with $1M grant",
+          "url": "https://siliconangle.com/2018/10/12/micron-foundation-advancing-curiosity-ai-ethics-1m-grant-womenintech"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This partnership report, \"Empowering Minds with Micron,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning an innovation framework (GAIN) that implies oversight of AI use, and it supports transparency by describing the adaptive AI learning capabilities of edbot.ai, which tailor learning paths for users.",
+          "title": "Empowering Minds with Micron: A Global Collaboration to Bridge STEM & AI Gaps",
+          "url": "https://solveeducation.org/empowering-minds-with-micron-a-global-collaboration-to-bridge-stem-and-ai-gaps"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "The company's sustainability report outlines specific governance mechanisms, including architecture and risk reviews by a cross-functional operating committee. The report also outlines oversight by an AI executive steering committee.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The 2025 Micron Sustainability Report provides evidence for the **governance** and **oversight** pillars of responsible AI. This company-owned report details Micron's adoption of an AI governance policy and working principles in 2024, requiring team member acknowledgment. It further outlines specific governance mechanisms, including an adaptable AI governance framework, a generative AI governance initiative, architecture and risk reviews by a cross-functional operating committee, and oversight by an AI executive steering committee.",
+          "title": "2025 Micron Sustainability Report",
+          "url": "https://www.micron.com/~/media/client/global/documents/general/sustainability/micron-2025-sustainability-report.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 4,
+      "findings": "A company blog post highlights the importance of addressing privacy as a key ethical concern within AI systems. SEC filings address data privacy risks associated with AI use. Additionally, a news report expresses expectations for grant recipients to consider privacy and ethical issues related to data collection in AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"From data to decisions: The role of memory in AI,\" provides evidence for explainability, fairness, privacy, and transparency. The post discusses explainable AI (XAI) frameworks and techniques that enable AI systems to articulate their decisions in human-understandable terms, directly supporting explainability and transparency. Furthermore, it highlights the importance of addressing bias and privacy as key ethical concerns within AI systems, thereby supporting the fairness and privacy pillars.",
+          "title": "From data to decisions: The role of memory in AI",
+          "url": "https://micron.com/about/blog/applications/ai/from-data-to-decisions-the-role-of-memory-in-ai"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The report acknowledges evolving AI regulations and potential legal liabilities, supporting external accountability. It touches upon potential bias in algorithms and datasets, indicating concerns related to fairness. The filing also demonstrates governance through mentions of strategic reorganization for AI growth, training on AI tools, and awareness of risks requiring management. Furthermore, it addresses data privacy risks associated with AI use and states policy requirements for AI systems to be transparent and accountable.",
+          "title": "SEC Form 10-K (Fiscal Year 2025, filed August 28, 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This news report on the Micron Foundation's $1 million grant for AI ethics supports the **fairness**, **governance**, **privacy**, and **transparency** pillars. The report highlights concerns about bias in automated systems and industry demographics, directly addressing fairness. It also indicates governance and transparency requirements for grant recipients, and expresses expectations for them to consider privacy and ethical issues related to data collection in AI systems.",
+          "title": "Micron Foundation is 'Advancing Curiosity' in AI ethics with $1M grant",
+          "url": "https://siliconangle.com/2018/10/12/micron-foundation-advancing-curiosity-ai-ethics-1m-grant-womenintech"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 25,
+      "findings": "The company's blog posts discuss explainable AI frameworks and techniques, detailing the use of AI in applications like automatic defect classification, and describing specific AI tools, deployments, and use cases. SEC filings state policy requirements for AI systems to be transparent and mention AI requirements for transparency principles. Additionally, a news report indicates transparency requirements for grant recipients, and a partnership report describes the adaptive AI learning capabilities of edbot.ai.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"From data to decisions: The role of memory in AI,\" provides evidence for explainability, fairness, privacy, and transparency. The post discusses explainable AI (XAI) frameworks and techniques that enable AI systems to articulate their decisions in human-understandable terms, directly supporting explainability and transparency. Furthermore, it highlights the importance of addressing bias and privacy as key ethical concerns within AI systems, thereby supporting the fairness and privacy pillars.",
+          "title": "From data to decisions: The role of memory in AI",
+          "url": "https://micron.com/about/blog/applications/ai/from-data-to-decisions-the-role-of-memory-in-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance** and **transparency** in responsible AI. It details the use of AI, specifically computer vision and deep learning for automatic defect classification, demonstrating transparency in the scope and function of AI systems. The post also mentions a VP role overseeing AI, suggesting a level of governance, though specific operational or policy execution details are not elaborated upon.",
+          "title": "Smart sight: how Micron uses AI to enhance yield and quality",
+          "url": "https://micron.com/about/blog/applications/ai/smart-sight-how-micron-uses-ai-to-enhance-yield-quality"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"From data to intelligence: Micron's role in the AI revolution,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by discussing clear guidelines for responsible AI use, accountability, and governance mechanisms that pair innovation with oversight. Transparency is evidenced by the blog post detailing specific AI tools and their applications, as well as describing AI deployments and use cases embedded in daily operations.",
+          "title": "From data to intelligence: Micron's role in the AI revolution",
+          "url": "https://micron.com/about/blog/applications/ai/from-data-to-intelligence-microns-role-in-the-ai-revolution"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The report acknowledges evolving AI regulations and potential legal liabilities, supporting external accountability. It touches upon potential bias in algorithms and datasets, indicating concerns related to fairness. The filing also demonstrates governance through mentions of strategic reorganization for AI growth, training on AI tools, and awareness of risks requiring management. Furthermore, it addresses data privacy risks associated with AI use and states policy requirements for AI systems to be transparent and accountable.",
+          "title": "SEC Form 10-K (Fiscal Year 2025, filed August 28, 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "The SEC Form 10-K filing provides evidence for **governance**, **transparency**, and **fairness**. It supports governance by acknowledging AI-related risks and the need for management and policy, as well as mentioning AI deployment and the unknown trajectory of generative AI. The filing also indicates a commitment to transparency and fairness by mentioning AI requirements for these principles, and by discussing AI capabilities in products designed to meet AI demands.",
+          "title": "SEC Form 10-K (Fiscal Year 2024, filed August 29, 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/723125/000072312524000027/mu-20240829.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This news report on the Micron Foundation's $1 million grant for AI ethics supports the **fairness**, **governance**, **privacy**, and **transparency** pillars. The report highlights concerns about bias in automated systems and industry demographics, directly addressing fairness. It also indicates governance and transparency requirements for grant recipients, and expresses expectations for them to consider privacy and ethical issues related to data collection in AI systems.",
+          "title": "Micron Foundation is 'Advancing Curiosity' in AI ethics with $1M grant",
+          "url": "https://siliconangle.com/2018/10/12/micron-foundation-advancing-curiosity-ai-ethics-1m-grant-womenintech"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This partnership report, \"Empowering Minds with Micron,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning an innovation framework (GAIN) that implies oversight of AI use, and it supports transparency by describing the adaptive AI learning capabilities of edbot.ai, which tailor learning paths for users.",
+          "title": "Empowering Minds with Micron: A Global Collaboration to Bridge STEM & AI Gaps",
+          "url": "https://solveeducation.org/empowering-minds-with-micron-a-global-collaboration-to-bridge-stem-and-ai-gaps"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:55:25Z",
+  "run_id": "20260202_235237_c7ec",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Micron Technology's published materials discuss explainable AI (XAI) frameworks and techniques that enable AI systems to articulate decisions in human-understandable terms, demonstrating operational transparency. All 7 evaluated responsible AI pillars have documented public evidence, with oversight practices including architecture and risk reviews by a cross-functional operating committee. Policy-level evidence is present for fairness, explainability, privacy, and external accountability, with disclosures highlighting the importance of addressing bias as a key ethical concern within AI systems. This assessment draws on 21 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 56,
+    "total_sources_used": 9
+  }
+}

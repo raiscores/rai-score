@@ -1,0 +1,412 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Amgen",
+  "company_slug": "amgen",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 20,
+      "OPERATIONAL": 9,
+      "POLICY": 22
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Policy documents commit to AI assurance processes covering explainability. These documents also outline mechanisms for ensuring explainability principles are met.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Artificial Intelligence Vision,\" provides evidence for **governance**, **explainability**, and **fairness**. It establishes AI governance functions and an AI Governance Council for oversight, demonstrating strong support for the **governance** pillar. The document also commits to AI assurance processes covering explainability, ethics, bias, and fairness, directly supporting the **explainability** and **fairness** pillars by outlining mechanisms for ensuring these principles are met.",
+          "title": "Artificial Intelligence Vision",
+          "url": "https://amgen.com/about/how-we-operate/policies-practices-and-disclosures/artificial-intelligence-vision"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This Amgen Form 10-K filing provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by referencing AI regulations like the EU AI Act, which mandates transparency, human oversight, and accountability. It also details the establishment of an AI Governance Council, the implementation of guardrails and training to mitigate privacy risks, and acknowledges the need for fairness by addressing flawed AI outputs due to data or algorithm issues.",
+          "title": "2024 Form 10-K – AI Tools and Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/318154/000031815425000010/amgn-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "Privacy policy documents mention an AI authority and outline user rights and review options. Company filings also reference AI regulations that mandate accountability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **transparency**, **fairness**, **governance**, **oversight**, and **external accountability**. It supports transparency by stating the use of an AI tool for interview scheduling and commits to bias mitigation and human oversight for AI systems. The policy also indicates governance and external accountability by mentioning an AI authority and outlining user rights and review options.",
+          "title": "Careers Privacy Statement – AI-Assisted Decision-Making",
+          "url": "https://careers.amgen.com/en/PrivacyStatement"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This Amgen Form 10-K filing provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by referencing AI regulations like the EU AI Act, which mandates transparency, human oversight, and accountability. It also details the establishment of an AI Governance Council, the implementation of guardrails and training to mitigate privacy risks, and acknowledges the need for fairness by addressing flawed AI outputs due to data or algorithm issues.",
+          "title": "2024 Form 10-K – AI Tools and Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/318154/000031815425000010/amgn-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 5,
+      "findings": "Policy documents commit to AI assurance processes covering bias and fairness, outlining mechanisms to ensure these principles are met. Company blog posts describe ongoing testing for bias mitigation, and privacy policy documents also commit to bias mitigation for AI systems. Additionally, company filings acknowledge the need for fairness by addressing flawed AI outputs due to data or algorithm issues.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Artificial Intelligence Vision,\" provides evidence for **governance**, **explainability**, and **fairness**. It establishes AI governance functions and an AI Governance Council for oversight, demonstrating strong support for the **governance** pillar. The document also commits to AI assurance processes covering explainability, ethics, bias, and fairness, directly supporting the **explainability** and **fairness** pillars by outlining mechanisms for ensuring these principles are met.",
+          "title": "Artificial Intelligence Vision",
+          "url": "https://amgen.com/about/how-we-operate/policies-practices-and-disclosures/artificial-intelligence-vision"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Eva AI Assistant for Patient Access & Reimbursement,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It supports governance and oversight by describing AI impact assessments, a risk-management program with continuous oversight, and ongoing testing for accuracy and bias mitigation. The post also supports privacy by specifying that AI training excludes Protected Health Information (PHI), and it reiterates commitments to transparency and accountability in AI applications.",
+          "title": "Eva AI Assistant for Patient Access & Reimbursement",
+          "url": "https://amgen.com/stories/2025/11/how-amgen-uses-ai-to-support-patient-access-and-reimbursement"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **transparency**, **fairness**, **governance**, **oversight**, and **external accountability**. It supports transparency by stating the use of an AI tool for interview scheduling and commits to bias mitigation and human oversight for AI systems. The policy also indicates governance and external accountability by mentioning an AI authority and outlining user rights and review options.",
+          "title": "Careers Privacy Statement – AI-Assisted Decision-Making",
+          "url": "https://careers.amgen.com/en/PrivacyStatement"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This Amgen Form 10-K filing provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by referencing AI regulations like the EU AI Act, which mandates transparency, human oversight, and accountability. It also details the establishment of an AI Governance Council, the implementation of guardrails and training to mitigate privacy risks, and acknowledges the need for fairness by addressing flawed AI outputs due to data or algorithm issues.",
+          "title": "2024 Form 10-K – AI Tools and Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/318154/000031815425000010/amgn-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 29,
+      "findings": "Privacy policy documents and company filings detail the establishment of an AI Governance Council, which enforces controls and monitors AI, alongside mandatory AI training. Company blog posts discuss data sharing for AI, implying governance needs for protecting sensitive information, and describe a structured approach to AI application in clinical trial design and participant identification. Furthermore, company blog posts describe AI impact assessments and a risk-management program, while privacy policy documents mention an AI authority. Press releases highlight a commitment to AI deployment and collaboration, and company blog posts highlight the need for expertise to focus on real-world problems in biotechnology.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Artificial Intelligence Vision,\" provides evidence for **governance**, **explainability**, and **fairness**. It establishes AI governance functions and an AI Governance Council for oversight, demonstrating strong support for the **governance** pillar. The document also commits to AI assurance processes covering explainability, ethics, bias, and fairness, directly supporting the **explainability** and **fairness** pillars by outlining mechanisms for ensuring these principles are met.",
+          "title": "Artificial Intelligence Vision",
+          "url": "https://amgen.com/about/how-we-operate/policies-practices-and-disclosures/artificial-intelligence-vision"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy document, \"Cybersecurity and Data Privacy – Trustworthy AI Governance,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing the establishment of an AI Governance Council that enforces controls and monitors AI, alongside mandatory AI training. The document also supports privacy by outlining Amgen's cybersecurity and data privacy programs and controls for protecting personal data.",
+          "title": "Cybersecurity and Data Privacy – Trustworthy AI Governance",
+          "url": "https://amgen.com/responsibility/a-healthy-amgen/cybersecurity-and-data-privacy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for the **privacy**, **transparency**, and **governance** pillars of responsible AI. It supports the privacy pillar by mentioning federated learning for data protection and discusses data sharing for AI, implying privacy needs. Transparency is supported by the mention of federated learning for AI/ML model improvement and the description of a trusted party involved in ML training and data sharing. The governance pillar is touched upon through the discussion of data sharing for AI and the implication of governance needs for protecting sensitive information.",
+          "title": "How AI Is Revolutionizing Protein Drug Development",
+          "url": "https://amgen.com/stories/2023/10/how-ai-and-life-sciences-research-are-revolutionizing-protein-drug-development"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Clinical Trial Optimization with Data and AI,\" provides evidence for the **governance** pillar. The post describes Amgen's use of AI for clinical trial design and participant identification, indicating a structured approach to the application of AI in this domain.",
+          "title": "Clinical Trial Optimization with Data and AI",
+          "url": "https://amgen.com/science/research-and-development-strategy/clinical-trial-optimization"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Eva AI Assistant for Patient Access & Reimbursement,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It supports governance and oversight by describing AI impact assessments, a risk-management program with continuous oversight, and ongoing testing for accuracy and bias mitigation. The post also supports privacy by specifying that AI training excludes Protected Health Information (PHI), and it reiterates commitments to transparency and accountability in AI applications.",
+          "title": "Eva AI Assistant for Patient Access & Reimbursement",
+          "url": "https://amgen.com/stories/2025/11/how-amgen-uses-ai-to-support-patient-access-and-reimbursement"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **transparency**, **fairness**, **governance**, **oversight**, and **external accountability**. It supports transparency by stating the use of an AI tool for interview scheduling and commits to bias mitigation and human oversight for AI systems. The policy also indicates governance and external accountability by mentioning an AI authority and outlining user rights and review options.",
+          "title": "Careers Privacy Statement – AI-Assisted Decision-Making",
+          "url": "https://careers.amgen.com/en/PrivacyStatement"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Amgen's phased rollout of generative AI tools, including operational testing and internal evaluation of model performance and accuracy, demonstrating robust governance measures. Furthermore, the post highlights collaboration and assessment of AI models, indicating efforts towards transparency in their AI development and deployment.",
+          "title": "Generative AI Tools Support Amgen’s Mission",
+          "url": "https://amgen.com/stories/2025/08/generative-ai-tools-support-amgens-mission-to-serve-patients"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This Amgen Form 10-K filing provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by referencing AI regulations like the EU AI Act, which mandates transparency, human oversight, and accountability. It also details the establishment of an AI Governance Council, the implementation of guardrails and training to mitigate privacy risks, and acknowledges the need for fairness by addressing flawed AI outputs due to data or algorithm issues.",
+          "title": "2024 Form 10-K – AI Tools and Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/318154/000031815425000010/amgn-20241231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This press release announces a partnership between Amgen and Mila to apply AI to drug discovery, providing evidence for **governance** by highlighting a commitment to AI deployment and collaboration. It also supports **transparency** by describing the AI's capabilities and potential impact on drug discovery, serving as a narrative about AI's intended use.",
+          "title": "Artificial Intelligence Partnership with Mila",
+          "url": "https://amgen.ca/media/press-releases/2021/03/amgen-announces-artificial-intelligence-partnership-with-mila"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This Amgen Biotech Experience blog post provides evidence for **governance** and **transparency**. The post supports transparency by mentioning the use of AI/ML models and AI-driven models, indicating an awareness of the systems in place. It also touches on governance by highlighting the need for expertise to focus on real-world problems in biotechnology.",
+          "title": "Tackling the “Impossible” in Biotechnology with AI",
+          "url": "https://amgenbiotechexperience.com/tackling-impossible-biotechnology-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 5,
+      "findings": "Company blog posts highlight the use of ML technology alongside human augmentation, demonstrating oversight by study teams. These posts also describe AI impact assessments and a risk-management program with continuous oversight. Additionally, privacy policy documents commit to human oversight for AI systems, and company filings reference AI regulations that mandate human oversight.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"ATOMIC Machine Learning Model for Trial Site Selection,\" provides evidence for **oversight** and **transparency**. The post highlights the use of ML technology alongside human augmentation, demonstrating oversight by study teams. Furthermore, it details the creation and function of the ATOMIC model, explaining its analytical process and data integration, which contributes to transparency regarding the AI system's capabilities and functionality.",
+          "title": "ATOMIC Machine Learning Model for Trial Site Selection",
+          "url": "https://amgen.com/stories/2025/04/follow-the-data"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Eva AI Assistant for Patient Access & Reimbursement,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It supports governance and oversight by describing AI impact assessments, a risk-management program with continuous oversight, and ongoing testing for accuracy and bias mitigation. The post also supports privacy by specifying that AI training excludes Protected Health Information (PHI), and it reiterates commitments to transparency and accountability in AI applications.",
+          "title": "Eva AI Assistant for Patient Access & Reimbursement",
+          "url": "https://amgen.com/stories/2025/11/how-amgen-uses-ai-to-support-patient-access-and-reimbursement"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **transparency**, **fairness**, **governance**, **oversight**, and **external accountability**. It supports transparency by stating the use of an AI tool for interview scheduling and commits to bias mitigation and human oversight for AI systems. The policy also indicates governance and external accountability by mentioning an AI authority and outlining user rights and review options.",
+          "title": "Careers Privacy Statement – AI-Assisted Decision-Making",
+          "url": "https://careers.amgen.com/en/PrivacyStatement"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This Amgen Form 10-K filing provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by referencing AI regulations like the EU AI Act, which mandates transparency, human oversight, and accountability. It also details the establishment of an AI Governance Council, the implementation of guardrails and training to mitigate privacy risks, and acknowledges the need for fairness by addressing flawed AI outputs due to data or algorithm issues.",
+          "title": "2024 Form 10-K – AI Tools and Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/318154/000031815425000010/amgn-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "Privacy policy documents outline cybersecurity and data privacy programs and controls for protecting personal data. Company blog posts mention federated learning for data protection and discuss data sharing for AI, specifying that AI training excludes Protected Health Information (PHI). Additionally, company filings detail the implementation of guardrails and training to mitigate privacy risks.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy document, \"Cybersecurity and Data Privacy – Trustworthy AI Governance,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing the establishment of an AI Governance Council that enforces controls and monitors AI, alongside mandatory AI training. The document also supports privacy by outlining Amgen's cybersecurity and data privacy programs and controls for protecting personal data.",
+          "title": "Cybersecurity and Data Privacy – Trustworthy AI Governance",
+          "url": "https://amgen.com/responsibility/a-healthy-amgen/cybersecurity-and-data-privacy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for the **privacy**, **transparency**, and **governance** pillars of responsible AI. It supports the privacy pillar by mentioning federated learning for data protection and discusses data sharing for AI, implying privacy needs. Transparency is supported by the mention of federated learning for AI/ML model improvement and the description of a trusted party involved in ML training and data sharing. The governance pillar is touched upon through the discussion of data sharing for AI and the implication of governance needs for protecting sensitive information.",
+          "title": "How AI Is Revolutionizing Protein Drug Development",
+          "url": "https://amgen.com/stories/2023/10/how-ai-and-life-sciences-research-are-revolutionizing-protein-drug-development"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Eva AI Assistant for Patient Access & Reimbursement,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It supports governance and oversight by describing AI impact assessments, a risk-management program with continuous oversight, and ongoing testing for accuracy and bias mitigation. The post also supports privacy by specifying that AI training excludes Protected Health Information (PHI), and it reiterates commitments to transparency and accountability in AI applications.",
+          "title": "Eva AI Assistant for Patient Access & Reimbursement",
+          "url": "https://amgen.com/stories/2025/11/how-amgen-uses-ai-to-support-patient-access-and-reimbursement"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This Amgen Form 10-K filing provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by referencing AI regulations like the EU AI Act, which mandates transparency, human oversight, and accountability. It also details the establishment of an AI Governance Council, the implementation of guardrails and training to mitigate privacy risks, and acknowledges the need for fairness by addressing flawed AI outputs due to data or algorithm issues.",
+          "title": "2024 Form 10-K – AI Tools and Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/318154/000031815425000010/amgn-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 35,
+      "findings": "Company documents and blog posts describe the use of AI/ML models, including federated learning for model improvement and mining human genomics data, detailing capabilities and computational methods. They also explain the ATOMIC model's creation, function, analytical process, and data integration. Furthermore, the company reiterates commitments to transparency in AI applications, states the use of an AI tool for interview scheduling, highlights collaboration and assessment of AI models, and references AI regulations that mandate transparency.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Artificial Intelligence Vision,\" provides evidence for **governance**, **explainability**, and **fairness**. It establishes AI governance functions and an AI Governance Council for oversight, demonstrating strong support for the **governance** pillar. The document also commits to AI assurance processes covering explainability, ethics, bias, and fairness, directly supporting the **explainability** and **fairness** pillars by outlining mechanisms for ensuring these principles are met.",
+          "title": "Artificial Intelligence Vision",
+          "url": "https://amgen.com/about/how-we-operate/policies-practices-and-disclosures/artificial-intelligence-vision"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for the **privacy**, **transparency**, and **governance** pillars of responsible AI. It supports the privacy pillar by mentioning federated learning for data protection and discusses data sharing for AI, implying privacy needs. Transparency is supported by the mention of federated learning for AI/ML model improvement and the description of a trusted party involved in ML training and data sharing. The governance pillar is touched upon through the discussion of data sharing for AI and the implication of governance needs for protecting sensitive information.",
+          "title": "How AI Is Revolutionizing Protein Drug Development",
+          "url": "https://amgen.com/stories/2023/10/how-ai-and-life-sciences-research-are-revolutionizing-protein-drug-development"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Decoding Disease – deCODE Genetics and AI,\" provides evidence for the **transparency** pillar of responsible AI. The post describes the use of AI/ML for mining human genomics data, indicating transparency about the company's capabilities and the computational methods employed in their target discovery and precision medicine efforts.",
+          "title": "Decoding Disease – deCODE Genetics and AI",
+          "url": "https://amgen.com/stories/2022/06/decoding-disease"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"ATOMIC Machine Learning Model for Trial Site Selection,\" provides evidence for **oversight** and **transparency**. The post highlights the use of ML technology alongside human augmentation, demonstrating oversight by study teams. Furthermore, it details the creation and function of the ATOMIC model, explaining its analytical process and data integration, which contributes to transparency regarding the AI system's capabilities and functionality.",
+          "title": "ATOMIC Machine Learning Model for Trial Site Selection",
+          "url": "https://amgen.com/stories/2025/04/follow-the-data"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Eva AI Assistant for Patient Access & Reimbursement,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It supports governance and oversight by describing AI impact assessments, a risk-management program with continuous oversight, and ongoing testing for accuracy and bias mitigation. The post also supports privacy by specifying that AI training excludes Protected Health Information (PHI), and it reiterates commitments to transparency and accountability in AI applications.",
+          "title": "Eva AI Assistant for Patient Access & Reimbursement",
+          "url": "https://amgen.com/stories/2025/11/how-amgen-uses-ai-to-support-patient-access-and-reimbursement"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **transparency**, **fairness**, **governance**, **oversight**, and **external accountability**. It supports transparency by stating the use of an AI tool for interview scheduling and commits to bias mitigation and human oversight for AI systems. The policy also indicates governance and external accountability by mentioning an AI authority and outlining user rights and review options.",
+          "title": "Careers Privacy Statement – AI-Assisted Decision-Making",
+          "url": "https://careers.amgen.com/en/PrivacyStatement"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Amgen's phased rollout of generative AI tools, including operational testing and internal evaluation of model performance and accuracy, demonstrating robust governance measures. Furthermore, the post highlights collaboration and assessment of AI models, indicating efforts towards transparency in their AI development and deployment.",
+          "title": "Generative AI Tools Support Amgen’s Mission",
+          "url": "https://amgen.com/stories/2025/08/generative-ai-tools-support-amgens-mission-to-serve-patients"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This Amgen Form 10-K filing provides evidence for **explainability, external_accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by referencing AI regulations like the EU AI Act, which mandates transparency, human oversight, and accountability. It also details the establishment of an AI Governance Council, the implementation of guardrails and training to mitigate privacy risks, and acknowledges the need for fairness by addressing flawed AI outputs due to data or algorithm issues.",
+          "title": "2024 Form 10-K – AI Tools and Risk Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/318154/000031815425000010/amgn-20241231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This press release announces a partnership between Amgen and Mila to apply AI to drug discovery, providing evidence for **governance** by highlighting a commitment to AI deployment and collaboration. It also supports **transparency** by describing the AI's capabilities and potential impact on drug discovery, serving as a narrative about AI's intended use.",
+          "title": "Artificial Intelligence Partnership with Mila",
+          "url": "https://amgen.ca/media/press-releases/2021/03/amgen-announces-artificial-intelligence-partnership-with-mila"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This Amgen Biotech Experience blog post provides evidence for **governance** and **transparency**. The post supports transparency by mentioning the use of AI/ML models and AI-driven models, indicating an awareness of the systems in place. It also touches on governance by highlighting the need for expertise to focus on real-world problems in biotechnology.",
+          "title": "Tackling the “Impossible” in Biotechnology with AI",
+          "url": "https://amgenbiotechexperience.com/tackling-impossible-biotechnology-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    }
+  },
+  "published_at": "2026-02-23T21:43:10Z",
+  "run_id": "20260128_153339_02d3",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Amgen's published materials demonstrate operational practices in areas such as transparency, where company documents mention federated learning for AI/ML model improvement, and governance, detailing the establishment of an AI Governance Council. All 7 evaluated pillars have documented public evidence, with privacy policy documents outlining cybersecurity and data privacy programs, and fairness policy documents committing to AI assurance processes covering bias and fairness. Additionally, explainability and external accountability are addressed at the policy level; for instance, policy documents outline mechanisms for ensuring explainability principles are met, and privacy policy documents mention an AI authority. This assessment draws on 16 publicly available sources.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 51,
+    "total_sources_used": 12
+  }
+}

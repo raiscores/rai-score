@@ -1,0 +1,564 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Lockheed Martin",
+  "company_slug": "lockheed-martin",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 17,
+      "OPERATIONAL": 37,
+      "POLICY": 117
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 4,
+      "findings": "The company documents its commitment to explainability through the establishment of an Artificial Intelligence Ethics Advisory Committee and the use of an AI Factory MLOps platform with model monitoring for traceability and reliability. It also references the adoption of DoD AI Ethical Principles to ensure repeatable processes that support explainability. Furthermore, the company acknowledges challenges related to lack of explainability and highlights investments in explainability companies.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This corporate capabilities help page, \"Artificial Intelligence and Machine Learning Capabilities,\" provides evidence for **governance**, **transparency**, and **explainability**. The document details the establishment of an Artificial Intelligence Ethics Advisory Committee, demonstrating a commitment to governance and explainability. Furthermore, it highlights the AI Factory MLOps platform with model monitoring for traceability and reliability, and the adoption of DoD AI Ethical Principles, which collectively support transparency and explainability by ensuring repeatable processes and adherence to ethical guidelines.",
+          "title": "Artificial Intelligence and Machine Learning Capabilities",
+          "url": "https://lockheedmartin.com/en-us/capabilities/artificial-intelligence-machine-learning.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **governance**, **transparency**, **fairness**, and **explainability**. The document details Lockheed Martin's \"AI Factory\" and \"LAIC\" initiatives, which establish structured processes for AI development, deployment, and adherence to DoD standards, demonstrating strong governance. Transparency is evident through the mention of specific AI tools like LMText Navigator and the use of LLMs, as well as the industrialization of AI development. The paper also acknowledges challenges like bias and lack of explainability, directly supporting the fairness and explainability pillars, and highlights investments in explainability companies as part of their governance strategy.",
+          "title": "Lockheed Martin's AI Strategy: Analysis of Dominance in Aerospace Defense",
+          "url": "https://klover.ai/lockheed-martin-ai-strategy-analysis-of-dominance-in-aerospace-defense"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 7,
+      "findings": "The company documents its external accountability practices through the adoption of DoD Ethical AI Principles and a commitment to embedding ethical safeguards throughout the AI lifecycle. It also mentions a commitment to trustworthy AI model development and deployment. Furthermore, the company references compliance with executive orders for trustworthy AI and federal AI standards, and describes audit trails for chain of custody.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This recruitment help page from Lockheed Martin AI Center provides evidence for **external_accountability, fairness, governance, and transparency**. The company highlights its adoption of DoD Ethical AI Principles and commitment to embedding ethical safeguards throughout the AI lifecycle, demonstrating a focus on governance and transparency in AI development and deployment. Furthermore, it mentions a commitment to trustworthy AI model development and deployment, implying a dedication to fairness and external accountability through ethical principles, frameworks, and certification.",
+          "title": "At the Forefront of AI Technology - Lockheed Martin AI Center",
+          "url": "https://lockheedmartin.com/en-us/careers/campaigns/2025/laic.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Lockheed Martin AI Factory - NVIDIA Customer Story,\" provides evidence for **governance**, **transparency**, **privacy**, and **external accountability**. The document details an AI factory infrastructure that emphasizes structured AI development and deployment through MLOps platforms, codifying best practices, and centralizing tools. This approach supports governance and transparency by ensuring repeatable, automated capabilities and adherence to ethical principles. Furthermore, the paper highlights strict data governance with access controls and compliance with executive orders for trustworthy AI, directly supporting the privacy and external accountability pillars.",
+          "title": "Lockheed Martin AI Factory - NVIDIA Customer Story",
+          "url": "https://nvidia.com/en-us/customer-stories/lockheed-martin-ai-factory-with-dgx-superpod"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This technical paper on Lockheed Martin's data versioning practices provides evidence for **governance**, **transparency**, **external_accountability**, and **privacy**. It details mechanisms for complete model lineage tracking, experiment reproducibility, and immutable versioning, which support **governance** and **transparency** by enabling traceability and validation. The paper also describes audit trails for chain of custody and compliance with federal AI standards, bolstering **external_accountability**, and mentions data isolation and retention policies, contributing to **privacy**.",
+          "title": "Data Versioning: Turning AI-ish Stacks into a Real AI Factory",
+          "url": "https://lakefs.io/blog/data-versioning-ai-factory"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 10,
+      "findings": "The company documents its commitment to fairness through AI ethics training for developers, which includes \"equitable\" principles and considerations. Published materials highlight a commitment to applying ethics and training to AI processes and to trustworthy AI model development. The company also acknowledges challenges like bias and mentions rules requiring the removal of conflicts of interest when using AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"2025 Sustainability Management Plan and Goals,\" provides evidence for **governance**, **fairness**, and **privacy**. It supports governance by detailing the structure and operations of an AI Ethics Subcommittee and an AI Executive Steering Committee, including their meeting cadence and reporting mechanisms. The policy also demonstrates a commitment to fairness and privacy by mentioning the training of AI developers on ethical principles and referencing AI in the context of privacy and intellectual property.",
+          "title": "2025 Sustainability Management Plan and Goals",
+          "url": "https://sustainability.lockheedmartin.com/sustainability/priorities-and-strategy/2025-sustainability-management-plan-and-goals"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"2025 Definitive Proxy Statement\" provides evidence for **governance, oversight, and transparency** in responsible AI. This board governance document details the AI Ethics Subcommittee's oversight structure, board-level engagement with AI governance and risk management, and quarterly reporting to leadership on AI ethics matters, demonstrating a commitment to structured AI deployment and review. The document also highlights the evaluation of AI as a risk focus area and mentions the demonstration of autonomous system capabilities, contributing to transparency.",
+          "title": "2025 Definitive Proxy Statement",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/annual-reports/2025-proxy-statement.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **governance, oversight, fairness, and transparency**. The document details the establishment and functioning of AI oversight bodies, including committees and leadership roles with defined responsibilities and reporting cadences, demonstrating robust governance and oversight mechanisms. Furthermore, it highlights the development and completion of AI ethics training, including principles like \"equitable,\" supporting the fairness pillar, and mentions the use of AI tools and autonomous systems, contributing to transparency.",
+          "title": "SEC Form 10-K Filing (March 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/936468/000093646825000015/lmt-20250327.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **fairness, governance, oversight, and transparency**. It details the creation of an AI Ethics Subcommittee under an AI Executive Steering Committee, demonstrating strong **governance** and **oversight** mechanisms for AI design, development, and deployment. The document also highlights a commitment to applying ethics and training to AI processes, and mentions \"equitable\" considerations, supporting **fairness**, while compensation valuation methods indicate **transparency**.",
+          "title": "2024 Definitive Proxy Statement",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/annual-reports/2024-proxy-statement.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This recruitment help page from Lockheed Martin AI Center provides evidence for **external_accountability, fairness, governance, and transparency**. The company highlights its adoption of DoD Ethical AI Principles and commitment to embedding ethical safeguards throughout the AI lifecycle, demonstrating a focus on governance and transparency in AI development and deployment. Furthermore, it mentions a commitment to trustworthy AI model development and deployment, implying a dedication to fairness and external accountability through ethical principles, frameworks, and certification.",
+          "title": "At the Forefront of AI Technology - Lockheed Martin AI Center",
+          "url": "https://lockheedmartin.com/en-us/careers/campaigns/2025/laic.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **governance**, **transparency**, **fairness**, and **explainability**. The document details Lockheed Martin's \"AI Factory\" and \"LAIC\" initiatives, which establish structured processes for AI development, deployment, and adherence to DoD standards, demonstrating strong governance. Transparency is evident through the mention of specific AI tools like LMText Navigator and the use of LLMs, as well as the industrialization of AI development. The paper also acknowledges challenges like bias and lack of explainability, directly supporting the fairness and explainability pillars, and highlights investments in explainability companies as part of their governance strategy.",
+          "title": "Lockheed Martin's AI Strategy: Analysis of Dominance in Aerospace Defense",
+          "url": "https://klover.ai/lockheed-martin-ai-strategy-analysis-of-dominance-in-aerospace-defense"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Cyber and AI Oversight Disclosures: What Companies Shared in 2025,\" provides evidence for **governance, oversight, transparency, and fairness**. The report highlights increased corporate disclosure of AI risk in board oversight and as a 10-K risk factor, demonstrating enhanced **governance** and **oversight** mechanisms. It also points to the establishment of AI information sharing structures and sandboxes for AI tool testing, supporting **transparency** and **governance**, and mentions rules requiring the removal of conflicts of interest when using AI, which addresses **fairness**.",
+          "title": "Cyber and AI Oversight Disclosures: What Companies Shared in 2025",
+          "url": "https://corpgov.law.harvard.edu/2025/10/28/cyber-and-ai-oversight-disclosures-what-companies-shared-in-2025"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 158,
+      "findings": "The company documents its AI governance through the establishment of Five Ethical AI Principles and mandates that AI procurement, development, and use align with company values, referencing a foundational policy (CPS-022) and an AI Ethics Advisory Committee. It details the structure and operations of an AI Ethics Subcommittee and an AI Executive Steering Committee, including their meeting cadence and reporting mechanisms, and describes board-level engagement with AI governance and risk management. Furthermore, the company highlights the adoption of DoD AI Ethical Principles, MLOps model governance, and a strategic focus on specific use cases and a framework for managing AI deployment.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Code of Ethics and Business Conduct (2025),\" provides evidence for the **governance** pillar of responsible AI. It establishes Five Ethical AI Principles and mandates that AI procurement, development, and use align with company values, referencing a foundational policy (CPS-022) and an AI Ethics Advisory Committee for guidance and governance. The policy also acknowledges risks in AI design and implementation, implying a commitment to risk management within its governance framework.",
+          "title": "Code of Ethics and Business Conduct (2025)",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/ethics/Ethics-Code-of-Conduct-2023.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This corporate capabilities help page, \"Artificial Intelligence and Machine Learning Capabilities,\" provides evidence for **governance**, **transparency**, and **explainability**. The document details the establishment of an Artificial Intelligence Ethics Advisory Committee, demonstrating a commitment to governance and explainability. Furthermore, it highlights the AI Factory MLOps platform with model monitoring for traceability and reliability, and the adoption of DoD AI Ethical Principles, which collectively support transparency and explainability by ensuring repeatable processes and adherence to ethical guidelines.",
+          "title": "Artificial Intelligence and Machine Learning Capabilities",
+          "url": "https://lockheedmartin.com/en-us/capabilities/artificial-intelligence-machine-learning.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"2025 Sustainability Management Plan and Goals,\" provides evidence for **governance**, **fairness**, and **privacy**. It supports governance by detailing the structure and operations of an AI Ethics Subcommittee and an AI Executive Steering Committee, including their meeting cadence and reporting mechanisms. The policy also demonstrates a commitment to fairness and privacy by mentioning the training of AI developers on ethical principles and referencing AI in the context of privacy and intellectual property.",
+          "title": "2025 Sustainability Management Plan and Goals",
+          "url": "https://sustainability.lockheedmartin.com/sustainability/priorities-and-strategy/2025-sustainability-management-plan-and-goals"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"2025 Definitive Proxy Statement\" provides evidence for **governance, oversight, and transparency** in responsible AI. This board governance document details the AI Ethics Subcommittee's oversight structure, board-level engagement with AI governance and risk management, and quarterly reporting to leadership on AI ethics matters, demonstrating a commitment to structured AI deployment and review. The document also highlights the evaluation of AI as a risk focus area and mentions the demonstration of autonomous system capabilities, contributing to transparency.",
+          "title": "2025 Definitive Proxy Statement",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/annual-reports/2025-proxy-statement.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"2025 Ethics Awareness Training Leaders Guide,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by discussing AI ethics, policies, operational oversight, and referencing specific compliance requirements like CPS-022 for ethical AI development and use. The document also supports privacy by mentioning safeguards for sensitive data and the protection of sensitive information.",
+          "title": "2025 Ethics Awareness Training Leaders Guide",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/ethics/2025-EAT-Leaders-Guide.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This EU-US Data Protection Notice, a company-owned privacy policy, provides evidence for the **governance** and **oversight** pillars of responsible AI. The document establishes policies for automated decision-making, which inherently requires and implies the existence of oversight and governance controls for its application.",
+          "title": "EU and UK Data Protection Notice (EU-US DPF Privacy Notice)",
+          "url": "https://lockheedmartin.com/en-us/contact/lockheed-martin-corporation-privacy-notice-eu.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing MLOps model governance and defense-grade security for AI systems, and by highlighting the operational integration of third-party AI models. Evidence for privacy and transparency is found in the company's commitment to high standards of security, ethics, and integrity for AI solutions, framing these as realized innovations.",
+          "title": "Astris AI: Bringing Lockheed Martin's Trusted Innovation to New Industries",
+          "url": "https://lockheedmartin.com/en-us/news/features/2025/astris-ai-lockheed-martin-trusted-innovation-new-ndustries.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This press release highlights a strategic partnership focused on integrating generative AI into Lockheed Martin's AI Factory, providing evidence for **governance** and **transparency**. The document emphasizes a commitment to trustworthy and secure AI deployment, including traceability and monitoring for national security applications, which directly supports the **governance** pillar by outlining a structured approach to AI implementation and oversight. Furthermore, the mention of reliable AI and high standards for security and reliability indicates a focus on **transparency** in AI operations and vendor capabilities.",
+          "title": "Lockheed Martin and Google Cloud Collaboration for Generative AI (March 2025)",
+          "url": "https://news.lockheedmartin.com/2025-03-27-Lockheed-Martin-and-Google-Cloud-Announce-Collaboration-to-Advance-Generative-AI-For-National-Security"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **governance, oversight, fairness, and transparency**. The document details the establishment and functioning of AI oversight bodies, including committees and leadership roles with defined responsibilities and reporting cadences, demonstrating robust governance and oversight mechanisms. Furthermore, it highlights the development and completion of AI ethics training, including principles like \"equitable,\" supporting the fairness pillar, and mentions the use of AI tools and autonomous systems, contributing to transparency.",
+          "title": "SEC Form 10-K Filing (March 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/936468/000093646825000015/lmt-20250327.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This SEC annual report filing provides evidence for **governance** and **transparency**. It supports governance by mentioning the integration of AI in a \"compliant and responsible manner\" and strategic investments in AI/ML for growth, implying a policy focus. Transparency is supported by detailing the deployment of open-source AI models and the scale of AI integration across a large developer base, offering insight into their AI ecosystem.",
+          "title": "2024 Annual Report (SEC Filing)",
+          "url": "https://sec.gov/Archives/edgar/data/936468/000093646825000020/a2024annualreportfinal.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **fairness, governance, oversight, and transparency**. It details the creation of an AI Ethics Subcommittee under an AI Executive Steering Committee, demonstrating strong **governance** and **oversight** mechanisms for AI design, development, and deployment. The document also highlights a commitment to applying ethics and training to AI processes, and mentions \"equitable\" considerations, supporting **fairness**, while compensation valuation methods indicate **transparency**.",
+          "title": "2024 Definitive Proxy Statement",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/annual-reports/2024-proxy-statement.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This corporate audit report, the \"2022 Human Rights Report,\" provides evidence for the **governance** pillar of responsible AI. The report documents the issuance and integration of CPS-022, a policy for the ethical development and use of AI, and outlines a 2025 sustainability goal for AI ethics training of all developers, demonstrating a formal commitment to AI governance and policy development.",
+          "title": "2022 Human Rights Report",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/sustainability/Lockheed_Martin_Human_Rights_Report_2022.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This 2020 Human Rights Report, an audit report, provides evidence for the **governance** pillar of responsible AI. The report documents a commitment to training AI developers on ethical principles, establishing a governance standard for AI development, and mentions a corporate policy for AI ethics and a plan for AI ethics training. This indicates a documented policy commitment to AI ethics governance.",
+          "title": "2020 Human Rights Report",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/sustainability/Lockheed_Martin_Human_Rights_Report_2020.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This recruitment help page from Lockheed Martin AI Center provides evidence for **external_accountability, fairness, governance, and transparency**. The company highlights its adoption of DoD Ethical AI Principles and commitment to embedding ethical safeguards throughout the AI lifecycle, demonstrating a focus on governance and transparency in AI development and deployment. Furthermore, it mentions a commitment to trustworthy AI model development and deployment, implying a dedication to fairness and external accountability through ethical principles, frameworks, and certification.",
+          "title": "At the Forefront of AI Technology - Lockheed Martin AI Center",
+          "url": "https://lockheedmartin.com/en-us/careers/campaigns/2025/laic.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Lockheed Martin AI Factory - NVIDIA Customer Story,\" provides evidence for **governance**, **transparency**, **privacy**, and **external accountability**. The document details an AI factory infrastructure that emphasizes structured AI development and deployment through MLOps platforms, codifying best practices, and centralizing tools. This approach supports governance and transparency by ensuring repeatable, automated capabilities and adherence to ethical principles. Furthermore, the paper highlights strict data governance with access controls and compliance with executive orders for trustworthy AI, directly supporting the privacy and external accountability pillars.",
+          "title": "Lockheed Martin AI Factory - NVIDIA Customer Story",
+          "url": "https://nvidia.com/en-us/customer-stories/lockheed-martin-ai-factory-with-dgx-superpod"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This technical paper on Lockheed Martin's data versioning practices provides evidence for **governance**, **transparency**, **external_accountability**, and **privacy**. It details mechanisms for complete model lineage tracking, experiment reproducibility, and immutable versioning, which support **governance** and **transparency** by enabling traceability and validation. The paper also describes audit trails for chain of custody and compliance with federal AI standards, bolstering **external_accountability**, and mentions data isolation and retention policies, contributing to **privacy**.",
+          "title": "Data Versioning: Turning AI-ish Stacks into a Real AI Factory",
+          "url": "https://lakefs.io/blog/data-versioning-ai-factory"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This technical paper by Lockheed Martin details their approach to AI implementation in the DoD marketspace, providing evidence for **governance** and **transparency**. The paper highlights a strategic focus on specific use cases and a framework for managing AI deployment, indicating a structured approach to governance. Furthermore, the emphasis on AI working \"reliably, responsibly, and ethically\" suggests a commitment to transparency in application and adherence to responsible AI principles.",
+          "title": "Lockheed Martin Details Challenges Implementing AI in DOD Marketspace",
+          "url": "https://aerospaceamerica.aiaa.org/institute/lockheed-martin-details-challenges-implementing-ai-in-the-dod-marketspace"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **governance**, **transparency**, **fairness**, and **explainability**. The document details Lockheed Martin's \"AI Factory\" and \"LAIC\" initiatives, which establish structured processes for AI development, deployment, and adherence to DoD standards, demonstrating strong governance. Transparency is evident through the mention of specific AI tools like LMText Navigator and the use of LLMs, as well as the industrialization of AI development. The paper also acknowledges challenges like bias and lack of explainability, directly supporting the fairness and explainability pillars, and highlights investments in explainability companies as part of their governance strategy.",
+          "title": "Lockheed Martin's AI Strategy: Analysis of Dominance in Aerospace Defense",
+          "url": "https://klover.ai/lockheed-martin-ai-strategy-analysis-of-dominance-in-aerospace-defense"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Cyber and AI Oversight Disclosures: What Companies Shared in 2025,\" provides evidence for **governance, oversight, transparency, and fairness**. The report highlights increased corporate disclosure of AI risk in board oversight and as a 10-K risk factor, demonstrating enhanced **governance** and **oversight** mechanisms. It also points to the establishment of AI information sharing structures and sandboxes for AI tool testing, supporting **transparency** and **governance**, and mentions rules requiring the removal of conflicts of interest when using AI, which addresses **fairness**.",
+          "title": "Cyber and AI Oversight Disclosures: What Companies Shared in 2025",
+          "url": "https://corpgov.law.harvard.edu/2025/10/28/cyber-and-ai-oversight-disclosures-what-companies-shared-in-2025"
+        }
+      ],
+      "score": 2,
+      "source_count": 19
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 13,
+      "findings": "The company documents its oversight practices through the AI Ethics Subcommittee's oversight structure and board-level engagement with AI governance and risk management. It also details quarterly reporting to leadership on AI ethics matters and discusses operational oversight. Furthermore, the company highlights increased corporate disclosure of AI risk in board oversight and as a 10-K risk factor, and references policies for automated decision-making.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"2025 Definitive Proxy Statement\" provides evidence for **governance, oversight, and transparency** in responsible AI. This board governance document details the AI Ethics Subcommittee's oversight structure, board-level engagement with AI governance and risk management, and quarterly reporting to leadership on AI ethics matters, demonstrating a commitment to structured AI deployment and review. The document also highlights the evaluation of AI as a risk focus area and mentions the demonstration of autonomous system capabilities, contributing to transparency.",
+          "title": "2025 Definitive Proxy Statement",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/annual-reports/2025-proxy-statement.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"2025 Ethics Awareness Training Leaders Guide,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by discussing AI ethics, policies, operational oversight, and referencing specific compliance requirements like CPS-022 for ethical AI development and use. The document also supports privacy by mentioning safeguards for sensitive data and the protection of sensitive information.",
+          "title": "2025 Ethics Awareness Training Leaders Guide",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/ethics/2025-EAT-Leaders-Guide.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This EU-US Data Protection Notice, a company-owned privacy policy, provides evidence for the **governance** and **oversight** pillars of responsible AI. The document establishes policies for automated decision-making, which inherently requires and implies the existence of oversight and governance controls for its application.",
+          "title": "EU and UK Data Protection Notice (EU-US DPF Privacy Notice)",
+          "url": "https://lockheedmartin.com/en-us/contact/lockheed-martin-corporation-privacy-notice-eu.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **governance, oversight, fairness, and transparency**. The document details the establishment and functioning of AI oversight bodies, including committees and leadership roles with defined responsibilities and reporting cadences, demonstrating robust governance and oversight mechanisms. Furthermore, it highlights the development and completion of AI ethics training, including principles like \"equitable,\" supporting the fairness pillar, and mentions the use of AI tools and autonomous systems, contributing to transparency.",
+          "title": "SEC Form 10-K Filing (March 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/936468/000093646825000015/lmt-20250327.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **fairness, governance, oversight, and transparency**. It details the creation of an AI Ethics Subcommittee under an AI Executive Steering Committee, demonstrating strong **governance** and **oversight** mechanisms for AI design, development, and deployment. The document also highlights a commitment to applying ethics and training to AI processes, and mentions \"equitable\" considerations, supporting **fairness**, while compensation valuation methods indicate **transparency**.",
+          "title": "2024 Definitive Proxy Statement",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/annual-reports/2024-proxy-statement.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Cyber and AI Oversight Disclosures: What Companies Shared in 2025,\" provides evidence for **governance, oversight, transparency, and fairness**. The report highlights increased corporate disclosure of AI risk in board oversight and as a 10-K risk factor, demonstrating enhanced **governance** and **oversight** mechanisms. It also points to the establishment of AI information sharing structures and sandboxes for AI tool testing, supporting **transparency** and **governance**, and mentions rules requiring the removal of conflicts of interest when using AI, which addresses **fairness**.",
+          "title": "Cyber and AI Oversight Disclosures: What Companies Shared in 2025",
+          "url": "https://corpgov.law.harvard.edu/2025/10/28/cyber-and-ai-oversight-disclosures-what-companies-shared-in-2025"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "The company documents its privacy practices by mentioning AI in the context of privacy and intellectual property, and by outlining safeguards for sensitive data and the protection of sensitive information. It also states a commitment to high standards of security for AI solutions. Furthermore, the company highlights strict data governance with access controls, references compliance with executive orders for trustworthy AI, and mentions data isolation and retention policies.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"2025 Sustainability Management Plan and Goals,\" provides evidence for **governance**, **fairness**, and **privacy**. It supports governance by detailing the structure and operations of an AI Ethics Subcommittee and an AI Executive Steering Committee, including their meeting cadence and reporting mechanisms. The policy also demonstrates a commitment to fairness and privacy by mentioning the training of AI developers on ethical principles and referencing AI in the context of privacy and intellectual property.",
+          "title": "2025 Sustainability Management Plan and Goals",
+          "url": "https://sustainability.lockheedmartin.com/sustainability/priorities-and-strategy/2025-sustainability-management-plan-and-goals"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"2025 Ethics Awareness Training Leaders Guide,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by discussing AI ethics, policies, operational oversight, and referencing specific compliance requirements like CPS-022 for ethical AI development and use. The document also supports privacy by mentioning safeguards for sensitive data and the protection of sensitive information.",
+          "title": "2025 Ethics Awareness Training Leaders Guide",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/ethics/2025-EAT-Leaders-Guide.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing MLOps model governance and defense-grade security for AI systems, and by highlighting the operational integration of third-party AI models. Evidence for privacy and transparency is found in the company's commitment to high standards of security, ethics, and integrity for AI solutions, framing these as realized innovations.",
+          "title": "Astris AI: Bringing Lockheed Martin's Trusted Innovation to New Industries",
+          "url": "https://lockheedmartin.com/en-us/news/features/2025/astris-ai-lockheed-martin-trusted-innovation-new-ndustries.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Lockheed Martin AI Factory - NVIDIA Customer Story,\" provides evidence for **governance**, **transparency**, **privacy**, and **external accountability**. The document details an AI factory infrastructure that emphasizes structured AI development and deployment through MLOps platforms, codifying best practices, and centralizing tools. This approach supports governance and transparency by ensuring repeatable, automated capabilities and adherence to ethical principles. Furthermore, the paper highlights strict data governance with access controls and compliance with executive orders for trustworthy AI, directly supporting the privacy and external accountability pillars.",
+          "title": "Lockheed Martin AI Factory - NVIDIA Customer Story",
+          "url": "https://nvidia.com/en-us/customer-stories/lockheed-martin-ai-factory-with-dgx-superpod"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This technical paper on Lockheed Martin's data versioning practices provides evidence for **governance**, **transparency**, **external_accountability**, and **privacy**. It details mechanisms for complete model lineage tracking, experiment reproducibility, and immutable versioning, which support **governance** and **transparency** by enabling traceability and validation. The paper also describes audit trails for chain of custody and compliance with federal AI standards, bolstering **external_accountability**, and mentions data isolation and retention policies, contributing to **privacy**.",
+          "title": "Data Versioning: Turning AI-ish Stacks into a Real AI Factory",
+          "url": "https://lakefs.io/blog/data-versioning-ai-factory"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 54,
+      "findings": "The company documents its commitment to transparency through various practices, including model monitoring for traceability and reliability within its AI Factory MLOps platform, and adherence to DoD AI Ethical Principles. It also outlines structured AI development and deployment via MLOps platforms, detailing mechanisms for model lineage tracking, experiment reproducibility, and audit trails. Furthermore, the company references the use of specific AI tools, the deployment of open-source AI models, and the establishment of AI information sharing structures and sandboxes for testing.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This corporate capabilities help page, \"Artificial Intelligence and Machine Learning Capabilities,\" provides evidence for **governance**, **transparency**, and **explainability**. The document details the establishment of an Artificial Intelligence Ethics Advisory Committee, demonstrating a commitment to governance and explainability. Furthermore, it highlights the AI Factory MLOps platform with model monitoring for traceability and reliability, and the adoption of DoD AI Ethical Principles, which collectively support transparency and explainability by ensuring repeatable processes and adherence to ethical guidelines.",
+          "title": "Artificial Intelligence and Machine Learning Capabilities",
+          "url": "https://lockheedmartin.com/en-us/capabilities/artificial-intelligence-machine-learning.html"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"2025 Definitive Proxy Statement\" provides evidence for **governance, oversight, and transparency** in responsible AI. This board governance document details the AI Ethics Subcommittee's oversight structure, board-level engagement with AI governance and risk management, and quarterly reporting to leadership on AI ethics matters, demonstrating a commitment to structured AI deployment and review. The document also highlights the evaluation of AI as a risk focus area and mentions the demonstration of autonomous system capabilities, contributing to transparency.",
+          "title": "2025 Definitive Proxy Statement",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/annual-reports/2025-proxy-statement.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing MLOps model governance and defense-grade security for AI systems, and by highlighting the operational integration of third-party AI models. Evidence for privacy and transparency is found in the company's commitment to high standards of security, ethics, and integrity for AI solutions, framing these as realized innovations.",
+          "title": "Astris AI: Bringing Lockheed Martin's Trusted Innovation to New Industries",
+          "url": "https://lockheedmartin.com/en-us/news/features/2025/astris-ai-lockheed-martin-trusted-innovation-new-ndustries.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This press release highlights a strategic partnership focused on integrating generative AI into Lockheed Martin's AI Factory, providing evidence for **governance** and **transparency**. The document emphasizes a commitment to trustworthy and secure AI deployment, including traceability and monitoring for national security applications, which directly supports the **governance** pillar by outlining a structured approach to AI implementation and oversight. Furthermore, the mention of reliable AI and high standards for security and reliability indicates a focus on **transparency** in AI operations and vendor capabilities.",
+          "title": "Lockheed Martin and Google Cloud Collaboration for Generative AI (March 2025)",
+          "url": "https://news.lockheedmartin.com/2025-03-27-Lockheed-Martin-and-Google-Cloud-Announce-Collaboration-to-Advance-Generative-AI-For-National-Security"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing provides evidence for **governance, oversight, fairness, and transparency**. The document details the establishment and functioning of AI oversight bodies, including committees and leadership roles with defined responsibilities and reporting cadences, demonstrating robust governance and oversight mechanisms. Furthermore, it highlights the development and completion of AI ethics training, including principles like \"equitable,\" supporting the fairness pillar, and mentions the use of AI tools and autonomous systems, contributing to transparency.",
+          "title": "SEC Form 10-K Filing (March 2025)",
+          "url": "https://sec.gov/Archives/edgar/data/936468/000093646825000015/lmt-20250327.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This SEC annual report filing provides evidence for **governance** and **transparency**. It supports governance by mentioning the integration of AI in a \"compliant and responsible manner\" and strategic investments in AI/ML for growth, implying a policy focus. Transparency is supported by detailing the deployment of open-source AI models and the scale of AI integration across a large developer base, offering insight into their AI ecosystem.",
+          "title": "2024 Annual Report (SEC Filing)",
+          "url": "https://sec.gov/Archives/edgar/data/936468/000093646825000020/a2024annualreportfinal.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **fairness, governance, oversight, and transparency**. It details the creation of an AI Ethics Subcommittee under an AI Executive Steering Committee, demonstrating strong **governance** and **oversight** mechanisms for AI design, development, and deployment. The document also highlights a commitment to applying ethics and training to AI processes, and mentions \"equitable\" considerations, supporting **fairness**, while compensation valuation methods indicate **transparency**.",
+          "title": "2024 Definitive Proxy Statement",
+          "url": "https://lockheedmartin.com/content/dam/lockheed-martin/eo/documents/annual-reports/2024-proxy-statement.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This recruitment help page from Lockheed Martin AI Center provides evidence for **external_accountability, fairness, governance, and transparency**. The company highlights its adoption of DoD Ethical AI Principles and commitment to embedding ethical safeguards throughout the AI lifecycle, demonstrating a focus on governance and transparency in AI development and deployment. Furthermore, it mentions a commitment to trustworthy AI model development and deployment, implying a dedication to fairness and external accountability through ethical principles, frameworks, and certification.",
+          "title": "At the Forefront of AI Technology - Lockheed Martin AI Center",
+          "url": "https://lockheedmartin.com/en-us/careers/campaigns/2025/laic.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Lockheed Martin AI Factory - NVIDIA Customer Story,\" provides evidence for **governance**, **transparency**, **privacy**, and **external accountability**. The document details an AI factory infrastructure that emphasizes structured AI development and deployment through MLOps platforms, codifying best practices, and centralizing tools. This approach supports governance and transparency by ensuring repeatable, automated capabilities and adherence to ethical principles. Furthermore, the paper highlights strict data governance with access controls and compliance with executive orders for trustworthy AI, directly supporting the privacy and external accountability pillars.",
+          "title": "Lockheed Martin AI Factory - NVIDIA Customer Story",
+          "url": "https://nvidia.com/en-us/customer-stories/lockheed-martin-ai-factory-with-dgx-superpod"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This technical paper on Lockheed Martin's data versioning practices provides evidence for **governance**, **transparency**, **external_accountability**, and **privacy**. It details mechanisms for complete model lineage tracking, experiment reproducibility, and immutable versioning, which support **governance** and **transparency** by enabling traceability and validation. The paper also describes audit trails for chain of custody and compliance with federal AI standards, bolstering **external_accountability**, and mentions data isolation and retention policies, contributing to **privacy**.",
+          "title": "Data Versioning: Turning AI-ish Stacks into a Real AI Factory",
+          "url": "https://lakefs.io/blog/data-versioning-ai-factory"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This technical paper by Lockheed Martin details their approach to AI implementation in the DoD marketspace, providing evidence for **governance** and **transparency**. The paper highlights a strategic focus on specific use cases and a framework for managing AI deployment, indicating a structured approach to governance. Furthermore, the emphasis on AI working \"reliably, responsibly, and ethically\" suggests a commitment to transparency in application and adherence to responsible AI principles.",
+          "title": "Lockheed Martin Details Challenges Implementing AI in DOD Marketspace",
+          "url": "https://aerospaceamerica.aiaa.org/institute/lockheed-martin-details-challenges-implementing-ai-in-the-dod-marketspace"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **governance**, **transparency**, **fairness**, and **explainability**. The document details Lockheed Martin's \"AI Factory\" and \"LAIC\" initiatives, which establish structured processes for AI development, deployment, and adherence to DoD standards, demonstrating strong governance. Transparency is evident through the mention of specific AI tools like LMText Navigator and the use of LLMs, as well as the industrialization of AI development. The paper also acknowledges challenges like bias and lack of explainability, directly supporting the fairness and explainability pillars, and highlights investments in explainability companies as part of their governance strategy.",
+          "title": "Lockheed Martin's AI Strategy: Analysis of Dominance in Aerospace Defense",
+          "url": "https://klover.ai/lockheed-martin-ai-strategy-analysis-of-dominance-in-aerospace-defense"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Cyber and AI Oversight Disclosures: What Companies Shared in 2025,\" provides evidence for **governance, oversight, transparency, and fairness**. The report highlights increased corporate disclosure of AI risk in board oversight and as a 10-K risk factor, demonstrating enhanced **governance** and **oversight** mechanisms. It also points to the establishment of AI information sharing structures and sandboxes for AI tool testing, supporting **transparency** and **governance**, and mentions rules requiring the removal of conflicts of interest when using AI, which addresses **fairness**.",
+          "title": "Cyber and AI Oversight Disclosures: What Companies Shared in 2025",
+          "url": "https://corpgov.law.harvard.edu/2025/10/28/cyber-and-ai-oversight-disclosures-what-companies-shared-in-2025"
+        }
+      ],
+      "score": 2,
+      "source_count": 13
+    }
+  },
+  "published_at": "2026-02-23T21:54:11Z",
+  "run_id": "20260202_232322_13a5",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Lockheed Martin's published materials demonstrate operational practices for governance, including the establishment of Five Ethical AI Principles, and for fairness, with disclosures highlighting the development of AI ethics training that includes equitable principles. All 7 evaluated responsible AI pillars have documented public evidence, with transparency practices describing an AI Factory MLOps platform for model monitoring and traceability. Additionally, privacy and external accountability are addressed at the policy level, with privacy documentation mentioning AI in the context of privacy and intellectual property. This assessment draws on 24 publicly available sources.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 171,
+    "total_sources_used": 19
+  }
+}

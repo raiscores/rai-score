@@ -1,0 +1,332 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "HCA Healthcare",
+  "company_slug": "hca-healthcare",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 14,
+      "POLICY": 43
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 12,
+      "findings": "A policy requires periodic audits, vendor compliance, and reporting of anomalies, demonstrating mechanisms for external accountability. SEC filings reference FDA regulation of AI-driven Clinical Decision Support (CDS) and evolving legal frameworks for AI. These filings also describe transparency requirements for AI in healthcare decisions, CMS restrictions on AI use, and risk disclosures for algorithmic decision-making.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document establishes a comprehensive Responsible AI governance framework, providing evidence for **governance**, **fairness**, **privacy**, **transparency**, and **external accountability**. It details the structure of a Responsible AI Governance Council, mandates risk-tiered assessments for AI use cases and data, and prohibits deceptive AI practices, supporting **governance**, **fairness**, and **transparency**. Furthermore, the policy requires periodic audits, vendor compliance, and reporting of anomalies, demonstrating mechanisms for **external accountability** and ongoing **fairness** monitoring.",
+          "title": "Responsible AI Policy (EC.031)",
+          "url": "https://hcahealthcare.com/util/forms/ethics/policies/ethics-and-compliance/EC031-a.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "The 2024 Form 10-K, an annual SEC filing, provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The document discusses FDA regulation of AI-driven CDS and evolving legal frameworks for AI, supporting **external_accountability**. It highlights potential negative impacts from AI biases and errors on patient care, indicating a need for **fairness**. The filing details AI governance implementation, including the Audit and Compliance Committee's periodic review of AI-related security programs and risk management delegation, demonstrating **governance** and **oversight**. Furthermore, it addresses risks to confidential information from AI models, supporting the **privacy** pillar, and mentions AI transparency requirements and AI use, contributing to **transparency**.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000095017025020134/hca-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This 2023 Form 10-K, an annual SEC filing, provides evidence for **external accountability**, **governance**, and **transparency**. The document details transparency requirements for AI in healthcare decisions, CMS restrictions on AI use for Medicare Advantage terminations, and risk disclosures for algorithmic decision-making, all of which highlight the need for external accountability and transparency. Furthermore, it references finalized and proposed regulations concerning AI/algorithms, indicating governance and policy considerations for their development and use in sensitive areas.",
+          "title": "2023 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000095017024016524/hca-20231231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 8,
+      "findings": "Policy documents mandate risk-tiered assessments for AI use cases and data, prohibit deceptive AI practices, and require periodic audits for ongoing fairness monitoring. A proxy statement mentions principles for AI use covering fairness, while an SEC filing references potential negative impacts from AI biases and errors on patient care.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document establishes a comprehensive Responsible AI governance framework, providing evidence for **governance**, **fairness**, **privacy**, **transparency**, and **external accountability**. It details the structure of a Responsible AI Governance Council, mandates risk-tiered assessments for AI use cases and data, and prohibits deceptive AI practices, supporting **governance**, **fairness**, and **transparency**. Furthermore, the policy requires periodic audits, vendor compliance, and reporting of anomalies, demonstrating mechanisms for **external accountability** and ongoing **fairness** monitoring.",
+          "title": "Responsible AI Policy (EC.031)",
+          "url": "https://hcahealthcare.com/util/forms/ethics/policies/ethics-and-compliance/EC031-a.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the Responsible AI pillars of fairness, governance, oversight, privacy, and transparency. The document details HCA Healthcare's Responsible AI program, including a cross-functional Governance Council that oversees ethical considerations and risk management, supporting governance and oversight. Furthermore, the statement mentions principles for AI use covering transparency and fairness, and safeguards for privacy, particularly concerning generative AI, directly supporting these pillars.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000119312525054832/d880090ddef14a.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "The 2024 Form 10-K, an annual SEC filing, provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The document discusses FDA regulation of AI-driven CDS and evolving legal frameworks for AI, supporting **external_accountability**. It highlights potential negative impacts from AI biases and errors on patient care, indicating a need for **fairness**. The filing details AI governance implementation, including the Audit and Compliance Committee's periodic review of AI-related security programs and risk management delegation, demonstrating **governance** and **oversight**. Furthermore, it addresses risks to confidential information from AI models, supporting the **privacy** pillar, and mentions AI transparency requirements and AI use, contributing to **transparency**.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000095017025020134/hca-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 50,
+      "findings": "Policy documents describe the structure of a Responsible AI Governance Council, mandate risk-tiered assessments for AI use cases and data, and prohibit deceptive AI practices. They also mandate author accountability, require company-specific Responsible AI training, and outline approval processes for publication. SEC filings describe AI governance implementation, including risk management delegation and references to finalized and proposed AI regulations, while a policy document outlines specific executive roles responsible for AI/ML compliance areas.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document establishes a comprehensive Responsible AI governance framework, providing evidence for **governance**, **fairness**, **privacy**, **transparency**, and **external accountability**. It details the structure of a Responsible AI Governance Council, mandates risk-tiered assessments for AI use cases and data, and prohibits deceptive AI practices, supporting **governance**, **fairness**, and **transparency**. Furthermore, the policy requires periodic audits, vendor compliance, and reporting of anomalies, demonstrating mechanisms for **external accountability** and ongoing **fairness** monitoring.",
+          "title": "Responsible AI Policy (EC.031)",
+          "url": "https://hcahealthcare.com/util/forms/ethics/policies/ethics-and-compliance/EC031-a.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Use of Generative Artificial Intelligence in Scholarly Work (COG.PUB.003),\" provides evidence for the **governance** and **transparency** pillars. It supports governance by mandating author accountability, requiring company-specific Responsible AI training, and establishing approval processes for publication, including contractual requirements for subcontractors. The policy also promotes transparency through its requirement for authors to disclose AI contributions and differentiate human versus non-human work.",
+          "title": "Responsible Use of Generative Artificial Intelligence in Scholarly Work (COG.PUB.003)",
+          "url": "https://hcahealthcare.com/util/forms/ethics/policies/clinical-operations-group/COGPUB003-a.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the Responsible AI pillars of fairness, governance, oversight, privacy, and transparency. The document details HCA Healthcare's Responsible AI program, including a cross-functional Governance Council that oversees ethical considerations and risk management, supporting governance and oversight. Furthermore, the statement mentions principles for AI use covering transparency and fairness, and safeguards for privacy, particularly concerning generative AI, directly supporting these pillars.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000119312525054832/d880090ddef14a.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "The 2024 Form 10-K, an annual SEC filing, provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The document discusses FDA regulation of AI-driven CDS and evolving legal frameworks for AI, supporting **external_accountability**. It highlights potential negative impacts from AI biases and errors on patient care, indicating a need for **fairness**. The filing details AI governance implementation, including the Audit and Compliance Committee's periodic review of AI-related security programs and risk management delegation, demonstrating **governance** and **oversight**. Furthermore, it addresses risks to confidential information from AI models, supporting the **privacy** pillar, and mentions AI transparency requirements and AI use, contributing to **transparency**.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000095017025020134/hca-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This 2023 Form 10-K, an annual SEC filing, provides evidence for **external accountability**, **governance**, and **transparency**. The document details transparency requirements for AI in healthcare decisions, CMS restrictions on AI use for Medicare Advantage terminations, and risk disclosures for algorithmic decision-making, all of which highlight the need for external accountability and transparency. Furthermore, it references finalized and proposed regulations concerning AI/algorithms, indicating governance and policy considerations for their development and use in sensitive areas.",
+          "title": "2023 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000095017024016524/hca-20231231.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by detailing vendor oversight and user privacy controls for AI-driven advertising, specifically mentioning profiling and opt-out rights for automated processing. The policy also supports the privacy pillar by outlining how personal data, including sensitive medical and biometric information, is collected, used, and protected, and by addressing consumer rights related to AI-driven profiling.",
+          "title": "MyHealthONE Privacy Policy",
+          "url": "https://hcahealthcare.com/patients/myhealthone-privacy-policy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Program Structure and Responsible Executives,\" provides evidence for the **governance** pillar of responsible AI. It identifies specific executive roles, including the Chief Data Officer and SVP Care Transformation & Innovation, as responsible for AI/ML compliance areas, indicating a formal commitment to oversight and accountability for AI initiatives.",
+          "title": "Program Structure and Responsible Executives",
+          "url": "https://hcahealthcare.com/ethics-and-compliance/program-structure"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This AHA Blog post describes HCA's robust AI governance framework, providing evidence for the **governance** and **oversight** pillars. The article highlights a multidisciplinary governance structure involving various departments and a structured evaluation process for AI initiatives, demonstrating a commitment to comprehensive assessment. Furthermore, the emphasis on human augmentation and enhancing, rather than replacing, human decision-making implies a mechanism for human oversight in AI deployment.",
+          "title": "AHA Blog: HCA's Robust AI Governance Framework",
+          "url": "https://aha.org/news/blog/2025-10-16-smarter-safer-hospitals-how-hca-healthcare-using-ai-redefine-patient-safety"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "A proxy statement describes a cross-functional Governance Council that oversees ethical considerations and risk management. An SEC filing describes the Audit and Compliance Committee's periodic review of AI-related security programs and risk management delegation. A blog post describes an emphasis on human augmentation and enhancing human decision-making, referencing a mechanism for human oversight in AI deployment.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the Responsible AI pillars of fairness, governance, oversight, privacy, and transparency. The document details HCA Healthcare's Responsible AI program, including a cross-functional Governance Council that oversees ethical considerations and risk management, supporting governance and oversight. Furthermore, the statement mentions principles for AI use covering transparency and fairness, and safeguards for privacy, particularly concerning generative AI, directly supporting these pillars.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000119312525054832/d880090ddef14a.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "The 2024 Form 10-K, an annual SEC filing, provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The document discusses FDA regulation of AI-driven CDS and evolving legal frameworks for AI, supporting **external_accountability**. It highlights potential negative impacts from AI biases and errors on patient care, indicating a need for **fairness**. The filing details AI governance implementation, including the Audit and Compliance Committee's periodic review of AI-related security programs and risk management delegation, demonstrating **governance** and **oversight**. Furthermore, it addresses risks to confidential information from AI models, supporting the **privacy** pillar, and mentions AI transparency requirements and AI use, contributing to **transparency**.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000095017025020134/hca-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This AHA Blog post describes HCA's robust AI governance framework, providing evidence for the **governance** and **oversight** pillars. The article highlights a multidisciplinary governance structure involving various departments and a structured evaluation process for AI initiatives, demonstrating a commitment to comprehensive assessment. Furthermore, the emphasis on human augmentation and enhancing, rather than replacing, human decision-making implies a mechanism for human oversight in AI deployment.",
+          "title": "AHA Blog: HCA's Robust AI Governance Framework",
+          "url": "https://aha.org/news/blog/2025-10-16-smarter-safer-hospitals-how-hca-healthcare-using-ai-redefine-patient-safety"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 8,
+      "findings": "A proxy statement mentions safeguards for privacy, particularly concerning generative AI, and an SEC filing references risks to confidential information from AI models. A privacy policy outlines how personal data, including sensitive medical and biometric information, is collected, used, and protected, describing vendor oversight, user privacy controls for AI-driven advertising, and consumer rights related to AI-driven profiling.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document establishes a comprehensive Responsible AI governance framework, providing evidence for **governance**, **fairness**, **privacy**, **transparency**, and **external accountability**. It details the structure of a Responsible AI Governance Council, mandates risk-tiered assessments for AI use cases and data, and prohibits deceptive AI practices, supporting **governance**, **fairness**, and **transparency**. Furthermore, the policy requires periodic audits, vendor compliance, and reporting of anomalies, demonstrating mechanisms for **external accountability** and ongoing **fairness** monitoring.",
+          "title": "Responsible AI Policy (EC.031)",
+          "url": "https://hcahealthcare.com/util/forms/ethics/policies/ethics-and-compliance/EC031-a.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the Responsible AI pillars of fairness, governance, oversight, privacy, and transparency. The document details HCA Healthcare's Responsible AI program, including a cross-functional Governance Council that oversees ethical considerations and risk management, supporting governance and oversight. Furthermore, the statement mentions principles for AI use covering transparency and fairness, and safeguards for privacy, particularly concerning generative AI, directly supporting these pillars.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000119312525054832/d880090ddef14a.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "The 2024 Form 10-K, an annual SEC filing, provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The document discusses FDA regulation of AI-driven CDS and evolving legal frameworks for AI, supporting **external_accountability**. It highlights potential negative impacts from AI biases and errors on patient care, indicating a need for **fairness**. The filing details AI governance implementation, including the Audit and Compliance Committee's periodic review of AI-related security programs and risk management delegation, demonstrating **governance** and **oversight**. Furthermore, it addresses risks to confidential information from AI models, supporting the **privacy** pillar, and mentions AI transparency requirements and AI use, contributing to **transparency**.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000095017025020134/hca-20241231.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by detailing vendor oversight and user privacy controls for AI-driven advertising, specifically mentioning profiling and opt-out rights for automated processing. The policy also supports the privacy pillar by outlining how personal data, including sensitive medical and biometric information, is collected, used, and protected, and by addressing consumer rights related to AI-driven profiling.",
+          "title": "MyHealthONE Privacy Policy",
+          "url": "https://hcahealthcare.com/patients/myhealthone-privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 15,
+      "findings": "Policy documents outline requirements for transparency, including prohibiting deceptive AI practices and mandating disclosure of AI contributions in scholarly work. SEC filings reference transparency requirements for AI use, particularly in healthcare decisions, and describe risk disclosures for algorithmic decision-making.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document establishes a comprehensive Responsible AI governance framework, providing evidence for **governance**, **fairness**, **privacy**, **transparency**, and **external accountability**. It details the structure of a Responsible AI Governance Council, mandates risk-tiered assessments for AI use cases and data, and prohibits deceptive AI practices, supporting **governance**, **fairness**, and **transparency**. Furthermore, the policy requires periodic audits, vendor compliance, and reporting of anomalies, demonstrating mechanisms for **external accountability** and ongoing **fairness** monitoring.",
+          "title": "Responsible AI Policy (EC.031)",
+          "url": "https://hcahealthcare.com/util/forms/ethics/policies/ethics-and-compliance/EC031-a.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Use of Generative Artificial Intelligence in Scholarly Work (COG.PUB.003),\" provides evidence for the **governance** and **transparency** pillars. It supports governance by mandating author accountability, requiring company-specific Responsible AI training, and establishing approval processes for publication, including contractual requirements for subcontractors. The policy also promotes transparency through its requirement for authors to disclose AI contributions and differentiate human versus non-human work.",
+          "title": "Responsible Use of Generative Artificial Intelligence in Scholarly Work (COG.PUB.003)",
+          "url": "https://hcahealthcare.com/util/forms/ethics/policies/clinical-operations-group/COGPUB003-a.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the Responsible AI pillars of fairness, governance, oversight, privacy, and transparency. The document details HCA Healthcare's Responsible AI program, including a cross-functional Governance Council that oversees ethical considerations and risk management, supporting governance and oversight. Furthermore, the statement mentions principles for AI use covering transparency and fairness, and safeguards for privacy, particularly concerning generative AI, directly supporting these pillars.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000119312525054832/d880090ddef14a.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "The 2024 Form 10-K, an annual SEC filing, provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. The document discusses FDA regulation of AI-driven CDS and evolving legal frameworks for AI, supporting **external_accountability**. It highlights potential negative impacts from AI biases and errors on patient care, indicating a need for **fairness**. The filing details AI governance implementation, including the Audit and Compliance Committee's periodic review of AI-related security programs and risk management delegation, demonstrating **governance** and **oversight**. Furthermore, it addresses risks to confidential information from AI models, supporting the **privacy** pillar, and mentions AI transparency requirements and AI use, contributing to **transparency**.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000095017025020134/hca-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This 2023 Form 10-K, an annual SEC filing, provides evidence for **external accountability**, **governance**, and **transparency**. The document details transparency requirements for AI in healthcare decisions, CMS restrictions on AI use for Medicare Advantage terminations, and risk disclosures for algorithmic decision-making, all of which highlight the need for external accountability and transparency. Furthermore, it references finalized and proposed regulations concerning AI/algorithms, indicating governance and policy considerations for their development and use in sensitive areas.",
+          "title": "2023 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/860730/000095017024016524/hca-20231231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:52:04Z",
+  "run_id": "20260202_211319_f3f1",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Based on 20 publicly available sources, HCA Healthcare's published materials address 6 of 7 evaluated responsible AI pillars. Operational practices include a cross-functional Governance Council overseeing ethical considerations and references to FDA regulation of AI-driven Clinical Decision Support. Policies also describe the structure of a Responsible AI Governance Council and mandate risk-tiered assessments for AI use cases and data. Furthermore, policies prohibit deceptive AI practices and require periodic audits, vendor compliance, and reporting of anomalies, addressing fairness, transparency, and external accountability; privacy is also covered at the policy level, with mentions of safeguards for generative AI. No qualifying public evidence was found for explainability.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 59,
+    "total_sources_used": 8
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "Johnson & Johnson",
+  "company_slug": "johnson-johnson",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 7,
+      "OPERATIONAL": 1,
+      "POLICY": 37
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Policy documents describe core AI principles related to explainability. Technical papers state that AI systems must be aligned with human judgment.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Doing the Right Thing: AI & Ethics,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by articulating core AI principles, committing to human expert involvement and continuous monitoring, and establishing policy-level controls for proactive bias identification, correction, and mitigation throughout the AI lifecycle. The policy also emphasizes accountability, quality assurance, and safe AI deployment, aligning with the organization's Credo values.",
+          "title": "Doing the Right Thing: AI & Ethics",
+          "url": "https://jnj.com/policies-reports/doing-the-right-thing-artificial-intelligence-and-ethics"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at Johnson & Johnson: Case Studies and Applications,\" provides evidence for **governance**, **transparency**, and **explainability**. The paper describes J&J's operational AI systems, including supply chain ML and surgical outcome AI, demonstrating transparency through the documentation of data feeding into ML applications and the use of AI for predictions and analytical reports. Furthermore, it implies governance through mentions of frameworks and guides for AI application and partnerships for infrastructure, and touches upon explainability by stating AI systems must be aligned with human judgment.",
+          "title": "Artificial Intelligence at Johnson & Johnson: Case Studies and Applications",
+          "url": "https://emerj.com/artificial-intelligence-at-johnson-and-johnson"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Enforcement actions document external accountability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This enforcement action, detailing the settlement of a class action lawsuit against Johnson & Johnson's Neutrogena Skin360 app, provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The lawsuit's allegations of Illinois BIPA violations due to the collection of facial biometric data without informed consent directly highlight the need for **external_accountability** and robust **privacy** practices. The mention of an AI facial analysis system and its use for recommendations and verification implies the necessity of **governance** in deploying such technologies and **transparency** regarding their data collection and analytical capabilities.",
+          "title": "Johnson & Johnson Settles Neutrogena Skin360 Biometric Privacy Lawsuit",
+          "url": "https://idtechwire.com/johnson-johnson-settles-neutrogena-skin360-biometric-privacy-lawsuit"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 8,
+      "findings": "Johnson & Johnson's policy documents describe core AI principles and outline policy-level controls for proactive bias identification, correction, and mitigation throughout the AI lifecycle. These documents reference human expert involvement and continuous monitoring, and specify review of Generative AI outputs for inaccuracy and bias. Reports reference avoiding potential biases and related training initiatives, while SEC filings describe standards for fairness in relation to AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Doing the Right Thing: AI & Ethics,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by articulating core AI principles, committing to human expert involvement and continuous monitoring, and establishing policy-level controls for proactive bias identification, correction, and mitigation throughout the AI lifecycle. The policy also emphasizes accountability, quality assurance, and safe AI deployment, aligning with the organization's Credo values.",
+          "title": "Doing the Right Thing: AI & Ethics",
+          "url": "https://jnj.com/policies-reports/doing-the-right-thing-artificial-intelligence-and-ethics"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Code of Business Conduct: Guidelines on Responsible Use of Generative AI,\" provides evidence for **governance**, **transparency**, and **fairness**. It mandates transparent reporting of all business GenAI use, establishing a governance mechanism for oversight. Furthermore, the policy requires review of GenAI outputs for inaccuracy and bias, directly supporting the fairness pillar, and its emphasis on reporting and review processes underpins the transparency pillar.",
+          "title": "Code of Business Conduct: Guidelines on Responsible Use of Generative AI",
+          "url": "https://jnj.com/sites/default/files/pdf/code-of-business-conduct-english-us.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The \"Johnson & Johnson 2024 Health for Humanity Report\" provides evidence for **governance, transparency, and fairness**. The report details J&J's formal Responsible AI section, including employee guidance on GenAI use and an AI & ethics paper, demonstrating a documented AI governance policy. Transparency is supported by mentions of AI tools for continuous improvement and references to AI use in innovation, while fairness is addressed through explicit mentions of avoiding potential biases and related training initiatives.",
+          "title": "Johnson & Johnson 2024 Health for Humanity Report",
+          "url": "https://healthforhumanityreport.jnj.com/2024/_assets/downloads/johnson-johnson-2024-health-for-humanity-report.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "The Johnson & Johnson Form 10-K (2024) SEC filing provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The filing discusses standards for transparency, accountability, and fairness in relation to AI, indicating a policy commitment to these areas. It also addresses potential risks associated with AI/ML technologies and their link to data privacy and security, implying a need for robust governance and privacy controls.",
+          "title": "Johnson & Johnson Form 10-K (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 29,
+      "findings": "Johnson & Johnson's policy documents describe core AI principles, reference human expert involvement and continuous monitoring, and outline policy-level controls for bias mitigation and safe AI deployment, also outlining a governance mechanism for oversight. Reports describe a formal Responsible AI section, reference employee guidance, and document an AI governance policy, while press releases describe the establishment of a governance framework for AI development. Warning letters describe failures in validating corrective actions for software and ongoing validation efforts, documenting a policy-level commitment to ensuring system governance.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Doing the Right Thing: AI & Ethics,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by articulating core AI principles, committing to human expert involvement and continuous monitoring, and establishing policy-level controls for proactive bias identification, correction, and mitigation throughout the AI lifecycle. The policy also emphasizes accountability, quality assurance, and safe AI deployment, aligning with the organization's Credo values.",
+          "title": "Doing the Right Thing: AI & Ethics",
+          "url": "https://jnj.com/policies-reports/doing-the-right-thing-artificial-intelligence-and-ethics"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Code of Business Conduct: Guidelines on Responsible Use of Generative AI,\" provides evidence for **governance**, **transparency**, and **fairness**. It mandates transparent reporting of all business GenAI use, establishing a governance mechanism for oversight. Furthermore, the policy requires review of GenAI outputs for inaccuracy and bias, directly supporting the fairness pillar, and its emphasis on reporting and review processes underpins the transparency pillar.",
+          "title": "Code of Business Conduct: Guidelines on Responsible Use of Generative AI",
+          "url": "https://jnj.com/sites/default/files/pdf/code-of-business-conduct-english-us.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The \"Johnson & Johnson 2024 Health for Humanity Report\" provides evidence for **governance, transparency, and fairness**. The report details J&J's formal Responsible AI section, including employee guidance on GenAI use and an AI & ethics paper, demonstrating a documented AI governance policy. Transparency is supported by mentions of AI tools for continuous improvement and references to AI use in innovation, while fairness is addressed through explicit mentions of avoiding potential biases and related training initiatives.",
+          "title": "Johnson & Johnson 2024 Health for Humanity Report",
+          "url": "https://healthforhumanityreport.jnj.com/2024/_assets/downloads/johnson-johnson-2024-health-for-humanity-report.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The \"Johnson & Johnson R&D Data Science Collaborations\" help page provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports **transparency** by detailing AI tools, AI-based capabilities, AI technology solutions, use-cases, AI and computer vision applications, AI startups, algorithms, and AI-enabled diagnostics. Furthermore, the description of external data partnerships and collaborations implies vendor oversight, which supports the **governance** pillar.",
+          "title": "Johnson & Johnson R&D Data Science Collaborations",
+          "url": "https://jnj.com/innovativemedicine/data-science-digital-health/r-d-data-science-collaborations"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "The Johnson & Johnson Form 10-K (2024) SEC filing provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The filing discusses standards for transparency, accountability, and fairness in relation to AI, indicating a policy commitment to these areas. It also addresses potential risks associated with AI/ML technologies and their link to data privacy and security, implying a need for robust governance and privacy controls.",
+          "title": "Johnson & Johnson Form 10-K (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release from Johnson & Johnson announces their Polyphonic AI Fund, which aims to accelerate AI innovation in surgery. The announcement provides evidence for **governance** by highlighting the establishment of a \"governance framework\" for AI development and explicitly mentioning \"AI governance\" and \"responsibly governed\" practices. It also supports the **privacy** pillar by addressing \"data privacy\" in the context of AI-based solutions and the automation of surgical data enrichment.",
+          "title": "Johnson & Johnson Launches Polyphonic AI Fund for Surgery",
+          "url": "https://jnj.com/media-center/press-releases/johnson-johnson-launches-thepolyphonictm-ai-fund-for-surgery-to-advance-data-driven-healthcare"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at Johnson & Johnson: Case Studies and Applications,\" provides evidence for **governance**, **transparency**, and **explainability**. The paper describes J&J's operational AI systems, including supply chain ML and surgical outcome AI, demonstrating transparency through the documentation of data feeding into ML applications and the use of AI for predictions and analytical reports. Furthermore, it implies governance through mentions of frameworks and guides for AI application and partnerships for infrastructure, and touches upon explainability by stating AI systems must be aligned with human judgment.",
+          "title": "Artificial Intelligence at Johnson & Johnson: Case Studies and Applications",
+          "url": "https://emerj.com/artificial-intelligence-at-johnson-and-johnson"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_010",
+          "source_tier": "authority",
+          "summary": "This FDA warning letter to Abiomed Inc. provides evidence for the **governance** pillar of responsible AI. The letter cites failures in validating corrective actions for software, indicating a lapse in accountability for system integrity and effectiveness. It also highlights ongoing validation and performance qualification efforts, demonstrating a policy-level commitment to ensuring system governance.",
+          "title": "FDA Warning Letter to Abiomed Inc. (J&J Subsidiary)",
+          "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/abiomed-inc-663150-09192023"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This enforcement action, detailing the settlement of a class action lawsuit against Johnson & Johnson's Neutrogena Skin360 app, provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The lawsuit's allegations of Illinois BIPA violations due to the collection of facial biometric data without informed consent directly highlight the need for **external_accountability** and robust **privacy** practices. The mention of an AI facial analysis system and its use for recommendations and verification implies the necessity of **governance** in deploying such technologies and **transparency** regarding their data collection and analytical capabilities.",
+          "title": "Johnson & Johnson Settles Neutrogena Skin360 Biometric Privacy Lawsuit",
+          "url": "https://idtechwire.com/johnson-johnson-settles-neutrogena-skin360-biometric-privacy-lawsuit"
+        }
+      ],
+      "score": 2,
+      "source_count": 9
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "Policy documents describe core AI principles related to oversight. These documents reference human expert involvement and continuous monitoring.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Doing the Right Thing: AI & Ethics,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by articulating core AI principles, committing to human expert involvement and continuous monitoring, and establishing policy-level controls for proactive bias identification, correction, and mitigation throughout the AI lifecycle. The policy also emphasizes accountability, quality assurance, and safe AI deployment, aligning with the organization's Credo values.",
+          "title": "Doing the Right Thing: AI & Ethics",
+          "url": "https://jnj.com/policies-reports/doing-the-right-thing-artificial-intelligence-and-ethics"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "Policy documents describe core AI principles related to privacy. SEC filings describe standards for privacy in relation to AI. Press releases describe data privacy in the context of AI-based solutions and the automation of surgical data enrichment, while enforcement actions reference the necessity of privacy regarding data collection of AI facial analysis systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Doing the Right Thing: AI & Ethics,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by articulating core AI principles, committing to human expert involvement and continuous monitoring, and establishing policy-level controls for proactive bias identification, correction, and mitigation throughout the AI lifecycle. The policy also emphasizes accountability, quality assurance, and safe AI deployment, aligning with the organization's Credo values.",
+          "title": "Doing the Right Thing: AI & Ethics",
+          "url": "https://jnj.com/policies-reports/doing-the-right-thing-artificial-intelligence-and-ethics"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "The Johnson & Johnson Form 10-K (2024) SEC filing provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The filing discusses standards for transparency, accountability, and fairness in relation to AI, indicating a policy commitment to these areas. It also addresses potential risks associated with AI/ML technologies and their link to data privacy and security, implying a need for robust governance and privacy controls.",
+          "title": "Johnson & Johnson Form 10-K (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release from Johnson & Johnson announces their Polyphonic AI Fund, which aims to accelerate AI innovation in surgery. The announcement provides evidence for **governance** by highlighting the establishment of a \"governance framework\" for AI development and explicitly mentioning \"AI governance\" and \"responsibly governed\" practices. It also supports the **privacy** pillar by addressing \"data privacy\" in the context of AI-based solutions and the automation of surgical data enrichment.",
+          "title": "Johnson & Johnson Launches Polyphonic AI Fund for Surgery",
+          "url": "https://jnj.com/media-center/press-releases/johnson-johnson-launches-thepolyphonictm-ai-fund-for-surgery-to-advance-data-driven-healthcare"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This enforcement action, detailing the settlement of a class action lawsuit against Johnson & Johnson's Neutrogena Skin360 app, provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The lawsuit's allegations of Illinois BIPA violations due to the collection of facial biometric data without informed consent directly highlight the need for **external_accountability** and robust **privacy** practices. The mention of an AI facial analysis system and its use for recommendations and verification implies the necessity of **governance** in deploying such technologies and **transparency** regarding their data collection and analytical capabilities.",
+          "title": "Johnson & Johnson Settles Neutrogena Skin360 Biometric Privacy Lawsuit",
+          "url": "https://idtechwire.com/johnson-johnson-settles-neutrogena-skin360-biometric-privacy-lawsuit"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 25,
+      "findings": "Johnson & Johnson's policy documents describe core AI principles and outline transparent reporting of Generative AI use, referencing reporting and review processes. Various documents describe AI tools, capabilities, solutions, use-cases, and operational systems, including data feeding into ML applications and AI for predictions. SEC filings describe transparency standards, while court rulings and enforcement actions reference transparency regarding AI software capabilities, use cases, and data collection practices.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Doing the Right Thing: AI & Ethics,\" provides evidence for explainability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by articulating core AI principles, committing to human expert involvement and continuous monitoring, and establishing policy-level controls for proactive bias identification, correction, and mitigation throughout the AI lifecycle. The policy also emphasizes accountability, quality assurance, and safe AI deployment, aligning with the organization's Credo values.",
+          "title": "Doing the Right Thing: AI & Ethics",
+          "url": "https://jnj.com/policies-reports/doing-the-right-thing-artificial-intelligence-and-ethics"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Code of Business Conduct: Guidelines on Responsible Use of Generative AI,\" provides evidence for **governance**, **transparency**, and **fairness**. It mandates transparent reporting of all business GenAI use, establishing a governance mechanism for oversight. Furthermore, the policy requires review of GenAI outputs for inaccuracy and bias, directly supporting the fairness pillar, and its emphasis on reporting and review processes underpins the transparency pillar.",
+          "title": "Code of Business Conduct: Guidelines on Responsible Use of Generative AI",
+          "url": "https://jnj.com/sites/default/files/pdf/code-of-business-conduct-english-us.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The \"Johnson & Johnson 2024 Health for Humanity Report\" provides evidence for **governance, transparency, and fairness**. The report details J&J's formal Responsible AI section, including employee guidance on GenAI use and an AI & ethics paper, demonstrating a documented AI governance policy. Transparency is supported by mentions of AI tools for continuous improvement and references to AI use in innovation, while fairness is addressed through explicit mentions of avoiding potential biases and related training initiatives.",
+          "title": "Johnson & Johnson 2024 Health for Humanity Report",
+          "url": "https://healthforhumanityreport.jnj.com/2024/_assets/downloads/johnson-johnson-2024-health-for-humanity-report.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The \"Johnson & Johnson R&D Data Science Collaborations\" help page provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports **transparency** by detailing AI tools, AI-based capabilities, AI technology solutions, use-cases, AI and computer vision applications, AI startups, algorithms, and AI-enabled diagnostics. Furthermore, the description of external data partnerships and collaborations implies vendor oversight, which supports the **governance** pillar.",
+          "title": "Johnson & Johnson R&D Data Science Collaborations",
+          "url": "https://jnj.com/innovativemedicine/data-science-digital-health/r-d-data-science-collaborations"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "The Johnson & Johnson Form 10-K (2024) SEC filing provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The filing discusses standards for transparency, accountability, and fairness in relation to AI, indicating a policy commitment to these areas. It also addresses potential risks associated with AI/ML technologies and their link to data privacy and security, implying a need for robust governance and privacy controls.",
+          "title": "Johnson & Johnson Form 10-K (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at Johnson & Johnson: Case Studies and Applications,\" provides evidence for **governance**, **transparency**, and **explainability**. The paper describes J&J's operational AI systems, including supply chain ML and surgical outcome AI, demonstrating transparency through the documentation of data feeding into ML applications and the use of AI for predictions and analytical reports. Furthermore, it implies governance through mentions of frameworks and guides for AI application and partnerships for infrastructure, and touches upon explainability by stating AI systems must be aligned with human judgment.",
+          "title": "Artificial Intelligence at Johnson & Johnson: Case Studies and Applications",
+          "url": "https://emerj.com/artificial-intelligence-at-johnson-and-johnson"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This enforcement action, detailing the settlement of a class action lawsuit against Johnson & Johnson's Neutrogena Skin360 app, provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The lawsuit's allegations of Illinois BIPA violations due to the collection of facial biometric data without informed consent directly highlight the need for **external_accountability** and robust **privacy** practices. The mention of an AI facial analysis system and its use for recommendations and verification implies the necessity of **governance** in deploying such technologies and **transparency** regarding their data collection and analytical capabilities.",
+          "title": "Johnson & Johnson Settles Neutrogena Skin360 Biometric Privacy Lawsuit",
+          "url": "https://idtechwire.com/johnson-johnson-settles-neutrogena-skin360-biometric-privacy-lawsuit"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This U.S. District Court ruling provides evidence for the **transparency** pillar of responsible AI. The court's decision highlights the AI software's capabilities and its use case, indicating transparency about the AI's function and how it interacts with user data. The ruling also references an \"AI assistant\" and its role, further demonstrating transparency regarding the AI's involvement.",
+          "title": "U.S. District Court Ruling: Neutrogena Skin360 Does Not Qualify for BIPA Healthcare Exemption",
+          "url": "https://dataprivacyandsecurityinsider.com/2025/03/johnson-johnsons-neutrogena-skin360-app-cant-escape-scrutiny-under-illinois-biometric-law"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:53:04Z",
+  "run_id": "20260202_214622_3310",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Johnson & Johnson's public disclosures demonstrate evidence at both operational and policy levels, with policy documents describing core AI principles across multiple pillars. For instance, transparency policy documents outline transparent reporting of all business Generative AI use, while governance materials reference human expert involvement and continuous monitoring. Beyond these, policy documents for fairness, explainability, and oversight also reference human expert involvement and continuous monitoring, with technical papers for explainability stating AI systems must be aligned with human judgment. Privacy is further supported by SEC filings describing standards for privacy in relation to AI, and external accountability is documented through enforcement actions, all drawing from 15 publicly available sources. All 7 evaluated pillars have documented public evidence.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 45,
+    "total_sources_used": 10
+  }
+}

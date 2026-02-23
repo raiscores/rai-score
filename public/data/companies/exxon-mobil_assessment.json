@@ -1,0 +1,429 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "Exxon Mobil",
+  "company_slug": "exxon-mobil",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 16,
+      "OPERATIONAL": 58,
+      "POLICY": 77
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 23,
+      "findings": "Code of Ethics documents reference audits and reviews of operations, and proxy statements describe the engagement of independent auditors. Policy documents describe mechanisms for operational execution, risk management oversight by the Audit Committee, and the use of third-party models. Furthermore, Form 10-K filings describe an annual internal audit, and SEC filings describe the engagement of third-party experts for testing and evaluation of cybersecurity practices.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "ExxonMobil's \"Code of Ethics\" charter provides evidence for **external_accountability** and **governance**. The document supports external_accountability and governance by mentioning audits and reviews of operations. It further demonstrates governance through commitments to anti-corruption standards, compliance programs, employee training on compliance topics, and a system for assessing, monitoring, and reporting risks.",
+          "title": "Code of Ethics",
+          "url": "https://corporate.exxonmobil.com/corporate-governance/code-of-ethics"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "ExxonMobil's 2025 Proxy Statement provides evidence for **governance**, **oversight**, **external accountability**, **fairness**, and **privacy**. The document details the Board's role in AI governance, including oversight of AI principles and guardrails for safety, security, fairness, and privacy. It also describes various oversight mechanisms, such as committee reviews of cybersecurity and internal controls, and the engagement of independent auditors, supporting external accountability.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0001193125-25-073986/0001193125-25-073986.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Governance & Executive Compensation - Sustainability Report,\" provides evidence for the **governance** and **external_accountability** pillars. It details board oversight of strategy, including climate and energy transition risks, and references discussions on technology opportunities and risks relevant to AI governance. The report also describes mechanisms for operational execution, risk management oversight by the Audit Committee, and the use of third-party models, all of which contribute to demonstrating governance and external accountability.",
+          "title": "Governance & Executive Compensation - Sustainability Report",
+          "url": "https://corporate.exxonmobil.com/sustainability-and-reports/governance-and-executive-compensation"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. The document details the Board and Audit Committee's oversight of cybersecurity risks, the deployment of the NIST Cybersecurity Framework for risk assessment, and third-party validation, demonstrating robust governance and oversight mechanisms. Furthermore, it highlights practices related to data integrity, access controls, and an annual internal audit, which support the privacy and external accountability pillars by ensuring data protection and independent review.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/34088/000003408825000010/xom-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, a third-party analysis of ExxonMobil's cybersecurity program, provides evidence for **external accountability, governance, and oversight**. The analysis details the company's adherence to industry standards like the NIST Cybersecurity Framework, the existence of an incident response plan, and regular reporting to senior management and the Audit Committee, demonstrating robust governance and oversight mechanisms. Furthermore, the engagement of third-party experts for testing and evaluation highlights external accountability and validation of their cybersecurity practices.",
+          "title": "Cybersecurity GRC Analysis - 2024 10-K",
+          "url": "https://board-cybersecurity.com/annual-reports/tracker/20240228-exxon-mobil-corp-cybersecurity-10k"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "Policy documents state a commitment to fairness through principles, referencing industry standards. These documents also describe data processing practices for targeted advertising and site improvement, outlining conditions for data sharing and automated decision-making, and describing mechanisms for opting out of data sharing. Additionally, proxy statements describe the Board's role in AI governance, including oversight of AI principles and guardrails for fairness.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document from ExxonMobil's sustainability page outlines their Responsible AI strategy, providing evidence for **governance, transparency, privacy, and fairness**. The document supports governance by describing AI strategy elements, a planning process for testing decisions, and a structured approach to data assessment. Evidence for transparency is found in mentions of AI capabilities, while privacy is supported by references to security and guardrails. Finally, the policy document indicates a commitment to fairness through its stated principles, referencing industry standards.",
+          "title": "Enhancing Process Safety - Artificial Intelligence",
+          "url": "https://corporate.exxonmobil.com/sustainability-and-reports/sustainability/safeguarding-people/enhancing-process-safety"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "ExxonMobil's \"Global Privacy Policy and Statement\" provides evidence for fairness, governance, oversight, privacy, and transparency. This policy document supports these pillars by disclosing data processing practices for targeted advertising and site improvement, outlining conditions for data sharing and automated decision-making, and detailing mechanisms for opting out of data sharing, all of which demonstrate a commitment to lawful data collection and safeguarding individual rights.",
+          "title": "Global Privacy Policy and Statement",
+          "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "ExxonMobil's 2025 Proxy Statement provides evidence for **governance**, **oversight**, **external accountability**, **fairness**, and **privacy**. The document details the Board's role in AI governance, including oversight of AI principles and guardrails for safety, security, fairness, and privacy. It also describes various oversight mechanisms, such as committee reviews of cybersecurity and internal controls, and the engagement of independent auditors, supporting external accountability.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0001193125-25-073986/0001193125-25-073986.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 129,
+      "findings": "Policy documents describe AI strategy elements, a planning process for testing decisions, and a structured approach to data assessment, alongside commitments to data protection standards and defining conditions for automated decision-making. The Board's role in AI governance, including oversight of AI principles and guardrails, is described in proxy statements, while technical papers outline strategic decision-making for AI development, data governance, and the strategic direction for AI initiatives. Blog posts also describe data governance strategy and reference safeguards for emerging AI technologies.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document from ExxonMobil's sustainability page outlines their Responsible AI strategy, providing evidence for **governance, transparency, privacy, and fairness**. The document supports governance by describing AI strategy elements, a planning process for testing decisions, and a structured approach to data assessment. Evidence for transparency is found in mentions of AI capabilities, while privacy is supported by references to security and guardrails. Finally, the policy document indicates a commitment to fairness through its stated principles, referencing industry standards.",
+          "title": "Enhancing Process Safety - Artificial Intelligence",
+          "url": "https://corporate.exxonmobil.com/sustainability-and-reports/sustainability/safeguarding-people/enhancing-process-safety"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "ExxonMobil's \"Global Privacy Policy and Statement\" provides evidence for fairness, governance, oversight, privacy, and transparency. This policy document supports these pillars by disclosing data processing practices for targeted advertising and site improvement, outlining conditions for data sharing and automated decision-making, and detailing mechanisms for opting out of data sharing, all of which demonstrate a commitment to lawful data collection and safeguarding individual rights.",
+          "title": "Global Privacy Policy and Statement",
+          "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by detailing practices around consent, data collection, retention, anonymization, and third-party data handling, as well as outlining safeguards for automated decision-making. The document also supports governance by stating commitments to data protection standards like Binding Corporate Rules and defining conditions for using automated decision-making, reflecting policy adherence to regulatory requirements.",
+          "title": "Privacy Statement - EEA/UK Version",
+          "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_uk-english"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "ExxonMobil's \"Code of Ethics\" charter provides evidence for **external_accountability** and **governance**. The document supports external_accountability and governance by mentioning audits and reviews of operations. It further demonstrates governance through commitments to anti-corruption standards, compliance programs, employee training on compliance topics, and a system for assessing, monitoring, and reporting risks.",
+          "title": "Code of Ethics",
+          "url": "https://corporate.exxonmobil.com/corporate-governance/code-of-ethics"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "ExxonMobil's 2025 Proxy Statement provides evidence for **governance**, **oversight**, **external accountability**, **fairness**, and **privacy**. The document details the Board's role in AI governance, including oversight of AI principles and guardrails for safety, security, fairness, and privacy. It also describes various oversight mechanisms, such as committee reviews of cybersecurity and internal controls, and the engagement of independent auditors, supporting external accountability.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0001193125-25-073986/0001193125-25-073986.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Our People and AI: Making the Magic Happen,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog highlights AI's role in operational insights for energy security and emissions reduction, and mentions a named team, \"Suchismita and her team,\" responsible for creating and leading these AI solutions, indicating established governance structures and transparency in their AI operations.",
+          "title": "Our People and AI: Making the Magic Happen",
+          "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2025/making-the-magic-happen"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This charter document, \"Corporate Governance Guidelines and Additional Policies,\" provides evidence for the **governance** pillar of responsible AI. It establishes a governance structure for technology and strategic risk management, including AI-related frameworks, and grants authority for external advisors, demonstrating accountability for expert consultation. Furthermore, it sets expectations for directors to adhere to standards and guidelines, showcasing accountability for conduct.",
+          "title": "Corporate Governance Guidelines and Additional Policies",
+          "url": "https://corporate.exxonmobil.com/corporate-governance/corporate-governance-guidelines-and-additional-policies"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Governance & Executive Compensation - Sustainability Report,\" provides evidence for the **governance** and **external_accountability** pillars. It details board oversight of strategy, including climate and energy transition risks, and references discussions on technology opportunities and risks relevant to AI governance. The report also describes mechanisms for operational execution, risk management oversight by the Audit Committee, and the use of third-party models, all of which contribute to demonstrating governance and external accountability.",
+          "title": "Governance & Executive Compensation - Sustainability Report",
+          "url": "https://corporate.exxonmobil.com/sustainability-and-reports/governance-and-executive-compensation"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. The document details the Board and Audit Committee's oversight of cybersecurity risks, the deployment of the NIST Cybersecurity Framework for risk assessment, and third-party validation, demonstrating robust governance and oversight mechanisms. Furthermore, it highlights practices related to data integrity, access controls, and an annual internal audit, which support the privacy and external accountability pillars by ensuring data protection and independent review.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/34088/000003408825000010/xom-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, a third-party analysis of ExxonMobil's cybersecurity program, provides evidence for **external accountability, governance, and oversight**. The analysis details the company's adherence to industry standards like the NIST Cybersecurity Framework, the existence of an incident response plan, and regular reporting to senior management and the Audit Committee, demonstrating robust governance and oversight mechanisms. Furthermore, the engagement of third-party experts for testing and evaluation highlights external accountability and validation of their cybersecurity practices.",
+          "title": "Cybersecurity GRC Analysis - 2024 10-K",
+          "url": "https://board-cybersecurity.com/annual-reports/tracker/20240228-exxon-mobil-corp-cybersecurity-10k"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for governance, oversight, privacy, and transparency. It supports governance by detailing ExxonMobil's strategic decision-making regarding AI development, technology choices, and partnerships, as well as their focus on data governance for AI model development. Evidence for oversight is found in the mention of \"closed-loop automation\" implying execution and monitoring. The paper supports privacy by referencing a \"Privacy Policy,\" and transparency is evidenced by descriptions of \"AI systems,\" \"AI use cases,\" and \"AI applications.\"",
+          "title": "ExxonMobil AI Strategy: Analysis of Sustained Dominance in AI",
+          "url": "https://klover.ai/exxonmobil-ai-strategy-analysis-of-sustainable-dominance-in-ai-energy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It discusses ExxonMobil's data governance strategy and mentions safeguards for emerging AI technologies like generative AI, indicating a policy approach to responsible AI deployment. The post also touches on AI capabilities and historical engagement, framing it as a narrative of ongoing AI use, which contributes to transparency regarding their AI activities.",
+          "title": "For ExxonMobil, Data Is Much More Than Just The New Oil",
+          "url": "https://forbes.com/sites/randybean/2024/04/02/for-exxonmobil-data-is-much-more-than-just-the-new-oil"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"ExxonMobil AI Initiatives for 2025: Key Projects, Strategies and Partnerships,\" provides evidence for the **governance** pillar of responsible AI. The document details ExxonMobil's strategic direction, vision, and timeline for AI initiatives, including the evolution of their partnership ecosystem and co-development plans for AI infrastructure. This demonstrates a structured approach to AI development and deployment, reflecting strategic governance.",
+          "title": "ExxonMobil AI Initiatives for 2025: Key Projects, Strategies and Partnerships",
+          "url": "https://enkiai.com/exxonmobil-ai-initiatives-for-2025-key-projects-strategies-and-partnerships"
+        }
+      ],
+      "score": 2,
+      "source_count": 13
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 19,
+      "findings": "Policy documents describe data processing practices, outline conditions for data sharing and automated decision-making, and describe mechanisms for opting out of data sharing. Proxy statements describe the Board's role in AI governance, including oversight of AI principles and guardrails, and describe various oversight mechanisms like committee reviews of cybersecurity and internal controls. Furthermore, Form 10-K filings describe practices related to data integrity, access controls, and an annual internal audit, while SEC filings describe the engagement of third-party experts for testing and evaluation, and technical papers reference \"closed-loop automation\" implying execution and monitoring.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "ExxonMobil's \"Global Privacy Policy and Statement\" provides evidence for fairness, governance, oversight, privacy, and transparency. This policy document supports these pillars by disclosing data processing practices for targeted advertising and site improvement, outlining conditions for data sharing and automated decision-making, and detailing mechanisms for opting out of data sharing, all of which demonstrate a commitment to lawful data collection and safeguarding individual rights.",
+          "title": "Global Privacy Policy and Statement",
+          "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "ExxonMobil's 2025 Proxy Statement provides evidence for **governance**, **oversight**, **external accountability**, **fairness**, and **privacy**. The document details the Board's role in AI governance, including oversight of AI principles and guardrails for safety, security, fairness, and privacy. It also describes various oversight mechanisms, such as committee reviews of cybersecurity and internal controls, and the engagement of independent auditors, supporting external accountability.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0001193125-25-073986/0001193125-25-073986.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. The document details the Board and Audit Committee's oversight of cybersecurity risks, the deployment of the NIST Cybersecurity Framework for risk assessment, and third-party validation, demonstrating robust governance and oversight mechanisms. Furthermore, it highlights practices related to data integrity, access controls, and an annual internal audit, which support the privacy and external accountability pillars by ensuring data protection and independent review.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/34088/000003408825000010/xom-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, a third-party analysis of ExxonMobil's cybersecurity program, provides evidence for **external accountability, governance, and oversight**. The analysis details the company's adherence to industry standards like the NIST Cybersecurity Framework, the existence of an incident response plan, and regular reporting to senior management and the Audit Committee, demonstrating robust governance and oversight mechanisms. Furthermore, the engagement of third-party experts for testing and evaluation highlights external accountability and validation of their cybersecurity practices.",
+          "title": "Cybersecurity GRC Analysis - 2024 10-K",
+          "url": "https://board-cybersecurity.com/annual-reports/tracker/20240228-exxon-mobil-corp-cybersecurity-10k"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for governance, oversight, privacy, and transparency. It supports governance by detailing ExxonMobil's strategic decision-making regarding AI development, technology choices, and partnerships, as well as their focus on data governance for AI model development. Evidence for oversight is found in the mention of \"closed-loop automation\" implying execution and monitoring. The paper supports privacy by referencing a \"Privacy Policy,\" and transparency is evidenced by descriptions of \"AI systems,\" \"AI use cases,\" and \"AI applications.\"",
+          "title": "ExxonMobil AI Strategy: Analysis of Sustained Dominance in AI",
+          "url": "https://klover.ai/exxonmobil-ai-strategy-analysis-of-sustainable-dominance-in-ai-energy"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 21,
+      "findings": "Policy documents reference security and guardrails for privacy, describing data processing practices for targeted advertising and site improvement, and outlining conditions for data sharing and automated decision-making, including mechanisms for opting out of data sharing. Privacy policy documents describe practices around consent, data collection, retention, anonymization, and third-party data handling, while also outlining safeguards for automated decision-making. Proxy statements describe the Board's role in AI governance, including oversight of AI principles and guardrails for privacy, and Form 10-K filings describe practices related to data integrity and access controls. Technical papers reference a Privacy Policy, and blog posts reference safeguards for emerging AI technologies like generative AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document from ExxonMobil's sustainability page outlines their Responsible AI strategy, providing evidence for **governance, transparency, privacy, and fairness**. The document supports governance by describing AI strategy elements, a planning process for testing decisions, and a structured approach to data assessment. Evidence for transparency is found in mentions of AI capabilities, while privacy is supported by references to security and guardrails. Finally, the policy document indicates a commitment to fairness through its stated principles, referencing industry standards.",
+          "title": "Enhancing Process Safety - Artificial Intelligence",
+          "url": "https://corporate.exxonmobil.com/sustainability-and-reports/sustainability/safeguarding-people/enhancing-process-safety"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "ExxonMobil's \"Global Privacy Policy and Statement\" provides evidence for fairness, governance, oversight, privacy, and transparency. This policy document supports these pillars by disclosing data processing practices for targeted advertising and site improvement, outlining conditions for data sharing and automated decision-making, and detailing mechanisms for opting out of data sharing, all of which demonstrate a commitment to lawful data collection and safeguarding individual rights.",
+          "title": "Global Privacy Policy and Statement",
+          "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by detailing practices around consent, data collection, retention, anonymization, and third-party data handling, as well as outlining safeguards for automated decision-making. The document also supports governance by stating commitments to data protection standards like Binding Corporate Rules and defining conditions for using automated decision-making, reflecting policy adherence to regulatory requirements.",
+          "title": "Privacy Statement - EEA/UK Version",
+          "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_uk-english"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "ExxonMobil's 2025 Proxy Statement provides evidence for **governance**, **oversight**, **external accountability**, **fairness**, and **privacy**. The document details the Board's role in AI governance, including oversight of AI principles and guardrails for safety, security, fairness, and privacy. It also describes various oversight mechanisms, such as committee reviews of cybersecurity and internal controls, and the engagement of independent auditors, supporting external accountability.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0001193125-25-073986/0001193125-25-073986.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. The document details the Board and Audit Committee's oversight of cybersecurity risks, the deployment of the NIST Cybersecurity Framework for risk assessment, and third-party validation, demonstrating robust governance and oversight mechanisms. Furthermore, it highlights practices related to data integrity, access controls, and an annual internal audit, which support the privacy and external accountability pillars by ensuring data protection and independent review.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/34088/000003408825000010/xom-20241231.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for governance, oversight, privacy, and transparency. It supports governance by detailing ExxonMobil's strategic decision-making regarding AI development, technology choices, and partnerships, as well as their focus on data governance for AI model development. Evidence for oversight is found in the mention of \"closed-loop automation\" implying execution and monitoring. The paper supports privacy by referencing a \"Privacy Policy,\" and transparency is evidenced by descriptions of \"AI systems,\" \"AI use cases,\" and \"AI applications.\"",
+          "title": "ExxonMobil AI Strategy: Analysis of Sustained Dominance in AI",
+          "url": "https://klover.ai/exxonmobil-ai-strategy-analysis-of-sustainable-dominance-in-ai-energy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It discusses ExxonMobil's data governance strategy and mentions safeguards for emerging AI technologies like generative AI, indicating a policy approach to responsible AI deployment. The post also touches on AI capabilities and historical engagement, framing it as a narrative of ongoing AI use, which contributes to transparency regarding their AI activities.",
+          "title": "For ExxonMobil, Data Is Much More Than Just The New Oil",
+          "url": "https://forbes.com/sites/randybean/2024/04/02/for-exxonmobil-data-is-much-more-than-just-the-new-oil"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 24,
+      "findings": "Policy documents reference AI capabilities and describe data processing practices for targeted advertising and site improvement. These documents also outline conditions for data sharing and automated decision-making, describing mechanisms for opting out of data sharing. Furthermore, blog posts describe AI's role in operational insights and reference a named team responsible for AI solutions, while technical papers describe AI systems, use cases, and applications.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document from ExxonMobil's sustainability page outlines their Responsible AI strategy, providing evidence for **governance, transparency, privacy, and fairness**. The document supports governance by describing AI strategy elements, a planning process for testing decisions, and a structured approach to data assessment. Evidence for transparency is found in mentions of AI capabilities, while privacy is supported by references to security and guardrails. Finally, the policy document indicates a commitment to fairness through its stated principles, referencing industry standards.",
+          "title": "Enhancing Process Safety - Artificial Intelligence",
+          "url": "https://corporate.exxonmobil.com/sustainability-and-reports/sustainability/safeguarding-people/enhancing-process-safety"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "ExxonMobil's \"Global Privacy Policy and Statement\" provides evidence for fairness, governance, oversight, privacy, and transparency. This policy document supports these pillars by disclosing data processing practices for targeted advertising and site improvement, outlining conditions for data sharing and automated decision-making, and detailing mechanisms for opting out of data sharing, all of which demonstrate a commitment to lawful data collection and safeguarding individual rights.",
+          "title": "Global Privacy Policy and Statement",
+          "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Our People and AI: Making the Magic Happen,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog highlights AI's role in operational insights for energy security and emissions reduction, and mentions a named team, \"Suchismita and her team,\" responsible for creating and leading these AI solutions, indicating established governance structures and transparency in their AI operations.",
+          "title": "Our People and AI: Making the Magic Happen",
+          "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2025/making-the-magic-happen"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for governance, oversight, privacy, and transparency. It supports governance by detailing ExxonMobil's strategic decision-making regarding AI development, technology choices, and partnerships, as well as their focus on data governance for AI model development. Evidence for oversight is found in the mention of \"closed-loop automation\" implying execution and monitoring. The paper supports privacy by referencing a \"Privacy Policy,\" and transparency is evidenced by descriptions of \"AI systems,\" \"AI use cases,\" and \"AI applications.\"",
+          "title": "ExxonMobil AI Strategy: Analysis of Sustained Dominance in AI",
+          "url": "https://klover.ai/exxonmobil-ai-strategy-analysis-of-sustainable-dominance-in-ai-energy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It discusses ExxonMobil's data governance strategy and mentions safeguards for emerging AI technologies like generative AI, indicating a policy approach to responsible AI deployment. The post also touches on AI capabilities and historical engagement, framing it as a narrative of ongoing AI use, which contributes to transparency regarding their AI activities.",
+          "title": "For ExxonMobil, Data Is Much More Than Just The New Oil",
+          "url": "https://forbes.com/sites/randybean/2024/04/02/for-exxonmobil-data-is-much-more-than-just-the-new-oil"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:49:58Z",
+  "run_id": "20260124_003856_5f33",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Operational and policy-level evidence for responsible AI practices is documented in Exxon Mobil's public disclosures, covering 6 of 7 evaluated pillars. For instance, transparency policy documents reference AI capabilities, while governance materials describe AI strategy elements and a structured approach to data assessment. Additionally, external accountability is supported by Code of Ethics documents referencing audits and reviews of operations. Fairness is addressed at the policy level, with materials stating a commitment to fairness through principles and referencing industry standards. No qualifying public evidence was found for explainability, based on a review of 16 publicly available sources.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 151,
+    "total_sources_used": 13
+  }
+}

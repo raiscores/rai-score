@@ -1,0 +1,434 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "General Motors",
+  "company_slug": "general-motors",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 12,
+      "OPERATIONAL": 20,
+      "POLICY": 59
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Sources describe documented explainability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper highlights General Motors' strategic commitment to AI ethics, providing evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The paper details GM's appointment of an AI ethics lead and their focus on institutionalizing AI risk management, emphasizing transparent principles, bias detection tools, and ethical governance structures. These practices, including AI ethics charters and auditing AI copilots, demonstrate a commitment to responsible AI development and deployment.",
+          "title": "IMD Research: Why AI Ethics is Now a Competitive Advantage",
+          "url": "https://imd.org/ibyimd/artificial-intelligence/why-ai-ethics-is-now-a-competitive-advantage"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 7,
+      "findings": "General Motors' annual reports reference engagement with regulatory frameworks and settlements concerning AV technology. Reports describe regulatory actions such as a California DMV license revocation and NHTSA fines. Additionally, reports describe a regulatory fine and a third-party investigation into an autonomous vehicle incident.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "The General Motors 2024 Form 10-K Annual Report provides evidence for **governance** and **external accountability**. This SEC filing details the company's strategic decisions and organizational structure related to AI and autonomous driving development, including board oversight and approval processes for AI initiatives. It also highlights the company's engagement with regulatory frameworks and settlements concerning AV technology, demonstrating external accountability for its AI systems.",
+          "title": "General Motors 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper highlights General Motors' strategic commitment to AI ethics, providing evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The paper details GM's appointment of an AI ethics lead and their focus on institutionalizing AI risk management, emphasizing transparent principles, bias detection tools, and ethical governance structures. These practices, including AI ethics charters and auditing AI copilots, demonstrate a commitment to responsible AI development and deployment.",
+          "title": "IMD Research: Why AI Ethics is Now a Competitive Advantage",
+          "url": "https://imd.org/ibyimd/artificial-intelligence/why-ai-ethics-is-now-a-competitive-advantage"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This news report on GM halting Cruise robotaxi development provides evidence for **external accountability** by detailing regulatory actions like the California DMV license revocation and NHTSA fine, which stem from safety failures. It also supports the **governance** pillar by documenting GM's strategic decision to cease robotaxi funding and restructure operations following these incidents, reflecting a response to safety and communication failures.",
+          "title": "GM Halts Cruise Robotaxi Development",
+          "url": "https://techcrunch.com/2024/12/11/cruise-employees-blindsided-by-gms-plan-to-end-robotaxi-program"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This news report provides evidence for **external_accountability**, **governance**, and **transparency**. It supports external_accountability by detailing a regulatory fine and a third-party investigation into an autonomous vehicle incident. The report also highlights governance through GM's strategic decision to shift Cruise's focus and the investigation's findings on leadership and cultural issues. Finally, it contributes to transparency by clarifying the capabilities and limitations of the autonomous systems.",
+          "title": "GM Exits Robotaxi Market, Brings Cruise In-House",
+          "url": "https://cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 4,
+      "findings": "General Motors' policy documents reference automated processing and discrimination concerns, stating that employment application decisions are not made solely by automated means. Technical papers also reference bias detection tools.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The General Motors Careers Privacy Statement provides evidence for the **fairness**, **governance**, **oversight**, and **privacy** pillars. This policy document supports fairness and privacy by mentioning automated processing and discrimination concerns, and it addresses oversight and governance by stating that employment application decisions are not made solely by automated means. Furthermore, it touches upon privacy by detailing consent mechanisms for communication via automatic telephone dialing systems and outlining policies for processing personal information for targeted advertising.",
+          "title": "General Motors Careers - Privacy Statement",
+          "url": "https://search-careers.gm.com/en/privacy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper highlights General Motors' strategic commitment to AI ethics, providing evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The paper details GM's appointment of an AI ethics lead and their focus on institutionalizing AI risk management, emphasizing transparent principles, bias detection tools, and ethical governance structures. These practices, including AI ethics charters and auditing AI copilots, demonstrate a commitment to responsible AI development and deployment.",
+          "title": "IMD Research: Why AI Ethics is Now a Competitive Advantage",
+          "url": "https://imd.org/ibyimd/artificial-intelligence/why-ai-ethics-is-now-a-competitive-advantage"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 64,
+      "findings": "General Motors outlines its commitment to ethical AI deployment, describing a closed-loop simulation framework for stress-testing AI models and stating that employment application decisions are not made solely by automated means. The company references vendor AI tools, describes intended AI functions, and documents human review of AI logs, observation of AI behavior, and strengthening of AI limits. GM's annual reports describe strategic decisions and organizational structure for AI, including board oversight, and technical papers reference the appointment of an AI ethics lead, a Chief AI Officer, and an AI governance lawyer, alongside a focus on institutionalizing AI risk management and ethical governance structures.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"General Motors Artificial Intelligence Strategy & Deployment,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by outlining GM's commitment to ethical AI deployment. Evidence for transparency is found in the description of AI applications, including the use of intent-recognition algorithms for the OnStar Virtual Assistant and continuous learning AI for urban navigation, which implies a level of understanding and explainability in their AI systems.",
+          "title": "General Motors Artificial Intelligence Strategy & Deployment",
+          "url": "https://gm.com/company/artificial-intelligence"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance** and **transparency** in responsible AI. It details GM's closed-loop simulation framework, which involves stress-testing AI models against millions of scenarios derived from real-world data, crash databases, and academic research, demonstrating a structured approach to AI development and validation. The post also highlights the operational aspects of their autonomy stack, including multi-sensor fusion and the extensive hands-free driving miles achieved by Super Cruise, which contributes to transparency by showcasing the system's performance and safety record.",
+          "title": "GM's Path to Full Autonomy: Building Trust Step-by-Step",
+          "url": "https://news.gm.com/home.detail.html/Pages/topic/us/en/2025/oct/1009-GMs-path-full-autonomy-Building-trust-step-by-step.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The General Motors Careers Privacy Statement provides evidence for the **fairness**, **governance**, **oversight**, and **privacy** pillars. This policy document supports fairness and privacy by mentioning automated processing and discrimination concerns, and it addresses oversight and governance by stating that employment application decisions are not made solely by automated means. Furthermore, it touches upon privacy by detailing consent mechanisms for communication via automatic telephone dialing systems and outlining policies for processing personal information for targeted advertising.",
+          "title": "General Motors Careers - Privacy Statement",
+          "url": "https://search-careers.gm.com/en/privacy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This news article provides evidence for **governance** and **transparency** by detailing General Motors' use of Google's Dialogflow for their OnStar service. It highlights the system's capabilities, such as natural language understanding and distinguishing emergency language, which demonstrates transparency in AI functionality and deployment. The article also touches upon the use of vendor AI tools and future aspirations for generative AI, indicating governance over third-party AI and transparency regarding future developments.",
+          "title": "General Motors to Use Google AI Chatbot for OnStar Service",
+          "url": "https://techcrunch.com/2023/08/29/general-motors-to-use-google-ai-chatbot-for-its-onstar-service"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This third-party report on GM's use of Google AI for OnStar calls provides evidence for **governance, oversight, and transparency**. It supports these pillars by detailing the intended use of AI for specific functions, including routine inquiries and navigation, and outlining a clear escalation process for emergencies and complex requests to human specialists. The report also highlights the vendor collaboration and explicit mention of AI technologies and their capabilities, demonstrating transparency in the system's deployment.",
+          "title": "GM Uses Google AI Chatbot to Handle OnStar Calls",
+          "url": "https://theverge.com/2023/8/29/23849390/gm-google-cloud-ai-chat-bot-onstar"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "The \"Watsonville Chevrolet Dealership ChatGPT Chatbot Incident\" report provides evidence for **governance**, **oversight**, and **transparency**. It demonstrates governance and oversight through the documentation of human review of AI logs, observation of AI behavior, and subsequent strengthening of AI limits based on observed misbehavior. The report also supports transparency by detailing the deployment and use of a ChatGPT-powered chatbot on a public-facing dealer website.",
+          "title": "Watsonville Chevrolet Dealership ChatGPT Chatbot Incident",
+          "url": "https://businessinsider.com/car-dealership-chevrolet-chatbot-chatgpt-pranks-chevy-2023-12"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This official statement from Chevrolet supports the **governance**, **oversight**, and **transparency** pillars of responsible AI. It demonstrates governance by acknowledging dealer autonomy in selecting AI tools and supports oversight by emphasizing the necessity of human intelligence and analysis alongside AI-generated content, particularly in complex customer service scenarios handled by human advisors. The statement also promotes transparency by detailing GM's use of AI for customer service via chatbots and the launch of a website dedicated to AI information.",
+          "title": "GM Dealer Chatbot Exploitation and Incident Response",
+          "url": "https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "The General Motors 2024 Form 10-K Annual Report provides evidence for **governance** and **external accountability**. This SEC filing details the company's strategic decisions and organizational structure related to AI and autonomous driving development, including board oversight and approval processes for AI initiatives. It also highlights the company's engagement with regulatory frameworks and settlements concerning AV technology, demonstrating external accountability for its AI systems.",
+          "title": "General Motors 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper highlights General Motors' strategic commitment to AI ethics, providing evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The paper details GM's appointment of an AI ethics lead and their focus on institutionalizing AI risk management, emphasizing transparent principles, bias detection tools, and ethical governance structures. These practices, including AI ethics charters and auditing AI copilots, demonstrate a commitment to responsible AI development and deployment.",
+          "title": "IMD Research: Why AI Ethics is Now a Competitive Advantage",
+          "url": "https://imd.org/ibyimd/artificial-intelligence/why-ai-ethics-is-now-a-competitive-advantage"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper from IMD Business School provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing General Motors' strategic AI adoption, including the appointment of a Chief AI Officer and the hiring of an AI governance lawyer to lead legal and ethical oversight. The paper also supports transparency by describing AI applications in manufacturing and autonomous systems, implying openness about their use and development.",
+          "title": "IMD Business School - General Motors AI Maturity Profile 2025",
+          "url": "https://imd.org/entity-profile/general-motors-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This news report on GM's appointment of a Chief AI Officer provides evidence for the **governance** pillar. The establishment of this executive role, responsible for overseeing AI strategy and implementation across the company, demonstrates a clear commitment to accountability and oversight in their AI initiatives.",
+          "title": "GM Appoints Barak Turovsky as First Chief AI Officer",
+          "url": "https://cbtnews.com/gm-appoints-barak-turovsky-as-first-chief-ai-officer-to-drive-tech-innovation"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report into a Cruise autonomous vehicle incident provides evidence for **governance** and **transparency**. The report details how executives failed to fully communicate incident details to California regulators, indicating failures in governance and accountability. Furthermore, the investigation's findings regarding management's prioritization of image over transparency directly support the transparency pillar.",
+          "title": "Cruise Autonomous Vehicle Incident Investigation Report",
+          "url": "https://nytimes.com/2024/01/25/technology/cruise-crash-report-san-francisco.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This news report on GM halting Cruise robotaxi development provides evidence for **external accountability** by detailing regulatory actions like the California DMV license revocation and NHTSA fine, which stem from safety failures. It also supports the **governance** pillar by documenting GM's strategic decision to cease robotaxi funding and restructure operations following these incidents, reflecting a response to safety and communication failures.",
+          "title": "GM Halts Cruise Robotaxi Development",
+          "url": "https://techcrunch.com/2024/12/11/cruise-employees-blindsided-by-gms-plan-to-end-robotaxi-program"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This news report provides evidence for **external_accountability**, **governance**, and **transparency**. It supports external_accountability by detailing a regulatory fine and a third-party investigation into an autonomous vehicle incident. The report also highlights governance through GM's strategic decision to shift Cruise's focus and the investigation's findings on leadership and cultural issues. Finally, it contributes to transparency by clarifying the capabilities and limitations of the autonomous systems.",
+          "title": "GM Exits Robotaxi Market, Brings Cruise In-House",
+          "url": "https://cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This Reuters article on General Motors hiring a Chief AI Officer provides evidence for **governance** and **transparency**. The appointment of an inaugural Chief AI Officer, with prior experience at major tech companies, establishes clear accountability and decision-making authority for AI initiatives, supporting the governance pillar. Furthermore, the article's mention of AI integration across various business functions and planned acceleration of AI efforts implies a commitment to transparency in how AI will be deployed and managed.",
+          "title": "General Motors Hires Chief AI Officer - Reuters",
+          "url": "https://reuters.com/business/autos-transportation/gm-hires-chief-ai-officer-new-role-2025-03-03"
+        }
+      ],
+      "score": 2,
+      "source_count": 15
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 10,
+      "findings": "General Motors' policy documents state that employment application decisions are not made solely by automated means. Reports outline an escalation process for complex requests to human specialists and document human review of AI logs, observation of AI behavior, and strengthening of AI limits. Statements reference the necessity of human intelligence and analysis alongside AI-generated content, while technical papers reference institutionalizing AI risk management and auditing AI copilots.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The General Motors Careers Privacy Statement provides evidence for the **fairness**, **governance**, **oversight**, and **privacy** pillars. This policy document supports fairness and privacy by mentioning automated processing and discrimination concerns, and it addresses oversight and governance by stating that employment application decisions are not made solely by automated means. Furthermore, it touches upon privacy by detailing consent mechanisms for communication via automatic telephone dialing systems and outlining policies for processing personal information for targeted advertising.",
+          "title": "General Motors Careers - Privacy Statement",
+          "url": "https://search-careers.gm.com/en/privacy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This third-party report on GM's use of Google AI for OnStar calls provides evidence for **governance, oversight, and transparency**. It supports these pillars by detailing the intended use of AI for specific functions, including routine inquiries and navigation, and outlining a clear escalation process for emergencies and complex requests to human specialists. The report also highlights the vendor collaboration and explicit mention of AI technologies and their capabilities, demonstrating transparency in the system's deployment.",
+          "title": "GM Uses Google AI Chatbot to Handle OnStar Calls",
+          "url": "https://theverge.com/2023/8/29/23849390/gm-google-cloud-ai-chat-bot-onstar"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "The \"Watsonville Chevrolet Dealership ChatGPT Chatbot Incident\" report provides evidence for **governance**, **oversight**, and **transparency**. It demonstrates governance and oversight through the documentation of human review of AI logs, observation of AI behavior, and subsequent strengthening of AI limits based on observed misbehavior. The report also supports transparency by detailing the deployment and use of a ChatGPT-powered chatbot on a public-facing dealer website.",
+          "title": "Watsonville Chevrolet Dealership ChatGPT Chatbot Incident",
+          "url": "https://businessinsider.com/car-dealership-chevrolet-chatbot-chatgpt-pranks-chevy-2023-12"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This official statement from Chevrolet supports the **governance**, **oversight**, and **transparency** pillars of responsible AI. It demonstrates governance by acknowledging dealer autonomy in selecting AI tools and supports oversight by emphasizing the necessity of human intelligence and analysis alongside AI-generated content, particularly in complex customer service scenarios handled by human advisors. The statement also promotes transparency by detailing GM's use of AI for customer service via chatbots and the launch of a website dedicated to AI information.",
+          "title": "GM Dealer Chatbot Exploitation and Incident Response",
+          "url": "https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper highlights General Motors' strategic commitment to AI ethics, providing evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The paper details GM's appointment of an AI ethics lead and their focus on institutionalizing AI risk management, emphasizing transparent principles, bias detection tools, and ethical governance structures. These practices, including AI ethics charters and auditing AI copilots, demonstrate a commitment to responsible AI development and deployment.",
+          "title": "IMD Research: Why AI Ethics is Now a Competitive Advantage",
+          "url": "https://imd.org/ibyimd/artificial-intelligence/why-ai-ethics-is-now-a-competitive-advantage"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "General Motors' policy documents reference automated processing concerns. These documents also describe consent mechanisms for communication via automatic telephone dialing systems and outline policies for processing personal information for targeted advertising.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The General Motors Careers Privacy Statement provides evidence for the **fairness**, **governance**, **oversight**, and **privacy** pillars. This policy document supports fairness and privacy by mentioning automated processing and discrimination concerns, and it addresses oversight and governance by stating that employment application decisions are not made solely by automated means. Furthermore, it touches upon privacy by detailing consent mechanisms for communication via automatic telephone dialing systems and outlining policies for processing personal information for targeted advertising.",
+          "title": "General Motors Careers - Privacy Statement",
+          "url": "https://search-careers.gm.com/en/privacy"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 29,
+      "findings": "General Motors documents its AI applications, including intent-recognition algorithms for the OnStar Virtual Assistant and continuous learning AI for urban navigation, and describes a closed-loop simulation framework for stress-testing AI models. The company describes its use of Google's Dialogflow for OnStar, outlining its capabilities and an escalation process to human specialists. GM also describes its use of chatbots for customer service, the deployment of a ChatGPT-powered chatbot on a dealer website, and describes the capabilities and limitations of its autonomous systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"General Motors Artificial Intelligence Strategy & Deployment,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by outlining GM's commitment to ethical AI deployment. Evidence for transparency is found in the description of AI applications, including the use of intent-recognition algorithms for the OnStar Virtual Assistant and continuous learning AI for urban navigation, which implies a level of understanding and explainability in their AI systems.",
+          "title": "General Motors Artificial Intelligence Strategy & Deployment",
+          "url": "https://gm.com/company/artificial-intelligence"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance** and **transparency** in responsible AI. It details GM's closed-loop simulation framework, which involves stress-testing AI models against millions of scenarios derived from real-world data, crash databases, and academic research, demonstrating a structured approach to AI development and validation. The post also highlights the operational aspects of their autonomy stack, including multi-sensor fusion and the extensive hands-free driving miles achieved by Super Cruise, which contributes to transparency by showcasing the system's performance and safety record.",
+          "title": "GM's Path to Full Autonomy: Building Trust Step-by-Step",
+          "url": "https://news.gm.com/home.detail.html/Pages/topic/us/en/2025/oct/1009-GMs-path-full-autonomy-Building-trust-step-by-step.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This news article provides evidence for **governance** and **transparency** by detailing General Motors' use of Google's Dialogflow for their OnStar service. It highlights the system's capabilities, such as natural language understanding and distinguishing emergency language, which demonstrates transparency in AI functionality and deployment. The article also touches upon the use of vendor AI tools and future aspirations for generative AI, indicating governance over third-party AI and transparency regarding future developments.",
+          "title": "General Motors to Use Google AI Chatbot for OnStar Service",
+          "url": "https://techcrunch.com/2023/08/29/general-motors-to-use-google-ai-chatbot-for-its-onstar-service"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This third-party report on GM's use of Google AI for OnStar calls provides evidence for **governance, oversight, and transparency**. It supports these pillars by detailing the intended use of AI for specific functions, including routine inquiries and navigation, and outlining a clear escalation process for emergencies and complex requests to human specialists. The report also highlights the vendor collaboration and explicit mention of AI technologies and their capabilities, demonstrating transparency in the system's deployment.",
+          "title": "GM Uses Google AI Chatbot to Handle OnStar Calls",
+          "url": "https://theverge.com/2023/8/29/23849390/gm-google-cloud-ai-chat-bot-onstar"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "The \"Watsonville Chevrolet Dealership ChatGPT Chatbot Incident\" report provides evidence for **governance**, **oversight**, and **transparency**. It demonstrates governance and oversight through the documentation of human review of AI logs, observation of AI behavior, and subsequent strengthening of AI limits based on observed misbehavior. The report also supports transparency by detailing the deployment and use of a ChatGPT-powered chatbot on a public-facing dealer website.",
+          "title": "Watsonville Chevrolet Dealership ChatGPT Chatbot Incident",
+          "url": "https://businessinsider.com/car-dealership-chevrolet-chatbot-chatgpt-pranks-chevy-2023-12"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This official statement from Chevrolet supports the **governance**, **oversight**, and **transparency** pillars of responsible AI. It demonstrates governance by acknowledging dealer autonomy in selecting AI tools and supports oversight by emphasizing the necessity of human intelligence and analysis alongside AI-generated content, particularly in complex customer service scenarios handled by human advisors. The statement also promotes transparency by detailing GM's use of AI for customer service via chatbots and the launch of a website dedicated to AI information.",
+          "title": "GM Dealer Chatbot Exploitation and Incident Response",
+          "url": "https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper highlights General Motors' strategic commitment to AI ethics, providing evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The paper details GM's appointment of an AI ethics lead and their focus on institutionalizing AI risk management, emphasizing transparent principles, bias detection tools, and ethical governance structures. These practices, including AI ethics charters and auditing AI copilots, demonstrate a commitment to responsible AI development and deployment.",
+          "title": "IMD Research: Why AI Ethics is Now a Competitive Advantage",
+          "url": "https://imd.org/ibyimd/artificial-intelligence/why-ai-ethics-is-now-a-competitive-advantage"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper from IMD Business School provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing General Motors' strategic AI adoption, including the appointment of a Chief AI Officer and the hiring of an AI governance lawyer to lead legal and ethical oversight. The paper also supports transparency by describing AI applications in manufacturing and autonomous systems, implying openness about their use and development.",
+          "title": "IMD Business School - General Motors AI Maturity Profile 2025",
+          "url": "https://imd.org/entity-profile/general-motors-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report into a Cruise autonomous vehicle incident provides evidence for **governance** and **transparency**. The report details how executives failed to fully communicate incident details to California regulators, indicating failures in governance and accountability. Furthermore, the investigation's findings regarding management's prioritization of image over transparency directly support the transparency pillar.",
+          "title": "Cruise Autonomous Vehicle Incident Investigation Report",
+          "url": "https://nytimes.com/2024/01/25/technology/cruise-crash-report-san-francisco.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This news report provides evidence for **external_accountability**, **governance**, and **transparency**. It supports external_accountability by detailing a regulatory fine and a third-party investigation into an autonomous vehicle incident. The report also highlights governance through GM's strategic decision to shift Cruise's focus and the investigation's findings on leadership and cultural issues. Finally, it contributes to transparency by clarifying the capabilities and limitations of the autonomous systems.",
+          "title": "GM Exits Robotaxi Market, Brings Cruise In-House",
+          "url": "https://cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This Reuters article on General Motors hiring a Chief AI Officer provides evidence for **governance** and **transparency**. The appointment of an inaugural Chief AI Officer, with prior experience at major tech companies, establishes clear accountability and decision-making authority for AI initiatives, supporting the governance pillar. Furthermore, the article's mention of AI integration across various business functions and planned acceleration of AI efforts implies a commitment to transparency in how AI will be deployed and managed.",
+          "title": "General Motors Hires Chief AI Officer - Reuters",
+          "url": "https://reuters.com/business/autos-transportation/gm-hires-chief-ai-officer-new-role-2025-03-03"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    }
+  },
+  "published_at": "2026-02-23T21:51:07Z",
+  "run_id": "20260202_211222_364f",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "General Motors' published materials describe a closed-loop simulation framework for stress-testing AI models against millions of scenarios, an operational practice documented under both transparency and governance. All 7 evaluated pillars have documented public evidence, drawing from 16 publicly available sources. Further operational evidence includes descriptions of AI applications like intent-recognition algorithms for the OnStar Virtual Assistant, and annual reports referencing engagement with regulatory frameworks concerning AV technology under external accountability. Policy-level evidence addresses fairness, explainability, oversight, and privacy, with fairness policies referencing automated processing and discrimination concerns and privacy disclosures describing consent mechanisms for communication via automatic telephone dialing systems.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 91,
+    "total_sources_used": 15
+  }
+}

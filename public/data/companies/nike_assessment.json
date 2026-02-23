@@ -1,0 +1,302 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Nike",
+  "company_slug": "nike",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 30,
+      "OPERATIONAL": 4,
+      "POLICY": 39
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "A blog post mentions the need for AI systems to be explainable. It also references the need for AI systems to be aligned with human judgment.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, **fairness**, **transparency**, and **external accountability**. It describes Nike's acquisition and deployment of an AI-driven demand forecasting system, highlighting their commitment to data quality, regular review and updating of AI models, and addressing algorithmic bias risks through mandated audits. The post also implies transparency by detailing the system's capabilities and suggests a hybrid framework with human judgment for oversight.",
+          "title": "Nike Demand Sensing System: AI-Driven Forecasting Post-Celect",
+          "url": "https://sparkco.ai/blog/nikes-advanced-demand-sensing-beyond-excel-forecasts"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Nike AI Applications: Fit Prediction and Data-Driven Personalization,\" provides evidence for **explainability, external accountability, governance, privacy, and transparency**. It supports these pillars by describing Nike's AI capabilities matrix, AI applications, and the strategic acquisition of AI/ML technologies, demonstrating transparency in their AI systems and uses. The post also implies a policy framework for AI governance through discussions of governing agentic AI and mentions the need for AI systems to be explainable and aligned with human judgment, supporting responsible AI deployment.",
+          "title": "Nike AI Applications: Fit Prediction and Data-Driven Personalization",
+          "url": "https://emerj.com/artificial-intelligence-at-nike"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "A blog post describes Nike's approach to external accountability by addressing algorithmic bias risks through mandated audits for its AI-driven demand forecasting system.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, **fairness**, **transparency**, and **external accountability**. It describes Nike's acquisition and deployment of an AI-driven demand forecasting system, highlighting their commitment to data quality, regular review and updating of AI models, and addressing algorithmic bias risks through mandated audits. The post also implies transparency by detailing the system's capabilities and suggests a hybrid framework with human judgment for oversight.",
+          "title": "Nike Demand Sensing System: AI-Driven Forecasting Post-Celect",
+          "url": "https://sparkco.ai/blog/nikes-advanced-demand-sensing-beyond-excel-forecasts"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Nike AI Applications: Fit Prediction and Data-Driven Personalization,\" provides evidence for **explainability, external accountability, governance, privacy, and transparency**. It supports these pillars by describing Nike's AI capabilities matrix, AI applications, and the strategic acquisition of AI/ML technologies, demonstrating transparency in their AI systems and uses. The post also implies a policy framework for AI governance through discussions of governing agentic AI and mentions the need for AI systems to be explainable and aligned with human judgment, supporting responsible AI deployment.",
+          "title": "Nike AI Applications: Fit Prediction and Data-Driven Personalization",
+          "url": "https://emerj.com/artificial-intelligence-at-nike"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "A blog post describes Nike's approach to fairness by addressing algorithmic bias risks through mandated audits for its AI-driven demand forecasting system. This indicates a commitment to mitigating potential biases in their AI models.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, **fairness**, **transparency**, and **external accountability**. It describes Nike's acquisition and deployment of an AI-driven demand forecasting system, highlighting their commitment to data quality, regular review and updating of AI models, and addressing algorithmic bias risks through mandated audits. The post also implies transparency by detailing the system's capabilities and suggests a hybrid framework with human judgment for oversight.",
+          "title": "Nike Demand Sensing System: AI-Driven Forecasting Post-Celect",
+          "url": "https://sparkco.ai/blog/nikes-advanced-demand-sensing-beyond-excel-forecasts"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 51,
+      "findings": "Nike's governance practices include a structured approach to financial calculations using algorithmic modeling and identifying AI as a significant risk factor, mentioning the development of regulations and best practices. The company demonstrates a commitment to data quality, regular review, and updating of AI models for its demand forecasting system. Furthermore, Nike has created C-suite level oversight for enterprise-wide AI transformation, detailing its AI strategy, formal AI roles, and structured AI platform architecture.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "Nike's 2025 Proxy Statement provides evidence for the **governance** and **transparency** pillars. The document details the use of algorithmic financial modeling, specifically Monte Carlo and Black-Scholes models for valuation, and emphasizes the disclosure of assumptions related to these models. This indicates a structured approach to financial calculations and a commitment to making underlying methodologies understandable, supporting both governance and transparency.",
+          "title": "Nike 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/320187/000032018725000048/nke-20250717.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "Nike's FY2025 Form 10-K Annual Report provides evidence for the **governance** and **privacy** pillars of responsible AI. The report supports governance by identifying AI as a significant risk factor and mentioning the development of regulations and best practices for AI, indicating a policy-level approach to managing AI risks within operations. It also supports privacy by acknowledging privacy risks associated with AI tool misuse.",
+          "title": "Nike FY2025 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, **fairness**, **transparency**, and **external accountability**. It describes Nike's acquisition and deployment of an AI-driven demand forecasting system, highlighting their commitment to data quality, regular review and updating of AI models, and addressing algorithmic bias risks through mandated audits. The post also implies transparency by detailing the system's capabilities and suggests a hybrid framework with human judgment for oversight.",
+          "title": "Nike Demand Sensing System: AI-Driven Forecasting Post-Celect",
+          "url": "https://sparkco.ai/blog/nikes-advanced-demand-sensing-beyond-excel-forecasts"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post analyzes Nike's appointment of a Chief AI Officer, providing evidence for the **governance** pillar. It highlights the creation of C-suite level oversight for enterprise-wide AI transformation, indicating executive authority and decision-making for AI strategy. The post also discusses the need for executive leadership due to the scale of AI maturation and the roles and collaboration required for AI strategy and deployment.",
+          "title": "Nike Chief AI Officer Role and Board Governance",
+          "url": "https://chiefaiofficer.com/blog/blog/why-nike-created-a-chief-ai-officer-role-and-what-it-signals-about-the-c-suites-future"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Nike Proprietary AI Infrastructure and Data Ecosystem,\" provides evidence for **governance**, **privacy**, and **transparency**. The document supports governance by detailing Nike's AI strategy, formal AI roles, and structured AI platform architecture, indicating a deliberate approach to AI development and integration. Evidence for privacy is found in mentions of owning customer data in the AI era and a strategy built on trust and data submission, suggesting a focus on data protection. Transparency is supported through descriptions of Nike's AI technology portfolio, data ecosystem, and specific AI applications like foot scanning and demand forecasting, which reveal the capabilities and use cases of their AI systems.",
+          "title": "Nike Proprietary AI Infrastructure and Data Ecosystem",
+          "url": "https://klover.ai/nike-ai-strategy-analysis-of-dominance-in-athletic-apparel-footwear"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Nike AI Applications: Fit Prediction and Data-Driven Personalization,\" provides evidence for **explainability, external accountability, governance, privacy, and transparency**. It supports these pillars by describing Nike's AI capabilities matrix, AI applications, and the strategic acquisition of AI/ML technologies, demonstrating transparency in their AI systems and uses. The post also implies a policy framework for AI governance through discussions of governing agentic AI and mentions the need for AI systems to be explainable and aligned with human judgment, supporting responsible AI deployment.",
+          "title": "Nike AI Applications: Fit Prediction and Data-Driven Personalization",
+          "url": "https://emerj.com/artificial-intelligence-at-nike"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Nike Patents: Action Detection and Activity Classification AI,\" provides evidence for the **governance** pillar. The document's description of Nike's patent family for AI-powered activity classification in smart shoes implies a structured approach to developing and deploying AI technologies within the company, suggesting internal management and oversight of these systems.",
+          "title": "Nike Patents: Action Detection and Activity Classification AI",
+          "url": "https://patentforecast.com/2021/07/15/hard-to-find-patents-reveal-nikes-up-to-something-is-it-their-next-big-thing"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "A blog post suggests a hybrid framework that incorporates human judgment for the oversight of Nike's AI-driven demand forecasting system.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, **fairness**, **transparency**, and **external accountability**. It describes Nike's acquisition and deployment of an AI-driven demand forecasting system, highlighting their commitment to data quality, regular review and updating of AI models, and addressing algorithmic bias risks through mandated audits. The post also implies transparency by detailing the system's capabilities and suggests a hybrid framework with human judgment for oversight.",
+          "title": "Nike Demand Sensing System: AI-Driven Forecasting Post-Celect",
+          "url": "https://sparkco.ai/blog/nikes-advanced-demand-sensing-beyond-excel-forecasts"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "Nike's FY2025 Form 10-K Annual Report acknowledges privacy risks associated with AI tool misuse. A technical paper references owning customer data in the AI era and a strategy built on trust and data submission. Additionally, a press release mentions privacy and consent in relation to data processing and GDPR compliance for Nike Fit.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "Nike's FY2025 Form 10-K Annual Report provides evidence for the **governance** and **privacy** pillars of responsible AI. The report supports governance by identifying AI as a significant risk factor and mentioning the development of regulations and best practices for AI, indicating a policy-level approach to managing AI risks within operations. It also supports privacy by acknowledging privacy risks associated with AI tool misuse.",
+          "title": "Nike FY2025 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Nike Proprietary AI Infrastructure and Data Ecosystem,\" provides evidence for **governance**, **privacy**, and **transparency**. The document supports governance by detailing Nike's AI strategy, formal AI roles, and structured AI platform architecture, indicating a deliberate approach to AI development and integration. Evidence for privacy is found in mentions of owning customer data in the AI era and a strategy built on trust and data submission, suggesting a focus on data protection. Transparency is supported through descriptions of Nike's AI technology portfolio, data ecosystem, and specific AI applications like foot scanning and demand forecasting, which reveal the capabilities and use cases of their AI systems.",
+          "title": "Nike Proprietary AI Infrastructure and Data Ecosystem",
+          "url": "https://klover.ai/nike-ai-strategy-analysis-of-dominance-in-athletic-apparel-footwear"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This press release for Nike Fit supports the **privacy** pillar by mentioning privacy and consent in relation to data processing and GDPR compliance, suggesting a policy for AI systems. It also supports the **transparency** pillar by indicating the use of AI, ML, and algorithms, though specific operational details are not provided.",
+          "title": "Nike Fit: Computer Vision and Machine Learning for Shoe Fitting",
+          "url": "https://wearglobalnetwork.com/news/nike-unveils-nike-fit-a-new-ar-feature-within-the-nike-app"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Nike AI Applications: Fit Prediction and Data-Driven Personalization,\" provides evidence for **explainability, external accountability, governance, privacy, and transparency**. It supports these pillars by describing Nike's AI capabilities matrix, AI applications, and the strategic acquisition of AI/ML technologies, demonstrating transparency in their AI systems and uses. The post also implies a policy framework for AI governance through discussions of governing agentic AI and mentions the need for AI systems to be explainable and aligned with human judgment, supporting responsible AI deployment.",
+          "title": "Nike AI Applications: Fit Prediction and Data-Driven Personalization",
+          "url": "https://emerj.com/artificial-intelligence-at-nike"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 43,
+      "findings": "Nike's documentation details the use of algorithmic financial modeling, including Monte Carlo and Black-Scholes models, and emphasizes the disclosure of related assumptions. Various sources describe the capabilities of Nike's AI-driven demand forecasting system, its AI technology portfolio, data ecosystem, and specific AI applications like foot scanning and fit prediction. These descriptions also cover the strategic acquisition of AI/ML technologies and the features and use cases of platforms like Celect.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "Nike's 2025 Proxy Statement provides evidence for the **governance** and **transparency** pillars. The document details the use of algorithmic financial modeling, specifically Monte Carlo and Black-Scholes models for valuation, and emphasizes the disclosure of assumptions related to these models. This indicates a structured approach to financial calculations and a commitment to making underlying methodologies understandable, supporting both governance and transparency.",
+          "title": "Nike 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/320187/000032018725000048/nke-20250717.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, **fairness**, **transparency**, and **external accountability**. It describes Nike's acquisition and deployment of an AI-driven demand forecasting system, highlighting their commitment to data quality, regular review and updating of AI models, and addressing algorithmic bias risks through mandated audits. The post also implies transparency by detailing the system's capabilities and suggests a hybrid framework with human judgment for oversight.",
+          "title": "Nike Demand Sensing System: AI-Driven Forecasting Post-Celect",
+          "url": "https://sparkco.ai/blog/nikes-advanced-demand-sensing-beyond-excel-forecasts"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Nike Proprietary AI Infrastructure and Data Ecosystem,\" provides evidence for **governance**, **privacy**, and **transparency**. The document supports governance by detailing Nike's AI strategy, formal AI roles, and structured AI platform architecture, indicating a deliberate approach to AI development and integration. Evidence for privacy is found in mentions of owning customer data in the AI era and a strategy built on trust and data submission, suggesting a focus on data protection. Transparency is supported through descriptions of Nike's AI technology portfolio, data ecosystem, and specific AI applications like foot scanning and demand forecasting, which reveal the capabilities and use cases of their AI systems.",
+          "title": "Nike Proprietary AI Infrastructure and Data Ecosystem",
+          "url": "https://klover.ai/nike-ai-strategy-analysis-of-dominance-in-athletic-apparel-footwear"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This press release for Nike Fit supports the **privacy** pillar by mentioning privacy and consent in relation to data processing and GDPR compliance, suggesting a policy for AI systems. It also supports the **transparency** pillar by indicating the use of AI, ML, and algorithms, though specific operational details are not provided.",
+          "title": "Nike Fit: Computer Vision and Machine Learning for Shoe Fitting",
+          "url": "https://wearglobalnetwork.com/news/nike-unveils-nike-fit-a-new-ar-feature-within-the-nike-app"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Nike AI Applications: Fit Prediction and Data-Driven Personalization,\" provides evidence for **explainability, external accountability, governance, privacy, and transparency**. It supports these pillars by describing Nike's AI capabilities matrix, AI applications, and the strategic acquisition of AI/ML technologies, demonstrating transparency in their AI systems and uses. The post also implies a policy framework for AI governance through discussions of governing agentic AI and mentions the need for AI systems to be explainable and aligned with human judgment, supporting responsible AI deployment.",
+          "title": "Nike AI Applications: Fit Prediction and Data-Driven Personalization",
+          "url": "https://emerj.com/artificial-intelligence-at-nike"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Celect Acquisition: AI-Based Inventory and Demand Optimization,\" provides evidence for the **transparency** pillar of responsible AI. The document describes the AI features and capabilities of the Celect platform, including its use cases for prediction, insights, decision-making, planning, optimization, and real-time adjustments. While it details the AI's functions and strategic integration into Nike's operations, it does not provide information on operational execution, specific policies, or governance mechanisms.",
+          "title": "Celect Acquisition: AI-Based Inventory and Demand Optimization",
+          "url": "https://activantcapital.com/research/demand-forecasting-software"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T21:56:12Z",
+  "run_id": "20260202_232928_a990",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [],
+    "overall_findings": "Nike's 2025 Proxy Statement details the use of algorithmic financial modeling, specifically Monte Carlo and Black-Scholes models for valuation, addressing transparency. All 7 evaluated pillars have documented public evidence, with disclosures across all areas reflecting policy-level commitments. For instance, materials on fairness and external accountability describe addressing algorithmic bias risks through mandated audits for its AI-driven demand forecasting system. Oversight is addressed through a suggested hybrid framework incorporating human judgment for the same system, while the FY2025 Form 10-K Annual Report acknowledges privacy risks associated with AI tool misuse. These findings are based on a review of 15 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 7,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 73,
+    "total_sources_used": 9
+  }
+}

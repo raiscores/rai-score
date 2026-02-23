@@ -1,0 +1,573 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 92.9,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 13
+  },
+  "company": "ADP",
+  "company_slug": "adp",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 16,
+      "OPERATIONAL": 13,
+      "POLICY": 37
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 5,
+      "findings": "Policy documents discuss the explainability of ML models. Help pages state that explainability features are built into AI models. Blog posts also state that AI should inform human decisions, with decision-makers understanding limitations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, ADP's Ethics in Artificial Intelligence Statement, provides evidence for explainability, external_accountability, fairness, governance, oversight, and transparency. It supports these pillars by discussing the explainability of ML models and providing information to clients, emphasizing human oversight for ML models, and mentioning mechanisms for monitoring bias and conducting risk assessments within governance structures. Furthermore, the document details the operational governance provided by an AI & Data Ethics Committee and describes real-time monitoring of automated decisions.",
+          "title": "ADP Ethics in Artificial Intelligence Statement",
+          "url": "https://adp.com/-/media/adp/redesign2018/pdf/data-privacy/ai-ethics-statement.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Capabilities for Payroll and HR,\" provides evidence for the **explainability**, **governance**, **privacy**, and **transparency** pillars of Responsible AI. It supports transparency and explainability by explicitly stating these features are \"built in\" for AI models and by detailing various AI capabilities and their applications. The page also indicates support for governance through mentions of \"compliance controls\" for AI systems and for privacy by referencing practices for \"protecting data\" used by AI.",
+          "title": "AI Capabilities for Payroll and HR",
+          "url": "https://adp.com/what-we-offer/ai-solutions/ai-capabilities.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Data Ethics: Ethical Use of Data,\" provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. It supports governance and external accountability through the mention of an AI & Data Ethics Board that reviews AI uses and involves independent third parties for validation. The post also reflects transparency and explainability aspirations by stating AI should inform human decisions, with decision-makers understanding limitations, and demonstrates privacy and governance integration through its emphasis on privacy and compliance by design.",
+          "title": "AI and Data Ethics: Ethical Use of Data",
+          "url": "https://adp.com/spark/articles/2021/01/ai-and-data-ethics-ethical-use-of-data.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Data Ethics: Privacy by Design,\" provides evidence for the pillars of **explainability, fairness, governance, privacy, and transparency**. The post supports these pillars by outlining ADP's commitment to integrating privacy and security into AI model development from the outset, mentioning AI ethics principles and an AI advisory board, and discussing a privacy impact assessment process for new products. It also highlights practices like limiting personal data used in AI models and aligning privacy practices with ADP's broader AI and data ethics framework, which directly relates to governance and privacy.",
+          "title": "AI and Data Ethics: Privacy by Design",
+          "url": "https://adp.com/spark/articles/2020/11/ai-and-data-ethics-privacy-by-design.aspx"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 9,
+      "findings": "Policy documents mention independent audits for accountability. Blog posts mention an AI & Data Ethics Board that involves independent third parties for validation. Technical papers also detail vendor criteria for responsible AI, including independent third-party validation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, ADP's Ethics in Artificial Intelligence Statement, provides evidence for explainability, external_accountability, fairness, governance, oversight, and transparency. It supports these pillars by discussing the explainability of ML models and providing information to clients, emphasizing human oversight for ML models, and mentioning mechanisms for monitoring bias and conducting risk assessments within governance structures. Furthermore, the document details the operational governance provided by an AI & Data Ethics Committee and describes real-time monitoring of automated decisions.",
+          "title": "ADP Ethics in Artificial Intelligence Statement",
+          "url": "https://adp.com/-/media/adp/redesign2018/pdf/data-privacy/ai-ethics-statement.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI at ADP,\" provides evidence for **external accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by mentioning bias evaluation and independent audits for fairness and accountability, an AI & Data Ethics Committee for governance, and AI models that cover oversight and governance. The document also implies human oversight by highlighting AI's role in enhancing human decision-making and supports privacy through mentions of privacy by design and data protection.",
+          "title": "Responsible AI at ADP",
+          "url": "https://adp.com/what-we-offer/ai-solutions/responsible-ai.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Data Ethics: Ethical Use of Data,\" provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. It supports governance and external accountability through the mention of an AI & Data Ethics Board that reviews AI uses and involves independent third parties for validation. The post also reflects transparency and explainability aspirations by stating AI should inform human decisions, with decision-makers understanding limitations, and demonstrates privacy and governance integration through its emphasis on privacy and compliance by design.",
+          "title": "AI and Data Ethics: Ethical Use of Data",
+          "url": "https://adp.com/spark/articles/2021/01/ai-and-data-ethics-ethical-use-of-data.aspx"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"AI in HR: Five Use Cases You Should Know Guidebook,\" provides evidence for **external_accountability**, **fairness**, **governance**, and **oversight**. It supports **external_accountability** and **fairness** by detailing ADP's vendor criteria for responsible AI, which includes active AI ethics boards, regular bias testing, and independent third-party validation. The guidebook also supports **governance** through its emphasis on partnering with transparent vendors and its mention of responsible AI principles and partner commitments. Finally, it addresses **oversight** by stressing the essential role of human involvement in critical decisions, as generative AI is described as a human-dependent tool.",
+          "title": "AI in HR: Five Use Cases You Should Know Guidebook",
+          "url": "https://adp.com/-/media/adp/resourcehub/pdf/guidebooks/adp_mid-funnel_ai-guide-2_20240618.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Reimagining Work in the Age of Generative AI,\" provides evidence for external_accountability, governance, oversight, privacy, and transparency. It supports the privacy pillar by highlighting AI use subject to privacy laws and the importance of protecting confidential information. The post also touches on governance through its emphasis on employee education, AI guidelines, and employer responsibility for lawful AI use, while oversight is supported by the mention of human final decision-making. Finally, transparency is evidenced by the suggestion of pilot projects and diverse perspectives to understand AI's impact.",
+          "title": "Reimagining Work in the Age of Generative AI",
+          "url": "https://adp.ca/en/resources/articles-and-insights/articles/r/reimagining-work-in-the-age-of-generative-ai.aspx"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 11,
+      "findings": "Policy documents mention mechanisms for monitoring bias, bias evaluation, and independent audits for fairness. Help pages highlight the proactive review of AI use cases by an AI and Data Ethics Council to ensure fairness. Technical papers detail vendor criteria for responsible AI, including active AI ethics boards, regular bias testing, and independent third-party validation, while blog posts mention ongoing bias testing and the duty to understand AI's discriminatory potential.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, ADP's Ethics in Artificial Intelligence Statement, provides evidence for explainability, external_accountability, fairness, governance, oversight, and transparency. It supports these pillars by discussing the explainability of ML models and providing information to clients, emphasizing human oversight for ML models, and mentioning mechanisms for monitoring bias and conducting risk assessments within governance structures. Furthermore, the document details the operational governance provided by an AI & Data Ethics Committee and describes real-time monitoring of automated decisions.",
+          "title": "ADP Ethics in Artificial Intelligence Statement",
+          "url": "https://adp.com/-/media/adp/redesign2018/pdf/data-privacy/ai-ethics-statement.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI at ADP,\" provides evidence for **external accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by mentioning bias evaluation and independent audits for fairness and accountability, an AI & Data Ethics Committee for governance, and AI models that cover oversight and governance. The document also implies human oversight by highlighting AI's role in enhancing human decision-making and supports privacy through mentions of privacy by design and data protection.",
+          "title": "Responsible AI at ADP",
+          "url": "https://adp.com/what-we-offer/ai-solutions/responsible-ai.aspx"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Artificial Intelligence for Payroll and HR Overview,\" provides evidence for **fairness, governance, oversight, privacy, and transparency**. The document highlights the proactive review of AI use cases by an AI and Data Ethics Council to ensure fairness and ethical outcomes, demonstrating oversight. It also mentions built-in governance and privacy controls for data safeguarding and regulatory compliance, supporting the governance and privacy pillars, while the overall description of AI capabilities and responsible AI aspirations implies transparency.",
+          "title": "Artificial Intelligence for Payroll and HR Overview",
+          "url": "https://adp.com/what-we-offer/ai-solutions.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Data Ethics: Ethical Use of Data,\" provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. It supports governance and external accountability through the mention of an AI & Data Ethics Board that reviews AI uses and involves independent third parties for validation. The post also reflects transparency and explainability aspirations by stating AI should inform human decisions, with decision-makers understanding limitations, and demonstrates privacy and governance integration through its emphasis on privacy and compliance by design.",
+          "title": "AI and Data Ethics: Ethical Use of Data",
+          "url": "https://adp.com/spark/articles/2021/01/ai-and-data-ethics-ethical-use-of-data.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Data Ethics: Privacy by Design,\" provides evidence for the pillars of **explainability, fairness, governance, privacy, and transparency**. The post supports these pillars by outlining ADP's commitment to integrating privacy and security into AI model development from the outset, mentioning AI ethics principles and an AI advisory board, and discussing a privacy impact assessment process for new products. It also highlights practices like limiting personal data used in AI models and aligning privacy practices with ADP's broader AI and data ethics framework, which directly relates to governance and privacy.",
+          "title": "AI and Data Ethics: Privacy by Design",
+          "url": "https://adp.com/spark/articles/2020/11/ai-and-data-ethics-privacy-by-design.aspx"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"AI in HR: Five Use Cases You Should Know Guidebook,\" provides evidence for **external_accountability**, **fairness**, **governance**, and **oversight**. It supports **external_accountability** and **fairness** by detailing ADP's vendor criteria for responsible AI, which includes active AI ethics boards, regular bias testing, and independent third-party validation. The guidebook also supports **governance** through its emphasis on partnering with transparent vendors and its mention of responsible AI principles and partner commitments. Finally, it addresses **oversight** by stressing the essential role of human involvement in critical decisions, as generative AI is described as a human-dependent tool.",
+          "title": "AI in HR: Five Use Cases You Should Know Guidebook",
+          "url": "https://adp.com/-/media/adp/resourcehub/pdf/guidebooks/adp_mid-funnel_ai-guide-2_20240618.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Trust,\" provides evidence for the pillars of fairness, governance, privacy, and transparency. It supports transparency and privacy by discussing consent, opt-out paths, and the exclusion of protected demographic data. The post also highlights governance and fairness through mentions of an AI ethics board, ongoing bias testing, and the duty to understand AI's discriminatory potential.",
+          "title": "AI and Trust",
+          "url": "https://rethinkq.adp.com/generative-ai-and-trust"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI in HR: The Power Duo Shaping Tomorrow's Workplace,\" provides evidence for the **fairness, governance, privacy, and transparency** pillars of responsible AI. The post indicates a commitment to these principles by mentioning \"Responsible AI\" and discussing concerns around algorithmic bias, data privacy, and transparency. It highlights the use of AI for predictive analytics in HR, contributing to transparency by offering insights, while also emphasizing human oversight across AI system lifecycles to address ethical considerations.",
+          "title": "AI in HR: The Power Duo Shaping Tomorrow's Workplace",
+          "url": "https://adp.com/spark/articles/2024/11/ai-in-hr-the-power-duo-shaping-tomorrows-workplace.aspx"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 44,
+      "findings": "Policy documents and help pages describe governance structures, including an AI & Data Ethics Committee/Council/Board, and mention mechanisms for conducting risk assessments. They also highlight the proactive review of AI use cases and built-in governance and compliance controls for AI systems and regulatory compliance. Blog posts mention AI ethics principles, AI guidelines, and a commitment to accountability, while technical papers emphasize partnering with transparent vendors and responsible AI principles.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, ADP's Ethics in Artificial Intelligence Statement, provides evidence for explainability, external_accountability, fairness, governance, oversight, and transparency. It supports these pillars by discussing the explainability of ML models and providing information to clients, emphasizing human oversight for ML models, and mentioning mechanisms for monitoring bias and conducting risk assessments within governance structures. Furthermore, the document details the operational governance provided by an AI & Data Ethics Committee and describes real-time monitoring of automated decisions.",
+          "title": "ADP Ethics in Artificial Intelligence Statement",
+          "url": "https://adp.com/-/media/adp/redesign2018/pdf/data-privacy/ai-ethics-statement.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This corporate privacy policy document, \"ADP Data Privacy and Artificial Intelligence,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing the use of rigorous principles and real-time operational monitoring for AI and automated decisions. The document also supports privacy by outlining its commitment to privacy protection and \"Privacy by Design\" policies and standards.",
+          "title": "ADP Data Privacy and Artificial Intelligence",
+          "url": "https://adp.com/about-adp/data-privacy.aspx"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI at ADP,\" provides evidence for **external accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by mentioning bias evaluation and independent audits for fairness and accountability, an AI & Data Ethics Committee for governance, and AI models that cover oversight and governance. The document also implies human oversight by highlighting AI's role in enhancing human decision-making and supports privacy through mentions of privacy by design and data protection.",
+          "title": "Responsible AI at ADP",
+          "url": "https://adp.com/what-we-offer/ai-solutions/responsible-ai.aspx"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Artificial Intelligence for Payroll and HR Overview,\" provides evidence for **fairness, governance, oversight, privacy, and transparency**. The document highlights the proactive review of AI use cases by an AI and Data Ethics Council to ensure fairness and ethical outcomes, demonstrating oversight. It also mentions built-in governance and privacy controls for data safeguarding and regulatory compliance, supporting the governance and privacy pillars, while the overall description of AI capabilities and responsible AI aspirations implies transparency.",
+          "title": "Artificial Intelligence for Payroll and HR Overview",
+          "url": "https://adp.com/what-we-offer/ai-solutions.aspx"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Capabilities for Payroll and HR,\" provides evidence for the **explainability**, **governance**, **privacy**, and **transparency** pillars of Responsible AI. It supports transparency and explainability by explicitly stating these features are \"built in\" for AI models and by detailing various AI capabilities and their applications. The page also indicates support for governance through mentions of \"compliance controls\" for AI systems and for privacy by referencing practices for \"protecting data\" used by AI.",
+          "title": "AI Capabilities for Payroll and HR",
+          "url": "https://adp.com/what-we-offer/ai-solutions/ai-capabilities.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, an interview with ADP's Chief Product and Technology Officer, provides evidence for **governance** and **transparency**. The article details ADP's practices such as mandatory ethics review processes for ML solutions, the creation of an AI Ethics board with external members, and continuous testing and monitoring of AI models, all of which demonstrate robust AI governance. Furthermore, the description of providing clients with information to use AI tools appropriately supports the transparency pillar.",
+          "title": "AI and Data Ethics: Accountability and Transparency",
+          "url": "https://adp.com/spark/articles/2021/01/ai-and-data-ethics-accountability-and-transparency.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Data Ethics: Ethical Use of Data,\" provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. It supports governance and external accountability through the mention of an AI & Data Ethics Board that reviews AI uses and involves independent third parties for validation. The post also reflects transparency and explainability aspirations by stating AI should inform human decisions, with decision-makers understanding limitations, and demonstrates privacy and governance integration through its emphasis on privacy and compliance by design.",
+          "title": "AI and Data Ethics: Ethical Use of Data",
+          "url": "https://adp.com/spark/articles/2021/01/ai-and-data-ethics-ethical-use-of-data.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Data Ethics: Privacy by Design,\" provides evidence for the pillars of **explainability, fairness, governance, privacy, and transparency**. The post supports these pillars by outlining ADP's commitment to integrating privacy and security into AI model development from the outset, mentioning AI ethics principles and an AI advisory board, and discussing a privacy impact assessment process for new products. It also highlights practices like limiting personal data used in AI models and aligning privacy practices with ADP's broader AI and data ethics framework, which directly relates to governance and privacy.",
+          "title": "AI and Data Ethics: Privacy by Design",
+          "url": "https://adp.com/spark/articles/2020/11/ai-and-data-ethics-privacy-by-design.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post from ADP provides evidence for the **governance** pillar of responsible AI. It highlights the establishment of an \"AI and Data Ethics Board\" and the development of \"guiding ethical principles\" to ensure responsible AI practices. The post also mentions a commitment to accountability, risk evaluation, and implementing processes for ethical AI development.",
+          "title": "AI and Data Ethics: 5 Principles to Consider",
+          "url": "https://adp.ca/en/resources/articles-and-insights/articles/a/ai-and-data-ethics-5-principles-to-consider.aspx"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"AI in HR: Five Use Cases You Should Know Guidebook,\" provides evidence for **external_accountability**, **fairness**, **governance**, and **oversight**. It supports **external_accountability** and **fairness** by detailing ADP's vendor criteria for responsible AI, which includes active AI ethics boards, regular bias testing, and independent third-party validation. The guidebook also supports **governance** through its emphasis on partnering with transparent vendors and its mention of responsible AI principles and partner commitments. Finally, it addresses **oversight** by stressing the essential role of human involvement in critical decisions, as generative AI is described as a human-dependent tool.",
+          "title": "AI in HR: Five Use Cases You Should Know Guidebook",
+          "url": "https://adp.com/-/media/adp/resourcehub/pdf/guidebooks/adp_mid-funnel_ai-guide-2_20240618.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Reimagining Work in the Age of Generative AI,\" provides evidence for external_accountability, governance, oversight, privacy, and transparency. It supports the privacy pillar by highlighting AI use subject to privacy laws and the importance of protecting confidential information. The post also touches on governance through its emphasis on employee education, AI guidelines, and employer responsibility for lawful AI use, while oversight is supported by the mention of human final decision-making. Finally, transparency is evidenced by the suggestion of pilot projects and diverse perspectives to understand AI's impact.",
+          "title": "Reimagining Work in the Age of Generative AI",
+          "url": "https://adp.ca/en/resources/articles-and-insights/articles/r/reimagining-work-in-the-age-of-generative-ai.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Trust,\" provides evidence for the pillars of fairness, governance, privacy, and transparency. It supports transparency and privacy by discussing consent, opt-out paths, and the exclusion of protected demographic data. The post also highlights governance and fairness through mentions of an AI ethics board, ongoing bias testing, and the duty to understand AI's discriminatory potential.",
+          "title": "AI and Trust",
+          "url": "https://rethinkq.adp.com/generative-ai-and-trust"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This co-branded blog post, \"Harnessing Artificial Intelligence in Three Key Steps,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The article discusses AI strategy, compliance, and localization, indicating governance considerations for AI deployment. It also mentions AI capabilities and decision-making, implying transparency and governance are relevant, and highlights AI capabilities for transparency by discussing how to address gaps.",
+          "title": "Harnessing Artificial Intelligence in Three Key Steps",
+          "url": "https://adp.com/resources/articles-and-insights/articles/h/harnessing-artificial-intelligence.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI in HR: The Power Duo Shaping Tomorrow's Workplace,\" provides evidence for the **fairness, governance, privacy, and transparency** pillars of responsible AI. The post indicates a commitment to these principles by mentioning \"Responsible AI\" and discussing concerns around algorithmic bias, data privacy, and transparency. It highlights the use of AI for predictive analytics in HR, contributing to transparency by offering insights, while also emphasizing human oversight across AI system lifecycles to address ethical considerations.",
+          "title": "AI in HR: The Power Duo Shaping Tomorrow's Workplace",
+          "url": "https://adp.com/spark/articles/2024/11/ai-in-hr-the-power-duo-shaping-tomorrows-workplace.aspx"
+        }
+      ],
+      "score": 2,
+      "source_count": 14
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 8,
+      "findings": "Policy documents emphasize human oversight for ML models and describe real-time monitoring of automated decisions. They also imply human oversight by highlighting AI's role in enhancing human decision-making. Help pages highlight the proactive review of AI use cases by an AI and Data Ethics Council, demonstrating oversight, while technical papers stress the essential role of human involvement in critical decisions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, ADP's Ethics in Artificial Intelligence Statement, provides evidence for explainability, external_accountability, fairness, governance, oversight, and transparency. It supports these pillars by discussing the explainability of ML models and providing information to clients, emphasizing human oversight for ML models, and mentioning mechanisms for monitoring bias and conducting risk assessments within governance structures. Furthermore, the document details the operational governance provided by an AI & Data Ethics Committee and describes real-time monitoring of automated decisions.",
+          "title": "ADP Ethics in Artificial Intelligence Statement",
+          "url": "https://adp.com/-/media/adp/redesign2018/pdf/data-privacy/ai-ethics-statement.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI at ADP,\" provides evidence for **external accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by mentioning bias evaluation and independent audits for fairness and accountability, an AI & Data Ethics Committee for governance, and AI models that cover oversight and governance. The document also implies human oversight by highlighting AI's role in enhancing human decision-making and supports privacy through mentions of privacy by design and data protection.",
+          "title": "Responsible AI at ADP",
+          "url": "https://adp.com/what-we-offer/ai-solutions/responsible-ai.aspx"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Artificial Intelligence for Payroll and HR Overview,\" provides evidence for **fairness, governance, oversight, privacy, and transparency**. The document highlights the proactive review of AI use cases by an AI and Data Ethics Council to ensure fairness and ethical outcomes, demonstrating oversight. It also mentions built-in governance and privacy controls for data safeguarding and regulatory compliance, supporting the governance and privacy pillars, while the overall description of AI capabilities and responsible AI aspirations implies transparency.",
+          "title": "Artificial Intelligence for Payroll and HR Overview",
+          "url": "https://adp.com/what-we-offer/ai-solutions.aspx"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"AI in HR: Five Use Cases You Should Know Guidebook,\" provides evidence for **external_accountability**, **fairness**, **governance**, and **oversight**. It supports **external_accountability** and **fairness** by detailing ADP's vendor criteria for responsible AI, which includes active AI ethics boards, regular bias testing, and independent third-party validation. The guidebook also supports **governance** through its emphasis on partnering with transparent vendors and its mention of responsible AI principles and partner commitments. Finally, it addresses **oversight** by stressing the essential role of human involvement in critical decisions, as generative AI is described as a human-dependent tool.",
+          "title": "AI in HR: Five Use Cases You Should Know Guidebook",
+          "url": "https://adp.com/-/media/adp/resourcehub/pdf/guidebooks/adp_mid-funnel_ai-guide-2_20240618.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Reimagining Work in the Age of Generative AI,\" provides evidence for external_accountability, governance, oversight, privacy, and transparency. It supports the privacy pillar by highlighting AI use subject to privacy laws and the importance of protecting confidential information. The post also touches on governance through its emphasis on employee education, AI guidelines, and employer responsibility for lawful AI use, while oversight is supported by the mention of human final decision-making. Finally, transparency is evidenced by the suggestion of pilot projects and diverse perspectives to understand AI's impact.",
+          "title": "Reimagining Work in the Age of Generative AI",
+          "url": "https://adp.ca/en/resources/articles-and-insights/articles/r/reimagining-work-in-the-age-of-generative-ai.aspx"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 18,
+      "findings": "Corporate privacy policy documents outline a commitment to privacy protection and \"Privacy by Design\" policies and standards. Policy documents and blog posts mention or emphasize privacy by design, data protection, and built-in privacy controls for data safeguarding. Blog posts also outline a commitment to integrating privacy and security into AI model development from the outset, discuss privacy impact assessments, and highlight practices like limiting personal data used in AI models, consent, opt-out paths, and the exclusion of protected demographic data.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This corporate privacy policy document, \"ADP Data Privacy and Artificial Intelligence,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing the use of rigorous principles and real-time operational monitoring for AI and automated decisions. The document also supports privacy by outlining its commitment to privacy protection and \"Privacy by Design\" policies and standards.",
+          "title": "ADP Data Privacy and Artificial Intelligence",
+          "url": "https://adp.com/about-adp/data-privacy.aspx"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI at ADP,\" provides evidence for **external accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by mentioning bias evaluation and independent audits for fairness and accountability, an AI & Data Ethics Committee for governance, and AI models that cover oversight and governance. The document also implies human oversight by highlighting AI's role in enhancing human decision-making and supports privacy through mentions of privacy by design and data protection.",
+          "title": "Responsible AI at ADP",
+          "url": "https://adp.com/what-we-offer/ai-solutions/responsible-ai.aspx"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Artificial Intelligence for Payroll and HR Overview,\" provides evidence for **fairness, governance, oversight, privacy, and transparency**. The document highlights the proactive review of AI use cases by an AI and Data Ethics Council to ensure fairness and ethical outcomes, demonstrating oversight. It also mentions built-in governance and privacy controls for data safeguarding and regulatory compliance, supporting the governance and privacy pillars, while the overall description of AI capabilities and responsible AI aspirations implies transparency.",
+          "title": "Artificial Intelligence for Payroll and HR Overview",
+          "url": "https://adp.com/what-we-offer/ai-solutions.aspx"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Capabilities for Payroll and HR,\" provides evidence for the **explainability**, **governance**, **privacy**, and **transparency** pillars of Responsible AI. It supports transparency and explainability by explicitly stating these features are \"built in\" for AI models and by detailing various AI capabilities and their applications. The page also indicates support for governance through mentions of \"compliance controls\" for AI systems and for privacy by referencing practices for \"protecting data\" used by AI.",
+          "title": "AI Capabilities for Payroll and HR",
+          "url": "https://adp.com/what-we-offer/ai-solutions/ai-capabilities.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Data Ethics: Ethical Use of Data,\" provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. It supports governance and external accountability through the mention of an AI & Data Ethics Board that reviews AI uses and involves independent third parties for validation. The post also reflects transparency and explainability aspirations by stating AI should inform human decisions, with decision-makers understanding limitations, and demonstrates privacy and governance integration through its emphasis on privacy and compliance by design.",
+          "title": "AI and Data Ethics: Ethical Use of Data",
+          "url": "https://adp.com/spark/articles/2021/01/ai-and-data-ethics-ethical-use-of-data.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Data Ethics: Privacy by Design,\" provides evidence for the pillars of **explainability, fairness, governance, privacy, and transparency**. The post supports these pillars by outlining ADP's commitment to integrating privacy and security into AI model development from the outset, mentioning AI ethics principles and an AI advisory board, and discussing a privacy impact assessment process for new products. It also highlights practices like limiting personal data used in AI models and aligning privacy practices with ADP's broader AI and data ethics framework, which directly relates to governance and privacy.",
+          "title": "AI and Data Ethics: Privacy by Design",
+          "url": "https://adp.com/spark/articles/2020/11/ai-and-data-ethics-privacy-by-design.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Reimagining Work in the Age of Generative AI,\" provides evidence for external_accountability, governance, oversight, privacy, and transparency. It supports the privacy pillar by highlighting AI use subject to privacy laws and the importance of protecting confidential information. The post also touches on governance through its emphasis on employee education, AI guidelines, and employer responsibility for lawful AI use, while oversight is supported by the mention of human final decision-making. Finally, transparency is evidenced by the suggestion of pilot projects and diverse perspectives to understand AI's impact.",
+          "title": "Reimagining Work in the Age of Generative AI",
+          "url": "https://adp.ca/en/resources/articles-and-insights/articles/r/reimagining-work-in-the-age-of-generative-ai.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Trust,\" provides evidence for the pillars of fairness, governance, privacy, and transparency. It supports transparency and privacy by discussing consent, opt-out paths, and the exclusion of protected demographic data. The post also highlights governance and fairness through mentions of an AI ethics board, ongoing bias testing, and the duty to understand AI's discriminatory potential.",
+          "title": "AI and Trust",
+          "url": "https://rethinkq.adp.com/generative-ai-and-trust"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI in HR: The Power Duo Shaping Tomorrow's Workplace,\" provides evidence for the **fairness, governance, privacy, and transparency** pillars of responsible AI. The post indicates a commitment to these principles by mentioning \"Responsible AI\" and discussing concerns around algorithmic bias, data privacy, and transparency. It highlights the use of AI for predictive analytics in HR, contributing to transparency by offering insights, while also emphasizing human oversight across AI system lifecycles to address ethical considerations.",
+          "title": "AI in HR: The Power Duo Shaping Tomorrow's Workplace",
+          "url": "https://adp.com/spark/articles/2024/11/ai-in-hr-the-power-duo-shaping-tomorrows-workplace.aspx"
+        }
+      ],
+      "score": 2,
+      "source_count": 9
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 23,
+      "findings": "Policy documents and blog posts describe providing clients with information to use AI tools appropriately. Help pages state that transparency features are built into AI models and describe various AI capabilities and their applications. Blog posts also discuss concerns around algorithmic bias, data privacy, and transparency, highlighting the use of AI for predictive analytics in HR to offer insights, and suggesting pilot projects and diverse perspectives to understand AI's impact.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, ADP's Ethics in Artificial Intelligence Statement, provides evidence for explainability, external_accountability, fairness, governance, oversight, and transparency. It supports these pillars by discussing the explainability of ML models and providing information to clients, emphasizing human oversight for ML models, and mentioning mechanisms for monitoring bias and conducting risk assessments within governance structures. Furthermore, the document details the operational governance provided by an AI & Data Ethics Committee and describes real-time monitoring of automated decisions.",
+          "title": "ADP Ethics in Artificial Intelligence Statement",
+          "url": "https://adp.com/-/media/adp/redesign2018/pdf/data-privacy/ai-ethics-statement.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI at ADP,\" provides evidence for **external accountability, fairness, governance, oversight, privacy, and transparency**. It supports these pillars by mentioning bias evaluation and independent audits for fairness and accountability, an AI & Data Ethics Committee for governance, and AI models that cover oversight and governance. The document also implies human oversight by highlighting AI's role in enhancing human decision-making and supports privacy through mentions of privacy by design and data protection.",
+          "title": "Responsible AI at ADP",
+          "url": "https://adp.com/what-we-offer/ai-solutions/responsible-ai.aspx"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Artificial Intelligence for Payroll and HR Overview,\" provides evidence for **fairness, governance, oversight, privacy, and transparency**. The document highlights the proactive review of AI use cases by an AI and Data Ethics Council to ensure fairness and ethical outcomes, demonstrating oversight. It also mentions built-in governance and privacy controls for data safeguarding and regulatory compliance, supporting the governance and privacy pillars, while the overall description of AI capabilities and responsible AI aspirations implies transparency.",
+          "title": "Artificial Intelligence for Payroll and HR Overview",
+          "url": "https://adp.com/what-we-offer/ai-solutions.aspx"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"AI Capabilities for Payroll and HR,\" provides evidence for the **explainability**, **governance**, **privacy**, and **transparency** pillars of Responsible AI. It supports transparency and explainability by explicitly stating these features are \"built in\" for AI models and by detailing various AI capabilities and their applications. The page also indicates support for governance through mentions of \"compliance controls\" for AI systems and for privacy by referencing practices for \"protecting data\" used by AI.",
+          "title": "AI Capabilities for Payroll and HR",
+          "url": "https://adp.com/what-we-offer/ai-solutions/ai-capabilities.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, an interview with ADP's Chief Product and Technology Officer, provides evidence for **governance** and **transparency**. The article details ADP's practices such as mandatory ethics review processes for ML solutions, the creation of an AI Ethics board with external members, and continuous testing and monitoring of AI models, all of which demonstrate robust AI governance. Furthermore, the description of providing clients with information to use AI tools appropriately supports the transparency pillar.",
+          "title": "AI and Data Ethics: Accountability and Transparency",
+          "url": "https://adp.com/spark/articles/2021/01/ai-and-data-ethics-accountability-and-transparency.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Data Ethics: Ethical Use of Data,\" provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. It supports governance and external accountability through the mention of an AI & Data Ethics Board that reviews AI uses and involves independent third parties for validation. The post also reflects transparency and explainability aspirations by stating AI should inform human decisions, with decision-makers understanding limitations, and demonstrates privacy and governance integration through its emphasis on privacy and compliance by design.",
+          "title": "AI and Data Ethics: Ethical Use of Data",
+          "url": "https://adp.com/spark/articles/2021/01/ai-and-data-ethics-ethical-use-of-data.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Data Ethics: Privacy by Design,\" provides evidence for the pillars of **explainability, fairness, governance, privacy, and transparency**. The post supports these pillars by outlining ADP's commitment to integrating privacy and security into AI model development from the outset, mentioning AI ethics principles and an AI advisory board, and discussing a privacy impact assessment process for new products. It also highlights practices like limiting personal data used in AI models and aligning privacy practices with ADP's broader AI and data ethics framework, which directly relates to governance and privacy.",
+          "title": "AI and Data Ethics: Privacy by Design",
+          "url": "https://adp.com/spark/articles/2020/11/ai-and-data-ethics-privacy-by-design.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Reimagining Work in the Age of Generative AI,\" provides evidence for external_accountability, governance, oversight, privacy, and transparency. It supports the privacy pillar by highlighting AI use subject to privacy laws and the importance of protecting confidential information. The post also touches on governance through its emphasis on employee education, AI guidelines, and employer responsibility for lawful AI use, while oversight is supported by the mention of human final decision-making. Finally, transparency is evidenced by the suggestion of pilot projects and diverse perspectives to understand AI's impact.",
+          "title": "Reimagining Work in the Age of Generative AI",
+          "url": "https://adp.ca/en/resources/articles-and-insights/articles/r/reimagining-work-in-the-age-of-generative-ai.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI and Trust,\" provides evidence for the pillars of fairness, governance, privacy, and transparency. It supports transparency and privacy by discussing consent, opt-out paths, and the exclusion of protected demographic data. The post also highlights governance and fairness through mentions of an AI ethics board, ongoing bias testing, and the duty to understand AI's discriminatory potential.",
+          "title": "AI and Trust",
+          "url": "https://rethinkq.adp.com/generative-ai-and-trust"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This co-branded blog post, \"Harnessing Artificial Intelligence in Three Key Steps,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The article discusses AI strategy, compliance, and localization, indicating governance considerations for AI deployment. It also mentions AI capabilities and decision-making, implying transparency and governance are relevant, and highlights AI capabilities for transparency by discussing how to address gaps.",
+          "title": "Harnessing Artificial Intelligence in Three Key Steps",
+          "url": "https://adp.com/resources/articles-and-insights/articles/h/harnessing-artificial-intelligence.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI in HR: The Power Duo Shaping Tomorrow's Workplace,\" provides evidence for the **fairness, governance, privacy, and transparency** pillars of responsible AI. The post indicates a commitment to these principles by mentioning \"Responsible AI\" and discussing concerns around algorithmic bias, data privacy, and transparency. It highlights the use of AI for predictive analytics in HR, contributing to transparency by offering insights, while also emphasizing human oversight across AI system lifecycles to address ethical considerations.",
+          "title": "AI in HR: The Power Duo Shaping Tomorrow's Workplace",
+          "url": "https://adp.com/spark/articles/2024/11/ai-in-hr-the-power-duo-shaping-tomorrows-workplace.aspx"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    }
+  },
+  "published_at": "2026-02-23T21:41:44Z",
+  "run_id": "20260202_203558_1529",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "ADP's public disclosures address all 7 evaluated responsible AI pillars, with documented evidence found for each. Operational practices are documented across six pillars, including transparency, where policy documents describe providing information to clients, and fairness, which mentions mechanisms for monitoring bias. Further operational practices include an emphasis on human oversight for machine learning models and the outlining of \"Privacy by Design\" policies and standards. Governance structures mention mechanisms for conducting risk assessments, and external accountability is supported by references to independent audits, while explainability is addressed at the policy level with documents discussing the explainability of ML models. These findings are based on a review of 15 publicly available sources.",
+    "pillars_operational": 6,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 66,
+    "total_sources_used": 14
+  }
+}

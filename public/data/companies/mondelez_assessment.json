@@ -1,0 +1,242 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Mondelez",
+  "company_slug": "mondelez",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 26,
+      "OPERATIONAL": 6,
+      "POLICY": 9
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Documentation describes how AI systems facilitate comprehension of their outputs. This includes helping analysts quickly understand events, their significance, and necessary actions.",
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This CrowdStrike customer case study provides evidence for the **explainability** and **transparency** pillars of responsible AI. The blog post highlights how Mondelēz International leveraged CrowdStrike's AI capabilities, specifically mentioning \"AI-generated parsers,\" to improve threat detection and response times. The narrative describes how these AI systems help analysts \"quickly understand what happened, why it matters, and what to do next,\" which directly supports explainability by detailing how the AI facilitates comprehension of its outputs.",
+          "title": "Mondelēz International Builds a Modern SOC with CrowdStrike",
+          "url": "https://crowdstrike.com/en-us/resources/customer-stories/mondelez-builds-modern-soc-with-crowdstrike-ai-powered-falcon"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Technical papers reference a commitment to a responsible AI framework for both ethical and legal compliance.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for several responsible AI pillars. It supports **governance** by detailing organizational structures like AI communities of practice and specific roles, as well as strategic approaches to AI procurement (build vs. buy) and vendor partnerships. The paper also touches on **transparency** through descriptions of AI system deployments, use cases like AI-driven recipe formulation and marketing platforms, and the mention of AI decision-making. Furthermore, it indicates **external accountability** by referencing a commitment to a responsible AI framework for ethical and legal compliance, and **fairness** through the mention of designing AI for \"ethical decision-making.\" Evidence for **oversight** is present in descriptions of human experts reviewing AI suggestions.",
+          "title": "Mondelez's AI Strategy: Analysis of Dominance in CPG",
+          "url": "https://klover.ai/mondelez-ai-strategy-analysis-of-dominance-in-consumer-packaged-goods-confectionery-snacks"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "Technical papers mention the design of AI for ethical decision-making.",
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for several responsible AI pillars. It supports **governance** by detailing organizational structures like AI communities of practice and specific roles, as well as strategic approaches to AI procurement (build vs. buy) and vendor partnerships. The paper also touches on **transparency** through descriptions of AI system deployments, use cases like AI-driven recipe formulation and marketing platforms, and the mention of AI decision-making. Furthermore, it indicates **external accountability** by referencing a commitment to a responsible AI framework for ethical and legal compliance, and **fairness** through the mention of designing AI for \"ethical decision-making.\" Evidence for **oversight** is present in descriptions of human experts reviewing AI suggestions.",
+          "title": "Mondelez's AI Strategy: Analysis of Dominance in CPG",
+          "url": "https://klover.ai/mondelez-ai-strategy-analysis-of-dominance-in-consumer-packaged-goods-confectionery-snacks"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 21,
+      "findings": "Press releases state a commitment to developing a generative AI platform within a responsible AI framework, indicating a formal approach to AI management and accountability. Reports highlight a commitment to responsible AI use by ensuring outputs adhere to brand principles and avoid harmful messaging. Documentation details the strategic alignment of AI with risk management and the involvement of CTO and CISO leadership. Technical papers further detail organizational structures like AI communities of practice, specific roles, and strategic approaches to AI procurement and vendor partnerships.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release from Accenture announces Mondelez International's commitment to developing a generative AI platform within a \"responsible AI framework.\" This explicitly supports the **governance** pillar by indicating a formal approach to AI management and accountability, though it represents a future commitment rather than an ongoing operation.",
+          "title": "Mondelez International Joins Forces with Accenture and Publicis Groupe to Advance AI",
+          "url": "https://newsroom.accenture.com/news/2024/mondelez-international-joins-forces-with-accenture-and-publicis-groupe-to-advance-ai-powered-marketing-capabilities"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This Food Dive report on Mondelez's AIDA generative AI tool provides evidence for **governance** and **oversight**. The report details the implementation of rules within the AI platform and a mandatory manual legal review process for all AI-generated content before market release, demonstrating robust oversight mechanisms. Furthermore, it highlights a commitment to responsible AI use by ensuring outputs adhere to brand principles and avoid harmful messaging, aligning with governance principles.",
+          "title": "How Oreo Maker Mondelez Is Rethinking Snack Marketing with AI",
+          "url": "https://fooddive.com/news/oreo-parent-mondelez-taps-artificial-intelligence-to-boost-marketing-reach/805491"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for governance, oversight, privacy, and transparency in responsible AI. It supports governance by detailing the strategic alignment of AI with risk management and the involvement of CTO and CISO leadership. Evidence for oversight is implied through the description of AI tools freeing human professionals for complex challenges. The post supports transparency by describing specific AI use cases for threat detection and behavioral analytics, and privacy by mentioning the tracking of user behavior and the protection of customer data.",
+          "title": "Mondelez Adopts AI and Cloud to Boost Cybersecurity Strategy",
+          "url": "https://treupartners.com/mondelez-adopts-ai-and-cloud-to-boost-cybersecurity-strategy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for several responsible AI pillars. It supports **governance** by detailing organizational structures like AI communities of practice and specific roles, as well as strategic approaches to AI procurement (build vs. buy) and vendor partnerships. The paper also touches on **transparency** through descriptions of AI system deployments, use cases like AI-driven recipe formulation and marketing platforms, and the mention of AI decision-making. Furthermore, it indicates **external accountability** by referencing a commitment to a responsible AI framework for ethical and legal compliance, and **fairness** through the mention of designing AI for \"ethical decision-making.\" Evidence for **oversight** is present in descriptions of human experts reviewing AI suggestions.",
+          "title": "Mondelez's AI Strategy: Analysis of Dominance in CPG",
+          "url": "https://klover.ai/mondelez-ai-strategy-analysis-of-dominance-in-consumer-packaged-goods-confectionery-snacks"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Documentation implies oversight through the description of AI tools freeing human professionals for complex challenges. Technical papers also describe human experts reviewing AI suggestions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This Food Dive report on Mondelez's AIDA generative AI tool provides evidence for **governance** and **oversight**. The report details the implementation of rules within the AI platform and a mandatory manual legal review process for all AI-generated content before market release, demonstrating robust oversight mechanisms. Furthermore, it highlights a commitment to responsible AI use by ensuring outputs adhere to brand principles and avoid harmful messaging, aligning with governance principles.",
+          "title": "How Oreo Maker Mondelez Is Rethinking Snack Marketing with AI",
+          "url": "https://fooddive.com/news/oreo-parent-mondelez-taps-artificial-intelligence-to-boost-marketing-reach/805491"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for governance, oversight, privacy, and transparency in responsible AI. It supports governance by detailing the strategic alignment of AI with risk management and the involvement of CTO and CISO leadership. Evidence for oversight is implied through the description of AI tools freeing human professionals for complex challenges. The post supports transparency by describing specific AI use cases for threat detection and behavioral analytics, and privacy by mentioning the tracking of user behavior and the protection of customer data.",
+          "title": "Mondelez Adopts AI and Cloud to Boost Cybersecurity Strategy",
+          "url": "https://treupartners.com/mondelez-adopts-ai-and-cloud-to-boost-cybersecurity-strategy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for several responsible AI pillars. It supports **governance** by detailing organizational structures like AI communities of practice and specific roles, as well as strategic approaches to AI procurement (build vs. buy) and vendor partnerships. The paper also touches on **transparency** through descriptions of AI system deployments, use cases like AI-driven recipe formulation and marketing platforms, and the mention of AI decision-making. Furthermore, it indicates **external accountability** by referencing a commitment to a responsible AI framework for ethical and legal compliance, and **fairness** through the mention of designing AI for \"ethical decision-making.\" Evidence for **oversight** is present in descriptions of human experts reviewing AI suggestions.",
+          "title": "Mondelez's AI Strategy: Analysis of Dominance in CPG",
+          "url": "https://klover.ai/mondelez-ai-strategy-analysis-of-dominance-in-consumer-packaged-goods-confectionery-snacks"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "Documentation mentions the tracking of user behavior and the protection of customer data.",
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for governance, oversight, privacy, and transparency in responsible AI. It supports governance by detailing the strategic alignment of AI with risk management and the involvement of CTO and CISO leadership. Evidence for oversight is implied through the description of AI tools freeing human professionals for complex challenges. The post supports transparency by describing specific AI use cases for threat detection and behavioral analytics, and privacy by mentioning the tracking of user behavior and the protection of customer data.",
+          "title": "Mondelez Adopts AI and Cloud to Boost Cybersecurity Strategy",
+          "url": "https://treupartners.com/mondelez-adopts-ai-and-cloud-to-boost-cybersecurity-strategy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for several responsible AI pillars. It supports **governance** by detailing organizational structures like AI communities of practice and specific roles, as well as strategic approaches to AI procurement (build vs. buy) and vendor partnerships. The paper also touches on **transparency** through descriptions of AI system deployments, use cases like AI-driven recipe formulation and marketing platforms, and the mention of AI decision-making. Furthermore, it indicates **external accountability** by referencing a commitment to a responsible AI framework for ethical and legal compliance, and **fairness** through the mention of designing AI for \"ethical decision-making.\" Evidence for **oversight** is present in descriptions of human experts reviewing AI suggestions.",
+          "title": "Mondelez's AI Strategy: Analysis of Dominance in CPG",
+          "url": "https://klover.ai/mondelez-ai-strategy-analysis-of-dominance-in-consumer-packaged-goods-confectionery-snacks"
+        }
+      ],
+      "score": 0,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 28,
+      "findings": "Mondelez's documentation describes specific AI use cases for threat detection and behavioral analytics. Technical papers also describe AI system deployments and use cases such as AI-driven recipe formulation and marketing platforms. Furthermore, these papers mention AI decision-making.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for governance, oversight, privacy, and transparency in responsible AI. It supports governance by detailing the strategic alignment of AI with risk management and the involvement of CTO and CISO leadership. Evidence for oversight is implied through the description of AI tools freeing human professionals for complex challenges. The post supports transparency by describing specific AI use cases for threat detection and behavioral analytics, and privacy by mentioning the tracking of user behavior and the protection of customer data.",
+          "title": "Mondelez Adopts AI and Cloud to Boost Cybersecurity Strategy",
+          "url": "https://treupartners.com/mondelez-adopts-ai-and-cloud-to-boost-cybersecurity-strategy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This CrowdStrike customer case study provides evidence for the **explainability** and **transparency** pillars of responsible AI. The blog post highlights how Mondelēz International leveraged CrowdStrike's AI capabilities, specifically mentioning \"AI-generated parsers,\" to improve threat detection and response times. The narrative describes how these AI systems help analysts \"quickly understand what happened, why it matters, and what to do next,\" which directly supports explainability by detailing how the AI facilitates comprehension of its outputs.",
+          "title": "Mondelēz International Builds a Modern SOC with CrowdStrike",
+          "url": "https://crowdstrike.com/en-us/resources/customer-stories/mondelez-builds-modern-soc-with-crowdstrike-ai-powered-falcon"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for several responsible AI pillars. It supports **governance** by detailing organizational structures like AI communities of practice and specific roles, as well as strategic approaches to AI procurement (build vs. buy) and vendor partnerships. The paper also touches on **transparency** through descriptions of AI system deployments, use cases like AI-driven recipe formulation and marketing platforms, and the mention of AI decision-making. Furthermore, it indicates **external accountability** by referencing a commitment to a responsible AI framework for ethical and legal compliance, and **fairness** through the mention of designing AI for \"ethical decision-making.\" Evidence for **oversight** is present in descriptions of human experts reviewing AI suggestions.",
+          "title": "Mondelez's AI Strategy: Analysis of Dominance in CPG",
+          "url": "https://klover.ai/mondelez-ai-strategy-analysis-of-dominance-in-consumer-packaged-goods-confectionery-snacks"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:55:38Z",
+  "run_id": "20260202_235005_7723",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Privacy & Security"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Mondelez's documentation describes specific AI use cases for threat detection and behavioral analytics, reflecting practices within the transparency pillar. These disclosures, drawn from 6 publicly available sources, contribute to evidence found across 4 of 7 evaluated responsible AI pillars. Published materials further indicate human experts review AI suggestions under the oversight pillar, and press releases state a commitment to developing a generative AI platform within a responsible AI framework, addressing governance. Additionally, technical papers reference a commitment to a responsible AI framework for ethical and legal compliance, covering external accountability; however, no qualifying public evidence was found for fairness, explainability, and 1 additional pillar.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 41,
+    "total_sources_used": 5
+  }
+}

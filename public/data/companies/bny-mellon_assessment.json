@@ -1,0 +1,329 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "BNY Mellon",
+  "company_slug": "bny-mellon",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 9,
+      "OPERATIONAL": 5,
+      "POLICY": 45
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 4,
+      "findings": "The company's policy document states a commitment to explaining AI use and making AI-informed decisions justifiable. Technical papers describe mandatory model-risk reviews that require interpretable outputs, feature importance charts, and SHAP values.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Our Commitment to the Responsible, Ethical Use of Data and AI,\" provides evidence for the **governance**, **fairness**, **explainability**, and **oversight** pillars of responsible AI. It supports governance by outlining AI lifecycle risk management and approval processes. Evidence for fairness is found in its commitment to identifying and mitigating bias and ensuring accuracy. The policy also supports explainability and oversight through its commitment to explaining AI use, ensuring human oversight, and making AI-informed decisions justifiable.",
+          "title": "Our Commitment to the Responsible, Ethical Use of Data and AI",
+          "url": "https://bny.com/corporate/global/en/about-us/technology-innovation/artificial-intelligence/data-ai-ethical-commitment.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper documents BNY Mellon's commitment to responsible AI, providing evidence for **explainability**, **governance**, and **transparency**. The paper highlights mandatory model-risk reviews requiring interpretable outputs, feature importance charts, and SHAP values for auditor transparency. Furthermore, it details the enforcement of policies through specific governance bodies like the Enterprise AI Council and Release Board, alongside operational mechanisms such as workforce training and AI solution deployment tracking.",
+          "title": "BNY Mellon Leverages XAI to Strengthen Financial Transparency",
+          "url": "https://aicerts.ai/news/bny-mellon-leverages-xai-to-strengthen-financial-transparency"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "Sources describe documented external accountability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external accountability**, **governance**, **privacy**, and **transparency**. It supports **governance** by detailing BNY Mellon's selection of Behavox's AI solution for compliance monitoring, indicating AI's use as a governance tool and mentioning a commitment to AI governance certifications. The source also supports **transparency** by highlighting the AI's explainable alert generation capabilities and **privacy** by noting BNY Mellon's control over its AI pipeline and a policy of no third-party dependency.",
+          "title": "BNY Mellon Selects Behavox for AI-Driven Compliance Monitoring",
+          "url": "https://behavox.com/behavox-selected-by-bny-mellon-to-provide-next-generation-ai-solution-for-its-compliance-program"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "A policy document states a commitment to identifying and mitigating bias in AI. It also states a commitment to ensuring the accuracy of AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Our Commitment to the Responsible, Ethical Use of Data and AI,\" provides evidence for the **governance**, **fairness**, **explainability**, and **oversight** pillars of responsible AI. It supports governance by outlining AI lifecycle risk management and approval processes. Evidence for fairness is found in its commitment to identifying and mitigating bias and ensuring accuracy. The policy also supports explainability and oversight through its commitment to explaining AI use, ensuring human oversight, and making AI-informed decisions justifiable.",
+          "title": "Our Commitment to the Responsible, Ethical Use of Data and AI",
+          "url": "https://bny.com/corporate/global/en/about-us/technology-innovation/artificial-intelligence/data-ai-ethical-commitment.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 51,
+      "findings": "The company outlines AI lifecycle risk management and approval processes, describing a multidisciplinary AI governance framework that spans the entire AI lifecycle and emphasizes governance as an operational requirement. It details the enforcement of policies through specific governance bodies and operational mechanisms, alongside a structured process for evaluating AI use cases and emphasizing responsible AI development through governance checks. The company demonstrates a commitment to AI governance through strategic priorities, including scaling its governance framework to support production AI use cases and managing AI capabilities and risk.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Our Commitment to the Responsible, Ethical Use of Data and AI,\" provides evidence for the **governance**, **fairness**, **explainability**, and **oversight** pillars of responsible AI. It supports governance by outlining AI lifecycle risk management and approval processes. Evidence for fairness is found in its commitment to identifying and mitigating bias and ensuring accuracy. The policy also supports explainability and oversight through its commitment to explaining AI use, ensuring human oversight, and making AI-informed decisions justifiable.",
+          "title": "Our Commitment to the Responsible, Ethical Use of Data and AI",
+          "url": "https://bny.com/corporate/global/en/about-us/technology-innovation/artificial-intelligence/data-ai-ethical-commitment.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This policy document, \"Personal Code of Conduct - Artificial Intelligence-Based Technologies Section,\" provides evidence for the **governance**, **oversight**, and **privacy** pillars. It establishes mandatory processes for AI/ML use, including model registration, validation, and maintenance, demonstrating strong governance. The policy also mandates human review of AI-generated output, ensuring oversight and accountability, and references existing data ethics and privacy policies, reinforcing its commitment to responsible AI practices.",
+          "title": "Personal Code of Conduct - Artificial Intelligence-Based Technologies Section",
+          "url": "https://sec.gov/Archives/edgar/data/1048702/000119312525030652/d837196dex9928p16.htm"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Artificial Intelligence at BNY - Strategic Platform and Governance,\" provides evidence for the **governance** pillar. It describes a multidisciplinary AI governance framework that spans the entire AI lifecycle, from development to deployment and monitoring, emphasizing governance as an operational requirement. The document highlights the existence of a robust governance framework for AI solutions and the Eliza enterprise platform, indicating a policy-level commitment to AI oversight.",
+          "title": "Artificial Intelligence at BNY - Strategic Platform and Governance",
+          "url": "https://bny.com/corporate/global/en/about-us/technology-innovation/artificial-intelligence.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The Bank of New York Mellon Corporation's 2024 Form 10-K filing provides evidence for **governance**, **oversight**, and **privacy**. The document discusses AI development and use as presenting risks that require robust risk management and governance, referencing a \"Risk Adjustment Process\" for awards and financial components, and detailing the operationalization of the EU AI Act's regulatory requirements. It also supports the **privacy** pillar by acknowledging data subject rights related to automated processing and data portability.",
+          "title": "The Bank of New York Mellon Corporation Form 10-K Fiscal Year 2024",
+          "url": "https://bny.com/assets/corporate/documents/pdf/investor-relations/form-10-k-2024.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper documents BNY Mellon's commitment to responsible AI, providing evidence for **explainability**, **governance**, and **transparency**. The paper highlights mandatory model-risk reviews requiring interpretable outputs, feature importance charts, and SHAP values for auditor transparency. Furthermore, it details the enforcement of policies through specific governance bodies like the Enterprise AI Council and Release Board, alongside operational mechanisms such as workforce training and AI solution deployment tracking.",
+          "title": "BNY Mellon Leverages XAI to Strengthen Financial Transparency",
+          "url": "https://aicerts.ai/news/bny-mellon-leverages-xai-to-strengthen-financial-transparency"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release announces a partnership focused on developing AI technologies with a strong emphasis on trust, governance, and accountability. The collaboration aims to create frameworks for mission-critical AI applications in financial services, directly supporting the **governance** pillar by detailing a commitment to robust oversight and responsible AI development.",
+          "title": "Bank of New York Mellon Partners with Carnegie Mellon University on AI Research",
+          "url": "https://finance.yahoo.com/news/bank-york-mellon-bk-partners-182708890.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This corporate insights article provides evidence for **governance**, **oversight**, and **transparency** by describing Eliza, an enterprise AI platform with a robust governance framework. The article details a structured process for evaluating AI use cases, including legal and regulatory considerations, and emphasizes responsible AI development through governance checks, human involvement, and technical safeguards. It also highlights aspirations for AI evolution with appropriate controls and human oversight, and mentions the active development and deployment of AI capabilities for risk management.",
+          "title": "Unlocking the AI Growth Multiplier - Enterprise AI Platform Governance",
+          "url": "https://bny.com/corporate/global/en/insights/unlocking-the-ai-growth-multiplier.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external accountability**, **governance**, **privacy**, and **transparency**. It supports **governance** by detailing BNY Mellon's selection of Behavox's AI solution for compliance monitoring, indicating AI's use as a governance tool and mentioning a commitment to AI governance certifications. The source also supports **transparency** by highlighting the AI's explainable alert generation capabilities and **privacy** by noting BNY Mellon's control over its AI pipeline and a policy of no third-party dependency.",
+          "title": "BNY Mellon Selects Behavox for AI-Driven Compliance Monitoring",
+          "url": "https://behavox.com/behavox-selected-by-bny-mellon-to-provide-next-generation-ai-solution-for-its-compliance-program"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights BNY's extensive AI platform training for nearly all employees, demonstrating governance through widespread AI capability development and a focus on safe and productive use. The document also supports transparency by detailing AI functions, controls, and the use of AI-assisted coding tools, indicating oversight and clear communication about system capabilities and AI tool usage.",
+          "title": "Engineering The Backbone Of Global Markets At BNY - AI Adoption Metrics",
+          "url": "https://forbes.com/sites/peterhigh/2026/01/09/engineering-the-backbone-of-global-markets-at-bny"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This corporate quarterly earnings presentation, \"BNY Quarterly Update Presentation Q4 2025 - AI Scale Metrics,\" provides evidence for **governance** and **transparency**. The presentation demonstrates a commitment to AI governance through its strategic priorities and the scaling of its governance framework to support hundreds of production AI use cases, including the deployment of 134 digital employees with identities and access controls. The mention of AI investments and capabilities, alongside managing capabilities and risk, implies a focus on transparency in their AI operations.",
+          "title": "BNY Quarterly Update Presentation Q4 2025 - AI Scale Metrics",
+          "url": "https://bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-4q-2025.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Policy documents state a commitment to ensuring human oversight and making AI-informed decisions justifiable. A policy document also mandates human review of AI-generated output. Additionally, an article emphasizes human involvement in responsible AI development and highlights aspirations for AI evolution with appropriate controls and human oversight.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Our Commitment to the Responsible, Ethical Use of Data and AI,\" provides evidence for the **governance**, **fairness**, **explainability**, and **oversight** pillars of responsible AI. It supports governance by outlining AI lifecycle risk management and approval processes. Evidence for fairness is found in its commitment to identifying and mitigating bias and ensuring accuracy. The policy also supports explainability and oversight through its commitment to explaining AI use, ensuring human oversight, and making AI-informed decisions justifiable.",
+          "title": "Our Commitment to the Responsible, Ethical Use of Data and AI",
+          "url": "https://bny.com/corporate/global/en/about-us/technology-innovation/artificial-intelligence/data-ai-ethical-commitment.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This policy document, \"Personal Code of Conduct - Artificial Intelligence-Based Technologies Section,\" provides evidence for the **governance**, **oversight**, and **privacy** pillars. It establishes mandatory processes for AI/ML use, including model registration, validation, and maintenance, demonstrating strong governance. The policy also mandates human review of AI-generated output, ensuring oversight and accountability, and references existing data ethics and privacy policies, reinforcing its commitment to responsible AI practices.",
+          "title": "Personal Code of Conduct - Artificial Intelligence-Based Technologies Section",
+          "url": "https://sec.gov/Archives/edgar/data/1048702/000119312525030652/d837196dex9928p16.htm"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This corporate insights article provides evidence for **governance**, **oversight**, and **transparency** by describing Eliza, an enterprise AI platform with a robust governance framework. The article details a structured process for evaluating AI use cases, including legal and regulatory considerations, and emphasizes responsible AI development through governance checks, human involvement, and technical safeguards. It also highlights aspirations for AI evolution with appropriate controls and human oversight, and mentions the active development and deployment of AI capabilities for risk management.",
+          "title": "Unlocking the AI Growth Multiplier - Enterprise AI Platform Governance",
+          "url": "https://bny.com/corporate/global/en/insights/unlocking-the-ai-growth-multiplier.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "Policy documents reference existing data ethics and privacy policies. Company filings acknowledge data subject rights related to automated processing and data portability. Press releases also note the company's control over its AI pipeline and a policy of no third-party dependency.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This policy document, \"Personal Code of Conduct - Artificial Intelligence-Based Technologies Section,\" provides evidence for the **governance**, **oversight**, and **privacy** pillars. It establishes mandatory processes for AI/ML use, including model registration, validation, and maintenance, demonstrating strong governance. The policy also mandates human review of AI-generated output, ensuring oversight and accountability, and references existing data ethics and privacy policies, reinforcing its commitment to responsible AI practices.",
+          "title": "Personal Code of Conduct - Artificial Intelligence-Based Technologies Section",
+          "url": "https://sec.gov/Archives/edgar/data/1048702/000119312525030652/d837196dex9928p16.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The Bank of New York Mellon Corporation's 2024 Form 10-K filing provides evidence for **governance**, **oversight**, and **privacy**. The document discusses AI development and use as presenting risks that require robust risk management and governance, referencing a \"Risk Adjustment Process\" for awards and financial components, and detailing the operationalization of the EU AI Act's regulatory requirements. It also supports the **privacy** pillar by acknowledging data subject rights related to automated processing and data portability.",
+          "title": "The Bank of New York Mellon Corporation Form 10-K Fiscal Year 2024",
+          "url": "https://bny.com/assets/corporate/documents/pdf/investor-relations/form-10-k-2024.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external accountability**, **governance**, **privacy**, and **transparency**. It supports **governance** by detailing BNY Mellon's selection of Behavox's AI solution for compliance monitoring, indicating AI's use as a governance tool and mentioning a commitment to AI governance certifications. The source also supports **transparency** by highlighting the AI's explainable alert generation capabilities and **privacy** by noting BNY Mellon's control over its AI pipeline and a policy of no third-party dependency.",
+          "title": "BNY Mellon Selects Behavox for AI-Driven Compliance Monitoring",
+          "url": "https://behavox.com/behavox-selected-by-bny-mellon-to-provide-next-generation-ai-solution-for-its-compliance-program"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 14,
+      "findings": "The company documents a commitment to explaining AI use. Technical papers describe mandatory model-risk reviews requiring interpretable outputs, feature importance charts, and SHAP values for auditor transparency. Press releases highlight AI's explainable alert generation capabilities and describe AI functions, controls, and the use of AI-assisted coding tools, indicating clear communication about system capabilities and AI tool usage.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Our Commitment to the Responsible, Ethical Use of Data and AI,\" provides evidence for the **governance**, **fairness**, **explainability**, and **oversight** pillars of responsible AI. It supports governance by outlining AI lifecycle risk management and approval processes. Evidence for fairness is found in its commitment to identifying and mitigating bias and ensuring accuracy. The policy also supports explainability and oversight through its commitment to explaining AI use, ensuring human oversight, and making AI-informed decisions justifiable.",
+          "title": "Our Commitment to the Responsible, Ethical Use of Data and AI",
+          "url": "https://bny.com/corporate/global/en/about-us/technology-innovation/artificial-intelligence/data-ai-ethical-commitment.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper documents BNY Mellon's commitment to responsible AI, providing evidence for **explainability**, **governance**, and **transparency**. The paper highlights mandatory model-risk reviews requiring interpretable outputs, feature importance charts, and SHAP values for auditor transparency. Furthermore, it details the enforcement of policies through specific governance bodies like the Enterprise AI Council and Release Board, alongside operational mechanisms such as workforce training and AI solution deployment tracking.",
+          "title": "BNY Mellon Leverages XAI to Strengthen Financial Transparency",
+          "url": "https://aicerts.ai/news/bny-mellon-leverages-xai-to-strengthen-financial-transparency"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This corporate insights article provides evidence for **governance**, **oversight**, and **transparency** by describing Eliza, an enterprise AI platform with a robust governance framework. The article details a structured process for evaluating AI use cases, including legal and regulatory considerations, and emphasizes responsible AI development through governance checks, human involvement, and technical safeguards. It also highlights aspirations for AI evolution with appropriate controls and human oversight, and mentions the active development and deployment of AI capabilities for risk management.",
+          "title": "Unlocking the AI Growth Multiplier - Enterprise AI Platform Governance",
+          "url": "https://bny.com/corporate/global/en/insights/unlocking-the-ai-growth-multiplier.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external accountability**, **governance**, **privacy**, and **transparency**. It supports **governance** by detailing BNY Mellon's selection of Behavox's AI solution for compliance monitoring, indicating AI's use as a governance tool and mentioning a commitment to AI governance certifications. The source also supports **transparency** by highlighting the AI's explainable alert generation capabilities and **privacy** by noting BNY Mellon's control over its AI pipeline and a policy of no third-party dependency.",
+          "title": "BNY Mellon Selects Behavox for AI-Driven Compliance Monitoring",
+          "url": "https://behavox.com/behavox-selected-by-bny-mellon-to-provide-next-generation-ai-solution-for-its-compliance-program"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights BNY's extensive AI platform training for nearly all employees, demonstrating governance through widespread AI capability development and a focus on safe and productive use. The document also supports transparency by detailing AI functions, controls, and the use of AI-assisted coding tools, indicating oversight and clear communication about system capabilities and AI tool usage.",
+          "title": "Engineering The Backbone Of Global Markets At BNY - AI Adoption Metrics",
+          "url": "https://forbes.com/sites/peterhigh/2026/01/09/engineering-the-backbone-of-global-markets-at-bny"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This corporate quarterly earnings presentation, \"BNY Quarterly Update Presentation Q4 2025 - AI Scale Metrics,\" provides evidence for **governance** and **transparency**. The presentation demonstrates a commitment to AI governance through its strategic priorities and the scaling of its governance framework to support hundreds of production AI use cases, including the deployment of 134 digital employees with identities and access controls. The mention of AI investments and capabilities, alongside managing capabilities and risk, implies a focus on transparency in their AI operations.",
+          "title": "BNY Quarterly Update Presentation Q4 2025 - AI Scale Metrics",
+          "url": "https://bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-4q-2025.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T21:45:15Z",
+  "run_id": "20260128_153403_8dec",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "BNY Mellon's technical papers describe mandatory model-risk reviews for transparency, requiring interpretable outputs, feature importance charts, and SHAP values for auditors. All 7 evaluated pillars have documented public evidence, with governance materials outlining a multidisciplinary AI governance framework that spans the entire AI lifecycle. Documented external accountability practices are also described in published materials. Policy commitments for fairness, explainability, oversight, and privacy are also present across these disclosures. The assessment draws on 17 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 59,
+    "total_sources_used": 10
+  }
+}

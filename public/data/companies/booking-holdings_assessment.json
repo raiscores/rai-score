@@ -1,0 +1,282 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "Booking",
+  "company_slug": "booking-holdings",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 20,
+      "OPERATIONAL": 31,
+      "POLICY": 49
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 8,
+      "findings": "The company details the use of Amazon SageMaker Clarify for generating explainability reports. This practice also supports interpretability of models.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This AWS blog post describes how Booking.com modernized its ML experimentation framework, introducing model explainability features through Amazon SageMaker Clarify. The blog post supports the **explainability** pillar by detailing the use of SageMaker Clarify for generating explainability reports and supporting interpretability. It also provides evidence for the **fairness** pillar by mentioning the use of \"bias metrics\" for analyzing models, and for the **transparency** pillar through its description of ML pipelines, tools, and algorithms used in their ML systems.",
+          "title": "AWS Blog: How Booking.com modernized its ML experimentation framework with Amazon SageMaker",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-booking-com-modernized-its-ml-experimentation-framework-with-amazon-sagemaker"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This audit report provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details Booking.com's compliance with the EU Digital Services Act, including the accuracy and testing of ML content moderation algorithms, transparency of recommender systems, and systemic risk management. The report highlights operational processes for human review, governance over automated decision-making, and privacy controls related to user data and profiling.",
+          "title": "2025 DSA Assurance Report (Algorithmic Content Moderation and Recommender Systems)",
+          "url": "https://q-xx.bstatic.com/data/mobile/2025%20-%20Audit%20report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 13,
+      "findings": "The company details its compliance with the EU Digital Services Act. This includes detailing systemic risk management practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This audit report provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details Booking.com's compliance with the EU Digital Services Act, including the accuracy and testing of ML content moderation algorithms, transparency of recommender systems, and systemic risk management. The report highlights operational processes for human review, governance over automated decision-making, and privacy controls related to user data and profiling.",
+          "title": "2025 DSA Assurance Report (Algorithmic Content Moderation and Recommender Systems)",
+          "url": "https://q-xx.bstatic.com/data/mobile/2025%20-%20Audit%20report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 4,
+      "findings": "The company mentions the use of bias metrics for analyzing models and explicitly states that AI systems are assessed against data protection principles. Practices for preventing harm and biases in AI systems are mentioned, and the accuracy and testing of ML content moderation algorithms are detailed.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This AWS blog post describes how Booking.com modernized its ML experimentation framework, introducing model explainability features through Amazon SageMaker Clarify. The blog post supports the **explainability** pillar by detailing the use of SageMaker Clarify for generating explainability reports and supporting interpretability. It also provides evidence for the **fairness** pillar by mentioning the use of \"bias metrics\" for analyzing models, and for the **transparency** pillar through its description of ML pipelines, tools, and algorithms used in their ML systems.",
+          "title": "AWS Blog: How Booking.com modernized its ML experimentation framework with Amazon SageMaker",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-booking-com-modernized-its-ml-experimentation-framework-with-amazon-sagemaker"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It supports **transparency** by explicitly mentioning AI and automated decision-making for various functions like trip planning and fraud detection, and by committing to inform users about changes to solely automated significant decisions. The document also supports **privacy** by referencing data retention limits and discussing the use of personal data for AI training and fraud detection, while **governance** is indicated through discussions of data sharing with third parties and decision-making processes for content moderation. Furthermore, **oversight** is evidenced by descriptions of human input and review for AI-made decisions and monitoring for fraud prevention. Finally, **fairness** is supported by explicit mentions of assessing AI systems against data protection principles and preventing harm and biases.",
+          "title": "Privacy & Cookie Statement (AI Transparency and Automated Decision-Making)",
+          "url": "https://booking.com/content/privacy.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This audit report provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details Booking.com's compliance with the EU Digital Services Act, including the accuracy and testing of ML content moderation algorithms, transparency of recommender systems, and systemic risk management. The report highlights operational processes for human review, governance over automated decision-making, and privacy controls related to user data and profiling.",
+          "title": "2025 DSA Assurance Report (Algorithmic Content Moderation and Recommender Systems)",
+          "url": "https://q-xx.bstatic.com/data/mobile/2025%20-%20Audit%20report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 42,
+      "findings": "The company indicates discussions of data sharing with third parties and decision-making processes for content moderation. It details the design and factors of its Default Ranking algorithm and highlights governance over automated decision-making. Furthermore, the Board's oversight of AI strategy and the Cybersecurity Subcommittee's role in managing AI-related risks are detailed.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It supports **transparency** by explicitly mentioning AI and automated decision-making for various functions like trip planning and fraud detection, and by committing to inform users about changes to solely automated significant decisions. The document also supports **privacy** by referencing data retention limits and discussing the use of personal data for AI training and fraud detection, while **governance** is indicated through discussions of data sharing with third parties and decision-making processes for content moderation. Furthermore, **oversight** is evidenced by descriptions of human input and review for AI-made decisions and monitoring for fraud prevention. Finally, **fairness** is supported by explicit mentions of assessing AI systems against data protection principles and preventing harm and biases.",
+          "title": "Privacy & Cookie Statement (AI Transparency and Automated Decision-Making)",
+          "url": "https://booking.com/content/privacy.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The \"Business Travel Agreement (Default Ranking Algorithm Disclosure)\" document provides evidence for the **governance** and **transparency** pillars. It supports governance by detailing the design and factors of the Default Ranking algorithm, demonstrating oversight. The document enhances transparency by explicitly disclosing the algorithm's components, which include visitor popularity, customer service history, booking data, and commission-related metrics, to business partners.",
+          "title": "Business Travel Agreement (Default Ranking Algorithm Disclosure)",
+          "url": "https://business.booking.com/assets/file/bookingcom-business-travel-agreement-final-20230512-en-us-20230725.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This audit report provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details Booking.com's compliance with the EU Digital Services Act, including the accuracy and testing of ML content moderation algorithms, transparency of recommender systems, and systemic risk management. The report highlights operational processes for human review, governance over automated decision-making, and privacy controls related to user data and profiling.",
+          "title": "2025 DSA Assurance Report (Algorithmic Content Moderation and Recommender Systems)",
+          "url": "https://q-xx.bstatic.com/data/mobile/2025%20-%20Audit%20report.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance** and **transparency**. It supports governance by detailing the Board's oversight of AI strategy and the Cybersecurity Subcommittee's role in managing AI-related risks, indicating accountability and strategic decision-making for AI adoption. The document supports transparency by disclosing AI capabilities, mentioning specific GenAI launches and partnerships, and describing the integration of AI into offerings and operations.",
+          "title": "2025 Proxy Statement (Board Oversight of AI Initiatives)",
+          "url": "https://sec.gov/Archives/edgar/data/1075531/000130817925000476/bkng013642-def14a.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 20,
+      "findings": "The company provides descriptions of human input and review for AI-made decisions. It also describes monitoring practices for fraud prevention and highlights operational processes for human review.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It supports **transparency** by explicitly mentioning AI and automated decision-making for various functions like trip planning and fraud detection, and by committing to inform users about changes to solely automated significant decisions. The document also supports **privacy** by referencing data retention limits and discussing the use of personal data for AI training and fraud detection, while **governance** is indicated through discussions of data sharing with third parties and decision-making processes for content moderation. Furthermore, **oversight** is evidenced by descriptions of human input and review for AI-made decisions and monitoring for fraud prevention. Finally, **fairness** is supported by explicit mentions of assessing AI systems against data protection principles and preventing harm and biases.",
+          "title": "Privacy & Cookie Statement (AI Transparency and Automated Decision-Making)",
+          "url": "https://booking.com/content/privacy.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This audit report provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details Booking.com's compliance with the EU Digital Services Act, including the accuracy and testing of ML content moderation algorithms, transparency of recommender systems, and systemic risk management. The report highlights operational processes for human review, governance over automated decision-making, and privacy controls related to user data and profiling.",
+          "title": "2025 DSA Assurance Report (Algorithmic Content Moderation and Recommender Systems)",
+          "url": "https://q-xx.bstatic.com/data/mobile/2025%20-%20Audit%20report.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 19,
+      "findings": "The company references data retention limits and discusses the use of personal data for AI training and fraud detection. Privacy controls related to user data and profiling are also highlighted.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It supports **transparency** by explicitly mentioning AI and automated decision-making for various functions like trip planning and fraud detection, and by committing to inform users about changes to solely automated significant decisions. The document also supports **privacy** by referencing data retention limits and discussing the use of personal data for AI training and fraud detection, while **governance** is indicated through discussions of data sharing with third parties and decision-making processes for content moderation. Furthermore, **oversight** is evidenced by descriptions of human input and review for AI-made decisions and monitoring for fraud prevention. Finally, **fairness** is supported by explicit mentions of assessing AI systems against data protection principles and preventing harm and biases.",
+          "title": "Privacy & Cookie Statement (AI Transparency and Automated Decision-Making)",
+          "url": "https://booking.com/content/privacy.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This audit report provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details Booking.com's compliance with the EU Digital Services Act, including the accuracy and testing of ML content moderation algorithms, transparency of recommender systems, and systemic risk management. The report highlights operational processes for human review, governance over automated decision-making, and privacy controls related to user data and profiling.",
+          "title": "2025 DSA Assurance Report (Algorithmic Content Moderation and Recommender Systems)",
+          "url": "https://q-xx.bstatic.com/data/mobile/2025%20-%20Audit%20report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 56,
+      "findings": "The company describes its ML pipelines, tools, and algorithms, and explicitly mentions AI and automated decision-making for various functions. It commits to informing users about changes to solely automated significant decisions and discloses the components of its Default Ranking algorithm to business partners. Furthermore, the company describes its generative AI features and their intended functions, outlines its approach to ethical AI development, and details the transparency of its recommender systems, including disclosures of AI capabilities and GenAI initiatives.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This AWS blog post describes how Booking.com modernized its ML experimentation framework, introducing model explainability features through Amazon SageMaker Clarify. The blog post supports the **explainability** pillar by detailing the use of SageMaker Clarify for generating explainability reports and supporting interpretability. It also provides evidence for the **fairness** pillar by mentioning the use of \"bias metrics\" for analyzing models, and for the **transparency** pillar through its description of ML pipelines, tools, and algorithms used in their ML systems.",
+          "title": "AWS Blog: How Booking.com modernized its ML experimentation framework with Amazon SageMaker",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-booking-com-modernized-its-ml-experimentation-framework-with-amazon-sagemaker"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It supports **transparency** by explicitly mentioning AI and automated decision-making for various functions like trip planning and fraud detection, and by committing to inform users about changes to solely automated significant decisions. The document also supports **privacy** by referencing data retention limits and discussing the use of personal data for AI training and fraud detection, while **governance** is indicated through discussions of data sharing with third parties and decision-making processes for content moderation. Furthermore, **oversight** is evidenced by descriptions of human input and review for AI-made decisions and monitoring for fraud prevention. Finally, **fairness** is supported by explicit mentions of assessing AI systems against data protection principles and preventing harm and biases.",
+          "title": "Privacy & Cookie Statement (AI Transparency and Automated Decision-Making)",
+          "url": "https://booking.com/content/privacy.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The \"Business Travel Agreement (Default Ranking Algorithm Disclosure)\" document provides evidence for the **governance** and **transparency** pillars. It supports governance by detailing the design and factors of the Default Ranking algorithm, demonstrating oversight. The document enhances transparency by explicitly disclosing the algorithm's components, which include visitor popularity, customer service history, booking data, and commission-related metrics, to business partners.",
+          "title": "Business Travel Agreement (Default Ranking Algorithm Disclosure)",
+          "url": "https://business.booking.com/assets/file/bookingcom-business-travel-agreement-final-20230512-en-us-20230725.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** pillar of responsible AI. It describes the company's generative AI features, such as Smart Filter and Property Q&A, and their intended functions, illustrating customer-facing communication about AI capabilities. The announcement also highlights the company's commitment to ethical, safe, and inclusive AI development, further supporting transparency by outlining their approach to AI.",
+          "title": "Press Release: AI-Powered Features Launch (GenAI Transparency and Safety)",
+          "url": "https://news.booking.com/bookingcom-enhances-travel-planning-with-new-ai-powered-features--for-easier-smarter-decisions"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This audit report provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. It details Booking.com's compliance with the EU Digital Services Act, including the accuracy and testing of ML content moderation algorithms, transparency of recommender systems, and systemic risk management. The report highlights operational processes for human review, governance over automated decision-making, and privacy controls related to user data and profiling.",
+          "title": "2025 DSA Assurance Report (Algorithmic Content Moderation and Recommender Systems)",
+          "url": "https://q-xx.bstatic.com/data/mobile/2025%20-%20Audit%20report.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance** and **transparency**. It supports governance by detailing the Board's oversight of AI strategy and the Cybersecurity Subcommittee's role in managing AI-related risks, indicating accountability and strategic decision-making for AI adoption. The document supports transparency by disclosing AI capabilities, mentioning specific GenAI launches and partnerships, and describing the integration of AI into offerings and operations.",
+          "title": "2025 Proxy Statement (Board Oversight of AI Initiatives)",
+          "url": "https://sec.gov/Archives/edgar/data/1075531/000130817925000476/bkng013642-def14a.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T21:45:28Z",
+  "run_id": "20260202_204312_0bfb",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Based on 10 publicly available sources, Booking's published materials address all 7 evaluated pillars, with documented public evidence found for each. At the operational level, transparency disclosures describe the ML pipelines, tools, and algorithms used in ML systems, while oversight practices include descriptions of human input and review for AI-made decisions. Governance materials indicate discussions of data sharing with third parties. Additionally, policy-level evidence is present for fairness, explainability, privacy, and external accountability, with fairness policies mentioning the use of \"bias metrics\" for analyzing models and explainability practices detailing the use of Amazon SageMaker Clarify for generating explainability reports.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 100,
+    "total_sources_used": 6
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "StoneX",
+  "company_slug": "stonex",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 1,
+      "OPERATIONAL": 1,
+      "POLICY": 1
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 2,
+      "findings": "A CFTC enforcement order references insufficient monitoring systems for supervisory compliance. This order indicates a deficiency in operational oversight.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This CFTC enforcement order against StoneX Markets LLC provides evidence for the **governance** and **oversight** pillars. The order highlights failures in implementing consistent pre-trade mid-market mark (PTMMM) calculations and inadequate training and monitoring of associated persons, demonstrating a lack of robust governance over pricing methodologies and compliance. Furthermore, the report points to insufficient monitoring systems for supervisory compliance, indicating a deficiency in operational oversight.",
+          "title": "CFTC Order: StoneX Markets LLC Supervision and Disclosure Violations",
+          "url": "https://cftc.gov/media/9261/enfstonexmarketsorder092023/download"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "A CFTC enforcement order references insufficient monitoring systems for supervisory compliance. This order indicates a deficiency in operational oversight.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This CFTC enforcement order against StoneX Markets LLC provides evidence for the **governance** and **oversight** pillars. The order highlights failures in implementing consistent pre-trade mid-market mark (PTMMM) calculations and inadequate training and monitoring of associated persons, demonstrating a lack of robust governance over pricing methodologies and compliance. Furthermore, the report points to insufficient monitoring systems for supervisory compliance, indicating a deficiency in operational oversight.",
+          "title": "CFTC Order: StoneX Markets LLC Supervision and Disclosure Violations",
+          "url": "https://cftc.gov/media/9261/enfstonexmarketsorder092023/download"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Transparency",
+      "evidence_count": 1,
+      "findings": "The \"StoneX Algorithmic Trading Definition and Strategy Guide\" mentions the application of AI/ML technologies for market analysis. It states that AI/ML is used for adapting to trends and monitoring news.",
+      "max_score": 2,
+      "path_to_improvement": "Document AI systems in use, including vendor/third-party AI tools.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"StoneX Algorithmic Trading Definition and Strategy Guide,\" provides evidence for the **transparency** pillar. It mentions the use of AI/ML for market analysis, such as adapting to trends and monitoring news, which contributes to transparency by indicating the application of these technologies. However, the guide does not detail the execution of these AI/ML models or outline formal commitments regarding their use.",
+          "title": "StoneX Algorithmic Trading Definition and Strategy Guide",
+          "url": "https://stonex.com/en/financial-glossary/algorithmic-trading"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-02-23T21:58:57Z",
+  "run_id": "20260203_015302_2d21",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "StoneX's public disclosures address oversight and governance, referencing a CFTC enforcement order that cited insufficient monitoring systems for supervisory compliance. These are the only two of seven evaluated responsible AI pillars with documented evidence, based on a review of 10 publicly available sources. No qualifying public evidence was found for the majority of the 7 evaluated pillars.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 2,
+    "pillars_without_evidence": 5,
+    "total_evidence_items": 3,
+    "total_sources_used": 2
+  }
+}

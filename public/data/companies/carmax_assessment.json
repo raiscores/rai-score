@@ -1,0 +1,307 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "CarMax",
+  "company_slug": "carmax",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 12,
+      "OPERATIONAL": 14,
+      "POLICY": 21
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Blog posts reference regulatory compliance.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **transparency**, **governance**, **oversight**, and **privacy**. It supports transparency by detailing CarMax's AI content generation system and its capabilities. Evidence for governance and oversight is found in the description of the editorial approval process for AI-generated content, ensuring quality standards are met. The source also mentions AI, privacy, governance, and regulatory compliance, indicating a commitment to these areas.",
+          "title": "How CarMax's AI Creates More Content in One Day Than Teams Produced in Years",
+          "url": "https://chiefaiofficer.com/blog/blog/how-carmaxs-ai-creates-more-content-in-one-day-than-teams-produced-in-years"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 39,
+      "findings": "Blog posts describe CarMax's AI Center of Excellence, the establishment of a formal AI governance model and policy, and an AI governance structure including a Use Case Advisory Team. These posts also describe structured review processes and guidelines for AI development and deployment, referencing the evolution of data governance into AI governance and foundational data quality practices. A proxy statement describes the Technology and Innovation Committee's involvement in the governance of automated decision-making processes, while reports reference a strategic focus on improving AI governance through data quality, stewardship, and management practices. Press releases reference the strengthening of governance structures, the designation of a working group for oversight, and the integration of AI into enterprise risk management processes.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"CarMax 2024 Responsibility Report,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. It details CarMax's establishment of a dedicated AI governance working group and a formal policy framework for AI governance and data protection, demonstrating strong governance and oversight mechanisms. Furthermore, the report highlights cybersecurity efforts that consider AI impacts and leverage data protection within AI use cases, supporting the privacy pillar, while also mentioning an AI landscape review which can contribute to transparency.",
+          "title": "CarMax 2024 Responsibility Report",
+          "url": "https://investors.carmax.com/files/doc_downloads/2024/06/carmax_2024-responsibility-report_6-7-2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post details CarMax's AI Center of Excellence, which supports **governance** by establishing a formal AI governance model and policy, ensuring AI innovation aligns with company values. It also provides evidence for **transparency** by describing the center's role in offering guidelines on responsible AI use and education on AI risks, implying a commitment to open practices and understanding of AI systems.",
+          "title": "How CarMax organized and scaled innovation with Microsoft AI Solutions",
+          "url": "https://microsoft.com/en-us/microsoft-cloud/blog/2024/01/22/how-carmax-organized-and-scaled-innovation-with-microsoft-ai-sol"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It describes CarMax's AI governance structure, including a Use Case Advisory Team and an AI Center of Excellence, which aims to ensure responsible and safe AI use through structured review processes and guidelines for AI development and deployment. The post also mentions specific AI use cases, contributing to transparency by illustrating how AI is being applied within the organization.",
+          "title": "CarMax CTO: Advice on Setting Product Teams Up for Success",
+          "url": "https://innovationleader.com/automotive/shamim-mohammad-carmax"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights the evolution of data governance into AI governance, emphasizing foundational data quality and governance practices necessary for responsible AI implementation. The conversation also details the integration of governance into AI deployment processes and continuous improvement of governance frameworks, while demonstrating transparency through discussions of AI-driven tools for customer experience, process automation, associate support, AI-powered analytics, and the use of AI-powered chatbots.",
+          "title": "Gen AI Present and Future: A Conversation with Shamim Mohammad",
+          "url": "https://greylock.com/greymatter/gen-ai-present-and-future-carmax"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the **governance** and **privacy** pillars of responsible AI. It details the oversight responsibilities of the Technology and Innovation Committee, which is comprised of independent directors and tasked with overseeing AI trends, data science, machine learning, and related risks, including data privacy. The document outlines the committee's role in receiving regular updates on AI risks and security posture, and its involvement in the governance of automated decision-making processes.",
+          "title": "CarMax 2025 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/1170010/000117001025000073/kmx-20250507.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This third-party report on CarMax's data infrastructure revamp provides evidence for the **governance** and **privacy** pillars of responsible AI. The report highlights CarMax's strategic focus on improving AI governance through data quality, stewardship, and management practices, indicating a policy-level commitment to these areas. Furthermore, the emphasis on governing principles for data, such as retention and monitoring, directly supports the privacy pillar by outlining necessary controls for responsible data handling.",
+          "title": "CarMax cruises into generative AI after revamping data infrastructure",
+          "url": "https://ciodive.com/news/carmax-generative-ai-modernize-data-infrastructure/749045"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **transparency**, **governance**, **oversight**, and **privacy**. It supports transparency by detailing CarMax's AI content generation system and its capabilities. Evidence for governance and oversight is found in the description of the editorial approval process for AI-generated content, ensuring quality standards are met. The source also mentions AI, privacy, governance, and regulatory compliance, indicating a commitment to these areas.",
+          "title": "How CarMax's AI Creates More Content in One Day Than Teams Produced in Years",
+          "url": "https://chiefaiofficer.com/blog/blog/how-carmaxs-ai-creates-more-content-in-one-day-than-teams-produced-in-years"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This third-party report on CarMax's AI investments provides evidence for **governance** and **transparency**. It supports transparency by listing specific generative AI use cases and mentioning the deployment of AI systems like Skye and Copilot. Evidence for governance is found in the description of AI use for contract review and the mention of specific AI systems, suggesting operational deployment and potential executive oversight.",
+          "title": "CarMax leans on AI, tech investments to trim $150M in costs",
+          "url": "https://ciodive.com/news/CarMax-AI-technology-investments-cost-savings/801856"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** pillar of responsible AI. It highlights CarMax's commitment to responsible AI through the strengthening of their governance structures, including the designation of a working group for oversight and the integration of AI into enterprise risk management processes. The announcement also mentions the establishment of an AI Center of Excellence, further demonstrating a formal approach to AI oversight.",
+          "title": "CarMax Releases 2024 Responsibility Report Press Release",
+          "url": "https://investors.carmax.com/news-and-events/news/news-details/2024/CarMax-Releases-2024-Responsibility-Report/default.aspx"
+        }
+      ],
+      "score": 2,
+      "source_count": 9
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Blog posts describe an editorial approval process for AI-generated content.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"CarMax 2024 Responsibility Report,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. It details CarMax's establishment of a dedicated AI governance working group and a formal policy framework for AI governance and data protection, demonstrating strong governance and oversight mechanisms. Furthermore, the report highlights cybersecurity efforts that consider AI impacts and leverage data protection within AI use cases, supporting the privacy pillar, while also mentioning an AI landscape review which can contribute to transparency.",
+          "title": "CarMax 2024 Responsibility Report",
+          "url": "https://investors.carmax.com/files/doc_downloads/2024/06/carmax_2024-responsibility-report_6-7-2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **transparency**, **governance**, **oversight**, and **privacy**. It supports transparency by detailing CarMax's AI content generation system and its capabilities. Evidence for governance and oversight is found in the description of the editorial approval process for AI-generated content, ensuring quality standards are met. The source also mentions AI, privacy, governance, and regulatory compliance, indicating a commitment to these areas.",
+          "title": "How CarMax's AI Creates More Content in One Day Than Teams Produced in Years",
+          "url": "https://chiefaiofficer.com/blog/blog/how-carmaxs-ai-creates-more-content-in-one-day-than-teams-produced-in-years"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 8,
+      "findings": "A responsibility report references cybersecurity efforts that consider AI impacts and leveraging data protection within AI use cases. A proxy statement describes the oversight responsibilities of the Technology and Innovation Committee, including data privacy, and outlines its role in receiving regular updates on AI risks and security posture. Reports also outline governing principles for data, such as retention and monitoring, and blog posts reference AI, privacy, governance, and regulatory compliance.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"CarMax 2024 Responsibility Report,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. It details CarMax's establishment of a dedicated AI governance working group and a formal policy framework for AI governance and data protection, demonstrating strong governance and oversight mechanisms. Furthermore, the report highlights cybersecurity efforts that consider AI impacts and leverage data protection within AI use cases, supporting the privacy pillar, while also mentioning an AI landscape review which can contribute to transparency.",
+          "title": "CarMax 2024 Responsibility Report",
+          "url": "https://investors.carmax.com/files/doc_downloads/2024/06/carmax_2024-responsibility-report_6-7-2024.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the **governance** and **privacy** pillars of responsible AI. It details the oversight responsibilities of the Technology and Innovation Committee, which is comprised of independent directors and tasked with overseeing AI trends, data science, machine learning, and related risks, including data privacy. The document outlines the committee's role in receiving regular updates on AI risks and security posture, and its involvement in the governance of automated decision-making processes.",
+          "title": "CarMax 2025 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/1170010/000117001025000073/kmx-20250507.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This third-party report on CarMax's data infrastructure revamp provides evidence for the **governance** and **privacy** pillars of responsible AI. The report highlights CarMax's strategic focus on improving AI governance through data quality, stewardship, and management practices, indicating a policy-level commitment to these areas. Furthermore, the emphasis on governing principles for data, such as retention and monitoring, directly supports the privacy pillar by outlining necessary controls for responsible data handling.",
+          "title": "CarMax cruises into generative AI after revamping data infrastructure",
+          "url": "https://ciodive.com/news/carmax-generative-ai-modernize-data-infrastructure/749045"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **transparency**, **governance**, **oversight**, and **privacy**. It supports transparency by detailing CarMax's AI content generation system and its capabilities. Evidence for governance and oversight is found in the description of the editorial approval process for AI-generated content, ensuring quality standards are met. The source also mentions AI, privacy, governance, and regulatory compliance, indicating a commitment to these areas.",
+          "title": "How CarMax's AI Creates More Content in One Day Than Teams Produced in Years",
+          "url": "https://chiefaiofficer.com/blog/blog/how-carmaxs-ai-creates-more-content-in-one-day-than-teams-produced-in-years"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 19,
+      "findings": "A responsibility report references an AI landscape review. Blog posts describe the AI Center of Excellence's role in offering guidelines on responsible AI use and education on AI risks. Various blog posts and reports reference specific AI use cases, including AI-driven tools for customer experience, process automation, associate support, AI-powered analytics, AI-powered chatbots, and CarMax's AI content generation system and its capabilities. Reports also reference the deployment of AI systems like Skye and Copilot.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"CarMax 2024 Responsibility Report,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. It details CarMax's establishment of a dedicated AI governance working group and a formal policy framework for AI governance and data protection, demonstrating strong governance and oversight mechanisms. Furthermore, the report highlights cybersecurity efforts that consider AI impacts and leverage data protection within AI use cases, supporting the privacy pillar, while also mentioning an AI landscape review which can contribute to transparency.",
+          "title": "CarMax 2024 Responsibility Report",
+          "url": "https://investors.carmax.com/files/doc_downloads/2024/06/carmax_2024-responsibility-report_6-7-2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post details CarMax's AI Center of Excellence, which supports **governance** by establishing a formal AI governance model and policy, ensuring AI innovation aligns with company values. It also provides evidence for **transparency** by describing the center's role in offering guidelines on responsible AI use and education on AI risks, implying a commitment to open practices and understanding of AI systems.",
+          "title": "How CarMax organized and scaled innovation with Microsoft AI Solutions",
+          "url": "https://microsoft.com/en-us/microsoft-cloud/blog/2024/01/22/how-carmax-organized-and-scaled-innovation-with-microsoft-ai-sol"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It describes CarMax's AI governance structure, including a Use Case Advisory Team and an AI Center of Excellence, which aims to ensure responsible and safe AI use through structured review processes and guidelines for AI development and deployment. The post also mentions specific AI use cases, contributing to transparency by illustrating how AI is being applied within the organization.",
+          "title": "CarMax CTO: Advice on Setting Product Teams Up for Success",
+          "url": "https://innovationleader.com/automotive/shamim-mohammad-carmax"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights the evolution of data governance into AI governance, emphasizing foundational data quality and governance practices necessary for responsible AI implementation. The conversation also details the integration of governance into AI deployment processes and continuous improvement of governance frameworks, while demonstrating transparency through discussions of AI-driven tools for customer experience, process automation, associate support, AI-powered analytics, and the use of AI-powered chatbots.",
+          "title": "Gen AI Present and Future: A Conversation with Shamim Mohammad",
+          "url": "https://greylock.com/greymatter/gen-ai-present-and-future-carmax"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **transparency**, **governance**, **oversight**, and **privacy**. It supports transparency by detailing CarMax's AI content generation system and its capabilities. Evidence for governance and oversight is found in the description of the editorial approval process for AI-generated content, ensuring quality standards are met. The source also mentions AI, privacy, governance, and regulatory compliance, indicating a commitment to these areas.",
+          "title": "How CarMax's AI Creates More Content in One Day Than Teams Produced in Years",
+          "url": "https://chiefaiofficer.com/blog/blog/how-carmaxs-ai-creates-more-content-in-one-day-than-teams-produced-in-years"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post describes CarMax's use of AI for customer personalization and automated decision-making, which supports the **transparency** pillar by detailing AI use cases and capabilities. The source indicates transparency in how AI is deployed through its description of these systems.",
+          "title": "How CarMax is disrupting automotive retail for a second time",
+          "url": "https://salesforce.com/automotive/disrupting-automotive-retail-carmax"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This third-party report on CarMax's AI investments provides evidence for **governance** and **transparency**. It supports transparency by listing specific generative AI use cases and mentioning the deployment of AI systems like Skye and Copilot. Evidence for governance is found in the description of AI use for contract review and the mention of specific AI systems, suggesting operational deployment and potential executive oversight.",
+          "title": "CarMax leans on AI, tech investments to trim $150M in costs",
+          "url": "https://ciodive.com/news/CarMax-AI-technology-investments-cost-savings/801856"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:45:58Z",
+  "run_id": "20260202_200940_4b71",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Evidence from CarMax's published materials indicates a balance of operational and policy-level practices across 5 of 7 evaluated responsible AI pillars. Operational practices include an editorial approval process for AI-generated content under oversight, along with references to cybersecurity efforts considering AI impacts within privacy. Additionally, governance disclosures describe the establishment of a formal AI governance model and policy. At the policy level, transparency materials reference an AI landscape review and guidelines on responsible AI use, while external accountability disclosures mention regulatory compliance. These findings are drawn from 15 publicly available sources, and no qualifying public evidence was found for fairness or explainability.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 47,
+    "total_sources_used": 10
+  }
+}

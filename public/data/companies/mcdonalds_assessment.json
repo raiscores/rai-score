@@ -1,0 +1,375 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "McDonald's",
+  "company_slug": "mcdonalds",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 9,
+      "OPERATIONAL": 12,
+      "POLICY": 51
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 9,
+      "findings": "Documentation describes readiness for regulatory explanation by covering model function, data usage, and testing. Reports reference the need for external accountability in AI systems, while technical papers describe the analysis of vendor assurances and independent reviews of AI hiring tools. Technical papers also highlight requirements for bias testing, monitoring, and documentation, including public reporting.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"AI Governance at Scale - McDonald's Data Governance Framework,\" provides evidence for **external accountability**, **governance**, and **transparency**. It details McDonald's operational structure for AI governance through a dedicated working group with diverse representation, supporting the **governance** pillar. The paper also describes their readiness for regulatory explanation by covering model function, data usage, and testing, which contributes to **external accountability** and **transparency**. Furthermore, the documented process for evaluating AI model usage, purpose, and value directly supports the **transparency** pillar.",
+          "title": "AI Governance at Scale - McDonald's Data Governance Framework",
+          "url": "https://cdomagazine.tech/data-management/ai-governance-at-scale-what-enterprises-can-learn-from-mcdonalds-strategy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It highlights a security breach exposing applicant data due to weak credentials and an insecure API, demonstrating failures in **governance, oversight, and privacy**. The report also touches on the potential for AI to be used maliciously and the need for **external_accountability** and **transparency** in AI systems, as well as issues with **fairness** when AI systems like age verification fail.",
+          "title": "McDonald's AI Hiring Bot Exposed Millions of Applicants' Data",
+          "url": "https://wired.com/story/mcdonalds-ai-hiring-chat-bot-paradoxai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"McHire AI Hiring Breach: Third-Party Oversight Failures,\" provides evidence for **governance**, **external accountability**, and **privacy**. It supports governance by mapping AI systems to standards like NIST AI RMF and discussing AI compliance as a core priority, alongside AI risk management frameworks. External accountability is evidenced through the analysis of vendor assurances and independent reviews of AI hiring tools. Finally, the paper supports the privacy pillar by highlighting the need for data policies and vendor monitoring in relation to AI systems.",
+          "title": "McHire AI Hiring Breach: Third-Party Oversight Failures",
+          "url": "https://rmaindia.org/case-study-mcdonalds-mchire-ai-hiring-breach-123456-and-64-million-applicant-records"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"McDonald's Proves AI Governance Critical for Deployment,\" provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. The paper details McDonald's shift to a governance-first approach, highlighting requirements for bias testing, monitoring, and documentation, including public reporting, which supports external_accountability and fairness. It also describes AI governance capabilities for compliance, such as data documentation, lineage tracking, and automated checks, underscoring governance and oversight, while mentioning security and privacy risks associated with AI usage supports the privacy pillar. Furthermore, the document outlines strategies for hallucination management and emphasizes data provenance, contributing to transparency.",
+          "title": "McDonald's Proves AI Governance Critical for Deployment",
+          "url": "https://virtasant.com/ai-today/mcdonalds-drive-thru-flop-deploy-ai-governance-first"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 6,
+      "findings": "Reports reference issues with fairness when AI systems like age verification fail. Technical papers outline requirements for bias testing, monitoring, and documentation, including public reporting, to support fairness.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It highlights a security breach exposing applicant data due to weak credentials and an insecure API, demonstrating failures in **governance, oversight, and privacy**. The report also touches on the potential for AI to be used maliciously and the need for **external_accountability** and **transparency** in AI systems, as well as issues with **fairness** when AI systems like age verification fail.",
+          "title": "McDonald's AI Hiring Bot Exposed Millions of Applicants' Data",
+          "url": "https://wired.com/story/mcdonalds-ai-hiring-chat-bot-paradoxai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"McDonald's Proves AI Governance Critical for Deployment,\" provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. The paper details McDonald's shift to a governance-first approach, highlighting requirements for bias testing, monitoring, and documentation, including public reporting, which supports external_accountability and fairness. It also describes AI governance capabilities for compliance, such as data documentation, lineage tracking, and automated checks, underscoring governance and oversight, while mentioning security and privacy risks associated with AI usage supports the privacy pillar. Furthermore, the document outlines strategies for hallucination management and emphasizes data provenance, contributing to transparency.",
+          "title": "McDonald's Proves AI Governance Critical for Deployment",
+          "url": "https://virtasant.com/ai-today/mcdonalds-drive-thru-flop-deploy-ai-governance-first"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 49,
+      "findings": "McDonald's technical papers detail an operational structure for AI governance through a dedicated working group and describe mapping AI systems to standards like NIST AI RMF, discussing AI compliance and risk management frameworks. They also outline a governance-first approach with requirements for bias testing, monitoring, documentation, and capabilities for compliance including data documentation, lineage tracking, and automated checks. Operational actions like assessing AI tools for risk, establishing AI usage justifications, and ongoing vendor compliance monitoring are detailed, alongside a strategic plan for deploying AI solutions and a deliberate approach to integrating AI for business priorities.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"AI Governance at Scale - McDonald's Data Governance Framework,\" provides evidence for **external accountability**, **governance**, and **transparency**. It details McDonald's operational structure for AI governance through a dedicated working group with diverse representation, supporting the **governance** pillar. The paper also describes their readiness for regulatory explanation by covering model function, data usage, and testing, which contributes to **external accountability** and **transparency**. Furthermore, the documented process for evaluating AI model usage, purpose, and value directly supports the **transparency** pillar.",
+          "title": "AI Governance at Scale - McDonald's Data Governance Framework",
+          "url": "https://cdomagazine.tech/data-management/ai-governance-at-scale-what-enterprises-can-learn-from-mcdonalds-strategy"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This class action complaint provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports the privacy pillar by detailing allegations of biometric data collection (voiceprints) without explicit consent, highlighting concerns around AI data handling and potential misuse. The complaint also touches on transparency by describing the AI system's capabilities and its use case for order processing, and implies governance through the mention of AI vendor specialization and system deployment.",
+          "title": "Carpenter v. McDonald's Corporation - BIPA Voiceprint Class Action",
+          "url": "https://classaction.org/media/carpenter-v-mcdonalds-corporation.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It highlights a security breach exposing applicant data due to weak credentials and an insecure API, demonstrating failures in **governance, oversight, and privacy**. The report also touches on the potential for AI to be used maliciously and the need for **external_accountability** and **transparency** in AI systems, as well as issues with **fairness** when AI systems like age verification fail.",
+          "title": "McDonald's AI Hiring Bot Exposed Millions of Applicants' Data",
+          "url": "https://wired.com/story/mcdonalds-ai-hiring-chat-bot-paradoxai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"McHire AI Hiring Breach: Third-Party Oversight Failures,\" provides evidence for **governance**, **external accountability**, and **privacy**. It supports governance by mapping AI systems to standards like NIST AI RMF and discussing AI compliance as a core priority, alongside AI risk management frameworks. External accountability is evidenced through the analysis of vendor assurances and independent reviews of AI hiring tools. Finally, the paper supports the privacy pillar by highlighting the need for data policies and vendor monitoring in relation to AI systems.",
+          "title": "McHire AI Hiring Breach: Third-Party Oversight Failures",
+          "url": "https://rmaindia.org/case-study-mcdonalds-mchire-ai-hiring-breach-123456-and-64-million-applicant-records"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"McDonald's Proves AI Governance Critical for Deployment,\" provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. The paper details McDonald's shift to a governance-first approach, highlighting requirements for bias testing, monitoring, and documentation, including public reporting, which supports external_accountability and fairness. It also describes AI governance capabilities for compliance, such as data documentation, lineage tracking, and automated checks, underscoring governance and oversight, while mentioning security and privacy risks associated with AI usage supports the privacy pillar. Furthermore, the document outlines strategies for hallucination management and emphasizes data provenance, contributing to transparency.",
+          "title": "McDonald's Proves AI Governance Critical for Deployment",
+          "url": "https://virtasant.com/ai-today/mcdonalds-drive-thru-flop-deploy-ai-governance-first"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"McDonald's Breach: AI Vendor Risk Assessments,\" provides evidence for the **governance** and **privacy** pillars. It highlights issues with unvetted AI vendors and the need for robust governance and oversight of AI systems and third-party data handling. The post also details operational actions like assessing AI tools for risk, establishing AI usage justifications, and ongoing vendor compliance monitoring, all of which support both governance and privacy.",
+          "title": "McDonald's Breach: AI Vendor Risk Assessments",
+          "url": "https://bigid.com/blog/mcdonalds-recent-breach-showcases-need-for-vendor-ai-assessments"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper on the McDonald's McHire data breach provides evidence for governance, privacy, and transparency. It supports governance by detailing the need for vendor security assessments and a commitment to ensuring AI/automation doesn't compromise security. Evidence for privacy is found in mentions of data protection failures and the commitment to not compromise privacy. Transparency is supported by the description of AI system deployment, capabilities, and promotional positioning.",
+          "title": "IDOR Case Study: McDonald's McHire Data Breach",
+          "url": "https://research.cgu.edu/icdc/2025/07/01/mcdonalds-july-2025-breach"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "The McDonald's Form 10-K Annual Report (December 31, 2024) provides evidence for the **governance** pillar of responsible AI. This SEC filing discusses risks associated with AI use and its potential business impacts, indicating the company's awareness of the need for management, oversight, and controls to mitigate these threats.",
+          "title": "McDonald's Form 10-K Annual Report (December 31, 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** pillar of responsible AI. It details a strategic plan for deploying AI solutions, including generative AI, across thousands of McDonald's restaurants. The announcement highlights a deliberate approach to integrating AI for business priorities, customer experience, and equipment monitoring, suggesting a structured governance framework for AI adoption.",
+          "title": "McDonald's and Google Cloud Strategic Partnership",
+          "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcd-google-cloud-announce-partnership.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This system card for McDonald's Ordering Experience Personalization, \"McDonald's Ordering Experience Personalization - Dynamic Yield,\" provides evidence for **governance** and **transparency**. The document supports governance by detailing the operationalization of AI through mentions of an \"AI-powered decision technology\" and a \"ramp up period.\" Transparency is evidenced by the explicit mention of an \"AI personalization system,\" \"machine learning algorithms,\" and \"deep learning-based algorithms,\" along with the documentation of continuous improvement through \"A/B tested and regularly optimized\" processes.",
+          "title": "McDonald's Ordering Experience Personalization - Dynamic Yield",
+          "url": "https://dynamicyield.com/case-studies/mcdonalds"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This McDonald's Australia privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by detailing how customer personal data is used for profiling and interest-based advertising, and by outlining opt-out mechanisms for personalized advertising and data sharing. The policy also supports the governance pillar by explicitly mentioning the training of algorithms and AI models, and the use of profiling technology, indicating a framework for their management.",
+          "title": "McDonald's Privacy Policy - Australia",
+          "url": "https://mcdonalds.com.au/privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "Technical papers describe AI governance capabilities for compliance, including data documentation, lineage tracking, and automated checks.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It highlights a security breach exposing applicant data due to weak credentials and an insecure API, demonstrating failures in **governance, oversight, and privacy**. The report also touches on the potential for AI to be used maliciously and the need for **external_accountability** and **transparency** in AI systems, as well as issues with **fairness** when AI systems like age verification fail.",
+          "title": "McDonald's AI Hiring Bot Exposed Millions of Applicants' Data",
+          "url": "https://wired.com/story/mcdonalds-ai-hiring-chat-bot-paradoxai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"McDonald's Proves AI Governance Critical for Deployment,\" provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. The paper details McDonald's shift to a governance-first approach, highlighting requirements for bias testing, monitoring, and documentation, including public reporting, which supports external_accountability and fairness. It also describes AI governance capabilities for compliance, such as data documentation, lineage tracking, and automated checks, underscoring governance and oversight, while mentioning security and privacy risks associated with AI usage supports the privacy pillar. Furthermore, the document outlines strategies for hallucination management and emphasizes data provenance, contributing to transparency.",
+          "title": "McDonald's Proves AI Governance Critical for Deployment",
+          "url": "https://virtasant.com/ai-today/mcdonalds-drive-thru-flop-deploy-ai-governance-first"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 27,
+      "findings": "Class action complaints detail allegations of biometric data collection without explicit consent, raising concerns about AI data handling. Technical papers highlight the need for data policies, vendor monitoring, and mention security and privacy risks associated with AI usage, referencing data protection failures and a commitment to not compromise privacy. Privacy policies detail how customer personal data is used for profiling and interest-based advertising, outlining opt-out mechanisms for personalized advertising and data sharing.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This class action complaint provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports the privacy pillar by detailing allegations of biometric data collection (voiceprints) without explicit consent, highlighting concerns around AI data handling and potential misuse. The complaint also touches on transparency by describing the AI system's capabilities and its use case for order processing, and implies governance through the mention of AI vendor specialization and system deployment.",
+          "title": "Carpenter v. McDonald's Corporation - BIPA Voiceprint Class Action",
+          "url": "https://classaction.org/media/carpenter-v-mcdonalds-corporation.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It highlights a security breach exposing applicant data due to weak credentials and an insecure API, demonstrating failures in **governance, oversight, and privacy**. The report also touches on the potential for AI to be used maliciously and the need for **external_accountability** and **transparency** in AI systems, as well as issues with **fairness** when AI systems like age verification fail.",
+          "title": "McDonald's AI Hiring Bot Exposed Millions of Applicants' Data",
+          "url": "https://wired.com/story/mcdonalds-ai-hiring-chat-bot-paradoxai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"McHire AI Hiring Breach: Third-Party Oversight Failures,\" provides evidence for **governance**, **external accountability**, and **privacy**. It supports governance by mapping AI systems to standards like NIST AI RMF and discussing AI compliance as a core priority, alongside AI risk management frameworks. External accountability is evidenced through the analysis of vendor assurances and independent reviews of AI hiring tools. Finally, the paper supports the privacy pillar by highlighting the need for data policies and vendor monitoring in relation to AI systems.",
+          "title": "McHire AI Hiring Breach: Third-Party Oversight Failures",
+          "url": "https://rmaindia.org/case-study-mcdonalds-mchire-ai-hiring-breach-123456-and-64-million-applicant-records"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"McDonald's Proves AI Governance Critical for Deployment,\" provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. The paper details McDonald's shift to a governance-first approach, highlighting requirements for bias testing, monitoring, and documentation, including public reporting, which supports external_accountability and fairness. It also describes AI governance capabilities for compliance, such as data documentation, lineage tracking, and automated checks, underscoring governance and oversight, while mentioning security and privacy risks associated with AI usage supports the privacy pillar. Furthermore, the document outlines strategies for hallucination management and emphasizes data provenance, contributing to transparency.",
+          "title": "McDonald's Proves AI Governance Critical for Deployment",
+          "url": "https://virtasant.com/ai-today/mcdonalds-drive-thru-flop-deploy-ai-governance-first"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"McDonald's Breach: AI Vendor Risk Assessments,\" provides evidence for the **governance** and **privacy** pillars. It highlights issues with unvetted AI vendors and the need for robust governance and oversight of AI systems and third-party data handling. The post also details operational actions like assessing AI tools for risk, establishing AI usage justifications, and ongoing vendor compliance monitoring, all of which support both governance and privacy.",
+          "title": "McDonald's Breach: AI Vendor Risk Assessments",
+          "url": "https://bigid.com/blog/mcdonalds-recent-breach-showcases-need-for-vendor-ai-assessments"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper on the McDonald's McHire data breach provides evidence for governance, privacy, and transparency. It supports governance by detailing the need for vendor security assessments and a commitment to ensuring AI/automation doesn't compromise security. Evidence for privacy is found in mentions of data protection failures and the commitment to not compromise privacy. Transparency is supported by the description of AI system deployment, capabilities, and promotional positioning.",
+          "title": "IDOR Case Study: McDonald's McHire Data Breach",
+          "url": "https://research.cgu.edu/icdc/2025/07/01/mcdonalds-july-2025-breach"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This McDonald's Australia privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by detailing how customer personal data is used for profiling and interest-based advertising, and by outlining opt-out mechanisms for personalized advertising and data sharing. The policy also supports the governance pillar by explicitly mentioning the training of algorithms and AI models, and the use of profiling technology, indicating a framework for their management.",
+          "title": "McDonald's Privacy Policy - Australia",
+          "url": "https://mcdonalds.com.au/privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 22,
+      "findings": "McDonald's documentation describes readiness for regulatory explanation by covering model function, data usage, and testing, alongside a documented process for evaluating AI model usage, purpose, and value. Public reporting, data provenance, and descriptions of AI system deployment, capabilities, and use cases are also referenced. System cards explicitly mention AI personalization systems and their underlying algorithms, documenting continuous improvement through A/B tested and regularly optimized processes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"AI Governance at Scale - McDonald's Data Governance Framework,\" provides evidence for **external accountability**, **governance**, and **transparency**. It details McDonald's operational structure for AI governance through a dedicated working group with diverse representation, supporting the **governance** pillar. The paper also describes their readiness for regulatory explanation by covering model function, data usage, and testing, which contributes to **external accountability** and **transparency**. Furthermore, the documented process for evaluating AI model usage, purpose, and value directly supports the **transparency** pillar.",
+          "title": "AI Governance at Scale - McDonald's Data Governance Framework",
+          "url": "https://cdomagazine.tech/data-management/ai-governance-at-scale-what-enterprises-can-learn-from-mcdonalds-strategy"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This class action complaint provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports the privacy pillar by detailing allegations of biometric data collection (voiceprints) without explicit consent, highlighting concerns around AI data handling and potential misuse. The complaint also touches on transparency by describing the AI system's capabilities and its use case for order processing, and implies governance through the mention of AI vendor specialization and system deployment.",
+          "title": "Carpenter v. McDonald's Corporation - BIPA Voiceprint Class Action",
+          "url": "https://classaction.org/media/carpenter-v-mcdonalds-corporation.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It highlights a security breach exposing applicant data due to weak credentials and an insecure API, demonstrating failures in **governance, oversight, and privacy**. The report also touches on the potential for AI to be used maliciously and the need for **external_accountability** and **transparency** in AI systems, as well as issues with **fairness** when AI systems like age verification fail.",
+          "title": "McDonald's AI Hiring Bot Exposed Millions of Applicants' Data",
+          "url": "https://wired.com/story/mcdonalds-ai-hiring-chat-bot-paradoxai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"McDonald's Proves AI Governance Critical for Deployment,\" provides evidence for external_accountability, fairness, governance, oversight, privacy, and transparency. The paper details McDonald's shift to a governance-first approach, highlighting requirements for bias testing, monitoring, and documentation, including public reporting, which supports external_accountability and fairness. It also describes AI governance capabilities for compliance, such as data documentation, lineage tracking, and automated checks, underscoring governance and oversight, while mentioning security and privacy risks associated with AI usage supports the privacy pillar. Furthermore, the document outlines strategies for hallucination management and emphasizes data provenance, contributing to transparency.",
+          "title": "McDonald's Proves AI Governance Critical for Deployment",
+          "url": "https://virtasant.com/ai-today/mcdonalds-drive-thru-flop-deploy-ai-governance-first"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper on the McDonald's McHire data breach provides evidence for governance, privacy, and transparency. It supports governance by detailing the need for vendor security assessments and a commitment to ensuring AI/automation doesn't compromise security. Evidence for privacy is found in mentions of data protection failures and the commitment to not compromise privacy. Transparency is supported by the description of AI system deployment, capabilities, and promotional positioning.",
+          "title": "IDOR Case Study: McDonald's McHire Data Breach",
+          "url": "https://research.cgu.edu/icdc/2025/07/01/mcdonalds-july-2025-breach"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This system card for McDonald's Ordering Experience Personalization, \"McDonald's Ordering Experience Personalization - Dynamic Yield,\" provides evidence for **governance** and **transparency**. The document supports governance by detailing the operationalization of AI through mentions of an \"AI-powered decision technology\" and a \"ramp up period.\" Transparency is evidenced by the explicit mention of an \"AI personalization system,\" \"machine learning algorithms,\" and \"deep learning-based algorithms,\" along with the documentation of continuous improvement through \"A/B tested and regularly optimized\" processes.",
+          "title": "McDonald's Ordering Experience Personalization - Dynamic Yield",
+          "url": "https://dynamicyield.com/case-studies/mcdonalds"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T21:54:58Z",
+  "run_id": "20260202_235210_cdd2",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "McDonald's documentation describes readiness for regulatory explanation by covering model function, data usage, and testing, supporting transparency. These disclosures, drawn from 17 publicly available sources, address 6 of 7 evaluated responsible AI pillars, with policies also outlining requirements for bias testing, monitoring, and documentation for fairness. Published materials further describe AI governance capabilities for compliance, including data documentation and lineage tracking, and reference the need for external accountability in AI systems. No qualifying public evidence was found for explainability.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 72,
+    "total_sources_used": 11
+  }
+}

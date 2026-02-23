@@ -1,0 +1,614 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 100.0,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 14
+  },
+  "company": "Capital One",
+  "company_slug": "capital-one",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 57,
+      "OPERATIONAL": 17,
+      "POLICY": 36
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 23,
+      "findings": "Sources mention efforts in Explainable AI and highlight ongoing experimentation with specific interpretability techniques, indicating a policy focus on explainability in ML models. The company describes the development and use of an interpretability framework for debugging and commits to research in AI explainability, including understanding \"black box\" models. Interpretability is explicitly mentioned as a focus area for the applied AI research team, with research goals for interpretable decision-making and a focus on LLM explainability frameworks.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI with a Data Scientist & Sociologist,\" provides evidence for the pillars of **explainability**, **fairness**, **governance**, and **transparency**. The post discusses the company's commitment to responsible AI development and research, specifically mentioning efforts in Explainable AI and fairness. It also highlights the use of ML and algorithms informed by human interaction and for customer protection, indicating transparency in approach and capabilities, and implies governance through responsible development and deployment practices.",
+          "title": "Responsible AI with a Data Scientist & Sociologist",
+          "url": "https://capitalone.com/tech/machine-learning/conversation-with-a-data-scientist-and-a-sociologist"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"An Integral, Pragmatic Approach to Explainable AI,\" provides evidence for **explainability**, **governance**, and **transparency**. The post details Capital One's commitment to embedding explainability and transparency throughout the AI/ML lifecycle, from data collection to model execution, demonstrating a strong governance framework. It also highlights ongoing experimentation with specific interpretability techniques and emphasizes the need for diverse collaboration to achieve responsible AI, further supporting the governance pillar.",
+          "title": "An Integral, Pragmatic Approach to Explainable AI",
+          "url": "https://capitalone.com/tech/machine-learning/an-integral-pragmatic-approach-to-explainable-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"A Framework for Assessing Enterprise ML Maturity Levels,\" provides evidence for the **governance**, **explainability**, and **fairness** pillars of responsible AI. It supports governance by describing a defined ML lifecycle, compliance, and ongoing monitoring, as well as organizational structures for AI roles. The blog post also mentions explainability and bias (fairness) in the context of ML models, indicating a policy focus on these aspects, even if current focus is aspirational.",
+          "title": "A Framework for Assessing Enterprise ML Maturity Levels",
+          "url": "https://capitalone.com/tech/machine-learning/enterprise-machine-learning-maturity-levels-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Capital One blog post provides evidence for **explainability, external accountability, governance, oversight, and transparency**. The post details the company's machine learning system for anti-money laundering, highlighting its continuous monitoring, monthly checks, and quality assurance standards, which demonstrate strong **governance** and **oversight**. Furthermore, the mention of \"explainable\" models, regular \"pruning\" and \"adjusting,\" and investment in \"documentation\" directly supports **explainability** and **transparency**, while the emphasis on human decision-making alongside ML illustrates **oversight**. The description of the ML system's application for transaction analysis also contributes to the **transparency** of its function.",
+          "title": "How Machine Learning Can Help Fight Money Laundering",
+          "url": "https://capitalone.com/tech/machine-learning/how-machine-learning-can-help-fight-money-laundering"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Data-Centric AI for Customer-Focused Product Development,\" provides evidence for responsible AI across several pillars. It supports **governance** and **oversight** by describing operational AI/ML processes like monitoring, training, and retraining frameworks, as well as mentioning human oversight processes. The post also touches upon **explainability** and **fairness** by referencing bias mitigation and the need for transparency in model behavior and updates, particularly in the context of model drift and real-time adaptation. Furthermore, it supports the **privacy** pillar through its mention of privacy considerations within ML practices.",
+          "title": "Data-Centric AI for Customer-Focused Product Development",
+          "url": "https://capitalone.com/tech/machine-learning/data-centric-ai-for-product-dev"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Capital One: AI & ML in Banking with Humans at the Center,\" provides evidence for **explainability, fairness, governance, and transparency**. It supports explainability by describing the development and use of an interpretability framework for debugging. The page also indicates transparency and governance goals by mentioning AI/ML use for customer well-being and empowerment, and commits to research in AI explainability and fairness, demonstrating a policy focus on these areas.",
+          "title": "Capital One: AI & ML in Banking with Humans at the Center",
+          "url": "https://capitalone.com/tech/machine-learning"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Capital One blog post on machine learning in finance provides evidence for **explainability, fairness, governance, privacy, and transparency**. The post highlights a commitment to Explainable AI and understanding \"black box\" models, supporting explainability and transparency. It also mentions responsible data use for customer protection and protecting sensitive data, which directly addresses the privacy pillar, and outlines priorities for fairness and transparency. Furthermore, the mention of open-sourcing tools for ML model management indicates a focus on governance.",
+          "title": "Machine learning's impact on finance: A research summary",
+          "url": "https://capitalone.com/tech/machine-learning/machine-learning-research-roundup"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Applied AI Research,\" provides evidence for the **explainability** and **privacy** pillars of responsible AI. It supports explainability by explicitly mentioning \"Interpretability\" as a focus area for the applied AI research team, and it supports privacy by highlighting \"Privacy Preservation\" as another key research domain within their work on responsible AI systems.",
+          "title": "Applied AI Research",
+          "url": "https://capitalone.com/tech/ai/applied-ai-research"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This press release highlights Capital One and USC's CREDIF spring 2025 AI awards and fellowships, providing evidence for **explainability, fairness, governance, and transparency**. The announcement details research goals for interpretable decision-making, safer AI deployment, and building algorithms under constraints, directly supporting **explainability** and **governance**. Furthermore, the focus on LLM explainability frameworks, transparency for LLM systems, and research into LLM representation of traits and diversity indicates support for **transparency** and **fairness**. The ongoing engagement between award recipients and scientists also demonstrates operational collaboration and oversight, reinforcing the **governance** pillar.",
+          "title": "CREDIF spring 2025 AI awards & fellowship recipients",
+          "url": "https://capitalone.com/tech/ai/credif-spring-2025-ai-award-fellowship-recipients"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Advancing AI Research at NeurIPS 2024,\" provides evidence for **transparency**, **governance**, and **explainability**. The post details research on LLM scaling laws and efficiency optimization, which informs potential governance and transparency. Furthermore, it highlights a commitment to \"trustworthy AI\" and progress in \"explainable AI,\" alongside methods to control LLM behavior for safety and reliability, all contributing to transparency and governance in AI development.",
+          "title": "Advancing AI Research at NeurIPS 2024",
+          "url": "https://capitalone.com/tech/ai/neurips-2024"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "Sources commit to collaborative research and potential partnerships, indicating a focus on external accountability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This press release details the establishment of the USC-Capital One Center for Responsible AI and Decision Making in Finance (CREDIF) through a $3 million investment. This initiative supports **governance** by creating a dedicated research center focused on responsible AI innovations in finance, and **external_accountability** through its commitment to collaborative research and potential partnerships, as suggested by its mention of the Partnership on AI.",
+          "title": "Capital One & USC Partner to Drive Responsible AI (CREDIF)",
+          "url": "https://capitalone.com/tech/ai/responsible-ai-partnership-usc"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Capital One blog post provides evidence for **explainability, external accountability, governance, oversight, and transparency**. The post details the company's machine learning system for anti-money laundering, highlighting its continuous monitoring, monthly checks, and quality assurance standards, which demonstrate strong **governance** and **oversight**. Furthermore, the mention of \"explainable\" models, regular \"pruning\" and \"adjusting,\" and investment in \"documentation\" directly supports **explainability** and **transparency**, while the emphasis on human decision-making alongside ML illustrates **oversight**. The description of the ML system's application for transaction analysis also contributes to the **transparency** of its function.",
+          "title": "How Machine Learning Can Help Fight Money Laundering",
+          "url": "https://capitalone.com/tech/machine-learning/how-machine-learning-can-help-fight-money-laundering"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This press release from Capital One's testimony to the U.S. Senate provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The company outlines its commitment to responsible AI through a Model Risk Management framework, extensive pre-deployment testing, and human-centered guardrails, demonstrating a focus on **governance** and **external_accountability** by engaging with regulators. The testimony also highlights initiatives for including underrepresented groups and mentions fair lending and data privacy governance, supporting the **fairness** and **privacy** pillars, while the emphasis on understanding AI capabilities and responsible approaches speaks to **transparency**.",
+          "title": "AI Leader Speaks at US Senate AI Insight Forum",
+          "url": "https://capitalone.com/tech/ai/us-senate-ai-insight-forum"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 15,
+      "findings": "Sources mention efforts in fairness and bias mitigation, indicating a policy focus on these aspects within ML models. The company commits to research in AI fairness and outlines priorities for fairness, including initiatives for underrepresented groups and fair lending. Sources also reference research into LLM representation of traits and diversity, and describe methods for bounding AI model performance and disparities to combat bias in large models.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI with a Data Scientist & Sociologist,\" provides evidence for the pillars of **explainability**, **fairness**, **governance**, and **transparency**. The post discusses the company's commitment to responsible AI development and research, specifically mentioning efforts in Explainable AI and fairness. It also highlights the use of ML and algorithms informed by human interaction and for customer protection, indicating transparency in approach and capabilities, and implies governance through responsible development and deployment practices.",
+          "title": "Responsible AI with a Data Scientist & Sociologist",
+          "url": "https://capitalone.com/tech/machine-learning/conversation-with-a-data-scientist-and-a-sociologist"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"A Framework for Assessing Enterprise ML Maturity Levels,\" provides evidence for the **governance**, **explainability**, and **fairness** pillars of responsible AI. It supports governance by describing a defined ML lifecycle, compliance, and ongoing monitoring, as well as organizational structures for AI roles. The blog post also mentions explainability and bias (fairness) in the context of ML models, indicating a policy focus on these aspects, even if current focus is aspirational.",
+          "title": "A Framework for Assessing Enterprise ML Maturity Levels",
+          "url": "https://capitalone.com/tech/machine-learning/enterprise-machine-learning-maturity-levels-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Data-Centric AI for Customer-Focused Product Development,\" provides evidence for responsible AI across several pillars. It supports **governance** and **oversight** by describing operational AI/ML processes like monitoring, training, and retraining frameworks, as well as mentioning human oversight processes. The post also touches upon **explainability** and **fairness** by referencing bias mitigation and the need for transparency in model behavior and updates, particularly in the context of model drift and real-time adaptation. Furthermore, it supports the **privacy** pillar through its mention of privacy considerations within ML practices.",
+          "title": "Data-Centric AI for Customer-Focused Product Development",
+          "url": "https://capitalone.com/tech/machine-learning/data-centric-ai-for-product-dev"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Capital One: AI & ML in Banking with Humans at the Center,\" provides evidence for **explainability, fairness, governance, and transparency**. It supports explainability by describing the development and use of an interpretability framework for debugging. The page also indicates transparency and governance goals by mentioning AI/ML use for customer well-being and empowerment, and commits to research in AI explainability and fairness, demonstrating a policy focus on these areas.",
+          "title": "Capital One: AI & ML in Banking with Humans at the Center",
+          "url": "https://capitalone.com/tech/machine-learning"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Capital One blog post on machine learning in finance provides evidence for **explainability, fairness, governance, privacy, and transparency**. The post highlights a commitment to Explainable AI and understanding \"black box\" models, supporting explainability and transparency. It also mentions responsible data use for customer protection and protecting sensitive data, which directly addresses the privacy pillar, and outlines priorities for fairness and transparency. Furthermore, the mention of open-sourcing tools for ML model management indicates a focus on governance.",
+          "title": "Machine learning's impact on finance: A research summary",
+          "url": "https://capitalone.com/tech/machine-learning/machine-learning-research-roundup"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This press release from Capital One's testimony to the U.S. Senate provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The company outlines its commitment to responsible AI through a Model Risk Management framework, extensive pre-deployment testing, and human-centered guardrails, demonstrating a focus on **governance** and **external_accountability** by engaging with regulators. The testimony also highlights initiatives for including underrepresented groups and mentions fair lending and data privacy governance, supporting the **fairness** and **privacy** pillars, while the emphasis on understanding AI capabilities and responsible approaches speaks to **transparency**.",
+          "title": "AI Leader Speaks at US Senate AI Insight Forum",
+          "url": "https://capitalone.com/tech/ai/us-senate-ai-insight-forum"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This press release highlights Capital One and USC's CREDIF spring 2025 AI awards and fellowships, providing evidence for **explainability, fairness, governance, and transparency**. The announcement details research goals for interpretable decision-making, safer AI deployment, and building algorithms under constraints, directly supporting **explainability** and **governance**. Furthermore, the focus on LLM explainability frameworks, transparency for LLM systems, and research into LLM representation of traits and diversity indicates support for **transparency** and **fairness**. The ongoing engagement between award recipients and scientists also demonstrates operational collaboration and oversight, reinforcing the **governance** pillar.",
+          "title": "CREDIF spring 2025 AI awards & fellowship recipients",
+          "url": "https://capitalone.com/tech/ai/credif-spring-2025-ai-award-fellowship-recipients"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This press release announcing the 2024 CAIRFI Awards for AI Fellowships & Research provides evidence for **fairness**, **governance**, and **transparency**. The document supports fairness by mentioning efforts to combat \"bias\" in large models and describing methods for bounding AI model performance and disparities. Governance is supported by the establishment of a center for AI and responsible innovation, indicating a formal commitment. Transparency is evidenced through discussions of AI applications, research goals, and methods for bounding AI model performance and disparities, as well as personalized decision-making and counterfactual simulation for user trajectories.",
+          "title": "2024 CAIRFI Awards for AI Fellowships & Research",
+          "url": "https://capitalone.com/tech/ai/2024-cairfi-award-recipients"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 62,
+      "findings": "Sources imply governance through responsible development and deployment practices, emphasizing the need for diverse collaboration to achieve responsible AI. The company supports governance by creating dedicated research centers and demonstrating a formal commitment to advancing responsible AI through research, fellowships, and public symposia. Sources describe a defined ML lifecycle, compliance, ongoing monitoring, organizational structures for AI roles, and operational AI/ML processes like monitoring, training, and retraining frameworks. The company details how it involves risk, legal, and compliance teams early in AI development and research, and highlights commitment to partnerships and the establishment of dedicated centers for AI safety and responsibility.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI with a Data Scientist & Sociologist,\" provides evidence for the pillars of **explainability**, **fairness**, **governance**, and **transparency**. The post discusses the company's commitment to responsible AI development and research, specifically mentioning efforts in Explainable AI and fairness. It also highlights the use of ML and algorithms informed by human interaction and for customer protection, indicating transparency in approach and capabilities, and implies governance through responsible development and deployment practices.",
+          "title": "Responsible AI with a Data Scientist & Sociologist",
+          "url": "https://capitalone.com/tech/machine-learning/conversation-with-a-data-scientist-and-a-sociologist"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"An Integral, Pragmatic Approach to Explainable AI,\" provides evidence for **explainability**, **governance**, and **transparency**. The post details Capital One's commitment to embedding explainability and transparency throughout the AI/ML lifecycle, from data collection to model execution, demonstrating a strong governance framework. It also highlights ongoing experimentation with specific interpretability techniques and emphasizes the need for diverse collaboration to achieve responsible AI, further supporting the governance pillar.",
+          "title": "An Integral, Pragmatic Approach to Explainable AI",
+          "url": "https://capitalone.com/tech/machine-learning/an-integral-pragmatic-approach-to-explainable-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This press release details the establishment of the USC-Capital One Center for Responsible AI and Decision Making in Finance (CREDIF) through a $3 million investment. This initiative supports **governance** by creating a dedicated research center focused on responsible AI innovations in finance, and **external_accountability** through its commitment to collaborative research and potential partnerships, as suggested by its mention of the Partnership on AI.",
+          "title": "Capital One & USC Partner to Drive Responsible AI (CREDIF)",
+          "url": "https://capitalone.com/tech/ai/responsible-ai-partnership-usc"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This press release highlights Capital One's $3 million investment in establishing the Center for AI and Responsible Financial Innovation (CAIRFI) with Columbia University. This initiative provides evidence for the **governance** pillar by demonstrating a formal commitment to advancing responsible AI through dedicated research, PhD fellowships, and public symposia, underscoring a structured approach to AI development and implementation.",
+          "title": "Capital One & Columbia University Responsible AI Partnership",
+          "url": "https://capitalone.com/tech/ai/responsible-ai-partnership-columbia-university"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"A Framework for Assessing Enterprise ML Maturity Levels,\" provides evidence for the **governance**, **explainability**, and **fairness** pillars of responsible AI. It supports governance by describing a defined ML lifecycle, compliance, and ongoing monitoring, as well as organizational structures for AI roles. The blog post also mentions explainability and bias (fairness) in the context of ML models, indicating a policy focus on these aspects, even if current focus is aspirational.",
+          "title": "A Framework for Assessing Enterprise ML Maturity Levels",
+          "url": "https://capitalone.com/tech/machine-learning/enterprise-machine-learning-maturity-levels-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Capital One blog post provides evidence for **explainability, external accountability, governance, oversight, and transparency**. The post details the company's machine learning system for anti-money laundering, highlighting its continuous monitoring, monthly checks, and quality assurance standards, which demonstrate strong **governance** and **oversight**. Furthermore, the mention of \"explainable\" models, regular \"pruning\" and \"adjusting,\" and investment in \"documentation\" directly supports **explainability** and **transparency**, while the emphasis on human decision-making alongside ML illustrates **oversight**. The description of the ML system's application for transaction analysis also contributes to the **transparency** of its function.",
+          "title": "How Machine Learning Can Help Fight Money Laundering",
+          "url": "https://capitalone.com/tech/machine-learning/how-machine-learning-can-help-fight-money-laundering"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Fighting Fraud with Virtual Card Numbers,\" provides evidence for **governance, privacy, and transparency**. It demonstrates transparency by detailing the use of machine learning techniques like merchant embeddings and neural networks for fraud detection, and by describing the operational process of testing and evaluating the ML system's performance. The blog post also links the use of ML to improving system reliability and protecting customer data, thereby supporting the privacy pillar, and mentions building ML systems and real-time decision systems, indicating governance in their development and use.",
+          "title": "Fighting Fraud with Virtual Card Numbers",
+          "url": "https://capitalone.com/tech/machine-learning/fighting-fraud-with-vcns-and-financial-transaction-embedding"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Data-Centric AI for Customer-Focused Product Development,\" provides evidence for responsible AI across several pillars. It supports **governance** and **oversight** by describing operational AI/ML processes like monitoring, training, and retraining frameworks, as well as mentioning human oversight processes. The post also touches upon **explainability** and **fairness** by referencing bias mitigation and the need for transparency in model behavior and updates, particularly in the context of model drift and real-time adaptation. Furthermore, it supports the **privacy** pillar through its mention of privacy considerations within ML practices.",
+          "title": "Data-Centric AI for Customer-Focused Product Development",
+          "url": "https://capitalone.com/tech/machine-learning/data-centric-ai-for-product-dev"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Capital One: AI & ML in Banking with Humans at the Center,\" provides evidence for **explainability, fairness, governance, and transparency**. It supports explainability by describing the development and use of an interpretability framework for debugging. The page also indicates transparency and governance goals by mentioning AI/ML use for customer well-being and empowerment, and commits to research in AI explainability and fairness, demonstrating a policy focus on these areas.",
+          "title": "Capital One: AI & ML in Banking with Humans at the Center",
+          "url": "https://capitalone.com/tech/machine-learning"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Capital One blog post on machine learning in finance provides evidence for **explainability, fairness, governance, privacy, and transparency**. The post highlights a commitment to Explainable AI and understanding \"black box\" models, supporting explainability and transparency. It also mentions responsible data use for customer protection and protecting sensitive data, which directly addresses the privacy pillar, and outlines priorities for fairness and transparency. Furthermore, the mention of open-sourcing tools for ML model management indicates a focus on governance.",
+          "title": "Machine learning's impact on finance: A research summary",
+          "url": "https://capitalone.com/tech/machine-learning/machine-learning-research-roundup"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This Capital One blog post provides evidence for **governance** and **transparency** in responsible AI. The post details how the company involves risk, legal, and compliance teams early in AI development and research, demonstrating a structured governance process. Transparency is evident through the description of generative AI tools for developers, specific AI tool use cases, and the mention of rigorous testing and guardrails for AI models.",
+          "title": "How AI is transforming financial services & banking",
+          "url": "https://capitalone.com/tech/ai/transforming-financial-services"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This press release from Capital One's testimony to the U.S. Senate provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The company outlines its commitment to responsible AI through a Model Risk Management framework, extensive pre-deployment testing, and human-centered guardrails, demonstrating a focus on **governance** and **external_accountability** by engaging with regulators. The testimony also highlights initiatives for including underrepresented groups and mentions fair lending and data privacy governance, supporting the **fairness** and **privacy** pillars, while the emphasis on understanding AI capabilities and responsible approaches speaks to **transparency**.",
+          "title": "AI Leader Speaks at US Senate AI Insight Forum",
+          "url": "https://capitalone.com/tech/ai/us-senate-ai-insight-forum"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This press release highlights Capital One and USC's CREDIF spring 2025 AI awards and fellowships, providing evidence for **explainability, fairness, governance, and transparency**. The announcement details research goals for interpretable decision-making, safer AI deployment, and building algorithms under constraints, directly supporting **explainability** and **governance**. Furthermore, the focus on LLM explainability frameworks, transparency for LLM systems, and research into LLM representation of traits and diversity indicates support for **transparency** and **fairness**. The ongoing engagement between award recipients and scientists also demonstrates operational collaboration and oversight, reinforcing the **governance** pillar.",
+          "title": "CREDIF spring 2025 AI awards & fellowship recipients",
+          "url": "https://capitalone.com/tech/ai/credif-spring-2025-ai-award-fellowship-recipients"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This press release announcing the 2024 CAIRFI Awards for AI Fellowships & Research provides evidence for **fairness**, **governance**, and **transparency**. The document supports fairness by mentioning efforts to combat \"bias\" in large models and describing methods for bounding AI model performance and disparities. Governance is supported by the establishment of a center for AI and responsible innovation, indicating a formal commitment. Transparency is evidenced through discussions of AI applications, research goals, and methods for bounding AI model performance and disparities, as well as personalized decision-making and counterfactual simulation for user trajectories.",
+          "title": "2024 CAIRFI Awards for AI Fellowships & Research",
+          "url": "https://capitalone.com/tech/ai/2024-cairfi-award-recipients"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Advancing AI Research at NeurIPS 2024,\" provides evidence for **transparency**, **governance**, and **explainability**. The post details research on LLM scaling laws and efficiency optimization, which informs potential governance and transparency. Furthermore, it highlights a commitment to \"trustworthy AI\" and progress in \"explainable AI,\" alongside methods to control LLM behavior for safety and reliability, all contributing to transparency and governance in AI development.",
+          "title": "Advancing AI Research at NeurIPS 2024",
+          "url": "https://capitalone.com/tech/ai/neurips-2024"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"ICML 2025: Advancing Machine Learning,\" provides evidence for **governance** and **transparency**. The post supports transparency by detailing advancements in AI research, including novel approaches to tabular zero-shot learning and adversarial pre-training, and by discussing benchmarks for evaluating LLM capabilities. It also indicates a commitment to governance through the mention of dynamic guardian models for rule compliance and the broader focus on ML development and AI research engagement, suggesting a dedication to establishing standards and best practices for AI management.",
+          "title": "ICML 2025: Advancing Machine Learning",
+          "url": "https://capitalone.com/tech/ai/icml-2025"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by highlighting Capital One's commitment to partnerships and the establishment of dedicated centers for AI safety and responsibility. Transparency is supported by mentioning a specific AI tool, Chat Concierge, and its purpose, offering insight into AI capabilities.",
+          "title": "Capital One partners with NSF to advance U.S. AI leadership",
+          "url": "https://capitalone.com/tech/ai/capital-one-nsf-partnership-advances-ai-leadership"
+        }
+      ],
+      "score": 2,
+      "source_count": 17
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Sources emphasize human decision-making alongside ML, indicating a focus on oversight. Operational AI/ML processes like monitoring, training, and retraining frameworks are described, alongside mentions of human oversight processes.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Capital One blog post provides evidence for **explainability, external accountability, governance, oversight, and transparency**. The post details the company's machine learning system for anti-money laundering, highlighting its continuous monitoring, monthly checks, and quality assurance standards, which demonstrate strong **governance** and **oversight**. Furthermore, the mention of \"explainable\" models, regular \"pruning\" and \"adjusting,\" and investment in \"documentation\" directly supports **explainability** and **transparency**, while the emphasis on human decision-making alongside ML illustrates **oversight**. The description of the ML system's application for transaction analysis also contributes to the **transparency** of its function.",
+          "title": "How Machine Learning Can Help Fight Money Laundering",
+          "url": "https://capitalone.com/tech/machine-learning/how-machine-learning-can-help-fight-money-laundering"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Data-Centric AI for Customer-Focused Product Development,\" provides evidence for responsible AI across several pillars. It supports **governance** and **oversight** by describing operational AI/ML processes like monitoring, training, and retraining frameworks, as well as mentioning human oversight processes. The post also touches upon **explainability** and **fairness** by referencing bias mitigation and the need for transparency in model behavior and updates, particularly in the context of model drift and real-time adaptation. Furthermore, it supports the **privacy** pillar through its mention of privacy considerations within ML practices.",
+          "title": "Data-Centric AI for Customer-Focused Product Development",
+          "url": "https://capitalone.com/tech/machine-learning/data-centric-ai-for-product-dev"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 8,
+      "findings": "Sources link the use of ML to protecting customer data and mention privacy considerations within ML practices. Responsible data use for customer protection and protecting sensitive data is mentioned, alongside data privacy governance. \"Privacy Preservation\" is highlighted as a key research domain within their work on responsible AI systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"A Framework for Assessing Enterprise ML Maturity Levels,\" provides evidence for the **governance**, **explainability**, and **fairness** pillars of responsible AI. It supports governance by describing a defined ML lifecycle, compliance, and ongoing monitoring, as well as organizational structures for AI roles. The blog post also mentions explainability and bias (fairness) in the context of ML models, indicating a policy focus on these aspects, even if current focus is aspirational.",
+          "title": "A Framework for Assessing Enterprise ML Maturity Levels",
+          "url": "https://capitalone.com/tech/machine-learning/enterprise-machine-learning-maturity-levels-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Fighting Fraud with Virtual Card Numbers,\" provides evidence for **governance, privacy, and transparency**. It demonstrates transparency by detailing the use of machine learning techniques like merchant embeddings and neural networks for fraud detection, and by describing the operational process of testing and evaluating the ML system's performance. The blog post also links the use of ML to improving system reliability and protecting customer data, thereby supporting the privacy pillar, and mentions building ML systems and real-time decision systems, indicating governance in their development and use.",
+          "title": "Fighting Fraud with Virtual Card Numbers",
+          "url": "https://capitalone.com/tech/machine-learning/fighting-fraud-with-vcns-and-financial-transaction-embedding"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Data-Centric AI for Customer-Focused Product Development,\" provides evidence for responsible AI across several pillars. It supports **governance** and **oversight** by describing operational AI/ML processes like monitoring, training, and retraining frameworks, as well as mentioning human oversight processes. The post also touches upon **explainability** and **fairness** by referencing bias mitigation and the need for transparency in model behavior and updates, particularly in the context of model drift and real-time adaptation. Furthermore, it supports the **privacy** pillar through its mention of privacy considerations within ML practices.",
+          "title": "Data-Centric AI for Customer-Focused Product Development",
+          "url": "https://capitalone.com/tech/machine-learning/data-centric-ai-for-product-dev"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Capital One blog post on machine learning in finance provides evidence for **explainability, fairness, governance, privacy, and transparency**. The post highlights a commitment to Explainable AI and understanding \"black box\" models, supporting explainability and transparency. It also mentions responsible data use for customer protection and protecting sensitive data, which directly addresses the privacy pillar, and outlines priorities for fairness and transparency. Furthermore, the mention of open-sourcing tools for ML model management indicates a focus on governance.",
+          "title": "Machine learning's impact on finance: A research summary",
+          "url": "https://capitalone.com/tech/machine-learning/machine-learning-research-roundup"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This press release from Capital One's testimony to the U.S. Senate provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The company outlines its commitment to responsible AI through a Model Risk Management framework, extensive pre-deployment testing, and human-centered guardrails, demonstrating a focus on **governance** and **external_accountability** by engaging with regulators. The testimony also highlights initiatives for including underrepresented groups and mentions fair lending and data privacy governance, supporting the **fairness** and **privacy** pillars, while the emphasis on understanding AI capabilities and responsible approaches speaks to **transparency**.",
+          "title": "AI Leader Speaks at US Senate AI Insight Forum",
+          "url": "https://capitalone.com/tech/ai/us-senate-ai-insight-forum"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Applied AI Research,\" provides evidence for the **explainability** and **privacy** pillars of responsible AI. It supports explainability by explicitly mentioning \"Interpretability\" as a focus area for the applied AI research team, and it supports privacy by highlighting \"Privacy Preservation\" as another key research domain within their work on responsible AI systems.",
+          "title": "Applied AI Research",
+          "url": "https://capitalone.com/tech/ai/applied-ai-research"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 65,
+      "findings": "The company's documentation supports transparency by describing the function of its ML systems for transaction analysis and detailing the use of machine learning techniques for fraud detection. Sources reference the need for transparency in model behavior and updates, especially regarding model drift and real-time adaptation, and outline priorities for transparency. The company highlights a commitment to understanding \"black box\" models, focuses on transparency for LLM systems, and discusses AI applications, research goals, and methods for bounding AI model performance and disparities.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI with a Data Scientist & Sociologist,\" provides evidence for the pillars of **explainability**, **fairness**, **governance**, and **transparency**. The post discusses the company's commitment to responsible AI development and research, specifically mentioning efforts in Explainable AI and fairness. It also highlights the use of ML and algorithms informed by human interaction and for customer protection, indicating transparency in approach and capabilities, and implies governance through responsible development and deployment practices.",
+          "title": "Responsible AI with a Data Scientist & Sociologist",
+          "url": "https://capitalone.com/tech/machine-learning/conversation-with-a-data-scientist-and-a-sociologist"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"An Integral, Pragmatic Approach to Explainable AI,\" provides evidence for **explainability**, **governance**, and **transparency**. The post details Capital One's commitment to embedding explainability and transparency throughout the AI/ML lifecycle, from data collection to model execution, demonstrating a strong governance framework. It also highlights ongoing experimentation with specific interpretability techniques and emphasizes the need for diverse collaboration to achieve responsible AI, further supporting the governance pillar.",
+          "title": "An Integral, Pragmatic Approach to Explainable AI",
+          "url": "https://capitalone.com/tech/machine-learning/an-integral-pragmatic-approach-to-explainable-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"A Framework for Assessing Enterprise ML Maturity Levels,\" provides evidence for the **governance**, **explainability**, and **fairness** pillars of responsible AI. It supports governance by describing a defined ML lifecycle, compliance, and ongoing monitoring, as well as organizational structures for AI roles. The blog post also mentions explainability and bias (fairness) in the context of ML models, indicating a policy focus on these aspects, even if current focus is aspirational.",
+          "title": "A Framework for Assessing Enterprise ML Maturity Levels",
+          "url": "https://capitalone.com/tech/machine-learning/enterprise-machine-learning-maturity-levels-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Capital One blog post provides evidence for **explainability, external accountability, governance, oversight, and transparency**. The post details the company's machine learning system for anti-money laundering, highlighting its continuous monitoring, monthly checks, and quality assurance standards, which demonstrate strong **governance** and **oversight**. Furthermore, the mention of \"explainable\" models, regular \"pruning\" and \"adjusting,\" and investment in \"documentation\" directly supports **explainability** and **transparency**, while the emphasis on human decision-making alongside ML illustrates **oversight**. The description of the ML system's application for transaction analysis also contributes to the **transparency** of its function.",
+          "title": "How Machine Learning Can Help Fight Money Laundering",
+          "url": "https://capitalone.com/tech/machine-learning/how-machine-learning-can-help-fight-money-laundering"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Fighting Fraud with Virtual Card Numbers,\" provides evidence for **governance, privacy, and transparency**. It demonstrates transparency by detailing the use of machine learning techniques like merchant embeddings and neural networks for fraud detection, and by describing the operational process of testing and evaluating the ML system's performance. The blog post also links the use of ML to improving system reliability and protecting customer data, thereby supporting the privacy pillar, and mentions building ML systems and real-time decision systems, indicating governance in their development and use.",
+          "title": "Fighting Fraud with Virtual Card Numbers",
+          "url": "https://capitalone.com/tech/machine-learning/fighting-fraud-with-vcns-and-financial-transaction-embedding"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Data-Centric AI for Customer-Focused Product Development,\" provides evidence for responsible AI across several pillars. It supports **governance** and **oversight** by describing operational AI/ML processes like monitoring, training, and retraining frameworks, as well as mentioning human oversight processes. The post also touches upon **explainability** and **fairness** by referencing bias mitigation and the need for transparency in model behavior and updates, particularly in the context of model drift and real-time adaptation. Furthermore, it supports the **privacy** pillar through its mention of privacy considerations within ML practices.",
+          "title": "Data-Centric AI for Customer-Focused Product Development",
+          "url": "https://capitalone.com/tech/machine-learning/data-centric-ai-for-product-dev"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Capital One: AI & ML in Banking with Humans at the Center,\" provides evidence for **explainability, fairness, governance, and transparency**. It supports explainability by describing the development and use of an interpretability framework for debugging. The page also indicates transparency and governance goals by mentioning AI/ML use for customer well-being and empowerment, and commits to research in AI explainability and fairness, demonstrating a policy focus on these areas.",
+          "title": "Capital One: AI & ML in Banking with Humans at the Center",
+          "url": "https://capitalone.com/tech/machine-learning"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Capital One blog post on machine learning in finance provides evidence for **explainability, fairness, governance, privacy, and transparency**. The post highlights a commitment to Explainable AI and understanding \"black box\" models, supporting explainability and transparency. It also mentions responsible data use for customer protection and protecting sensitive data, which directly addresses the privacy pillar, and outlines priorities for fairness and transparency. Furthermore, the mention of open-sourcing tools for ML model management indicates a focus on governance.",
+          "title": "Machine learning's impact on finance: A research summary",
+          "url": "https://capitalone.com/tech/machine-learning/machine-learning-research-roundup"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This Capital One blog post provides evidence for **governance** and **transparency** in responsible AI. The post details how the company involves risk, legal, and compliance teams early in AI development and research, demonstrating a structured governance process. Transparency is evident through the description of generative AI tools for developers, specific AI tool use cases, and the mention of rigorous testing and guardrails for AI models.",
+          "title": "How AI is transforming financial services & banking",
+          "url": "https://capitalone.com/tech/ai/transforming-financial-services"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This press release from Capital One's testimony to the U.S. Senate provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The company outlines its commitment to responsible AI through a Model Risk Management framework, extensive pre-deployment testing, and human-centered guardrails, demonstrating a focus on **governance** and **external_accountability** by engaging with regulators. The testimony also highlights initiatives for including underrepresented groups and mentions fair lending and data privacy governance, supporting the **fairness** and **privacy** pillars, while the emphasis on understanding AI capabilities and responsible approaches speaks to **transparency**.",
+          "title": "AI Leader Speaks at US Senate AI Insight Forum",
+          "url": "https://capitalone.com/tech/ai/us-senate-ai-insight-forum"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This press release highlights Capital One and USC's CREDIF spring 2025 AI awards and fellowships, providing evidence for **explainability, fairness, governance, and transparency**. The announcement details research goals for interpretable decision-making, safer AI deployment, and building algorithms under constraints, directly supporting **explainability** and **governance**. Furthermore, the focus on LLM explainability frameworks, transparency for LLM systems, and research into LLM representation of traits and diversity indicates support for **transparency** and **fairness**. The ongoing engagement between award recipients and scientists also demonstrates operational collaboration and oversight, reinforcing the **governance** pillar.",
+          "title": "CREDIF spring 2025 AI awards & fellowship recipients",
+          "url": "https://capitalone.com/tech/ai/credif-spring-2025-ai-award-fellowship-recipients"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This press release announcing the 2024 CAIRFI Awards for AI Fellowships & Research provides evidence for **fairness**, **governance**, and **transparency**. The document supports fairness by mentioning efforts to combat \"bias\" in large models and describing methods for bounding AI model performance and disparities. Governance is supported by the establishment of a center for AI and responsible innovation, indicating a formal commitment. Transparency is evidenced through discussions of AI applications, research goals, and methods for bounding AI model performance and disparities, as well as personalized decision-making and counterfactual simulation for user trajectories.",
+          "title": "2024 CAIRFI Awards for AI Fellowships & Research",
+          "url": "https://capitalone.com/tech/ai/2024-cairfi-award-recipients"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Advancing AI Research at NeurIPS 2024,\" provides evidence for **transparency**, **governance**, and **explainability**. The post details research on LLM scaling laws and efficiency optimization, which informs potential governance and transparency. Furthermore, it highlights a commitment to \"trustworthy AI\" and progress in \"explainable AI,\" alongside methods to control LLM behavior for safety and reliability, all contributing to transparency and governance in AI development.",
+          "title": "Advancing AI Research at NeurIPS 2024",
+          "url": "https://capitalone.com/tech/ai/neurips-2024"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"ICML 2025: Advancing Machine Learning,\" provides evidence for **governance** and **transparency**. The post supports transparency by detailing advancements in AI research, including novel approaches to tabular zero-shot learning and adversarial pre-training, and by discussing benchmarks for evaluating LLM capabilities. It also indicates a commitment to governance through the mention of dynamic guardian models for rule compliance and the broader focus on ML development and AI research engagement, suggesting a dedication to establishing standards and best practices for AI management.",
+          "title": "ICML 2025: Advancing Machine Learning",
+          "url": "https://capitalone.com/tech/ai/icml-2025"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by highlighting Capital One's commitment to partnerships and the establishment of dedicated centers for AI safety and responsibility. Transparency is supported by mentioning a specific AI tool, Chat Concierge, and its purpose, offering insight into AI capabilities.",
+          "title": "Capital One partners with NSF to advance U.S. AI leadership",
+          "url": "https://capitalone.com/tech/ai/capital-one-nsf-partnership-advances-ai-leadership"
+        }
+      ],
+      "score": 2,
+      "source_count": 15
+    }
+  },
+  "published_at": "2026-02-23T21:45:46Z",
+  "run_id": "20260128_020909_c7f3",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Capital One's published materials describe the function of its ML system for transaction analysis, demonstrating a focus on transparency. The company's disclosures also highlight ongoing experimentation with specific interpretability techniques for explainability and emphasize human decision-making alongside ML in its oversight practices. Furthermore, materials describe operational AI/ML processes like monitoring, training, and retraining frameworks, and mention privacy considerations within ML practices. Drawing from 19 publicly available sources, all 7 evaluated pillars have documented public evidence, including a policy focus on bias in ML models for fairness and commitments to collaborative research for external accountability.",
+    "pillars_operational": 7,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 110,
+    "total_sources_used": 18
+  }
+}

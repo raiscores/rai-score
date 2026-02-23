@@ -1,0 +1,372 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "Pfizer",
+  "company_slug": "pfizer",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 12,
+      "OPERATIONAL": 10,
+      "POLICY": 31
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Pfizer's policy documents address explainability requirements for AI systems. These documents also state a policy to inform users about AI system limitations and risks.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Three Principles of Responsibility for Artificial Intelligence (AI) in Healthcare,\" provides evidence for the pillars of **fairness, transparency, explainability, and governance**. It supports fairness by detailing operational tools for bias detection and mitigation in data and models, and governance by describing a framework of principles, policies, and controls for ethical AI use, including an AI Council. The document also addresses transparency and explainability by stating a policy to inform users about AI system limitations and risks.",
+          "title": "Three Principles of Responsibility for Artificial Intelligence (AI) in Healthcare",
+          "url": "https://pfizer.com/news/articles/three_principles_of_responsibility_for_artificial_intelligence_ai_in_healthcare"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "Pfizer's \"Policy Position on Artificial Intelligence\" policy document provides evidence for **governance, oversight, transparency, explainability, privacy, and fairness**. The policy outlines corporate standards for AI development and deployment, emphasizing ownership, accountability, and human controls (governance, oversight). It also addresses transparency and explainability requirements, privacy and security safeguards, and training on bias mitigation to ensure fairness and equity in AI systems (transparency, explainability, privacy, fairness).",
+          "title": "Policy Position on Artificial Intelligence",
+          "url": "https://cdn.pfizer.com/pfizercom/AI_Policy_Position_12112023.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 7,
+      "findings": "Pfizer's policy documents describe operational tools, safeguards, and proprietary tools for bias detection and mitigation in AI data and models. These documents also outline training on bias mitigation to ensure fairness and equity in AI systems. An annual report references policy considerations for fairness related to potential AI risks like biased data and flawed algorithms.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Three Principles of Responsibility for Artificial Intelligence (AI) in Healthcare,\" provides evidence for the pillars of **fairness, transparency, explainability, and governance**. It supports fairness by detailing operational tools for bias detection and mitigation in data and models, and governance by describing a framework of principles, policies, and controls for ethical AI use, including an AI Council. The document also addresses transparency and explainability by stating a policy to inform users about AI system limitations and risks.",
+          "title": "Three Principles of Responsibility for Artificial Intelligence (AI) in Healthcare",
+          "url": "https://pfizer.com/news/articles/three_principles_of_responsibility_for_artificial_intelligence_ai_in_healthcare"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "Pfizer's \"Policy Position on Artificial Intelligence\" policy document provides evidence for **governance, oversight, transparency, explainability, privacy, and fairness**. The policy outlines corporate standards for AI development and deployment, emphasizing ownership, accountability, and human controls (governance, oversight). It also addresses transparency and explainability requirements, privacy and security safeguards, and training on bias mitigation to ensure fairness and equity in AI systems (transparency, explainability, privacy, fairness).",
+          "title": "Policy Position on Artificial Intelligence",
+          "url": "https://cdn.pfizer.com/pfizercom/AI_Policy_Position_12112023.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, Pfizer's Human Rights Policy Statement, provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports fairness by explicitly mentioning safeguards and proprietary tools to detect and mitigate bias in AI data and models. The policy also supports governance through its commitment to ethical AI use training and the establishment of principles guiding its approach to AI.",
+          "title": "Pfizer's Human Rights Policy Statement",
+          "url": "https://cdn.pfizer.com/pfizercom/about/Human_Rights_Policy_Statement_2023.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing from Pfizer Inc. provides evidence for **governance**, **fairness**, and **privacy**. The report acknowledges risks associated with AI-based software, including those from adversarial AI techniques used in cyber-attacks, and discusses the need for governance to manage these challenges. It also addresses potential AI risks like biased data and flawed algorithms, indicating policy considerations for fairness and privacy.",
+          "title": "Pfizer Inc. Form 10-K Annual Report (Fiscal Year 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/78003/000007800325000066/pfe-ars2025.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 36,
+      "findings": "Pfizer's policy documents and impact reports describe a framework of principles, policies, and controls for ethical AI use, including an AI Council responsible for AI principles, corporate policy, and risk assessment. The company outlines corporate standards for AI development and deployment, emphasizing ownership, accountability, and human controls, and details a commitment to ethical AI use training. Governance practices include an operational method for vendor evaluation and selection, Board oversight of AI strategy and risk, and a strategic roadmap for AI incorporation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Three Principles of Responsibility for Artificial Intelligence (AI) in Healthcare,\" provides evidence for the pillars of **fairness, transparency, explainability, and governance**. It supports fairness by detailing operational tools for bias detection and mitigation in data and models, and governance by describing a framework of principles, policies, and controls for ethical AI use, including an AI Council. The document also addresses transparency and explainability by stating a policy to inform users about AI system limitations and risks.",
+          "title": "Three Principles of Responsibility for Artificial Intelligence (AI) in Healthcare",
+          "url": "https://pfizer.com/news/articles/three_principles_of_responsibility_for_artificial_intelligence_ai_in_healthcare"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "Pfizer's \"Policy Position on Artificial Intelligence\" policy document provides evidence for **governance, oversight, transparency, explainability, privacy, and fairness**. The policy outlines corporate standards for AI development and deployment, emphasizing ownership, accountability, and human controls (governance, oversight). It also addresses transparency and explainability requirements, privacy and security safeguards, and training on bias mitigation to ensure fairness and equity in AI systems (transparency, explainability, privacy, fairness).",
+          "title": "Policy Position on Artificial Intelligence",
+          "url": "https://cdn.pfizer.com/pfizercom/AI_Policy_Position_12112023.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The Pfizer 2023 Impact Report provides evidence for the **governance** and **privacy** pillars of responsible AI. It details Pfizer's AI governance structure, including a cross-functional AI Council responsible for AI principles, corporate policy, and risk assessment, and highlights a formal policy commitment to responsible AI use. Furthermore, the report links AI responsibility with privacy and human rights principles, demonstrating a commitment to protecting personal data.",
+          "title": "Pfizer 2023 Impact Report",
+          "url": "https://cdn.pfizer.com/pfizercom/Pfizer_2023_Impact_Report_11MAR2024.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, Pfizer's Human Rights Policy Statement, provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports fairness by explicitly mentioning safeguards and proprietary tools to detect and mitigate bias in AI data and models. The policy also supports governance through its commitment to ethical AI use training and the establishment of principles guiding its approach to AI.",
+          "title": "Pfizer's Human Rights Policy Statement",
+          "url": "https://cdn.pfizer.com/pfizercom/about/Human_Rights_Policy_Statement_2023.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing an operational method for vendor evaluation and selection, demonstrating due diligence in AI procurement. Evidence for transparency is found in the description of AI-based extraction and case validity evaluation, which implies a level of operational testing and assessment of vendor capabilities for pharmacovigilance automation.",
+          "title": "Use of Artificial Intelligence in Adverse Event Case Processing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30303528"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "The \"Pfizer Impact: Responsible Business\" help page provides evidence for the **governance** pillar of responsible AI. This corporate responsibility page details Pfizer's commitment to ethical and purposeful AI deployment through its \"Principles of Responsibility for Artificial Intelligence,\" indicating a policy-level approach to AI governance and decision-making.",
+          "title": "Pfizer Impact: Responsible Business",
+          "url": "https://pfizer.com/about/responsibility/responsible-business"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This press release announcing Health Answers by Pfizer provides evidence for the **governance** and **transparency** pillars. It supports governance by describing the product's operational independence from the pharmaceutical business to ensure objective information, and it supports transparency by detailing the use of generative AI, the editorial oversight of trusted sources, and communication to users about information source limitations.",
+          "title": "Introducing Health Answers by Pfizer: A New Consumer Digital Product",
+          "url": "https://pfizer.com/news/announcements/introducing-health-answers-pfizer-new-consumer-digital-product-providing-answers"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "The Pfizer Inc. 2025 Proxy Statement provides evidence for the **governance** pillar of responsible AI. This proxy statement documents the Board's oversight of responsible business practices, including AI strategy, and mentions AI as a risk topic considered by the Board. It also details the Board and Committee oversight roles, a risk management program, and a commitment to responsible technology and governance, including a strategic roadmap for AI incorporation and policies for responsible AI use.",
+          "title": "Pfizer Inc. 2025 Proxy Statement",
+          "url": "https://sec.gov/Archives/edgar/data/78003/000007800325000062/proxystatement2025courtesy.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing from Pfizer Inc. provides evidence for **governance**, **fairness**, and **privacy**. The report acknowledges risks associated with AI-based software, including those from adversarial AI techniques used in cyber-attacks, and discusses the need for governance to manage these challenges. It also addresses potential AI risks like biased data and flawed algorithms, indicating policy considerations for fairness and privacy.",
+          "title": "Pfizer Inc. Form 10-K Annual Report (Fiscal Year 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/78003/000007800325000066/pfe-ars2025.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Corporate Compliance - Pfizer,\" provides evidence for the **governance** pillar. It describes Pfizer's use of algorithms and machine learning for risk identification, indicating governance over these AI systems. The document also details the company's quality and compliance governance framework oversight.",
+          "title": "Corporate Compliance - Pfizer",
+          "url": "https://pfizer.com/about/responsibility/compliance"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "The \"Pfizer 2024 Annual Review\" provides evidence for the **governance** and **transparency** pillars of responsible AI. This corporate annual review details specific AI use cases, such as the OncoScout platform for cancer drug discovery and an AI Medical Assistant that reduced manuscript production time by 40%, demonstrating transparency of capabilities. Furthermore, the document outlines AI's role in manufacturing optimization and clinical trial enrollment, implicitly supporting governance by showcasing strategic AI initiatives and their quantified impact.",
+          "title": "Pfizer 2024 Annual Review",
+          "url": "https://annualreview.pfizer.com"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 7,
+      "findings": "Pfizer's policy documents outline corporate standards for AI development and deployment, emphasizing ownership, accountability, and human controls. Press releases describe mechanisms where human professionals train and monitor AI software, and experts check results. These documents also highlight a human-in-the-loop design where AI empowers safety experts and references maintaining human oversight in regulatory and clinical contexts.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "Pfizer's \"Policy Position on Artificial Intelligence\" policy document provides evidence for **governance, oversight, transparency, explainability, privacy, and fairness**. The policy outlines corporate standards for AI development and deployment, emphasizing ownership, accountability, and human controls (governance, oversight). It also addresses transparency and explainability requirements, privacy and security safeguards, and training on bias mitigation to ensure fairness and equity in AI systems (transparency, explainability, privacy, fairness).",
+          "title": "Policy Position on Artificial Intelligence",
+          "url": "https://cdn.pfizer.com/pfizercom/AI_Policy_Position_12112023.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The Pfizer 2023 Impact Report provides evidence for the **governance** and **privacy** pillars of responsible AI. It details Pfizer's AI governance structure, including a cross-functional AI Council responsible for AI principles, corporate policy, and risk assessment, and highlights a formal policy commitment to responsible AI use. Furthermore, the report links AI responsibility with privacy and human rights principles, demonstrating a commitment to protecting personal data.",
+          "title": "Pfizer 2023 Impact Report",
+          "url": "https://cdn.pfizer.com/pfizercom/Pfizer_2023_Impact_Report_11MAR2024.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This Pfizer press release provides evidence for the **oversight** and **transparency** pillars of responsible AI. The document describes mechanisms where human professionals train and monitor AI software, and experts check results, demonstrating human oversight in AI development and application. Furthermore, the press release implies transparency through its emphasis on AI assisting human decision-makers and maintaining human oversight in regulatory and clinical contexts, as well as AI's role in ensuring consistent terminology and processing external documents.",
+          "title": "On a Mission to Make Clinical Drug Development Faster and Smarter",
+          "url": "https://pfizer.com/news/articles/artificial_intelligence_on_a_mission_to_make_clinical_drug_development_faster_and_smarter"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **oversight** and **transparency**. It describes Pfizer's pharmacovigilance AI platform, detailing its capabilities in automating adverse event report intake and categorization, which supports transparency by outlining AI model functions and testing pilots. The press release also highlights a human-in-the-loop design where AI empowers safety experts by automating repetitive tasks, enabling them to focus on critical thinking and patient safety assessment, thus demonstrating oversight.",
+          "title": "AI in Drug Safety: Building the Elusive 'Loch Ness Monster' of Reporting Tools",
+          "url": "https://pfizer.com/news/articles/ai-drug-safety-building-elusive-%E2%80%98loch-ness-monster%E2%80%99-reporting-tools"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "Pfizer's policy documents address privacy and security safeguards for AI systems. An impact report links AI responsibility with privacy and human rights principles, demonstrating a commitment to protecting personal data. Additionally, an annual report references policy considerations for privacy related to potential AI risks.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "Pfizer's \"Policy Position on Artificial Intelligence\" policy document provides evidence for **governance, oversight, transparency, explainability, privacy, and fairness**. The policy outlines corporate standards for AI development and deployment, emphasizing ownership, accountability, and human controls (governance, oversight). It also addresses transparency and explainability requirements, privacy and security safeguards, and training on bias mitigation to ensure fairness and equity in AI systems (transparency, explainability, privacy, fairness).",
+          "title": "Policy Position on Artificial Intelligence",
+          "url": "https://cdn.pfizer.com/pfizercom/AI_Policy_Position_12112023.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "The Pfizer 2023 Impact Report provides evidence for the **governance** and **privacy** pillars of responsible AI. It details Pfizer's AI governance structure, including a cross-functional AI Council responsible for AI principles, corporate policy, and risk assessment, and highlights a formal policy commitment to responsible AI use. Furthermore, the report links AI responsibility with privacy and human rights principles, demonstrating a commitment to protecting personal data.",
+          "title": "Pfizer 2023 Impact Report",
+          "url": "https://cdn.pfizer.com/pfizercom/Pfizer_2023_Impact_Report_11MAR2024.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_015",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing from Pfizer Inc. provides evidence for **governance**, **fairness**, and **privacy**. The report acknowledges risks associated with AI-based software, including those from adversarial AI techniques used in cyber-attacks, and discusses the need for governance to manage these challenges. It also addresses potential AI risks like biased data and flawed algorithms, indicating policy considerations for fairness and privacy.",
+          "title": "Pfizer Inc. Form 10-K Annual Report (Fiscal Year 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/78003/000007800325000066/pfe-ars2025.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 17,
+      "findings": "Pfizer's policy documents outline transparency requirements and state a policy to inform users about AI system limitations and risks. Press releases describe mechanisms for human professionals to train and monitor AI software, and detail AI model functions and testing pilots. The company also details specific AI use cases and the use of generative AI, including communication to users about information source limitations.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Three Principles of Responsibility for Artificial Intelligence (AI) in Healthcare,\" provides evidence for the pillars of **fairness, transparency, explainability, and governance**. It supports fairness by detailing operational tools for bias detection and mitigation in data and models, and governance by describing a framework of principles, policies, and controls for ethical AI use, including an AI Council. The document also addresses transparency and explainability by stating a policy to inform users about AI system limitations and risks.",
+          "title": "Three Principles of Responsibility for Artificial Intelligence (AI) in Healthcare",
+          "url": "https://pfizer.com/news/articles/three_principles_of_responsibility_for_artificial_intelligence_ai_in_healthcare"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "Pfizer's \"Policy Position on Artificial Intelligence\" policy document provides evidence for **governance, oversight, transparency, explainability, privacy, and fairness**. The policy outlines corporate standards for AI development and deployment, emphasizing ownership, accountability, and human controls (governance, oversight). It also addresses transparency and explainability requirements, privacy and security safeguards, and training on bias mitigation to ensure fairness and equity in AI systems (transparency, explainability, privacy, fairness).",
+          "title": "Policy Position on Artificial Intelligence",
+          "url": "https://cdn.pfizer.com/pfizercom/AI_Policy_Position_12112023.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This Pfizer press release provides evidence for the **oversight** and **transparency** pillars of responsible AI. The document describes mechanisms where human professionals train and monitor AI software, and experts check results, demonstrating human oversight in AI development and application. Furthermore, the press release implies transparency through its emphasis on AI assisting human decision-makers and maintaining human oversight in regulatory and clinical contexts, as well as AI's role in ensuring consistent terminology and processing external documents.",
+          "title": "On a Mission to Make Clinical Drug Development Faster and Smarter",
+          "url": "https://pfizer.com/news/articles/artificial_intelligence_on_a_mission_to_make_clinical_drug_development_faster_and_smarter"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **oversight** and **transparency**. It describes Pfizer's pharmacovigilance AI platform, detailing its capabilities in automating adverse event report intake and categorization, which supports transparency by outlining AI model functions and testing pilots. The press release also highlights a human-in-the-loop design where AI empowers safety experts by automating repetitive tasks, enabling them to focus on critical thinking and patient safety assessment, thus demonstrating oversight.",
+          "title": "AI in Drug Safety: Building the Elusive 'Loch Ness Monster' of Reporting Tools",
+          "url": "https://pfizer.com/news/articles/ai-drug-safety-building-elusive-%E2%80%98loch-ness-monster%E2%80%99-reporting-tools"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing an operational method for vendor evaluation and selection, demonstrating due diligence in AI procurement. Evidence for transparency is found in the description of AI-based extraction and case validity evaluation, which implies a level of operational testing and assessment of vendor capabilities for pharmacovigilance automation.",
+          "title": "Use of Artificial Intelligence in Adverse Event Case Processing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30303528"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This press release announcing Health Answers by Pfizer provides evidence for the **governance** and **transparency** pillars. It supports governance by describing the product's operational independence from the pharmaceutical business to ensure objective information, and it supports transparency by detailing the use of generative AI, the editorial oversight of trusted sources, and communication to users about information source limitations.",
+          "title": "Introducing Health Answers by Pfizer: A New Consumer Digital Product",
+          "url": "https://pfizer.com/news/announcements/introducing-health-answers-pfizer-new-consumer-digital-product-providing-answers"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "The \"Pfizer 2024 Annual Review\" provides evidence for the **governance** and **transparency** pillars of responsible AI. This corporate annual review details specific AI use cases, such as the OncoScout platform for cancer drug discovery and an AI Medical Assistant that reduced manuscript production time by 40%, demonstrating transparency of capabilities. Furthermore, the document outlines AI's role in manufacturing optimization and clinical trial enrollment, implicitly supporting governance by showcasing strategic AI initiatives and their quantified impact.",
+          "title": "Pfizer 2024 Annual Review",
+          "url": "https://annualreview.pfizer.com"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:57:22Z",
+  "run_id": "20260203_013157_6147",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Pfizer's public disclosures address both operational and policy-level practices across its responsible AI framework. Operational practices are documented for transparency, fairness, oversight, and governance, covering 6 of 7 evaluated pillars; for instance, policy documents outline corporate standards for AI development and deployment, emphasizing ownership and accountability, and describe operational tools for bias detection and mitigation. Additionally, policy-level evidence is present for explainability and privacy, with materials addressing explainability requirements for AI systems and linking AI responsibility with privacy and human rights principles. No qualifying public evidence was found for external accountability, based on a review of 21 publicly available sources.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 53,
+    "total_sources_used": 13
+  }
+}

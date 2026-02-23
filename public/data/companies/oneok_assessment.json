@@ -1,0 +1,144 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 7.1,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 1
+  },
+  "company": "Oneok",
+  "company_slug": "oneok",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 7,
+      "OPERATIONAL": 0,
+      "POLICY": 2
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 2,
+      "findings": "A policy document details risks and potential regulations surrounding AI, including those related to third-party AI use and internal AI integration. This document states a need for governance structures and oversight mechanisms to manage these identified AI-related risks.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Reporting and Corporate Policies – ONEOK Sustainability Site,\" provides evidence for the **governance** pillar of responsible AI. It explicitly details risks and potential regulations surrounding AI, including third-party AI use and internal AI integration, indicating a need for governance structures and oversight mechanisms to manage these AI-related risks.",
+          "title": "Reporting and Corporate Policies – ONEOK Sustainability Site",
+          "url": "https://sustainability.oneok.com/reporting-and-corporate-policies"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Transparency",
+      "evidence_count": 7,
+      "findings": "ONEOK's investment in CruxOCM's AI-driven pipeline automation technology, including specific solutions like the AI co-pilot and pipeBOT automated control system, is mentioned. The intended goals of AI use for operational monitoring and safety enhancement are described. Additionally, the capabilities of CruxOCM's co-pilot technology, such as real-time automation and optimization, along with its enhanced capabilities and potential use cases, are highlighted.",
+      "max_score": 2,
+      "path_to_improvement": "Document AI systems in use, including vendor/third-party AI tools.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **transparency** pillar by explicitly mentioning ONEOK's investment in CruxOCM's AI-driven pipeline automation technology, including their AI co-pilot and pipeBOT automated control system. The document demonstrates transparency about the use of AI for operational monitoring and safety enhancement by identifying specific AI-driven solutions and their intended goals.",
+          "title": "ONEOK Investment in CruxOCM AI-Driven Pipeline Automation Technology",
+          "url": "https://oilandgasadvancement.com/news/microsoft-ventures-fund-natural-gas-transporter-oneok-invest-in-17m-funding-for-ai-dri"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **transparency** pillar of responsible AI. It highlights CruxOCM's \"co-pilot technology\" and its \"capabilities\" such as real-time automation and optimization, aligning with transparency by describing the intended functions of the AI. The article also mentions \"enhanced capabilities\" and \"use cases,\" further supporting transparency through descriptions of the technology's potential applications.",
+          "title": "ONEOK and Microsoft Invest in CruxOCM Co-Pilot Technology",
+          "url": "https://worldoil.com/news/2024/8/30/oneok-microsoft-invest-in-tech-that-sustainably-promotes-oil-and-gas-energy-security"
+        }
+      ],
+      "score": 0,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-02-23T21:56:42Z",
+  "run_id": "20260203_000224_0f2d",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Oneok's published materials detail risks surrounding AI and potential regulations within its governance pillar. This pillar is the only one of 7 evaluated responsible AI pillars for which documented evidence was found, drawing from 5 publicly available sources. No qualifying public evidence was found for the majority of the 7 evaluated pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 1,
+    "pillars_without_evidence": 6,
+    "total_evidence_items": 9,
+    "total_sources_used": 3
+  }
+}

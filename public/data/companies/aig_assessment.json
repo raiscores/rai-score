@@ -1,0 +1,271 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "AIG",
+  "company_slug": "aig",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 25,
+      "OPERATIONAL": 5,
+      "POLICY": 62
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Blog posts mention the use of explainable AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **explainability**, **external_accountability**, **fairness**, **governance**, and **transparency**. The source discusses AI use cases and capabilities, including predictive analytics and machine learning for risk assessment, which implies transparency in identifying patterns and behaviors. It also mentions commitments to bias assessments, ethical considerations, regulatory compliance, and the use of explainable AI, demonstrating a focus on fairness and governance. Furthermore, the blog post touches upon continuous model improvement and validation processes, suggesting mechanisms for external accountability and operational governance.",
+          "title": "AI Risk Scoring in Insurance - Rapid Innovation, September 18, 2024",
+          "url": "https://rapidinnovation.io/post/ai-risk-scoring-in-insurance"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 11,
+      "findings": "SEC filings acknowledge the impact of AI/ML regulations, mention regulatory scrutiny, and reference AI laws and jurisdictional requirements. Blog posts also touch upon continuous model improvement and validation processes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K for Fiscal Year 2024,\" provides evidence for **external accountability**, **governance**, and **privacy**. The document supports external accountability and governance by acknowledging the impact of AI/ML regulations, mentioning regulatory scrutiny, and referencing AI laws and jurisdictional requirements. It also supports the privacy pillar by referencing AI requirements in the context of data protection and privacy laws.",
+          "title": "Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/5272/000000527225000012/aig-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **explainability**, **external_accountability**, **fairness**, **governance**, and **transparency**. The source discusses AI use cases and capabilities, including predictive analytics and machine learning for risk assessment, which implies transparency in identifying patterns and behaviors. It also mentions commitments to bias assessments, ethical considerations, regulatory compliance, and the use of explainable AI, demonstrating a focus on fairness and governance. Furthermore, the blog post touches upon continuous model improvement and validation processes, suggesting mechanisms for external accountability and operational governance.",
+          "title": "AI Risk Scoring in Insurance - Rapid Innovation, September 18, 2024",
+          "url": "https://rapidinnovation.io/post/ai-risk-scoring-in-insurance"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 7,
+      "findings": "Blog posts mention commitments to bias assessments and ethical considerations related to AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **explainability**, **external_accountability**, **fairness**, **governance**, and **transparency**. The source discusses AI use cases and capabilities, including predictive analytics and machine learning for risk assessment, which implies transparency in identifying patterns and behaviors. It also mentions commitments to bias assessments, ethical considerations, regulatory compliance, and the use of explainable AI, demonstrating a focus on fairness and governance. Furthermore, the blog post touches upon continuous model improvement and validation processes, suggesting mechanisms for external accountability and operational governance.",
+          "title": "AI Risk Scoring in Insurance - Rapid Innovation, September 18, 2024",
+          "url": "https://rapidinnovation.io/post/ai-risk-scoring-in-insurance"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 67,
+      "findings": "Reports and privacy policy documents reference governance within cybersecurity, data governance, and detail oversight of AI-driven processes through vendor services. SEC filings acknowledge the impact of AI/ML regulations, regulatory scrutiny, and reference AI laws. A press release details AI's role in assessing submissions and informing strategic business decisions. Articles detail the strategic push and ecosystem development around generative AI, including a planned innovation hub, and the deployment of Gen AI for improved decision-making in underwriting. Blog posts mention commitments to regulatory compliance and continuous model improvement and validation processes.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned 2024 Sustainability Report section on Cybersecurity and Data Governance provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by detailing AIG's formal policy statement on responsible GenAI deployment and its documented AI governance framework, which includes robust measures around data, data privacy, and AI. The report also supports transparency by disclosing the increasing use of GenAI and LLMs in insurance operations to enhance business processes.",
+          "title": "2024 Sustainability Report - Cybersecurity and Data Governance Section",
+          "url": "https://aig.com/content/dam/aig/america-canada/us/documents/about-us/report/aig-sustainability-report-2024.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by detailing the use of vendor services for website optimization, analytics, and tool development, indicating oversight of AI-driven processes. The policy also supports privacy by describing data collection for site adaptation and user experience, and by mentioning data sharing with vendors for service provision and tool development, all within the context of personal information processing.",
+          "title": "Privacy Policy - Updated August 8, 2025",
+          "url": "https://aig.com/privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K for Fiscal Year 2024,\" provides evidence for **external accountability**, **governance**, and **privacy**. The document supports external accountability and governance by acknowledging the impact of AI/ML regulations, mentioning regulatory scrutiny, and referencing AI laws and jurisdictional requirements. It also supports the privacy pillar by referencing AI requirements in the context of data protection and privacy laws.",
+          "title": "Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/5272/000000527225000012/aig-20241231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release from AIG outlines their strategy for using large language models to improve underwriting accuracy, customer service, market analysis, and dynamic pricing. The document supports the **governance** pillar by detailing AI's role in assessing submissions against defined criteria and informing strategic business decisions like market analysis and dynamic pricing. It also supports the **transparency** pillar by explicitly mentioning the use of \"large language models\" and their specific application in filtering submissions.",
+          "title": "AIG Reports Results, Outlines AI Strategy - Business Insurance, July 31, 2024",
+          "url": "https://businessinsurance.com/aig-reports-results-outlines-ai-strategy-peter-zaffino"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This CIO Dive article provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing AIG's strategic push and ecosystem development around generative AI, including a planned innovation hub. Transparency is supported by mentions of LLM technologies and improvements in AI-driven processes during pilots, highlighting potential gains and data integration within their AI ecosystem.",
+          "title": "AIG Leans on Generative AI to Speed Underwriting - CIO Dive, November 5, 2024",
+          "url": "https://ciodive.com/news/aig-insurance-agentic-generative-ai-underwriting/732183"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This article from Reinsurance News provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the deployment of Gen AI for improved decision-making in underwriting, the need to manage future technological advancements like LLMs, and the operational rollout of \"underwriting by AIG Assist.\" Transparency is supported by mentioning the use of LLMs to accelerate underwriting processes, implying clarity in system capabilities, and the description of the operational application of AIG Assist.",
+          "title": "Speed Drives Growth as Gen AI Accelerates Underwriting - Reinsurance News, November 6, 2025",
+          "url": "https://reinsurancene.ws/speed-drives-growth-as-gen-ai-accelerates-underwriting-aig-ceo"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **explainability**, **external_accountability**, **fairness**, **governance**, and **transparency**. The source discusses AI use cases and capabilities, including predictive analytics and machine learning for risk assessment, which implies transparency in identifying patterns and behaviors. It also mentions commitments to bias assessments, ethical considerations, regulatory compliance, and the use of explainable AI, demonstrating a focus on fairness and governance. Furthermore, the blog post touches upon continuous model improvement and validation processes, suggesting mechanisms for external accountability and operational governance.",
+          "title": "AI Risk Scoring in Insurance - Rapid Innovation, September 18, 2024",
+          "url": "https://rapidinnovation.io/post/ai-risk-scoring-in-insurance"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 10,
+      "findings": "Reports and SEC filings reference privacy considerations within cybersecurity, data governance, and AI requirements in the context of data protection and privacy laws. Privacy policy documents describe data collection for site adaptation and user experience, and mention data sharing with vendors for service provision and tool development within the context of personal information processing.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned 2024 Sustainability Report section on Cybersecurity and Data Governance provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by detailing AIG's formal policy statement on responsible GenAI deployment and its documented AI governance framework, which includes robust measures around data, data privacy, and AI. The report also supports transparency by disclosing the increasing use of GenAI and LLMs in insurance operations to enhance business processes.",
+          "title": "2024 Sustainability Report - Cybersecurity and Data Governance Section",
+          "url": "https://aig.com/content/dam/aig/america-canada/us/documents/about-us/report/aig-sustainability-report-2024.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by detailing the use of vendor services for website optimization, analytics, and tool development, indicating oversight of AI-driven processes. The policy also supports privacy by describing data collection for site adaptation and user experience, and by mentioning data sharing with vendors for service provision and tool development, all within the context of personal information processing.",
+          "title": "Privacy Policy - Updated August 8, 2025",
+          "url": "https://aig.com/privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K for Fiscal Year 2024,\" provides evidence for **external accountability**, **governance**, and **privacy**. The document supports external accountability and governance by acknowledging the impact of AI/ML regulations, mentioning regulatory scrutiny, and referencing AI laws and jurisdictional requirements. It also supports the privacy pillar by referencing AI requirements in the context of data protection and privacy laws.",
+          "title": "Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/5272/000000527225000012/aig-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 37,
+      "findings": "Reports and articles disclose the increasing use of Generative AI and Large Language Models (LLMs) in insurance operations, including their application in filtering submissions and accelerating underwriting processes. These sources also discuss AI use cases and capabilities like predictive analytics for risk assessment, and describe the operational application of AIG Assist.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned 2024 Sustainability Report section on Cybersecurity and Data Governance provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by detailing AIG's formal policy statement on responsible GenAI deployment and its documented AI governance framework, which includes robust measures around data, data privacy, and AI. The report also supports transparency by disclosing the increasing use of GenAI and LLMs in insurance operations to enhance business processes.",
+          "title": "2024 Sustainability Report - Cybersecurity and Data Governance Section",
+          "url": "https://aig.com/content/dam/aig/america-canada/us/documents/about-us/report/aig-sustainability-report-2024.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release from AIG outlines their strategy for using large language models to improve underwriting accuracy, customer service, market analysis, and dynamic pricing. The document supports the **governance** pillar by detailing AI's role in assessing submissions against defined criteria and informing strategic business decisions like market analysis and dynamic pricing. It also supports the **transparency** pillar by explicitly mentioning the use of \"large language models\" and their specific application in filtering submissions.",
+          "title": "AIG Reports Results, Outlines AI Strategy - Business Insurance, July 31, 2024",
+          "url": "https://businessinsurance.com/aig-reports-results-outlines-ai-strategy-peter-zaffino"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This CIO Dive article provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing AIG's strategic push and ecosystem development around generative AI, including a planned innovation hub. Transparency is supported by mentions of LLM technologies and improvements in AI-driven processes during pilots, highlighting potential gains and data integration within their AI ecosystem.",
+          "title": "AIG Leans on Generative AI to Speed Underwriting - CIO Dive, November 5, 2024",
+          "url": "https://ciodive.com/news/aig-insurance-agentic-generative-ai-underwriting/732183"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This article from Reinsurance News provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the deployment of Gen AI for improved decision-making in underwriting, the need to manage future technological advancements like LLMs, and the operational rollout of \"underwriting by AIG Assist.\" Transparency is supported by mentioning the use of LLMs to accelerate underwriting processes, implying clarity in system capabilities, and the description of the operational application of AIG Assist.",
+          "title": "Speed Drives Growth as Gen AI Accelerates Underwriting - Reinsurance News, November 6, 2025",
+          "url": "https://reinsurancene.ws/speed-drives-growth-as-gen-ai-accelerates-underwriting-aig-ceo"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **explainability**, **external_accountability**, **fairness**, **governance**, and **transparency**. The source discusses AI use cases and capabilities, including predictive analytics and machine learning for risk assessment, which implies transparency in identifying patterns and behaviors. It also mentions commitments to bias assessments, ethical considerations, regulatory compliance, and the use of explainable AI, demonstrating a focus on fairness and governance. Furthermore, the blog post touches upon continuous model improvement and validation processes, suggesting mechanisms for external accountability and operational governance.",
+          "title": "AI Risk Scoring in Insurance - Rapid Innovation, September 18, 2024",
+          "url": "https://rapidinnovation.io/post/ai-risk-scoring-in-insurance"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:41:58Z",
+  "run_id": "20260202_200634_f02c",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Human Oversight & Accountability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "AIG's reports disclose the increasing use of Generative AI and Large Language Models (LLMs) in insurance operations to enhance business processes, with a press release explicitly mentioning their application in filtering submissions. This evidence contributes to documentation across 6 of 7 evaluated responsible AI pillars, with materials also referencing privacy considerations within cybersecurity and data governance, and detailing the use of vendor services for website optimization, analytics, and tool development under governance. Further disclosures include commitments to bias assessments for fairness, mentions of explainable AI, and acknowledgments of AI/ML regulatory impact in external accountability. These findings are based on 11 publicly available sources. No qualifying public evidence was found for oversight.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 92,
+    "total_sources_used": 7
+  }
+}

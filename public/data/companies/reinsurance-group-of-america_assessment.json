@@ -1,0 +1,468 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Reinsurance Group of America",
+  "company_slug": "reinsurance-group-of-america",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 23,
+      "OPERATIONAL": 11,
+      "POLICY": 50
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 7,
+      "findings": "RGA references addressing explainability risks for AI use. The company discusses specific AI tools like SHAP and LIME for model explainability and highlights a requirement for explainability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post, \"What AI Means for Compliance,\" provides evidence for **governance, transparency, explainability, fairness, and privacy**. The publication highlights an active AI governance strategy project that aims to establish controls and oversight for AI use, demonstrating a commitment to **governance** and addressing risks like **transparency** and **explainability**. The mention of ethical concerns such as bias and data protection further supports the **fairness** and **privacy** pillars, indicating an awareness of these critical areas.",
+          "title": "What AI Means for Compliance",
+          "url": "https://rgare.com/knowledge-center/article/what-ai-means-for-compliance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post provides evidence for explainability, external_accountability, fairness, governance, privacy, and transparency. The article discusses AI tools like SHAP and LIME for model explainability and bias checks, and MLflow for logging decision steps to ensure transparency and auditability. It also highlights the importance of bias safeguards and transparent customer data usage, supporting the privacy and fairness pillars by referencing data anonymization and compliance with anti-discrimination laws.",
+          "title": "How AI Provides Real Solutions to Today's Underwriting Challenges",
+          "url": "https://rgare.com/knowledge-center/article/how-ai-provides-real-solutions-to-today's-underwriting-challenges"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"SOA AI Bulletin – RGA AI Innovation in Underwriting,\" provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. The bulletin discusses AI/ML applications and methods, AI risk management frameworks, and the need to address bias and systemic unfairness, supporting transparency and fairness. It also mentions plans for executive quote approval and model fine-tuning, indicating governance and oversight, while discussions on LLM bias and secure data use touch upon privacy and fairness. Furthermore, the paper highlights the requirement for documentation, explainability, and audits, supporting external accountability.",
+          "title": "SOA AI Bulletin – RGA AI Innovation in Underwriting",
+          "url": "https://soa.org/49f134/globalassets/assets/files/resources/research-report/2025/2025-07-ai-bulletin.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 8,
+      "findings": "RGA outlines formal commitments to responsible AI development and deployment, including protecting systems from breaches and ensuring resilience. The company describes logging decision steps to ensure auditability and highlights a requirement for documentation and audits. Additionally, RGA focuses on helping clients comply with regulations and remediate fairness issues.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Data and Analytics Ethics Framework,\" provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. The framework outlines formal commitments to responsible AI development and deployment, including protecting systems from breaches and ensuring resilience, which supports **external_accountability** and **governance**. It also details a commitment to minimizing bias and ensuring equitable treatment for all users, directly supporting the **fairness** pillar, and emphasizes adherence to ethical standards and avoiding decisions based on protected attributes. Furthermore, the principles guide the AI approach with a commitment to rights protection and regulatory alignment, reinforcing **governance** and **privacy**.",
+          "title": "Data and Analytics Ethics Framework",
+          "url": "https://rgare.com/our-company/responsibility/policies-and-governance-center/corporate-governance/data-and-analytics-ethics-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post provides evidence for explainability, external_accountability, fairness, governance, privacy, and transparency. The article discusses AI tools like SHAP and LIME for model explainability and bias checks, and MLflow for logging decision steps to ensure transparency and auditability. It also highlights the importance of bias safeguards and transparent customer data usage, supporting the privacy and fairness pillars by referencing data anonymization and compliance with anti-discrimination laws.",
+          "title": "How AI Provides Real Solutions to Today's Underwriting Challenges",
+          "url": "https://rgare.com/knowledge-center/article/how-ai-provides-real-solutions-to-today's-underwriting-challenges"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper from EY documents the development of a fairness and bias testing playbook for RGA's insurance models. The playbook supports **fairness** by providing a structured approach to testing for bias and discrimination, and **governance** by establishing core documentation for model development and validation. Evidence for **transparency** is found in the acknowledgment of AI's lack of transparency and potential for bias, while **external accountability** is supported by the case study's focus on helping clients comply with regulations and remediate fairness issues.",
+          "title": "EY Case Study – Fairness and Bias Testing Playbook for RGA Models",
+          "url": "https://ey.com/en_us/insights/consulting/ey-consulting-case-studies/ethical-ai-drives-insurance-fairness-and-better-models"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"SOA AI Bulletin – RGA AI Innovation in Underwriting,\" provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. The bulletin discusses AI/ML applications and methods, AI risk management frameworks, and the need to address bias and systemic unfairness, supporting transparency and fairness. It also mentions plans for executive quote approval and model fine-tuning, indicating governance and oversight, while discussions on LLM bias and secure data use touch upon privacy and fairness. Furthermore, the paper highlights the requirement for documentation, explainability, and audits, supporting external accountability.",
+          "title": "SOA AI Bulletin – RGA AI Innovation in Underwriting",
+          "url": "https://soa.org/49f134/globalassets/assets/files/resources/research-report/2025/2025-07-ai-bulletin.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 34,
+      "findings": "RGA outlines a commitment to minimizing bias, ensuring equitable treatment, and avoiding decisions based on protected attributes. The company describes monitoring model outcomes to assess fairness, mitigate discriminatory impacts, and references bias checks and safeguards. Furthermore, RGA addresses safeguarding against bias in AI-driven underwriting and pricing decisions, and mentions testing underwriting models for bias.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Data and Analytics Ethics Framework,\" provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. The framework outlines formal commitments to responsible AI development and deployment, including protecting systems from breaches and ensuring resilience, which supports **external_accountability** and **governance**. It also details a commitment to minimizing bias and ensuring equitable treatment for all users, directly supporting the **fairness** pillar, and emphasizes adherence to ethical standards and avoiding decisions based on protected attributes. Furthermore, the principles guide the AI approach with a commitment to rights protection and regulatory alignment, reinforcing **governance** and **privacy**.",
+          "title": "Data and Analytics Ethics Framework",
+          "url": "https://rgare.com/our-company/responsibility/policies-and-governance-center/corporate-governance/data-and-analytics-ethics-framework"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This 2024 Sustainability Report provides evidence for **governance** and **fairness** in responsible AI. The report details the RGA Data Ethics Oversight Board's role in ensuring ethical data handling, including for AI systems, and mentions the Cybersecurity and Technology Committee's oversight of technology risks. Furthermore, the report describes RGA's active evaluation process for AI and algorithms, specifically monitoring model outcomes and impact to assess fairness and mitigate discriminatory impacts.",
+          "title": "2024 Sustainability Report",
+          "url": "https://rgare.com/docs/default-source/esg/2024-rga-sustainability-report-final-may-29-2025.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post, \"What AI Means for Compliance,\" provides evidence for **governance, transparency, explainability, fairness, and privacy**. The publication highlights an active AI governance strategy project that aims to establish controls and oversight for AI use, demonstrating a commitment to **governance** and addressing risks like **transparency** and **explainability**. The mention of ethical concerns such as bias and data protection further supports the **fairness** and **privacy** pillars, indicating an awareness of these critical areas.",
+          "title": "What AI Means for Compliance",
+          "url": "https://rgare.com/knowledge-center/article/what-ai-means-for-compliance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post provides evidence for explainability, external_accountability, fairness, governance, privacy, and transparency. The article discusses AI tools like SHAP and LIME for model explainability and bias checks, and MLflow for logging decision steps to ensure transparency and auditability. It also highlights the importance of bias safeguards and transparent customer data usage, supporting the privacy and fairness pillars by referencing data anonymization and compliance with anti-discrimination laws.",
+          "title": "How AI Provides Real Solutions to Today's Underwriting Challenges",
+          "url": "https://rgare.com/knowledge-center/article/how-ai-provides-real-solutions-to-today's-underwriting-challenges"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post provides evidence for **governance** and **fairness** in responsible AI. The post supports the governance pillar by detailing RGA's use of a value framework to prioritize, fund, monitor, and measure AI initiatives, and by emphasizing clear objectives and quantifiable metrics for AI success. Evidence for fairness is found in the explicit mention of \"fair AI,\" indicating a commitment to equitable AI development.",
+          "title": "Seven Pillars to Build Now for Greater Success with AI in Insurance",
+          "url": "https://rgare.com/knowledge-center/article/seven-pillars-to-build-now-for-greater-success-with-ai-in-insurance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper from EY documents the development of a fairness and bias testing playbook for RGA's insurance models. The playbook supports **fairness** by providing a structured approach to testing for bias and discrimination, and **governance** by establishing core documentation for model development and validation. Evidence for **transparency** is found in the acknowledgment of AI's lack of transparency and potential for bias, while **external accountability** is supported by the case study's focus on helping clients comply with regulations and remediate fairness issues.",
+          "title": "EY Case Study – Fairness and Bias Testing Playbook for RGA Models",
+          "url": "https://ey.com/en_us/insights/consulting/ey-consulting-case-studies/ethical-ai-drives-insurance-fairness-and-better-models"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post provides evidence for the **fairness**, **privacy**, and **transparency** pillars of responsible AI. It supports fairness by explicitly addressing safeguarding against bias in AI-driven underwriting and pricing decisions. The post also supports privacy by mentioning data privacy and consent, and transparency by emphasizing clear communication about how customer data is used in algorithmic decision-making.",
+          "title": "Health Technologies: The Potential to Innovate Insurance Delivery and Reach",
+          "url": "https://rgare.com/knowledge-center/article/health-technologies--the-potential-to-innovate-insurance-delivery-and-reach"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"SOA AI Bulletin – RGA AI Innovation in Underwriting,\" provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. The bulletin discusses AI/ML applications and methods, AI risk management frameworks, and the need to address bias and systemic unfairness, supporting transparency and fairness. It also mentions plans for executive quote approval and model fine-tuning, indicating governance and oversight, while discussions on LLM bias and secure data use touch upon privacy and fairness. Furthermore, the paper highlights the requirement for documentation, explainability, and audits, supporting external accountability.",
+          "title": "SOA AI Bulletin – RGA AI Innovation in Underwriting",
+          "url": "https://soa.org/49f134/globalassets/assets/files/resources/research-report/2025/2025-07-ai-bulletin.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "This Form 10-K filing provides evidence for the **governance** pillar by detailing management's responsibility, monitoring processes, and judgment in areas like tax accounting and valuation practices, as well as outlining a due diligence process for third-party partners. It also supports the **fairness** pillar by mentioning the testing of underwriting models for bias, indicating a commitment to fairness in model development.",
+          "title": "Form 10-K 2024 – Technology, Cybersecurity, and Data Risks",
+          "url": "https://sec.gov/Archives/edgar/data/898174/000089817425000027/rga-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 9
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 51,
+      "findings": "RGA outlines formal commitments to responsible AI development and deployment, including protecting systems from breaches and ensuring resilience, guided by principles for rights protection and regulatory alignment. The company details the RGA Data Ethics Oversight Board's role in ethical data handling for AI systems and mentions the Cybersecurity and Technology Committee's oversight of technology risks. RGA highlights an active AI governance strategy project to establish controls and oversight for AI use, mentions model governance for structured decision-making, and discusses AI risk management frameworks.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Data and Analytics Ethics Framework,\" provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. The framework outlines formal commitments to responsible AI development and deployment, including protecting systems from breaches and ensuring resilience, which supports **external_accountability** and **governance**. It also details a commitment to minimizing bias and ensuring equitable treatment for all users, directly supporting the **fairness** pillar, and emphasizes adherence to ethical standards and avoiding decisions based on protected attributes. Furthermore, the principles guide the AI approach with a commitment to rights protection and regulatory alignment, reinforcing **governance** and **privacy**.",
+          "title": "Data and Analytics Ethics Framework",
+          "url": "https://rgare.com/our-company/responsibility/policies-and-governance-center/corporate-governance/data-and-analytics-ethics-framework"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This 2024 Sustainability Report provides evidence for **governance** and **fairness** in responsible AI. The report details the RGA Data Ethics Oversight Board's role in ensuring ethical data handling, including for AI systems, and mentions the Cybersecurity and Technology Committee's oversight of technology risks. Furthermore, the report describes RGA's active evaluation process for AI and algorithms, specifically monitoring model outcomes and impact to assess fairness and mitigate discriminatory impacts.",
+          "title": "2024 Sustainability Report",
+          "url": "https://rgare.com/docs/default-source/esg/2024-rga-sustainability-report-final-may-29-2025.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post, \"What AI Means for Compliance,\" provides evidence for **governance, transparency, explainability, fairness, and privacy**. The publication highlights an active AI governance strategy project that aims to establish controls and oversight for AI use, demonstrating a commitment to **governance** and addressing risks like **transparency** and **explainability**. The mention of ethical concerns such as bias and data protection further supports the **fairness** and **privacy** pillars, indicating an awareness of these critical areas.",
+          "title": "What AI Means for Compliance",
+          "url": "https://rgare.com/knowledge-center/article/what-ai-means-for-compliance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post discusses RGA's global data platform and its use of AI. The article provides evidence for the **governance** pillar by highlighting the necessity of \"good data governance\" for AI models like \"Copilot\" and \"AI models.\" It further supports governance by stating that \"generative AI\" and \"responsible AI practices\" require \"strong governance,\" and explicitly mentions \"AI governance\" and \"AI risk management\" as shared responsibilities, indicating a policy framework.",
+          "title": "What Is Driving the Global Common Data Capability at RGA",
+          "url": "https://rgare.com/knowledge-center/article/what-is-driving-the-global-common-data-capability-at-rga"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by outlining the company's commitment to protecting personal information and detailing the lawful basis for data processing. Furthermore, it contributes to the governance pillar by mentioning profiling and automated decision-making for risk assessment, indicating established processes for such activities.",
+          "title": "Privacy Notice",
+          "url": "https://rgare.com/docs/default-source/regulatory-documents/ltm-privacy-notice2.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post provides evidence for explainability, external_accountability, fairness, governance, privacy, and transparency. The article discusses AI tools like SHAP and LIME for model explainability and bias checks, and MLflow for logging decision steps to ensure transparency and auditability. It also highlights the importance of bias safeguards and transparent customer data usage, supporting the privacy and fairness pillars by referencing data anonymization and compliance with anti-discrimination laws.",
+          "title": "How AI Provides Real Solutions to Today's Underwriting Challenges",
+          "url": "https://rgare.com/knowledge-center/article/how-ai-provides-real-solutions-to-today's-underwriting-challenges"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"GenAI in Insurance Update: Q2 2025 – RGA Commentary on LLMs for Risk Assessment,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document mentions \"model governance,\" indicating a focus on structured decision-making and accountability for AI systems. Furthermore, its discussion of \"transparency\" and \"safety guardrails\" for models suggests a commitment to responsible AI practices and the implementation of mechanisms to ensure safe and understandable AI operations.",
+          "title": "GenAI in Insurance Update: Q2 2025 – RGA Commentary on LLMs for Risk Assessment",
+          "url": "https://insurance-portal.ca/article/use-of-large-language-models-is-transforming-risk-assessment"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post provides evidence for **governance** and **fairness** in responsible AI. The post supports the governance pillar by detailing RGA's use of a value framework to prioritize, fund, monitor, and measure AI initiatives, and by emphasizing clear objectives and quantifiable metrics for AI success. Evidence for fairness is found in the explicit mention of \"fair AI,\" indicating a commitment to equitable AI development.",
+          "title": "Seven Pillars to Build Now for Greater Success with AI in Insurance",
+          "url": "https://rgare.com/knowledge-center/article/seven-pillars-to-build-now-for-greater-success-with-ai-in-insurance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Annual Review – AI Tool for Treaty Data Review,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by mentioning the implementation of an AI tool for treaty data review, the use of vendor AI for risk assessment, and the development of algorithmic risk assessment tools by experts, all of which imply oversight and control. Transparency is supported through the description of automated decision-making processes and the exploration of AI for a seamless automated application process, indicating a commitment to understanding and potentially disclosing AI's role in operations.",
+          "title": "Annual Review – AI Tool for Treaty Data Review",
+          "url": "https://rgare.com/docs/default-source/investor-relations/rga_ar18.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper from EY documents the development of a fairness and bias testing playbook for RGA's insurance models. The playbook supports **fairness** by providing a structured approach to testing for bias and discrimination, and **governance** by establishing core documentation for model development and validation. Evidence for **transparency** is found in the acknowledgment of AI's lack of transparency and potential for bias, while **external accountability** is supported by the case study's focus on helping clients comply with regulations and remediate fairness issues.",
+          "title": "EY Case Study – Fairness and Bias Testing Playbook for RGA Models",
+          "url": "https://ey.com/en_us/insights/consulting/ey-consulting-case-studies/ethical-ai-drives-insurance-fairness-and-better-models"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"SOA AI Bulletin – RGA AI Innovation in Underwriting,\" provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. The bulletin discusses AI/ML applications and methods, AI risk management frameworks, and the need to address bias and systemic unfairness, supporting transparency and fairness. It also mentions plans for executive quote approval and model fine-tuning, indicating governance and oversight, while discussions on LLM bias and secure data use touch upon privacy and fairness. Furthermore, the paper highlights the requirement for documentation, explainability, and audits, supporting external accountability.",
+          "title": "SOA AI Bulletin – RGA AI Innovation in Underwriting",
+          "url": "https://soa.org/49f134/globalassets/assets/files/resources/research-report/2025/2025-07-ai-bulletin.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "This Form 10-K filing provides evidence for the **governance** pillar by detailing management's responsibility, monitoring processes, and judgment in areas like tax accounting and valuation practices, as well as outlining a due diligence process for third-party partners. It also supports the **fairness** pillar by mentioning the testing of underwriting models for bias, indicating a commitment to fairness in model development.",
+          "title": "Form 10-K 2024 – Technology, Cybersecurity, and Data Risks",
+          "url": "https://sec.gov/Archives/edgar/data/898174/000089817425000027/rga-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 5,
+      "findings": "RGA's technical paper mentions plans for executive quote approval and model fine-tuning, indicating oversight practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"SOA AI Bulletin – RGA AI Innovation in Underwriting,\" provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. The bulletin discusses AI/ML applications and methods, AI risk management frameworks, and the need to address bias and systemic unfairness, supporting transparency and fairness. It also mentions plans for executive quote approval and model fine-tuning, indicating governance and oversight, while discussions on LLM bias and secure data use touch upon privacy and fairness. Furthermore, the paper highlights the requirement for documentation, explainability, and audits, supporting external accountability.",
+          "title": "SOA AI Bulletin – RGA AI Innovation in Underwriting",
+          "url": "https://soa.org/49f134/globalassets/assets/files/resources/research-report/2025/2025-07-ai-bulletin.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 10,
+      "findings": "RGA outlines a commitment to protecting personal information, detailing the lawful basis for data processing, and ensuring rights protection and regulatory alignment. The company references data anonymization, mentions data privacy and consent, and discusses secure data use.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Data and Analytics Ethics Framework,\" provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. The framework outlines formal commitments to responsible AI development and deployment, including protecting systems from breaches and ensuring resilience, which supports **external_accountability** and **governance**. It also details a commitment to minimizing bias and ensuring equitable treatment for all users, directly supporting the **fairness** pillar, and emphasizes adherence to ethical standards and avoiding decisions based on protected attributes. Furthermore, the principles guide the AI approach with a commitment to rights protection and regulatory alignment, reinforcing **governance** and **privacy**.",
+          "title": "Data and Analytics Ethics Framework",
+          "url": "https://rgare.com/our-company/responsibility/policies-and-governance-center/corporate-governance/data-and-analytics-ethics-framework"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post, \"What AI Means for Compliance,\" provides evidence for **governance, transparency, explainability, fairness, and privacy**. The publication highlights an active AI governance strategy project that aims to establish controls and oversight for AI use, demonstrating a commitment to **governance** and addressing risks like **transparency** and **explainability**. The mention of ethical concerns such as bias and data protection further supports the **fairness** and **privacy** pillars, indicating an awareness of these critical areas.",
+          "title": "What AI Means for Compliance",
+          "url": "https://rgare.com/knowledge-center/article/what-ai-means-for-compliance"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by outlining the company's commitment to protecting personal information and detailing the lawful basis for data processing. Furthermore, it contributes to the governance pillar by mentioning profiling and automated decision-making for risk assessment, indicating established processes for such activities.",
+          "title": "Privacy Notice",
+          "url": "https://rgare.com/docs/default-source/regulatory-documents/ltm-privacy-notice2.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post provides evidence for explainability, external_accountability, fairness, governance, privacy, and transparency. The article discusses AI tools like SHAP and LIME for model explainability and bias checks, and MLflow for logging decision steps to ensure transparency and auditability. It also highlights the importance of bias safeguards and transparent customer data usage, supporting the privacy and fairness pillars by referencing data anonymization and compliance with anti-discrimination laws.",
+          "title": "How AI Provides Real Solutions to Today's Underwriting Challenges",
+          "url": "https://rgare.com/knowledge-center/article/how-ai-provides-real-solutions-to-today's-underwriting-challenges"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post provides evidence for the **fairness**, **privacy**, and **transparency** pillars of responsible AI. It supports fairness by explicitly addressing safeguarding against bias in AI-driven underwriting and pricing decisions. The post also supports privacy by mentioning data privacy and consent, and transparency by emphasizing clear communication about how customer data is used in algorithmic decision-making.",
+          "title": "Health Technologies: The Potential to Innovate Insurance Delivery and Reach",
+          "url": "https://rgare.com/knowledge-center/article/health-technologies--the-potential-to-innovate-insurance-delivery-and-reach"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"SOA AI Bulletin – RGA AI Innovation in Underwriting,\" provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. The bulletin discusses AI/ML applications and methods, AI risk management frameworks, and the need to address bias and systemic unfairness, supporting transparency and fairness. It also mentions plans for executive quote approval and model fine-tuning, indicating governance and oversight, while discussions on LLM bias and secure data use touch upon privacy and fairness. Furthermore, the paper highlights the requirement for documentation, explainability, and audits, supporting external accountability.",
+          "title": "SOA AI Bulletin – RGA AI Innovation in Underwriting",
+          "url": "https://soa.org/49f134/globalassets/assets/files/resources/research-report/2025/2025-07-ai-bulletin.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 30,
+      "findings": "RGA references addressing transparency risks and discusses transparency for models, including a commitment to ensuring understandable AI operations. The company describes logging decision steps for transparency and emphasizes clear communication about customer data usage in algorithmic decision-making. Furthermore, RGA provides insight into AI system functions and capabilities, describes automated decision-making processes, and acknowledges AI's lack of transparency.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post, \"What AI Means for Compliance,\" provides evidence for **governance, transparency, explainability, fairness, and privacy**. The publication highlights an active AI governance strategy project that aims to establish controls and oversight for AI use, demonstrating a commitment to **governance** and addressing risks like **transparency** and **explainability**. The mention of ethical concerns such as bias and data protection further supports the **fairness** and **privacy** pillars, indicating an awareness of these critical areas.",
+          "title": "What AI Means for Compliance",
+          "url": "https://rgare.com/knowledge-center/article/what-ai-means-for-compliance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post provides evidence for explainability, external_accountability, fairness, governance, privacy, and transparency. The article discusses AI tools like SHAP and LIME for model explainability and bias checks, and MLflow for logging decision steps to ensure transparency and auditability. It also highlights the importance of bias safeguards and transparent customer data usage, supporting the privacy and fairness pillars by referencing data anonymization and compliance with anti-discrimination laws.",
+          "title": "How AI Provides Real Solutions to Today's Underwriting Challenges",
+          "url": "https://rgare.com/knowledge-center/article/how-ai-provides-real-solutions-to-today's-underwriting-challenges"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** pillar of responsible AI. It highlights the AI capabilities of DigitalOwl's platform, specifically its use of artificial intelligence and machine learning to interpret medical records and create digital underwriting abstracts. This description offers insight into the system's functions and capabilities.",
+          "title": "Press Release – Strategic Investment and AI Partnership with DigitalOwl",
+          "url": "https://rgare.com/our-company/media/press-releases/press-releases-detail/2024/01/09/rga-announces-strategic-investment-and-exclusive-global-life-and-health-reinsurance-partnership-with-digitalowl"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"GenAI in Insurance Update: Q2 2025 – RGA Commentary on LLMs for Risk Assessment,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document mentions \"model governance,\" indicating a focus on structured decision-making and accountability for AI systems. Furthermore, its discussion of \"transparency\" and \"safety guardrails\" for models suggests a commitment to responsible AI practices and the implementation of mechanisms to ensure safe and understandable AI operations.",
+          "title": "GenAI in Insurance Update: Q2 2025 – RGA Commentary on LLMs for Risk Assessment",
+          "url": "https://insurance-portal.ca/article/use-of-large-language-models-is-transforming-risk-assessment"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Annual Review – AI Tool for Treaty Data Review,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by mentioning the implementation of an AI tool for treaty data review, the use of vendor AI for risk assessment, and the development of algorithmic risk assessment tools by experts, all of which imply oversight and control. Transparency is supported through the description of automated decision-making processes and the exploration of AI for a seamless automated application process, indicating a commitment to understanding and potentially disclosing AI's role in operations.",
+          "title": "Annual Review – AI Tool for Treaty Data Review",
+          "url": "https://rgare.com/docs/default-source/investor-relations/rga_ar18.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper from EY documents the development of a fairness and bias testing playbook for RGA's insurance models. The playbook supports **fairness** by providing a structured approach to testing for bias and discrimination, and **governance** by establishing core documentation for model development and validation. Evidence for **transparency** is found in the acknowledgment of AI's lack of transparency and potential for bias, while **external accountability** is supported by the case study's focus on helping clients comply with regulations and remediate fairness issues.",
+          "title": "EY Case Study – Fairness and Bias Testing Playbook for RGA Models",
+          "url": "https://ey.com/en_us/insights/consulting/ey-consulting-case-studies/ethical-ai-drives-insurance-fairness-and-better-models"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This RGA blog post provides evidence for the **fairness**, **privacy**, and **transparency** pillars of responsible AI. It supports fairness by explicitly addressing safeguarding against bias in AI-driven underwriting and pricing decisions. The post also supports privacy by mentioning data privacy and consent, and transparency by emphasizing clear communication about how customer data is used in algorithmic decision-making.",
+          "title": "Health Technologies: The Potential to Innovate Insurance Delivery and Reach",
+          "url": "https://rgare.com/knowledge-center/article/health-technologies--the-potential-to-innovate-insurance-delivery-and-reach"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"SOA AI Bulletin – RGA AI Innovation in Underwriting,\" provides evidence for explainability, external accountability, fairness, governance, oversight, privacy, and transparency. The bulletin discusses AI/ML applications and methods, AI risk management frameworks, and the need to address bias and systemic unfairness, supporting transparency and fairness. It also mentions plans for executive quote approval and model fine-tuning, indicating governance and oversight, while discussions on LLM bias and secure data use touch upon privacy and fairness. Furthermore, the paper highlights the requirement for documentation, explainability, and audits, supporting external accountability.",
+          "title": "SOA AI Bulletin – RGA AI Innovation in Underwriting",
+          "url": "https://soa.org/49f134/globalassets/assets/files/resources/research-report/2025/2025-07-ai-bulletin.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:58:17Z",
+  "run_id": "20260203_025050_d75c",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Based on 17 publicly available sources, Reinsurance Group of America's published materials address all 7 evaluated responsible AI pillars, with documented public evidence found for every area. Operational practices include logging decision steps using MLflow to ensure transparency and auditability, and a framework details a commitment to minimizing bias and ensuring equitable treatment for all users. Further operational disclosures discuss AI tools like SHAP and LIME for model explainability, and a framework outlines formal commitments to responsible AI development and deployment. At the policy level, materials mention plans for executive quote approval for oversight and outline a commitment to rights protection and regulatory alignment for privacy.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 84,
+    "total_sources_used": 14
+  }
+}

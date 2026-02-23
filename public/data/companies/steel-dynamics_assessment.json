@@ -1,0 +1,135 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 7.1,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 1
+  },
+  "company": "Steel Dynamics",
+  "company_slug": "steel-dynamics",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 8,
+      "OPERATIONAL": 1,
+      "POLICY": 0
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": null,
+      "display_name": "Governance & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document AI governance structure, including oversight of vendor AI tools.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 9,
+      "findings": "A technical paper details the integration, testing, and deployment of a machine learning application for steel casting temperature predictions, describing model performance metrics and the rationale behind model choices. Additionally, a third-party analysis describes various AI use cases and their functions, outlining the capabilities of AI systems such as predictive maintenance, visual inspection, and supply chain optimization.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the transparency pillar of responsible AI. It details the integration, testing, and deployment of a machine learning application for steel casting temperature predictions, including descriptions of model performance metrics and the rationale behind model choices. The documentation's focus on past actions and operational execution demonstrates a commitment to making the development and deployment process clear.",
+          "title": "GitHub Repository: Machine Learning Application for Steel Casting Temperature Predictions",
+          "url": "https://github.com/dassein/smart_ladle"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "The third-party analysis, \"Steel Dynamics: AI Use Cases 2024 (PitchGrade),\" provides evidence for the **transparency** pillar of responsible AI. This is because the document describes various AI use cases and their functions, such as predictive maintenance, visual inspection, and supply chain optimization, without detailing specific execution, operational, or governance mechanisms. The report outlines the capabilities of these AI systems but does not offer insights into their implementation or oversight.",
+          "title": "Steel Dynamics: AI Use Cases 2024 (PitchGrade)",
+          "url": "https://pitchgrade.com/companies/steel-dynamics-ai-use-cases"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-02-23T21:58:53Z",
+  "run_id": "20260203_025700_5031",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "A technical paper from Steel Dynamics details the integration, testing, and deployment of a machine learning application for steel casting temperature predictions, addressing the transparency pillar. This paper also describes model performance metrics for a machine learning application, contributing to the company's documentation for 1 of 7 evaluated responsible AI pillars. The assessment draws on 3 publicly available sources. No qualifying public evidence was found for the majority of the 7 evaluated pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 1,
+    "pillars_without_evidence": 6,
+    "total_evidence_items": 9,
+    "total_sources_used": 2
+  }
+}

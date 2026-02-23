@@ -1,0 +1,371 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "GE HealthCare Technologies",
+  "company_slug": "ge-healthcare-technologies",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 19,
+      "OPERATIONAL": 3,
+      "POLICY": 33
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 5,
+      "findings": "GE HealthCare emphasizes integrating explainability principles from the start of product development and ensures explainability is part of care team education. The company also notes proactive engagement with evolving regulatory expectations around explainability. Additionally, blog posts describe mechanisms for examining agent reasoning and orchestration flows.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI in Healthcare: From Theory to Practice,\" provides evidence for **explainability, fairness, governance, oversight, and transparency**. The post details GE HealthCare's commitment to documenting AI systems for explainability and traceability, managing bias to promote fairness, and establishing accountability structures and human oversight mechanisms within their product development, all of which contribute to robust governance and transparency in their AI practices.",
+          "title": "Responsible AI in Healthcare: From Theory to Practice",
+          "url": "https://gehealthcare.com/insights/article/responsible-ai-in-healthcare-from-theory-to-practice"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release highlights GE HealthCare's commitment to Responsible AI, providing evidence for **transparency, explainability, and fairness**. The Chief AI Officer emphasizes integrating these principles from the start of product development, including building safeguards and ensuring explainability is part of care team education. The source also notes the company's proactive engagement with evolving regulatory expectations around transparency, explainability, and lifecycle monitoring.",
+          "title": "GE HealthCare Chief AI Officer: Responsible AI in Medtech Development",
+          "url": "https://medicaldesignandoutsourcing.com/ge-healthcare-chief-ai-officer-artificial-intelligence-tips-advice-medtech"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post details GE HealthCare and AWS's work on agentic AI systems, providing evidence for **explainability, external_accountability, governance, oversight, privacy, and transparency**. The source supports these pillars by describing mechanisms for examining agent reasoning and orchestration flows, mentioning security controls and authorization management, and outlining safeguards like human-in-the-loop oversight and independent validation. It also touches on data standards, algorithm adherence, and the goal of enhancing transparency in system capabilities and functions.",
+          "title": "Agentic AI Systems Research: AWS Partnership and Multi-Agent Collaboration",
+          "url": "https://research.gehealthcare.com/patient-care-pathways/how-agentic-ai-systems-can-solve-the-three-most-pressing-problems-in-healthcare-today"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 6,
+      "findings": "GE HealthCare states adherence to the EU AI Act and data protection laws, including commitments to regular compliance reviews. The company's annual report addresses risks associated with AI, such as misdiagnosis and legal liability. Additionally, blog posts outline safeguards like independent validation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Agents of Change: Exploring the Next Era of AI in Healthcare,\" provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The paper supports **governance** by detailing GE HealthCare's agentic AI research architecture with five key pillars, a defense-in-depth framework for safety and security, and a commitment to validation and regulatory evaluation. Evidence for **privacy** is found in the description of data sanitization and immutable audit trails, as well as safeguards for identity and misuse mitigation. The paper also supports **transparency** through its exploration of AI capabilities in simulated environments and research on ensuring predictability and transparency of emergent AI behaviors.",
+          "title": "Agents of Change: Exploring the Next Era of AI in Healthcare",
+          "url": "https://research.gehealthcare.com/wp-content/uploads/2025/10/Agents-of-change-Exploring-the-next-era-of-AI-in-healthcare-1.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document, the \"EU AI Research Transparency Notice,\" provides evidence for the **external_accountability**, **governance**, **privacy**, and **transparency** pillars. It supports external_accountability and governance by stating adherence to the EU AI Act and data protection laws, including commitments to regular compliance reviews. The document supports the privacy pillar by describing GDPR-compliant mechanisms for data sharing, international transfers, data retention limits, and secure destruction/anonymization for AI R&D. Finally, it supports transparency by committing to transparency in AI R&D and outlining general goals and collaborations.",
+          "title": "EU AI Research Transparency Notice",
+          "url": "https://gehealthcare.com/about/privacy/eu-ai-research-transparency-notice"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "The GE HealthCare 2024 Form 10-K Annual Report provides evidence for **governance**, **transparency**, **external accountability**, **fairness**, and **privacy**. The report highlights the company's executive leadership responsible for AI strategy and governance, and discusses AI-enabled device portfolios, indicating transparency in its AI focus. It also addresses risks associated with AI, such as misdiagnosis and legal liability, underscoring the need for external accountability and governance. Furthermore, the report acknowledges risks related to \"biased datasets\" and \"unauthorized access to personal data,\" demonstrating policy considerations for fairness and privacy in AI implementation.",
+          "title": "GE HealthCare 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1932393/000193239325000005/gehc-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post details GE HealthCare and AWS's work on agentic AI systems, providing evidence for **explainability, external_accountability, governance, oversight, privacy, and transparency**. The source supports these pillars by describing mechanisms for examining agent reasoning and orchestration flows, mentioning security controls and authorization management, and outlining safeguards like human-in-the-loop oversight and independent validation. It also touches on data standards, algorithm adherence, and the goal of enhancing transparency in system capabilities and functions.",
+          "title": "Agentic AI Systems Research: AWS Partnership and Multi-Agent Collaboration",
+          "url": "https://research.gehealthcare.com/patient-care-pathways/how-agentic-ai-systems-can-solve-the-three-most-pressing-problems-in-healthcare-today"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 4,
+      "findings": "GE HealthCare acknowledges risks related to biased datasets and demonstrates policy considerations for fairness in AI implementation. The company emphasizes integrating fairness principles from the start of product development, including building safeguards.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI in Healthcare: From Theory to Practice,\" provides evidence for **explainability, fairness, governance, oversight, and transparency**. The post details GE HealthCare's commitment to documenting AI systems for explainability and traceability, managing bias to promote fairness, and establishing accountability structures and human oversight mechanisms within their product development, all of which contribute to robust governance and transparency in their AI practices.",
+          "title": "Responsible AI in Healthcare: From Theory to Practice",
+          "url": "https://gehealthcare.com/insights/article/responsible-ai-in-healthcare-from-theory-to-practice"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "The GE HealthCare 2024 Form 10-K Annual Report provides evidence for **governance**, **transparency**, **external accountability**, **fairness**, and **privacy**. The report highlights the company's executive leadership responsible for AI strategy and governance, and discusses AI-enabled device portfolios, indicating transparency in its AI focus. It also addresses risks associated with AI, such as misdiagnosis and legal liability, underscoring the need for external accountability and governance. Furthermore, the report acknowledges risks related to \"biased datasets\" and \"unauthorized access to personal data,\" demonstrating policy considerations for fairness and privacy in AI implementation.",
+          "title": "GE HealthCare 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1932393/000193239325000005/gehc-20241231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release highlights GE HealthCare's commitment to Responsible AI, providing evidence for **transparency, explainability, and fairness**. The Chief AI Officer emphasizes integrating these principles from the start of product development, including building safeguards and ensuring explainability is part of care team education. The source also notes the company's proactive engagement with evolving regulatory expectations around transparency, explainability, and lifecycle monitoring.",
+          "title": "GE HealthCare Chief AI Officer: Responsible AI in Medtech Development",
+          "url": "https://medicaldesignandoutsourcing.com/ge-healthcare-chief-ai-officer-artificial-intelligence-tips-advice-medtech"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 28,
+      "findings": "GE HealthCare details its agentic AI research architecture, including a defense-in-depth framework for safety and security, and states a commitment to validation and regulatory evaluation. The company adheres to the EU AI Act and data protection laws, with commitments to regular compliance reviews. Governance practices also include highlighting executive leadership responsible for AI strategy, addressing AI-associated risks, and managing the integration and deployment of algorithms, including third-party ones, through mechanisms like an Open AI Orchestrator.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI in Healthcare: From Theory to Practice,\" provides evidence for **explainability, fairness, governance, oversight, and transparency**. The post details GE HealthCare's commitment to documenting AI systems for explainability and traceability, managing bias to promote fairness, and establishing accountability structures and human oversight mechanisms within their product development, all of which contribute to robust governance and transparency in their AI practices.",
+          "title": "Responsible AI in Healthcare: From Theory to Practice",
+          "url": "https://gehealthcare.com/insights/article/responsible-ai-in-healthcare-from-theory-to-practice"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Agents of Change: Exploring the Next Era of AI in Healthcare,\" provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The paper supports **governance** by detailing GE HealthCare's agentic AI research architecture with five key pillars, a defense-in-depth framework for safety and security, and a commitment to validation and regulatory evaluation. Evidence for **privacy** is found in the description of data sanitization and immutable audit trails, as well as safeguards for identity and misuse mitigation. The paper also supports **transparency** through its exploration of AI capabilities in simulated environments and research on ensuring predictability and transparency of emergent AI behaviors.",
+          "title": "Agents of Change: Exploring the Next Era of AI in Healthcare",
+          "url": "https://research.gehealthcare.com/wp-content/uploads/2025/10/Agents-of-change-Exploring-the-next-era-of-AI-in-healthcare-1.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document, the \"EU AI Research Transparency Notice,\" provides evidence for the **external_accountability**, **governance**, **privacy**, and **transparency** pillars. It supports external_accountability and governance by stating adherence to the EU AI Act and data protection laws, including commitments to regular compliance reviews. The document supports the privacy pillar by describing GDPR-compliant mechanisms for data sharing, international transfers, data retention limits, and secure destruction/anonymization for AI R&D. Finally, it supports transparency by committing to transparency in AI R&D and outlining general goals and collaborations.",
+          "title": "EU AI Research Transparency Notice",
+          "url": "https://gehealthcare.com/about/privacy/eu-ai-research-transparency-notice"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports **governance** by detailing the AI system's features, capabilities, and deployment, implying a decision-making process for its adoption and ongoing application. The paper also supports **transparency** by describing the deep learning reconstruction mechanisms, including how the neural network removes artifacts and offers tunable SNR improvement, allowing for clinician control and customization of the algorithm's behavior.",
+          "title": "The Clinical Benefits of AIR Recon DL for MR Image Reconstruction",
+          "url": "https://gehealthcare.com/-/jssmedia/gehc/us/files/products/magnetic-resonance-imaging/3-0t/case-study-air-recon-dl--jb19184xx.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "The GE HealthCare 2024 Form 10-K Annual Report provides evidence for **governance**, **transparency**, **external accountability**, **fairness**, and **privacy**. The report highlights the company's executive leadership responsible for AI strategy and governance, and discusses AI-enabled device portfolios, indicating transparency in its AI focus. It also addresses risks associated with AI, such as misdiagnosis and legal liability, underscoring the need for external accountability and governance. Furthermore, the report acknowledges risks related to \"biased datasets\" and \"unauthorized access to personal data,\" demonstrating policy considerations for fairness and privacy in AI implementation.",
+          "title": "GE HealthCare 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1932393/000193239325000005/gehc-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post details GE HealthCare and AWS's work on agentic AI systems, providing evidence for **explainability, external_accountability, governance, oversight, privacy, and transparency**. The source supports these pillars by describing mechanisms for examining agent reasoning and orchestration flows, mentioning security controls and authorization management, and outlining safeguards like human-in-the-loop oversight and independent validation. It also touches on data standards, algorithm adherence, and the goal of enhancing transparency in system capabilities and functions.",
+          "title": "Agentic AI Systems Research: AWS Partnership and Multi-Agent Collaboration",
+          "url": "https://research.gehealthcare.com/patient-care-pathways/how-agentic-ai-systems-can-solve-the-three-most-pressing-problems-in-healthcare-today"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This product documentation for Centricity Open PACS AI provides evidence for the **governance** pillar. The document supports this by mentioning the integration of \"algorithms\" and \"3rd party algorithms,\" implying a need for governance over their implementation and use. Furthermore, the reference to an \"Open AI Orchestrator\" and \"algorithm parameters\" indicates governance over AI deployment and configuration.",
+          "title": "Centricity Open PACS AI - Clinical Decision Support Product",
+          "url": "https://landing1.gehealthcare.com/EUR-NU-20-08-HCD-PAC-PACSAI-CPACS-7-Video.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "GE HealthCare's blog post outlines safeguards for agentic AI systems, including human-in-the-loop oversight and independent validation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI in Healthcare: From Theory to Practice,\" provides evidence for **explainability, fairness, governance, oversight, and transparency**. The post details GE HealthCare's commitment to documenting AI systems for explainability and traceability, managing bias to promote fairness, and establishing accountability structures and human oversight mechanisms within their product development, all of which contribute to robust governance and transparency in their AI practices.",
+          "title": "Responsible AI in Healthcare: From Theory to Practice",
+          "url": "https://gehealthcare.com/insights/article/responsible-ai-in-healthcare-from-theory-to-practice"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post details GE HealthCare and AWS's work on agentic AI systems, providing evidence for **explainability, external_accountability, governance, oversight, privacy, and transparency**. The source supports these pillars by describing mechanisms for examining agent reasoning and orchestration flows, mentioning security controls and authorization management, and outlining safeguards like human-in-the-loop oversight and independent validation. It also touches on data standards, algorithm adherence, and the goal of enhancing transparency in system capabilities and functions.",
+          "title": "Agentic AI Systems Research: AWS Partnership and Multi-Agent Collaboration",
+          "url": "https://research.gehealthcare.com/patient-care-pathways/how-agentic-ai-systems-can-solve-the-three-most-pressing-problems-in-healthcare-today"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 14,
+      "findings": "GE HealthCare describes privacy practices including data sanitization, immutable audit trails, and safeguards for identity and misuse mitigation. Privacy policy documents outline GDPR-compliant mechanisms for data sharing, international transfers, data retention limits, and secure destruction/anonymization for AI R&D. The company also acknowledges risks related to unauthorized access to personal data and mentions security controls and authorization management.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Agents of Change: Exploring the Next Era of AI in Healthcare,\" provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The paper supports **governance** by detailing GE HealthCare's agentic AI research architecture with five key pillars, a defense-in-depth framework for safety and security, and a commitment to validation and regulatory evaluation. Evidence for **privacy** is found in the description of data sanitization and immutable audit trails, as well as safeguards for identity and misuse mitigation. The paper also supports **transparency** through its exploration of AI capabilities in simulated environments and research on ensuring predictability and transparency of emergent AI behaviors.",
+          "title": "Agents of Change: Exploring the Next Era of AI in Healthcare",
+          "url": "https://research.gehealthcare.com/wp-content/uploads/2025/10/Agents-of-change-Exploring-the-next-era-of-AI-in-healthcare-1.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document, the \"EU AI Research Transparency Notice,\" provides evidence for the **external_accountability**, **governance**, **privacy**, and **transparency** pillars. It supports external_accountability and governance by stating adherence to the EU AI Act and data protection laws, including commitments to regular compliance reviews. The document supports the privacy pillar by describing GDPR-compliant mechanisms for data sharing, international transfers, data retention limits, and secure destruction/anonymization for AI R&D. Finally, it supports transparency by committing to transparency in AI R&D and outlining general goals and collaborations.",
+          "title": "EU AI Research Transparency Notice",
+          "url": "https://gehealthcare.com/about/privacy/eu-ai-research-transparency-notice"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "The GE HealthCare 2024 Form 10-K Annual Report provides evidence for **governance**, **transparency**, **external accountability**, **fairness**, and **privacy**. The report highlights the company's executive leadership responsible for AI strategy and governance, and discusses AI-enabled device portfolios, indicating transparency in its AI focus. It also addresses risks associated with AI, such as misdiagnosis and legal liability, underscoring the need for external accountability and governance. Furthermore, the report acknowledges risks related to \"biased datasets\" and \"unauthorized access to personal data,\" demonstrating policy considerations for fairness and privacy in AI implementation.",
+          "title": "GE HealthCare 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1932393/000193239325000005/gehc-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post details GE HealthCare and AWS's work on agentic AI systems, providing evidence for **explainability, external_accountability, governance, oversight, privacy, and transparency**. The source supports these pillars by describing mechanisms for examining agent reasoning and orchestration flows, mentioning security controls and authorization management, and outlining safeguards like human-in-the-loop oversight and independent validation. It also touches on data standards, algorithm adherence, and the goal of enhancing transparency in system capabilities and functions.",
+          "title": "Agentic AI Systems Research: AWS Partnership and Multi-Agent Collaboration",
+          "url": "https://research.gehealthcare.com/patient-care-pathways/how-agentic-ai-systems-can-solve-the-three-most-pressing-problems-in-healthcare-today"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 32,
+      "findings": "GE HealthCare demonstrates transparency through various documents, including product documentation that details the capabilities, benefits, impact on image quality, neural network architecture, and training process of deep learning algorithms. Technical papers describe deep learning reconstruction mechanisms, including how neural networks remove artifacts and offer tunable SNR improvement, allowing for clinician control. The company also states a commitment to transparency in AI R&D, outlines general goals and collaborations, and discusses AI-enabled device portfolios.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI in Healthcare: From Theory to Practice,\" provides evidence for **explainability, fairness, governance, oversight, and transparency**. The post details GE HealthCare's commitment to documenting AI systems for explainability and traceability, managing bias to promote fairness, and establishing accountability structures and human oversight mechanisms within their product development, all of which contribute to robust governance and transparency in their AI practices.",
+          "title": "Responsible AI in Healthcare: From Theory to Practice",
+          "url": "https://gehealthcare.com/insights/article/responsible-ai-in-healthcare-from-theory-to-practice"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Agents of Change: Exploring the Next Era of AI in Healthcare,\" provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. The paper supports **governance** by detailing GE HealthCare's agentic AI research architecture with five key pillars, a defense-in-depth framework for safety and security, and a commitment to validation and regulatory evaluation. Evidence for **privacy** is found in the description of data sanitization and immutable audit trails, as well as safeguards for identity and misuse mitigation. The paper also supports **transparency** through its exploration of AI capabilities in simulated environments and research on ensuring predictability and transparency of emergent AI behaviors.",
+          "title": "Agents of Change: Exploring the Next Era of AI in Healthcare",
+          "url": "https://research.gehealthcare.com/wp-content/uploads/2025/10/Agents-of-change-Exploring-the-next-era-of-AI-in-healthcare-1.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document, the \"EU AI Research Transparency Notice,\" provides evidence for the **external_accountability**, **governance**, **privacy**, and **transparency** pillars. It supports external_accountability and governance by stating adherence to the EU AI Act and data protection laws, including commitments to regular compliance reviews. The document supports the privacy pillar by describing GDPR-compliant mechanisms for data sharing, international transfers, data retention limits, and secure destruction/anonymization for AI R&D. Finally, it supports transparency by committing to transparency in AI R&D and outlining general goals and collaborations.",
+          "title": "EU AI Research Transparency Notice",
+          "url": "https://gehealthcare.com/about/privacy/eu-ai-research-transparency-notice"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This product documentation for AIR Recon DL, an FDA-cleared deep learning reconstruction algorithm for MRI, provides evidence for the **transparency** pillar. The document demonstrates transparency by detailing the deep learning algorithm's capabilities, benefits, and impact on image quality, including its neural network architecture and training process. It also highlights the ongoing development and broad deployment of the technology, offering insight into its function and application.",
+          "title": "AIR Recon DL - MR Image Reconstruction Product Page",
+          "url": "https://gehealthcare.com/products/magnetic-resonance-imaging/air-recon-dl"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports **governance** by detailing the AI system's features, capabilities, and deployment, implying a decision-making process for its adoption and ongoing application. The paper also supports **transparency** by describing the deep learning reconstruction mechanisms, including how the neural network removes artifacts and offers tunable SNR improvement, allowing for clinician control and customization of the algorithm's behavior.",
+          "title": "The Clinical Benefits of AIR Recon DL for MR Image Reconstruction",
+          "url": "https://gehealthcare.com/-/jssmedia/gehc/us/files/products/magnetic-resonance-imaging/3-0t/case-study-air-recon-dl--jb19184xx.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "The GE HealthCare 2024 Form 10-K Annual Report provides evidence for **governance**, **transparency**, **external accountability**, **fairness**, and **privacy**. The report highlights the company's executive leadership responsible for AI strategy and governance, and discusses AI-enabled device portfolios, indicating transparency in its AI focus. It also addresses risks associated with AI, such as misdiagnosis and legal liability, underscoring the need for external accountability and governance. Furthermore, the report acknowledges risks related to \"biased datasets\" and \"unauthorized access to personal data,\" demonstrating policy considerations for fairness and privacy in AI implementation.",
+          "title": "GE HealthCare 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1932393/000193239325000005/gehc-20241231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release highlights GE HealthCare's commitment to Responsible AI, providing evidence for **transparency, explainability, and fairness**. The Chief AI Officer emphasizes integrating these principles from the start of product development, including building safeguards and ensuring explainability is part of care team education. The source also notes the company's proactive engagement with evolving regulatory expectations around transparency, explainability, and lifecycle monitoring.",
+          "title": "GE HealthCare Chief AI Officer: Responsible AI in Medtech Development",
+          "url": "https://medicaldesignandoutsourcing.com/ge-healthcare-chief-ai-officer-artificial-intelligence-tips-advice-medtech"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post details GE HealthCare and AWS's work on agentic AI systems, providing evidence for **explainability, external_accountability, governance, oversight, privacy, and transparency**. The source supports these pillars by describing mechanisms for examining agent reasoning and orchestration flows, mentioning security controls and authorization management, and outlining safeguards like human-in-the-loop oversight and independent validation. It also touches on data standards, algorithm adherence, and the goal of enhancing transparency in system capabilities and functions.",
+          "title": "Agentic AI Systems Research: AWS Partnership and Multi-Agent Collaboration",
+          "url": "https://research.gehealthcare.com/patient-care-pathways/how-agentic-ai-systems-can-solve-the-three-most-pressing-problems-in-healthcare-today"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:50:41Z",
+  "run_id": "20260202_221335_a304",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Based on 11 publicly available sources, GE HealthCare Technologies' published materials address all 7 evaluated responsible AI pillars, with documented public evidence found for each. Operational practices are documented across several areas, including transparency, where a technical paper describes exploration of AI capabilities in simulated environments, and privacy, which outlines data sanitization and immutable audit trails. Further operational evidence includes oversight safeguards such as human-in-the-loop oversight and independent validation, alongside governance disclosures detailing a defense-in-depth framework for safety and security. Policy-level evidence is present for fairness, explainability, and external accountability; for instance, annual reports demonstrate policy considerations for fairness in AI implementation, and press releases emphasize integrating explainability principles from the start of product development.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 55,
+    "total_sources_used": 9
+  }
+}

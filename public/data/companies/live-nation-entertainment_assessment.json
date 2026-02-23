@@ -1,0 +1,310 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Live Nation Entertainment",
+  "company_slug": "live-nation-entertainment",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 1,
+      "POLICY": 37
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "A privacy policy references \"automated means\" and the right for users to object to decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for the **privacy**, **oversight**, and **explainability** pillars. It supports the privacy pillar by describing data use for managing preferences and targeted advertising, which implies automated profiling. Furthermore, the policy mentions \"automated means\" and the right to \"object to decisions,\" indicating mechanisms for oversight and explainability.",
+          "title": "Ticketmaster Privacy Policy",
+          "url": "https://am.ticketmaster.com/fieldeast/custom-privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "An official statement details policy changes made in response to FTC litigation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This official statement from Live Nation provides evidence for **external_accountability**, **governance**, and **transparency**. It supports external_accountability by detailing policy changes made in response to FTC litigation, and governance by outlining new rules such as single-account policies and unique identifier requirements for resellers. Transparency is supported by mentioning AI capabilities for identification and cancellation, indicating disclosure of AI use.",
+          "title": "Ticketmaster Shuts Down TradeDesk and Policy Changes in Response to FTC Allegations",
+          "url": "https://news.pollstar.com/2025/10/20/ticketmaster-to-shut-down-tradedesk-ban-multiple-accounts-as-it-refutes-ftc-allegations"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"CMA Investigation Analysis: AI Role in Ticketmaster Consumer Law Violations,\" provides evidence for **transparency**, **governance**, and **external accountability**. It supports transparency by describing an AI system and its capabilities, particularly concerning algorithmic tiered pricing practices. The paper also implies governance and external accountability by advising businesses to adhere to regulatory findings and practices for AI use, highlighting the need for compliance with these regulations when AI models impact consumers.",
+          "title": "CMA Investigation Analysis: AI Role in Ticketmaster Consumer Law Violations",
+          "url": "https://ts-p.co.uk/insights/cmas-investigation-into-ticketmaster-the-role-of-ai-in-potential-infringements-of-consumer-law"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "Sources describe documented fairness practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This court filing, \"Lee v. Ticketmaster Class Action Complaint (2018),\" provides evidence for the **fairness** and **governance** pillars. It details allegations of inadequate enforcement of Ticketmaster's code of conduct regarding reseller bots, suggesting a lack of fair dealing and equitable consumer access. Furthermore, the filing documents internal communications and systems like \"TradeDesk\" that indicate a lack of governance over automated resale practices and insufficient oversight of bot usage.",
+          "title": "Lee v. Ticketmaster Class Action Complaint (2018)",
+          "url": "https://classaction.org/media/lee-v-ticketmaster.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 32,
+      "findings": "Annual reports detail the company's management of automated bot technology, including the development of mitigation methods and challenges in detecting and managing systems that automate transactions. Documentation explicitly states a policy decision not to employ algorithmic surge pricing and describes automated systems for fraud prevention and security, such as reCaptcha and bot-like behavior detection. Furthermore, new rules for resellers are outlined, and the Verified Fan system's mechanisms for fraud detection are documented, alongside the company's claims regarding governance and control of automated systems for fair distribution.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This SEC filing, the \"Form 10-K Annual Report (Fiscal Year 2024)\", provides evidence for the **governance** pillar of responsible AI. The report details the company's management of automated bot technology, indicating established governance over algorithmic systems and a commitment to developing related methods, which suggests the existence of relevant policies.",
+          "title": "Form 10-K Annual Report (Fiscal Year 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/1335258/000133525825000028/lyv-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This SEC filing provides evidence for the **governance** pillar of responsible AI. The report details the company's management of automated bot technology, including their development of mitigation methods and the challenges associated with detecting and managing systems that automate or expedite transactions. This demonstrates a commitment to governing the use and impact of automated systems.",
+          "title": "Form 10-K Annual Report (Fiscal Year 2024) - PDF",
+          "url": "https://investors.livenationentertainment.com/sec-filings/annual-reports/content/0001335258-25-000028/0001335258-25-000028.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This Ticketmaster help page provides evidence for the **governance** pillar by explicitly stating a policy decision not to employ algorithmic surge pricing. The documentation clarifies that Platinum Ticket pricing is set by event organizers, not dynamic algorithms, demonstrating a governance approach to technology deployment and pricing mechanisms.",
+          "title": "Ticketmaster Help Page: Platinum Ticket Pricing Explanation",
+          "url": "https://help.ticketmaster.com/hc/en-us/articles/9782440112017-What-are-Platinum-Tickets"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This help page provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by describing automated systems used for fraud prevention and security. Evidence for privacy is found in its mention of data processing for identification and audience research, implying profiling. Finally, transparency is supported by the explanation of how verification codes distinguish human users from automated systems, detailing the security justification for these automated procedures.",
+          "title": "Ticketmaster Phone Verification Help Page",
+          "url": "https://help.ticketmaster.cz/hc/en-us/articles/19988874591761-Verify-your-account-by-phone"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This Ticketmaster help page provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning the use of reCaptcha, an AI system for security, and by describing the detection of bot-like behavior, implying oversight of automated systems. The page also supports transparency by explaining the algorithmic decision-making process behind account suspension due to unusual network or browser activity.",
+          "title": "Ticketmaster Account Activity Suspension Help Page",
+          "url": "https://help.ticketmaster.com/hc/en-us/articles/36581466228241-My-activity-has-been-paused-or-suspended-I-m-a-genuine-fan-What-s"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This FTC enforcement action against Live Nation and Ticketmaster provides evidence for the **governance** and **oversight** pillars. The lawsuit details allegations of Live Nation and Ticketmaster enabling brokers to bypass ticket purchase limits through account farming and bot use, suggesting a failure in their internal governance and oversight mechanisms to prevent such practices. The document also highlights regulatory requirements and the need for stricter enforcement against automated software, further underscoring the importance of robust governance and oversight in AI-driven systems.",
+          "title": "Federal Trade Commission Lawsuit Against Live Nation and Ticketmaster (September 2025)",
+          "url": "https://sites.suffolk.edu/jhtl/2025/11/12/the-price-of-admission-unpacking-the-ftcs-case-against-ticketmaster"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This official statement from Live Nation provides evidence for **external_accountability**, **governance**, and **transparency**. It supports external_accountability by detailing policy changes made in response to FTC litigation, and governance by outlining new rules such as single-account policies and unique identifier requirements for resellers. Transparency is supported by mentioning AI capabilities for identification and cancellation, indicating disclosure of AI use.",
+          "title": "Ticketmaster Shuts Down TradeDesk and Policy Changes in Response to FTC Allegations",
+          "url": "https://news.pollstar.com/2025/10/20/ticketmaster-to-shut-down-tradedesk-ban-multiple-accounts-as-it-refutes-ftc-allegations"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"CMA Investigation Analysis: AI Role in Ticketmaster Consumer Law Violations,\" provides evidence for **transparency**, **governance**, and **external accountability**. It supports transparency by describing an AI system and its capabilities, particularly concerning algorithmic tiered pricing practices. The paper also implies governance and external accountability by advising businesses to adhere to regulatory findings and practices for AI use, highlighting the need for compliance with these regulations when AI models impact consumers.",
+          "title": "CMA Investigation Analysis: AI Role in Ticketmaster Consumer Law Violations",
+          "url": "https://ts-p.co.uk/insights/cmas-investigation-into-ticketmaster-the-role-of-ai-in-potential-infringements-of-consumer-law"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** pillar of responsible AI. It documents Ticketmaster's Verified Fan system, detailing mechanisms like behavioral risk assessment, device fingerprinting, and real-time risk scoring, which imply the existence of automated decision-making systems and governance structures for fraud detection. The paper also describes automated analysis and risk scoring for fraud detection, further supporting the presence of governance in their AI implementation.",
+          "title": "Technical Analysis: Verified Fan System and Bot Detection Mechanisms",
+          "url": "https://iddataweb.com/verified-fans-counter-ticket-scalping"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This court filing, \"Lee v. Ticketmaster Class Action Complaint (2018),\" provides evidence for the **fairness** and **governance** pillars. It details allegations of inadequate enforcement of Ticketmaster's code of conduct regarding reseller bots, suggesting a lack of fair dealing and equitable consumer access. Furthermore, the filing documents internal communications and systems like \"TradeDesk\" that indicate a lack of governance over automated resale practices and insufficient oversight of bot usage.",
+          "title": "Lee v. Ticketmaster Class Action Complaint (2018)",
+          "url": "https://classaction.org/media/lee-v-ticketmaster.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This enforcement action report, \"Ticketmaster TradeDesk Shutdown and Policy Changes,\" provides evidence for the **governance** pillar. It highlights alleged failures in governance and oversight of automated systems used to bypass purchase limits, indicating a lack of accountability. Conversely, it also describes the company's commitment and claims regarding the governance and control of automated systems to ensure fair distribution.",
+          "title": "Ticketmaster TradeDesk Shutdown and Policy Changes",
+          "url": "https://relix.com/news/detail/ticketmaster-shuts-down-tradedesk-resale-platform-amid-ftc-lawsuit"
+        }
+      ],
+      "score": 1,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "A privacy policy references \"automated means\" and the right for users to object to decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for the **privacy**, **oversight**, and **explainability** pillars. It supports the privacy pillar by describing data use for managing preferences and targeted advertising, which implies automated profiling. Furthermore, the policy mentions \"automated means\" and the right to \"object to decisions,\" indicating mechanisms for oversight and explainability.",
+          "title": "Ticketmaster Privacy Policy",
+          "url": "https://am.ticketmaster.com/fieldeast/custom-privacy-policy"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This FTC enforcement action against Live Nation and Ticketmaster provides evidence for the **governance** and **oversight** pillars. The lawsuit details allegations of Live Nation and Ticketmaster enabling brokers to bypass ticket purchase limits through account farming and bot use, suggesting a failure in their internal governance and oversight mechanisms to prevent such practices. The document also highlights regulatory requirements and the need for stricter enforcement against automated software, further underscoring the importance of robust governance and oversight in AI-driven systems.",
+          "title": "Federal Trade Commission Lawsuit Against Live Nation and Ticketmaster (September 2025)",
+          "url": "https://sites.suffolk.edu/jhtl/2025/11/12/the-price-of-admission-unpacking-the-ftcs-case-against-ticketmaster"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "A privacy policy describes data use for managing preferences and targeted advertising. Additionally, a help page references data processing for identification and audience research.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for the **privacy**, **oversight**, and **explainability** pillars. It supports the privacy pillar by describing data use for managing preferences and targeted advertising, which implies automated profiling. Furthermore, the policy mentions \"automated means\" and the right to \"object to decisions,\" indicating mechanisms for oversight and explainability.",
+          "title": "Ticketmaster Privacy Policy",
+          "url": "https://am.ticketmaster.com/fieldeast/custom-privacy-policy"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This help page provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by describing automated systems used for fraud prevention and security. Evidence for privacy is found in its mention of data processing for identification and audience research, implying profiling. Finally, transparency is supported by the explanation of how verification codes distinguish human users from automated systems, detailing the security justification for these automated procedures.",
+          "title": "Ticketmaster Phone Verification Help Page",
+          "url": "https://help.ticketmaster.cz/hc/en-us/articles/19988874591761-Verify-your-account-by-phone"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 9,
+      "findings": "Documentation explains the algorithmic decision-making process for account suspension and how verification codes distinguish human users from automated systems, detailing security justifications. Official statements and technical papers describe AI capabilities for identification, cancellation, and algorithmic tiered pricing practices. Furthermore, voluntary commitments outline requirements for clear pricing information and accurate labeling, addressing concerns related to dynamic pricing and queue-time price transparency.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This help page provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by describing automated systems used for fraud prevention and security. Evidence for privacy is found in its mention of data processing for identification and audience research, implying profiling. Finally, transparency is supported by the explanation of how verification codes distinguish human users from automated systems, detailing the security justification for these automated procedures.",
+          "title": "Ticketmaster Phone Verification Help Page",
+          "url": "https://help.ticketmaster.cz/hc/en-us/articles/19988874591761-Verify-your-account-by-phone"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This Ticketmaster help page provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by mentioning the use of reCaptcha, an AI system for security, and by describing the detection of bot-like behavior, implying oversight of automated systems. The page also supports transparency by explaining the algorithmic decision-making process behind account suspension due to unusual network or browser activity.",
+          "title": "Ticketmaster Account Activity Suspension Help Page",
+          "url": "https://help.ticketmaster.com/hc/en-us/articles/36581466228241-My-activity-has-been-paused-or-suspended-I-m-a-genuine-fan-What-s"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This official statement from Live Nation provides evidence for **external_accountability**, **governance**, and **transparency**. It supports external_accountability by detailing policy changes made in response to FTC litigation, and governance by outlining new rules such as single-account policies and unique identifier requirements for resellers. Transparency is supported by mentioning AI capabilities for identification and cancellation, indicating disclosure of AI use.",
+          "title": "Ticketmaster Shuts Down TradeDesk and Policy Changes in Response to FTC Allegations",
+          "url": "https://news.pollstar.com/2025/10/20/ticketmaster-to-shut-down-tradedesk-ban-multiple-accounts-as-it-refutes-ftc-allegations"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"CMA Investigation Analysis: AI Role in Ticketmaster Consumer Law Violations,\" provides evidence for **transparency**, **governance**, and **external accountability**. It supports transparency by describing an AI system and its capabilities, particularly concerning algorithmic tiered pricing practices. The paper also implies governance and external accountability by advising businesses to adhere to regulatory findings and practices for AI use, highlighting the need for compliance with these regulations when AI models impact consumers.",
+          "title": "CMA Investigation Analysis: AI Role in Ticketmaster Consumer Law Violations",
+          "url": "https://ts-p.co.uk/insights/cmas-investigation-into-ticketmaster-the-role-of-ai-in-potential-infringements-of-consumer-law"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This enforcement action document provides evidence for the **transparency** pillar of responsible AI. It details voluntary commitments requiring clear pricing information and accurate labeling, directly addressing consumer protection concerns related to algorithmic dynamic pricing and the need for enhanced queue-time price transparency.",
+          "title": "Ticketmaster CMA Undertakings and Consumer Protection Changes",
+          "url": "https://slaughterandmay.com/insights/new-insights/competition-and-regulatory-newsletter-ticketmaster-changes-practices-following-cma-investigation"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:54:07Z",
+  "run_id": "20260202_235754_e7d5",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [],
+    "overall_findings": "Live Nation Entertainment's public disclosures describe how verification codes distinguish human users from automated systems, detailing the security justification for these automated procedures. All 7 evaluated pillars have documented public evidence, with fairness, explainability, oversight, and external accountability addressed through corporate policies. Further, an annual report details the company's management of automated bot technology and the development of mitigation methods for systems that automate transactions. Additionally, privacy disclosures outline data use for managing preferences, targeted advertising, and audience research. These findings are based on a review of 29 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 7,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 40,
+    "total_sources_used": 13
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Eli Lilly",
+  "company_slug": "eli-lilly",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 13,
+      "OPERATIONAL": 1,
+      "POLICY": 317
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 4,
+      "findings": "Eli Lilly documents evaluation processes that enhance explainability. Annual reports discuss limitations of AI algorithms, including a lack of explainable outputs.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This system card for the \"Lily AI Recruitment System - Governance & Fairness Framework\" provides evidence for **explainability, external_accountability, governance, oversight, and transparency**. The document details evaluation processes that enhance transparency and explainability, establishes clear ownership for AI processes to define governance and accountability, and references adherence to frameworks and compliance with regulations like the EU AI Act, demonstrating external accountability. Furthermore, it mentions human oversight mechanisms for high-risk hiring decisions, supporting the oversight pillar.",
+          "title": "Lily AI Recruitment System - Governance & Fairness Framework",
+          "url": "https://teamlily.ai/trust-center/governance-and-fairness-framework"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, external_accountability, governance, oversight, privacy, and transparency**. It supports the **privacy** pillar by detailing how personal information is processed, including automated profiling for personalized advertising and audience understanding, and by mentioning privacy choices. The document also supports **governance** and **oversight** by referencing the use of vendor AI services like reCAPTCHA and by implying mechanisms for managing automated decision-making and data handling. Furthermore, it touches upon **transparency** and **explainability** by mentioning the use of AI for advertising results and by granting the right to object to automated decisions.",
+          "title": "Privacy Policy - Eli Lilly Saudi Arabia",
+          "url": "https://sa.lilly.com/obesityisadisease/privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "The Eli Lilly 10-K Annual Report 2024, a SEC filing, provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. This report discusses limitations of AI algorithms, including potential biases and lack of explainable outputs, supporting fairness and explainability. It also addresses regulatory uncertainty and compliance with AI laws, indicating external accountability and governance, while mentioning risks to data privacy and security, which supports the privacy pillar. The filing further explores the management and use of AI, implying governance needs and acknowledging risks and potential impacts, thereby supporting transparency.",
+          "title": "Eli Lilly 10-K Annual Report 2024",
+          "url": "https://sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 4,
+      "findings": "Eli Lilly references adherence to frameworks and compliance with regulations like the EU AI Act. Annual reports also address regulatory uncertainty and compliance with AI laws.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This system card for the \"Lily AI Recruitment System - Governance & Fairness Framework\" provides evidence for **explainability, external_accountability, governance, oversight, and transparency**. The document details evaluation processes that enhance transparency and explainability, establishes clear ownership for AI processes to define governance and accountability, and references adherence to frameworks and compliance with regulations like the EU AI Act, demonstrating external accountability. Furthermore, it mentions human oversight mechanisms for high-risk hiring decisions, supporting the oversight pillar.",
+          "title": "Lily AI Recruitment System - Governance & Fairness Framework",
+          "url": "https://teamlily.ai/trust-center/governance-and-fairness-framework"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, external_accountability, governance, oversight, privacy, and transparency**. It supports the **privacy** pillar by detailing how personal information is processed, including automated profiling for personalized advertising and audience understanding, and by mentioning privacy choices. The document also supports **governance** and **oversight** by referencing the use of vendor AI services like reCAPTCHA and by implying mechanisms for managing automated decision-making and data handling. Furthermore, it touches upon **transparency** and **explainability** by mentioning the use of AI for advertising results and by granting the right to object to automated decisions.",
+          "title": "Privacy Policy - Eli Lilly Saudi Arabia",
+          "url": "https://sa.lilly.com/obesityisadisease/privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "The Eli Lilly 10-K Annual Report 2024, a SEC filing, provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. This report discusses limitations of AI algorithms, including potential biases and lack of explainable outputs, supporting fairness and explainability. It also addresses regulatory uncertainty and compliance with AI laws, indicating external accountability and governance, while mentioning risks to data privacy and security, which supports the privacy pillar. The filing further explores the management and use of AI, implying governance needs and acknowledging risks and potential impacts, thereby supporting transparency.",
+          "title": "Eli Lilly 10-K Annual Report 2024",
+          "url": "https://sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "Eli Lilly's annual reports discuss limitations of AI algorithms, including potential biases. Technical papers mention bias prevention related to AI/ML and reference the need for a formal Responsible AI program with direct board supervision.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "The Eli Lilly 10-K Annual Report 2024, a SEC filing, provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. This report discusses limitations of AI algorithms, including potential biases and lack of explainable outputs, supporting fairness and explainability. It also addresses regulatory uncertainty and compliance with AI laws, indicating external accountability and governance, while mentioning risks to data privacy and security, which supports the privacy pillar. The filing further explores the management and use of AI, implying governance needs and acknowledging risks and potential impacts, thereby supporting transparency.",
+          "title": "Eli Lilly 10-K Annual Report 2024",
+          "url": "https://sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This technical paper from MIT Sloan Review highlights Eli Lilly's approach to Responsible AI leadership, providing evidence for the **fairness**, **governance**, and **transparency** pillars. The source supports **fairness** and **governance** by mentioning AI/ML, bias prevention, and the need for a formal RAI program with direct board supervision, indicating policy development and a commitment to standards before deployment. Evidence for **transparency** is implicitly supported through the emphasis on reliability and the need for a holistic corporate strategy, suggesting mechanisms for oversight and accountability.",
+          "title": "MIT Sloan Review - Responsible AI Leadership",
+          "url": "https://sloanreview.mit.edu/projects/to-be-a-responsible-ai-leader-focus-on-being-responsible"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 272,
+      "findings": "Eli Lilly establishes clear ownership for AI processes and references adherence to frameworks and compliance with regulations like the EU AI Act. The company's board committee structure details oversight of emerging AI risks and product safety, while corporate policies mention responsible AI use and detail practices for automated systems. Eli Lilly also outlines requirements for suppliers to align AI solutions with company standards, describes vendor oversight and accountability for AI services, and addresses regulatory uncertainty and compliance with AI laws.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This system card for the \"Lily AI Recruitment System - Governance & Fairness Framework\" provides evidence for **explainability, external_accountability, governance, oversight, and transparency**. The document details evaluation processes that enhance transparency and explainability, establishes clear ownership for AI processes to define governance and accountability, and references adherence to frameworks and compliance with regulations like the EU AI Act, demonstrating external accountability. Furthermore, it mentions human oversight mechanisms for high-risk hiring decisions, supporting the oversight pillar.",
+          "title": "Lily AI Recruitment System - Governance & Fairness Framework",
+          "url": "https://teamlily.ai/trust-center/governance-and-fairness-framework"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"Corporate Governance Structure - Sustainability Report\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. The report details Eli Lilly's board committee structure, including oversight of emerging AI risks by the Directors and Corporate Governance Committee, and the Science and Technology Committee's oversight of product safety. This structure implies a governance framework for AI development and deployment, while the mention of data processing purposes and privacy choices suggests considerations for privacy and transparency in how AI systems are used.",
+          "title": "Corporate Governance Structure - Sustainability Report",
+          "url": "https://sustainability.lilly.com/governance/corporate-governance"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Business Ethics - Governance - Lilly Sustainability Report,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It demonstrates a commitment to responsible AI through mentions of corporate policies on using AI responsibly, and evidence of governance over automated systems by detailing practices like audience profiling, personalized advertising, and data processing for various services. Furthermore, the document supports the privacy pillar by referencing privacy choices, data handling, and consent mechanisms related to these automated functions.",
+          "title": "Business Ethics - Governance - Lilly Sustainability Report",
+          "url": "https://sustainability.lilly.com/governance/business-ethics"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"Patient Safety Monitoring - Sustainability Report\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The report details Eli Lilly's processes for quality defect assessment and safety issue investigation by subject matter experts and safety physicians, which implies governance over AI-driven decision-making in these critical areas. Furthermore, the report's focus on adverse event management and continuous process improvement suggests mechanisms for transparency and accountability in how AI is utilized within drug safety operations, while also touching upon privacy considerations related to patient data.",
+          "title": "Patient Safety Monitoring - Sustainability Report",
+          "url": "https://sustainability.lilly.com/social/patient-safety"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This EU Privacy Policy document provides evidence for the **governance**, **oversight**, and **privacy** pillars. It supports the privacy pillar by detailing data collection, processing, and use, including profiling and automated decision-making, and outlining individual rights such as access and erasure. The policy also demonstrates governance and oversight through its mention of opt-out mechanisms for data collection and references to external privacy statements for data use.",
+          "title": "EU Privacy Policy - Eli Lilly",
+          "url": "https://lilly.com/eu/privacy-policy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by outlining user choices for data use in personalization and targeted advertising, and by offering an opt-out for Google Analytics data collection. The document also supports governance by detailing data collection for legitimate business purposes and targeted advertising via third parties, which implies profiling practices.",
+          "title": "Privacy Statement - Eli Lilly Hong Kong",
+          "url": "https://lilly.com/hk/privacy-statement"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, external_accountability, governance, oversight, privacy, and transparency**. It supports the **privacy** pillar by detailing how personal information is processed, including automated profiling for personalized advertising and audience understanding, and by mentioning privacy choices. The document also supports **governance** and **oversight** by referencing the use of vendor AI services like reCAPTCHA and by implying mechanisms for managing automated decision-making and data handling. Furthermore, it touches upon **transparency** and **explainability** by mentioning the use of AI for advertising results and by granting the right to object to automated decisions.",
+          "title": "Privacy Policy - Eli Lilly Saudi Arabia",
+          "url": "https://sa.lilly.com/obesityisadisease/privacy-policy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Supplier Resources - AI Standards and Privacy,\" provides evidence for **governance** and **privacy**. It supports governance by detailing Eli Lilly's requirements for suppliers to align AI solutions with company standards and outlines vendor oversight and accountability for AI services. The document supports privacy by describing supplier privacy standards for handling personal information and detailing data use for personalized advertising, profiling, and fraud detection, including mechanisms for privacy choices.",
+          "title": "Supplier Resources - AI Standards and Privacy",
+          "url": "https://lilly.com/suppliers/resources"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This system card for \"Lilly TuneLab - Federated Learning Platform\" provides evidence for **governance**, **privacy**, and **transparency**. The platform's use of federated learning to train models on proprietary data without sharing raw data directly supports the **privacy** pillar by protecting sensitive information. Evidence for **governance** is found in the platform's design for collaborative model training and access control to AI/ML drug discovery models. Finally, the mention of AI/ML models and their capabilities, such as in silico predictions, contributes to the **transparency** pillar by indicating an openness about the AI systems in use.",
+          "title": "Lilly TuneLab - Federated Learning Platform",
+          "url": "https://tunelab.lilly.com"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "The Eli Lilly 10-K Annual Report 2024, a SEC filing, provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. This report discusses limitations of AI algorithms, including potential biases and lack of explainable outputs, supporting fairness and explainability. It also addresses regulatory uncertainty and compliance with AI laws, indicating external accountability and governance, while mentioning risks to data privacy and security, which supports the privacy pillar. The filing further explores the management and use of AI, implying governance needs and acknowledging risks and potential impacts, thereby supporting transparency.",
+          "title": "Eli Lilly 10-K Annual Report 2024",
+          "url": "https://sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This Seventh Circuit appellate decision, \"Richards v. Eli Lilly,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The court filing mentions AI and profiling in the context of educational offerings, suggesting a need for governance over AI use. Furthermore, the document implies a need for transparency and governance over AI-generated content by acknowledging potential inaccuracies in AI use.",
+          "title": "Richards v. Eli Lilly - Seventh Circuit Appeal Decision",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca7/24-2574/24-2574-2025-08-05.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This technical paper from MIT Sloan Review highlights Eli Lilly's approach to Responsible AI leadership, providing evidence for the **fairness**, **governance**, and **transparency** pillars. The source supports **fairness** and **governance** by mentioning AI/ML, bias prevention, and the need for a formal RAI program with direct board supervision, indicating policy development and a commitment to standards before deployment. Evidence for **transparency** is implicitly supported through the emphasis on reliability and the need for a holistic corporate strategy, suggesting mechanisms for oversight and accountability.",
+          "title": "MIT Sloan Review - Responsible AI Leadership",
+          "url": "https://sloanreview.mit.edu/projects/to-be-a-responsible-ai-leader-focus-on-being-responsible"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Lilly's Position Statements (includes AI governance),\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by outlining Eli Lilly's AI governance program and commitment to responsible AI use, including vendor oversight and accountability for automated systems. Evidence for privacy is found in mentions of \"privacy choices\" and data handling related to profiling and personalized advertising, while transparency is supported by explicit mentions of \"artificial intelligence\" and descriptions of system capabilities like audience understanding.",
+          "title": "Lilly's Position Statements (includes AI governance)",
+          "url": "https://lilly.com/about/our-views/position-statements"
+        }
+      ],
+      "score": 2,
+      "source_count": 13
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "Eli Lilly's system cards mention human oversight mechanisms for high-risk hiring decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This system card for the \"Lily AI Recruitment System - Governance & Fairness Framework\" provides evidence for **explainability, external_accountability, governance, oversight, and transparency**. The document details evaluation processes that enhance transparency and explainability, establishes clear ownership for AI processes to define governance and accountability, and references adherence to frameworks and compliance with regulations like the EU AI Act, demonstrating external accountability. Furthermore, it mentions human oversight mechanisms for high-risk hiring decisions, supporting the oversight pillar.",
+          "title": "Lily AI Recruitment System - Governance & Fairness Framework",
+          "url": "https://teamlily.ai/trust-center/governance-and-fairness-framework"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This EU Privacy Policy document provides evidence for the **governance**, **oversight**, and **privacy** pillars. It supports the privacy pillar by detailing data collection, processing, and use, including profiling and automated decision-making, and outlining individual rights such as access and erasure. The policy also demonstrates governance and oversight through its mention of opt-out mechanisms for data collection and references to external privacy statements for data use.",
+          "title": "EU Privacy Policy - Eli Lilly",
+          "url": "https://lilly.com/eu/privacy-policy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, external_accountability, governance, oversight, privacy, and transparency**. It supports the **privacy** pillar by detailing how personal information is processed, including automated profiling for personalized advertising and audience understanding, and by mentioning privacy choices. The document also supports **governance** and **oversight** by referencing the use of vendor AI services like reCAPTCHA and by implying mechanisms for managing automated decision-making and data handling. Furthermore, it touches upon **transparency** and **explainability** by mentioning the use of AI for advertising results and by granting the right to object to automated decisions.",
+          "title": "Privacy Policy - Eli Lilly Saudi Arabia",
+          "url": "https://sa.lilly.com/obesityisadisease/privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 257,
+      "findings": "Eli Lilly references data processing purposes, privacy choices, data handling, and consent mechanisms related to automated functions and AI systems. Privacy policies detail data collection, processing, and use, including profiling and automated decision-making, and outline individual rights such as access and erasure. The company also describes supplier privacy standards, offers opt-out mechanisms for data collection, and utilizes federated learning to protect sensitive information, while acknowledging risks to data privacy and security.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"Corporate Governance Structure - Sustainability Report\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. The report details Eli Lilly's board committee structure, including oversight of emerging AI risks by the Directors and Corporate Governance Committee, and the Science and Technology Committee's oversight of product safety. This structure implies a governance framework for AI development and deployment, while the mention of data processing purposes and privacy choices suggests considerations for privacy and transparency in how AI systems are used.",
+          "title": "Corporate Governance Structure - Sustainability Report",
+          "url": "https://sustainability.lilly.com/governance/corporate-governance"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Business Ethics - Governance - Lilly Sustainability Report,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It demonstrates a commitment to responsible AI through mentions of corporate policies on using AI responsibly, and evidence of governance over automated systems by detailing practices like audience profiling, personalized advertising, and data processing for various services. Furthermore, the document supports the privacy pillar by referencing privacy choices, data handling, and consent mechanisms related to these automated functions.",
+          "title": "Business Ethics - Governance - Lilly Sustainability Report",
+          "url": "https://sustainability.lilly.com/governance/business-ethics"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"Patient Safety Monitoring - Sustainability Report\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The report details Eli Lilly's processes for quality defect assessment and safety issue investigation by subject matter experts and safety physicians, which implies governance over AI-driven decision-making in these critical areas. Furthermore, the report's focus on adverse event management and continuous process improvement suggests mechanisms for transparency and accountability in how AI is utilized within drug safety operations, while also touching upon privacy considerations related to patient data.",
+          "title": "Patient Safety Monitoring - Sustainability Report",
+          "url": "https://sustainability.lilly.com/social/patient-safety"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This EU Privacy Policy document provides evidence for the **governance**, **oversight**, and **privacy** pillars. It supports the privacy pillar by detailing data collection, processing, and use, including profiling and automated decision-making, and outlining individual rights such as access and erasure. The policy also demonstrates governance and oversight through its mention of opt-out mechanisms for data collection and references to external privacy statements for data use.",
+          "title": "EU Privacy Policy - Eli Lilly",
+          "url": "https://lilly.com/eu/privacy-policy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports the privacy pillar by outlining user choices for data use in personalization and targeted advertising, and by offering an opt-out for Google Analytics data collection. The document also supports governance by detailing data collection for legitimate business purposes and targeted advertising via third parties, which implies profiling practices.",
+          "title": "Privacy Statement - Eli Lilly Hong Kong",
+          "url": "https://lilly.com/hk/privacy-statement"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, external_accountability, governance, oversight, privacy, and transparency**. It supports the **privacy** pillar by detailing how personal information is processed, including automated profiling for personalized advertising and audience understanding, and by mentioning privacy choices. The document also supports **governance** and **oversight** by referencing the use of vendor AI services like reCAPTCHA and by implying mechanisms for managing automated decision-making and data handling. Furthermore, it touches upon **transparency** and **explainability** by mentioning the use of AI for advertising results and by granting the right to object to automated decisions.",
+          "title": "Privacy Policy - Eli Lilly Saudi Arabia",
+          "url": "https://sa.lilly.com/obesityisadisease/privacy-policy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Supplier Resources - AI Standards and Privacy,\" provides evidence for **governance** and **privacy**. It supports governance by detailing Eli Lilly's requirements for suppliers to align AI solutions with company standards and outlines vendor oversight and accountability for AI services. The document supports privacy by describing supplier privacy standards for handling personal information and detailing data use for personalized advertising, profiling, and fraud detection, including mechanisms for privacy choices.",
+          "title": "Supplier Resources - AI Standards and Privacy",
+          "url": "https://lilly.com/suppliers/resources"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This system card for \"Lilly TuneLab - Federated Learning Platform\" provides evidence for **governance**, **privacy**, and **transparency**. The platform's use of federated learning to train models on proprietary data without sharing raw data directly supports the **privacy** pillar by protecting sensitive information. Evidence for **governance** is found in the platform's design for collaborative model training and access control to AI/ML drug discovery models. Finally, the mention of AI/ML models and their capabilities, such as in silico predictions, contributes to the **transparency** pillar by indicating an openness about the AI systems in use.",
+          "title": "Lilly TuneLab - Federated Learning Platform",
+          "url": "https://tunelab.lilly.com"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "The Eli Lilly 10-K Annual Report 2024, a SEC filing, provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. This report discusses limitations of AI algorithms, including potential biases and lack of explainable outputs, supporting fairness and explainability. It also addresses regulatory uncertainty and compliance with AI laws, indicating external accountability and governance, while mentioning risks to data privacy and security, which supports the privacy pillar. The filing further explores the management and use of AI, implying governance needs and acknowledging risks and potential impacts, thereby supporting transparency.",
+          "title": "Eli Lilly 10-K Annual Report 2024",
+          "url": "https://sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Lilly's Position Statements (includes AI governance),\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by outlining Eli Lilly's AI governance program and commitment to responsible AI use, including vendor oversight and accountability for automated systems. Evidence for privacy is found in mentions of \"privacy choices\" and data handling related to profiling and personalized advertising, while transparency is supported by explicit mentions of \"artificial intelligence\" and descriptions of system capabilities like audience understanding.",
+          "title": "Lilly's Position Statements (includes AI governance)",
+          "url": "https://lilly.com/about/our-views/position-statements"
+        }
+      ],
+      "score": 1,
+      "source_count": 10
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 34,
+      "findings": "Eli Lilly documents evaluation processes that enhance transparency and references data processing purposes and privacy choices related to AI system use. Policy documents detail practices such as audience profiling, personalized advertising, and data processing for various services, and describe a focus on adverse event management and continuous process improvement in drug safety operations. The company also mentions AI/ML model capabilities, acknowledges AI risks and impacts, and grants individuals the right to object to automated decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This system card for the \"Lily AI Recruitment System - Governance & Fairness Framework\" provides evidence for **explainability, external_accountability, governance, oversight, and transparency**. The document details evaluation processes that enhance transparency and explainability, establishes clear ownership for AI processes to define governance and accountability, and references adherence to frameworks and compliance with regulations like the EU AI Act, demonstrating external accountability. Furthermore, it mentions human oversight mechanisms for high-risk hiring decisions, supporting the oversight pillar.",
+          "title": "Lily AI Recruitment System - Governance & Fairness Framework",
+          "url": "https://teamlily.ai/trust-center/governance-and-fairness-framework"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"Corporate Governance Structure - Sustainability Report\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. The report details Eli Lilly's board committee structure, including oversight of emerging AI risks by the Directors and Corporate Governance Committee, and the Science and Technology Committee's oversight of product safety. This structure implies a governance framework for AI development and deployment, while the mention of data processing purposes and privacy choices suggests considerations for privacy and transparency in how AI systems are used.",
+          "title": "Corporate Governance Structure - Sustainability Report",
+          "url": "https://sustainability.lilly.com/governance/corporate-governance"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Business Ethics - Governance - Lilly Sustainability Report,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It demonstrates a commitment to responsible AI through mentions of corporate policies on using AI responsibly, and evidence of governance over automated systems by detailing practices like audience profiling, personalized advertising, and data processing for various services. Furthermore, the document supports the privacy pillar by referencing privacy choices, data handling, and consent mechanisms related to these automated functions.",
+          "title": "Business Ethics - Governance - Lilly Sustainability Report",
+          "url": "https://sustainability.lilly.com/governance/business-ethics"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"Patient Safety Monitoring - Sustainability Report\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The report details Eli Lilly's processes for quality defect assessment and safety issue investigation by subject matter experts and safety physicians, which implies governance over AI-driven decision-making in these critical areas. Furthermore, the report's focus on adverse event management and continuous process improvement suggests mechanisms for transparency and accountability in how AI is utilized within drug safety operations, while also touching upon privacy considerations related to patient data.",
+          "title": "Patient Safety Monitoring - Sustainability Report",
+          "url": "https://sustainability.lilly.com/social/patient-safety"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, external_accountability, governance, oversight, privacy, and transparency**. It supports the **privacy** pillar by detailing how personal information is processed, including automated profiling for personalized advertising and audience understanding, and by mentioning privacy choices. The document also supports **governance** and **oversight** by referencing the use of vendor AI services like reCAPTCHA and by implying mechanisms for managing automated decision-making and data handling. Furthermore, it touches upon **transparency** and **explainability** by mentioning the use of AI for advertising results and by granting the right to object to automated decisions.",
+          "title": "Privacy Policy - Eli Lilly Saudi Arabia",
+          "url": "https://sa.lilly.com/obesityisadisease/privacy-policy"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Supplier Resources - AI Standards and Privacy,\" provides evidence for **governance** and **privacy**. It supports governance by detailing Eli Lilly's requirements for suppliers to align AI solutions with company standards and outlines vendor oversight and accountability for AI services. The document supports privacy by describing supplier privacy standards for handling personal information and detailing data use for personalized advertising, profiling, and fraud detection, including mechanisms for privacy choices.",
+          "title": "Supplier Resources - AI Standards and Privacy",
+          "url": "https://lilly.com/suppliers/resources"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This system card for \"Lilly TuneLab - Federated Learning Platform\" provides evidence for **governance**, **privacy**, and **transparency**. The platform's use of federated learning to train models on proprietary data without sharing raw data directly supports the **privacy** pillar by protecting sensitive information. Evidence for **governance** is found in the platform's design for collaborative model training and access control to AI/ML drug discovery models. Finally, the mention of AI/ML models and their capabilities, such as in silico predictions, contributes to the **transparency** pillar by indicating an openness about the AI systems in use.",
+          "title": "Lilly TuneLab - Federated Learning Platform",
+          "url": "https://tunelab.lilly.com"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "The Eli Lilly 10-K Annual Report 2024, a SEC filing, provides evidence for explainability, external accountability, fairness, governance, privacy, and transparency. This report discusses limitations of AI algorithms, including potential biases and lack of explainable outputs, supporting fairness and explainability. It also addresses regulatory uncertainty and compliance with AI laws, indicating external accountability and governance, while mentioning risks to data privacy and security, which supports the privacy pillar. The filing further explores the management and use of AI, implying governance needs and acknowledging risks and potential impacts, thereby supporting transparency.",
+          "title": "Eli Lilly 10-K Annual Report 2024",
+          "url": "https://sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This third-party document, \"EEOC Age Discrimination Lawsuit Against Eli Lilly,\" provides evidence for the **transparency** pillar of responsible AI. The lawsuit's allegations suggest the existence and use of an AI tool in hiring and promotion decisions, indicating a need for transparency regarding its implementation and impact.",
+          "title": "EEOC Age Discrimination Lawsuit Against Eli Lilly",
+          "url": "https://aarp.org/work/age-discrimination/eli-lilly"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This Seventh Circuit appellate decision, \"Richards v. Eli Lilly,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The court filing mentions AI and profiling in the context of educational offerings, suggesting a need for governance over AI use. Furthermore, the document implies a need for transparency and governance over AI-generated content by acknowledging potential inaccuracies in AI use.",
+          "title": "Richards v. Eli Lilly - Seventh Circuit Appeal Decision",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca7/24-2574/24-2574-2025-08-05.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This technical paper from MIT Sloan Review highlights Eli Lilly's approach to Responsible AI leadership, providing evidence for the **fairness**, **governance**, and **transparency** pillars. The source supports **fairness** and **governance** by mentioning AI/ML, bias prevention, and the need for a formal RAI program with direct board supervision, indicating policy development and a commitment to standards before deployment. Evidence for **transparency** is implicitly supported through the emphasis on reliability and the need for a holistic corporate strategy, suggesting mechanisms for oversight and accountability.",
+          "title": "MIT Sloan Review - Responsible AI Leadership",
+          "url": "https://sloanreview.mit.edu/projects/to-be-a-responsible-ai-leader-focus-on-being-responsible"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Lilly's Position Statements (includes AI governance),\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by outlining Eli Lilly's AI governance program and commitment to responsible AI use, including vendor oversight and accountability for automated systems. Evidence for privacy is found in mentions of \"privacy choices\" and data handling related to profiling and personalized advertising, while transparency is supported by explicit mentions of \"artificial intelligence\" and descriptions of system capabilities like audience understanding.",
+          "title": "Lilly's Position Statements (includes AI governance)",
+          "url": "https://lilly.com/about/our-views/position-statements"
+        }
+      ],
+      "score": 1,
+      "source_count": 12
+    }
+  },
+  "published_at": "2026-02-23T21:49:26Z",
+  "run_id": "20260202_205426_4222",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Based on 18 publicly available sources, Eli Lilly's published materials address all 7 evaluated responsible AI pillars. Governance is documented at the operational level, with system cards establishing clear ownership for AI processes and referencing adherence to frameworks and compliance with regulations like the EU AI Act. Additionally, transparency and privacy are addressed through policy-level evidence; for instance, disclosures detail evaluation processes that enhance transparency and reference data processing purposes and privacy choices related to AI system use. Oversight is also addressed, with system cards mentioning human oversight mechanisms for high-risk hiring decisions.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 331,
+    "total_sources_used": 14
+  }
+}

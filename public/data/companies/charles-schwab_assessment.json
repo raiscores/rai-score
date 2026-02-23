@@ -1,0 +1,354 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "Charles Schwab",
+  "company_slug": "charles-schwab",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 34,
+      "OPERATIONAL": 9,
+      "POLICY": 15
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "The company references its AI systems as \"explainable\" and states they are \"aligned with human judgment.\"",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for explainability, fairness, governance, oversight, and transparency in AI. It describes the Schwab Knowledge Assistant, noting its capability to flag compliance-sensitive answers for human review, which supports oversight. The post also details a proprietary NLP algorithm used for investing themes, explaining its function and how it normalizes for company size to prevent unfair dominance, thus supporting fairness. Furthermore, it mentions AI systems being \"explainable\" and \"aligned with human judgment,\" and explicitly references \"governance\" for AI, contributing to explainability and governance respectively.",
+          "title": "Schwab Knowledge Assistant and Investing Themes NLP algorithm case studies",
+          "url": "https://emerj.com/artificial-intelligence-at-charles-schwab-two-use-cases"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 13,
+      "findings": "The company demonstrates external accountability through roles like the Responsible AI Researcher and AI Policy Researcher, which focus on monitoring regulatory trends and ensuring compliance with external AI regulations. An SEC enforcement action also led to an agreement to retain an independent consultant for review of robo-adviser policies, further demonstrating this commitment. The company mentions compliance with SEC rules and regulatory scrutiny, and its annual reports describe an ongoing process for model inventory and independent validations.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This job posting for a Responsible AI Researcher at Schwab AI.x strategy team provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The role's responsibilities, such as designing bias detection methods and developing technical guardrails, directly support **fairness** and **transparency**. Furthermore, the emphasis on cross-functional collaboration, shaping organizational standards, informing executive decisions, and engaging with regulatory bodies demonstrates strong support for **governance** and **external_accountability**. The mention of monitoring systems with a human-in-the-loop component also provides evidence for **oversight**.",
+          "title": "Responsible AI Researcher position at Schwab AI.x strategy team",
+          "url": "https://schwabjobs.com/job/san-francisco/responsible-ai-researcher-ai-x/33727/89929085616"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This AI Policy Researcher role description provides evidence for **governance** and **external accountability**. It details operational tasks such as translating AI regulations into organizational policies, supporting risk assessments and compliance reviews for AI rollouts, and developing AI governance frameworks, all of which demonstrate robust internal governance. Furthermore, the role's focus on monitoring regulatory trends and ensuring compliance with external AI regulations directly supports the external accountability pillar.",
+          "title": "AI Policy Researcher at Charles Schwab AI.x",
+          "url": "https://dice.com/job-detail/c599850a-15f8-45a1-a739-4c18d1a5ce0a"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This SEC enforcement action against Schwab subsidiaries provides evidence for **transparency**, **governance**, and **external accountability**. The enforcement action highlights a situation where the actual operation of algorithms differed from advertised claims, impacting transparency and governance. Furthermore, the agreement to retain an independent consultant for review of robo-adviser policies demonstrates a commitment to external accountability and governance.",
+          "title": "SEC enforcement action against Schwab for robo-adviser algorithmic disclosure violations",
+          "url": "https://sec.gov/newsroom/press-releases/2022-104"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party technical paper provides evidence for **governance**, **oversight**, **transparency**, and **external_accountability**. The paper details Schwab's AI governance framework, including a phased rollout strategy for AI tools and mechanisms for monitoring performance drift. It also highlights transparency through descriptions of AI co-pilot capabilities and AI-optimized trade execution, and touches on external accountability by mentioning compliance with SEC rules and regulatory scrutiny. Furthermore, the paper indicates oversight through the augmentation of human advisors by AI co-pilots and the potential for manual correction of AI errors.",
+          "title": "Comprehensive analysis of Charles Schwab AI strategy, data moat, and governance",
+          "url": "https://klover.ai/charles-schwab-ai-strategy-analysis-of-dominance-in-financial-services"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This annual report provides evidence for **governance**, **transparency**, and **external accountability** in responsible AI. It details the company's formal commitment to managing model risk through policies and controls, supporting the **governance** pillar. The report also mentions AI use cases, contributing to the **transparency** pillar, and describes an ongoing process for model inventory and independent validations, which supports **external accountability**.",
+          "title": "Charles Schwab Form 10-K 2024 - annual report with risk governance disclosures",
+          "url": "https://content.schwab.com/web/retail/public/about-schwab/SEC_Form10k_2024.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This help page from Schwab Advisor Services provides evidence for **external_accountability**, **governance**, and **transparency**. It supports **governance** by discussing the need for policies and written controls for AI use, and by mentioning safeguards for AI content compliance. The page also supports **transparency** by describing an AI system in use and its capabilities for client service representatives.",
+          "title": "Schwab Advisor Services guidance on AI risks and safeguards for RIA firms",
+          "url": "https://advisorservices.schwab.com/financial-advisor-ai-what-you-need-to-know"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "The company utilizes a proprietary NLP algorithm that normalizes for company size to prevent unfair dominance, supporting fairness. Additionally, the Responsible AI Researcher role involves designing bias detection methods to further support fairness.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for explainability, fairness, governance, oversight, and transparency in AI. It describes the Schwab Knowledge Assistant, noting its capability to flag compliance-sensitive answers for human review, which supports oversight. The post also details a proprietary NLP algorithm used for investing themes, explaining its function and how it normalizes for company size to prevent unfair dominance, thus supporting fairness. Furthermore, it mentions AI systems being \"explainable\" and \"aligned with human judgment,\" and explicitly references \"governance\" for AI, contributing to explainability and governance respectively.",
+          "title": "Schwab Knowledge Assistant and Investing Themes NLP algorithm case studies",
+          "url": "https://emerj.com/artificial-intelligence-at-charles-schwab-two-use-cases"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This job posting for a Responsible AI Researcher at Schwab AI.x strategy team provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The role's responsibilities, such as designing bias detection methods and developing technical guardrails, directly support **fairness** and **transparency**. Furthermore, the emphasis on cross-functional collaboration, shaping organizational standards, informing executive decisions, and engaging with regulatory bodies demonstrates strong support for **governance** and **external_accountability**. The mention of monitoring systems with a human-in-the-loop component also provides evidence for **oversight**.",
+          "title": "Responsible AI Researcher position at Schwab AI.x strategy team",
+          "url": "https://schwabjobs.com/job/san-francisco/responsible-ai-researcher-ai-x/33727/89929085616"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 32,
+      "findings": "The company explicitly references AI governance, with roles like Responsible AI Researcher and AI Policy Researcher providing evidence for it. A formal AI governance framework is detailed, including a phased rollout strategy for AI tools, mechanisms for monitoring performance drift, and a formal commitment to managing model risk through policies and controls. Guidance also discusses the need for policies and written controls for AI use and mentions safeguards for AI content compliance, though an SEC enforcement action previously impacted governance.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for explainability, fairness, governance, oversight, and transparency in AI. It describes the Schwab Knowledge Assistant, noting its capability to flag compliance-sensitive answers for human review, which supports oversight. The post also details a proprietary NLP algorithm used for investing themes, explaining its function and how it normalizes for company size to prevent unfair dominance, thus supporting fairness. Furthermore, it mentions AI systems being \"explainable\" and \"aligned with human judgment,\" and explicitly references \"governance\" for AI, contributing to explainability and governance respectively.",
+          "title": "Schwab Knowledge Assistant and Investing Themes NLP algorithm case studies",
+          "url": "https://emerj.com/artificial-intelligence-at-charles-schwab-two-use-cases"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This job posting for a Responsible AI Researcher at Schwab AI.x strategy team provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The role's responsibilities, such as designing bias detection methods and developing technical guardrails, directly support **fairness** and **transparency**. Furthermore, the emphasis on cross-functional collaboration, shaping organizational standards, informing executive decisions, and engaging with regulatory bodies demonstrates strong support for **governance** and **external_accountability**. The mention of monitoring systems with a human-in-the-loop component also provides evidence for **oversight**.",
+          "title": "Responsible AI Researcher position at Schwab AI.x strategy team",
+          "url": "https://schwabjobs.com/job/san-francisco/responsible-ai-researcher-ai-x/33727/89929085616"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This AI Policy Researcher role description provides evidence for **governance** and **external accountability**. It details operational tasks such as translating AI regulations into organizational policies, supporting risk assessments and compliance reviews for AI rollouts, and developing AI governance frameworks, all of which demonstrate robust internal governance. Furthermore, the role's focus on monitoring regulatory trends and ensuring compliance with external AI regulations directly supports the external accountability pillar.",
+          "title": "AI Policy Researcher at Charles Schwab AI.x",
+          "url": "https://dice.com/job-detail/c599850a-15f8-45a1-a739-4c18d1a5ce0a"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by identifying the specific data science team responsible for the algorithm's development and deployment. The press release also supports the privacy pillar by detailing the algorithm's use of client data for profiling and inference to detect intent and adapt user experiences.",
+          "title": "Patent-pending algorithm for client intent detection and real-time experience adaptation",
+          "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2020/Schwab-Announces-Patent-Pending-Data-Analytics-Algorithm"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This SEC enforcement action against Schwab subsidiaries provides evidence for **transparency**, **governance**, and **external accountability**. The enforcement action highlights a situation where the actual operation of algorithms differed from advertised claims, impacting transparency and governance. Furthermore, the agreement to retain an independent consultant for review of robo-adviser policies demonstrates a commitment to external accountability and governance.",
+          "title": "SEC enforcement action against Schwab for robo-adviser algorithmic disclosure violations",
+          "url": "https://sec.gov/newsroom/press-releases/2022-104"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party technical paper provides evidence for **governance**, **oversight**, **transparency**, and **external_accountability**. The paper details Schwab's AI governance framework, including a phased rollout strategy for AI tools and mechanisms for monitoring performance drift. It also highlights transparency through descriptions of AI co-pilot capabilities and AI-optimized trade execution, and touches on external accountability by mentioning compliance with SEC rules and regulatory scrutiny. Furthermore, the paper indicates oversight through the augmentation of human advisors by AI co-pilots and the potential for manual correction of AI errors.",
+          "title": "Comprehensive analysis of Charles Schwab AI strategy, data moat, and governance",
+          "url": "https://klover.ai/charles-schwab-ai-strategy-analysis-of-dominance-in-financial-services"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This annual report provides evidence for **governance**, **transparency**, and **external accountability** in responsible AI. It details the company's formal commitment to managing model risk through policies and controls, supporting the **governance** pillar. The report also mentions AI use cases, contributing to the **transparency** pillar, and describes an ongoing process for model inventory and independent validations, which supports **external accountability**.",
+          "title": "Charles Schwab Form 10-K 2024 - annual report with risk governance disclosures",
+          "url": "https://content.schwab.com/web/retail/public/about-schwab/SEC_Form10k_2024.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This help page from Schwab Advisor Services provides evidence for **external_accountability**, **governance**, and **transparency**. It supports **governance** by discussing the need for policies and written controls for AI use, and by mentioning safeguards for AI content compliance. The page also supports **transparency** by describing an AI system in use and its capabilities for client service representatives.",
+          "title": "Schwab Advisor Services guidance on AI risks and safeguards for RIA firms",
+          "url": "https://advisorservices.schwab.com/financial-advisor-ai-what-you-need-to-know"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 7,
+      "findings": "The Schwab Knowledge Assistant flags compliance-sensitive answers for human review, and monitoring systems include a human-in-the-loop component. The company's AI governance framework outlines mechanisms for monitoring performance drift. Oversight is also indicated through the augmentation of human advisors by AI co-pilots and the potential for manual correction of AI errors.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for explainability, fairness, governance, oversight, and transparency in AI. It describes the Schwab Knowledge Assistant, noting its capability to flag compliance-sensitive answers for human review, which supports oversight. The post also details a proprietary NLP algorithm used for investing themes, explaining its function and how it normalizes for company size to prevent unfair dominance, thus supporting fairness. Furthermore, it mentions AI systems being \"explainable\" and \"aligned with human judgment,\" and explicitly references \"governance\" for AI, contributing to explainability and governance respectively.",
+          "title": "Schwab Knowledge Assistant and Investing Themes NLP algorithm case studies",
+          "url": "https://emerj.com/artificial-intelligence-at-charles-schwab-two-use-cases"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This job posting for a Responsible AI Researcher at Schwab AI.x strategy team provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The role's responsibilities, such as designing bias detection methods and developing technical guardrails, directly support **fairness** and **transparency**. Furthermore, the emphasis on cross-functional collaboration, shaping organizational standards, informing executive decisions, and engaging with regulatory bodies demonstrates strong support for **governance** and **external_accountability**. The mention of monitoring systems with a human-in-the-loop component also provides evidence for **oversight**.",
+          "title": "Responsible AI Researcher position at Schwab AI.x strategy team",
+          "url": "https://schwabjobs.com/job/san-francisco/responsible-ai-researcher-ai-x/33727/89929085616"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party technical paper provides evidence for **governance**, **oversight**, **transparency**, and **external_accountability**. The paper details Schwab's AI governance framework, including a phased rollout strategy for AI tools and mechanisms for monitoring performance drift. It also highlights transparency through descriptions of AI co-pilot capabilities and AI-optimized trade execution, and touches on external accountability by mentioning compliance with SEC rules and regulatory scrutiny. Furthermore, the paper indicates oversight through the augmentation of human advisors by AI co-pilots and the potential for manual correction of AI errors.",
+          "title": "Comprehensive analysis of Charles Schwab AI strategy, data moat, and governance",
+          "url": "https://klover.ai/charles-schwab-ai-strategy-analysis-of-dominance-in-financial-services"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 2,
+      "findings": "A patent-pending algorithm uses client data for profiling and inference to detect client intent and adapt user experiences.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by identifying the specific data science team responsible for the algorithm's development and deployment. The press release also supports the privacy pillar by detailing the algorithm's use of client data for profiling and inference to detect intent and adapt user experiences.",
+          "title": "Patent-pending algorithm for client intent detection and real-time experience adaptation",
+          "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2020/Schwab-Announces-Patent-Pending-Data-Analytics-Algorithm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party technical paper provides evidence for **governance**, **oversight**, **transparency**, and **external_accountability**. The paper details Schwab's AI governance framework, including a phased rollout strategy for AI tools and mechanisms for monitoring performance drift. It also highlights transparency through descriptions of AI co-pilot capabilities and AI-optimized trade execution, and touches on external accountability by mentioning compliance with SEC rules and regulatory scrutiny. Furthermore, the paper indicates oversight through the augmentation of human advisors by AI co-pilots and the potential for manual correction of AI errors.",
+          "title": "Comprehensive analysis of Charles Schwab AI strategy, data moat, and governance",
+          "url": "https://klover.ai/charles-schwab-ai-strategy-analysis-of-dominance-in-financial-services"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 32,
+      "findings": "The company references AI systems as \"explainable\" and mentions AI use cases in its annual reports. Transparency is highlighted through descriptions of AI co-pilot capabilities and AI-optimized trade execution, with technical guardrails developed to support it. Additionally, guidance describes an AI system in use and its capabilities for client service representatives, though an SEC enforcement action referenced past algorithmic disclosure violations.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for explainability, fairness, governance, oversight, and transparency in AI. It describes the Schwab Knowledge Assistant, noting its capability to flag compliance-sensitive answers for human review, which supports oversight. The post also details a proprietary NLP algorithm used for investing themes, explaining its function and how it normalizes for company size to prevent unfair dominance, thus supporting fairness. Furthermore, it mentions AI systems being \"explainable\" and \"aligned with human judgment,\" and explicitly references \"governance\" for AI, contributing to explainability and governance respectively.",
+          "title": "Schwab Knowledge Assistant and Investing Themes NLP algorithm case studies",
+          "url": "https://emerj.com/artificial-intelligence-at-charles-schwab-two-use-cases"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This job posting for a Responsible AI Researcher at Schwab AI.x strategy team provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The role's responsibilities, such as designing bias detection methods and developing technical guardrails, directly support **fairness** and **transparency**. Furthermore, the emphasis on cross-functional collaboration, shaping organizational standards, informing executive decisions, and engaging with regulatory bodies demonstrates strong support for **governance** and **external_accountability**. The mention of monitoring systems with a human-in-the-loop component also provides evidence for **oversight**.",
+          "title": "Responsible AI Researcher position at Schwab AI.x strategy team",
+          "url": "https://schwabjobs.com/job/san-francisco/responsible-ai-researcher-ai-x/33727/89929085616"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by identifying the specific data science team responsible for the algorithm's development and deployment. The press release also supports the privacy pillar by detailing the algorithm's use of client data for profiling and inference to detect intent and adapt user experiences.",
+          "title": "Patent-pending algorithm for client intent detection and real-time experience adaptation",
+          "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2020/Schwab-Announces-Patent-Pending-Data-Analytics-Algorithm"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This SEC enforcement action against Schwab subsidiaries provides evidence for **transparency**, **governance**, and **external accountability**. The enforcement action highlights a situation where the actual operation of algorithms differed from advertised claims, impacting transparency and governance. Furthermore, the agreement to retain an independent consultant for review of robo-adviser policies demonstrates a commitment to external accountability and governance.",
+          "title": "SEC enforcement action against Schwab for robo-adviser algorithmic disclosure violations",
+          "url": "https://sec.gov/newsroom/press-releases/2022-104"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party technical paper provides evidence for **governance**, **oversight**, **transparency**, and **external_accountability**. The paper details Schwab's AI governance framework, including a phased rollout strategy for AI tools and mechanisms for monitoring performance drift. It also highlights transparency through descriptions of AI co-pilot capabilities and AI-optimized trade execution, and touches on external accountability by mentioning compliance with SEC rules and regulatory scrutiny. Furthermore, the paper indicates oversight through the augmentation of human advisors by AI co-pilots and the potential for manual correction of AI errors.",
+          "title": "Comprehensive analysis of Charles Schwab AI strategy, data moat, and governance",
+          "url": "https://klover.ai/charles-schwab-ai-strategy-analysis-of-dominance-in-financial-services"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This annual report provides evidence for **governance**, **transparency**, and **external accountability** in responsible AI. It details the company's formal commitment to managing model risk through policies and controls, supporting the **governance** pillar. The report also mentions AI use cases, contributing to the **transparency** pillar, and describes an ongoing process for model inventory and independent validations, which supports **external accountability**.",
+          "title": "Charles Schwab Form 10-K 2024 - annual report with risk governance disclosures",
+          "url": "https://content.schwab.com/web/retail/public/about-schwab/SEC_Form10k_2024.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This help page from Schwab Advisor Services provides evidence for **external_accountability**, **governance**, and **transparency**. It supports **governance** by discussing the need for policies and written controls for AI use, and by mentioning safeguards for AI content compliance. The page also supports **transparency** by describing an AI system in use and its capabilities for client service representatives.",
+          "title": "Schwab Advisor Services guidance on AI risks and safeguards for RIA firms",
+          "url": "https://advisorservices.schwab.com/financial-advisor-ai-what-you-need-to-know"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:46:40Z",
+  "run_id": "20260202_201114_a610",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Charles Schwab's public disclosures provide evidence for all 7 evaluated responsible AI pillars, with practices documented at both operational and policy levels. Operationally, the company's AI strategy team is responsible for developing technical guardrails that support transparency, and the Responsible AI Researcher position provides evidence for both governance and external accountability. At the policy level, fairness is addressed through a proprietary NLP algorithm that normalizes for company size, while oversight includes the Schwab Knowledge Assistant flagging compliance-sensitive answers for human review. Additionally, explainability materials reference AI systems as \"aligned with human judgment,\" and privacy disclosures describe a patent-pending algorithm for client data profiling. These findings are based on a review of 14 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 58,
+    "total_sources_used": 8
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "Abbott Laboratories",
+  "company_slug": "abbott-laboratories",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 26,
+      "OPERATIONAL": 17,
+      "POLICY": 52
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Press releases highlight the AI's ability to interpret biosensor data to offer personalized insights and coaching. This practice makes health data visible and understandable to users.",
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This press release for Abbott's Lingo biowearable provides evidence for **transparency** and **explainability**. It highlights the AI's ability to interpret biosensor data to offer personalized insights and coaching, making health data visible and understandable to users. The announcement also touches on **governance** by emphasizing user empowerment and the link between data insights and health outcomes, suggesting responsible data use.",
+          "title": "Abbott Lingo FDA Clearance Announcement",
+          "url": "https://abbott.com/en-us/corpnewsroom/products-and-innovation/hello-lingo-next-gen-health-coach-is-fda-cleared"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 24,
+      "findings": "Abbott demonstrates external accountability through mentions of regulatory compliance and required compliance assessments in proxy statements. Technical papers document FDA clearance and a CES Innovation Award for the Lingo consumer wearable, highlighting expertise with FDA regulatory pathways and successful FDA clearances. Reports mention engagement with the Abbott Medical Device Cybersecurity Council (MDCC) for external expert perspectives, while annual reports describe an audit process and financial reporting standards.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external accountability**, **governance**, **privacy**, and **transparency**. It supports **governance** by detailing the Board's oversight of AI strategy, regular updates on execution, and the establishment of governance principles and committee responsibilities. Evidence for **privacy** is found in the focus on data protection and cybersecurity. The document also supports **external accountability** through mentions of regulatory compliance and required compliance assessments, and **transparency** by referencing product information like consumer biowearables and lab tests.",
+          "title": "Abbott 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1800/000130817925000134/abt012575_def14a.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper from IMD Business School documents Abbott Laboratories' AI maturity and responsible AI practices. It provides evidence for **external_accountability** through the FDA clearance and CES Innovation Award for their Lingo consumer wearable, demonstrating adherence to external standards. The paper also supports **fairness**, **governance**, and **transparency** by detailing the creation of a Data Use and Ethics Board, a five-point responsible AI framework with explicit commitments to safety and fairness, and the elevation of an AI-savvy CIO to the executive suite, indicating a strategic approach to AI governance.",
+          "title": "IMD Business School: Abbott Laboratories AI Maturity 2025",
+          "url": "https://imd.org/entity-profile/abbott-laboratories-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Abbott 2023 Global Sustainability Report,\" provides evidence for **governance**, **privacy**, **transparency**, and **external accountability**. It details Abbott's commitment to responsible AI deployment through established governance structures like a Data Use and Ethics Board, and outlines AI guiding principles. The report also touches on data privacy and security governance, and mentions engagement with the Abbott Medical Device Cybersecurity Council (MDCC) for external expert perspectives, demonstrating external accountability. Furthermore, it describes the use of AI-enabled technologies and ML capabilities, contributing to the transparency pillar by indicating AI applications.",
+          "title": "Abbott 2023 Global Sustainability Report",
+          "url": "https://abbott.com/content/dam/corp/abbott/en-us/hub-new/Abbott-2023-Global-Sustainability-Report-June-2024.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This SEC filing, Abbott's 2024 Annual Report, provides evidence for **external accountability**, **governance**, **privacy**, and **transparency**. The report supports external accountability through its description of an audit process and its financial reporting standards for asset impairment reviews. Governance is evidenced by mentions of government regulations, quality assurance requirements, and risk management considerations. The filing also supports privacy by referencing data privacy and security as policy considerations, and transparency by describing AI systems and their capabilities, such as the Ultreon OCT imaging AI.",
+          "title": "Abbott 2024 Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1800/000130817925000136/abt012575-ars.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Abbott AI Use Cases: Medical Imaging and Cardiac Risk Prediction,\" provides evidence for external accountability, governance, privacy, and transparency. It supports governance and privacy by detailing the use of anonymized data for AI training and describing data use against predefined criteria. Transparency is evidenced by the documentation of AI system capabilities, use-case breakdowns, and the AI's purpose in addressing specific challenges. External accountability is implied through the focus on critical areas like adverse event detection and risk, as well as the mention of regulatory pressures and compliance challenges.",
+          "title": "Abbott AI Use Cases: Medical Imaging and Cardiac Risk Prediction",
+          "url": "https://emerj.com/artificial-intelligence-at-abbott"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for several Responsible AI pillars. It supports **governance** by detailing Abbott's AI strategy, ecosystem building, and proprietary data flywheel, as well as mentioning privacy, security, and governance structures. **Fairness** is supported through the mention of intentionally training on multi-vendor data to mitigate bias and listing bias mitigation as a strategy. **Transparency** is evidenced by the discussion of AI systems and their use cases, and the mention of public detailing of methodology. **External accountability** is demonstrated by highlighting expertise with FDA regulatory pathways and successful FDA clearances. **Privacy** is supported by mentioning privacy policies and data security commitments. Finally, **oversight** is implied through the mention of human oversight for personalized therapy adjustments.",
+          "title": "Abbott's AI Strategy: Analysis of AI Dominance in Medical Devices",
+          "url": "https://klover.ai/abbott-ai-strategy-analysis-of-ai-dominance-in-medical-devices-healthcare"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Abbott Clinical Content: AI for Cardio-Metabolic Health,\" provides evidence for **governance**, **privacy**, and **external accountability**. The document implies a need for governance by mentioning challenges related to privacy, ethics, and data quality/acquisition. It also suggests considerations for external accountability through the mention of malpractice risks.",
+          "title": "Abbott Clinical Content: AI for Cardio-Metabolic Health",
+          "url": "https://acarepro.abbott.com/articles/cardio-metabolic/ai-for-cardio-metabolic-medication-adherence"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 6,
+      "findings": "Abbott's policy documents commit to inclusive data and bias minimization, and technical papers detail a five-point responsible AI framework with explicit commitments to fairness. Technical papers also mention intentionally training on multi-vendor data to mitigate bias and list bias mitigation as a strategy. Reports highlight \"access and affordability\" and \"democratization\" as R&D design principles.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Policy,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by committing to inclusive data and bias minimization, privacy and governance through its emphasis on safety, security, and data protection, and oversight and transparency by outlining principles of human oversight, accountability, and responsible management.",
+          "title": "Responsible AI Policy",
+          "url": "https://abbott.com/en-us/policies/cybersecurity/responsible-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper from IMD Business School documents Abbott Laboratories' AI maturity and responsible AI practices. It provides evidence for **external_accountability** through the FDA clearance and CES Innovation Award for their Lingo consumer wearable, demonstrating adherence to external standards. The paper also supports **fairness**, **governance**, and **transparency** by detailing the creation of a Data Use and Ethics Board, a five-point responsible AI framework with explicit commitments to safety and fairness, and the elevation of an AI-savvy CIO to the executive suite, indicating a strategic approach to AI governance.",
+          "title": "IMD Business School: Abbott Laboratories AI Maturity 2025",
+          "url": "https://imd.org/entity-profile/abbott-laboratories-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for several Responsible AI pillars. It supports **governance** by detailing Abbott's AI strategy, ecosystem building, and proprietary data flywheel, as well as mentioning privacy, security, and governance structures. **Fairness** is supported through the mention of intentionally training on multi-vendor data to mitigate bias and listing bias mitigation as a strategy. **Transparency** is evidenced by the discussion of AI systems and their use cases, and the mention of public detailing of methodology. **External accountability** is demonstrated by highlighting expertise with FDA regulatory pathways and successful FDA clearances. **Privacy** is supported by mentioning privacy policies and data security commitments. Finally, **oversight** is implied through the mention of human oversight for personalized therapy adjustments.",
+          "title": "Abbott's AI Strategy: Analysis of AI Dominance in Medical Devices",
+          "url": "https://klover.ai/abbott-ai-strategy-analysis-of-ai-dominance-in-medical-devices-healthcare"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, the \"Abbott 2023 Global Sustainability Report Summary,\" provides evidence for **governance**, **fairness**, and **transparency**. It details the establishment of a Data Use and Ethics Board to create principles for responsible AI, mentions AI use cases and QMS training as standard requirements, and highlights \"access and affordability\" and \"democratization\" as R&D design principles, demonstrating a commitment to fairness. The report also states Abbott's intentional and transparent approach to data protection and AI, supporting the transparency pillar.",
+          "title": "Abbott 2023 Global Sustainability Report Summary",
+          "url": "https://abbott.com/content/dam/corp/abbott/en-us/hub-new/Abbott-2023-Global-Sustainability-Report-Summary.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 70,
+      "findings": "Abbott's policy documents emphasize safety, security, and data protection, outlining principles of responsible management. Proxy statements detail the Board's oversight of AI strategy, including regular updates and the establishment of governance principles and committee responsibilities. The company has established a Data Use and Ethics Board and a Scientific Governing Board (SGB) to oversee AI principles, innovation, and health technology developments, and outlines AI guiding principles. Technical papers detail a five-point responsible AI framework, the company's AI strategy, and mention privacy, security, and governance structures, alongside detailing the use of anonymized data for AI training and describing data use against predefined criteria.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Policy,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by committing to inclusive data and bias minimization, privacy and governance through its emphasis on safety, security, and data protection, and oversight and transparency by outlining principles of human oversight, accountability, and responsible management.",
+          "title": "Responsible AI Policy",
+          "url": "https://abbott.com/en-us/policies/cybersecurity/responsible-ai"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external accountability**, **governance**, **privacy**, and **transparency**. It supports **governance** by detailing the Board's oversight of AI strategy, regular updates on execution, and the establishment of governance principles and committee responsibilities. Evidence for **privacy** is found in the focus on data protection and cybersecurity. The document also supports **external accountability** through mentions of regulatory compliance and required compliance assessments, and **transparency** by referencing product information like consumer biowearables and lab tests.",
+          "title": "Abbott 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1800/000130817925000134/abt012575_def14a.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper from IMD Business School documents Abbott Laboratories' AI maturity and responsible AI practices. It provides evidence for **external_accountability** through the FDA clearance and CES Innovation Award for their Lingo consumer wearable, demonstrating adherence to external standards. The paper also supports **fairness**, **governance**, and **transparency** by detailing the creation of a Data Use and Ethics Board, a five-point responsible AI framework with explicit commitments to safety and fairness, and the elevation of an AI-savvy CIO to the executive suite, indicating a strategic approach to AI governance.",
+          "title": "IMD Business School: Abbott Laboratories AI Maturity 2025",
+          "url": "https://imd.org/entity-profile/abbott-laboratories-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Abbott 2023 Global Sustainability Report,\" provides evidence for **governance**, **privacy**, **transparency**, and **external accountability**. It details Abbott's commitment to responsible AI deployment through established governance structures like a Data Use and Ethics Board, and outlines AI guiding principles. The report also touches on data privacy and security governance, and mentions engagement with the Abbott Medical Device Cybersecurity Council (MDCC) for external expert perspectives, demonstrating external accountability. Furthermore, it describes the use of AI-enabled technologies and ML capabilities, contributing to the transparency pillar by indicating AI applications.",
+          "title": "Abbott 2023 Global Sustainability Report",
+          "url": "https://abbott.com/content/dam/corp/abbott/en-us/hub-new/Abbott-2023-Global-Sustainability-Report-June-2024.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This SEC filing, Abbott's 2024 Annual Report, provides evidence for **external accountability**, **governance**, **privacy**, and **transparency**. The report supports external accountability through its description of an audit process and its financial reporting standards for asset impairment reviews. Governance is evidenced by mentions of government regulations, quality assurance requirements, and risk management considerations. The filing also supports privacy by referencing data privacy and security as policy considerations, and transparency by describing AI systems and their capabilities, such as the Ultreon OCT imaging AI.",
+          "title": "Abbott 2024 Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1800/000130817925000136/abt012575-ars.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Scientific Governing Board Guides Innovation,\" provides evidence for the **governance** pillar of responsible AI. It details the establishment of Abbott's Scientific Governing Board (SGB), a cross-functional body responsible for overseeing innovation progress and health technology developments, indicating a structured process for decision-making and the implementation of design principles. The board's engagement and discussion of trends further suggest a structured approach to planning for AI technologies.",
+          "title": "Scientific Governing Board Guides Innovation",
+          "url": "https://abbott.com/en-us/corpnewsroom/strategy-and-strength/guiding-future-innovation"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This press release for Abbott's Lingo biowearable provides evidence for **transparency** and **explainability**. It highlights the AI's ability to interpret biosensor data to offer personalized insights and coaching, making health data visible and understandable to users. The announcement also touches on **governance** by emphasizing user empowerment and the link between data insights and health outcomes, suggesting responsible data use.",
+          "title": "Abbott Lingo FDA Clearance Announcement",
+          "url": "https://abbott.com/en-us/corpnewsroom/products-and-innovation/hello-lingo-next-gen-health-coach-is-fda-cleared"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Abbott AI Use Cases: Medical Imaging and Cardiac Risk Prediction,\" provides evidence for external accountability, governance, privacy, and transparency. It supports governance and privacy by detailing the use of anonymized data for AI training and describing data use against predefined criteria. Transparency is evidenced by the documentation of AI system capabilities, use-case breakdowns, and the AI's purpose in addressing specific challenges. External accountability is implied through the focus on critical areas like adverse event detection and risk, as well as the mention of regulatory pressures and compliance challenges.",
+          "title": "Abbott AI Use Cases: Medical Imaging and Cardiac Risk Prediction",
+          "url": "https://emerj.com/artificial-intelligence-at-abbott"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for several Responsible AI pillars. It supports **governance** by detailing Abbott's AI strategy, ecosystem building, and proprietary data flywheel, as well as mentioning privacy, security, and governance structures. **Fairness** is supported through the mention of intentionally training on multi-vendor data to mitigate bias and listing bias mitigation as a strategy. **Transparency** is evidenced by the discussion of AI systems and their use cases, and the mention of public detailing of methodology. **External accountability** is demonstrated by highlighting expertise with FDA regulatory pathways and successful FDA clearances. **Privacy** is supported by mentioning privacy policies and data security commitments. Finally, **oversight** is implied through the mention of human oversight for personalized therapy adjustments.",
+          "title": "Abbott's AI Strategy: Analysis of AI Dominance in Medical Devices",
+          "url": "https://klover.ai/abbott-ai-strategy-analysis-of-ai-dominance-in-medical-devices-healthcare"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Abbott Clinical Content: AI for Cardio-Metabolic Health,\" provides evidence for **governance**, **privacy**, and **external accountability**. The document implies a need for governance by mentioning challenges related to privacy, ethics, and data quality/acquisition. It also suggests considerations for external accountability through the mention of malpractice risks.",
+          "title": "Abbott Clinical Content: AI for Cardio-Metabolic Health",
+          "url": "https://acarepro.abbott.com/articles/cardio-metabolic/ai-for-cardio-metabolic-medication-adherence"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, the \"Abbott 2023 Global Sustainability Report Summary,\" provides evidence for **governance**, **fairness**, and **transparency**. It details the establishment of a Data Use and Ethics Board to create principles for responsible AI, mentions AI use cases and QMS training as standard requirements, and highlights \"access and affordability\" and \"democratization\" as R&D design principles, demonstrating a commitment to fairness. The report also states Abbott's intentional and transparent approach to data protection and AI, supporting the transparency pillar.",
+          "title": "Abbott 2023 Global Sustainability Report Summary",
+          "url": "https://abbott.com/content/dam/corp/abbott/en-us/hub-new/Abbott-2023-Global-Sustainability-Report-Summary.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "Policy documents outline principles of human oversight. Technical papers also mention human oversight for personalized therapy adjustments.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Policy,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by committing to inclusive data and bias minimization, privacy and governance through its emphasis on safety, security, and data protection, and oversight and transparency by outlining principles of human oversight, accountability, and responsible management.",
+          "title": "Responsible AI Policy",
+          "url": "https://abbott.com/en-us/policies/cybersecurity/responsible-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for several Responsible AI pillars. It supports **governance** by detailing Abbott's AI strategy, ecosystem building, and proprietary data flywheel, as well as mentioning privacy, security, and governance structures. **Fairness** is supported through the mention of intentionally training on multi-vendor data to mitigate bias and listing bias mitigation as a strategy. **Transparency** is evidenced by the discussion of AI systems and their use cases, and the mention of public detailing of methodology. **External accountability** is demonstrated by highlighting expertise with FDA regulatory pathways and successful FDA clearances. **Privacy** is supported by mentioning privacy policies and data security commitments. Finally, **oversight** is implied through the mention of human oversight for personalized therapy adjustments.",
+          "title": "Abbott's AI Strategy: Analysis of AI Dominance in Medical Devices",
+          "url": "https://klover.ai/abbott-ai-strategy-analysis-of-ai-dominance-in-medical-devices-healthcare"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 15,
+      "findings": "Abbott's policy documents emphasize safety, security, and data protection, with proxy statements describing a focus on data protection and cybersecurity. Reports touch on data privacy and security governance, and annual reports reference data privacy and security as policy considerations. Technical papers detail the use of anonymized data for AI training, describe data use against predefined criteria, and mention privacy policies and data security commitments.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Policy,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by committing to inclusive data and bias minimization, privacy and governance through its emphasis on safety, security, and data protection, and oversight and transparency by outlining principles of human oversight, accountability, and responsible management.",
+          "title": "Responsible AI Policy",
+          "url": "https://abbott.com/en-us/policies/cybersecurity/responsible-ai"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external accountability**, **governance**, **privacy**, and **transparency**. It supports **governance** by detailing the Board's oversight of AI strategy, regular updates on execution, and the establishment of governance principles and committee responsibilities. Evidence for **privacy** is found in the focus on data protection and cybersecurity. The document also supports **external accountability** through mentions of regulatory compliance and required compliance assessments, and **transparency** by referencing product information like consumer biowearables and lab tests.",
+          "title": "Abbott 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1800/000130817925000134/abt012575_def14a.htm"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Abbott 2023 Global Sustainability Report,\" provides evidence for **governance**, **privacy**, **transparency**, and **external accountability**. It details Abbott's commitment to responsible AI deployment through established governance structures like a Data Use and Ethics Board, and outlines AI guiding principles. The report also touches on data privacy and security governance, and mentions engagement with the Abbott Medical Device Cybersecurity Council (MDCC) for external expert perspectives, demonstrating external accountability. Furthermore, it describes the use of AI-enabled technologies and ML capabilities, contributing to the transparency pillar by indicating AI applications.",
+          "title": "Abbott 2023 Global Sustainability Report",
+          "url": "https://abbott.com/content/dam/corp/abbott/en-us/hub-new/Abbott-2023-Global-Sustainability-Report-June-2024.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This SEC filing, Abbott's 2024 Annual Report, provides evidence for **external accountability**, **governance**, **privacy**, and **transparency**. The report supports external accountability through its description of an audit process and its financial reporting standards for asset impairment reviews. Governance is evidenced by mentions of government regulations, quality assurance requirements, and risk management considerations. The filing also supports privacy by referencing data privacy and security as policy considerations, and transparency by describing AI systems and their capabilities, such as the Ultreon OCT imaging AI.",
+          "title": "Abbott 2024 Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1800/000130817925000136/abt012575-ars.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Abbott AI Use Cases: Medical Imaging and Cardiac Risk Prediction,\" provides evidence for external accountability, governance, privacy, and transparency. It supports governance and privacy by detailing the use of anonymized data for AI training and describing data use against predefined criteria. Transparency is evidenced by the documentation of AI system capabilities, use-case breakdowns, and the AI's purpose in addressing specific challenges. External accountability is implied through the focus on critical areas like adverse event detection and risk, as well as the mention of regulatory pressures and compliance challenges.",
+          "title": "Abbott AI Use Cases: Medical Imaging and Cardiac Risk Prediction",
+          "url": "https://emerj.com/artificial-intelligence-at-abbott"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for several Responsible AI pillars. It supports **governance** by detailing Abbott's AI strategy, ecosystem building, and proprietary data flywheel, as well as mentioning privacy, security, and governance structures. **Fairness** is supported through the mention of intentionally training on multi-vendor data to mitigate bias and listing bias mitigation as a strategy. **Transparency** is evidenced by the discussion of AI systems and their use cases, and the mention of public detailing of methodology. **External accountability** is demonstrated by highlighting expertise with FDA regulatory pathways and successful FDA clearances. **Privacy** is supported by mentioning privacy policies and data security commitments. Finally, **oversight** is implied through the mention of human oversight for personalized therapy adjustments.",
+          "title": "Abbott's AI Strategy: Analysis of AI Dominance in Medical Devices",
+          "url": "https://klover.ai/abbott-ai-strategy-analysis-of-ai-dominance-in-medical-devices-healthcare"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Abbott Clinical Content: AI for Cardio-Metabolic Health,\" provides evidence for **governance**, **privacy**, and **external accountability**. The document implies a need for governance by mentioning challenges related to privacy, ethics, and data quality/acquisition. It also suggests considerations for external accountability through the mention of malpractice risks.",
+          "title": "Abbott Clinical Content: AI for Cardio-Metabolic Health",
+          "url": "https://acarepro.abbott.com/articles/cardio-metabolic/ai-for-cardio-metabolic-medication-adherence"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 24,
+      "findings": "Abbott references product information for consumer biowearables and lab tests, and describes the use of AI-enabled technologies and machine learning capabilities, including specific AI systems like Ultreon OCT imaging AI. Technical papers document AI system capabilities, use-case breakdowns, and their purpose, also mentioning public detailing of methodology. The company states an intentional and transparent approach to data protection and AI, and highlights AI's ability to make health data visible and understandable to users.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Policy,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by committing to inclusive data and bias minimization, privacy and governance through its emphasis on safety, security, and data protection, and oversight and transparency by outlining principles of human oversight, accountability, and responsible management.",
+          "title": "Responsible AI Policy",
+          "url": "https://abbott.com/en-us/policies/cybersecurity/responsible-ai"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **external accountability**, **governance**, **privacy**, and **transparency**. It supports **governance** by detailing the Board's oversight of AI strategy, regular updates on execution, and the establishment of governance principles and committee responsibilities. Evidence for **privacy** is found in the focus on data protection and cybersecurity. The document also supports **external accountability** through mentions of regulatory compliance and required compliance assessments, and **transparency** by referencing product information like consumer biowearables and lab tests.",
+          "title": "Abbott 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/1800/000130817925000134/abt012575_def14a.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper from IMD Business School documents Abbott Laboratories' AI maturity and responsible AI practices. It provides evidence for **external_accountability** through the FDA clearance and CES Innovation Award for their Lingo consumer wearable, demonstrating adherence to external standards. The paper also supports **fairness**, **governance**, and **transparency** by detailing the creation of a Data Use and Ethics Board, a five-point responsible AI framework with explicit commitments to safety and fairness, and the elevation of an AI-savvy CIO to the executive suite, indicating a strategic approach to AI governance.",
+          "title": "IMD Business School: Abbott Laboratories AI Maturity 2025",
+          "url": "https://imd.org/entity-profile/abbott-laboratories-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Abbott 2023 Global Sustainability Report,\" provides evidence for **governance**, **privacy**, **transparency**, and **external accountability**. It details Abbott's commitment to responsible AI deployment through established governance structures like a Data Use and Ethics Board, and outlines AI guiding principles. The report also touches on data privacy and security governance, and mentions engagement with the Abbott Medical Device Cybersecurity Council (MDCC) for external expert perspectives, demonstrating external accountability. Furthermore, it describes the use of AI-enabled technologies and ML capabilities, contributing to the transparency pillar by indicating AI applications.",
+          "title": "Abbott 2023 Global Sustainability Report",
+          "url": "https://abbott.com/content/dam/corp/abbott/en-us/hub-new/Abbott-2023-Global-Sustainability-Report-June-2024.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This press release for Abbott's Lingo biowearable provides evidence for **transparency** and **explainability**. It highlights the AI's ability to interpret biosensor data to offer personalized insights and coaching, making health data visible and understandable to users. The announcement also touches on **governance** by emphasizing user empowerment and the link between data insights and health outcomes, suggesting responsible data use.",
+          "title": "Abbott Lingo FDA Clearance Announcement",
+          "url": "https://abbott.com/en-us/corpnewsroom/products-and-innovation/hello-lingo-next-gen-health-coach-is-fda-cleared"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Abbott AI Use Cases: Medical Imaging and Cardiac Risk Prediction,\" provides evidence for external accountability, governance, privacy, and transparency. It supports governance and privacy by detailing the use of anonymized data for AI training and describing data use against predefined criteria. Transparency is evidenced by the documentation of AI system capabilities, use-case breakdowns, and the AI's purpose in addressing specific challenges. External accountability is implied through the focus on critical areas like adverse event detection and risk, as well as the mention of regulatory pressures and compliance challenges.",
+          "title": "Abbott AI Use Cases: Medical Imaging and Cardiac Risk Prediction",
+          "url": "https://emerj.com/artificial-intelligence-at-abbott"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for several Responsible AI pillars. It supports **governance** by detailing Abbott's AI strategy, ecosystem building, and proprietary data flywheel, as well as mentioning privacy, security, and governance structures. **Fairness** is supported through the mention of intentionally training on multi-vendor data to mitigate bias and listing bias mitigation as a strategy. **Transparency** is evidenced by the discussion of AI systems and their use cases, and the mention of public detailing of methodology. **External accountability** is demonstrated by highlighting expertise with FDA regulatory pathways and successful FDA clearances. **Privacy** is supported by mentioning privacy policies and data security commitments. Finally, **oversight** is implied through the mention of human oversight for personalized therapy adjustments.",
+          "title": "Abbott's AI Strategy: Analysis of AI Dominance in Medical Devices",
+          "url": "https://klover.ai/abbott-ai-strategy-analysis-of-ai-dominance-in-medical-devices-healthcare"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, the \"Abbott 2023 Global Sustainability Report Summary,\" provides evidence for **governance**, **fairness**, and **transparency**. It details the establishment of a Data Use and Ethics Board to create principles for responsible AI, mentions AI use cases and QMS training as standard requirements, and highlights \"access and affordability\" and \"democratization\" as R&D design principles, demonstrating a commitment to fairness. The report also states Abbott's intentional and transparent approach to data protection and AI, supporting the transparency pillar.",
+          "title": "Abbott 2023 Global Sustainability Report Summary",
+          "url": "https://abbott.com/content/dam/corp/abbott/en-us/hub-new/Abbott-2023-Global-Sustainability-Report-Summary.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:41:24Z",
+  "run_id": "20260126_234023_1e16",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Abbott Laboratories' public disclosures indicate that policy documents emphasize safety, security, and data protection for both privacy and governance. These materials address 6 of 7 evaluated responsible AI pillars, with proxy statements also describing a focus on data protection and cybersecurity for privacy. Transparency, fairness, and oversight are addressed at the policy level, with technical papers detailing a five-point responsible AI framework that includes explicit commitments to fairness. No qualifying public evidence was found for explainability, based on a review of 20 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 95,
+    "total_sources_used": 11
+  }
+}

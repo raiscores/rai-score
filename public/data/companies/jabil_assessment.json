@@ -1,0 +1,239 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Jabil",
+  "company_slug": "jabil",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 5,
+      "OPERATIONAL": 1,
+      "POLICY": 18
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "Jabil's 2023 Data and AI Policy highlights a commitment to fairness in AI development and deployment. This policy establishes standards for AI governance and emphasizes data privacy protection.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release from Jabil Malaysia announces their 2023 Data and AI Policy, which establishes standards for AI governance. The policy supports the **governance** pillar by detailing the oversight of a Data and AI Council, and the **privacy** pillar by emphasizing data privacy protection. Furthermore, the press release highlights a commitment to transparency, accountability, and fairness in AI development and deployment, providing evidence for the **transparency** and **fairness** pillars.",
+          "title": "Jabil Malaysia: AI Governance and Data and AI Policy",
+          "url": "https://buletinmutiara.com/jabil-advances-ai-solutions-local-collaborations-and-sustainable-development-in-malaysia"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 21,
+      "findings": "Jabil has established a Data and AI Council, a cross-functional body that guides AI deployment and investment areas, as detailed in press releases. A 2023 Data and AI Policy establishes standards for AI governance, further supported by discussions of an \"AI council\" and \"AI policy\" in a podcast. A 10-K filing details cybersecurity policies for AI deployment, risk assessment processes, and Board oversight, while a proxy statement indicates Board oversight of AI programs and risks through its Cybersecurity Committee.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release details Jabil's establishment of a Data and AI Council, which supports the **governance** pillar by providing a cross-functional body to guide AI deployment and investment areas. Evidence for **privacy** is found in the description of a protected AI agent designed to safeguard company and client data. Furthermore, the press release supports the **transparency** pillar by outlining AI training and instruction for agentic AI, aiming to clarify tool usage and mitigate risks.",
+          "title": "CIO Dive: Jabil's AI and Data Council Governance Model",
+          "url": "https://ciodive.com/news/CIO-AI-adoption-jabil-deloitte-city-detroit/804671"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release from Jabil Malaysia announces their 2023 Data and AI Policy, which establishes standards for AI governance. The policy supports the **governance** pillar by detailing the oversight of a Data and AI Council, and the **privacy** pillar by emphasizing data privacy protection. Furthermore, the press release highlights a commitment to transparency, accountability, and fairness in AI development and deployment, providing evidence for the **transparency** and **fairness** pillars.",
+          "title": "Jabil Malaysia: AI Governance and Data and AI Policy",
+          "url": "https://buletinmutiara.com/jabil-advances-ai-solutions-local-collaborations-and-sustainable-development-in-malaysia"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This podcast episode provides evidence for the **governance** pillar of responsible AI. The discussion highlights Jabil's approach to scaling responsible AI through the establishment of an \"AI council\" and the implementation of an \"AI policy,\" demonstrating a commitment to formal structures and standards for AI management. The podcast also mentions \"governed AI\" and \"centralized governance models,\" further supporting the evidence for robust governance practices.",
+          "title": "CIO at the Helm Podcast: May Yap on Responsible AI at Scale",
+          "url": "https://archsys.io/hub/podcasts/cio-at-the-helm-scaling-ai-and-digital-transformation-across-the-enterprise"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This Jabil blog post by CIO May Yap provides evidence for the **governance** pillar of responsible AI. The post outlines Jabil's AI governance principles, emphasizing the need for consistent, transparent, and trustworthy data in smart factory initiatives, which directly supports the establishment of robust data governance frameworks for AI.",
+          "title": "Jabil Blog: AI in Manufacturing (CIO May Yap)",
+          "url": "https://jabil.com/blog/artificial-intelligence-in-manufacturing.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This AWS case study blog post provides evidence for **governance** and **transparency**. It details Jabil's strategic deployment of generative AI, including their intelligent shop floor assistant, highlighting CIO oversight and collaboration for secure, efficient, and cost-optimized implementation, which demonstrates strong governance. The blog post also implies transparency by describing the AI systems and their use cases, as well as the integration and capabilities of these solutions.",
+          "title": "AWS Case Study: Jabil Manufacturing Transformation with Generative AI",
+          "url": "https://aws.amazon.com/solutions/case-studies/jabil-manufacturing-transformation-generative-ai"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This Jabil 10-K filing provides evidence for **governance**, **privacy**, and **transparency** in responsible AI. The document supports governance by detailing cybersecurity policies for AI deployment, risk assessment processes, and Board oversight, and it addresses privacy by mentioning potential confidential data disclosure risks associated with third-party AI and the need for data protection. Furthermore, the filing indicates transparency by describing the use of AI systems for risk mitigation.",
+          "title": "Jabil 10-K Filing (Fiscal Year 2025): Item 1C Cybersecurity Risk Management",
+          "url": "https://sec.gov/Archives/edgar/data/898293/000162828025045293/jbl-20250831.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the **governance** pillar of responsible AI. It indicates a strategic focus on AI demand and the deployment of AI systems, with the Cybersecurity Committee assisting the Board in overseeing related programs and risks. While the document highlights experience and strategy in driving AI initiatives, it does not detail specific execution, policies, or oversight mechanisms.",
+          "title": "Jabil DEF 14A (Proxy Statement): Board Risk Oversight",
+          "url": "https://sec.gov/Archives/edgar/data/898293/000119312525316927/d946966ddef14a.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "Jabil's practices include a protected AI agent designed to safeguard company and client data. The 2023 Data and AI Policy emphasizes data privacy protection. Additionally, a 10-K filing addresses privacy by mentioning potential confidential data disclosure risks associated with third-party AI and the need for data protection.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release details Jabil's establishment of a Data and AI Council, which supports the **governance** pillar by providing a cross-functional body to guide AI deployment and investment areas. Evidence for **privacy** is found in the description of a protected AI agent designed to safeguard company and client data. Furthermore, the press release supports the **transparency** pillar by outlining AI training and instruction for agentic AI, aiming to clarify tool usage and mitigate risks.",
+          "title": "CIO Dive: Jabil's AI and Data Council Governance Model",
+          "url": "https://ciodive.com/news/CIO-AI-adoption-jabil-deloitte-city-detroit/804671"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release from Jabil Malaysia announces their 2023 Data and AI Policy, which establishes standards for AI governance. The policy supports the **governance** pillar by detailing the oversight of a Data and AI Council, and the **privacy** pillar by emphasizing data privacy protection. Furthermore, the press release highlights a commitment to transparency, accountability, and fairness in AI development and deployment, providing evidence for the **transparency** and **fairness** pillars.",
+          "title": "Jabil Malaysia: AI Governance and Data and AI Policy",
+          "url": "https://buletinmutiara.com/jabil-advances-ai-solutions-local-collaborations-and-sustainable-development-in-malaysia"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This Jabil 10-K filing provides evidence for **governance**, **privacy**, and **transparency** in responsible AI. The document supports governance by detailing cybersecurity policies for AI deployment, risk assessment processes, and Board oversight, and it addresses privacy by mentioning potential confidential data disclosure risks associated with third-party AI and the need for data protection. Furthermore, the filing indicates transparency by describing the use of AI systems for risk mitigation.",
+          "title": "Jabil 10-K Filing (Fiscal Year 2025): Item 1C Cybersecurity Risk Management",
+          "url": "https://sec.gov/Archives/edgar/data/898293/000162828025045293/jbl-20250831.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 8,
+      "findings": "Jabil's press releases outline AI training and instruction for agentic AI to clarify tool usage and mitigate risks. The 2023 Data and AI Policy highlights a commitment to transparency in AI development and deployment. Furthermore, a case study describes AI systems and their use cases, while a 10-K filing indicates transparency by describing the use of AI systems for risk mitigation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release details Jabil's establishment of a Data and AI Council, which supports the **governance** pillar by providing a cross-functional body to guide AI deployment and investment areas. Evidence for **privacy** is found in the description of a protected AI agent designed to safeguard company and client data. Furthermore, the press release supports the **transparency** pillar by outlining AI training and instruction for agentic AI, aiming to clarify tool usage and mitigate risks.",
+          "title": "CIO Dive: Jabil's AI and Data Council Governance Model",
+          "url": "https://ciodive.com/news/CIO-AI-adoption-jabil-deloitte-city-detroit/804671"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release from Jabil Malaysia announces their 2023 Data and AI Policy, which establishes standards for AI governance. The policy supports the **governance** pillar by detailing the oversight of a Data and AI Council, and the **privacy** pillar by emphasizing data privacy protection. Furthermore, the press release highlights a commitment to transparency, accountability, and fairness in AI development and deployment, providing evidence for the **transparency** and **fairness** pillars.",
+          "title": "Jabil Malaysia: AI Governance and Data and AI Policy",
+          "url": "https://buletinmutiara.com/jabil-advances-ai-solutions-local-collaborations-and-sustainable-development-in-malaysia"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This AWS case study blog post provides evidence for **governance** and **transparency**. It details Jabil's strategic deployment of generative AI, including their intelligent shop floor assistant, highlighting CIO oversight and collaboration for secure, efficient, and cost-optimized implementation, which demonstrates strong governance. The blog post also implies transparency by describing the AI systems and their use cases, as well as the integration and capabilities of these solutions.",
+          "title": "AWS Case Study: Jabil Manufacturing Transformation with Generative AI",
+          "url": "https://aws.amazon.com/solutions/case-studies/jabil-manufacturing-transformation-generative-ai"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This Jabil 10-K filing provides evidence for **governance**, **privacy**, and **transparency** in responsible AI. The document supports governance by detailing cybersecurity policies for AI deployment, risk assessment processes, and Board oversight, and it addresses privacy by mentioning potential confidential data disclosure risks associated with third-party AI and the need for data protection. Furthermore, the filing indicates transparency by describing the use of AI systems for risk mitigation.",
+          "title": "Jabil 10-K Filing (Fiscal Year 2025): Item 1C Cybersecurity Risk Management",
+          "url": "https://sec.gov/Archives/edgar/data/898293/000162828025045293/jbl-20250831.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T21:52:59Z",
+  "run_id": "20260202_220653_5133",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Jabil's published materials address transparency and governance through specific practices. Press releases outline AI training and instruction for agentic AI, and detail the establishment of a Data and AI Council to guide AI deployment. These disclosures, along with evidence for fairness and privacy, mean that 4 of 7 evaluated responsible AI pillars have documented evidence, with a 2023 Data and AI Policy highlighting commitments across these four areas. This assessment is based on a review of 7 publicly available sources. No qualifying public evidence was found for explainability, oversight, and 1 additional pillar.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 24,
+    "total_sources_used": 7
+  }
+}

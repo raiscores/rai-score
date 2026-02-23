@@ -1,0 +1,637 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "FedEx",
+  "company_slug": "fedex",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 46,
+      "OPERATIONAL": 25,
+      "POLICY": 85
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "FedEx China's Privacy Notice mentions individual rights concerning automated decisions. This notice also references the ability for individuals to review the outcomes of these automated decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This FedEx China Privacy Notice, a company-owned privacy policy, provides evidence for **explainability**, **governance**, and **oversight**. It supports explainability and oversight by mentioning individual rights concerning automated decisions and the ability to review outcomes. Furthermore, the policy document supports governance by outlining data usage for profiling and analytics, which are integral to automated systems for service improvement and personalized content delivery.",
+          "title": "FedEx China Privacy Notice - Automated Decision-Making Protections",
+          "url": "https://ftn.fedex.com/privacy/Privacy_Notice_FXL_CN_EN.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "FedEx mentions testing autonomous systems and adherence to frameworks. The company also describes the exploration of AI systems with vendors, indicating external accountability through testing.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_041",
+          "source_tier": "authority",
+          "summary": "This FedEx Form 10-K FY2024 details the company's Dataworks platform and AI transformation, providing evidence for **external_accountability, governance, oversight, privacy, and transparency**. The report describes the use of AI/ML for forecasting, scheduling, and predictive analytics, indicating **transparency** in how these systems function and provide insights for strategic decisions. Furthermore, it highlights mechanisms for **governance** and **oversight**, including a committee responsible for AI/ML risks and privacy, regular updates to the Board, and vendor oversight for third-party AI providers, demonstrating a structured approach to managing AI risks and compliance with emerging regulations. The mention of testing autonomous systems and adherence to frameworks also points to **external_accountability**.",
+          "title": "FedEx Form 10-K FY2024 - Dataworks Platform and AI Transformation",
+          "url": "https://sec.gov/Archives/edgar/data/1048911/000095017024083577/fdx-20240531.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_042",
+          "source_tier": "authority",
+          "summary": "This FedEx 10-K filing provides evidence for **external accountability, governance, privacy, and transparency**. The document supports these pillars by describing the exploration of AI systems with vendors, indicating external accountability through testing. It also highlights the company's governance structure for its Data & Technology team, mentions government actions and AI laws requiring governance, and implies transparency and privacy through the description of AI capabilities and benefits, while also acknowledging the need for governance to mitigate AI risks and manage technological evolution.",
+          "title": "FedEx Form 10-K FY2025 - Shipment Eligibility Orchestrator and AI Systems",
+          "url": "https://sec.gov/Archives/edgar/data/1048911/000104891125000011/fdx-20250531.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 93,
+      "findings": "FedEx describes its AI/ML initiatives, including human review and approval processes for AI-assisted content and active management of the AI model lifecycle through automated checks and retraining cadences. The company outlines commitments to impact assessments for high-risk processing, mandates data protection by design, and details collaborations and agreements for AI development and infrastructure. FedEx also highlights a governance structure for its Data & Technology team, a committee responsible for AI/ML risks and privacy, and references regular updates to the Board and vendor oversight for third-party AI providers.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"FedEx AI Strategy - Interconnected Data Platform Analysis,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports these pillars by describing FedEx's AI/ML initiatives focused on real-time information aggregation and predictive analytics, which are aimed at enhancing network visibility and predictability.",
+          "title": "FedEx AI Strategy - Interconnected Data Platform Analysis",
+          "url": "https://aiexpertnetwork.notion.site/FedEx-a79f192b3ed348538df32141ee066c84"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"FedEx Structural Transformation - AI-Powered Routing,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It supports governance and oversight by describing human review and approval processes for AI-assisted content and explicitly stating the purpose of human oversight in mitigating AI issues. The mention of LLM technology also indicates transparency regarding the AI tools used for data analysis.",
+          "title": "FedEx Structural Transformation - AI-Powered Routing",
+          "url": "https://ainvest.com/news/fedex-structural-shift-cost-cuts-network-efficiency-drive-sustained-margin-expansion-2506"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **oversight** pillars of responsible AI. It details the implementation of a \"policy layer\" with \"guardrails\" and \"drift-detection\" monitoring, a feature store for \"model control,\" and a \"strict data-quality plan\" for model inputs, all of which demonstrate robust governance over AI systems. Furthermore, the post highlights \"automated checks\" and \"monthly reviews\" for AI system tuning, along with \"retraining cadences\" and data ingestion pipelines, indicating active oversight and management of the AI model lifecycle.",
+          "title": "FedEx AI Use Cases - Governance & Risk Management Perspective",
+          "url": "https://blog.gettransport.com/ro/artificial-intelligence-at-fedex-two-current-use-cases"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"FedEx Logistics Data Innovation - New AI-Driven Services,\" provides evidence for responsible AI in the areas of **governance** and **transparency**. The source indicates strategic direction and potential governance structures by mentioning AI efforts leading to new products and digital transformation, as well as the buildout of AI infrastructure and a commitment to employee AI knowhow. Transparency is supported by the discussion of \"tools\" and a \"visibility tool\" used to improve customer service, implying AI/ML capabilities and their application in a way that suggests oversight.",
+          "title": "FedEx Logistics Data Innovation - New AI-Driven Services",
+          "url": "https://constellationr.com/blog-news/insights/fedexs-logistics-data-spinning-new-services-products"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** and **transparency** pillars of responsible AI. It details FedEx's operational use of AI systems, including dynamic routing, delivery prediction, automated sorting, and shipment monitoring, which implies governance over these AI-driven processes. The paper also demonstrates transparency by describing the specific capabilities and functions of these AI applications, such as machine learning models, real-time algorithms, and risk scoring.",
+          "title": "5 Ways FedEx Is Using AI - Detailed Case Studies",
+          "url": "https://digitaldefynd.com/IQ/ways-fedex-using-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at FedEx - Two Current Use Cases,\" provides evidence for **governance**, **oversight**, and **transparency**. The document supports transparency by mentioning AI applications, capabilities, and the use of AI-powered sensors and models. Evidence for governance and oversight is found in the explicit mention of human supervision and control, an operational escalation process for algorithm failures, and the discussion of ML training and data use, implying policies and frameworks for AI deployment.",
+          "title": "Artificial Intelligence at FedEx - Two Current Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-fedex"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"FedEx Binding Corporate Rules - Automated Decision Processing,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by outlining commitments to impact assessments for high-risk processing, acknowledging automated decision-making and profiling, and mandating data protection by design. The policy also supports privacy by detailing requirements for consent or contract necessity for automated decisions, defining profiling, and requiring data minimization and access controls.",
+          "title": "FedEx Binding Corporate Rules - Automated Decision Processing",
+          "url": "https://fedex.com/content/dam/fedex-com/legal/Customer_BCRs_Extract.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document for FedEx Logistics provides evidence for the **governance**, **oversight**, and **privacy** pillars. It supports the **privacy** pillar by detailing the processing of personal data and individual rights, including the right not to be subjected to automated decision-making. The document also demonstrates **governance** by outlining processes for detecting fraud and conducting analyses for personalization, which imply automated profiling. Furthermore, it supports **oversight** by describing a formal review process for automated decision-making, indicating a mechanism for human intervention and accountability.",
+          "title": "FedEx Logistics Privacy Notice - Personal Data and Automated Processing",
+          "url": "https://fedex.com/content/dam/fedex/logistics/Privacy-Notice-FXL_202001-FINAL(English).pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This FedEx blog post provides evidence for **governance, oversight, and transparency** in their use of generative AI. The post details specific AI applications, such as autonomous robot truck loading and AI-powered customs clearance tools, demonstrating transparency in their deployments. Furthermore, it mentions \"human oversight\" and \"working closely with IT,\" indicating mechanisms for governance and oversight of their AI initiatives.",
+          "title": "Generative AI Applications and Responsible Safeguards - FedEx China",
+          "url": "https://fedex.com/en-cn/business-insights/tech-innovation/generative-ai-a-new-frontier.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This FedEx blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog post supports governance by mentioning collaboration with a vendor for AI solutions, and it supports transparency by detailing multiple generative AI applications like demand forecasting, customs clearance automation, and a virtual assistant, as well as specific use cases such as sorting robots with deployment dates.",
+          "title": "Generative AI for Supply Chain Innovation - FedEx Hong Kong",
+          "url": "https://fedex.com/en-hk/business-insights/tech-innovation/generative-ai-a-new-frontier.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This FedEx blog post provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The company details its strategy by mentioning specific AI applications like intelligent sorting robots and demand forecasting, demonstrating transparency in their AI usage. Furthermore, FedEx emphasizes human judgment in AI-driven automation and outlines the need for collaboration, implying governance and oversight mechanisms for their AI systems.",
+          "title": "Generative AI: A New Frontier - FedEx Responsible AI Strategy",
+          "url": "https://fedex.com/en-sg/business-insights/tech-innovation/generative-ai-a-new-frontier.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This FedEx blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It details the use of AI and machine learning for operational efficiency and proactive issue resolution, demonstrating governance through enhanced customer service and operational resilience. The post also supports transparency by describing AI-powered chatbots, generative AI for shipment creation and customs classification, and predictive analytics for anticipating issues and issuing alerts.",
+          "title": "How Technology Is Enhancing Customer Service In Logistics - FedEx",
+          "url": "https://fedex.com/en-sg/business-insights/tech-innovation/how-can-technology-deliver-superior-customer-service.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"FedEx Technology and Innovation Policy - AI-Powered Robotics and Automation,\" provides evidence for **governance, oversight, and transparency**. The policy supports governance by detailing collaborations and agreements for AI development and infrastructure. Evidence for transparency is found in descriptions of deployed AI capabilities, built-in AI, and intelligent cloud/data solutions. Finally, oversight is supported by mentions of AI integration and how teams adapt to its use.",
+          "title": "FedEx Technology and Innovation Policy - AI-Powered Robotics and Automation",
+          "url": "https://fedex.com/en-us/about/policy/technology-innovation.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This company description of the FedEx Dataworks Platform provides evidence for the **governance** pillar. The document's mention of \"agentic AI\" and \"automating\" workflows suggests that AI governance is a consideration for orchestrating value chains within the platform.",
+          "title": "FedEx Dataworks Platform - Official Description",
+          "url": "https://fedex.com/en-us/dataworks.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "The help page \"FedEx Ship Manager Software - Automation and Integration\" provides evidence for the **governance** pillar. This is supported by the mention of an agreement governing the software's use, which indicates a defined framework for how the automation features are managed and controlled.",
+          "title": "FedEx Ship Manager Software - Automation and Integration",
+          "url": "https://fedex.com/en-us/shipping/ship-manager/software.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This FedEx China Privacy Notice, a company-owned privacy policy, provides evidence for **explainability**, **governance**, and **oversight**. It supports explainability and oversight by mentioning individual rights concerning automated decisions and the ability to review outcomes. Furthermore, the policy document supports governance by outlining data usage for profiling and analytics, which are integral to automated systems for service improvement and personalized content delivery.",
+          "title": "FedEx China Privacy Notice - Automated Decision-Making Protections",
+          "url": "https://ftn.fedex.com/privacy/Privacy_Notice_FXL_CN_EN.pdf"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_031",
+          "source_tier": "company_owned",
+          "summary": "This company-owned charter, \"Cyber and Technology Oversight Committee Charter - AI Risk Governance,\" provides evidence for the **governance** and **privacy** pillars. The charter details the CyTOC's responsibilities for reviewing AI/ML incorporation and associated risks, demonstrating established governance processes. Furthermore, it indicates support for the privacy pillar through its mention of reviewing AI/ML risks and mitigation steps, which inherently includes privacy considerations.",
+          "title": "Cyber and Technology Oversight Committee Charter - AI Risk Governance",
+          "url": "https://investors.fedex.com/governance/board-of-directors/committee-charters/information-technology-oversight-committee-charter/default.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_032",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"FedEx Network 2.0 Transition - Machine Learning Integration,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. Governance is implied through the mention of AI agents impacting operations and the existence of a VP role for AI strategy, suggesting oversight and decision-making authority. Transparency is supported by the documentation of the Network 2.0 initiative, which outlines the integration of Express and Ground operations leveraging machine learning for cost optimization.",
+          "title": "FedEx Network 2.0 Transition - Machine Learning Integration",
+          "url": "https://logisticsmgmt.com/article/fedex_gears_up_for_network_2.0_transition"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_033",
+          "source_tier": "third_party",
+          "summary": "The Ethisphere World's Most Ethical Companies - FedEx Compliance Program audit report provides evidence for the **governance** pillar of responsible AI. This recognition highlights FedEx's use of automation and data analytics for risk assessment and management, demonstrating a commitment to structured oversight and control over their compliance processes. The report specifically mentions the application of these technologies to enhance efficiency and identify risks, aligning with governance principles for AI and automation.",
+          "title": "Ethisphere World's Most Ethical Companies - FedEx Compliance Program",
+          "url": "https://magazine.ethisphere.com/worlds-most-ethical-companies-deep-dive-fedex"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_037",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"FedEx Global Economic Impact Report - AI-Driven Supply Chain Solutions,\" provides evidence for the **governance** pillar of responsible AI. The report describes FedEx's expansion of AI solutions and their development of AI-driven tools for supply chain modernization, implying a commitment to governing their use and impact. While execution details are not provided, the mention of these initiatives suggests an underlying framework for managing these AI systems.",
+          "title": "FedEx Global Economic Impact Report - AI-Driven Supply Chain Solutions",
+          "url": "https://newsroom.fedex.com/newsroom/meisa-english/2025-report-highlights-how-fedex-drives-innovation-and-global-economic-impact"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_040",
+          "source_tier": "third_party",
+          "summary": "This press release, detailing FedEx's Q2 FY2025 earnings call, provides evidence for the **governance** pillar of responsible AI. The mention of using AI for capacity management and filling voids suggests a future commitment to establishing governance for these AI systems, ensuring their responsible deployment within FedEx's operations.",
+          "title": "FedEx Q2 FY2025 Earnings Call Transcript - AI Image Capture and Digital Twin",
+          "url": "https://roic.ai/quote/FDX.SW/transcripts/2025/2"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_041",
+          "source_tier": "authority",
+          "summary": "This FedEx Form 10-K FY2024 details the company's Dataworks platform and AI transformation, providing evidence for **external_accountability, governance, oversight, privacy, and transparency**. The report describes the use of AI/ML for forecasting, scheduling, and predictive analytics, indicating **transparency** in how these systems function and provide insights for strategic decisions. Furthermore, it highlights mechanisms for **governance** and **oversight**, including a committee responsible for AI/ML risks and privacy, regular updates to the Board, and vendor oversight for third-party AI providers, demonstrating a structured approach to managing AI risks and compliance with emerging regulations. The mention of testing autonomous systems and adherence to frameworks also points to **external_accountability**.",
+          "title": "FedEx Form 10-K FY2024 - Dataworks Platform and AI Transformation",
+          "url": "https://sec.gov/Archives/edgar/data/1048911/000095017024083577/fdx-20240531.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_042",
+          "source_tier": "authority",
+          "summary": "This FedEx 10-K filing provides evidence for **external accountability, governance, privacy, and transparency**. The document supports these pillars by describing the exploration of AI systems with vendors, indicating external accountability through testing. It also highlights the company's governance structure for its Data & Technology team, mentions government actions and AI laws requiring governance, and implies transparency and privacy through the description of AI capabilities and benefits, while also acknowledging the need for governance to mitigate AI risks and manage technological evolution.",
+          "title": "FedEx Form 10-K FY2025 - Shipment Eligibility Orchestrator and AI Systems",
+          "url": "https://sec.gov/Archives/edgar/data/1048911/000104891125000011/fdx-20250531.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_046",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"FedEx AI Transformation - Shipment Eligibility Orchestrator Details,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The description of the Shipment Eligibility Orchestrator as an AI-driven decision-making engine using machine learning for real-time package routing, and its evolution as a learning platform adding use cases daily, supports transparency by detailing the AI model's function and evolving capabilities. While not explicitly detailing governance policies, the description of the system's operational purpose and ongoing development implicitly touches upon the governance of AI deployment.",
+          "title": "FedEx AI Transformation - Shipment Eligibility Orchestrator Details",
+          "url": "https://thestack.technology/fedex-ai-transformation"
+        }
+      ],
+      "score": 2,
+      "source_count": 24
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 16,
+      "findings": "FedEx describes human review and approval processes for AI-assisted content, explicitly stating the purpose of human oversight in mitigating AI issues. The company highlights automated checks, monthly reviews for AI system tuning, and retraining cadences for active management of the AI model lifecycle. FedEx also outlines individual rights to object to or review automated decisions, and references a committee responsible for AI/ML risks, regular updates to the Board, and vendor oversight for third-party AI providers.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"FedEx Structural Transformation - AI-Powered Routing,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It supports governance and oversight by describing human review and approval processes for AI-assisted content and explicitly stating the purpose of human oversight in mitigating AI issues. The mention of LLM technology also indicates transparency regarding the AI tools used for data analysis.",
+          "title": "FedEx Structural Transformation - AI-Powered Routing",
+          "url": "https://ainvest.com/news/fedex-structural-shift-cost-cuts-network-efficiency-drive-sustained-margin-expansion-2506"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **oversight** pillars of responsible AI. It details the implementation of a \"policy layer\" with \"guardrails\" and \"drift-detection\" monitoring, a feature store for \"model control,\" and a \"strict data-quality plan\" for model inputs, all of which demonstrate robust governance over AI systems. Furthermore, the post highlights \"automated checks\" and \"monthly reviews\" for AI system tuning, along with \"retraining cadences\" and data ingestion pipelines, indicating active oversight and management of the AI model lifecycle.",
+          "title": "FedEx AI Use Cases - Governance & Risk Management Perspective",
+          "url": "https://blog.gettransport.com/ro/artificial-intelligence-at-fedex-two-current-use-cases"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at FedEx - Two Current Use Cases,\" provides evidence for **governance**, **oversight**, and **transparency**. The document supports transparency by mentioning AI applications, capabilities, and the use of AI-powered sensors and models. Evidence for governance and oversight is found in the explicit mention of human supervision and control, an operational escalation process for algorithm failures, and the discussion of ML training and data use, implying policies and frameworks for AI deployment.",
+          "title": "Artificial Intelligence at FedEx - Two Current Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-fedex"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Global Privacy Policy FAQs - Transparency and Automated Decisions,\" provides evidence for the **oversight** pillar. Specifically, it supports oversight by outlining a right to object to automated decisions, which implies mechanisms for appeals or human review.",
+          "title": "Global Privacy Policy FAQs - Transparency and Automated Decisions",
+          "url": "https://fedex.com/content/dam/fedex-com/legal/FAQs_for_Privacy_Policy_v12.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document for FedEx Logistics provides evidence for the **governance**, **oversight**, and **privacy** pillars. It supports the **privacy** pillar by detailing the processing of personal data and individual rights, including the right not to be subjected to automated decision-making. The document also demonstrates **governance** by outlining processes for detecting fraud and conducting analyses for personalization, which imply automated profiling. Furthermore, it supports **oversight** by describing a formal review process for automated decision-making, indicating a mechanism for human intervention and accountability.",
+          "title": "FedEx Logistics Privacy Notice - Personal Data and Automated Processing",
+          "url": "https://fedex.com/content/dam/fedex/logistics/Privacy-Notice-FXL_202001-FINAL(English).pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This FedEx blog post provides evidence for **governance, oversight, and transparency** in their use of generative AI. The post details specific AI applications, such as autonomous robot truck loading and AI-powered customs clearance tools, demonstrating transparency in their deployments. Furthermore, it mentions \"human oversight\" and \"working closely with IT,\" indicating mechanisms for governance and oversight of their AI initiatives.",
+          "title": "Generative AI Applications and Responsible Safeguards - FedEx China",
+          "url": "https://fedex.com/en-cn/business-insights/tech-innovation/generative-ai-a-new-frontier.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This FedEx blog post provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The company details its strategy by mentioning specific AI applications like intelligent sorting robots and demand forecasting, demonstrating transparency in their AI usage. Furthermore, FedEx emphasizes human judgment in AI-driven automation and outlines the need for collaboration, implying governance and oversight mechanisms for their AI systems.",
+          "title": "Generative AI: A New Frontier - FedEx Responsible AI Strategy",
+          "url": "https://fedex.com/en-sg/business-insights/tech-innovation/generative-ai-a-new-frontier.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"FedEx Technology and Innovation Policy - AI-Powered Robotics and Automation,\" provides evidence for **governance, oversight, and transparency**. The policy supports governance by detailing collaborations and agreements for AI development and infrastructure. Evidence for transparency is found in descriptions of deployed AI capabilities, built-in AI, and intelligent cloud/data solutions. Finally, oversight is supported by mentions of AI integration and how teams adapt to its use.",
+          "title": "FedEx Technology and Innovation Policy - AI-Powered Robotics and Automation",
+          "url": "https://fedex.com/en-us/about/policy/technology-innovation.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_025",
+          "source_tier": "company_owned",
+          "summary": "This FedEx privacy notice documents individual rights related to automated decision-making, supporting the **oversight** pillar. Specifically, it establishes a right to review automated decisions, indicating a mechanism for oversight of AI systems that produce legal or similarly significant effects.",
+          "title": "FedEx Privacy Notice - Automated Decision-Making Rights",
+          "url": "https://fedex.com/en-us/trust-center/privacy.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_027",
+          "source_tier": "company_owned",
+          "summary": "This FedEx China Privacy Notice, a company-owned privacy policy, provides evidence for **explainability**, **governance**, and **oversight**. It supports explainability and oversight by mentioning individual rights concerning automated decisions and the ability to review outcomes. Furthermore, the policy document supports governance by outlining data usage for profiling and analytics, which are integral to automated systems for service improvement and personalized content delivery.",
+          "title": "FedEx China Privacy Notice - Automated Decision-Making Protections",
+          "url": "https://ftn.fedex.com/privacy/Privacy_Notice_FXL_CN_EN.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_041",
+          "source_tier": "authority",
+          "summary": "This FedEx Form 10-K FY2024 details the company's Dataworks platform and AI transformation, providing evidence for **external_accountability, governance, oversight, privacy, and transparency**. The report describes the use of AI/ML for forecasting, scheduling, and predictive analytics, indicating **transparency** in how these systems function and provide insights for strategic decisions. Furthermore, it highlights mechanisms for **governance** and **oversight**, including a committee responsible for AI/ML risks and privacy, regular updates to the Board, and vendor oversight for third-party AI providers, demonstrating a structured approach to managing AI risks and compliance with emerging regulations. The mention of testing autonomous systems and adherence to frameworks also points to **external_accountability**.",
+          "title": "FedEx Form 10-K FY2024 - Dataworks Platform and AI Transformation",
+          "url": "https://sec.gov/Archives/edgar/data/1048911/000095017024083577/fdx-20240531.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 10,
+      "findings": "Policy documents detail requirements for consent or contract necessity for automated decisions, define profiling, and require data minimization and access controls. FedEx Logistics Privacy Notice outlines the processing of personal data and individual rights, including the right not to be subjected to automated decision-making. Furthermore, FedEx references a committee responsible for AI/ML risks and privacy, acknowledging the need for governance to mitigate these risks.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"FedEx Binding Corporate Rules - Automated Decision Processing,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by outlining commitments to impact assessments for high-risk processing, acknowledging automated decision-making and profiling, and mandating data protection by design. The policy also supports privacy by detailing requirements for consent or contract necessity for automated decisions, defining profiling, and requiring data minimization and access controls.",
+          "title": "FedEx Binding Corporate Rules - Automated Decision Processing",
+          "url": "https://fedex.com/content/dam/fedex-com/legal/Customer_BCRs_Extract.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document for FedEx Logistics provides evidence for the **governance**, **oversight**, and **privacy** pillars. It supports the **privacy** pillar by detailing the processing of personal data and individual rights, including the right not to be subjected to automated decision-making. The document also demonstrates **governance** by outlining processes for detecting fraud and conducting analyses for personalization, which imply automated profiling. Furthermore, it supports **oversight** by describing a formal review process for automated decision-making, indicating a mechanism for human intervention and accountability.",
+          "title": "FedEx Logistics Privacy Notice - Personal Data and Automated Processing",
+          "url": "https://fedex.com/content/dam/fedex/logistics/Privacy-Notice-FXL_202001-FINAL(English).pdf"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_031",
+          "source_tier": "company_owned",
+          "summary": "This company-owned charter, \"Cyber and Technology Oversight Committee Charter - AI Risk Governance,\" provides evidence for the **governance** and **privacy** pillars. The charter details the CyTOC's responsibilities for reviewing AI/ML incorporation and associated risks, demonstrating established governance processes. Furthermore, it indicates support for the privacy pillar through its mention of reviewing AI/ML risks and mitigation steps, which inherently includes privacy considerations.",
+          "title": "Cyber and Technology Oversight Committee Charter - AI Risk Governance",
+          "url": "https://investors.fedex.com/governance/board-of-directors/committee-charters/information-technology-oversight-committee-charter/default.aspx"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_041",
+          "source_tier": "authority",
+          "summary": "This FedEx Form 10-K FY2024 details the company's Dataworks platform and AI transformation, providing evidence for **external_accountability, governance, oversight, privacy, and transparency**. The report describes the use of AI/ML for forecasting, scheduling, and predictive analytics, indicating **transparency** in how these systems function and provide insights for strategic decisions. Furthermore, it highlights mechanisms for **governance** and **oversight**, including a committee responsible for AI/ML risks and privacy, regular updates to the Board, and vendor oversight for third-party AI providers, demonstrating a structured approach to managing AI risks and compliance with emerging regulations. The mention of testing autonomous systems and adherence to frameworks also points to **external_accountability**.",
+          "title": "FedEx Form 10-K FY2024 - Dataworks Platform and AI Transformation",
+          "url": "https://sec.gov/Archives/edgar/data/1048911/000095017024083577/fdx-20240531.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_042",
+          "source_tier": "authority",
+          "summary": "This FedEx 10-K filing provides evidence for **external accountability, governance, privacy, and transparency**. The document supports these pillars by describing the exploration of AI systems with vendors, indicating external accountability through testing. It also highlights the company's governance structure for its Data & Technology team, mentions government actions and AI laws requiring governance, and implies transparency and privacy through the description of AI capabilities and benefits, while also acknowledging the need for governance to mitigate AI risks and manage technological evolution.",
+          "title": "FedEx Form 10-K FY2025 - Shipment Eligibility Orchestrator and AI Systems",
+          "url": "https://sec.gov/Archives/edgar/data/1048911/000104891125000011/fdx-20250531.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 82,
+      "findings": "FedEx describes its AI/ML initiatives, including real-time information aggregation, predictive analytics, and the use of LLM technology for data analysis. The company details specific AI applications such as AI-powered Customs Solutions, generative AI chatbots, autonomous robot truck loading, and intelligent sorting robots. FedEx also outlines the capabilities and functions of its AI systems, including machine learning models for dynamic routing, delivery prediction, automated sorting, and real-time visibility.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"FedEx AI Strategy - Interconnected Data Platform Analysis,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports these pillars by describing FedEx's AI/ML initiatives focused on real-time information aggregation and predictive analytics, which are aimed at enhancing network visibility and predictability.",
+          "title": "FedEx AI Strategy - Interconnected Data Platform Analysis",
+          "url": "https://aiexpertnetwork.notion.site/FedEx-a79f192b3ed348538df32141ee066c84"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"FedEx Structural Transformation - AI-Powered Routing,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It supports governance and oversight by describing human review and approval processes for AI-assisted content and explicitly stating the purpose of human oversight in mitigating AI issues. The mention of LLM technology also indicates transparency regarding the AI tools used for data analysis.",
+          "title": "FedEx Structural Transformation - AI-Powered Routing",
+          "url": "https://ainvest.com/news/fedex-structural-shift-cost-cuts-network-efficiency-drive-sustained-margin-expansion-2506"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **transparency** pillar by describing FedEx's use of \"AI-powered Customs Solutions\" and \"Customs AI.\" The source details the generative AI chatbot functionality and the integration of AI tools into the FedEx Ship Manager platform, indicating transparency about the AI systems in use and their impact on customs clearance efficiency.",
+          "title": "FedEx AI-Powered Customs Solutions - Implementation and Impact",
+          "url": "https://blog.gettransport.com/news/ai-powered-customs-solutions-fedex"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"FedEx Logistics Data Innovation - New AI-Driven Services,\" provides evidence for responsible AI in the areas of **governance** and **transparency**. The source indicates strategic direction and potential governance structures by mentioning AI efforts leading to new products and digital transformation, as well as the buildout of AI infrastructure and a commitment to employee AI knowhow. Transparency is supported by the discussion of \"tools\" and a \"visibility tool\" used to improve customer service, implying AI/ML capabilities and their application in a way that suggests oversight.",
+          "title": "FedEx Logistics Data Innovation - New AI-Driven Services",
+          "url": "https://constellationr.com/blog-news/insights/fedexs-logistics-data-spinning-new-services-products"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** and **transparency** pillars of responsible AI. It details FedEx's operational use of AI systems, including dynamic routing, delivery prediction, automated sorting, and shipment monitoring, which implies governance over these AI-driven processes. The paper also demonstrates transparency by describing the specific capabilities and functions of these AI applications, such as machine learning models, real-time algorithms, and risk scoring.",
+          "title": "5 Ways FedEx Is Using AI - Detailed Case Studies",
+          "url": "https://digitaldefynd.com/IQ/ways-fedex-using-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"How Is FedEx Using AI,\" provides evidence for the **transparency** pillar of responsible AI. The report details FedEx's AI initiatives, including predictive models for route optimization, ML for forecasting, and AI for delivery estimates, demonstrating transparency in the capabilities and applications of their AI systems. Furthermore, the description of an AI-powered robot deployment also showcases transparency in AI system capabilities and use.",
+          "title": "How Is FedEx Using AI",
+          "url": "https://disruptionhub.com/how-is-fedex-using-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at FedEx - Two Current Use Cases,\" provides evidence for **governance**, **oversight**, and **transparency**. The document supports transparency by mentioning AI applications, capabilities, and the use of AI-powered sensors and models. Evidence for governance and oversight is found in the explicit mention of human supervision and control, an operational escalation process for algorithm failures, and the discussion of ML training and data use, implying policies and frameworks for AI deployment.",
+          "title": "Artificial Intelligence at FedEx - Two Current Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-fedex"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This FedEx blog post provides evidence for **governance, oversight, and transparency** in their use of generative AI. The post details specific AI applications, such as autonomous robot truck loading and AI-powered customs clearance tools, demonstrating transparency in their deployments. Furthermore, it mentions \"human oversight\" and \"working closely with IT,\" indicating mechanisms for governance and oversight of their AI initiatives.",
+          "title": "Generative AI Applications and Responsible Safeguards - FedEx China",
+          "url": "https://fedex.com/en-cn/business-insights/tech-innovation/generative-ai-a-new-frontier.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This FedEx blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog post supports governance by mentioning collaboration with a vendor for AI solutions, and it supports transparency by detailing multiple generative AI applications like demand forecasting, customs clearance automation, and a virtual assistant, as well as specific use cases such as sorting robots with deployment dates.",
+          "title": "Generative AI for Supply Chain Innovation - FedEx Hong Kong",
+          "url": "https://fedex.com/en-hk/business-insights/tech-innovation/generative-ai-a-new-frontier.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This FedEx blog post provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The company details its strategy by mentioning specific AI applications like intelligent sorting robots and demand forecasting, demonstrating transparency in their AI usage. Furthermore, FedEx emphasizes human judgment in AI-driven automation and outlines the need for collaboration, implying governance and oversight mechanisms for their AI systems.",
+          "title": "Generative AI: A New Frontier - FedEx Responsible AI Strategy",
+          "url": "https://fedex.com/en-sg/business-insights/tech-innovation/generative-ai-a-new-frontier.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This FedEx blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It details the use of AI and machine learning for operational efficiency and proactive issue resolution, demonstrating governance through enhanced customer service and operational resilience. The post also supports transparency by describing AI-powered chatbots, generative AI for shipment creation and customs classification, and predictive analytics for anticipating issues and issuing alerts.",
+          "title": "How Technology Is Enhancing Customer Service In Logistics - FedEx",
+          "url": "https://fedex.com/en-sg/business-insights/tech-innovation/how-can-technology-deliver-superior-customer-service.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"FedEx Technology and Innovation Policy - AI-Powered Robotics and Automation,\" provides evidence for **governance, oversight, and transparency**. The policy supports governance by detailing collaborations and agreements for AI development and infrastructure. Evidence for transparency is found in descriptions of deployed AI capabilities, built-in AI, and intelligent cloud/data solutions. Finally, oversight is supported by mentions of AI integration and how teams adapt to its use.",
+          "title": "FedEx Technology and Innovation Policy - AI-Powered Robotics and Automation",
+          "url": "https://fedex.com/en-us/about/policy/technology-innovation.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Network 2.0 - Machine Learning Integration and Optimization,\" provides evidence for the **transparency** pillar of responsible AI. The document supports this by mentioning the use of AI tools and their general purpose, indicating transparency about the deployment of AI within the Network 2.0 initiative.",
+          "title": "Network 2.0 - Machine Learning Integration and Optimization",
+          "url": "https://fedex.com/en-us/network-2-0.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"FedEx Sustainable Warehouse Technology - Robotic AI Systems,\" provides evidence for the **transparency** pillar of responsible AI. It supports this by describing the AI software used in FedEx's robotic sorting arms, detailing its capabilities for package recognition and learning to handle diverse items. This explanation of the system's function contributes to transparency by making the AI's operational aspects more understandable.",
+          "title": "FedEx Sustainable Warehouse Technology - Robotic AI Systems",
+          "url": "https://futuresupplychains.org/fedex-sustainable-warehouse-technology"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_032",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"FedEx Network 2.0 Transition - Machine Learning Integration,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. Governance is implied through the mention of AI agents impacting operations and the existence of a VP role for AI strategy, suggesting oversight and decision-making authority. Transparency is supported by the documentation of the Network 2.0 initiative, which outlines the integration of Express and Ground operations leveraging machine learning for cost optimization.",
+          "title": "FedEx Network 2.0 Transition - Machine Learning Integration",
+          "url": "https://logisticsmgmt.com/article/fedex_gears_up_for_network_2.0_transition"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_035",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** pillar of responsible AI. It details the capabilities of an AI-powered chatbot and a Harmonized Tariff Schedule Code Lookup feature, explicitly naming the Generative AI tool and its function. This demonstrates transparency by clearly outlining the AI tools being used and their intended purposes within FedEx Ship Manager.",
+          "title": "FedEx Launches AI-Powered Customs Solutions in APAC",
+          "url": "https://newsroom.fedex.com/newsroom/amea/fedex-launches-intelligent-ai-powered-customs-solutions-in-apac-to-streamline-global-trade"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_041",
+          "source_tier": "authority",
+          "summary": "This FedEx Form 10-K FY2024 details the company's Dataworks platform and AI transformation, providing evidence for **external_accountability, governance, oversight, privacy, and transparency**. The report describes the use of AI/ML for forecasting, scheduling, and predictive analytics, indicating **transparency** in how these systems function and provide insights for strategic decisions. Furthermore, it highlights mechanisms for **governance** and **oversight**, including a committee responsible for AI/ML risks and privacy, regular updates to the Board, and vendor oversight for third-party AI providers, demonstrating a structured approach to managing AI risks and compliance with emerging regulations. The mention of testing autonomous systems and adherence to frameworks also points to **external_accountability**.",
+          "title": "FedEx Form 10-K FY2024 - Dataworks Platform and AI Transformation",
+          "url": "https://sec.gov/Archives/edgar/data/1048911/000095017024083577/fdx-20240531.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_042",
+          "source_tier": "authority",
+          "summary": "This FedEx 10-K filing provides evidence for **external accountability, governance, privacy, and transparency**. The document supports these pillars by describing the exploration of AI systems with vendors, indicating external accountability through testing. It also highlights the company's governance structure for its Data & Technology team, mentions government actions and AI laws requiring governance, and implies transparency and privacy through the description of AI capabilities and benefits, while also acknowledging the need for governance to mitigate AI risks and manage technological evolution.",
+          "title": "FedEx Form 10-K FY2025 - Shipment Eligibility Orchestrator and AI Systems",
+          "url": "https://sec.gov/Archives/edgar/data/1048911/000104891125000011/fdx-20250531.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_044",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"FedEx Surround - AI-Powered Supply Chain Visibility,\" provides evidence for the **transparency** pillar of responsible AI. The post highlights the use of AI and machine learning for real-time visibility, predictive analytics, and intelligent disruption prevention, demonstrating transparency in the system's capabilities and predictive functions. It also implies transparency in system functionality through descriptions of intelligent solutions and active risk management.",
+          "title": "FedEx Surround - AI-Powered Supply Chain Visibility",
+          "url": "https://supplychaindigital.com/technology/fedex-new-ai-powered-solution-for-supply-chain-visibility"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_045",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **transparency** pillar of responsible AI. It describes FedEx's use of machine learning for delivery time prediction, highlighting the ongoing improvement and operational deployment of these models. The post also mentions the exploration of generative AI for customer interactions, indicating a willingness to share information about their AI initiatives and capabilities.",
+          "title": "FedEx Makes Progress with AI to Sharpen Delivery Time Estimates",
+          "url": "https://supplychaindive.com/news/fedex-machine-learning-ai-ceo-raj-subramaniam/698659"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_046",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"FedEx AI Transformation - Shipment Eligibility Orchestrator Details,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The description of the Shipment Eligibility Orchestrator as an AI-driven decision-making engine using machine learning for real-time package routing, and its evolution as a learning platform adding use cases daily, supports transparency by detailing the AI model's function and evolving capabilities. While not explicitly detailing governance policies, the description of the system's operational purpose and ongoing development implicitly touches upon the governance of AI deployment.",
+          "title": "FedEx AI Transformation - Shipment Eligibility Orchestrator Details",
+          "url": "https://thestack.technology/fedex-ai-transformation"
+        }
+      ],
+      "score": 2,
+      "source_count": 21
+    }
+  },
+  "published_at": "2026-02-23T21:50:09Z",
+  "run_id": "20260218_005151_5ee4",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "FedEx's public disclosures demonstrate evidence of both operational practices and policy-level commitments across 6 of 7 evaluated responsible AI pillars. Operational practices include descriptions of AI/ML initiatives focused on real-time information aggregation and human review and approval processes for AI-assisted content. Additionally, policy documents detail requirements for consent or contract necessity for automated decisions, and explainability is addressed through policies mentioning individual rights concerning automated decisions. These insights are drawn from 47 publicly available sources. No qualifying public evidence was found for fairness.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 156,
+    "total_sources_used": 33
+  }
+}

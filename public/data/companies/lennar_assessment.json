@@ -1,0 +1,191 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 21.4,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 3
+  },
+  "company": "Lennar",
+  "company_slug": "lennar",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 6,
+      "OPERATIONAL": 0,
+      "POLICY": 25
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 25,
+      "findings": "Lennar's policy documents outline policies on user responsibility, acceptable AI use, and enforcement for misuse. The privacy policy describes third-party data use for analytics and advertising, referencing algorithmic tools and machine learning, and states a commitment to policies around automated decision-making and profiling. Reports detail the company's cybersecurity governance structure, including CTO/CISO oversight and NIST Cybersecurity Framework implementation, and reference the \"Lennar Machine\" platform utilizing machine learning for dynamic pricing and sales optimization.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Lennar Terms and Conditions - AI Chatbot Disclosure,\" provides evidence for **governance, privacy, and transparency**. It supports transparency by disclosing the use of generative AI chatbots and automated systems for customer service. The document also addresses governance through policies on user responsibility, acceptable AI use, and enforcement for misuse, while supporting privacy by linking AI use to its privacy policy and outlining data retention and consent for AI interactions.",
+          "title": "Lennar Terms and Conditions - AI Chatbot Disclosure",
+          "url": "https://lennar.com/termsandconditions"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Lennar Privacy Policy document provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports the privacy pillar by detailing how user data is collected and used for targeted advertising, profiling, and personalization, and by mentioning user opt-out rights. The governance pillar is supported by descriptions of third-party data use for analytics and advertising, the mention of algorithmic tools and machine learning, and the commitment to policies around automated decision-making and profiling.",
+          "title": "Lennar Privacy Policy",
+          "url": "https://lennar.com/privacypolicy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "The SEC annual report for Lennar Corporation (Form 10-K - FY 2024) provides evidence for the **governance** pillar of responsible AI. The report details Lennar's cybersecurity governance structure, including CTO/CISO oversight and NIST Cybersecurity Framework implementation, which are relevant to managing AI-related cyber threats and risks. Furthermore, the mention of the \"Lennar Machine\" platform utilizing machine learning for dynamic pricing and sales optimization indicates the use of algorithmic decision-making, necessitating governance over its application.",
+          "title": "Lennar Corporation Form 10-K - FY 2024",
+          "url": "https://sec.gov/Archives/edgar/data/920760/000119312525040956/d867941dars.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance** and **transparency** in Lennar's AI systems. The document details the implementation of AI sales optimization, predictive analytics, and AI chatbots across various operational areas, suggesting a structured approach to AI deployment and oversight. The mention of these specific AI applications and their integration implies a commitment to making AI systems understandable and managed.",
+          "title": "Chief AI Officer Blog - Lennar AI Systems Overview",
+          "url": "https://chiefaiofficer.com/blog/blog/lennar-ai-sales-optimization-smart-home-technology"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 8,
+      "findings": "Lennar's policy documents outline data retention and consent for AI interactions, linking AI use to its privacy policy. The privacy policy details how user data is collected and used for targeted advertising, profiling, and personalization. It also mentions user opt-out rights regarding data use.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Lennar Terms and Conditions - AI Chatbot Disclosure,\" provides evidence for **governance, privacy, and transparency**. It supports transparency by disclosing the use of generative AI chatbots and automated systems for customer service. The document also addresses governance through policies on user responsibility, acceptable AI use, and enforcement for misuse, while supporting privacy by linking AI use to its privacy policy and outlining data retention and consent for AI interactions.",
+          "title": "Lennar Terms and Conditions - AI Chatbot Disclosure",
+          "url": "https://lennar.com/termsandconditions"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Lennar Privacy Policy document provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports the privacy pillar by detailing how user data is collected and used for targeted advertising, profiling, and personalization, and by mentioning user opt-out rights. The governance pillar is supported by descriptions of third-party data use for analytics and advertising, the mention of algorithmic tools and machine learning, and the commitment to policies around automated decision-making and profiling.",
+          "title": "Lennar Privacy Policy",
+          "url": "https://lennar.com/privacypolicy"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 9,
+      "findings": "Lennar's policy documents disclose the use of generative AI chatbots and automated systems for customer service. Documentation details the implementation of AI sales optimization, predictive analytics, and AI chatbots across various operational areas. Case studies further detail proactive measures against AI-driven cyber threats, specifying the use of voice AI and deepfake simulations and documenting specific AI capabilities and their application in defensive training.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Lennar Terms and Conditions - AI Chatbot Disclosure,\" provides evidence for **governance, privacy, and transparency**. It supports transparency by disclosing the use of generative AI chatbots and automated systems for customer service. The document also addresses governance through policies on user responsibility, acceptable AI use, and enforcement for misuse, while supporting privacy by linking AI use to its privacy policy and outlining data retention and consent for AI interactions.",
+          "title": "Lennar Terms and Conditions - AI Chatbot Disclosure",
+          "url": "https://lennar.com/termsandconditions"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **governance** and **transparency** in Lennar's AI systems. The document details the implementation of AI sales optimization, predictive analytics, and AI chatbots across various operational areas, suggesting a structured approach to AI deployment and oversight. The mention of these specific AI applications and their integration implies a commitment to making AI systems understandable and managed.",
+          "title": "Chief AI Officer Blog - Lennar AI Systems Overview",
+          "url": "https://chiefaiofficer.com/blog/blog/lennar-ai-sales-optimization-smart-home-technology"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This case study, \"Adaptive Security Case Study - Lennar AI Threat Defense,\" provides evidence for the **transparency** pillar of responsible AI. It details Lennar's proactive measures against AI-driven cyber threats, specifically mentioning the use of voice AI and deepfake simulations. This documentation of specific AI capabilities and their application in defensive training demonstrates transparency regarding the AI tools and their intended use.",
+          "title": "Adaptive Security Case Study - Lennar AI Threat Defense",
+          "url": "https://adaptivesecurity.com/case-studies/lennar"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:53:48Z",
+  "run_id": "20260202_234920_704e",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Lennar's policy documents disclose the use of generative AI chatbots and automated systems for customer service, addressing transparency. Additionally, published materials outline data retention and consent for AI interactions under privacy, and policies on user responsibility for AI use under governance, bringing the total to 3 of 7 evaluated pillars with documented evidence. This assessment is based on a review of 7 publicly available sources. No qualifying public evidence was found for fairness, explainability, and 2 additional pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 31,
+    "total_sources_used": 5
+  }
+}

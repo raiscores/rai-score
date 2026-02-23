@@ -1,0 +1,391 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "Kroger",
+  "company_slug": "kroger",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 13,
+      "OPERATIONAL": 8,
+      "POLICY": 47
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 4,
+      "findings": "Charter documents mention third-party assessments for risks related to AI strategy and oversight. Filings and reports acknowledge the challenge of complying with evolving AI regulations. Reports also mention the inclusion of external auditor review processes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This charter document, \"Information Concerning the Board of Directors,\" provides evidence for **governance** and **external accountability**. It supports governance by detailing the board's oversight structure, including committee composition and responsibilities for reviewing cybersecurity and data privacy risks, with quarterly updates from the CIO and CISO. The document also supports external accountability by mentioning third-party assessments for risks related to AI strategy and oversight.",
+          "title": "Information Concerning the Board of Directors",
+          "url": "https://s202.q4cdn.com/463742399/files/doc_downloads/gov_docs/2024/Info-Concerning-BoD.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"The Kroger Co. Form 10-K PDF — Fiscal Year Ended February 1, 2025,\" provides evidence for **external accountability**, **governance**, and **privacy**. It supports external accountability by acknowledging the challenge of complying with evolving AI regulations. The filing also indicates a commitment to privacy and governance through its mention of necessary data protections, safeguards, and policies for AI, as well as discussions around data science capabilities and the retail media business, implying governance over data use for profit.",
+          "title": "The Kroger Co. Form 10-K PDF — Fiscal Year Ended February 1, 2025",
+          "url": "https://s202.q4cdn.com/463742399/files/doc_financials/2024/q4/c0206a59-56d3-47f8-b351-ca7535161f99.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This 2025 Proxy Statement and 2024 Annual Report provides evidence for **governance**, **privacy**, **transparency**, and **external accountability**. The document details board oversight of data privacy and cybersecurity risks, with quarterly reporting from the Chief Digital Officer (CDO) and Chief Information Security Officer (CISO) on AI strategies, indicating strong governance. It also implies privacy considerations through discussions of data handling policies and safeguards for AI applications, and transparency through the mention of specific algorithms like Black-Scholes. Furthermore, the report's acknowledgment of evolving AI regulations and the inclusion of external auditor review processes demonstrate a commitment to external accountability.",
+          "title": "2025 Proxy Statement — 2024 Annual Report",
+          "url": "https://s202.q4cdn.com/463742399/files/doc_financials/2024/ar/2025-Proxy-2024-Annual-Report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 8,
+      "findings": "Help pages describe a commitment to identifying and remediating algorithm bias, detailing how data scientists are responsible for preventing, discovering, and correcting harms like stereotypes and unfair resource allocation. Operational practices for evaluating and mitigating bias in AI models and training data before production are outlined. Reports also mention a commitment to fair and equitable work outcomes and the use of a bias disrupter toolkit, while enforcement action complaints detail surveillance pricing practices and reference concerns about algorithmic discrimination.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This help page, \"Responsible AI and Algorithm Fairness,\" provides evidence for the **fairness** and **governance** pillars. It describes 84.51°'s commitment to identifying and remediating algorithm bias, detailing how data scientists are responsible for preventing, discovering, and correcting harms like stereotypes and unfair resource allocation. The page outlines operational practices for evaluating and mitigating bias in AI models and training data before production.",
+          "title": "Responsible AI and Algorithm Fairness",
+          "url": "https://8451.com/knowledge-hub/technology/responsible-ai-and-algorithm-fairness"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This 84.51° Corporate Social Responsibility Report provides evidence for the **fairness** pillar. The report mentions a commitment to \"fair and equitable work outcomes\" and the use of a \"bias disrupter toolkit,\" indicating proactive measures to ensure fairness in their practices and tools.",
+          "title": "84.51° Good 360° 2023 Corporate Social Responsibility Report",
+          "url": "https://downloads.ctfassets.net/c23k8ps4z1xm/6wbBloaPkfinf0KlmIGPjg/3470af10d26bf8dbed1b410612543eb7/84.51_CSR_Report_2023.pdf"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This enforcement action complaint provides evidence for the **fairness**, **governance**, and **privacy** pillars. It details Kroger's use of surveillance pricing, which involves collecting and inferring demographic and purchase history data, and potentially biometric data, to dynamically set prices. This practice raises concerns about algorithmic discrimination and the governance of data use and automated decision-making, as well as significant privacy issues related to data collection and profiling.",
+          "title": "Kroger's Surveillance Pricing Harms Consumers and Raises Prices",
+          "url": "https://epic.org/krogers-surveillance-pricing-harms-consumers-and-raises-prices-with-or-without-facial-recognition"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This charter document, \"Information Concerning the Board of Directors,\" provides evidence for **governance** and **external accountability**. It supports governance by detailing the board's oversight structure, including committee composition and responsibilities for reviewing cybersecurity and data privacy risks, with quarterly updates from the CIO and CISO. The document also supports external accountability by mentioning third-party assessments for risks related to AI strategy and oversight.",
+          "title": "Information Concerning the Board of Directors",
+          "url": "https://s202.q4cdn.com/463742399/files/doc_downloads/gov_docs/2024/Info-Concerning-BoD.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 48,
+      "findings": "Kroger documents governance processes for responsible AI use, including an \"AI Factory\" framework and an AI Governance Council with diverse representation to oversee initiatives. The board's oversight structure details responsibilities for reviewing cybersecurity and data privacy risks, with quarterly updates from the CIO and CISO. Data governance principles are outlined, emphasizing data scientists' ability to use data assets, and named stewards are responsible for data certification and best practices. The company acknowledges AI/ML risks, discusses leadership strategies, and references a commitment to structured oversight and responsible deployment of AI technologies, including the adoption of specific AI systems like Gemini Enterprise and agentic AI tools.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Kroger's \"AI Factory\" framework and AI Governance Council, which includes diverse representation to oversee AI initiatives, demonstrating a structured approach to AI development and deployment. Furthermore, the post highlights Kroger's commitment to transparency and trust in AI use, explicitly mentioning transparency as a core principle.",
+          "title": "Inside 84.51˚'s AI Factory — How Kroger Builds Responsible AI That Doesn't Break at Scale",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhWVp3-giWftxGYWLiu37rfzKQyrMZsY7dAKrJOaQBUpogscyuR0FmWgocJP-BqAxADSaDabYNEV88KfuU2Uh270khBaGvaZ8645hNE6Q_DXBr52r414UqjERjxPrPfL5_Ghb_lrqJ7NN9ibV1U1PpNZtKGBj_94L0x5ZKriL6Xp2-ZNST5wLC32SaADKXaCkYjPQCPpQPUSOV6QEUZHkpLK1b8Z9YmsGSRvc81dKRn1mPEpulOEL0XpiohJr487rE9fV1"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This help page, \"Responsible AI and Algorithm Fairness,\" provides evidence for the **fairness** and **governance** pillars. It describes 84.51°'s commitment to identifying and remediating algorithm bias, detailing how data scientists are responsible for preventing, discovering, and correcting harms like stereotypes and unfair resource allocation. The page outlines operational practices for evaluating and mitigating bias in AI models and training data before production.",
+          "title": "Responsible AI and Algorithm Fairness",
+          "url": "https://8451.com/knowledge-hub/technology/responsible-ai-and-algorithm-fairness"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"2025 Responsible Business Report\" provides evidence for the **governance** pillar of responsible AI. This company-owned report documents Kroger's governance processes for the responsible use of artificial intelligence, indicating established policies and procedures for AI oversight.",
+          "title": "2025 Responsible Business Report",
+          "url": "https://thekrogerco.com/wp-content/uploads/2023/05/2023-ESG-Report.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This Form 10-K filing from The Kroger Co. provides evidence for **governance, privacy, and transparency**. It supports governance by acknowledging AI/ML risks and discussing strategies developed by leadership, indicating oversight. The filing also touches on privacy by mentioning the development of data protections and safeguards, and supports transparency by stating the company's utilization of AI/ML capabilities.",
+          "title": "The Kroger Co. Form 10-K — Fiscal Year Ended February 1, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/56873/000155837025004267/kr-20250201x10k.htm"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This enforcement action complaint provides evidence for the **fairness**, **governance**, and **privacy** pillars. It details Kroger's use of surveillance pricing, which involves collecting and inferring demographic and purchase history data, and potentially biometric data, to dynamically set prices. This practice raises concerns about algorithmic discrimination and the governance of data use and automated decision-making, as well as significant privacy issues related to data collection and profiling.",
+          "title": "Kroger's Surveillance Pricing Harms Consumers and Raises Prices",
+          "url": "https://epic.org/krogers-surveillance-pricing-harms-consumers-and-raises-prices-with-or-without-facial-recognition"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This charter document, \"Information Concerning the Board of Directors,\" provides evidence for **governance** and **external accountability**. It supports governance by detailing the board's oversight structure, including committee composition and responsibilities for reviewing cybersecurity and data privacy risks, with quarterly updates from the CIO and CISO. The document also supports external accountability by mentioning third-party assessments for risks related to AI strategy and oversight.",
+          "title": "Information Concerning the Board of Directors",
+          "url": "https://s202.q4cdn.com/463742399/files/doc_downloads/gov_docs/2024/Info-Concerning-BoD.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This press release from Kroger's CIO, Yael Cosset, provides evidence for the **governance** and **transparency** pillars of responsible AI. The company's commitment to \"responsible AI development\" directly supports the governance pillar by indicating a structured approach to AI implementation. Furthermore, the discussion of AI use cases aimed at customer benefit demonstrates transparency by outlining how AI will be applied to enhance the customer experience.",
+          "title": "Kroger CIO Discusses Digital Innovation Trends for Grocery Retail in 2024",
+          "url": "https://ir.kroger.com/news/news-details/2024/Kroger-CIO-Discusses-Digital-Innovation-Trends-for-Grocery-Retail-in-2024/default.aspx"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This blog post from 84.51° discusses Kroger's approach to building responsible AI at scale, providing evidence for the **governance** pillar. The post highlights how the company focuses on eliminating data silos, operationalizing models, and applying Generative AI with strong governance and observability, all within an accountability-first framework. This demonstrates a commitment to structured oversight and responsible deployment of AI technologies.",
+          "title": "How Kroger Builds Responsible AI That Doesn't Break at Scale — 84.51°",
+          "url": "https://8451.com/knowledge-hub/data-science/inside-84-51os-ai-factory-how-kroger-builds-responsible-ai-that-doesnt-break"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This help page, \"Defining and Analyzing the Principles of Data Governance,\" provides evidence for the **governance** pillar of responsible AI. It supports this pillar by outlining data governance principles that emphasize enabling data scientists to find, understand, trust, and properly use data assets, and by addressing ownership, communication, and collaboration in data management practices. Specifically, the document mentions named stewards and their responsibilities for data certification and best practices, which demonstrate AI governance oversight and accountability.",
+          "title": "Defining and Analyzing the Principles of Data Governance",
+          "url": "https://8451.com/knowledge-hub/data-science/defining-and-analyzing-the-principles-of-data-governance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This help page, \"Data Governance for Scientists,\" provides evidence for the **governance** pillar of responsible AI. It describes a data governance program that empowers scientists to drive governance, emphasizing domain ownership, data stewards, and best practices certification. This approach democratizes data and expertise through platform workflows, indicating a focus on accountability and informed decision-making for data use.",
+          "title": "Data Governance for Scientists",
+          "url": "https://8451.com/knowledge-hub/data-science/data-governance-for-scientists"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"The Kroger Co. Form 10-K PDF — Fiscal Year Ended February 1, 2025,\" provides evidence for **external accountability**, **governance**, and **privacy**. It supports external accountability by acknowledging the challenge of complying with evolving AI regulations. The filing also indicates a commitment to privacy and governance through its mention of necessary data protections, safeguards, and policies for AI, as well as discussions around data science capabilities and the retail media business, implying governance over data use for profit.",
+          "title": "The Kroger Co. Form 10-K PDF — Fiscal Year Ended February 1, 2025",
+          "url": "https://s202.q4cdn.com/463742399/files/doc_financials/2024/q4/c0206a59-56d3-47f8-b351-ca7535161f99.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This 2025 Proxy Statement and 2024 Annual Report provides evidence for **governance**, **privacy**, **transparency**, and **external accountability**. The document details board oversight of data privacy and cybersecurity risks, with quarterly reporting from the Chief Digital Officer (CDO) and Chief Information Security Officer (CISO) on AI strategies, indicating strong governance. It also implies privacy considerations through discussions of data handling policies and safeguards for AI applications, and transparency through the mention of specific algorithms like Black-Scholes. Furthermore, the report's acknowledgment of evolving AI regulations and the inclusion of external auditor review processes demonstrate a commitment to external accountability.",
+          "title": "2025 Proxy Statement — 2024 Annual Report",
+          "url": "https://s202.q4cdn.com/463742399/files/doc_financials/2024/ar/2025-Proxy-2024-Annual-Report.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by detailing the specific AI platform (Gemini Enterprise) and its intended use cases, such as a personal shopping assistant and customer experience agent. The mention of Gemini Enterprise and Agent Studio for analysis and issue resolution, as well as the description of generative and agentic AI use, further demonstrates transparency regarding AI deployment and capabilities.",
+          "title": "Kroger Scales Generative AI Strategy with Google Cloud to Drive Digital Growth and Personalization",
+          "url": "https://www.prnewswire.com/news-releases/kroger-scales-generative-ai-strategy-with-google-cloud-to-drive-digital-growth-and-personalization-302657659.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This Google Cloud press release provides evidence for the **governance** and **transparency** pillars of responsible AI. The press release details the use of \"Gemini Enterprise\" and \"agentic AI tools,\" indicating the adoption and commitment to AI systems, which falls under governance. Furthermore, the description of Gemini Enterprise enabling Kroger to create a simplified shopping experience with personalization, meal planning, and customer service features suggests a level of transparency in how AI is being deployed to benefit users.",
+          "title": "Google Cloud Brings Shopping and Customer Service Together with Gemini Enterprise",
+          "url": "https://cloud.google.com/press-releases/2024/01/16/kroger-google-cloud-generative-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 14
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 10,
+      "findings": "Filings mention the development of data protections, safeguards, and policies for AI applications. Reports also reference data handling policies and safeguards for AI applications. Enforcement action complaints detail Kroger's use of surveillance pricing, which involves collecting and inferring demographic and purchase history data, and potentially biometric data, and reference significant privacy issues related to data collection and profiling.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Kroger's \"AI Factory\" framework and AI Governance Council, which includes diverse representation to oversee AI initiatives, demonstrating a structured approach to AI development and deployment. Furthermore, the post highlights Kroger's commitment to transparency and trust in AI use, explicitly mentioning transparency as a core principle.",
+          "title": "Inside 84.51˚'s AI Factory — How Kroger Builds Responsible AI That Doesn't Break at Scale",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhWVp3-giWftxGYWLiu37rfzKQyrMZsY7dAKrJOaQBUpogscyuR0FmWgocJP-BqAxADSaDabYNEV88KfuU2Uh270khBaGvaZ8645hNE6Q_DXBr52r414UqjERjxPrPfL5_Ghb_lrqJ7NN9ibV1U1PpNZtKGBj_94L0x5ZKriL6Xp2-ZNST5wLC32SaADKXaCkYjPQCPpQPUSOV6QEUZHkpLK1b8Z9YmsGSRvc81dKRn1mPEpulOEL0XpiohJr487rE9fV1"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This Form 10-K filing from The Kroger Co. provides evidence for **governance, privacy, and transparency**. It supports governance by acknowledging AI/ML risks and discussing strategies developed by leadership, indicating oversight. The filing also touches on privacy by mentioning the development of data protections and safeguards, and supports transparency by stating the company's utilization of AI/ML capabilities.",
+          "title": "The Kroger Co. Form 10-K — Fiscal Year Ended February 1, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/56873/000155837025004267/kr-20250201x10k.htm"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This enforcement action complaint provides evidence for the **fairness**, **governance**, and **privacy** pillars. It details Kroger's use of surveillance pricing, which involves collecting and inferring demographic and purchase history data, and potentially biometric data, to dynamically set prices. This practice raises concerns about algorithmic discrimination and the governance of data use and automated decision-making, as well as significant privacy issues related to data collection and profiling.",
+          "title": "Kroger's Surveillance Pricing Harms Consumers and Raises Prices",
+          "url": "https://epic.org/krogers-surveillance-pricing-harms-consumers-and-raises-prices-with-or-without-facial-recognition"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"The Kroger Co. Form 10-K PDF — Fiscal Year Ended February 1, 2025,\" provides evidence for **external accountability**, **governance**, and **privacy**. It supports external accountability by acknowledging the challenge of complying with evolving AI regulations. The filing also indicates a commitment to privacy and governance through its mention of necessary data protections, safeguards, and policies for AI, as well as discussions around data science capabilities and the retail media business, implying governance over data use for profit.",
+          "title": "The Kroger Co. Form 10-K PDF — Fiscal Year Ended February 1, 2025",
+          "url": "https://s202.q4cdn.com/463742399/files/doc_financials/2024/q4/c0206a59-56d3-47f8-b351-ca7535161f99.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This 2025 Proxy Statement and 2024 Annual Report provides evidence for **governance**, **privacy**, **transparency**, and **external accountability**. The document details board oversight of data privacy and cybersecurity risks, with quarterly reporting from the Chief Digital Officer (CDO) and Chief Information Security Officer (CISO) on AI strategies, indicating strong governance. It also implies privacy considerations through discussions of data handling policies and safeguards for AI applications, and transparency through the mention of specific algorithms like Black-Scholes. Furthermore, the report's acknowledgment of evolving AI regulations and the inclusion of external auditor review processes demonstrate a commitment to external accountability.",
+          "title": "2025 Proxy Statement — 2024 Annual Report",
+          "url": "https://s202.q4cdn.com/463742399/files/doc_financials/2024/ar/2025-Proxy-2024-Annual-Report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 25,
+      "findings": "Kroger highlights its commitment to transparency and trust in AI use, explicitly mentioning it as a core principle. The company states its utilization of AI/ML capabilities and outlines how AI will be applied to enhance the customer experience, including for shopper insights, personalized messaging, and ad optimization. Specific AI platforms like Gemini Enterprise, its intended use cases, and algorithms like Black-Scholes are detailed in various communications.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It details Kroger's \"AI Factory\" framework and AI Governance Council, which includes diverse representation to oversee AI initiatives, demonstrating a structured approach to AI development and deployment. Furthermore, the post highlights Kroger's commitment to transparency and trust in AI use, explicitly mentioning transparency as a core principle.",
+          "title": "Inside 84.51˚'s AI Factory — How Kroger Builds Responsible AI That Doesn't Break at Scale",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhWVp3-giWftxGYWLiu37rfzKQyrMZsY7dAKrJOaQBUpogscyuR0FmWgocJP-BqAxADSaDabYNEV88KfuU2Uh270khBaGvaZ8645hNE6Q_DXBr52r414UqjERjxPrPfL5_Ghb_lrqJ7NN9ibV1U1PpNZtKGBj_94L0x5ZKriL6Xp2-ZNST5wLC32SaADKXaCkYjPQCPpQPUSOV6QEUZHkpLK1b8Z9YmsGSRvc81dKRn1mPEpulOEL0XpiohJr487rE9fV1"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This Form 10-K filing from The Kroger Co. provides evidence for **governance, privacy, and transparency**. It supports governance by acknowledging AI/ML risks and discussing strategies developed by leadership, indicating oversight. The filing also touches on privacy by mentioning the development of data protections and safeguards, and supports transparency by stating the company's utilization of AI/ML capabilities.",
+          "title": "The Kroger Co. Form 10-K — Fiscal Year Ended February 1, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/56873/000155837025004267/kr-20250201x10k.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This press release from Kroger's CIO, Yael Cosset, provides evidence for the **governance** and **transparency** pillars of responsible AI. The company's commitment to \"responsible AI development\" directly supports the governance pillar by indicating a structured approach to AI implementation. Furthermore, the discussion of AI use cases aimed at customer benefit demonstrates transparency by outlining how AI will be applied to enhance the customer experience.",
+          "title": "Kroger CIO Discusses Digital Innovation Trends for Grocery Retail in 2024",
+          "url": "https://ir.kroger.com/news/news-details/2024/Kroger-CIO-Discusses-Digital-Innovation-Trends-for-Grocery-Retail-in-2024/default.aspx"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This help page provides evidence for the **transparency** pillar by describing how AI and ML are used for shopper insights, personalized messaging, and ad optimization. While it outlines the potential capabilities of these technologies, the descriptions often focus on what AI \"can do\" or \"is making possible,\" indicating potential rather than specific executed policies or operational details.",
+          "title": "What to Expect from AI-Driven Personalization and Ad Accountability",
+          "url": "https://8451.com/knowledge-hub/technology/what-to-expect-from-ai-driven-personalization-and-ad-accountability"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This 2025 Proxy Statement and 2024 Annual Report provides evidence for **governance**, **privacy**, **transparency**, and **external accountability**. The document details board oversight of data privacy and cybersecurity risks, with quarterly reporting from the Chief Digital Officer (CDO) and Chief Information Security Officer (CISO) on AI strategies, indicating strong governance. It also implies privacy considerations through discussions of data handling policies and safeguards for AI applications, and transparency through the mention of specific algorithms like Black-Scholes. Furthermore, the report's acknowledgment of evolving AI regulations and the inclusion of external auditor review processes demonstrate a commitment to external accountability.",
+          "title": "2025 Proxy Statement — 2024 Annual Report",
+          "url": "https://s202.q4cdn.com/463742399/files/doc_financials/2024/ar/2025-Proxy-2024-Annual-Report.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports transparency by detailing the specific AI platform (Gemini Enterprise) and its intended use cases, such as a personal shopping assistant and customer experience agent. The mention of Gemini Enterprise and Agent Studio for analysis and issue resolution, as well as the description of generative and agentic AI use, further demonstrates transparency regarding AI deployment and capabilities.",
+          "title": "Kroger Scales Generative AI Strategy with Google Cloud to Drive Digital Growth and Personalization",
+          "url": "https://www.prnewswire.com/news-releases/kroger-scales-generative-ai-strategy-with-google-cloud-to-drive-digital-growth-and-personalization-302657659.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **transparency** pillar of responsible AI. It details specific AI capabilities and use cases, such as agentic AI assistants for customer-facing tools, and mentions the deployment of AI systems for personalization. This indicates transparency about the use of AI and its intended applications.",
+          "title": "Kroger Expands Google Cloud AI Partnership Nationwide",
+          "url": "https://finance.yahoo.com/news/kroger-expands-google-cloud-ai-120056365.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This Google Cloud press release provides evidence for the **governance** and **transparency** pillars of responsible AI. The press release details the use of \"Gemini Enterprise\" and \"agentic AI tools,\" indicating the adoption and commitment to AI systems, which falls under governance. Furthermore, the description of Gemini Enterprise enabling Kroger to create a simplified shopping experience with personalization, meal planning, and customer service features suggests a level of transparency in how AI is being deployed to benefit users.",
+          "title": "Google Cloud Brings Shopping and Customer Service Together with Gemini Enterprise",
+          "url": "https://cloud.google.com/press-releases/2024/01/16/kroger-google-cloud-generative-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:53:33Z",
+  "run_id": "20260203_004635_3b2e",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Human Oversight & Accountability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Based on 28 publicly available sources, Kroger's published materials address 5 of 7 evaluated responsible AI pillars. These materials include policy-level evidence for transparency, highlighting a commitment to trust in AI use, and for fairness, describing a commitment to identifying and remediating algorithm bias. Additionally, disclosures detail an AI Governance Council with diverse representation to oversee AI initiatives, mention the development of data protections and safeguards, and reference third-party assessments for risks related to AI strategy. No qualifying public evidence was found for explainability or oversight.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 68,
+    "total_sources_used": 17
+  }
+}

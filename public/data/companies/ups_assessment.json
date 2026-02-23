@@ -1,0 +1,280 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "UPS",
+  "company_slug": "ups",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 20,
+      "OPERATIONAL": 14,
+      "POLICY": 27
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Technical papers describe UPS's use of machine learning for package delivery prediction. These papers emphasize intuitive system design and reference driver training to make model predictions understandable.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, governance, oversight, and transparency. It supports explainability and transparency by detailing UPS's use of machine learning for package delivery prediction, emphasizing intuitive system design and driver training to make model predictions understandable. The paper also demonstrates governance and oversight through descriptions of continuous dynamic updates and explicit mentions of human intervention and override capabilities in the planning process.",
+          "title": "MIT Case Study: To Deploy Machine Learning, You Must Manage Operational Constraints",
+          "url": "https://hdsr.mitpress.mit.edu/pub/2z4dnhds"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "Annual reports describe IT system audits. They also describe the testing of automated controls by specialists.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This UPS 10-K Annual Report provides evidence for **governance** by detailing cybersecurity governance structures, including CISO reporting and board oversight of risk management, which are crucial for managing AI-related risks. It also supports **external accountability** through its description of IT system audits and testing of automated controls by specialists, demonstrating operational execution and oversight.",
+          "title": "UPS 10-K Annual Report (December 31, 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/1090727/000109072725000019/ups-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "Policy documents mandate AI risk management, bias avoidance, and compliance with relevant laws and AI regulations. Press releases describe how the DeliveryDefense system incorporates fairness into its data by focusing on delivery characteristics rather than individual demographics.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"UPS Artificial Intelligence Addendum (v2026-0-1)\", provides evidence for **fairness, governance, privacy, and transparency**. It supports **governance and transparency** by requiring vendors to disclose their AI usage and provide information for UPS's understanding and compliance. The addendum also strengthens **privacy** by prohibiting the use of UPS data for AI training and establishes **fairness and governance** by mandating AI risk management, bias avoidance, and compliance with relevant laws and AI regulations.",
+          "title": "UPS Artificial Intelligence Addendum (v2026-0-1)",
+          "url": "https://about.ups.com/content/dam/upsstories/documents/our-company/suppliers/UPS-Artificial-Intelligence-Addendum-v2026-0-1.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **fairness** and **transparency** pillars of responsible AI. It supports fairness by detailing how the DeliveryDefense system incorporates fairness into its data by focusing on delivery characteristics rather than individual demographics. Transparency is supported by descriptions of the AI/ML algorithms' capabilities, such as assigning a score, and the system's function of analyzing data to generate these scores.",
+          "title": "CNBC: AI is Policing Package Theft for UPS",
+          "url": "https://cnbc.com/2023/09/21/ai-is-policing-package-theft-for-ups-as-porch-piracy-surge-continues.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 27,
+      "findings": "Policy documents mandate AI risk management, bias avoidance, and compliance with relevant laws and regulations, also requiring vendors to disclose AI usage. Annual reports describe cybersecurity governance structures and board oversight of risk management. Technical papers mention oversight roles, dedicated evaluation teams, and describe the operational deployment and continuous adaptation of AI systems, including human intervention capabilities. Case studies address challenges in AI accuracy and the need for continuous evaluation.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"UPS Artificial Intelligence Addendum (v2026-0-1)\", provides evidence for **fairness, governance, privacy, and transparency**. It supports **governance and transparency** by requiring vendors to disclose their AI usage and provide information for UPS's understanding and compliance. The addendum also strengthens **privacy** by prohibiting the use of UPS data for AI training and establishes **fairness and governance** by mandating AI risk management, bias avoidance, and compliance with relevant laws and AI regulations.",
+          "title": "UPS Artificial Intelligence Addendum (v2026-0-1)",
+          "url": "https://about.ups.com/content/dam/upsstories/documents/our-company/suppliers/UPS-Artificial-Intelligence-Addendum-v2026-0-1.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This UPS 10-K Annual Report provides evidence for **governance** by detailing cybersecurity governance structures, including CISO reporting and board oversight of risk management, which are crucial for managing AI-related risks. It also supports **external accountability** through its description of IT system audits and testing of automated controls by specialists, demonstrating operational execution and oversight.",
+          "title": "UPS 10-K Annual Report (December 31, 2024)",
+          "url": "https://sec.gov/Archives/edgar/data/1090727/000109072725000019/ups-20241231.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, governance, oversight, and transparency. It supports explainability and transparency by detailing UPS's use of machine learning for package delivery prediction, emphasizing intuitive system design and driver training to make model predictions understandable. The paper also demonstrates governance and oversight through descriptions of continuous dynamic updates and explicit mentions of human intervention and override capabilities in the planning process.",
+          "title": "MIT Case Study: To Deploy Machine Learning, You Must Manage Operational Constraints",
+          "url": "https://hdsr.mitpress.mit.edu/pub/2z4dnhds"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for governance, privacy, and transparency in UPS's AI strategy. It supports transparency by detailing specific AI models, their functions, and the integrated AI ecosystem, including the ORION algorithm and Digital Twins. Evidence for governance is found in the mention of oversight roles like the Director of Advanced AI and dedicated teams for AI evaluation, as well as the operational deployment of AI systems for decision-making and risk mitigation. The paper also touches upon privacy in the context of AI use for secured delivery, implying data protection considerations.",
+          "title": "UPS AI Strategy Analysis: Dominance in Logistics AI",
+          "url": "https://klover.ai/ups-ai-strategy-analysis-of-dominance-in-logistics-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** and **transparency** pillars of responsible AI. It details the deployment, training, and implementation of AI/ML models for specific use cases like route anomaly and fraud detection, demonstrating transparency in the system's capabilities and a documented approach to AI strategy. The continuous adaptation of these models further highlights transparency in their ongoing governance.",
+          "title": "Inside UPS Capital's Defensive Strategy with Striim & Google Cloud",
+          "url": "https://striim.com/blog/ups-ai-defense-strategy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This case study provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It supports governance by addressing challenges in AI accuracy and the need for continuous evaluation, and it touches on oversight through mentions of human verification for AI tools. The case study also supports transparency by describing AI systems and their capabilities, though it lacks detailed execution or governance structures.",
+          "title": "Case Study: UPS Leverages AI to Transform Operations",
+          "url": "https://aiexpert.network/ai-at-ups"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "Technical papers describe continuous dynamic updates for machine learning systems and mention human intervention and override capabilities in the planning process. Case studies also mention human verification for AI tools.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, governance, oversight, and transparency. It supports explainability and transparency by detailing UPS's use of machine learning for package delivery prediction, emphasizing intuitive system design and driver training to make model predictions understandable. The paper also demonstrates governance and oversight through descriptions of continuous dynamic updates and explicit mentions of human intervention and override capabilities in the planning process.",
+          "title": "MIT Case Study: To Deploy Machine Learning, You Must Manage Operational Constraints",
+          "url": "https://hdsr.mitpress.mit.edu/pub/2z4dnhds"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This case study provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It supports governance by addressing challenges in AI accuracy and the need for continuous evaluation, and it touches on oversight through mentions of human verification for AI tools. The case study also supports transparency by describing AI systems and their capabilities, though it lacks detailed execution or governance structures.",
+          "title": "Case Study: UPS Leverages AI to Transform Operations",
+          "url": "https://aiexpert.network/ai-at-ups"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 2,
+      "findings": "Policy documents prohibit the use of UPS data for AI training. Technical papers also reference privacy considerations in the context of AI use for secured delivery.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"UPS Artificial Intelligence Addendum (v2026-0-1)\", provides evidence for **fairness, governance, privacy, and transparency**. It supports **governance and transparency** by requiring vendors to disclose their AI usage and provide information for UPS's understanding and compliance. The addendum also strengthens **privacy** by prohibiting the use of UPS data for AI training and establishes **fairness and governance** by mandating AI risk management, bias avoidance, and compliance with relevant laws and AI regulations.",
+          "title": "UPS Artificial Intelligence Addendum (v2026-0-1)",
+          "url": "https://about.ups.com/content/dam/upsstories/documents/our-company/suppliers/UPS-Artificial-Intelligence-Addendum-v2026-0-1.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for governance, privacy, and transparency in UPS's AI strategy. It supports transparency by detailing specific AI models, their functions, and the integrated AI ecosystem, including the ORION algorithm and Digital Twins. Evidence for governance is found in the mention of oversight roles like the Director of Advanced AI and dedicated teams for AI evaluation, as well as the operational deployment of AI systems for decision-making and risk mitigation. The paper also touches upon privacy in the context of AI use for secured delivery, implying data protection considerations.",
+          "title": "UPS AI Strategy Analysis: Dominance in Logistics AI",
+          "url": "https://klover.ai/ups-ai-strategy-analysis-of-dominance-in-logistics-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 42,
+      "findings": "UPS's policy documents require vendors to disclose AI usage and provide information for understanding and compliance. Technical papers describe specific AI models, their functions, and the integrated AI ecosystem, including details on deployment, training, and continuous adaptation for use cases like package delivery prediction, route anomaly, and fraud detection. Additionally, press releases and case studies describe AI/ML algorithms' capabilities and system functions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"UPS Artificial Intelligence Addendum (v2026-0-1)\", provides evidence for **fairness, governance, privacy, and transparency**. It supports **governance and transparency** by requiring vendors to disclose their AI usage and provide information for UPS's understanding and compliance. The addendum also strengthens **privacy** by prohibiting the use of UPS data for AI training and establishes **fairness and governance** by mandating AI risk management, bias avoidance, and compliance with relevant laws and AI regulations.",
+          "title": "UPS Artificial Intelligence Addendum (v2026-0-1)",
+          "url": "https://about.ups.com/content/dam/upsstories/documents/our-company/suppliers/UPS-Artificial-Intelligence-Addendum-v2026-0-1.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, governance, oversight, and transparency. It supports explainability and transparency by detailing UPS's use of machine learning for package delivery prediction, emphasizing intuitive system design and driver training to make model predictions understandable. The paper also demonstrates governance and oversight through descriptions of continuous dynamic updates and explicit mentions of human intervention and override capabilities in the planning process.",
+          "title": "MIT Case Study: To Deploy Machine Learning, You Must Manage Operational Constraints",
+          "url": "https://hdsr.mitpress.mit.edu/pub/2z4dnhds"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for governance, privacy, and transparency in UPS's AI strategy. It supports transparency by detailing specific AI models, their functions, and the integrated AI ecosystem, including the ORION algorithm and Digital Twins. Evidence for governance is found in the mention of oversight roles like the Director of Advanced AI and dedicated teams for AI evaluation, as well as the operational deployment of AI systems for decision-making and risk mitigation. The paper also touches upon privacy in the context of AI use for secured delivery, implying data protection considerations.",
+          "title": "UPS AI Strategy Analysis: Dominance in Logistics AI",
+          "url": "https://klover.ai/ups-ai-strategy-analysis-of-dominance-in-logistics-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** and **transparency** pillars of responsible AI. It details the deployment, training, and implementation of AI/ML models for specific use cases like route anomaly and fraud detection, demonstrating transparency in the system's capabilities and a documented approach to AI strategy. The continuous adaptation of these models further highlights transparency in their ongoing governance.",
+          "title": "Inside UPS Capital's Defensive Strategy with Striim & Google Cloud",
+          "url": "https://striim.com/blog/ups-ai-defense-strategy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **fairness** and **transparency** pillars of responsible AI. It supports fairness by detailing how the DeliveryDefense system incorporates fairness into its data by focusing on delivery characteristics rather than individual demographics. Transparency is supported by descriptions of the AI/ML algorithms' capabilities, such as assigning a score, and the system's function of analyzing data to generate these scores.",
+          "title": "CNBC: AI is Policing Package Theft for UPS",
+          "url": "https://cnbc.com/2023/09/21/ai-is-policing-package-theft-for-ups-as-porch-piracy-surge-continues.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This case study provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It supports governance by addressing challenges in AI accuracy and the need for continuous evaluation, and it touches on oversight through mentions of human verification for AI tools. The case study also supports transparency by describing AI systems and their capabilities, though it lacks detailed execution or governance structures.",
+          "title": "Case Study: UPS Leverages AI to Transform Operations",
+          "url": "https://aiexpert.network/ai-at-ups"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T22:00:03Z",
+  "run_id": "20260203_023709_e178",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "UPS's annual reports describe IT system audits and the testing of automated controls by specialists, documenting operational practices for external accountability. All 7 evaluated pillars have documented public evidence. Policy documents further address transparency and governance by requiring vendors to disclose their AI usage and provide information for understanding and compliance. Additionally, published materials for explainability emphasize intuitive system design to make model predictions understandable, while privacy disclosures prohibit the use of data for AI training. This assessment draws on 13 publicly available sources.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 61,
+    "total_sources_used": 7
+  }
+}

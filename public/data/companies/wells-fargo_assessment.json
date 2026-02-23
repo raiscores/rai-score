@@ -1,0 +1,462 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Wells Fargo",
+  "company_slug": "wells-fargo",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 14,
+      "OPERATIONAL": 26,
+      "POLICY": 52
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 22,
+      "findings": "Wells Fargo describes a commitment to explainable AI through built-in processes and lineage for audits. Technical papers detail the LIFE algorithm providing data-backed explanations for decisions and describe it as an ensemble framework designed for interpretability in lending risk modeling. The company also highlights the need to explain complex AI decisions to customers and regulators, and reports detail a commitment to responsible AI, including interpretability and the implementation of XAI practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It highlights Wells Fargo's commitment to transparent and explainable AI through built-in processes and lineage for audits, supporting transparency and explainability. The paper also details an independent verification structure for AI development and deployment, demonstrating governance and external accountability, and mentions bias elimination methods and human oversight for high-risk payments, supporting fairness and oversight. Furthermore, it discusses AI ethical guardrails and data protection, indicating support for privacy.",
+          "title": "Wells Fargo AI Strategy: Analysis of Dominance in Financial Services AI",
+          "url": "https://klover.ai/wells-fargo-ai-strategy-analysis-of-dominance-in-financial-services-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at Wells Fargo: Two Use Cases,\" provides evidence for explainability, fairness, governance, and transparency. The paper details the LIFE algorithm's function in analyzing loan application variables and providing transparent, data-backed explanations for decisions, directly supporting explainability and transparency. Furthermore, it acknowledges the design intent for fairer decision-making and mentions AI frameworks and guides, indicating a commitment to fairness and a structured approach to AI governance.",
+          "title": "Artificial Intelligence at Wells Fargo: Two Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-wells-fargo-two-use-cases"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Wells Fargo Transforms AML Compliance with AI,\" provides evidence for the pillars of explainability, external accountability, governance, privacy, and transparency. It highlights the use of explainable AI and auditable AI decisions, supporting explainability and governance. The post also mentions privacy-preserving techniques, supporting the privacy pillar, and describes AI model deployment for real-time monitoring, indicating transparency in operational use.",
+          "title": "Wells Fargo Transforms AML Compliance with AI",
+          "url": "https://silenteight.com/blog/jpmorgan-citi-and-wells-fargo-are-transforming-aml-thanks-to-ai-tools"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Examines Explainable AI for Modeling Lending Risk,\" provides evidence for explainability, governance, and transparency. It describes the LIFE algorithm, an ensemble framework designed for high prediction accuracy and interpretability in lending risk modeling, directly supporting explainability and transparency goals. The paper also highlights the need to explain complex AI decisions to customers and regulators, implying a governance requirement for transparency and explainability in AI applications.",
+          "title": "Wells Fargo Examines Explainable AI for Modeling Lending Risk",
+          "url": "https://blogs.nvidia.com/blog/wells-fargo-examines-explainable-ai-for-modeling-lending-risk"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Is Banking On An AI-First Strategy,\" provides evidence for the pillars of **explainability, external accountability, fairness, governance, and transparency**. The report details Wells Fargo's commitment to responsible AI, including interpretability, bias review, independent model assessments, and continuous monitoring of AI telemetry, which directly supports explainability, fairness, and transparency. Furthermore, the document highlights a robust AI risk management framework and independent assessment mechanisms, underscoring the bank's focus on governance and external accountability.",
+          "title": "Wells Fargo Is Banking On An AI-First Strategy",
+          "url": "https://moorinsightsstrategy.com/wp-content/uploads/2023/09/Wells-Fargo-Is-Banking-On-An-AI-First-Strategy-By-Moor-Insights-And-Strategy.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Responsible AI Governance Framework - Case Study,\" provides evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The case study details Wells Fargo's formal AI risk management framework, rigorous review processes for AI/ML models, and the integration of AI governance into existing enterprise risk structures. It highlights the implementation of XAI practices, ongoing bias testing and fairness assessments, and the establishment of cross-functional committees for AI standards and review, demonstrating a commitment to ethical and transparent AI deployment.",
+          "title": "Wells Fargo Responsible AI Governance Framework - Case Study",
+          "url": "https://digitaldefynd.com/IQ/wells-fargo-using-ai-case-study"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 17,
+      "findings": "Wells Fargo demonstrates external accountability through independent reviews and bias checks. Technical papers detail an independent verification structure for AI development and deployment, and reports detail independent model assessments. Additionally, an OCC formal agreement requires independent validation of automated transaction monitoring systems and an OFAC sanctions screening system.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post from Wells Fargo outlines their responsible AI framework, providing evidence for **fairness**, **transparency**, **governance**, and **external accountability**. The post details their commitment to eliminating bias through adverse effect checks and model testing, and to transparency via explainable decision-making and data lineage tracking. Furthermore, it highlights their efforts in governance through research partnerships with Stanford HAI for employee education on AI ethics, and demonstrates external accountability through independent reviews and bias checks.",
+          "title": "How Wells Fargo builds responsible artificial intelligence",
+          "url": "https://stories.wf.com/our-impact/how-wells-fargo-builds-responsible-artificial-intelligence"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It highlights Wells Fargo's commitment to transparent and explainable AI through built-in processes and lineage for audits, supporting transparency and explainability. The paper also details an independent verification structure for AI development and deployment, demonstrating governance and external accountability, and mentions bias elimination methods and human oversight for high-risk payments, supporting fairness and oversight. Furthermore, it discusses AI ethical guardrails and data protection, indicating support for privacy.",
+          "title": "Wells Fargo AI Strategy: Analysis of Dominance in Financial Services AI",
+          "url": "https://klover.ai/wells-fargo-ai-strategy-analysis-of-dominance-in-financial-services-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Wells Fargo Transforms AML Compliance with AI,\" provides evidence for the pillars of explainability, external accountability, governance, privacy, and transparency. It highlights the use of explainable AI and auditable AI decisions, supporting explainability and governance. The post also mentions privacy-preserving techniques, supporting the privacy pillar, and describes AI model deployment for real-time monitoring, indicating transparency in operational use.",
+          "title": "Wells Fargo Transforms AML Compliance with AI",
+          "url": "https://silenteight.com/blog/jpmorgan-citi-and-wells-fargo-are-transforming-aml-thanks-to-ai-tools"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Is Banking On An AI-First Strategy,\" provides evidence for the pillars of **explainability, external accountability, fairness, governance, and transparency**. The report details Wells Fargo's commitment to responsible AI, including interpretability, bias review, independent model assessments, and continuous monitoring of AI telemetry, which directly supports explainability, fairness, and transparency. Furthermore, the document highlights a robust AI risk management framework and independent assessment mechanisms, underscoring the bank's focus on governance and external accountability.",
+          "title": "Wells Fargo Is Banking On An AI-First Strategy",
+          "url": "https://moorinsightsstrategy.com/wp-content/uploads/2023/09/Wells-Fargo-Is-Banking-On-An-AI-First-Strategy-By-Moor-Insights-And-Strategy.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Responsible AI Governance Framework - Case Study,\" provides evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The case study details Wells Fargo's formal AI risk management framework, rigorous review processes for AI/ML models, and the integration of AI governance into existing enterprise risk structures. It highlights the implementation of XAI practices, ongoing bias testing and fairness assessments, and the establishment of cross-functional committees for AI standards and review, demonstrating a commitment to ethical and transparent AI deployment.",
+          "title": "Wells Fargo Responsible AI Governance Framework - Case Study",
+          "url": "https://digitaldefynd.com/IQ/wells-fargo-using-ai-case-study"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This OCC formal agreement with Wells Fargo Bank provides evidence for **governance** and **external_accountability**. The agreement mandates enhanced governance structures for financial crimes risk management, including strengthening policies, controls, and oversight for FCRM functions. It also supports external_accountability by requiring independent validation of automated transaction monitoring systems and an OFAC sanctions screening system, ensuring their effectiveness and integrity.",
+          "title": "OCC Formal Agreement with Wells Fargo Bank - September 2024",
+          "url": "https://occ.gov/static/enforcement-actions/eaAA-ENF-2024-72.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 15,
+      "findings": "Wells Fargo states a commitment to fairness in AI implementation, outlining practices such as eliminating bias through adverse effect checks and model testing. Technical papers mention bias elimination methods for high-risk payments and acknowledge the design intent for fairer decision-making, also highlighting ongoing bias testing and fairness assessments. However, a court filing reports on a class-action lawsuit alleging that a credit-scoring algorithm resulted in mortgage denials that disparately impacted non-White applicants.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post from Wells Fargo outlines their responsible AI framework, providing evidence for **fairness**, **transparency**, **governance**, and **external accountability**. The post details their commitment to eliminating bias through adverse effect checks and model testing, and to transparency via explainable decision-making and data lineage tracking. Furthermore, it highlights their efforts in governance through research partnerships with Stanford HAI for employee education on AI ethics, and demonstrates external accountability through independent reviews and bias checks.",
+          "title": "How Wells Fargo builds responsible artificial intelligence",
+          "url": "https://stories.wf.com/our-impact/how-wells-fargo-builds-responsible-artificial-intelligence"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It highlights Wells Fargo's commitment to transparent and explainable AI through built-in processes and lineage for audits, supporting transparency and explainability. The paper also details an independent verification structure for AI development and deployment, demonstrating governance and external accountability, and mentions bias elimination methods and human oversight for high-risk payments, supporting fairness and oversight. Furthermore, it discusses AI ethical guardrails and data protection, indicating support for privacy.",
+          "title": "Wells Fargo AI Strategy: Analysis of Dominance in Financial Services AI",
+          "url": "https://klover.ai/wells-fargo-ai-strategy-analysis-of-dominance-in-financial-services-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at Wells Fargo: Two Use Cases,\" provides evidence for explainability, fairness, governance, and transparency. The paper details the LIFE algorithm's function in analyzing loan application variables and providing transparent, data-backed explanations for decisions, directly supporting explainability and transparency. Furthermore, it acknowledges the design intent for fairer decision-making and mentions AI frameworks and guides, indicating a commitment to fairness and a structured approach to AI governance.",
+          "title": "Artificial Intelligence at Wells Fargo: Two Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-wells-fargo-two-use-cases"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post details Wells Fargo's commitment to responsible AI development and deployment, providing evidence for **governance**, **fairness**, and **transparency**. The article highlights their AI governance framework, which aligns with ethical and regulatory compliance, and explicitly mentions a commitment to fairness and transparency in AI implementation across their operations.",
+          "title": "Wells Fargo brings the agentic era to financial services with Google Cloud",
+          "url": "https://cloud.google.com/blog/topics/financial-services/wells-fargo-agentic-ai-agentspace-empowering-workers"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Is Banking On An AI-First Strategy,\" provides evidence for the pillars of **explainability, external accountability, fairness, governance, and transparency**. The report details Wells Fargo's commitment to responsible AI, including interpretability, bias review, independent model assessments, and continuous monitoring of AI telemetry, which directly supports explainability, fairness, and transparency. Furthermore, the document highlights a robust AI risk management framework and independent assessment mechanisms, underscoring the bank's focus on governance and external accountability.",
+          "title": "Wells Fargo Is Banking On An AI-First Strategy",
+          "url": "https://moorinsightsstrategy.com/wp-content/uploads/2023/09/Wells-Fargo-Is-Banking-On-An-AI-First-Strategy-By-Moor-Insights-And-Strategy.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Responsible AI Governance Framework - Case Study,\" provides evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The case study details Wells Fargo's formal AI risk management framework, rigorous review processes for AI/ML models, and the integration of AI governance into existing enterprise risk structures. It highlights the implementation of XAI practices, ongoing bias testing and fairness assessments, and the establishment of cross-functional committees for AI standards and review, demonstrating a commitment to ethical and transparent AI deployment.",
+          "title": "Wells Fargo Responsible AI Governance Framework - Case Study",
+          "url": "https://digitaldefynd.com/IQ/wells-fargo-using-ai-case-study"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This court filing reports on a class-action lawsuit alleging that Wells Fargo's credit-scoring algorithm, used between 2018 and 2022, resulted in mortgage denials that disparately impacted non-White applicants. This evidence supports the **fairness** pillar by highlighting potential discriminatory outcomes of an AI algorithm.",
+          "title": "Wells Fargo Racial Disparity Case Heads to Class Action Decision",
+          "url": "https://news.bloomberglaw.com/banking-law/wells-fargo-racial-disparity-case-heads-to-class-action-decision"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 56,
+      "findings": "Wells Fargo outlines its responsible AI framework and highlights efforts in governance through research partnerships for employee education on AI ethics. Technical papers detail an independent verification structure for AI development and deployment, mentioning AI frameworks and guides. The company's AI governance framework aligns with ethical and regulatory compliance, and an OCC agreement mandates enhanced governance structures for financial crimes risk management. Furthermore, a policy document details a \"trustworthy-by-design\" approach for AI in sensitive areas, and a privacy policy identifies a Privacy Officer role for automated decision-making objections.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post from Wells Fargo outlines their responsible AI framework, providing evidence for **fairness**, **transparency**, **governance**, and **external accountability**. The post details their commitment to eliminating bias through adverse effect checks and model testing, and to transparency via explainable decision-making and data lineage tracking. Furthermore, it highlights their efforts in governance through research partnerships with Stanford HAI for employee education on AI ethics, and demonstrates external accountability through independent reviews and bias checks.",
+          "title": "How Wells Fargo builds responsible artificial intelligence",
+          "url": "https://stories.wf.com/our-impact/how-wells-fargo-builds-responsible-artificial-intelligence"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It highlights Wells Fargo's commitment to transparent and explainable AI through built-in processes and lineage for audits, supporting transparency and explainability. The paper also details an independent verification structure for AI development and deployment, demonstrating governance and external accountability, and mentions bias elimination methods and human oversight for high-risk payments, supporting fairness and oversight. Furthermore, it discusses AI ethical guardrails and data protection, indicating support for privacy.",
+          "title": "Wells Fargo AI Strategy: Analysis of Dominance in Financial Services AI",
+          "url": "https://klover.ai/wells-fargo-ai-strategy-analysis-of-dominance-in-financial-services-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at Wells Fargo: Two Use Cases,\" provides evidence for explainability, fairness, governance, and transparency. The paper details the LIFE algorithm's function in analyzing loan application variables and providing transparent, data-backed explanations for decisions, directly supporting explainability and transparency. Furthermore, it acknowledges the design intent for fairer decision-making and mentions AI frameworks and guides, indicating a commitment to fairness and a structured approach to AI governance.",
+          "title": "Artificial Intelligence at Wells Fargo: Two Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-wells-fargo-two-use-cases"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post details Wells Fargo's commitment to responsible AI development and deployment, providing evidence for **governance**, **fairness**, and **transparency**. The article highlights their AI governance framework, which aligns with ethical and regulatory compliance, and explicitly mentions a commitment to fairness and transparency in AI implementation across their operations.",
+          "title": "Wells Fargo brings the agentic era to financial services with Google Cloud",
+          "url": "https://cloud.google.com/blog/topics/financial-services/wells-fargo-agentic-ai-agentspace-empowering-workers"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Wells Fargo Transforms AML Compliance with AI,\" provides evidence for the pillars of explainability, external accountability, governance, privacy, and transparency. It highlights the use of explainable AI and auditable AI decisions, supporting explainability and governance. The post also mentions privacy-preserving techniques, supporting the privacy pillar, and describes AI model deployment for real-time monitoring, indicating transparency in operational use.",
+          "title": "Wells Fargo Transforms AML Compliance with AI",
+          "url": "https://silenteight.com/blog/jpmorgan-citi-and-wells-fargo-are-transforming-aml-thanks-to-ai-tools"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Examines Explainable AI for Modeling Lending Risk,\" provides evidence for explainability, governance, and transparency. It describes the LIFE algorithm, an ensemble framework designed for high prediction accuracy and interpretability in lending risk modeling, directly supporting explainability and transparency goals. The paper also highlights the need to explain complex AI decisions to customers and regulators, implying a governance requirement for transparency and explainability in AI applications.",
+          "title": "Wells Fargo Examines Explainable AI for Modeling Lending Risk",
+          "url": "https://blogs.nvidia.com/blog/wells-fargo-examines-explainable-ai-for-modeling-lending-risk"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Is Banking On An AI-First Strategy,\" provides evidence for the pillars of **explainability, external accountability, fairness, governance, and transparency**. The report details Wells Fargo's commitment to responsible AI, including interpretability, bias review, independent model assessments, and continuous monitoring of AI telemetry, which directly supports explainability, fairness, and transparency. Furthermore, the document highlights a robust AI risk management framework and independent assessment mechanisms, underscoring the bank's focus on governance and external accountability.",
+          "title": "Wells Fargo Is Banking On An AI-First Strategy",
+          "url": "https://moorinsightsstrategy.com/wp-content/uploads/2023/09/Wells-Fargo-Is-Banking-On-An-AI-First-Strategy-By-Moor-Insights-And-Strategy.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Responsible AI Governance Framework - Case Study,\" provides evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The case study details Wells Fargo's formal AI risk management framework, rigorous review processes for AI/ML models, and the integration of AI governance into existing enterprise risk structures. It highlights the implementation of XAI practices, ongoing bias testing and fairness assessments, and the establishment of cross-functional committees for AI standards and review, demonstrating a commitment to ethical and transparent AI deployment.",
+          "title": "Wells Fargo Responsible AI Governance Framework - Case Study",
+          "url": "https://digitaldefynd.com/IQ/wells-fargo-using-ai-case-study"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This OCC formal agreement with Wells Fargo Bank provides evidence for **governance** and **external_accountability**. The agreement mandates enhanced governance structures for financial crimes risk management, including strengthening policies, controls, and oversight for FCRM functions. It also supports external_accountability by requiring independent validation of automated transaction monitoring systems and an OFAC sanctions screening system, ensuring their effectiveness and integrity.",
+          "title": "OCC Formal Agreement with Wells Fargo Bank - September 2024",
+          "url": "https://occ.gov/static/enforcement-actions/eaAA-ENF-2024-72.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This policy document, the \"Wells Fargo Sustainability & Governance Report,\" provides evidence for the **governance** pillar. It details Wells Fargo's commitment to the responsible use of AI and ML, specifically mentioning a \"trustworthy-by-design\" approach in sensitive areas like lending, fraud detection, and workforce decisions. This indicates established systems and oversight for AI deployment, aligning with governance principles.",
+          "title": "Wells Fargo Sustainability & Governance Report",
+          "url": "https://climindstorage123.blob.core.windows.net/climind/upload/2025-01-25/9c774975-e959-4a0e-8130-3c036d9e02ce.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy, \"Wells Fargo International Customer Privacy Notice,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by identifying a Privacy Officer role to handle objections to automated decision-making, and it supports privacy by detailing how customer data is used in AI/ML systems for profiling and optimization.",
+          "title": "Wells Fargo International Customer Privacy Notice",
+          "url": "https://wellsfargo.com/assets/pdf/personal/privacy-security/eu-privacy-notice-english.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 5,
+      "findings": "Technical papers mention human oversight for high-risk payments. They also highlight the establishment of cross-functional committees for AI standards and review, demonstrating a commitment to ethical and transparent AI deployment.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It highlights Wells Fargo's commitment to transparent and explainable AI through built-in processes and lineage for audits, supporting transparency and explainability. The paper also details an independent verification structure for AI development and deployment, demonstrating governance and external accountability, and mentions bias elimination methods and human oversight for high-risk payments, supporting fairness and oversight. Furthermore, it discusses AI ethical guardrails and data protection, indicating support for privacy.",
+          "title": "Wells Fargo AI Strategy: Analysis of Dominance in Financial Services AI",
+          "url": "https://klover.ai/wells-fargo-ai-strategy-analysis-of-dominance-in-financial-services-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Responsible AI Governance Framework - Case Study,\" provides evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The case study details Wells Fargo's formal AI risk management framework, rigorous review processes for AI/ML models, and the integration of AI governance into existing enterprise risk structures. It highlights the implementation of XAI practices, ongoing bias testing and fairness assessments, and the establishment of cross-functional committees for AI standards and review, demonstrating a commitment to ethical and transparent AI deployment.",
+          "title": "Wells Fargo Responsible AI Governance Framework - Case Study",
+          "url": "https://digitaldefynd.com/IQ/wells-fargo-using-ai-case-study"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 4,
+      "findings": "Technical papers discuss AI ethical guardrails and data protection, indicating support for privacy. Blog posts mention privacy-preserving techniques. Additionally, a company-owned privacy policy details how customer data is used in AI/ML systems for profiling and optimization.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It highlights Wells Fargo's commitment to transparent and explainable AI through built-in processes and lineage for audits, supporting transparency and explainability. The paper also details an independent verification structure for AI development and deployment, demonstrating governance and external accountability, and mentions bias elimination methods and human oversight for high-risk payments, supporting fairness and oversight. Furthermore, it discusses AI ethical guardrails and data protection, indicating support for privacy.",
+          "title": "Wells Fargo AI Strategy: Analysis of Dominance in Financial Services AI",
+          "url": "https://klover.ai/wells-fargo-ai-strategy-analysis-of-dominance-in-financial-services-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Wells Fargo Transforms AML Compliance with AI,\" provides evidence for the pillars of explainability, external accountability, governance, privacy, and transparency. It highlights the use of explainable AI and auditable AI decisions, supporting explainability and governance. The post also mentions privacy-preserving techniques, supporting the privacy pillar, and describes AI model deployment for real-time monitoring, indicating transparency in operational use.",
+          "title": "Wells Fargo Transforms AML Compliance with AI",
+          "url": "https://silenteight.com/blog/jpmorgan-citi-and-wells-fargo-are-transforming-aml-thanks-to-ai-tools"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy, \"Wells Fargo International Customer Privacy Notice,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by identifying a Privacy Officer role to handle objections to automated decision-making, and it supports privacy by detailing how customer data is used in AI/ML systems for profiling and optimization.",
+          "title": "Wells Fargo International Customer Privacy Notice",
+          "url": "https://wellsfargo.com/assets/pdf/personal/privacy-security/eu-privacy-notice-english.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 45,
+      "findings": "Wells Fargo states a commitment to transparency in AI implementation, outlining practices such as explainable decision-making and data lineage tracking. Technical papers describe transparent AI through built-in processes and lineage for audits, including the LIFE algorithm providing data-backed explanations for decisions. The company also references the need to explain complex AI decisions to customers and regulators, and details continuous monitoring of AI telemetry and XAI practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This blog post from Wells Fargo outlines their responsible AI framework, providing evidence for **fairness**, **transparency**, **governance**, and **external accountability**. The post details their commitment to eliminating bias through adverse effect checks and model testing, and to transparency via explainable decision-making and data lineage tracking. Furthermore, it highlights their efforts in governance through research partnerships with Stanford HAI for employee education on AI ethics, and demonstrates external accountability through independent reviews and bias checks.",
+          "title": "How Wells Fargo builds responsible artificial intelligence",
+          "url": "https://stories.wf.com/our-impact/how-wells-fargo-builds-responsible-artificial-intelligence"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It highlights Wells Fargo's commitment to transparent and explainable AI through built-in processes and lineage for audits, supporting transparency and explainability. The paper also details an independent verification structure for AI development and deployment, demonstrating governance and external accountability, and mentions bias elimination methods and human oversight for high-risk payments, supporting fairness and oversight. Furthermore, it discusses AI ethical guardrails and data protection, indicating support for privacy.",
+          "title": "Wells Fargo AI Strategy: Analysis of Dominance in Financial Services AI",
+          "url": "https://klover.ai/wells-fargo-ai-strategy-analysis-of-dominance-in-financial-services-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence at Wells Fargo: Two Use Cases,\" provides evidence for explainability, fairness, governance, and transparency. The paper details the LIFE algorithm's function in analyzing loan application variables and providing transparent, data-backed explanations for decisions, directly supporting explainability and transparency. Furthermore, it acknowledges the design intent for fairer decision-making and mentions AI frameworks and guides, indicating a commitment to fairness and a structured approach to AI governance.",
+          "title": "Artificial Intelligence at Wells Fargo: Two Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-wells-fargo-two-use-cases"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This blog post details Wells Fargo's commitment to responsible AI development and deployment, providing evidence for **governance**, **fairness**, and **transparency**. The article highlights their AI governance framework, which aligns with ethical and regulatory compliance, and explicitly mentions a commitment to fairness and transparency in AI implementation across their operations.",
+          "title": "Wells Fargo brings the agentic era to financial services with Google Cloud",
+          "url": "https://cloud.google.com/blog/topics/financial-services/wells-fargo-agentic-ai-agentspace-empowering-workers"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Wells Fargo Transforms AML Compliance with AI,\" provides evidence for the pillars of explainability, external accountability, governance, privacy, and transparency. It highlights the use of explainable AI and auditable AI decisions, supporting explainability and governance. The post also mentions privacy-preserving techniques, supporting the privacy pillar, and describes AI model deployment for real-time monitoring, indicating transparency in operational use.",
+          "title": "Wells Fargo Transforms AML Compliance with AI",
+          "url": "https://silenteight.com/blog/jpmorgan-citi-and-wells-fargo-are-transforming-aml-thanks-to-ai-tools"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Examines Explainable AI for Modeling Lending Risk,\" provides evidence for explainability, governance, and transparency. It describes the LIFE algorithm, an ensemble framework designed for high prediction accuracy and interpretability in lending risk modeling, directly supporting explainability and transparency goals. The paper also highlights the need to explain complex AI decisions to customers and regulators, implying a governance requirement for transparency and explainability in AI applications.",
+          "title": "Wells Fargo Examines Explainable AI for Modeling Lending Risk",
+          "url": "https://blogs.nvidia.com/blog/wells-fargo-examines-explainable-ai-for-modeling-lending-risk"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Is Banking On An AI-First Strategy,\" provides evidence for the pillars of **explainability, external accountability, fairness, governance, and transparency**. The report details Wells Fargo's commitment to responsible AI, including interpretability, bias review, independent model assessments, and continuous monitoring of AI telemetry, which directly supports explainability, fairness, and transparency. Furthermore, the document highlights a robust AI risk management framework and independent assessment mechanisms, underscoring the bank's focus on governance and external accountability.",
+          "title": "Wells Fargo Is Banking On An AI-First Strategy",
+          "url": "https://moorinsightsstrategy.com/wp-content/uploads/2023/09/Wells-Fargo-Is-Banking-On-An-AI-First-Strategy-By-Moor-Insights-And-Strategy.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Wells Fargo Responsible AI Governance Framework - Case Study,\" provides evidence for **explainability, external_accountability, fairness, governance, oversight, and transparency**. The case study details Wells Fargo's formal AI risk management framework, rigorous review processes for AI/ML models, and the integration of AI governance into existing enterprise risk structures. It highlights the implementation of XAI practices, ongoing bias testing and fairness assessments, and the establishment of cross-functional committees for AI standards and review, demonstrating a commitment to ethical and transparent AI deployment.",
+          "title": "Wells Fargo Responsible AI Governance Framework - Case Study",
+          "url": "https://digitaldefynd.com/IQ/wells-fargo-using-ai-case-study"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T22:00:44Z",
+  "run_id": "20260203_023535_5d22",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [],
+    "overall_findings": "Wells Fargo's published materials address fairness through a commitment to eliminating bias via adverse effect checks, and oversight through human oversight for high-risk payments. All 7 evaluated responsible AI pillars have documented public evidence, including these areas. Further disclosures outline a responsible AI framework for governance and discuss privacy-preserving techniques. Additionally, explainability is supported by built-in processes for audits, as documented across 17 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 7,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 92,
+    "total_sources_used": 12
+  }
+}

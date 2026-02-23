@@ -1,0 +1,340 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Baker Hughes",
+  "company_slug": "baker-hughes",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 28,
+      "OPERATIONAL": 6,
+      "POLICY": 37
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "Blog posts mention AI's potential to curb unconscious bias in stakeholder analysis. This potential is described as an aspiration.",
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **fairness, governance, and transparency**. It supports fairness by mentioning AI's potential to curb unconscious bias in stakeholder analysis, although it describes this as an aspiration. Evidence for governance and transparency is found in the description of AI/ML system capabilities, platform deployment, and collaborative customization, implying vendor due diligence and workflow requirements.",
+          "title": "How Baker Hughes used AI, LLMs for ESG materiality assessments",
+          "url": "https://constellationr.com/blog-news/insights/how-baker-hughes-used-ai-llms-esg-materiality-assessments"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 46,
+      "findings": "Documentation describes an agentic AI framework for autonomous systems and references the need for governance in enterprise-scale AI deployment and use. Policy documents outline ethical expectations for employees regarding AI use, address risks, and outline governance requirements for technology deployment and data security. System documentation details a structured approach to model development and validation, including stress-testing and improvement, and describes a repeatable framework for responsible deployment of generative AI. Furthermore, proxy statements detail the Audit Committee's oversight of AI risks and biannual director training, while SEC filings detail the company's commitment to AI governance through the Governance Committee's oversight of responsible AI positions and the Audit Committee's role in managing AI risks and data privacy.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How Agentic AI is enabling autonomous systems to learn and grow,\" provides evidence for **governance**, **oversight**, and **transparency**. The post describes an agentic AI framework for autonomous systems, implying the need for governance in enterprise-scale AI deployment and use. It also details AI agent roles and their collaborative functions, contributing to transparency about how the system operates and its reasoning mechanisms, while mentioning an oversight structure for AI agents.",
+          "title": "How Agentic AI is enabling autonomous systems to learn and grow",
+          "url": "https://bakerhughes.com/company/energy-forward/how-agentic-ai-enabling-autonomous-systems-learn-and-grow"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Baker Hughes Code of Conduct,\" provides evidence for the **governance** pillar. It establishes ethical expectations for employees regarding the responsible use of AI tools and systems, including addressing risks associated with unapproved AI platforms and outlining governance requirements for technology deployment and data security.",
+          "title": "Baker Hughes Code of Conduct",
+          "url": "https://bakerhughes.com/sites/bakerhughes/files/2023-07/our_way_bh_code_of_conduct_english.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This system card for the \"Leucipa Automated Field Production Solution\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The documentation supports transparency by mentioning AI/ML algorithms, AI-powered features, and AI-driven insights, indicating a clear understanding of the AI's capabilities and intended use. Evidence for governance is found in the description of physics-guided machine learning, embedded domain expertise, and the mention of AI/ML models being \"stress-tested\" and \"improved,\" suggesting a structured approach to model development and validation.",
+          "title": "Leucipa Automated Field Production Solution",
+          "url": "https://bakerhughes.com/oilfield-services-and-equipment-digital/leucipa-automated-field-production-solution"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How GenAI is driving the art of the possible,\" provides evidence for **governance**, **oversight**, and **transparency**. The post details the development of generative AI digital assistants, including a repeatable framework for responsible deployment, which supports governance. It also highlights human-in-the-loop design patterns and oversight for simulated actions, demonstrating oversight. Furthermore, the description of GenAI capabilities and past projects indicates transparency in system functionality and operational execution.",
+          "title": "How GenAI is driving the art of the possible",
+          "url": "https://bakerhughes.com/company/energy-forward/how-genai-driving-art-possible"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This 2025 Proxy Statement from Baker Hughes Company provides evidence for **governance** and **oversight** by detailing the Audit Committee's oversight of AI risks and the biannual director training on artificial intelligence. It also supports the **privacy** pillar by identifying AI risks related to privacy. The document highlights a formal commitment to understanding and managing AI through structured training and risk monitoring processes.",
+          "title": "2025 Proxy Statement - Baker Hughes Company",
+          "url": "https://sec.gov/Archives/edgar/data/1701605/000119312525067674/d837654ddef14a.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical blog post provides evidence for **governance** and **transparency** by detailing Baker Hughes' proprietary AI algorithms for drill bit optimization. The article highlights human oversight in the AI-assisted design process, the use of ML algorithms to adapt models, and the integration of AI/ML for digitally enhanced decision-making and predictive capabilities, all of which demonstrate transparency in system capabilities and governance in AI application.",
+          "title": "AI, digital systems deliver better, faster insights for optimized bit designs",
+          "url": "https://drillingcontractor.org/ai-digital-systems-deliver-better-faster-insights-for-optimized-bit-designs-73871"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"The next decade hinges on APM solutions, AI, and human expertise working together,\" provides evidence for **governance**, **oversight**, and **transparency**. The paper highlights the necessity of human intelligence and subject matter expertise in setting up AI configurations, modeling processes, and thresholds, demonstrating a governance approach to AI integration. It also emphasizes the critical role of human intervention and expertise in resolving issues with AI-powered technologies and for AI development and improvement, indicating human oversight. Furthermore, the paper mentions AI/ML solutions for complex assessments, indicating transparency about their use cases and capabilities.",
+          "title": "The next decade hinges on APM solutions, AI, and human expertise working together",
+          "url": "https://dam.bakerhughes.com/m/1a8591a6fa75477f/original/Whitepaper_APM-AI-and-human-expertise-working-together_Web-Version.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This system card for \"System 1 Decision Support\" provides evidence for **governance** and **transparency**. It supports governance by detailing the design and deployment of custom rules for knowledge management and error-proofing rule building, demonstrating control over operational knowledge and system integrity. Transparency is supported through the description of automated diagnostics, model-based logic rules, and the mention of adjustable algorithms, which indicate clarity about the system's operation and customization.",
+          "title": "System 1 Decision Support Technical Documentation",
+          "url": "https://dam.bakerhughes.com/m/278e632b16965fd3/original/BN-System1-Decision-Support-Brochure.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **fairness, governance, and transparency**. It supports fairness by mentioning AI's potential to curb unconscious bias in stakeholder analysis, although it describes this as an aspiration. Evidence for governance and transparency is found in the description of AI/ML system capabilities, platform deployment, and collaborative customization, implying vendor due diligence and workflow requirements.",
+          "title": "How Baker Hughes used AI, LLMs for ESG materiality assessments",
+          "url": "https://constellationr.com/blog-news/insights/how-baker-hughes-used-ai-llms-esg-materiality-assessments"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This SEC filing provides evidence for the governance, oversight, privacy, and transparency pillars of responsible AI. It details the company's commitment to AI governance through the Governance Committee's oversight of responsible AI positions and the Audit Committee's role in managing AI risks and data privacy. The filing also demonstrates oversight mechanisms through the Incident Response Team and Cyber Fusion Center, and implies transparency in AI development and deployment agreements.",
+          "title": "Form 10-K for Fiscal Year 2024",
+          "url": "https://bakerhughes.com/sites/bakerhughes/files/2025-03/baker_hughes_form_10-k_2024.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 9,
+      "findings": "Documentation mentions an oversight structure for AI agents and describes human-in-the-loop design patterns and oversight for simulated actions. Proxy statements detail the Audit Committee's oversight of AI risks, while technical blog posts describe human oversight in the AI-assisted design process. Technical papers describe the critical role of human intervention and expertise in resolving issues with AI-powered technologies and for AI development and improvement, and SEC filings describe oversight mechanisms through the Incident Response Team and Cyber Fusion Center.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How Agentic AI is enabling autonomous systems to learn and grow,\" provides evidence for **governance**, **oversight**, and **transparency**. The post describes an agentic AI framework for autonomous systems, implying the need for governance in enterprise-scale AI deployment and use. It also details AI agent roles and their collaborative functions, contributing to transparency about how the system operates and its reasoning mechanisms, while mentioning an oversight structure for AI agents.",
+          "title": "How Agentic AI is enabling autonomous systems to learn and grow",
+          "url": "https://bakerhughes.com/company/energy-forward/how-agentic-ai-enabling-autonomous-systems-learn-and-grow"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How GenAI is driving the art of the possible,\" provides evidence for **governance**, **oversight**, and **transparency**. The post details the development of generative AI digital assistants, including a repeatable framework for responsible deployment, which supports governance. It also highlights human-in-the-loop design patterns and oversight for simulated actions, demonstrating oversight. Furthermore, the description of GenAI capabilities and past projects indicates transparency in system functionality and operational execution.",
+          "title": "How GenAI is driving the art of the possible",
+          "url": "https://bakerhughes.com/company/energy-forward/how-genai-driving-art-possible"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This 2025 Proxy Statement from Baker Hughes Company provides evidence for **governance** and **oversight** by detailing the Audit Committee's oversight of AI risks and the biannual director training on artificial intelligence. It also supports the **privacy** pillar by identifying AI risks related to privacy. The document highlights a formal commitment to understanding and managing AI through structured training and risk monitoring processes.",
+          "title": "2025 Proxy Statement - Baker Hughes Company",
+          "url": "https://sec.gov/Archives/edgar/data/1701605/000119312525067674/d837654ddef14a.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical blog post provides evidence for **governance** and **transparency** by detailing Baker Hughes' proprietary AI algorithms for drill bit optimization. The article highlights human oversight in the AI-assisted design process, the use of ML algorithms to adapt models, and the integration of AI/ML for digitally enhanced decision-making and predictive capabilities, all of which demonstrate transparency in system capabilities and governance in AI application.",
+          "title": "AI, digital systems deliver better, faster insights for optimized bit designs",
+          "url": "https://drillingcontractor.org/ai-digital-systems-deliver-better-faster-insights-for-optimized-bit-designs-73871"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"The next decade hinges on APM solutions, AI, and human expertise working together,\" provides evidence for **governance**, **oversight**, and **transparency**. The paper highlights the necessity of human intelligence and subject matter expertise in setting up AI configurations, modeling processes, and thresholds, demonstrating a governance approach to AI integration. It also emphasizes the critical role of human intervention and expertise in resolving issues with AI-powered technologies and for AI development and improvement, indicating human oversight. Furthermore, the paper mentions AI/ML solutions for complex assessments, indicating transparency about their use cases and capabilities.",
+          "title": "The next decade hinges on APM solutions, AI, and human expertise working together",
+          "url": "https://dam.bakerhughes.com/m/1a8591a6fa75477f/original/Whitepaper_APM-AI-and-human-expertise-working-together_Web-Version.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This SEC filing provides evidence for the governance, oversight, privacy, and transparency pillars of responsible AI. It details the company's commitment to AI governance through the Governance Committee's oversight of responsible AI positions and the Audit Committee's role in managing AI risks and data privacy. The filing also demonstrates oversight mechanisms through the Incident Response Team and Cyber Fusion Center, and implies transparency in AI development and deployment agreements.",
+          "title": "Form 10-K for Fiscal Year 2024",
+          "url": "https://bakerhughes.com/sites/bakerhughes/files/2025-03/baker_hughes_form_10-k_2024.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 2,
+      "findings": "Proxy statements reference AI risks related to privacy. SEC filings detail the Audit Committee's role in managing AI risks and data privacy.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This 2025 Proxy Statement from Baker Hughes Company provides evidence for **governance** and **oversight** by detailing the Audit Committee's oversight of AI risks and the biannual director training on artificial intelligence. It also supports the **privacy** pillar by identifying AI risks related to privacy. The document highlights a formal commitment to understanding and managing AI through structured training and risk monitoring processes.",
+          "title": "2025 Proxy Statement - Baker Hughes Company",
+          "url": "https://sec.gov/Archives/edgar/data/1701605/000119312525067674/d837654ddef14a.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This SEC filing provides evidence for the governance, oversight, privacy, and transparency pillars of responsible AI. It details the company's commitment to AI governance through the Governance Committee's oversight of responsible AI positions and the Audit Committee's role in managing AI risks and data privacy. The filing also demonstrates oversight mechanisms through the Incident Response Team and Cyber Fusion Center, and implies transparency in AI development and deployment agreements.",
+          "title": "Form 10-K for Fiscal Year 2024",
+          "url": "https://bakerhughes.com/sites/bakerhughes/files/2025-03/baker_hughes_form_10-k_2024.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 41,
+      "findings": "Documentation details AI agent roles and their collaborative functions, describing how agentic AI systems operate and their reasoning mechanisms. System documentation mentions AI/ML algorithms, features, and insights, referencing a clear understanding of AI capabilities and intended use, including for generative AI and drill bit optimization. Published materials also describe automated diagnostics, model-based logic rules, and adjustable algorithms, referencing clarity about system operation, customization, and transparency in AI development and deployment agreements.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How Agentic AI is enabling autonomous systems to learn and grow,\" provides evidence for **governance**, **oversight**, and **transparency**. The post describes an agentic AI framework for autonomous systems, implying the need for governance in enterprise-scale AI deployment and use. It also details AI agent roles and their collaborative functions, contributing to transparency about how the system operates and its reasoning mechanisms, while mentioning an oversight structure for AI agents.",
+          "title": "How Agentic AI is enabling autonomous systems to learn and grow",
+          "url": "https://bakerhughes.com/company/energy-forward/how-agentic-ai-enabling-autonomous-systems-learn-and-grow"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This system card for the \"Leucipa Automated Field Production Solution\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The documentation supports transparency by mentioning AI/ML algorithms, AI-powered features, and AI-driven insights, indicating a clear understanding of the AI's capabilities and intended use. Evidence for governance is found in the description of physics-guided machine learning, embedded domain expertise, and the mention of AI/ML models being \"stress-tested\" and \"improved,\" suggesting a structured approach to model development and validation.",
+          "title": "Leucipa Automated Field Production Solution",
+          "url": "https://bakerhughes.com/oilfield-services-and-equipment-digital/leucipa-automated-field-production-solution"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How GenAI is driving the art of the possible,\" provides evidence for **governance**, **oversight**, and **transparency**. The post details the development of generative AI digital assistants, including a repeatable framework for responsible deployment, which supports governance. It also highlights human-in-the-loop design patterns and oversight for simulated actions, demonstrating oversight. Furthermore, the description of GenAI capabilities and past projects indicates transparency in system functionality and operational execution.",
+          "title": "How GenAI is driving the art of the possible",
+          "url": "https://bakerhughes.com/company/energy-forward/how-genai-driving-art-possible"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical blog post provides evidence for **governance** and **transparency** by detailing Baker Hughes' proprietary AI algorithms for drill bit optimization. The article highlights human oversight in the AI-assisted design process, the use of ML algorithms to adapt models, and the integration of AI/ML for digitally enhanced decision-making and predictive capabilities, all of which demonstrate transparency in system capabilities and governance in AI application.",
+          "title": "AI, digital systems deliver better, faster insights for optimized bit designs",
+          "url": "https://drillingcontractor.org/ai-digital-systems-deliver-better-faster-insights-for-optimized-bit-designs-73871"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"The next decade hinges on APM solutions, AI, and human expertise working together,\" provides evidence for **governance**, **oversight**, and **transparency**. The paper highlights the necessity of human intelligence and subject matter expertise in setting up AI configurations, modeling processes, and thresholds, demonstrating a governance approach to AI integration. It also emphasizes the critical role of human intervention and expertise in resolving issues with AI-powered technologies and for AI development and improvement, indicating human oversight. Furthermore, the paper mentions AI/ML solutions for complex assessments, indicating transparency about their use cases and capabilities.",
+          "title": "The next decade hinges on APM solutions, AI, and human expertise working together",
+          "url": "https://dam.bakerhughes.com/m/1a8591a6fa75477f/original/Whitepaper_APM-AI-and-human-expertise-working-together_Web-Version.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This system card for \"System 1 Decision Support\" provides evidence for **governance** and **transparency**. It supports governance by detailing the design and deployment of custom rules for knowledge management and error-proofing rule building, demonstrating control over operational knowledge and system integrity. Transparency is supported through the description of automated diagnostics, model-based logic rules, and the mention of adjustable algorithms, which indicate clarity about the system's operation and customization.",
+          "title": "System 1 Decision Support Technical Documentation",
+          "url": "https://dam.bakerhughes.com/m/278e632b16965fd3/original/BN-System1-Decision-Support-Brochure.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for **fairness, governance, and transparency**. It supports fairness by mentioning AI's potential to curb unconscious bias in stakeholder analysis, although it describes this as an aspiration. Evidence for governance and transparency is found in the description of AI/ML system capabilities, platform deployment, and collaborative customization, implying vendor due diligence and workflow requirements.",
+          "title": "How Baker Hughes used AI, LLMs for ESG materiality assessments",
+          "url": "https://constellationr.com/blog-news/insights/how-baker-hughes-used-ai-llms-esg-materiality-assessments"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This SEC filing provides evidence for the governance, oversight, privacy, and transparency pillars of responsible AI. It details the company's commitment to AI governance through the Governance Committee's oversight of responsible AI positions and the Audit Committee's role in managing AI risks and data privacy. The filing also demonstrates oversight mechanisms through the Incident Response Team and Cyber Fusion Center, and implies transparency in AI development and deployment agreements.",
+          "title": "Form 10-K for Fiscal Year 2024",
+          "url": "https://bakerhughes.com/sites/bakerhughes/files/2025-03/baker_hughes_form_10-k_2024.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:44:26Z",
+  "run_id": "20260202_203435_24cb",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Baker Hughes' published materials detail AI agent roles and their collaborative functions, addressing the transparency pillar, and also describe human-in-the-loop design patterns for generative AI digital assistants under oversight. These operational practices, along with governance disclosures describing an agentic AI framework for autonomous systems, contribute to the 4 of 7 responsible AI pillars for which evidence was found. Privacy is also addressed at the policy level, with proxy statements referencing AI risks related to privacy. No qualifying public evidence was found for fairness, explainability, and 1 additional pillar, based on 14 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 71,
+    "total_sources_used": 10
+  }
+}

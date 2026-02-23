@@ -1,0 +1,654 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 100.0,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 14
+  },
+  "company": "Intel",
+  "company_slug": "intel",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 50,
+      "OPERATIONAL": 24,
+      "POLICY": 78
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 16,
+      "findings": "Intel provides tools designed to detect and mitigate interpretability issues, including visualization capabilities for understanding model behavior and identifying interpretability gaps. The company also describes an interactive interpretability tool for vision-language models, detailing analysis types such as layer characterization, property segmentation, attention visualization, and causal analysis. A press release details research focus areas and policy-level commitments to addressing AI risks and potential harms.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This system card for Intel's Explainable AI Tools repository provides evidence for the **explainability**, **fairness**, and **transparency** pillars. The repository details tools designed to detect and mitigate fairness and interpretability issues, and to expose model information, directly supporting these responsible AI principles. Specifically, the tools offer methods for examining predictive behavior and generating reports with fairness metrics, aligning with the need for understanding and governing AI models.",
+          "title": "Intel Explainable AI Tools - GitHub Repository",
+          "url": "https://github.com/intel/intel-xai-tools"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Intel® Explainable AI Tools,\" provides evidence for **explainability**, **transparency**, and **governance**. It describes tools that generate interactive reports documenting model performance, fairness, and limitations, supporting transparency and governance. Furthermore, it details visualization capabilities for understanding model behavior and identifying interpretability gaps, directly addressing explainability.",
+          "title": "Intel® Explainable AI Tools",
+          "url": "https://intel.com/content/www/us/en/developer/articles/reference-implementation/explainable-ai-tools.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This press release from Intel describes their multidisciplinary Responsible AI Advisory Councils, which conduct lifecycle reviews of AI projects across six risk areas. The source provides evidence for **explainability**, **fairness**, **governance**, **privacy**, and **transparency** by detailing their research focus areas and policy-level commitments to addressing AI risks and potential harms. It also supports **external accountability** through their participation in external alliances and working groups focused on developing Responsible AI solutions and standards.",
+          "title": "How Intel is Refining Its Approach to Responsible AI",
+          "url": "https://intel.com/content/www/us/en/newsroom/opinion/how-intel-refining-approach-responsible-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI Research - Intel Labs,\" provides evidence for the pillars of explainability, fairness, governance, privacy, and transparency. The document supports governance by detailing a commitment to responsible AI development and use, including advisory councils reviewing AI activities based on principles. Evidence for fairness is found in the description of active monitoring for bias and discrimination using bias detection tools, and a commitment to addressing ethical data use and discrimination. The paper also supports privacy and transparency by stating their importance for AI data collection, user control, and data protection guardrails.",
+          "title": "Responsible AI Research - Intel Labs",
+          "url": "https://intel.com/content/www/us/en/research/responsible-ai-research.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This system card for CLIP-InterpreT provides evidence for the **explainability** and **transparency** pillars of responsible AI. It describes an interactive interpretability tool designed for vision-language models, detailing analysis types like layer characterization, property segmentation, attention visualization, and causal analysis. These mechanisms allow for systematic exploration and identification of potential biases and failure modes, thereby enhancing transparency in the model's behavior and explainability of its decision-making processes.",
+          "title": "CLIP-InterpreT - Intel Labs",
+          "url": "https://intellabs.github.io/multimodal_cognitive_ai/CLIP-InterpreT"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "Intel references external regulations like the EU AI Act and supports external accountability through participation in external alliances and working groups focused on developing Responsible AI solutions and standards. The company's annual report describes supplier verification for human rights compliance and an internal foundry model designed for accountability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "The \"Intel Responsible AI - E Book\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. This company-owned guide details Intel's commitment to responsible AI development by outlining developer responsibilities for providing information on AI training and bias results (supporting **fairness** and **transparency**), and by integrating an \"Ethical Impact Assessment process\" into AI lifecycle processes (supporting **governance** and **oversight**). Furthermore, the e-book explicitly prioritizes privacy and data rights, detailing commitments to user choice and data protection, and references external regulations like the EU AI Act, demonstrating **external_accountability**.",
+          "title": "Intel Responsible AI - E Book",
+          "url": "https://intel.com/content/dam/www/central-libraries/us/en/documents/2024-09/responsible-ai-ebook-rev2-6.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post discusses Intel's Jurity open-source package for evaluating AI model fairness without demographic data, supporting the **fairness** pillar by proposing a new evaluation method. The post also touches upon **transparency** by addressing challenges with large AI models and data curation, and hints at **governance** through discussions of data curation. Furthermore, it suggests a commitment to **external accountability** by advocating for rigorous, open testing of AI models.",
+          "title": "A New Approach for Evaluating AI Model Fairness - Intel",
+          "url": "https://intel.com/content/www/us/en/developer/articles/community/a-new-approach-for-evaluating-ai-model-fairness.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This press release from Intel describes their multidisciplinary Responsible AI Advisory Councils, which conduct lifecycle reviews of AI projects across six risk areas. The source provides evidence for **explainability**, **fairness**, **governance**, **privacy**, and **transparency** by detailing their research focus areas and policy-level commitments to addressing AI risks and potential harms. It also supports **external accountability** through their participation in external alliances and working groups focused on developing Responsible AI solutions and standards.",
+          "title": "How Intel is Refining Its Approach to Responsible AI",
+          "url": "https://intel.com/content/www/us/en/newsroom/opinion/how-intel-refining-approach-responsible-ai.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_027",
+          "source_tier": "authority",
+          "summary": "This Intel 2024 Form 10-K SEC filing provides evidence for external_accountability, governance, privacy, and transparency. The filing supports external_accountability through descriptions of supplier verification for human rights compliance and an internal foundry model designed for accountability. Governance is evidenced by discussions of export controls on AI products, policies to evaluate and restrict business use impacting human rights, and the leadership of AI strategy by a named executive. Privacy is supported by mentions of privacy legislation and data protection measures for AI applications, while transparency is demonstrated through the focus on AI in R&D, the mention of \"oneAPI\" for open standards, and the disclosure of AI PC launches and capabilities.",
+          "title": "Annual Report - Form 10-K (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/50863/000005086325000052/a2024arsform10-k.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 32,
+      "findings": "Intel explicitly mentions the goal of mitigating unintended bias in AI and identifies risks related to algorithmic bias. The company provides tools designed to detect and mitigate fairness issues, including methods for examining predictive behavior and generating reports with fairness metrics. Intel also details operational activities such as probing models to detect and mitigate gender, race, and intersectional biases, and discusses a system designed to detect social biases in visual training data and retrain models to mitigate downstream AI bias.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This charter document, \"Business Roundtable on Human Rights & AI,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars. It supports **fairness** by explicitly mentioning the goal of mitigating unintended bias in AI. The document's focus on integrating human rights into AI standards, managing risks in AI development and deployment, and convening industry leaders to address these challenges demonstrates strong support for the **governance** pillar. Finally, the explicit mention of **transparency** as a key area of discussion further aligns this source with the transparency pillar.",
+          "title": "Business Roundtable on Human Rights & AI",
+          "url": "https://articleoneadvisors.com/roundtable-on-human-rights-ai"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Human Rights and AI - Intel Case Study,\" provides evidence for the **governance**, **fairness**, **transparency**, and **privacy** pillars of responsible AI. The report documents Intel's formation of a dedicated AI Ethics and Human Rights team and the implementation of a human rights impact assessment process, demonstrating operational governance structures and a policy-level commitment to managing AI risks. Specifically, the assessment identified risks related to algorithmic bias, transparency, and privacy infringement, directly supporting these pillars.",
+          "title": "Human Rights and AI - Intel Case Study",
+          "url": "https://articleoneadvisors.com/sample-work/intel-case-study"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This system card for Intel's Explainable AI Tools repository provides evidence for the **explainability**, **fairness**, and **transparency** pillars. The repository details tools designed to detect and mitigate fairness and interpretability issues, and to expose model information, directly supporting these responsible AI principles. Specifically, the tools offer methods for examining predictive behavior and generating reports with fairness metrics, aligning with the need for understanding and governing AI models.",
+          "title": "Intel Explainable AI Tools - GitHub Repository",
+          "url": "https://github.com/intel/intel-xai-tools"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "The \"Intel Responsible AI - E Book\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. This company-owned guide details Intel's commitment to responsible AI development by outlining developer responsibilities for providing information on AI training and bias results (supporting **fairness** and **transparency**), and by integrating an \"Ethical Impact Assessment process\" into AI lifecycle processes (supporting **governance** and **oversight**). Furthermore, the e-book explicitly prioritizes privacy and data rights, detailing commitments to user choice and data protection, and references external regulations like the EU AI Act, demonstrating **external_accountability**.",
+          "title": "Intel Responsible AI - E Book",
+          "url": "https://intel.com/content/dam/www/central-libraries/us/en/documents/2024-09/responsible-ai-ebook-rev2-6.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This Intel Labs blog post provides evidence for the **fairness** and **governance** pillars of responsible AI. It details operational activities such as probing models to detect and mitigate gender, race, and intersectional biases by up to 20 percent using synthetic images, demonstrating a commitment to reducing demographic parity violations. The post also reflects policy commitments by expressing a dedication to ensuring AI models are free from bias in production and aligning with aspirations for equitable AI use.",
+          "title": "Intel Labs Mitigates Bias in AI Models",
+          "url": "https://intel.com/content/www/us/en/customer-spotlight/stories/intel-labs-customer-story.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post discusses Intel's Jurity open-source package for evaluating AI model fairness without demographic data, supporting the **fairness** pillar by proposing a new evaluation method. The post also touches upon **transparency** by addressing challenges with large AI models and data curation, and hints at **governance** through discussions of data curation. Furthermore, it suggests a commitment to **external accountability** by advocating for rigorous, open testing of AI models.",
+          "title": "A New Approach for Evaluating AI Model Fairness - Intel",
+          "url": "https://intel.com/content/www/us/en/developer/articles/community/a-new-approach-for-evaluating-ai-model-fairness.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This press release from Intel describes their multidisciplinary Responsible AI Advisory Councils, which conduct lifecycle reviews of AI projects across six risk areas. The source provides evidence for **explainability**, **fairness**, **governance**, **privacy**, and **transparency** by detailing their research focus areas and policy-level commitments to addressing AI risks and potential harms. It also supports **external accountability** through their participation in external alliances and working groups focused on developing Responsible AI solutions and standards.",
+          "title": "How Intel is Refining Its Approach to Responsible AI",
+          "url": "https://intel.com/content/www/us/en/newsroom/opinion/how-intel-refining-approach-responsible-ai.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This Intel blog post advocates for a risk-based, principles-driven approach to AI policy and regulation. It provides evidence for **governance** by outlining a commitment to AI policy measures and encouraging regulatory evaluation of AI use cases for compliance. The post also supports **transparency** and **fairness** by mentioning specific AI requirements like data governance and bias mitigation.",
+          "title": "Artificial Intelligence Policy",
+          "url": "https://intel.com/content/www/us/en/policy/policy-artificial-intelligence.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI Research - Intel Labs,\" provides evidence for the pillars of explainability, fairness, governance, privacy, and transparency. The document supports governance by detailing a commitment to responsible AI development and use, including advisory councils reviewing AI activities based on principles. Evidence for fairness is found in the description of active monitoring for bias and discrimination using bias detection tools, and a commitment to addressing ethical data use and discrimination. The paper also supports privacy and transparency by stating their importance for AI data collection, user control, and data protection guardrails.",
+          "title": "Responsible AI Research - Intel Labs",
+          "url": "https://intel.com/content/www/us/en/research/responsible-ai-research.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"OpenFL: the open federated learning library,\" provides evidence for fairness, governance, privacy, and transparency. It supports the privacy pillar by describing a framework that enables data-private federated learning, keeping sensitive data local and secure. The paper also addresses fairness by discussing the risk of AI bias due to lack of data diversity and advocating for federated learning as a privacy-preserving approach to improve fairness and accuracy, citing examples of bias in healthcare and AI algorithms. Evidence for governance and transparency is implied through the discussion of security and confidentiality recommendations and the framework's capabilities for ML/DL model training and presentation.",
+          "title": "OpenFL: the open federated learning library",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9715347"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This Intel patent application provides evidence for **fairness**, **governance**, and **transparency** by detailing a system designed to detect social biases in visual training data using saliency models and psychophysiological approaches. The application describes mechanisms for scoring bias likelihood and retraining models to mitigate downstream AI bias, demonstrating a commitment to fairness and outlining governance practices for AI development and monitoring. The system's capability to identify bias in images also contributes to transparency regarding AI function.",
+          "title": "Intel Wants to Beat Bias in AI Training Data",
+          "url": "https://thedailyupside.com/technology/artificial-intelligence/intel-wants-to-beat-bias-ai-training-data"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 82,
+      "findings": "Intel documents the formation of a dedicated AI Ethics and Human Rights team and the implementation of a human rights impact assessment process, demonstrating operational governance structures and a policy-level commitment to managing AI risks. The company describes integrating an \"Ethical Impact Assessment process\" into AI lifecycle processes and outlines a commitment to AI policy measures. Intel also describes multidisciplinary Responsible AI Advisory Councils that conduct lifecycle reviews of AI projects across six risk areas, and details a safety architecture based on the Responsibility-Sensitive Safety (RSS) model for formalizing safe driving decisions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This charter document, \"Business Roundtable on Human Rights & AI,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars. It supports **fairness** by explicitly mentioning the goal of mitigating unintended bias in AI. The document's focus on integrating human rights into AI standards, managing risks in AI development and deployment, and convening industry leaders to address these challenges demonstrates strong support for the **governance** pillar. Finally, the explicit mention of **transparency** as a key area of discussion further aligns this source with the transparency pillar.",
+          "title": "Business Roundtable on Human Rights & AI",
+          "url": "https://articleoneadvisors.com/roundtable-on-human-rights-ai"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Human Rights and AI - Intel Case Study,\" provides evidence for the **governance**, **fairness**, **transparency**, and **privacy** pillars of responsible AI. The report documents Intel's formation of a dedicated AI Ethics and Human Rights team and the implementation of a human rights impact assessment process, demonstrating operational governance structures and a policy-level commitment to managing AI risks. Specifically, the assessment identified risks related to algorithmic bias, transparency, and privacy infringement, directly supporting these pillars.",
+          "title": "Human Rights and AI - Intel Case Study",
+          "url": "https://articleoneadvisors.com/sample-work/intel-case-study"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical documentation for Intel's BigDL PPML framework provides evidence for the **privacy**, **transparency**, and **governance** pillars. It supports the privacy pillar by detailing mechanisms for protecting data confidentiality during compute, storage, and network operations. The guide also demonstrates transparency and governance by describing operational steps for ML inference services, including running examples and checking logs for results and accuracy, enabling responsible data handling in untrusted environments.",
+          "title": "Privacy Preserving Machine Learning (PPML) User Guide",
+          "url": "https://bigdl.readthedocs.io/en/latest/doc/PPML/Overview/ppml.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The \"2024-25 Intel Corporate Responsibility Report\" provides evidence for the **governance** and **privacy** pillars of responsible AI. This company-owned report supports governance by detailing the operationalization of fairness and bias mitigation strategies, mentioning AI red teaming and misinformation combating curricula, and highlighting the introduction of \"Responsible AI\" courses. It also supports privacy by mentioning privacy and governance in the context of AI/ML research and collaboration, indicating ongoing efforts in these areas.",
+          "title": "2024-25 Intel Corporate Responsibility Report",
+          "url": "https://csrreportbuilder.intel.com/pdfbuilder/pdfs/CSR-2024-25-Full-Report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "The \"Intel Responsible AI - E Book\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. This company-owned guide details Intel's commitment to responsible AI development by outlining developer responsibilities for providing information on AI training and bias results (supporting **fairness** and **transparency**), and by integrating an \"Ethical Impact Assessment process\" into AI lifecycle processes (supporting **governance** and **oversight**). Furthermore, the e-book explicitly prioritizes privacy and data rights, detailing commitments to user choice and data protection, and references external regulations like the EU AI Act, demonstrating **external_accountability**.",
+          "title": "Intel Responsible AI - E Book",
+          "url": "https://intel.com/content/dam/www/central-libraries/us/en/documents/2024-09/responsible-ai-ebook-rev2-6.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned document, \"The AI Readiness Model | Intel,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The model discusses criteria for AI service delivery, data management, and measuring business value, all of which fall under AI governance. Furthermore, it explicitly addresses AI oversight, human involvement in AI-driven decisions, cybersecurity for AI, and risks associated with minimized human intervention, directly supporting the oversight pillar.",
+          "title": "The AI Readiness Model | Intel",
+          "url": "https://intel.com/content/dam/www/public/us/en/documents/white-papers/ai-readiness-model-whitepaper.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Confidential AI with Intel,\" provides evidence for the **governance** pillar of responsible AI. The course exploration described within the post indicates a focus on AI governance principles by discussing the intersection of AI governance with confidential computing and security technologies.",
+          "title": "Confidential AI with Intel",
+          "url": "https://intel.com/content/www/us/en/content-details/856552/confidential-ai-with-intel.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This Intel Labs blog post provides evidence for the **fairness** and **governance** pillars of responsible AI. It details operational activities such as probing models to detect and mitigate gender, race, and intersectional biases by up to 20 percent using synthetic images, demonstrating a commitment to reducing demographic parity violations. The post also reflects policy commitments by expressing a dedication to ensuring AI models are free from bias in production and aligning with aspirations for equitable AI use.",
+          "title": "Intel Labs Mitigates Bias in AI Models",
+          "url": "https://intel.com/content/www/us/en/customer-spotlight/stories/intel-labs-customer-story.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post discusses Intel's Jurity open-source package for evaluating AI model fairness without demographic data, supporting the **fairness** pillar by proposing a new evaluation method. The post also touches upon **transparency** by addressing challenges with large AI models and data curation, and hints at **governance** through discussions of data curation. Furthermore, it suggests a commitment to **external accountability** by advocating for rigorous, open testing of AI models.",
+          "title": "A New Approach for Evaluating AI Model Fairness - Intel",
+          "url": "https://intel.com/content/www/us/en/developer/articles/community/a-new-approach-for-evaluating-ai-model-fairness.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Intel® Explainable AI Tools,\" provides evidence for **explainability**, **transparency**, and **governance**. It describes tools that generate interactive reports documenting model performance, fairness, and limitations, supporting transparency and governance. Furthermore, it details visualization capabilities for understanding model behavior and identifying interpretability gaps, directly addressing explainability.",
+          "title": "Intel® Explainable AI Tools",
+          "url": "https://intel.com/content/www/us/en/developer/articles/reference-implementation/explainable-ai-tools.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This press release from Intel describes their multidisciplinary Responsible AI Advisory Councils, which conduct lifecycle reviews of AI projects across six risk areas. The source provides evidence for **explainability**, **fairness**, **governance**, **privacy**, and **transparency** by detailing their research focus areas and policy-level commitments to addressing AI risks and potential harms. It also supports **external accountability** through their participation in external alliances and working groups focused on developing Responsible AI solutions and standards.",
+          "title": "How Intel is Refining Its Approach to Responsible AI",
+          "url": "https://intel.com/content/www/us/en/newsroom/opinion/how-intel-refining-approach-responsible-ai.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This Intel blog post advocates for a risk-based, principles-driven approach to AI policy and regulation. It provides evidence for **governance** by outlining a commitment to AI policy measures and encouraging regulatory evaluation of AI use cases for compliance. The post also supports **transparency** and **fairness** by mentioning specific AI requirements like data governance and bias mitigation.",
+          "title": "Artificial Intelligence Policy",
+          "url": "https://intel.com/content/www/us/en/policy/policy-artificial-intelligence.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI Research - Intel Labs,\" provides evidence for the pillars of explainability, fairness, governance, privacy, and transparency. The document supports governance by detailing a commitment to responsible AI development and use, including advisory councils reviewing AI activities based on principles. Evidence for fairness is found in the description of active monitoring for bias and discrimination using bias detection tools, and a commitment to addressing ethical data use and discrimination. The paper also supports privacy and transparency by stating their importance for AI data collection, user control, and data protection guardrails.",
+          "title": "Responsible AI Research - Intel Labs",
+          "url": "https://intel.com/content/www/us/en/research/responsible-ai-research.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "The Intel® Trust Authority system card provides evidence for the **governance** pillar of responsible AI. This is supported by its description of verifying the trustworthiness of AI/ML workloads, which indicates a governance policy for AI systems and their secure operation. The service's focus on independent verification of Trusted Execution Environments (SGX, TDX) and its support for ISO 27001:2022 certification further demonstrate its role in establishing secure AI governance across various environments.",
+          "title": "Intel® Trust Authority",
+          "url": "https://intel.com/content/www/us/en/security/trust-authority.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_024",
+          "source_tier": "third_party",
+          "summary": "This technical paper on Intel Mobileye's RSS model provides evidence for the **governance** pillar of responsible AI. It details a formal model for decision-making in automated driving systems, explaining how the system enforces safety constraints and proper reactions, thereby defining operational boundaries and establishing a structured approach to safety and accountability. The documentation also describes the system's continuous monitoring and response mechanisms, which further define responsibility and accountability in automated driving.",
+          "title": "Responsibility-Sensitive Safety (RSS) Model - Technical Documentation",
+          "url": "https://intel.github.io/ad-rss-lib/ad_rss/Overview"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"OpenFL: the open federated learning library,\" provides evidence for fairness, governance, privacy, and transparency. It supports the privacy pillar by describing a framework that enables data-private federated learning, keeping sensitive data local and secure. The paper also addresses fairness by discussing the risk of AI bias due to lack of data diversity and advocating for federated learning as a privacy-preserving approach to improve fairness and accuracy, citing examples of bias in healthcare and AI algorithms. Evidence for governance and transparency is implied through the discussion of security and confidentiality recommendations and the framework's capabilities for ML/DL model training and presentation.",
+          "title": "OpenFL: the open federated learning library",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9715347"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_027",
+          "source_tier": "authority",
+          "summary": "This Intel 2024 Form 10-K SEC filing provides evidence for external_accountability, governance, privacy, and transparency. The filing supports external_accountability through descriptions of supplier verification for human rights compliance and an internal foundry model designed for accountability. Governance is evidenced by discussions of export controls on AI products, policies to evaluate and restrict business use impacting human rights, and the leadership of AI strategy by a named executive. Privacy is supported by mentions of privacy legislation and data protection measures for AI applications, while transparency is demonstrated through the focus on AI in R&D, the mention of \"oneAPI\" for open standards, and the disclosure of AI PC launches and capabilities.",
+          "title": "Annual Report - Form 10-K (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/50863/000005086325000052/a2024arsform10-k.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_028",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Mobileye provides evidence for the **governance** and **transparency** pillars of responsible AI. It details a safety architecture based on the Responsibility-Sensitive Safety (RSS) model, which formalizes safe driving decisions and addresses failure modes, demonstrating a governance approach to system reliability. Furthermore, the paper offers transparency by describing specific ML models like ResNet, their mathematical formulations, learning mechanics, and convergence dynamics, as well as the perception and planning phases of the self-driving system.",
+          "title": "A Safety Architecture for Self-Driving Systems - Mobileye",
+          "url": "https://static.mobileye.com/website/us/corporate/files/SDS_Safety_Architecture.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This Intel patent application provides evidence for **fairness**, **governance**, and **transparency** by detailing a system designed to detect social biases in visual training data using saliency models and psychophysiological approaches. The application describes mechanisms for scoring bias likelihood and retraining models to mitigate downstream AI bias, demonstrating a commitment to fairness and outlining governance practices for AI development and monitoring. The system's capability to identify bias in images also contributes to transparency regarding AI function.",
+          "title": "Intel Wants to Beat Bias in AI Training Data",
+          "url": "https://thedailyupside.com/technology/artificial-intelligence/intel-wants-to-beat-bias-ai-training-data"
+        }
+      ],
+      "score": 2,
+      "source_count": 19
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 5,
+      "findings": "Intel describes integrating an \"Ethical Impact Assessment process\" into AI lifecycle processes. The company's documentation explicitly addresses AI oversight, human involvement in AI-driven decisions, and cybersecurity for AI. It also addresses risks associated with minimized human intervention.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "The \"Intel Responsible AI - E Book\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. This company-owned guide details Intel's commitment to responsible AI development by outlining developer responsibilities for providing information on AI training and bias results (supporting **fairness** and **transparency**), and by integrating an \"Ethical Impact Assessment process\" into AI lifecycle processes (supporting **governance** and **oversight**). Furthermore, the e-book explicitly prioritizes privacy and data rights, detailing commitments to user choice and data protection, and references external regulations like the EU AI Act, demonstrating **external_accountability**.",
+          "title": "Intel Responsible AI - E Book",
+          "url": "https://intel.com/content/dam/www/central-libraries/us/en/documents/2024-09/responsible-ai-ebook-rev2-6.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned document, \"The AI Readiness Model | Intel,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The model discusses criteria for AI service delivery, data management, and measuring business value, all of which fall under AI governance. Furthermore, it explicitly addresses AI oversight, human involvement in AI-driven decisions, cybersecurity for AI, and risks associated with minimized human intervention, directly supporting the oversight pillar.",
+          "title": "The AI Readiness Model | Intel",
+          "url": "https://intel.com/content/dam/www/public/us/en/documents/white-papers/ai-readiness-model-whitepaper.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_028",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Mobileye provides evidence for the **governance** and **transparency** pillars of responsible AI. It details a safety architecture based on the Responsibility-Sensitive Safety (RSS) model, which formalizes safe driving decisions and addresses failure modes, demonstrating a governance approach to system reliability. Furthermore, the paper offers transparency by describing specific ML models like ResNet, their mathematical formulations, learning mechanics, and convergence dynamics, as well as the perception and planning phases of the self-driving system.",
+          "title": "A Safety Architecture for Self-Driving Systems - Mobileye",
+          "url": "https://static.mobileye.com/website/us/corporate/files/SDS_Safety_Architecture.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 15,
+      "findings": "Intel identifies risks related to privacy infringement and details mechanisms for protecting data confidentiality during compute, storage, and network operations. The company explicitly prioritizes privacy and data rights, detailing commitments to user choice and data protection. Intel also describes a framework that enables data-private federated learning, keeping sensitive data local and secure, and mentions privacy legislation and data protection measures for AI applications.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Human Rights and AI - Intel Case Study,\" provides evidence for the **governance**, **fairness**, **transparency**, and **privacy** pillars of responsible AI. The report documents Intel's formation of a dedicated AI Ethics and Human Rights team and the implementation of a human rights impact assessment process, demonstrating operational governance structures and a policy-level commitment to managing AI risks. Specifically, the assessment identified risks related to algorithmic bias, transparency, and privacy infringement, directly supporting these pillars.",
+          "title": "Human Rights and AI - Intel Case Study",
+          "url": "https://articleoneadvisors.com/sample-work/intel-case-study"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical documentation for Intel's BigDL PPML framework provides evidence for the **privacy**, **transparency**, and **governance** pillars. It supports the privacy pillar by detailing mechanisms for protecting data confidentiality during compute, storage, and network operations. The guide also demonstrates transparency and governance by describing operational steps for ML inference services, including running examples and checking logs for results and accuracy, enabling responsible data handling in untrusted environments.",
+          "title": "Privacy Preserving Machine Learning (PPML) User Guide",
+          "url": "https://bigdl.readthedocs.io/en/latest/doc/PPML/Overview/ppml.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The \"2024-25 Intel Corporate Responsibility Report\" provides evidence for the **governance** and **privacy** pillars of responsible AI. This company-owned report supports governance by detailing the operationalization of fairness and bias mitigation strategies, mentioning AI red teaming and misinformation combating curricula, and highlighting the introduction of \"Responsible AI\" courses. It also supports privacy by mentioning privacy and governance in the context of AI/ML research and collaboration, indicating ongoing efforts in these areas.",
+          "title": "2024-25 Intel Corporate Responsibility Report",
+          "url": "https://csrreportbuilder.intel.com/pdfbuilder/pdfs/CSR-2024-25-Full-Report.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "The \"Intel Responsible AI - E Book\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. This company-owned guide details Intel's commitment to responsible AI development by outlining developer responsibilities for providing information on AI training and bias results (supporting **fairness** and **transparency**), and by integrating an \"Ethical Impact Assessment process\" into AI lifecycle processes (supporting **governance** and **oversight**). Furthermore, the e-book explicitly prioritizes privacy and data rights, detailing commitments to user choice and data protection, and references external regulations like the EU AI Act, demonstrating **external_accountability**.",
+          "title": "Intel Responsible AI - E Book",
+          "url": "https://intel.com/content/dam/www/central-libraries/us/en/documents/2024-09/responsible-ai-ebook-rev2-6.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This press release from Intel describes their multidisciplinary Responsible AI Advisory Councils, which conduct lifecycle reviews of AI projects across six risk areas. The source provides evidence for **explainability**, **fairness**, **governance**, **privacy**, and **transparency** by detailing their research focus areas and policy-level commitments to addressing AI risks and potential harms. It also supports **external accountability** through their participation in external alliances and working groups focused on developing Responsible AI solutions and standards.",
+          "title": "How Intel is Refining Its Approach to Responsible AI",
+          "url": "https://intel.com/content/www/us/en/newsroom/opinion/how-intel-refining-approach-responsible-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI Research - Intel Labs,\" provides evidence for the pillars of explainability, fairness, governance, privacy, and transparency. The document supports governance by detailing a commitment to responsible AI development and use, including advisory councils reviewing AI activities based on principles. Evidence for fairness is found in the description of active monitoring for bias and discrimination using bias detection tools, and a commitment to addressing ethical data use and discrimination. The paper also supports privacy and transparency by stating their importance for AI data collection, user control, and data protection guardrails.",
+          "title": "Responsible AI Research - Intel Labs",
+          "url": "https://intel.com/content/www/us/en/research/responsible-ai-research.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"OpenFL: the open federated learning library,\" provides evidence for fairness, governance, privacy, and transparency. It supports the privacy pillar by describing a framework that enables data-private federated learning, keeping sensitive data local and secure. The paper also addresses fairness by discussing the risk of AI bias due to lack of data diversity and advocating for federated learning as a privacy-preserving approach to improve fairness and accuracy, citing examples of bias in healthcare and AI algorithms. Evidence for governance and transparency is implied through the discussion of security and confidentiality recommendations and the framework's capabilities for ML/DL model training and presentation.",
+          "title": "OpenFL: the open federated learning library",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9715347"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_027",
+          "source_tier": "authority",
+          "summary": "This Intel 2024 Form 10-K SEC filing provides evidence for external_accountability, governance, privacy, and transparency. The filing supports external_accountability through descriptions of supplier verification for human rights compliance and an internal foundry model designed for accountability. Governance is evidenced by discussions of export controls on AI products, policies to evaluate and restrict business use impacting human rights, and the leadership of AI strategy by a named executive. Privacy is supported by mentions of privacy legislation and data protection measures for AI applications, while transparency is demonstrated through the focus on AI in R&D, the mention of \"oneAPI\" for open standards, and the disclosure of AI PC launches and capabilities.",
+          "title": "Annual Report - Form 10-K (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/50863/000005086325000052/a2024arsform10-k.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 66,
+      "findings": "Intel's documentation explicitly mentions transparency as a key area of discussion and identifies risks related to it. The company provides technical documentation describing operational steps for ML inference services, including running examples and checking logs, and details tools designed to expose model information and generate interactive reports on model performance and limitations. Furthermore, Intel's materials outline developer responsibilities for providing information on AI training and bias results, discuss security and confidentiality recommendations, and disclose AI PC launches and capabilities.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This charter document, \"Business Roundtable on Human Rights & AI,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars. It supports **fairness** by explicitly mentioning the goal of mitigating unintended bias in AI. The document's focus on integrating human rights into AI standards, managing risks in AI development and deployment, and convening industry leaders to address these challenges demonstrates strong support for the **governance** pillar. Finally, the explicit mention of **transparency** as a key area of discussion further aligns this source with the transparency pillar.",
+          "title": "Business Roundtable on Human Rights & AI",
+          "url": "https://articleoneadvisors.com/roundtable-on-human-rights-ai"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Human Rights and AI - Intel Case Study,\" provides evidence for the **governance**, **fairness**, **transparency**, and **privacy** pillars of responsible AI. The report documents Intel's formation of a dedicated AI Ethics and Human Rights team and the implementation of a human rights impact assessment process, demonstrating operational governance structures and a policy-level commitment to managing AI risks. Specifically, the assessment identified risks related to algorithmic bias, transparency, and privacy infringement, directly supporting these pillars.",
+          "title": "Human Rights and AI - Intel Case Study",
+          "url": "https://articleoneadvisors.com/sample-work/intel-case-study"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This technical documentation for Intel's BigDL PPML framework provides evidence for the **privacy**, **transparency**, and **governance** pillars. It supports the privacy pillar by detailing mechanisms for protecting data confidentiality during compute, storage, and network operations. The guide also demonstrates transparency and governance by describing operational steps for ML inference services, including running examples and checking logs for results and accuracy, enabling responsible data handling in untrusted environments.",
+          "title": "Privacy Preserving Machine Learning (PPML) User Guide",
+          "url": "https://bigdl.readthedocs.io/en/latest/doc/PPML/Overview/ppml.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This system card for Intel's Explainable AI Tools repository provides evidence for the **explainability**, **fairness**, and **transparency** pillars. The repository details tools designed to detect and mitigate fairness and interpretability issues, and to expose model information, directly supporting these responsible AI principles. Specifically, the tools offer methods for examining predictive behavior and generating reports with fairness metrics, aligning with the need for understanding and governing AI models.",
+          "title": "Intel Explainable AI Tools - GitHub Repository",
+          "url": "https://github.com/intel/intel-xai-tools"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "The \"Intel Responsible AI - E Book\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. This company-owned guide details Intel's commitment to responsible AI development by outlining developer responsibilities for providing information on AI training and bias results (supporting **fairness** and **transparency**), and by integrating an \"Ethical Impact Assessment process\" into AI lifecycle processes (supporting **governance** and **oversight**). Furthermore, the e-book explicitly prioritizes privacy and data rights, detailing commitments to user choice and data protection, and references external regulations like the EU AI Act, demonstrating **external_accountability**.",
+          "title": "Intel Responsible AI - E Book",
+          "url": "https://intel.com/content/dam/www/central-libraries/us/en/documents/2024-09/responsible-ai-ebook-rev2-6.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post discusses Intel's Jurity open-source package for evaluating AI model fairness without demographic data, supporting the **fairness** pillar by proposing a new evaluation method. The post also touches upon **transparency** by addressing challenges with large AI models and data curation, and hints at **governance** through discussions of data curation. Furthermore, it suggests a commitment to **external accountability** by advocating for rigorous, open testing of AI models.",
+          "title": "A New Approach for Evaluating AI Model Fairness - Intel",
+          "url": "https://intel.com/content/www/us/en/developer/articles/community/a-new-approach-for-evaluating-ai-model-fairness.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Intel® Explainable AI Tools,\" provides evidence for **explainability**, **transparency**, and **governance**. It describes tools that generate interactive reports documenting model performance, fairness, and limitations, supporting transparency and governance. Furthermore, it details visualization capabilities for understanding model behavior and identifying interpretability gaps, directly addressing explainability.",
+          "title": "Intel® Explainable AI Tools",
+          "url": "https://intel.com/content/www/us/en/developer/articles/reference-implementation/explainable-ai-tools.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_019",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Artificial Intelligence (AI) in Cybersecurity – Intel,\" provides evidence for the **transparency** pillar of responsible AI. The source describes various AI use cases and capabilities in cybersecurity, such as threat detection, monitoring, and vulnerability management, but does so in a general, narrative manner without detailing specific systems, policies, or implementations.",
+          "title": "Artificial Intelligence (AI) in Cybersecurity – Intel",
+          "url": "https://intel.com/content/www/us/en/learn/ai-in-cybersecurity.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_020",
+          "source_tier": "company_owned",
+          "summary": "This press release from Intel describes their multidisciplinary Responsible AI Advisory Councils, which conduct lifecycle reviews of AI projects across six risk areas. The source provides evidence for **explainability**, **fairness**, **governance**, **privacy**, and **transparency** by detailing their research focus areas and policy-level commitments to addressing AI risks and potential harms. It also supports **external accountability** through their participation in external alliances and working groups focused on developing Responsible AI solutions and standards.",
+          "title": "How Intel is Refining Its Approach to Responsible AI",
+          "url": "https://intel.com/content/www/us/en/newsroom/opinion/how-intel-refining-approach-responsible-ai.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This Intel blog post advocates for a risk-based, principles-driven approach to AI policy and regulation. It provides evidence for **governance** by outlining a commitment to AI policy measures and encouraging regulatory evaluation of AI use cases for compliance. The post also supports **transparency** and **fairness** by mentioning specific AI requirements like data governance and bias mitigation.",
+          "title": "Artificial Intelligence Policy",
+          "url": "https://intel.com/content/www/us/en/policy/policy-artificial-intelligence.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI Research - Intel Labs,\" provides evidence for the pillars of explainability, fairness, governance, privacy, and transparency. The document supports governance by detailing a commitment to responsible AI development and use, including advisory councils reviewing AI activities based on principles. Evidence for fairness is found in the description of active monitoring for bias and discrimination using bias detection tools, and a commitment to addressing ethical data use and discrimination. The paper also supports privacy and transparency by stating their importance for AI data collection, user control, and data protection guardrails.",
+          "title": "Responsible AI Research - Intel Labs",
+          "url": "https://intel.com/content/www/us/en/research/responsible-ai-research.html"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This system card for CLIP-InterpreT provides evidence for the **explainability** and **transparency** pillars of responsible AI. It describes an interactive interpretability tool designed for vision-language models, detailing analysis types like layer characterization, property segmentation, attention visualization, and causal analysis. These mechanisms allow for systematic exploration and identification of potential biases and failure modes, thereby enhancing transparency in the model's behavior and explainability of its decision-making processes.",
+          "title": "CLIP-InterpreT - Intel Labs",
+          "url": "https://intellabs.github.io/multimodal_cognitive_ai/CLIP-InterpreT"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"OpenFL: the open federated learning library,\" provides evidence for fairness, governance, privacy, and transparency. It supports the privacy pillar by describing a framework that enables data-private federated learning, keeping sensitive data local and secure. The paper also addresses fairness by discussing the risk of AI bias due to lack of data diversity and advocating for federated learning as a privacy-preserving approach to improve fairness and accuracy, citing examples of bias in healthcare and AI algorithms. Evidence for governance and transparency is implied through the discussion of security and confidentiality recommendations and the framework's capabilities for ML/DL model training and presentation.",
+          "title": "OpenFL: the open federated learning library",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9715347"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_027",
+          "source_tier": "authority",
+          "summary": "This Intel 2024 Form 10-K SEC filing provides evidence for external_accountability, governance, privacy, and transparency. The filing supports external_accountability through descriptions of supplier verification for human rights compliance and an internal foundry model designed for accountability. Governance is evidenced by discussions of export controls on AI products, policies to evaluate and restrict business use impacting human rights, and the leadership of AI strategy by a named executive. Privacy is supported by mentions of privacy legislation and data protection measures for AI applications, while transparency is demonstrated through the focus on AI in R&D, the mention of \"oneAPI\" for open standards, and the disclosure of AI PC launches and capabilities.",
+          "title": "Annual Report - Form 10-K (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/50863/000005086325000052/a2024arsform10-k.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_028",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Mobileye provides evidence for the **governance** and **transparency** pillars of responsible AI. It details a safety architecture based on the Responsibility-Sensitive Safety (RSS) model, which formalizes safe driving decisions and addresses failure modes, demonstrating a governance approach to system reliability. Furthermore, the paper offers transparency by describing specific ML models like ResNet, their mathematical formulations, learning mechanics, and convergence dynamics, as well as the perception and planning phases of the self-driving system.",
+          "title": "A Safety Architecture for Self-Driving Systems - Mobileye",
+          "url": "https://static.mobileye.com/website/us/corporate/files/SDS_Safety_Architecture.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This Intel patent application provides evidence for **fairness**, **governance**, and **transparency** by detailing a system designed to detect social biases in visual training data using saliency models and psychophysiological approaches. The application describes mechanisms for scoring bias likelihood and retraining models to mitigate downstream AI bias, demonstrating a commitment to fairness and outlining governance practices for AI development and monitoring. The system's capability to identify bias in images also contributes to transparency regarding AI function.",
+          "title": "Intel Wants to Beat Bias in AI Training Data",
+          "url": "https://thedailyupside.com/technology/artificial-intelligence/intel-wants-to-beat-bias-ai-training-data"
+        }
+      ],
+      "score": 2,
+      "source_count": 16
+    }
+  },
+  "published_at": "2026-02-23T21:52:49Z",
+  "run_id": "20260202_222740_5bf4",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Intel's published materials detail tools designed to detect and mitigate interpretability issues, demonstrating operational practices for explainability. All 7 evaluated pillars have documented public evidence, with policy-level discussions on transparency explicitly mentioning it as a key area, and fairness materials noting the goal of mitigating unintended bias in AI. Operational practices also include technical documentation outlining mechanisms for protecting data confidentiality for privacy, and the formation of a dedicated AI Ethics and Human Rights team for governance. Furthermore, an e-book describes integrating an \"Ethical Impact Assessment process\" into AI lifecycle processes for oversight, and external accountability is supported through references to external regulations like the EU AI Act. This assessment draws on 29 publicly available sources.",
+    "pillars_operational": 7,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 152,
+    "total_sources_used": 22
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Walgreens",
+  "company_slug": "walgreens",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 17,
+      "OPERATIONAL": 3,
+      "POLICY": 32
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Policy documents discuss profiling and inferred data, suggesting the need for potential explanations around AI-driven processes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This Walgreens Online Privacy and Security policy document provides evidence for **explainability, fairness, governance, privacy, and transparency**. It supports **privacy** by detailing the collection of sensitive inferred health data, network activity, and geolocation, and by outlining opt-out mechanisms for profiling and targeted advertising. The policy also demonstrates **governance** through its defined processes and timeframes for handling user opt-out requests related to automated decision-making and profiling, and touches upon **transparency** by mentioning data sharing with third parties for advertising. Evidence for **fairness** and **explainability** is implied through the discussion of profiling and inferred data, suggesting the need for controls and potential explanations around these AI-driven processes.",
+          "title": "Walgreens Online Privacy and Security - Detailed Policy",
+          "url": "https://walgreens.com/topic/help/generalhelp/privacyandsecurity.jsp"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "Policy documents discuss profiling and inferred data, suggesting the need for controls related to fairness in AI-driven processes. Additionally, sources reference an AI committee, an AI Advisory Board, and an AI Council focused on bias filtering.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This Walgreens Online Privacy and Security policy document provides evidence for **explainability, fairness, governance, privacy, and transparency**. It supports **privacy** by detailing the collection of sensitive inferred health data, network activity, and geolocation, and by outlining opt-out mechanisms for profiling and targeted advertising. The policy also demonstrates **governance** through its defined processes and timeframes for handling user opt-out requests related to automated decision-making and profiling, and touches upon **transparency** by mentioning data sharing with third parties for advertising. Evidence for **fairness** and **explainability** is implied through the discussion of profiling and inferred data, suggesting the need for controls and potential explanations around these AI-driven processes.",
+          "title": "Walgreens Online Privacy and Security - Detailed Policy",
+          "url": "https://walgreens.com/topic/help/generalhelp/privacyandsecurity.jsp"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This third-party account of Walgreens' AI implementation provides evidence for fairness, governance, oversight, privacy, and transparency. The source indicates governance and policy through mentions of an AI committee, an AI Advisory Board, and an AI Council focused on responsible AI use, bias filtering, and data controls. Oversight is suggested by employee \"review and modify\" processes, while transparency is implied by descriptions of AI assistant functions, response generation, and trend surfacing. Privacy is supported by mentions of guidelines for AI use and AI security as a foundational priority.",
+          "title": "Walgreens AI Implementation for Customer Experience",
+          "url": "https://medallia.com/blog/new-trends-in-cx-ai-what-we-learned-experience"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 21,
+      "findings": "Walgreens' SEC filings disclose risks associated with AI and machine learning integration. An ESG report details the corporate governance structure, including board committee oversight of ESG responsibilities, enterprise risk assessment, and cybersecurity, identifying data privacy and security as a top priority and referencing oversight of AI initiatives. Policy documents demonstrate governance through defined processes for handling user opt-out requests related to automated decision-making and profiling. Additionally, sources reference an AI committee, an AI Advisory Board, and an AI Council focused on responsible AI use, bias filtering, and data controls, and a news report highlights the need for human monitoring and oversight of AI systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "This SEC filing, Walgreens' 2024 Form 10-K, provides evidence for the **governance** pillar of responsible AI. The document explicitly discloses risks associated with AI and machine learning integration, indicating a proactive approach to managing these potential challenges. Furthermore, it details the Chief Information Security Officer's accountability structure, alignment with the NIST Cybersecurity Framework, and the Audit Committee's oversight of cybersecurity and data privacy risks through regular CISO briefings, all of which are key components of robust governance.",
+          "title": "Form 10-K Fiscal 2024 - Risk Factors and Cybersecurity Disclosure",
+          "url": "https://sec.gov/Archives/edgar/data/1618921/000119312524277846/d896007dars.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This ESG Impact Report 2024, a company-owned policy document, provides evidence for the **governance** pillar of responsible AI. The report details the corporate governance structure, including board committee oversight of ESG responsibilities, enterprise risk assessment, and cybersecurity, with data privacy and security identified as a top priority. The mention of an \"AI project\" and collaboration within this governance framework indicates oversight of AI initiatives.",
+          "title": "ESG Impact Report 2024",
+          "url": "https://corporate.walgreens.com/wp-content/uploads/2025/09/Impact-Report-2024.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This Walgreens Online Privacy and Security policy document provides evidence for **explainability, fairness, governance, privacy, and transparency**. It supports **privacy** by detailing the collection of sensitive inferred health data, network activity, and geolocation, and by outlining opt-out mechanisms for profiling and targeted advertising. The policy also demonstrates **governance** through its defined processes and timeframes for handling user opt-out requests related to automated decision-making and profiling, and touches upon **transparency** by mentioning data sharing with third parties for advertising. Evidence for **fairness** and **explainability** is implied through the discussion of profiling and inferred data, suggesting the need for controls and potential explanations around these AI-driven processes.",
+          "title": "Walgreens Online Privacy and Security - Detailed Policy",
+          "url": "https://walgreens.com/topic/help/generalhelp/privacyandsecurity.jsp"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This third-party account of Walgreens' AI implementation provides evidence for fairness, governance, oversight, privacy, and transparency. The source indicates governance and policy through mentions of an AI committee, an AI Advisory Board, and an AI Council focused on responsible AI use, bias filtering, and data controls. Oversight is suggested by employee \"review and modify\" processes, while transparency is implied by descriptions of AI assistant functions, response generation, and trend surfacing. Privacy is supported by mentions of guidelines for AI use and AI security as a foundational priority.",
+          "title": "Walgreens AI Implementation for Customer Experience",
+          "url": "https://medallia.com/blog/new-trends-in-cx-ai-what-we-learned-experience"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This news report on the Walgreens mobile app data breach provides evidence for the **governance** and **oversight** pillars of responsible AI. The article highlights the need for human monitoring and oversight of AI systems, warning against assuming automation guarantees security, which directly supports the governance pillar by implying a structured approach to AI development and deployment. Furthermore, the emphasis on human oversight in AI defense systems underscores the importance of robust oversight mechanisms, thus supporting the oversight pillar.",
+          "title": "Walgreens Mobile App Data Breach Notification",
+          "url": "https://www.securityweek.com/walgreens-discloses-data-breach-related-mobile-app"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Sources reference employee \"review and modify\" processes related to AI. A news report also highlights the need for human monitoring and oversight of AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This third-party account of Walgreens' AI implementation provides evidence for fairness, governance, oversight, privacy, and transparency. The source indicates governance and policy through mentions of an AI committee, an AI Advisory Board, and an AI Council focused on responsible AI use, bias filtering, and data controls. Oversight is suggested by employee \"review and modify\" processes, while transparency is implied by descriptions of AI assistant functions, response generation, and trend surfacing. Privacy is supported by mentions of guidelines for AI use and AI security as a foundational priority.",
+          "title": "Walgreens AI Implementation for Customer Experience",
+          "url": "https://medallia.com/blog/new-trends-in-cx-ai-what-we-learned-experience"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This news report on the Walgreens mobile app data breach provides evidence for the **governance** and **oversight** pillars of responsible AI. The article highlights the need for human monitoring and oversight of AI systems, warning against assuming automation guarantees security, which directly supports the governance pillar by implying a structured approach to AI development and deployment. Furthermore, the emphasis on human oversight in AI defense systems underscores the importance of robust oversight mechanisms, thus supporting the oversight pillar.",
+          "title": "Walgreens Mobile App Data Breach Notification",
+          "url": "https://www.securityweek.com/walgreens-discloses-data-breach-related-mobile-app"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 25,
+      "findings": "Policy documents detail the collection of sensitive inferred health data, network activity, and geolocation, and outline opt-out mechanisms for profiling and targeted advertising. A system card describes the use of encrypted patient data analysis, consent-based patient contact mechanisms, and HIPAA compliance protocols for clinical trial recruitment. Additionally, sources reference guidelines for AI use and AI security as a foundational priority.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This Walgreens Online Privacy and Security policy document provides evidence for **explainability, fairness, governance, privacy, and transparency**. It supports **privacy** by detailing the collection of sensitive inferred health data, network activity, and geolocation, and by outlining opt-out mechanisms for profiling and targeted advertising. The policy also demonstrates **governance** through its defined processes and timeframes for handling user opt-out requests related to automated decision-making and profiling, and touches upon **transparency** by mentioning data sharing with third parties for advertising. Evidence for **fairness** and **explainability** is implied through the discussion of profiling and inferred data, suggesting the need for controls and potential explanations around these AI-driven processes.",
+          "title": "Walgreens Online Privacy and Security - Detailed Policy",
+          "url": "https://walgreens.com/topic/help/generalhelp/privacyandsecurity.jsp"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This system card, \"Clinical Trials Case Study - Moderna,\" provides evidence for the **privacy** pillar. It supports this by describing Walgreens' use of encrypted patient data analysis and consent-based patient contact mechanisms for clinical trial recruitment, demonstrating a commitment to protecting sensitive health information. The document also highlights HIPAA compliance protocols within their algorithmic matching processes.",
+          "title": "Clinical Trials Case Study - Moderna",
+          "url": "https://walgreens.com/assets/healthcare-solutions/pdf/Clinical-Trials-WH_CT_Case_Study-PDF_F1.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This third-party account of Walgreens' AI implementation provides evidence for fairness, governance, oversight, privacy, and transparency. The source indicates governance and policy through mentions of an AI committee, an AI Advisory Board, and an AI Council focused on responsible AI use, bias filtering, and data controls. Oversight is suggested by employee \"review and modify\" processes, while transparency is implied by descriptions of AI assistant functions, response generation, and trend surfacing. Privacy is supported by mentions of guidelines for AI use and AI security as a foundational priority.",
+          "title": "Walgreens AI Implementation for Customer Experience",
+          "url": "https://medallia.com/blog/new-trends-in-cx-ai-what-we-learned-experience"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 22,
+      "findings": "Walgreens' policy documents mention data sharing with third parties for advertising. A case study describes the components, capabilities, and functions of an AI-powered demand forecasting system, offering transparency into its use case and business outcomes. Other descriptions reference AI assistant functions, response generation, and trend surfacing.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This Walgreens Online Privacy and Security policy document provides evidence for **explainability, fairness, governance, privacy, and transparency**. It supports **privacy** by detailing the collection of sensitive inferred health data, network activity, and geolocation, and by outlining opt-out mechanisms for profiling and targeted advertising. The policy also demonstrates **governance** through its defined processes and timeframes for handling user opt-out requests related to automated decision-making and profiling, and touches upon **transparency** by mentioning data sharing with third parties for advertising. Evidence for **fairness** and **explainability** is implied through the discussion of profiling and inferred data, suggesting the need for controls and potential explanations around these AI-driven processes.",
+          "title": "Walgreens Online Privacy and Security - Detailed Policy",
+          "url": "https://walgreens.com/topic/help/generalhelp/privacyandsecurity.jsp"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party case study on Walgreens' AI-powered demand forecasting system provides evidence for the **transparency** pillar. The case study details the AI system's components, including models, apps, and APIs, and describes its capabilities for streamlining workflows, automating tasks, and driving efficiency. It also highlights the AI's function in generating insights and supporting operational enhancement, offering transparency into the AI's use case and its potential business outcomes.",
+          "title": "Walgreens AI-Powered Demand Forecasting Case Study",
+          "url": "https://www.zebra.com/us/en/resource-library/success-stories/walgreens-leverages-zebras-ai-powered-demand-forecasting-to-thrive-in-volatile-markets.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This third-party account of Walgreens' AI implementation provides evidence for fairness, governance, oversight, privacy, and transparency. The source indicates governance and policy through mentions of an AI committee, an AI Advisory Board, and an AI Council focused on responsible AI use, bias filtering, and data controls. Oversight is suggested by employee \"review and modify\" processes, while transparency is implied by descriptions of AI assistant functions, response generation, and trend surfacing. Privacy is supported by mentions of guidelines for AI use and AI security as a foundational priority.",
+          "title": "Walgreens AI Implementation for Customer Experience",
+          "url": "https://medallia.com/blog/new-trends-in-cx-ai-what-we-learned-experience"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T22:00:29Z",
+  "run_id": "20260203_023510_fb03",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Walgreens' public disclosures include an SEC filing that details risks associated with AI and machine learning integration, alongside an ESG report outlining board committee oversight of ESG responsibilities. These materials address 6 of 7 evaluated responsible AI pillars, with transparency, fairness, explainability, oversight, and privacy documented at the policy level. Policy documents for transparency mention data sharing with third parties for advertising, while fairness materials reference an AI committee and an AI Advisory Board focused on bias filtering. No qualifying public evidence was found for external accountability, based on a review of 13 publicly available sources.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 52,
+    "total_sources_used": 7
+  }
+}

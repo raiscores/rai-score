@@ -1,0 +1,484 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Freddie Mac",
+  "company_slug": "freddie-mac",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 24,
+      "OPERATIONAL": 16,
+      "POLICY": 95
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 9,
+      "findings": "FHFA Advisory Bulletin 2022-02 explicitly mentions and requires explainability and interpretability in AI/ML systems. Freddie Mac's technical papers detail the acquisition of platforms for model explainability. However, investigative journalism highlights a lack of explainability in proprietary underwriting software, with decisions described as \"mysterious,\" and a company filing acknowledges the challenges of models that are \"not easily interpretable.\"",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This policy document, FHFA Advisory Bulletin 2022-02, provides substantial evidence for responsible AI, supporting the pillars of explainability, external accountability, fairness, governance, oversight, and transparency. The bulletin mandates enterprise-wide AI/ML strategy and governance structures, including risk identification, assessment, and lifecycle monitoring, directly supporting governance and oversight. It explicitly mentions and requires explainability, interpretability, and transparency in AI/ML systems, and mandates independent review of third-party AI/ML models, demonstrating evidence for external accountability and transparency. Furthermore, the document establishes core ethical principles for AI/ML use, including fairness and equity, and outlines requirements for documenting use cases and maintaining AI/ML inventories, reinforcing the transparency pillar.",
+          "title": "FHFA Advisory Bulletin 2022-02: Artificial Intelligence/Machine Learning Risk Management",
+          "url": "https://fhfa.gov/advisory-bulletin/ab-2022-02"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Freddie Mac documents their approach to responsible AI, providing evidence for **explainability, fairness, governance, and transparency**. The paper details the acquisition of Zest AI's platform for model explainability and fair lending tools, and the use of Generative Adversarial Networks (GANs) for adversarial debiasing to improve fairness while maintaining accuracy. Furthermore, it describes automated processes, rules-based engines, and ML models for income verification, alongside fair lending testing and the search for less discriminatory alternatives, all of which demonstrate operational commitment to these pillars.",
+          "title": "Freddie Mac CRT Quarterly Webcast: Machine Learning Risk Management and Fair Lending",
+          "url": "https://capitalmarkets.freddiemac.com/crt/docs/pdfs/freddie-mac-crt-webcast_july-2022.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This investigative journalism piece provides evidence for **explainability, fairness, governance, oversight, and transparency**. It highlights a lack of transparency and explainability in proprietary underwriting software, with decisions described as \"mysterious.\" The report details significant fairness concerns, presenting statistical findings of bias against minority borrowers in loan application rejections, even when accounting for credit scores. Furthermore, it touches upon governance and oversight through mentions of regulatory requests for changes to underwriting criteria and the mandated use of specific credit scoring algorithms.",
+          "title": "The Secret Bias Hidden in Mortgage-Approval Algorithms",
+          "url": "https://publicintegrity.org/inequality-poverty-opportunity/bias-mortgage-approval-algorithms"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "The Freddie Mac Form 10-K Full Year 2024 SEC filing provides evidence for several Responsible AI pillars. It supports **governance** by detailing risk management practices, model validation, and oversight mechanisms for automated systems and third-party vendors. The filing also touches upon **fairness** by mentioning non-discriminatory pricing and equitable access, and **explainability** by acknowledging the challenges of models that are \"not easily interpretable.\" Furthermore, it indicates **external accountability** through discussions of regulatory compliance and independent validation processes. Finally, the document supports **oversight** by describing human review and management adjustments to model outputs, and **privacy** by acknowledging AI's subjection to privacy laws.",
+          "title": "Freddie Mac Form 10-K Full Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1026214/000102621425000040/fmcc-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 9,
+      "findings": "FHFA reports highlight the establishment of an office to address AI/ML risks and reference foundational regulatory monitoring of AI governance practices. Advisory bulletins mandate independent review of third-party AI/ML models. Updated Seller/Servicer Guide includes enhanced requirements and best practices for accountability within AI and ML initiatives, with company filings indicating external accountability through discussions of regulatory compliance and independent validation processes.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This FHFA OIG audit report provides evidence for **governance**, **transparency**, **fairness**, **oversight**, and **external accountability**. The report details Freddie Mac's AI/ML inventory and identifies \"black box risk\" as a primary concern, indicating a focus on **governance** and **transparency** through efforts to enhance algorithm explainability. It also highlights the FHFA's expectations for ethical principles addressing bias, risk management guidance, and the establishment of an office to address AI/ML risks, supporting **fairness**, **oversight**, and **external accountability**.",
+          "title": "FHFA OIG White Paper: Enterprise Use of Artificial Intelligence and Machine Learning",
+          "url": "https://fhfaoig.gov/sites/default/files/WPR-2022-002.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This policy document, FHFA Advisory Bulletin 2022-02, provides substantial evidence for responsible AI, supporting the pillars of explainability, external accountability, fairness, governance, oversight, and transparency. The bulletin mandates enterprise-wide AI/ML strategy and governance structures, including risk identification, assessment, and lifecycle monitoring, directly supporting governance and oversight. It explicitly mentions and requires explainability, interpretability, and transparency in AI/ML systems, and mandates independent review of third-party AI/ML models, demonstrating evidence for external accountability and transparency. Furthermore, the document establishes core ethical principles for AI/ML use, including fairness and equity, and outlines requirements for documenting use cases and maintaining AI/ML inventories, reinforcing the transparency pillar.",
+          "title": "FHFA Advisory Bulletin 2022-02: Artificial Intelligence/Machine Learning Risk Management",
+          "url": "https://fhfa.gov/advisory-bulletin/ab-2022-02"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This Federal agency performance report provides evidence for **external accountability, fairness, governance, oversight, and transparency**. The report references foundational regulatory monitoring of Freddie Mac's AI governance practices and enterprise-wide AI/ML risk management, including the development of an AI Risk Management Framework and Advisory Bulletin 2022-02. It also mentions \"Equitable Housing Finance Plans\" and \"fair lending examinations,\" indicating a policy focus on fairness in AI/ML use.",
+          "title": "FHFA FY 2022 Performance and Accountability Report",
+          "url": "https://fhfa.gov/sites/default/files/2023-04/FHFA-2022-PAR.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This press release from Freddie Mac details the issuance of updated guidelines for AI use by mortgage companies, effective March 3, 2026. The updated Seller/Servicer Guide includes enhanced requirements and best practices for transparency, accountability, and ethical stewardship within AI and ML initiatives, providing evidence for the **transparency**, **external_accountability**, and **governance** pillars. Specifically, the guide establishes a governance framework for AI, supports regulatory alignment and risk mitigation, and mandates transparency and accountability in AI/ML use, indicating policies for responsible deployment.",
+          "title": "Freddie Mac Issues Guidelines for AI Use by Mortgage Companies",
+          "url": "https://ndba.com/news/FreddieMacIssuesGuidelinesforAIUsebyMortgageCompanies"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "The Freddie Mac Form 10-K Full Year 2024 SEC filing provides evidence for several Responsible AI pillars. It supports **governance** by detailing risk management practices, model validation, and oversight mechanisms for automated systems and third-party vendors. The filing also touches upon **fairness** by mentioning non-discriminatory pricing and equitable access, and **explainability** by acknowledging the challenges of models that are \"not easily interpretable.\" Furthermore, it indicates **external accountability** through discussions of regulatory compliance and independent validation processes. Finally, the document supports **oversight** by describing human review and management adjustments to model outputs, and **privacy** by acknowledging AI's subjection to privacy laws.",
+          "title": "Freddie Mac Form 10-K Full Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1026214/000102621425000040/fmcc-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 32,
+      "findings": "Freddie Mac's policy explicitly states that AI/ML use is guided by ethical principles including fairness, with documents establishing core ethical principles for AI/ML use, including fairness and equity. Technical papers describe the acquisition of fair lending tools and the use of Generative Adversarial Networks (GANs) for adversarial debiasing to improve fairness, alongside fair lending testing. However, investigative journalism highlights significant fairness concerns, presenting statistical findings of bias against minority borrowers in loan application rejections.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This Freddie Mac Code of Conduct policy document provides evidence for **fairness, governance, and transparency**. The policy explicitly states that AI/ML use is guided by ethical principles including fairness, accountability, and transparency. Furthermore, it mandates the implementation of processes to ensure consistent and reliable AI/ML outcomes, demonstrating a commitment to operational governance.",
+          "title": "Freddie Mac Code of Conduct - AI & Machine Learning Section",
+          "url": "https://freddiemac.com/governance/pdf/code_of_conduct.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This FHFA OIG audit report provides evidence for **governance**, **transparency**, **fairness**, **oversight**, and **external accountability**. The report details Freddie Mac's AI/ML inventory and identifies \"black box risk\" as a primary concern, indicating a focus on **governance** and **transparency** through efforts to enhance algorithm explainability. It also highlights the FHFA's expectations for ethical principles addressing bias, risk management guidance, and the establishment of an office to address AI/ML risks, supporting **fairness**, **oversight**, and **external accountability**.",
+          "title": "FHFA OIG White Paper: Enterprise Use of Artificial Intelligence and Machine Learning",
+          "url": "https://fhfaoig.gov/sites/default/files/WPR-2022-002.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This policy document, FHFA Advisory Bulletin 2022-02, provides substantial evidence for responsible AI, supporting the pillars of explainability, external accountability, fairness, governance, oversight, and transparency. The bulletin mandates enterprise-wide AI/ML strategy and governance structures, including risk identification, assessment, and lifecycle monitoring, directly supporting governance and oversight. It explicitly mentions and requires explainability, interpretability, and transparency in AI/ML systems, and mandates independent review of third-party AI/ML models, demonstrating evidence for external accountability and transparency. Furthermore, the document establishes core ethical principles for AI/ML use, including fairness and equity, and outlines requirements for documenting use cases and maintaining AI/ML inventories, reinforcing the transparency pillar.",
+          "title": "FHFA Advisory Bulletin 2022-02: Artificial Intelligence/Machine Learning Risk Management",
+          "url": "https://fhfa.gov/advisory-bulletin/ab-2022-02"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Freddie Mac documents their approach to responsible AI, providing evidence for **explainability, fairness, governance, and transparency**. The paper details the acquisition of Zest AI's platform for model explainability and fair lending tools, and the use of Generative Adversarial Networks (GANs) for adversarial debiasing to improve fairness while maintaining accuracy. Furthermore, it describes automated processes, rules-based engines, and ML models for income verification, alongside fair lending testing and the search for less discriminatory alternatives, all of which demonstrate operational commitment to these pillars.",
+          "title": "Freddie Mac CRT Quarterly Webcast: Machine Learning Risk Management and Fair Lending",
+          "url": "https://capitalmarkets.freddiemac.com/crt/docs/pdfs/freddie-mac-crt-webcast_july-2022.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This Federal agency performance report provides evidence for **external accountability, fairness, governance, oversight, and transparency**. The report references foundational regulatory monitoring of Freddie Mac's AI governance practices and enterprise-wide AI/ML risk management, including the development of an AI Risk Management Framework and Advisory Bulletin 2022-02. It also mentions \"Equitable Housing Finance Plans\" and \"fair lending examinations,\" indicating a policy focus on fairness in AI/ML use.",
+          "title": "FHFA FY 2022 Performance and Accountability Report",
+          "url": "https://fhfa.gov/sites/default/files/2023-04/FHFA-2022-PAR.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This investigative journalism piece provides evidence for **explainability, fairness, governance, oversight, and transparency**. It highlights a lack of transparency and explainability in proprietary underwriting software, with decisions described as \"mysterious.\" The report details significant fairness concerns, presenting statistical findings of bias against minority borrowers in loan application rejections, even when accounting for credit scores. Furthermore, it touches upon governance and oversight through mentions of regulatory requests for changes to underwriting criteria and the mandated use of specific credit scoring algorithms.",
+          "title": "The Secret Bias Hidden in Mortgage-Approval Algorithms",
+          "url": "https://publicintegrity.org/inequality-poverty-opportunity/bias-mortgage-approval-algorithms"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "The Freddie Mac Form 10-K Full Year 2024 SEC filing provides evidence for several Responsible AI pillars. It supports **governance** by detailing risk management practices, model validation, and oversight mechanisms for automated systems and third-party vendors. The filing also touches upon **fairness** by mentioning non-discriminatory pricing and equitable access, and **explainability** by acknowledging the challenges of models that are \"not easily interpretable.\" Furthermore, it indicates **external accountability** through discussions of regulatory compliance and independent validation processes. Finally, the document supports **oversight** by describing human review and management adjustments to model outputs, and **privacy** by acknowledging AI's subjection to privacy laws.",
+          "title": "Freddie Mac Form 10-K Full Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1026214/000102621425000040/fmcc-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 104,
+      "findings": "Freddie Mac's policy mandates processes for consistent AI/ML outcomes and states that AI/ML use is guided by ethical principles including accountability. FHFA bulletins and plans outline frameworks for responsible AI use, mandating enterprise-wide AI/ML strategy and governance structures, including risk identification, assessment, and lifecycle monitoring. Updated guidelines for mortgage companies establish a governance framework for AI, supporting regulatory alignment and mandating accountability, with company filings detailing risk management practices and model validation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This Freddie Mac Code of Conduct policy document provides evidence for **fairness, governance, and transparency**. The policy explicitly states that AI/ML use is guided by ethical principles including fairness, accountability, and transparency. Furthermore, it mandates the implementation of processes to ensure consistent and reliable AI/ML outcomes, demonstrating a commitment to operational governance.",
+          "title": "Freddie Mac Code of Conduct - AI & Machine Learning Section",
+          "url": "https://freddiemac.com/governance/pdf/code_of_conduct.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This SEC quarterly filing, \"Freddie Mac Form 10-Q Third Quarter 2025 - Risk Management,\" provides evidence for the **governance** pillar of responsible AI. The document acknowledges the emerging risks associated with the regulation of AI technologies by lenders and servicers, indicating a need for governance to manage compliance and potential impacts on Freddie Mac's mortgage portfolio.",
+          "title": "Freddie Mac Form 10-Q Third Quarter 2025 - Risk Management",
+          "url": "https://freddiemac.com/investors/financials/pdf/10q_3q25.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This FHFA OIG audit report provides evidence for **governance**, **transparency**, **fairness**, **oversight**, and **external accountability**. The report details Freddie Mac's AI/ML inventory and identifies \"black box risk\" as a primary concern, indicating a focus on **governance** and **transparency** through efforts to enhance algorithm explainability. It also highlights the FHFA's expectations for ethical principles addressing bias, risk management guidance, and the establishment of an office to address AI/ML risks, supporting **fairness**, **oversight**, and **external accountability**.",
+          "title": "FHFA OIG White Paper: Enterprise Use of Artificial Intelligence and Machine Learning",
+          "url": "https://fhfaoig.gov/sites/default/files/WPR-2022-002.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This policy document, FHFA Advisory Bulletin 2022-02, provides substantial evidence for responsible AI, supporting the pillars of explainability, external accountability, fairness, governance, oversight, and transparency. The bulletin mandates enterprise-wide AI/ML strategy and governance structures, including risk identification, assessment, and lifecycle monitoring, directly supporting governance and oversight. It explicitly mentions and requires explainability, interpretability, and transparency in AI/ML systems, and mandates independent review of third-party AI/ML models, demonstrating evidence for external accountability and transparency. Furthermore, the document establishes core ethical principles for AI/ML use, including fairness and equity, and outlines requirements for documenting use cases and maintaining AI/ML inventories, reinforcing the transparency pillar.",
+          "title": "FHFA Advisory Bulletin 2022-02: Artificial Intelligence/Machine Learning Risk Management",
+          "url": "https://fhfa.gov/advisory-bulletin/ab-2022-02"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Freddie Mac documents their approach to responsible AI, providing evidence for **explainability, fairness, governance, and transparency**. The paper details the acquisition of Zest AI's platform for model explainability and fair lending tools, and the use of Generative Adversarial Networks (GANs) for adversarial debiasing to improve fairness while maintaining accuracy. Furthermore, it describes automated processes, rules-based engines, and ML models for income verification, alongside fair lending testing and the search for less discriminatory alternatives, all of which demonstrate operational commitment to these pillars.",
+          "title": "Freddie Mac CRT Quarterly Webcast: Machine Learning Risk Management and Fair Lending",
+          "url": "https://capitalmarkets.freddiemac.com/crt/docs/pdfs/freddie-mac-crt-webcast_july-2022.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This Federal agency performance report provides evidence for **external accountability, fairness, governance, oversight, and transparency**. The report references foundational regulatory monitoring of Freddie Mac's AI governance practices and enterprise-wide AI/ML risk management, including the development of an AI Risk Management Framework and Advisory Bulletin 2022-02. It also mentions \"Equitable Housing Finance Plans\" and \"fair lending examinations,\" indicating a policy focus on fairness in AI/ML use.",
+          "title": "FHFA FY 2022 Performance and Accountability Report",
+          "url": "https://fhfa.gov/sites/default/files/2023-04/FHFA-2022-PAR.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Freddie Mac Loan Product Advisor (LPA) - Product Information,\" provides evidence for **governance** and **transparency**. The documentation describes the automated underwriting system's capabilities, implying a governed process for loan eligibility and outlining how the system offers transparency into its functionality, use cases, and intended outcomes through features like LPA Choice feedback and Automated Collateral Evaluation (ACE).",
+          "title": "Freddie Mac Loan Product Advisor (LPA) - Product Information",
+          "url": "https://sf.freddiemac.com/tools-learning/technology-tools/our-solutions/loan-product-advisor"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned FAQ, \"Freddie Mac Loan Product Advisor FAQ,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document details how rent history impacts risk assessment, outlines rules for applying automated systems based on risk class, and specifies data inclusion requirements for credit risk assessment, all demonstrating robust governance. Furthermore, it clarifies how data is used for credit risk assessment, explains the LPA Choice feature for transparent borrower outcome assessment, and describes the prioritization of benefits, showcasing transparency in the AI-driven decision-making process.",
+          "title": "Freddie Mac Loan Product Advisor FAQ",
+          "url": "https://sf.freddiemac.com/faqs/loan-product-advisor-faq"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Summary of Freddie Mac Bulletin 2025-16 - AI/ML Governance Framework,\" provides evidence for the **governance** pillar. It details mandatory requirements for mortgage sellers and servicers to document all AI/ML use, establish governance frameworks for transparency and accountability, and ensure senior management accountability. The bulletin also mandates annual reviews, disclosures, and indemnification for AI-driven decisions, indicating robust operational and policy governance mechanisms.",
+          "title": "Summary of Freddie Mac Bulletin 2025-16 - AI/ML Governance Framework",
+          "url": "https://tenaco.com/freddie-mac-issues-bulletin-2025-16-selling-updates"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This press release from Freddie Mac details the issuance of updated guidelines for AI use by mortgage companies, effective March 3, 2026. The updated Seller/Servicer Guide includes enhanced requirements and best practices for transparency, accountability, and ethical stewardship within AI and ML initiatives, providing evidence for the **transparency**, **external_accountability**, and **governance** pillars. Specifically, the guide establishes a governance framework for AI, supports regulatory alignment and risk mitigation, and mandates transparency and accountability in AI/ML use, indicating policies for responsible deployment.",
+          "title": "Freddie Mac Issues Guidelines for AI Use by Mortgage Companies",
+          "url": "https://ndba.com/news/FreddieMacIssuesGuidelinesforAIUsebyMortgageCompanies"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This investigative journalism piece provides evidence for **explainability, fairness, governance, oversight, and transparency**. It highlights a lack of transparency and explainability in proprietary underwriting software, with decisions described as \"mysterious.\" The report details significant fairness concerns, presenting statistical findings of bias against minority borrowers in loan application rejections, even when accounting for credit scores. Furthermore, it touches upon governance and oversight through mentions of regulatory requests for changes to underwriting criteria and the mandated use of specific credit scoring algorithms.",
+          "title": "The Secret Bias Hidden in Mortgage-Approval Algorithms",
+          "url": "https://publicintegrity.org/inequality-poverty-opportunity/bias-mortgage-approval-algorithms"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "The Freddie Mac Form 10-K Full Year 2024 SEC filing provides evidence for several Responsible AI pillars. It supports **governance** by detailing risk management practices, model validation, and oversight mechanisms for automated systems and third-party vendors. The filing also touches upon **fairness** by mentioning non-discriminatory pricing and equitable access, and **explainability** by acknowledging the challenges of models that are \"not easily interpretable.\" Furthermore, it indicates **external accountability** through discussions of regulatory compliance and independent validation processes. Finally, the document supports **oversight** by describing human review and management adjustments to model outputs, and **privacy** by acknowledging AI's subjection to privacy laws.",
+          "title": "Freddie Mac Form 10-K Full Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1026214/000102621425000040/fmcc-20241231.htm"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This policy document, the \"FHFA 2025 AI Compliance Plan,\" provides evidence for the **governance** pillar of responsible AI. The plan outlines FHFA's framework for ensuring responsible and ethical AI use, demonstrating a commitment to AI governance by detailing federal expectations for AI compliance across regulated entities.",
+          "title": "FHFA 2025 AI Compliance Plan",
+          "url": "https://fhfa.gov/reports/fhfa-ai-compliance-plan/2025"
+        }
+      ],
+      "score": 2,
+      "source_count": 13
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 10,
+      "findings": "FHFA reports highlight expectations for an office to address AI/ML risks and reference foundational regulatory monitoring of AI governance practices. Advisory bulletins mandate enterprise-wide AI/ML strategy and governance structures, including risk identification, assessment, and lifecycle monitoring. Freddie Mac's filings detail oversight mechanisms for automated systems and third-party vendors, including human review and management adjustments to model outputs.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This FHFA OIG audit report provides evidence for **governance**, **transparency**, **fairness**, **oversight**, and **external accountability**. The report details Freddie Mac's AI/ML inventory and identifies \"black box risk\" as a primary concern, indicating a focus on **governance** and **transparency** through efforts to enhance algorithm explainability. It also highlights the FHFA's expectations for ethical principles addressing bias, risk management guidance, and the establishment of an office to address AI/ML risks, supporting **fairness**, **oversight**, and **external accountability**.",
+          "title": "FHFA OIG White Paper: Enterprise Use of Artificial Intelligence and Machine Learning",
+          "url": "https://fhfaoig.gov/sites/default/files/WPR-2022-002.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This policy document, FHFA Advisory Bulletin 2022-02, provides substantial evidence for responsible AI, supporting the pillars of explainability, external accountability, fairness, governance, oversight, and transparency. The bulletin mandates enterprise-wide AI/ML strategy and governance structures, including risk identification, assessment, and lifecycle monitoring, directly supporting governance and oversight. It explicitly mentions and requires explainability, interpretability, and transparency in AI/ML systems, and mandates independent review of third-party AI/ML models, demonstrating evidence for external accountability and transparency. Furthermore, the document establishes core ethical principles for AI/ML use, including fairness and equity, and outlines requirements for documenting use cases and maintaining AI/ML inventories, reinforcing the transparency pillar.",
+          "title": "FHFA Advisory Bulletin 2022-02: Artificial Intelligence/Machine Learning Risk Management",
+          "url": "https://fhfa.gov/advisory-bulletin/ab-2022-02"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This Federal agency performance report provides evidence for **external accountability, fairness, governance, oversight, and transparency**. The report references foundational regulatory monitoring of Freddie Mac's AI governance practices and enterprise-wide AI/ML risk management, including the development of an AI Risk Management Framework and Advisory Bulletin 2022-02. It also mentions \"Equitable Housing Finance Plans\" and \"fair lending examinations,\" indicating a policy focus on fairness in AI/ML use.",
+          "title": "FHFA FY 2022 Performance and Accountability Report",
+          "url": "https://fhfa.gov/sites/default/files/2023-04/FHFA-2022-PAR.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This investigative journalism piece provides evidence for **explainability, fairness, governance, oversight, and transparency**. It highlights a lack of transparency and explainability in proprietary underwriting software, with decisions described as \"mysterious.\" The report details significant fairness concerns, presenting statistical findings of bias against minority borrowers in loan application rejections, even when accounting for credit scores. Furthermore, it touches upon governance and oversight through mentions of regulatory requests for changes to underwriting criteria and the mandated use of specific credit scoring algorithms.",
+          "title": "The Secret Bias Hidden in Mortgage-Approval Algorithms",
+          "url": "https://publicintegrity.org/inequality-poverty-opportunity/bias-mortgage-approval-algorithms"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "The Freddie Mac Form 10-K Full Year 2024 SEC filing provides evidence for several Responsible AI pillars. It supports **governance** by detailing risk management practices, model validation, and oversight mechanisms for automated systems and third-party vendors. The filing also touches upon **fairness** by mentioning non-discriminatory pricing and equitable access, and **explainability** by acknowledging the challenges of models that are \"not easily interpretable.\" Furthermore, it indicates **external accountability** through discussions of regulatory compliance and independent validation processes. Finally, the document supports **oversight** by describing human review and management adjustments to model outputs, and **privacy** by acknowledging AI's subjection to privacy laws.",
+          "title": "Freddie Mac Form 10-K Full Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1026214/000102621425000040/fmcc-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "Freddie Mac's Form 10-K Full Year 2024 filing acknowledges that AI is subject to privacy laws.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "authority",
+          "summary": "The Freddie Mac Form 10-K Full Year 2024 SEC filing provides evidence for several Responsible AI pillars. It supports **governance** by detailing risk management practices, model validation, and oversight mechanisms for automated systems and third-party vendors. The filing also touches upon **fairness** by mentioning non-discriminatory pricing and equitable access, and **explainability** by acknowledging the challenges of models that are \"not easily interpretable.\" Furthermore, it indicates **external accountability** through discussions of regulatory compliance and independent validation processes. Finally, the document supports **oversight** by describing human review and management adjustments to model outputs, and **privacy** by acknowledging AI's subjection to privacy laws.",
+          "title": "Freddie Mac Form 10-K Full Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1026214/000102621425000040/fmcc-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 41,
+      "findings": "Freddie Mac's policy states that AI/ML use is guided by ethical principles including transparency, with requirements for documenting use cases and maintaining AI/ML inventories. The company's Loan Product Advisor (LPA) documentation outlines how the system offers transparency into its functionality, use cases, and intended outcomes through features like LPA Choice feedback. Updated guidelines for mortgage companies also mandate transparency in AI/ML use, although some reports highlight a lack of transparency in proprietary underwriting software.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This Freddie Mac Code of Conduct policy document provides evidence for **fairness, governance, and transparency**. The policy explicitly states that AI/ML use is guided by ethical principles including fairness, accountability, and transparency. Furthermore, it mandates the implementation of processes to ensure consistent and reliable AI/ML outcomes, demonstrating a commitment to operational governance.",
+          "title": "Freddie Mac Code of Conduct - AI & Machine Learning Section",
+          "url": "https://freddiemac.com/governance/pdf/code_of_conduct.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This FHFA OIG audit report provides evidence for **governance**, **transparency**, **fairness**, **oversight**, and **external accountability**. The report details Freddie Mac's AI/ML inventory and identifies \"black box risk\" as a primary concern, indicating a focus on **governance** and **transparency** through efforts to enhance algorithm explainability. It also highlights the FHFA's expectations for ethical principles addressing bias, risk management guidance, and the establishment of an office to address AI/ML risks, supporting **fairness**, **oversight**, and **external accountability**.",
+          "title": "FHFA OIG White Paper: Enterprise Use of Artificial Intelligence and Machine Learning",
+          "url": "https://fhfaoig.gov/sites/default/files/WPR-2022-002.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This policy document, FHFA Advisory Bulletin 2022-02, provides substantial evidence for responsible AI, supporting the pillars of explainability, external accountability, fairness, governance, oversight, and transparency. The bulletin mandates enterprise-wide AI/ML strategy and governance structures, including risk identification, assessment, and lifecycle monitoring, directly supporting governance and oversight. It explicitly mentions and requires explainability, interpretability, and transparency in AI/ML systems, and mandates independent review of third-party AI/ML models, demonstrating evidence for external accountability and transparency. Furthermore, the document establishes core ethical principles for AI/ML use, including fairness and equity, and outlines requirements for documenting use cases and maintaining AI/ML inventories, reinforcing the transparency pillar.",
+          "title": "FHFA Advisory Bulletin 2022-02: Artificial Intelligence/Machine Learning Risk Management",
+          "url": "https://fhfa.gov/advisory-bulletin/ab-2022-02"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper from Freddie Mac documents their approach to responsible AI, providing evidence for **explainability, fairness, governance, and transparency**. The paper details the acquisition of Zest AI's platform for model explainability and fair lending tools, and the use of Generative Adversarial Networks (GANs) for adversarial debiasing to improve fairness while maintaining accuracy. Furthermore, it describes automated processes, rules-based engines, and ML models for income verification, alongside fair lending testing and the search for less discriminatory alternatives, all of which demonstrate operational commitment to these pillars.",
+          "title": "Freddie Mac CRT Quarterly Webcast: Machine Learning Risk Management and Fair Lending",
+          "url": "https://capitalmarkets.freddiemac.com/crt/docs/pdfs/freddie-mac-crt-webcast_july-2022.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the transparency pillar of responsible AI. It details Freddie Mac's operational ML deployment, including the use of specific algorithms like Gradient Boosting Regressor and NLP models, and quantifies their prediction accuracy. The document also mentions the collection and assessment of data, indicating a level of detail about the ML processes employed.",
+          "title": "Technical Case Study: Machine Learning for Freddie Mac Loan Quality Advisor",
+          "url": "https://cadmusgroup.com/unlocking-the-power-of-machine-learning-for-freddie-mac"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This Federal agency performance report provides evidence for **external accountability, fairness, governance, oversight, and transparency**. The report references foundational regulatory monitoring of Freddie Mac's AI governance practices and enterprise-wide AI/ML risk management, including the development of an AI Risk Management Framework and Advisory Bulletin 2022-02. It also mentions \"Equitable Housing Finance Plans\" and \"fair lending examinations,\" indicating a policy focus on fairness in AI/ML use.",
+          "title": "FHFA FY 2022 Performance and Accountability Report",
+          "url": "https://fhfa.gov/sites/default/files/2023-04/FHFA-2022-PAR.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Freddie Mac Loan Product Advisor (LPA) - Product Information,\" provides evidence for **governance** and **transparency**. The documentation describes the automated underwriting system's capabilities, implying a governed process for loan eligibility and outlining how the system offers transparency into its functionality, use cases, and intended outcomes through features like LPA Choice feedback and Automated Collateral Evaluation (ACE).",
+          "title": "Freddie Mac Loan Product Advisor (LPA) - Product Information",
+          "url": "https://sf.freddiemac.com/tools-learning/technology-tools/our-solutions/loan-product-advisor"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned FAQ, \"Freddie Mac Loan Product Advisor FAQ,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document details how rent history impacts risk assessment, outlines rules for applying automated systems based on risk class, and specifies data inclusion requirements for credit risk assessment, all demonstrating robust governance. Furthermore, it clarifies how data is used for credit risk assessment, explains the LPA Choice feature for transparent borrower outcome assessment, and describes the prioritization of benefits, showcasing transparency in the AI-driven decision-making process.",
+          "title": "Freddie Mac Loan Product Advisor FAQ",
+          "url": "https://sf.freddiemac.com/faqs/loan-product-advisor-faq"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This press release from Freddie Mac details the issuance of updated guidelines for AI use by mortgage companies, effective March 3, 2026. The updated Seller/Servicer Guide includes enhanced requirements and best practices for transparency, accountability, and ethical stewardship within AI and ML initiatives, providing evidence for the **transparency**, **external_accountability**, and **governance** pillars. Specifically, the guide establishes a governance framework for AI, supports regulatory alignment and risk mitigation, and mandates transparency and accountability in AI/ML use, indicating policies for responsible deployment.",
+          "title": "Freddie Mac Issues Guidelines for AI Use by Mortgage Companies",
+          "url": "https://ndba.com/news/FreddieMacIssuesGuidelinesforAIUsebyMortgageCompanies"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This investigative journalism piece provides evidence for **explainability, fairness, governance, oversight, and transparency**. It highlights a lack of transparency and explainability in proprietary underwriting software, with decisions described as \"mysterious.\" The report details significant fairness concerns, presenting statistical findings of bias against minority borrowers in loan application rejections, even when accounting for credit scores. Furthermore, it touches upon governance and oversight through mentions of regulatory requests for changes to underwriting criteria and the mandated use of specific credit scoring algorithms.",
+          "title": "The Secret Bias Hidden in Mortgage-Approval Algorithms",
+          "url": "https://publicintegrity.org/inequality-poverty-opportunity/bias-mortgage-approval-algorithms"
+        }
+      ],
+      "score": 1,
+      "source_count": 10
+    }
+  },
+  "published_at": "2026-02-23T21:50:30Z",
+  "run_id": "20260202_211114_432e",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Freddie Mac's published materials detail the acquisition of Zest AI's platform for model explainability, demonstrating operational practices in this area. This is part of the documented evidence for all 7 evaluated pillars, which includes a bulletin mandating enterprise-wide AI/ML strategy and governance structures for oversight. Additionally, disclosures indicate that AI/ML use is guided by ethical principles including fairness, and policies state that AI/ML use is guided by ethical principles including transparency. These findings are drawn from a review of 16 publicly available sources.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 135,
+    "total_sources_used": 14
+  }
+}

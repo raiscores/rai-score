@@ -1,0 +1,354 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "U.S. Bancorp",
+  "company_slug": "us-bancorp",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 25,
+      "OPERATIONAL": 10,
+      "POLICY": 23
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "U.S. Bancorp's approach to explainability is described through a vendor press release. This document describes H2O.ai's Model Risk Management framework for generative AI, which includes explainability features.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This vendor press release from H2O.ai provides evidence for **explainability, fairness, governance, oversight, and transparency**. The document highlights H2O.ai's Model Risk Management (MRM) framework for generative AI, which includes capabilities like automated test generation, bias detection, robustness testing, and explainability features. It also details how H2O.ai has trained teams at U.S. Bank on testing, monitoring, and validating generative AI models, emphasizing continuous risk assessment and monitoring, human judgment alignment, and identifying weaknesses to improve fairness.",
+          "title": "H2O.ai – Model Risk Management for Generative AI (training at U.S. Bank)",
+          "url": "https://h2o.ai/company/press-releases/h2o-ai-brings-model-risk-management-to-gen-ai-for-regulated-industries"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 4,
+      "findings": "U.S. Bancorp's annual report references a framework for external accountability through its AI Center of Excellence and partnerships with risk groups. Additionally, a technical paper mentions third-party auditing for AI and the use of third-party AI platforms like Google Cloud and AWS.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This annual report provides evidence for **governance**, **transparency**, and **external accountability**. It details the establishment of an AI Center of Excellence to oversee AI strategy and execution, including the development of use cases and governance in partnership with various departments, demonstrating robust governance. The report also highlights priority AI applications and the company's investment in adapting to technologies like generative AI, indicating transparency in their AI adoption and strategy. Furthermore, the mention of an AI Center of Excellence with a dedicated expert team developing use cases and governance in partnership with risk groups suggests a framework for external accountability.",
+          "title": "U.S. Bancorp 2024 Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/36104/000003610425000020/a2024usbancorpannualreport.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This technical paper from the Consumer Financial Protection Bureau provides evidence for external accountability, governance, oversight, privacy, and transparency. It supports external accountability and governance by mentioning third-party auditing and the use of third-party AI platforms like Google Cloud and AWS, implying vendor due diligence. The paper also touches on oversight and governance through discussions of monitoring AI use for consumer rights and the challenges of AI's early stages, while transparency is supported by descriptions of AI capabilities and potential issues with understanding chatbot limitations and escalation paths. Finally, privacy is addressed by explicitly linking data deduplication to mitigating risks for AI language models.",
+          "title": "CFPB – Chatbots in consumer finance (includes U.S. Bank Smart Assistant)",
+          "url": "https://consumerfinance.gov/data-research/research-reports/chatbots-in-consumer-finance/chatbots-in-consumer-finance"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 4,
+      "findings": "U.S. Bancorp references AI's role in addressing bias and manipulation. A vendor press release describes a Model Risk Management framework for generative AI that includes bias detection capabilities. This document also details how U.S. Bank teams are trained on testing and validating generative AI models, with a reference to identifying weaknesses to improve fairness.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for fairness, governance, privacy, and transparency. It supports fairness by mentioning AI's role in addressing bias and manipulation, and governance by detailing the integration of AI alerts into incident-response workflows and collaboration on fraud governance. The post also touches on privacy by mentioning the topic in relation to AI, and transparency by describing AI capabilities in pattern detection and predictive analytics for fraud detection.",
+          "title": "How Treasury Departments Use AI to Detect and Prevent Fraud",
+          "url": "https://usbank.com/corporate-and-commercial-banking/insights/risk/mitigation/treasury-dept-partners-using-ai-to-fight-fraud.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This vendor press release from H2O.ai provides evidence for **explainability, fairness, governance, oversight, and transparency**. The document highlights H2O.ai's Model Risk Management (MRM) framework for generative AI, which includes capabilities like automated test generation, bias detection, robustness testing, and explainability features. It also details how H2O.ai has trained teams at U.S. Bank on testing, monitoring, and validating generative AI models, emphasizing continuous risk assessment and monitoring, human judgment alignment, and identifying weaknesses to improve fairness.",
+          "title": "H2O.ai – Model Risk Management for Generative AI (training at U.S. Bank)",
+          "url": "https://h2o.ai/company/press-releases/h2o-ai-brings-model-risk-management-to-gen-ai-for-regulated-industries"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 29,
+      "findings": "U.S. Bancorp's Code of Ethics and Business Conduct commits to responsible AI use and indicates policy-level governance. The company operates an AI Center of Excellence that develops use cases and governance in partnership with risk groups, reflecting a formal approach to AI deployment. Governance practices include integrating AI alerts into incident-response workflows, collaborating on fraud governance, and describing the need for prioritizing best practices in managing AI-related risks, including recommended monitoring and training. Furthermore, the company mentions third-party auditing, the use of third-party AI platforms, and references frameworks for AI application, alongside training teams on a Model Risk Management framework for generative AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The U.S. Bancorp Code of Ethics and Business Conduct policy document provides evidence for the governance and privacy pillars. It commits to responsible AI use and data protection for AI, indicating policy-level governance and privacy controls by emphasizing best practices for data controls, user permissions, and information privacy for data used in AI systems.",
+          "title": "U.S. Bancorp Code of Ethics and Business Conduct",
+          "url": "https://usbank.com/dam/en/documents/pdfs/common/usbankcorp-coe-handbook.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This annual report provides evidence for **governance**, **transparency**, and **external accountability**. It details the establishment of an AI Center of Excellence to oversee AI strategy and execution, including the development of use cases and governance in partnership with various departments, demonstrating robust governance. The report also highlights priority AI applications and the company's investment in adapting to technologies like generative AI, indicating transparency in their AI adoption and strategy. Furthermore, the mention of an AI Center of Excellence with a dedicated expert team developing use cases and governance in partnership with risk groups suggests a framework for external accountability.",
+          "title": "U.S. Bancorp 2024 Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/36104/000003610425000020/a2024usbancorpannualreport.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, and **transparency** in responsible AI. It supports governance by mentioning the introduction of AI solutions and the bank's AI Center of Excellence, indicating a formal approach to AI deployment. Evidence for oversight is found in discussions of human training for AI logic, while transparency is demonstrated through descriptions of specific AI applications like cash-flow forecasting and account reconciliation, detailing their capabilities and operational use.",
+          "title": "How AI is transforming Treasury Management",
+          "url": "https://usbank.com/corporate-and-commercial-banking/insights/payments-hub/trends/treasury-management-ai.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for fairness, governance, privacy, and transparency. It supports fairness by mentioning AI's role in addressing bias and manipulation, and governance by detailing the integration of AI alerts into incident-response workflows and collaboration on fraud governance. The post also touches on privacy by mentioning the topic in relation to AI, and transparency by describing AI capabilities in pattern detection and predictive analytics for fraud detection.",
+          "title": "How Treasury Departments Use AI to Detect and Prevent Fraud",
+          "url": "https://usbank.com/corporate-and-commercial-banking/insights/risk/mitigation/treasury-dept-partners-using-ai-to-fight-fraud.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This U.S. Bank blog post, \"AI Fraud: Protecting your business from deepfakes,\" provides evidence for the **governance** pillar of responsible AI. The article highlights the need for companies to prioritize best practices in managing AI-related risks, suggesting the existence of policies for addressing these emerging threats. It also implicitly supports governance by outlining recommended monitoring practices, out-of-band verification steps, and training approaches that organizations can implement.",
+          "title": "AI Fraud: Protecting your business from deepfakes",
+          "url": "https://usbank.com/corporate-and-commercial-banking/insights/risk/mitigation/ai-deepfake-fraud.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This technical paper from the Consumer Financial Protection Bureau provides evidence for external accountability, governance, oversight, privacy, and transparency. It supports external accountability and governance by mentioning third-party auditing and the use of third-party AI platforms like Google Cloud and AWS, implying vendor due diligence. The paper also touches on oversight and governance through discussions of monitoring AI use for consumer rights and the challenges of AI's early stages, while transparency is supported by descriptions of AI capabilities and potential issues with understanding chatbot limitations and escalation paths. Finally, privacy is addressed by explicitly linking data deduplication to mitigating risks for AI language models.",
+          "title": "CFPB – Chatbots in consumer finance (includes U.S. Bank Smart Assistant)",
+          "url": "https://consumerfinance.gov/data-research/research-reports/chatbots-in-consumer-finance/chatbots-in-consumer-finance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the governance and transparency pillars of responsible AI. It describes U.S. Bank's AI applications, such as the 'Pay Yourself First' feature and Salesforce Einstein's lead scoring, which relate to transparency by detailing AI capabilities. The mention of frameworks and guides for AI application implies governance, indicating a commitment to a method for AI development and deployment.",
+          "title": "Artificial Intelligence at U.S. Bank – Two Current Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-u-s-bank"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This vendor press release from H2O.ai provides evidence for **explainability, fairness, governance, oversight, and transparency**. The document highlights H2O.ai's Model Risk Management (MRM) framework for generative AI, which includes capabilities like automated test generation, bias detection, robustness testing, and explainability features. It also details how H2O.ai has trained teams at U.S. Bank on testing, monitoring, and validating generative AI models, emphasizing continuous risk assessment and monitoring, human judgment alignment, and identifying weaknesses to improve fairness.",
+          "title": "H2O.ai – Model Risk Management for Generative AI (training at U.S. Bank)",
+          "url": "https://h2o.ai/company/press-releases/h2o-ai-brings-model-risk-management-to-gen-ai-for-regulated-industries"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "U.S. Bancorp references human training for AI logic and mentions human oversight in current and future AI deployment. Discussions also include monitoring AI use for consumer rights. Furthermore, teams at U.S. Bank are trained on testing, monitoring, and validating generative AI models, with references to continuous risk assessment, monitoring, and human judgment alignment.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, and **transparency** in responsible AI. It supports governance by mentioning the introduction of AI solutions and the bank's AI Center of Excellence, indicating a formal approach to AI deployment. Evidence for oversight is found in discussions of human training for AI logic, while transparency is demonstrated through descriptions of specific AI applications like cash-flow forecasting and account reconciliation, detailing their capabilities and operational use.",
+          "title": "How AI is transforming Treasury Management",
+          "url": "https://usbank.com/corporate-and-commercial-banking/insights/payments-hub/trends/treasury-management-ai.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This CFO Insights blog post discusses potential AI capabilities for financial operations, supporting the **transparency** pillar by highlighting advanced use cases and models for forecasting and simulation. It also touches upon the **oversight** pillar by mentioning human oversight in the context of current and future AI deployment, though it notes these are presented as possibilities without formal commitment or execution.",
+          "title": "Digital Transformation in Financial Operations",
+          "url": "https://usbank.com/corporate-and-commercial-banking/cfo-insights/finance-digital-transformation.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This technical paper from the Consumer Financial Protection Bureau provides evidence for external accountability, governance, oversight, privacy, and transparency. It supports external accountability and governance by mentioning third-party auditing and the use of third-party AI platforms like Google Cloud and AWS, implying vendor due diligence. The paper also touches on oversight and governance through discussions of monitoring AI use for consumer rights and the challenges of AI's early stages, while transparency is supported by descriptions of AI capabilities and potential issues with understanding chatbot limitations and escalation paths. Finally, privacy is addressed by explicitly linking data deduplication to mitigating risks for AI language models.",
+          "title": "CFPB – Chatbots in consumer finance (includes U.S. Bank Smart Assistant)",
+          "url": "https://consumerfinance.gov/data-research/research-reports/chatbots-in-consumer-finance/chatbots-in-consumer-finance"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This vendor press release from H2O.ai provides evidence for **explainability, fairness, governance, oversight, and transparency**. The document highlights H2O.ai's Model Risk Management (MRM) framework for generative AI, which includes capabilities like automated test generation, bias detection, robustness testing, and explainability features. It also details how H2O.ai has trained teams at U.S. Bank on testing, monitoring, and validating generative AI models, emphasizing continuous risk assessment and monitoring, human judgment alignment, and identifying weaknesses to improve fairness.",
+          "title": "H2O.ai – Model Risk Management for Generative AI (training at U.S. Bank)",
+          "url": "https://h2o.ai/company/press-releases/h2o-ai-brings-model-risk-management-to-gen-ai-for-regulated-industries"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 4,
+      "findings": "U.S. Bancorp's Code of Ethics and Business Conduct commits to data protection for AI and outlines best practices for data controls, user permissions, and information privacy. A product overview describes how user information is kept private for the U.S. Bank Smart Assistant, with interactions occurring within authenticated sessions. Additionally, a technical paper explicitly links data deduplication to mitigating risks for AI language models.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The U.S. Bancorp Code of Ethics and Business Conduct policy document provides evidence for the governance and privacy pillars. It commits to responsible AI use and data protection for AI, indicating policy-level governance and privacy controls by emphasizing best practices for data controls, user permissions, and information privacy for data used in AI systems.",
+          "title": "U.S. Bancorp Code of Ethics and Business Conduct",
+          "url": "https://usbank.com/dam/en/documents/pdfs/common/usbankcorp-coe-handbook.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for fairness, governance, privacy, and transparency. It supports fairness by mentioning AI's role in addressing bias and manipulation, and governance by detailing the integration of AI alerts into incident-response workflows and collaboration on fraud governance. The post also touches on privacy by mentioning the topic in relation to AI, and transparency by describing AI capabilities in pattern detection and predictive analytics for fraud detection.",
+          "title": "How Treasury Departments Use AI to Detect and Prevent Fraud",
+          "url": "https://usbank.com/corporate-and-commercial-banking/insights/risk/mitigation/treasury-dept-partners-using-ai-to-fight-fraud.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This product overview for the U.S. Bank Smart Assistant provides evidence for the **privacy** pillar. It supports this by describing how user information is kept private and interactions occur within authenticated sessions, implying a focus on data protection for the AI-powered assistant.",
+          "title": "U.S. Bank Smart Assistant product overview",
+          "url": "https://usbank.com/online-mobile-banking/smart-assistant.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This technical paper from the Consumer Financial Protection Bureau provides evidence for external accountability, governance, oversight, privacy, and transparency. It supports external accountability and governance by mentioning third-party auditing and the use of third-party AI platforms like Google Cloud and AWS, implying vendor due diligence. The paper also touches on oversight and governance through discussions of monitoring AI use for consumer rights and the challenges of AI's early stages, while transparency is supported by descriptions of AI capabilities and potential issues with understanding chatbot limitations and escalation paths. Finally, privacy is addressed by explicitly linking data deduplication to mitigating risks for AI language models.",
+          "title": "CFPB – Chatbots in consumer finance (includes U.S. Bank Smart Assistant)",
+          "url": "https://consumerfinance.gov/data-research/research-reports/chatbots-in-consumer-finance/chatbots-in-consumer-finance"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 29,
+      "findings": "U.S. Bancorp describes its priority AI applications, investment in generative AI, and overall AI adoption strategy. Published materials list practical AI applications in financial operations, including fraud detection, cash-flow forecasting, and account reconciliation, detailing their capabilities and operational use. The company also provides data on AI system spending and describes the capabilities of a Model Risk Management framework for generative AI, including how teams are trained on testing and validating these models.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This annual report provides evidence for **governance**, **transparency**, and **external accountability**. It details the establishment of an AI Center of Excellence to oversee AI strategy and execution, including the development of use cases and governance in partnership with various departments, demonstrating robust governance. The report also highlights priority AI applications and the company's investment in adapting to technologies like generative AI, indicating transparency in their AI adoption and strategy. Furthermore, the mention of an AI Center of Excellence with a dedicated expert team developing use cases and governance in partnership with risk groups suggests a framework for external accountability.",
+          "title": "U.S. Bancorp 2024 Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/36104/000003610425000020/a2024usbancorpannualreport.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Redefine your business with technology,\" provides evidence for the **transparency** pillar of responsible AI. It demonstrates transparency by listing practical applications of AI in financial operations, discussing its use for fraud detection, and mentioning AI/ML systems and capabilities. The paper also offers transparency regarding investment in AI technologies by providing data on AI system spending.",
+          "title": "Redefine your business with technology",
+          "url": "https://usbank.com/dam/financialiq/documents/redefine-business-technology.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for **governance**, **oversight**, and **transparency** in responsible AI. It supports governance by mentioning the introduction of AI solutions and the bank's AI Center of Excellence, indicating a formal approach to AI deployment. Evidence for oversight is found in discussions of human training for AI logic, while transparency is demonstrated through descriptions of specific AI applications like cash-flow forecasting and account reconciliation, detailing their capabilities and operational use.",
+          "title": "How AI is transforming Treasury Management",
+          "url": "https://usbank.com/corporate-and-commercial-banking/insights/payments-hub/trends/treasury-management-ai.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for fairness, governance, privacy, and transparency. It supports fairness by mentioning AI's role in addressing bias and manipulation, and governance by detailing the integration of AI alerts into incident-response workflows and collaboration on fraud governance. The post also touches on privacy by mentioning the topic in relation to AI, and transparency by describing AI capabilities in pattern detection and predictive analytics for fraud detection.",
+          "title": "How Treasury Departments Use AI to Detect and Prevent Fraud",
+          "url": "https://usbank.com/corporate-and-commercial-banking/insights/risk/mitigation/treasury-dept-partners-using-ai-to-fight-fraud.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This CFO Insights blog post discusses potential AI capabilities for financial operations, supporting the **transparency** pillar by highlighting advanced use cases and models for forecasting and simulation. It also touches upon the **oversight** pillar by mentioning human oversight in the context of current and future AI deployment, though it notes these are presented as possibilities without formal commitment or execution.",
+          "title": "Digital Transformation in Financial Operations",
+          "url": "https://usbank.com/corporate-and-commercial-banking/cfo-insights/finance-digital-transformation.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "This technical paper from the Consumer Financial Protection Bureau provides evidence for external accountability, governance, oversight, privacy, and transparency. It supports external accountability and governance by mentioning third-party auditing and the use of third-party AI platforms like Google Cloud and AWS, implying vendor due diligence. The paper also touches on oversight and governance through discussions of monitoring AI use for consumer rights and the challenges of AI's early stages, while transparency is supported by descriptions of AI capabilities and potential issues with understanding chatbot limitations and escalation paths. Finally, privacy is addressed by explicitly linking data deduplication to mitigating risks for AI language models.",
+          "title": "CFPB – Chatbots in consumer finance (includes U.S. Bank Smart Assistant)",
+          "url": "https://consumerfinance.gov/data-research/research-reports/chatbots-in-consumer-finance/chatbots-in-consumer-finance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the governance and transparency pillars of responsible AI. It describes U.S. Bank's AI applications, such as the 'Pay Yourself First' feature and Salesforce Einstein's lead scoring, which relate to transparency by detailing AI capabilities. The mention of frameworks and guides for AI application implies governance, indicating a commitment to a method for AI development and deployment.",
+          "title": "Artificial Intelligence at U.S. Bank – Two Current Use Cases",
+          "url": "https://emerj.com/artificial-intelligence-at-u-s-bank"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This vendor press release from H2O.ai provides evidence for **explainability, fairness, governance, oversight, and transparency**. The document highlights H2O.ai's Model Risk Management (MRM) framework for generative AI, which includes capabilities like automated test generation, bias detection, robustness testing, and explainability features. It also details how H2O.ai has trained teams at U.S. Bank on testing, monitoring, and validating generative AI models, emphasizing continuous risk assessment and monitoring, human judgment alignment, and identifying weaknesses to improve fairness.",
+          "title": "H2O.ai – Model Risk Management for Generative AI (training at U.S. Bank)",
+          "url": "https://h2o.ai/company/press-releases/h2o-ai-brings-model-risk-management-to-gen-ai-for-regulated-industries"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T22:00:06Z",
+  "run_id": "20260203_023937_fe67",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "U.S. Bancorp's annual report describes priority AI applications and the company's investment in adapting to generative AI, indicating transparency in its AI adoption and strategy. Furthermore, the Code of Ethics and Business Conduct commits to responsible AI use, reflecting policy-level governance, and outlines best practices for data controls and information privacy for data used in AI systems. All 7 evaluated pillars have documented public evidence, drawing from 16 publicly available sources. Beyond these operational practices, policy-level evidence addresses fairness through mentions of AI's role in addressing bias, and explainability via vendor descriptions of features for generative AI.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 58,
+    "total_sources_used": 11
+  }
+}

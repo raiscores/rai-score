@@ -1,0 +1,220 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "Gilead Sciences",
+  "company_slug": "gilead-sciences",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 10,
+      "OPERATIONAL": 2,
+      "POLICY": 13
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Third-party analysis mentions AI systems and their alignment with human judgment.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis, \"Artificial Intelligence at Gilead Sciences - Two Use Cases,\" provides evidence for **explainability, governance, oversight, and transparency**. The document supports explainability by mentioning AI systems and their alignment with human judgment. It indicates a commitment to governance by explicitly stating its foundational role in AI. Furthermore, the analysis supports oversight and transparency through descriptions of AI and ML capabilities for insights, the use of GenAI and ML for drug discovery, and the implementation of ML and NLP for enterprise search tools, even if these are presented as aims or vendor tool descriptions.",
+          "title": "Artificial Intelligence at Gilead Sciences - Two Use Cases (Emerj)",
+          "url": "https://emerj.com/artificial-intelligence-at-gilead-sciences-two-use-cases"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "A proxy statement references external rules like PCAOB, touching upon external accountability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance** and **oversight** by detailing the company's Enterprise Risk Management program, the roles of various board committees in strategic and compensation decisions, and the approval of incentive plans. It also touches upon **external accountability** by referencing external rules like PCAOB. The document highlights the company's use of AI in R&D and operations through strategic partnerships, indicating oversight of technology adoption and vendor relationships.",
+          "title": "2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/882095/000130817925000252/gild013520-def14a.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "A policy document commits to bias minimization in AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AI Principles Policy,\" provides evidence for the **fairness**, **governance**, **oversight**, and **privacy** pillars. It supports fairness and oversight by committing to bias minimization and ongoing human oversight in AI systems. The policy also establishes a governance framework by stating that AI development, procurement, and use are based on principles and policies, and it addresses privacy by mentioning the protection of data for AI systems and risk mitigation. Furthermore, it explicitly states accountability for AI systems throughout their lifecycle, aligning with governance.",
+          "title": "AI Principles Policy",
+          "url": "https://gilead.com/company/policies-and-procedures/ai-principles"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 15,
+      "findings": "A policy document states that AI development, procurement, and use are based on principles and policies, and explicitly states accountability for AI systems throughout their lifecycle. A proxy statement details the Enterprise Risk Management program, board committee roles in strategic and compensation decisions, and approval of incentive plans. Third-party analysis indicates a commitment to governance by explicitly stating its foundational role in AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AI Principles Policy,\" provides evidence for the **fairness**, **governance**, **oversight**, and **privacy** pillars. It supports fairness and oversight by committing to bias minimization and ongoing human oversight in AI systems. The policy also establishes a governance framework by stating that AI development, procurement, and use are based on principles and policies, and it addresses privacy by mentioning the protection of data for AI systems and risk mitigation. Furthermore, it explicitly states accountability for AI systems throughout their lifecycle, aligning with governance.",
+          "title": "AI Principles Policy",
+          "url": "https://gilead.com/company/policies-and-procedures/ai-principles"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance** and **oversight** by detailing the company's Enterprise Risk Management program, the roles of various board committees in strategic and compensation decisions, and the approval of incentive plans. It also touches upon **external accountability** by referencing external rules like PCAOB. The document highlights the company's use of AI in R&D and operations through strategic partnerships, indicating oversight of technology adoption and vendor relationships.",
+          "title": "2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/882095/000130817925000252/gild013520-def14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis, \"Artificial Intelligence at Gilead Sciences - Two Use Cases,\" provides evidence for **explainability, governance, oversight, and transparency**. The document supports explainability by mentioning AI systems and their alignment with human judgment. It indicates a commitment to governance by explicitly stating its foundational role in AI. Furthermore, the analysis supports oversight and transparency through descriptions of AI and ML capabilities for insights, the use of GenAI and ML for drug discovery, and the implementation of ML and NLP for enterprise search tools, even if these are presented as aims or vendor tool descriptions.",
+          "title": "Artificial Intelligence at Gilead Sciences - Two Use Cases (Emerj)",
+          "url": "https://emerj.com/artificial-intelligence-at-gilead-sciences-two-use-cases"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "A policy document commits to ongoing human oversight in AI systems. A proxy statement details the Enterprise Risk Management program, board committee roles in strategic and compensation decisions, and approval of incentive plans, indicating oversight of technology adoption and vendor relationships for AI use. Third-party analysis describes AI and ML capabilities for insights, drug discovery, and enterprise search tools, supporting oversight.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AI Principles Policy,\" provides evidence for the **fairness**, **governance**, **oversight**, and **privacy** pillars. It supports fairness and oversight by committing to bias minimization and ongoing human oversight in AI systems. The policy also establishes a governance framework by stating that AI development, procurement, and use are based on principles and policies, and it addresses privacy by mentioning the protection of data for AI systems and risk mitigation. Furthermore, it explicitly states accountability for AI systems throughout their lifecycle, aligning with governance.",
+          "title": "AI Principles Policy",
+          "url": "https://gilead.com/company/policies-and-procedures/ai-principles"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance** and **oversight** by detailing the company's Enterprise Risk Management program, the roles of various board committees in strategic and compensation decisions, and the approval of incentive plans. It also touches upon **external accountability** by referencing external rules like PCAOB. The document highlights the company's use of AI in R&D and operations through strategic partnerships, indicating oversight of technology adoption and vendor relationships.",
+          "title": "2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/882095/000130817925000252/gild013520-def14a.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis, \"Artificial Intelligence at Gilead Sciences - Two Use Cases,\" provides evidence for **explainability, governance, oversight, and transparency**. The document supports explainability by mentioning AI systems and their alignment with human judgment. It indicates a commitment to governance by explicitly stating its foundational role in AI. Furthermore, the analysis supports oversight and transparency through descriptions of AI and ML capabilities for insights, the use of GenAI and ML for drug discovery, and the implementation of ML and NLP for enterprise search tools, even if these are presented as aims or vendor tool descriptions.",
+          "title": "Artificial Intelligence at Gilead Sciences - Two Use Cases (Emerj)",
+          "url": "https://emerj.com/artificial-intelligence-at-gilead-sciences-two-use-cases"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "A policy document mentions the protection of data for AI systems. It also mentions risk mitigation related to privacy for AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AI Principles Policy,\" provides evidence for the **fairness**, **governance**, **oversight**, and **privacy** pillars. It supports fairness and oversight by committing to bias minimization and ongoing human oversight in AI systems. The policy also establishes a governance framework by stating that AI development, procurement, and use are based on principles and policies, and it addresses privacy by mentioning the protection of data for AI systems and risk mitigation. Furthermore, it explicitly states accountability for AI systems throughout their lifecycle, aligning with governance.",
+          "title": "AI Principles Policy",
+          "url": "https://gilead.com/company/policies-and-procedures/ai-principles"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Transparency",
+      "evidence_count": 9,
+      "findings": "Documentation states the specific purposes, capabilities, benefits, and potential impact of AI, demonstrating transparency regarding its deployment and intended applications. Third-party analysis further describes AI and ML capabilities for insights, drug discovery, and enterprise search tools.",
+      "max_score": 2,
+      "path_to_improvement": "Document AI systems in use, including vendor/third-party AI tools.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This AWS case study documents Gilead's deployment of AI and cloud technologies for various applications, including clinical trial design and manufacturing process optimization. The technical paper provides evidence for the **transparency** pillar by explicitly stating the specific purposes for which AI is being used, detailing its capabilities and benefits, and discussing its potential impact. This demonstrates transparency regarding AI deployment and its intended applications.",
+          "title": "AWS Case Study: Gilead AI and Cloud Platform",
+          "url": "https://aws.amazon.com/enterprise/execleaders/customer-success-stories/gilead-sciences"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This third-party analysis, \"Artificial Intelligence at Gilead Sciences - Two Use Cases,\" provides evidence for **explainability, governance, oversight, and transparency**. The document supports explainability by mentioning AI systems and their alignment with human judgment. It indicates a commitment to governance by explicitly stating its foundational role in AI. Furthermore, the analysis supports oversight and transparency through descriptions of AI and ML capabilities for insights, the use of GenAI and ML for drug discovery, and the implementation of ML and NLP for enterprise search tools, even if these are presented as aims or vendor tool descriptions.",
+          "title": "Artificial Intelligence at Gilead Sciences - Two Use Cases (Emerj)",
+          "url": "https://emerj.com/artificial-intelligence-at-gilead-sciences-two-use-cases"
+        }
+      ],
+      "score": 0,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-02-23T21:51:18Z",
+  "run_id": "20260202_221540_f7f7",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Transparency"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Gilead Sciences' published materials indicate a commitment to ongoing human oversight in AI systems. This operational practice is part of the documentation addressing 6 of 7 evaluated responsible AI pillars, with governance disclosures stating that AI development, procurement, and use are based on principles and policies. Furthermore, fairness, explainability, and privacy are addressed at the policy level, with materials committing to bias minimization in AI systems and mentioning risk mitigation related to privacy. No qualifying public evidence was found for transparency. These findings are based on a review of 6 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 25,
+    "total_sources_used": 4
+  }
+}

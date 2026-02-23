@@ -1,0 +1,425 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Centene",
+  "company_slug": "centene",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 9,
+      "OPERATIONAL": 11,
+      "POLICY": 32
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "An SEC filing references emerging AI regulations and vendor assurances for compliance.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"Form 10-K 2024 - AI and Risk Governance Disclosure,\" provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The filing acknowledges the ethical and legal use of AI/ML as a material business risk, mentions transparency requirements for AI/algorithms, and discusses risks like bias and privacy related to AI. It also highlights board oversight, implying governance, and references emerging AI regulations and vendor assurances for compliance, supporting external accountability.",
+          "title": "Form 10-K 2024 - AI and Risk Governance Disclosure",
+          "url": "https://filecache.investorroom.com/mr5ir_centene/721/CNC%20(Centene%20Corporation)%20%20(10-K)%202025-02-18.pdf_.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper highlights regulatory concerns regarding the rapid adoption of AI by health insurers like Centene, which uses AI for contract management and performance measurement. The paper provides evidence for **governance** by discussing the challenges of regulatory oversight keeping pace with AI deployment and for **transparency** by noting the documented AI use cases and efficiency gains. It also supports **external_accountability** by implying a need for it due to the difficulty in tracking AI's impacts.",
+          "title": "Regulatory Concerns on Health Insurer AI Adoption",
+          "url": "https://statnews.com/2025/03/25/health-insurers-ai-use-regulators-see-brewing-crisis-elevance-centene-unitedhealth"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 8,
+      "findings": "Policy documents and job postings state a commitment to prioritizing fairness in the design and use of AI/ML technologies and systems. These documents also state a commitment to evaluating AI tools for bias. A technical paper describes the use of data to identify disparities and tailor interventions, while an SEC filing references risks related to bias in AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Use of AI in Marketing & Sales Policy,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It commits to evaluating AI tools for bias and incorporating ethical checkpoints, directly supporting fairness and transparency. Furthermore, the policy mentions human oversight, protection of sensitive information for AI, and ensuring ethical standards and compliance, which demonstrates its support for governance and oversight.",
+          "title": "Responsible Use of AI in Marketing & Sales Policy",
+          "url": "https://centene.com/content/dam/centenedotcom/documents/Centene-Responsible-Sales-Marketing-Code.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Corporate Sustainability - AI & ML Strategy Page,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It explicitly commits to prioritizing fairness, accountability, and transparency in the design and use of AI/ML technologies, demonstrating a foundational commitment to responsible AI practices.",
+          "title": "Corporate Sustainability - AI & ML Strategy Page",
+          "url": "https://investors.centene.com/Sustainability"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Payers as Partners in Achieving Racial Equity in Healthcare,\" provides evidence for fairness, governance, and transparency. It supports fairness by describing the use of data to identify disparities and tailor interventions, and transparency by detailing the capabilities of machine learning for risk identification. The paper also touches on governance through mentions of predictive data modeling, implying AI/ML use.",
+          "title": "Payers as Partners in Achieving Racial Equity in Healthcare",
+          "url": "https://centene.com/content/dam/centenedotcom/documents/CNC-Payers-as-Partners-Racial-Equity-Healthcare.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"Form 10-K 2024 - AI and Risk Governance Disclosure,\" provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The filing acknowledges the ethical and legal use of AI/ML as a material business risk, mentions transparency requirements for AI/algorithms, and discusses risks like bias and privacy related to AI. It also highlights board oversight, implying governance, and references emerging AI regulations and vendor assurances for compliance, supporting external accountability.",
+          "title": "Form 10-K 2024 - AI and Risk Governance Disclosure",
+          "url": "https://filecache.investorroom.com/mr5ir_centene/721/CNC%20(Centene%20Corporation)%20%20(10-K)%202025-02-18.pdf_.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **fairness** and **transparency** pillars of responsible AI. It highlights concerns regarding Centene's high denial rate for prior authorization requests in Medicare Advantage and the subsequent high overturn rate on appeals, suggesting potential issues with fairness in initial decision-making. The paper also touches on transparency by discussing proposed legislative efforts to clarify prior authorization criteria and increase visibility into decision-making processes.",
+          "title": "Medicare Advantage Prior Authorization Analysis and Denial Rates",
+          "url": "https://kff.org/medicare/nearly-50-million-prior-authorization-requests-were-sent-to-medicare-advantage-insurers-in-2023"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This job posting for a Director of AI Ethics and Governance provides evidence for the **governance**, **fairness**, and **transparency** pillars. The document details responsibilities for executing an AI governance framework, developing and implementing AI ethics guidelines, and monitoring AI risk assessments, all of which directly support the governance pillar. Furthermore, the posting explicitly commits to \"fairness\" and \"transparency\" for AI systems, indicating policy goals that align with these respective pillars.",
+          "title": "Director, AI Ethics and Governance Job Posting",
+          "url": "https://jobs.centene.com/us/en/jobs/1616985/director-artificial-intelligence-ai-ethics-and-governance"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 37,
+      "findings": "Policy documents detail the establishment of an AI Governance Committee, accountable to the Board's Audit and Compliance Committee, which oversees AI technology. These documents outline formal governance processes, including an enterprise approval process for AI development and deployment, and mandate the use of company-approved AI tools. Furthermore, the company describes involvement in developing standards for responsible AI governance, and job postings detail responsibilities for executing an AI governance framework and monitoring AI risk assessments.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AI Governance Committee Structure and Mission,\" provides evidence for the **governance** pillar. It details the establishment of an AI Governance Committee, comprised of senior leaders and accountable to the Board's Audit and Compliance Committee, which oversees the development, deployment, and impact of AI technologies. This structure demonstrates a commitment to operational governance and the careful, ethical use of AI tools.",
+          "title": "AI Governance Committee Structure and Mission",
+          "url": "https://centene.com/why-were-different/corporate-sustainability/empowering-health/innovation-thought-leadership.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"2025 Code of Conduct - AI Usage Requirements,\" provides evidence for the **governance** pillar of responsible AI. It establishes a formal governance process by requiring employees to connect with the AI Governance Committee before pursuing new AI ideas and outlines an enterprise approval process for AI development and deployment. The policy also mandates the use of only company-approved AI tools and company credentials, further demonstrating a commitment to structured AI oversight.",
+          "title": "2025 Code of Conduct - AI Usage Requirements",
+          "url": "https://centene.com/content/dam/centenedotcom/documents/CenteneCodeOfConduct_508.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Use of AI in Marketing & Sales Policy,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It commits to evaluating AI tools for bias and incorporating ethical checkpoints, directly supporting fairness and transparency. Furthermore, the policy mentions human oversight, protection of sensitive information for AI, and ensuring ethical standards and compliance, which demonstrates its support for governance and oversight.",
+          "title": "Responsible Use of AI in Marketing & Sales Policy",
+          "url": "https://centene.com/content/dam/centenedotcom/documents/Centene-Responsible-Sales-Marketing-Code.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This system card for Centene's HALO program provides evidence for **governance** and **transparency**. It supports governance by detailing the program's operational predictive AI system, which aims to identify members at risk of substance use disorders and manage those already diagnosed, implying structured application and oversight. Transparency is supported by the explicit mention of a \"machine-learning predictive model\" used within the program.",
+          "title": "HALO Program - Substance Use Disorder Predictive Model",
+          "url": "https://centene.com/content/dam/centenedotcom/documents/Centene_ImpactBrief_HALO.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** pillar of responsible AI. It highlights Centene's commitment to trust-building through AI, establishing clear policies against using automation to deny care, and implementing a formal, cross-functional decision-making process for evaluating AI use cases. These mechanisms demonstrate a values-based and collaborative approach to AI adoption and risk management.",
+          "title": "Centene CDO on Data and AI Ethics Strategy",
+          "url": "https://cdomagazine.tech/data-privacy/everything-we-do-with-ai-has-to-build-trust-not-erode-it-centene-corporation-cdo"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Corporate Sustainability - AI & ML Strategy Page,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It explicitly commits to prioritizing fairness, accountability, and transparency in the design and use of AI/ML technologies, demonstrating a foundational commitment to responsible AI practices.",
+          "title": "Corporate Sustainability - AI & ML Strategy Page",
+          "url": "https://investors.centene.com/Sustainability"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Payers as Partners in Achieving Racial Equity in Healthcare,\" provides evidence for fairness, governance, and transparency. It supports fairness by describing the use of data to identify disparities and tailor interventions, and transparency by detailing the capabilities of machine learning for risk identification. The paper also touches on governance through mentions of predictive data modeling, implying AI/ML use.",
+          "title": "Payers as Partners in Achieving Racial Equity in Healthcare",
+          "url": "https://centene.com/content/dam/centenedotcom/documents/CNC-Payers-as-Partners-Racial-Equity-Healthcare.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"Form 10-K 2024 - AI and Risk Governance Disclosure,\" provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The filing acknowledges the ethical and legal use of AI/ML as a material business risk, mentions transparency requirements for AI/algorithms, and discusses risks like bias and privacy related to AI. It also highlights board oversight, implying governance, and references emerging AI regulations and vendor assurances for compliance, supporting external accountability.",
+          "title": "Form 10-K 2024 - AI and Risk Governance Disclosure",
+          "url": "https://filecache.investorroom.com/mr5ir_centene/721/CNC%20(Centene%20Corporation)%20%20(10-K)%202025-02-18.pdf_.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Comprehensive Analysis of Centene AI Implementation,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It supports governance by mentioning AI governance as foundational and a policy commitment to its importance. Evidence for oversight is found in the description of human agents auditing and taking charge of AI processes, indicating active human involvement in the AI's operation. The paper also touches on **transparency** by mentioning AI chatbots and advanced ML capabilities, though it notes these descriptions are factual rather than detailing operational execution or governance.",
+          "title": "Comprehensive Analysis of Centene AI Implementation",
+          "url": "https://emerj.com/artificial-intelligence-at-centene"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release about Apixio's AI platform for healthcare data provides evidence for **governance** and **transparency**. The mention of an \"AI platform\" and \"algorithms\" indicates transparency regarding the use of AI technology. Furthermore, the statement that the platform \"creates and refines algorithms\" suggests governance over the development and improvement of these AI systems.",
+          "title": "Apixio Acquisition - AI Platform for Healthcare Data",
+          "url": "https://investors.centene.com/2020-11-09-Centene-Signs-Definitive-Agreement-to-Acquire-Apixio"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper highlights regulatory concerns regarding the rapid adoption of AI by health insurers like Centene, which uses AI for contract management and performance measurement. The paper provides evidence for **governance** by discussing the challenges of regulatory oversight keeping pace with AI deployment and for **transparency** by noting the documented AI use cases and efficiency gains. It also supports **external_accountability** by implying a need for it due to the difficulty in tracking AI's impacts.",
+          "title": "Regulatory Concerns on Health Insurer AI Adoption",
+          "url": "https://statnews.com/2025/03/25/health-insurers-ai-use-regulators-see-brewing-crisis-elevance-centene-unitedhealth"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **fairness** and **transparency** pillars of responsible AI. It highlights concerns regarding Centene's high denial rate for prior authorization requests in Medicare Advantage and the subsequent high overturn rate on appeals, suggesting potential issues with fairness in initial decision-making. The paper also touches on transparency by discussing proposed legislative efforts to clarify prior authorization criteria and increase visibility into decision-making processes.",
+          "title": "Medicare Advantage Prior Authorization Analysis and Denial Rates",
+          "url": "https://kff.org/medicare/nearly-50-million-prior-authorization-requests-were-sent-to-medicare-advantage-insurers-in-2023"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This press release from Centene's participation in the NCQA AI Stakeholder Working Group provides evidence for the **governance** and **transparency** pillars. The document highlights Centene's involvement in developing standards for responsible AI governance in healthcare operations and clinical delivery, including identifying criteria for AI use and governance, and supporting pilot programs to review these standards. Furthermore, it indicates an intention to share insights on AI deployment and monitoring, aligning with transparency and accountability for safe, ethical, and effective AI use.",
+          "title": "NCQA AI Stakeholder Working Group - Centene Participation",
+          "url": "https://ncqa.org/news/ncqa-announces-inaugural-participants-in-ai-governance-working-group"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This job posting for a Director of AI Ethics and Governance provides evidence for the **governance**, **fairness**, and **transparency** pillars. The document details responsibilities for executing an AI governance framework, developing and implementing AI ethics guidelines, and monitoring AI risk assessments, all of which directly support the governance pillar. Furthermore, the posting explicitly commits to \"fairness\" and \"transparency\" for AI systems, indicating policy goals that align with these respective pillars.",
+          "title": "Director, AI Ethics and Governance Job Posting",
+          "url": "https://jobs.centene.com/us/en/jobs/1616985/director-artificial-intelligence-ai-ethics-and-governance"
+        }
+      ],
+      "score": 2,
+      "source_count": 14
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "Policy documents mention human oversight for AI. Published materials describe human agents auditing and taking charge of AI processes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Use of AI in Marketing & Sales Policy,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It commits to evaluating AI tools for bias and incorporating ethical checkpoints, directly supporting fairness and transparency. Furthermore, the policy mentions human oversight, protection of sensitive information for AI, and ensuring ethical standards and compliance, which demonstrates its support for governance and oversight.",
+          "title": "Responsible Use of AI in Marketing & Sales Policy",
+          "url": "https://centene.com/content/dam/centenedotcom/documents/Centene-Responsible-Sales-Marketing-Code.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Comprehensive Analysis of Centene AI Implementation,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It supports governance by mentioning AI governance as foundational and a policy commitment to its importance. Evidence for oversight is found in the description of human agents auditing and taking charge of AI processes, indicating active human involvement in the AI's operation. The paper also touches on **transparency** by mentioning AI chatbots and advanced ML capabilities, though it notes these descriptions are factual rather than detailing operational execution or governance.",
+          "title": "Comprehensive Analysis of Centene AI Implementation",
+          "url": "https://emerj.com/artificial-intelligence-at-centene"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "Policy documents mention the protection of sensitive information for AI. An SEC filing references risks related to privacy concerning AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Use of AI in Marketing & Sales Policy,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It commits to evaluating AI tools for bias and incorporating ethical checkpoints, directly supporting fairness and transparency. Furthermore, the policy mentions human oversight, protection of sensitive information for AI, and ensuring ethical standards and compliance, which demonstrates its support for governance and oversight.",
+          "title": "Responsible Use of AI in Marketing & Sales Policy",
+          "url": "https://centene.com/content/dam/centenedotcom/documents/Centene-Responsible-Sales-Marketing-Code.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"Form 10-K 2024 - AI and Risk Governance Disclosure,\" provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The filing acknowledges the ethical and legal use of AI/ML as a material business risk, mentions transparency requirements for AI/algorithms, and discusses risks like bias and privacy related to AI. It also highlights board oversight, implying governance, and references emerging AI regulations and vendor assurances for compliance, supporting external accountability.",
+          "title": "Form 10-K 2024 - AI and Risk Governance Disclosure",
+          "url": "https://filecache.investorroom.com/mr5ir_centene/721/CNC%20(Centene%20Corporation)%20%20(10-K)%202025-02-18.pdf_.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 20,
+      "findings": "Policy documents and job postings state a commitment to prioritizing transparency in the design and use of AI/ML technologies and systems. System cards and press releases mention specific AI/ML components like predictive models, AI platforms, and algorithms, describing their use cases. Furthermore, SEC filings reference transparency requirements for AI, and a press release references an intention to share insights on AI deployment and monitoring.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Use of AI in Marketing & Sales Policy,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It commits to evaluating AI tools for bias and incorporating ethical checkpoints, directly supporting fairness and transparency. Furthermore, the policy mentions human oversight, protection of sensitive information for AI, and ensuring ethical standards and compliance, which demonstrates its support for governance and oversight.",
+          "title": "Responsible Use of AI in Marketing & Sales Policy",
+          "url": "https://centene.com/content/dam/centenedotcom/documents/Centene-Responsible-Sales-Marketing-Code.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This system card for Centene's HALO program provides evidence for **governance** and **transparency**. It supports governance by detailing the program's operational predictive AI system, which aims to identify members at risk of substance use disorders and manage those already diagnosed, implying structured application and oversight. Transparency is supported by the explicit mention of a \"machine-learning predictive model\" used within the program.",
+          "title": "HALO Program - Substance Use Disorder Predictive Model",
+          "url": "https://centene.com/content/dam/centenedotcom/documents/Centene_ImpactBrief_HALO.pdf"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This system card for the HALO Program Implementation - Substance Misuse provides evidence for the **transparency** pillar. It supports this by explicitly naming the \"LIFT Predictive Model\" and describing its use in predictive modeling for substance misuse segmentation, demonstrating transparency about the AI/ML components and their functions within the system.",
+          "title": "HALO Program Implementation - Substance Misuse",
+          "url": "https://homestatehealth.com/content/dam/centene/home-state-health/pdfs/halo-substance.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Corporate Sustainability - AI & ML Strategy Page,\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It explicitly commits to prioritizing fairness, accountability, and transparency in the design and use of AI/ML technologies, demonstrating a foundational commitment to responsible AI practices.",
+          "title": "Corporate Sustainability - AI & ML Strategy Page",
+          "url": "https://investors.centene.com/Sustainability"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Payers as Partners in Achieving Racial Equity in Healthcare,\" provides evidence for fairness, governance, and transparency. It supports fairness by describing the use of data to identify disparities and tailor interventions, and transparency by detailing the capabilities of machine learning for risk identification. The paper also touches on governance through mentions of predictive data modeling, implying AI/ML use.",
+          "title": "Payers as Partners in Achieving Racial Equity in Healthcare",
+          "url": "https://centene.com/content/dam/centenedotcom/documents/CNC-Payers-as-Partners-Racial-Equity-Healthcare.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This SEC filing, \"Form 10-K 2024 - AI and Risk Governance Disclosure,\" provides evidence for **external accountability, fairness, governance, privacy, and transparency**. The filing acknowledges the ethical and legal use of AI/ML as a material business risk, mentions transparency requirements for AI/algorithms, and discusses risks like bias and privacy related to AI. It also highlights board oversight, implying governance, and references emerging AI regulations and vendor assurances for compliance, supporting external accountability.",
+          "title": "Form 10-K 2024 - AI and Risk Governance Disclosure",
+          "url": "https://filecache.investorroom.com/mr5ir_centene/721/CNC%20(Centene%20Corporation)%20%20(10-K)%202025-02-18.pdf_.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Comprehensive Analysis of Centene AI Implementation,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It supports governance by mentioning AI governance as foundational and a policy commitment to its importance. Evidence for oversight is found in the description of human agents auditing and taking charge of AI processes, indicating active human involvement in the AI's operation. The paper also touches on **transparency** by mentioning AI chatbots and advanced ML capabilities, though it notes these descriptions are factual rather than detailing operational execution or governance.",
+          "title": "Comprehensive Analysis of Centene AI Implementation",
+          "url": "https://emerj.com/artificial-intelligence-at-centene"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release about Apixio's AI platform for healthcare data provides evidence for **governance** and **transparency**. The mention of an \"AI platform\" and \"algorithms\" indicates transparency regarding the use of AI technology. Furthermore, the statement that the platform \"creates and refines algorithms\" suggests governance over the development and improvement of these AI systems.",
+          "title": "Apixio Acquisition - AI Platform for Healthcare Data",
+          "url": "https://investors.centene.com/2020-11-09-Centene-Signs-Definitive-Agreement-to-Acquire-Apixio"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper highlights regulatory concerns regarding the rapid adoption of AI by health insurers like Centene, which uses AI for contract management and performance measurement. The paper provides evidence for **governance** by discussing the challenges of regulatory oversight keeping pace with AI deployment and for **transparency** by noting the documented AI use cases and efficiency gains. It also supports **external_accountability** by implying a need for it due to the difficulty in tracking AI's impacts.",
+          "title": "Regulatory Concerns on Health Insurer AI Adoption",
+          "url": "https://statnews.com/2025/03/25/health-insurers-ai-use-regulators-see-brewing-crisis-elevance-centene-unitedhealth"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **fairness** and **transparency** pillars of responsible AI. It highlights concerns regarding Centene's high denial rate for prior authorization requests in Medicare Advantage and the subsequent high overturn rate on appeals, suggesting potential issues with fairness in initial decision-making. The paper also touches on transparency by discussing proposed legislative efforts to clarify prior authorization criteria and increase visibility into decision-making processes.",
+          "title": "Medicare Advantage Prior Authorization Analysis and Denial Rates",
+          "url": "https://kff.org/medicare/nearly-50-million-prior-authorization-requests-were-sent-to-medicare-advantage-insurers-in-2023"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This press release from Centene's participation in the NCQA AI Stakeholder Working Group provides evidence for the **governance** and **transparency** pillars. The document highlights Centene's involvement in developing standards for responsible AI governance in healthcare operations and clinical delivery, including identifying criteria for AI use and governance, and supporting pilot programs to review these standards. Furthermore, it indicates an intention to share insights on AI deployment and monitoring, aligning with transparency and accountability for safe, ethical, and effective AI use.",
+          "title": "NCQA AI Stakeholder Working Group - Centene Participation",
+          "url": "https://ncqa.org/news/ncqa-announces-inaugural-participants-in-ai-governance-working-group"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_018",
+          "source_tier": "company_owned",
+          "summary": "This job posting for a Director of AI Ethics and Governance provides evidence for the **governance**, **fairness**, and **transparency** pillars. The document details responsibilities for executing an AI governance framework, developing and implementing AI ethics guidelines, and monitoring AI risk assessments, all of which directly support the governance pillar. Furthermore, the posting explicitly commits to \"fairness\" and \"transparency\" for AI systems, indicating policy goals that align with these respective pillars.",
+          "title": "Director, AI Ethics and Governance Job Posting",
+          "url": "https://jobs.centene.com/us/en/jobs/1616985/director-artificial-intelligence-ai-ethics-and-governance"
+        }
+      ],
+      "score": 1,
+      "source_count": 12
+    }
+  },
+  "published_at": "2026-02-23T21:46:28Z",
+  "run_id": "20260128_153157_43f6",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Centene's public disclosures address responsible AI practices at both operational and policy levels. Operational practices are documented for governance, including the establishment of an AI Governance Committee accountable to the Board's Audit and Compliance Committee, and a formal process requiring employees to connect with this committee before pursuing new AI ideas. Additionally, policy-level evidence is present for transparency, fairness, oversight, privacy, and external accountability; for instance, transparency materials explicitly mention a \"machine-learning predictive model\" used in the HALO program. In total, 6 of 7 evaluated pillars have documented evidence, though no qualifying public evidence was found for explainability. These findings are based on a review of 19 publicly available sources.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 52,
+    "total_sources_used": 15
+  }
+}

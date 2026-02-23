@@ -1,0 +1,419 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "Fiserv",
+  "company_slug": "fiserv",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 17,
+      "OPERATIONAL": 10,
+      "POLICY": 44
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Fiserv's blog posts mention AI's capability to provide explanations for its actions. Case studies describe the EnFact Advanced Scoring system, which combines FICO Falcon Fraud Manager with neural network modeling, indicating a commitment to interpretable systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Transforming Payment Operations with AI,\" provides evidence for the **explainability** and **transparency** pillars of responsible AI. The post supports explainability by mentioning AI's capability to provide \"explanation\" for its actions. Transparency is evidenced by the blog post's description of AI's use cases, its ability to extract deep insights, and its recognition of patterns, all of which indicate openness about the AI's functions and applications.",
+          "title": "Transforming Payment Operations with AI",
+          "url": "https://fiserv.com/en/insights/articles-and-blogs/transforming-payment-operations-with-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This FICO case study, \"Fiserv Reduces Fraud Losses with AI,\" provides evidence for **explainability, governance, oversight, and transparency**. The document supports these pillars by describing the EnFact Advanced Scoring system, which combines FICO Falcon Fraud Manager with neural network modeling, indicating a commitment to interpretable systems and AI capabilities for fraud detection. Furthermore, it highlights adaptive learning and automated decisions alongside human-in-the-loop AI, suggesting a structured approach to AI use and human oversight in managing fraud risk.",
+          "title": "Fiserv Reduces Fraud Losses with AI - FICO Case Study",
+          "url": "https://fico.com/blogs/fiserv-reduces-fraud-losses"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "Fiserv's annual reports detail the testing and evaluation of automated and IT controls by IT professionals. These reports also acknowledge the inherent risks and potential liabilities associated with AI misuse.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "The Fiserv 2024 Form 10-K Annual Report provides evidence for external accountability, fairness, governance, privacy, and transparency. The report supports external accountability and governance by detailing the testing and evaluation of automated and IT controls by IT professionals, and by acknowledging the inherent risks and potential liabilities associated with AI misuse. Evidence for fairness is present through the acknowledgment of potential bias and inaccuracy from AI systems. Transparency and governance are further supported by mentions of AI/ML use and expansion, as well as the identification of risks to confidential information and intellectual property rights, underscoring the need for data protection and control.",
+          "title": "Fiserv 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/798354/000079835425000047/fi-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "Fiserv's annual report acknowledges the potential for bias and inaccuracy from AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "The Fiserv 2024 Form 10-K Annual Report provides evidence for external accountability, fairness, governance, privacy, and transparency. The report supports external accountability and governance by detailing the testing and evaluation of automated and IT controls by IT professionals, and by acknowledging the inherent risks and potential liabilities associated with AI misuse. Evidence for fairness is present through the acknowledgment of potential bias and inaccuracy from AI systems. Transparency and governance are further supported by mentions of AI/ML use and expansion, as well as the identification of risks to confidential information and intellectual property rights, underscoring the need for data protection and control.",
+          "title": "Fiserv 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/798354/000079835425000047/fi-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 52,
+      "findings": "Fiserv documents a cross-functional governance structure and an AI governance program to oversee responsible AI and ML capabilities, including the establishment of standards and mandatory training for AI platform access. Board-level governance structures, such as oversight bodies and a clearinghouse to review AI use cases, are detailed, alongside board committee oversight of AI implementation and policy development. The company's approach includes detailing data processing mechanisms, referencing vendor partnerships for AI solutions, and implementing a federated data stewardship model with AI governance oversight. Reports also establish principles for AI/ML use, detail the testing and evaluation of automated controls, and acknowledge risks associated with AI misuse.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Corporate Social Responsibility - Responsible AI and Machine Learning,\" provides evidence for the **governance** pillar of responsible AI. It describes a cross-functional governance structure established to oversee the implementation of responsible AI and machine learning capabilities, including the establishment of standards for appropriate technology use. The document also mentions \"ethical AI\" as a focus area, indicating a commitment to responsible AI practices.",
+          "title": "Corporate Social Responsibility - Responsible AI and Machine Learning",
+          "url": "https://fiserv.com/en/about-fiserv/corporate-social-responsibility.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This 2024 Corporate Social Responsibility Report provides evidence for the **governance** pillar of responsible AI. The report details the development of an AI governance program and a cross-functional governance structure to oversee the implementation of responsible AI and ML capabilities. It also mentions mandatory training for AI platform access, promoting accountability and informed usage.",
+          "title": "2024 Corporate Social Responsibility Report",
+          "url": "https://fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/documents-handouts-flyers/2024-csr-report-0425.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This 2023 Corporate Social Responsibility Report provides evidence for the **governance** and **transparency** pillars of responsible AI. It details the expansion of Fiserv's enterprise data oversight function to include the development of an AI governance protocol and the establishment of a cross-functional governance structure for AI/ML capabilities, demonstrating operational mechanisms for oversight. The report also implies transparency by stating the intent to use AI/ML for client value and operational improvements, listing beneficial areas.",
+          "title": "2023 Corporate Social Responsibility Report",
+          "url": "https://fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/documents-handouts-flyers/2023-csr-report-0424.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, and **transparency** related to AI. It details the establishment of board-level governance structures, including oversight bodies and a clearinghouse to review AI use cases, demonstrating a commitment to responsible AI practices. The document also mentions AI/ML capabilities, contributing to transparency.",
+          "title": "Fiserv 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/798354/000114036125011869/ny20041471x1_def14a.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for the **governance** pillar of responsible AI. It details board committee oversight of responsible AI implementation and policy development, highlighting a leadership role dedicated to AI and a policy for appointing directors with evolving expertise, including AI, to enhance board performance and oversight.",
+          "title": "Fiserv 2024 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/798354/000114036124017619/ny20017254x1_def14a.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "The Fiserv Privacy Notice supports the **governance** and **privacy** pillars. This policy document provides evidence for governance by mentioning automated decisions, data use for risk management and fraud detection, and disclosure for legal compliance, indicating oversight of data processing. It supports the privacy pillar by describing profiling/inference systems and data use in automated decision-making, which are key areas for privacy considerations.",
+          "title": "Fiserv Privacy Notice",
+          "url": "https://fiserv.com/en/about-fiserv/privacy-notice.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Fiserv Merchant Services Privacy Policy document provides evidence for the **governance, oversight, privacy, and transparency** pillars of responsible AI. It supports governance and privacy by detailing data processing mechanisms and safeguards for sensitive information, including biometric and health data, used in automated processes like fraud protection and risk management. The policy also addresses oversight through mentions of human intervention rights regarding automated decisions and supports transparency by describing opt-out mechanisms for targeted advertising, which relies on profiling systems.",
+          "title": "Fiserv Merchant Services Privacy Policy",
+          "url": "https://merchants.fiserv.com/en-europe/privacy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned press release discusses Fiserv's aspirations for a \"thoughtful approach\" and \"plan\" for AI deployment, which supports the **governance** pillar by indicating a strategic intent. The release also mentions AI use cases, providing evidence for the **transparency** pillar by outlining areas where AI is being considered or applied.",
+          "title": "How is Fiserv Using AI? - Video Resource",
+          "url": "https://fiserv.com/en/about-fiserv/resource-center/videos/how-is-fiserv-using-ai-.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This FICO case study, \"Fiserv Reduces Fraud Losses with AI,\" provides evidence for **explainability, governance, oversight, and transparency**. The document supports these pillars by describing the EnFact Advanced Scoring system, which combines FICO Falcon Fraud Manager with neural network modeling, indicating a commitment to interpretable systems and AI capabilities for fraud detection. Furthermore, it highlights adaptive learning and automated decisions alongside human-in-the-loop AI, suggesting a structured approach to AI use and human oversight in managing fraud risk.",
+          "title": "Fiserv Reduces Fraud Losses with AI - FICO Case Study",
+          "url": "https://fico.com/blogs/fiserv-reduces-fraud-losses"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Fiserv-Feedzai Fraud Detection Partnership,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by referencing the partnership with a vendor for AI solutions and the practice of biannual model updates to leverage advancements. Transparency is evidenced by the discussion of fraud detection model performance, training data, and fraud scores, indicating openness in AI development and maintenance.",
+          "title": "Fiserv-Feedzai Fraud Detection Partnership",
+          "url": "https://feedzai.com/blog/feedzai-fiserv"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Fiserv Data Governance and AI Catalog Implementation,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The document details Fiserv's implementation of a federated data stewardship model with AI governance oversight, a data catalog for tracking lineage, and the use of generative AI for documentation and code analysis, all of which contribute to transparency and understanding of AI systems. Furthermore, the mention of \"safe and proper\" data use for AI models and human verification for AI suggestions supports the oversight and privacy pillars by indicating a commitment to data protection and trustworthy AI development.",
+          "title": "Fiserv Data Governance and AI Catalog Implementation",
+          "url": "https://alation.com/blog/fiserv-intelligent-cloud-migration-alation"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "The Clover Card Testing Fraud Protection Documentation, a third-party system card, provides evidence for the governance pillar. This is supported by descriptions of automated systems like reCAPTCHA and their integration, implying a policy for their use in fraud prevention. Additionally, the document details the setting of custom rules and limits for transactions, indicating a policy for automated decision-making and control.",
+          "title": "Clover Card Testing Fraud Protection Documentation",
+          "url": "https://docs.clover.com/dev/docs/protect-ecommerce-merchants-from-card-testing-fraud"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned audit report, \"2023 CSR Report - Data Ethics and AI Governance,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by establishing principles for AI/ML use and a cross-functional Data Use Review Committee to evaluate products and services. The report also addresses responsible AI use and data privacy for AI/ML, indicating a policy commitment to privacy, and mentions specific AI applications like fraud detection, which implies transparency in automated decision-making.",
+          "title": "2023 CSR Report - Data Ethics and AI Governance",
+          "url": "https://fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/documents-handouts-flyers/2023-csr-report-0423.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "The Fiserv 2024 Form 10-K Annual Report provides evidence for external accountability, fairness, governance, privacy, and transparency. The report supports external accountability and governance by detailing the testing and evaluation of automated and IT controls by IT professionals, and by acknowledging the inherent risks and potential liabilities associated with AI misuse. Evidence for fairness is present through the acknowledgment of potential bias and inaccuracy from AI systems. Transparency and governance are further supported by mentions of AI/ML use and expansion, as well as the identification of risks to confidential information and intellectual property rights, underscoring the need for data protection and control.",
+          "title": "Fiserv 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/798354/000079835425000047/fi-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 14
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Fiserv's proxy statements detail the establishment of board-level governance structures, including oversight bodies and a clearinghouse to review AI use cases. Policy documents mention human intervention rights regarding automated decisions. Furthermore, case studies highlight adaptive learning and automated decisions alongside human-in-the-loop AI, and technical papers mention human verification for AI suggestions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, and **transparency** related to AI. It details the establishment of board-level governance structures, including oversight bodies and a clearinghouse to review AI use cases, demonstrating a commitment to responsible AI practices. The document also mentions AI/ML capabilities, contributing to transparency.",
+          "title": "Fiserv 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/798354/000114036125011869/ny20041471x1_def14a.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Fiserv Merchant Services Privacy Policy document provides evidence for the **governance, oversight, privacy, and transparency** pillars of responsible AI. It supports governance and privacy by detailing data processing mechanisms and safeguards for sensitive information, including biometric and health data, used in automated processes like fraud protection and risk management. The policy also addresses oversight through mentions of human intervention rights regarding automated decisions and supports transparency by describing opt-out mechanisms for targeted advertising, which relies on profiling systems.",
+          "title": "Fiserv Merchant Services Privacy Policy",
+          "url": "https://merchants.fiserv.com/en-europe/privacy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This FICO case study, \"Fiserv Reduces Fraud Losses with AI,\" provides evidence for **explainability, governance, oversight, and transparency**. The document supports these pillars by describing the EnFact Advanced Scoring system, which combines FICO Falcon Fraud Manager with neural network modeling, indicating a commitment to interpretable systems and AI capabilities for fraud detection. Furthermore, it highlights adaptive learning and automated decisions alongside human-in-the-loop AI, suggesting a structured approach to AI use and human oversight in managing fraud risk.",
+          "title": "Fiserv Reduces Fraud Losses with AI - FICO Case Study",
+          "url": "https://fico.com/blogs/fiserv-reduces-fraud-losses"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Fiserv Data Governance and AI Catalog Implementation,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The document details Fiserv's implementation of a federated data stewardship model with AI governance oversight, a data catalog for tracking lineage, and the use of generative AI for documentation and code analysis, all of which contribute to transparency and understanding of AI systems. Furthermore, the mention of \"safe and proper\" data use for AI models and human verification for AI suggestions supports the oversight and privacy pillars by indicating a commitment to data protection and trustworthy AI development.",
+          "title": "Fiserv Data Governance and AI Catalog Implementation",
+          "url": "https://alation.com/blog/fiserv-intelligent-cloud-migration-alation"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 12,
+      "findings": "Fiserv's privacy notices describe profiling/inference systems and data use in automated decision-making. Policy documents detail data processing mechanisms and safeguards for sensitive information, including biometric and health data, used in automated processes like fraud protection and risk management. Reports address responsible AI use and data privacy for AI/ML, indicating a policy commitment to privacy, and annual reports identify risks to confidential information and intellectual property rights.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "The Fiserv Privacy Notice supports the **governance** and **privacy** pillars. This policy document provides evidence for governance by mentioning automated decisions, data use for risk management and fraud detection, and disclosure for legal compliance, indicating oversight of data processing. It supports the privacy pillar by describing profiling/inference systems and data use in automated decision-making, which are key areas for privacy considerations.",
+          "title": "Fiserv Privacy Notice",
+          "url": "https://fiserv.com/en/about-fiserv/privacy-notice.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Fiserv Merchant Services Privacy Policy document provides evidence for the **governance, oversight, privacy, and transparency** pillars of responsible AI. It supports governance and privacy by detailing data processing mechanisms and safeguards for sensitive information, including biometric and health data, used in automated processes like fraud protection and risk management. The policy also addresses oversight through mentions of human intervention rights regarding automated decisions and supports transparency by describing opt-out mechanisms for targeted advertising, which relies on profiling systems.",
+          "title": "Fiserv Merchant Services Privacy Policy",
+          "url": "https://merchants.fiserv.com/en-europe/privacy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Fiserv Data Governance and AI Catalog Implementation,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The document details Fiserv's implementation of a federated data stewardship model with AI governance oversight, a data catalog for tracking lineage, and the use of generative AI for documentation and code analysis, all of which contribute to transparency and understanding of AI systems. Furthermore, the mention of \"safe and proper\" data use for AI models and human verification for AI suggestions supports the oversight and privacy pillars by indicating a commitment to data protection and trustworthy AI development.",
+          "title": "Fiserv Data Governance and AI Catalog Implementation",
+          "url": "https://alation.com/blog/fiserv-intelligent-cloud-migration-alation"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned audit report, \"2023 CSR Report - Data Ethics and AI Governance,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by establishing principles for AI/ML use and a cross-functional Data Use Review Committee to evaluate products and services. The report also addresses responsible AI use and data privacy for AI/ML, indicating a policy commitment to privacy, and mentions specific AI applications like fraud detection, which implies transparency in automated decision-making.",
+          "title": "2023 CSR Report - Data Ethics and AI Governance",
+          "url": "https://fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/documents-handouts-flyers/2023-csr-report-0423.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "The Fiserv 2024 Form 10-K Annual Report provides evidence for external accountability, fairness, governance, privacy, and transparency. The report supports external accountability and governance by detailing the testing and evaluation of automated and IT controls by IT professionals, and by acknowledging the inherent risks and potential liabilities associated with AI misuse. Evidence for fairness is present through the acknowledgment of potential bias and inaccuracy from AI systems. Transparency and governance are further supported by mentions of AI/ML use and expansion, as well as the identification of risks to confidential information and intellectual property rights, underscoring the need for data protection and control.",
+          "title": "Fiserv 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/798354/000079835425000047/fi-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 26,
+      "findings": "Fiserv documents its intent to use AI/ML for client value and operational improvements, outlining beneficial areas and specific AI applications like fraud detection. Published materials describe AI's use cases, its ability to extract deep insights, and its recognition of patterns, including discussions of fraud detection model performance, training data, and fraud scores. The company also describes opt-out mechanisms for targeted advertising and details a data catalog for tracking lineage and the use of generative AI for documentation and code analysis.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This 2023 Corporate Social Responsibility Report provides evidence for the **governance** and **transparency** pillars of responsible AI. It details the expansion of Fiserv's enterprise data oversight function to include the development of an AI governance protocol and the establishment of a cross-functional governance structure for AI/ML capabilities, demonstrating operational mechanisms for oversight. The report also implies transparency by stating the intent to use AI/ML for client value and operational improvements, listing beneficial areas.",
+          "title": "2023 Corporate Social Responsibility Report",
+          "url": "https://fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/documents-handouts-flyers/2023-csr-report-0424.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_004",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, and **transparency** related to AI. It details the establishment of board-level governance structures, including oversight bodies and a clearinghouse to review AI use cases, demonstrating a commitment to responsible AI practices. The document also mentions AI/ML capabilities, contributing to transparency.",
+          "title": "Fiserv 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/798354/000114036125011869/ny20041471x1_def14a.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Fiserv Merchant Services Privacy Policy document provides evidence for the **governance, oversight, privacy, and transparency** pillars of responsible AI. It supports governance and privacy by detailing data processing mechanisms and safeguards for sensitive information, including biometric and health data, used in automated processes like fraud protection and risk management. The policy also addresses oversight through mentions of human intervention rights regarding automated decisions and supports transparency by describing opt-out mechanisms for targeted advertising, which relies on profiling systems.",
+          "title": "Fiserv Merchant Services Privacy Policy",
+          "url": "https://merchants.fiserv.com/en-europe/privacy"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned press release discusses Fiserv's aspirations for a \"thoughtful approach\" and \"plan\" for AI deployment, which supports the **governance** pillar by indicating a strategic intent. The release also mentions AI use cases, providing evidence for the **transparency** pillar by outlining areas where AI is being considered or applied.",
+          "title": "How is Fiserv Using AI? - Video Resource",
+          "url": "https://fiserv.com/en/about-fiserv/resource-center/videos/how-is-fiserv-using-ai-.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Transforming Payment Operations with AI,\" provides evidence for the **explainability** and **transparency** pillars of responsible AI. The post supports explainability by mentioning AI's capability to provide \"explanation\" for its actions. Transparency is evidenced by the blog post's description of AI's use cases, its ability to extract deep insights, and its recognition of patterns, all of which indicate openness about the AI's functions and applications.",
+          "title": "Transforming Payment Operations with AI",
+          "url": "https://fiserv.com/en/insights/articles-and-blogs/transforming-payment-operations-with-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This FICO case study, \"Fiserv Reduces Fraud Losses with AI,\" provides evidence for **explainability, governance, oversight, and transparency**. The document supports these pillars by describing the EnFact Advanced Scoring system, which combines FICO Falcon Fraud Manager with neural network modeling, indicating a commitment to interpretable systems and AI capabilities for fraud detection. Furthermore, it highlights adaptive learning and automated decisions alongside human-in-the-loop AI, suggesting a structured approach to AI use and human oversight in managing fraud risk.",
+          "title": "Fiserv Reduces Fraud Losses with AI - FICO Case Study",
+          "url": "https://fico.com/blogs/fiserv-reduces-fraud-losses"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Fiserv-Feedzai Fraud Detection Partnership,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by referencing the partnership with a vendor for AI solutions and the practice of biannual model updates to leverage advancements. Transparency is evidenced by the discussion of fraud detection model performance, training data, and fraud scores, indicating openness in AI development and maintenance.",
+          "title": "Fiserv-Feedzai Fraud Detection Partnership",
+          "url": "https://feedzai.com/blog/feedzai-fiserv"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Fiserv Data Governance and AI Catalog Implementation,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The document details Fiserv's implementation of a federated data stewardship model with AI governance oversight, a data catalog for tracking lineage, and the use of generative AI for documentation and code analysis, all of which contribute to transparency and understanding of AI systems. Furthermore, the mention of \"safe and proper\" data use for AI models and human verification for AI suggestions supports the oversight and privacy pillars by indicating a commitment to data protection and trustworthy AI development.",
+          "title": "Fiserv Data Governance and AI Catalog Implementation",
+          "url": "https://alation.com/blog/fiserv-intelligent-cloud-migration-alation"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned audit report, \"2023 CSR Report - Data Ethics and AI Governance,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by establishing principles for AI/ML use and a cross-functional Data Use Review Committee to evaluate products and services. The report also addresses responsible AI use and data privacy for AI/ML, indicating a policy commitment to privacy, and mentions specific AI applications like fraud detection, which implies transparency in automated decision-making.",
+          "title": "2023 CSR Report - Data Ethics and AI Governance",
+          "url": "https://fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/documents-handouts-flyers/2023-csr-report-0423.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "The Fiserv 2024 Form 10-K Annual Report provides evidence for external accountability, fairness, governance, privacy, and transparency. The report supports external accountability and governance by detailing the testing and evaluation of automated and IT controls by IT professionals, and by acknowledging the inherent risks and potential liabilities associated with AI misuse. Evidence for fairness is present through the acknowledgment of potential bias and inaccuracy from AI systems. Transparency and governance are further supported by mentions of AI/ML use and expansion, as well as the identification of risks to confidential information and intellectual property rights, underscoring the need for data protection and control.",
+          "title": "Fiserv 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/798354/000079835425000047/fi-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    }
+  },
+  "published_at": "2026-02-23T21:50:20Z",
+  "run_id": "20260202_220712_e6d9",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Fiserv's public disclosures address all 7 evaluated responsible AI pillars, with evidence found across all areas. Transparency reports state the intent to use AI/ML for client value, and proxy statements detail the establishment of board-level governance structures, including oversight bodies and a clearinghouse to review AI use cases. Furthermore, policy documents describe a cross-functional governance structure established to oversee the implementation of responsible AI capabilities. Fairness, explainability, and privacy are addressed through published policies, with privacy notices describing profiling/inference systems and data use in automated decision-making. This assessment draws on 17 publicly available sources.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 71,
+    "total_sources_used": 15
+  }
+}

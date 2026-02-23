@@ -1,0 +1,417 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "Procter & Gamble",
+  "company_slug": "procter-gamble",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 27,
+      "OPERATIONAL": 11,
+      "POLICY": 64
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Technical papers highlight P&G's emphasis on human accountability for AI outputs. They also highlight an emphasis on AI systems providing clear decision rationales.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party technical paper on Procter & Gamble's AI strategy provides evidence for **explainability**, **governance**, **privacy**, and **transparency**. The analysis highlights P&G's emphasis on human accountability for AI outputs and systems providing clear decision rationales, supporting **explainability**. The paper details P&G's ethical governance framework, including an AI Hub and mandatory training, demonstrating a strong commitment to **governance**. Furthermore, the document explicitly mentions **privacy** as a consideration and implies **transparency** through descriptions of AI deployment in areas like manufacturing and media buying, as well as the mention of an \"AI Factory\" operational model.",
+          "title": "Procter & Gamble's AI Strategy: Path to AI Dominance in Consumer Goods",
+          "url": "https://klover.ai/procter-gamble-ai-strategy-path-to-ai-dominance-consumer-goods"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Sources describe documented external accountability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical paper from Insight Partners on Procter & Gamble's AI scaling highlights their commitment to responsible AI through robust governance and external accountability. The document details P&G's employment of independent risk officers to review AI projects, demonstrating a strong governance framework and a mechanism for external accountability. Furthermore, the emphasis on managing bias and algorithm drift, alongside the CIO's quote about avoiding bias in million-dollar decisions, underscores their focus on transparency and risk mitigation in AI deployment.",
+          "title": "Procter & Gamble on Scaling AI for Enterprise | Insight Partners",
+          "url": "https://insightpartners.com/ideas/procter-gamble-on-scaling-ai-for-enterprise"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "Technical papers mention policies for addressing bias in training data.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This P&G Privacy Policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars. It supports the **privacy** pillar by detailing data collection, use for profiling and interest-based advertising, and consumer consent requirements, as well as outlining opt-out mechanisms for targeted advertising and data sharing. The policy also supports **governance** by describing how ad targeting and profiling processes are managed, and **oversight** by stating a policy against legal-effect automated decision-making without consent and referencing rights against solely automated evaluations. Furthermore, it contributes to **transparency** by mentioning the generation of scores and inferences by analytics programs and the use of algorithms.",
+          "title": "P&G Privacy Policy",
+          "url": "https://privacypolicy.pg.com/en-US"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency in AI deployment. It supports **fairness** by mentioning policies for addressing bias in training data. **Governance** is evidenced through descriptions of proprietary datasets, custom-built agents, an AI factory for scaling models, and internal development and testing processes. **Oversight** is demonstrated by the mention of human review processes and a forward-looking discussion of autonomous agents with minimal human oversight. **Privacy** is supported by the description of security safeguards and a \"walled garden\" for data protection. Finally, **transparency** is evident through the detailed documentation of AI agents, algorithms, use cases, technologies, and their impacts, as well as the operational cycle and use of partner software.",
+          "title": "Procter & Gamble Uses AI Agents: 10 Ways to Use AI (August 2025)",
+          "url": "https://klover.ai/procter-gamble-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 75,
+      "findings": "P&G's governance practices include requiring due diligence on AI tools and describing how ad targeting and profiling processes are managed. Reports acknowledge risks associated with AI misuse and mention managing regulatory requirements. Technical papers describe proprietary datasets, custom-built agents, an AI factory for scaling models, and internal development and testing processes, while also highlighting an emphasis on standardized AI development, organizational AI fluency, and systematic AI governance. Policy documents establish clear expectations for suppliers utilizing AI, mandating adherence to data protection, compliance, transparency, and governance principles. Proxy statements highlight the board's engagement with AI and technology oversight, including the Innovation & Technology Committee's review of AI risks and strategies, and indicate a commitment to governance in automated processes and AI-driven insights.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Expectations of P&G Suppliers Using Artificial Intelligence in their P&G Work,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. It establishes governance and privacy policies by requiring due diligence on AI tools and restricting personal data input into generative AI without approval. The policy also mandates human oversight of AI systems and requires suppliers to inform P&G about their AI use, supporting transparency and oversight.",
+          "title": "Expectations of P&G Suppliers Using Artificial Intelligence in their P&G Work (November 2024)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgls6MjsANDdMwO5WOwaqc0CvAi8a-wI55etf4hqsa7mXc7aqnSj8hatpHZ3_yVevXWVkRr94XUXN6Dob2M4h2AjvmC_jZdZKsWNn_H_mNjwadqxTxg5jFX4EBTonwAVH-kKAV_K0bJJ47Ijui5Kc6zmdYW509mmZaakQ6HmWTblalU0oyu9IymECt0AQ7tggSu-xIfULEuwhU_Fk_GgZoO2i0qQrA50QxhwKz-z4jK24eWgBGZNVOHTgprp84olASyrav_JlJjmv2ZfPP8BVNFGyrCJtZG0hcW7HH15FGYmwvt-7qNfUDvHoyetJx0xI1f1EHCXCUsU33LuSAgrZJdqE="
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This P&G Privacy Policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars. It supports the **privacy** pillar by detailing data collection, use for profiling and interest-based advertising, and consumer consent requirements, as well as outlining opt-out mechanisms for targeted advertising and data sharing. The policy also supports **governance** by describing how ad targeting and profiling processes are managed, and **oversight** by stating a policy against legal-effect automated decision-making without consent and referencing rights against solely automated evaluations. Furthermore, it contributes to **transparency** by mentioning the generation of scores and inferences by analytics programs and the use of algorithms.",
+          "title": "P&G Privacy Policy",
+          "url": "https://privacypolicy.pg.com/en-US"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This director profile for Amy L. Chang provides evidence for the **governance** pillar. The document highlights her extensive expertise in AI developments and her role as Chair of the Innovation & Technology Committee, suggesting awareness and potential oversight of AI initiatives. Her past experience founding an AI company and leading Google Analytics further implies familiarity with AI systems relevant to governance.",
+          "title": "Board of Directors – Amy L. Chang Profile",
+          "url": "https://us.pg.com/board-of-directors/amy-chang"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This SEC 10-K filing from Procter & Gamble provides evidence for the **governance** and **transparency** pillars of responsible AI. The report acknowledges risks associated with the misuse of AI and mentions managing regulatory requirements, indicating a policy-level commitment to governance. Furthermore, it discloses the active deployment of algorithm-based programmatic media buying and target audience algorithms for ad serving, demonstrating transparency in the use of these operational automated decision systems.",
+          "title": "Procter & Gamble 2024 Annual Report (10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/80424/000119312525191752/d879413dars.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"P&G Analytics & Insights: Discovering the Future,\" provides evidence for **governance** and **transparency**. It implies governance through descriptions of algorithms and automation for tasks like media buying and sales optimization, as well as the mention of \"AI Models\" as part of their strategy. Transparency is supported by the description of a \"Data Labels\" mechanism, which aims to provide clarity on data sourcing and completeness, similar to nutrition labels.",
+          "title": "P&G Analytics & Insights: Discovering the Future",
+          "url": "https://us.pg.com/blogs/100-years-of-pg-analytics-and-insights"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party technical paper on Procter & Gamble's AI strategy provides evidence for **explainability**, **governance**, **privacy**, and **transparency**. The analysis highlights P&G's emphasis on human accountability for AI outputs and systems providing clear decision rationales, supporting **explainability**. The paper details P&G's ethical governance framework, including an AI Hub and mandatory training, demonstrating a strong commitment to **governance**. Furthermore, the document explicitly mentions **privacy** as a consideration and implies **transparency** through descriptions of AI deployment in areas like manufacturing and media buying, as well as the mention of an \"AI Factory\" operational model.",
+          "title": "Procter & Gamble's AI Strategy: Path to AI Dominance in Consumer Goods",
+          "url": "https://klover.ai/procter-gamble-ai-strategy-path-to-ai-dominance-consumer-goods"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency in AI deployment. It supports **fairness** by mentioning policies for addressing bias in training data. **Governance** is evidenced through descriptions of proprietary datasets, custom-built agents, an AI factory for scaling models, and internal development and testing processes. **Oversight** is demonstrated by the mention of human review processes and a forward-looking discussion of autonomous agents with minimal human oversight. **Privacy** is supported by the description of security safeguards and a \"walled garden\" for data protection. Finally, **transparency** is evident through the detailed documentation of AI agents, algorithms, use cases, technologies, and their impacts, as well as the operational cycle and use of partner software.",
+          "title": "Procter & Gamble Uses AI Agents: 10 Ways to Use AI (August 2025)",
+          "url": "https://klover.ai/procter-gamble-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This MIT Sloan Review article provides evidence for **governance**, **oversight**, and **transparency**. It details Procter & Gamble's \"AI Factory\" platform, which demonstrates strong governance through its structured processes for algorithm development, testing, deployment, and monitoring. The article also highlights oversight by mentioning human involvement in agentic AI processes and the presence of independent risk officers reviewing projects pre-deployment. Transparency is supported by the platform's accessibility to AI algorithms and models, allowing for visibility into their capabilities and evolution.",
+          "title": "How Procter & Gamble Uses AI to Unlock New Insights from Data | MIT Sloan Review",
+          "url": "https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This IMD Business School audit report on Procter & Gamble's AI maturity indicates that responsible AI and ethics have been formalized. The report supports the **governance** pillar by detailing P&G's strategic intent for AI as a growth enabler and the operational deployment of AI tools. Evidence for **transparency** is found in the description of specific AI use cases in advertising and R&D. The report also supports the **privacy** pillar through its documentation of formalized policies, including those related to data handling and confidentiality. Finally, the mention of oversight mechanisms and human-in-the-loop policies contributes to the **oversight** pillar.",
+          "title": "Procter & Gamble AI Maturity Assessment | IMD Business School",
+          "url": "https://imd.org/entity-profile/procter-gamble-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This technical paper from EMERJ documents Procter & Gamble's AI scaling strategy, providing evidence for the **governance** and **transparency** pillars of responsible AI. The analysis highlights P&G's emphasis on standardized AI development, building organizational AI fluency, and systematic AI governance, as well as the use of specific AI tools like Vertex AI and Dataflow, which contribute to transparency in deployment and use cases. Furthermore, the paper mentions auditable agentic workflows and the foundational nature of governance, indicating a policy commitment to governing AI systems.",
+          "title": "Artificial Intelligence at Procter & Gamble | EMERJ",
+          "url": "https://emerj.com/artificial-intelligence-at-procter-gamble"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_016",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"P&G Guidelines/Expectations for Suppliers,\" provides evidence for the **governance** pillar of responsible AI. It establishes clear expectations for suppliers utilizing AI in P&G's work, mandating adherence to data protection, compliance, transparency, and governance principles, thereby demonstrating vendor oversight and accountability.",
+          "title": "P&G Guidelines/Expectations for Suppliers",
+          "url": "https://pgsupplier.com/guidelines/pg-guidelines-for-suppliers"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_019",
+          "source_tier": "authority",
+          "summary": "The Procter & Gamble 2025 Proxy Statement provides evidence for the **governance** pillar of responsible AI. This proxy statement highlights the board's engagement with AI and technology oversight, including the Innovation & Technology Committee's review of AI risks and strategies. It also mentions the board's focus on an \"accountable organization\" and strengthening oversight related to AI, indicating a commitment to governance in automated processes and AI-driven insights.",
+          "title": "Procter & Gamble 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/80424/000119312525191749/d875382ddef14a.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical paper from Insight Partners on Procter & Gamble's AI scaling highlights their commitment to responsible AI through robust governance and external accountability. The document details P&G's employment of independent risk officers to review AI projects, demonstrating a strong governance framework and a mechanism for external accountability. Furthermore, the emphasis on managing bias and algorithm drift, alongside the CIO's quote about avoiding bias in million-dollar decisions, underscores their focus on transparency and risk mitigation in AI deployment.",
+          "title": "Procter & Gamble on Scaling AI for Enterprise | Insight Partners",
+          "url": "https://insightpartners.com/ideas/procter-gamble-on-scaling-ai-for-enterprise"
+        }
+      ],
+      "score": 2,
+      "source_count": 13
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 8,
+      "findings": "P&G's policy documents mandate human oversight of AI systems. The privacy policy states a policy against legal-effect automated decision-making without consent and references rights against solely automated evaluations. Additionally, articles mention human involvement in agentic AI processes, the presence of independent risk officers reviewing projects pre-deployment, and human-in-the-loop policies.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Expectations of P&G Suppliers Using Artificial Intelligence in their P&G Work,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. It establishes governance and privacy policies by requiring due diligence on AI tools and restricting personal data input into generative AI without approval. The policy also mandates human oversight of AI systems and requires suppliers to inform P&G about their AI use, supporting transparency and oversight.",
+          "title": "Expectations of P&G Suppliers Using Artificial Intelligence in their P&G Work (November 2024)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgls6MjsANDdMwO5WOwaqc0CvAi8a-wI55etf4hqsa7mXc7aqnSj8hatpHZ3_yVevXWVkRr94XUXN6Dob2M4h2AjvmC_jZdZKsWNn_H_mNjwadqxTxg5jFX4EBTonwAVH-kKAV_K0bJJ47Ijui5Kc6zmdYW509mmZaakQ6HmWTblalU0oyu9IymECt0AQ7tggSu-xIfULEuwhU_Fk_GgZoO2i0qQrA50QxhwKz-z4jK24eWgBGZNVOHTgprp84olASyrav_JlJjmv2ZfPP8BVNFGyrCJtZG0hcW7HH15FGYmwvt-7qNfUDvHoyetJx0xI1f1EHCXCUsU33LuSAgrZJdqE="
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This P&G Privacy Policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars. It supports the **privacy** pillar by detailing data collection, use for profiling and interest-based advertising, and consumer consent requirements, as well as outlining opt-out mechanisms for targeted advertising and data sharing. The policy also supports **governance** by describing how ad targeting and profiling processes are managed, and **oversight** by stating a policy against legal-effect automated decision-making without consent and referencing rights against solely automated evaluations. Furthermore, it contributes to **transparency** by mentioning the generation of scores and inferences by analytics programs and the use of algorithms.",
+          "title": "P&G Privacy Policy",
+          "url": "https://privacypolicy.pg.com/en-US"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency in AI deployment. It supports **fairness** by mentioning policies for addressing bias in training data. **Governance** is evidenced through descriptions of proprietary datasets, custom-built agents, an AI factory for scaling models, and internal development and testing processes. **Oversight** is demonstrated by the mention of human review processes and a forward-looking discussion of autonomous agents with minimal human oversight. **Privacy** is supported by the description of security safeguards and a \"walled garden\" for data protection. Finally, **transparency** is evident through the detailed documentation of AI agents, algorithms, use cases, technologies, and their impacts, as well as the operational cycle and use of partner software.",
+          "title": "Procter & Gamble Uses AI Agents: 10 Ways to Use AI (August 2025)",
+          "url": "https://klover.ai/procter-gamble-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This MIT Sloan Review article provides evidence for **governance**, **oversight**, and **transparency**. It details Procter & Gamble's \"AI Factory\" platform, which demonstrates strong governance through its structured processes for algorithm development, testing, deployment, and monitoring. The article also highlights oversight by mentioning human involvement in agentic AI processes and the presence of independent risk officers reviewing projects pre-deployment. Transparency is supported by the platform's accessibility to AI algorithms and models, allowing for visibility into their capabilities and evolution.",
+          "title": "How Procter & Gamble Uses AI to Unlock New Insights from Data | MIT Sloan Review",
+          "url": "https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This IMD Business School audit report on Procter & Gamble's AI maturity indicates that responsible AI and ethics have been formalized. The report supports the **governance** pillar by detailing P&G's strategic intent for AI as a growth enabler and the operational deployment of AI tools. Evidence for **transparency** is found in the description of specific AI use cases in advertising and R&D. The report also supports the **privacy** pillar through its documentation of formalized policies, including those related to data handling and confidentiality. Finally, the mention of oversight mechanisms and human-in-the-loop policies contributes to the **oversight** pillar.",
+          "title": "Procter & Gamble AI Maturity Assessment | IMD Business School",
+          "url": "https://imd.org/entity-profile/procter-gamble-ai-maturity-2025"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 23,
+      "findings": "P&G's policy documents require due diligence on AI tools and restrict personal data input into generative AI without approval. The privacy policy details data collection, use for profiling and interest-based advertising, and consumer consent requirements, while also outlining opt-out mechanisms for targeted advertising and data sharing. Technical papers describe security safeguards and a \"walled garden\" for data protection, and audit reports document formalized policies related to data handling and confidentiality.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Expectations of P&G Suppliers Using Artificial Intelligence in their P&G Work,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. It establishes governance and privacy policies by requiring due diligence on AI tools and restricting personal data input into generative AI without approval. The policy also mandates human oversight of AI systems and requires suppliers to inform P&G about their AI use, supporting transparency and oversight.",
+          "title": "Expectations of P&G Suppliers Using Artificial Intelligence in their P&G Work (November 2024)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgls6MjsANDdMwO5WOwaqc0CvAi8a-wI55etf4hqsa7mXc7aqnSj8hatpHZ3_yVevXWVkRr94XUXN6Dob2M4h2AjvmC_jZdZKsWNn_H_mNjwadqxTxg5jFX4EBTonwAVH-kKAV_K0bJJ47Ijui5Kc6zmdYW509mmZaakQ6HmWTblalU0oyu9IymECt0AQ7tggSu-xIfULEuwhU_Fk_GgZoO2i0qQrA50QxhwKz-z4jK24eWgBGZNVOHTgprp84olASyrav_JlJjmv2ZfPP8BVNFGyrCJtZG0hcW7HH15FGYmwvt-7qNfUDvHoyetJx0xI1f1EHCXCUsU33LuSAgrZJdqE="
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This P&G Privacy Policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars. It supports the **privacy** pillar by detailing data collection, use for profiling and interest-based advertising, and consumer consent requirements, as well as outlining opt-out mechanisms for targeted advertising and data sharing. The policy also supports **governance** by describing how ad targeting and profiling processes are managed, and **oversight** by stating a policy against legal-effect automated decision-making without consent and referencing rights against solely automated evaluations. Furthermore, it contributes to **transparency** by mentioning the generation of scores and inferences by analytics programs and the use of algorithms.",
+          "title": "P&G Privacy Policy",
+          "url": "https://privacypolicy.pg.com/en-US"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party technical paper on Procter & Gamble's AI strategy provides evidence for **explainability**, **governance**, **privacy**, and **transparency**. The analysis highlights P&G's emphasis on human accountability for AI outputs and systems providing clear decision rationales, supporting **explainability**. The paper details P&G's ethical governance framework, including an AI Hub and mandatory training, demonstrating a strong commitment to **governance**. Furthermore, the document explicitly mentions **privacy** as a consideration and implies **transparency** through descriptions of AI deployment in areas like manufacturing and media buying, as well as the mention of an \"AI Factory\" operational model.",
+          "title": "Procter & Gamble's AI Strategy: Path to AI Dominance in Consumer Goods",
+          "url": "https://klover.ai/procter-gamble-ai-strategy-path-to-ai-dominance-consumer-goods"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency in AI deployment. It supports **fairness** by mentioning policies for addressing bias in training data. **Governance** is evidenced through descriptions of proprietary datasets, custom-built agents, an AI factory for scaling models, and internal development and testing processes. **Oversight** is demonstrated by the mention of human review processes and a forward-looking discussion of autonomous agents with minimal human oversight. **Privacy** is supported by the description of security safeguards and a \"walled garden\" for data protection. Finally, **transparency** is evident through the detailed documentation of AI agents, algorithms, use cases, technologies, and their impacts, as well as the operational cycle and use of partner software.",
+          "title": "Procter & Gamble Uses AI Agents: 10 Ways to Use AI (August 2025)",
+          "url": "https://klover.ai/procter-gamble-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This IMD Business School audit report on Procter & Gamble's AI maturity indicates that responsible AI and ethics have been formalized. The report supports the **governance** pillar by detailing P&G's strategic intent for AI as a growth enabler and the operational deployment of AI tools. Evidence for **transparency** is found in the description of specific AI use cases in advertising and R&D. The report also supports the **privacy** pillar through its documentation of formalized policies, including those related to data handling and confidentiality. Finally, the mention of oversight mechanisms and human-in-the-loop policies contributes to the **oversight** pillar.",
+          "title": "Procter & Gamble AI Maturity Assessment | IMD Business School",
+          "url": "https://imd.org/entity-profile/procter-gamble-ai-maturity-2025"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 41,
+      "findings": "P&G's transparency practices include requiring suppliers to inform the company about their AI use and disclosing the deployment of algorithm-based programmatic media buying and target audience algorithms. The company also describes a \"Data Labels\" mechanism for data sourcing clarity and provides detailed documentation of AI agents, algorithms, use cases, and technologies. Furthermore, sources mention AI deployment in manufacturing, media buying, advertising, and R&D, and emphasize managing bias and algorithm drift.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Expectations of P&G Suppliers Using Artificial Intelligence in their P&G Work,\" provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars. It establishes governance and privacy policies by requiring due diligence on AI tools and restricting personal data input into generative AI without approval. The policy also mandates human oversight of AI systems and requires suppliers to inform P&G about their AI use, supporting transparency and oversight.",
+          "title": "Expectations of P&G Suppliers Using Artificial Intelligence in their P&G Work (November 2024)",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgls6MjsANDdMwO5WOwaqc0CvAi8a-wI55etf4hqsa7mXc7aqnSj8hatpHZ3_yVevXWVkRr94XUXN6Dob2M4h2AjvmC_jZdZKsWNn_H_mNjwadqxTxg5jFX4EBTonwAVH-kKAV_K0bJJ47Ijui5Kc6zmdYW509mmZaakQ6HmWTblalU0oyu9IymECt0AQ7tggSu-xIfULEuwhU_Fk_GgZoO2i0qQrA50QxhwKz-z4jK24eWgBGZNVOHTgprp84olASyrav_JlJjmv2ZfPP8BVNFGyrCJtZG0hcW7HH15FGYmwvt-7qNfUDvHoyetJx0xI1f1EHCXCUsU33LuSAgrZJdqE="
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This P&G Privacy Policy document provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars. It supports the **privacy** pillar by detailing data collection, use for profiling and interest-based advertising, and consumer consent requirements, as well as outlining opt-out mechanisms for targeted advertising and data sharing. The policy also supports **governance** by describing how ad targeting and profiling processes are managed, and **oversight** by stating a policy against legal-effect automated decision-making without consent and referencing rights against solely automated evaluations. Furthermore, it contributes to **transparency** by mentioning the generation of scores and inferences by analytics programs and the use of algorithms.",
+          "title": "P&G Privacy Policy",
+          "url": "https://privacypolicy.pg.com/en-US"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This SEC 10-K filing from Procter & Gamble provides evidence for the **governance** and **transparency** pillars of responsible AI. The report acknowledges risks associated with the misuse of AI and mentions managing regulatory requirements, indicating a policy-level commitment to governance. Furthermore, it discloses the active deployment of algorithm-based programmatic media buying and target audience algorithms for ad serving, demonstrating transparency in the use of these operational automated decision systems.",
+          "title": "Procter & Gamble 2024 Annual Report (10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/80424/000119312525191752/d879413dars.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"P&G Analytics & Insights: Discovering the Future,\" provides evidence for **governance** and **transparency**. It implies governance through descriptions of algorithms and automation for tasks like media buying and sales optimization, as well as the mention of \"AI Models\" as part of their strategy. Transparency is supported by the description of a \"Data Labels\" mechanism, which aims to provide clarity on data sourcing and completeness, similar to nutrition labels.",
+          "title": "P&G Analytics & Insights: Discovering the Future",
+          "url": "https://us.pg.com/blogs/100-years-of-pg-analytics-and-insights"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party technical paper on Procter & Gamble's AI strategy provides evidence for **explainability**, **governance**, **privacy**, and **transparency**. The analysis highlights P&G's emphasis on human accountability for AI outputs and systems providing clear decision rationales, supporting **explainability**. The paper details P&G's ethical governance framework, including an AI Hub and mandatory training, demonstrating a strong commitment to **governance**. Furthermore, the document explicitly mentions **privacy** as a consideration and implies **transparency** through descriptions of AI deployment in areas like manufacturing and media buying, as well as the mention of an \"AI Factory\" operational model.",
+          "title": "Procter & Gamble's AI Strategy: Path to AI Dominance in Consumer Goods",
+          "url": "https://klover.ai/procter-gamble-ai-strategy-path-to-ai-dominance-consumer-goods"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency in AI deployment. It supports **fairness** by mentioning policies for addressing bias in training data. **Governance** is evidenced through descriptions of proprietary datasets, custom-built agents, an AI factory for scaling models, and internal development and testing processes. **Oversight** is demonstrated by the mention of human review processes and a forward-looking discussion of autonomous agents with minimal human oversight. **Privacy** is supported by the description of security safeguards and a \"walled garden\" for data protection. Finally, **transparency** is evident through the detailed documentation of AI agents, algorithms, use cases, technologies, and their impacts, as well as the operational cycle and use of partner software.",
+          "title": "Procter & Gamble Uses AI Agents: 10 Ways to Use AI (August 2025)",
+          "url": "https://klover.ai/procter-gamble-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This MIT Sloan Review article provides evidence for **governance**, **oversight**, and **transparency**. It details Procter & Gamble's \"AI Factory\" platform, which demonstrates strong governance through its structured processes for algorithm development, testing, deployment, and monitoring. The article also highlights oversight by mentioning human involvement in agentic AI processes and the presence of independent risk officers reviewing projects pre-deployment. Transparency is supported by the platform's accessibility to AI algorithms and models, allowing for visibility into their capabilities and evolution.",
+          "title": "How Procter & Gamble Uses AI to Unlock New Insights from Data | MIT Sloan Review",
+          "url": "https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This IMD Business School audit report on Procter & Gamble's AI maturity indicates that responsible AI and ethics have been formalized. The report supports the **governance** pillar by detailing P&G's strategic intent for AI as a growth enabler and the operational deployment of AI tools. Evidence for **transparency** is found in the description of specific AI use cases in advertising and R&D. The report also supports the **privacy** pillar through its documentation of formalized policies, including those related to data handling and confidentiality. Finally, the mention of oversight mechanisms and human-in-the-loop policies contributes to the **oversight** pillar.",
+          "title": "Procter & Gamble AI Maturity Assessment | IMD Business School",
+          "url": "https://imd.org/entity-profile/procter-gamble-ai-maturity-2025"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This technical paper from EMERJ documents Procter & Gamble's AI scaling strategy, providing evidence for the **governance** and **transparency** pillars of responsible AI. The analysis highlights P&G's emphasis on standardized AI development, building organizational AI fluency, and systematic AI governance, as well as the use of specific AI tools like Vertex AI and Dataflow, which contribute to transparency in deployment and use cases. Furthermore, the paper mentions auditable agentic workflows and the foundational nature of governance, indicating a policy commitment to governing AI systems.",
+          "title": "Artificial Intelligence at Procter & Gamble | EMERJ",
+          "url": "https://emerj.com/artificial-intelligence-at-procter-gamble"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical paper from Insight Partners on Procter & Gamble's AI scaling highlights their commitment to responsible AI through robust governance and external accountability. The document details P&G's employment of independent risk officers to review AI projects, demonstrating a strong governance framework and a mechanism for external accountability. Furthermore, the emphasis on managing bias and algorithm drift, alongside the CIO's quote about avoiding bias in million-dollar decisions, underscores their focus on transparency and risk mitigation in AI deployment.",
+          "title": "Procter & Gamble on Scaling AI for Enterprise | Insight Partners",
+          "url": "https://insightpartners.com/ideas/procter-gamble-on-scaling-ai-for-enterprise"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    }
+  },
+  "published_at": "2026-02-23T21:57:50Z",
+  "run_id": "20260203_023620_12de",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Procter & Gamble's public disclosures show operational practices in transparency and governance, with policy documents requiring suppliers to inform the company about their AI use and mandating due diligence on AI tools. All 7 evaluated pillars have documented public evidence, with fairness, explainability, oversight, privacy, and external accountability addressed at the policy level. Published materials further highlight an emphasis on human accountability for AI outputs and mention policies for addressing bias in training data. Additionally, policy documents restrict personal data input into generative AI without approval. This assessment draws on 22 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 102,
+    "total_sources_used": 13
+  }
+}

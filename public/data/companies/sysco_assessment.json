@@ -1,0 +1,275 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Sysco",
+  "company_slug": "sysco",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 3,
+      "OPERATIONAL": 7,
+      "POLICY": 20
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "Sysco's annual reports reference third-party risk management and external expert partnerships. The company also references independent audits of internal controls and evolving AI regulations, supporting its external accountability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The Sysco 2024 Form 10-K Annual Report provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. This SEC filing details Sysco's cybersecurity risk management approach, including an escalation process for incidents and oversight by a Board Technology Committee, supporting **governance** and **oversight**. The report also discusses the risks associated with the company's growing use of AI systems, including algorithm flaws and data security, implying the need for **governance** and **transparency** in AI adoption and data protection, and touches upon data protection regulations, supporting the **privacy** pillar. Furthermore, the mention of third-party risk management and external expert partnerships demonstrates **external_accountability**.",
+          "title": "Sysco 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/96021/000009602124000178/syy4333201-arsa.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Sysco 2025 Form 10-K Annual Report provides evidence for **external accountability**, **governance**, **oversight**, and **privacy**. This SEC filing supports external accountability through its mention of independent audits of internal controls and evolving AI regulations. Governance and oversight are demonstrated by the report's details on operational testing and evaluation of controls, as well as the Board Technology Committee's oversight of technology risks, including those associated with generative AI and potential fictitious content. The report also touches upon privacy by highlighting cybersecurity risks, such as data breaches, stemming from AI systems.",
+          "title": "Sysco 2025 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/96021/000009602125000149/syy_arsx2025xworkivaxcourt.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 21,
+      "findings": "Sysco's governance practices are documented across various reports and policies, describing its cybersecurity risk management approach and referencing risks associated with AI systems. The company's annual reports describe operational testing and evaluation of controls and reference the Board Technology Committee's oversight of technology risks, including those related to generative AI. Privacy policies describe compliance reviews, management approval of protection measures, and state that decisions will not be made solely based on automated decision-making with significant individual impact. Furthermore, reports describe data quality requirements for AI recommendations, system integration needs, and document the corporate governance structure and focus on technology oversight, including a governance approach to generative AI deployment.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The Sysco 2024 Form 10-K Annual Report provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. This SEC filing details Sysco's cybersecurity risk management approach, including an escalation process for incidents and oversight by a Board Technology Committee, supporting **governance** and **oversight**. The report also discusses the risks associated with the company's growing use of AI systems, including algorithm flaws and data security, implying the need for **governance** and **transparency** in AI adoption and data protection, and touches upon data protection regulations, supporting the **privacy** pillar. Furthermore, the mention of third-party risk management and external expert partnerships demonstrates **external_accountability**.",
+          "title": "Sysco 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/96021/000009602124000178/syy4333201-arsa.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Sysco 2025 Form 10-K Annual Report provides evidence for **external accountability**, **governance**, **oversight**, and **privacy**. This SEC filing supports external accountability through its mention of independent audits of internal controls and evolving AI regulations. Governance and oversight are demonstrated by the report's details on operational testing and evaluation of controls, as well as the Board Technology Committee's oversight of technology risks, including those associated with generative AI and potential fictitious content. The report also touches upon privacy by highlighting cybersecurity risks, such as data breaches, stemming from AI systems.",
+          "title": "Sysco 2025 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/96021/000009602125000149/syy_arsx2025xworkivaxcourt.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This LA Sysco Technologies LLC Privacy Policy supports the **governance**, **privacy**, and **transparency** pillars. It provides evidence for governance by discussing reviews for compliance and management approval of business protection measures. The policy supports the privacy pillar by detailing the collection and use of browsing history and online activities for targeted advertising and personalization, implying automated profiling. Finally, it demonstrates transparency by disclosing the use of automated decision-making and committing to provide required legal notifications regarding such processing.",
+          "title": "LA Sysco Technologies LLC Privacy Policy",
+          "url": "https://lasysco.us/privacy-policy"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "The Sysco Environmental Ltd. Privacy Policy 2023 provides evidence for the **governance** pillar of responsible AI. This privacy policy explicitly states that the company will not make decisions solely based on automated decision-making that have a significant impact on individuals, demonstrating a commitment to human oversight and control over AI applications.",
+          "title": "Sysco Environmental Ltd. Privacy Policy 2023",
+          "url": "https://sysco-env.co.uk/terms/Sysco-Privacy-Policy-2023.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"The AI in Restaurants Report - Popmenu 2024,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report supports governance by discussing data quality requirements for AI recommendations and the need for system integration, indicating policy considerations for data management. Transparency is supported through descriptions of AI solutions and their capabilities, including automation and tracking, which inherently involve data usage and provide insight into how the AI functions.",
+          "title": "The AI in Restaurants Report - Popmenu 2024",
+          "url": "https://get.popmenu.com/toolkit/ai-in-restaurants"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This Sysco FY2022 Sustainability Report provides evidence for the **governance** and **transparency** pillars of responsible AI. The report documents the company's corporate governance structure and its focus on technology oversight, which supports the governance pillar. Furthermore, the mention of developing and deploying optimization technology, along with partnering with a provider, directly contributes to the transparency pillar by indicating how technology is being implemented.",
+          "title": "Sysco FY2022 Sustainability Report",
+          "url": "https://mediacdn.sysco.com/images/rendition?id=e83f4edd7e83c66f5bb28fbdf7459cf7ae3644cb"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This press release for Sysco's AI360 platform launch provides evidence for the **governance** and **transparency** pillars of responsible AI. The mention of generative AI use cases and its embedding into the ecosystem suggests a governance approach to its deployment, while the description of AI capabilities like demand forecasting and customer preference anticipation highlights transparency in the platform's functionalities.",
+          "title": "Sysco AI360 Platform - Fiscal Q1 2026 Launch",
+          "url": "https://digitalcommerce360.com/2025/10/31/sysco-puts-ai-at-the-center-of-its-sales-rebound-in-q1"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "Sysco's annual reports describe its cybersecurity risk management approach, including an escalation process for incidents and operational testing and evaluation of controls. Both reports reference oversight by a Board Technology Committee, which includes oversight of technology risks associated with generative AI and potential fictitious content.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The Sysco 2024 Form 10-K Annual Report provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. This SEC filing details Sysco's cybersecurity risk management approach, including an escalation process for incidents and oversight by a Board Technology Committee, supporting **governance** and **oversight**. The report also discusses the risks associated with the company's growing use of AI systems, including algorithm flaws and data security, implying the need for **governance** and **transparency** in AI adoption and data protection, and touches upon data protection regulations, supporting the **privacy** pillar. Furthermore, the mention of third-party risk management and external expert partnerships demonstrates **external_accountability**.",
+          "title": "Sysco 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/96021/000009602124000178/syy4333201-arsa.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Sysco 2025 Form 10-K Annual Report provides evidence for **external accountability**, **governance**, **oversight**, and **privacy**. This SEC filing supports external accountability through its mention of independent audits of internal controls and evolving AI regulations. Governance and oversight are demonstrated by the report's details on operational testing and evaluation of controls, as well as the Board Technology Committee's oversight of technology risks, including those associated with generative AI and potential fictitious content. The report also touches upon privacy by highlighting cybersecurity risks, such as data breaches, stemming from AI systems.",
+          "title": "Sysco 2025 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/96021/000009602125000149/syy_arsx2025xworkivaxcourt.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 8,
+      "findings": "Sysco's annual reports reference data protection regulations and cybersecurity risks, such as data breaches, stemming from AI systems. The LA Sysco Technologies LLC Privacy Policy describes the collection and use of browsing history and online activities for targeted advertising and personalization.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The Sysco 2024 Form 10-K Annual Report provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. This SEC filing details Sysco's cybersecurity risk management approach, including an escalation process for incidents and oversight by a Board Technology Committee, supporting **governance** and **oversight**. The report also discusses the risks associated with the company's growing use of AI systems, including algorithm flaws and data security, implying the need for **governance** and **transparency** in AI adoption and data protection, and touches upon data protection regulations, supporting the **privacy** pillar. Furthermore, the mention of third-party risk management and external expert partnerships demonstrates **external_accountability**.",
+          "title": "Sysco 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/96021/000009602124000178/syy4333201-arsa.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The Sysco 2025 Form 10-K Annual Report provides evidence for **external accountability**, **governance**, **oversight**, and **privacy**. This SEC filing supports external accountability through its mention of independent audits of internal controls and evolving AI regulations. Governance and oversight are demonstrated by the report's details on operational testing and evaluation of controls, as well as the Board Technology Committee's oversight of technology risks, including those associated with generative AI and potential fictitious content. The report also touches upon privacy by highlighting cybersecurity risks, such as data breaches, stemming from AI systems.",
+          "title": "Sysco 2025 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/96021/000009602125000149/syy_arsx2025xworkivaxcourt.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This LA Sysco Technologies LLC Privacy Policy supports the **governance**, **privacy**, and **transparency** pillars. It provides evidence for governance by discussing reviews for compliance and management approval of business protection measures. The policy supports the privacy pillar by detailing the collection and use of browsing history and online activities for targeted advertising and personalization, implying automated profiling. Finally, it demonstrates transparency by disclosing the use of automated decision-making and committing to provide required legal notifications regarding such processing.",
+          "title": "LA Sysco Technologies LLC Privacy Policy",
+          "url": "https://lasysco.us/privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 11,
+      "findings": "Sysco's documentation references the need for transparency in AI adoption and data protection, and its privacy policy states the use of automated decision-making and a commitment to provide legal notifications. Reports describe AI solutions, their capabilities, and how AI functions, including the development and deployment of optimization technology and partnerships with providers. The company also describes AI capabilities for its AI360 platform, such as demand forecasting and customer preference anticipation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The Sysco 2024 Form 10-K Annual Report provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. This SEC filing details Sysco's cybersecurity risk management approach, including an escalation process for incidents and oversight by a Board Technology Committee, supporting **governance** and **oversight**. The report also discusses the risks associated with the company's growing use of AI systems, including algorithm flaws and data security, implying the need for **governance** and **transparency** in AI adoption and data protection, and touches upon data protection regulations, supporting the **privacy** pillar. Furthermore, the mention of third-party risk management and external expert partnerships demonstrates **external_accountability**.",
+          "title": "Sysco 2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/96021/000009602124000178/syy4333201-arsa.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This LA Sysco Technologies LLC Privacy Policy supports the **governance**, **privacy**, and **transparency** pillars. It provides evidence for governance by discussing reviews for compliance and management approval of business protection measures. The policy supports the privacy pillar by detailing the collection and use of browsing history and online activities for targeted advertising and personalization, implying automated profiling. Finally, it demonstrates transparency by disclosing the use of automated decision-making and committing to provide required legal notifications regarding such processing.",
+          "title": "LA Sysco Technologies LLC Privacy Policy",
+          "url": "https://lasysco.us/privacy-policy"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"The AI in Restaurants Report - Popmenu 2024,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report supports governance by discussing data quality requirements for AI recommendations and the need for system integration, indicating policy considerations for data management. Transparency is supported through descriptions of AI solutions and their capabilities, including automation and tracking, which inherently involve data usage and provide insight into how the AI functions.",
+          "title": "The AI in Restaurants Report - Popmenu 2024",
+          "url": "https://get.popmenu.com/toolkit/ai-in-restaurants"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This Sysco FY2022 Sustainability Report provides evidence for the **governance** and **transparency** pillars of responsible AI. The report documents the company's corporate governance structure and its focus on technology oversight, which supports the governance pillar. Furthermore, the mention of developing and deploying optimization technology, along with partnering with a provider, directly contributes to the transparency pillar by indicating how technology is being implemented.",
+          "title": "Sysco FY2022 Sustainability Report",
+          "url": "https://mediacdn.sysco.com/images/rendition?id=e83f4edd7e83c66f5bb28fbdf7459cf7ae3644cb"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This press release for Sysco's AI360 platform launch provides evidence for the **governance** and **transparency** pillars of responsible AI. The mention of generative AI use cases and its embedding into the ecosystem suggests a governance approach to its deployment, while the description of AI capabilities like demand forecasting and customer preference anticipation highlights transparency in the platform's functionalities.",
+          "title": "Sysco AI360 Platform - Fiscal Q1 2026 Launch",
+          "url": "https://digitalcommerce360.com/2025/10/31/sysco-puts-ai-at-the-center-of-its-sales-rebound-in-q1"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:59:08Z",
+  "run_id": "20260203_015443_a6a0",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Based on 16 publicly available sources, Sysco's published materials address 5 of 7 evaluated responsible AI pillars. Operational practices are documented for oversight, governance, and external accountability, with disclosures describing the company's cybersecurity risk management approach, including an escalation process for incidents, and referencing third-party risk management. Additionally, transparency and privacy are addressed through policies, such as the LA Sysco Technologies LLC Privacy Policy which states the use of automated decision-making, and references to data protection regulations. No qualifying public evidence was found for fairness or explainability.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 30,
+    "total_sources_used": 7
+  }
+}

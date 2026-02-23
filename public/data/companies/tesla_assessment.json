@@ -1,0 +1,290 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Tesla",
+  "company_slug": "tesla",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 9,
+      "OPERATIONAL": 9,
+      "POLICY": 43
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "SEC filings detail regulatory compliance for AI features and acknowledge scrutiny over new technologies.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external accountability, governance, privacy, and transparency**. It supports external accountability and governance by detailing regulatory compliance for AI features and acknowledging scrutiny over new technologies. The document also touches on privacy by mentioning the use of driving behavior for insurance rates and the governance pillar through discussions of AI system development, testing, and investment prioritization. Transparency is evident in the disclosure of AI feature revenue recognition policies and the naming conventions for FSD (Supervised) features across regions.",
+          "title": "Tesla 2024 Form 10-K Annual Report - AI and Autonomous Vehicle Risk Disclosures",
+          "url": "https://sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 43,
+      "findings": "Policy documents state a commitment to responsible AI development, AI governance, and reference approval processes for feature changes. Corporate governance guidelines outline the Board of Directors' responsibility to oversee AI systems and evaluate related governance structures. SEC filings detail regulatory compliance for AI features, acknowledge scrutiny over new technologies, discuss AI system development, testing, investment prioritization, and strategic investments in AI and autonomy. Federal enforcement actions document specific traffic law violations and assess system capabilities, while audit reports detail AI model and system architecture security.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Development Philosophy for Artificial Intelligence and Humanoid Robots,\" provides evidence for governance, oversight, privacy, and transparency. It supports governance through its commitment to responsible AI development, AI governance, and approval processes for feature changes. Oversight is evidenced by the emphasis on driver responsibility and active supervision, while privacy is addressed by data retention and de-identification practices for AI system improvement. Transparency is demonstrated by the provision of links to kernel and system sources.",
+          "title": "Responsible Development Philosophy for Artificial Intelligence and Humanoid Robots",
+          "url": "https://tesla.com/legal/additional-resources"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned charter, \"Corporate Governance Guidelines and Board Responsibilities for AI Oversight,\" provides evidence for the **governance** and **oversight** pillars. The document outlines the Board of Directors' formal responsibility to oversee company operations, including AI systems, and to evaluate governance structures and policies related to them, demonstrating a commitment to structured AI governance and active oversight.",
+          "title": "Corporate Governance Guidelines and Board Responsibilities for AI Oversight",
+          "url": "https://ir.tesla.com/corporate"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external accountability, governance, privacy, and transparency**. It supports external accountability and governance by detailing regulatory compliance for AI features and acknowledging scrutiny over new technologies. The document also touches on privacy by mentioning the use of driving behavior for insurance rates and the governance pillar through discussions of AI system development, testing, and investment prioritization. Transparency is evident in the disclosure of AI feature revenue recognition policies and the naming conventions for FSD (Supervised) features across regions.",
+          "title": "Tesla 2024 Form 10-K Annual Report - AI and Autonomous Vehicle Risk Disclosures",
+          "url": "https://sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This federal enforcement action, the NHTSA Office of Defects Investigation's Preliminary Evaluation of FSD Traffic Violations, provides evidence for **governance**, **oversight**, and **transparency**. The investigation into Tesla vehicles equipped with FSD documents specific traffic law violations, indicating an assessment of system capabilities and control authority (governance). It also highlights the ongoing review of driver supervision mechanisms and system modifications impacting performance (oversight), and the description of system behaviors and failures (transparency) as part of this operational assessment.",
+          "title": "NHTSA Office of Defects Investigation - Preliminary Evaluation of FSD Traffic Violations",
+          "url": "https://static.nhtsa.gov/odi/inv/2025/INOA-PE25012-19171.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This SEC filing provides evidence for **governance** and **transparency** in responsible AI. It supports governance by detailing Tesla's strategic investments in AI and autonomy for product development, revenue growth, and operational efficiency, including specific actions like AI chip design convergence. The filing also touches on transparency by mentioning the use of AI for features, implying a commitment to developing and deploying these capabilities.",
+          "title": "Tesla Q3 2025 Form 10-Q Quarterly Report - Risk Factors and FSD Regulatory Investigations",
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828025045968/tsla-20250930-gen.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **governance** and **oversight**. It demonstrates governance by detailing how Tesla's algorithmic system, which uses proprietary metrics derived from extensive fleet data, calculates a Safety Score, and by addressing potential discrepancies in event logging related to AI system usage. The page also indicates oversight by offering user guidance on the safe operation of the self-driving system and inquiring about the impact of AI system engagement on the Safety Score.",
+          "title": "Safety Score Beta - Algorithmic Driving Behavior Assessment and Metrics",
+          "url": "https://tesla.com/support/insurance/safety-score"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Tesla Autopilot Security Research - Vision System Vulnerabilities and Fixes,\" provides evidence for **governance** and **transparency**. The report supports governance by detailing AI model security and system architecture security, indicating a focus on accountability for the Autopilot system. It enhances transparency by describing specific AI capabilities like image recognition and identifying markings, along with the scenarios in which they are used, offering insight into system functionality and potential failures.",
+          "title": "Tesla Autopilot Security Research - Vision System Vulnerabilities and Fixes",
+          "url": "https://keenlab.tencent.com/en/2019/03/29/Tencent-Keen-Security-Lab-Experimental-Security-Research-of-Tesla-Autopilot/"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "Policy documents emphasize driver responsibility and active supervision. Corporate governance guidelines outline the Board of Directors' formal responsibility to oversee company operations, including AI systems, and to evaluate related governance structures and policies. Federal enforcement actions highlight the ongoing review of driver supervision mechanisms and system modifications, while help pages offer user guidance on safe operation and inquire about AI system engagement impact on Safety Score.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Development Philosophy for Artificial Intelligence and Humanoid Robots,\" provides evidence for governance, oversight, privacy, and transparency. It supports governance through its commitment to responsible AI development, AI governance, and approval processes for feature changes. Oversight is evidenced by the emphasis on driver responsibility and active supervision, while privacy is addressed by data retention and de-identification practices for AI system improvement. Transparency is demonstrated by the provision of links to kernel and system sources.",
+          "title": "Responsible Development Philosophy for Artificial Intelligence and Humanoid Robots",
+          "url": "https://tesla.com/legal/additional-resources"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned charter, \"Corporate Governance Guidelines and Board Responsibilities for AI Oversight,\" provides evidence for the **governance** and **oversight** pillars. The document outlines the Board of Directors' formal responsibility to oversee company operations, including AI systems, and to evaluate governance structures and policies related to them, demonstrating a commitment to structured AI governance and active oversight.",
+          "title": "Corporate Governance Guidelines and Board Responsibilities for AI Oversight",
+          "url": "https://ir.tesla.com/corporate"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This federal enforcement action, the NHTSA Office of Defects Investigation's Preliminary Evaluation of FSD Traffic Violations, provides evidence for **governance**, **oversight**, and **transparency**. The investigation into Tesla vehicles equipped with FSD documents specific traffic law violations, indicating an assessment of system capabilities and control authority (governance). It also highlights the ongoing review of driver supervision mechanisms and system modifications impacting performance (oversight), and the description of system behaviors and failures (transparency) as part of this operational assessment.",
+          "title": "NHTSA Office of Defects Investigation - Preliminary Evaluation of FSD Traffic Violations",
+          "url": "https://static.nhtsa.gov/odi/inv/2025/INOA-PE25012-19171.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **governance** and **oversight**. It demonstrates governance by detailing how Tesla's algorithmic system, which uses proprietary metrics derived from extensive fleet data, calculates a Safety Score, and by addressing potential discrepancies in event logging related to AI system usage. The page also indicates oversight by offering user guidance on the safe operation of the self-driving system and inquiring about the impact of AI system engagement on the Safety Score.",
+          "title": "Safety Score Beta - Algorithmic Driving Behavior Assessment and Metrics",
+          "url": "https://tesla.com/support/insurance/safety-score"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "Policy documents address privacy through data retention and de-identification practices for AI system improvement. Privacy policy documents outline that vehicle data is not linked to customer identity by default and describe consent requirements for data usage in AI features. SEC filings also mention the use of driving behavior for insurance rates.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Development Philosophy for Artificial Intelligence and Humanoid Robots,\" provides evidence for governance, oversight, privacy, and transparency. It supports governance through its commitment to responsible AI development, AI governance, and approval processes for feature changes. Oversight is evidenced by the emphasis on driver responsibility and active supervision, while privacy is addressed by data retention and de-identification practices for AI system improvement. Transparency is demonstrated by the provision of links to kernel and system sources.",
+          "title": "Responsible Development Philosophy for Artificial Intelligence and Humanoid Robots",
+          "url": "https://tesla.com/legal/additional-resources"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **privacy** pillar by detailing Tesla's practices for protecting customer data related to AI systems like Autopilot. Specifically, it outlines that vehicle data is not linked to customer identity by default and describes consent requirements for data usage in AI features, supporting the protection of user privacy.",
+          "title": "Customer Privacy Notice - Vehicle Data, AI Systems and Autopilot Processing",
+          "url": "https://tesla.com/legal/privacy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external accountability, governance, privacy, and transparency**. It supports external accountability and governance by detailing regulatory compliance for AI features and acknowledging scrutiny over new technologies. The document also touches on privacy by mentioning the use of driving behavior for insurance rates and the governance pillar through discussions of AI system development, testing, and investment prioritization. Transparency is evident in the disclosure of AI feature revenue recognition policies and the naming conventions for FSD (Supervised) features across regions.",
+          "title": "Tesla 2024 Form 10-K Annual Report - AI and Autonomous Vehicle Risk Disclosures",
+          "url": "https://sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 22,
+      "findings": "Policy documents provide links to kernel and system sources, while technical papers describe system functionality and development. SEC filings disclose AI feature revenue recognition policies, FSD feature naming conventions, and mention the use of AI for features. Additionally, federal enforcement actions and audit reports describe system behaviors, failures, specific AI capabilities, and their usage scenarios.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible Development Philosophy for Artificial Intelligence and Humanoid Robots,\" provides evidence for governance, oversight, privacy, and transparency. It supports governance through its commitment to responsible AI development, AI governance, and approval processes for feature changes. Oversight is evidenced by the emphasis on driver responsibility and active supervision, while privacy is addressed by data retention and de-identification practices for AI system improvement. Transparency is demonstrated by the provision of links to kernel and system sources.",
+          "title": "Responsible Development Philosophy for Artificial Intelligence and Humanoid Robots",
+          "url": "https://tesla.com/legal/additional-resources"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for the **transparency** pillar of responsible AI. It details the AI system's capabilities, such as semantic segmentation and object detection, and outlines the extensive training processes, including the use of 70,000 GPU hours. This level of detail regarding the system's functionality and development contributes to transparency by making the operational execution of the AI more understandable.",
+          "title": "AI & Robotics - Autonomy Algorithms, Neural Networks and Evaluation Infrastructure",
+          "url": "https://tesla.com/AI"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "authority",
+          "summary": "This SEC filing provides evidence for **external accountability, governance, privacy, and transparency**. It supports external accountability and governance by detailing regulatory compliance for AI features and acknowledging scrutiny over new technologies. The document also touches on privacy by mentioning the use of driving behavior for insurance rates and the governance pillar through discussions of AI system development, testing, and investment prioritization. Transparency is evident in the disclosure of AI feature revenue recognition policies and the naming conventions for FSD (Supervised) features across regions.",
+          "title": "Tesla 2024 Form 10-K Annual Report - AI and Autonomous Vehicle Risk Disclosures",
+          "url": "https://sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This federal enforcement action, the NHTSA Office of Defects Investigation's Preliminary Evaluation of FSD Traffic Violations, provides evidence for **governance**, **oversight**, and **transparency**. The investigation into Tesla vehicles equipped with FSD documents specific traffic law violations, indicating an assessment of system capabilities and control authority (governance). It also highlights the ongoing review of driver supervision mechanisms and system modifications impacting performance (oversight), and the description of system behaviors and failures (transparency) as part of this operational assessment.",
+          "title": "NHTSA Office of Defects Investigation - Preliminary Evaluation of FSD Traffic Violations",
+          "url": "https://static.nhtsa.gov/odi/inv/2025/INOA-PE25012-19171.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This SEC filing provides evidence for **governance** and **transparency** in responsible AI. It supports governance by detailing Tesla's strategic investments in AI and autonomy for product development, revenue growth, and operational efficiency, including specific actions like AI chip design convergence. The filing also touches on transparency by mentioning the use of AI for features, implying a commitment to developing and deploying these capabilities.",
+          "title": "Tesla Q3 2025 Form 10-Q Quarterly Report - Risk Factors and FSD Regulatory Investigations",
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828025045968/tsla-20250930-gen.pdf"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party audit report, \"Tesla Autopilot Security Research - Vision System Vulnerabilities and Fixes,\" provides evidence for **governance** and **transparency**. The report supports governance by detailing AI model security and system architecture security, indicating a focus on accountability for the Autopilot system. It enhances transparency by describing specific AI capabilities like image recognition and identifying markings, along with the scenarios in which they are used, offering insight into system functionality and potential failures.",
+          "title": "Tesla Autopilot Security Research - Vision System Vulnerabilities and Fixes",
+          "url": "https://keenlab.tencent.com/en/2019/03/29/Tencent-Keen-Security-Lab-Experimental-Security-Research-of-Tesla-Autopilot/"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T21:59:22Z",
+  "run_id": "20260203_015833_3629",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Tesla's public disclosures demonstrate a balance of operational and policy-level practices across 5 of 7 evaluated responsible AI pillars. Operationally, transparency is supported by policy documents providing links to kernel and system sources, while governance is evidenced by policy documents stating a commitment to responsible AI development. Policy-level practices include oversight, where materials emphasize driver responsibility and active supervision, and external accountability, with SEC filings detailing regulatory compliance for AI features. No qualifying public evidence was found for fairness or explainability. These findings are based on a review of 14 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 61,
+    "total_sources_used": 9
+  }
+}

@@ -1,0 +1,827 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "JPMorgan Chase",
+  "company_slug": "jpmorgan-chase",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 48,
+      "OPERATIONAL": 109,
+      "POLICY": 219
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 11,
+      "findings": "JPMorgan Chase highlights recommendations for implementing governance frameworks that cover explainability. The company mentions the need for decision explanation and references specific bodies and requirements related to AI systems for explainability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This JPMorgan technology blog post, \"Deploying Responsible AI: Multidisciplinary Strategy with Embedded Governance,\" provides evidence for the **governance**, **privacy**, and **explainability** pillars. The post highlights a commitment to responsible AI by mentioning compliance with regulations and protecting data, directly supporting the governance and privacy pillars. Furthermore, it acknowledges the need to balance challenges including privacy and explainability, indicating a focus on these critical areas.",
+          "title": "Deploying Responsible AI: Multidisciplinary Strategy with Embedded Governance",
+          "url": "https://jpmorgan.com/technology/news/deploying-responsible-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The \"Trustworthy AI Center of Excellence\" publication provides evidence for the **explainability**, **fairness**, **governance**, and **privacy** pillars of responsible AI. It supports these pillars by mentioning advancements in explainability and fairness, detailing a governing body and accountability structures for AI research, and describing the development of frameworks and techniques for AI trustworthiness, which implicitly includes privacy considerations.",
+          "title": "Trustworthy AI Center of Excellence",
+          "url": "https://www.jpmorganchase.com/about/technology/research/ai/trustai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Brim Labs: JPMorgan AI Security Leadership and Risk Management,\" provides evidence for **governance, fairness, explainability, transparency, and privacy**. It highlights recommendations for implementing governance frameworks covering ethics, bias, and explainability, and discusses the need for transparency and contingency plans. The source also supports fairness and explainability through mentions of red team exercises to test for bias and manipulation, and the need for decision explanation. Finally, it touches on privacy by discussing security issues and the lack of protocols.",
+          "title": "Brim Labs: JPMorgan AI Security Leadership and Risk Management",
+          "url": "https://brimlabs.ai/blog/the-growing-ai-security-crisis-lessons-from-jpmorgan-chases-open-letter"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Klover: JPMorgan Centralized AI Governance and ModelOps Strategy,\" provides evidence for several responsible AI pillars. It supports **governance** by detailing JPMorgan's centralized AI governance strategy, including the JADE platform, dedicated functions, and executive oversight. Evidence for **fairness** is found in the mention of a patented framework for bias evaluation and auditing models. The source also supports **privacy** through references to security and controls within a regulated environment, and **external accountability** by highlighting requirements for third-party suppliers to demonstrate ethical AI practices. Finally, the blog post touches upon **transparency** by describing AI capabilities and use cases, and **explainability** through mentions of specific bodies and requirements related to AI systems.",
+          "title": "Klover: JPMorgan Centralized AI Governance and ModelOps Strategy",
+          "url": "https://klover.ai/jpmorgan-ai-strategy-chasing-ai-dominance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"IACIS: Unifying Risk Management for AI in Finance,\" provides evidence for several responsible AI pillars. It supports **governance** by discussing AI risk management frameworks, NIST RMF adoption, and the need for structured approaches and standards in banking. The paper also touches upon **fairness** by mentioning bias mitigation strategies and ethical AI development, **explainability** by highlighting challenges like lack of interpretability, and **transparency** through discussions of AI use cases and awareness of adoption trends. Furthermore, it offers evidence for **privacy** by referencing security standards, cybersecurity checks, and privacy-by-design principles within AI risk management. Finally, **oversight** is supported by discussions of continuous monitoring and human expertise for governance.",
+          "title": "IACIS: Unifying Risk Management for AI in Finance",
+          "url": "https://iacis.org/iis/2025/2_iis_2025_489-507.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_030",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Gen D: Strategic Data Insights and Chief Data Officer Governance,\" provides evidence for **governance**, **privacy**, and **external_accountability**. It highlights governance issues like ownership and accountability, and privacy risks such as data leakage and uncontrolled access. The post also mentions MLOps, governed sources, guardrails, controls, audit, and validation, indicating policies for AI lifecycle management, data protection, and external review, which supports external_accountability.",
+          "title": "Gen D: Strategic Data Insights and Chief Data Officer Governance",
+          "url": "https://gend.co/blog/leveraging-ai-strategic-data-insights-jpmorgan"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 29,
+      "findings": "JPMorgan Chase references compliance with external regulations and supervisory expectations. The company highlights the importance of clear ownership, accountability, and oversight boards for external accountability, and references regulatory approval and compliance monitoring for regulated algorithms. Furthermore, it highlights requirements for third-party suppliers to demonstrate ethical AI practices and notes a proactive approach to regulatory compliance.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The JPMorgan Chase 2024 Form 10-K provides evidence for **governance**, **oversight**, **privacy**, **transparency**, **external_accountability**, and **fairness**. The annual report details established policies and frameworks for model validation, risk management, and internal controls, demonstrating robust **governance** and **oversight** through named committees and review processes. It also addresses the security of systems and protection of sensitive data, supporting the **privacy** pillar, and discusses the use of AI/ML models and their potential biases, indicating considerations for **fairness**. Furthermore, the document acknowledges assumptions impacting reporting, contributing to **transparency**, and references compliance with external regulations and supervisory expectations, highlighting **external_accountability**.",
+          "title": "JPMorgan Chase 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/19617/000001961725000270/jpm-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance, oversight, external accountability, privacy, and fairness**. It details the Board's strategic focus on AI and its disciplined oversight mechanisms, including the Risk Committee's charter authority and corporate governance principles. The document also highlights the company's approach to managing AI risks, investing in cybersecurity to protect information, and establishing accountability for employee actions, all of which support the identified pillars.",
+          "title": "JPMorgan Chase 2025 Proxy Statement (DEF 14A)",
+          "url": "https://jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2025.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post, an expert interview with JPMorgan's Director and Manager of AI/ML Lifecycle and Governance, provides evidence for external_accountability, fairness, governance, and transparency. The source highlights the importance of clear ownership, accountability, and oversight boards for governance and external accountability, while also discussing bias monitoring, risk management, and auditing as operational aspects of fairness. Furthermore, it details the establishment of governance policies, procedures, and controls for AI development and monitoring, and mentions building systems for transparency and capturing metadata across the AI lifecycle.",
+          "title": "Good Governance Essential for AI Deployment (MIT Technology Review Partnership)",
+          "url": "https://jpmorgan.com/technology/tech-trends/good-governance-essential-for-enterprises-deploying-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This patent filing describes an algorithmic bias evaluation system for risk models, providing evidence for **external_accountability**, **fairness**, **governance**, and **transparency**. The system supports **fairness** by explicitly mentioning bias and discrimination mitigation, and **governance** and **external_accountability** through its reference to regulatory approval and compliance monitoring for regulated algorithms. Furthermore, the patent's description of tracking models for ethical behavior and bias, along with its focus on AI capabilities like prediction and planning, contributes to the **transparency** pillar by detailing mechanisms for understanding and monitoring model operations.",
+          "title": "JPMorgan Chase Patent: Algorithmic Bias Evaluation System for Risk Models",
+          "url": "https://thedailyupside.com/technology/artificial-intelligence/jpmorgan-chase-patent-highlights-risk-of-ai-bias-in-banking"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Klover: JPMorgan Centralized AI Governance and ModelOps Strategy,\" provides evidence for several responsible AI pillars. It supports **governance** by detailing JPMorgan's centralized AI governance strategy, including the JADE platform, dedicated functions, and executive oversight. Evidence for **fairness** is found in the mention of a patented framework for bias evaluation and auditing models. The source also supports **privacy** through references to security and controls within a regulated environment, and **external accountability** by highlighting requirements for third-party suppliers to demonstrate ethical AI practices. Finally, the blog post touches upon **transparency** by describing AI capabilities and use cases, and **explainability** through mentions of specific bodies and requirements related to AI systems.",
+          "title": "Klover: JPMorgan Centralized AI Governance and ModelOps Strategy",
+          "url": "https://klover.ai/jpmorgan-ai-strategy-chasing-ai-dominance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"International Journal: AI Operations at JPMorgan - Case Study,\" provides evidence for external_accountability, fairness, governance, oversight, and transparency. The paper details JPMorgan's use of AI in fraud detection, risk management, and algorithmic trading, highlighting their efforts in model explainability and bias mitigation through auditing, testing, and validation frameworks. It also notes their proactive approach to regulatory compliance and their ongoing attention to ethical AI practices, demonstrating a commitment to responsible AI adoption.",
+          "title": "International Journal: AI Operations at JPMorgan - Case Study",
+          "url": "https://ijsret.com/wp-content/uploads/2024/01/IJSRET_V10_issue1_138.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_030",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Gen D: Strategic Data Insights and Chief Data Officer Governance,\" provides evidence for **governance**, **privacy**, and **external_accountability**. It highlights governance issues like ownership and accountability, and privacy risks such as data leakage and uncontrolled access. The post also mentions MLOps, governed sources, guardrails, controls, audit, and validation, indicating policies for AI lifecycle management, data protection, and external review, which supports external_accountability.",
+          "title": "Gen D: Strategic Data Insights and Chief Data Officer Governance",
+          "url": "https://gend.co/blog/leveraging-ai-strategic-data-insights-jpmorgan"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This blog post from JPMorgan Chase's Emerging Technology Trends Report provides evidence for external_accountability, governance, oversight, privacy, and transparency. The report discusses the need for robust controls, guardrails, and regulatory oversight for AI agents, indicating a focus on governance and oversight. It also mentions safeguarding sensitive data and protecting privacy, and touches on AI capabilities and use cases that imply transparency.",
+          "title": "JPMorgan Chase Emerging Technology Trends Report",
+          "url": "https://jpmorgan.com/content/dam/jpmorgan/documents/technology/jpmc-emerging-technology-trends-report.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 31,
+      "findings": "JPMorgan Chase considers potential biases in AI/ML models and discusses bias monitoring, risk management, and auditing as operational aspects of fairness. The company describes bias and discrimination mitigation, including a patented framework for bias evaluation and auditing models. Furthermore, it states an investment in a fairness-as-a-service platform for third-party auditing of AI model fairness and mentions red team exercises to test for bias and manipulation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The JPMorgan Chase 2024 Form 10-K provides evidence for **governance**, **oversight**, **privacy**, **transparency**, **external_accountability**, and **fairness**. The annual report details established policies and frameworks for model validation, risk management, and internal controls, demonstrating robust **governance** and **oversight** through named committees and review processes. It also addresses the security of systems and protection of sensitive data, supporting the **privacy** pillar, and discusses the use of AI/ML models and their potential biases, indicating considerations for **fairness**. Furthermore, the document acknowledges assumptions impacting reporting, contributing to **transparency**, and references compliance with external regulations and supervisory expectations, highlighting **external_accountability**.",
+          "title": "JPMorgan Chase 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/19617/000001961725000270/jpm-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance, oversight, external accountability, privacy, and fairness**. It details the Board's strategic focus on AI and its disciplined oversight mechanisms, including the Risk Committee's charter authority and corporate governance principles. The document also highlights the company's approach to managing AI risks, investing in cybersecurity to protect information, and establishing accountability for employee actions, all of which support the identified pillars.",
+          "title": "JPMorgan Chase 2025 Proxy Statement (DEF 14A)",
+          "url": "https://jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2025.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post, an expert interview with JPMorgan's Director and Manager of AI/ML Lifecycle and Governance, provides evidence for external_accountability, fairness, governance, and transparency. The source highlights the importance of clear ownership, accountability, and oversight boards for governance and external accountability, while also discussing bias monitoring, risk management, and auditing as operational aspects of fairness. Furthermore, it details the establishment of governance policies, procedures, and controls for AI development and monitoring, and mentions building systems for transparency and capturing metadata across the AI lifecycle.",
+          "title": "Good Governance Essential for AI Deployment (MIT Technology Review Partnership)",
+          "url": "https://jpmorgan.com/technology/tech-trends/good-governance-essential-for-enterprises-deploying-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The \"Trustworthy AI Center of Excellence\" publication provides evidence for the **explainability**, **fairness**, **governance**, and **privacy** pillars of responsible AI. It supports these pillars by mentioning advancements in explainability and fairness, detailing a governing body and accountability structures for AI research, and describing the development of frameworks and techniques for AI trustworthiness, which implicitly includes privacy considerations.",
+          "title": "Trustworthy AI Center of Excellence",
+          "url": "https://www.jpmorganchase.com/about/technology/research/ai/trustai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This patent filing describes an algorithmic bias evaluation system for risk models, providing evidence for **external_accountability**, **fairness**, **governance**, and **transparency**. The system supports **fairness** by explicitly mentioning bias and discrimination mitigation, and **governance** and **external_accountability** through its reference to regulatory approval and compliance monitoring for regulated algorithms. Furthermore, the patent's description of tracking models for ethical behavior and bias, along with its focus on AI capabilities like prediction and planning, contributes to the **transparency** pillar by detailing mechanisms for understanding and monitoring model operations.",
+          "title": "JPMorgan Chase Patent: Algorithmic Bias Evaluation System for Risk Models",
+          "url": "https://thedailyupside.com/technology/artificial-intelligence/jpmorgan-chase-patent-highlights-risk-of-ai-bias-in-banking"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This press release from JPMorgan Chase supports the **fairness** and **governance** pillars of responsible AI. It highlights the company's $10 million investment in a fairness-as-a-service platform, demonstrating a commitment to third-party auditing of AI model fairness and addressing algorithmic biases, particularly in the context of broadening credit access. The investment also underscores a focus on responsible AI practices and regulatory compliance.",
+          "title": "JPMorgan Chase Investment in FairPlay Fairness-as-a-Service Platform",
+          "url": "https://finance.yahoo.com/news/jpmorgan-others-invest-compliance-startup-144552086.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Brim Labs: JPMorgan AI Security Leadership and Risk Management,\" provides evidence for **governance, fairness, explainability, transparency, and privacy**. It highlights recommendations for implementing governance frameworks covering ethics, bias, and explainability, and discusses the need for transparency and contingency plans. The source also supports fairness and explainability through mentions of red team exercises to test for bias and manipulation, and the need for decision explanation. Finally, it touches on privacy by discussing security issues and the lack of protocols.",
+          "title": "Brim Labs: JPMorgan AI Security Leadership and Risk Management",
+          "url": "https://brimlabs.ai/blog/the-growing-ai-security-crisis-lessons-from-jpmorgan-chases-open-letter"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Klover: JPMorgan Centralized AI Governance and ModelOps Strategy,\" provides evidence for several responsible AI pillars. It supports **governance** by detailing JPMorgan's centralized AI governance strategy, including the JADE platform, dedicated functions, and executive oversight. Evidence for **fairness** is found in the mention of a patented framework for bias evaluation and auditing models. The source also supports **privacy** through references to security and controls within a regulated environment, and **external accountability** by highlighting requirements for third-party suppliers to demonstrate ethical AI practices. Finally, the blog post touches upon **transparency** by describing AI capabilities and use cases, and **explainability** through mentions of specific bodies and requirements related to AI systems.",
+          "title": "Klover: JPMorgan Centralized AI Governance and ModelOps Strategy",
+          "url": "https://klover.ai/jpmorgan-ai-strategy-chasing-ai-dominance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"IACIS: Unifying Risk Management for AI in Finance,\" provides evidence for several responsible AI pillars. It supports **governance** by discussing AI risk management frameworks, NIST RMF adoption, and the need for structured approaches and standards in banking. The paper also touches upon **fairness** by mentioning bias mitigation strategies and ethical AI development, **explainability** by highlighting challenges like lack of interpretability, and **transparency** through discussions of AI use cases and awareness of adoption trends. Furthermore, it offers evidence for **privacy** by referencing security standards, cybersecurity checks, and privacy-by-design principles within AI risk management. Finally, **oversight** is supported by discussions of continuous monitoring and human expertise for governance.",
+          "title": "IACIS: Unifying Risk Management for AI in Finance",
+          "url": "https://iacis.org/iis/2025/2_iis_2025_489-507.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"International Journal: AI Operations at JPMorgan - Case Study,\" provides evidence for external_accountability, fairness, governance, oversight, and transparency. The paper details JPMorgan's use of AI in fraud detection, risk management, and algorithmic trading, highlighting their efforts in model explainability and bias mitigation through auditing, testing, and validation frameworks. It also notes their proactive approach to regulatory compliance and their ongoing attention to ethical AI practices, demonstrating a commitment to responsible AI adoption.",
+          "title": "International Journal: AI Operations at JPMorgan - Case Study",
+          "url": "https://ijsret.com/wp-content/uploads/2024/01/IJSRET_V10_issue1_138.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 10
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 312,
+      "findings": "JPMorgan Chase details its centralized AI governance strategy, including a governance framework, internal control requirements, and risk management responsibilities for all enterprise systems. The company establishes governance policies, procedures, and controls for AI development and monitoring, emphasizing clear ownership, accountability, and oversight boards. It also references regulatory approval, compliance monitoring for regulated algorithms, and a proactive approach to regulatory compliance and ethical AI practices.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The JPMorgan Chase 2024 Form 10-K provides evidence for **governance**, **oversight**, **privacy**, **transparency**, **external_accountability**, and **fairness**. The annual report details established policies and frameworks for model validation, risk management, and internal controls, demonstrating robust **governance** and **oversight** through named committees and review processes. It also addresses the security of systems and protection of sensitive data, supporting the **privacy** pillar, and discusses the use of AI/ML models and their potential biases, indicating considerations for **fairness**. Furthermore, the document acknowledges assumptions impacting reporting, contributing to **transparency**, and references compliance with external regulations and supervisory expectations, highlighting **external_accountability**.",
+          "title": "JPMorgan Chase 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/19617/000001961725000270/jpm-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance, oversight, external accountability, privacy, and fairness**. It details the Board's strategic focus on AI and its disciplined oversight mechanisms, including the Risk Committee's charter authority and corporate governance principles. The document also highlights the company's approach to managing AI risks, investing in cybersecurity to protect information, and establishing accountability for employee actions, all of which support the identified pillars.",
+          "title": "JPMorgan Chase 2025 Proxy Statement (DEF 14A)",
+          "url": "https://jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2025.pdf"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The JPMorgan Chase Corporate Governance Principles, a board-approved charter, provides evidence for the **governance** pillar of responsible AI. This charter establishes a governance framework, internal control requirements, and risk management responsibilities for all enterprise systems, including AI. Specifically, it mandates a three-lines-of-defense model and independent oversight, and mentions a committee responsible for transaction review, indicating a clear governance structure and accountability.",
+          "title": "JPMorgan Chase Corporate Governance Principles",
+          "url": "https://jpmorganchase.com/about/governance/corporate-governance-principles"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "The \"Jamie Dimon 2025 Letter to Shareholders\" press release provides evidence for the **governance** pillar of responsible AI. The letter details how data insights are used to shape products and employee benefits, demonstrating governance over data-driven decision-making. Furthermore, it highlights how data from the Institute informs policy decisions and investments, indicating governance over the application of data.",
+          "title": "Jamie Dimon 2025 Letter to Shareholders",
+          "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/ceo-letter-to-shareholders-2024.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "The JPMorgan Chase 2024 Sustainability Report provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The report details established governance structures, including Board updates on data use and risk oversight functions, supporting governance and oversight. It also describes privacy frameworks, incident response processes, and employee training, demonstrating commitments to privacy. While transparency is mentioned in relation to employee career growth, the report also indicates a general aim for transparency in methodology development for AI systems.",
+          "title": "JPMorgan Chase 2024 Sustainability Report",
+          "url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/about/jpmc-sustainability-report-2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This JPMorgan technology blog post, \"Deploying Responsible AI: Multidisciplinary Strategy with Embedded Governance,\" provides evidence for the **governance**, **privacy**, and **explainability** pillars. The post highlights a commitment to responsible AI by mentioning compliance with regulations and protecting data, directly supporting the governance and privacy pillars. Furthermore, it acknowledges the need to balance challenges including privacy and explainability, indicating a focus on these critical areas.",
+          "title": "Deploying Responsible AI: Multidisciplinary Strategy with Embedded Governance",
+          "url": "https://jpmorgan.com/technology/news/deploying-responsible-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post, an expert interview with JPMorgan's Director and Manager of AI/ML Lifecycle and Governance, provides evidence for external_accountability, fairness, governance, and transparency. The source highlights the importance of clear ownership, accountability, and oversight boards for governance and external accountability, while also discussing bias monitoring, risk management, and auditing as operational aspects of fairness. Furthermore, it details the establishment of governance policies, procedures, and controls for AI development and monitoring, and mentions building systems for transparency and capturing metadata across the AI lifecycle.",
+          "title": "Good Governance Essential for AI Deployment (MIT Technology Review Partnership)",
+          "url": "https://jpmorgan.com/technology/tech-trends/good-governance-essential-for-enterprises-deploying-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence Research - JPMorgan Chase,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The paper describes AI capabilities such as AI agents, hybrid reasoning, planning, and optimization, and their potential use cases in areas like decision-making, automation, and strategy optimization. While aspirational in nature, the discussion of AI-driven decision-making and optimization implies a focus on governance, and the exploration of AI capabilities contributes to transparency by detailing potential applications.",
+          "title": "Artificial Intelligence Research - JPMorgan Chase",
+          "url": "https://www.jpmorganchase.com/about/technology/research/ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The \"Trustworthy AI Center of Excellence\" publication provides evidence for the **explainability**, **fairness**, **governance**, and **privacy** pillars of responsible AI. It supports these pillars by mentioning advancements in explainability and fairness, detailing a governing body and accountability structures for AI research, and describing the development of frameworks and techniques for AI trustworthiness, which implicitly includes privacy considerations.",
+          "title": "Trustworthy AI Center of Excellence",
+          "url": "https://www.jpmorganchase.com/about/technology/research/ai/trustai"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This enforcement action, the \"FTC Order to JPMorgan Chase on AI Surveillance and Data Collection,\" provides evidence for the **governance** and **privacy** pillars. The order mandates JPMorgan Chase to disclose its AI-driven customer data collection practices and algorithmic pricing systems, demonstrating regulatory oversight and requirements related to data handling and AI use, which directly supports the governance pillar. Furthermore, the focus on customer data collection and the involvement of the \"Office of Technology\" highlight the privacy concerns addressed by this regulatory action.",
+          "title": "FTC Order to JPMorgan Chase on AI Surveillance and Data Collection",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-issues-orders-eight-companies-seeking-information-surveillance-pricing"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This patent filing describes an algorithmic bias evaluation system for risk models, providing evidence for **external_accountability**, **fairness**, **governance**, and **transparency**. The system supports **fairness** by explicitly mentioning bias and discrimination mitigation, and **governance** and **external_accountability** through its reference to regulatory approval and compliance monitoring for regulated algorithms. Furthermore, the patent's description of tracking models for ethical behavior and bias, along with its focus on AI capabilities like prediction and planning, contributes to the **transparency** pillar by detailing mechanisms for understanding and monitoring model operations.",
+          "title": "JPMorgan Chase Patent: Algorithmic Bias Evaluation System for Risk Models",
+          "url": "https://thedailyupside.com/technology/artificial-intelligence/jpmorgan-chase-patent-highlights-risk-of-ai-bias-in-banking"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This press release from JPMorgan Chase supports the **fairness** and **governance** pillars of responsible AI. It highlights the company's $10 million investment in a fairness-as-a-service platform, demonstrating a commitment to third-party auditing of AI model fairness and addressing algorithmic biases, particularly in the context of broadening credit access. The investment also underscores a focus on responsible AI practices and regulatory compliance.",
+          "title": "JPMorgan Chase Investment in FairPlay Fairness-as-a-Service Platform",
+          "url": "https://finance.yahoo.com/news/jpmorgan-others-invest-compliance-startup-144552086.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This technical paper from JPMorgan Chase Research provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by describing AI capabilities, the role of human oversight in decision-making, and the implementation of checks and balances for risk management in autonomous systems. The paper also touches upon privacy by highlighting security risks associated with AI-generated fakes and deepfakes that could bypass biometric security measures.",
+          "title": "AI Agents in Payments and Securities: JPMorgan Chase Research",
+          "url": "https://jpmorgan.com/content/dam/jpmorgan/documents/payments/Payments-Unbound-Volume4.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** pillar of responsible AI. It highlights the establishment of a dedicated function and the creation of policies and guardrails for AI integration, demonstrating a structured approach to managing AI's strategic importance and operational deployment. The article also points to leadership setting expectations and accountability structures, including a Chief Data & Analytics Officer on the Operating Committee, which signifies a commitment to guiding AI adoption and ensuring responsible practices.",
+          "title": "Forbes: AI Innovation as Operating Committee Mandate",
+          "url": "https://forbes.com/sites/randybean/2025/07/27/at-jpmorganchase-ai-innovation-is-an-operating-committee-mandate"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the governance, oversight, privacy, and transparency pillars of responsible AI. It supports governance and oversight by detailing JPMorgan Chase's AI strategy, including a 200,000 employee LLM suite adoption, governance maturity, and organizational trust frameworks. Evidence for privacy is found in the mention of addressing privacy risks and data sovereignty, while transparency is demonstrated through descriptions of AI capabilities, use cases, and tracking mechanisms like ROI.",
+          "title": "AI News: JPMorgan Chase AI Strategy Delivers Results",
+          "url": "https://artificialintelligence-news.com/news/jpmorgan-chase-ai-strategy-2025"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Brim Labs: JPMorgan AI Security Leadership and Risk Management,\" provides evidence for **governance, fairness, explainability, transparency, and privacy**. It highlights recommendations for implementing governance frameworks covering ethics, bias, and explainability, and discusses the need for transparency and contingency plans. The source also supports fairness and explainability through mentions of red team exercises to test for bias and manipulation, and the need for decision explanation. Finally, it touches on privacy by discussing security issues and the lack of protocols.",
+          "title": "Brim Labs: JPMorgan AI Security Leadership and Risk Management",
+          "url": "https://brimlabs.ai/blog/the-growing-ai-security-crisis-lessons-from-jpmorgan-chases-open-letter"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Klover: JPMorgan Centralized AI Governance and ModelOps Strategy,\" provides evidence for several responsible AI pillars. It supports **governance** by detailing JPMorgan's centralized AI governance strategy, including the JADE platform, dedicated functions, and executive oversight. Evidence for **fairness** is found in the mention of a patented framework for bias evaluation and auditing models. The source also supports **privacy** through references to security and controls within a regulated environment, and **external accountability** by highlighting requirements for third-party suppliers to demonstrate ethical AI practices. Finally, the blog post touches upon **transparency** by describing AI capabilities and use cases, and **explainability** through mentions of specific bodies and requirements related to AI systems.",
+          "title": "Klover: JPMorgan Centralized AI Governance and ModelOps Strategy",
+          "url": "https://klover.ai/jpmorgan-ai-strategy-chasing-ai-dominance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"IACIS: Unifying Risk Management for AI in Finance,\" provides evidence for several responsible AI pillars. It supports **governance** by discussing AI risk management frameworks, NIST RMF adoption, and the need for structured approaches and standards in banking. The paper also touches upon **fairness** by mentioning bias mitigation strategies and ethical AI development, **explainability** by highlighting challenges like lack of interpretability, and **transparency** through discussions of AI use cases and awareness of adoption trends. Furthermore, it offers evidence for **privacy** by referencing security standards, cybersecurity checks, and privacy-by-design principles within AI risk management. Finally, **oversight** is supported by discussions of continuous monitoring and human expertise for governance.",
+          "title": "IACIS: Unifying Risk Management for AI in Finance",
+          "url": "https://iacis.org/iis/2025/2_iis_2025_489-507.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"International Journal: AI Operations at JPMorgan - Case Study,\" provides evidence for external_accountability, fairness, governance, oversight, and transparency. The paper details JPMorgan's use of AI in fraud detection, risk management, and algorithmic trading, highlighting their efforts in model explainability and bias mitigation through auditing, testing, and validation frameworks. It also notes their proactive approach to regulatory compliance and their ongoing attention to ethical AI practices, demonstrating a commitment to responsible AI adoption.",
+          "title": "International Journal: AI Operations at JPMorgan - Case Study",
+          "url": "https://ijsret.com/wp-content/uploads/2024/01/IJSRET_V10_issue1_138.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_030",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Gen D: Strategic Data Insights and Chief Data Officer Governance,\" provides evidence for **governance**, **privacy**, and **external_accountability**. It highlights governance issues like ownership and accountability, and privacy risks such as data leakage and uncontrolled access. The post also mentions MLOps, governed sources, guardrails, controls, audit, and validation, indicating policies for AI lifecycle management, data protection, and external review, which supports external_accountability.",
+          "title": "Gen D: Strategic Data Insights and Chief Data Officer Governance",
+          "url": "https://gend.co/blog/leveraging-ai-strategic-data-insights-jpmorgan"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This blog post from JPMorgan Chase's Emerging Technology Trends Report provides evidence for external_accountability, governance, oversight, privacy, and transparency. The report discusses the need for robust controls, guardrails, and regulatory oversight for AI agents, indicating a focus on governance and oversight. It also mentions safeguarding sensitive data and protecting privacy, and touches on AI capabilities and use cases that imply transparency.",
+          "title": "JPMorgan Chase Emerging Technology Trends Report",
+          "url": "https://jpmorgan.com/content/dam/jpmorgan/documents/technology/jpmc-emerging-technology-trends-report.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_032",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"JPMorgan Private Bank: The AI Security Equation,\" provides evidence for the **governance** pillar of responsible AI. It discusses the strategic competition for resources driven by AI, implying the need for high-level decision-making and governance maturity as a driver of competitive advantage, though it lacks specific execution details for operational or policy implementation.",
+          "title": "JPMorgan Private Bank: The AI Security Equation",
+          "url": "https://privatebank.jpmorgan.com/eur/en/insights/markets-and-investing/the-ai-security-equation"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_033",
+          "source_tier": "third_party",
+          "summary": "The JPMorgan Private Bank help page provides evidence for the **governance** and **privacy** pillars. It supports governance by outlining data governance practices and protection protocols for personal information, as well as detailing data use and adherence to policy within a user agreement. The source supports the privacy pillar by offering client-facing guidance that advises against disclosing sensitive data to AI systems.",
+          "title": "JPMorgan Private Bank: AI Tools and Privacy Guidance",
+          "url": "https://privatebank.jpmorgan.com/eur/en/insights/markets-and-investing/ideas-and-insights/ai-tools-and-your-privacy-what-you-nee"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_034",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"JPMorgan Chase Institute Data Privacy Notice and Protocols,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing strict researcher vetting, compliance with IT risk management, and mandates for data processing and publication policies. The document supports privacy by outlining confidentiality measures, ensuring data processing prevents individual identification, and requiring the use of aggregate or anonymized data for publications.",
+          "title": "JPMorgan Chase Institute Data Privacy Notice and Protocols",
+          "url": "https://jpmorganchase.com/about/governance/data-privacy-protocols"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_039",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by mentioning an AI governance framework and policy direction for data governance and risk appetite discussions. Evidence for privacy is found in its mention of client data ownership policies, while transparency is supported by descriptions of the AI system's capabilities, use cases, and the provision of information on AI risk and compliance.",
+          "title": "AI Boosting Payments Efficiency and Fraud Reduction",
+          "url": "https://jpmorgan.com/insights/payments/security-trust/ai-payments-efficiency-fraud-reduction"
+        }
+      ],
+      "score": 2,
+      "source_count": 25
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 48,
+      "findings": "JPMorgan Chase's proxy statements detail the Board's strategic focus on AI and its disciplined oversight mechanisms, including the Risk Committee's charter authority. Reports also describe established governance structures, such as Board updates on data use and risk oversight functions. Technical papers further discuss continuous monitoring and human expertise for governance, supporting oversight practices.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The JPMorgan Chase 2024 Form 10-K provides evidence for **governance**, **oversight**, **privacy**, **transparency**, **external_accountability**, and **fairness**. The annual report details established policies and frameworks for model validation, risk management, and internal controls, demonstrating robust **governance** and **oversight** through named committees and review processes. It also addresses the security of systems and protection of sensitive data, supporting the **privacy** pillar, and discusses the use of AI/ML models and their potential biases, indicating considerations for **fairness**. Furthermore, the document acknowledges assumptions impacting reporting, contributing to **transparency**, and references compliance with external regulations and supervisory expectations, highlighting **external_accountability**.",
+          "title": "JPMorgan Chase 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/19617/000001961725000270/jpm-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance, oversight, external accountability, privacy, and fairness**. It details the Board's strategic focus on AI and its disciplined oversight mechanisms, including the Risk Committee's charter authority and corporate governance principles. The document also highlights the company's approach to managing AI risks, investing in cybersecurity to protect information, and establishing accountability for employee actions, all of which support the identified pillars.",
+          "title": "JPMorgan Chase 2025 Proxy Statement (DEF 14A)",
+          "url": "https://jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2025.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "The JPMorgan Chase 2024 Sustainability Report provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The report details established governance structures, including Board updates on data use and risk oversight functions, supporting governance and oversight. It also describes privacy frameworks, incident response processes, and employee training, demonstrating commitments to privacy. While transparency is mentioned in relation to employee career growth, the report also indicates a general aim for transparency in methodology development for AI systems.",
+          "title": "JPMorgan Chase 2024 Sustainability Report",
+          "url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/about/jpmc-sustainability-report-2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the governance, oversight, privacy, and transparency pillars of responsible AI. It supports governance and oversight by detailing JPMorgan Chase's AI strategy, including a 200,000 employee LLM suite adoption, governance maturity, and organizational trust frameworks. Evidence for privacy is found in the mention of addressing privacy risks and data sovereignty, while transparency is demonstrated through descriptions of AI capabilities, use cases, and tracking mechanisms like ROI.",
+          "title": "AI News: JPMorgan Chase AI Strategy Delivers Results",
+          "url": "https://artificialintelligence-news.com/news/jpmorgan-chase-ai-strategy-2025"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"IACIS: Unifying Risk Management for AI in Finance,\" provides evidence for several responsible AI pillars. It supports **governance** by discussing AI risk management frameworks, NIST RMF adoption, and the need for structured approaches and standards in banking. The paper also touches upon **fairness** by mentioning bias mitigation strategies and ethical AI development, **explainability** by highlighting challenges like lack of interpretability, and **transparency** through discussions of AI use cases and awareness of adoption trends. Furthermore, it offers evidence for **privacy** by referencing security standards, cybersecurity checks, and privacy-by-design principles within AI risk management. Finally, **oversight** is supported by discussions of continuous monitoring and human expertise for governance.",
+          "title": "IACIS: Unifying Risk Management for AI in Finance",
+          "url": "https://iacis.org/iis/2025/2_iis_2025_489-507.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This blog post from JPMorgan Chase's Emerging Technology Trends Report provides evidence for external_accountability, governance, oversight, privacy, and transparency. The report discusses the need for robust controls, guardrails, and regulatory oversight for AI agents, indicating a focus on governance and oversight. It also mentions safeguarding sensitive data and protecting privacy, and touches on AI capabilities and use cases that imply transparency.",
+          "title": "JPMorgan Chase Emerging Technology Trends Report",
+          "url": "https://jpmorgan.com/content/dam/jpmorgan/documents/technology/jpmc-emerging-technology-trends-report.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 76,
+      "findings": "JPMorgan Chase addresses the security of systems and protection of sensitive data, investing in cybersecurity to protect information. The company describes privacy frameworks, incident response processes, and employee training, while also outlining its commitment to data protection and security standards in its privacy policy. Furthermore, it references security standards, cybersecurity checks, and privacy-by-design principles within AI risk management, and offers client-facing guidance against disclosing sensitive data to AI systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The JPMorgan Chase 2024 Form 10-K provides evidence for **governance**, **oversight**, **privacy**, **transparency**, **external_accountability**, and **fairness**. The annual report details established policies and frameworks for model validation, risk management, and internal controls, demonstrating robust **governance** and **oversight** through named committees and review processes. It also addresses the security of systems and protection of sensitive data, supporting the **privacy** pillar, and discusses the use of AI/ML models and their potential biases, indicating considerations for **fairness**. Furthermore, the document acknowledges assumptions impacting reporting, contributing to **transparency**, and references compliance with external regulations and supervisory expectations, highlighting **external_accountability**.",
+          "title": "JPMorgan Chase 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/19617/000001961725000270/jpm-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance, oversight, external accountability, privacy, and fairness**. It details the Board's strategic focus on AI and its disciplined oversight mechanisms, including the Risk Committee's charter authority and corporate governance principles. The document also highlights the company's approach to managing AI risks, investing in cybersecurity to protect information, and establishing accountability for employee actions, all of which support the identified pillars.",
+          "title": "JPMorgan Chase 2025 Proxy Statement (DEF 14A)",
+          "url": "https://jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2025.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "The JPMorgan Chase 2024 Sustainability Report provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The report details established governance structures, including Board updates on data use and risk oversight functions, supporting governance and oversight. It also describes privacy frameworks, incident response processes, and employee training, demonstrating commitments to privacy. While transparency is mentioned in relation to employee career growth, the report also indicates a general aim for transparency in methodology development for AI systems.",
+          "title": "JPMorgan Chase 2024 Sustainability Report",
+          "url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/about/jpmc-sustainability-report-2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This JPMorgan technology blog post, \"Deploying Responsible AI: Multidisciplinary Strategy with Embedded Governance,\" provides evidence for the **governance**, **privacy**, and **explainability** pillars. The post highlights a commitment to responsible AI by mentioning compliance with regulations and protecting data, directly supporting the governance and privacy pillars. Furthermore, it acknowledges the need to balance challenges including privacy and explainability, indicating a focus on these critical areas.",
+          "title": "Deploying Responsible AI: Multidisciplinary Strategy with Embedded Governance",
+          "url": "https://jpmorgan.com/technology/news/deploying-responsible-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The \"Trustworthy AI Center of Excellence\" publication provides evidence for the **explainability**, **fairness**, **governance**, and **privacy** pillars of responsible AI. It supports these pillars by mentioning advancements in explainability and fairness, detailing a governing body and accountability structures for AI research, and describing the development of frameworks and techniques for AI trustworthiness, which implicitly includes privacy considerations.",
+          "title": "Trustworthy AI Center of Excellence",
+          "url": "https://www.jpmorganchase.com/about/technology/research/ai/trustai"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_012",
+          "source_tier": "authority",
+          "summary": "This enforcement action, the \"FTC Order to JPMorgan Chase on AI Surveillance and Data Collection,\" provides evidence for the **governance** and **privacy** pillars. The order mandates JPMorgan Chase to disclose its AI-driven customer data collection practices and algorithmic pricing systems, demonstrating regulatory oversight and requirements related to data handling and AI use, which directly supports the governance pillar. Furthermore, the focus on customer data collection and the involvement of the \"Office of Technology\" highlight the privacy concerns addressed by this regulatory action.",
+          "title": "FTC Order to JPMorgan Chase on AI Surveillance and Data Collection",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-issues-orders-eight-companies-seeking-information-surveillance-pricing"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This press release from JPMorgan outlines governance guidance for third-party AI suppliers, supporting the **privacy** and **transparency** pillars. It requires suppliers to document fairness assessments and bias mitigation strategies, which contributes to transparency by making AI decision-making processes more understandable. The guidance also emphasizes security controls and ongoing monitoring, indirectly supporting privacy by highlighting the need for data protection in AI use cases.",
+          "title": "Infrastructure for Trust: JPMorgan Open Letter to Third-Party Suppliers",
+          "url": "https://www.jpmorgan.com/technology/technology-blog/open-letter-to-our-suppliers"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This technical paper from JPMorgan Chase Research provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by describing AI capabilities, the role of human oversight in decision-making, and the implementation of checks and balances for risk management in autonomous systems. The paper also touches upon privacy by highlighting security risks associated with AI-generated fakes and deepfakes that could bypass biometric security measures.",
+          "title": "AI Agents in Payments and Securities: JPMorgan Chase Research",
+          "url": "https://jpmorgan.com/content/dam/jpmorgan/documents/payments/Payments-Unbound-Volume4.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This JPMorgan Chase Privacy Policy document provides evidence for the **privacy** pillar. It supports this pillar by outlining the company's commitment to data protection and security standards, as described in the policy.",
+          "title": "JPMorgan Chase Privacy Policy",
+          "url": "https://jpmorgan.com/privacy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the governance, oversight, privacy, and transparency pillars of responsible AI. It supports governance and oversight by detailing JPMorgan Chase's AI strategy, including a 200,000 employee LLM suite adoption, governance maturity, and organizational trust frameworks. Evidence for privacy is found in the mention of addressing privacy risks and data sovereignty, while transparency is demonstrated through descriptions of AI capabilities, use cases, and tracking mechanisms like ROI.",
+          "title": "AI News: JPMorgan Chase AI Strategy Delivers Results",
+          "url": "https://artificialintelligence-news.com/news/jpmorgan-chase-ai-strategy-2025"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Brim Labs: JPMorgan AI Security Leadership and Risk Management,\" provides evidence for **governance, fairness, explainability, transparency, and privacy**. It highlights recommendations for implementing governance frameworks covering ethics, bias, and explainability, and discusses the need for transparency and contingency plans. The source also supports fairness and explainability through mentions of red team exercises to test for bias and manipulation, and the need for decision explanation. Finally, it touches on privacy by discussing security issues and the lack of protocols.",
+          "title": "Brim Labs: JPMorgan AI Security Leadership and Risk Management",
+          "url": "https://brimlabs.ai/blog/the-growing-ai-security-crisis-lessons-from-jpmorgan-chases-open-letter"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Klover: JPMorgan Centralized AI Governance and ModelOps Strategy,\" provides evidence for several responsible AI pillars. It supports **governance** by detailing JPMorgan's centralized AI governance strategy, including the JADE platform, dedicated functions, and executive oversight. Evidence for **fairness** is found in the mention of a patented framework for bias evaluation and auditing models. The source also supports **privacy** through references to security and controls within a regulated environment, and **external accountability** by highlighting requirements for third-party suppliers to demonstrate ethical AI practices. Finally, the blog post touches upon **transparency** by describing AI capabilities and use cases, and **explainability** through mentions of specific bodies and requirements related to AI systems.",
+          "title": "Klover: JPMorgan Centralized AI Governance and ModelOps Strategy",
+          "url": "https://klover.ai/jpmorgan-ai-strategy-chasing-ai-dominance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"IACIS: Unifying Risk Management for AI in Finance,\" provides evidence for several responsible AI pillars. It supports **governance** by discussing AI risk management frameworks, NIST RMF adoption, and the need for structured approaches and standards in banking. The paper also touches upon **fairness** by mentioning bias mitigation strategies and ethical AI development, **explainability** by highlighting challenges like lack of interpretability, and **transparency** through discussions of AI use cases and awareness of adoption trends. Furthermore, it offers evidence for **privacy** by referencing security standards, cybersecurity checks, and privacy-by-design principles within AI risk management. Finally, **oversight** is supported by discussions of continuous monitoring and human expertise for governance.",
+          "title": "IACIS: Unifying Risk Management for AI in Finance",
+          "url": "https://iacis.org/iis/2025/2_iis_2025_489-507.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_030",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Gen D: Strategic Data Insights and Chief Data Officer Governance,\" provides evidence for **governance**, **privacy**, and **external_accountability**. It highlights governance issues like ownership and accountability, and privacy risks such as data leakage and uncontrolled access. The post also mentions MLOps, governed sources, guardrails, controls, audit, and validation, indicating policies for AI lifecycle management, data protection, and external review, which supports external_accountability.",
+          "title": "Gen D: Strategic Data Insights and Chief Data Officer Governance",
+          "url": "https://gend.co/blog/leveraging-ai-strategic-data-insights-jpmorgan"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This blog post from JPMorgan Chase's Emerging Technology Trends Report provides evidence for external_accountability, governance, oversight, privacy, and transparency. The report discusses the need for robust controls, guardrails, and regulatory oversight for AI agents, indicating a focus on governance and oversight. It also mentions safeguarding sensitive data and protecting privacy, and touches on AI capabilities and use cases that imply transparency.",
+          "title": "JPMorgan Chase Emerging Technology Trends Report",
+          "url": "https://jpmorgan.com/content/dam/jpmorgan/documents/technology/jpmc-emerging-technology-trends-report.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_033",
+          "source_tier": "third_party",
+          "summary": "The JPMorgan Private Bank help page provides evidence for the **governance** and **privacy** pillars. It supports governance by outlining data governance practices and protection protocols for personal information, as well as detailing data use and adherence to policy within a user agreement. The source supports the privacy pillar by offering client-facing guidance that advises against disclosing sensitive data to AI systems.",
+          "title": "JPMorgan Private Bank: AI Tools and Privacy Guidance",
+          "url": "https://privatebank.jpmorgan.com/eur/en/insights/markets-and-investing/ideas-and-insights/ai-tools-and-your-privacy-what-you-nee"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_034",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"JPMorgan Chase Institute Data Privacy Notice and Protocols,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing strict researcher vetting, compliance with IT risk management, and mandates for data processing and publication policies. The document supports privacy by outlining confidentiality measures, ensuring data processing prevents individual identification, and requiring the use of aggregate or anonymized data for publications.",
+          "title": "JPMorgan Chase Institute Data Privacy Notice and Protocols",
+          "url": "https://jpmorganchase.com/about/governance/data-privacy-protocols"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_039",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by mentioning an AI governance framework and policy direction for data governance and risk appetite discussions. Evidence for privacy is found in its mention of client data ownership policies, while transparency is supported by descriptions of the AI system's capabilities, use cases, and the provision of information on AI risk and compliance.",
+          "title": "AI Boosting Payments Efficiency and Fraud Reduction",
+          "url": "https://jpmorgan.com/insights/payments/security-trust/ai-payments-efficiency-fraud-reduction"
+        }
+      ],
+      "score": 2,
+      "source_count": 18
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 69,
+      "findings": "JPMorgan Chase aims for transparency in methodology development for AI systems and acknowledges assumptions impacting reporting. The company describes building systems for transparency, capturing metadata across the AI lifecycle, and detailing AI capabilities, use cases, and potential applications. Furthermore, it requires third-party suppliers to document fairness assessments and bias mitigation strategies to enhance understanding of AI decision-making processes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The JPMorgan Chase 2024 Form 10-K provides evidence for **governance**, **oversight**, **privacy**, **transparency**, **external_accountability**, and **fairness**. The annual report details established policies and frameworks for model validation, risk management, and internal controls, demonstrating robust **governance** and **oversight** through named committees and review processes. It also addresses the security of systems and protection of sensitive data, supporting the **privacy** pillar, and discusses the use of AI/ML models and their potential biases, indicating considerations for **fairness**. Furthermore, the document acknowledges assumptions impacting reporting, contributing to **transparency**, and references compliance with external regulations and supervisory expectations, highlighting **external_accountability**.",
+          "title": "JPMorgan Chase 2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/19617/000001961725000270/jpm-20241231.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for **governance, oversight, external accountability, privacy, and fairness**. It details the Board's strategic focus on AI and its disciplined oversight mechanisms, including the Risk Committee's charter authority and corporate governance principles. The document also highlights the company's approach to managing AI risks, investing in cybersecurity to protect information, and establishing accountability for employee actions, all of which support the identified pillars.",
+          "title": "JPMorgan Chase 2025 Proxy Statement (DEF 14A)",
+          "url": "https://jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2025.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "The JPMorgan Chase 2024 Sustainability Report provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The report details established governance structures, including Board updates on data use and risk oversight functions, supporting governance and oversight. It also describes privacy frameworks, incident response processes, and employee training, demonstrating commitments to privacy. While transparency is mentioned in relation to employee career growth, the report also indicates a general aim for transparency in methodology development for AI systems.",
+          "title": "JPMorgan Chase 2024 Sustainability Report",
+          "url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/about/jpmc-sustainability-report-2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This blog post, an expert interview with JPMorgan's Director and Manager of AI/ML Lifecycle and Governance, provides evidence for external_accountability, fairness, governance, and transparency. The source highlights the importance of clear ownership, accountability, and oversight boards for governance and external accountability, while also discussing bias monitoring, risk management, and auditing as operational aspects of fairness. Furthermore, it details the establishment of governance policies, procedures, and controls for AI development and monitoring, and mentions building systems for transparency and capturing metadata across the AI lifecycle.",
+          "title": "Good Governance Essential for AI Deployment (MIT Technology Review Partnership)",
+          "url": "https://jpmorgan.com/technology/tech-trends/good-governance-essential-for-enterprises-deploying-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Artificial Intelligence Research - JPMorgan Chase,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The paper describes AI capabilities such as AI agents, hybrid reasoning, planning, and optimization, and their potential use cases in areas like decision-making, automation, and strategy optimization. While aspirational in nature, the discussion of AI-driven decision-making and optimization implies a focus on governance, and the exploration of AI capabilities contributes to transparency by detailing potential applications.",
+          "title": "Artificial Intelligence Research - JPMorgan Chase",
+          "url": "https://www.jpmorganchase.com/about/technology/research/ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This patent filing describes an algorithmic bias evaluation system for risk models, providing evidence for **external_accountability**, **fairness**, **governance**, and **transparency**. The system supports **fairness** by explicitly mentioning bias and discrimination mitigation, and **governance** and **external_accountability** through its reference to regulatory approval and compliance monitoring for regulated algorithms. Furthermore, the patent's description of tracking models for ethical behavior and bias, along with its focus on AI capabilities like prediction and planning, contributes to the **transparency** pillar by detailing mechanisms for understanding and monitoring model operations.",
+          "title": "JPMorgan Chase Patent: Algorithmic Bias Evaluation System for Risk Models",
+          "url": "https://thedailyupside.com/technology/artificial-intelligence/jpmorgan-chase-patent-highlights-risk-of-ai-bias-in-banking"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This press release from JPMorgan outlines governance guidance for third-party AI suppliers, supporting the **privacy** and **transparency** pillars. It requires suppliers to document fairness assessments and bias mitigation strategies, which contributes to transparency by making AI decision-making processes more understandable. The guidance also emphasizes security controls and ongoing monitoring, indirectly supporting privacy by highlighting the need for data protection in AI use cases.",
+          "title": "Infrastructure for Trust: JPMorgan Open Letter to Third-Party Suppliers",
+          "url": "https://www.jpmorgan.com/technology/technology-blog/open-letter-to-our-suppliers"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This technical paper from JPMorgan Chase Research provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by describing AI capabilities, the role of human oversight in decision-making, and the implementation of checks and balances for risk management in autonomous systems. The paper also touches upon privacy by highlighting security risks associated with AI-generated fakes and deepfakes that could bypass biometric security measures.",
+          "title": "AI Agents in Payments and Securities: JPMorgan Chase Research",
+          "url": "https://jpmorgan.com/content/dam/jpmorgan/documents/payments/Payments-Unbound-Volume4.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_025",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the governance, oversight, privacy, and transparency pillars of responsible AI. It supports governance and oversight by detailing JPMorgan Chase's AI strategy, including a 200,000 employee LLM suite adoption, governance maturity, and organizational trust frameworks. Evidence for privacy is found in the mention of addressing privacy risks and data sovereignty, while transparency is demonstrated through descriptions of AI capabilities, use cases, and tracking mechanisms like ROI.",
+          "title": "AI News: JPMorgan Chase AI Strategy Delivers Results",
+          "url": "https://artificialintelligence-news.com/news/jpmorgan-chase-ai-strategy-2025"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Brim Labs: JPMorgan AI Security Leadership and Risk Management,\" provides evidence for **governance, fairness, explainability, transparency, and privacy**. It highlights recommendations for implementing governance frameworks covering ethics, bias, and explainability, and discusses the need for transparency and contingency plans. The source also supports fairness and explainability through mentions of red team exercises to test for bias and manipulation, and the need for decision explanation. Finally, it touches on privacy by discussing security issues and the lack of protocols.",
+          "title": "Brim Labs: JPMorgan AI Security Leadership and Risk Management",
+          "url": "https://brimlabs.ai/blog/the-growing-ai-security-crisis-lessons-from-jpmorgan-chases-open-letter"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_027",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Klover: JPMorgan Centralized AI Governance and ModelOps Strategy,\" provides evidence for several responsible AI pillars. It supports **governance** by detailing JPMorgan's centralized AI governance strategy, including the JADE platform, dedicated functions, and executive oversight. Evidence for **fairness** is found in the mention of a patented framework for bias evaluation and auditing models. The source also supports **privacy** through references to security and controls within a regulated environment, and **external accountability** by highlighting requirements for third-party suppliers to demonstrate ethical AI practices. Finally, the blog post touches upon **transparency** by describing AI capabilities and use cases, and **explainability** through mentions of specific bodies and requirements related to AI systems.",
+          "title": "Klover: JPMorgan Centralized AI Governance and ModelOps Strategy",
+          "url": "https://klover.ai/jpmorgan-ai-strategy-chasing-ai-dominance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_028",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"IACIS: Unifying Risk Management for AI in Finance,\" provides evidence for several responsible AI pillars. It supports **governance** by discussing AI risk management frameworks, NIST RMF adoption, and the need for structured approaches and standards in banking. The paper also touches upon **fairness** by mentioning bias mitigation strategies and ethical AI development, **explainability** by highlighting challenges like lack of interpretability, and **transparency** through discussions of AI use cases and awareness of adoption trends. Furthermore, it offers evidence for **privacy** by referencing security standards, cybersecurity checks, and privacy-by-design principles within AI risk management. Finally, **oversight** is supported by discussions of continuous monitoring and human expertise for governance.",
+          "title": "IACIS: Unifying Risk Management for AI in Finance",
+          "url": "https://iacis.org/iis/2025/2_iis_2025_489-507.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_029",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"International Journal: AI Operations at JPMorgan - Case Study,\" provides evidence for external_accountability, fairness, governance, oversight, and transparency. The paper details JPMorgan's use of AI in fraud detection, risk management, and algorithmic trading, highlighting their efforts in model explainability and bias mitigation through auditing, testing, and validation frameworks. It also notes their proactive approach to regulatory compliance and their ongoing attention to ethical AI practices, demonstrating a commitment to responsible AI adoption.",
+          "title": "International Journal: AI Operations at JPMorgan - Case Study",
+          "url": "https://ijsret.com/wp-content/uploads/2024/01/IJSRET_V10_issue1_138.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_031",
+          "source_tier": "third_party",
+          "summary": "This blog post from JPMorgan Chase's Emerging Technology Trends Report provides evidence for external_accountability, governance, oversight, privacy, and transparency. The report discusses the need for robust controls, guardrails, and regulatory oversight for AI agents, indicating a focus on governance and oversight. It also mentions safeguarding sensitive data and protecting privacy, and touches on AI capabilities and use cases that imply transparency.",
+          "title": "JPMorgan Chase Emerging Technology Trends Report",
+          "url": "https://jpmorgan.com/content/dam/jpmorgan/documents/technology/jpmc-emerging-technology-trends-report.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_039",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by mentioning an AI governance framework and policy direction for data governance and risk appetite discussions. Evidence for privacy is found in its mention of client data ownership policies, while transparency is supported by descriptions of the AI system's capabilities, use cases, and the provision of information on AI risk and compliance.",
+          "title": "AI Boosting Payments Efficiency and Fraud Reduction",
+          "url": "https://jpmorgan.com/insights/payments/security-trust/ai-payments-efficiency-fraud-reduction"
+        }
+      ],
+      "score": 1,
+      "source_count": 15
+    }
+  },
+  "published_at": "2026-02-23T21:53:14Z",
+  "run_id": "20260124_003938_feff",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "JPMorgan Chase's proxy statements detail the Board's strategic focus on AI and its disciplined oversight mechanisms, including the Risk Committee's charter authority. These disclosures, drawn from 40 publicly available sources, confirm that all 7 evaluated pillars have documented public evidence. Operational practices are also documented for privacy, with reports addressing the security of systems and protection of sensitive data, and for external accountability, referencing compliance with external regulations. Furthermore, transparency, fairness, and explainability are addressed at the policy level, with reports indicating a general aim for transparency in methodology development for AI systems and discussions of bias monitoring for fairness.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 376,
+    "total_sources_used": 27
+  }
+}

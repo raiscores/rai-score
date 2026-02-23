@@ -1,0 +1,347 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Costco",
+  "company_slug": "costco",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 14,
+      "OPERATIONAL": 21,
+      "POLICY": 77
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 9,
+      "findings": "A Form 10-K discusses internal controls and the involvement of professionals in assessing models. A court filing details allegations of sensitive health data being transmitted to third parties without consent, raising concerns about data privacy and potential violations of laws.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This Costco Form 10-K provides evidence for **governance**, **oversight**, **privacy**, and **external accountability**. The document details Costco's cybersecurity risk management processes, including assessment frameworks and testing, which supports governance and oversight. It also references privacy laws and restrictions on member data use, indicating a commitment to the privacy pillar. Furthermore, the report's discussion of internal controls and the involvement of professionals in assessing models demonstrates external accountability.",
+          "title": "Costco Form 10-K for Fiscal Year Ended September 1, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "The \"Costco 10-K Cybersecurity Governance Tracker\" sec_filing provides evidence for **governance**, **oversight**, and **privacy**. This document details Costco's cybersecurity risk management framework, including board delegation, audit committee review, and CISO reporting, which supports **governance** and **oversight**. Furthermore, the filing describes the implementation of security controls, vulnerability assessments, and third-party reviews, alongside employee training, all of which contribute to the **privacy** pillar by demonstrating mechanisms for safeguarding data and managing risks.",
+          "title": "Costco 10-K Cybersecurity Governance Tracker",
+          "url": "https://board-cybersecurity.com/annual-reports/tracker/20241008-costco-wholesale-corp-new-cybersecurity-10k"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **external_accountability**, **governance**, **privacy**, and **transparency** pillars. It supports these pillars by detailing allegations of sensitive health data being transmitted to third parties without consent, raising concerns about data privacy and potential violations of laws like HIPAA. The lawsuits highlight a lack of transparency and accountability in how Costco Pharmacy handles user data, suggesting a need for robust governance and privacy practices.",
+          "title": "Costco Pharmacy Sends Sensitive Health Data to 3rd Parties",
+          "url": "https://bankinfosecurity.com/costco-pharmacy-sends-sensitive-health-data-to-3rd-parties-a-23473"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 92,
+      "findings": "Costco's governance practices are detailed across various documents, including cybersecurity risk management processes, board composition, and committee structures. Privacy policies outline data collection, usage for business purposes, and data sharing practices with third parties for advertising and analytics. Technical papers describe the use of member transaction data for shopper profiles and targeted advertising, discuss data use and decision-making authority for AI deployment, and detail the strategic implementation of AI for demand forecasting and fraud detection. A press release describes leveraging shopper data for targeted advertising and outlines a data use policy.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This Costco Form 10-K provides evidence for **governance**, **oversight**, **privacy**, and **external accountability**. The document details Costco's cybersecurity risk management processes, including assessment frameworks and testing, which supports governance and oversight. It also references privacy laws and restrictions on member data use, indicating a commitment to the privacy pillar. Furthermore, the report's discussion of internal controls and the involvement of professionals in assessing models demonstrates external accountability.",
+          "title": "Costco Form 10-K for Fiscal Year Ended September 1, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This Costco Wholesale Corporation proxy statement provides evidence for the **governance** pillar. It details the company's board composition, committee structure, and the experience of directors in areas like risk management and cybersecurity, demonstrating a framework for oversight of strategy and compliance. The document also addresses future expectations and risk management disclosures, indicating accountability for strategic decisions and financial reporting.",
+          "title": "Costco Wholesale Corporation Proxy Statement (DEF 14A) - Fiscal 2024",
+          "url": "https://materials.proxyvote.com/Approved/22160K/20241115/AR_591966/INDEX.HTML"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing data collection and usage for business purposes, content tailoring, and site improvement, as well as outlining data sharing practices with third parties for advertising and analytics. The policy also supports privacy by describing user rights for data access and disclosure, and by offering opt-out mechanisms for data sharing and targeted advertising.",
+          "title": "Costco Auto Program Privacy Policy",
+          "url": "https://costcoauto.com/privacy.aspx"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports these pillars by detailing data sharing practices with third parties and service providers, outlining conditions for selling data and sharing for advertising, and mentioning consent mechanisms and privacy rights. The policy also addresses data retention periods and limited purposes for sensitive data use, demonstrating governance over data processing and privacy.",
+          "title": "Elavon Costco Payment Processing Privacy Policy",
+          "url": "https://costcopaymentprocessing.com/about-us/privacy-policy.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"Key Player Profile: Costco's Member-Only Model and Data Assets,\" provides evidence for the **governance** pillar. It describes Costco's use of member transaction data to build shopper profiles and make inferences about household composition and demographics for targeted advertising, highlighting the data usage practices within their closed-loop system.",
+          "title": "Key Player Profile: Costco's Member-Only Model and Data Assets",
+          "url": "https://internetretailing.net/key-player-profile-costco-member-only-model-makes-for-very-rich-data"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by discussing data use, decision-making authority for AI deployment, and the recommendation of formalizing teams and a center of excellence. Evidence for privacy is found in mentions of \"security rules\" for AI and explicit references to \"Privacy Policy,\" indicating considerations for data protection. The paper also supports transparency by describing AI capabilities and specific use cases, offering insight into Costco's AI approach.",
+          "title": "Costco's AI Strategy: Analysis of Dominance in AI-Powered Retail",
+          "url": "https://klover.ai/costco-ai-strategy-analysis-of-dominance-ai-powered-retail"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper on Costco's AI usage provides evidence for **governance**, **oversight**, and **transparency**. The document details Costco's strategic implementation of AI, including demand forecasting and fraud detection, which implies governance over data use and decision-making. Furthermore, the description of employee training to interpret AI alerts and the continuous monitoring and improvement of AI models demonstrate operational oversight and governance. The explanation of AI use cases like personalization based on member behavior also suggests transparency regarding AI capabilities.",
+          "title": "5 Ways Costco is Using AI: Case Studies",
+          "url": "https://digitaldefynd.com/IQ/costco-using-ai-case-studies"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "The \"Costco 10-K Cybersecurity Governance Tracker\" sec_filing provides evidence for **governance**, **oversight**, and **privacy**. This document details Costco's cybersecurity risk management framework, including board delegation, audit committee review, and CISO reporting, which supports **governance** and **oversight**. Furthermore, the filing describes the implementation of security controls, vulnerability assessments, and third-party reviews, alongside employee training, all of which contribute to the **privacy** pillar by demonstrating mechanisms for safeguarding data and managing risks.",
+          "title": "Costco 10-K Cybersecurity Governance Tracker",
+          "url": "https://board-cybersecurity.com/annual-reports/tracker/20241008-costco-wholesale-corp-new-cybersecurity-10k"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** pillar of responsible AI. It describes Costco's approach to leveraging shopper data for targeted advertising, including beta tests of audience targeting based on member behavior and the linkage of individual purchases to household profiles. The document outlines a data use policy for customer insights and revenue growth, indicating operational execution and a framework for data utilization within their retail media network.",
+          "title": "Costco Building Retail Media Network Using Shopper Data",
+          "url": "https://marketingbrew.com/stories/2024/06/06/costco-is-building-out-an-ad-business-using-shopper-data"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** pillar by mentioning voluntary data disclosure as a strategic decision, implying decision-making authority and data use policies. It also touches upon **transparency** by describing an AI use case and system capability, although it does not detail specific execution or controls.",
+          "title": "Retailer Information Sharing with Upstream AI-Enabled Supply Chain Systems",
+          "url": "https://tandfonline.com/doi/full/10.1080/00207543.2026.2615029"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **external_accountability**, **governance**, **privacy**, and **transparency** pillars. It supports these pillars by detailing allegations of sensitive health data being transmitted to third parties without consent, raising concerns about data privacy and potential violations of laws like HIPAA. The lawsuits highlight a lack of transparency and accountability in how Costco Pharmacy handles user data, suggesting a need for robust governance and privacy practices.",
+          "title": "Costco Pharmacy Sends Sensitive Health Data to 3rd Parties",
+          "url": "https://bankinfosecurity.com/costco-pharmacy-sends-sensitive-health-data-to-3rd-parties-a-23473"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 10,
+      "findings": "Costco's cybersecurity risk management processes, including assessment frameworks and testing, are detailed in reports. Documents describe employee training to interpret AI alerts and the continuous monitoring and improvement of AI models. A sec filing also details the cybersecurity risk management framework, including board delegation, audit committee review, and CISO reporting.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This Costco Form 10-K provides evidence for **governance**, **oversight**, **privacy**, and **external accountability**. The document details Costco's cybersecurity risk management processes, including assessment frameworks and testing, which supports governance and oversight. It also references privacy laws and restrictions on member data use, indicating a commitment to the privacy pillar. Furthermore, the report's discussion of internal controls and the involvement of professionals in assessing models demonstrates external accountability.",
+          "title": "Costco Form 10-K for Fiscal Year Ended September 1, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper on Costco's AI usage provides evidence for **governance**, **oversight**, and **transparency**. The document details Costco's strategic implementation of AI, including demand forecasting and fraud detection, which implies governance over data use and decision-making. Furthermore, the description of employee training to interpret AI alerts and the continuous monitoring and improvement of AI models demonstrate operational oversight and governance. The explanation of AI use cases like personalization based on member behavior also suggests transparency regarding AI capabilities.",
+          "title": "5 Ways Costco is Using AI: Case Studies",
+          "url": "https://digitaldefynd.com/IQ/costco-using-ai-case-studies"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "The \"Costco 10-K Cybersecurity Governance Tracker\" sec_filing provides evidence for **governance**, **oversight**, and **privacy**. This document details Costco's cybersecurity risk management framework, including board delegation, audit committee review, and CISO reporting, which supports **governance** and **oversight**. Furthermore, the filing describes the implementation of security controls, vulnerability assessments, and third-party reviews, alongside employee training, all of which contribute to the **privacy** pillar by demonstrating mechanisms for safeguarding data and managing risks.",
+          "title": "Costco 10-K Cybersecurity Governance Tracker",
+          "url": "https://board-cybersecurity.com/annual-reports/tracker/20241008-costco-wholesale-corp-new-cybersecurity-10k"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 38,
+      "findings": "Documents reference privacy laws and restrictions on member data use, and privacy policies describe user rights for data access, disclosure, and opt-out mechanisms for data sharing and targeted advertising. These policies also detail data sharing practices with third parties and outline conditions for selling data. Technical papers mention security rules for AI and reference privacy policies, while a sec filing describes security controls, vulnerability assessments, third-party reviews, and employee training for data safeguarding. A court filing details allegations of sensitive health data transmission without consent, raising concerns about data privacy.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This Costco Form 10-K provides evidence for **governance**, **oversight**, **privacy**, and **external accountability**. The document details Costco's cybersecurity risk management processes, including assessment frameworks and testing, which supports governance and oversight. It also references privacy laws and restrictions on member data use, indicating a commitment to the privacy pillar. Furthermore, the report's discussion of internal controls and the involvement of professionals in assessing models demonstrates external accountability.",
+          "title": "Costco Form 10-K for Fiscal Year Ended September 1, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports governance by detailing data collection and usage for business purposes, content tailoring, and site improvement, as well as outlining data sharing practices with third parties for advertising and analytics. The policy also supports privacy by describing user rights for data access and disclosure, and by offering opt-out mechanisms for data sharing and targeted advertising.",
+          "title": "Costco Auto Program Privacy Policy",
+          "url": "https://costcoauto.com/privacy.aspx"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This privacy policy document provides evidence for the **governance** and **privacy** pillars. It supports these pillars by detailing data sharing practices with third parties and service providers, outlining conditions for selling data and sharing for advertising, and mentioning consent mechanisms and privacy rights. The policy also addresses data retention periods and limited purposes for sensitive data use, demonstrating governance over data processing and privacy.",
+          "title": "Elavon Costco Payment Processing Privacy Policy",
+          "url": "https://costcopaymentprocessing.com/about-us/privacy-policy.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by discussing data use, decision-making authority for AI deployment, and the recommendation of formalizing teams and a center of excellence. Evidence for privacy is found in mentions of \"security rules\" for AI and explicit references to \"Privacy Policy,\" indicating considerations for data protection. The paper also supports transparency by describing AI capabilities and specific use cases, offering insight into Costco's AI approach.",
+          "title": "Costco's AI Strategy: Analysis of Dominance in AI-Powered Retail",
+          "url": "https://klover.ai/costco-ai-strategy-analysis-of-dominance-ai-powered-retail"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "The \"Costco 10-K Cybersecurity Governance Tracker\" sec_filing provides evidence for **governance**, **oversight**, and **privacy**. This document details Costco's cybersecurity risk management framework, including board delegation, audit committee review, and CISO reporting, which supports **governance** and **oversight**. Furthermore, the filing describes the implementation of security controls, vulnerability assessments, and third-party reviews, alongside employee training, all of which contribute to the **privacy** pillar by demonstrating mechanisms for safeguarding data and managing risks.",
+          "title": "Costco 10-K Cybersecurity Governance Tracker",
+          "url": "https://board-cybersecurity.com/annual-reports/tracker/20241008-costco-wholesale-corp-new-cybersecurity-10k"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **external_accountability**, **governance**, **privacy**, and **transparency** pillars. It supports these pillars by detailing allegations of sensitive health data being transmitted to third parties without consent, raising concerns about data privacy and potential violations of laws like HIPAA. The lawsuits highlight a lack of transparency and accountability in how Costco Pharmacy handles user data, suggesting a need for robust governance and privacy practices.",
+          "title": "Costco Pharmacy Sends Sensitive Health Data to 3rd Parties",
+          "url": "https://bankinfosecurity.com/costco-pharmacy-sends-sensitive-health-data-to-3rd-parties-a-23473"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 18,
+      "findings": "Technical papers describe Costco's AI capabilities and specific use cases, such as personalization based on member behavior. These documents offer insight into the company's AI approach and system capabilities.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This Costco Form 10-K provides evidence for **governance**, **oversight**, **privacy**, and **external accountability**. The document details Costco's cybersecurity risk management processes, including assessment frameworks and testing, which supports governance and oversight. It also references privacy laws and restrictions on member data use, indicating a commitment to the privacy pillar. Furthermore, the report's discussion of internal controls and the involvement of professionals in assessing models demonstrates external accountability.",
+          "title": "Costco Form 10-K for Fiscal Year Ended September 1, 2024",
+          "url": "https://sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the governance, privacy, and transparency pillars of responsible AI. It supports governance by discussing data use, decision-making authority for AI deployment, and the recommendation of formalizing teams and a center of excellence. Evidence for privacy is found in mentions of \"security rules\" for AI and explicit references to \"Privacy Policy,\" indicating considerations for data protection. The paper also supports transparency by describing AI capabilities and specific use cases, offering insight into Costco's AI approach.",
+          "title": "Costco's AI Strategy: Analysis of Dominance in AI-Powered Retail",
+          "url": "https://klover.ai/costco-ai-strategy-analysis-of-dominance-ai-powered-retail"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This technical paper on Costco's AI usage provides evidence for **governance**, **oversight**, and **transparency**. The document details Costco's strategic implementation of AI, including demand forecasting and fraud detection, which implies governance over data use and decision-making. Furthermore, the description of employee training to interpret AI alerts and the continuous monitoring and improvement of AI models demonstrate operational oversight and governance. The explanation of AI use cases like personalization based on member behavior also suggests transparency regarding AI capabilities.",
+          "title": "5 Ways Costco is Using AI: Case Studies",
+          "url": "https://digitaldefynd.com/IQ/costco-using-ai-case-studies"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for the **governance** pillar by mentioning voluntary data disclosure as a strategic decision, implying decision-making authority and data use policies. It also touches upon **transparency** by describing an AI use case and system capability, although it does not detail specific execution or controls.",
+          "title": "Retailer Information Sharing with Upstream AI-Enabled Supply Chain Systems",
+          "url": "https://tandfonline.com/doi/full/10.1080/00207543.2026.2615029"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **external_accountability**, **governance**, **privacy**, and **transparency** pillars. It supports these pillars by detailing allegations of sensitive health data being transmitted to third parties without consent, raising concerns about data privacy and potential violations of laws like HIPAA. The lawsuits highlight a lack of transparency and accountability in how Costco Pharmacy handles user data, suggesting a need for robust governance and privacy practices.",
+          "title": "Costco Pharmacy Sends Sensitive Health Data to 3rd Parties",
+          "url": "https://bankinfosecurity.com/costco-pharmacy-sends-sensitive-health-data-to-3rd-parties-a-23473"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-02-23T21:47:56Z",
+  "run_id": "20260124_003531_8ba8",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Based on 12 publicly available sources, Costco's published materials address 5 of 7 evaluated responsible AI pillars. Operational practices are documented for oversight, governance, and external accountability, with disclosures detailing cybersecurity risk management processes and employee training to interpret AI alerts. Additionally, policy-level evidence is available for transparency and privacy, including a technical paper describing AI capabilities and a privacy policy outlining user rights for data access and disclosure. No qualifying public evidence was found for fairness or explainability.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 112,
+    "total_sources_used": 11
+  }
+}

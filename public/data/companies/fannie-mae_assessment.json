@@ -1,0 +1,427 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "Fannie Mae",
+  "company_slug": "fannie-mae",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 12,
+      "OPERATIONAL": 18,
+      "POLICY": 178
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 8,
+      "findings": "Fannie Mae's Collateral Underwriter includes aids for investigation within its design, and SEC filings detail the components of automated valuation models. Regulatory guidance mandates requirements for explainability in AI/ML risk management. Policy documents also detail mandates for written notice of adverse actions with reasons.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This system card for Fannie Mae's Collateral Underwriter (CU) provides evidence for **explainability, governance, and transparency**. The description of CU's risk identification and management capabilities, along with its real-time risk scores and flags, supports governance and transparency by detailing its operational output and application. Furthermore, the mention of aids for investigation within its design directly supports explainability, alongside governance and transparency.",
+          "title": "Collateral Underwriter - Appraisal Risk Assessment Tool",
+          "url": "https://singlefamily.fanniemae.com/applications-technology/collateral-underwriter"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This Fannie Mae SEC filing provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by detailing automated valuation models and their components, outlining governance needs for AI risks, describing operational updates and reviews of automated systems like Desktop Underwriter, and mentioning commitments to fair lending and data privacy. Furthermore, it highlights audit procedures for models and controls, indicating external accountability, and discusses risk management frameworks and remediation efforts for model governance, demonstrating robust oversight.",
+          "title": "Fannie Mae Form 10-K (2024) - SEC Filing",
+          "url": "https://sec.gov/Archives/edgar/data/310522/000031052225000199/fnm-20241231.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The FHFA Advisory Bulletin 2022-02 (Revised May 2025) provides substantial evidence for responsible AI, supporting the pillars of explainability, external_accountability, fairness, governance, oversight, and transparency. This regulatory guidance establishes a policy framework for AI/ML risk management, mandating processes for identifying, assessing, and monitoring AI risks, including requirements for transparency, explainability, and fairness across diverse groups. The bulletin also details mechanisms for human accountability, independent assessment of third-party AI, and interdisciplinary oversight roles, ensuring responsible AI adoption and governance.",
+          "title": "FHFA Advisory Bulletin 2022-02 - AI/ML Risk Management (Revised May 2025)",
+          "url": "https://fhfa.gov/advisory-bulletin/ab-2022-02"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This policy document from the Federal Housing Finance Agency (FHFA) provides evidence for **governance**, **fairness**, and **explainability**. It outlines specific governance mechanisms for approving rent increase requests and details mandates for uniform screening guidelines, prohibitions on sole reliance on certain historical data, and requirements for written notice of adverse actions with reasons, all of which directly support fairness and explainability in AI/ML systems. The document also highlights restrictions on using criminal, eviction, and credit history for tenant screening, further reinforcing its contribution to the fairness pillar.",
+          "title": "FHFA FinTech RFI - Summary and Policy Analysis on AI/ML Fair Lending",
+          "url": "https://fhfa.gov/sites/default/files/discussion_topics/Attachments/5932/PolicyLink%20FHFA%20RFI%20Comment_7-31-2023_FINAL.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 19,
+      "findings": "Regulatory guidance details mechanisms for human accountability and independent assessment of third-party AI. Policy documents also imply external accountability through requirements for vendor quality control and third-party testing.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This Fannie Mae SEC filing provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by detailing automated valuation models and their components, outlining governance needs for AI risks, describing operational updates and reviews of automated systems like Desktop Underwriter, and mentioning commitments to fair lending and data privacy. Furthermore, it highlights audit procedures for models and controls, indicating external accountability, and discusses risk management frameworks and remediation efforts for model governance, demonstrating robust oversight.",
+          "title": "Fannie Mae Form 10-K (2024) - SEC Filing",
+          "url": "https://sec.gov/Archives/edgar/data/310522/000031052225000199/fnm-20241231.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The FHFA Advisory Bulletin 2022-02 (Revised May 2025) provides substantial evidence for responsible AI, supporting the pillars of explainability, external_accountability, fairness, governance, oversight, and transparency. This regulatory guidance establishes a policy framework for AI/ML risk management, mandating processes for identifying, assessing, and monitoring AI risks, including requirements for transparency, explainability, and fairness across diverse groups. The bulletin also details mechanisms for human accountability, independent assessment of third-party AI, and interdisciplinary oversight roles, ensuring responsible AI adoption and governance.",
+          "title": "FHFA Advisory Bulletin 2022-02 - AI/ML Risk Management (Revised May 2025)",
+          "url": "https://fhfa.gov/advisory-bulletin/ab-2022-02"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This policy document, the \"FHFA Automated Valuation Models (AVM) Final Rule,\" provides evidence for **external accountability, fairness, governance, and oversight**. It establishes quality control standards for AVMs, mandating policies and control systems to ensure nondiscrimination compliance and address bias risks, thereby supporting **fairness** and **governance**. The rule also implies **external accountability** through requirements for vendor quality control and third-party testing, and demonstrates **oversight** by setting regulatory standards for the use of automated valuation models in critical financial determinations.",
+          "title": "FHFA Automated Valuation Models (AVM) Final Rule",
+          "url": "https://fhfa.gov/sites/default/files/2024-07/AVM-Final-Rule-for-Web.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 51,
+      "findings": "Fannie Mae's practices include considering first-time homebuyer status as a mitigating risk factor and addressing concerns about potential biased or discriminatory AI results. Regulatory guidance mandates requirements for fairness across diverse groups and establishes quality control standards for Automated Valuation Models to ensure nondiscrimination and address bias risks. Policy documents also outline uniform screening guidelines, prohibit sole reliance on certain historical data, and restrict the use of criminal, eviction, and credit history for tenant screening.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Enhancing the Credit Risk Assessment - DU V.12.0 Updates,\" provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by noting the inclusion of first-time homebuyer status as a mitigating risk factor. Evidence for governance is found in the documentation of planned annual updates, regular review and update processes, and the description of how risk factors are determined via modeling and analysis, all indicating oversight of the automated decision-making system. Transparency is supported by the description of DU's risk assessment process, detailing the multiple factors evaluated, and mentioning updated risk factors and DU's overall risk assessment capabilities.",
+          "title": "Enhancing the Credit Risk Assessment - DU V.12.0 Updates",
+          "url": "https://fanniemae.com/media/53851/display"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Fannie Mae research report provides evidence for **fairness**, **governance**, and **transparency**. The report addresses concerns about potential biased or discriminatory AI results, supporting the fairness pillar. It also details AI applications and their functions, such as AI-based compliance review and anomaly detection, which relate to governance and transparency by outlining capabilities and areas of strategic focus. Furthermore, the report discusses the perceived risks of lack of transparency and accountability in AI/ML use, directly informing the transparency and governance pillars.",
+          "title": "Artificial Intelligence and Mortgage Lending - Research Report",
+          "url": "https://fanniemae.com/media/49231/display"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This Fannie Mae SEC filing provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by detailing automated valuation models and their components, outlining governance needs for AI risks, describing operational updates and reviews of automated systems like Desktop Underwriter, and mentioning commitments to fair lending and data privacy. Furthermore, it highlights audit procedures for models and controls, indicating external accountability, and discusses risk management frameworks and remediation efforts for model governance, demonstrating robust oversight.",
+          "title": "Fannie Mae Form 10-K (2024) - SEC Filing",
+          "url": "https://sec.gov/Archives/edgar/data/310522/000031052225000199/fnm-20241231.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The FHFA Advisory Bulletin 2022-02 (Revised May 2025) provides substantial evidence for responsible AI, supporting the pillars of explainability, external_accountability, fairness, governance, oversight, and transparency. This regulatory guidance establishes a policy framework for AI/ML risk management, mandating processes for identifying, assessing, and monitoring AI risks, including requirements for transparency, explainability, and fairness across diverse groups. The bulletin also details mechanisms for human accountability, independent assessment of third-party AI, and interdisciplinary oversight roles, ensuring responsible AI adoption and governance.",
+          "title": "FHFA Advisory Bulletin 2022-02 - AI/ML Risk Management (Revised May 2025)",
+          "url": "https://fhfa.gov/advisory-bulletin/ab-2022-02"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This policy document, the \"FHFA Automated Valuation Models (AVM) Final Rule,\" provides evidence for **external accountability, fairness, governance, and oversight**. It establishes quality control standards for AVMs, mandating policies and control systems to ensure nondiscrimination compliance and address bias risks, thereby supporting **fairness** and **governance**. The rule also implies **external accountability** through requirements for vendor quality control and third-party testing, and demonstrates **oversight** by setting regulatory standards for the use of automated valuation models in critical financial determinations.",
+          "title": "FHFA Automated Valuation Models (AVM) Final Rule",
+          "url": "https://fhfa.gov/sites/default/files/2024-07/AVM-Final-Rule-for-Web.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This policy document from the Federal Housing Finance Agency (FHFA) provides evidence for **governance**, **fairness**, and **explainability**. It outlines specific governance mechanisms for approving rent increase requests and details mandates for uniform screening guidelines, prohibitions on sole reliance on certain historical data, and requirements for written notice of adverse actions with reasons, all of which directly support fairness and explainability in AI/ML systems. The document also highlights restrictions on using criminal, eviction, and credit history for tenant screening, further reinforcing its contribution to the fairness pillar.",
+          "title": "FHFA FinTech RFI - Summary and Policy Analysis on AI/ML Fair Lending",
+          "url": "https://fhfa.gov/sites/default/files/discussion_topics/Attachments/5932/PolicyLink%20FHFA%20RFI%20Comment_7-31-2023_FINAL.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 177,
+      "findings": "Fannie Mae documents established governance over its automated systems like Desktop Underwriter and Collateral Underwriter, detailing their functions, risk assessment processes, and operational outputs. Policy documents outline governance needs for AI risks, including planned updates, review processes, and managing limitations of AI tools. Regulatory guidance establishes a policy framework for AI/ML risk management, mandating processes for identifying, assessing, and monitoring AI risks, and outlines an approach to overseeing responsible and ethical AI use.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Desktop Underwriter & Desktop Originator - Product Overview,\" provides evidence for the **governance** pillar. The document describes Fannie Mae's automated mortgage loan underwriting system, Desktop Underwriter (DU), and its role in risk assessment and eligibility, indicating established governance over the system's function and decision-making processes.",
+          "title": "Desktop Underwriter & Desktop Originator - Product Overview",
+          "url": "https://singlefamily.fanniemae.com/applications-technology/desktop-underwriter-desktop-originator"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Comprehensive Risk Assessment - Selling Guide B3-1-01,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by implying the existence of a tool for policy-related questions, suggesting a mechanism for managing and understanding AI-driven processes. Furthermore, the mention of an \"AI-powered search tool\" directly supports transparency by indicating a way for users to access and understand information related to the AI's application.",
+          "title": "Comprehensive Risk Assessment - Selling Guide B3-1-01",
+          "url": "https://selling-guide.fanniemae.com/sel/b3-1-01/comprehensive-risk-assessment"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Risk Factors Evaluated by DU - Selling Guide B3-2-03,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document details the logic and factors used by Fannie Mae's Desktop Underwriter (DU) in credit risk assessment, including the use of rent payment history and trended credit data, which demonstrates automated decision-making and governance. Furthermore, the mention of an \"AI-powered search tool\" implies transparency and governance over its application.",
+          "title": "Risk Factors Evaluated by DU - Selling Guide B3-2-03",
+          "url": "https://selling-guide.fanniemae.com/sel/b3-2-03/risk-factors-evaluated-du"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Enhancing the Credit Risk Assessment - DU V.12.0 Updates,\" provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by noting the inclusion of first-time homebuyer status as a mitigating risk factor. Evidence for governance is found in the documentation of planned annual updates, regular review and update processes, and the description of how risk factors are determined via modeling and analysis, all indicating oversight of the automated decision-making system. Transparency is supported by the description of DU's risk assessment process, detailing the multiple factors evaluated, and mentioning updated risk factors and DU's overall risk assessment capabilities.",
+          "title": "Enhancing the Credit Risk Assessment - DU V.12.0 Updates",
+          "url": "https://fanniemae.com/media/53851/display"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This system card for Fannie Mae's Collateral Underwriter (CU) provides evidence for **explainability, governance, and transparency**. The description of CU's risk identification and management capabilities, along with its real-time risk scores and flags, supports governance and transparency by detailing its operational output and application. Furthermore, the mention of aids for investigation within its design directly supports explainability, alongside governance and transparency.",
+          "title": "Collateral Underwriter - Appraisal Risk Assessment Tool",
+          "url": "https://singlefamily.fanniemae.com/applications-technology/collateral-underwriter"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This Fannie Mae policy document, \"Red Flags, Fraud Detection, and Managing Risk Tools,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The guidance explicitly addresses the limitations of AI and digital tools in fraud detection, requiring lenders to understand and manage these limitations, demonstrating a formal policy position on AI oversight. Furthermore, it details the operational deployment of algorithmic tools like Collateral Underwriter (CU) for risk identification and describes mechanisms for operational oversight, including monitoring false positives and tool efficiency, which supports the oversight pillar.",
+          "title": "Red Flags, Fraud Detection, and Managing Risk Tools",
+          "url": "https://singlefamily.fanniemae.com/media/36701/display"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Fannie Mae research report provides evidence for **fairness**, **governance**, and **transparency**. The report addresses concerns about potential biased or discriminatory AI results, supporting the fairness pillar. It also details AI applications and their functions, such as AI-based compliance review and anomaly detection, which relate to governance and transparency by outlining capabilities and areas of strategic focus. Furthermore, the report discusses the perceived risks of lack of transparency and accountability in AI/ML use, directly informing the transparency and governance pillars.",
+          "title": "Artificial Intelligence and Mortgage Lending - Research Report",
+          "url": "https://fanniemae.com/media/49231/display"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This Fannie Mae SEC filing provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by detailing automated valuation models and their components, outlining governance needs for AI risks, describing operational updates and reviews of automated systems like Desktop Underwriter, and mentioning commitments to fair lending and data privacy. Furthermore, it highlights audit procedures for models and controls, indicating external accountability, and discusses risk management frameworks and remediation efforts for model governance, demonstrating robust oversight.",
+          "title": "Fannie Mae Form 10-K (2024) - SEC Filing",
+          "url": "https://sec.gov/Archives/edgar/data/310522/000031052225000199/fnm-20241231.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The FHFA Advisory Bulletin 2022-02 (Revised May 2025) provides substantial evidence for responsible AI, supporting the pillars of explainability, external_accountability, fairness, governance, oversight, and transparency. This regulatory guidance establishes a policy framework for AI/ML risk management, mandating processes for identifying, assessing, and monitoring AI risks, including requirements for transparency, explainability, and fairness across diverse groups. The bulletin also details mechanisms for human accountability, independent assessment of third-party AI, and interdisciplinary oversight roles, ensuring responsible AI adoption and governance.",
+          "title": "FHFA Advisory Bulletin 2022-02 - AI/ML Risk Management (Revised May 2025)",
+          "url": "https://fhfa.gov/advisory-bulletin/ab-2022-02"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This policy document, the \"FHFA Automated Valuation Models (AVM) Final Rule,\" provides evidence for **external accountability, fairness, governance, and oversight**. It establishes quality control standards for AVMs, mandating policies and control systems to ensure nondiscrimination compliance and address bias risks, thereby supporting **fairness** and **governance**. The rule also implies **external accountability** through requirements for vendor quality control and third-party testing, and demonstrates **oversight** by setting regulatory standards for the use of automated valuation models in critical financial determinations.",
+          "title": "FHFA Automated Valuation Models (AVM) Final Rule",
+          "url": "https://fhfa.gov/sites/default/files/2024-07/AVM-Final-Rule-for-Web.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This policy document, the \"FHFA 2025 AI Compliance Plan,\" provides evidence for the **governance** pillar of responsible AI. The plan outlines FHFA's approach to overseeing responsible and ethical AI use within its operations and its supervised entities, demonstrating a commitment to establishing clear policies and compliance frameworks. This aligns with the identified evidence by referencing adherence to specific AI regulations and detailing a plan for responsible AI use, indicating a governance requirement and commitment.",
+          "title": "FHFA 2025 AI Compliance Plan",
+          "url": "https://fhfa.gov/reports/fhfa-ai-compliance-plan/2025"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This policy document from the Federal Housing Finance Agency (FHFA) provides evidence for **governance**, **fairness**, and **explainability**. It outlines specific governance mechanisms for approving rent increase requests and details mandates for uniform screening guidelines, prohibitions on sole reliance on certain historical data, and requirements for written notice of adverse actions with reasons, all of which directly support fairness and explainability in AI/ML systems. The document also highlights restrictions on using criminal, eviction, and credit history for tenant screening, further reinforcing its contribution to the fairness pillar.",
+          "title": "FHFA FinTech RFI - Summary and Policy Analysis on AI/ML Fair Lending",
+          "url": "https://fhfa.gov/sites/default/files/discussion_topics/Attachments/5932/PolicyLink%20FHFA%20RFI%20Comment_7-31-2023_FINAL.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 12
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 10,
+      "findings": "Fannie Mae's policy documents address the limitations of AI tools in fraud detection, requiring lenders to understand and manage them, and describe mechanisms for operational oversight, including monitoring false positives and tool efficiency. SEC filings describe operational updates and reviews of automated systems. Regulatory guidance details mechanisms for human accountability and interdisciplinary oversight roles, and sets regulatory standards for automated valuation models.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This Fannie Mae policy document, \"Red Flags, Fraud Detection, and Managing Risk Tools,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The guidance explicitly addresses the limitations of AI and digital tools in fraud detection, requiring lenders to understand and manage these limitations, demonstrating a formal policy position on AI oversight. Furthermore, it details the operational deployment of algorithmic tools like Collateral Underwriter (CU) for risk identification and describes mechanisms for operational oversight, including monitoring false positives and tool efficiency, which supports the oversight pillar.",
+          "title": "Red Flags, Fraud Detection, and Managing Risk Tools",
+          "url": "https://singlefamily.fanniemae.com/media/36701/display"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This Fannie Mae SEC filing provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by detailing automated valuation models and their components, outlining governance needs for AI risks, describing operational updates and reviews of automated systems like Desktop Underwriter, and mentioning commitments to fair lending and data privacy. Furthermore, it highlights audit procedures for models and controls, indicating external accountability, and discusses risk management frameworks and remediation efforts for model governance, demonstrating robust oversight.",
+          "title": "Fannie Mae Form 10-K (2024) - SEC Filing",
+          "url": "https://sec.gov/Archives/edgar/data/310522/000031052225000199/fnm-20241231.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The FHFA Advisory Bulletin 2022-02 (Revised May 2025) provides substantial evidence for responsible AI, supporting the pillars of explainability, external_accountability, fairness, governance, oversight, and transparency. This regulatory guidance establishes a policy framework for AI/ML risk management, mandating processes for identifying, assessing, and monitoring AI risks, including requirements for transparency, explainability, and fairness across diverse groups. The bulletin also details mechanisms for human accountability, independent assessment of third-party AI, and interdisciplinary oversight roles, ensuring responsible AI adoption and governance.",
+          "title": "FHFA Advisory Bulletin 2022-02 - AI/ML Risk Management (Revised May 2025)",
+          "url": "https://fhfa.gov/advisory-bulletin/ab-2022-02"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This policy document, the \"FHFA Automated Valuation Models (AVM) Final Rule,\" provides evidence for **external accountability, fairness, governance, and oversight**. It establishes quality control standards for AVMs, mandating policies and control systems to ensure nondiscrimination compliance and address bias risks, thereby supporting **fairness** and **governance**. The rule also implies **external accountability** through requirements for vendor quality control and third-party testing, and demonstrates **oversight** by setting regulatory standards for the use of automated valuation models in critical financial determinations.",
+          "title": "FHFA Automated Valuation Models (AVM) Final Rule",
+          "url": "https://fhfa.gov/sites/default/files/2024-07/AVM-Final-Rule-for-Web.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 2,
+      "findings": "Fannie Mae's SEC filings mention commitments to data privacy.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This Fannie Mae SEC filing provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by detailing automated valuation models and their components, outlining governance needs for AI risks, describing operational updates and reviews of automated systems like Desktop Underwriter, and mentioning commitments to fair lending and data privacy. Furthermore, it highlights audit procedures for models and controls, indicating external accountability, and discusses risk management frameworks and remediation efforts for model governance, demonstrating robust oversight.",
+          "title": "Fannie Mae Form 10-K (2024) - SEC Filing",
+          "url": "https://sec.gov/Archives/edgar/data/310522/000031052225000199/fnm-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 49,
+      "findings": "Fannie Mae documents the use of an AI-powered search tool to help users understand AI applications and provides detailed descriptions of its AI systems like Desktop Underwriter and Collateral Underwriter, outlining their risk assessment processes, factors evaluated, and operational outputs. Regulatory guidance also mandates requirements for transparency in AI/ML risk management, and the company's research reports discuss the risks associated with a lack of transparency.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Comprehensive Risk Assessment - Selling Guide B3-1-01,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by implying the existence of a tool for policy-related questions, suggesting a mechanism for managing and understanding AI-driven processes. Furthermore, the mention of an \"AI-powered search tool\" directly supports transparency by indicating a way for users to access and understand information related to the AI's application.",
+          "title": "Comprehensive Risk Assessment - Selling Guide B3-1-01",
+          "url": "https://selling-guide.fanniemae.com/sel/b3-1-01/comprehensive-risk-assessment"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Risk Factors Evaluated by DU - Selling Guide B3-2-03,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document details the logic and factors used by Fannie Mae's Desktop Underwriter (DU) in credit risk assessment, including the use of rent payment history and trended credit data, which demonstrates automated decision-making and governance. Furthermore, the mention of an \"AI-powered search tool\" implies transparency and governance over its application.",
+          "title": "Risk Factors Evaluated by DU - Selling Guide B3-2-03",
+          "url": "https://selling-guide.fanniemae.com/sel/b3-2-03/risk-factors-evaluated-du"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Enhancing the Credit Risk Assessment - DU V.12.0 Updates,\" provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by noting the inclusion of first-time homebuyer status as a mitigating risk factor. Evidence for governance is found in the documentation of planned annual updates, regular review and update processes, and the description of how risk factors are determined via modeling and analysis, all indicating oversight of the automated decision-making system. Transparency is supported by the description of DU's risk assessment process, detailing the multiple factors evaluated, and mentioning updated risk factors and DU's overall risk assessment capabilities.",
+          "title": "Enhancing the Credit Risk Assessment - DU V.12.0 Updates",
+          "url": "https://fanniemae.com/media/53851/display"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This system card for Fannie Mae's Collateral Underwriter (CU) provides evidence for **explainability, governance, and transparency**. The description of CU's risk identification and management capabilities, along with its real-time risk scores and flags, supports governance and transparency by detailing its operational output and application. Furthermore, the mention of aids for investigation within its design directly supports explainability, alongside governance and transparency.",
+          "title": "Collateral Underwriter - Appraisal Risk Assessment Tool",
+          "url": "https://singlefamily.fanniemae.com/applications-technology/collateral-underwriter"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This Fannie Mae research report provides evidence for **fairness**, **governance**, and **transparency**. The report addresses concerns about potential biased or discriminatory AI results, supporting the fairness pillar. It also details AI applications and their functions, such as AI-based compliance review and anomaly detection, which relate to governance and transparency by outlining capabilities and areas of strategic focus. Furthermore, the report discusses the perceived risks of lack of transparency and accountability in AI/ML use, directly informing the transparency and governance pillars.",
+          "title": "Artificial Intelligence and Mortgage Lending - Research Report",
+          "url": "https://fanniemae.com/media/49231/display"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This Fannie Mae SEC filing provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency**. The document supports these pillars by detailing automated valuation models and their components, outlining governance needs for AI risks, describing operational updates and reviews of automated systems like Desktop Underwriter, and mentioning commitments to fair lending and data privacy. Furthermore, it highlights audit procedures for models and controls, indicating external accountability, and discusses risk management frameworks and remediation efforts for model governance, demonstrating robust oversight.",
+          "title": "Fannie Mae Form 10-K (2024) - SEC Filing",
+          "url": "https://sec.gov/Archives/edgar/data/310522/000031052225000199/fnm-20241231.htm"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "The FHFA Advisory Bulletin 2022-02 (Revised May 2025) provides substantial evidence for responsible AI, supporting the pillars of explainability, external_accountability, fairness, governance, oversight, and transparency. This regulatory guidance establishes a policy framework for AI/ML risk management, mandating processes for identifying, assessing, and monitoring AI risks, including requirements for transparency, explainability, and fairness across diverse groups. The bulletin also details mechanisms for human accountability, independent assessment of third-party AI, and interdisciplinary oversight roles, ensuring responsible AI adoption and governance.",
+          "title": "FHFA Advisory Bulletin 2022-02 - AI/ML Risk Management (Revised May 2025)",
+          "url": "https://fhfa.gov/advisory-bulletin/ab-2022-02"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This policy document, the \"FHFA Automated Valuation Models (AVM) Final Rule,\" provides evidence for **external accountability, fairness, governance, and oversight**. It establishes quality control standards for AVMs, mandating policies and control systems to ensure nondiscrimination compliance and address bias risks, thereby supporting **fairness** and **governance**. The rule also implies **external accountability** through requirements for vendor quality control and third-party testing, and demonstrates **oversight** by setting regulatory standards for the use of automated valuation models in critical financial determinations.",
+          "title": "FHFA Automated Valuation Models (AVM) Final Rule",
+          "url": "https://fhfa.gov/sites/default/files/2024-07/AVM-Final-Rule-for-Web.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:50:04Z",
+  "run_id": "20260202_205528_078e",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Fannie Mae's policy documents describe the logic and factors used by Desktop Underwriter (DU) in credit risk assessment, demonstrating operational practices for transparency. All 7 evaluated pillars have documented public evidence, drawing from 16 publicly available sources. Operational practices are also evident in oversight, where policy documents explicitly address the limitations of AI and digital tools in fraud detection. Furthermore, fairness, explainability, and privacy are addressed at the policy level, with technical papers noting the inclusion of first-time homebuyer status as a mitigating risk factor for fairness.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 208,
+    "total_sources_used": 12
+  }
+}

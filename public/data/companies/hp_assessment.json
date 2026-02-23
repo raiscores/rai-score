@@ -1,0 +1,410 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "HP",
+  "company_slug": "hp",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 8,
+      "OPERATIONAL": 7,
+      "POLICY": 62
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 3,
+      "findings": "HP's guidance on responsible AI implementation includes explainable outputs. The company also mentions the need for explainable AI techniques and auditing.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post on \"Augmented Intelligence vs Artificial Intelligence\" provides evidence for **transparency, fairness, governance, oversight, and privacy**. The post supports these pillars by detailing HP's guidance on responsible AI implementation, including measures for bias prevention and algorithmic auditing (fairness), human-in-the-loop approaches and explainable outputs (transparency and oversight), and ethical guidelines for AI deployment (governance and privacy). It also highlights readiness assessments and training investments, indicating a strategic approach to AI adoption.",
+          "title": "Augmented Intelligence vs Artificial Intelligence: Human-Machine Collaboration",
+          "url": "https://hp.com/gb-en/shop/tech-takes/augmented-intelligence-vs-artificial-intelligence"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post, \"AI Data Security: Safeguarding Systems in the Age of AI,\" provides evidence for **governance**, **oversight**, **privacy**, **explainability**, **external_accountability**, and **fairness**. The post details HP's approach to AI governance through cross-functional oversight bodies like the AI Ethics Board and Data Governance Committee, and outlines incident response procedures and technical security standards for AI systems. It also mentions security-by-design principles, bias detection for fairness, and the need for explainable AI techniques and auditing, supporting the respective pillars.",
+          "title": "AI Data Security: Safeguarding Systems in the Age of AI",
+          "url": "https://store.hp.com/ukstore/tech-takes/ai-data-security-guide"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 4,
+      "findings": "HP's Form 10-K filing acknowledges risks from flawed algorithms and biased data. The filing also references a commitment to avoid harm.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post, \"AI Data Security: Safeguarding Systems in the Age of AI,\" provides evidence for **governance**, **oversight**, **privacy**, **explainability**, **external_accountability**, and **fairness**. The post details HP's approach to AI governance through cross-functional oversight bodies like the AI Ethics Board and Data Governance Committee, and outlines incident response procedures and technical security standards for AI systems. It also mentions security-by-design principles, bias detection for fairness, and the need for explainable AI techniques and auditing, supporting the respective pillars.",
+          "title": "AI Data Security: Safeguarding Systems in the Age of AI",
+          "url": "https://store.hp.com/ukstore/tech-takes/ai-data-security-guide"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This HP Inc. Form 10-K filing provides evidence for **governance**, **transparency**, **external accountability**, **fairness**, and **privacy**. The report indicates governance through mentions of AI-specific programs, board approval for AI adoption, and integration into strategic plans. Transparency is supported by disclosures of AI capabilities in hardware components and product features. External accountability and fairness are implied by the acknowledgment of risks from flawed algorithms and biased data, and the commitment to avoid harm. Finally, privacy is addressed through mentions of compliance with privacy laws related to AI.",
+          "title": "HP Inc. Form 10-K for Fiscal Year Ended October 31, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/47217/000004721725000071/hpq-20251031.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 8,
+      "findings": "HP's guidance on responsible AI implementation includes measures for bias prevention and algorithmic auditing. Technical guidance on AI Trust, Risk, and Security Management (TRiSM) addresses algorithmic bias risks and promotes transparency in AI models to minimize bias. HP also mentions bias detection for fairness and acknowledges risks from flawed algorithms and biased data, referencing a commitment to avoid harm.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post on \"Augmented Intelligence vs Artificial Intelligence\" provides evidence for **transparency, fairness, governance, oversight, and privacy**. The post supports these pillars by detailing HP's guidance on responsible AI implementation, including measures for bias prevention and algorithmic auditing (fairness), human-in-the-loop approaches and explainable outputs (transparency and oversight), and ethical guidelines for AI deployment (governance and privacy). It also highlights readiness assessments and training investments, indicating a strategic approach to AI adoption.",
+          "title": "Augmented Intelligence vs Artificial Intelligence: Human-Machine Collaboration",
+          "url": "https://hp.com/gb-en/shop/tech-takes/augmented-intelligence-vs-artificial-intelligence"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI TRiSM and Hyperautomation: Governance Framework Implementation,\" provides evidence for the **fairness, governance, privacy, and transparency** pillars of responsible AI. The post details HP's technical guidance on AI Trust, Risk, and Security Management (TRiSM), which addresses algorithmic bias risks and promotes transparency in AI models to minimize bias, thereby supporting fairness and transparency. Furthermore, it outlines a governance framework for AI implementation, emphasizing trust and ethics, and discusses security and privacy safeguards within this framework, directly supporting the governance and privacy pillars.",
+          "title": "AI TRiSM and Hyperautomation: Governance Framework Implementation",
+          "url": "https://hp.com/us-en/shop/tech-takes/ai-trism-hyperautomation-workplace"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post, \"AI Data Security: Safeguarding Systems in the Age of AI,\" provides evidence for **governance**, **oversight**, **privacy**, **explainability**, **external_accountability**, and **fairness**. The post details HP's approach to AI governance through cross-functional oversight bodies like the AI Ethics Board and Data Governance Committee, and outlines incident response procedures and technical security standards for AI systems. It also mentions security-by-design principles, bias detection for fairness, and the need for explainable AI techniques and auditing, supporting the respective pillars.",
+          "title": "AI Data Security: Safeguarding Systems in the Age of AI",
+          "url": "https://store.hp.com/ukstore/tech-takes/ai-data-security-guide"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This HP Inc. Form 10-K filing provides evidence for **governance**, **transparency**, **external accountability**, **fairness**, and **privacy**. The report indicates governance through mentions of AI-specific programs, board approval for AI adoption, and integration into strategic plans. Transparency is supported by disclosures of AI capabilities in hardware components and product features. External accountability and fairness are implied by the acknowledgment of risks from flawed algorithms and biased data, and the commitment to avoid harm. Finally, privacy is addressed through mentions of compliance with privacy laws related to AI.",
+          "title": "HP Inc. Form 10-K for Fiscal Year Ended October 31, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/47217/000004721725000071/hpq-20251031.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 57,
+      "findings": "HP's AI Governance Principles articulate a commitment to responsible AI development and usage, establishing a governance framework for all AI products and internal systems, and outlining organizational oversight. The company's AI Implementation Roadmap highlights the need for leadership support, cross-functional teams, and policies for AI development and deployment. HP's blog posts detail an approach to AI governance through cross-functional oversight bodies, outline incident response procedures, and discuss technical security standards for AI systems, including a governance framework emphasizing trust and ethics. Public filings mention AI-specific programs, board approval for AI adoption, and integration into strategic plans, while privacy statements address third-party vendor engagement and commit to human intervention for automated decisions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The \"HP AI Governance Principles\" policy document provides evidence for the **governance** pillar. This policy document articulates HP's commitment to responsible AI development and usage, establishing a governance framework for all AI products and internal systems, which directly supports the governance pillar by outlining organizational oversight and principles.",
+          "title": "HP AI Governance Principles",
+          "url": "https://hp.com/content/dam/sites/worldwide/privacy/pdf/ai/ENG.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This HP Global Privacy Statement provides evidence for **governance, oversight, privacy, and transparency**. The policy document details HP's use of personal data for AI features and machine learning, including automated decision-making and profiling, which supports **transparency** and **privacy** by outlining data usage and consent mechanisms. Furthermore, it demonstrates **oversight** and **governance** by committing to human intervention for automated decisions and by addressing third-party vendor engagement for AI-related operations.",
+          "title": "HP Global Privacy Statement - August 2025",
+          "url": "https://hp.com/content/dam/sites/worldwide/privacy/pdf/2025/aug/EN.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post on \"Augmented Intelligence vs Artificial Intelligence\" provides evidence for **transparency, fairness, governance, oversight, and privacy**. The post supports these pillars by detailing HP's guidance on responsible AI implementation, including measures for bias prevention and algorithmic auditing (fairness), human-in-the-loop approaches and explainable outputs (transparency and oversight), and ethical guidelines for AI deployment (governance and privacy). It also highlights readiness assessments and training investments, indicating a strategic approach to AI adoption.",
+          "title": "Augmented Intelligence vs Artificial Intelligence: Human-Machine Collaboration",
+          "url": "https://hp.com/gb-en/shop/tech-takes/augmented-intelligence-vs-artificial-intelligence"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post, \"AI Implementation Roadmap: Strategic Implementation Guide for Businesses,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by highlighting the need for leadership support, the formation of cross-functional teams for AI planning, and the establishment of policies for AI development and deployment. The blog post also supports transparency through its focus on communication plans for AI implementation, which aim to inform stakeholders about AI benefits and progress.",
+          "title": "AI Implementation Roadmap: Strategic Implementation Guide for Businesses",
+          "url": "https://hp.com/us-en/shop/tech-takes/ai-implementation-roadmap"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI TRiSM and Hyperautomation: Governance Framework Implementation,\" provides evidence for the **fairness, governance, privacy, and transparency** pillars of responsible AI. The post details HP's technical guidance on AI Trust, Risk, and Security Management (TRiSM), which addresses algorithmic bias risks and promotes transparency in AI models to minimize bias, thereby supporting fairness and transparency. Furthermore, it outlines a governance framework for AI implementation, emphasizing trust and ethics, and discusses security and privacy safeguards within this framework, directly supporting the governance and privacy pillars.",
+          "title": "AI TRiSM and Hyperautomation: Governance Framework Implementation",
+          "url": "https://hp.com/us-en/shop/tech-takes/ai-trism-hyperautomation-workplace"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post, \"AI Data Security: Safeguarding Systems in the Age of AI,\" provides evidence for **governance**, **oversight**, **privacy**, **explainability**, **external_accountability**, and **fairness**. The post details HP's approach to AI governance through cross-functional oversight bodies like the AI Ethics Board and Data Governance Committee, and outlines incident response procedures and technical security standards for AI systems. It also mentions security-by-design principles, bias detection for fairness, and the need for explainable AI techniques and auditing, supporting the respective pillars.",
+          "title": "AI Data Security: Safeguarding Systems in the Age of AI",
+          "url": "https://store.hp.com/ukstore/tech-takes/ai-data-security-guide"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This HP Inc. Form 10-K filing provides evidence for **governance**, **transparency**, **external accountability**, **fairness**, and **privacy**. The report indicates governance through mentions of AI-specific programs, board approval for AI adoption, and integration into strategic plans. Transparency is supported by disclosures of AI capabilities in hardware components and product features. External accountability and fairness are implied by the acknowledgment of risks from flawed algorithms and biased data, and the commitment to avoid harm. Finally, privacy is addressed through mentions of compliance with privacy laws related to AI.",
+          "title": "HP Inc. Form 10-K for Fiscal Year Ended October 31, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/47217/000004721725000071/hpq-20251031.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This HP Inc. Form 10-Q for the fiscal quarter ended April 30, 2025, provides evidence for the **governance** pillar of responsible AI. The report mentions the use of artificial intelligence in strategic plans, product development, and operations, indicating an awareness of the need for governance over these AI initiatives.",
+          "title": "HP Inc. Form 10-Q for Fiscal Quarter Ended April 30, 2025",
+          "url": "https://s203.q4cdn.com/918857832/files/doc_financials/2025/q2/21f92397-993c-4feb-90c1-afd7b8488959.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "The HP Privacy Central help page provides evidence for the **governance** pillar of responsible AI. This is supported by its explicit mention of AI Governance Principles, demonstrating HP's commitment to responsible AI development and usage.",
+          "title": "HP Privacy Central",
+          "url": "https://hp.com/us-en/privacy/privacy-central.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post from SentinelOne provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by outlining general steps for an AI incident response plan, including quarantining systems and activating an incident response team, which indicates policy for AI risk management and defense. The source also touches on privacy by mentioning the need for access controls and training in response to AI threats.",
+          "title": "How to Prevent AI-Powered Cyber Attacks? - SentinelOne",
+          "url": "https://sentinelone.com/blog/how-to-prevent-ai-powered-cyber-attacks"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 8,
+      "findings": "HP's privacy statements reference a commitment to human intervention for automated decisions and outline rights for contesting them. The company's guidance on responsible AI implementation includes human-in-the-loop approaches. Additionally, HP's blog post details cross-functional oversight bodies for AI governance and addresses third-party vendor engagement for AI-related operations.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This HP Global Privacy Statement provides evidence for **governance, oversight, privacy, and transparency**. The policy document details HP's use of personal data for AI features and machine learning, including automated decision-making and profiling, which supports **transparency** and **privacy** by outlining data usage and consent mechanisms. Furthermore, it demonstrates **oversight** and **governance** by committing to human intervention for automated decisions and by addressing third-party vendor engagement for AI-related operations.",
+          "title": "HP Global Privacy Statement - August 2025",
+          "url": "https://hp.com/content/dam/sites/worldwide/privacy/pdf/2025/aug/EN.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This HP US Privacy Statement, a company-owned privacy policy, provides evidence for the **oversight**, **privacy**, and **transparency** pillars. It supports the **privacy** pillar by detailing how personal data is used for tailoring services, including AI-driven features like chatbots, personalization, and recommendations. The statement also addresses **oversight** by outlining rights for human intervention and contesting automated decisions, demonstrating a commitment to legal requirements. Furthermore, it contributes to **transparency** by describing system capabilities related to AI features.",
+          "title": "HP US Privacy Statement - January 2025",
+          "url": "https://hp.com/content/dam/sites/worldwide/privacy/pdf/2025/us_jan.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post on \"Augmented Intelligence vs Artificial Intelligence\" provides evidence for **transparency, fairness, governance, oversight, and privacy**. The post supports these pillars by detailing HP's guidance on responsible AI implementation, including measures for bias prevention and algorithmic auditing (fairness), human-in-the-loop approaches and explainable outputs (transparency and oversight), and ethical guidelines for AI deployment (governance and privacy). It also highlights readiness assessments and training investments, indicating a strategic approach to AI adoption.",
+          "title": "Augmented Intelligence vs Artificial Intelligence: Human-Machine Collaboration",
+          "url": "https://hp.com/gb-en/shop/tech-takes/augmented-intelligence-vs-artificial-intelligence"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post, \"AI Data Security: Safeguarding Systems in the Age of AI,\" provides evidence for **governance**, **oversight**, **privacy**, **explainability**, **external_accountability**, and **fairness**. The post details HP's approach to AI governance through cross-functional oversight bodies like the AI Ethics Board and Data Governance Committee, and outlines incident response procedures and technical security standards for AI systems. It also mentions security-by-design principles, bias detection for fairness, and the need for explainable AI techniques and auditing, supporting the respective pillars.",
+          "title": "AI Data Security: Safeguarding Systems in the Age of AI",
+          "url": "https://store.hp.com/ukstore/tech-takes/ai-data-security-guide"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 15,
+      "findings": "HP's privacy statements detail the use of personal data for AI features, machine learning, automated decision-making, and profiling, outlining data usage and consent mechanisms. These statements also specify how personal data is used for tailoring services, including AI-driven features. HP's guidance includes ethical guidelines for AI deployment, and its blog posts discuss security and privacy safeguards, mentioning security-by-design principles. Furthermore, HP's public filings address privacy through mentions of compliance with privacy laws related to AI, and a third-party source mentions the need for access controls and training in response to AI threats.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This HP Global Privacy Statement provides evidence for **governance, oversight, privacy, and transparency**. The policy document details HP's use of personal data for AI features and machine learning, including automated decision-making and profiling, which supports **transparency** and **privacy** by outlining data usage and consent mechanisms. Furthermore, it demonstrates **oversight** and **governance** by committing to human intervention for automated decisions and by addressing third-party vendor engagement for AI-related operations.",
+          "title": "HP Global Privacy Statement - August 2025",
+          "url": "https://hp.com/content/dam/sites/worldwide/privacy/pdf/2025/aug/EN.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This HP US Privacy Statement, a company-owned privacy policy, provides evidence for the **oversight**, **privacy**, and **transparency** pillars. It supports the **privacy** pillar by detailing how personal data is used for tailoring services, including AI-driven features like chatbots, personalization, and recommendations. The statement also addresses **oversight** by outlining rights for human intervention and contesting automated decisions, demonstrating a commitment to legal requirements. Furthermore, it contributes to **transparency** by describing system capabilities related to AI features.",
+          "title": "HP US Privacy Statement - January 2025",
+          "url": "https://hp.com/content/dam/sites/worldwide/privacy/pdf/2025/us_jan.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post on \"Augmented Intelligence vs Artificial Intelligence\" provides evidence for **transparency, fairness, governance, oversight, and privacy**. The post supports these pillars by detailing HP's guidance on responsible AI implementation, including measures for bias prevention and algorithmic auditing (fairness), human-in-the-loop approaches and explainable outputs (transparency and oversight), and ethical guidelines for AI deployment (governance and privacy). It also highlights readiness assessments and training investments, indicating a strategic approach to AI adoption.",
+          "title": "Augmented Intelligence vs Artificial Intelligence: Human-Machine Collaboration",
+          "url": "https://hp.com/gb-en/shop/tech-takes/augmented-intelligence-vs-artificial-intelligence"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI TRiSM and Hyperautomation: Governance Framework Implementation,\" provides evidence for the **fairness, governance, privacy, and transparency** pillars of responsible AI. The post details HP's technical guidance on AI Trust, Risk, and Security Management (TRiSM), which addresses algorithmic bias risks and promotes transparency in AI models to minimize bias, thereby supporting fairness and transparency. Furthermore, it outlines a governance framework for AI implementation, emphasizing trust and ethics, and discusses security and privacy safeguards within this framework, directly supporting the governance and privacy pillars.",
+          "title": "AI TRiSM and Hyperautomation: Governance Framework Implementation",
+          "url": "https://hp.com/us-en/shop/tech-takes/ai-trism-hyperautomation-workplace"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post, \"AI Data Security: Safeguarding Systems in the Age of AI,\" provides evidence for **governance**, **oversight**, **privacy**, **explainability**, **external_accountability**, and **fairness**. The post details HP's approach to AI governance through cross-functional oversight bodies like the AI Ethics Board and Data Governance Committee, and outlines incident response procedures and technical security standards for AI systems. It also mentions security-by-design principles, bias detection for fairness, and the need for explainable AI techniques and auditing, supporting the respective pillars.",
+          "title": "AI Data Security: Safeguarding Systems in the Age of AI",
+          "url": "https://store.hp.com/ukstore/tech-takes/ai-data-security-guide"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This HP Inc. Form 10-K filing provides evidence for **governance**, **transparency**, **external accountability**, **fairness**, and **privacy**. The report indicates governance through mentions of AI-specific programs, board approval for AI adoption, and integration into strategic plans. Transparency is supported by disclosures of AI capabilities in hardware components and product features. External accountability and fairness are implied by the acknowledgment of risks from flawed algorithms and biased data, and the commitment to avoid harm. Finally, privacy is addressed through mentions of compliance with privacy laws related to AI.",
+          "title": "HP Inc. Form 10-K for Fiscal Year Ended October 31, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/47217/000004721725000071/hpq-20251031.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This blog post from SentinelOne provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by outlining general steps for an AI incident response plan, including quarantining systems and activating an incident response team, which indicates policy for AI risk management and defense. The source also touches on privacy by mentioning the need for access controls and training in response to AI threats.",
+          "title": "How to Prevent AI-Powered Cyber Attacks? - SentinelOne",
+          "url": "https://sentinelone.com/blog/how-to-prevent-ai-powered-cyber-attacks"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 16,
+      "findings": "HP's privacy statements outline data usage and consent mechanisms for personal data in AI features, and describe AI system capabilities. The company's guidance on responsible AI implementation includes explainable outputs and promotes transparency in AI models to minimize bias. Additionally, HP's public filings reference disclosures of AI capabilities in hardware components and product features, and communication plans aim to inform stakeholders about AI benefits and progress.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This HP Global Privacy Statement provides evidence for **governance, oversight, privacy, and transparency**. The policy document details HP's use of personal data for AI features and machine learning, including automated decision-making and profiling, which supports **transparency** and **privacy** by outlining data usage and consent mechanisms. Furthermore, it demonstrates **oversight** and **governance** by committing to human intervention for automated decisions and by addressing third-party vendor engagement for AI-related operations.",
+          "title": "HP Global Privacy Statement - August 2025",
+          "url": "https://hp.com/content/dam/sites/worldwide/privacy/pdf/2025/aug/EN.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This HP US Privacy Statement, a company-owned privacy policy, provides evidence for the **oversight**, **privacy**, and **transparency** pillars. It supports the **privacy** pillar by detailing how personal data is used for tailoring services, including AI-driven features like chatbots, personalization, and recommendations. The statement also addresses **oversight** by outlining rights for human intervention and contesting automated decisions, demonstrating a commitment to legal requirements. Furthermore, it contributes to **transparency** by describing system capabilities related to AI features.",
+          "title": "HP US Privacy Statement - January 2025",
+          "url": "https://hp.com/content/dam/sites/worldwide/privacy/pdf/2025/us_jan.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post on \"Augmented Intelligence vs Artificial Intelligence\" provides evidence for **transparency, fairness, governance, oversight, and privacy**. The post supports these pillars by detailing HP's guidance on responsible AI implementation, including measures for bias prevention and algorithmic auditing (fairness), human-in-the-loop approaches and explainable outputs (transparency and oversight), and ethical guidelines for AI deployment (governance and privacy). It also highlights readiness assessments and training investments, indicating a strategic approach to AI adoption.",
+          "title": "Augmented Intelligence vs Artificial Intelligence: Human-Machine Collaboration",
+          "url": "https://hp.com/gb-en/shop/tech-takes/augmented-intelligence-vs-artificial-intelligence"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post, \"AI Implementation Roadmap: Strategic Implementation Guide for Businesses,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by highlighting the need for leadership support, the formation of cross-functional teams for AI planning, and the establishment of policies for AI development and deployment. The blog post also supports transparency through its focus on communication plans for AI implementation, which aim to inform stakeholders about AI benefits and progress.",
+          "title": "AI Implementation Roadmap: Strategic Implementation Guide for Businesses",
+          "url": "https://hp.com/us-en/shop/tech-takes/ai-implementation-roadmap"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI TRiSM and Hyperautomation: Governance Framework Implementation,\" provides evidence for the **fairness, governance, privacy, and transparency** pillars of responsible AI. The post details HP's technical guidance on AI Trust, Risk, and Security Management (TRiSM), which addresses algorithmic bias risks and promotes transparency in AI models to minimize bias, thereby supporting fairness and transparency. Furthermore, it outlines a governance framework for AI implementation, emphasizing trust and ethics, and discusses security and privacy safeguards within this framework, directly supporting the governance and privacy pillars.",
+          "title": "AI TRiSM and Hyperautomation: Governance Framework Implementation",
+          "url": "https://hp.com/us-en/shop/tech-takes/ai-trism-hyperautomation-workplace"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This HP blog post, \"AI Data Security: Safeguarding Systems in the Age of AI,\" provides evidence for **governance**, **oversight**, **privacy**, **explainability**, **external_accountability**, and **fairness**. The post details HP's approach to AI governance through cross-functional oversight bodies like the AI Ethics Board and Data Governance Committee, and outlines incident response procedures and technical security standards for AI systems. It also mentions security-by-design principles, bias detection for fairness, and the need for explainable AI techniques and auditing, supporting the respective pillars.",
+          "title": "AI Data Security: Safeguarding Systems in the Age of AI",
+          "url": "https://store.hp.com/ukstore/tech-takes/ai-data-security-guide"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_008",
+          "source_tier": "authority",
+          "summary": "This HP Inc. Form 10-K filing provides evidence for **governance**, **transparency**, **external accountability**, **fairness**, and **privacy**. The report indicates governance through mentions of AI-specific programs, board approval for AI adoption, and integration into strategic plans. Transparency is supported by disclosures of AI capabilities in hardware components and product features. External accountability and fairness are implied by the acknowledgment of risks from flawed algorithms and biased data, and the commitment to avoid harm. Finally, privacy is addressed through mentions of compliance with privacy laws related to AI.",
+          "title": "HP Inc. Form 10-K for Fiscal Year Ended October 31, 2025",
+          "url": "https://sec.gov/Archives/edgar/data/47217/000004721725000071/hpq-20251031.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-02-23T21:52:24Z",
+  "run_id": "20260202_211619_f599",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "HP's published materials address operational practices for oversight and privacy, with its Global Privacy Statement referencing a commitment to human intervention for automated decisions and detailing the use of personal data for AI features. All 7 evaluated pillars have documented public evidence, including policy-level disclosures for transparency, fairness, explainability, and external accountability. For instance, governance is supported by the company's AI Governance Principles policy document, which articulates a commitment to responsible AI development and usage, while fairness guidance includes measures for bias prevention and algorithmic auditing. This assessment draws on 17 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 77,
+    "total_sources_used": 11
+  }
+}

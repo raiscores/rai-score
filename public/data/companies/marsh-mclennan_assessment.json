@@ -1,0 +1,284 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "Marsh & McLennan",
+  "company_slug": "marsh-mclennan",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 6,
+      "OPERATIONAL": 5,
+      "POLICY": 41
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 4,
+      "findings": "A press release suggests a commitment to external accountability in managing AI's impact through a focus on client services related to AI risks and adoption. SEC filings detail compliance obligations with domestic and international AI regulations and potential consequences of non-compliance. These filings also reference the disclosure of AI tools like LenAI with built-in data security.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance**, **privacy**, and **external accountability**. It details Marsh McLennan's development of the LenAI generative AI platform, highlighting governance mechanisms such as regulatory requirement design, collaboration with internal risk and legal teams, and user training on responsible AI usage. The press release also supports the privacy pillar by mentioning data minimization safeguards and the choice of a private, internally-hosted model to keep data in-house. Furthermore, the focus on client services related to AI risks and adoption suggests a commitment to external accountability in managing AI's impact.",
+          "title": "Marsh McLennan Develops New Generative AI Tool",
+          "url": "https://corporate.marsh.com/news-events/2023/november/marsh-mclennan-develops-new-generative-ai-tool.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This SEC 10-K filing provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. The filing supports **external_accountability** by detailing compliance obligations with domestic and international AI regulations and potential consequences of non-compliance. Evidence for **fairness** is found in the explicit mention of potential biases and inaccuracies in AI models and data. The filing demonstrates **governance** through its discussion of risk identification capabilities, patented electronic platforms, strategic investments in AI, and the launch of an AI Academy for skill development. Finally, **privacy** is supported by mentions of data security, risk mitigation in AI design, and addressing risks to confidential information and intellectual property when using third-party AI.",
+          "title": "Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/62709/000006270925000015/mmc-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing, \"2024 Annual Report - The Power of Perspective,\" provides evidence for **governance**, **privacy**, and **external accountability**. The report details the company's strategic approach to AI, including acquiring AI expertise and launching an \"AI Academy,\" demonstrating strong governance. It also addresses compliance with evolving AI regulations and data privacy laws, supporting the privacy pillar, and references the disclosure of AI tools like LenAI with built-in data security, which contributes to external accountability.",
+          "title": "2024 Annual Report - The Power of Perspective",
+          "url": "https://sec.gov/Archives/edgar/data/62709/000119312525066239/d899549dars.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 10,
+      "findings": "A blog post describes checking AI outputs for disparate impacts and emphasizes ongoing monitoring for problems, while also acknowledging the complexity of defining fairness thresholds. A policy document mentions a commitment to fairness in compensation and operational execution related to gender, race, or ethnicity. Additionally, an SEC filing mentions potential biases and inaccuracies in AI models and data.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This blog post discusses the inherent biases in AI systems and strategies for managing them, providing evidence for the **fairness** and **governance** pillars. It supports fairness by describing the action of checking AI outputs for disparate impacts and emphasizing ongoing monitoring for problems, while also acknowledging the complexity of defining fairness thresholds. The post also supports governance by mentioning a structured process for clients to remediate AI bias, implying a systematic approach to managing AI risks.",
+          "title": "Manage AI Bias Instead of Trying To Eliminate It - Marsh McLennan",
+          "url": "https://marshmclennan.com/insights/publications/2023/april/manage-ai--bias-instead-of-trying-to-eliminate-it.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"2024 Business Responsibility Report,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It details Marsh McLennan's commitment to responsible AI through its AI Risk Framework, which includes formal risk assessments for AI initiatives, especially in high-stakes scenarios. The report also outlines a comprehensive policy framework mandating the use of company-approved AI tools like LenAI, prohibiting confidential data input into unapproved systems, and emphasizing human oversight for AI operations to address bias and inaccuracy, thereby supporting governance, privacy, and oversight. Furthermore, the document mentions a commitment to fairness in compensation and operational execution related to gender, race, or ethnicity, and describes deployed AI tools with security controls, contributing to the transparency pillar.",
+          "title": "2024 Business Responsibility Report",
+          "url": "https://marshmclennan.com/web-assets/files-for-download/pdf-2024-marsh-mclennan-business-responsibility-report.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This SEC 10-K filing provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. The filing supports **external_accountability** by detailing compliance obligations with domestic and international AI regulations and potential consequences of non-compliance. Evidence for **fairness** is found in the explicit mention of potential biases and inaccuracies in AI models and data. The filing demonstrates **governance** through its discussion of risk identification capabilities, patented electronic platforms, strategic investments in AI, and the launch of an AI Academy for skill development. Finally, **privacy** is supported by mentions of data security, risk mitigation in AI design, and addressing risks to confidential information and intellectual property when using third-party AI.",
+          "title": "Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/62709/000006270925000015/mmc-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 41,
+      "findings": "Press releases highlight governance mechanisms such as regulatory requirement design, collaboration with internal risk and legal teams, and user training on responsible AI usage for the LenAI platform. They also highlight the company's commitment to responsible AI adoption and risk management, indicating a focus on mitigating potential AI risks. A blog post mentions a structured process for clients to remediate AI bias, and a policy document details a commitment to responsible AI through its AI Risk Framework, which includes formal risk assessments for AI initiatives. SEC filings discuss risk identification capabilities, patented electronic platforms, strategic investments in AI, the launch of an AI Academy for skill development, and address compliance with evolving AI regulations and data privacy laws.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance**, **privacy**, and **external accountability**. It details Marsh McLennan's development of the LenAI generative AI platform, highlighting governance mechanisms such as regulatory requirement design, collaboration with internal risk and legal teams, and user training on responsible AI usage. The press release also supports the privacy pillar by mentioning data minimization safeguards and the choice of a private, internally-hosted model to keep data in-house. Furthermore, the focus on client services related to AI risks and adoption suggests a commitment to external accountability in managing AI's impact.",
+          "title": "Marsh McLennan Develops New Generative AI Tool",
+          "url": "https://corporate.marsh.com/news-events/2023/november/marsh-mclennan-develops-new-generative-ai-tool.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release from Marsh McLennan supports the **governance** and **transparency** pillars of responsible AI. It highlights the company's commitment to responsible AI adoption and risk management, indicating a governance focus on mitigating potential AI risks. The release also touches on transparency by mentioning the development of AI-powered platforms and generative AI tools, though it describes these as commitments and service offerings rather than specific execution details.",
+          "title": "Generative AI Insights - Marsh McLennan",
+          "url": "https://marshmclennan.com/insights/generative-ai.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This blog post discusses the inherent biases in AI systems and strategies for managing them, providing evidence for the **fairness** and **governance** pillars. It supports fairness by describing the action of checking AI outputs for disparate impacts and emphasizing ongoing monitoring for problems, while also acknowledging the complexity of defining fairness thresholds. The post also supports governance by mentioning a structured process for clients to remediate AI bias, implying a systematic approach to managing AI risks.",
+          "title": "Manage AI Bias Instead of Trying To Eliminate It - Marsh McLennan",
+          "url": "https://marshmclennan.com/insights/publications/2023/april/manage-ai--bias-instead-of-trying-to-eliminate-it.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"2024 Business Responsibility Report,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It details Marsh McLennan's commitment to responsible AI through its AI Risk Framework, which includes formal risk assessments for AI initiatives, especially in high-stakes scenarios. The report also outlines a comprehensive policy framework mandating the use of company-approved AI tools like LenAI, prohibiting confidential data input into unapproved systems, and emphasizing human oversight for AI operations to address bias and inaccuracy, thereby supporting governance, privacy, and oversight. Furthermore, the document mentions a commitment to fairness in compensation and operational execution related to gender, race, or ethnicity, and describes deployed AI tools with security controls, contributing to the transparency pillar.",
+          "title": "2024 Business Responsibility Report",
+          "url": "https://marshmclennan.com/web-assets/files-for-download/pdf-2024-marsh-mclennan-business-responsibility-report.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This SEC 10-K filing provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. The filing supports **external_accountability** by detailing compliance obligations with domestic and international AI regulations and potential consequences of non-compliance. Evidence for **fairness** is found in the explicit mention of potential biases and inaccuracies in AI models and data. The filing demonstrates **governance** through its discussion of risk identification capabilities, patented electronic platforms, strategic investments in AI, and the launch of an AI Academy for skill development. Finally, **privacy** is supported by mentions of data security, risk mitigation in AI design, and addressing risks to confidential information and intellectual property when using third-party AI.",
+          "title": "Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/62709/000006270925000015/mmc-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing, \"2024 Annual Report - The Power of Perspective,\" provides evidence for **governance**, **privacy**, and **external accountability**. The report details the company's strategic approach to AI, including acquiring AI expertise and launching an \"AI Academy,\" demonstrating strong governance. It also addresses compliance with evolving AI regulations and data privacy laws, supporting the privacy pillar, and references the disclosure of AI tools like LenAI with built-in data security, which contributes to external accountability.",
+          "title": "2024 Annual Report - The Power of Perspective",
+          "url": "https://sec.gov/Archives/edgar/data/62709/000119312525066239/d899549dars.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "A policy document details the company's commitment to responsible AI through its AI Risk Framework. This framework includes formal risk assessments for AI initiatives, particularly in high-stakes scenarios.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"2024 Business Responsibility Report,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It details Marsh McLennan's commitment to responsible AI through its AI Risk Framework, which includes formal risk assessments for AI initiatives, especially in high-stakes scenarios. The report also outlines a comprehensive policy framework mandating the use of company-approved AI tools like LenAI, prohibiting confidential data input into unapproved systems, and emphasizing human oversight for AI operations to address bias and inaccuracy, thereby supporting governance, privacy, and oversight. Furthermore, the document mentions a commitment to fairness in compensation and operational execution related to gender, race, or ethnicity, and describes deployed AI tools with security controls, contributing to the transparency pillar.",
+          "title": "2024 Business Responsibility Report",
+          "url": "https://marshmclennan.com/web-assets/files-for-download/pdf-2024-marsh-mclennan-business-responsibility-report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 12,
+      "findings": "A press release mentions data minimization safeguards and the choice of a private, internally-hosted model to keep data in-house for the LenAI generative AI platform. SEC filings mention data security, risk mitigation in AI design, and address risks to confidential information and intellectual property when using third-party AI. These filings also address compliance with evolving AI regulations and data privacy laws, and reference the disclosure of AI tools like LenAI with built-in data security.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance**, **privacy**, and **external accountability**. It details Marsh McLennan's development of the LenAI generative AI platform, highlighting governance mechanisms such as regulatory requirement design, collaboration with internal risk and legal teams, and user training on responsible AI usage. The press release also supports the privacy pillar by mentioning data minimization safeguards and the choice of a private, internally-hosted model to keep data in-house. Furthermore, the focus on client services related to AI risks and adoption suggests a commitment to external accountability in managing AI's impact.",
+          "title": "Marsh McLennan Develops New Generative AI Tool",
+          "url": "https://corporate.marsh.com/news-events/2023/november/marsh-mclennan-develops-new-generative-ai-tool.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"2024 Business Responsibility Report,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It details Marsh McLennan's commitment to responsible AI through its AI Risk Framework, which includes formal risk assessments for AI initiatives, especially in high-stakes scenarios. The report also outlines a comprehensive policy framework mandating the use of company-approved AI tools like LenAI, prohibiting confidential data input into unapproved systems, and emphasizing human oversight for AI operations to address bias and inaccuracy, thereby supporting governance, privacy, and oversight. Furthermore, the document mentions a commitment to fairness in compensation and operational execution related to gender, race, or ethnicity, and describes deployed AI tools with security controls, contributing to the transparency pillar.",
+          "title": "2024 Business Responsibility Report",
+          "url": "https://marshmclennan.com/web-assets/files-for-download/pdf-2024-marsh-mclennan-business-responsibility-report.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This SEC 10-K filing provides evidence for **external_accountability**, **fairness**, **governance**, and **privacy**. The filing supports **external_accountability** by detailing compliance obligations with domestic and international AI regulations and potential consequences of non-compliance. Evidence for **fairness** is found in the explicit mention of potential biases and inaccuracies in AI models and data. The filing demonstrates **governance** through its discussion of risk identification capabilities, patented electronic platforms, strategic investments in AI, and the launch of an AI Academy for skill development. Finally, **privacy** is supported by mentions of data security, risk mitigation in AI design, and addressing risks to confidential information and intellectual property when using third-party AI.",
+          "title": "Form 10-K for Fiscal Year 2024",
+          "url": "https://sec.gov/Archives/edgar/data/62709/000006270925000015/mmc-20241231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing, \"2024 Annual Report - The Power of Perspective,\" provides evidence for **governance**, **privacy**, and **external accountability**. The report details the company's strategic approach to AI, including acquiring AI expertise and launching an \"AI Academy,\" demonstrating strong governance. It also addresses compliance with evolving AI regulations and data privacy laws, supporting the privacy pillar, and references the disclosure of AI tools like LenAI with built-in data security, which contributes to external accountability.",
+          "title": "2024 Annual Report - The Power of Perspective",
+          "url": "https://sec.gov/Archives/edgar/data/62709/000119312525066239/d899549dars.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 6,
+      "findings": "A press release mentions the company's commitments and service offerings related to the development of AI-powered platforms and generative AI tools. Additionally, a policy document describes deployed AI tools that include security controls.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release from Marsh McLennan supports the **governance** and **transparency** pillars of responsible AI. It highlights the company's commitment to responsible AI adoption and risk management, indicating a governance focus on mitigating potential AI risks. The release also touches on transparency by mentioning the development of AI-powered platforms and generative AI tools, though it describes these as commitments and service offerings rather than specific execution details.",
+          "title": "Generative AI Insights - Marsh McLennan",
+          "url": "https://marshmclennan.com/insights/generative-ai.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"2024 Business Responsibility Report,\" provides evidence for fairness, governance, oversight, privacy, and transparency. It details Marsh McLennan's commitment to responsible AI through its AI Risk Framework, which includes formal risk assessments for AI initiatives, especially in high-stakes scenarios. The report also outlines a comprehensive policy framework mandating the use of company-approved AI tools like LenAI, prohibiting confidential data input into unapproved systems, and emphasizing human oversight for AI operations to address bias and inaccuracy, thereby supporting governance, privacy, and oversight. Furthermore, the document mentions a commitment to fairness in compensation and operational execution related to gender, race, or ethnicity, and describes deployed AI tools with security controls, contributing to the transparency pillar.",
+          "title": "2024 Business Responsibility Report",
+          "url": "https://marshmclennan.com/web-assets/files-for-download/pdf-2024-marsh-mclennan-business-responsibility-report.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_006",
+          "source_tier": "authority",
+          "summary": "This SEC Form 10-K filing, \"2024 Annual Report - The Power of Perspective,\" provides evidence for **governance**, **privacy**, and **external accountability**. The report details the company's strategic approach to AI, including acquiring AI expertise and launching an \"AI Academy,\" demonstrating strong governance. It also addresses compliance with evolving AI regulations and data privacy laws, supporting the privacy pillar, and references the disclosure of AI tools like LenAI with built-in data security, which contributes to external accountability.",
+          "title": "2024 Annual Report - The Power of Perspective",
+          "url": "https://sec.gov/Archives/edgar/data/62709/000119312525066239/d899549dars.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-02-23T21:54:44Z",
+  "run_id": "20260203_001311_4fd9",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Drawing from 6 publicly available sources, Marsh & McLennan's published materials address 6 of 7 evaluated responsible AI pillars, with operational practices including data minimization safeguards for its LenAI generative AI platform. Operational practices also include checking AI outputs for disparate impacts under fairness and highlighting governance mechanisms such as collaboration with internal risk and legal teams for the LenAI platform. Policy-level evidence is present for oversight and external accountability, with oversight materials detailing a commitment to responsible AI through an AI Risk Framework that includes formal risk assessments. No qualifying public evidence was found for explainability.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 52,
+    "total_sources_used": 6
+  }
+}

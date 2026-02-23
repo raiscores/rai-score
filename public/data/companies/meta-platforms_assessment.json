@@ -1,0 +1,462 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 100.0,
+    "star_display": "★★★★★",
+    "star_rating": 5,
+    "total_score": 14
+  },
+  "company": "Meta",
+  "company_slug": "meta-platforms",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 18,
+      "OPERATIONAL": 29,
+      "POLICY": 22
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 7,
+      "findings": "Meta addresses explainability through tools like the AI System Card, which is described as a mechanism for explainability and for exploring it. Blog posts highlight a commitment to explainability as a pillar of Responsible AI and describe prototype tools that offer insight into AI architecture and operations. Additionally, toolkits aim to support interpretability, directly addressing explainability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency** in Meta's AI systems. It details bias mitigation in ad delivery systems and demographic measurement techniques, including the use of an \"AI System Card tool\" for transparency and explainability, privacy-enhancing methods for fairness assessments, and a global experimental governance program. The post also highlights an AI-based feature allowing user influence on recommendations, serving as human oversight, and describes a cross-disciplinary team's work on AI fairness, supported by the design and rollout of an ML system for equitable ad distribution in response to a settlement, demonstrating external accountability.",
+          "title": "Meta's progress in AI fairness and transparency",
+          "url": "https://ai.meta.com/blog/responsible-ai-progress-meta-2022"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "The \"Meta AI System Cards\" resource provides evidence for **explainability**, **external accountability**, **fairness**, **governance**, and **transparency**. This system card resource supports these pillars by committing to ongoing AI transparency and documentation, aiming for a holistic understanding of AI impact, and exploring explainability through the System Cards themselves. Furthermore, it indicates a policy for responsible AI development and fairness by aiming to ensure teams consider unintended consequences before launch.",
+          "title": "Meta AI System Cards",
+          "url": "https://ai.meta.com/blog/system-cards-a-new-resource-for-understanding-how-ai-systems-work/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"System Cards, a new resource for understanding how AI systems work,\" provides evidence for **transparency**, **explainability**, **governance**, and **external accountability**. The post describes prototype tools designed to offer insight into AI architecture and operations, supporting transparency and explainability. It also highlights a commitment to these as pillars of Responsible AI, implying formal policy and governance, and mentions the RAI team consulting with external experts, demonstrating external accountability and operational governance.",
+          "title": "System Cards, a new resource for understanding how AI systems work",
+          "url": "https://ai.meta.com/blog/system-cards-a-new-resource-for-understanding-how-ai-systems-work"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned toolkit, \"LM Transparency Tool for Transformer Models,\" provides evidence for the **explainability** and **transparency** pillars of responsible AI. The toolkit aims to make AI prediction processes transparent and support interpretability, directly addressing explainability. Furthermore, by sharing open-source AI models and tools, it promotes transparency in AI development and deployment.",
+          "title": "LM Transparency Tool for Transformer Models",
+          "url": "https://ai.meta.com/research/publications/lm-transparency-tool-interactive-tool-for-analyzing-transformer-language-models"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 8,
+      "findings": "Meta demonstrates external accountability through various practices, including highlighting the use of experts to evaluate AI models. Blog posts detail the incorporation of MLCommons' hazard taxonomy and describe ongoing collaborations for third-party AI risk evaluation. Additionally, Meta describes the design and rollout of an ML system for equitable ad distribution in response to a settlement and mentions its RAI team consulting with external experts.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Meta Responsible AI Practices,\" provides evidence for **governance, oversight, fairness, transparency, privacy, and external accountability**. It details Meta's framework for AI governance through oversight committees and accountability structures, including operational processes for evaluating AI model responses and fine-tuned models against safety benchmarks. The document also describes risk mitigation strategies for LLM-powered products, such as classifiers and blocklists, and outlines safety measures like red teaming and RLHF, demonstrating a commitment to responsible AI development and transparency in model capabilities and fine-tuning processes. Furthermore, it mentions privacy review processes for pretraining data and efforts to remove personal information, supporting the privacy pillar, and highlights the use of experts to evaluate AI models, contributing to external accountability.",
+          "title": "Meta Responsible AI Practices",
+          "url": "https://about.meta.com/technologies/ai/responsible-ai/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Meta AI Safety Blog,\" provides evidence for **external_accountability, governance, oversight, and transparency**. The blog details Meta's operational implementation of filters, classifiers, and LLMs for safety, alongside releasing open-source tools like Llama Guard 2 and CyberSecEval for developers, demonstrating transparency and governance. Furthermore, it describes rigorous evaluation processes including benchmark tests, red teaming with internal and external experts, and iterative human feedback, highlighting active oversight and external accountability mechanisms.",
+          "title": "Meta AI Safety Blog",
+          "url": "https://about.meta.com/blog/2024/01/ai-safety-technical-disclosures/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Connect 2024: The responsible approach to generative AI,\" provides evidence for external accountability, governance, privacy, and transparency. It details the incorporation of MLCommons' hazard taxonomy and ongoing collaborations for third-party AI risk evaluation, supporting external accountability and governance. The post also describes privacy-preserving measures for AI image analysis, such as preventing identification of individuals and employing safety-tuning and output filtering, which directly addresses privacy and operational governance. Furthermore, it highlights a multilayered safety approach including risk assessments, model testing, red-teaming, and the introduction of Llama Guard Vision for detecting problematic content, demonstrating operational due diligence, accountability, and transparency.",
+          "title": "Connect 2024: The responsible approach to generative AI",
+          "url": "https://ai.meta.com/blog/responsible-ai-connect-2024"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency** in Meta's AI systems. It details bias mitigation in ad delivery systems and demographic measurement techniques, including the use of an \"AI System Card tool\" for transparency and explainability, privacy-enhancing methods for fairness assessments, and a global experimental governance program. The post also highlights an AI-based feature allowing user influence on recommendations, serving as human oversight, and describes a cross-disciplinary team's work on AI fairness, supported by the design and rollout of an ML system for equitable ad distribution in response to a settlement, demonstrating external accountability.",
+          "title": "Meta's progress in AI fairness and transparency",
+          "url": "https://ai.meta.com/blog/responsible-ai-progress-meta-2022"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "The \"Meta AI System Cards\" resource provides evidence for **explainability**, **external accountability**, **fairness**, **governance**, and **transparency**. This system card resource supports these pillars by committing to ongoing AI transparency and documentation, aiming for a holistic understanding of AI impact, and exploring explainability through the System Cards themselves. Furthermore, it indicates a policy for responsible AI development and fairness by aiming to ensure teams consider unintended consequences before launch.",
+          "title": "Meta AI System Cards",
+          "url": "https://ai.meta.com/blog/system-cards-a-new-resource-for-understanding-how-ai-systems-work/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"System Cards, a new resource for understanding how AI systems work,\" provides evidence for **transparency**, **explainability**, **governance**, and **external accountability**. The post describes prototype tools designed to offer insight into AI architecture and operations, supporting transparency and explainability. It also highlights a commitment to these as pillars of Responsible AI, implying formal policy and governance, and mentions the RAI team consulting with external experts, demonstrating external accountability and operational governance.",
+          "title": "System Cards, a new resource for understanding how AI systems work",
+          "url": "https://ai.meta.com/blog/system-cards-a-new-resource-for-understanding-how-ai-systems-work"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 19,
+      "findings": "Meta addresses fairness through various initiatives, including efforts to minimize bias using diverse datasets and the release of datasets like Casual Conversations v2. The company introduces benchmarks such as FACET and over 500 demographic terms for bias testing, alongside actions to identify and reduce social and demographic biases in AI models. Furthermore, Meta details bias mitigation in ad delivery systems, employs privacy-enhancing methods for fairness assessments, and describes the work of a cross-disciplinary team on AI fairness.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Meta Responsible AI Practices,\" provides evidence for **governance, oversight, fairness, transparency, privacy, and external accountability**. It details Meta's framework for AI governance through oversight committees and accountability structures, including operational processes for evaluating AI model responses and fine-tuned models against safety benchmarks. The document also describes risk mitigation strategies for LLM-powered products, such as classifiers and blocklists, and outlines safety measures like red teaming and RLHF, demonstrating a commitment to responsible AI development and transparency in model capabilities and fine-tuning processes. Furthermore, it mentions privacy review processes for pretraining data and efforts to remove personal information, supporting the privacy pillar, and highlights the use of experts to evaluate AI models, contributing to external accountability.",
+          "title": "Meta Responsible AI Practices",
+          "url": "https://about.meta.com/technologies/ai/responsible-ai/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"FAIR progress in socially responsible AI,\" provides evidence for fairness, governance, privacy, and transparency. It supports fairness by detailing efforts to minimize bias through diverse datasets and the release of the Casual Conversations v2 dataset, along with the introduction of the FACET benchmark for fairness evaluation. The post also highlights the development of the ROBBIE tool for robust bias and toxicity evaluation, contributing to governance and transparency. Furthermore, the mention of consent-driven data collection for the Casual Conversations v2 dataset supports the privacy pillar.",
+          "title": "FAIR progress in socially responsible AI",
+          "url": "https://ai.meta.com/blog/fair-progress-and-learnings-across-socially-responsible-ai-research"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"New datasets to measure fairness,\" provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports fairness by introducing over 500 demographic terms for bias testing and describing concrete actions taken to identify and reduce social and demographic biases in AI models. The post also contributes to governance by highlighting efforts to incorporate responsible research practices and improve methods for measuring AI fairness.",
+          "title": "New datasets to measure fairness",
+          "url": "https://ai.meta.com/blog/measure-fairness-and-mitigate-ai-bias"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency** in Meta's AI systems. It details bias mitigation in ad delivery systems and demographic measurement techniques, including the use of an \"AI System Card tool\" for transparency and explainability, privacy-enhancing methods for fairness assessments, and a global experimental governance program. The post also highlights an AI-based feature allowing user influence on recommendations, serving as human oversight, and describes a cross-disciplinary team's work on AI fairness, supported by the design and rollout of an ML system for equitable ad distribution in response to a settlement, demonstrating external accountability.",
+          "title": "Meta's progress in AI fairness and transparency",
+          "url": "https://ai.meta.com/blog/responsible-ai-progress-meta-2022"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "The \"Meta AI System Cards\" resource provides evidence for **explainability**, **external accountability**, **fairness**, **governance**, and **transparency**. This system card resource supports these pillars by committing to ongoing AI transparency and documentation, aiming for a holistic understanding of AI impact, and exploring explainability through the System Cards themselves. Furthermore, it indicates a policy for responsible AI development and fairness by aiming to ensure teams consider unintended consequences before launch.",
+          "title": "Meta AI System Cards",
+          "url": "https://ai.meta.com/blog/system-cards-a-new-resource-for-understanding-how-ai-systems-work/"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 44,
+      "findings": "Meta's governance framework for AI is detailed in policy documents, outlining oversight committees, accountability structures, and operational processes for evaluating AI models against safety benchmarks. These documents also describe risk mitigation strategies for LLM-powered products and safety measures like red teaming. Blog posts detail the operational implementation of safety filters, the release of open-source tools, and efforts to incorporate responsible research practices, including a multilayered safety approach with risk assessments and model testing. Furthermore, Meta references a global experimental governance program and outlines specific rules for AI model content generation.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Meta Responsible AI Practices,\" provides evidence for **governance, oversight, fairness, transparency, privacy, and external accountability**. It details Meta's framework for AI governance through oversight committees and accountability structures, including operational processes for evaluating AI model responses and fine-tuned models against safety benchmarks. The document also describes risk mitigation strategies for LLM-powered products, such as classifiers and blocklists, and outlines safety measures like red teaming and RLHF, demonstrating a commitment to responsible AI development and transparency in model capabilities and fine-tuning processes. Furthermore, it mentions privacy review processes for pretraining data and efforts to remove personal information, supporting the privacy pillar, and highlights the use of experts to evaluate AI models, contributing to external accountability.",
+          "title": "Meta Responsible AI Practices",
+          "url": "https://about.meta.com/technologies/ai/responsible-ai/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Meta AI Safety Blog,\" provides evidence for **external_accountability, governance, oversight, and transparency**. The blog details Meta's operational implementation of filters, classifiers, and LLMs for safety, alongside releasing open-source tools like Llama Guard 2 and CyberSecEval for developers, demonstrating transparency and governance. Furthermore, it describes rigorous evaluation processes including benchmark tests, red teaming with internal and external experts, and iterative human feedback, highlighting active oversight and external accountability mechanisms.",
+          "title": "Meta AI Safety Blog",
+          "url": "https://about.meta.com/blog/2024/01/ai-safety-technical-disclosures/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"FAIR progress in socially responsible AI,\" provides evidence for fairness, governance, privacy, and transparency. It supports fairness by detailing efforts to minimize bias through diverse datasets and the release of the Casual Conversations v2 dataset, along with the introduction of the FACET benchmark for fairness evaluation. The post also highlights the development of the ROBBIE tool for robust bias and toxicity evaluation, contributing to governance and transparency. Furthermore, the mention of consent-driven data collection for the Casual Conversations v2 dataset supports the privacy pillar.",
+          "title": "FAIR progress in socially responsible AI",
+          "url": "https://ai.meta.com/blog/fair-progress-and-learnings-across-socially-responsible-ai-research"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"New datasets to measure fairness,\" provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports fairness by introducing over 500 demographic terms for bias testing and describing concrete actions taken to identify and reduce social and demographic biases in AI models. The post also contributes to governance by highlighting efforts to incorporate responsible research practices and improve methods for measuring AI fairness.",
+          "title": "New datasets to measure fairness",
+          "url": "https://ai.meta.com/blog/measure-fairness-and-mitigate-ai-bias"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Connect 2024: The responsible approach to generative AI,\" provides evidence for external accountability, governance, privacy, and transparency. It details the incorporation of MLCommons' hazard taxonomy and ongoing collaborations for third-party AI risk evaluation, supporting external accountability and governance. The post also describes privacy-preserving measures for AI image analysis, such as preventing identification of individuals and employing safety-tuning and output filtering, which directly addresses privacy and operational governance. Furthermore, it highlights a multilayered safety approach including risk assessments, model testing, red-teaming, and the introduction of Llama Guard Vision for detecting problematic content, demonstrating operational due diligence, accountability, and transparency.",
+          "title": "Connect 2024: The responsible approach to generative AI",
+          "url": "https://ai.meta.com/blog/responsible-ai-connect-2024"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency** in Meta's AI systems. It details bias mitigation in ad delivery systems and demographic measurement techniques, including the use of an \"AI System Card tool\" for transparency and explainability, privacy-enhancing methods for fairness assessments, and a global experimental governance program. The post also highlights an AI-based feature allowing user influence on recommendations, serving as human oversight, and describes a cross-disciplinary team's work on AI fairness, supported by the design and rollout of an ML system for equitable ad distribution in response to a settlement, demonstrating external accountability.",
+          "title": "Meta's progress in AI fairness and transparency",
+          "url": "https://ai.meta.com/blog/responsible-ai-progress-meta-2022"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "The \"Meta AI System Cards\" resource provides evidence for **explainability**, **external accountability**, **fairness**, **governance**, and **transparency**. This system card resource supports these pillars by committing to ongoing AI transparency and documentation, aiming for a holistic understanding of AI impact, and exploring explainability through the System Cards themselves. Furthermore, it indicates a policy for responsible AI development and fairness by aiming to ensure teams consider unintended consequences before launch.",
+          "title": "Meta AI System Cards",
+          "url": "https://ai.meta.com/blog/system-cards-a-new-resource-for-understanding-how-ai-systems-work/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"System Cards, a new resource for understanding how AI systems work,\" provides evidence for **transparency**, **explainability**, **governance**, and **external accountability**. The post describes prototype tools designed to offer insight into AI architecture and operations, supporting transparency and explainability. It also highlights a commitment to these as pillars of Responsible AI, implying formal policy and governance, and mentions the RAI team consulting with external experts, demonstrating external accountability and operational governance.",
+          "title": "System Cards, a new resource for understanding how AI systems work",
+          "url": "https://ai.meta.com/blog/system-cards-a-new-resource-for-understanding-how-ai-systems-work"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Code Llama 70B Model Card,\" provides evidence for **governance** and **transparency**. It supports governance by outlining specific rules and policies for AI model content generation concerning sex crimes, non-violent crimes, and violent crimes, demonstrating a commitment to responsible AI behavior. The document also supports transparency by detailing AI capabilities, including evaluations and responsible use, and by mentioning the \"Model Card\" itself as a mechanism for providing information about the model.",
+          "title": "Code Llama 70B Model Card",
+          "url": "https://llama.meta.com/docs/model-cards-and-prompt-formats/other-models"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "The \"Meta AI Disclosures\" document provides evidence for the **governance** and **privacy** pillars. It supports governance by stating Meta AI's intent to use data in accordance with compliance obligations, indicating a commitment to regulatory adherence. Furthermore, it supports privacy by mentioning data usage in line with Meta's Privacy Policy, demonstrating a documented approach to handling user information.",
+          "title": "Meta AI Disclosures",
+          "url": "https://www.facebook.com/legal/meta-AI-disclosures"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 14,
+      "findings": "Meta's policy documents detail a framework for AI governance that includes oversight committees and accountability structures. These documents also outline operational processes for evaluating AI model responses and fine-tuned models against safety benchmarks. Additionally, blog posts highlight an AI-based feature that allows user influence on recommendations, serving as a form of human oversight.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Meta Responsible AI Practices,\" provides evidence for **governance, oversight, fairness, transparency, privacy, and external accountability**. It details Meta's framework for AI governance through oversight committees and accountability structures, including operational processes for evaluating AI model responses and fine-tuned models against safety benchmarks. The document also describes risk mitigation strategies for LLM-powered products, such as classifiers and blocklists, and outlines safety measures like red teaming and RLHF, demonstrating a commitment to responsible AI development and transparency in model capabilities and fine-tuning processes. Furthermore, it mentions privacy review processes for pretraining data and efforts to remove personal information, supporting the privacy pillar, and highlights the use of experts to evaluate AI models, contributing to external accountability.",
+          "title": "Meta Responsible AI Practices",
+          "url": "https://about.meta.com/technologies/ai/responsible-ai/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Meta AI Safety Blog,\" provides evidence for **external_accountability, governance, oversight, and transparency**. The blog details Meta's operational implementation of filters, classifiers, and LLMs for safety, alongside releasing open-source tools like Llama Guard 2 and CyberSecEval for developers, demonstrating transparency and governance. Furthermore, it describes rigorous evaluation processes including benchmark tests, red teaming with internal and external experts, and iterative human feedback, highlighting active oversight and external accountability mechanisms.",
+          "title": "Meta AI Safety Blog",
+          "url": "https://about.meta.com/blog/2024/01/ai-safety-technical-disclosures/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency** in Meta's AI systems. It details bias mitigation in ad delivery systems and demographic measurement techniques, including the use of an \"AI System Card tool\" for transparency and explainability, privacy-enhancing methods for fairness assessments, and a global experimental governance program. The post also highlights an AI-based feature allowing user influence on recommendations, serving as human oversight, and describes a cross-disciplinary team's work on AI fairness, supported by the design and rollout of an ML system for equitable ad distribution in response to a settlement, demonstrating external accountability.",
+          "title": "Meta's progress in AI fairness and transparency",
+          "url": "https://ai.meta.com/blog/responsible-ai-progress-meta-2022"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "Meta documents privacy practices through various means, including policy documents that mention privacy review processes for pretraining data and efforts to remove personal information. Blog posts describe consent-driven data collection for specific datasets and detail privacy-preserving measures for AI image analysis, such as preventing individual identification and employing safety-tuning. Additionally, disclosures mention data usage in line with Meta's Privacy Policy.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Meta Responsible AI Practices,\" provides evidence for **governance, oversight, fairness, transparency, privacy, and external accountability**. It details Meta's framework for AI governance through oversight committees and accountability structures, including operational processes for evaluating AI model responses and fine-tuned models against safety benchmarks. The document also describes risk mitigation strategies for LLM-powered products, such as classifiers and blocklists, and outlines safety measures like red teaming and RLHF, demonstrating a commitment to responsible AI development and transparency in model capabilities and fine-tuning processes. Furthermore, it mentions privacy review processes for pretraining data and efforts to remove personal information, supporting the privacy pillar, and highlights the use of experts to evaluate AI models, contributing to external accountability.",
+          "title": "Meta Responsible AI Practices",
+          "url": "https://about.meta.com/technologies/ai/responsible-ai/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"FAIR progress in socially responsible AI,\" provides evidence for fairness, governance, privacy, and transparency. It supports fairness by detailing efforts to minimize bias through diverse datasets and the release of the Casual Conversations v2 dataset, along with the introduction of the FACET benchmark for fairness evaluation. The post also highlights the development of the ROBBIE tool for robust bias and toxicity evaluation, contributing to governance and transparency. Furthermore, the mention of consent-driven data collection for the Casual Conversations v2 dataset supports the privacy pillar.",
+          "title": "FAIR progress in socially responsible AI",
+          "url": "https://ai.meta.com/blog/fair-progress-and-learnings-across-socially-responsible-ai-research"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Connect 2024: The responsible approach to generative AI,\" provides evidence for external accountability, governance, privacy, and transparency. It details the incorporation of MLCommons' hazard taxonomy and ongoing collaborations for third-party AI risk evaluation, supporting external accountability and governance. The post also describes privacy-preserving measures for AI image analysis, such as preventing identification of individuals and employing safety-tuning and output filtering, which directly addresses privacy and operational governance. Furthermore, it highlights a multilayered safety approach including risk assessments, model testing, red-teaming, and the introduction of Llama Guard Vision for detecting problematic content, demonstrating operational due diligence, accountability, and transparency.",
+          "title": "Connect 2024: The responsible approach to generative AI",
+          "url": "https://ai.meta.com/blog/responsible-ai-connect-2024"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency** in Meta's AI systems. It details bias mitigation in ad delivery systems and demographic measurement techniques, including the use of an \"AI System Card tool\" for transparency and explainability, privacy-enhancing methods for fairness assessments, and a global experimental governance program. The post also highlights an AI-based feature allowing user influence on recommendations, serving as human oversight, and describes a cross-disciplinary team's work on AI fairness, supported by the design and rollout of an ML system for equitable ad distribution in response to a settlement, demonstrating external accountability.",
+          "title": "Meta's progress in AI fairness and transparency",
+          "url": "https://ai.meta.com/blog/responsible-ai-progress-meta-2022"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "The \"Meta AI Disclosures\" document provides evidence for the **governance** and **privacy** pillars. It supports governance by stating Meta AI's intent to use data in accordance with compliance obligations, indicating a commitment to regulatory adherence. Furthermore, it supports privacy by mentioning data usage in line with Meta's Privacy Policy, demonstrating a documented approach to handling user information.",
+          "title": "Meta AI Disclosures",
+          "url": "https://www.facebook.com/legal/meta-AI-disclosures"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 26,
+      "findings": "Meta documents its commitment to AI transparency through various resources. These include policy documents outlining transparency in model capabilities and fine-tuning, and blog posts describing the release of open-source tools and the use of AI System Cards. Toolkits and model cards further aim to make AI prediction processes transparent by detailing capabilities, evaluations, and responsible use.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Meta Responsible AI Practices,\" provides evidence for **governance, oversight, fairness, transparency, privacy, and external accountability**. It details Meta's framework for AI governance through oversight committees and accountability structures, including operational processes for evaluating AI model responses and fine-tuned models against safety benchmarks. The document also describes risk mitigation strategies for LLM-powered products, such as classifiers and blocklists, and outlines safety measures like red teaming and RLHF, demonstrating a commitment to responsible AI development and transparency in model capabilities and fine-tuning processes. Furthermore, it mentions privacy review processes for pretraining data and efforts to remove personal information, supporting the privacy pillar, and highlights the use of experts to evaluate AI models, contributing to external accountability.",
+          "title": "Meta Responsible AI Practices",
+          "url": "https://about.meta.com/technologies/ai/responsible-ai/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Meta AI Safety Blog,\" provides evidence for **external_accountability, governance, oversight, and transparency**. The blog details Meta's operational implementation of filters, classifiers, and LLMs for safety, alongside releasing open-source tools like Llama Guard 2 and CyberSecEval for developers, demonstrating transparency and governance. Furthermore, it describes rigorous evaluation processes including benchmark tests, red teaming with internal and external experts, and iterative human feedback, highlighting active oversight and external accountability mechanisms.",
+          "title": "Meta AI Safety Blog",
+          "url": "https://about.meta.com/blog/2024/01/ai-safety-technical-disclosures/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"FAIR progress in socially responsible AI,\" provides evidence for fairness, governance, privacy, and transparency. It supports fairness by detailing efforts to minimize bias through diverse datasets and the release of the Casual Conversations v2 dataset, along with the introduction of the FACET benchmark for fairness evaluation. The post also highlights the development of the ROBBIE tool for robust bias and toxicity evaluation, contributing to governance and transparency. Furthermore, the mention of consent-driven data collection for the Casual Conversations v2 dataset supports the privacy pillar.",
+          "title": "FAIR progress in socially responsible AI",
+          "url": "https://ai.meta.com/blog/fair-progress-and-learnings-across-socially-responsible-ai-research"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Connect 2024: The responsible approach to generative AI,\" provides evidence for external accountability, governance, privacy, and transparency. It details the incorporation of MLCommons' hazard taxonomy and ongoing collaborations for third-party AI risk evaluation, supporting external accountability and governance. The post also describes privacy-preserving measures for AI image analysis, such as preventing identification of individuals and employing safety-tuning and output filtering, which directly addresses privacy and operational governance. Furthermore, it highlights a multilayered safety approach including risk assessments, model testing, red-teaming, and the introduction of Llama Guard Vision for detecting problematic content, demonstrating operational due diligence, accountability, and transparency.",
+          "title": "Connect 2024: The responsible approach to generative AI",
+          "url": "https://ai.meta.com/blog/responsible-ai-connect-2024"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for **explainability, external accountability, fairness, governance, oversight, privacy, and transparency** in Meta's AI systems. It details bias mitigation in ad delivery systems and demographic measurement techniques, including the use of an \"AI System Card tool\" for transparency and explainability, privacy-enhancing methods for fairness assessments, and a global experimental governance program. The post also highlights an AI-based feature allowing user influence on recommendations, serving as human oversight, and describes a cross-disciplinary team's work on AI fairness, supported by the design and rollout of an ML system for equitable ad distribution in response to a settlement, demonstrating external accountability.",
+          "title": "Meta's progress in AI fairness and transparency",
+          "url": "https://ai.meta.com/blog/responsible-ai-progress-meta-2022"
+        },
+        {
+          "artifact_type": "system_card",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "The \"Meta AI System Cards\" resource provides evidence for **explainability**, **external accountability**, **fairness**, **governance**, and **transparency**. This system card resource supports these pillars by committing to ongoing AI transparency and documentation, aiming for a holistic understanding of AI impact, and exploring explainability through the System Cards themselves. Furthermore, it indicates a policy for responsible AI development and fairness by aiming to ensure teams consider unintended consequences before launch.",
+          "title": "Meta AI System Cards",
+          "url": "https://ai.meta.com/blog/system-cards-a-new-resource-for-understanding-how-ai-systems-work/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"System Cards, a new resource for understanding how AI systems work,\" provides evidence for **transparency**, **explainability**, **governance**, and **external accountability**. The post describes prototype tools designed to offer insight into AI architecture and operations, supporting transparency and explainability. It also highlights a commitment to these as pillars of Responsible AI, implying formal policy and governance, and mentions the RAI team consulting with external experts, demonstrating external accountability and operational governance.",
+          "title": "System Cards, a new resource for understanding how AI systems work",
+          "url": "https://ai.meta.com/blog/system-cards-a-new-resource-for-understanding-how-ai-systems-work"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned toolkit, \"LM Transparency Tool for Transformer Models,\" provides evidence for the **explainability** and **transparency** pillars of responsible AI. The toolkit aims to make AI prediction processes transparent and support interpretability, directly addressing explainability. Furthermore, by sharing open-source AI models and tools, it promotes transparency in AI development and deployment.",
+          "title": "LM Transparency Tool for Transformer Models",
+          "url": "https://ai.meta.com/research/publications/lm-transparency-tool-interactive-tool-for-analyzing-transformer-language-models"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Code Llama 70B Model Card,\" provides evidence for **governance** and **transparency**. It supports governance by outlining specific rules and policies for AI model content generation concerning sex crimes, non-violent crimes, and violent crimes, demonstrating a commitment to responsible AI behavior. The document also supports transparency by detailing AI capabilities, including evaluations and responsible use, and by mentioning the \"Model Card\" itself as a mechanism for providing information about the model.",
+          "title": "Code Llama 70B Model Card",
+          "url": "https://llama.meta.com/docs/model-cards-and-prompt-formats/other-models"
+        }
+      ],
+      "score": 2,
+      "source_count": 9
+    }
+  },
+  "published_at": "2026-02-23T21:55:11Z",
+  "run_id": "20260203_001424_bca8",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Drawing on 21 publicly available sources, Meta's published materials address all 7 evaluated responsible AI pillars, with documented public evidence found for each. Operational practices include the release of open-source tools for developers under transparency and efforts to minimize bias through diverse datasets for fairness. Policy documents further detail a framework for AI governance through oversight committees and accountability structures, and mention privacy review processes for pretraining data. Explainability is addressed through the use of an AI System Card tool, while external accountability highlights the incorporation of MLCommons' hazard taxonomy.",
+    "pillars_operational": 7,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 69,
+    "total_sources_used": 11
+  }
+}

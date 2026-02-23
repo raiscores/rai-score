@@ -1,0 +1,404 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Discover Financial",
+  "company_slug": "discover-financial",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 23,
+      "OPERATIONAL": 20,
+      "POLICY": 63
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Explainability",
+      "evidence_count": 26,
+      "findings": "The company states a commitment to understanding the underlying math of AI systems. A patented framework utilizes techniques like Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP) to interpret machine learning model outputs, detailing variable contributions to decisions. Blog posts also discuss automated feature engineering and its role in supporting model interpretability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post describes Discover's approach to responsible AI, providing evidence for **governance**, **oversight**, **explainability**, **fairness**, **transparency**, and **privacy**. The source details the creation of an AI Governance Council with representation from various departments, establishing guardrails and policies for AI deployment. It also highlights a commitment to understanding the underlying math of AI systems (transparency), ensuring no biases (fairness), and implementing human-in-the-loop oversight for model outputs.",
+          "title": "Q&A: How Discover Created an AI Governance Council",
+          "url": "https://computerworld.com/article/1637411/how-discover-financial-services-created-ai-governance-council.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper, US Patent 12050975, provides evidence for **explainability, fairness, governance, and transparency**. It details a patented framework that utilizes techniques like Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP) to interpret machine learning model outputs, directly supporting explainability by detailing variable contributions to decisions. The paper also implies governance and transparency through its description of generating adverse action reason codes and the use of clustering algorithms for data processing. While it mentions bias removal, specific operational or policy details for fairness are not elaborated upon.",
+          "title": "US Patent 12050975: System and method for utilizing grouped partial dependence plots and shapley additive explanations in the generation of adverse action reason codes",
+          "url": "https://patents.justia.com/patent/12050975"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This blog post supports the **explainability** and **transparency** pillars of responsible AI. It discusses automated feature engineering and its role in supporting model interpretability, highlighting the importance of input quality for ML accuracy. While the post describes concepts and capabilities related to AI/ML, it does not detail specific execution or formal commitments.",
+          "title": "What Is Feature Engineering and Can It Be Automated?",
+          "url": "https://technology.discover.com/posts/feature-engineering"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 4,
+      "findings": "Annual reports discuss regulatory compliance frameworks for models. They also discuss audit procedures for models, methodology, and assumptions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K Annual Report provides evidence for **governance**, **oversight**, and **external accountability**. The report details the company's use of machine-learning models in fraud detection and risk management, and its proprietary analytical tools for credit decisioning and automated loan origination, demonstrating governance over these automated systems. Furthermore, it discusses model risk governance, regulatory compliance frameworks, and audit procedures for models, methodology, and assumptions, which support oversight and external accountability.",
+          "title": "2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 5,
+      "findings": "The company states a commitment to ensuring no biases in AI systems and mentions a goal of being \"bias-free.\" A technical paper also references bias removal.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post describes Discover's approach to responsible AI, providing evidence for **governance**, **oversight**, **explainability**, **fairness**, **transparency**, and **privacy**. The source details the creation of an AI Governance Council with representation from various departments, establishing guardrails and policies for AI deployment. It also highlights a commitment to understanding the underlying math of AI systems (transparency), ensuring no biases (fairness), and implementing human-in-the-loop oversight for model outputs.",
+          "title": "Q&A: How Discover Created an AI Governance Council",
+          "url": "https://computerworld.com/article/1637411/how-discover-financial-services-created-ai-governance-council.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper, US Patent 12050975, provides evidence for **explainability, fairness, governance, and transparency**. It details a patented framework that utilizes techniques like Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP) to interpret machine learning model outputs, directly supporting explainability by detailing variable contributions to decisions. The paper also implies governance and transparency through its description of generating adverse action reason codes and the use of clustering algorithms for data processing. While it mentions bias removal, specific operational or policy details for fairness are not elaborated upon.",
+          "title": "US Patent 12050975: System and method for utilizing grouped partial dependence plots and shapley additive explanations in the generation of adverse action reason codes",
+          "url": "https://patents.justia.com/patent/12050975"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by mentioning a goal of being \"bias-free\" and governance by describing a \"test-and-learn approach\" and a \"responsible approach with partners.\" Transparency is supported through mentions of \"natural language processing\" and \"GenAI,\" detailing capabilities and benefits as part of their approach to AI testing and customer service.",
+          "title": "Using Generative AI to Improve Our Award-Winning Customer",
+          "url": "https://technology.discover.com/posts/generative-ai-customer-agent-experience"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 59,
+      "findings": "The company describes the creation of an AI Governance Council that outlines guardrails and policies for AI deployment. Annual reports detail the use of machine-learning models in fraud detection and risk management, proprietary analytical tools, and discuss model risk governance. Blog posts highlight the critical role of API governance, emphasizing organized API catalogs, operationalization, and the need for enforcement, authority, and required standards for AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This AWS blog post, \"Discover Builds Generative AI on AWS,\" provides evidence for **governance**, **oversight**, and **transparency**. It supports transparency by detailing the generative AI/ML solution, its infrastructure, and the intended capabilities. Evidence for governance and oversight is found in mentions of human-in-the-loop processes and risk mitigation steps for production, though specific execution details are not provided.",
+          "title": "Discover Builds Generative AI on AWS",
+          "url": "https://aws.amazon.com/solutions/case-studies/discover-financial-services-generative-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post describes Discover's approach to responsible AI, providing evidence for **governance**, **oversight**, **explainability**, **fairness**, **transparency**, and **privacy**. The source details the creation of an AI Governance Council with representation from various departments, establishing guardrails and policies for AI deployment. It also highlights a commitment to understanding the underlying math of AI systems (transparency), ensuring no biases (fairness), and implementing human-in-the-loop oversight for model outputs.",
+          "title": "Q&A: How Discover Created an AI Governance Council",
+          "url": "https://computerworld.com/article/1637411/how-discover-financial-services-created-ai-governance-council.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This Discover help page on common credit card fraud alert triggers provides evidence for **governance** and **oversight**. The document implies governance by describing automated monitoring and decision-making systems for fraud detection. Furthermore, it supports oversight by detailing a process for human review and confirmation of these automated fraud detection decisions.",
+          "title": "Common Credit Card Fraud Alert Triggers",
+          "url": "https://discover.com/credit-cards/card-smarts/credit-card-fraud-triggers"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper, US Patent 12050975, provides evidence for **explainability, fairness, governance, and transparency**. It details a patented framework that utilizes techniques like Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP) to interpret machine learning model outputs, directly supporting explainability by detailing variable contributions to decisions. The paper also implies governance and transparency through its description of generating adverse action reason codes and the use of clustering algorithms for data processing. While it mentions bias removal, specific operational or policy details for fairness are not elaborated upon.",
+          "title": "US Patent 12050975: System and method for utilizing grouped partial dependence plots and shapley additive explanations in the generation of adverse action reason codes",
+          "url": "https://patents.justia.com/patent/12050975"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K Annual Report provides evidence for **governance**, **oversight**, and **external accountability**. The report details the company's use of machine-learning models in fraud detection and risk management, and its proprietary analytical tools for credit decisioning and automated loan origination, demonstrating governance over these automated systems. Furthermore, it discusses model risk governance, regulatory compliance frameworks, and audit procedures for models, methodology, and assumptions, which support oversight and external accountability.",
+          "title": "2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"API Governance – The Unsung Hero of AI Transformation,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The post highlights the critical role of API governance in AI transformation, emphasizing organized API catalogs and operationalization as necessary policies for AI implementation. It further suggests that AI readiness requires a minimum maturity level in API governance and oversight, framing these as foundational for AI success and indicating a policy requirement for AI support.",
+          "title": "API Governance – The Unsung Hero of AI Transformation",
+          "url": "https://technology.discover.com/posts/api-governance-ai-multiplier"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"API Governance as the AI Multiplier, Part 2,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It highlights the need for enforcement and authority in AI governance, suggesting required standards and approval processes, and describes expanding C4Es into centers of enforcement and oversight for AI, implying operational execution of these measures. The post also discusses organizational changes for AI, indicating a need for governance structures, though it lacks specific operational or policy details.",
+          "title": "API Governance as the AI Multiplier, Part 2",
+          "url": "https://technology.discover.com/posts/api-governance-ai-multiplier-part2-people-governance-structure"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"API Governance as the AI Multiplier, Part 4,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by discussing the establishment of contracts for AI integration, focusing governance on the management plane, and advocating for future-ready governance structures for adaptive AI. The blog post also supports privacy by highlighting standards for secure AI agent access, which addresses the privacy of data accessed by AI.",
+          "title": "API Governance as the AI Multiplier, Part 4",
+          "url": "https://technology.discover.com/posts/api-governance-ai-multiplier-part4-technology-governed-systems-ai-era"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by mentioning a goal of being \"bias-free\" and governance by describing a \"test-and-learn approach\" and a \"responsible approach with partners.\" Transparency is supported through mentions of \"natural language processing\" and \"GenAI,\" detailing capabilities and benefits as part of their approach to AI testing and customer service.",
+          "title": "Using Generative AI to Improve Our Award-Winning Customer",
+          "url": "https://technology.discover.com/posts/generative-ai-customer-agent-experience"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Generative AI: Balancing Security with Innovation,\" provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It details the establishment of an AI Governance Council and specific guardrails like an intake process and risk management framework, demonstrating strong governance. Furthermore, the post outlines operational oversight mechanisms such as human-in-the-loop validation and data labeling procedures, while also addressing privacy concerns through authentication and authorization protocols.",
+          "title": "Generative AI: Balancing Security with Innovation",
+          "url": "https://technology.discover.com/posts/generative-ai-security"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"GenAI Case Study: How Discover Reduces Risk with GenAI,\" provides evidence for **governance** and **oversight**. It details a platform for managing GenAI models and data access, alongside responsible resource usage policies, demonstrating strong governance. Furthermore, the mention of human-in-the-loop processes and risk mitigation in autonomous decisions highlights the implementation of oversight mechanisms.",
+          "title": "GenAI Case Study: How Discover Reduces Risk with GenAI",
+          "url": "https://technology.discover.com/posts/reduce-risk-generative-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 13,
+      "findings": "The company references human-in-the-loop processes for AI production, model outputs, and autonomous decisions, including human review for fraud detection. Annual reports discuss model risk governance, regulatory compliance frameworks, and audit procedures for models. Blog posts highlight the need for enforcement, authority, required standards, and approval processes in AI governance, describing the expansion of C4Es into centers of enforcement and oversight for AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This AWS blog post, \"Discover Builds Generative AI on AWS,\" provides evidence for **governance**, **oversight**, and **transparency**. It supports transparency by detailing the generative AI/ML solution, its infrastructure, and the intended capabilities. Evidence for governance and oversight is found in mentions of human-in-the-loop processes and risk mitigation steps for production, though specific execution details are not provided.",
+          "title": "Discover Builds Generative AI on AWS",
+          "url": "https://aws.amazon.com/solutions/case-studies/discover-financial-services-generative-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post describes Discover's approach to responsible AI, providing evidence for **governance**, **oversight**, **explainability**, **fairness**, **transparency**, and **privacy**. The source details the creation of an AI Governance Council with representation from various departments, establishing guardrails and policies for AI deployment. It also highlights a commitment to understanding the underlying math of AI systems (transparency), ensuring no biases (fairness), and implementing human-in-the-loop oversight for model outputs.",
+          "title": "Q&A: How Discover Created an AI Governance Council",
+          "url": "https://computerworld.com/article/1637411/how-discover-financial-services-created-ai-governance-council.html"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This Discover help page on common credit card fraud alert triggers provides evidence for **governance** and **oversight**. The document implies governance by describing automated monitoring and decision-making systems for fraud detection. Furthermore, it supports oversight by detailing a process for human review and confirmation of these automated fraud detection decisions.",
+          "title": "Common Credit Card Fraud Alert Triggers",
+          "url": "https://discover.com/credit-cards/card-smarts/credit-card-fraud-triggers"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K Annual Report provides evidence for **governance**, **oversight**, and **external accountability**. The report details the company's use of machine-learning models in fraud detection and risk management, and its proprietary analytical tools for credit decisioning and automated loan origination, demonstrating governance over these automated systems. Furthermore, it discusses model risk governance, regulatory compliance frameworks, and audit procedures for models, methodology, and assumptions, which support oversight and external accountability.",
+          "title": "2024 Form 10-K Annual Report",
+          "url": "https://sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"API Governance – The Unsung Hero of AI Transformation,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The post highlights the critical role of API governance in AI transformation, emphasizing organized API catalogs and operationalization as necessary policies for AI implementation. It further suggests that AI readiness requires a minimum maturity level in API governance and oversight, framing these as foundational for AI success and indicating a policy requirement for AI support.",
+          "title": "API Governance – The Unsung Hero of AI Transformation",
+          "url": "https://technology.discover.com/posts/api-governance-ai-multiplier"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"API Governance as the AI Multiplier, Part 2,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It highlights the need for enforcement and authority in AI governance, suggesting required standards and approval processes, and describes expanding C4Es into centers of enforcement and oversight for AI, implying operational execution of these measures. The post also discusses organizational changes for AI, indicating a need for governance structures, though it lacks specific operational or policy details.",
+          "title": "API Governance as the AI Multiplier, Part 2",
+          "url": "https://technology.discover.com/posts/api-governance-ai-multiplier-part2-people-governance-structure"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Generative AI: Balancing Security with Innovation,\" provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It details the establishment of an AI Governance Council and specific guardrails like an intake process and risk management framework, demonstrating strong governance. Furthermore, the post outlines operational oversight mechanisms such as human-in-the-loop validation and data labeling procedures, while also addressing privacy concerns through authentication and authorization protocols.",
+          "title": "Generative AI: Balancing Security with Innovation",
+          "url": "https://technology.discover.com/posts/generative-ai-security"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"GenAI Case Study: How Discover Reduces Risk with GenAI,\" provides evidence for **governance** and **oversight**. It details a platform for managing GenAI models and data access, alongside responsible resource usage policies, demonstrating strong governance. Furthermore, the mention of human-in-the-loop processes and risk mitigation in autonomous decisions highlights the implementation of oversight mechanisms.",
+          "title": "GenAI Case Study: How Discover Reduces Risk with GenAI",
+          "url": "https://technology.discover.com/posts/reduce-risk-generative-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 4,
+      "findings": "The company's approach to responsible AI references privacy. Blog posts highlight standards for secure AI agent access, stating that this addresses the privacy of data accessed by AI. Additionally, blog posts address privacy concerns through authentication and authorization protocols.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post describes Discover's approach to responsible AI, providing evidence for **governance**, **oversight**, **explainability**, **fairness**, **transparency**, and **privacy**. The source details the creation of an AI Governance Council with representation from various departments, establishing guardrails and policies for AI deployment. It also highlights a commitment to understanding the underlying math of AI systems (transparency), ensuring no biases (fairness), and implementing human-in-the-loop oversight for model outputs.",
+          "title": "Q&A: How Discover Created an AI Governance Council",
+          "url": "https://computerworld.com/article/1637411/how-discover-financial-services-created-ai-governance-council.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"API Governance as the AI Multiplier, Part 4,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by discussing the establishment of contracts for AI integration, focusing governance on the management plane, and advocating for future-ready governance structures for adaptive AI. The blog post also supports privacy by highlighting standards for secure AI agent access, which addresses the privacy of data accessed by AI.",
+          "title": "API Governance as the AI Multiplier, Part 4",
+          "url": "https://technology.discover.com/posts/api-governance-ai-multiplier-part4-technology-governed-systems-ai-era"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Generative AI: Balancing Security with Innovation,\" provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It details the establishment of an AI Governance Council and specific guardrails like an intake process and risk management framework, demonstrating strong governance. Furthermore, the post outlines operational oversight mechanisms such as human-in-the-loop validation and data labeling procedures, while also addressing privacy concerns through authentication and authorization protocols.",
+          "title": "Generative AI: Balancing Security with Innovation",
+          "url": "https://technology.discover.com/posts/generative-ai-security"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 47,
+      "findings": "Documentation details the generative AI/ML solution, its infrastructure, and intended capabilities, alongside a stated commitment to understanding the underlying math of AI systems. Blog posts discuss automated feature engineering for model interpretability and highlight the importance of input quality, also mentioning natural language processing and GenAI capabilities. A patented framework describes the generation of adverse action reason codes.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This AWS blog post, \"Discover Builds Generative AI on AWS,\" provides evidence for **governance**, **oversight**, and **transparency**. It supports transparency by detailing the generative AI/ML solution, its infrastructure, and the intended capabilities. Evidence for governance and oversight is found in mentions of human-in-the-loop processes and risk mitigation steps for production, though specific execution details are not provided.",
+          "title": "Discover Builds Generative AI on AWS",
+          "url": "https://aws.amazon.com/solutions/case-studies/discover-financial-services-generative-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post describes Discover's approach to responsible AI, providing evidence for **governance**, **oversight**, **explainability**, **fairness**, **transparency**, and **privacy**. The source details the creation of an AI Governance Council with representation from various departments, establishing guardrails and policies for AI deployment. It also highlights a commitment to understanding the underlying math of AI systems (transparency), ensuring no biases (fairness), and implementing human-in-the-loop oversight for model outputs.",
+          "title": "Q&A: How Discover Created an AI Governance Council",
+          "url": "https://computerworld.com/article/1637411/how-discover-financial-services-created-ai-governance-council.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper, US Patent 12050975, provides evidence for **explainability, fairness, governance, and transparency**. It details a patented framework that utilizes techniques like Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP) to interpret machine learning model outputs, directly supporting explainability by detailing variable contributions to decisions. The paper also implies governance and transparency through its description of generating adverse action reason codes and the use of clustering algorithms for data processing. While it mentions bias removal, specific operational or policy details for fairness are not elaborated upon.",
+          "title": "US Patent 12050975: System and method for utilizing grouped partial dependence plots and shapley additive explanations in the generation of adverse action reason codes",
+          "url": "https://patents.justia.com/patent/12050975"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This blog post supports the **explainability** and **transparency** pillars of responsible AI. It discusses automated feature engineering and its role in supporting model interpretability, highlighting the importance of input quality for ML accuracy. While the post describes concepts and capabilities related to AI/ML, it does not detail specific execution or formal commitments.",
+          "title": "What Is Feature Engineering and Can It Be Automated?",
+          "url": "https://technology.discover.com/posts/feature-engineering"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **fairness**, **governance**, and **transparency**. It supports fairness by mentioning a goal of being \"bias-free\" and governance by describing a \"test-and-learn approach\" and a \"responsible approach with partners.\" Transparency is supported through mentions of \"natural language processing\" and \"GenAI,\" detailing capabilities and benefits as part of their approach to AI testing and customer service.",
+          "title": "Using Generative AI to Improve Our Award-Winning Customer",
+          "url": "https://technology.discover.com/posts/generative-ai-customer-agent-experience"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_016",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"GenAI Case Study: How Discover Reduces Risk with GenAI,\" provides evidence for **governance** and **oversight**. It details a platform for managing GenAI models and data access, alongside responsible resource usage policies, demonstrating strong governance. Furthermore, the mention of human-in-the-loop processes and risk mitigation in autonomous decisions highlights the implementation of oversight mechanisms.",
+          "title": "GenAI Case Study: How Discover Reduces Risk with GenAI",
+          "url": "https://technology.discover.com/posts/reduce-risk-generative-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-02-23T21:48:42Z",
+  "run_id": "20260202_221607_017f",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Discover Financial's public disclosures detail operational practices for transparency, including documentation of generative AI/ML solution infrastructure, and for governance, describing the creation of an AI Governance Council. All 7 evaluated pillars have documented public evidence, with fairness and explainability addressed at the policy level. Further operational evidence includes human-in-the-loop processes for AI production under oversight, and annual reports discussing regulatory compliance frameworks for models under external accountability. Policy-level commitments also include the company's stated commitment to ensuring no biases in AI systems for fairness, and a patented framework utilizing techniques like Partial Dependence Plots (PDP) for explainability. These findings are based on 16 publicly available sources.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 106,
+    "total_sources_used": 12
+  }
+}

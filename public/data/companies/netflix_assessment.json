@@ -1,0 +1,368 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "Netflix",
+  "company_slug": "netflix",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 51,
+      "OPERATIONAL": 7,
+      "POLICY": 16
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Explainability",
+      "evidence_count": 8,
+      "findings": "Sources describe documented explainability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, fairness, governance, privacy, and transparency. It examines Netflix's recommendation algorithm, discussing the need for explainable AI systems and highlighting concerns about algorithmic fairness, particularly a documented 2018 incident of racial bias in thumbnail recommendations. The paper also touches upon the limitations of current fairness approaches due to the non-collection of explicit demographic data, implying considerations for privacy and governance.",
+          "title": "Because You Watched: How Do Streaming Services' Recommender Systems Work - Academic Study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12649538"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "An enforcement action report references Netflix's commitments to AI Governance. The report also references commitments to Certification for AI, indicating formal standards.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This enforcement action report provides evidence for **governance**, **external accountability**, and **privacy**. It supports governance and external accountability by referencing commitments to \"AI Governance\" and \"Certification\" for AI, indicating formal standards. The report also supports the privacy pillar by mentioning an \"AI-based solution\" for \"personal data discovery and classification,\" directly linking AI to data protection practices.",
+          "title": "Dutch DPA €4.75 Million GDPR Enforcement Action Against Netflix",
+          "url": "https://dataprivacymanager.net/netflix-fined-e4-75-million-for-data-privacy-violations-by-dutch-dpa"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 11,
+      "findings": "Netflix outlines policies aimed at avoiding harm to reputation and ensuring quality outputs in generative AI content production. The company states that demographic information like age and gender is excluded from recommendation system decision-making. Additionally, an engineering blog post describes the use of translation for models to address user base expansion.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Using Generative AI in Content Production,\" provides evidence for **fairness, governance, oversight, and privacy**. It supports **privacy** by detailing policies against storing or reusing production data and requiring consent for AI model usage. **Governance** is evidenced through requirements for enterprise-secured environments, vendor standards for data protection and consent, and rules for AI model deployment. **Oversight** is demonstrated by the requirement for escalating GenAI use for consent and legal review, and seeking guidance from a Netflix contact. Finally, **fairness** is addressed by policies aimed at avoiding harm to reputation and ensuring quality outputs.",
+          "title": "Using Generative AI in Content Production",
+          "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Netflix help page provides evidence for fairness, privacy, and transparency. It supports transparency by describing the recommendation system's inputs, data processing, and continuous improvement feedback loops. The page also supports fairness and privacy by explicitly stating that demographic information like age and gender is excluded from decision-making.",
+          "title": "How Netflix's Recommendations System Works",
+          "url": "https://help.netflix.com/en/node/100639"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, fairness, governance, privacy, and transparency. It examines Netflix's recommendation algorithm, discussing the need for explainable AI systems and highlighting concerns about algorithmic fairness, particularly a documented 2018 incident of racial bias in thumbnail recommendations. The paper also touches upon the limitations of current fairness approaches due to the non-collection of explicit demographic data, implying considerations for privacy and governance.",
+          "title": "Because You Watched: How Do Streaming Services' Recommender Systems Work - Academic Study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12649538"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This Netflix engineering blog post, \"Building a Media Understanding Platform for ML Innovations,\" provides evidence for **fairness, governance, and transparency**. The blog post supports fairness by describing how translation for models is used to address user base expansion. It demonstrates governance through the mention of a dedicated ML Platform team responsible for algorithm execution and tooling. Finally, transparency is supported by detailed descriptions of algorithm design choices, system capabilities, operational processes, and the ML lifecycle, offering insight into their media understanding systems.",
+          "title": "Building a Media Understanding Platform for ML Innovations",
+          "url": "https://netflixtechblog.com/building-a-media-understanding-platform-for-ml-innovations-9bef9962dcb7"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 26,
+      "findings": "Netflix outlines requirements for enterprise-secured environments, vendor standards for data protection and consent, and rules for AI model deployment in generative AI content production. An enforcement action report references commitments to AI Governance and Certification for AI. Furthermore, an engineering blog post mentions a dedicated ML Platform team responsible for algorithm execution and tooling. Shareholder proposals request public disclosure of ethical AI guidelines and board oversight mechanisms, with an audit report noting the board's existing AI oversight mechanisms, including CTO briefings and guidelines.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Using Generative AI in Content Production,\" provides evidence for **fairness, governance, oversight, and privacy**. It supports **privacy** by detailing policies against storing or reusing production data and requiring consent for AI model usage. **Governance** is evidenced through requirements for enterprise-secured environments, vendor standards for data protection and consent, and rules for AI model deployment. **Oversight** is demonstrated by the requirement for escalating GenAI use for consent and legal review, and seeking guidance from a Netflix contact. Finally, **fairness** is addressed by policies aimed at avoiding harm to reputation and ensuring quality outputs.",
+          "title": "Using Generative AI in Content Production",
+          "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This enforcement action report provides evidence for **governance**, **external accountability**, and **privacy**. It supports governance and external accountability by referencing commitments to \"AI Governance\" and \"Certification\" for AI, indicating formal standards. The report also supports the privacy pillar by mentioning an \"AI-based solution\" for \"personal data discovery and classification,\" directly linking AI to data protection practices.",
+          "title": "Dutch DPA €4.75 Million GDPR Enforcement Action Against Netflix",
+          "url": "https://dataprivacymanager.net/netflix-fined-e4-75-million-for-data-privacy-violations-by-dutch-dpa"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Analysis of Netflix GDPR Fine and Privacy Transparency Failures,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by highlighting concerns about data protection risks associated with AI tools and the need for responsible management, as indicated by the link between \"GDPR Compliance\" and \"risk\" to \"AI Translator\" tools. The report also supports the privacy pillar by detailing specific GDPR transparency gaps, including unclear privacy statements on data usage, absent disclosure of international data transfer safeguards, and inadequate responses to customer data access requests.",
+          "title": "Analysis of Netflix GDPR Fine and Privacy Transparency Failures",
+          "url": "https://gdpreu.org/why-netflix-was-fined-for-failing-gdpr-transparency"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, fairness, governance, privacy, and transparency. It examines Netflix's recommendation algorithm, discussing the need for explainable AI systems and highlighting concerns about algorithmic fairness, particularly a documented 2018 incident of racial bias in thumbnail recommendations. The paper also touches upon the limitations of current fairness approaches due to the non-collection of explicit demographic data, implying considerations for privacy and governance.",
+          "title": "Because You Watched: How Do Streaming Services' Recommender Systems Work - Academic Study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12649538"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This Netflix engineering blog post, \"Building a Media Understanding Platform for ML Innovations,\" provides evidence for **fairness, governance, and transparency**. The blog post supports fairness by describing how translation for models is used to address user base expansion. It demonstrates governance through the mention of a dedicated ML Platform team responsible for algorithm execution and tooling. Finally, transparency is supported by detailed descriptions of algorithm design choices, system capabilities, operational processes, and the ML lifecycle, offering insight into their media understanding systems.",
+          "title": "Building a Media Understanding Platform for ML Innovations",
+          "url": "https://netflixtechblog.com/building-a-media-understanding-platform-for-ml-innovations-9bef9962dcb7"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **privacy** pillars of responsible AI. It highlights the cancellation of a recommendation algorithm contest due to privacy litigation and an FTC inquiry concerning the inadequate anonymization of customer data, demonstrating a failure in data governance and a breach of customer privacy. The source also touches upon **transparency** by referencing the recommendation algorithm and the datasets provided to contestants for its improvement.",
+          "title": "Netflix Cancels Recommendation Contest After Privacy Lawsuit",
+          "url": "https://wired.com/2010/03/netflix-cancels-contest"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This shareholder resolution, filed via AFL-CIO, provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by requesting public disclosure of AI usage transparency reports, ethical guidelines, and board oversight mechanisms, and by highlighting the potential for such measures to strengthen ethical AI use. The resolution also touches on privacy by expressing a view that AI systems \"should not be\" used without consent, and it directly supports transparency through its core request for a public AI transparency report.",
+          "title": "AFL-CIO AI Transparency Report Shareholder Proposal at Netflix",
+          "url": "https://collaborate.unpri.org/group/23411/home"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This audit report on a Netflix shareholder proposal provides evidence for the **governance** and **transparency** pillars of responsible AI. It documents the proposal's call for ethical AI guidelines and board oversight (governance), as well as the request for a report detailing AI use and the board's role (transparency). The report also notes the board's existing AI oversight mechanisms, including CTO briefings and guidelines, which further support the governance pillar.",
+          "title": "AI Ethics Proposal Attracts Support Among Netflix Shareholders",
+          "url": "https://governance-intelligence.com/shareholders-activism/ai-ethics-proposal-attracts-support-among-netflix-shareholders"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 6,
+      "findings": "Netflix's policy documents outline a requirement for escalating Generative AI use for consent and legal review, and for seeking guidance from a Netflix contact. A technical blog post also mentions human determination for issues related to machine learning and AI techniques in predictive systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Using Generative AI in Content Production,\" provides evidence for **fairness, governance, oversight, and privacy**. It supports **privacy** by detailing policies against storing or reusing production data and requiring consent for AI model usage. **Governance** is evidenced through requirements for enterprise-secured environments, vendor standards for data protection and consent, and rules for AI model deployment. **Oversight** is demonstrated by the requirement for escalating GenAI use for consent and legal review, and seeking guidance from a Netflix contact. Finally, **fairness** is addressed by policies aimed at avoiding harm to reputation and ensuring quality outputs.",
+          "title": "Using Generative AI in Content Production",
+          "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This Netflix technical blog post provides evidence for **oversight** by mentioning human determination for issues and for **transparency** by describing the use of machine learning and AI techniques for predictive systems in content delivery. The post details how these ML-based systems are leveraged for device reliability, network optimization, and incident response, aligning with the transparency pillar through its descriptive explanation of AI/ML capabilities and applications.",
+          "title": "Using Machine Learning to Improve Streaming Quality at Netflix",
+          "url": "https://netflixtechblog.com/using-machine-learning-to-improve-streaming-quality-at-netflix-9651263ef09f"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 13,
+      "findings": "Netflix details policies against storing or reusing production data and requires consent for AI model usage in generative AI content production. A help page states that demographic information like age and gender is excluded from recommendation system decision-making. Additionally, an enforcement action report mentions an AI-based solution for personal data discovery and classification.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This policy document, \"Using Generative AI in Content Production,\" provides evidence for **fairness, governance, oversight, and privacy**. It supports **privacy** by detailing policies against storing or reusing production data and requiring consent for AI model usage. **Governance** is evidenced through requirements for enterprise-secured environments, vendor standards for data protection and consent, and rules for AI model deployment. **Oversight** is demonstrated by the requirement for escalating GenAI use for consent and legal review, and seeking guidance from a Netflix contact. Finally, **fairness** is addressed by policies aimed at avoiding harm to reputation and ensuring quality outputs.",
+          "title": "Using Generative AI in Content Production",
+          "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Netflix help page provides evidence for fairness, privacy, and transparency. It supports transparency by describing the recommendation system's inputs, data processing, and continuous improvement feedback loops. The page also supports fairness and privacy by explicitly stating that demographic information like age and gender is excluded from decision-making.",
+          "title": "How Netflix's Recommendations System Works",
+          "url": "https://help.netflix.com/en/node/100639"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This enforcement action report provides evidence for **governance**, **external accountability**, and **privacy**. It supports governance and external accountability by referencing commitments to \"AI Governance\" and \"Certification\" for AI, indicating formal standards. The report also supports the privacy pillar by mentioning an \"AI-based solution\" for \"personal data discovery and classification,\" directly linking AI to data protection practices.",
+          "title": "Dutch DPA €4.75 Million GDPR Enforcement Action Against Netflix",
+          "url": "https://dataprivacymanager.net/netflix-fined-e4-75-million-for-data-privacy-violations-by-dutch-dpa"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This audit report, \"Analysis of Netflix GDPR Fine and Privacy Transparency Failures,\" provides evidence for the **governance** and **privacy** pillars. It supports governance by highlighting concerns about data protection risks associated with AI tools and the need for responsible management, as indicated by the link between \"GDPR Compliance\" and \"risk\" to \"AI Translator\" tools. The report also supports the privacy pillar by detailing specific GDPR transparency gaps, including unclear privacy statements on data usage, absent disclosure of international data transfer safeguards, and inadequate responses to customer data access requests.",
+          "title": "Analysis of Netflix GDPR Fine and Privacy Transparency Failures",
+          "url": "https://gdpreu.org/why-netflix-was-fined-for-failing-gdpr-transparency"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, fairness, governance, privacy, and transparency. It examines Netflix's recommendation algorithm, discussing the need for explainable AI systems and highlighting concerns about algorithmic fairness, particularly a documented 2018 incident of racial bias in thumbnail recommendations. The paper also touches upon the limitations of current fairness approaches due to the non-collection of explicit demographic data, implying considerations for privacy and governance.",
+          "title": "Because You Watched: How Do Streaming Services' Recommender Systems Work - Academic Study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12649538"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **privacy** pillars of responsible AI. It highlights the cancellation of a recommendation algorithm contest due to privacy litigation and an FTC inquiry concerning the inadequate anonymization of customer data, demonstrating a failure in data governance and a breach of customer privacy. The source also touches upon **transparency** by referencing the recommendation algorithm and the datasets provided to contestants for its improvement.",
+          "title": "Netflix Cancels Recommendation Contest After Privacy Lawsuit",
+          "url": "https://wired.com/2010/03/netflix-cancels-contest"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This shareholder resolution, filed via AFL-CIO, provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by requesting public disclosure of AI usage transparency reports, ethical guidelines, and board oversight mechanisms, and by highlighting the potential for such measures to strengthen ethical AI use. The resolution also touches on privacy by expressing a view that AI systems \"should not be\" used without consent, and it directly supports transparency through its core request for a public AI transparency report.",
+          "title": "AFL-CIO AI Transparency Report Shareholder Proposal at Netflix",
+          "url": "https://collaborate.unpri.org/group/23411/home"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 47,
+      "findings": "Netflix provides transparency by describing its recommendation system's inputs, data processing, and continuous improvement feedback loops. Technical blog posts detail the use of machine learning and AI techniques for predictive systems in content delivery, including their leverage for device reliability, network optimization, and incident response. Further transparency is offered through descriptions of algorithm design choices, system capabilities, operational processes, and the ML lifecycle for media understanding systems, as well as the technical foundation of recommender systems. Shareholder resolutions and audit reports document requests for public disclosure of AI usage transparency reports and details on AI use and the board's role.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Netflix help page provides evidence for fairness, privacy, and transparency. It supports transparency by describing the recommendation system's inputs, data processing, and continuous improvement feedback loops. The page also supports fairness and privacy by explicitly stating that demographic information like age and gender is excluded from decision-making.",
+          "title": "How Netflix's Recommendations System Works",
+          "url": "https://help.netflix.com/en/node/100639"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for explainability, fairness, governance, privacy, and transparency. It examines Netflix's recommendation algorithm, discussing the need for explainable AI systems and highlighting concerns about algorithmic fairness, particularly a documented 2018 incident of racial bias in thumbnail recommendations. The paper also touches upon the limitations of current fairness approaches due to the non-collection of explicit demographic data, implying considerations for privacy and governance.",
+          "title": "Because You Watched: How Do Streaming Services' Recommender Systems Work - Academic Study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12649538"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This Netflix technical blog post provides evidence for **oversight** by mentioning human determination for issues and for **transparency** by describing the use of machine learning and AI techniques for predictive systems in content delivery. The post details how these ML-based systems are leveraged for device reliability, network optimization, and incident response, aligning with the transparency pillar through its descriptive explanation of AI/ML capabilities and applications.",
+          "title": "Using Machine Learning to Improve Streaming Quality at Netflix",
+          "url": "https://netflixtechblog.com/using-machine-learning-to-improve-streaming-quality-at-netflix-9651263ef09f"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This Netflix engineering blog post, \"Building a Media Understanding Platform for ML Innovations,\" provides evidence for **fairness, governance, and transparency**. The blog post supports fairness by describing how translation for models is used to address user base expansion. It demonstrates governance through the mention of a dedicated ML Platform team responsible for algorithm execution and tooling. Finally, transparency is supported by detailed descriptions of algorithm design choices, system capabilities, operational processes, and the ML lifecycle, offering insight into their media understanding systems.",
+          "title": "Building a Media Understanding Platform for ML Innovations",
+          "url": "https://netflixtechblog.com/building-a-media-understanding-platform-for-ml-innovations-9bef9962dcb7"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Netflix Research blog post provides evidence for the **transparency** pillar of responsible AI. The post describes the technical foundation of Netflix's recommender systems, including their approach to candidate generation and ranking algorithms, which offers insight into how their personalization works.",
+          "title": "Netflix Research: Personalization and Recommender Systems",
+          "url": "https://research.netflix.com/research-area/recommendations"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **privacy** pillars of responsible AI. It highlights the cancellation of a recommendation algorithm contest due to privacy litigation and an FTC inquiry concerning the inadequate anonymization of customer data, demonstrating a failure in data governance and a breach of customer privacy. The source also touches upon **transparency** by referencing the recommendation algorithm and the datasets provided to contestants for its improvement.",
+          "title": "Netflix Cancels Recommendation Contest After Privacy Lawsuit",
+          "url": "https://wired.com/2010/03/netflix-cancels-contest"
+        },
+        {
+          "artifact_type": "charter",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This shareholder resolution, filed via AFL-CIO, provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by requesting public disclosure of AI usage transparency reports, ethical guidelines, and board oversight mechanisms, and by highlighting the potential for such measures to strengthen ethical AI use. The resolution also touches on privacy by expressing a view that AI systems \"should not be\" used without consent, and it directly supports transparency through its core request for a public AI transparency report.",
+          "title": "AFL-CIO AI Transparency Report Shareholder Proposal at Netflix",
+          "url": "https://collaborate.unpri.org/group/23411/home"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This audit report on a Netflix shareholder proposal provides evidence for the **governance** and **transparency** pillars of responsible AI. It documents the proposal's call for ethical AI guidelines and board oversight (governance), as well as the request for a report detailing AI use and the board's role (transparency). The report also notes the board's existing AI oversight mechanisms, including CTO briefings and guidelines, which further support the governance pillar.",
+          "title": "AI Ethics Proposal Attracts Support Among Netflix Shareholders",
+          "url": "https://governance-intelligence.com/shareholders-activism/ai-ethics-proposal-attracts-support-among-netflix-shareholders"
+        }
+      ],
+      "score": 1,
+      "source_count": 8
+    }
+  },
+  "published_at": "2026-02-23T21:55:55Z",
+  "run_id": "20260202_235048_f33a",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Netflix's help page describes the recommendation system's inputs, data processing, and continuous improvement feedback loops, demonstrating practices related to transparency. This is part of the evidence addressing 6 of 7 evaluated responsible AI pillars, with policies also outlining requirements for enterprise-secured environments for Generative AI under governance and policies against storing or reusing production data for privacy. Further policy-level disclosures include requirements for escalating Generative AI use for consent and legal review under oversight, and commitments to AI Governance referenced in enforcement action reports for external accountability. No qualifying public evidence was found for explainability. These findings are drawn from 18 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 74,
+    "total_sources_used": 11
+  }
+}

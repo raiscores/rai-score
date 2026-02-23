@@ -1,0 +1,425 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Northrop Grumman",
+  "company_slug": "northrop-grumman",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 17,
+      "OPERATIONAL": 9,
+      "POLICY": 41
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "Help pages state that AI systems are auditable.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post by Northrop Grumman's Chief AI Architect discusses operationalizing DoD AI principles, providing evidence for **governance**, **fairness**, and **external accountability**. The post highlights the challenge of integrating AI ethics into development and testing processes, emphasizing continuous retesting, policy development for AI testing and documentation, and the need for AI to be \"equitable\" (fairness) and \"governable\" (governance). Furthermore, it requires AI software to be \"auditable\" (external accountability) and \"robust\" (governance) to ensure safety and ethical compliance in defense applications.",
+          "title": "AI Ethics: Building Security and Responsibility into Intelligent Systems",
+          "url": "https://northropgrumman.com/what-we-do/mission-solutions/artificial-intelligence-and-machine-learning/ai-ethics-building-security-and-responsibility-into-intelligent-systems"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This help page from Northrop Grumman demonstrates a commitment to responsible AI by outlining principles that align with DoD guidelines. The document supports the **fairness** and **governance** pillars by stating AI technologies are equitable and accountable, and it supports **external_accountability** by noting AI is auditable. Furthermore, it addresses **oversight** and **privacy** by listing principles of human-centered oversight and secure data handling.",
+          "title": "Artificial Intelligence and Machine Learning - Northrop Grumman",
+          "url": "https://northropgrumman.com/what-we-do/mission-solutions/artificial-intelligence-and-machine-learning"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 14,
+      "findings": "The company emphasizes the need for AI systems to be equitable and states that its AI technologies are equitable. Documentation describes the implementation of bias testing, diverse engineering teams, and data provenance logging to contribute to operational fairness. The company also documents a commitment to mitigating and reducing bias, establishing frameworks to avoid harms, and detailing goals for fairness and bias mitigation in AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post by Northrop Grumman's Chief AI Architect discusses operationalizing DoD AI principles, providing evidence for **governance**, **fairness**, and **external accountability**. The post highlights the challenge of integrating AI ethics into development and testing processes, emphasizing continuous retesting, policy development for AI testing and documentation, and the need for AI to be \"equitable\" (fairness) and \"governable\" (governance). Furthermore, it requires AI software to be \"auditable\" (external accountability) and \"robust\" (governance) to ensure safety and ethical compliance in defense applications.",
+          "title": "AI Ethics: Building Security and Responsibility into Intelligent Systems",
+          "url": "https://northropgrumman.com/what-we-do/mission-solutions/artificial-intelligence-and-machine-learning/ai-ethics-building-security-and-responsibility-into-intelligent-systems"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This help page from Northrop Grumman demonstrates a commitment to responsible AI by outlining principles that align with DoD guidelines. The document supports the **fairness** and **governance** pillars by stating AI technologies are equitable and accountable, and it supports **external_accountability** by noting AI is auditable. Furthermore, it addresses **oversight** and **privacy** by listing principles of human-centered oversight and secure data handling.",
+          "title": "Artificial Intelligence and Machine Learning - Northrop Grumman",
+          "url": "https://northropgrumman.com/what-we-do/mission-solutions/artificial-intelligence-and-machine-learning"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "Northrop Grumman's formal comments to NIST on the AI Risk Management Framework provide evidence for the **fairness** and **governance** pillars. The document supports fairness by recommending specific approaches to address and mitigate data bias in machine learning models, emphasizing the quality of training data. It also supports governance through suggestions for rewording statements on stakeholder involvement in AI risk management, indicating a focus on policy considerations.",
+          "title": "1st Draft AI RMF Comments: Northrop Grumman",
+          "url": "https://nist.gov/document/1st-draft-ai-rmf-comments-northrop-grumman"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This third-party document, \"Northrop Aligns AI Development With Pentagon's Ethical Principles,\" provides evidence for **fairness** and **governance**. The document details Northrop's implementation of bias testing, diverse engineering teams, and data provenance logging, which contribute to operational fairness. Furthermore, it highlights their use of partner governance tools, extension of DevSecOps to AI development, and alignment with ethical principles, demonstrating a policy for responsible AI governance.",
+          "title": "Northrop Aligns AI Development With Pentagon's Ethical Principles",
+          "url": "https://executivebiz.com/articles/northrop-aligns-ai-development-with-pentagons-ethical-principles-to-achieve-justified-confidence"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This Northrop Grumman case study, \"Delivering the Promise of Responsible Artificial Intelligence,\" provides evidence for the **governance**, **fairness**, and **transparency** pillars of responsible AI. The document highlights a commitment to governance through the mention of an AI governance platform and policies guiding AI development, deployment, and use, as well as the extension of DevSecOps to automate and document AI practices for risk management. Evidence for fairness is found in the explicit requirement for equitability in AI systems, while transparency is supported by the emphasis on data provenance and lineage as critical requirements for responsible AI development.",
+          "title": "Delivering the Promise of Responsible Artificial Intelligence",
+          "url": "https://magazine.ethisphere.com/delivering-the-promise-of-responsible-artificial-intelligence"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"EqualAI's Inaugural White Paper on Responsible AI Governance,\" provides evidence for the **fairness** and **governance** pillars. The paper documents a commitment to mitigating harms and biases, reducing bias, and establishing frameworks to avoid harms, all supporting the **fairness** pillar. Furthermore, it outlines aspirations and commitments to adapt procedures for AI, align on standards and best practices for AI governance frameworks, and support AI use through established programs, thereby supporting the **governance** pillar.",
+          "title": "EqualAI's Inaugural White Paper on Responsible AI Governance",
+          "url": "https://equalai.org/announcement/equalais-inaugural-white-paper-an-insiders-guide-to-designing-and-operationalizing-a-responsible-ai-governance-framework"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This third-party discussion on Northrop's adoption of responsible AI principles for JADC2 provides evidence for **fairness, governance, and transparency**. The document details goals for AI systems including fairness and bias mitigation, aligning with the fairness pillar. It also mentions accountability and responsibility for AI development and use, supporting the governance pillar, and emphasizes understanding of AI technology, processes, and methods, including transparency and auditable documentation, which maps to the transparency pillar.",
+          "title": "It's both AI technology and ethics that will enable JADC2",
+          "url": "https://breakingdefense.com/2021/12/its-both-ai-technology-and-ethics-that-will-enable-jadc2"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 52,
+      "findings": "The company demonstrates a commitment to AI governance through alignment with principles, policies, and ethical guidelines, including those from the DoD. Documentation highlights the use of AI governance platforms, tools, and oversight, alongside the extension of DevSecOps practices to automate and document AI development and risk management. The company also outlines aspirations to adapt procedures, align on standards for AI governance frameworks, and establish partnerships for AI engagement.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post by Northrop Grumman's Chief AI Architect discusses operationalizing DoD AI principles, providing evidence for **governance**, **fairness**, and **external accountability**. The post highlights the challenge of integrating AI ethics into development and testing processes, emphasizing continuous retesting, policy development for AI testing and documentation, and the need for AI to be \"equitable\" (fairness) and \"governable\" (governance). Furthermore, it requires AI software to be \"auditable\" (external accountability) and \"robust\" (governance) to ensure safety and ethical compliance in defense applications.",
+          "title": "AI Ethics: Building Security and Responsibility into Intelligent Systems",
+          "url": "https://northropgrumman.com/what-we-do/mission-solutions/artificial-intelligence-and-machine-learning/ai-ethics-building-security-and-responsibility-into-intelligent-systems"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This help page from Northrop Grumman demonstrates a commitment to responsible AI by outlining principles that align with DoD guidelines. The document supports the **fairness** and **governance** pillars by stating AI technologies are equitable and accountable, and it supports **external_accountability** by noting AI is auditable. Furthermore, it addresses **oversight** and **privacy** by listing principles of human-centered oversight and secure data handling.",
+          "title": "Artificial Intelligence and Machine Learning - Northrop Grumman",
+          "url": "https://northropgrumman.com/what-we-do/mission-solutions/artificial-intelligence-and-machine-learning"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "Northrop Grumman's formal comments to NIST on the AI Risk Management Framework provide evidence for the **fairness** and **governance** pillars. The document supports fairness by recommending specific approaches to address and mitigate data bias in machine learning models, emphasizing the quality of training data. It also supports governance through suggestions for rewording statements on stakeholder involvement in AI risk management, indicating a focus on policy considerations.",
+          "title": "1st Draft AI RMF Comments: Northrop Grumman",
+          "url": "https://nist.gov/document/1st-draft-ai-rmf-comments-northrop-grumman"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Automatic Win: Using AI to Process Data Faster,\" provides evidence for **governance** and **transparency**. The post supports transparency by describing the AI solution's use case and benefits, indicating openness about its application. It also touches on governance by mentioning the AI system's alignment with principles and a commitment to those principles.",
+          "title": "Automatic Win: Using AI to Process Data Faster",
+          "url": "https://northropgrumman.com/what-we-do/mission-solutions/artificial-intelligence-and-machine-learning/automatic-win-using-ai-to-process-data-faster"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Cyber Solutions - Northrop Grumman,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document implies governance through mentions of automated risk management and predictive capabilities, suggesting established oversight for AI systems. Furthermore, the reference to model-based engineering points towards transparency in the development and operation of these AI-driven cybersecurity solutions.",
+          "title": "Cyber Solutions - Northrop Grumman",
+          "url": "https://northropgrumman.com/what-we-do/mission-solutions/cyber"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This corporate statement on sustainability and responsibility provides evidence for the **governance** pillar by mentioning a commitment to utilizing AI ethically across technical teams and operations. This implies a dedication to establishing and adhering to responsible AI governance and standards.",
+          "title": "Sustainability and Corporate Responsibility - Northrop Grumman",
+          "url": "https://northropgrumman.com/sustainability"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Northrop Grumman 2021 Sustainability Report provides evidence for the **governance** and **transparency** pillars of responsible AI. The report details the establishment of an AI ethics working group and formal commitments to developing policies for responsible AI development, testing, and operations through partnerships, demonstrating strong governance structures. It also supports transparency by describing specific operational AI deployments, such as an ML-powered training platform and the Sentinel System AI platform, which involve named systems and partners.",
+          "title": "Northrop Grumman 2021 Sustainability Report",
+          "url": "https://northropgrumman.com/wp-content/uploads/2021-NG-Sustainability-Report_Final.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This Northrop Grumman 2022 Annual Report provides evidence for the **governance** and **transparency** pillars of responsible AI. The report indicates a strategic focus on AI and its role in winning programs, suggesting accountability for technology adoption, and also mentions risks and liabilities associated with AI development, implying a need for governance. Furthermore, the report demonstrates transparency by naming a specific ML system and its capabilities.",
+          "title": "Northrop Grumman 2022 Annual Report",
+          "url": "https://northropgrumman.com/wp-content/uploads/Northrop-Grumman-2022-Annual-Report-bookmarked-and-web-ready-FINAL.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "The Northrop Grumman Form 10-K 2024 SEC filing provides limited evidence for responsible AI, touching upon **governance** and **transparency**. The filing mentions \"machine learning\" and describes an AI system's capabilities, supporting transparency through a narrative description of use. It also implies a need for governance by identifying risks from AI use by threat actors and mentioning risks and liabilities related to AI development and supplier performance, though it lacks specific execution details or commitments.",
+          "title": "Northrop Grumman Form 10-K 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1133421/000113342125000006/noc-20241231.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This third-party document, \"Northrop Aligns AI Development With Pentagon's Ethical Principles,\" provides evidence for **fairness** and **governance**. The document details Northrop's implementation of bias testing, diverse engineering teams, and data provenance logging, which contribute to operational fairness. Furthermore, it highlights their use of partner governance tools, extension of DevSecOps to AI development, and alignment with ethical principles, demonstrating a policy for responsible AI governance.",
+          "title": "Northrop Aligns AI Development With Pentagon's Ethical Principles",
+          "url": "https://executivebiz.com/articles/northrop-aligns-ai-development-with-pentagons-ethical-principles-to-achieve-justified-confidence"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This third-party report from Northrop Grumman details their integrated approach to responsible AI development, providing evidence for **governance** and **transparency**. The report highlights their commitment to AI policies, governance tools, and oversight, alongside the development of traceable and auditable processes for AI software systems. This demonstrates a structured approach to managing AI development and ensuring its ethical application.",
+          "title": "Northrop Grumman Present An Approach For Secure and Ethical AI",
+          "url": "https://pipelinepub.com/news/northrop-grumman-present-an-approach-for-secure-and-ethical-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This Northrop Grumman case study, \"Delivering the Promise of Responsible Artificial Intelligence,\" provides evidence for the **governance**, **fairness**, and **transparency** pillars of responsible AI. The document highlights a commitment to governance through the mention of an AI governance platform and policies guiding AI development, deployment, and use, as well as the extension of DevSecOps to automate and document AI practices for risk management. Evidence for fairness is found in the explicit requirement for equitability in AI systems, while transparency is supported by the emphasis on data provenance and lineage as critical requirements for responsible AI development.",
+          "title": "Delivering the Promise of Responsible Artificial Intelligence",
+          "url": "https://magazine.ethisphere.com/delivering-the-promise-of-responsible-artificial-intelligence"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"Northrop Grumman AI Development Aligns with U.S. DoD Ethics Principles,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report highlights Northrop Grumman's commitment to responsible AI through alignment with DoD ethics principles, the development of immutable data provenance tools for traceability, and the implementation of DevSecOps practices that automate and document AI development processes. These practices demonstrate a structured approach to AI development and oversight, supporting both governance and transparency.",
+          "title": "Northrop Grumman AI Development Aligns with U.S. DoD Ethics Principles",
+          "url": "https://defenseadvancement.com/news/northrop-grumman-ai-development-aligns-with-u-s-dod-ethics-principles"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"EqualAI's Inaugural White Paper on Responsible AI Governance,\" provides evidence for the **fairness** and **governance** pillars. The paper documents a commitment to mitigating harms and biases, reducing bias, and establishing frameworks to avoid harms, all supporting the **fairness** pillar. Furthermore, it outlines aspirations and commitments to adapt procedures for AI, align on standards and best practices for AI governance frameworks, and support AI use through established programs, thereby supporting the **governance** pillar.",
+          "title": "EqualAI's Inaugural White Paper on Responsible AI Governance",
+          "url": "https://equalai.org/announcement/equalais-inaugural-white-paper-an-insiders-guide-to-designing-and-operationalizing-a-responsible-ai-governance-framework"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This third-party discussion on Northrop's adoption of responsible AI principles for JADC2 provides evidence for **fairness, governance, and transparency**. The document details goals for AI systems including fairness and bias mitigation, aligning with the fairness pillar. It also mentions accountability and responsibility for AI development and use, supporting the governance pillar, and emphasizes understanding of AI technology, processes, and methods, including transparency and auditable documentation, which maps to the transparency pillar.",
+          "title": "It's both AI technology and ethics that will enable JADC2",
+          "url": "https://breakingdefense.com/2021/12/its-both-ai-technology-and-ethics-that-will-enable-jadc2"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_023",
+          "source_tier": "third_party",
+          "summary": "This master research agreement between Carnegie Mellon and Northrop Grumman provides evidence for the **governance** pillar of responsible AI. The agreement outlines a structured approach to AI engagement by establishing a partnership between AI experts and the organization, indicating a commitment to collaborative and potentially oversight-driven AI development.",
+          "title": "Carnegie Mellon and Northrop Grumman Enter Into Master Research Agreement",
+          "url": "https://cmu.edu/news/stories/archives/2019/october/northrop-grumman.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This third-party document, \"University of Maryland Selected for Northrop Grumman AI Research Consortium,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by indicating the incorporation of AI/ML technologies, suggesting a policy-driven decision for AI adoption through the grant. Transparency is supported by mentioning specific AI/ML algorithms and capabilities being explored, such as object detection and GANs, though it focuses on research rather than operational use or policy.",
+          "title": "University of Maryland Selected for Northrop Grumman AI Research Consortium",
+          "url": "https://ece.umd.edu/release/university-of-maryland-selected-as-partner-for-new-research-consortium-for-artificial-intelligence"
+        }
+      ],
+      "score": 1,
+      "source_count": 17
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "Help pages list principles of human-centered oversight for AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This help page from Northrop Grumman demonstrates a commitment to responsible AI by outlining principles that align with DoD guidelines. The document supports the **fairness** and **governance** pillars by stating AI technologies are equitable and accountable, and it supports **external_accountability** by noting AI is auditable. Furthermore, it addresses **oversight** and **privacy** by listing principles of human-centered oversight and secure data handling.",
+          "title": "Artificial Intelligence and Machine Learning - Northrop Grumman",
+          "url": "https://northropgrumman.com/what-we-do/mission-solutions/artificial-intelligence-and-machine-learning"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "Help pages list principles of secure data handling for AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This help page from Northrop Grumman demonstrates a commitment to responsible AI by outlining principles that align with DoD guidelines. The document supports the **fairness** and **governance** pillars by stating AI technologies are equitable and accountable, and it supports **external_accountability** by noting AI is auditable. Furthermore, it addresses **oversight** and **privacy** by listing principles of human-centered oversight and secure data handling.",
+          "title": "Artificial Intelligence and Machine Learning - Northrop Grumman",
+          "url": "https://northropgrumman.com/what-we-do/mission-solutions/artificial-intelligence-and-machine-learning"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 23,
+      "findings": "The company documents AI solution use cases, benefits, and capabilities, including specific operational deployments and named ML systems. Published materials emphasize data provenance, lineage, and traceability, alongside the development of auditable processes for AI software systems. This includes the implementation of DevSecOps practices to automate and document AI development, and a focus on understanding AI technology, processes, and methods.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Automatic Win: Using AI to Process Data Faster,\" provides evidence for **governance** and **transparency**. The post supports transparency by describing the AI solution's use case and benefits, indicating openness about its application. It also touches on governance by mentioning the AI system's alignment with principles and a commitment to those principles.",
+          "title": "Automatic Win: Using AI to Process Data Faster",
+          "url": "https://northropgrumman.com/what-we-do/mission-solutions/artificial-intelligence-and-machine-learning/automatic-win-using-ai-to-process-data-faster"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned help page, \"Cyber Solutions - Northrop Grumman,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document implies governance through mentions of automated risk management and predictive capabilities, suggesting established oversight for AI systems. Furthermore, the reference to model-based engineering points towards transparency in the development and operation of these AI-driven cybersecurity solutions.",
+          "title": "Cyber Solutions - Northrop Grumman",
+          "url": "https://northropgrumman.com/what-we-do/mission-solutions/cyber"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This Northrop Grumman 2021 Sustainability Report provides evidence for the **governance** and **transparency** pillars of responsible AI. The report details the establishment of an AI ethics working group and formal commitments to developing policies for responsible AI development, testing, and operations through partnerships, demonstrating strong governance structures. It also supports transparency by describing specific operational AI deployments, such as an ML-powered training platform and the Sentinel System AI platform, which involve named systems and partners.",
+          "title": "Northrop Grumman 2021 Sustainability Report",
+          "url": "https://northropgrumman.com/wp-content/uploads/2021-NG-Sustainability-Report_Final.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This Northrop Grumman 2022 Annual Report provides evidence for the **governance** and **transparency** pillars of responsible AI. The report indicates a strategic focus on AI and its role in winning programs, suggesting accountability for technology adoption, and also mentions risks and liabilities associated with AI development, implying a need for governance. Furthermore, the report demonstrates transparency by naming a specific ML system and its capabilities.",
+          "title": "Northrop Grumman 2022 Annual Report",
+          "url": "https://northropgrumman.com/wp-content/uploads/Northrop-Grumman-2022-Annual-Report-bookmarked-and-web-ready-FINAL.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_014",
+          "source_tier": "authority",
+          "summary": "The Northrop Grumman Form 10-K 2024 SEC filing provides limited evidence for responsible AI, touching upon **governance** and **transparency**. The filing mentions \"machine learning\" and describes an AI system's capabilities, supporting transparency through a narrative description of use. It also implies a need for governance by identifying risks from AI use by threat actors and mentioning risks and liabilities related to AI development and supplier performance, though it lacks specific execution details or commitments.",
+          "title": "Northrop Grumman Form 10-K 2024",
+          "url": "https://sec.gov/Archives/edgar/data/1133421/000113342125000006/noc-20241231.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This third-party report from Northrop Grumman details their integrated approach to responsible AI development, providing evidence for **governance** and **transparency**. The report highlights their commitment to AI policies, governance tools, and oversight, alongside the development of traceable and auditable processes for AI software systems. This demonstrates a structured approach to managing AI development and ensuring its ethical application.",
+          "title": "Northrop Grumman Present An Approach For Secure and Ethical AI",
+          "url": "https://pipelinepub.com/news/northrop-grumman-present-an-approach-for-secure-and-ethical-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This Northrop Grumman case study, \"Delivering the Promise of Responsible Artificial Intelligence,\" provides evidence for the **governance**, **fairness**, and **transparency** pillars of responsible AI. The document highlights a commitment to governance through the mention of an AI governance platform and policies guiding AI development, deployment, and use, as well as the extension of DevSecOps to automate and document AI practices for risk management. Evidence for fairness is found in the explicit requirement for equitability in AI systems, while transparency is supported by the emphasis on data provenance and lineage as critical requirements for responsible AI development.",
+          "title": "Delivering the Promise of Responsible Artificial Intelligence",
+          "url": "https://magazine.ethisphere.com/delivering-the-promise-of-responsible-artificial-intelligence"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_020",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"Northrop Grumman AI Development Aligns with U.S. DoD Ethics Principles,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report highlights Northrop Grumman's commitment to responsible AI through alignment with DoD ethics principles, the development of immutable data provenance tools for traceability, and the implementation of DevSecOps practices that automate and document AI development processes. These practices demonstrate a structured approach to AI development and oversight, supporting both governance and transparency.",
+          "title": "Northrop Grumman AI Development Aligns with U.S. DoD Ethics Principles",
+          "url": "https://defenseadvancement.com/news/northrop-grumman-ai-development-aligns-with-u-s-dod-ethics-principles"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_022",
+          "source_tier": "third_party",
+          "summary": "This third-party discussion on Northrop's adoption of responsible AI principles for JADC2 provides evidence for **fairness, governance, and transparency**. The document details goals for AI systems including fairness and bias mitigation, aligning with the fairness pillar. It also mentions accountability and responsibility for AI development and use, supporting the governance pillar, and emphasizes understanding of AI technology, processes, and methods, including transparency and auditable documentation, which maps to the transparency pillar.",
+          "title": "It's both AI technology and ethics that will enable JADC2",
+          "url": "https://breakingdefense.com/2021/12/its-both-ai-technology-and-ethics-that-will-enable-jadc2"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_026",
+          "source_tier": "third_party",
+          "summary": "This third-party document, \"University of Maryland Selected for Northrop Grumman AI Research Consortium,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The document supports governance by indicating the incorporation of AI/ML technologies, suggesting a policy-driven decision for AI adoption through the grant. Transparency is supported by mentioning specific AI/ML algorithms and capabilities being explored, such as object detection and GANs, though it focuses on research rather than operational use or policy.",
+          "title": "University of Maryland Selected for Northrop Grumman AI Research Consortium",
+          "url": "https://ece.umd.edu/release/university-of-maryland-selected-as-partner-for-new-research-consortium-for-artificial-intelligence"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    }
+  },
+  "published_at": "2026-02-23T21:56:17Z",
+  "run_id": "20260202_232950_f086",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Transparency"
+    ],
+    "overall_findings": "Drawing from 28 publicly available sources, Northrop Grumman's published materials address 6 of 7 evaluated responsible AI pillars. Operational practices for transparency include documentation describing AI solution use cases and benefits. Policy-level evidence is present for fairness, governance, oversight, privacy, and external accountability, with governance disclosures emphasizing retesting and policy development for AI testing and documentation, and help pages listing principles of human-centered oversight and stating that AI is auditable. No qualifying public evidence was found for explainability.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 67,
+    "total_sources_used": 17
+  }
+}

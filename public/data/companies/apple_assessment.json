@@ -1,0 +1,654 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Apple",
+  "company_slug": "apple",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 28,
+      "OPERATIONAL": 54,
+      "POLICY": 176
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 23,
+      "findings": "Apple's privacy policies assert compliance with external privacy standards and adherence to laws regarding international data transfers. Help pages mention an ethics board approving AI development, and press releases note the potential for independent inspection of code by external experts. Additionally, proxy statements highlight mechanisms for external accountability through the committee's review of financial statements, auditor independence, and auditor oversight.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This Apple Privacy Policy document provides evidence for **governance**, **privacy**, and **external accountability**. It supports the **governance** pillar by outlining policies for data acquisition and a commitment not to reidentify individuals. The **privacy** pillar is supported through descriptions of user control over data tracking, data handling for AI models with opt-out rights, and data minimization practices. Finally, the policy demonstrates **external accountability** by asserting compliance with external privacy standards and adherence to laws regarding international data transfers.",
+          "title": "Apple Privacy Policy",
+          "url": "https://apple.com/legal/privacy/en-ww"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This official Apple help page provides evidence for **external_accountability, governance, privacy, and transparency**. It supports the **privacy** pillar by detailing on-device processing, Differential Privacy, IP address hiding, and explicit statements that personal data is not used for foundation model training. Evidence for **governance** is found in descriptions of data use policies, user consent mechanisms, data retention policies, and restrictions on specific data uses. The page also supports **transparency** by explaining AI capabilities and data handling, and **external_accountability** through mentions of an ethics board approving AI development.",
+          "title": "Privacy - Features - Apple's Approach to Responsible AI",
+          "url": "https://apple.com/privacy/features"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Privacy Governance - Legal,\" provides evidence for **governance**, **oversight**, and **privacy**. It details Apple's Privacy Steering Committee, chaired by the General Counsel, which establishes privacy standards and oversees responsible AI practices, demonstrating strong **governance** and **oversight**. The document also highlights mechanisms like Privacy Impact Assessments (PIAs) for algorithmic decision-making and mandatory privacy training, directly supporting the **privacy** pillar by outlining how data use and employee adherence to privacy rules are managed.",
+          "title": "Privacy Governance - Legal",
+          "url": "https://apple.com/legal/privacy/en-ww/governance"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Introducing Apple Intelligence for iPhone, iPad, and Mac,\" provides evidence for **privacy, transparency, governance, and external accountability**. It supports the privacy pillar by detailing protections like IP obscuring and no request storage, and emphasizes data security and non-sharing. The document also supports transparency by describing the AI system's capabilities and phased rollout, and governance through its mention of data retention policies. Furthermore, it touches on external accountability by noting the potential for independent inspection of code by external experts.",
+          "title": "Introducing Apple Intelligence for iPhone, iPad, and Mac",
+          "url": "https://apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. It details the Audit Committee's role in overseeing AI-related privacy and legal/regulatory risks, demonstrating governance and oversight. The document also highlights mechanisms for external accountability through the committee's review of financial statements and auditor independence, and supports the privacy pillar by explicitly mentioning oversight of privacy and data privacy matters.",
+          "title": "Apple Inc. 2026 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, privacy, transparency, external accountability, and fairness**. It details Apple's commitment to responsible AI development through its stated principles, board and committee oversight of AI strategy and privacy, and mechanisms for managing privacy risks, such as on-device processing and data minimization. The document also outlines processes for external accountability through auditor oversight and discusses the company's approach to AI capabilities like transparency and user empowerment.",
+          "title": "Apple Inc. 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/320193/000130817925000008/aapl4359751-def14a.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 15,
+      "findings": "Apple's documentation outlines policies to block harmful inputs and outputs for on-device foundation models and emphasizes continuous improvement to avoid bias. Technical papers investigate and analyze the transfer of gender bias between pre-trained and adapted language models, proposing mitigation techniques. Additionally, proxy statements detail the company's commitment to responsible AI development through its stated principles, and SEC No-Action Letters acknowledge potential social policy issues like bias and discrimination related to AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It details a comprehensive safety evaluation methodology with a taxonomy for assessing harmful content risks, supporting oversight and fairness. The paper also describes data curation, filtering pipelines, and commitments to not using private data for training, which supports governance and privacy. Furthermore, it outlines a structured annotation process and the use of human graders for model output assessment, demonstrating operational oversight. Commitments to integrating Responsible AI principles and representing users also contribute to the transparency pillar.",
+          "title": "Apple Intelligence Foundation Language Models: Tech Report 2025",
+          "url": "https://machinelearning.apple.com/papers/apple_intelligence_foundation_language_models_tech_report_2025.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post introduces Apple's foundation models and provides evidence for **fairness, governance, privacy, and transparency**. It supports these pillars by detailing risk evaluation and bias testing for AI features, outlining principles for responsible AI development, describing data usage controls and privacy protections for training data, and explaining comprehensive evaluation across diverse use cases.",
+          "title": "Introducing Apple's On-Device and Server Foundation Models",
+          "url": "https://machinelearning.apple.com/research/introducing-apple-foundation-models"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This WWDC video documentation provides evidence for fairness, governance, privacy, and transparency. It details built-in safety guardrails and a layered safety approach for on-device foundation models, supporting governance and fairness by outlining policies to block harmful inputs and outputs and emphasizing continuous improvement to avoid bias. The documentation also touches on privacy by mentioning its integration into operating systems and products, and supports transparency by explaining the AI system's capabilities and technical specifications.",
+          "title": "Explore prompt design & safety for on-device foundation models",
+          "url": "https://developer.apple.com/videos/play/wwdc2025/248"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, privacy, transparency, external accountability, and fairness**. It details Apple's commitment to responsible AI development through its stated principles, board and committee oversight of AI strategy and privacy, and mechanisms for managing privacy risks, such as on-device processing and data minimization. The document also outlines processes for external accountability through auditor oversight and discusses the company's approach to AI capabilities like transparency and user empowerment.",
+          "title": "Apple Inc. 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/320193/000130817925000008/aapl4359751-def14a.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_018",
+          "source_tier": "authority",
+          "summary": "This SEC No-Action Letter provides evidence for **transparency** and **governance** by detailing a shareholder proposal requesting a transparency report on AI use and disclosure of ethical AI guidelines. The letter also touches upon **fairness** by acknowledging potential social policy issues like bias and discrimination, and **privacy** by mentioning privacy interests and concerns related to AI. The SEC's decision to allow the proposal to proceed establishes a regulatory expectation for AI governance disclosure.",
+          "title": "SEC No-Action Letter - AFL-CIO Shareholder Proposal on AI Transparency",
+          "url": "https://sec.gov/files/corpfin/no-action/14a-8/aflcioapple010324-14a8.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for the **fairness** and **transparency** pillars of responsible AI. It supports fairness by investigating and analyzing the transfer of gender bias between pre-trained and adapted language models, and by proposing mitigation techniques. The paper also supports transparency by describing AI systems, their use cases, and how bias transfer impacts AI deployment.",
+          "title": "Evaluating Gender Bias Transfer Between Pre-trained and Prompt-Adapted Language Models",
+          "url": "https://machinelearning.apple.com/research/gender-bias-transfer"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 169,
+      "findings": "Apple's documentation details data use protocols, including ethical web crawling and opt-out procedures, and outlines refinement of data filtering processes. Privacy policies outline data acquisition policies and a commitment not to reidentify individuals, while App Store help pages establish developer responsibility for data accuracy. Help pages also describe data use policies, user consent mechanisms, data retention policies, and restrictions on specific data uses.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for governance, oversight, privacy, and transparency. It supports governance by detailing data use protocols, including ethical web crawling and opt-out procedures, and by outlining refinement of data filtering processes. Oversight is demonstrated through descriptions of ongoing human review and flagging of model capabilities and responses. The blog post supports privacy by explicitly stating the protection of private personal data and the removal of PII. Transparency is evidenced by descriptions of AI model architecture, training methodology, and the use of AI for synthetic data generation and QA creation.",
+          "title": "Updates to Apple's On-Device and Server Foundation Language Models",
+          "url": "https://machinelearning.apple.com/research/apple-foundation-models-2025-updates"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It details a comprehensive safety evaluation methodology with a taxonomy for assessing harmful content risks, supporting oversight and fairness. The paper also describes data curation, filtering pipelines, and commitments to not using private data for training, which supports governance and privacy. Furthermore, it outlines a structured annotation process and the use of human graders for model output assessment, demonstrating operational oversight. Commitments to integrating Responsible AI principles and representing users also contribute to the transparency pillar.",
+          "title": "Apple Intelligence Foundation Language Models: Tech Report 2025",
+          "url": "https://machinelearning.apple.com/papers/apple_intelligence_foundation_language_models_tech_report_2025.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post introduces Apple's foundation models and provides evidence for **fairness, governance, privacy, and transparency**. It supports these pillars by detailing risk evaluation and bias testing for AI features, outlining principles for responsible AI development, describing data usage controls and privacy protections for training data, and explaining comprehensive evaluation across diverse use cases.",
+          "title": "Introducing Apple's On-Device and Server Foundation Models",
+          "url": "https://machinelearning.apple.com/research/introducing-apple-foundation-models"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This Apple Privacy Policy document provides evidence for **governance**, **privacy**, and **external accountability**. It supports the **governance** pillar by outlining policies for data acquisition and a commitment not to reidentify individuals. The **privacy** pillar is supported through descriptions of user control over data tracking, data handling for AI models with opt-out rights, and data minimization practices. Finally, the policy demonstrates **external accountability** by asserting compliance with external privacy standards and adherence to laws regarding international data transfers.",
+          "title": "Apple Privacy Policy",
+          "url": "https://apple.com/legal/privacy/en-ww"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This App Store Review Guideline explicitly supports the **governance**, **oversight**, **privacy**, and **transparency** pillars. The guideline establishes mandatory transparency and consent requirements for sharing personal data with third-party AI systems, directly addressing privacy and transparency. It also assigns responsibility for compliance and mandates careful review of AI use, indicating strong governance and oversight mechanisms for data handling within the app ecosystem.",
+          "title": "App Store Review Guidelines - Guideline 5.1.2(i)",
+          "url": "https://developer.apple.com/app-store/review/guidelines"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This App Store help page provides evidence for the **governance** and **privacy** pillars. It supports governance by outlining a framework that mandates transparent data disclosure from app developers, including how generative AI systems process user data, and establishes developer responsibility for data accuracy. The source also supports privacy by requiring specific privacy information for app submissions and referencing \"Privacy Policy\" and \"Terms of Use\" as policy commitments.",
+          "title": "App Privacy Details - App Store",
+          "url": "https://developer.apple.com/app-store/app-privacy-details"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This WWDC video documentation provides evidence for fairness, governance, privacy, and transparency. It details built-in safety guardrails and a layered safety approach for on-device foundation models, supporting governance and fairness by outlining policies to block harmful inputs and outputs and emphasizing continuous improvement to avoid bias. The documentation also touches on privacy by mentioning its integration into operating systems and products, and supports transparency by explaining the AI system's capabilities and technical specifications.",
+          "title": "Explore prompt design & safety for on-device foundation models",
+          "url": "https://developer.apple.com/videos/play/wwdc2025/248"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This official Apple help page provides evidence for **external_accountability, governance, privacy, and transparency**. It supports the **privacy** pillar by detailing on-device processing, Differential Privacy, IP address hiding, and explicit statements that personal data is not used for foundation model training. Evidence for **governance** is found in descriptions of data use policies, user consent mechanisms, data retention policies, and restrictions on specific data uses. The page also supports **transparency** by explaining AI capabilities and data handling, and **external_accountability** through mentions of an ethics board approving AI development.",
+          "title": "Privacy - Features - Apple's Approach to Responsible AI",
+          "url": "https://apple.com/privacy/features"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Privacy Governance - Legal,\" provides evidence for **governance**, **oversight**, and **privacy**. It details Apple's Privacy Steering Committee, chaired by the General Counsel, which establishes privacy standards and oversees responsible AI practices, demonstrating strong **governance** and **oversight**. The document also highlights mechanisms like Privacy Impact Assessments (PIAs) for algorithmic decision-making and mandatory privacy training, directly supporting the **privacy** pillar by outlining how data use and employee adherence to privacy rules are managed.",
+          "title": "Privacy Governance - Legal",
+          "url": "https://apple.com/legal/privacy/en-ww/governance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Learning with Privacy at Scale,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by discussing the balancing of utility and computation, and the consideration of costs and system architecture in their privacy-by-design approach. Evidence for privacy is found in the description of on-device learning, data privatization techniques like encryption and anonymization, and the use of differential privacy. The paper also supports transparency by detailing explicit, opt-in user controls and discussing privacy parameters for user analytics.",
+          "title": "Learning with Privacy at Scale",
+          "url": "https://machinelearning.apple.com/research/learning-with-privacy-at-scale"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **governance, oversight, privacy, and transparency** by detailing Applebot's web crawling practices for AI model training. It explains the AI system's function and data sourcing, outlines publisher controls and opt-out mechanisms, and describes data filtering and PII removal processes to safeguard user data. Furthermore, the document establishes a mechanism for users to object to data crawling, demonstrating policies for privacy rights and appeals.",
+          "title": "Applebot model training and individual privacy rights",
+          "url": "https://support.apple.com/en-us/120320"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Introducing Apple Intelligence for iPhone, iPad, and Mac,\" provides evidence for **privacy, transparency, governance, and external accountability**. It supports the privacy pillar by detailing protections like IP obscuring and no request storage, and emphasizes data security and non-sharing. The document also supports transparency by describing the AI system's capabilities and phased rollout, and governance through its mention of data retention policies. Furthermore, it touches on external accountability by noting the potential for independent inspection of code by external experts.",
+          "title": "Introducing Apple Intelligence for iPhone, iPad, and Mac",
+          "url": "https://apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. It details the Audit Committee's role in overseeing AI-related privacy and legal/regulatory risks, demonstrating governance and oversight. The document also highlights mechanisms for external accountability through the committee's review of financial statements and auditor independence, and supports the privacy pillar by explicitly mentioning oversight of privacy and data privacy matters.",
+          "title": "Apple Inc. 2026 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, privacy, transparency, external accountability, and fairness**. It details Apple's commitment to responsible AI development through its stated principles, board and committee oversight of AI strategy and privacy, and mechanisms for managing privacy risks, such as on-device processing and data minimization. The document also outlines processes for external accountability through auditor oversight and discusses the company's approach to AI capabilities like transparency and user empowerment.",
+          "title": "Apple Inc. 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/320193/000130817925000008/aapl4359751-def14a.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_018",
+          "source_tier": "authority",
+          "summary": "This SEC No-Action Letter provides evidence for **transparency** and **governance** by detailing a shareholder proposal requesting a transparency report on AI use and disclosure of ethical AI guidelines. The letter also touches upon **fairness** by acknowledging potential social policy issues like bias and discrimination, and **privacy** by mentioning privacy interests and concerns related to AI. The SEC's decision to allow the proposal to proceed establishes a regulatory expectation for AI governance disclosure.",
+          "title": "SEC No-Action Letter - AFL-CIO Shareholder Proposal on AI Transparency",
+          "url": "https://sec.gov/files/corpfin/no-action/14a-8/aflcioapple010324-14a8.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 15
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 29,
+      "findings": "Apple's documentation describes ongoing human review and flagging of model capabilities and responses. Technical papers outline a structured annotation process and the use of human graders for model output assessment. Additionally, proxy statements detail the Audit Committee's role in overseeing AI-related privacy and legal/regulatory risks, as well as board and committee oversight of AI strategy and privacy.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for governance, oversight, privacy, and transparency. It supports governance by detailing data use protocols, including ethical web crawling and opt-out procedures, and by outlining refinement of data filtering processes. Oversight is demonstrated through descriptions of ongoing human review and flagging of model capabilities and responses. The blog post supports privacy by explicitly stating the protection of private personal data and the removal of PII. Transparency is evidenced by descriptions of AI model architecture, training methodology, and the use of AI for synthetic data generation and QA creation.",
+          "title": "Updates to Apple's On-Device and Server Foundation Language Models",
+          "url": "https://machinelearning.apple.com/research/apple-foundation-models-2025-updates"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It details a comprehensive safety evaluation methodology with a taxonomy for assessing harmful content risks, supporting oversight and fairness. The paper also describes data curation, filtering pipelines, and commitments to not using private data for training, which supports governance and privacy. Furthermore, it outlines a structured annotation process and the use of human graders for model output assessment, demonstrating operational oversight. Commitments to integrating Responsible AI principles and representing users also contribute to the transparency pillar.",
+          "title": "Apple Intelligence Foundation Language Models: Tech Report 2025",
+          "url": "https://machinelearning.apple.com/papers/apple_intelligence_foundation_language_models_tech_report_2025.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This App Store Review Guideline explicitly supports the **governance**, **oversight**, **privacy**, and **transparency** pillars. The guideline establishes mandatory transparency and consent requirements for sharing personal data with third-party AI systems, directly addressing privacy and transparency. It also assigns responsibility for compliance and mandates careful review of AI use, indicating strong governance and oversight mechanisms for data handling within the app ecosystem.",
+          "title": "App Store Review Guidelines - Guideline 5.1.2(i)",
+          "url": "https://developer.apple.com/app-store/review/guidelines"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Privacy Governance - Legal,\" provides evidence for **governance**, **oversight**, and **privacy**. It details Apple's Privacy Steering Committee, chaired by the General Counsel, which establishes privacy standards and oversees responsible AI practices, demonstrating strong **governance** and **oversight**. The document also highlights mechanisms like Privacy Impact Assessments (PIAs) for algorithmic decision-making and mandatory privacy training, directly supporting the **privacy** pillar by outlining how data use and employee adherence to privacy rules are managed.",
+          "title": "Privacy Governance - Legal",
+          "url": "https://apple.com/legal/privacy/en-ww/governance"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **governance, oversight, privacy, and transparency** by detailing Applebot's web crawling practices for AI model training. It explains the AI system's function and data sourcing, outlines publisher controls and opt-out mechanisms, and describes data filtering and PII removal processes to safeguard user data. Furthermore, the document establishes a mechanism for users to object to data crawling, demonstrating policies for privacy rights and appeals.",
+          "title": "Applebot model training and individual privacy rights",
+          "url": "https://support.apple.com/en-us/120320"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. It details the Audit Committee's role in overseeing AI-related privacy and legal/regulatory risks, demonstrating governance and oversight. The document also highlights mechanisms for external accountability through the committee's review of financial statements and auditor independence, and supports the privacy pillar by explicitly mentioning oversight of privacy and data privacy matters.",
+          "title": "Apple Inc. 2026 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, privacy, transparency, external accountability, and fairness**. It details Apple's commitment to responsible AI development through its stated principles, board and committee oversight of AI strategy and privacy, and mechanisms for managing privacy risks, such as on-device processing and data minimization. The document also outlines processes for external accountability through auditor oversight and discusses the company's approach to AI capabilities like transparency and user empowerment.",
+          "title": "Apple Inc. 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/320193/000130817925000008/aapl4359751-def14a.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 117,
+      "findings": "Apple's documentation explicitly states the protection of private personal data, including the removal of PII, and technical papers describe commitments to not using private data for training. Privacy policies outline user control over data tracking, data handling for AI models with opt-out rights, and data minimization practices. Furthermore, help pages detail on-device processing, Differential Privacy, IP address hiding, and mechanisms for users to monitor AI-related activity and review data processed by server-based models.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for governance, oversight, privacy, and transparency. It supports governance by detailing data use protocols, including ethical web crawling and opt-out procedures, and by outlining refinement of data filtering processes. Oversight is demonstrated through descriptions of ongoing human review and flagging of model capabilities and responses. The blog post supports privacy by explicitly stating the protection of private personal data and the removal of PII. Transparency is evidenced by descriptions of AI model architecture, training methodology, and the use of AI for synthetic data generation and QA creation.",
+          "title": "Updates to Apple's On-Device and Server Foundation Language Models",
+          "url": "https://machinelearning.apple.com/research/apple-foundation-models-2025-updates"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It details a comprehensive safety evaluation methodology with a taxonomy for assessing harmful content risks, supporting oversight and fairness. The paper also describes data curation, filtering pipelines, and commitments to not using private data for training, which supports governance and privacy. Furthermore, it outlines a structured annotation process and the use of human graders for model output assessment, demonstrating operational oversight. Commitments to integrating Responsible AI principles and representing users also contribute to the transparency pillar.",
+          "title": "Apple Intelligence Foundation Language Models: Tech Report 2025",
+          "url": "https://machinelearning.apple.com/papers/apple_intelligence_foundation_language_models_tech_report_2025.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post introduces Apple's foundation models and provides evidence for **fairness, governance, privacy, and transparency**. It supports these pillars by detailing risk evaluation and bias testing for AI features, outlining principles for responsible AI development, describing data usage controls and privacy protections for training data, and explaining comprehensive evaluation across diverse use cases.",
+          "title": "Introducing Apple's On-Device and Server Foundation Models",
+          "url": "https://machinelearning.apple.com/research/introducing-apple-foundation-models"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This Apple Privacy Policy document provides evidence for **governance**, **privacy**, and **external accountability**. It supports the **governance** pillar by outlining policies for data acquisition and a commitment not to reidentify individuals. The **privacy** pillar is supported through descriptions of user control over data tracking, data handling for AI models with opt-out rights, and data minimization practices. Finally, the policy demonstrates **external accountability** by asserting compliance with external privacy standards and adherence to laws regarding international data transfers.",
+          "title": "Apple Privacy Policy",
+          "url": "https://apple.com/legal/privacy/en-ww"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This App Store Review Guideline explicitly supports the **governance**, **oversight**, **privacy**, and **transparency** pillars. The guideline establishes mandatory transparency and consent requirements for sharing personal data with third-party AI systems, directly addressing privacy and transparency. It also assigns responsibility for compliance and mandates careful review of AI use, indicating strong governance and oversight mechanisms for data handling within the app ecosystem.",
+          "title": "App Store Review Guidelines - Guideline 5.1.2(i)",
+          "url": "https://developer.apple.com/app-store/review/guidelines"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This App Store help page provides evidence for the **governance** and **privacy** pillars. It supports governance by outlining a framework that mandates transparent data disclosure from app developers, including how generative AI systems process user data, and establishes developer responsibility for data accuracy. The source also supports privacy by requiring specific privacy information for app submissions and referencing \"Privacy Policy\" and \"Terms of Use\" as policy commitments.",
+          "title": "App Privacy Details - App Store",
+          "url": "https://developer.apple.com/app-store/app-privacy-details"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This developer documentation for Apple Intelligence supports the **transparency** pillar by describing the AI system and its core capabilities. It also provides evidence for the **privacy** pillar by mentioning \"Private Cloud Compute\" and \"private\" experiences, indicating a commitment to data protection during AI processing.",
+          "title": "Apple Intelligence - Apple Developer",
+          "url": "https://developer.apple.com/apple-intelligence"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This WWDC video documentation provides evidence for fairness, governance, privacy, and transparency. It details built-in safety guardrails and a layered safety approach for on-device foundation models, supporting governance and fairness by outlining policies to block harmful inputs and outputs and emphasizing continuous improvement to avoid bias. The documentation also touches on privacy by mentioning its integration into operating systems and products, and supports transparency by explaining the AI system's capabilities and technical specifications.",
+          "title": "Explore prompt design & safety for on-device foundation models",
+          "url": "https://developer.apple.com/videos/play/wwdc2025/248"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This official Apple help page provides evidence for **external_accountability, governance, privacy, and transparency**. It supports the **privacy** pillar by detailing on-device processing, Differential Privacy, IP address hiding, and explicit statements that personal data is not used for foundation model training. Evidence for **governance** is found in descriptions of data use policies, user consent mechanisms, data retention policies, and restrictions on specific data uses. The page also supports **transparency** by explaining AI capabilities and data handling, and **external_accountability** through mentions of an ethics board approving AI development.",
+          "title": "Privacy - Features - Apple's Approach to Responsible AI",
+          "url": "https://apple.com/privacy/features"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Privacy Governance - Legal,\" provides evidence for **governance**, **oversight**, and **privacy**. It details Apple's Privacy Steering Committee, chaired by the General Counsel, which establishes privacy standards and oversees responsible AI practices, demonstrating strong **governance** and **oversight**. The document also highlights mechanisms like Privacy Impact Assessments (PIAs) for algorithmic decision-making and mandatory privacy training, directly supporting the **privacy** pillar by outlining how data use and employee adherence to privacy rules are managed.",
+          "title": "Privacy Governance - Legal",
+          "url": "https://apple.com/legal/privacy/en-ww/governance"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Learning with Privacy at Scale,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by discussing the balancing of utility and computation, and the consideration of costs and system architecture in their privacy-by-design approach. Evidence for privacy is found in the description of on-device learning, data privatization techniques like encryption and anonymization, and the use of differential privacy. The paper also supports transparency by detailing explicit, opt-in user controls and discussing privacy parameters for user analytics.",
+          "title": "Learning with Privacy at Scale",
+          "url": "https://machinelearning.apple.com/research/learning-with-privacy-at-scale"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **governance, oversight, privacy, and transparency** by detailing Applebot's web crawling practices for AI model training. It explains the AI system's function and data sourcing, outlines publisher controls and opt-out mechanisms, and describes data filtering and PII removal processes to safeguard user data. Furthermore, the document establishes a mechanism for users to object to data crawling, demonstrating policies for privacy rights and appeals.",
+          "title": "Applebot model training and individual privacy rights",
+          "url": "https://support.apple.com/en-us/120320"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Introducing Apple Intelligence for iPhone, iPad, and Mac,\" provides evidence for **privacy, transparency, governance, and external accountability**. It supports the privacy pillar by detailing protections like IP obscuring and no request storage, and emphasizes data security and non-sharing. The document also supports transparency by describing the AI system's capabilities and phased rollout, and governance through its mention of data retention policies. Furthermore, it touches on external accountability by noting the potential for independent inspection of code by external experts.",
+          "title": "Introducing Apple Intelligence for iPhone, iPad, and Mac",
+          "url": "https://apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_016",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance**, **oversight**, **external accountability**, and **privacy**. It details the Audit Committee's role in overseeing AI-related privacy and legal/regulatory risks, demonstrating governance and oversight. The document also highlights mechanisms for external accountability through the committee's review of financial statements and auditor independence, and supports the privacy pillar by explicitly mentioning oversight of privacy and data privacy matters.",
+          "title": "Apple Inc. 2026 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, privacy, transparency, external accountability, and fairness**. It details Apple's commitment to responsible AI development through its stated principles, board and committee oversight of AI strategy and privacy, and mechanisms for managing privacy risks, such as on-device processing and data minimization. The document also outlines processes for external accountability through auditor oversight and discusses the company's approach to AI capabilities like transparency and user empowerment.",
+          "title": "Apple Inc. 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/320193/000130817925000008/aapl4359751-def14a.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_018",
+          "source_tier": "authority",
+          "summary": "This SEC No-Action Letter provides evidence for **transparency** and **governance** by detailing a shareholder proposal requesting a transparency report on AI use and disclosure of ethical AI guidelines. The letter also touches upon **fairness** by acknowledging potential social policy issues like bias and discrimination, and **privacy** by mentioning privacy interests and concerns related to AI. The SEC's decision to allow the proposal to proceed establishes a regulatory expectation for AI governance disclosure.",
+          "title": "SEC No-Action Letter - AFL-CIO Shareholder Proposal on AI Transparency",
+          "url": "https://sec.gov/files/corpfin/no-action/14a-8/aflcioapple010324-14a8.pdf"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Create an Apple Intelligence Report,\" provides evidence for the **privacy** and **transparency** pillars of responsible AI. It supports **privacy** by detailing a mechanism for users to monitor AI-related activity and review data processed by server-based models, implying user control over their data. The page also supports **transparency** by describing how users can generate and export reports of requests sent to Apple's Private Cloud Compute, allowing for visibility into AI operations.",
+          "title": "Create an Apple Intelligence Report",
+          "url": "https://support.apple.com/guide/iphone/create-an-apple-intelligence-report-iphc6e91e858/ios"
+        }
+      ],
+      "score": 2,
+      "source_count": 17
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 66,
+      "findings": "Apple provides transparency through documentation describing AI model architecture, training methodology, and the use of AI for synthetic data generation and QA creation. Technical papers detail explicit, opt-in user controls, discuss privacy parameters for user analytics, and describe AI systems, their use cases, and how bias transfer impacts AI deployment. Furthermore, App Store Review Guidelines establish mandatory transparency requirements for sharing personal data with third-party AI systems, and help pages describe how users can generate and export reports of requests sent to Private Cloud Compute.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company blog post provides evidence for governance, oversight, privacy, and transparency. It supports governance by detailing data use protocols, including ethical web crawling and opt-out procedures, and by outlining refinement of data filtering processes. Oversight is demonstrated through descriptions of ongoing human review and flagging of model capabilities and responses. The blog post supports privacy by explicitly stating the protection of private personal data and the removal of PII. Transparency is evidenced by descriptions of AI model architecture, training methodology, and the use of AI for synthetic data generation and QA creation.",
+          "title": "Updates to Apple's On-Device and Server Foundation Language Models",
+          "url": "https://machinelearning.apple.com/research/apple-foundation-models-2025-updates"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for fairness, governance, oversight, privacy, and transparency. It details a comprehensive safety evaluation methodology with a taxonomy for assessing harmful content risks, supporting oversight and fairness. The paper also describes data curation, filtering pipelines, and commitments to not using private data for training, which supports governance and privacy. Furthermore, it outlines a structured annotation process and the use of human graders for model output assessment, demonstrating operational oversight. Commitments to integrating Responsible AI principles and representing users also contribute to the transparency pillar.",
+          "title": "Apple Intelligence Foundation Language Models: Tech Report 2025",
+          "url": "https://machinelearning.apple.com/papers/apple_intelligence_foundation_language_models_tech_report_2025.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post introduces Apple's foundation models and provides evidence for **fairness, governance, privacy, and transparency**. It supports these pillars by detailing risk evaluation and bias testing for AI features, outlining principles for responsible AI development, describing data usage controls and privacy protections for training data, and explaining comprehensive evaluation across diverse use cases.",
+          "title": "Introducing Apple's On-Device and Server Foundation Models",
+          "url": "https://machinelearning.apple.com/research/introducing-apple-foundation-models"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This App Store Review Guideline explicitly supports the **governance**, **oversight**, **privacy**, and **transparency** pillars. The guideline establishes mandatory transparency and consent requirements for sharing personal data with third-party AI systems, directly addressing privacy and transparency. It also assigns responsibility for compliance and mandates careful review of AI use, indicating strong governance and oversight mechanisms for data handling within the app ecosystem.",
+          "title": "App Store Review Guidelines - Guideline 5.1.2(i)",
+          "url": "https://developer.apple.com/app-store/review/guidelines"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This developer documentation for Apple Intelligence supports the **transparency** pillar by describing the AI system and its core capabilities. It also provides evidence for the **privacy** pillar by mentioning \"Private Cloud Compute\" and \"private\" experiences, indicating a commitment to data protection during AI processing.",
+          "title": "Apple Intelligence - Apple Developer",
+          "url": "https://developer.apple.com/apple-intelligence"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This WWDC video documentation provides evidence for fairness, governance, privacy, and transparency. It details built-in safety guardrails and a layered safety approach for on-device foundation models, supporting governance and fairness by outlining policies to block harmful inputs and outputs and emphasizing continuous improvement to avoid bias. The documentation also touches on privacy by mentioning its integration into operating systems and products, and supports transparency by explaining the AI system's capabilities and technical specifications.",
+          "title": "Explore prompt design & safety for on-device foundation models",
+          "url": "https://developer.apple.com/videos/play/wwdc2025/248"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This official Apple help page provides evidence for **external_accountability, governance, privacy, and transparency**. It supports the **privacy** pillar by detailing on-device processing, Differential Privacy, IP address hiding, and explicit statements that personal data is not used for foundation model training. Evidence for **governance** is found in descriptions of data use policies, user consent mechanisms, data retention policies, and restrictions on specific data uses. The page also supports **transparency** by explaining AI capabilities and data handling, and **external_accountability** through mentions of an ethics board approving AI development.",
+          "title": "Privacy - Features - Apple's Approach to Responsible AI",
+          "url": "https://apple.com/privacy/features"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Learning with Privacy at Scale,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. It supports governance by discussing the balancing of utility and computation, and the consideration of costs and system architecture in their privacy-by-design approach. Evidence for privacy is found in the description of on-device learning, data privatization techniques like encryption and anonymization, and the use of differential privacy. The paper also supports transparency by detailing explicit, opt-in user controls and discussing privacy parameters for user analytics.",
+          "title": "Learning with Privacy at Scale",
+          "url": "https://machinelearning.apple.com/research/learning-with-privacy-at-scale"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This help page provides evidence for **governance, oversight, privacy, and transparency** by detailing Applebot's web crawling practices for AI model training. It explains the AI system's function and data sourcing, outlines publisher controls and opt-out mechanisms, and describes data filtering and PII removal processes to safeguard user data. Furthermore, the document establishes a mechanism for users to object to data crawling, demonstrating policies for privacy rights and appeals.",
+          "title": "Applebot model training and individual privacy rights",
+          "url": "https://support.apple.com/en-us/120320"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Introducing Apple Intelligence for iPhone, iPad, and Mac,\" provides evidence for **privacy, transparency, governance, and external accountability**. It supports the privacy pillar by detailing protections like IP obscuring and no request storage, and emphasizes data security and non-sharing. The document also supports transparency by describing the AI system's capabilities and phased rollout, and governance through its mention of data retention policies. Furthermore, it touches on external accountability by noting the potential for independent inspection of code by external experts.",
+          "title": "Introducing Apple Intelligence for iPhone, iPad, and Mac",
+          "url": "https://apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_017",
+          "source_tier": "authority",
+          "summary": "This proxy statement provides evidence for **governance, oversight, privacy, transparency, external accountability, and fairness**. It details Apple's commitment to responsible AI development through its stated principles, board and committee oversight of AI strategy and privacy, and mechanisms for managing privacy risks, such as on-device processing and data minimization. The document also outlines processes for external accountability through auditor oversight and discusses the company's approach to AI capabilities like transparency and user empowerment.",
+          "title": "Apple Inc. 2025 Proxy Statement (DEF 14A)",
+          "url": "https://sec.gov/Archives/edgar/data/320193/000130817925000008/aapl4359751-def14a.htm"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_018",
+          "source_tier": "authority",
+          "summary": "This SEC No-Action Letter provides evidence for **transparency** and **governance** by detailing a shareholder proposal requesting a transparency report on AI use and disclosure of ethical AI guidelines. The letter also touches upon **fairness** by acknowledging potential social policy issues like bias and discrimination, and **privacy** by mentioning privacy interests and concerns related to AI. The SEC's decision to allow the proposal to proceed establishes a regulatory expectation for AI governance disclosure.",
+          "title": "SEC No-Action Letter - AFL-CIO Shareholder Proposal on AI Transparency",
+          "url": "https://sec.gov/files/corpfin/no-action/14a-8/aflcioapple010324-14a8.pdf"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_021",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for the **fairness** and **transparency** pillars of responsible AI. It supports fairness by investigating and analyzing the transfer of gender bias between pre-trained and adapted language models, and by proposing mitigation techniques. The paper also supports transparency by describing AI systems, their use cases, and how bias transfer impacts AI deployment.",
+          "title": "Evaluating Gender Bias Transfer Between Pre-trained and Prompt-Adapted Language Models",
+          "url": "https://machinelearning.apple.com/research/gender-bias-transfer"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_022",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models,\" provides evidence for the **transparency** pillar. The paper systematically investigates the reasoning processes of Large Reasoning Models (LRMs) by analyzing their reasoning traces and computational behavior. This detailed examination reveals the models' strengths and limitations, including specific failure modes at higher complexities, thereby contributing to a deeper understanding of their internal workings and performance boundaries.",
+          "title": "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models",
+          "url": "https://machinelearning.apple.com/research/illusion-of-thinking"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_023",
+          "source_tier": "company_owned",
+          "summary": "This help page, \"Create an Apple Intelligence Report,\" provides evidence for the **privacy** and **transparency** pillars of responsible AI. It supports **privacy** by detailing a mechanism for users to monitor AI-related activity and review data processed by server-based models, implying user control over their data. The page also supports **transparency** by describing how users can generate and export reports of requests sent to Apple's Private Cloud Compute, allowing for visibility into AI operations.",
+          "title": "Create an Apple Intelligence Report",
+          "url": "https://support.apple.com/guide/iphone/create-an-apple-intelligence-report-iphc6e91e858/ios"
+        }
+      ],
+      "score": 2,
+      "source_count": 15
+    }
+  },
+  "published_at": "2026-02-23T21:43:22Z",
+  "run_id": "20260124_003255_cda7",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Apple's published materials describe ongoing human review and flagging of model capabilities and responses, an operational practice within its oversight pillar. These disclosures, drawing from 23 publicly available sources, address 6 of 7 evaluated responsible AI pillars. Further operational practices include documentation outlining policies to block harmful inputs and outputs for on-device foundation models under fairness, and explicit statements on the protection of private personal data and removal of PII within privacy. No qualifying public evidence was found for explainability.",
+    "pillars_operational": 6,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 258,
+    "total_sources_used": 19
+  }
+}

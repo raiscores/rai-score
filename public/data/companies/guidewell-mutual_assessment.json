@@ -1,0 +1,304 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "GuideWell Mutual",
+  "company_slug": "guidewell-mutual",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 0,
+      "OPERATIONAL": 5,
+      "POLICY": 15
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "The company's code of ethical business conduct emphasizes providing explanations for AI-generated decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The \"Compass Code of Ethical Business Conduct (2025)\" charter provides evidence for **governance**, **transparency**, **fairness**, **oversight**, and **privacy**. This enterprise-wide code establishes a policy-level commitment to AI governance by requiring company-approved AI technologies and risk mitigation. It supports transparency and fairness by emphasizing the need to be clear about AI use and providing explanations for AI-generated decisions, while also explicitly mentioning non-discrimination principles. Furthermore, the charter mandates human oversight for AI-driven decision-making, directly addressing the oversight pillar, and implicitly supports privacy through its commitment to regulatory compliance.",
+          "title": "Compass Code of Ethical Business Conduct (2025)",
+          "url": "https://files.guidewell.com/m/27008b9403d50845/original/compass-code-of-ethical-business-conduct.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "The company's external accountability is supported by its work with regulators.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post from Florida Blue documents their responsible AI framework, which includes strong ethical guardrails such as transparency, fairness, privacy, human-in-the-loop oversight, and bias removal. The post supports the **privacy** pillar by noting that data does not leave the organization, and the **governance** pillar by detailing the implementation of a framework and engagement with stakeholders and academics. Evidence for **oversight** is found in the mention of subject matter experts reviewing each use case and the human-in-the-loop approach, while **external_accountability** is supported by their work with regulators.",
+          "title": "How Florida Blue Prioritizes Safe AI",
+          "url": "https://floridablue.com/blog/how-florida-blue-prioritizes-safe-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 4,
+      "findings": "The company's code of ethical business conduct explicitly mentions non-discrimination principles. A blog post outlines the company's commitment to fairness as an ethical guardrail and to bias removal. Furthermore, an impact report details commitments to non-discriminatory AI output.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The \"Compass Code of Ethical Business Conduct (2025)\" charter provides evidence for **governance**, **transparency**, **fairness**, **oversight**, and **privacy**. This enterprise-wide code establishes a policy-level commitment to AI governance by requiring company-approved AI technologies and risk mitigation. It supports transparency and fairness by emphasizing the need to be clear about AI use and providing explanations for AI-generated decisions, while also explicitly mentioning non-discrimination principles. Furthermore, the charter mandates human oversight for AI-driven decision-making, directly addressing the oversight pillar, and implicitly supports privacy through its commitment to regulatory compliance.",
+          "title": "Compass Code of Ethical Business Conduct (2025)",
+          "url": "https://files.guidewell.com/m/27008b9403d50845/original/compass-code-of-ethical-business-conduct.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post from Florida Blue documents their responsible AI framework, which includes strong ethical guardrails such as transparency, fairness, privacy, human-in-the-loop oversight, and bias removal. The post supports the **privacy** pillar by noting that data does not leave the organization, and the **governance** pillar by detailing the implementation of a framework and engagement with stakeholders and academics. Evidence for **oversight** is found in the mention of subject matter experts reviewing each use case and the human-in-the-loop approach, while **external_accountability** is supported by their work with regulators.",
+          "title": "How Florida Blue Prioritizes Safe AI",
+          "url": "https://floridablue.com/blog/how-florida-blue-prioritizes-safe-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This Florida Blue blog post provides evidence for the **fairness**, **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The article outlines the company's commitment to ethical guardrails, including transparency, fairness, privacy protection, human oversight, and bias removal. Specifically, it mentions subject matter experts reviewing each AI use case, indicating an operational process for oversight and governance.",
+          "title": "The Impact of AI on Health Insurance: A New Era of Efficiency and Effectiveness",
+          "url": "https://floridablue.com/employer/healthcare-industry-insights/impact-of-ai-on-health-insurance"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"2024 GuideWell Impact Report\" provides evidence for fairness, governance, oversight, privacy, and transparency. This company-owned audit report details GuideWell's establishment of an AI governance framework with six key principles, including commitments to non-discriminatory AI output (fairness) and HIPAA compliance (privacy). The report also highlights the deployment of AI systems like Kore.ai and GuideWell Chat, alongside explicit mention of human oversight and review throughout the AI lifecycle, supporting governance and oversight, and clarifies stakeholder communication on AI use, supporting transparency.",
+          "title": "2024 GuideWell Impact Report",
+          "url": "https://files.guidewell.com/m/52f39148d4563c14/original/2024-GuideWell-Impact-Report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 12,
+      "findings": "The company's code of ethical business conduct establishes a policy-level commitment to AI governance, requiring company-approved AI technologies and risk mitigation. The company details the implementation of an AI framework and engagement with stakeholders and academics. An impact report and a press release detail the establishment of an AI governance framework with six key principles, demonstrating a formal commitment to governing the responsible and ethical use of AI.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The \"Compass Code of Ethical Business Conduct (2025)\" charter provides evidence for **governance**, **transparency**, **fairness**, **oversight**, and **privacy**. This enterprise-wide code establishes a policy-level commitment to AI governance by requiring company-approved AI technologies and risk mitigation. It supports transparency and fairness by emphasizing the need to be clear about AI use and providing explanations for AI-generated decisions, while also explicitly mentioning non-discrimination principles. Furthermore, the charter mandates human oversight for AI-driven decision-making, directly addressing the oversight pillar, and implicitly supports privacy through its commitment to regulatory compliance.",
+          "title": "Compass Code of Ethical Business Conduct (2025)",
+          "url": "https://files.guidewell.com/m/27008b9403d50845/original/compass-code-of-ethical-business-conduct.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post from Florida Blue documents their responsible AI framework, which includes strong ethical guardrails such as transparency, fairness, privacy, human-in-the-loop oversight, and bias removal. The post supports the **privacy** pillar by noting that data does not leave the organization, and the **governance** pillar by detailing the implementation of a framework and engagement with stakeholders and academics. Evidence for **oversight** is found in the mention of subject matter experts reviewing each use case and the human-in-the-loop approach, while **external_accountability** is supported by their work with regulators.",
+          "title": "How Florida Blue Prioritizes Safe AI",
+          "url": "https://floridablue.com/blog/how-florida-blue-prioritizes-safe-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This Florida Blue blog post provides evidence for the **fairness**, **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The article outlines the company's commitment to ethical guardrails, including transparency, fairness, privacy protection, human oversight, and bias removal. Specifically, it mentions subject matter experts reviewing each AI use case, indicating an operational process for oversight and governance.",
+          "title": "The Impact of AI on Health Insurance: A New Era of Efficiency and Effectiveness",
+          "url": "https://floridablue.com/employer/healthcare-industry-insights/impact-of-ai-on-health-insurance"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"2024 GuideWell Impact Report\" provides evidence for fairness, governance, oversight, privacy, and transparency. This company-owned audit report details GuideWell's establishment of an AI governance framework with six key principles, including commitments to non-discriminatory AI output (fairness) and HIPAA compliance (privacy). The report also highlights the deployment of AI systems like Kore.ai and GuideWell Chat, alongside explicit mention of human oversight and review throughout the AI lifecycle, supporting governance and oversight, and clarifies stakeholder communication on AI use, supporting transparency.",
+          "title": "2024 GuideWell Impact Report",
+          "url": "https://files.guidewell.com/m/52f39148d4563c14/original/2024-GuideWell-Impact-Report.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This press release, the \"2024 GuideWell Impact Report Bulletin - April 2025,\" provides evidence for the **governance** pillar of responsible AI. The bulletin highlights the establishment of an Ethical Artificial Intelligence (AI) Framework with six key principles, demonstrating a formal commitment to governing the responsible and ethical use of AI.",
+          "title": "2024 GuideWell Impact Report Bulletin - April 2025",
+          "url": "https://files.guidewell.com/m/7342dd806e1a829d/original/providers-news-2025-community-resources-gw-impact-report-04-2025.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 8,
+      "findings": "The company's code of ethical business conduct mandates human oversight for AI-driven decision-making. Subject matter experts review each AI use case, and the company references a human-in-the-loop approach. Additionally, a blog post outlines a commitment to human oversight, and an impact report mentions human oversight and review throughout the AI lifecycle.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The \"Compass Code of Ethical Business Conduct (2025)\" charter provides evidence for **governance**, **transparency**, **fairness**, **oversight**, and **privacy**. This enterprise-wide code establishes a policy-level commitment to AI governance by requiring company-approved AI technologies and risk mitigation. It supports transparency and fairness by emphasizing the need to be clear about AI use and providing explanations for AI-generated decisions, while also explicitly mentioning non-discrimination principles. Furthermore, the charter mandates human oversight for AI-driven decision-making, directly addressing the oversight pillar, and implicitly supports privacy through its commitment to regulatory compliance.",
+          "title": "Compass Code of Ethical Business Conduct (2025)",
+          "url": "https://files.guidewell.com/m/27008b9403d50845/original/compass-code-of-ethical-business-conduct.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post from Florida Blue documents their responsible AI framework, which includes strong ethical guardrails such as transparency, fairness, privacy, human-in-the-loop oversight, and bias removal. The post supports the **privacy** pillar by noting that data does not leave the organization, and the **governance** pillar by detailing the implementation of a framework and engagement with stakeholders and academics. Evidence for **oversight** is found in the mention of subject matter experts reviewing each use case and the human-in-the-loop approach, while **external_accountability** is supported by their work with regulators.",
+          "title": "How Florida Blue Prioritizes Safe AI",
+          "url": "https://floridablue.com/blog/how-florida-blue-prioritizes-safe-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This Florida Blue blog post provides evidence for the **fairness**, **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The article outlines the company's commitment to ethical guardrails, including transparency, fairness, privacy protection, human oversight, and bias removal. Specifically, it mentions subject matter experts reviewing each AI use case, indicating an operational process for oversight and governance.",
+          "title": "The Impact of AI on Health Insurance: A New Era of Efficiency and Effectiveness",
+          "url": "https://floridablue.com/employer/healthcare-industry-insights/impact-of-ai-on-health-insurance"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"2024 GuideWell Impact Report\" provides evidence for fairness, governance, oversight, privacy, and transparency. This company-owned audit report details GuideWell's establishment of an AI governance framework with six key principles, including commitments to non-discriminatory AI output (fairness) and HIPAA compliance (privacy). The report also highlights the deployment of AI systems like Kore.ai and GuideWell Chat, alongside explicit mention of human oversight and review throughout the AI lifecycle, supporting governance and oversight, and clarifies stakeholder communication on AI use, supporting transparency.",
+          "title": "2024 GuideWell Impact Report",
+          "url": "https://files.guidewell.com/m/52f39148d4563c14/original/2024-GuideWell-Impact-Report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 7,
+      "findings": "The company's code of ethical business conduct implicitly supports privacy through its commitment to regulatory compliance. Data does not leave the organization, and a blog post outlines a commitment to privacy protection. An impact report also details commitments to HIPAA compliance.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The \"Compass Code of Ethical Business Conduct (2025)\" charter provides evidence for **governance**, **transparency**, **fairness**, **oversight**, and **privacy**. This enterprise-wide code establishes a policy-level commitment to AI governance by requiring company-approved AI technologies and risk mitigation. It supports transparency and fairness by emphasizing the need to be clear about AI use and providing explanations for AI-generated decisions, while also explicitly mentioning non-discrimination principles. Furthermore, the charter mandates human oversight for AI-driven decision-making, directly addressing the oversight pillar, and implicitly supports privacy through its commitment to regulatory compliance.",
+          "title": "Compass Code of Ethical Business Conduct (2025)",
+          "url": "https://files.guidewell.com/m/27008b9403d50845/original/compass-code-of-ethical-business-conduct.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post from Florida Blue documents their responsible AI framework, which includes strong ethical guardrails such as transparency, fairness, privacy, human-in-the-loop oversight, and bias removal. The post supports the **privacy** pillar by noting that data does not leave the organization, and the **governance** pillar by detailing the implementation of a framework and engagement with stakeholders and academics. Evidence for **oversight** is found in the mention of subject matter experts reviewing each use case and the human-in-the-loop approach, while **external_accountability** is supported by their work with regulators.",
+          "title": "How Florida Blue Prioritizes Safe AI",
+          "url": "https://floridablue.com/blog/how-florida-blue-prioritizes-safe-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This Florida Blue blog post provides evidence for the **fairness**, **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The article outlines the company's commitment to ethical guardrails, including transparency, fairness, privacy protection, human oversight, and bias removal. Specifically, it mentions subject matter experts reviewing each AI use case, indicating an operational process for oversight and governance.",
+          "title": "The Impact of AI on Health Insurance: A New Era of Efficiency and Effectiveness",
+          "url": "https://floridablue.com/employer/healthcare-industry-insights/impact-of-ai-on-health-insurance"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"2024 GuideWell Impact Report\" provides evidence for fairness, governance, oversight, privacy, and transparency. This company-owned audit report details GuideWell's establishment of an AI governance framework with six key principles, including commitments to non-discriminatory AI output (fairness) and HIPAA compliance (privacy). The report also highlights the deployment of AI systems like Kore.ai and GuideWell Chat, alongside explicit mention of human oversight and review throughout the AI lifecycle, supporting governance and oversight, and clarifies stakeholder communication on AI use, supporting transparency.",
+          "title": "2024 GuideWell Impact Report",
+          "url": "https://files.guidewell.com/m/52f39148d4563c14/original/2024-GuideWell-Impact-Report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 7,
+      "findings": "The company's code of ethical business conduct emphasizes clarity regarding AI use and the provision of explanations for AI-generated decisions. Additionally, a blog post outlines a commitment to transparency as an ethical guardrail, and an impact report clarifies stakeholder communication on AI use.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "charter",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "The \"Compass Code of Ethical Business Conduct (2025)\" charter provides evidence for **governance**, **transparency**, **fairness**, **oversight**, and **privacy**. This enterprise-wide code establishes a policy-level commitment to AI governance by requiring company-approved AI technologies and risk mitigation. It supports transparency and fairness by emphasizing the need to be clear about AI use and providing explanations for AI-generated decisions, while also explicitly mentioning non-discrimination principles. Furthermore, the charter mandates human oversight for AI-driven decision-making, directly addressing the oversight pillar, and implicitly supports privacy through its commitment to regulatory compliance.",
+          "title": "Compass Code of Ethical Business Conduct (2025)",
+          "url": "https://files.guidewell.com/m/27008b9403d50845/original/compass-code-of-ethical-business-conduct.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post from Florida Blue documents their responsible AI framework, which includes strong ethical guardrails such as transparency, fairness, privacy, human-in-the-loop oversight, and bias removal. The post supports the **privacy** pillar by noting that data does not leave the organization, and the **governance** pillar by detailing the implementation of a framework and engagement with stakeholders and academics. Evidence for **oversight** is found in the mention of subject matter experts reviewing each use case and the human-in-the-loop approach, while **external_accountability** is supported by their work with regulators.",
+          "title": "How Florida Blue Prioritizes Safe AI",
+          "url": "https://floridablue.com/blog/how-florida-blue-prioritizes-safe-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This Florida Blue blog post provides evidence for the **fairness**, **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. The article outlines the company's commitment to ethical guardrails, including transparency, fairness, privacy protection, human oversight, and bias removal. Specifically, it mentions subject matter experts reviewing each AI use case, indicating an operational process for oversight and governance.",
+          "title": "The Impact of AI on Health Insurance: A New Era of Efficiency and Effectiveness",
+          "url": "https://floridablue.com/employer/healthcare-industry-insights/impact-of-ai-on-health-insurance"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"2024 GuideWell Impact Report\" provides evidence for fairness, governance, oversight, privacy, and transparency. This company-owned audit report details GuideWell's establishment of an AI governance framework with six key principles, including commitments to non-discriminatory AI output (fairness) and HIPAA compliance (privacy). The report also highlights the deployment of AI systems like Kore.ai and GuideWell Chat, alongside explicit mention of human oversight and review throughout the AI lifecycle, supporting governance and oversight, and clarifies stakeholder communication on AI use, supporting transparency.",
+          "title": "2024 GuideWell Impact Report",
+          "url": "https://files.guidewell.com/m/52f39148d4563c14/original/2024-GuideWell-Impact-Report.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-02-23T21:51:48Z",
+  "run_id": "20260202_220616_b279",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency"
+    ],
+    "overall_findings": "GuideWell Mutual's Compass Code of Ethical Business Conduct emphasizes the need to be clear about AI use, an operational practice documented under transparency. All 7 evaluated pillars have documented public evidence, with the Code also explicitly mentioning non-discrimination principles for fairness and mandating human oversight for AI-driven decision-making at the policy level. Additionally, subject matter experts review each AI use case as a policy for oversight, and privacy is supported by the practice that data does not leave the organization. These findings are based on a review of 7 publicly available sources.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 20,
+    "total_sources_used": 5
+  }
+}

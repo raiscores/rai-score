@@ -1,0 +1,212 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Target",
+  "company_slug": "target-corp",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 5,
+      "OPERATIONAL": 1,
+      "POLICY": 27
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Blog posts acknowledge limitations in explainability for AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Target Tech Blog post provides evidence for explainability, fairness, governance, and transparency. The blog post details the transparency of the AI system's detection mechanisms and its architecture, while also acknowledging limitations in explainability. Furthermore, it demonstrates fairness by addressing bias in training data and outlining data sanitization techniques, and supports governance through its structured approach to AI development, systematic decision-making with an arbitration engine, and ongoing improvement of AI systems.",
+          "title": "Target Tech Blog: Solving Product Availability with AI",
+          "url": "https://tech.target.com/blog/solving-product-availability-with-ai"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "Blog posts describe addressing bias in training data. These posts also outline data sanitization techniques to promote fairness.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Target Tech Blog post provides evidence for explainability, fairness, governance, and transparency. The blog post details the transparency of the AI system's detection mechanisms and its architecture, while also acknowledging limitations in explainability. Furthermore, it demonstrates fairness by addressing bias in training data and outlining data sanitization techniques, and supports governance through its structured approach to AI development, systematic decision-making with an arbitration engine, and ongoing improvement of AI systems.",
+          "title": "Target Tech Blog: Solving Product Availability with AI",
+          "url": "https://tech.target.com/blog/solving-product-availability-with-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 22,
+      "findings": "Reports and SEC filings acknowledge risks associated with generative AI, including accuracy, ethical concerns, publicity, and reputational damage, and the importance of successful AI implementation. Policy documents describe business activities implying automated systems and mention oversight mechanisms, compliance teams, and audits for automated data processing. Additionally, proxy statements mention AI within the company's technology ecosystem, and blog posts describe a structured approach to AI development, systematic decision-making with an arbitration engine, and ongoing improvement of AI systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "Target's \"Target 2024 Annual Report (Form 10-K)\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report supports governance by acknowledging risks associated with generative AI, such as publicity and reputational damage, implying a need for policies to manage these impacts and ensure responsible use. It supports transparency by mentioning investments in AI systems and their capabilities as part of the company's technology strategy.",
+          "title": "Target 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/27419/000002741925000091/a2024_annualxreportxfinal.pdf"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This SEC filing, \"Target Risk Factors - Item 1A (10-K),\" provides evidence for the **governance** pillar of responsible AI. The document explicitly discusses risks associated with generative AI accuracy and ethical concerns, indicating the need for governance to manage these issues. Furthermore, it acknowledges the importance of successful AI implementation, implying the necessity of governance for AI deployment and ongoing management.",
+          "title": "Target Risk Factors - Item 1A (10-K)",
+          "url": "https://corporate.target.com/investors/annual/2024-annual-report/10-k-report/10-k-part-i/item-1a-risk-factors"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "Target's \"Target Privacy Policy\" document provides evidence for the **governance** and **privacy** pillars of responsible AI. This policy document supports the privacy pillar by detailing how customer information is collected, used for personalization and recommendations, and outlining opt-out rights related to profiling and targeted advertising. It also supports the governance pillar by describing business activities like personalization and analysis that imply automated systems, as well as mentioning oversight mechanisms, compliance teams, and audits for automated data processing.",
+          "title": "Target Privacy Policy",
+          "url": "https://target.com/c/target-privacy-policy/-/N-4sr7p"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "Target's 2024 Proxy Statement provides evidence for the **governance** pillar of responsible AI. This proxy statement mentions AI within the company's technology ecosystem, indicating a structured approach to its management. While it lacks specific execution details, its inclusion of AI within a broader technology framework suggests a foundational element of governance for these systems.",
+          "title": "Target 2024 Proxy Statement",
+          "url": "https://corporate.target.com/getmedia/746794ec-5f6c-4fdb-a2c5-6ab9d4d30ca0/Target_Proxy-Statement_2024.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Target Tech Blog post provides evidence for explainability, fairness, governance, and transparency. The blog post details the transparency of the AI system's detection mechanisms and its architecture, while also acknowledging limitations in explainability. Furthermore, it demonstrates fairness by addressing bias in training data and outlining data sanitization techniques, and supports governance through its structured approach to AI development, systematic decision-making with an arbitration engine, and ongoing improvement of AI systems.",
+          "title": "Target Tech Blog: Solving Product Availability with AI",
+          "url": "https://tech.target.com/blog/solving-product-availability-with-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "Policy documents mention oversight mechanisms for automated data processing. These documents also mention compliance teams and audits for automated data processing.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "Target's \"Target Privacy Policy\" document provides evidence for the **governance** and **privacy** pillars of responsible AI. This policy document supports the privacy pillar by detailing how customer information is collected, used for personalization and recommendations, and outlining opt-out rights related to profiling and targeted advertising. It also supports the governance pillar by describing business activities like personalization and analysis that imply automated systems, as well as mentioning oversight mechanisms, compliance teams, and audits for automated data processing.",
+          "title": "Target Privacy Policy",
+          "url": "https://target.com/c/target-privacy-policy/-/N-4sr7p"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 10,
+      "findings": "Policy documents detail how customer information is collected and used for personalization and recommendations. These documents also outline opt-out rights related to profiling and targeted advertising.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "Target's \"Target Privacy Policy\" document provides evidence for the **governance** and **privacy** pillars of responsible AI. This policy document supports the privacy pillar by detailing how customer information is collected, used for personalization and recommendations, and outlining opt-out rights related to profiling and targeted advertising. It also supports the governance pillar by describing business activities like personalization and analysis that imply automated systems, as well as mentioning oversight mechanisms, compliance teams, and audits for automated data processing.",
+          "title": "Target Privacy Policy",
+          "url": "https://target.com/c/target-privacy-policy/-/N-4sr7p"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 9,
+      "findings": "Reports reference investments in AI systems and their capabilities as part of the company's technology strategy. Blog posts detail the transparency of AI system detection mechanisms and their architecture.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "Target's \"Target 2024 Annual Report (Form 10-K)\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report supports governance by acknowledging risks associated with generative AI, such as publicity and reputational damage, implying a need for policies to manage these impacts and ensure responsible use. It supports transparency by mentioning investments in AI systems and their capabilities as part of the company's technology strategy.",
+          "title": "Target 2024 Annual Report (Form 10-K)",
+          "url": "https://sec.gov/Archives/edgar/data/27419/000002741925000091/a2024_annualxreportxfinal.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This Target Tech Blog post provides evidence for explainability, fairness, governance, and transparency. The blog post details the transparency of the AI system's detection mechanisms and its architecture, while also acknowledging limitations in explainability. Furthermore, it demonstrates fairness by addressing bias in training data and outlining data sanitization techniques, and supports governance through its structured approach to AI development, systematic decision-making with an arbitration engine, and ongoing improvement of AI systems.",
+          "title": "Target Tech Blog: Solving Product Availability with AI",
+          "url": "https://tech.target.com/blog/solving-product-availability-with-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-02-23T21:59:11Z",
+  "run_id": "20260203_015638_ad55",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Target's policy documents mention oversight mechanisms and compliance teams for automated data processing. These disclosures, drawn from 15 publicly available sources, address 5 of 7 evaluated responsible AI pillars. Additionally, published materials detail how customer information is collected and used for personalization and recommendations, while reports acknowledge risks associated with generative AI, including publicity and reputational damage. Transparency and fairness are addressed at the policy level, with blog posts describing addressing bias in training data. No qualifying public evidence was found for explainability or external accountability.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 33,
+    "total_sources_used": 5
+  }
+}
