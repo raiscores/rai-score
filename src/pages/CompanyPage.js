@@ -30,28 +30,21 @@ import {
 
 
 // Import Lucide React icons (reduced set - other icons moved to extracted components)
-import { 
-  Star,	
-  TrendingUp, 
-  Shield, 
-  Eye, 
-  Scale, 
-  Building, 
-  Users, 
+import {
+  Star,
+  Shield,
+  Eye,
+  Scale,
+  Building,
+  Users,
   Clock,
   Brain,
   AlertCircle,
   ExternalLink,
-  Share2,
   ArrowLeft,
-  Calendar,
   Award,
-  Target,
-  FileText,
-  DollarSign,
   Globe,
   MapPin,
-  Info,
   BarChart3
 } from 'lucide-react';
 
@@ -102,31 +95,29 @@ function CompanyPage() {
     );
   }
 
-  // Calculate pillar scores and convert from 0-1 scale to 0-10 scale for display
-  const pillarEntries = companyData.pillarDetails
-    ? Object.entries(companyData.pillarDetails)
+  // Get pillar scores from assessment data
+  const pillarEntries = companyData.pillar_scores
+    ? Object.entries(companyData.pillar_scores)
     : [];
 
-  // Calculate total and maximum possible scores across all pillars
-  const totalScore = pillarEntries
-    .reduce((sum, [_, details]) => sum + ((details.score ?? 0) * 10), 0);
+  // Use aggregate scores directly from assessment
+  const totalScore = companyData.total_score ?? 0;
+  const maxScore = companyData.max_possible_score ?? 14;
 
-  const maxScore = pillarEntries.length * 10;
-
-  // Map pillar names to their corresponding Lucide React icons
+  // Map pillar keys (snake_case) to their corresponding Lucide React icons
   const PILLAR_ICONS = {
-    "Transparency": Eye,
-    "Fairness & Bias Mitigation": Scale,
-    "Explainability": Brain,
-    "Human Oversight & Accountability": Users,
-    "Privacy & Security": Shield,
-    "Governance & Accountability": Building,
-    "Public Commitments & External Audits": Award,
+    transparency: Eye,
+    fairness: Scale,
+    explainability: Brain,
+    oversight: Users,
+    privacy: Shield,
+    governance: Building,
+    external_accountability: Award,
   };
 
-  // Determine implementation status by counting fully implemented pillars (score = 10)
+  // Determine implementation status by counting fully implemented pillars (score === max_score)
   const fullPillars = pillarEntries.filter(
-    ([_, details]) => ((details.score ?? 0) * 10) === 10
+    ([_, details]) => (details.score ?? 0) === (details.max_score ?? 2)
   ).length;
   const totalPillars = pillarEntries.length;
   const pillarStatus = getPillarImplementationStatus(fullPillars, totalPillars);
@@ -190,8 +181,8 @@ function CompanyPage() {
 		  <meta
 			name="description"
 			content={
-			  companyData?.overallFindings
-				? `${companyData.name} earned a ${overallGrade} grade for Responsible AI practices. ${companyData.overallFindings.substring(0, 120)}...`
+			  companyData?.overall_findings
+				? `${companyData.name} earned a ${overallGrade} grade for Responsible AI practices. ${companyData.overall_findings.substring(0, 120)}...`
 				: companyData?.summary
 				? `${companyData.name} RAI Assessment: ${companyData.summary.substring(0, 120)}...`
 				: `${companyData.name}: Independent Responsible AI evaluation and scoring.`
@@ -205,8 +196,8 @@ function CompanyPage() {
 		  <meta
 			property="og:description"
 			content={
-			  companyData?.overallFindings
-				? `${companyData.name} demonstrates ${overallGrade === 'A+' ? 'exceptional' : overallGrade.startsWith('A') ? 'strong' : 'developing'} Responsible AI practices across our 7-pillar framework. ${companyData.overallFindings.substring(0, 100)}...`
+			  companyData?.overall_findings
+				? `${companyData.name} demonstrates ${overallGrade === 'A+' ? 'exceptional' : overallGrade.startsWith('A') ? 'strong' : 'developing'} Responsible AI practices across our 7-pillar framework. ${companyData.overall_findings.substring(0, 100)}...`
 				: `Independent assessment of ${companyData?.name || "this company"}'s Responsible AI practices. Grade: ${overallGrade}`
 			}
 		  />
@@ -269,15 +260,15 @@ function CompanyPage() {
 				"@id": `https://raiscores.com/company/${companyData?.slug || ""}`
 			  },
 			  "image": "https://raiscores.com/og-image.png",
-			  "datePublished": "2025-01-01",
-			  "dateModified": "2025-01-25",
-			  "aggregateRating": companyData?.starRating
+			  "datePublished": companyData?.published_at || "",
+			  "dateModified": companyData?.published_at || "",
+			  "aggregateRating": companyData?.star_rating
 				? {
 					"@type": "AggregateRating",
-					"ratingValue": companyData.starRating,
+					"ratingValue": companyData.star_rating,
 					"bestRating": "5",
 					"worstRating": "1",
-					"ratingCount": companyData?.source_count > 0 ? companyData.source_count : 1,
+					"ratingCount": companyData?.source_count > 0 ? companyData.total_sources_used : 1,
 					"description": `${companyData.name} Responsible AI Score: ${overallGrade} grade based on ${totalPillars} assessment pillars`
 				  }
 				: undefined
@@ -308,7 +299,7 @@ function CompanyPage() {
             <ShareButton 
 			  url={`https://www.raiscores.com/company/${companyData?.slug || ""}`}
 			  title={`RAI Scores: ${companyData?.name || ""}`}
-			  description={companyData?.overallFindings || companyData?.summary || `${companyData?.name}: Responsible AI assessment`}
+			  description={companyData?.overall_findings || companyData?.summary || `${companyData?.name}: Responsible AI assessment`}
 			  companyName={companyData?.name}
 			  companyGrade={overallGrade}
 			/>
@@ -393,7 +384,7 @@ function CompanyPage() {
                   <div className="text-sm text-gray-600">Employees</div>
                 </div>
                 <div className="text-center p-3 bg-gray-50 rounded-lg">
-                  <div className="text-2xl font-bold text-gray-900">{companyData.source_count}</div>
+                  <div className="text-2xl font-bold text-gray-900">{companyData.total_sources_used}</div>
                   <div className="text-sm text-gray-600">Sources</div>
                 </div>
               </div>
@@ -406,7 +397,7 @@ function CompanyPage() {
                   {/* Letter grade and star rating */}
                   <div className="text-6xl font-bold text-blue-600 mb-2">{overallGrade}</div>
                   <div className="text-sm text-gray-600 mb-2">Overall Grade</div>
-                  <StarRating rating={companyData.starRating} />
+                    <StarRating rating={companyData.star_rating ?? 0} />
                 </div>
                 
                 {/* Animated progress bar showing score percentage */}
@@ -568,9 +559,8 @@ function CompanyPage() {
                       <table className="min-w-full divide-y divide-gray-200 text-sm">
                         <thead>
                           <tr className="bg-gray-100 text-gray-700">
+                            <th className="px-4 py-2 text-left font-semibold">Rank</th>
                             <th className="px-4 py-2 text-left font-semibold">Company</th>
-                            <th className="px-4 py-2 text-left font-semibold">Industry Rank</th>
-                            <th className="px-4 py-2 text-left font-semibold">Overall Score</th>
                             <th className="px-4 py-2 text-left font-semibold">Grade</th>
                           </tr>
                         </thead>
@@ -578,9 +568,8 @@ function CompanyPage() {
                           {/* Render industry leaders if available */}
                           {industryData && industryData.industry_leaders && industryData.industry_leaders.map((leader, idx) => (
                             <tr key={leader.name} className={leader.name === companyData.name ? "bg-blue-50" : ""}>
+                              <td className="px-4 py-2">{idx + 1}</td>
                               <td className="px-4 py-2 font-semibold">{leader.name}</td>
-                              <td className="px-4 py-2">{leader.rank}</td>
-                              <td className="px-4 py-2">{leader.score}</td>
                               <td className="px-4 py-2">
                                 <span className={
                                   leader.rating === "A+"
@@ -609,16 +598,18 @@ function CompanyPage() {
                 <h3 className="font-semibold text-gray-900 mb-4">Data Quality</h3>
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">Last Updated:</span>
-                    <span className="text-sm font-medium">Jun 2025</span>
+                    <span className="text-sm text-gray-600">Published:</span>
+                    <span className="text-sm font-medium">
+                      {companyData.published_at ? new Date(companyData.published_at).toLocaleDateString('en-US', { month: 'short', year: 'numeric' }) : 'N/A'}
+                    </span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-gray-600">Sources:</span>
-                    <span className="text-sm font-medium">{companyData.source_count}</span>
+                    <span className="text-sm font-medium">{companyData.total_sources_used ?? 'N/A'}</span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">Confidence:</span>
-                    <span className="text-sm font-medium text-green-600">{companyData.data_confidence}</span>
+                    <span className="text-sm text-gray-600">Evidence Items:</span>
+                    <span className="text-sm font-medium text-green-600">{companyData.total_evidence_items ?? 'N/A'}</span>
                   </div>
                 </div>
               </div>

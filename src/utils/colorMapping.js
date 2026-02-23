@@ -64,30 +64,30 @@ export const getStatusFromPercentile = (percentile) => {
 };
 
 /**
- * Maps a numerical score (0-10) to text color classes
+ * Maps a numerical score (0-2) to text color classes
  * Used for displaying individual pillar scores and overall scores
- * 
- * @param {number} score - The score value (typically 0-10)
+ *
+ * @param {number} score - The score value (0-2 scale)
  * @returns {string} - Tailwind CSS text color class
  */
 export const getScoreColor = (score) => {
-  if (score >= 8) return 'text-green-600';
-  if (score >= 6) return 'text-blue-600';
-  if (score >= 4) return 'text-yellow-600';
+  if (score >= 2) return 'text-green-600';
+  if (score >= 1.5) return 'text-blue-600';
+  if (score >= 1) return 'text-yellow-600';
   return 'text-red-600';
 };
 
 /**
- * Maps a numerical score (0-10) to gradient classes for progress bars
+ * Maps a numerical score (0-2) to gradient classes for progress bars
  * Used for animated progress bars and score visualizations
- * 
- * @param {number} score - The score value (typically 0-10)
+ *
+ * @param {number} score - The score value (0-2 scale)
  * @returns {string} - Tailwind CSS gradient classes (from-color to-color)
  */
 export const getScoreGradient = (score) => {
-  if (score >= 8) return 'from-green-500 to-green-600';
-  if (score >= 6) return 'from-blue-500 to-blue-600';
-  if (score >= 4) return 'from-yellow-500 to-yellow-600';
+  if (score >= 2) return 'from-green-500 to-green-600';
+  if (score >= 1.5) return 'from-blue-500 to-blue-600';
+  if (score >= 1) return 'from-yellow-500 to-yellow-600';
   return 'from-red-500 to-red-600';
 };
 

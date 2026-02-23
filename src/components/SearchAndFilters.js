@@ -94,8 +94,8 @@ function RangeSlider({ label, min, max, value, onChange, step = 0.1 }) {
           className="w-full mb-2 accent-blue-500"
         />
         <div className="flex justify-between text-xs text-gray-500">
-          <span>{value[0].toFixed(1)}</span>
-          <span>{value[1].toFixed(1)}</span>
+          <span>{Number.isInteger(step) ? value[0] : value[0].toFixed(1)}</span>
+          <span>{Number.isInteger(step) ? value[1] : value[1].toFixed(1)}</span>
         </div>
       </div>
     </div>
@@ -184,10 +184,10 @@ function SearchAndFilters({
             <RangeSlider
               label="Score Range"
               min={0}
-              max={7}
+              max={14}
               value={scoreRange}
               onChange={onScoreRangeChange}
-              step={0.1}
+              step={1}
             />
 
             {/* Top Performers Toggle */}
@@ -203,7 +203,7 @@ function SearchAndFilters({
                   className="accent-blue-500 scale-110"
                 />
                 <span className="text-sm text-gray-700">
-                  Top Performers Only (6.5+)
+                  Top Performers Only (12+)
                 </span>
               </label>
             </div>

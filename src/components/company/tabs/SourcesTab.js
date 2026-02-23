@@ -1,5 +1,5 @@
 // /src/components/company/tabs/SourcesTab.js
-import React from 'react';
+import React, { useMemo } from 'react';
 import {
   Calendar,
   CheckCircle,
@@ -11,58 +11,122 @@ import {
   ExternalLink
 } from 'lucide-react';
 
-/**
- * SourcesTab component displays comprehensive research sources analysis
- * 
- * Shows detailed breakdown of sources used in company assessment including:
- * - Source statistics and quality indicators
- * - Sources grouped by document type (ESG Reports, Policy Pages, etc.)
- * - Individual source cards with metadata
- * - Sources mapped to specific assessment pillars
- * - Source methodology and verification standards
- * 
- * @param {Object} props - Component props
- * @param {Object} props.companyData - Complete company data including sources
- */
+/** Format artifact_type for display (e.g., "blog_post" → "Blog Post") */
+const formatArtifactType = (type) => {
+  if (!type) return 'Other';
+  return type
+    .split('_')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+};
+
+/** Format source_tier for display (e.g., "company_owned" → "Company Owned") */
+const formatSourceTier = (tier) => {
+  if (!tier) return 'Unknown';
+  return tier
+    .split('_')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+};
+
+/** Get icon for artifact type category */
+const getArtifactIcon = (type) => {
+  switch (type) {
+    case 'esg_report':
+    case 'annual_report':
+    case 'proxy_statement':
+      return <FileText className="w-5 h-5 text-green-600" />;
+    case 'blog_post':
+    case 'press_release':
+    case 'help_page':
+      return <Globe className="w-5 h-5 text-blue-600" />;
+    default:
+      return <Info className="w-5 h-5 text-gray-600" />;
+  }
+};
+
+/** Get tier badge color */
+const getTierColor = (tier) => {
+  switch (tier) {
+    case 'company_owned': return 'bg-blue-100 text-blue-700';
+    case 'authority': return 'bg-green-100 text-green-700';
+    case 'third_party': return 'bg-gray-100 text-gray-700';
+    default: return 'bg-gray-100 text-gray-600';
+  }
+};
+
 const SourcesTab = ({ companyData }) => {
+  // Aggregate all unique sources across all pillars, dedup by source_id
+  const allSources = useMemo(() => {
+    if (!companyData.pillar_scores) return [];
+    const sourceMap = new Map();
+    Object.values(companyData.pillar_scores).forEach(pillar => {
+      if (pillar.relevant_sources) {
+        pillar.relevant_sources.forEach(source => {
+          if (source.source_id && !sourceMap.has(source.source_id)) {
+            sourceMap.set(source.source_id, source);
+          }
+        });
+      }
+    });
+    return Array.from(sourceMap.values());
+  }, [companyData.pillar_scores]);
+
+  // Group sources by artifact_type
+  const sourcesByType = useMemo(() => {
+    const groups = {};
+    allSources.forEach(source => {
+      const type = source.artifact_type || 'other';
+      if (!groups[type]) groups[type] = [];
+      groups[type].push(source);
+    });
+    return groups;
+  }, [allSources]);
+
   return (
     <div className="space-y-8">
-      {/* Sources Overview Header with statistics and quality indicators */}
+      {/* Sources Overview Header with statistics */}
       <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-2xl font-bold text-gray-900">Research Sources</h2>
           <div className="flex items-center gap-2 text-sm text-gray-500">
             <Calendar className="w-4 h-4" />
-            <span>Last updated: June 2025</span>
+            <span>
+              Published: {companyData.published_at
+                ? new Date(companyData.published_at).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
+                : 'N/A'}
+            </span>
           </div>
         </div>
-        
+
         {/* Source Statistics Overview */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <div className="bg-blue-50 rounded-lg p-4 text-center">
             <div className="text-2xl font-bold text-blue-600">
-              {companyData.summary?.sourcesUsed?.filter(s => s.sourceUsed).length || "N/A"}
+              {companyData.total_sources_used ?? allSources.length}
             </div>
             <div className="text-sm text-blue-700">Sources Used</div>
           </div>
           <div className="bg-green-50 rounded-lg p-4 text-center">
             <div className="text-2xl font-bold text-green-600">
-              {companyData.summary?.sourcesUsed?.filter(s => s.documentType === 'ESG Report').length || "N/A"}
+              {companyData.total_evidence_items ?? 'N/A'}
             </div>
-            <div className="text-sm text-green-700">ESG Reports</div>
+            <div className="text-sm text-green-700">Evidence Items</div>
           </div>
           <div className="bg-purple-50 rounded-lg p-4 text-center">
             <div className="text-2xl font-bold text-purple-600">
-              {companyData.summary?.sourcesUsed?.filter(s => s.documentType === 'Blog').length || "N/A"}
+              {companyData.pillars_with_evidence ?? 'N/A'}
             </div>
-            <div className="text-sm text-purple-700">Policy Pages</div>
+            <div className="text-sm text-purple-700">Pillars with Evidence</div>
           </div>
           <div className="bg-orange-50 rounded-lg p-4 text-center">
-            <div className="text-2xl font-bold text-orange-600">High</div>
-            <div className="text-sm text-orange-700">Confidence</div>
+            <div className="text-2xl font-bold text-orange-600">
+              {Object.keys(sourcesByType).length}
+            </div>
+            <div className="text-sm text-orange-700">Source Categories</div>
           </div>
         </div>
-        
+
         {/* Quality Indicators */}
         <div className="flex flex-wrap gap-3">
           <div className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-full">
@@ -75,127 +139,151 @@ const SourcesTab = ({ companyData }) => {
           </div>
           <div className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-full">
             <Clock className="w-4 h-4 text-purple-600" />
-            <span className="text-sm text-gray-700">Recently Updated</span>
+            <span className="text-sm text-gray-700">Pipeline Validated</span>
           </div>
         </div>
       </div>
 
-      {/* Sources by Category - Groups sources by document type */}
+      {/* Sources by Category */}
       <div className="space-y-6">
         <h3 className="text-xl font-bold text-gray-900">Sources by Category</h3>
-        
-        {/* Group sources by document type and render each category */}
-        {companyData.summary?.sourcesUsed && 
-          Object.entries(
-            companyData.summary.sourcesUsed
-              .filter(source => source.sourceUsed && source.documentType)
-              .reduce((acc, source) => {
-                const type = source.documentType || 'Other';
-                if (!acc[type]) acc[type] = [];
-                acc[type].push(source);
-                return acc;
-              }, {})
-          ).map(([category, sources]) => (
-            <div key={category} className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-              <div className="flex items-center justify-between mb-4">
-                <h4 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
-                  {/* Category icons based on document type */}
-                  {category === 'ESG Report' && <FileText className="w-5 h-5 text-green-600" />}
-                  {category === 'Blog' && <Globe className="w-5 h-5 text-blue-600" />}
-                  {category === 'Other' && <Info className="w-5 h-5 text-gray-600" />}
-                  {category} ({sources.length})
-                </h4>
-                <span className="text-sm text-gray-500">
-                  {Math.round((sources.length / companyData.summary.sourcesUsed.filter(s => s.sourceUsed).length) * 100)}% of total sources
-                </span>
-              </div>
-              
-              {/* Individual source cards within each category */}
-              <div className="grid gap-4">
-                {sources.map((source, index) => (
-                  <div key={index} className="border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition-colors">
-                    <div className="flex items-start justify-between mb-3">
-                      <div className="flex-1">
-                        <h5 className="font-medium text-gray-900 mb-1 hover:text-blue-600 cursor-pointer">
-                          {source.title || 'Untitled Source'}
-                        </h5>
-                        <p className="text-sm text-gray-600 mb-2">
-                          {source.summary || 'No summary available'}
-                        </p>
-                        <div className="flex items-center gap-4 text-xs text-gray-500">
-                          <span className="flex items-center gap-1">
-                            <Calendar className="w-3 h-3" />
-                            {source.retrievedAt ? new Date(source.retrievedAt).toLocaleDateString() : 'Unknown date'}
-                          </span>
-                          <span className="flex items-center gap-1">
-                            <CheckCircle className="w-3 h-3 text-green-500" />
-                            Verified
-                          </span>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-2 ml-4">
-                        <button className="p-2 text-gray-400 hover:text-blue-600 transition-colors">
-                          <ExternalLink className="w-4 h-4" />
-                        </button>
+
+        {Object.entries(sourcesByType).map(([artifactType, sources]) => (
+          <div key={artifactType} className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+            <div className="flex items-center justify-between mb-4">
+              <h4 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
+                {getArtifactIcon(artifactType)}
+                {formatArtifactType(artifactType)} ({sources.length})
+              </h4>
+              <span className="text-sm text-gray-500">
+                {Math.round((sources.length / allSources.length) * 100)}% of total sources
+              </span>
+            </div>
+
+            {/* Individual source cards within each category */}
+            <div className="grid gap-4">
+              {sources.map((source) => (
+                <div key={source.source_id} className="border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition-colors">
+                  <div className="flex items-start justify-between mb-3">
+                    <div className="flex-1">
+                      <h5 className="font-medium text-gray-900 mb-1">
+                        {source.url ? (
+                          <a
+                            href={source.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-blue-600 transition-colors"
+                          >
+                            {source.title || 'Untitled Source'}
+                          </a>
+                        ) : (
+                          source.title || 'Untitled Source'
+                        )}
+                      </h5>
+                      <p className="text-sm text-gray-600 mb-2">
+                        {source.summary || 'No summary available'}
+                      </p>
+                      <div className="flex items-center gap-3 text-xs text-gray-500">
+                        <span className={`px-2 py-0.5 rounded-full text-xs font-medium ${getTierColor(source.source_tier)}`}>
+                          {formatSourceTier(source.source_tier)}
+                        </span>
+                        <span className="flex items-center gap-1">
+                          <CheckCircle className="w-3 h-3 text-green-500" />
+                          Verified
+                        </span>
                       </div>
                     </div>
-                    
-                    {/* Source URL display */}
+                    {source.url && (
+                      <a
+                        href={source.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="p-2 text-gray-400 hover:text-blue-600 transition-colors ml-4"
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                      </a>
+                    )}
+                  </div>
+
+                  {/* Source URL display */}
+                  {source.url && (
                     <div className="bg-gray-50 rounded-lg p-3">
                       <div className="text-xs text-gray-500 mb-1">Source URL:</div>
-                      <div className="text-sm font-mono text-gray-700 break-all">
+                      <a
+                        href={source.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm font-mono text-blue-600 hover:text-blue-700 break-all"
+                      >
                         {source.url}
-                      </div>
+                      </a>
                     </div>
-                  </div>
-                ))}
-              </div>
+                  )}
+                </div>
+              ))}
             </div>
-          ))
-        }
+          </div>
+        ))}
+
+        {allSources.length === 0 && (
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 text-center text-gray-500">
+            No source data available for this company.
+          </div>
+        )}
       </div>
 
-      {/* Pillar Source Breakdown - Shows which sources were used for each pillar */}
+      {/* Sources by Assessment Pillar */}
       <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
         <h3 className="text-xl font-bold text-gray-900 mb-6">Sources by Assessment Pillar</h3>
-        
+
         <div className="space-y-4">
-          {companyData.pillarDetails && Object.entries(companyData.pillarDetails).map(([pillarName, details]) => (
-            <div key={pillarName} className="border border-gray-200 rounded-lg p-4">
+          {companyData.pillar_scores && Object.entries(companyData.pillar_scores).map(([pillarKey, details]) => (
+            <div key={pillarKey} className="border border-gray-200 rounded-lg p-4">
               <div className="flex items-center justify-between mb-3">
-                <h4 className="font-medium text-gray-900">{pillarName}</h4>
+                <h4 className="font-medium text-gray-900">{details.display_name}</h4>
                 <div className="flex items-center gap-2">
                   <span className="text-sm text-gray-500">
-                    {details.relevantSources?.length || 0} sources
+                    {details.source_count ?? 0} sources
                   </span>
                   {/* Score indicator dot */}
                   <div className={`w-2 h-2 rounded-full ${
-                    (details.score || 0) >= 0.8 ? 'bg-green-500' : 
-                    (details.score || 0) >= 0.5 ? 'bg-yellow-500' : 'bg-red-500'
+                    details.score === details.max_score ? 'bg-green-500' :
+                    details.score >= 1 ? 'bg-yellow-500' : 'bg-red-500'
                   }`} />
                 </div>
               </div>
-              
+
               {/* Display relevant sources for this pillar */}
-              {details.relevantSources && details.relevantSources.length > 0 ? (
+              {details.relevant_sources && details.relevant_sources.length > 0 ? (
                 <div className="space-y-2">
-                  {details.relevantSources.slice(0, 2).map((source, index) => (
-                    <div key={index} className="bg-gray-50 rounded p-3">
+                  {details.relevant_sources.slice(0, 2).map((source) => (
+                    <div key={source.source_id} className="bg-gray-50 rounded p-3">
                       <div className="text-sm font-medium text-gray-900 mb-1">
-                        {source.title || 'Untitled Source'}
+                        {source.url ? (
+                          <a
+                            href={source.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-blue-600 transition-colors"
+                          >
+                            {source.title || 'Untitled Source'}
+                          </a>
+                        ) : (
+                          source.title || 'Untitled Source'
+                        )}
                       </div>
                       <div className="text-xs text-gray-600 mb-1">
                         {source.summary}
                       </div>
                       <div className="text-xs text-gray-500">
-                        {source.documentType} • {source.retrievedAt ? new Date(source.retrievedAt).toLocaleDateString() : 'Unknown date'}
+                        {formatArtifactType(source.artifact_type)} &bull; {formatSourceTier(source.source_tier)}
                       </div>
                     </div>
                   ))}
-                  {details.relevantSources.length > 2 && (
+                  {details.relevant_sources.length > 2 && (
                     <div className="text-center">
                       <button className="text-blue-600 hover:text-blue-700 text-sm font-medium">
-                        View {details.relevantSources.length - 2} more sources
+                        View {details.relevant_sources.length - 2} more sources
                       </button>
                     </div>
                   )}
@@ -208,60 +296,36 @@ const SourcesTab = ({ companyData }) => {
         </div>
       </div>
 
-      {/* Source Methodology - Explains how sources are collected and verified */}
+      {/* Source Methodology */}
       <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100">
         <h3 className="text-xl font-bold text-gray-900 mb-4">Source Methodology</h3>
         <div className="prose prose-blue max-w-none">
           <p className="text-gray-700 mb-4">
-            Our AI research system systematically evaluates companies using publicly available information 
-            from official company sources, sustainability reports, and verified documentation.
+            Our evaluation pipeline systematically collects, validates, and scores evidence from
+            publicly available sources. LLMs extract verbatim evidence only; all scoring is
+            deterministic. If evidence is not publicly documented and verifiable, it does not
+            exist for scoring purposes.
           </p>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
-              <h4 className="font-semibold text-gray-900 mb-2">Source Verification</h4>
+              <h4 className="font-semibold text-gray-900 mb-2">Source Tiers</h4>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Official company websites and policies</li>
-                <li>• Published ESG and sustainability reports</li>
-                <li>• Verified press releases and announcements</li>
-                <li>• Public regulatory filings</li>
+                <li>&bull; <strong>Company Owned:</strong> Official websites, policies, reports</li>
+                <li>&bull; <strong>Authority:</strong> Regulatory filings, SEC documents</li>
+                <li>&bull; <strong>Third Party:</strong> Independent assessments (capped scoring)</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold text-gray-900 mb-2">Quality Standards</h4>
+              <h4 className="font-semibold text-gray-900 mb-2">Evidence Types</h4>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Real-time source validation</li>
-                <li>• Content freshness verification</li>
-                <li>• Cross-reference fact checking</li>
-                <li>• Confidence scoring system</li>
+                <li>&bull; <strong>OPERATIONAL (2 pts):</strong> Deployed systems, measurable practices</li>
+                <li>&bull; <strong>POLICY (1 pt):</strong> Written policies and commitments</li>
+                <li>&bull; <strong>NARRATIVE (0 pts):</strong> General statements without specifics</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Premium Features CTA - Hidden for now, can be uncommented later */}
-      {/* 
-      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl p-8 text-center text-white">
-        <div className="max-w-2xl mx-auto">
-          <h3 className="text-2xl font-bold mb-4">Get Complete Source Access</h3>
-          <p className="text-blue-100 mb-6">
-            Access full source documentation, detailed analysis, and advanced filtering tools. 
-            Perfect for compliance teams, investors, and researchers.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
-              Start Free Trial
-            </button>
-            <button className="border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
-              View Pricing
-            </button>
-          </div>
-          <p className="text-blue-200 text-sm mt-4">
-            14-day free trial • Cancel anytime • No credit card required
-          </p>
-        </div>
-      </div>
-      */}
     </div>
   );
 };

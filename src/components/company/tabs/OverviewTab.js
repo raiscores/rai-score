@@ -4,23 +4,6 @@ import { BarChart3, Shield, Info } from 'lucide-react';
 import PillarCard from '../PillarCard';
 import { getColorClassesFromStatus } from '../../../utils/colorMapping';
 
-/**
- * OverviewTab component displays executive summary and pillar breakdown
- * 
- * Shows key metrics cards, overall findings, and individual pillar assessments
- * using the imported PillarCard component for consistent styling.
- * 
- * @param {Object} props - Component props
- * @param {Object} props.companyData - Complete company data
- * @param {number} props.fullPillars - Number of fully implemented pillars
- * @param {number} props.totalPillars - Total number of pillars
- * @param {string} props.pillarStatus - Overall pillar implementation status
- * @param {Object} props.performanceColor - Performance color classes
- * @param {number} props.performancePercentile - Performance percentile ranking
- * @param {Object} props.PILLAR_ICONS - Mapping of pillar names to icons
- * @param {boolean} props.animateScores - Whether to animate score progress bars
- * @param {function} props.onViewSources - Callback to switch to sources tab
- */
 const OverviewTab = ({
   companyData,
   fullPillars,
@@ -49,7 +32,7 @@ const OverviewTab = ({
             <div className={`text-2xl font-bold ${pillarColor.text}`}>{fullPillars}/{totalPillars}</div>
             <div className={`text-sm ${pillarColor.text}`}>Pillars with full implementation</div>
           </div>
-          
+
           {/* Performance ranking */}
           <div className={`rounded-lg p-4 ${performanceColor.bg}`}>
             <div className="flex items-center gap-2 mb-2">
@@ -61,22 +44,22 @@ const OverviewTab = ({
             </div>
             <div className={`text-sm ${performanceColor.text}`}>Percentile ranking</div>
           </div>
-          
-          {/* Data confidence indicator */}
+
+          {/* Evidence items indicator */}
           <div className="bg-purple-50 rounded-lg p-4">
             <div className="flex items-center gap-2 mb-2">
               <Shield className="w-5 h-5 text-purple-600" />
-              <span className="font-semibold text-purple-800">Confidence</span>
+              <span className="font-semibold text-purple-800">Evidence</span>
             </div>
-            <div className="text-2xl font-bold text-purple-600">High</div>
-            <div className="text-sm text-purple-700">Data reliability</div>
+            <div className="text-2xl font-bold text-purple-600">{companyData.total_evidence_items ?? 'N/A'}</div>
+            <div className="text-sm text-purple-700">Evidence items analyzed</div>
           </div>
         </div>
-        
+
         {/* Overall findings text */}
         <div className="prose max-w-none">
           <p className="text-gray-700 leading-relaxed">
-            {companyData.overallFindings || "Responsible AI assessment not available for this company."}
+            {companyData.overall_findings || "Responsible AI assessment not available for this company."}
           </p>
         </div>
       </div>
@@ -85,21 +68,32 @@ const OverviewTab = ({
       <div>
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Responsible AI Assessment</h2>
         <div className="grid gap-6">
-          {companyData.pillarDetails &&
-            Object.entries(companyData.pillarDetails).map(([pillarName, details]) => {
-              const Icon = PILLAR_ICONS[pillarName] || Info;
-              const scaledScore = (details.score ?? 0) * 10; // Convert 0-1 to 0-10 scale
+          {companyData.pillar_scores &&
+            Object.entries(companyData.pillar_scores).map(([pillarKey, details]) => {
+              const Icon = PILLAR_ICONS[pillarKey] || Info;
+              const score = details.score ?? 0;
+              const maxPillarScore = details.max_score ?? 2;
+
+              // Derive status from score
+              let status;
+              if (score === maxPillarScore) status = 'excellent';
+              else if (score >= 1) status = 'good';
+              else if (score > 0) status = 'fair';
+              else status = 'poor';
+
+              const description = details.findings || 'No findings available.';
+
               return (
                 <PillarCard
-                  key={pillarName}
-                  name={pillarName}
-                  score={scaledScore}
-                  max={10}
+                  key={pillarKey}
+                  name={details.display_name}
+                  score={score}
+                  max={maxPillarScore}
                   icon={Icon}
-                  status={details.status || 'excellent'}
-                  description={details.findings || details.justification}
-                  sources={details.relevantSources?.length || 0}
-                  confidence="High"
+                  status={status}
+                  description={description}
+                  sources={details.source_count ?? 0}
+                  evidenceType={details.best_evidence_type}
                   animateScores={animateScores}
                   onViewSources={onViewSources}
                 />
