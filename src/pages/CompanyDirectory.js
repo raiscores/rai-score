@@ -56,7 +56,7 @@ function getGrade(score, max) {
 }
 
 function getGradeBadgeClasses(grade) {
-  if (grade.startsWith('A')) return 'bg-emerald-50 text-emerald-700 border-emerald-200';
+  if (grade.startsWith('A')) return 'bg-emerald-50 text-emerald-700/85 border-emerald-200';
   if (grade.startsWith('B')) return 'bg-blue-50 text-blue-700 border-blue-200';
   if (grade.startsWith('C')) return 'bg-amber-50 text-amber-700 border-amber-200';
   return 'bg-red-50 text-red-700 border-red-200';
@@ -65,7 +65,7 @@ function getGradeBadgeClasses(grade) {
 function GradeBadge({ score, max }) {
   const grade = getGrade(score, max);
   return (
-    <span className={`inline-block text-xs font-semibold px-1.5 py-0.5 rounded border ${getGradeBadgeClasses(grade)}`}>
+    <span className={`inline-block text-xs font-bold py-px rounded border leading-snug text-center w-7 ${getGradeBadgeClasses(grade)}`}>
       {grade}
     </span>
   );
@@ -83,7 +83,7 @@ function PillarDots({ scores }) {
           title={`${PILLAR_NAMES[i]}: ${score === 2 ? 'Operational (2/2)' : score === 1 ? 'Policy (1/2)' : 'No Evidence (0/2)'}`}
           className={`w-2 h-2 rounded-full ${
             score === 2 ? 'bg-emerald-500' :
-            score === 1 ? 'bg-amber-400' :
+            score === 1 ? 'bg-amber-500' :
             'bg-gray-200'
           }`}
         />
@@ -92,14 +92,16 @@ function PillarDots({ scores }) {
   );
 }
 
-function SortIndicator({ column, sortBy }) {
-  const isActive = {
+function isSortActive(column, sortBy) {
+  return {
     name: ['name-asc', 'name-desc'].includes(sortBy),
     score: ['score-asc', 'score-desc'].includes(sortBy),
     industry: sortBy === 'industry',
-  }[column];
+  }[column] || false;
+}
 
-  if (!isActive) return null;
+function SortIndicator({ column, sortBy }) {
+  if (!isSortActive(column, sortBy)) return null;
 
   const isDesc = sortBy === 'score-desc' || sortBy === 'name-desc';
   const Icon = isDesc ? ChevronDown : ChevronUp;
@@ -258,11 +260,19 @@ function CompanyDirectory() {
               <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
               <input
                 type="text"
-                placeholder="Search companies or industries..."
+                placeholder="Search by name or industry..."
                 value={searchTerm}
                 onChange={(e) => handleSearch(e.target.value)}
-                className="w-full py-2.5 pl-10 pr-4 border border-gray-200 rounded-lg text-sm bg-white outline-none transition-colors focus:border-blue-500 focus:ring-2 focus:ring-blue-500/10"
+                className="w-full py-2.5 pl-10 pr-9 border border-gray-200 rounded-lg text-sm bg-white outline-none transition-colors focus:border-blue-500 focus:ring-2 focus:ring-blue-500/10"
               />
+              {searchTerm && (
+                <button
+                  onClick={() => handleSearch('')}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 cursor-pointer"
+                >
+                  <X size={16} />
+                </button>
+              )}
             </div>
 
             {/* Filter dropdowns */}
@@ -312,17 +322,41 @@ function CompanyDirectory() {
           </div>
         </div>
 
+        {/* --- Active filter chips --- */}
+        {hasActiveFilters && (
+          <div className="flex items-center gap-2 flex-wrap mb-4">
+            {searchTerm && (
+              <span className="inline-flex items-center gap-1.5 bg-gray-100 text-gray-700 text-xs font-medium py-1 px-2.5 rounded-full">
+                Search: "{searchTerm}"
+                <button onClick={() => handleSearch('')} className="text-gray-400 hover:text-gray-600 cursor-pointer"><X size={12} /></button>
+              </span>
+            )}
+            {selectedIndustry && (
+              <span className="inline-flex items-center gap-1.5 bg-gray-100 text-gray-700 text-xs font-medium py-1 px-2.5 rounded-full">
+                {selectedIndustry}
+                <button onClick={() => handleIndustry('')} className="text-gray-400 hover:text-gray-600 cursor-pointer"><X size={12} /></button>
+              </span>
+            )}
+            {minGrade && (
+              <span className="inline-flex items-center gap-1.5 bg-gray-100 text-gray-700 text-xs font-medium py-1 px-2.5 rounded-full">
+                Grade: {minGrade}{minGrade !== 'D' ? ' & above' : ' only'}
+                <button onClick={() => handleGrade('')} className="text-gray-400 hover:text-gray-600 cursor-pointer"><X size={12} /></button>
+              </span>
+            )}
+            <button
+              onClick={clearFilters}
+              className="text-xs text-gray-500 hover:text-gray-700 cursor-pointer ml-1"
+            >
+              Clear all
+            </button>
+          </div>
+        )}
+
         {/* --- Results count --- */}
         <div className="flex justify-between items-center mb-4 text-sm text-slate-500">
           <span>
             Showing {filteredCompanies.length > 0 ? startIndex + 1 : 0}–{Math.min(startIndex + rowsPerPage, filteredCompanies.length)} of {filteredCompanies.length} companies
-            {searchTerm && ` matching "${searchTerm}"`}
           </span>
-          {hasActiveFilters && (
-            <span className="bg-blue-50 text-blue-600 py-1 px-2.5 rounded text-xs font-medium">
-              Filtered
-            </span>
-          )}
         </div>
 
         {/* --- Desktop Table (md+) --- */}
@@ -330,36 +364,36 @@ function CompanyDirectory() {
           <table className="w-full">
             <thead className="sticky top-0 z-10">
               <tr className="border-b-2 border-gray-200 bg-gray-50">
-                <th className="py-3 px-4 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider w-14">
+                <th className="py-3 px-4 text-right text-xs font-semibold text-gray-500 uppercase tracking-wider w-14">
                   #
                 </th>
                 <th
-                  className="py-3 px-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:text-gray-800 select-none"
+                  className={`py-3 px-4 text-left text-xs font-semibold uppercase tracking-wider cursor-pointer hover:text-gray-800 select-none ${isSortActive('name', sortBy) ? 'text-gray-800' : 'text-gray-500'}`}
                   onClick={() => handleColumnSort('name')}
                 >
                   Company
                   <SortIndicator column="name" sortBy={sortBy} />
                 </th>
                 <th
-                  className="py-3 px-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:text-gray-800 select-none"
+                  className={`py-3 px-4 text-left text-xs font-semibold uppercase tracking-wider cursor-pointer hover:text-gray-800 select-none ${isSortActive('industry', sortBy) ? 'text-gray-800' : 'text-gray-500'}`}
                   onClick={() => handleColumnSort('industry')}
                 >
                   Industry
                   <SortIndicator column="industry" sortBy={sortBy} />
                 </th>
-                <th className="py-3 px-4 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                <th className="py-3 px-4 text-center text-xs font-semibold text-gray-500 uppercase tracking-wider">
                   <span className="inline-flex items-center gap-1">
                     Pillars
                     <span
                       className="inline-flex"
-                      title="7 RAI pillars · Green = Operational evidence (2/2) · Amber = Policy only (1/2) · Gray = No evidence (0/2)"
+                      title={"Each dot = 1 of 7 RAI pillars (fixed order: Transparency, Fairness, Explainability, Oversight, Privacy, Governance, External Accountability)\n\nGreen = Operational evidence (2/2)\nAmber = Policy-level only (1/2)\nGray = No documented evidence (0/2)\n\nHover individual dots to see pillar names."}
                     >
-                      <Info size={12} className="text-gray-400" />
+                      <Info size={12} className="text-gray-400 hover:text-gray-600 cursor-help" />
                     </span>
                   </span>
                 </th>
                 <th
-                  className="py-3 px-4 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:text-gray-800 select-none"
+                  className={`py-3 px-4 text-right text-xs font-semibold uppercase tracking-wider cursor-pointer hover:text-gray-800 select-none ${isSortActive('score', sortBy) ? 'text-gray-800' : 'text-gray-500'}`}
                   onClick={() => handleColumnSort('score')}
                 >
                   Score
@@ -377,10 +411,11 @@ function CompanyDirectory() {
                   <td className="py-3 px-4 text-right text-sm text-gray-400 tabular-nums">
                     {startIndex + index + 1}
                   </td>
-                  <td className="py-3 px-4">
+                  <td className="py-3 px-4 max-w-[280px]">
                     <Link
                       to={`/company/${company.slug}`}
-                      className="text-sm font-medium text-blue-800 hover:text-blue-600 hover:underline transition-colors no-underline"
+                      className="text-sm font-medium text-slate-700 hover:text-blue-600 hover:underline transition-colors no-underline block truncate"
+                      title={company.name}
                       onClick={(e) => e.stopPropagation()}
                     >
                       {company.name}
