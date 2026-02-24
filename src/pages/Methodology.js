@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { Eye, Scale, Lightbulb, Users, Shield, Building, CheckCircle,
+import { Eye, Scale, Users, Shield, Building, CheckCircle,
          Target, Globe, AlertCircle, XCircle, TrendingUp, Calendar,
-         FileText, Brain, ArrowRight, Search, BarChart3 } from 'lucide-react';
-		 
+         FileText, Brain, Award, ArrowRight, Search, BarChart3 } from 'lucide-react';
+
 
 function Methodology() {
   const pillars = [
@@ -13,84 +13,84 @@ function Methodology() {
       title: 'Transparency',
       icon: Eye,
       color: '#2563eb',
-      description: 'Public disclosure of AI systems, decision-making processes, and algorithmic approaches. Includes model cards, system documentation, and operational transparency.'
+      description: 'Public disclosure of AI systems, capabilities, limitations, and decision-making processes. Includes model cards, system documentation, and algorithmic transparency reports.'
     },
     {
       id: 'fairness',
       title: 'Fairness & Bias Mitigation',
       icon: Scale,
       color: '#0ea5e9',
-      description: 'Systematic approaches to identify, measure, and mitigate bias in AI systems. Includes bias testing, fairness metrics, and corrective measures.'
+      description: 'Systematic approaches to identify, measure, and mitigate bias in AI systems. Includes bias audits, fairness metrics, diverse testing practices, and corrective measures.'
     },
     {
       id: 'explainability',
       title: 'Explainability',
-      icon: Lightbulb,
+      icon: Brain,
       color: '#f59e0b',
-      description: 'Ability to explain AI decision-making processes in understandable terms. Includes interpretability tools, explanation interfaces, and decision rationale.'
+      description: 'Ability to explain AI decision-making processes in understandable terms. Includes interpretability tools, explanation interfaces, and decision rationale documentation.'
     },
     {
       id: 'oversight',
       title: 'Human Oversight & Accountability',
       icon: Users,
       color: '#10b981',
-      description: 'Human-in-the-loop systems, accountability structures, and oversight mechanisms. Includes governance frameworks and responsible deployment practices.'
+      description: 'Human-in-the-loop systems, accountability structures, and oversight mechanisms for AI deployment. Includes governance bodies, escalation procedures, and responsible deployment practices.'
     },
     {
       id: 'privacy',
-      title: 'Privacy & Security',
+      title: 'Privacy & Data Protection',
       icon: Shield,
       color: '#8b5cf6',
-      description: 'Data protection, user privacy, and security measures. Includes privacy-by-design principles, data minimization, and security protocols.'
+      description: 'Data protection practices, user privacy controls, and privacy-by-design principles. Includes data minimization, consent mechanisms, and privacy impact assessments.'
     },
     {
       id: 'governance',
-      title: 'Governance & Internal Accountability',
+      title: 'Governance & Internal Controls',
       icon: Building,
       color: '#6b7280',
-      description: 'Internal governance structures, ethics committees, and accountability mechanisms. Includes policies, training, and compliance frameworks.'
+      description: 'Internal governance structures, ethics committees, risk management, and compliance frameworks for AI. Includes policies, training, audit processes, and accountability mechanisms.'
     },
     {
-      id: 'commitments',
+      id: 'external_accountability',
       title: 'Public Commitments & External Audits',
-      icon: CheckCircle,
+      icon: Award,
       color: '#ef4444',
-      description: 'Public commitments to responsible AI and third-party validation. Includes certifications, audits, and external accountability measures.'
+      description: 'Public commitments to responsible AI principles and third-party validation. Includes certifications, external audits, industry partnerships, and regulatory engagement.'
     }
   ];
 
   const scoringTiers = [
     {
-      score: '10/10',
-      title: 'Full Implementation',
+      score: '2/2',
+      title: 'Operational Evidence',
       color: '#10b981',
       bgColor: '#f0fdf4',
-      description: 'Comprehensive evidence with detailed policies, specific examples, measurable outcomes, and regular reporting.'
+      description: 'Concrete, observable accountability mechanisms. Processes that run, controls executed, named bodies with authority and cadence.'
     },
     {
-      score: '5/10',
-      title: 'Partial Implementation',
+      score: '1/2',
+      title: 'Policy Evidence',
       color: '#f59e0b',
       bgColor: '#fffbeb',
-      description: 'General statements and commitments with limited evidence or implementation details.'
+      description: 'Formal documentation describing intent, structure, or expectations. Policies, principles, governance frameworks without operational execution described.'
     },
     {
-      score: '0/10',
+      score: '0/2',
       title: 'No Evidence',
       color: '#ef4444',
       bgColor: '#fef2f2',
-      description: 'No public information, documentation, or evidence of practices in this area.'
+      description: 'No public evidence found, or only narrative and aspirational content such as values statements or marketing language.'
     }
   ];
 
   return (
     <div className="min-h-screen bg-white font-sans">
-	
-	 {/* Page Title */}
-		<Helmet>
-		  <title>RAI Scores: Methodology</title>
-		</Helmet>
-		
+
+      {/* Page Title */}
+      <Helmet>
+        <title>RAI Scores: Methodology</title>
+      </Helmet>
+
       {/* Hero Section */}
       <div id="hero" className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -105,17 +105,12 @@ function Methodology() {
               Responsible AI <span className="text-blue-400">Methodology</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-300 max-w-4xl mx-auto mb-8 leading-relaxed">
-              Our evidence-based framework evaluates AI companies across seven critical pillars of responsible AI practices, using publicly available information to create transparent, standardized assessments.
+              Our evidence-type scoring framework evaluates AI companies across seven critical pillars of responsible AI, classifying public evidence as Operational, Policy, or Narrative to produce deterministic, reproducible assessments.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link 
-                to="/companies" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
-                View Company Scores <ArrowRight className="w-5 h-5" />
-              </Link>
-              <Link to="/coming-soon" className="px-8 py-4 border border-slate-400 hover:bg-slate-800 rounded-lg font-semibold transition-colors">
-                Download Methodology
-              </Link>
-            </div>
+            <Link
+              to="/companies" className="inline-flex px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors items-center justify-center gap-2">
+              View Company Scores <ArrowRight className="w-5 h-5" />
+            </Link>
           </div>
         </div>
       </div>
@@ -128,11 +123,11 @@ function Methodology() {
               7-Pillar Evaluation Framework
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Our comprehensive assessment framework evaluates AI companies across seven interconnected pillars of responsible AI, providing a holistic view of their practices and commitments.
+              Our framework evaluates AI companies across seven interconnected pillars of responsible AI, providing a holistic view of their practices and commitments.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="text-center p-6 bg-white rounded-xl shadow-sm">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <FileText className="w-8 h-8 text-blue-600" />
@@ -151,9 +146,16 @@ function Methodology() {
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Target className="w-8 h-8 text-purple-600" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-2">Standardized</h3>
-              <p className="text-slate-600">Consistent evaluation criteria applied across all companies</p>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">Deterministic</h3>
+              <p className="text-slate-600">Reproducible scores computed from evidence classifications, not subjective judgment</p>
             </div>
+          </div>
+
+          {/* Key Principle */}
+          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 text-center">
+            <p className="text-blue-900 font-medium text-lg">
+              AI extracts verbatim evidence from public sources. All scoring is deterministic — no AI judgment, no subjectivity. If evidence is not publicly documented and verifiable, it does not exist for scoring purposes.
+            </p>
           </div>
         </div>
       </div>
@@ -163,17 +165,17 @@ function Methodology() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              Three-Tier Scoring System
+              Evidence-Type Scoring System
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Each pillar is evaluated on a 10-point scale based on the depth and quality of evidence found in public documentation.
+              Each pillar is scored 0–2 based on the strongest type of public evidence found, distinguishing between operational implementation and stated policy.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             {scoringTiers.map((tier, index) => (
               <div key={index} className="relative">
-                <div className="p-8 rounded-xl border-2 border-slate-200 bg-white hover:shadow-lg transition-shadow">
+                <div className="h-full p-8 rounded-xl border-2 border-slate-200 bg-white hover:shadow-lg transition-shadow">
                   <div className="flex items-center justify-between mb-4">
                     <span className="text-2xl font-bold" style={{ color: tier.color }}>
                       {tier.score}
@@ -191,7 +193,8 @@ function Methodology() {
             ))}
           </div>
 
-          <div className="bg-slate-50 rounded-xl p-8 text-center">
+          {/* Overall Score Calculation */}
+          <div className="bg-slate-50 rounded-xl p-8 text-center mb-8">
             <div className="flex items-center justify-center mb-4">
               <BarChart3 className="w-8 h-8 text-blue-600 mr-3" />
               <span className="text-2xl font-bold text-slate-900">Overall Score Calculation</span>
@@ -200,7 +203,57 @@ function Methodology() {
               Total score is the sum of all seven pillar scores
             </p>
             <div className="inline-block bg-blue-100 text-blue-800 px-6 py-3 rounded-lg font-semibold">
-              Maximum Score: 70 points (10 points × 7 pillars)
+              Maximum Score: 14 points (2 points × 7 pillars)
+            </div>
+          </div>
+
+          {/* Star Ratings & Letter Grades */}
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-slate-50 rounded-xl p-6">
+              <h4 className="text-lg font-semibold text-slate-900 mb-4">Star Ratings</h4>
+              <div className="space-y-3">
+                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
+                  <span className="text-amber-600 font-medium">★★★★★</span>
+                  <span className="text-slate-600 text-sm">13–14 points</span>
+                </div>
+                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
+                  <span className="text-amber-600 font-medium">★★★★</span>
+                  <span className="text-slate-600 text-sm">10–12 points</span>
+                </div>
+                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
+                  <span className="text-amber-600 font-medium">★★★</span>
+                  <span className="text-slate-600 text-sm">7–9 points</span>
+                </div>
+                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
+                  <span className="text-amber-600 font-medium">★★</span>
+                  <span className="text-slate-600 text-sm">4–6 points</span>
+                </div>
+                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
+                  <span className="text-amber-600 font-medium">★</span>
+                  <span className="text-slate-600 text-sm">0–3 points</span>
+                </div>
+              </div>
+            </div>
+            <div className="bg-slate-50 rounded-xl p-6">
+              <h4 className="text-lg font-semibold text-slate-900 mb-4">Letter Grades</h4>
+              <div className="space-y-3">
+                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
+                  <span className="text-emerald-700 font-semibold">A-range</span>
+                  <span className="text-slate-600 text-sm">12–14 points (≥85%)</span>
+                </div>
+                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
+                  <span className="text-blue-700 font-semibold">B-range</span>
+                  <span className="text-slate-600 text-sm">9–11 points (64–79%)</span>
+                </div>
+                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
+                  <span className="text-amber-700 font-semibold">C-range</span>
+                  <span className="text-slate-600 text-sm">7–8 points (50–57%)</span>
+                </div>
+                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
+                  <span className="text-red-700 font-semibold">D</span>
+                  <span className="text-slate-600 text-sm">0–6 points (&lt;50%)</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -243,56 +296,47 @@ function Methodology() {
         </div>
       </div>
 
-      {/* Research Methodology */}
+      {/* Source Tiers & Evaluation Process */}
       <div id="research" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              Research Methodology
+              Source Tiers & Evaluation Process
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Our evaluation process combines systematic data collection with AI-powered analysis and human oversight to ensure accuracy and consistency.
+              Evidence is gathered from public sources, validated by tier, and scored deterministically against each pillar's criteria.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 mb-16">
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">Information Sources</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6">Source Tiers</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
                   <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
                     <Globe className="w-4 h-4 text-blue-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-900">Company Websites</h4>
-                    <p className="text-slate-600">Official documentation, policies, and public statements</p>
+                    <h4 className="font-semibold text-slate-900">Company-Owned</h4>
+                    <p className="text-slate-600">Company's own websites, documentation, and publications — full credit up to Operational (2/2)</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <FileText className="w-4 h-4 text-green-600" />
+                    <Shield className="w-4 h-4 text-green-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-900">ESG Reports</h4>
-                    <p className="text-slate-600">Environmental, social, and governance disclosures</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Building className="w-4 h-4 text-purple-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900">Regulatory Filings</h4>
-                    <p className="text-slate-600">SEC filings, compliance documents, and regulatory submissions</p>
+                    <h4 className="font-semibold text-slate-900">Authority</h4>
+                    <p className="text-slate-600">Government, regulatory, and enforcement bodies — full credit up to Operational (2/2)</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Brain className="w-4 h-4 text-amber-600" />
+                    <FileText className="w-4 h-4 text-amber-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-900">Technical Publications</h4>
-                    <p className="text-slate-600">Research papers, technical reports, and academic publications</p>
+                    <h4 className="font-semibold text-slate-900">Third-Party</h4>
+                    <p className="text-slate-600">News, research, and third-party publications — capped at Policy (1/2), cannot achieve Operational score</p>
                   </div>
                 </div>
               </div>
@@ -306,8 +350,8 @@ function Methodology() {
                     1
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-900">Source Collection</h4>
-                    <p className="text-slate-600">Systematic gathering of publicly available documentation</p>
+                    <h4 className="font-semibold text-slate-900">Source Collection & Validation</h4>
+                    <p className="text-slate-600">Public documentation gathered and validated across company-owned, regulatory, and third-party sources</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -315,8 +359,8 @@ function Methodology() {
                     2
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-900">AI-Powered Analysis</h4>
-                    <p className="text-slate-600">AI-powered analysis against standardized pillar criteria</p>
+                    <h4 className="font-semibold text-slate-900">Evidence Extraction & Classification</h4>
+                    <p className="text-slate-600">Evidence identified and classified by type (Operational, Policy, Narrative) against pillar criteria</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -324,8 +368,8 @@ function Methodology() {
                     3
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-900">Scoring & Validation</h4>
-                    <p className="text-slate-600">Standardized scoring with human oversight and validation</p>
+                    <h4 className="font-semibold text-slate-900">Scoring & Assessment</h4>
+                    <p className="text-slate-600">Scores computed from evidence classifications, with source tier weighting applied</p>
                   </div>
                 </div>
               </div>
@@ -359,11 +403,11 @@ function Methodology() {
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Binary scoring system (0, 5, or 10 points)</span>
+                  <span>Three-tier evidence classification may not capture nuanced gradations within each level</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>May not capture internal practices or real-world implementation</span>
+                  <span>Cannot assess actual implementation versus stated policies</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
@@ -380,19 +424,19 @@ function Methodology() {
               <ul className="space-y-3 text-slate-600">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Integration of third-party audit results</span>
+                  <span>Sub-pillar scoring for more granular assessment within each pillar</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>More granular scoring system</span>
+                  <span>Continuous monitoring and real-time updates</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Real-time updates and continuous monitoring</span>
+                  <span>Industry-specific evaluation criteria and benchmarks</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Industry-specific evaluation criteria</span>
+                  <span>Integration with third-party audit reports</span>
                 </li>
               </ul>
             </div>
@@ -407,7 +451,7 @@ function Methodology() {
               Scores are updated quarterly, with methodology revisions published annually
             </p>
             <p className="text-slate-500">
-              Current methodology version: 1.0 | Last updated: January 2025
+              Current methodology version: 1.0 | Last updated: February 2026
             </p>
           </div>
         </div>
@@ -423,7 +467,7 @@ function Methodology() {
             See how leading AI companies measure up against our responsible AI framework. Compare scores, track progress, and make informed decisions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
+            <Link
                 to="/companies" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
               <Search className="w-5 h-5" />
               Browse Company Scores
