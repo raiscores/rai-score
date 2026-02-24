@@ -14,11 +14,12 @@ function HeroSection({ companyCount }) {
         <div className="relative z-10 max-w-[800px] mx-auto text-center py-20 md:py-24">
 
           <h1
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 md:mb-8 text-white leading-[1.1] tracking-tight animate-slideInUp"
+            className="text-[2rem] sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 md:mb-8 text-white leading-[1.15] sm:leading-[1.1] tracking-tight animate-slideInUp"
           >
-            See Which Companies Take
-            <span className="block mt-2 md:mt-4 text-white">
-              AI Responsibility Seriously
+            See Which Companies
+            <span className="hidden sm:inline">{' '}Take</span>
+            <span className="block mt-1 sm:mt-2 md:mt-4 text-white">
+              <span className="sm:hidden">Take </span>AI Responsibility Seriously
             </span>
           </h1>
 
