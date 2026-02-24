@@ -31,6 +31,8 @@ export const useCompanyData = (slug) => {
         setCompanyData({
           // Profile fields as base (company metadata)
           ...profile,
+          // Prefer display_name over legal name for UI
+          name: profile.display_name || profile.name,
           // Flatten aggregate fields
           total_score: assessment.aggregate.total_score,
           max_possible_score: assessment.aggregate.max_possible_score,
