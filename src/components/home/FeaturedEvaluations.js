@@ -99,10 +99,13 @@ function FeaturedEvaluations({ companies, totalCount, isVisible }) {
             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight">
               Featured Evaluations
             </h2>
-            <span className="absolute -right-28 top-1/2 -translate-y-1/2 text-xs bg-blue-50 text-blue-600 border border-blue-200 rounded-full px-2.5 py-0.5 whitespace-nowrap">
+            <span className="hidden md:inline-block absolute -right-28 top-1/2 -translate-y-1/2 text-xs bg-blue-50 text-blue-600 border border-blue-200 rounded-full px-2.5 py-0.5 whitespace-nowrap">
               Updated 2026
             </span>
           </div>
+          <span className="md:hidden inline-block text-xs bg-blue-50 text-blue-600 border border-blue-200 rounded-full px-2.5 py-0.5 mb-2">
+            Updated 2026
+          </span>
           <p className="text-lg text-slate-600">
             How leading companies score on responsible AI governance, based on publicly available evidence.
           </p>
