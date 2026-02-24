@@ -29,18 +29,7 @@
    Animations (outside layers - they're global)
    ============================================ */
 
-@keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  33% { transform: translateY(-15px) rotate(1deg); }
-  66% { transform: translateY(-10px) rotate(-1deg); }
-}
-
 @keyframes pulse-subtle {
-  0%, 100% { opacity: 0.5; transform: scale(1); }
-  50% { opacity: 0.8; transform: scale(1.05); }
-}
-
-@keyframes pulse {
   0%, 100% { opacity: 0.5; transform: scale(1); }
   50% { opacity: 0.8; transform: scale(1.05); }
 }
@@ -208,65 +197,22 @@
 
   /* Theme Card (Home page) */
   .theme-card {
-    @apply bg-gradient-to-br from-white to-slate-50;
-    @apply rounded-3xl p-10;
-    @apply shadow-lg border-2 border-slate-200;
-    @apply relative overflow-hidden cursor-pointer;
-    @apply flex flex-col min-h-80;
-    @apply transition-all duration-300;
+    @apply bg-white;
+    @apply rounded-2xl p-6;
+    @apply border border-slate-200;
+    @apply relative overflow-hidden;
+    @apply flex flex-col;
+    @apply transition-all duration-200;
   }
 
   .theme-card:hover {
-    @apply -translate-y-3 scale-[1.02] border-blue-300;
-    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.15);
+    @apply -translate-y-0.5 border-blue-300;
   }
 
   .theme-card:focus {
     @apply outline-none ring-2 ring-blue-600 ring-offset-2;
   }
 
-  .theme-card::before {
-    content: '';
-    @apply absolute top-0 -left-full w-full h-full;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.8), transparent);
-    @apply transition-all duration-500;
-    @apply z-10;
-  }
-
-  .theme-card:hover::before {
-    @apply left-full;
-  }
-
-  /* Audience Card */
-  .audience-card {
-    @apply bg-slate-50 rounded-2xl p-6;
-    @apply border-2 border-slate-200;
-    @apply flex flex-col h-full;
-    @apply cursor-pointer;
-    @apply transition-all duration-300;
-  }
-
-  .audience-card:hover {
-    @apply -translate-y-1 border-blue-600;
-    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.1);
-  }
-
-  .audience-card:focus {
-    @apply outline-none ring-2 ring-blue-600 ring-offset-2;
-  }
-
-  /* Expanding Impact Card */
-  .expanding-impact-card {
-    @apply bg-white rounded-2xl p-6;
-    @apply shadow-lg border border-gray-200;
-    @apply flex flex-col h-full;
-    @apply transition-all duration-300;
-  }
-
-  .expanding-impact-card:hover {
-    @apply -translate-y-1;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-  }
 
   /* Methodology Link */
   .methodology-link {
@@ -340,20 +286,6 @@
     @apply outline-3 outline-blue-400 outline-offset-2;
   }
 
-  /* Final CTA */
-  .final-cta {
-    @apply inline-flex items-center justify-center;
-    @apply bg-gradient-to-r from-blue-600 to-blue-700;
-    @apply text-white font-bold text-lg;
-    @apply py-5 px-10 rounded-xl;
-    @apply transition-all duration-300;
-    box-shadow: 0 12px 48px rgba(37, 99, 235, 0.4);
-  }
-
-  .final-cta:hover {
-    @apply -translate-y-0.5;
-    box-shadow: 0 16px 64px rgba(37, 99, 235, 0.6);
-  }
 
   /* Email Button (Contact page) */
   .email-button {
@@ -453,14 +385,6 @@
   }
 
   /* Animation utilities */
-  .animate-float {
-    animation: float 12s ease-in-out infinite;
-  }
-
-  .animate-float-reverse {
-    animation: float 15s ease-in-out infinite reverse;
-  }
-
   .animate-pulse-subtle {
     animation: pulse-subtle 8s ease-in-out infinite;
   }
@@ -496,8 +420,7 @@
   }
 
   .theme-card {
-    padding: 2rem;
-    min-height: 18rem;
+    padding: 1.25rem;
   }
 }
 
@@ -511,70 +434,12 @@
 
 @media (max-width: 480px) {
   .theme-card {
-    padding: 1.25rem;
+    padding: 1rem;
   }
 
   .hero-section {
-    padding: 1.5rem 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
-  .hero-buttons {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    justify-content: center;
-    align-items: stretch;
-    width: 100%;
-  }
-
-  .hero-buttons .primary-cta {
-    flex: 1.75 1 0;
-    min-width: 0;
-    font-size: 0.75rem;
-    padding: 1rem 0;
-    text-align: center;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .hero-buttons .secondary-cta {
-    flex: 1 1 0;
-    min-width: 0;
-    font-size: 0.75rem;
-    padding: 0.75rem 0;
-    text-align: center;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .final-cta-row {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    justify-content: center;
-    align-items: stretch;
-    width: 100%;
-  }
-
-  .final-cta-row .final-cta {
-    flex: 1.75 1 0;
-    min-width: 0;
-    font-size: 0.75rem;
-    padding: 0.75rem 0;
-    text-align: center;
-    font-weight: 700;
-  }
-
-  .final-cta-row .methodology-link {
-    flex: 1 1 0;
-    min-width: 0;
-    font-size: 0.75rem;
-    padding: 0.625rem 0;
-    text-align: center;
-    font-weight: 600;
-  }
 }
