@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Search, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, X, Building2, Info } from 'lucide-react';
+import { Search, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, X, Building2, Info, SlidersHorizontal } from 'lucide-react';
 import { Helmet } from 'react-helmet';
 import LoadingSpinner from '../components/ui/LoadingSpinner';
 import ErrorMessage from '../components/ui/ErrorMessage';
@@ -122,6 +122,9 @@ function CompanyDirectory() {
   const [minGrade, setMinGrade] = useState('');
   const [sortBy, setSortBy] = useState('score-desc');
 
+  // Mobile filter toggle
+  const [filtersOpen, setFiltersOpen] = useState(false);
+
   // Pagination
   const [currentPage, setCurrentPage] = useState(1);
   const [rowsPerPage, setRowsPerPage] = useState(50);
@@ -218,6 +221,7 @@ function CompanyDirectory() {
   };
 
   const hasActiveFilters = searchTerm || selectedIndustry || minGrade;
+  const activeFilterCount = (selectedIndustry ? 1 : 0) + (minGrade ? 1 : 0);
 
   const clearFilters = () => {
     setSearchTerm('');
@@ -255,32 +259,52 @@ function CompanyDirectory() {
         {/* --- Toolbar --- */}
         <div className="bg-white rounded-xl border border-gray-200 p-4 mb-6 shadow-sm">
           <div className="flex flex-col lg:flex-row gap-3 items-stretch lg:items-center">
-            {/* Search */}
-            <div className="relative flex-1 min-w-0">
-              <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
-              <input
-                type="text"
-                placeholder="Search by name, ticker, or industry..."
-                value={searchTerm}
-                onChange={(e) => handleSearch(e.target.value)}
-                className="w-full py-2.5 pl-10 pr-9 border border-gray-200 rounded-lg text-sm bg-white outline-none transition-colors focus:border-blue-500 focus:ring-2 focus:ring-blue-500/10"
-              />
-              {searchTerm && (
-                <button
-                  onClick={() => handleSearch('')}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 cursor-pointer"
-                >
-                  <X size={16} />
-                </button>
-              )}
+            {/* Search + mobile filter toggle */}
+            <div className="flex gap-2 flex-1 min-w-0">
+              <div className="relative flex-1 min-w-0">
+                <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+                <input
+                  type="text"
+                  placeholder="Search by name, ticker, or industry..."
+                  value={searchTerm}
+                  onChange={(e) => handleSearch(e.target.value)}
+                  className="w-full py-2.5 pl-10 pr-9 border border-gray-200 rounded-lg text-sm bg-white outline-none transition-colors focus:border-blue-500 focus:ring-2 focus:ring-blue-500/10"
+                />
+                {searchTerm && (
+                  <button
+                    onClick={() => handleSearch('')}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 cursor-pointer"
+                  >
+                    <X size={16} />
+                  </button>
+                )}
+              </div>
+
+              {/* Mobile filter toggle */}
+              <button
+                onClick={() => setFiltersOpen(!filtersOpen)}
+                className={`lg:hidden flex items-center gap-1.5 py-2.5 px-3 border rounded-lg text-sm whitespace-nowrap cursor-pointer transition-colors shrink-0 ${
+                  filtersOpen
+                    ? 'border-blue-500 bg-blue-50 text-blue-600'
+                    : 'border-gray-200 text-gray-600 hover:border-blue-400'
+                }`}
+              >
+                <SlidersHorizontal size={16} />
+                <span className="hidden sm:inline">Filters</span>
+                {activeFilterCount > 0 && (
+                  <span className="bg-blue-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-semibold">
+                    {activeFilterCount}
+                  </span>
+                )}
+              </button>
             </div>
 
-            {/* Filter dropdowns */}
-            <div className="flex gap-2 flex-wrap">
+            {/* Filter dropdowns - always visible on lg+, toggleable on mobile */}
+            <div className={`${filtersOpen ? 'flex' : 'hidden'} lg:flex gap-2 flex-wrap items-center`}>
               <select
                 value={selectedIndustry}
                 onChange={(e) => handleIndustry(e.target.value)}
-                className="py-2.5 px-3 border border-gray-200 rounded-lg bg-white text-sm text-gray-700 cursor-pointer outline-none transition-colors hover:border-blue-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/10"
+                className="py-2.5 px-3 border border-gray-200 rounded-lg bg-white text-sm text-gray-700 cursor-pointer outline-none transition-colors hover:border-blue-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/10 flex-1 lg:flex-none"
               >
                 <option value="">All Industries</option>
                 {industries.map(ind => (
@@ -307,18 +331,18 @@ function CompanyDirectory() {
                   <option key={opt.value} value={opt.value}>{opt.label}</option>
                 ))}
               </select>
-            </div>
 
-            {/* Clear filters */}
-            {hasActiveFilters && (
-              <button
-                onClick={clearFilters}
-                className="flex items-center gap-1.5 text-sm text-gray-500 hover:text-gray-700 transition-colors whitespace-nowrap cursor-pointer"
-              >
-                <X size={14} />
-                Clear
-              </button>
-            )}
+              {/* Clear filters */}
+              {hasActiveFilters && (
+                <button
+                  onClick={clearFilters}
+                  className="flex items-center gap-1.5 text-sm text-gray-500 hover:text-gray-700 transition-colors whitespace-nowrap cursor-pointer"
+                >
+                  <X size={14} />
+                  Clear
+                </button>
+              )}
+            </div>
           </div>
         </div>
 
