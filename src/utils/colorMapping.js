@@ -105,3 +105,69 @@ export const getPillarImplementationStatus = (fullPillars, totalPillars) => {
   if (fullPillars >= 3) return 'fair';
   return 'poor';
 };
+
+/**
+ * Maps best_evidence_type to a label + color set for display
+ * Replaces editorial "excellent/good/poor" with evidence-based labels
+ *
+ * @param {string|null} bestEvidenceType - 'OPERATIONAL', 'POLICY', 'NARRATIVE', or null
+ * @returns {Object} - { label, color, bg, border }
+ */
+export const getEvidenceTypeLabel = (bestEvidenceType) => {
+  switch (bestEvidenceType) {
+    case 'OPERATIONAL':
+      return { label: 'Operational', color: 'text-green-700', bg: 'bg-green-50', border: 'border-green-200' };
+    case 'POLICY':
+      return { label: 'Policy', color: 'text-yellow-700', bg: 'bg-yellow-50', border: 'border-yellow-200' };
+    case 'NARRATIVE':
+      return { label: 'Narrative Only', color: 'text-orange-700', bg: 'bg-orange-50', border: 'border-orange-200' };
+    default:
+      return { label: 'No Evidence', color: 'text-red-700', bg: 'bg-red-50', border: 'border-red-200' };
+  }
+};
+
+/**
+ * Maps letter grade to Tailwind text color
+ *
+ * @param {string} grade - Letter grade (A+, A, A-, B+, B, B-, C+, C, C-, D)
+ * @returns {string} - Tailwind text color class
+ */
+export const getGradeColor = (grade) => {
+  if (grade.startsWith('A')) return 'text-emerald-800';
+  if (grade.startsWith('B')) return 'text-blue-800';
+  if (grade.startsWith('C')) return 'text-amber-800';
+  return 'text-red-800';
+};
+
+/**
+ * Maps letter grade to gradient background + border classes for grade card
+ *
+ * @param {string} grade - Letter grade
+ * @returns {Object} - { gradient, border, pillBg } Tailwind classes
+ */
+export const getGradeBg = (grade) => {
+  if (grade.startsWith('A')) return {
+    gradient: 'bg-gradient-to-br from-emerald-50 to-emerald-100',
+    border: 'border-emerald-200',
+    pillBg: 'bg-white/70',
+    barColor: 'bg-emerald-500',
+  };
+  if (grade.startsWith('B')) return {
+    gradient: 'bg-gradient-to-br from-blue-50 to-blue-100',
+    border: 'border-blue-200',
+    pillBg: 'bg-white/70',
+    barColor: 'bg-blue-500',
+  };
+  if (grade.startsWith('C')) return {
+    gradient: 'bg-gradient-to-br from-amber-50 to-amber-100',
+    border: 'border-amber-200',
+    pillBg: 'bg-white/70',
+    barColor: 'bg-amber-500',
+  };
+  return {
+    gradient: 'bg-gradient-to-br from-red-50 to-red-100',
+    border: 'border-red-200',
+    pillBg: 'bg-white/70',
+    barColor: 'bg-red-500',
+  };
+};

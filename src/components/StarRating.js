@@ -1,6 +1,6 @@
 import { Star, StarHalf } from 'lucide-react';
 
-const filledYellow = { color: '#facc15', fill: '#facc15' };   // yellow-400
+const filledYellow = { color: '#d97706', fill: '#d97706' };   // amber-600 (rich gold)
 const outlinedGray = { color: '#d1d5db', fill: 'none' };      // gray-300
 
 const starContainerStyle = {
@@ -23,14 +23,14 @@ const filledHalfStarStyle = {
   position: 'absolute',
   left: 0,
   top: 0,
-  color: '#facc15',
-  fill: '#facc15',
+  color: '#d97706',
+  fill: '#d97706',
   zIndex: 2,
 };
 
 const StarRating = ({ rating = 0 }) => {
   return (
-    <div className="flex items-center gap-1">
+    <div className="flex items-center gap-0.5">
       {[...Array(5)].map((_, i) => {
         if (i + 1 <= Math.floor(rating)) {
           // Full star (filled yellow)

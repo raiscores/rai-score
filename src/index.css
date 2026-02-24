@@ -416,6 +416,15 @@
    ============================================ */
 
 @layer utilities {
+  /* Hide scrollbar for horizontal scroll containers */
+  .scrollbar-hide {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
   /* Gradient Backgrounds */
   .bg-hero-dark {
     background:
