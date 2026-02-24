@@ -1,22 +1,32 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import HeroSection from '../components/home/HeroSection';
+import FeaturedEvaluations from '../components/home/FeaturedEvaluations';
 import MethodologyPreview from '../components/home/MethodologyPreview';
-import AudienceSection from '../components/home/AudienceSection';
+import AudienceStrip from '../components/home/AudienceStrip';
 import TransparencySection from '../components/home/TransparencySection';
 import CTASection from '../components/home/CTASection';
-import ExpandingImpact from '../components/home/ExpandingImpact';
 
 function Home() {
-  const [scrollY, setScrollY] = useState(0);
+  const [companies, setCompanies] = useState([]);
   const [isVisible, setIsVisible] = useState({});
 
+  // Fetch company list for FeaturedEvaluations and counts
   useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    const fetchCompanies = async () => {
+      try {
+        const response = await fetch('/data/company_list.json');
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        setCompanies(await response.json());
+      } catch (err) {
+        console.error('Error fetching companies:', err);
+      }
+    };
+    fetchCompanies();
   }, []);
 
+  // Scroll-reveal observer — re-run when companies load so dynamically
+  // rendered sections (FeaturedEvaluations) get observed
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -33,7 +43,9 @@ function Home() {
     sections.forEach((section) => observer.observe(section));
 
     return () => observer.disconnect();
-  }, []);
+  }, [companies]);
+
+  const companyCount = companies.length || 240;
 
   return (
     <div className="font-sans text-slate-900 leading-relaxed overflow-hidden">
@@ -42,12 +54,16 @@ function Home() {
         <meta name="description" content="Independent evaluations of how leading companies approach responsible AI governance and transparency. Making AI accountability visible through evidence-based assessment. Explore our Responsible AI Scorecard for company rankings, transparency benchmarks, and responsible AI scores." />
       </Helmet>
 
-      <HeroSection scrollY={scrollY} />
+      <HeroSection companyCount={companyCount} />
+      <FeaturedEvaluations
+        companies={companies}
+        totalCount={companyCount}
+        isVisible={!!isVisible['featured-evaluations']}
+      />
       <MethodologyPreview isVisible={!!isVisible['methodology-preview']} />
-      <AudienceSection isVisible={!!isVisible['audiences']} />
+      <AudienceStrip isVisible={!!isVisible['audience']} />
       <TransparencySection isVisible={!!isVisible['transparency']} />
-      <CTASection isVisible={!!isVisible['cta']} />
-      <ExpandingImpact isVisible={!!isVisible['expanding-impact']} />
+      <CTASection isVisible={!!isVisible['cta']} companyCount={companyCount} />
     </div>
   );
 }
