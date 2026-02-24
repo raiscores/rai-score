@@ -6,9 +6,9 @@ import React from 'react';
  */
 function Container({ children, size = 'default' }) {
   const sizeClasses = {
-    default: 'container-default',
-    wide: 'container-wide',
-    narrow: 'container-narrow'
+    default: 'container-default px-6 sm:px-8 lg:px-10',
+    wide: 'container-wide px-6 sm:px-8 lg:px-10',
+    narrow: 'container-narrow px-6 sm:px-8 lg:px-10'
   };
 
   return (
