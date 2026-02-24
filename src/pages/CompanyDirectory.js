@@ -153,7 +153,7 @@ function CompanyDirectory() {
   const filteredCompanies = useMemo(() => {
     const term = searchTerm.toLowerCase();
     let result = companies.filter(c => {
-      if (term && !c.name.toLowerCase().includes(term) && !c.industry.toLowerCase().includes(term)) return false;
+      if (term && !c.name.toLowerCase().includes(term) && !(c.full_name && c.full_name.toLowerCase().includes(term)) && !c.industry.toLowerCase().includes(term) && !c.slug.includes(term) && !(c.ticker && c.ticker.toLowerCase().includes(term))) return false;
       if (selectedIndustry && c.industry !== selectedIndustry) return false;
       if (minGrade) {
         if (minGrade === 'D') {
@@ -260,7 +260,7 @@ function CompanyDirectory() {
               <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
               <input
                 type="text"
-                placeholder="Search by name or industry..."
+                placeholder="Search by name, ticker, or industry..."
                 value={searchTerm}
                 onChange={(e) => handleSearch(e.target.value)}
                 className="w-full py-2.5 pl-10 pr-9 border border-gray-200 rounded-lg text-sm bg-white outline-none transition-colors focus:border-blue-500 focus:ring-2 focus:ring-blue-500/10"
