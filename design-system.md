@@ -1,495 +1,492 @@
 # RAI Scores Design System
 
-This document outlines the visual design system used throughout the RAI Scores frontend application, including colors, typography, spacing, component patterns, and UI conventions.
+Global visual reference for the RAI Scores frontend. For page-specific implementation details, see the cross-references in [Section 10](#10-page-specific-references).
+
+Last updated: 2026-02-23
 
 ---
 
 ## Table of Contents
 
-1. [Color Palette](#color-palette)
-2. [Typography](#typography)
-3. [Spacing System](#spacing-system)
-4. [Component Styling Patterns](#component-styling-patterns)
-5. [UI Conventions](#ui-conventions)
-6. [Responsive Design](#responsive-design)
+1. [Brand & Color Palette](#1-brand--color-palette)
+2. [Typography](#2-typography)
+3. [Spacing & Layout](#3-spacing--layout)
+4. [Card Patterns](#4-card-patterns)
+5. [Component Patterns](#5-component-patterns)
+6. [Interactive States](#6-interactive-states)
+7. [Responsive Breakpoints](#7-responsive-breakpoints)
+8. [Tailwind 4 Conventions](#8-tailwind-4-conventions)
+9. [Animations](#9-animations)
+10. [Page-Specific References](#10-page-specific-references)
+11. [File Reference](#11-file-reference)
 
 ---
 
-## Color Palette
+## 1. Brand & Color Palette
 
 ### Brand Colors
 
-| Color Name | Hex Code | Usage |
-|------------|----------|-------|
-| Brand Primary | `#263552` | Logo text, brand identity |
-| Primary Blue | `#3b82f6` | Primary actions, links, focus states |
-| Indigo | `#6366f1` | Gradients, accent highlights |
-
-### Semantic Colors
-
-#### Status Colors (Score-Based)
-
-| Status | Text Color | Background Color | Gradient | Score Threshold |
-|--------|------------|------------------|----------|-----------------|
-| Excellent | `#22c55e` (green-500) | `rgba(34, 197, 94, 0.15)` | `from-green-500 to-green-600` | ≥80% or score ≥8 |
-| Good | `#3b82f6` (blue-500) | `rgba(59, 130, 246, 0.15)` | `from-blue-500 to-blue-600` | ≥70% or score ≥6 |
-| Fair | `#facc15` (yellow-400) | `rgba(250, 204, 21, 0.15)` | `from-yellow-500 to-yellow-600` | ≥60% or score ≥4 |
-| Poor | `#ef4444` (red-500) | `rgba(239, 68, 68, 0.15)` | `from-red-500 to-red-600` | <60% or score <4 |
-
-#### Tailwind Status Classes (from colorMapping.js)
-
-```javascript
-// Status to color class mapping
-excellent: { text: 'text-green-600', bg: 'bg-green-50', icon: CheckCircle }
-good:      { text: 'text-blue-600',  bg: 'bg-blue-50',  icon: CheckCircle }
-fair:      { text: 'text-yellow-600', bg: 'bg-yellow-50', icon: AlertCircle }
-poor:      { text: 'text-red-600',   bg: 'bg-red-50',   icon: XCircle }
-neutral:   { text: 'text-gray-600',  bg: 'bg-gray-50',  icon: AlertCircle }
-```
-
-### UI Colors
-
-| Element | Color | Hex/Class |
-|---------|-------|-----------|
-| Text Primary | Slate 900 | `#1e293b` |
-| Text Secondary | Slate 600 | `#64748b` |
-| Text Muted | Slate 500 | `#94a3b8` |
-| Border Default | Gray 200 | `#e5e7eb` |
-| Border Light | `rgba(203, 213, 225, 0.5)` | - |
-| Background Page | Slate 50 | `#f8fafc` |
-| Background Card | White | `#ffffff` |
-| Background Subtle | Gray 50 | `#f9fafb` |
-
-### Footer & Dark Theme Colors
-
-| Element | Color |
-|---------|-------|
-| Footer Background | `linear-gradient(135deg, #1e293b 0%, #0f172a 100%)` |
-| Footer Text | `#f8fafc` |
-| Footer Muted Text | `#cbd5e1` |
-| Footer Link | `#f1f5f9` |
-
-**Note**: Footer uses inline style for the gradient background to ensure reliable cross-browser rendering.
-
-### Star Rating Colors
-
-| Element | Color |
-|---------|-------|
-| Filled Star | `#facc15` (yellow-400) |
-| Empty Star Outline | `#d1d5db` (gray-300) |
-
----
-
-## Typography
-
-### Font Stack
-
-The application uses the system font stack inherited from Tailwind CSS defaults:
-
-```css
-font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-             "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-```
-
-### Type Scale
-
-| Element | Size | Weight | Usage |
-|---------|------|--------|-------|
-| Brand Logo | 1.6rem (mobile: 1.5rem) | 800 | NavBar brand name |
-| Page Title | 3rem (mobile: 2.25rem) | 800 | Hero sections, main headings |
-| Section Title | 2rem | 700 | Major section headings |
-| Card Title | 1.5rem | 700 | Card headers |
-| Subsection | 1.125rem | 600 | Subsection headings |
-| Body Text | 1rem | 400 | General content |
-| Small Text | 0.875rem | 400-500 | Labels, metadata |
-| Caption | 0.75rem | 500 | Badges, tags |
-
-### Text Styling Conventions
-
-| Style | Application |
-|-------|-------------|
-| `letter-spacing: -0.5px` | Brand logo text |
-| `letter-spacing: 0.05em` | Nav links (uppercase) |
-| `text-transform: uppercase` | Navigation links |
-| `line-height: 1.7` | Body paragraphs |
-| `line-height: 1.2` | Headings |
-
----
-
-## Spacing System
-
-### Base Units
-
-The application uses a consistent spacing scale based on rem units:
-
-| Size | Value | Common Usage |
-|------|-------|--------------|
-| xs | 0.25rem | Icon gaps, minimal padding |
-| sm | 0.5rem | Tight spacing, tag padding |
-| md | 1rem | Standard padding, gaps |
-| lg | 1.5rem | Section padding |
-| xl | 2rem | Major section gaps |
-| 2xl | 3rem | Hero section spacing |
-| 3xl | 4rem | Footer padding |
-
-### Container Widths
-
-| Container | Max Width | Padding |
-|-----------|-----------|---------|
-| Main Content | 1400px | 2rem horizontal |
-| Search Bar | 500px | Centered |
-| Form Sections | 600px | - |
-| Narrow Content | 800px | - |
-
-### Common Spacing Patterns
-
-```css
-/* Card Padding */
-padding: 1.5rem;
-
-/* Section Margin */
-margin-bottom: 2rem;
-
-/* Grid Gaps */
-gap: 1.5rem; /* Cards */
-gap: 2rem;   /* Major sections */
-
-/* Nav Padding */
-padding: 1rem 2.25rem; /* Desktop */
-padding: 0.85rem 1rem; /* Mobile */
-```
-
----
-
-## Component Styling Patterns
-
-All components use Tailwind CSS utility classes as the primary styling method. Reusable patterns are defined in `src/index.css` using `@apply`.
-
-### Cards
-
-```jsx
-{/* Base Card - Tailwind classes */}
-<div className="bg-white rounded-2xl p-6 shadow-lg border border-slate-200/50 transition-all duration-200">
-
-{/* Card with hover effect */}
-<div className="bg-white rounded-2xl p-6 shadow-lg border border-slate-200/50
-                transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl hover:border-blue-300">
-```
-
-### Buttons
-
-```jsx
-{/* Primary Button - uses .btn-primary from index.css */}
-<button className="btn-primary">Submit</button>
-
-{/* Or inline Tailwind */}
-<button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors">
-
-{/* Secondary Button - uses .btn-secondary from index.css */}
-<button className="btn-secondary">Cancel</button>
-
-{/* Filter Toggle (active/inactive states) */}
-<button className={`py-3 px-6 rounded-lg text-sm font-medium transition-all duration-200 ${
-  isActive
-    ? 'bg-blue-500 text-white border border-blue-500'
-    : 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-50'
-}`}>
-```
-
-### Form Inputs
-
-```jsx
-{/* Search Input with icon */}
-<input className="w-full py-3.5 pr-4 pl-12 border border-slate-300 rounded-xl
-                  text-base bg-white shadow-sm outline-none transition-all duration-200
-                  focus:border-blue-500 focus:ring-[3px] focus:ring-blue-500/10" />
-```
-
-### Dropdown Menus
-
-```jsx
-{/* Dropdown Container */}
-<div className="absolute top-full left-0 right-0 bg-white border border-gray-300
-                rounded-lg shadow-lg z-[1000] max-h-[200px] overflow-y-auto mt-1">
-
-{/* Dropdown Item */}
-<button className="w-full py-3 px-4 border-none text-left text-sm text-gray-800
-                   hover:bg-gray-50 bg-transparent">
-```
-
-### Navigation
-
-```jsx
-{/* Sticky NavBar - solid white background for consistent appearance */}
-<nav className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-200">
-
-{/* Nav Links */}
-<Link className="text-base font-semibold uppercase tracking-wide text-slate-800
-                 no-underline py-1 transition-colors duration-300 hover:text-blue-500">
-```
-
-**Note**: The `.glass` class is available in index.css but NavBar uses solid white background to avoid visual glitches during scroll transitions.
-
-### Progress Bars
-
-```jsx
-{/* Progress Bar Container */}
-<div className="w-full h-1.5 bg-slate-500/20 rounded-sm overflow-hidden">
-  {/* Progress Bar Fill - width is dynamic */}
-  <div
-    className="h-full rounded-sm transition-all duration-300 bg-green-500"
-    style={{ width: `${percentage}%` }}
-  />
-</div>
-```
-
-### Badges & Tags
-
-```jsx
-{/* Industry Tag */}
-<div className="inline-block bg-slate-500/10 text-slate-500 py-1 px-3 rounded-md text-xs font-medium">
-  Technology
-</div>
-
-{/* Status Badge */}
-<span className="bg-amber-100 text-amber-600 py-1 px-3 rounded-xl text-xs font-medium">
-  Filters Applied
-</span>
-
-{/* Quality Indicator Pill */}
-<div className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-full">
-```
-
-### Avatars (Company Initials)
-
-```jsx
-<div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center border border-blue-500/20">
-  <span className="text-blue-500 font-semibold text-base">GO</span>
-</div>
-```
-
-### Loading Spinner
-
-```jsx
-{/* Uses .spinner class from index.css */}
-<div className="spinner mx-auto mb-4" />
-
-{/* Full implementation in index.css */}
-.spinner {
-  @apply w-10 h-10 border-4 border-gray-200 border-t-blue-500 rounded-full animate-spin;
-}
-```
-
-### Error States
-
-```jsx
-{/* Error Container */}
-<div className="bg-red-50 p-8 rounded-xl border border-red-200">
-  <h2 className="text-red-600 text-xl font-bold mb-2">Error Title</h2>
-  <p className="text-red-800">Error message details</p>
-</div>
-```
-
----
-
-## UI Conventions
-
-### Icons
-
-The application uses **Lucide React** for all icons. Common icons include:
-
-| Icon | Usage |
-|------|-------|
-| `Search` | Search input |
-| `SlidersHorizontal` | Filter toggle |
-| `ChevronDown` | Dropdown indicators |
-| `X` | Close, clear buttons |
-| `Share2` | Share functionality |
-| `ExternalLink` | External links |
-| `CheckCircle` | Success/excellent status |
-| `AlertCircle` | Warning/fair status |
-| `XCircle` | Error/poor status |
-| `Star`, `StarHalf` | Ratings |
-| `Eye` | Transparency pillar |
-| `Scale` | Fairness pillar |
-| `Brain` | Explainability pillar |
-| `Users` | Human oversight pillar |
-| `Shield` | Privacy & Security pillar |
-| `Building` | Governance pillar |
-| `Award` | Public commitments pillar |
-
-### Score Display
-
-```javascript
-// Score formatting
-function displayScore(score) {
-  return typeof score === "number" && !isNaN(score)
-    ? score.toFixed(1)
-    : "N/A";
-}
-```
-
-### Hover & Interaction States
-
-| Element | Effect |
-|---------|--------|
-| Cards | `translateY(-2px)`, enhanced shadow |
-| Buttons | Background color change, slight lift |
-| Links | Color transition to blue |
-| Nav Links | Color transition: `#1e293b` → `#3b82f6` |
-| Icons in colored containers | `scale(1.05)` on group hover |
-
-### Animation Conventions
-
-| Animation | Duration | Easing |
-|-----------|----------|--------|
-| Hover transitions | 0.2s - 0.3s | ease |
-| Progress bar fills | 1s | ease-out |
-| Fade effects | 0.3s | ease |
-| Modal backdrop | instant | - |
-
----
-
-## Responsive Design
-
-### Breakpoints
-
-| Breakpoint | Width | Usage |
-|------------|-------|-------|
-| Mobile | ≤768px | Stack layouts, hamburger menu |
-| Tablet | 769px - 1024px | 2-column grids |
-| Desktop | >1024px | Full layouts, 3-4 column grids |
-
-### Mobile-Specific Adjustments
-
-| Component | Desktop | Mobile |
-|-----------|---------|--------|
-| NavBar padding | `1rem 2.25rem` | `0.85rem 1rem` |
-| Logo height | 55px | 45px |
-| Brand font size | 1.6rem | 1.5rem |
-| Hero title | 3rem | 2.25rem |
-| Grid columns | 3-4 | 1-2 |
-
-### Grid Patterns
-
-```css
-/* Company Cards Grid */
-gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))'
-
-/* Stats Grid */
-gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))'
-
-/* Footer Grid */
-gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))'
-
-/* Themes Grid - Home page Core Themes section (defined in index.css) */
-.themes-grid {
-  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
-  gap: 40px;
-  max-width: 1440px;
-}
-
-/* Audiences Grid - Home page Who This Helps section (inline styles) */
-gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))'
-gap: '30px'
-maxWidth: '1200px'
-```
-
-### Navigation Mobile Menu
-
-- Hamburger icon appears at ≤768px
-- Menu slides down from nav as full-width dropdown
-- Menu items stack vertically with `1rem 2rem` padding
-- White background with bottom border
-
----
-
-## Gradients
-
-### Common Gradients
-
-| Name | CSS | Usage |
-|------|-----|-------|
-| Footer | `linear-gradient(135deg, #1e293b 0%, #0f172a 100%)` | Footer background |
-| Hero | `linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)` | Page hero sections |
-| Methodology Hero | `from-indigo-50 to-purple-50` | Special hero section |
-| CTA Banner | `from-blue-600 to-indigo-600` | Call-to-action sections |
-| Source Methodology | `from-blue-50 to-indigo-50` | Info sections |
-
----
-
-## Box Shadows
+| Token | Value | Usage |
+|-------|-------|-------|
+| Brand Navy | `#263552` | NavBar brand text ("RAI SCORES") |
+| Primary Blue | `#3b82f6` (blue-500) | Links, focus rings, active tabs, primary actions |
+| Star Gold | `#d97706` (amber-600) | Star ratings — rich gold, Morningstar feel (deliberate choice, not bright yellow) |
+
+### Gradients
 
 | Name | Value | Usage |
 |------|-------|-------|
-| Card Default | `0 4px 20px rgba(0, 0, 0, 0.08)` | Cards at rest |
-| Card Hover | `0 12px 40px rgba(0, 0, 0, 0.12)` | Cards on hover |
-| NavBar | `0 2px 12px rgba(0, 0, 0, 0.05)` | Navigation |
-| Dropdown | `0 10px 25px rgba(0, 0, 0, 0.1)` | Dropdown menus |
-| Input Default | `0 1px 3px rgba(0, 0, 0, 0.1)` | Form inputs |
-| Subtle | `shadow-sm` | Light elevation |
+| Hero (dark) | `linear-gradient(135deg, #0a0f1c 0%, #1a202c 25%, #2d3748 100%)` | Homepage hero background |
+| Footer / CTA | `linear-gradient(135deg, #1e293b 0%, #0f172a 100%)` | Footer, CTA section backgrounds |
+| Primary CTA button | `linear-gradient(135deg, #2563eb, #1d4ed8)` | Hero CTA, `.primary-cta` class |
+| `.btn-primary` | `bg-gradient-to-r from-blue-600 to-blue-700` | Standard primary buttons |
+
+### Semantic Status Colors (from `colorMapping.js`)
+
+Used for percentile-based performance indicators across the app.
+
+| Status | Text | Background | Icon | Threshold |
+|--------|------|------------|------|-----------|
+| Excellent | `text-green-600` | `bg-green-50` | CheckCircle | ≥90th percentile |
+| Good | `text-blue-600` | `bg-blue-50` | CheckCircle | ≥70th percentile |
+| Fair | `text-yellow-600` | `bg-yellow-50` | AlertCircle | ≥40th percentile |
+| Poor | `text-red-600` | `bg-red-50` | XCircle | <40th percentile |
+| Neutral | `text-gray-600` | `bg-gray-50` | AlertCircle | No data |
+
+### Score Colors (0–2 pillar scale)
+
+Used for individual pillar score text and progress bar gradients.
+
+| Score | Text Color | Gradient |
+|-------|------------|----------|
+| 2 (full) | `text-green-600` | `from-green-500 to-green-600` |
+| 1.5 | `text-blue-600` | `from-blue-500 to-blue-600` |
+| 1 | `text-yellow-600` | `from-yellow-500 to-yellow-600` |
+| 0 | `text-red-600` | `from-red-500 to-red-600` |
+
+### Grade Colors
+
+Letter grades use authoritative dark tones, not bright status colors.
+
+| Grade | Text | Gradient BG | Border | Bar Color |
+|-------|------|-------------|--------|-----------|
+| A (A+, A, A-) | `text-emerald-800` | `from-emerald-50 to-emerald-100` | `border-emerald-200` | `bg-emerald-500` |
+| B (B+, B, B-) | `text-blue-800` | `from-blue-50 to-blue-100` | `border-blue-200` | `bg-blue-500` |
+| C (C+, C, C-) | `text-amber-800` | `from-amber-50 to-amber-100` | `border-amber-200` | `bg-amber-500` |
+| D | `text-red-800` | `from-red-50 to-red-100` | `border-red-200` | `bg-red-500` |
+
+Grade card pill background is `bg-white/70` for all grades. See `getGradeBg()` in `colorMapping.js`.
+
+### Evidence Type Badges
+
+| Type | Label | Text | Background | Border |
+|------|-------|------|------------|--------|
+| OPERATIONAL | "Operational" | `text-green-700` | `bg-green-50` | `border-green-200` |
+| POLICY | "Policy" | `text-yellow-700` | `bg-yellow-50` | `border-yellow-200` |
+| NARRATIVE | "Narrative Only" | `text-orange-700` | `bg-orange-50` | `border-orange-200` |
+| null/none | "No Evidence" | `text-red-700` | `bg-red-50` | `border-red-200` |
+
+### Score Bar Tiers (Homepage Featured Cards)
+
+| Threshold | Color |
+|-----------|-------|
+| ≥12/14 | `bg-emerald-500` |
+| ≥9/14 | `bg-blue-500` |
+| ≥5/14 | `bg-amber-500` |
+| <5/14 | `bg-red-500` |
+
+### Pillar Dot Colors (Company Directory)
+
+| Score | Color |
+|-------|-------|
+| 2 | `bg-emerald-500` |
+| 1 | `bg-amber-500` |
+| 0 | `bg-gray-200` |
+
+### UI Neutrals
+
+| Element | Class | Hex |
+|---------|-------|-----|
+| Primary text | `text-slate-900` | `#0f172a` |
+| Secondary text | `text-slate-600` | `#475569` |
+| Muted text | `text-slate-500` | `#64748b` |
+| Borders (standard) | `border-gray-200` | `#e5e7eb` |
+| Borders (heavy) | `border-gray-300` | `#d1d5db` |
+| Borders (light) | `border-gray-100` | `#f3f4f6` |
+| Page background | `bg-slate-50` | `#f8fafc` |
+| Card background | `bg-white` | `#ffffff` |
+| Footer text | `text-slate-50` | `#f8fafc` |
+| Footer muted text | `text-slate-300` | `#cbd5e1` |
 
 ---
 
-## Z-Index Scale
+## 2. Typography
 
-| Layer | Z-Index | Usage |
-|-------|---------|-------|
-| Navigation | 1000 | Sticky navbar |
-| Mobile Menu | 999 | Dropdown nav menu |
-| Dropdowns | 1000 | Filter dropdowns |
-| Modals | 50 | Share modal backdrop |
-| Tooltips | 1001 | If needed |
+### Font Stack
 
----
-
-## File Reference
-
-Key design-related files:
-- `src/index.css` - Tailwind imports, animations (`@keyframes`), and reusable component classes (`.glass`, `.btn-primary`, `.spinner`, `.theme-card`, `.primary-cta`, etc.)
-- `src/data/homeContent.js` - Home page static content data (themes, audiences, etc.)
-- `src/utils/colorMapping.js` - Status-to-color utility functions
-- `src/App.css` - Additional global styles (minimal)
-- `tailwind.config.js` - Tailwind configuration
-- `Color and Style Guide.txt` - Original color reference
-
-### Implementation Notes
-
-- **NavBar**: Uses `bg-white shadow-sm border-b border-gray-200` instead of `.glass` class for consistent appearance
-- **Footer**: Uses inline style for gradient background instead of `.bg-footer-gradient` utility
-- **Home page**: Componentized into 6 section components in `src/components/home/`:
-  - `HeroSection.js` - Hero with parallax floating elements
-  - `MethodologyPreview.js` - Core themes grid
-  - `AudienceSection.js` - Target audience cards
-  - `TransparencySection.js` - Methodology explanation
-  - `CTASection.js` - Call-to-action section
-  - `ExpandingImpact.js` - Future features roadmap
-
-### index.css Structure
+System font stack (not Inter — never loaded, not in the stack):
 
 ```css
-/* Tailwind base imports */
-@import "tailwindcss";
-
-/* Animations */
-@keyframes float { ... }
-@keyframes pulse-subtle { ... }
-@keyframes slideInUp { ... }
-@keyframes iconPulse { ... }
-@keyframes spin { ... }
-
-/* Layout containers */
-.container-default { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full; }
-.container-wide { @apply max-w-[1400px] mx-auto px-5 md:px-9 w-full; }
-.container-narrow { @apply max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 w-full; }
-
-/* Reusable components */
-.btn-primary { @apply bg-blue-600 hover:bg-blue-700 text-white ...; }
-.btn-secondary { @apply border border-gray-300 hover:bg-gray-50 ...; }
-.glass { @apply bg-white/70 backdrop-blur-lg ...; }
-.spinner { @apply w-10 h-10 border-4 border-gray-200 border-t-blue-500 ...; }
-
-/* Background gradients */
-.bg-hero-dark { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
-.bg-footer-gradient { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 ```
+
+Monospace: `source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace`
+
+### Type Scale
+
+| Element | Size (mobile → desktop) | Weight | Example |
+|---------|------------------------|--------|---------|
+| Hero headline | `text-[2rem]` → `sm:text-4xl` → `md:text-5xl` → `lg:text-6xl` | `font-black` (900) | "See Which Companies Take..." |
+| Section heading | `text-3xl` → `md:text-4xl` | `font-extrabold` (800) | "Featured Evaluations" |
+| Page heading | `text-2xl` → `md:text-3xl` | `font-extrabold` (800) | CompanyPage company name |
+| Card title | `text-base` → `text-lg` | `font-bold` (700) | Pillar card headings |
+| Body text | `text-sm` → `text-base` | `font-normal` (400) | Paragraphs, findings |
+| Metadata | `text-xs` | `font-medium` (500) | Labels, dates, source counts |
+| Micro label | `text-[10px]` | `font-medium` (500) | "out of 14", very small annotations |
+
+### Brand Text
+
+NavBar brand: `font-extrabold text-[#263552] tracking-tight text-[1.6rem]` (desktop), `text-2xl` (mobile). Text content: "RAI SCORES" (uppercase).
+
+### Text Styling
+
+| Pattern | Usage |
+|---------|-------|
+| `tracking-tight` | Headings, brand text |
+| `tracking-wide` + `uppercase` | Nav links |
+| `leading-[1.1]` | Hero headline (tight) |
+| `leading-relaxed` | Body paragraphs |
+
+---
+
+## 3. Spacing & Layout
+
+### Container System
+
+Containers use CSS classes (in `index.css`) for max-width/centering, with `clamp()` for responsive padding:
+
+| Container | Max Width | Padding | CSS Class |
+|-----------|-----------|---------|-----------|
+| Default / Wide | `1400px` | `clamp(24px, 5vw, 40px)` | `.container-default` / `.container-wide` |
+| Narrow | `900px` | `clamp(24px, 5vw, 40px)` | `.container-narrow` |
+| CompanyPage content | `max-w-7xl` (1280px) | Tailwind utilities | Inline classes |
+| CompanyDirectory | `max-w-[1200px]` | Tailwind utilities | Inline classes |
+
+All containers: `margin-left: auto; margin-right: auto; width: 100%`.
+
+The `Container.js` component accepts a `size` prop (`"default"`, `"wide"`, or `"narrow"`) and applies the corresponding CSS class.
+
+### Section Padding
+
+| Pattern | Usage |
+|---------|-------|
+| `py-8` | CTA section (compact) |
+| `py-10 md:py-12` | Standard content sections |
+| `py-12 md:py-16` | Methodology section (more breathing room) |
+| `pt-16 pb-8` | Footer |
+| `py-20 md:py-24` | Hero section (via inner content div) |
+
+### Card Padding
+
+| Size | Usage |
+|------|-------|
+| `p-4` | Compact cards (featured evaluations, pillar cards) |
+| `p-5` | Featured/sidebar cards |
+| `p-6` | Standard content cards |
+| `p-6 md:p-8` | Large cards (methodology, overview sections) |
+
+### Grid Gaps
+
+| Gap | Usage |
+|-----|-------|
+| `gap-0.5` | Star rating icons |
+| `gap-2` | Pillar heatmap cells, pillar dots |
+| `gap-3` | Filter controls, small element groups |
+| `gap-4` | Card grids (featured, directory), tag groups |
+| `gap-5` | `lg:gap-5` for featured card grids |
+| `gap-7` | Nav links |
+| `gap-8` | Major layout sections, footer columns |
+
+---
+
+## 4. Card Patterns
+
+Three distinct card tiers are used across the application:
+
+| Tier | Usage | Classes | Shadow | Radius |
+|------|-------|---------|--------|--------|
+| **Primary content** | Pillar cards, overview sections, company detail cards | `bg-white border border-gray-200` | `shadow-md` | `rounded-xl` |
+| **Sidebar / reference** | Sidebar cards, toolbar, pagination, table rows | `bg-white border border-gray-100` or `border-gray-200` | `shadow-sm` or none | `rounded-xl` |
+| **Homepage flat** | Featured cards, methodology cards, audience cards | `bg-white border border-gray-300` | none | `rounded-lg` or `rounded-xl` |
+
+**Design rationale:** CompanyPage uses shadow hierarchy to create depth and visual importance. Homepage uses zero shadows for a flat, editorial feel.
+
+### CSS Card Classes (index.css)
+
+- `.card`: `bg-white rounded-xl p-6 shadow-sm border border-gray-200` — hover lifts with `shadow-md`
+- `.card-interactive`: `bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-200` — hover lifts 3px + scale 1.02 + blue border
+- `.theme-card`: `bg-white rounded-2xl p-6 border border-slate-200` — hover lifts + blue border (no shadow)
+
+---
+
+## 5. Component Patterns
+
+### Buttons
+
+| Button | Style | Usage |
+|--------|-------|-------|
+| `.btn-primary` | Blue gradient, white text, `font-bold text-lg`, `py-5 px-10 rounded-xl`, shadow | Primary actions |
+| `.btn-secondary` | Glass (`bg-white/10 backdrop-blur`), white text, `font-semibold`, `py-5 px-8 rounded-xl`, white border | Secondary hero CTA |
+| `.btn-outline` | White bg, gray border, `text-gray-700 font-semibold`, `py-3 px-6 rounded-lg` | Tertiary actions |
+| `.primary-cta` | Inline gradient `#2563eb → #1d4ed8`, shimmer effect on hover | Hero primary CTA |
+| `.secondary-cta` | Translucent white bg, white border, backdrop blur | Hero secondary CTA |
+| `.email-button` | Blue gradient, `rounded-3xl`, `py-4 px-8` | Contact page |
+
+All buttons hover with `-translate-y-0.5` lift. `.btn-primary` and `.primary-cta` add shimmer pseudo-element on hover.
+
+### Progress Bars
+
+| Context | Height | Colors | Scale |
+|---------|--------|--------|-------|
+| CompanyPage pillar cards | `h-2` | Green/yellow/gray per 0–2 pillar score | 0–2 |
+| Homepage featured cards | `h-2.5` | Tiered 4-color (emerald/blue/amber/red) | 0–14 |
+| CompanyPage grade card | Dynamic | Grade-colored (`bg-emerald-500`, etc.) | Percent of 14 |
+
+Progress bar fill uses `transition-all` for animated width.
+
+### Grade Badges
+
+- Fixed `w-7` width, `rounded` corners
+- Colored background + text per grade tier (from `getGradeBg()` and `getGradeColor()`)
+- Used in CompanyDirectory table and CompanyPage
+
+### Evidence Badges
+
+- Pill shape with `bg` + `text` + `border` per evidence type
+- Styling from `getEvidenceTypeLabel()` in `colorMapping.js`
+
+### Star Rating
+
+- Fill color: `#d97706` (amber-600), empty outline: `#d1d5db` (gray-300)
+- Size: `w-6 h-6` (24px)
+- Gap: `gap-0.5`
+- Supports half stars via `StarHalf` overlay
+- Component: `StarRating.js`
+
+### Pillar Dots (Directory)
+
+- `w-2 h-2 rounded-full`
+- Colors: emerald-500 (score 2), amber-500 (score 1), gray-200 (score 0)
+- Displayed in a row with `gap-2`
+
+### Spinner
+
+```css
+.spinner {
+  width: 2.5rem;      /* w-10 */
+  height: 2.5rem;     /* h-10 */
+  border: 4px solid;
+  border-color: #e5e7eb;        /* gray-200 */
+  border-top-color: #2563eb;    /* blue-600 */
+  border-radius: 9999px;
+  animation: spin 1s linear infinite;
+}
+```
+
+### Icons
+
+Primary library: **Lucide React**. Secondary: **React Icons** (used sparingly).
+
+Pillar icons:
+
+| Pillar | Icon |
+|--------|------|
+| Transparency | `Eye` |
+| Fairness & Bias Mitigation | `Scale` |
+| Explainability | `Brain` |
+| Human Oversight & Accountability | `Users` |
+| Privacy & Data Protection | `Shield` |
+| Governance & Internal Controls | `Building` |
+| Public Commitments & External Audits | `Award` |
+
+---
+
+## 6. Interactive States
+
+### Card Hover
+
+- Lift: `-translate-y-0.5` (2px) for standard cards
+- Border shift: `border-gray-200` → `border-blue-300` or `border-blue-400`
+- Shadow increase on `.card`: `shadow-sm` → `shadow-md`
+- Transition: `duration-200` or `duration-300`
+
+### Link Hover
+
+- Nav links: `text-slate-800` → `text-blue-500`, `duration-300`
+- In-page links: `text-blue-600` → `text-blue-700`, `duration-200`
+
+### Table Row Hover (Directory)
+
+- `hover:bg-blue-50/40` — subtle blue tint
+
+### Tab Active State
+
+- Active: `text-blue-600 border-blue-600` with `border-b-2`
+- Inactive: `text-gray-500` with transparent border
+
+### "View evaluation" Reveal (Directory)
+
+- Desktop: `opacity-0 group-hover:opacity-100` with `transition-opacity`
+- Mobile: Always visible (no hover on touch)
+
+### Button Hover
+
+- All buttons: `-translate-y-0.5` lift
+- `.btn-primary` / `.primary-cta`: Enhanced box-shadow + shimmer sweep
+- `.btn-outline`: `bg-gray-50 border-gray-400`
+
+---
+
+## 7. Responsive Breakpoints
+
+Tailwind default breakpoints (mobile-first):
+
+| Breakpoint | Width | Key Layout Changes |
+|------------|-------|--------------------|
+| Default (mobile) | < 640px | Single column, stacked layouts, hamburger nav |
+| `sm:` | ≥ 640px | Hero CTAs side-by-side, 2-col audience, proof strip dots |
+| `md:` | ≥ 768px | 2-col grids, table view in directory, desktop nav, larger padding |
+| `lg:` | ≥ 1024px | 3-col featured cards, 4-col audience, hero columns on CompanyPage |
+
+### Mobile-Specific Patterns
+
+| Element | Mobile | Desktop |
+|---------|--------|---------|
+| NavBar padding | `py-3 px-4` | `py-4 px-9` |
+| Logo height | `h-11` (44px) | `h-14` (56px) |
+| Brand font size | `text-2xl` | `text-[1.6rem]` |
+| Hero CTAs | Stacked, `max-w-xs items-stretch` | Side-by-side, `flex-row` |
+| Hero section padding | Reduced at ≤480px via CSS media query | `py-20 md:py-24` |
+| `.btn-primary` / `.btn-secondary` | `font-size: 0.875rem; padding: 1rem` (≤640px) | `text-lg py-5 px-10` |
+| `.theme-card` padding | `1rem` (≤480px), `1.25rem` (≤768px) | `1.5rem` |
+
+### NavBar Mobile Menu
+
+- Hamburger icon at `≤768px` (JS-based `window.innerWidth` check)
+- Menu: full-width dropdown below nav, `bg-white py-4 px-8 border-b border-gray-200`
+- Links stack vertically with `gap-7`
+- Menu closes on link click
+
+---
+
+## 8. Tailwind 4 Conventions
+
+Key patterns and gotchas specific to Tailwind CSS v4 (used in this project):
+
+### CSS Class Specificity
+
+`@layer components` in Tailwind 4 has **low CSS specificity**. Tailwind utility classes will override properties set via `@apply` in `@layer components`. This means:
+
+- **Do:** Use CSS classes for structural properties (max-width, margin, display)
+- **Don't:** Use CSS classes for visual properties (padding, colors, shadows) that need per-instance overrides — use Tailwind utilities directly instead
+
+### Container Pattern
+
+The project uses a hybrid approach:
+
+```css
+/* CSS class for structure */
+.container-default {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+```
+
+```jsx
+/* Tailwind utilities for padding (overridable per-instance) */
+<div className="container-default px-6 sm:px-8 lg:px-10">
+```
+
+### Don't Mix CSS and Tailwind Breakpoints
+
+CSS `@media` queries and Tailwind responsive prefixes (`sm:`, `md:`, `lg:`) can conflict because they apply at different specificity levels. Pick one per property.
+
+### Inline Styles for Dynamic Values
+
+Use inline `style={}` only for values that are:
+- Calculated from data (progress bar widths, parallax transforms)
+- Complex gradients that don't map to Tailwind utilities
+- Data-driven colors or positions
+
+```jsx
+// Good: data-driven width
+<div style={{ width: `${(score / 14) * 100}%` }} />
+
+// Good: complex gradient
+<section style={{ background: 'linear-gradient(135deg, #0a0f1c 0%, #1a202c 25%, #2d3748 100%)' }}>
+```
+
+### Padding Shorthand Gotcha
+
+In CSS media queries, using `padding` shorthand kills all specific padding properties set elsewhere. Use only the specific side (`padding-top`, `padding-bottom`) to avoid overriding horizontal padding set by Tailwind.
+
+---
+
+## 9. Animations
+
+### Scroll Reveal (Intersection Observer)
+
+Used by homepage sections (FeaturedEvaluations, MethodologyPreview, etc.):
+
+```css
+opacity: 0 → 1;
+transform: translateY(40px) → translateY(0);
+transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+```
+
+### Keyframe Animations
+
+| Animation | Duration | Easing | Usage |
+|-----------|----------|--------|-------|
+| `slideInUp` | 0.8s | `ease-out` | Hero content (staggered with `animationDelay`) |
+| `pulse-subtle` | 8s | `ease-in-out` (infinite) | Decorative background elements |
+| `iconPulse` | 2s | `ease-out` | Icon entrance effects |
+| `spin` | 1s | `linear` (infinite) | Loading spinner |
+
+### Hover Transitions
+
+- Cards, buttons, links: `duration-200` or `duration-300`
+- Progress bar fill: `transition-all` (500ms typical)
+- NavBar link color: `duration-300`
+
+### Reduced Motion
+
+All animations respect `prefers-reduced-motion: reduce` via a global CSS media query that sets `animation-duration` and `transition-duration` to `0.01ms`.
+
+---
+
+## 10. Page-Specific References
+
+This document covers global patterns. For detailed page-level implementation:
+
+- **Homepage:** [`docs/homepage-design-spec.md`](docs/homepage-design-spec.md) — hero, featured evaluations, methodology preview, audience, CTA, responsive CTA decisions, proof strip
+- **Company Page:** [`docs/company-page-requirements.md`](docs/company-page-requirements.md) — hero layout, grade card, tab system, pillar cards, sidebar, zero-score handling, evidence bar
+- **Company Directory:** [`docs/company-directory-requirements.md`](docs/company-directory-requirements.md) — table design, filters, search, pagination, pillar dots, grade badges, top performers
+
+---
+
+## 11. File Reference
+
+| File | Purpose |
+|------|---------|
+| `src/index.css` | Animations, container classes, button/card/CTA classes, glass effect, grid layouts, responsive overrides |
+| `src/utils/colorMapping.js` | All color/status/grade/evidence mapping functions |
+| `src/components/Container.js` | Layout wrapper (`size` prop → CSS class) |
+| `src/components/NavBar.js` | Sticky navigation, brand styling, mobile hamburger |
+| `src/components/Footer.js` | Dark gradient footer |
+| `src/components/StarRating.js` | Star rating display (amber-600 gold, 24px, gap-0.5) |
+| `src/components/CompanyCard.js` | Directory listing card |
+| `src/components/SearchAndFilters.js` | Compound filter component |
