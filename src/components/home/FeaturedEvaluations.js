@@ -95,15 +95,10 @@ function FeaturedEvaluations({ companies, totalCount, isVisible }) {
       <Container size="wide">
         {/* Section header */}
         <div className="text-center mb-8 max-w-5xl mx-auto">
-          <div className="mb-3 relative inline-block">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight">
-              Featured Evaluations
-            </h2>
-            <span className="hidden md:inline-block absolute -right-28 top-1/2 -translate-y-1/2 text-xs bg-blue-50 text-blue-600 border border-blue-200 rounded-full px-2.5 py-0.5 whitespace-nowrap">
-              Updated 2026
-            </span>
-          </div>
-          <span className="md:hidden inline-block text-xs bg-blue-50 text-blue-600 border border-blue-200 rounded-full px-2.5 py-0.5 mb-2">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-2">
+            Featured Evaluations
+          </h2>
+          <span className="inline-block text-xs bg-blue-50 text-blue-600 border border-blue-200 rounded-full px-2.5 py-0.5 mb-3">
             Updated 2026
           </span>
           <p className="text-lg text-slate-600">
