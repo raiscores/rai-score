@@ -1,0 +1,152 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 7.1,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 1
+  },
+  "company": "Super Micro Computer",
+  "company_slug": "super-micro-computer",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 4,
+      "OPERATIONAL": 0,
+      "POLICY": 3
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 3,
+      "findings": "Supermicro's reports commit to policies and procedures for AI use and data protection. Policy documents also describe the use of data for personalization and customized ads or content.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "The \"Supermicro 2024 Sustainability/ESG Report\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report supports governance by committing to policies and procedures for AI use and data protection. It also supports transparency by mentioning AI systems and their capabilities/applications.",
+          "title": "Supermicro 2024 Sustainability/ESG Report",
+          "url": "https://s204.q4cdn.com/707617056/files/doc_downloads/Supermicro-ESG-Report-2024.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "The Supermicro Privacy Policy document provides evidence for **governance** and **transparency**. It supports transparency by mentioning \"AI training,\" \"AI Systems,\" and \"AI/Deep Learning,\" indicating the company's use of these technologies. Furthermore, the policy supports governance by describing the use of data for personalization and customized ads/content, implying the establishment of policies for data use and profiling.",
+          "title": "Supermicro Privacy Policy",
+          "url": "https://supermicro.com/en/about/policies/privacy"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Transparency",
+      "evidence_count": 4,
+      "findings": "Supermicro's reports mention AI systems and their capabilities or applications. Policy documents also reference AI training, AI Systems, and AI/Deep Learning, indicating the company's use of these technologies.",
+      "max_score": 2,
+      "path_to_improvement": "Document AI systems in use, including vendor/third-party AI tools.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "The \"Supermicro 2024 Sustainability/ESG Report\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report supports governance by committing to policies and procedures for AI use and data protection. It also supports transparency by mentioning AI systems and their capabilities/applications.",
+          "title": "Supermicro 2024 Sustainability/ESG Report",
+          "url": "https://s204.q4cdn.com/707617056/files/doc_downloads/Supermicro-ESG-Report-2024.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "The Supermicro Privacy Policy document provides evidence for **governance** and **transparency**. It supports transparency by mentioning \"AI training,\" \"AI Systems,\" and \"AI/Deep Learning,\" indicating the company's use of these technologies. Furthermore, the policy supports governance by describing the use of data for personalization and customized ads/content, implying the establishment of policies for data use and profiling.",
+          "title": "Supermicro Privacy Policy",
+          "url": "https://supermicro.com/en/about/policies/privacy"
+        }
+      ],
+      "score": 0,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-03-19T17:26:33Z",
+  "run_id": "20260309_191708_0433",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Super Micro Computer's public disclosures address governance, outlining commitments to policies and procedures for AI use and data protection. Policy documents further describe the use of data for personalization and customized ads/content, making governance the only pillar with documented evidence out of 7 evaluated areas. Drawing from 8 publicly available sources, no qualifying public evidence was found for the majority of the 7 evaluated pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 1,
+    "pillars_without_evidence": 6,
+    "total_evidence_items": 7,
+    "total_sources_used": 2
+  }
+}

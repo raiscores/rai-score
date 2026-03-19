@@ -1,0 +1,175 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Core & Main",
+  "company_slug": "core-main",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 3,
+      "OPERATIONAL": 1,
+      "POLICY": 10
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 5,
+      "findings": "Core & Main's proactive approach to AI adoption is detailed in a webinar recap, which describes a process for evaluating and managing AI-related risks and communicating these findings to the board. An SEC filing further confirms the company's internal use of artificial intelligence for business strategy, including generating customer insights and identifying market opportunities. This filing also discloses the use of robotic process automation for operational efficiency, indicating a structured approach to integrating these technologies.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The Core & Main LP Privacy Notice supports the pillars of governance, oversight, privacy, and transparency. This policy document indicates a commitment to privacy by stating they do not currently engage in automated individual decision-making and will inform users and offer opt-out rights if this practice changes. Furthermore, the notice implies the use of automated systems for analytics, consumer profiling, and targeted advertising, and outlines user rights related to these practices, demonstrating transparency and oversight.",
+          "title": "Core & Main LP Privacy Notice",
+          "url": "https://coreandmain.com/privacy-notice"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This webinar recap, \"Industry Leaders' Digital Transformation Lessons Learned,\" provides evidence for the **governance** pillar of responsible AI. The source details Core & Main's proactive approach to AI adoption, including their process of evaluating and managing AI-related risks, and communicating these findings to their board. This demonstrates a strategic and controlled approach to AI deployment, aligning with governance principles.",
+          "title": "Industry Leaders' Digital Transformation Lessons Learned",
+          "url": "https://distributionstrategy.com/industry-leaders-digital-transformation-lessons-learned"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "The Core & Main Prospectus (Form 424B4) provides evidence for the **governance** pillar of responsible AI. This SEC filing confirms the company's internal use of artificial intelligence for business strategy, such as generating customer insights and identifying market opportunities. It also discloses the use of robotic process automation for operational efficiency, indicating a structured approach to integrating these technologies within the organization.",
+          "title": "Core & Main Prospectus (Form 424B4)",
+          "url": "https://sec.gov/Archives/edgar/data/1856525/000119312522004575/d270835d424b4.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "The Core & Main LP Privacy Notice outlines user rights related to automated systems for analytics, consumer profiling, and targeted advertising. It also states that the company will inform users and offer opt-out rights if automated individual decision-making practices change.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The Core & Main LP Privacy Notice supports the pillars of governance, oversight, privacy, and transparency. This policy document indicates a commitment to privacy by stating they do not currently engage in automated individual decision-making and will inform users and offer opt-out rights if this practice changes. Furthermore, the notice implies the use of automated systems for analytics, consumer profiling, and targeted advertising, and outlines user rights related to these practices, demonstrating transparency and oversight.",
+          "title": "Core & Main LP Privacy Notice",
+          "url": "https://coreandmain.com/privacy-notice"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 7,
+      "findings": "The Core & Main LP Privacy Notice indicates a commitment to privacy. It states that the company does not currently engage in automated individual decision-making and will inform users and offer opt-out rights if this practice changes. The notice also implies the use of automated systems for analytics, consumer profiling, and targeted advertising, outlining related user rights.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The Core & Main LP Privacy Notice supports the pillars of governance, oversight, privacy, and transparency. This policy document indicates a commitment to privacy by stating they do not currently engage in automated individual decision-making and will inform users and offer opt-out rights if this practice changes. Furthermore, the notice implies the use of automated systems for analytics, consumer profiling, and targeted advertising, and outlines user rights related to these practices, demonstrating transparency and oversight.",
+          "title": "Core & Main LP Privacy Notice",
+          "url": "https://coreandmain.com/privacy-notice"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 3,
+      "findings": "The company's Privacy Notice states that it does not currently engage in automated individual decision-making and commits to informing users and offering opt-out rights if this practice changes. This notice also implies the use of automated systems for analytics, consumer profiling, and targeted advertising, outlining related user rights. Additionally, a press release mentions the use of machine learning algorithms and capabilities within its 'flowworks' software for predictive and preventative maintenance analysis.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The Core & Main LP Privacy Notice supports the pillars of governance, oversight, privacy, and transparency. This policy document indicates a commitment to privacy by stating they do not currently engage in automated individual decision-making and will inform users and offer opt-out rights if this practice changes. Furthermore, the notice implies the use of automated systems for analytics, consumer profiling, and targeted advertising, and outlines user rights related to these practices, demonstrating transparency and oversight.",
+          "title": "Core & Main LP Privacy Notice",
+          "url": "https://coreandmain.com/privacy-notice"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **transparency** pillar of responsible AI. It supports this by mentioning the use of \"machine learning algorithms\" and \"machine learning capabilities\" within their 'flowworks' software, indicating transparency about the underlying technology used for predictive and preventative maintenance analysis.",
+          "title": "Infinitii AI Strikes National Deal with Core & Main",
+          "url": "https://techcouver.com/2022/12/20/infinitii-ai-core-main-smart-city-water-tech"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-03-19T17:07:33Z",
+  "run_id": "20260309_175248_e382",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Based on 5 publicly available sources, Core & Main's published materials address 4 of 7 evaluated responsible AI pillars. These materials document policies for transparency, oversight, privacy, and governance. For instance, transparency disclosures state that the company does not currently engage in automated individual decision-making, and a webinar recap describes a process of evaluating and managing AI-related risks under governance. No qualifying public evidence was found for fairness, explainability, and 1 additional pillar.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 14,
+    "total_sources_used": 4
+  }
+}

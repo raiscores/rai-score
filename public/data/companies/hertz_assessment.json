@@ -1,0 +1,279 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "Hertz",
+  "company_slug": "hertz",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 8,
+      "OPERATIONAL": 1,
+      "POLICY": 20
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 3,
+      "findings": "The company details how AI-identified damage is presented to customers, supporting explainability. Reports reference understanding the AI system's function, and third-party articles point to the importance of understanding AI decisions to address customer concerns.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **transparency**, **explainability**, **governance**, and **oversight** pillars of responsible AI. It highlights Hertz's deployment of an AI system for vehicle damage detection, demonstrating transparency in AI use and the vendor partnership involved. The source also details how AI-identified damage is presented to customers, supporting explainability, while also pointing to a lack of human oversight and difficult dispute resolution processes, which impacts the oversight pillar.",
+          "title": "This Is What Happens When Hertz's AI Scanner Finds Damage on Your Rental",
+          "url": "https://thedrive.com/news/this-is-what-happens-when-hertzs-ai-scanner-finds-damage-on-your-rental"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This news report on Congress's investigation into AI car rental damage assessments provides evidence for **governance, fairness, oversight, and transparency**. It highlights concerns about regulatory responsibilities related to AI adoption, questions the implementation of AI for fairness and transparency, and points to a lack of human review as an oversight issue impacting transparency compared to competitors. The report also touches on understanding the AI system's function and its aims for a transparent customer experience.",
+          "title": "Congress Investigates AI Car Rental Damage Assessments",
+          "url": "https://oversight.house.gov/release/mace-investigates-use-of-artificial-intelligence-for-car-rental-damage-assessments"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party article, \"Hertz Lessons on AI Governance,\" provides evidence for **governance**, **oversight**, **transparency**, and **explainability**. It highlights the governance risk of an AI camera system for damage assessment, emphasizing the need for a governance model and proactive risk assessment. The article also points to the importance of human appeal (oversight) and understanding AI decisions (explainability) to address customer concerns and avoid regulatory issues, noting the intent for transparency in the AI system's use.",
+          "title": "Hertz Lessons on AI Governance",
+          "url": "https://radicalcompliance.com/2025/07/02/hertz-lessons-on-ai-governance"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "Reports question the implementation of AI for fairness, highlighting customer complaints of unfair financial harm due to excessive charges from the AI system's assessments. These complaints suggest a lack of fairness in the AI's application.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This news report on Congress's investigation into AI car rental damage assessments provides evidence for **governance, fairness, oversight, and transparency**. It highlights concerns about regulatory responsibilities related to AI adoption, questions the implementation of AI for fairness and transparency, and points to a lack of human review as an oversight issue impacting transparency compared to competitors. The report also touches on understanding the AI system's function and its aims for a transparent customer experience.",
+          "title": "Congress Investigates AI Car Rental Damage Assessments",
+          "url": "https://oversight.house.gov/release/mace-investigates-use-of-artificial-intelligence-for-car-rental-damage-assessments"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Hertz's AI damage scanner provides evidence for **fairness** and **governance**. It highlights how the AI system's assessments have led to customer complaints of unfair financial harm due to excessive charges for minor damages, suggesting a lack of fairness in the AI's application. The report also touches upon governance by documenting an AI incident that necessitates government tracking and risk management for AI hazards.",
+          "title": "Hertz's AI Damage Scanner Triggers Controversy Over Excessive Customer Charges",
+          "url": "https://oecd.ai/en/incident-monitor/2811"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 15,
+      "findings": "Published materials imply vendor oversight through partnership descriptions, supporting governance. Reports highlight concerns about regulatory responsibilities related to AI adoption and document AI incidents necessitating government tracking and risk management for AI hazards. Enforcement actions also highlight concerns regarding Hertz's AI implementation, including the potential phasing out of employee inspections and the lack of clarity on human involvement in AI-driven processes, while third-party articles emphasize the need for a governance model and proactive risk assessment.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **transparency**, **explainability**, **governance**, and **oversight** pillars of responsible AI. It highlights Hertz's deployment of an AI system for vehicle damage detection, demonstrating transparency in AI use and the vendor partnership involved. The source also details how AI-identified damage is presented to customers, supporting explainability, while also pointing to a lack of human oversight and difficult dispute resolution processes, which impacts the oversight pillar.",
+          "title": "This Is What Happens When Hertz's AI Scanner Finds Damage on Your Rental",
+          "url": "https://thedrive.com/news/this-is-what-happens-when-hertzs-ai-scanner-finds-damage-on-your-rental"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights the AI/ML capabilities for automated vehicle inspections, which enhances transparency for customers by detailing the AI systems and their role in maintenance. The press release also implies vendor oversight through the description of the partnership, supporting the governance pillar.",
+          "title": "Hertz and UVeye AI Vehicle Inspection",
+          "url": "https://newsroom.hertz.com/articles/article-details/hertz-and-uveye-partner-to-modernize-vehicle-maintenance-with-ai-technology"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This news report on Congress's investigation into AI car rental damage assessments provides evidence for **governance, fairness, oversight, and transparency**. It highlights concerns about regulatory responsibilities related to AI adoption, questions the implementation of AI for fairness and transparency, and points to a lack of human review as an oversight issue impacting transparency compared to competitors. The report also touches on understanding the AI system's function and its aims for a transparent customer experience.",
+          "title": "Congress Investigates AI Car Rental Damage Assessments",
+          "url": "https://oversight.house.gov/release/mace-investigates-use-of-artificial-intelligence-for-car-rental-damage-assessments"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This enforcement action, \"Blumenthal Demands Answers from Hertz About AI Rental Car Inspections,\" provides evidence for **governance, oversight, and transparency**. The source highlights concerns about Hertz's AI implementation, including the potential phasing out of employee inspections and the lack of clarity on human involvement in AI-driven processes, which speaks to governance and oversight. Furthermore, the inquiry into Hertz's use of AI scanners and their appeal process, as well as the announcement of AI implementation, directly supports the transparency pillar.",
+          "title": "Blumenthal Demands Answers from Hertz About AI Rental Car Inspections",
+          "url": "https://blumenthal.senate.gov/newsroom/press/release/icymi-blumenthal-demands-answers-from-hertz-about-ai-rental-car-inspections"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party article, \"Hertz Lessons on AI Governance,\" provides evidence for **governance**, **oversight**, **transparency**, and **explainability**. It highlights the governance risk of an AI camera system for damage assessment, emphasizing the need for a governance model and proactive risk assessment. The article also points to the importance of human appeal (oversight) and understanding AI decisions (explainability) to address customer concerns and avoid regulatory issues, noting the intent for transparency in the AI system's use.",
+          "title": "Hertz Lessons on AI Governance",
+          "url": "https://radicalcompliance.com/2025/07/02/hertz-lessons-on-ai-governance"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Hertz's AI damage scanner provides evidence for **fairness** and **governance**. It highlights how the AI system's assessments have led to customer complaints of unfair financial harm due to excessive charges for minor damages, suggesting a lack of fairness in the AI's application. The report also touches upon governance by documenting an AI incident that necessitates government tracking and risk management for AI hazards.",
+          "title": "Hertz's AI Damage Scanner Triggers Controversy Over Excessive Customer Charges",
+          "url": "https://oecd.ai/en/incident-monitor/2811"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 7,
+      "findings": "Reports indicate a lack of human oversight and human review, referencing difficult dispute resolution processes. Enforcement actions highlight concerns about the lack of clarity on human involvement in AI-driven processes and reference an inquiry into the AI scanners and their appeal process. Third-party articles also point to the importance of human appeal for oversight.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **transparency**, **explainability**, **governance**, and **oversight** pillars of responsible AI. It highlights Hertz's deployment of an AI system for vehicle damage detection, demonstrating transparency in AI use and the vendor partnership involved. The source also details how AI-identified damage is presented to customers, supporting explainability, while also pointing to a lack of human oversight and difficult dispute resolution processes, which impacts the oversight pillar.",
+          "title": "This Is What Happens When Hertz's AI Scanner Finds Damage on Your Rental",
+          "url": "https://thedrive.com/news/this-is-what-happens-when-hertzs-ai-scanner-finds-damage-on-your-rental"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This news report on Congress's investigation into AI car rental damage assessments provides evidence for **governance, fairness, oversight, and transparency**. It highlights concerns about regulatory responsibilities related to AI adoption, questions the implementation of AI for fairness and transparency, and points to a lack of human review as an oversight issue impacting transparency compared to competitors. The report also touches on understanding the AI system's function and its aims for a transparent customer experience.",
+          "title": "Congress Investigates AI Car Rental Damage Assessments",
+          "url": "https://oversight.house.gov/release/mace-investigates-use-of-artificial-intelligence-for-car-rental-damage-assessments"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This enforcement action, \"Blumenthal Demands Answers from Hertz About AI Rental Car Inspections,\" provides evidence for **governance, oversight, and transparency**. The source highlights concerns about Hertz's AI implementation, including the potential phasing out of employee inspections and the lack of clarity on human involvement in AI-driven processes, which speaks to governance and oversight. Furthermore, the inquiry into Hertz's use of AI scanners and their appeal process, as well as the announcement of AI implementation, directly supports the transparency pillar.",
+          "title": "Blumenthal Demands Answers from Hertz About AI Rental Car Inspections",
+          "url": "https://blumenthal.senate.gov/newsroom/press/release/icymi-blumenthal-demands-answers-from-hertz-about-ai-rental-car-inspections"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party article, \"Hertz Lessons on AI Governance,\" provides evidence for **governance**, **oversight**, **transparency**, and **explainability**. It highlights the governance risk of an AI camera system for damage assessment, emphasizing the need for a governance model and proactive risk assessment. The article also points to the importance of human appeal (oversight) and understanding AI decisions (explainability) to address customer concerns and avoid regulatory issues, noting the intent for transparency in the AI system's use.",
+          "title": "Hertz Lessons on AI Governance",
+          "url": "https://radicalcompliance.com/2025/07/02/hertz-lessons-on-ai-governance"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 17,
+      "findings": "Hertz demonstrates transparency through the deployment and announcement of its AI system for vehicle damage detection, including details about vendor partnerships. Published materials enhance customer transparency by detailing AI systems and their role in maintenance, with reports referencing the aim for a transparent customer experience regarding the AI system's function.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **transparency**, **explainability**, **governance**, and **oversight** pillars of responsible AI. It highlights Hertz's deployment of an AI system for vehicle damage detection, demonstrating transparency in AI use and the vendor partnership involved. The source also details how AI-identified damage is presented to customers, supporting explainability, while also pointing to a lack of human oversight and difficult dispute resolution processes, which impacts the oversight pillar.",
+          "title": "This Is What Happens When Hertz's AI Scanner Finds Damage on Your Rental",
+          "url": "https://thedrive.com/news/this-is-what-happens-when-hertzs-ai-scanner-finds-damage-on-your-rental"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights the AI/ML capabilities for automated vehicle inspections, which enhances transparency for customers by detailing the AI systems and their role in maintenance. The press release also implies vendor oversight through the description of the partnership, supporting the governance pillar.",
+          "title": "Hertz and UVeye AI Vehicle Inspection",
+          "url": "https://newsroom.hertz.com/articles/article-details/hertz-and-uveye-partner-to-modernize-vehicle-maintenance-with-ai-technology"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This news report on Congress's investigation into AI car rental damage assessments provides evidence for **governance, fairness, oversight, and transparency**. It highlights concerns about regulatory responsibilities related to AI adoption, questions the implementation of AI for fairness and transparency, and points to a lack of human review as an oversight issue impacting transparency compared to competitors. The report also touches on understanding the AI system's function and its aims for a transparent customer experience.",
+          "title": "Congress Investigates AI Car Rental Damage Assessments",
+          "url": "https://oversight.house.gov/release/mace-investigates-use-of-artificial-intelligence-for-car-rental-damage-assessments"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This enforcement action, \"Blumenthal Demands Answers from Hertz About AI Rental Car Inspections,\" provides evidence for **governance, oversight, and transparency**. The source highlights concerns about Hertz's AI implementation, including the potential phasing out of employee inspections and the lack of clarity on human involvement in AI-driven processes, which speaks to governance and oversight. Furthermore, the inquiry into Hertz's use of AI scanners and their appeal process, as well as the announcement of AI implementation, directly supports the transparency pillar.",
+          "title": "Blumenthal Demands Answers from Hertz About AI Rental Car Inspections",
+          "url": "https://blumenthal.senate.gov/newsroom/press/release/icymi-blumenthal-demands-answers-from-hertz-about-ai-rental-car-inspections"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party article, \"Hertz Lessons on AI Governance,\" provides evidence for **governance**, **oversight**, **transparency**, and **explainability**. It highlights the governance risk of an AI camera system for damage assessment, emphasizing the need for a governance model and proactive risk assessment. The article also points to the importance of human appeal (oversight) and understanding AI decisions (explainability) to address customer concerns and avoid regulatory issues, noting the intent for transparency in the AI system's use.",
+          "title": "Hertz Lessons on AI Governance",
+          "url": "https://radicalcompliance.com/2025/07/02/hertz-lessons-on-ai-governance"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-03-19T17:14:45Z",
+  "run_id": "20260309_182626_6986",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Hertz's public disclosures address transparency and explainability, with materials detailing how AI-identified damage is presented to customers and demonstrating transparency in AI use for vehicle damage detection. These disclosures, drawn from 13 publicly available sources, provide documented evidence for 5 of 7 evaluated responsible AI pillars, all of which include policy-level information. Published materials also imply vendor oversight through the description of the partnership, supporting governance. However, reports question the implementation of AI for fairness, highlighting customer complaints of unfair financial harm, and point to a lack of human oversight and difficult dispute resolution processes. No qualifying public evidence was found for privacy or external accountability.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 29,
+    "total_sources_used": 6
+  }
+}

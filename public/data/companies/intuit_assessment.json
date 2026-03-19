@@ -1,0 +1,219 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "Intuit",
+  "company_slug": "intuit",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 1,
+      "OPERATIONAL": 1,
+      "POLICY": 19
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "The company's responsible AI documentation expresses an aspiration for equitable outcomes for all, specifically including historically excluded groups.",
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "The \"Intuit Responsible AI Palm Card\" provides evidence for **governance**, **oversight**, and **fairness**. This company-owned document indicates a governance framework through its mention of \"responsible AI principles\" and a commitment to a \"thoughtful approach.\" It also demonstrates oversight by explicitly referencing an \"AI Governance Committee\" and \"internal review\" processes. Furthermore, the document aligns with fairness by expressing an aspiration for equitable outcomes for all, including historically excluded groups.",
+          "title": "Intuit Responsible AI Palm Card",
+          "url": "https://publicpolicy.intuit.com/wp-content/uploads/2025/09/responsible-ai-palm-card.pdf"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 10,
+      "findings": "The company's governance practices include mentioning restrictions on AI/ML model training and data use for safety, and identifying AI providers as service providers requiring oversight. Documentation references 'responsible AI principles' and a commitment to a 'thoughtful approach' to AI. A multi-layered AI governance framework is described, including oversight from the board's audit and risk committee, an AI governance committee, and a dedicated responsible AI team. The company also describes the use of proprietary credit scoring models developed and controlled through internal decision-making processes, indicating oversight and management of these algorithmic systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy, \"Global Applicant and Employee Privacy Statement,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports **governance** by mentioning restrictions on AI/ML model training and data use for safety, and by identifying AI providers as service providers requiring oversight. Evidence for **privacy** is found in the policy's discussion of sensitive data collection and use for analytics and R&D, as well as data protection commitments related to automated targeting and profiling. The policy demonstrates **transparency** by acknowledging AI/automated processing for features like chatbots and personalized recommendations, and by outlining user rights, including the right to object to automated decision-making and opt-out of automated data processing for profiling.",
+          "title": "Global Applicant and Employee Privacy Statement",
+          "url": "https://intuit.com/privacy/statement"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "The \"Intuit Responsible AI Palm Card\" provides evidence for **governance**, **oversight**, and **fairness**. This company-owned document indicates a governance framework through its mention of \"responsible AI principles\" and a commitment to a \"thoughtful approach.\" It also demonstrates oversight by explicitly referencing an \"AI Governance Committee\" and \"internal review\" processes. Furthermore, the document aligns with fairness by expressing an aspiration for equitable outcomes for all, including historically excluded groups.",
+          "title": "Intuit Responsible AI Palm Card",
+          "url": "https://publicpolicy.intuit.com/wp-content/uploads/2025/09/responsible-ai-palm-card.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This third-party critique of Mailchimp's AI data policy provides evidence for **governance**, **privacy**, and **transparency**. The blog post highlights Mailchimp's stated commitment to data privacy and transparency regarding AI usage, noting that customer data is not used in \"black-box AIs\" without knowledge, which supports the privacy and transparency pillars. The description of data use for AI/ML development and product powering, without an opt-out, also implies a governance structure around AI development and data utilization.",
+          "title": "Third-Party Critique of Mailchimp's AI Data Policy",
+          "url": "https://buttondown.email/blog/dear-mailchimp-users"
+        },
+        {
+          "artifact_type": "help_page",
+          "source_id": "src_017",
+          "source_tier": "company_owned",
+          "summary": "This Credit Karma help page provides evidence for the **governance** pillar of responsible AI. It demonstrates governance by explaining the company's use of proprietary credit scoring models, such as FICO and VantageScore, which are developed and controlled through internal decision-making processes. The page highlights that these algorithmic systems are a core part of their service, indicating oversight and management of the tools used for credit evaluation.",
+          "title": "Credit Karma's Use of Credit Scoring Algorithms",
+          "url": "https://creditkarma.com/advice/i/vantagescore-vs-fico"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "The Equilar Analysis of Intuit's 2026 Proxy Statement on AI provides evidence for the **governance** and **transparency** pillars. This third-party analysis highlights Intuit's commitment to responsible AI by describing its multi-layered AI governance framework, which includes oversight from the board's audit and risk committee, an AI governance committee, and a dedicated responsible AI team. The report also supports transparency by mentioning AI system capabilities and their intended functions.",
+          "title": "Equilar Analysis of Intuit's 2026 Proxy Statement on AI",
+          "url": "https://equilar.com/reports/tracking-ai-disclosures-across-corporate-america"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "The company's responsible AI documentation explicitly references an 'AI Governance Committee' and 'internal review' processes.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "The \"Intuit Responsible AI Palm Card\" provides evidence for **governance**, **oversight**, and **fairness**. This company-owned document indicates a governance framework through its mention of \"responsible AI principles\" and a commitment to a \"thoughtful approach.\" It also demonstrates oversight by explicitly referencing an \"AI Governance Committee\" and \"internal review\" processes. Furthermore, the document aligns with fairness by expressing an aspiration for equitable outcomes for all, including historically excluded groups.",
+          "title": "Intuit Responsible AI Palm Card",
+          "url": "https://publicpolicy.intuit.com/wp-content/uploads/2025/09/responsible-ai-palm-card.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 11,
+      "findings": "The company's privacy policy describes sensitive data collection and use for analytics and R&D, along with data protection commitments related to automated targeting and profiling. Third-party critiques also highlight a stated commitment to data privacy regarding AI usage, noting that customer data is not used in 'black-box AIs' without knowledge.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy, \"Global Applicant and Employee Privacy Statement,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports **governance** by mentioning restrictions on AI/ML model training and data use for safety, and by identifying AI providers as service providers requiring oversight. Evidence for **privacy** is found in the policy's discussion of sensitive data collection and use for analytics and R&D, as well as data protection commitments related to automated targeting and profiling. The policy demonstrates **transparency** by acknowledging AI/automated processing for features like chatbots and personalized recommendations, and by outlining user rights, including the right to object to automated decision-making and opt-out of automated data processing for profiling.",
+          "title": "Global Applicant and Employee Privacy Statement",
+          "url": "https://intuit.com/privacy/statement"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This third-party critique of Mailchimp's AI data policy provides evidence for **governance**, **privacy**, and **transparency**. The blog post highlights Mailchimp's stated commitment to data privacy and transparency regarding AI usage, noting that customer data is not used in \"black-box AIs\" without knowledge, which supports the privacy and transparency pillars. The description of data use for AI/ML development and product powering, without an opt-out, also implies a governance structure around AI development and data utilization.",
+          "title": "Third-Party Critique of Mailchimp's AI Data Policy",
+          "url": "https://buttondown.email/blog/dear-mailchimp-users"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 8,
+      "findings": "The company acknowledges AI and automated processing for features like chatbots and personalized recommendations, and outlines user rights such as the right to object to automated decision-making and opt-out of automated data processing for profiling. Third-party analyses and critiques also highlight a commitment to transparency regarding AI usage, noting that AI system capabilities and their intended functions are mentioned, and customer data is not used in 'black-box AIs' without knowledge.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy, \"Global Applicant and Employee Privacy Statement,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports **governance** by mentioning restrictions on AI/ML model training and data use for safety, and by identifying AI providers as service providers requiring oversight. Evidence for **privacy** is found in the policy's discussion of sensitive data collection and use for analytics and R&D, as well as data protection commitments related to automated targeting and profiling. The policy demonstrates **transparency** by acknowledging AI/automated processing for features like chatbots and personalized recommendations, and by outlining user rights, including the right to object to automated decision-making and opt-out of automated data processing for profiling.",
+          "title": "Global Applicant and Employee Privacy Statement",
+          "url": "https://intuit.com/privacy/statement"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This third-party critique of Mailchimp's AI data policy provides evidence for **governance**, **privacy**, and **transparency**. The blog post highlights Mailchimp's stated commitment to data privacy and transparency regarding AI usage, noting that customer data is not used in \"black-box AIs\" without knowledge, which supports the privacy and transparency pillars. The description of data use for AI/ML development and product powering, without an opt-out, also implies a governance structure around AI development and data utilization.",
+          "title": "Third-Party Critique of Mailchimp's AI Data Policy",
+          "url": "https://buttondown.email/blog/dear-mailchimp-users"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "The Equilar Analysis of Intuit's 2026 Proxy Statement on AI provides evidence for the **governance** and **transparency** pillars. This third-party analysis highlights Intuit's commitment to responsible AI by describing its multi-layered AI governance framework, which includes oversight from the board's audit and risk committee, an AI governance committee, and a dedicated responsible AI team. The report also supports transparency by mentioning AI system capabilities and their intended functions.",
+          "title": "Equilar Analysis of Intuit's 2026 Proxy Statement on AI",
+          "url": "https://equilar.com/reports/tracking-ai-disclosures-across-corporate-america"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T17:16:26Z",
+  "run_id": "20260309_183310_5e84",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Intuit's public disclosures address responsible AI practices at both operational and policy levels across 4 of 7 evaluated pillars. Operational practices include an explicit reference to an 'AI Governance Committee' within company-owned documents for oversight, and a privacy policy that mentions restrictions on AI/ML model training and data use for safety under governance. At the policy level, transparency disclosures acknowledge AI/automated processing for features like chatbots and personalized recommendations, while privacy policies describe sensitive data collection and use for analytics and R&D. No qualifying public evidence was found for fairness, explainability, and 1 additional pillar, based on a review of 18 publicly available sources.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 21,
+    "total_sources_used": 5
+  }
+}

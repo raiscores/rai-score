@@ -1,0 +1,371 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "eBay",
+  "company_slug": "ebay",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 16,
+      "POLICY": 23
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "Sources reference a commitment to meeting regulatory deadlines for AI legislation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This interview with eBay's Chief Privacy Officer provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The source details a rigorous global intake process for new AI use cases, involving a cross-functional team that reviews applications against legal, ethical, privacy, safety, security, and DEI lenses. This process, along with references to regulatory frameworks like the EU AI Act and GDPR, demonstrates strong governance and external accountability, while discussions on filtering personal data and using synthetic data highlight privacy and fairness considerations. The mention of a strict review process and monthly model reviews further supports the oversight pillar.",
+          "title": "Interview with Anna Zeiter, Chief Privacy Officer, eBay",
+          "url": "https://theinnovator.news/interview-of-the-week-anna-zeiter-chief-privacy-officer-ebay"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"eBay Signs EU AI Pact,\" provides evidence for **external accountability**, **governance**, and **privacy**. The pact commits eBay to meeting regulatory deadlines for AI legislation, demonstrating a policy for external accountability. Furthermore, the commitment to developing an AI governance strategy and mapping high-risk AI systems directly supports the governance pillar, while the mention of understanding privacy and security for autonomous systems indicates a focus on privacy policies.",
+          "title": "eBay Signs EU AI Pact",
+          "url": "https://ebaymainstreet.com/news-events/ebay-signs-eu-ai-pact"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 6,
+      "findings": "Policy documents explicitly address the prevention of unfair biases and discrimination. These documents also reference ensuring dataset quality and state a commitment to prevent discriminatory AI decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This interview with eBay's Chief Privacy Officer provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The source details a rigorous global intake process for new AI use cases, involving a cross-functional team that reviews applications against legal, ethical, privacy, safety, security, and DEI lenses. This process, along with references to regulatory frameworks like the EU AI Act and GDPR, demonstrates strong governance and external accountability, while discussions on filtering personal data and using synthetic data highlight privacy and fairness considerations. The mention of a strict review process and monthly model reviews further supports the oversight pillar.",
+          "title": "Interview with Anna Zeiter, Chief Privacy Officer, eBay",
+          "url": "https://theinnovator.news/interview-of-the-week-anna-zeiter-chief-privacy-officer-ebay"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This third-party report from the OECD.AI Policy Observatory highlights concerns regarding eBay's AI data training practices, providing evidence for **governance** and **fairness**. The report points to potential privacy violations due to the use of personal data for AI training without adequate informed consent or opt-out mechanisms, indicating a lack of robust governance and raising fairness issues. This underscores the need for clear policies and oversight in AI data usage.",
+          "title": "Ebay's AI Data Training Policy Sparks Privacy Concerns",
+          "url": "https://oecd.ai/en/incident-monitor/2333"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This eBay Responsible AI Policy document provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by explicitly addressing the prevention of unfair biases and discrimination, and ensuring dataset quality. The policy also demonstrates governance and oversight through the establishment of AI governance structures, roles, and commitment to active human oversight and risk-based decision-making. Furthermore, it supports privacy by committing to AI system security and data protection for AI training and operation.",
+          "title": "eBay Responsible AI Policy (PDF)",
+          "url": "https://static.ebayinc.com/assets/Uploads/Documents/Responsible-AI-Policy.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"eBay's Responsible AI Principles,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by explicitly stating a commitment to prevent discriminatory AI decisions. The document also demonstrates governance and privacy through its commitment to \"Privacy by Design\" and secure data handling for AI. Furthermore, it addresses oversight by describing active human involvement and risk-based decision-making throughout the AI lifecycle, and transparency by committing to clear disclosure methods regarding AI usage.",
+          "title": "eBay's Responsible AI Principles",
+          "url": "https://innovation.ebayinc.com/stories/ebays-responsible-ai-principles"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 30,
+      "findings": "Policy documents outline a commitment to \"Accountable AI\" principles and coordination with governance structures, referencing the establishment of AI governance structures and roles. Sources also reference a commitment to developing an AI governance strategy and mapping high-risk AI systems. Technical blog posts detail the internal use of LLMs, their operational deployment, fine-tuning, and the incorporation of human feedback, while sources highlight a commitment to human oversight and monitoring of AI uses throughout the AI lifecycle.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for **governance, oversight, and transparency**. It supports governance by outlining eBay's commitment to \"Accountable AI\" principles and coordination with governance structures. Evidence for oversight is found in the mention of machine learning tools working alongside human reviewers to manage listings, and transparency is demonstrated through the description of AI tools and capabilities like image recognition.",
+          "title": "Artificial Intelligence Policy Page",
+          "url": "https://ebaymainstreet.com/artificial-intelligence"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This interview with eBay's Chief Privacy Officer provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The source details a rigorous global intake process for new AI use cases, involving a cross-functional team that reviews applications against legal, ethical, privacy, safety, security, and DEI lenses. This process, along with references to regulatory frameworks like the EU AI Act and GDPR, demonstrates strong governance and external accountability, while discussions on filtering personal data and using synthetic data highlight privacy and fairness considerations. The mention of a strict review process and monthly model reviews further supports the oversight pillar.",
+          "title": "Interview with Anna Zeiter, Chief Privacy Officer, eBay",
+          "url": "https://theinnovator.news/interview-of-the-week-anna-zeiter-chief-privacy-officer-ebay"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This third-party report from the OECD.AI Policy Observatory highlights concerns regarding eBay's AI data training practices, providing evidence for **governance** and **fairness**. The report points to potential privacy violations due to the use of personal data for AI training without adequate informed consent or opt-out mechanisms, indicating a lack of robust governance and raising fairness issues. This underscores the need for clear policies and oversight in AI data usage.",
+          "title": "Ebay's AI Data Training Policy Sparks Privacy Concerns",
+          "url": "https://oecd.ai/en/incident-monitor/2333"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical blog post provides evidence for **governance** and **transparency** by detailing eBay's internal use of LLMs to create tools like \"Ask-Codi.\" The post describes operational deployment and fine-tuning of AI models, the use of RAG systems with automated tasks, and the incorporation of human feedback for improvement, all of which indicate established governance and transparency mechanisms. Furthermore, the mention of an A/B test with an AI tool like Copilot suggests vendor oversight in their AI practices.",
+          "title": "How Generative AI and LLMs Are Boosting Developer Productivity at eBay",
+          "url": "https://innovation.ebayinc.com/tech/features/cutting-through-the-noise-three-things-weve-learned-about-generative-ai-and-developer-productivity/"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This eBay Responsible AI Policy document provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by explicitly addressing the prevention of unfair biases and discrimination, and ensuring dataset quality. The policy also demonstrates governance and oversight through the establishment of AI governance structures, roles, and commitment to active human oversight and risk-based decision-making. Furthermore, it supports privacy by committing to AI system security and data protection for AI training and operation.",
+          "title": "eBay Responsible AI Policy (PDF)",
+          "url": "https://static.ebayinc.com/assets/Uploads/Documents/Responsible-AI-Policy.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"eBay's Responsible AI Principles,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by explicitly stating a commitment to prevent discriminatory AI decisions. The document also demonstrates governance and privacy through its commitment to \"Privacy by Design\" and secure data handling for AI. Furthermore, it addresses oversight by describing active human involvement and risk-based decision-making throughout the AI lifecycle, and transparency by committing to clear disclosure methods regarding AI usage.",
+          "title": "eBay's Responsible AI Principles",
+          "url": "https://innovation.ebayinc.com/stories/ebays-responsible-ai-principles"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"eBay Signs EU AI Pact,\" provides evidence for **external accountability**, **governance**, and **privacy**. The pact commits eBay to meeting regulatory deadlines for AI legislation, demonstrating a policy for external accountability. Furthermore, the commitment to developing an AI governance strategy and mapping high-risk AI systems directly supports the governance pillar, while the mention of understanding privacy and security for autonomous systems indicates a focus on privacy policies.",
+          "title": "eBay Signs EU AI Pact",
+          "url": "https://ebaymainstreet.com/news-events/ebay-signs-eu-ai-pact"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. It supports governance and oversight by highlighting eBay's commitment to human oversight throughout the AI lifecycle and monitoring of AI uses. Transparency is evidenced by the article's mention of disclosing AI use to end-users, and privacy is supported by discussions of protective measures for data used in AI and secure AI systems.",
+          "title": "As eBay Forges Ahead with AI, It Vows to Be Responsible",
+          "url": "https://ecommercebytes.com/2024/03/13/as-ebay-forges-ahead-with-ai-it-vows-to-be-responsible"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 8,
+      "findings": "Policy documents reference machine learning tools working alongside human reviewers to manage listings, and sources mention a strict review process and monthly model reviews. Policy documents state a commitment to active human oversight and risk-based decision-making throughout the AI lifecycle, with sources also highlighting monitoring of AI uses. Technical blog posts reference an A/B test with an AI tool like Copilot.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for **governance, oversight, and transparency**. It supports governance by outlining eBay's commitment to \"Accountable AI\" principles and coordination with governance structures. Evidence for oversight is found in the mention of machine learning tools working alongside human reviewers to manage listings, and transparency is demonstrated through the description of AI tools and capabilities like image recognition.",
+          "title": "Artificial Intelligence Policy Page",
+          "url": "https://ebaymainstreet.com/artificial-intelligence"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This interview with eBay's Chief Privacy Officer provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The source details a rigorous global intake process for new AI use cases, involving a cross-functional team that reviews applications against legal, ethical, privacy, safety, security, and DEI lenses. This process, along with references to regulatory frameworks like the EU AI Act and GDPR, demonstrates strong governance and external accountability, while discussions on filtering personal data and using synthetic data highlight privacy and fairness considerations. The mention of a strict review process and monthly model reviews further supports the oversight pillar.",
+          "title": "Interview with Anna Zeiter, Chief Privacy Officer, eBay",
+          "url": "https://theinnovator.news/interview-of-the-week-anna-zeiter-chief-privacy-officer-ebay"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical blog post provides evidence for **governance** and **transparency** by detailing eBay's internal use of LLMs to create tools like \"Ask-Codi.\" The post describes operational deployment and fine-tuning of AI models, the use of RAG systems with automated tasks, and the incorporation of human feedback for improvement, all of which indicate established governance and transparency mechanisms. Furthermore, the mention of an A/B test with an AI tool like Copilot suggests vendor oversight in their AI practices.",
+          "title": "How Generative AI and LLMs Are Boosting Developer Productivity at eBay",
+          "url": "https://innovation.ebayinc.com/tech/features/cutting-through-the-noise-three-things-weve-learned-about-generative-ai-and-developer-productivity/"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This eBay Responsible AI Policy document provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by explicitly addressing the prevention of unfair biases and discrimination, and ensuring dataset quality. The policy also demonstrates governance and oversight through the establishment of AI governance structures, roles, and commitment to active human oversight and risk-based decision-making. Furthermore, it supports privacy by committing to AI system security and data protection for AI training and operation.",
+          "title": "eBay Responsible AI Policy (PDF)",
+          "url": "https://static.ebayinc.com/assets/Uploads/Documents/Responsible-AI-Policy.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"eBay's Responsible AI Principles,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by explicitly stating a commitment to prevent discriminatory AI decisions. The document also demonstrates governance and privacy through its commitment to \"Privacy by Design\" and secure data handling for AI. Furthermore, it addresses oversight by describing active human involvement and risk-based decision-making throughout the AI lifecycle, and transparency by committing to clear disclosure methods regarding AI usage.",
+          "title": "eBay's Responsible AI Principles",
+          "url": "https://innovation.ebayinc.com/stories/ebays-responsible-ai-principles"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. It supports governance and oversight by highlighting eBay's commitment to human oversight throughout the AI lifecycle and monitoring of AI uses. Transparency is evidenced by the article's mention of disclosing AI use to end-users, and privacy is supported by discussions of protective measures for data used in AI and secure AI systems.",
+          "title": "As eBay Forges Ahead with AI, It Vows to Be Responsible",
+          "url": "https://ecommercebytes.com/2024/03/13/as-ebay-forges-ahead-with-ai-it-vows-to-be-responsible"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 8,
+      "findings": "Policy documents state a commitment to AI system security, data protection for AI training and operation, and \"Privacy by Design.\" These documents also commit to secure data handling for AI. Sources reference understanding privacy and security for autonomous systems, as well as protective measures for data used in AI and secure AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This interview with eBay's Chief Privacy Officer provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The source details a rigorous global intake process for new AI use cases, involving a cross-functional team that reviews applications against legal, ethical, privacy, safety, security, and DEI lenses. This process, along with references to regulatory frameworks like the EU AI Act and GDPR, demonstrates strong governance and external accountability, while discussions on filtering personal data and using synthetic data highlight privacy and fairness considerations. The mention of a strict review process and monthly model reviews further supports the oversight pillar.",
+          "title": "Interview with Anna Zeiter, Chief Privacy Officer, eBay",
+          "url": "https://theinnovator.news/interview-of-the-week-anna-zeiter-chief-privacy-officer-ebay"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This eBay Responsible AI Policy document provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by explicitly addressing the prevention of unfair biases and discrimination, and ensuring dataset quality. The policy also demonstrates governance and oversight through the establishment of AI governance structures, roles, and commitment to active human oversight and risk-based decision-making. Furthermore, it supports privacy by committing to AI system security and data protection for AI training and operation.",
+          "title": "eBay Responsible AI Policy (PDF)",
+          "url": "https://static.ebayinc.com/assets/Uploads/Documents/Responsible-AI-Policy.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"eBay's Responsible AI Principles,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by explicitly stating a commitment to prevent discriminatory AI decisions. The document also demonstrates governance and privacy through its commitment to \"Privacy by Design\" and secure data handling for AI. Furthermore, it addresses oversight by describing active human involvement and risk-based decision-making throughout the AI lifecycle, and transparency by committing to clear disclosure methods regarding AI usage.",
+          "title": "eBay's Responsible AI Principles",
+          "url": "https://innovation.ebayinc.com/stories/ebays-responsible-ai-principles"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"eBay Signs EU AI Pact,\" provides evidence for **external accountability**, **governance**, and **privacy**. The pact commits eBay to meeting regulatory deadlines for AI legislation, demonstrating a policy for external accountability. Furthermore, the commitment to developing an AI governance strategy and mapping high-risk AI systems directly supports the governance pillar, while the mention of understanding privacy and security for autonomous systems indicates a focus on privacy policies.",
+          "title": "eBay Signs EU AI Pact",
+          "url": "https://ebaymainstreet.com/news-events/ebay-signs-eu-ai-pact"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. It supports governance and oversight by highlighting eBay's commitment to human oversight throughout the AI lifecycle and monitoring of AI uses. Transparency is evidenced by the article's mention of disclosing AI use to end-users, and privacy is supported by discussions of protective measures for data used in AI and secure AI systems.",
+          "title": "As eBay Forges Ahead with AI, It Vows to Be Responsible",
+          "url": "https://ecommercebytes.com/2024/03/13/as-ebay-forges-ahead-with-ai-it-vows-to-be-responsible"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 14,
+      "findings": "eBay's policy documents describe AI tools and capabilities, including image recognition, and state a commitment to clear disclosure methods regarding AI usage. Technical blog posts detail the internal use of LLMs, their operational deployment, fine-tuning, and the incorporation of human feedback. Sources also reference disclosing AI use to end-users.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This policy document provides evidence for **governance, oversight, and transparency**. It supports governance by outlining eBay's commitment to \"Accountable AI\" principles and coordination with governance structures. Evidence for oversight is found in the mention of machine learning tools working alongside human reviewers to manage listings, and transparency is demonstrated through the description of AI tools and capabilities like image recognition.",
+          "title": "Artificial Intelligence Policy Page",
+          "url": "https://ebaymainstreet.com/artificial-intelligence"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This interview with eBay's Chief Privacy Officer provides evidence for external accountability, fairness, governance, oversight, privacy, and transparency. The source details a rigorous global intake process for new AI use cases, involving a cross-functional team that reviews applications against legal, ethical, privacy, safety, security, and DEI lenses. This process, along with references to regulatory frameworks like the EU AI Act and GDPR, demonstrates strong governance and external accountability, while discussions on filtering personal data and using synthetic data highlight privacy and fairness considerations. The mention of a strict review process and monthly model reviews further supports the oversight pillar.",
+          "title": "Interview with Anna Zeiter, Chief Privacy Officer, eBay",
+          "url": "https://theinnovator.news/interview-of-the-week-anna-zeiter-chief-privacy-officer-ebay"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This technical blog post provides evidence for **governance** and **transparency** by detailing eBay's internal use of LLMs to create tools like \"Ask-Codi.\" The post describes operational deployment and fine-tuning of AI models, the use of RAG systems with automated tasks, and the incorporation of human feedback for improvement, all of which indicate established governance and transparency mechanisms. Furthermore, the mention of an A/B test with an AI tool like Copilot suggests vendor oversight in their AI practices.",
+          "title": "How Generative AI and LLMs Are Boosting Developer Productivity at eBay",
+          "url": "https://innovation.ebayinc.com/tech/features/cutting-through-the-noise-three-things-weve-learned-about-generative-ai-and-developer-productivity/"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This eBay Responsible AI Policy document provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by explicitly addressing the prevention of unfair biases and discrimination, and ensuring dataset quality. The policy also demonstrates governance and oversight through the establishment of AI governance structures, roles, and commitment to active human oversight and risk-based decision-making. Furthermore, it supports privacy by committing to AI system security and data protection for AI training and operation.",
+          "title": "eBay Responsible AI Policy (PDF)",
+          "url": "https://static.ebayinc.com/assets/Uploads/Documents/Responsible-AI-Policy.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"eBay's Responsible AI Principles,\" provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It supports fairness by explicitly stating a commitment to prevent discriminatory AI decisions. The document also demonstrates governance and privacy through its commitment to \"Privacy by Design\" and secure data handling for AI. Furthermore, it addresses oversight by describing active human involvement and risk-based decision-making throughout the AI lifecycle, and transparency by committing to clear disclosure methods regarding AI usage.",
+          "title": "eBay's Responsible AI Principles",
+          "url": "https://innovation.ebayinc.com/stories/ebays-responsible-ai-principles"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_018",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **governance**, **oversight**, **privacy**, and **transparency** pillars of responsible AI. It supports governance and oversight by highlighting eBay's commitment to human oversight throughout the AI lifecycle and monitoring of AI uses. Transparency is evidenced by the article's mention of disclosing AI use to end-users, and privacy is supported by discussions of protective measures for data used in AI and secure AI systems.",
+          "title": "As eBay Forges Ahead with AI, It Vows to Be Responsible",
+          "url": "https://ecommercebytes.com/2024/03/13/as-ebay-forges-ahead-with-ai-it-vows-to-be-responsible"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-03-19T17:10:11Z",
+  "run_id": "20260309_180408_d0f7",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "eBay's policy documents describe AI tools and capabilities, such as image recognition, demonstrating practices in transparency. Further operational practices are evident in oversight, where machine learning tools work alongside human reviewers to manage listings, and in governance, which outlines a commitment to \"Accountable AI\" principles. Fairness, privacy, and external accountability are addressed at the policy level, with materials explicitly addressing the prevention of unfair biases and discrimination and stating a commitment to AI system security. These findings are based on 20 publicly available sources, and overall, 6 of 7 evaluated responsible AI pillars have documented evidence. No qualifying public evidence was found for explainability.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 41,
+    "total_sources_used": 8
+  }
+}

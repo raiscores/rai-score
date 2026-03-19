@@ -1,0 +1,159 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 21.4,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 3
+  },
+  "company": "Sanmina",
+  "company_slug": "sanmina",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 15,
+      "OPERATIONAL": 1,
+      "POLICY": 36
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 12,
+      "findings": "A patent describes a method for detecting driver traffic distress using machine learning. This patent mentions the generation of a \"bias score\" for driver thermal change estimates.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This patent describes a method for detecting driver traffic distress using machine learning, providing evidence for **fairness** and **transparency**. The patent explicitly mentions the generation of a \"bias score\" for driver thermal change estimates, directly addressing fairness. It also details various machine learning algorithms and models (e.g., GMM, FCN, RNN, LSTM-GRU, CNN) and training methods (backpropagation, expectation maximization), demonstrating transparency in the AI system's design and capabilities.",
+          "title": "Traffic distress and road rage detection methods",
+          "url": "https://patents.google.com/patent/CN111741884B/en"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 7,
+      "findings": "Sanmina's annual report indicates a strategic intent to invest in artificial intelligence, factory automation, and robotics to improve efficiency, and mentions the development of next-generation semiconductor equipment for AI solutions. A case study details the implementation of an AI-powered Zero Trust Exchange platform, highlighting the use of AI-powered threat intelligence to mitigate risk and listing AI-related security functions. Additionally, a patent describes a method for detecting driver traffic distress using machine learning.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_001",
+          "source_tier": "authority",
+          "summary": "The Sanmina Corporation Form 10-K (2024) provides evidence for the **governance** pillar of responsible AI. This annual report indicates Sanmina's strategic intent to invest in artificial intelligence, factory automation, and robotics to improve efficiency, demonstrating a commitment to AI as a core business strategy. The mention of developing next-generation semiconductor equipment for AI solutions further supports this governance pillar by highlighting their forward-looking approach to AI integration.",
+          "title": "Sanmina Corporation Form 10-K (2024)",
+          "url": "https://sec.gov/Archives/edgar/data/897723/000089772324000056/sanm-20240928.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This case study provides evidence for the **governance** pillar of responsible AI. It details Sanmina's implementation of an AI-powered Zero Trust Exchange platform, highlighting the use of AI-powered threat intelligence to mitigate risk. The document implies a commitment to AI governance and security practices by listing AI-related security functions and describing the utilization of AI for threat mitigation.",
+          "title": "Sanmina Revs Up Security, Profitability & M&A Strategies with Zero Trust for Users and Workloads",
+          "url": "https://zscaler.com/customers/sanmina"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This patent describes a method for detecting driver traffic distress using machine learning, providing evidence for **fairness** and **transparency**. The patent explicitly mentions the generation of a \"bias score\" for driver thermal change estimates, directly addressing fairness. It also details various machine learning algorithms and models (e.g., GMM, FCN, RNN, LSTM-GRU, CNN) and training methods (backpropagation, expectation maximization), demonstrating transparency in the AI system's design and capabilities.",
+          "title": "Traffic distress and road rage detection methods",
+          "url": "https://patents.google.com/patent/CN111741884B/en"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 46,
+      "findings": "A patent details various machine learning algorithms and models, including GMM, FCN, RNN, LSTM-GRU, and CNN, used in a system for detecting driver traffic distress. The patent also describes training methods such as backpropagation and expectation maximization for these models.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This patent describes a method for detecting driver traffic distress using machine learning, providing evidence for **fairness** and **transparency**. The patent explicitly mentions the generation of a \"bias score\" for driver thermal change estimates, directly addressing fairness. It also details various machine learning algorithms and models (e.g., GMM, FCN, RNN, LSTM-GRU, CNN) and training methods (backpropagation, expectation maximization), demonstrating transparency in the AI system's design and capabilities.",
+          "title": "Traffic distress and road rage detection methods",
+          "url": "https://patents.google.com/patent/CN111741884B/en"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-03-19T17:25:12Z",
+  "run_id": "20260309_165958_5ea1",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Sanmina's published materials detail various machine learning algorithms and models, such as GMM, FCN, RNN, LSTM-GRU, and CNN, used in a system for detecting driver traffic distress, addressing the transparency pillar. These disclosures, along with a patent mentioning the generation of a \"bias score\" for driver thermal change estimates, contribute to documented evidence across 3 of 7 evaluated responsible AI pillars. Governance is also addressed through an annual report indicating a strategic intent to invest in artificial intelligence, factory automation, and robotics, with transparency, fairness, and governance all having documented policies. No qualifying public evidence was found for explainability, oversight, and 2 additional pillars, based on a review of 10 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 52,
+    "total_sources_used": 3
+  }
+}

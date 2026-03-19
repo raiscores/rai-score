@@ -1,0 +1,135 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 14.3,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 2
+  },
+  "company": "Ulta Beauty",
+  "company_slug": "ulta-beauty",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 3,
+      "OPERATIONAL": 0,
+      "POLICY": 3
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": null,
+      "display_name": "Governance & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document AI governance structure, including oversight of vendor AI tools.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "A filing details allegations concerning the collection and storage of biometric data without informed consent. This filing directly addresses data privacy concerns related to these practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This class-action complaint filing provides evidence for the **privacy** and **transparency** pillars of responsible AI. It supports the privacy pillar by detailing allegations of Ulta Beauty's collection and storage of biometric data without informed consent, directly addressing data privacy concerns. The filing also supports transparency by highlighting the AI and AR-powered tools used for facial analysis and personalization, which are presented as features of the company's technology.",
+          "title": "Javid v. Ulta Beauty, Inc. - Biometric Privacy Class Action Lawsuit",
+          "url": "https://classaction.org/media/javid-v-ulta-beauty-inc.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 4,
+      "findings": "A filing highlights the company's AI and AR-powered tools, which are used for facial analysis and personalization. These tools are presented as features of the company's technology.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This class-action complaint filing provides evidence for the **privacy** and **transparency** pillars of responsible AI. It supports the privacy pillar by detailing allegations of Ulta Beauty's collection and storage of biometric data without informed consent, directly addressing data privacy concerns. The filing also supports transparency by highlighting the AI and AR-powered tools used for facial analysis and personalization, which are presented as features of the company's technology.",
+          "title": "Javid v. Ulta Beauty, Inc. - Biometric Privacy Class Action Lawsuit",
+          "url": "https://classaction.org/media/javid-v-ulta-beauty-inc.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-03-19T17:27:32Z",
+  "run_id": "20260309_191839_13f1",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Ulta Beauty's public disclosures highlight AI and AR-powered tools used for facial analysis and personalization, addressing the transparency pillar. Privacy is also addressed, with materials detailing allegations of Ulta Beauty's collection and storage of biometric data without informed consent. These two pillars represent the documented evidence for 2 of 7 evaluated responsible AI pillars. Drawing from 10 publicly available sources, no qualifying public evidence was found for the majority of the 7 evaluated pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 2,
+    "pillars_without_evidence": 5,
+    "total_evidence_items": 6,
+    "total_sources_used": 1
+  }
+}

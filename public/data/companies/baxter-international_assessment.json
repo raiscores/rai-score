@@ -1,0 +1,159 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "Baxter International",
+  "company_slug": "baxter-international",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 6,
+      "OPERATIONAL": 4,
+      "POLICY": 11
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 6,
+      "findings": "Technical papers reference FDA clearance for the AI system. They also mention compliance with regulatory directives.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness**, **governance**, **transparency**, and **external accountability**. It supports fairness by explicitly stating no significant racial, ethnic, or sex bias was present and by discussing the mitigation of AI adoption bias to ensure health access equity. Governance is evidenced through the mention of developing AI under an ethical framework and analyzing health equity impact, while transparency is demonstrated by describing the autonomous diagnostic AI system, its underlying technology, and its performance characteristics. Finally, external accountability is supported by the mention of FDA clearance and compliance with regulatory directives.",
+          "title": "Mitigation of AI adoption bias through an improved autonomous AI system for diabetic retinal disease",
+          "url": "https://nature.com/articles/s41746-024-01389-x"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 12,
+      "findings": "Technical papers state that no significant racial, ethnic, or sex bias was present in the AI system. These papers also discuss the mitigation of AI adoption bias to ensure health access equity.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness**, **governance**, **transparency**, and **external accountability**. It supports fairness by explicitly stating no significant racial, ethnic, or sex bias was present and by discussing the mitigation of AI adoption bias to ensure health access equity. Governance is evidenced through the mention of developing AI under an ethical framework and analyzing health equity impact, while transparency is demonstrated by describing the autonomous diagnostic AI system, its underlying technology, and its performance characteristics. Finally, external accountability is supported by the mention of FDA clearance and compliance with regulatory directives.",
+          "title": "Mitigation of AI adoption bias through an improved autonomous AI system for diabetic retinal disease",
+          "url": "https://nature.com/articles/s41746-024-01389-x"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 6,
+      "findings": "Technical papers reference developing AI under an ethical framework. These papers also mention analyzing health equity impact.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness**, **governance**, **transparency**, and **external accountability**. It supports fairness by explicitly stating no significant racial, ethnic, or sex bias was present and by discussing the mitigation of AI adoption bias to ensure health access equity. Governance is evidenced through the mention of developing AI under an ethical framework and analyzing health equity impact, while transparency is demonstrated by describing the autonomous diagnostic AI system, its underlying technology, and its performance characteristics. Finally, external accountability is supported by the mention of FDA clearance and compliance with regulatory directives.",
+          "title": "Mitigation of AI adoption bias through an improved autonomous AI system for diabetic retinal disease",
+          "url": "https://nature.com/articles/s41746-024-01389-x"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "Sources describe documented oversight practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness**, **governance**, **transparency**, and **external accountability**. It supports fairness by explicitly stating no significant racial, ethnic, or sex bias was present and by discussing the mitigation of AI adoption bias to ensure health access equity. Governance is evidenced through the mention of developing AI under an ethical framework and analyzing health equity impact, while transparency is demonstrated by describing the autonomous diagnostic AI system, its underlying technology, and its performance characteristics. Finally, external accountability is supported by the mention of FDA clearance and compliance with regulatory directives.",
+          "title": "Mitigation of AI adoption bias through an improved autonomous AI system for diabetic retinal disease",
+          "url": "https://nature.com/articles/s41746-024-01389-x"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 8,
+      "findings": "Technical papers describe the autonomous diagnostic AI system. These papers also detail its underlying technology and performance characteristics.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This technical paper provides evidence for **fairness**, **governance**, **transparency**, and **external accountability**. It supports fairness by explicitly stating no significant racial, ethnic, or sex bias was present and by discussing the mitigation of AI adoption bias to ensure health access equity. Governance is evidenced through the mention of developing AI under an ethical framework and analyzing health equity impact, while transparency is demonstrated by describing the autonomous diagnostic AI system, its underlying technology, and its performance characteristics. Finally, external accountability is supported by the mention of FDA clearance and compliance with regulatory directives.",
+          "title": "Mitigation of AI adoption bias through an improved autonomous AI system for diabetic retinal disease",
+          "url": "https://nature.com/articles/s41746-024-01389-x"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-03-19T17:02:53Z",
+  "run_id": "20260309_172456_faf1",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Privacy & Security"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Based on 12 publicly available sources, Baxter International's published materials address 5 of 7 evaluated responsible AI pillars. Transparency disclosures describe the autonomous diagnostic AI system and its underlying technology, while fairness materials state that no significant racial, ethnic, or sex bias was present in the AI system. Further, governance materials reference developing AI under an ethical framework and analyzing health equity impact. External accountability disclosures reference FDA clearance and compliance with regulatory directives, and documented oversight practices are also described. No qualifying public evidence was found for explainability or privacy.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 21,
+    "total_sources_used": 1
+  }
+}

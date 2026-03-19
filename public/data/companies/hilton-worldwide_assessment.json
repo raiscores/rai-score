@@ -1,0 +1,215 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "Hilton Worldwide Holdings",
+  "company_slug": "hilton-worldwide",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 4,
+      "POLICY": 18
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Sources reference the need for external accountability to ensure compliance with antitrust laws, particularly when AI is used for revenue maximization and data sharing.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This enforcement action highlights concerns related to **governance**, **transparency**, **oversight**, **privacy**, and **external accountability**. The lawsuit alleges that hotel chains used AI-powered revenue management software to fix prices, raising questions about the governance of algorithmic pricing, the transparency of AI's impact on pricing, and oversight mechanisms to prevent collusion. The use of AI for revenue maximization and data sharing for this purpose also points to potential privacy implications and the need for external accountability to ensure compliance with antitrust laws.",
+          "title": "Antitrust Lawsuit Alleges Hotel Chains Colluded to Fix Prices Using AI",
+          "url": "https://cbsnews.com/sanfrancisco/news/major-antitrust-suit-alleges-6-hotel-chains-with-bay-area-locations-colluded-to-fix-prices"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 5,
+      "findings": "Sources highlight the importance of testing AI for discrimination and acknowledge that AI algorithms can produce opinions based on incomplete data. They also reference bias detection features and operational processes for testing algorithms, reinforcing fairness.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for fairness, governance, oversight, and transparency in responsible AI. It details Hilton's use of AI in recruitment, including vendor due diligence and the need for HR executives to monitor and question AI systems, supporting governance and oversight. The article also highlights the importance of testing AI for discrimination and acknowledges that AI algorithms can produce opinions based on incomplete data, touching on fairness and transparency. Furthermore, it mentions specific mechanisms like bias detection features and operational processes for testing algorithms, reinforcing the evidence for fairness and transparency.",
+          "title": "AI is not a Quick-Fix Solution for Discrimination",
+          "url": "https://hrexecutive.com/ai-is-not-a-quick-fix-solution-for-discrimination"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 17,
+      "findings": "Sources reference concerns related to the governance of algorithmic pricing. They state that the application of AI in various HR functions, such as recruitment and predictive analytics, implies governance. Furthermore, sources describe vendor due diligence in AI recruitment and state the need for HR executives to monitor and question AI systems, supporting governance. Sources also indicate a governance structure for automated decision-making and data inputs related to a shared pricing algorithm.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This enforcement action highlights concerns related to **governance**, **transparency**, **oversight**, **privacy**, and **external accountability**. The lawsuit alleges that hotel chains used AI-powered revenue management software to fix prices, raising questions about the governance of algorithmic pricing, the transparency of AI's impact on pricing, and oversight mechanisms to prevent collusion. The use of AI for revenue maximization and data sharing for this purpose also points to potential privacy implications and the need for external accountability to ensure compliance with antitrust laws.",
+          "title": "Antitrust Lawsuit Alleges Hotel Chains Colluded to Fix Prices Using AI",
+          "url": "https://cbsnews.com/sanfrancisco/news/major-antitrust-suit-alleges-6-hotel-chains-with-bay-area-locations-colluded-to-fix-prices"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This article, \"The Intersection of AI and HR: Exploring the Use Cases,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It describes Hilton Worldwide Holdings' use of AI-powered chatbots in recruitment, which helps identify and engage candidates more effectively. The article also mentions the use of ML algorithms for predictive analytics, employee retention, performance insights, hiring decisions, and safety monitoring, all of which imply governance and transparency in the application of AI.",
+          "title": "The Intersection of AI and HR: Exploring the Use Cases",
+          "url": "https://quantilus.com/the-intersection-of-ai-and-hr-exploring-the-use-cases"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for fairness, governance, oversight, and transparency in responsible AI. It details Hilton's use of AI in recruitment, including vendor due diligence and the need for HR executives to monitor and question AI systems, supporting governance and oversight. The article also highlights the importance of testing AI for discrimination and acknowledges that AI algorithms can produce opinions based on incomplete data, touching on fairness and transparency. Furthermore, it mentions specific mechanisms like bias detection features and operational processes for testing algorithms, reinforcing the evidence for fairness and transparency.",
+          "title": "AI is not a Quick-Fix Solution for Discrimination",
+          "url": "https://hrexecutive.com/ai-is-not-a-quick-fix-solution-for-discrimination"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for the **governance** pillar of responsible AI. It details how major hotel chains allegedly used a shared pricing algorithm, IDeaS, to fix hotel room prices by providing competitively sensitive data and implementing the algorithm's automated pricing recommendations, indicating a governance structure for automated decision-making and data inputs.",
+          "title": "Class Action Lawsuit Claims Hilton, Others Illegally Conspired to Fix Hotel Room Prices",
+          "url": "https://classaction.org/news/class-action-lawsuit-claims-hilton-wyndham-hyatt-others-illegally-conspired-to-fix-hotel-room-prices"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "Sources reference concerns related to oversight mechanisms to prevent collusion when AI is used for pricing. They also describe vendor due diligence in AI recruitment and state the need for HR executives to monitor and question AI systems, supporting oversight.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This enforcement action highlights concerns related to **governance**, **transparency**, **oversight**, **privacy**, and **external accountability**. The lawsuit alleges that hotel chains used AI-powered revenue management software to fix prices, raising questions about the governance of algorithmic pricing, the transparency of AI's impact on pricing, and oversight mechanisms to prevent collusion. The use of AI for revenue maximization and data sharing for this purpose also points to potential privacy implications and the need for external accountability to ensure compliance with antitrust laws.",
+          "title": "Antitrust Lawsuit Alleges Hotel Chains Colluded to Fix Prices Using AI",
+          "url": "https://cbsnews.com/sanfrancisco/news/major-antitrust-suit-alleges-6-hotel-chains-with-bay-area-locations-colluded-to-fix-prices"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for fairness, governance, oversight, and transparency in responsible AI. It details Hilton's use of AI in recruitment, including vendor due diligence and the need for HR executives to monitor and question AI systems, supporting governance and oversight. The article also highlights the importance of testing AI for discrimination and acknowledges that AI algorithms can produce opinions based on incomplete data, touching on fairness and transparency. Furthermore, it mentions specific mechanisms like bias detection features and operational processes for testing algorithms, reinforcing the evidence for fairness and transparency.",
+          "title": "AI is not a Quick-Fix Solution for Discrimination",
+          "url": "https://hrexecutive.com/ai-is-not-a-quick-fix-solution-for-discrimination"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "Sources reference potential privacy implications related to the use of AI for revenue maximization and data sharing.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This enforcement action highlights concerns related to **governance**, **transparency**, **oversight**, **privacy**, and **external accountability**. The lawsuit alleges that hotel chains used AI-powered revenue management software to fix prices, raising questions about the governance of algorithmic pricing, the transparency of AI's impact on pricing, and oversight mechanisms to prevent collusion. The use of AI for revenue maximization and data sharing for this purpose also points to potential privacy implications and the need for external accountability to ensure compliance with antitrust laws.",
+          "title": "Antitrust Lawsuit Alleges Hotel Chains Colluded to Fix Prices Using AI",
+          "url": "https://cbsnews.com/sanfrancisco/news/major-antitrust-suit-alleges-6-hotel-chains-with-bay-area-locations-colluded-to-fix-prices"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 9,
+      "findings": "Sources reference concerns regarding the transparency of AI's impact on pricing. They also state that the application of AI in various HR functions, such as recruitment and predictive analytics, implies transparency. Furthermore, sources acknowledge that AI algorithms can produce opinions based on incomplete data and reference bias detection features and operational processes for testing algorithms, reinforcing transparency.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This enforcement action highlights concerns related to **governance**, **transparency**, **oversight**, **privacy**, and **external accountability**. The lawsuit alleges that hotel chains used AI-powered revenue management software to fix prices, raising questions about the governance of algorithmic pricing, the transparency of AI's impact on pricing, and oversight mechanisms to prevent collusion. The use of AI for revenue maximization and data sharing for this purpose also points to potential privacy implications and the need for external accountability to ensure compliance with antitrust laws.",
+          "title": "Antitrust Lawsuit Alleges Hotel Chains Colluded to Fix Prices Using AI",
+          "url": "https://cbsnews.com/sanfrancisco/news/major-antitrust-suit-alleges-6-hotel-chains-with-bay-area-locations-colluded-to-fix-prices"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This article, \"The Intersection of AI and HR: Exploring the Use Cases,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. It describes Hilton Worldwide Holdings' use of AI-powered chatbots in recruitment, which helps identify and engage candidates more effectively. The article also mentions the use of ML algorithms for predictive analytics, employee retention, performance insights, hiring decisions, and safety monitoring, all of which imply governance and transparency in the application of AI.",
+          "title": "The Intersection of AI and HR: Exploring the Use Cases",
+          "url": "https://quantilus.com/the-intersection-of-ai-and-hr-exploring-the-use-cases"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for fairness, governance, oversight, and transparency in responsible AI. It details Hilton's use of AI in recruitment, including vendor due diligence and the need for HR executives to monitor and question AI systems, supporting governance and oversight. The article also highlights the importance of testing AI for discrimination and acknowledges that AI algorithms can produce opinions based on incomplete data, touching on fairness and transparency. Furthermore, it mentions specific mechanisms like bias detection features and operational processes for testing algorithms, reinforcing the evidence for fairness and transparency.",
+          "title": "AI is not a Quick-Fix Solution for Discrimination",
+          "url": "https://hrexecutive.com/ai-is-not-a-quick-fix-solution-for-discrimination"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T17:15:00Z",
+  "run_id": "20260309_164429_5f24",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Hilton Worldwide Holdings' materials describe vendor due diligence in its use of AI in recruitment, supporting oversight. These disclosures address 6 of 7 evaluated responsible AI pillars, with evidence also found for transparency, fairness, privacy, governance, and external accountability. For instance, the use of AI-powered chatbots in recruitment and predictive analytics implies both transparency and governance in the application of AI, while sources highlight the importance of testing AI for discrimination in relation to fairness. No qualifying public evidence was found for explainability. This assessment is based on a review of 14 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 24,
+    "total_sources_used": 4
+  }
+}

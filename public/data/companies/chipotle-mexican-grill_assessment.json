@@ -1,0 +1,170 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Chipotle Mexican Grill",
+  "company_slug": "chipotle-mexican-grill",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 5,
+      "OPERATIONAL": 3,
+      "POLICY": 2
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 3,
+      "findings": "The company references testing of AI systems, implying governance over their deployment and operation. A press release describes a stage-gate process for AI implementation testing and decision-making.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Chipotle's AI pilot provides evidence for **governance** and **transparency**. The description of an AI system automating production planning supports transparency by detailing its use case, while the mention of testing implies governance over its deployment and operation.",
+          "title": "Chipotle Pilots AI Kitchen Management and Contextual Experience Systems",
+          "url": "https://restaurantdive.com/news/chipotle-tests-ai-kitchen-system-location-based-technology/632720"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance** by describing a stage-gate process for AI implementation testing and decision-making. It also supports **transparency** by detailing the operational use of AI and machine learning in a kitchen management system, including how it monitors ingredient levels and notifies staff, indicating a level of system visibility.",
+          "title": "Chipotle Pilots Advanced Technology to Enhance Experience",
+          "url": "https://newsroom.chipotle.com/2022-09-27-CHIPOTLE-PILOTS-ADVANCED-TECHNOLOGY-TO-ENHANCE-THE-EMPLOYEE-AND-GUEST-EXPERIENCE"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 9,
+      "findings": "The company describes the functions and operational use of its AI systems, including an AI platform for food production and supply chain traceability, an AI system for automating production planning, and a kitchen management system that monitors ingredient levels. Additionally, a conversational AI hiring platform, \"Ava Cado,\" is detailed, outlining its capabilities, virtual persona, and role in automating tasks and answering candidate questions.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release provides narrative evidence for the **transparency** pillar of responsible AI. It describes the AI platform's function in monitoring and enhancing food production and supply chain traceability, indicating how AI is intended to improve operations. However, the source lacks specific execution details or oversight mechanisms, limiting the depth of evidence for this pillar.",
+          "title": "Cultivate Next Fund Invests in AI Supply Chain Platform",
+          "url": "https://newsroom.chipotle.com/2024-10-15-CHIPOTLES-CULTIVATE-NEXT-FUND-INVESTS-IN-AI-SUPPLY-CHAIN-SOLUTION-AND-EMERGING-FAST-CASUAL-CONCEPT"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This third-party report on Chipotle's AI pilot provides evidence for **governance** and **transparency**. The description of an AI system automating production planning supports transparency by detailing its use case, while the mention of testing implies governance over its deployment and operation.",
+          "title": "Chipotle Pilots AI Kitchen Management and Contextual Experience Systems",
+          "url": "https://restaurantdive.com/news/chipotle-tests-ai-kitchen-system-location-based-technology/632720"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance** by describing a stage-gate process for AI implementation testing and decision-making. It also supports **transparency** by detailing the operational use of AI and machine learning in a kitchen management system, including how it monitors ingredient levels and notifies staff, indicating a level of system visibility.",
+          "title": "Chipotle Pilots Advanced Technology to Enhance Experience",
+          "url": "https://newsroom.chipotle.com/2022-09-27-CHIPOTLE-PILOTS-ADVANCED-TECHNOLOGY-TO-ENHANCE-THE-EMPLOYEE-AND-GUEST-EXPERIENCE"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** pillar of responsible AI. It details the introduction of a conversational AI hiring platform, \"Ava Cado,\" and highlights its specific capabilities, such as multilingualism and its role in automating administrative tasks and answering candidate questions. This explicit description of the AI's functions and its virtual persona contributes to transparency about the system's use and impact.",
+          "title": "Chipotle Introduces New AI Hiring Platform",
+          "url": "https://newsroom.chipotle.com/2024-10-22-CHIPOTLE-INTRODUCES-NEW-AI-HIRING-PLATFORM-TO-SUPPORT-ITS-ACCELERATED-GROWTH"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-03-19T17:05:46Z",
+  "run_id": "20260309_174638_de4e",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "A press release from Chipotle Mexican Grill describes an AI platform's function in monitoring and enhancing food production and supply chain traceability, providing evidence for the transparency pillar. Published materials also reference a stage-gate process for AI implementation testing and decision-making, contributing to the governance pillar, making a total of 2 of 7 evaluated pillars with documented evidence. Based on 15 publicly available sources, no qualifying public evidence was found for the majority of the 7 evaluated pillars.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 2,
+    "pillars_without_evidence": 5,
+    "total_evidence_items": 10,
+    "total_sources_used": 4
+  }
+}

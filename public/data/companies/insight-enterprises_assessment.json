@@ -1,0 +1,170 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "Insight Enterprises",
+  "company_slug": "insight-enterprises",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 0,
+      "OPERATIONAL": 4,
+      "POLICY": 9
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 12,
+      "findings": "The company has an internal AI governance policy that mandates employees to validate sources and build guardrails into AI solutions. The company discusses its internal AI Acceptable Use policy and the role of its AI Center of Excellence, stating a formal commitment to developing policies and offering implementation services for establishing AI use standards. Operational practices for AI agents include prompt sanitization, team training, and the use of specific tools for monitoring and security enforcement, alongside operational controls like identity, access, audit trails, and the enforcement of policies, constraints, and data loss prevention.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This interview with Insight's CEO provides evidence for the **governance**, **privacy**, and **transparency** pillars. The company has implemented an internal AI governance policy that includes provisions to prevent company intellectual property from training external models, supporting the **privacy** pillar. Furthermore, the policy mandates employees to validate sources and build guardrails into AI solutions, demonstrating a commitment to **governance** and **transparency** in AI deployment.",
+          "title": "Insight CEO: 'We Are Pivoting To Become An AI-First Solutions Integrator'",
+          "url": "https://crn.com/news/channel-news/2025/insight-ceo-we-are-pivoting-to-become-an-ai-first-solutions-integrator"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Generative AI: Governance & Responsibility,\" provides evidence for the **governance** pillar of responsible AI. The document discusses the company's internal AI Acceptable Use policy and the role of its AI Center of Excellence, explicitly mentioning generative AI and governance. It indicates a formal commitment to developing policies and offers implementation services, demonstrating a focus on establishing standards for AI use.",
+          "title": "Generative AI: Governance & Responsibility",
+          "url": "https://insight.com/en_US/content-and-resources/2023/generative-ai-governance-responsibility-and-cautions.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"CISOs Guide to Agentic AI,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It details operational practices such as prompt sanitization, team training, and the use of specific tools for monitoring and security enforcement of AI agents. Furthermore, the source describes operational controls like identity, access, audit trails, and the enforcement of policies, constraints, and data loss prevention (DLP) for AI agents, directly supporting both governance and privacy.",
+          "title": "CISOs Guide to Agentic AI",
+          "url": "https://insight.com/en_US/content-and-resources/blog/a-cisos-guide-to-agentic-ai.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 4,
+      "findings": "The company's internal AI governance policy includes provisions to prevent company intellectual property from training external models. Operational practices for AI agents describe prompt sanitization, team training, and the use of specific tools for monitoring and security enforcement. Furthermore, operational controls for AI agents outline identity, access, audit trails, and the enforcement of policies, constraints, and data loss prevention.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This interview with Insight's CEO provides evidence for the **governance**, **privacy**, and **transparency** pillars. The company has implemented an internal AI governance policy that includes provisions to prevent company intellectual property from training external models, supporting the **privacy** pillar. Furthermore, the policy mandates employees to validate sources and build guardrails into AI solutions, demonstrating a commitment to **governance** and **transparency** in AI deployment.",
+          "title": "Insight CEO: 'We Are Pivoting To Become An AI-First Solutions Integrator'",
+          "url": "https://crn.com/news/channel-news/2025/insight-ceo-we-are-pivoting-to-become-an-ai-first-solutions-integrator"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"CISOs Guide to Agentic AI,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It details operational practices such as prompt sanitization, team training, and the use of specific tools for monitoring and security enforcement of AI agents. Furthermore, the source describes operational controls like identity, access, audit trails, and the enforcement of policies, constraints, and data loss prevention (DLP) for AI agents, directly supporting both governance and privacy.",
+          "title": "CISOs Guide to Agentic AI",
+          "url": "https://insight.com/en_US/content-and-resources/blog/a-cisos-guide-to-agentic-ai.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 4,
+      "findings": "An internal AI governance policy outlines requirements for transparency in AI deployment. This policy mandates employees to validate sources and build guardrails into AI solutions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This interview with Insight's CEO provides evidence for the **governance**, **privacy**, and **transparency** pillars. The company has implemented an internal AI governance policy that includes provisions to prevent company intellectual property from training external models, supporting the **privacy** pillar. Furthermore, the policy mandates employees to validate sources and build guardrails into AI solutions, demonstrating a commitment to **governance** and **transparency** in AI deployment.",
+          "title": "Insight CEO: 'We Are Pivoting To Become An AI-First Solutions Integrator'",
+          "url": "https://crn.com/news/channel-news/2025/insight-ceo-we-are-pivoting-to-become-an-ai-first-solutions-integrator"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-03-19T17:15:47Z",
+  "run_id": "20260309_182839_7bd4",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Insight Enterprises' operational practices for AI agents include prompt sanitization, documented under the privacy pillar, which also outlines provisions to prevent company intellectual property from training external models. Governance is addressed through an internal AI governance policy that mandates employees to validate sources for AI solutions. Transparency policies mandate employees to build guardrails into AI solutions. These practices contribute to the 3 of 7 responsible AI pillars for which evidence was found, based on a review of 9 publicly available sources. No qualifying public evidence was found for fairness, explainability, and 2 additional pillars.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 13,
+    "total_sources_used": 3
+  }
+}

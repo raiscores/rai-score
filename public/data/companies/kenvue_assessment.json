@@ -1,0 +1,215 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "Kenvue",
+  "company_slug": "kenvue",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 0,
+      "OPERATIONAL": 2,
+      "POLICY": 28
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "A third-party report mentions aligning with regulations for AI applications and algorithms. This report also references consistent methodology for AI applications and algorithms.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"Leading Corporations Introduce Data Provenance Standards,\" provides evidence for **external accountability**, **governance**, and **transparency**. The report highlights Kenvue's participation in the Data & Trusted AI Alliance and quotes their Chief Technology & Data Officer supporting data provenance standards. This supports **governance** and **transparency** by emphasizing the need for clear standards regarding data origin for AI applications and algorithms, fostering informed decision-making and trustworthiness. The mention of aligning with regulations and consistent methodology also indicates support for **external accountability**.",
+          "title": "Leading Corporations Introduce Data Provenance Standards",
+          "url": "https://dataandtrustalliance.org/work/data-provenance-standards"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 27,
+      "findings": "A careers privacy policy details data processing for AI matching and the use of AI/ML tools. Kenvue's participation in the Data & Trusted AI Alliance emphasizes clear standards for data origin in AI applications and algorithms. A 10-K filing mentions AI governance frameworks, quality systems for data analytics, and the importance of testing and QA processes for AI. Additionally, an AI Vendor Assessment Framework, commented on by Kenvue counsel, structures AI procurement, enables objective vendor evaluation in areas like compliance and risk management, and mentions AI governance and responsible AI use.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Kenvue Careers Privacy Policy document provides evidence for governance, oversight, privacy, and transparency. It supports governance by detailing data processing for AI matching and the use of AI/ML tools. Oversight is evidenced by the mention of recruiter review as a guide and the implication of appeal mechanisms for automated decisions. Privacy is supported through the description of applicant consent options for AI matching and the inference of location from IP addresses. Transparency is demonstrated by the policy's explanation of AI matching, AI/ML tools, and automated scoring for minimum requirements.",
+          "title": "Kenvue Careers Privacy Policy",
+          "url": "https://kenvue.com/careers-privacy-policy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"Leading Corporations Introduce Data Provenance Standards,\" provides evidence for **external accountability**, **governance**, and **transparency**. The report highlights Kenvue's participation in the Data & Trusted AI Alliance and quotes their Chief Technology & Data Officer supporting data provenance standards. This supports **governance** and **transparency** by emphasizing the need for clear standards regarding data origin for AI applications and algorithms, fostering informed decision-making and trustworthiness. The mention of aligning with regulations and consistent methodology also indicates support for **external accountability**.",
+          "title": "Leading Corporations Introduce Data Provenance Standards",
+          "url": "https://dataandtrustalliance.org/work/data-provenance-standards"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This Kenvue Inc. Form 10-K filing identifies AI development and regulation uncertainty as an emerging risk, providing evidence for the **governance**, **privacy**, and **transparency** pillars. The document supports governance by mentioning AI governance frameworks, quality systems for data analytics, and the importance of testing and QA processes for AI. Evidence for privacy and IP risks related to AI, along with ethical concerns and data protection, supports the privacy pillar, while the discussion of AI use cases and piloting indicates transparency in AI adoption.",
+          "title": "Kenvue Inc. Form 10-K (FY2024)",
+          "url": "https://s202.q4cdn.com/991673667/files/doc_financials/2024/q4/107a2772-02b0-4b95-b299-42451cee3950.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party AI Vendor Assessment Framework, commented on by a Kenvue counsel, provides evidence for the **governance** and **privacy** pillars. The framework supports governance by structuring AI procurement and enabling objective vendor evaluation in areas like compliance and risk management, as well as mentioning AI governance and responsible AI use. It also supports the privacy pillar by explicitly referencing AI agents and privacy, indicating a focus on data protection within AI.",
+          "title": "Data & Trusted AI Alliance AI Vendor Assessment Framework",
+          "url": "https://dataandtrustalliance.org/work"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "A careers privacy policy mentions recruiter review as a guide for automated decisions. This policy also implies the existence of appeal mechanisms for automated decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Kenvue Careers Privacy Policy document provides evidence for governance, oversight, privacy, and transparency. It supports governance by detailing data processing for AI matching and the use of AI/ML tools. Oversight is evidenced by the mention of recruiter review as a guide and the implication of appeal mechanisms for automated decisions. Privacy is supported through the description of applicant consent options for AI matching and the inference of location from IP addresses. Transparency is demonstrated by the policy's explanation of AI matching, AI/ML tools, and automated scoring for minimum requirements.",
+          "title": "Kenvue Careers Privacy Policy",
+          "url": "https://kenvue.com/careers-privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 7,
+      "findings": "A careers privacy policy describes applicant consent options for AI matching and references the inference of location from IP addresses. A 10-K filing references privacy and IP risks, ethical concerns, and data protection related to AI. Additionally, an AI Vendor Assessment Framework, commented on by Kenvue counsel, explicitly references AI agents and privacy, indicating a focus on data protection within AI.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Kenvue Careers Privacy Policy document provides evidence for governance, oversight, privacy, and transparency. It supports governance by detailing data processing for AI matching and the use of AI/ML tools. Oversight is evidenced by the mention of recruiter review as a guide and the implication of appeal mechanisms for automated decisions. Privacy is supported through the description of applicant consent options for AI matching and the inference of location from IP addresses. Transparency is demonstrated by the policy's explanation of AI matching, AI/ML tools, and automated scoring for minimum requirements.",
+          "title": "Kenvue Careers Privacy Policy",
+          "url": "https://kenvue.com/careers-privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This Kenvue Inc. Form 10-K filing identifies AI development and regulation uncertainty as an emerging risk, providing evidence for the **governance**, **privacy**, and **transparency** pillars. The document supports governance by mentioning AI governance frameworks, quality systems for data analytics, and the importance of testing and QA processes for AI. Evidence for privacy and IP risks related to AI, along with ethical concerns and data protection, supports the privacy pillar, while the discussion of AI use cases and piloting indicates transparency in AI adoption.",
+          "title": "Kenvue Inc. Form 10-K (FY2024)",
+          "url": "https://s202.q4cdn.com/991673667/files/doc_financials/2024/q4/107a2772-02b0-4b95-b299-42451cee3950.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This third-party AI Vendor Assessment Framework, commented on by a Kenvue counsel, provides evidence for the **governance** and **privacy** pillars. The framework supports governance by structuring AI procurement and enabling objective vendor evaluation in areas like compliance and risk management, as well as mentioning AI governance and responsible AI use. It also supports the privacy pillar by explicitly referencing AI agents and privacy, indicating a focus on data protection within AI.",
+          "title": "Data & Trusted AI Alliance AI Vendor Assessment Framework",
+          "url": "https://dataandtrustalliance.org/work"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 10,
+      "findings": "Kenvue's careers privacy policy explains its use of AI matching, AI/ML tools, and automated scoring for minimum requirements. The company's Chief Technology & Data Officer supports data provenance standards for AI applications and algorithms, and Kenvue participates in the Data & Trusted AI Alliance which emphasizes clear standards for data origin. Additionally, a 10-K filing discusses AI use cases and piloting.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This Kenvue Careers Privacy Policy document provides evidence for governance, oversight, privacy, and transparency. It supports governance by detailing data processing for AI matching and the use of AI/ML tools. Oversight is evidenced by the mention of recruiter review as a guide and the implication of appeal mechanisms for automated decisions. Privacy is supported through the description of applicant consent options for AI matching and the inference of location from IP addresses. Transparency is demonstrated by the policy's explanation of AI matching, AI/ML tools, and automated scoring for minimum requirements.",
+          "title": "Kenvue Careers Privacy Policy",
+          "url": "https://kenvue.com/careers-privacy-policy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"Leading Corporations Introduce Data Provenance Standards,\" provides evidence for **external accountability**, **governance**, and **transparency**. The report highlights Kenvue's participation in the Data & Trusted AI Alliance and quotes their Chief Technology & Data Officer supporting data provenance standards. This supports **governance** and **transparency** by emphasizing the need for clear standards regarding data origin for AI applications and algorithms, fostering informed decision-making and trustworthiness. The mention of aligning with regulations and consistent methodology also indicates support for **external accountability**.",
+          "title": "Leading Corporations Introduce Data Provenance Standards",
+          "url": "https://dataandtrustalliance.org/work/data-provenance-standards"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This Kenvue Inc. Form 10-K filing identifies AI development and regulation uncertainty as an emerging risk, providing evidence for the **governance**, **privacy**, and **transparency** pillars. The document supports governance by mentioning AI governance frameworks, quality systems for data analytics, and the importance of testing and QA processes for AI. Evidence for privacy and IP risks related to AI, along with ethical concerns and data protection, supports the privacy pillar, while the discussion of AI use cases and piloting indicates transparency in AI adoption.",
+          "title": "Kenvue Inc. Form 10-K (FY2024)",
+          "url": "https://s202.q4cdn.com/991673667/files/doc_financials/2024/q4/107a2772-02b0-4b95-b299-42451cee3950.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T17:17:35Z",
+  "run_id": "20260309_183626_26e0",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Kenvue's careers privacy policy explains AI matching, AI/ML tools, and automated scoring for minimum requirements, addressing aspects of transparency, privacy, and governance at the policy level. Overall, published materials provide evidence for 5 of 7 evaluated responsible AI pillars, with additional policy disclosures detailing applicant consent options for AI matching under privacy and recruiter review as a guide for automated decisions under oversight. External accountability is also addressed, with a third-party report mentioning alignment with regulations for AI applications and algorithms. These findings are based on a review of 10 publicly available sources. No qualifying public evidence was found for fairness or explainability.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 30,
+    "total_sources_used": 4
+  }
+}

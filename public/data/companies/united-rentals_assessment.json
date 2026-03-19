@@ -1,0 +1,170 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "United Rentals",
+  "company_slug": "united-rentals",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 7,
+      "OPERATIONAL": 4,
+      "POLICY": 2
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 7,
+      "findings": "A press release references a senior role that oversees AI strategy. This press release also references the reporting of AI system adoption and user numbers.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance** and **transparency** by detailing United Rentals' enterprise-wide deployment of Manual Assist AI. The document supports transparency by describing the AI's capabilities and benefits, as well as its underlying technologies built on Amazon Bedrock and OpenSearch. Furthermore, it indicates governance through the mention of a senior role overseeing AI strategy and the reporting of AI system adoption and user numbers.",
+          "title": "United Rentals Scales AI Applications with AWS",
+          "url": "https://investors.unitedrentals.com/press-releases/press-releases-details/2025/United-Rentals-Scales-AI-Applications-with-AWS/default.aspx"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This Fortune article provides evidence for **governance, oversight, and transparency** in responsible AI. The article highlights United Rentals' strategic approach to AI, including appointing a CTO to lead technology roadmaps and creating a dedicated AI officer role, demonstrating strong governance and oversight. Furthermore, the discussion of AI capabilities for data analysis via natural language, ongoing user feedback mechanisms for AI agents, and transparency in AI use cases for employees all support the transparency pillar.",
+          "title": "Why United Rentals' CTO Tried to Break His Own AI Agent (Fortune)",
+          "url": "https://fortune.com/2026/02/04/why-united-rentals-cto-tried-to-break-his-own-ai-agent-before-giving-it-to-thousands-of-employees"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "The \"Construction Equipment Rental Market Growth Report\" provides evidence for the **governance** pillar of responsible AI. This market analysis report indicates that United Rentals' Total Control® platform utilizes AI for predictive maintenance and optimization, suggesting the existence of a governance framework to manage these AI applications.",
+          "title": "Construction Equipment Rental Market Growth Report",
+          "url": "https://market.us/report/construction-equipment-rental-market"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "Sources describe documented oversight practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This Fortune article provides evidence for **governance, oversight, and transparency** in responsible AI. The article highlights United Rentals' strategic approach to AI, including appointing a CTO to lead technology roadmaps and creating a dedicated AI officer role, demonstrating strong governance and oversight. Furthermore, the discussion of AI capabilities for data analysis via natural language, ongoing user feedback mechanisms for AI agents, and transparency in AI use cases for employees all support the transparency pillar.",
+          "title": "Why United Rentals' CTO Tried to Break His Own AI Agent (Fortune)",
+          "url": "https://fortune.com/2026/02/04/why-united-rentals-cto-tried-to-break-his-own-ai-agent-before-giving-it-to-thousands-of-employees"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 8,
+      "findings": "United Rentals provides transparency by describing the capabilities, benefits, and underlying technologies of its Manual Assist AI, which is built on Amazon Bedrock and OpenSearch. Additionally, an article describes AI capabilities for data analysis via natural language, references ongoing user feedback mechanisms for AI agents, and outlines transparency in AI use cases for employees.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance** and **transparency** by detailing United Rentals' enterprise-wide deployment of Manual Assist AI. The document supports transparency by describing the AI's capabilities and benefits, as well as its underlying technologies built on Amazon Bedrock and OpenSearch. Furthermore, it indicates governance through the mention of a senior role overseeing AI strategy and the reporting of AI system adoption and user numbers.",
+          "title": "United Rentals Scales AI Applications with AWS",
+          "url": "https://investors.unitedrentals.com/press-releases/press-releases-details/2025/United-Rentals-Scales-AI-Applications-with-AWS/default.aspx"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This Fortune article provides evidence for **governance, oversight, and transparency** in responsible AI. The article highlights United Rentals' strategic approach to AI, including appointing a CTO to lead technology roadmaps and creating a dedicated AI officer role, demonstrating strong governance and oversight. Furthermore, the discussion of AI capabilities for data analysis via natural language, ongoing user feedback mechanisms for AI agents, and transparency in AI use cases for employees all support the transparency pillar.",
+          "title": "Why United Rentals' CTO Tried to Break His Own AI Agent (Fortune)",
+          "url": "https://fortune.com/2026/02/04/why-united-rentals-cto-tried-to-break-his-own-ai-agent-before-giving-it-to-thousands-of-employees"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-03-19T17:27:38Z",
+  "run_id": "20260309_191950_b032",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Based on 10 publicly available sources, United Rentals' published materials address 3 of 7 evaluated responsible AI pillars. Operational practices are documented for transparency, with disclosures describing the capabilities and underlying technologies of Manual Assist AI, built on Amazon Bedrock and OpenSearch. Governance is also addressed at the operational level, referencing a senior role overseeing AI strategy and the reporting of AI system adoption and user numbers, while oversight is addressed through documented policy practices. No qualifying public evidence was found for fairness, explainability, and 2 additional pillars.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 13,
+    "total_sources_used": 3
+  }
+}

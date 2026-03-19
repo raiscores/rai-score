@@ -1,0 +1,196 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Motorola Solutions",
+  "company_slug": "motorola-solutions",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 3,
+      "OPERATIONAL": 3,
+      "POLICY": 8
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "Court filings reference external accountability through legal proceedings and a resulting settlement.",
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for **external accountability**, **governance**, and **privacy**. It details a class-action settlement stemming from allegations that Motorola Solutions' facial recognition technology violated the Illinois Biometric Information Privacy Act (BIPA). The filing supports the **privacy** pillar by highlighting claims of unlawful collection, storage, and use of biometric data without proper disclosure and consent. It also supports **governance** by implying failures in data handling policies and **external accountability** through the legal proceedings and resulting settlement.",
+          "title": "Simmons et al. v. Motorola Solutions, Inc. et al. (FaceSearch BIPA Settlement)",
+          "url": "https://classaction.org/news/47.5m-motorola-solutions-settlement-resolves-class-action-lawsuit-over-alleged-facesearch-bipa-violations"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "Policy documents state that AI solutions must be unbiased and trustworthy.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Principles for Responsible Application of AI - Whitepaper,\" provides evidence for **fairness, governance, oversight, and privacy**. It supports fairness by stating AI solutions must be unbiased and trustworthy, and governance through role-based access controls, audits, and CI/CD practices for AI retraining. Oversight is demonstrated by requiring human experts to verify matches and regular monitoring of systems, while privacy is addressed by audit trails retaining data for AI operations.",
+          "title": "Principles for Responsible Application of AI - Whitepaper",
+          "url": "https://motorolasolutions.com/content/dam/msi/images/artificialintelligence/responsible-ai-whitepaper-final.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 10,
+      "findings": "Policy documents outline a formal governance program and principles for AI. These documents describe governance practices such as role-based access controls, audits, and CI/CD practices for AI retraining. Court filings also reference implied failures in data handling policies.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for **external accountability**, **governance**, and **privacy**. It details a class-action settlement stemming from allegations that Motorola Solutions' facial recognition technology violated the Illinois Biometric Information Privacy Act (BIPA). The filing supports the **privacy** pillar by highlighting claims of unlawful collection, storage, and use of biometric data without proper disclosure and consent. It also supports **governance** by implying failures in data handling policies and **external accountability** through the legal proceedings and resulting settlement.",
+          "title": "Simmons et al. v. Motorola Solutions, Inc. et al. (FaceSearch BIPA Settlement)",
+          "url": "https://classaction.org/news/47.5m-motorola-solutions-settlement-resolves-class-action-lawsuit-over-alleged-facesearch-bipa-violations"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Responsible Technology Blueprint - Motorola Solutions,\" provides evidence for the **governance** pillar of responsible AI. It supports this pillar by outlining a formal \"governance program\" and establishing \"principles\" for AI, demonstrating a structured approach to responsible AI development and deployment.",
+          "title": "Responsible Technology Blueprint - Motorola Solutions",
+          "url": "https://motorolasolutions.com/content/dam/msi/docs/about-us/Responsible-Technology-Blueprint.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Principles for Responsible Application of AI - Whitepaper,\" provides evidence for **fairness, governance, oversight, and privacy**. It supports fairness by stating AI solutions must be unbiased and trustworthy, and governance through role-based access controls, audits, and CI/CD practices for AI retraining. Oversight is demonstrated by requiring human experts to verify matches and regular monitoring of systems, while privacy is addressed by audit trails retaining data for AI operations.",
+          "title": "Principles for Responsible Application of AI - Whitepaper",
+          "url": "https://motorolasolutions.com/content/dam/msi/images/artificialintelligence/responsible-ai-whitepaper-final.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "Policy documents describe oversight practices, including requiring human experts to verify matches and regular monitoring of systems.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Principles for Responsible Application of AI - Whitepaper,\" provides evidence for **fairness, governance, oversight, and privacy**. It supports fairness by stating AI solutions must be unbiased and trustworthy, and governance through role-based access controls, audits, and CI/CD practices for AI retraining. Oversight is demonstrated by requiring human experts to verify matches and regular monitoring of systems, while privacy is addressed by audit trails retaining data for AI operations.",
+          "title": "Principles for Responsible Application of AI - Whitepaper",
+          "url": "https://motorolasolutions.com/content/dam/msi/images/artificialintelligence/responsible-ai-whitepaper-final.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 8,
+      "findings": "Court filings reference claims of unlawful collection, storage, and use of biometric data without proper disclosure and consent. Articles also reference privacy concerns related to the collection and use of historical crime data by predictive policing tools. Additionally, policy documents describe audit trails retaining data for AI operations to address privacy.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This court filing provides evidence for **external accountability**, **governance**, and **privacy**. It details a class-action settlement stemming from allegations that Motorola Solutions' facial recognition technology violated the Illinois Biometric Information Privacy Act (BIPA). The filing supports the **privacy** pillar by highlighting claims of unlawful collection, storage, and use of biometric data without proper disclosure and consent. It also supports **governance** by implying failures in data handling policies and **external accountability** through the legal proceedings and resulting settlement.",
+          "title": "Simmons et al. v. Motorola Solutions, Inc. et al. (FaceSearch BIPA Settlement)",
+          "url": "https://classaction.org/news/47.5m-motorola-solutions-settlement-resolves-class-action-lawsuit-over-alleged-facesearch-bipa-violations"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This article, \"It's Not the Algorithm, It's the Data (CommandCentral Predictive),\" provides evidence for the **privacy** pillar. It discusses how predictive policing tools like CommandCentral Predictive utilize machine learning on historical crime data, which can lead to biased predictions due to the concentration of reported crime in certain communities. While not directly detailing privacy policies, the reliance on historical data and the potential for skewed predictions implicitly raises privacy concerns related to the collection and use of this data.",
+          "title": "It's Not the Algorithm, It's the Data (CommandCentral Predictive)",
+          "url": "https://cacm.acm.org/news/211080-its-not-the-algorithm-its-the-data/fulltext"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Principles for Responsible Application of AI - Whitepaper,\" provides evidence for **fairness, governance, oversight, and privacy**. It supports fairness by stating AI solutions must be unbiased and trustworthy, and governance through role-based access controls, audits, and CI/CD practices for AI retraining. Oversight is demonstrated by requiring human experts to verify matches and regular monitoring of systems, while privacy is addressed by audit trails retaining data for AI operations.",
+          "title": "Principles for Responsible Application of AI - Whitepaper",
+          "url": "https://motorolasolutions.com/content/dam/msi/images/artificialintelligence/responsible-ai-whitepaper-final.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": null,
+      "display_name": "Transparency",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document AI systems in use, including vendor/third-party AI tools.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    }
+  },
+  "published_at": "2026-03-19T17:20:40Z",
+  "run_id": "20260309_184610_2419",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Transparency",
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Motorola Solutions' policy documents describe requiring human experts to verify matches as part of its oversight practices for AI solutions. These materials also outline a formal governance program for responsible AI, addressing 4 of 7 evaluated responsible AI pillars. However, court filings reference implied failures in data handling policies related to governance. Fairness is addressed at the policy level, with documents stating that AI solutions must be unbiased and trustworthy. No qualifying public evidence was found for transparency, explainability, and 1 additional pillar, based on a review of 15 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 1,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 14,
+    "total_sources_used": 4
+  }
+}

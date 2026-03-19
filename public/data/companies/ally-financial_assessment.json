@@ -1,0 +1,414 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Ally Financial",
+  "company_slug": "ally-financial",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 3,
+      "OPERATIONAL": 13,
+      "POLICY": 29
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "Documentation references membership and participation in an external institute, indicating a commitment to AI standards. An announcement further details the RAI Institute's commitment to providing AI conformity assessments, benchmarks, and certifications aligned with established standards, demonstrating a mechanism for external accountability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Ally's commitment to responsible AI through mandatory employee training on risk and controls, the establishment of an \"Ally AI Fluency Hub\" for ongoing education, and the integration of risk and control requirements from the inception of AI projects. The press release also highlights implemented processes for privacy, risk review, and monitoring, as well as membership in an external institute, demonstrating a proactive approach to governance and accountability.",
+          "title": "Ally Financial rolls out proprietary AI platform enterprise-wide",
+          "url": "https://media.ally.com/2025-07-23-Ally-Financial-rolls-out-proprietary-AI-platform-enterprise-wide"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"Generative AI Landing Page\" provides evidence for **governance**, **privacy**, and **external_accountability**. It supports governance by outlining a human-centered approach, integrating risk and control, and discussing responsible technology strategy and scaling AI use. Evidence for privacy is found in mentions of protecting sensitive information, while external_accountability is supported by the company's participation in an external institute, indicating a commitment to AI standards.",
+          "title": "Generative AI Landing Page",
+          "url": "https://ally.com/about/generative-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This RAI Institute Membership Announcement supports the **external_accountability** and **governance** pillars. The announcement details the RAI Institute's commitment to providing AI conformity assessments, benchmarks, and certifications aligned with established standards, demonstrating a mechanism for external accountability. Furthermore, the commitment to advocating for high standards and responsible AI use signifies a policy stance that contributes to robust governance.",
+          "title": "RAI Institute Membership Announcement",
+          "url": "https://responsible.ai/responsible-ai-institute-welcomes-ally-financial-as-newest-member"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 8,
+      "findings": "Documentation demonstrates a commitment to preventing illegal discrimination and outlines a program to monitor and correct discriminatory practices in auto loan pricing. A blog post acknowledges AI bias and inequality, describing the launch of a challenge to find solutions. Furthermore, a leader profile references fairness through stated goals of the governance process, and a report mentions a commitment to assuring fairness in its programs, alongside plans for annual monitoring and reviews.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This enforcement action provides evidence for the **fairness** and **governance** pillars of responsible AI. It demonstrates a commitment to preventing illegal discrimination and outlines a program to monitor and correct discriminatory practices in auto loan pricing, directly addressing fairness by proposing structural changes and establishing governance mechanisms.",
+          "title": "CFPB and DOJ Order Ally to Pay $80 Million to Consumers Harmed by Discriminatory Auto Loan Pricing",
+          "url": "https://consumerfinance.gov/about-us/newsroom/cfpb-and-doj-order-ally-to-pay-80-million-to-consumers-harmed-by-discriminatory-auto-loan-pricing"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Responsible AI Innovation Challenge,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars. It supports fairness by acknowledging AI bias and inequality and launching a challenge to find solutions. Governance and privacy are supported by mentioning actions like scrubbing PII and contributing to open-source solutions, as well as outlining problem areas like bias detection and AI governance frameworks. Transparency is addressed by detailing specific AI challenges that include transparency as a key concern.",
+          "title": "Responsible AI Innovation Challenge",
+          "url": "https://ally.com/tech/unveiling-the-ally-innovation-challenge-responsible-ai-seeking-established"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This RAI Institute Leader Profile details the organization's commitment to responsible AI through documented practices. It supports the **governance** pillar by outlining an established AI governance process and implemented controls for AI projects. Evidence for **privacy** is found in descriptions of PII protection and continuous monitoring. The profile also supports **oversight** through mentions of model risk review and human involvement, **transparency** by indicating AI/ML use cases and responsible teams, and **fairness** through stated goals of the governance process.",
+          "title": "RAI Institute Leader Profile",
+          "url": "https://responsible.ai/news/leaders-in-responsible-ai-a-members-story-13"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "The \"2024 Purpose People and Impact Report\" provides evidence for **governance**, **oversight**, and **fairness**. This company-owned report details the development of AI strategy, an AI Governance Framework, and established governance processes for AI use cases, supporting the **governance** and **oversight** pillars. Furthermore, it explicitly mentions a commitment to assuring **fairness** in its programs, alongside plans for annual monitoring and reviews.",
+          "title": "2024 Purpose People and Impact Report",
+          "url": "https://ally.com/content/dam/pdf/corporate/ally-purpose-people-impact-report-2024.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 35,
+      "findings": "Documentation details mandatory employee training on risk and controls, and the establishment of an \"Ally AI Fluency Hub\" for ongoing education. It also details the integration of risk and control requirements from the inception of AI projects, and outlines an established AI governance process with implemented controls. Furthermore, reports and blog posts outline a human-centered approach to AI, discuss responsible technology strategy, and detail the development of an AI strategy, an AI Governance Framework, and established governance processes for AI use cases.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Ally's commitment to responsible AI through mandatory employee training on risk and controls, the establishment of an \"Ally AI Fluency Hub\" for ongoing education, and the integration of risk and control requirements from the inception of AI projects. The press release also highlights implemented processes for privacy, risk review, and monitoring, as well as membership in an external institute, demonstrating a proactive approach to governance and accountability.",
+          "title": "Ally Financial rolls out proprietary AI platform enterprise-wide",
+          "url": "https://media.ally.com/2025-07-23-Ally-Financial-rolls-out-proprietary-AI-platform-enterprise-wide"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports the privacy pillar by describing the development and contribution of a PII masking module designed to protect sensitive data before AI processing. The blog post also supports the governance pillar by highlighting the creation of a customizable tool and its contribution to industry standards for AI development.",
+          "title": "Ally gives back to LangChain AI community with PII Masking module",
+          "url": "https://ally.com/tech/ally-gives-back-to-langchain-ai-community-with-pii-masking-module"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_005",
+          "source_tier": "authority",
+          "summary": "This enforcement action provides evidence for the **fairness** and **governance** pillars of responsible AI. It demonstrates a commitment to preventing illegal discrimination and outlines a program to monitor and correct discriminatory practices in auto loan pricing, directly addressing fairness by proposing structural changes and establishing governance mechanisms.",
+          "title": "CFPB and DOJ Order Ally to Pay $80 Million to Consumers Harmed by Discriminatory Auto Loan Pricing",
+          "url": "https://consumerfinance.gov/about-us/newsroom/cfpb-and-doj-order-ally-to-pay-80-million-to-consumers-harmed-by-discriminatory-auto-loan-pricing"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"Generative AI Landing Page\" provides evidence for **governance**, **privacy**, and **external_accountability**. It supports governance by outlining a human-centered approach, integrating risk and control, and discussing responsible technology strategy and scaling AI use. Evidence for privacy is found in mentions of protecting sensitive information, while external_accountability is supported by the company's participation in an external institute, indicating a commitment to AI standards.",
+          "title": "Generative AI Landing Page",
+          "url": "https://ally.com/about/generative-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for governance, oversight, privacy, and transparency. It supports governance and privacy by detailing foundational infrastructure, in-house capabilities, and security standards for AI, as well as mentioning data security protections. The blog post also demonstrates transparency and governance through the description of a pilot program for call summarization and the mention of an AI playbook and working group for reviewing AI use cases. Finally, it supports oversight and transparency by stating a commitment to human training, evaluation, and defining oversight mechanisms for AI use.",
+          "title": "Doing It Right With AI Blog Post",
+          "url": "https://ally.com/tech/doing-it-right-with-ai-allys-foray-into-generative-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Responsible AI Innovation Challenge,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars. It supports fairness by acknowledging AI bias and inequality and launching a challenge to find solutions. Governance and privacy are supported by mentioning actions like scrubbing PII and contributing to open-source solutions, as well as outlining problem areas like bias detection and AI governance frameworks. Transparency is addressed by detailing specific AI challenges that include transparency as a key concern.",
+          "title": "Responsible AI Innovation Challenge",
+          "url": "https://ally.com/tech/unveiling-the-ally-innovation-challenge-responsible-ai-seeking-established"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Innovation Challenge Selected Startups,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by describing the monitoring of vendor AI use and data practices, mentoring sessions for AI oversight, and a stated priority for responsible AI deployment. The source also supports privacy by mentioning the alignment with user intentions and data practices for AI vendors.",
+          "title": "Innovation Challenge Selected Startups",
+          "url": "https://ally.com/tech/unveiling-the-trailblazing-startups-insights-from-ally-innovation-challenge"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This RAI Institute Membership Announcement supports the **external_accountability** and **governance** pillars. The announcement details the RAI Institute's commitment to providing AI conformity assessments, benchmarks, and certifications aligned with established standards, demonstrating a mechanism for external accountability. Furthermore, the commitment to advocating for high standards and responsible AI use signifies a policy stance that contributes to robust governance.",
+          "title": "RAI Institute Membership Announcement",
+          "url": "https://responsible.ai/responsible-ai-institute-welcomes-ally-financial-as-newest-member"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This RAI Institute Leader Profile details the organization's commitment to responsible AI through documented practices. It supports the **governance** pillar by outlining an established AI governance process and implemented controls for AI projects. Evidence for **privacy** is found in descriptions of PII protection and continuous monitoring. The profile also supports **oversight** through mentions of model risk review and human involvement, **transparency** by indicating AI/ML use cases and responsible teams, and **fairness** through stated goals of the governance process.",
+          "title": "RAI Institute Leader Profile",
+          "url": "https://responsible.ai/news/leaders-in-responsible-ai-a-members-story-13"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release announcing the Ally.ai platform launch provides evidence for governance, oversight, privacy, and transparency. It details the platform's build and pilot program launch, supporting transparency in deployment. Furthermore, the document highlights active training, defined oversight mechanisms by an AI Working Group, and a governance structure with an AI playbook, all of which demonstrate strong operational oversight and governance. The emphasis on human intervention for oversight and preventing PII disclosure also aligns with privacy principles.",
+          "title": "Ally.ai Platform Launch",
+          "url": "https://media.ally.com/2023-09-19-Ally-launches-proprietary,-enterprise-AI-platform"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "The \"2024 Purpose People and Impact Report\" provides evidence for **governance**, **oversight**, and **fairness**. This company-owned report details the development of AI strategy, an AI Governance Framework, and established governance processes for AI use cases, supporting the **governance** and **oversight** pillars. Furthermore, it explicitly mentions a commitment to assuring **fairness** in its programs, alongside plans for annual monitoring and reviews.",
+          "title": "2024 Purpose People and Impact Report",
+          "url": "https://ally.com/content/dam/pdf/corporate/ally-purpose-people-impact-report-2024.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 8,
+      "findings": "Documentation highlights processes for risk review and monitoring, and references plans for annual monitoring and reviews. A blog post states a commitment to human training, evaluation, and defining oversight mechanisms for AI use. Furthermore, a leader profile mentions model risk review and human involvement in AI, while a press release emphasizes human intervention for oversight.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Ally's commitment to responsible AI through mandatory employee training on risk and controls, the establishment of an \"Ally AI Fluency Hub\" for ongoing education, and the integration of risk and control requirements from the inception of AI projects. The press release also highlights implemented processes for privacy, risk review, and monitoring, as well as membership in an external institute, demonstrating a proactive approach to governance and accountability.",
+          "title": "Ally Financial rolls out proprietary AI platform enterprise-wide",
+          "url": "https://media.ally.com/2025-07-23-Ally-Financial-rolls-out-proprietary-AI-platform-enterprise-wide"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for governance, oversight, privacy, and transparency. It supports governance and privacy by detailing foundational infrastructure, in-house capabilities, and security standards for AI, as well as mentioning data security protections. The blog post also demonstrates transparency and governance through the description of a pilot program for call summarization and the mention of an AI playbook and working group for reviewing AI use cases. Finally, it supports oversight and transparency by stating a commitment to human training, evaluation, and defining oversight mechanisms for AI use.",
+          "title": "Doing It Right With AI Blog Post",
+          "url": "https://ally.com/tech/doing-it-right-with-ai-allys-foray-into-generative-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This RAI Institute Leader Profile details the organization's commitment to responsible AI through documented practices. It supports the **governance** pillar by outlining an established AI governance process and implemented controls for AI projects. Evidence for **privacy** is found in descriptions of PII protection and continuous monitoring. The profile also supports **oversight** through mentions of model risk review and human involvement, **transparency** by indicating AI/ML use cases and responsible teams, and **fairness** through stated goals of the governance process.",
+          "title": "RAI Institute Leader Profile",
+          "url": "https://responsible.ai/news/leaders-in-responsible-ai-a-members-story-13"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release announcing the Ally.ai platform launch provides evidence for governance, oversight, privacy, and transparency. It details the platform's build and pilot program launch, supporting transparency in deployment. Furthermore, the document highlights active training, defined oversight mechanisms by an AI Working Group, and a governance structure with an AI playbook, all of which demonstrate strong operational oversight and governance. The emphasis on human intervention for oversight and preventing PII disclosure also aligns with privacy principles.",
+          "title": "Ally.ai Platform Launch",
+          "url": "https://media.ally.com/2023-09-19-Ally-launches-proprietary,-enterprise-AI-platform"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "The \"2024 Purpose People and Impact Report\" provides evidence for **governance**, **oversight**, and **fairness**. This company-owned report details the development of AI strategy, an AI Governance Framework, and established governance processes for AI use cases, supporting the **governance** and **oversight** pillars. Furthermore, it explicitly mentions a commitment to assuring **fairness** in its programs, alongside plans for annual monitoring and reviews.",
+          "title": "2024 Purpose People and Impact Report",
+          "url": "https://ally.com/content/dam/pdf/corporate/ally-purpose-people-impact-report-2024.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 13,
+      "findings": "Documentation highlights processes for privacy and mentions protecting sensitive information and data security protections. A blog post describes the development and contribution of a PII masking module designed to protect sensitive data before AI processing, and mentions actions like scrubbing PII. Furthermore, a leader profile describes PII protection and continuous monitoring, while a press release emphasizes preventing PII disclosure and a blog post mentions alignment with user intentions and data practices for AI vendors.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Ally's commitment to responsible AI through mandatory employee training on risk and controls, the establishment of an \"Ally AI Fluency Hub\" for ongoing education, and the integration of risk and control requirements from the inception of AI projects. The press release also highlights implemented processes for privacy, risk review, and monitoring, as well as membership in an external institute, demonstrating a proactive approach to governance and accountability.",
+          "title": "Ally Financial rolls out proprietary AI platform enterprise-wide",
+          "url": "https://media.ally.com/2025-07-23-Ally-Financial-rolls-out-proprietary-AI-platform-enterprise-wide"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports the privacy pillar by describing the development and contribution of a PII masking module designed to protect sensitive data before AI processing. The blog post also supports the governance pillar by highlighting the creation of a customizable tool and its contribution to industry standards for AI development.",
+          "title": "Ally gives back to LangChain AI community with PII Masking module",
+          "url": "https://ally.com/tech/ally-gives-back-to-langchain-ai-community-with-pii-masking-module"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned \"Generative AI Landing Page\" provides evidence for **governance**, **privacy**, and **external_accountability**. It supports governance by outlining a human-centered approach, integrating risk and control, and discussing responsible technology strategy and scaling AI use. Evidence for privacy is found in mentions of protecting sensitive information, while external_accountability is supported by the company's participation in an external institute, indicating a commitment to AI standards.",
+          "title": "Generative AI Landing Page",
+          "url": "https://ally.com/about/generative-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for governance, oversight, privacy, and transparency. It supports governance and privacy by detailing foundational infrastructure, in-house capabilities, and security standards for AI, as well as mentioning data security protections. The blog post also demonstrates transparency and governance through the description of a pilot program for call summarization and the mention of an AI playbook and working group for reviewing AI use cases. Finally, it supports oversight and transparency by stating a commitment to human training, evaluation, and defining oversight mechanisms for AI use.",
+          "title": "Doing It Right With AI Blog Post",
+          "url": "https://ally.com/tech/doing-it-right-with-ai-allys-foray-into-generative-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Responsible AI Innovation Challenge,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars. It supports fairness by acknowledging AI bias and inequality and launching a challenge to find solutions. Governance and privacy are supported by mentioning actions like scrubbing PII and contributing to open-source solutions, as well as outlining problem areas like bias detection and AI governance frameworks. Transparency is addressed by detailing specific AI challenges that include transparency as a key concern.",
+          "title": "Responsible AI Innovation Challenge",
+          "url": "https://ally.com/tech/unveiling-the-ally-innovation-challenge-responsible-ai-seeking-established"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Innovation Challenge Selected Startups,\" provides evidence for the **governance** and **privacy** pillars of responsible AI. It supports governance by describing the monitoring of vendor AI use and data practices, mentoring sessions for AI oversight, and a stated priority for responsible AI deployment. The source also supports privacy by mentioning the alignment with user intentions and data practices for AI vendors.",
+          "title": "Innovation Challenge Selected Startups",
+          "url": "https://ally.com/tech/unveiling-the-trailblazing-startups-insights-from-ally-innovation-challenge"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This RAI Institute Leader Profile details the organization's commitment to responsible AI through documented practices. It supports the **governance** pillar by outlining an established AI governance process and implemented controls for AI projects. Evidence for **privacy** is found in descriptions of PII protection and continuous monitoring. The profile also supports **oversight** through mentions of model risk review and human involvement, **transparency** by indicating AI/ML use cases and responsible teams, and **fairness** through stated goals of the governance process.",
+          "title": "RAI Institute Leader Profile",
+          "url": "https://responsible.ai/news/leaders-in-responsible-ai-a-members-story-13"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release announcing the Ally.ai platform launch provides evidence for governance, oversight, privacy, and transparency. It details the platform's build and pilot program launch, supporting transparency in deployment. Furthermore, the document highlights active training, defined oversight mechanisms by an AI Working Group, and a governance structure with an AI playbook, all of which demonstrate strong operational oversight and governance. The emphasis on human intervention for oversight and preventing PII disclosure also aligns with privacy principles.",
+          "title": "Ally.ai Platform Launch",
+          "url": "https://media.ally.com/2023-09-19-Ally-launches-proprietary,-enterprise-AI-platform"
+        }
+      ],
+      "score": 2,
+      "source_count": 8
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 9,
+      "findings": "Documentation describes a pilot program for call summarization and details the Ally.ai platform's build and launch. Published materials mention an AI playbook and working group for reviewing AI use cases, and state a commitment to human training and evaluation for AI use. Furthermore, a leader profile indicates AI/ML use cases and responsible teams, while a blog post details specific AI challenges that include transparency as a key concern.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **external_accountability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing Ally's commitment to responsible AI through mandatory employee training on risk and controls, the establishment of an \"Ally AI Fluency Hub\" for ongoing education, and the integration of risk and control requirements from the inception of AI projects. The press release also highlights implemented processes for privacy, risk review, and monitoring, as well as membership in an external institute, demonstrating a proactive approach to governance and accountability.",
+          "title": "Ally Financial rolls out proprietary AI platform enterprise-wide",
+          "url": "https://media.ally.com/2025-07-23-Ally-Financial-rolls-out-proprietary-AI-platform-enterprise-wide"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for governance, oversight, privacy, and transparency. It supports governance and privacy by detailing foundational infrastructure, in-house capabilities, and security standards for AI, as well as mentioning data security protections. The blog post also demonstrates transparency and governance through the description of a pilot program for call summarization and the mention of an AI playbook and working group for reviewing AI use cases. Finally, it supports oversight and transparency by stating a commitment to human training, evaluation, and defining oversight mechanisms for AI use.",
+          "title": "Doing It Right With AI Blog Post",
+          "url": "https://ally.com/tech/doing-it-right-with-ai-allys-foray-into-generative-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"Responsible AI Innovation Challenge,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars. It supports fairness by acknowledging AI bias and inequality and launching a challenge to find solutions. Governance and privacy are supported by mentioning actions like scrubbing PII and contributing to open-source solutions, as well as outlining problem areas like bias detection and AI governance frameworks. Transparency is addressed by detailing specific AI challenges that include transparency as a key concern.",
+          "title": "Responsible AI Innovation Challenge",
+          "url": "https://ally.com/tech/unveiling-the-ally-innovation-challenge-responsible-ai-seeking-established"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This RAI Institute Leader Profile details the organization's commitment to responsible AI through documented practices. It supports the **governance** pillar by outlining an established AI governance process and implemented controls for AI projects. Evidence for **privacy** is found in descriptions of PII protection and continuous monitoring. The profile also supports **oversight** through mentions of model risk review and human involvement, **transparency** by indicating AI/ML use cases and responsible teams, and **fairness** through stated goals of the governance process.",
+          "title": "RAI Institute Leader Profile",
+          "url": "https://responsible.ai/news/leaders-in-responsible-ai-a-members-story-13"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_014",
+          "source_tier": "company_owned",
+          "summary": "This press release announcing the Ally.ai platform launch provides evidence for governance, oversight, privacy, and transparency. It details the platform's build and pilot program launch, supporting transparency in deployment. Furthermore, the document highlights active training, defined oversight mechanisms by an AI Working Group, and a governance structure with an AI playbook, all of which demonstrate strong operational oversight and governance. The emphasis on human intervention for oversight and preventing PII disclosure also aligns with privacy principles.",
+          "title": "Ally.ai Platform Launch",
+          "url": "https://media.ally.com/2023-09-19-Ally-launches-proprietary,-enterprise-AI-platform"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-03-19T17:00:32Z",
+  "run_id": "20260309_171208_3a4e",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Ally Financial's public disclosures demonstrate operational practices in fairness, with an enforcement action outlining a program to monitor and correct discriminatory practices in auto loan pricing. Transparency is also addressed through a blog post describing a pilot program for call summarization, contributing to coverage across 6 of 7 evaluated responsible AI pillars. Further operational evidence includes processes for risk review and monitoring under oversight, and the development and contribution of a PII masking module for privacy. Governance is supported by mandatory employee training on risk and controls, while external accountability references membership in an external institute, all drawn from 19 publicly available sources. No qualifying public evidence was found for explainability.",
+    "pillars_operational": 6,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 45,
+    "total_sources_used": 11
+  }
+}

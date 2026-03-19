@@ -1,0 +1,274 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "M&T Bank",
+  "company_slug": "m-t-bank",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 5,
+      "OPERATIONAL": 5,
+      "POLICY": 38
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "The 2025 Form 10-K states that challenges with AI explainability indicate a need for policies in this area.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The 2025 Form 10-K filing from M&T Bank acknowledges the risks associated with new technologies like AI, supporting the **governance** pillar by indicating AI is considered within enterprise risk management and that there are policies for managing model adjustments and quantitative methodologies. The filing also provides evidence for **fairness** by discussing the adjustment for biases in models, and for **privacy** by acknowledging the risks of releasing private information from AI models. Furthermore, the mention of \"independent validation and back-testing\" and \"audit procedures\" supports **external accountability**, while challenges with AI transparency and explainability indicate a need for policies in those areas, thus supporting **transparency** and **explainability**.",
+          "title": "2025 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/36270/000003627026000010/mtb-20251231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 6,
+      "findings": "M&T Bank references independent validation, back-testing, and audit procedures. The 2024 10-K discusses risks from third-party AI and references the need for vendor governance.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The 2025 Form 10-K filing from M&T Bank acknowledges the risks associated with new technologies like AI, supporting the **governance** pillar by indicating AI is considered within enterprise risk management and that there are policies for managing model adjustments and quantitative methodologies. The filing also provides evidence for **fairness** by discussing the adjustment for biases in models, and for **privacy** by acknowledging the risks of releasing private information from AI models. Furthermore, the mention of \"independent validation and back-testing\" and \"audit procedures\" supports **external accountability**, while challenges with AI transparency and explainability indicate a need for policies in those areas, thus supporting **transparency** and **explainability**.",
+          "title": "2025 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/36270/000003627026000010/mtb-20251231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"M&T Bank Corporation 2024 10-K,\" provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The document supports **governance** by discussing the management and oversight of \"models\" used for risk estimation and analysis, including independent validation and back-testing. It addresses **fairness** and **transparency** by acknowledging risks of bias and lack of transparency in AI models, and supports **privacy** by mentioning privacy breaches as a risk. Furthermore, the filing touches upon **external_accountability** through its discussion of risks from third-party AI and the need for vendor governance.",
+          "title": "M&T Bank Corporation 2024 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/36270/000162828025009615/mtb2024annualreport.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 6,
+      "findings": "M&T Bank acknowledges risks of bias in AI models. The 2025 Form 10-K discusses the adjustment for biases in models.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The 2025 Form 10-K filing from M&T Bank acknowledges the risks associated with new technologies like AI, supporting the **governance** pillar by indicating AI is considered within enterprise risk management and that there are policies for managing model adjustments and quantitative methodologies. The filing also provides evidence for **fairness** by discussing the adjustment for biases in models, and for **privacy** by acknowledging the risks of releasing private information from AI models. Furthermore, the mention of \"independent validation and back-testing\" and \"audit procedures\" supports **external accountability**, while challenges with AI transparency and explainability indicate a need for policies in those areas, thus supporting **transparency** and **explainability**.",
+          "title": "2025 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/36270/000003627026000010/mtb-20251231.htm"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"M&T Bank Corporation 2024 10-K,\" provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The document supports **governance** by discussing the management and oversight of \"models\" used for risk estimation and analysis, including independent validation and back-testing. It addresses **fairness** and **transparency** by acknowledging risks of bias and lack of transparency in AI models, and supports **privacy** by mentioning privacy breaches as a risk. Furthermore, the filing touches upon **external_accountability** through its discussion of risks from third-party AI and the need for vendor governance.",
+          "title": "M&T Bank Corporation 2024 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/36270/000162828025009615/mtb2024annualreport.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 39,
+      "findings": "M&T Bank considers AI within enterprise risk management and states there are policies for managing model adjustments and quantitative methodologies. The bank highlights its commitment to accountability and responsible usage of generative AI, with implementations conducted within strict company policies, industry regulations, and guidance from dedicated AI teams. Furthermore, the bank discusses the management and oversight of models used for risk estimation and analysis, including independent validation and back-testing.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The 2025 Form 10-K filing from M&T Bank acknowledges the risks associated with new technologies like AI, supporting the **governance** pillar by indicating AI is considered within enterprise risk management and that there are policies for managing model adjustments and quantitative methodologies. The filing also provides evidence for **fairness** by discussing the adjustment for biases in models, and for **privacy** by acknowledging the risks of releasing private information from AI models. Furthermore, the mention of \"independent validation and back-testing\" and \"audit procedures\" supports **external accountability**, while challenges with AI transparency and explainability indicate a need for policies in those areas, thus supporting **transparency** and **explainability**.",
+          "title": "2025 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/36270/000003627026000010/mtb-20251231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It highlights M&T Bank's commitment to accountability and responsible usage of generative AI, supported by practices like implementing data lineage software and using RAG to train AI on governed internal data. The article also mentions blocking LLMs to protect sensitive data, demonstrating a focus on privacy and safety in their AI adoption strategy.",
+          "title": "How M&T Bank ensures data quality as it implements gen AI",
+          "url": "https://americanbanker.com/news/how-m-t-bank-ensures-data-quality-as-it-implements-gen-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This case study provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights M&T Bank's strategic use of AI and automation, emphasizing that these implementations are conducted within strict company policies, industry regulations, and with guidance from dedicated AI teams, demonstrating a commitment to responsible deployment and oversight.",
+          "title": "M&T Bank, a Genesys customer success story",
+          "url": "https://genesys.com/customer-stories/mt-bank"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights the use of an AI decisioning platform for cash flow health, credit risk, and early warning detection, demonstrating transparency about the bank's AI deployment and its role in enhancing lending and automation. The document also shows transparency and governance in risk management by detailing how the AI platform is used for insights and decision enhancement.",
+          "title": "M&T Bank Taps Rich Data Co for AI Decisioning",
+          "url": "https://pymnts.com/news/banking/2024/mt-bank-taps-rich-data-co-for-ai-decisioning-platform"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"M&T Bank Corporation 2024 10-K,\" provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The document supports **governance** by discussing the management and oversight of \"models\" used for risk estimation and analysis, including independent validation and back-testing. It addresses **fairness** and **transparency** by acknowledging risks of bias and lack of transparency in AI models, and supports **privacy** by mentioning privacy breaches as a risk. Furthermore, the filing touches upon **external_accountability** through its discussion of risks from third-party AI and the need for vendor governance.",
+          "title": "M&T Bank Corporation 2024 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/36270/000162828025009615/mtb2024annualreport.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "A press release highlights M&T Bank's commitment to accountability and responsible usage of generative AI. This commitment is supported by practices such as implementing data lineage software and using RAG to train AI on governed internal data.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It highlights M&T Bank's commitment to accountability and responsible usage of generative AI, supported by practices like implementing data lineage software and using RAG to train AI on governed internal data. The article also mentions blocking LLMs to protect sensitive data, demonstrating a focus on privacy and safety in their AI adoption strategy.",
+          "title": "How M&T Bank ensures data quality as it implements gen AI",
+          "url": "https://americanbanker.com/news/how-m-t-bank-ensures-data-quality-as-it-implements-gen-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "M&T Bank acknowledges the risks of releasing private information from AI models and mentions privacy breaches as a risk. A press release also describes blocking LLMs to protect sensitive data.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The 2025 Form 10-K filing from M&T Bank acknowledges the risks associated with new technologies like AI, supporting the **governance** pillar by indicating AI is considered within enterprise risk management and that there are policies for managing model adjustments and quantitative methodologies. The filing also provides evidence for **fairness** by discussing the adjustment for biases in models, and for **privacy** by acknowledging the risks of releasing private information from AI models. Furthermore, the mention of \"independent validation and back-testing\" and \"audit procedures\" supports **external accountability**, while challenges with AI transparency and explainability indicate a need for policies in those areas, thus supporting **transparency** and **explainability**.",
+          "title": "2025 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/36270/000003627026000010/mtb-20251231.htm"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance**, **oversight**, and **privacy** pillars of responsible AI. It highlights M&T Bank's commitment to accountability and responsible usage of generative AI, supported by practices like implementing data lineage software and using RAG to train AI on governed internal data. The article also mentions blocking LLMs to protect sensitive data, demonstrating a focus on privacy and safety in their AI adoption strategy.",
+          "title": "How M&T Bank ensures data quality as it implements gen AI",
+          "url": "https://americanbanker.com/news/how-m-t-bank-ensures-data-quality-as-it-implements-gen-ai"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"M&T Bank Corporation 2024 10-K,\" provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The document supports **governance** by discussing the management and oversight of \"models\" used for risk estimation and analysis, including independent validation and back-testing. It addresses **fairness** and **transparency** by acknowledging risks of bias and lack of transparency in AI models, and supports **privacy** by mentioning privacy breaches as a risk. Furthermore, the filing touches upon **external_accountability** through its discussion of risks from third-party AI and the need for vendor governance.",
+          "title": "M&T Bank Corporation 2024 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/36270/000162828025009615/mtb2024annualreport.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 10,
+      "findings": "M&T Bank acknowledges risks related to AI transparency and the need for policies in this area. The bank highlights its strategic use of AI and automation within strict company policies and industry regulations, and describes the deployment of an AI decisioning platform for various financial applications. Furthermore, there is a focus on outlining and communicating AI use cases and a Senior Vice President's role in guiding responsible AI initiatives.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "The 2025 Form 10-K filing from M&T Bank acknowledges the risks associated with new technologies like AI, supporting the **governance** pillar by indicating AI is considered within enterprise risk management and that there are policies for managing model adjustments and quantitative methodologies. The filing also provides evidence for **fairness** by discussing the adjustment for biases in models, and for **privacy** by acknowledging the risks of releasing private information from AI models. Furthermore, the mention of \"independent validation and back-testing\" and \"audit procedures\" supports **external accountability**, while challenges with AI transparency and explainability indicate a need for policies in those areas, thus supporting **transparency** and **explainability**.",
+          "title": "2025 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/36270/000003627026000010/mtb-20251231.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This case study provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights M&T Bank's strategic use of AI and automation, emphasizing that these implementations are conducted within strict company policies, industry regulations, and with guidance from dedicated AI teams, demonstrating a commitment to responsible deployment and oversight.",
+          "title": "M&T Bank, a Genesys customer success story",
+          "url": "https://genesys.com/customer-stories/mt-bank"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights the use of an AI decisioning platform for cash flow health, credit risk, and early warning detection, demonstrating transparency about the bank's AI deployment and its role in enhancing lending and automation. The document also shows transparency and governance in risk management by detailing how the AI platform is used for insights and decision enhancement.",
+          "title": "M&T Bank Taps Rich Data Co for AI Decisioning",
+          "url": "https://pymnts.com/news/banking/2024/mt-bank-taps-rich-data-co-for-ai-decisioning-platform"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"M&T Bank Corporation 2024 10-K,\" provides evidence for **external_accountability, fairness, governance, privacy, and transparency**. The document supports **governance** by discussing the management and oversight of \"models\" used for risk estimation and analysis, including independent validation and back-testing. It addresses **fairness** and **transparency** by acknowledging risks of bias and lack of transparency in AI models, and supports **privacy** by mentioning privacy breaches as a risk. Furthermore, the filing touches upon **external_accountability** through its discussion of risks from third-party AI and the need for vendor governance.",
+          "title": "M&T Bank Corporation 2024 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/36270/000162828025009615/mtb2024annualreport.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This event description for \"AI Use Cases and Risk Considerations\" provides evidence for the **transparency** pillar of responsible AI. The mention of \"AI Use Cases\" suggests a focus on clearly outlining and communicating how AI is being applied within the bank, which is a key aspect of transparency. The description also highlights the Senior Vice President's role in \"driving the bank's responsible AI initiatives,\" including \"developing policies, educating employees, and guiding high-impact AI solutions,\" further indicating a commitment to open communication and understanding of AI's deployment.",
+          "title": "AI (Artificial Intelligence) Use Cases and Risk Considerations",
+          "url": "https://community.rmahq.org/buffalo/home"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-03-19T17:19:34Z",
+  "run_id": "20260309_184231_5a22",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Fairness & Bias Mitigation",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "M&T Bank's 2025 Form 10-K discusses the adjustment for biases in models, an operational practice documented under fairness. This is part of the documented evidence for all 7 evaluated responsible AI pillars, as all 7 have documented public evidence. Further operational practices include the consideration of AI within enterprise risk management for governance and references to independent validation for external accountability. Additionally, transparency and explainability are addressed through disclosures indicating a need for policies, while oversight materials describe practices such as implementing data lineage software. Privacy is also addressed at the policy level, with disclosures acknowledging the risks of releasing private information from AI models, based on a review of 12 publicly available sources.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 48,
+    "total_sources_used": 6
+  }
+}

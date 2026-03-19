@@ -1,0 +1,306 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 71.4,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 10
+  },
+  "company": "IQVIA",
+  "company_slug": "iqvia",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 19,
+      "OPERATIONAL": 2,
+      "POLICY": 34
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Sources describe documented explainability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI: Exploring IQVIA's vision on AI governance in healthcare,\" provides evidence for **fairness, transparency, accountability, and auditability**. The post details IQVIA's five guiding principles, explicitly mentioning fairness and anti-discrimination laws, and discussing transparency through references to specific AI systems and the need for trust. It also highlights accountability and oversight by mentioning AI developers, biases, and monitoring, and supports auditability by referencing AI systems being monitored, assessed, and evaluated.",
+          "title": "Responsible AI: Exploring IQVIA's vision on AI governance in healthcare",
+          "url": "https://iqvia.com/blogs/2024/08/responsible-ai-exploring-iqvias-vision-on-ai-governance-in-healthcare"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "Sources outline accountability as a guiding principle for AI systems. Blog posts describe accountability by referencing AI developers, biases, and monitoring.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI: Exploring IQVIA's vision on AI governance in healthcare,\" provides evidence for **fairness, transparency, accountability, and auditability**. The post details IQVIA's five guiding principles, explicitly mentioning fairness and anti-discrimination laws, and discussing transparency through references to specific AI systems and the need for trust. It also highlights accountability and oversight by mentioning AI developers, biases, and monitoring, and supports auditability by referencing AI systems being monitored, assessed, and evaluated.",
+          "title": "Responsible AI: Exploring IQVIA's vision on AI governance in healthcare",
+          "url": "https://iqvia.com/blogs/2024/08/responsible-ai-exploring-iqvias-vision-on-ai-governance-in-healthcare"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"IQVIA AI Governance,\" provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The policy outlines guiding principles for AI systems, explicitly mentioning fairness, transparency, and accountability, and defines AI governance with an emphasis on embedding oversight and quality data inputs. It also describes the aim and processes for auditability, linking it to compliance and performance, and mentions specific AI agents and LLMs, demonstrating transparency about AI deployments and capabilities.",
+          "title": "IQVIA AI Governance",
+          "url": "https://iqvia.com/solutions/innovative-models/artificial-intelligence-and-machine-learning/ai-governance"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 11,
+      "findings": "Sources explicitly reference fairness and anti-discrimination laws, outlining fairness as a guiding principle for AI systems. Blog posts describe proactive practices such as embedding bias testing, continuous improvement, and assessing disparities to ensure equitable treatment and mitigate discrimination.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI: Exploring IQVIA's vision on AI governance in healthcare,\" provides evidence for **fairness, transparency, accountability, and auditability**. The post details IQVIA's five guiding principles, explicitly mentioning fairness and anti-discrimination laws, and discussing transparency through references to specific AI systems and the need for trust. It also highlights accountability and oversight by mentioning AI developers, biases, and monitoring, and supports auditability by referencing AI systems being monitored, assessed, and evaluated.",
+          "title": "Responsible AI: Exploring IQVIA's vision on AI governance in healthcare",
+          "url": "https://iqvia.com/blogs/2024/08/responsible-ai-exploring-iqvias-vision-on-ai-governance-in-healthcare"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"IQVIA AI Governance,\" provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The policy outlines guiding principles for AI systems, explicitly mentioning fairness, transparency, and accountability, and defines AI governance with an emphasis on embedding oversight and quality data inputs. It also describes the aim and processes for auditability, linking it to compliance and performance, and mentions specific AI agents and LLMs, demonstrating transparency about AI deployments and capabilities.",
+          "title": "IQVIA AI Governance",
+          "url": "https://iqvia.com/solutions/innovative-models/artificial-intelligence-and-machine-learning/ai-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Model Bias and Governance in Healthcare Insurance (IQVIA),\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The blog details proactive practices such as embedding bias testing, continuous improvement, assessing disparities, and implementing governance frameworks to ensure equitable treatment and mitigate discrimination. It also highlights a commitment to transparency through novel AI approaches and outlines components of an AI governance framework, including accountability and documentation requirements.",
+          "title": "Model Bias and Governance in Healthcare Insurance (IQVIA)",
+          "url": "https://iqvia.com/blogs/2025/09/model-bias-and-governance-in-healthcare-insurance"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 37,
+      "findings": "Sources explicitly reference \"AI Governance\" and \"Responsible AI practices\" as essential components of their platform, stating a commitment to standards and describing a commitment to clear guidelines for ethical AI use. Policy documents describe AI governance with an emphasis on embedding oversight and quality data inputs. Blog posts describe implementing governance frameworks and outline their components, including accountability and documentation requirements. Reports also describe the establishment of an AI Governance Council and a Center for Defensible AI.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI: Exploring IQVIA's vision on AI governance in healthcare,\" provides evidence for **fairness, transparency, accountability, and auditability**. The post details IQVIA's five guiding principles, explicitly mentioning fairness and anti-discrimination laws, and discussing transparency through references to specific AI systems and the need for trust. It also highlights accountability and oversight by mentioning AI developers, biases, and monitoring, and supports auditability by referencing AI systems being monitored, assessed, and evaluated.",
+          "title": "Responsible AI: Exploring IQVIA's vision on AI governance in healthcare",
+          "url": "https://iqvia.com/blogs/2024/08/responsible-ai-exploring-iqvias-vision-on-ai-governance-in-healthcare"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The \"SmartSolve® Complaint Management\" product page provides evidence for the **governance** pillar of responsible AI. This is because the page explicitly mentions \"AI Governance\" and \"Responsible AI practices\" as essential components of their platform, indicating a stated commitment to these principles.",
+          "title": "SmartSolve® Complaint Management",
+          "url": "https://iqvia.com/library/fact-sheets/smartsolve-complaint-management"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports transparency by mentioning the deployment of AI systems and governance by indicating that these systems are \"built into the Vault Platform.\" Furthermore, the press release demonstrates a commitment to responsible AI use, including privacy and regulatory compliance, which directly supports the privacy pillar.",
+          "title": "IQVIA and Veeva Announce Resolution of All Disputes",
+          "url": "https://www.veeva.com/resources/iqvia-and-veeva-announce-long-term-clinical-and-commercial-partnerships-and-resolution-of-all-disputes/"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"IQVIA AI Governance,\" provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The policy outlines guiding principles for AI systems, explicitly mentioning fairness, transparency, and accountability, and defines AI governance with an emphasis on embedding oversight and quality data inputs. It also describes the aim and processes for auditability, linking it to compliance and performance, and mentions specific AI agents and LLMs, demonstrating transparency about AI deployments and capabilities.",
+          "title": "IQVIA AI Governance",
+          "url": "https://iqvia.com/solutions/innovative-models/artificial-intelligence-and-machine-learning/ai-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Model Bias and Governance in Healthcare Insurance (IQVIA),\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The blog details proactive practices such as embedding bias testing, continuous improvement, assessing disparities, and implementing governance frameworks to ensure equitable treatment and mitigate discrimination. It also highlights a commitment to transparency through novel AI approaches and outlines components of an AI governance framework, including accountability and documentation requirements.",
+          "title": "Model Bias and Governance in Healthcare Insurance (IQVIA)",
+          "url": "https://iqvia.com/blogs/2025/09/model-bias-and-governance-in-healthcare-insurance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"From Promise to Practice: Trust in Life Sciences AI (IQVIA),\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog post highlights the requirement for trust in AI engineering and explicitly mentions \"AI Governance\" and \"Responsible AI practices,\" indicating a commitment to standards. It also discusses AI/ML capabilities and AI agents, aligning with the transparency pillar by describing the intended purpose and designed capabilities of AI systems.",
+          "title": "From Promise to Practice: Trust in Life Sciences AI (IQVIA)",
+          "url": "https://iqvia.com/blogs/2025/12/from-promise-to-practice-establishing-trust-in-life-sciences-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "The 2024 Sustainability Report provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The report details the establishment of an AI Governance Council and a Center for Defensible AI, demonstrating a commitment to clear guidelines and ethical AI use. Furthermore, the mention of \"IQVIA's Healthcare-grade AI™\" and the description of AI capabilities and use cases indicate a focus on transparency regarding AI's role and potential, while the augmentation of experts by AI agents implies a commitment to maintaining human oversight.",
+          "title": "2024 Sustainability Report",
+          "url": "https://iqvia.com/about-us/sustainability"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "Sources describe oversight by referencing AI developers, biases, and monitoring. Policy documents describe AI governance with an emphasis on embedding oversight. Reports describe the augmentation of experts by AI agents in relation to maintaining human oversight.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI: Exploring IQVIA's vision on AI governance in healthcare,\" provides evidence for **fairness, transparency, accountability, and auditability**. The post details IQVIA's five guiding principles, explicitly mentioning fairness and anti-discrimination laws, and discussing transparency through references to specific AI systems and the need for trust. It also highlights accountability and oversight by mentioning AI developers, biases, and monitoring, and supports auditability by referencing AI systems being monitored, assessed, and evaluated.",
+          "title": "Responsible AI: Exploring IQVIA's vision on AI governance in healthcare",
+          "url": "https://iqvia.com/blogs/2024/08/responsible-ai-exploring-iqvias-vision-on-ai-governance-in-healthcare"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"IQVIA AI Governance,\" provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The policy outlines guiding principles for AI systems, explicitly mentioning fairness, transparency, and accountability, and defines AI governance with an emphasis on embedding oversight and quality data inputs. It also describes the aim and processes for auditability, linking it to compliance and performance, and mentions specific AI agents and LLMs, demonstrating transparency about AI deployments and capabilities.",
+          "title": "IQVIA AI Governance",
+          "url": "https://iqvia.com/solutions/innovative-models/artificial-intelligence-and-machine-learning/ai-governance"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "The 2024 Sustainability Report provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The report details the establishment of an AI Governance Council and a Center for Defensible AI, demonstrating a commitment to clear guidelines and ethical AI use. Furthermore, the mention of \"IQVIA's Healthcare-grade AI™\" and the description of AI capabilities and use cases indicate a focus on transparency regarding AI's role and potential, while the augmentation of experts by AI agents implies a commitment to maintaining human oversight.",
+          "title": "2024 Sustainability Report",
+          "url": "https://iqvia.com/about-us/sustainability"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "Press releases describe a commitment to responsible AI use, including privacy. They also describe a commitment to regulatory compliance.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports transparency by mentioning the deployment of AI systems and governance by indicating that these systems are \"built into the Vault Platform.\" Furthermore, the press release demonstrates a commitment to responsible AI use, including privacy and regulatory compliance, which directly supports the privacy pillar.",
+          "title": "IQVIA and Veeva Announce Resolution of All Disputes",
+          "url": "https://www.veeva.com/resources/iqvia-and-veeva-announce-long-term-clinical-and-commercial-partnerships-and-resolution-of-all-disputes/"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 31,
+      "findings": "Sources outline transparency as a guiding principle for AI systems, describing the need for trust and a commitment to transparency through novel AI approaches. They reference the deployment of specific AI systems, AI agents, and LLMs, and describe their intended purpose, designed capabilities, use cases, role, and potential. Reports also reference \"IQVIA's Healthcare-grade AI™\".",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI: Exploring IQVIA's vision on AI governance in healthcare,\" provides evidence for **fairness, transparency, accountability, and auditability**. The post details IQVIA's five guiding principles, explicitly mentioning fairness and anti-discrimination laws, and discussing transparency through references to specific AI systems and the need for trust. It also highlights accountability and oversight by mentioning AI developers, biases, and monitoring, and supports auditability by referencing AI systems being monitored, assessed, and evaluated.",
+          "title": "Responsible AI: Exploring IQVIA's vision on AI governance in healthcare",
+          "url": "https://iqvia.com/blogs/2024/08/responsible-ai-exploring-iqvias-vision-on-ai-governance-in-healthcare"
+        },
+        {
+          "artifact_type": "court_filing",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports transparency by mentioning the deployment of AI systems and governance by indicating that these systems are \"built into the Vault Platform.\" Furthermore, the press release demonstrates a commitment to responsible AI use, including privacy and regulatory compliance, which directly supports the privacy pillar.",
+          "title": "IQVIA and Veeva Announce Resolution of All Disputes",
+          "url": "https://www.veeva.com/resources/iqvia-and-veeva-announce-long-term-clinical-and-commercial-partnerships-and-resolution-of-all-disputes/"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"IQVIA AI Governance,\" provides evidence for **external_accountability, fairness, governance, oversight, and transparency**. The policy outlines guiding principles for AI systems, explicitly mentioning fairness, transparency, and accountability, and defines AI governance with an emphasis on embedding oversight and quality data inputs. It also describes the aim and processes for auditability, linking it to compliance and performance, and mentions specific AI agents and LLMs, demonstrating transparency about AI deployments and capabilities.",
+          "title": "IQVIA AI Governance",
+          "url": "https://iqvia.com/solutions/innovative-models/artificial-intelligence-and-machine-learning/ai-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Model Bias and Governance in Healthcare Insurance (IQVIA),\" provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. The blog details proactive practices such as embedding bias testing, continuous improvement, assessing disparities, and implementing governance frameworks to ensure equitable treatment and mitigate discrimination. It also highlights a commitment to transparency through novel AI approaches and outlines components of an AI governance framework, including accountability and documentation requirements.",
+          "title": "Model Bias and Governance in Healthcare Insurance (IQVIA)",
+          "url": "https://iqvia.com/blogs/2025/09/model-bias-and-governance-in-healthcare-insurance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"From Promise to Practice: Trust in Life Sciences AI (IQVIA),\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The blog post highlights the requirement for trust in AI engineering and explicitly mentions \"AI Governance\" and \"Responsible AI practices,\" indicating a commitment to standards. It also discusses AI/ML capabilities and AI agents, aligning with the transparency pillar by describing the intended purpose and designed capabilities of AI systems.",
+          "title": "From Promise to Practice: Trust in Life Sciences AI (IQVIA)",
+          "url": "https://iqvia.com/blogs/2025/12/from-promise-to-practice-establishing-trust-in-life-sciences-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "The 2024 Sustainability Report provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. The report details the establishment of an AI Governance Council and a Center for Defensible AI, demonstrating a commitment to clear guidelines and ethical AI use. Furthermore, the mention of \"IQVIA's Healthcare-grade AI™\" and the description of AI capabilities and use cases indicate a focus on transparency regarding AI's role and potential, while the augmentation of experts by AI agents implies a commitment to maintaining human oversight.",
+          "title": "2024 Sustainability Report",
+          "url": "https://iqvia.com/about-us/sustainability"
+        }
+      ],
+      "score": 2,
+      "source_count": 6
+    }
+  },
+  "published_at": "2026-03-19T17:16:42Z",
+  "run_id": "20260309_183426_dedc",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "IQVIA's product pages explicitly reference \"AI Governance\" and \"Responsible AI practices\" as essential components of their platform. Additionally, blog posts describe the need for trust in relation to transparency and explicitly reference fairness and anti-discrimination laws. All 7 evaluated pillars have documented public evidence, drawing from 15 publicly available sources. Beyond these operational practices, explainability, oversight, privacy, and external accountability are addressed at the policy level, with press releases describing a commitment to responsible AI use, including privacy and regulatory compliance.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 55,
+    "total_sources_used": 7
+  }
+}

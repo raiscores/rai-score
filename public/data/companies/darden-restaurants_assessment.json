@@ -1,0 +1,151 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 14.3,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 2
+  },
+  "company": "Darden Restaurants",
+  "company_slug": "darden-restaurants",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 3,
+      "OPERATIONAL": 0,
+      "POLICY": 13
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 12,
+      "findings": "The company's Privacy Notice references third-party vendor oversight for analytics and marketing activities. Additionally, the Analytics and AI Strategy highlights strategic planning and management of AI risks, including the development of AI governance policies, setting guardrails, and defining decision-making authority.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The Darden Restaurants Privacy Notice provides evidence for the **governance** and **privacy** pillars. This policy document supports the privacy pillar by detailing data collection and sharing practices, including the use of profiling, inferences, and automated tools for analytics and advertising, and by offering opt-out rights for cross-context behavioral advertising. It also touches on governance through its mention of third-party vendor oversight for analytics and marketing activities.",
+          "title": "Darden Restaurants Privacy Notice",
+          "url": "https://darden.com/privacy-notice"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "The \"Darden Restaurants Analytics and AI Strategy\" press release provides evidence for the **governance** and **privacy** pillars of responsible AI. It highlights the strategic planning and management of AI risks, including the development of AI governance policies, setting guardrails, and defining decision-making authority. Furthermore, the press release addresses privacy concerns by discussing the risks of unauthorized AI use leading to data leaks, underscoring the need for robust privacy policies.",
+          "title": "Darden Restaurants Analytics and AI Strategy",
+          "url": "https://informationweek.com/big-data/darden-restaurants-serves-up-data-analytics"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 7,
+      "findings": "The company's Privacy Notice details data collection and sharing practices, including the use of profiling, inferences, and automated tools for analytics and advertising. This notice also offers opt-out rights for cross-context behavioral advertising.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The Darden Restaurants Privacy Notice provides evidence for the **governance** and **privacy** pillars. This policy document supports the privacy pillar by detailing data collection and sharing practices, including the use of profiling, inferences, and automated tools for analytics and advertising, and by offering opt-out rights for cross-context behavioral advertising. It also touches on governance through its mention of third-party vendor oversight for analytics and marketing activities.",
+          "title": "Darden Restaurants Privacy Notice",
+          "url": "https://darden.com/privacy-notice"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "The \"Darden Restaurants Analytics and AI Strategy\" press release provides evidence for the **governance** and **privacy** pillars of responsible AI. It highlights the strategic planning and management of AI risks, including the development of AI governance policies, setting guardrails, and defining decision-making authority. Furthermore, the press release addresses privacy concerns by discussing the risks of unauthorized AI use leading to data leaks, underscoring the need for robust privacy policies.",
+          "title": "Darden Restaurants Analytics and AI Strategy",
+          "url": "https://informationweek.com/big-data/darden-restaurants-serves-up-data-analytics"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": null,
+      "display_name": "Transparency",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document AI systems in use, including vendor/third-party AI tools.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    }
+  },
+  "published_at": "2026-03-19T17:08:27Z",
+  "run_id": "20260309_175703_482e",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Darden Restaurants' public disclosures detail data collection and sharing practices within its Privacy Notice, addressing privacy and governance, two of the seven evaluated responsible AI pillars. The Privacy Notice also describes the use of profiling, inferences, and automated tools for analytics and advertising, while the Analytics and AI Strategy highlights strategic planning and management of AI risks. No qualifying public evidence was found for the majority of the 7 evaluated pillars, based on a review of 8 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 2,
+    "pillars_without_evidence": 5,
+    "total_evidence_items": 16,
+    "total_sources_used": 2
+  }
+}

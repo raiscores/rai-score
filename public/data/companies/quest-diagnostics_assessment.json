@@ -1,0 +1,199 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 21.4,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 3
+  },
+  "company": "Quest Diagnostics",
+  "company_slug": "quest-diagnostics",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 8,
+      "OPERATIONAL": 1,
+      "POLICY": 22
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 16,
+      "findings": "Quest Diagnostics details the licensing of AI systems and indicates strategic oversight of AI adoption and vendor relationships. The company highlights strategic collaborations for generative AI and mentions the use of specific AI models. Additionally, its privacy notice discusses data disclosure with third parties and outlines policies around vendor oversight and opt-out mechanisms for profiling.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the licensing of PathAI's digital pathology image management system and algorithm portfolio, indicating strategic oversight of AI adoption and vendor relationships. Transparency is supported by the announcement of AI's function in cancer diagnosis and Quest's history of deployment, though specific operational or policy mechanisms are not detailed.",
+          "title": "Quest Diagnostics to Acquire PathAI Diagnostics",
+          "url": "https://newsroom.questdiagnostics.com/2024-05-01-Quest-Diagnostics-to-Acquire-PathAI-Diagnostics-to-Accelerate-AI-and-Digital-Pathology-Adoption-in-Cancer-Diagnosis-Forms-Licensing-Agreements-with-PathAI"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It highlights a strategic collaboration leveraging HIPAA-compliant infrastructure for generative AI, indicating a commitment to data privacy and security safeguards. The document also touches upon the responsible and secure evolution of AI insights and mentions the deployment of AI capabilities, implying a focus on transparency in their offerings and future vision.",
+          "title": "Quest Diagnostics and Google Cloud Gen AI Collaboration",
+          "url": "https://prnewswire.com/news-releases/quest-diagnostics-to-collaborate-with-google-cloud-to-streamline-data-and-personalize-customer-experiences-using-generative-ai-302403989.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "The Quest Diagnostics Privacy Notice, a company-owned privacy policy, provides evidence for the **governance** and **privacy** pillars. It supports governance by discussing data disclosure for targeted advertising and operational purposes with third parties, as well as policies around vendor oversight and opt-out mechanisms for profiling. The policy also supports privacy by outlining data usage for profiling and analytics, and explicitly stating a policy against using profiling for significant decisions, indicating controls over automated decision-making.",
+          "title": "Quest Diagnostics Privacy Notice",
+          "url": "https://questdiagnostics.com/our-company/privacy/privacy-notice"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance, privacy, and transparency**. It supports governance by mentioning the use of Google's Gemini models and a strategic collaboration, implying oversight of vendor AI integration. Evidence for privacy is found in the emphasis on operating within a secure, HIPAA-compliant environment and avoiding public AI tools. Transparency is demonstrated by the announcement of the AI-powered feature, its use case in analyzing lab results for trends, and the mention of the specific AI models used.",
+          "title": "Quest Diagnostics Introduces AI Companion to Help Patients Understand and Act on Lab Test Results",
+          "url": "https://newsroom.questdiagnostics.com/2026-03-02-Quest-Diagnostics-Introduces-AI-Companion-to-Help-Patients-Understand-and-Act-on-Lab-Test-Results"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 16,
+      "findings": "Quest Diagnostics highlights a strategic collaboration leveraging HIPAA-compliant infrastructure for generative AI and indicates a commitment to data privacy and security safeguards. Its privacy notice outlines data usage for profiling and analytics, stating a policy against using profiling for significant decisions and indicating controls over automated decision-making. The company also emphasizes operating within a secure, HIPAA-compliant environment and references avoiding public AI tools.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It highlights a strategic collaboration leveraging HIPAA-compliant infrastructure for generative AI, indicating a commitment to data privacy and security safeguards. The document also touches upon the responsible and secure evolution of AI insights and mentions the deployment of AI capabilities, implying a focus on transparency in their offerings and future vision.",
+          "title": "Quest Diagnostics and Google Cloud Gen AI Collaboration",
+          "url": "https://prnewswire.com/news-releases/quest-diagnostics-to-collaborate-with-google-cloud-to-streamline-data-and-personalize-customer-experiences-using-generative-ai-302403989.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "The Quest Diagnostics Privacy Notice, a company-owned privacy policy, provides evidence for the **governance** and **privacy** pillars. It supports governance by discussing data disclosure for targeted advertising and operational purposes with third parties, as well as policies around vendor oversight and opt-out mechanisms for profiling. The policy also supports privacy by outlining data usage for profiling and analytics, and explicitly stating a policy against using profiling for significant decisions, indicating controls over automated decision-making.",
+          "title": "Quest Diagnostics Privacy Notice",
+          "url": "https://questdiagnostics.com/our-company/privacy/privacy-notice"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance, privacy, and transparency**. It supports governance by mentioning the use of Google's Gemini models and a strategic collaboration, implying oversight of vendor AI integration. Evidence for privacy is found in the emphasis on operating within a secure, HIPAA-compliant environment and avoiding public AI tools. Transparency is demonstrated by the announcement of the AI-powered feature, its use case in analyzing lab results for trends, and the mention of the specific AI models used.",
+          "title": "Quest Diagnostics Introduces AI Companion to Help Patients Understand and Act on Lab Test Results",
+          "url": "https://newsroom.questdiagnostics.com/2026-03-02-Quest-Diagnostics-Introduces-AI-Companion-to-Help-Patients-Understand-and-Act-on-Lab-Test-Results"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 12,
+      "findings": "Quest Diagnostics announces the function of AI in cancer diagnosis and references its history of AI deployment. The company also mentions the deployment of AI capabilities and a focus on transparency in its offerings and future vision. Furthermore, it announces an AI-powered feature for analyzing lab results and mentions the specific AI models used for this feature.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing the licensing of PathAI's digital pathology image management system and algorithm portfolio, indicating strategic oversight of AI adoption and vendor relationships. Transparency is supported by the announcement of AI's function in cancer diagnosis and Quest's history of deployment, though specific operational or policy mechanisms are not detailed.",
+          "title": "Quest Diagnostics to Acquire PathAI Diagnostics",
+          "url": "https://newsroom.questdiagnostics.com/2024-05-01-Quest-Diagnostics-to-Acquire-PathAI-Diagnostics-to-Accelerate-AI-and-Digital-Pathology-Adoption-in-Cancer-Diagnosis-Forms-Licensing-Agreements-with-PathAI"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It highlights a strategic collaboration leveraging HIPAA-compliant infrastructure for generative AI, indicating a commitment to data privacy and security safeguards. The document also touches upon the responsible and secure evolution of AI insights and mentions the deployment of AI capabilities, implying a focus on transparency in their offerings and future vision.",
+          "title": "Quest Diagnostics and Google Cloud Gen AI Collaboration",
+          "url": "https://prnewswire.com/news-releases/quest-diagnostics-to-collaborate-with-google-cloud-to-streamline-data-and-personalize-customer-experiences-using-generative-ai-302403989.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for **governance, privacy, and transparency**. It supports governance by mentioning the use of Google's Gemini models and a strategic collaboration, implying oversight of vendor AI integration. Evidence for privacy is found in the emphasis on operating within a secure, HIPAA-compliant environment and avoiding public AI tools. Transparency is demonstrated by the announcement of the AI-powered feature, its use case in analyzing lab results for trends, and the mention of the specific AI models used.",
+          "title": "Quest Diagnostics Introduces AI Companion to Help Patients Understand and Act on Lab Test Results",
+          "url": "https://newsroom.questdiagnostics.com/2026-03-02-Quest-Diagnostics-Introduces-AI-Companion-to-Help-Patients-Understand-and-Act-on-Lab-Test-Results"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T17:24:04Z",
+  "run_id": "20260309_190508_fb6f",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Quest Diagnostics' public disclosures highlight strategic oversight of AI adoption and vendor relationships within governance, and announce AI's function in cancer diagnosis under transparency. These areas are among the 3 of 7 responsible AI pillars for which documented evidence was found. Privacy is also addressed, with materials highlighting a strategic collaboration leveraging HIPAA-compliant infrastructure for generative AI. No qualifying public evidence was found for fairness, explainability, and 2 additional pillars. This assessment draws on 14 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 31,
+    "total_sources_used": 4
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "Leidos",
+  "company_slug": "leidos",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 0,
+      "OPERATIONAL": 0,
+      "POLICY": 13
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Articles mention adhering to external frameworks and directives, including regulations and policies such as the White House's AI Bill of Rights and the NIST AI Risk Management Framework.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This article, \"Making Sense of AI Solutions for Health Care,\" provides evidence for **external_accountability** and **governance**. It details Leidos' internal framework for AI development, including their '4A methodology' and specific ethical assessments, demonstrating a commitment to governance by capturing regulations and policies like the White House's AI Bill of Rights and the NIST AI Risk Management Framework. The mention of adhering to these external frameworks and directives directly supports the external_accountability pillar.",
+          "title": "Making Sense of AI Solutions for Health Care",
+          "url": "https://govciomedia.com/news/making-sense-of-ai-solutions-for-health-care/"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "Published materials highlight a commitment to equitable AI principles. Company blog posts also mention efforts to reduce bias.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It highlights the U.S. government's commitment to \"equitable\" and \"traceable\" AI principles, directly supporting fairness. The discussion of \"AI assurance,\" sharing best practices, and developing AI strategies demonstrates a focus on governance. Furthermore, the mention of understanding LLM capabilities and model limitations implies a commitment to transparency.",
+          "title": "National security AI leaders discuss guiding principles, commitment to ethical AI",
+          "url": "https://leidos.com/insights/national-security-ai-leaders-discuss-guiding-principles-commitment-ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"Trusted AI: The Leidos Way,\" provides evidence for **fairness, governance, oversight, and transparency** in responsible AI. It supports fairness by explicitly mentioning efforts to reduce bias and outlines a commitment to governance through its foundational emphasis on trust. The post also demonstrates oversight by highlighting that humans remain in charge of the AI pipeline and supports transparency by stating that data is auditable.",
+          "title": "Trusted AI: The Leidos Way",
+          "url": "https://leidos.com/insights/trusted-ai-leidos-way"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 13,
+      "findings": "Published materials discuss AI assurance, sharing best practices, and developing AI strategies. Articles detail an internal framework for AI development, including a '4A methodology' and specific ethical assessments, which captures regulations and policies like the White House's AI Bill of Rights and the NIST AI Risk Management Framework. Company blog posts also outline a commitment to governance through a foundational emphasis on trust.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It highlights the U.S. government's commitment to \"equitable\" and \"traceable\" AI principles, directly supporting fairness. The discussion of \"AI assurance,\" sharing best practices, and developing AI strategies demonstrates a focus on governance. Furthermore, the mention of understanding LLM capabilities and model limitations implies a commitment to transparency.",
+          "title": "National security AI leaders discuss guiding principles, commitment to ethical AI",
+          "url": "https://leidos.com/insights/national-security-ai-leaders-discuss-guiding-principles-commitment-ethical-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This article, \"Making Sense of AI Solutions for Health Care,\" provides evidence for **external_accountability** and **governance**. It details Leidos' internal framework for AI development, including their '4A methodology' and specific ethical assessments, demonstrating a commitment to governance by capturing regulations and policies like the White House's AI Bill of Rights and the NIST AI Risk Management Framework. The mention of adhering to these external frameworks and directives directly supports the external_accountability pillar.",
+          "title": "Making Sense of AI Solutions for Health Care",
+          "url": "https://govciomedia.com/news/making-sense-of-ai-solutions-for-health-care/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"Trusted AI: The Leidos Way,\" provides evidence for **fairness, governance, oversight, and transparency** in responsible AI. It supports fairness by explicitly mentioning efforts to reduce bias and outlines a commitment to governance through its foundational emphasis on trust. The post also demonstrates oversight by highlighting that humans remain in charge of the AI pipeline and supports transparency by stating that data is auditable.",
+          "title": "Trusted AI: The Leidos Way",
+          "url": "https://leidos.com/insights/trusted-ai-leidos-way"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "Company blog posts highlight that humans remain in charge of the AI pipeline.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"Trusted AI: The Leidos Way,\" provides evidence for **fairness, governance, oversight, and transparency** in responsible AI. It supports fairness by explicitly mentioning efforts to reduce bias and outlines a commitment to governance through its foundational emphasis on trust. The post also demonstrates oversight by highlighting that humans remain in charge of the AI pipeline and supports transparency by stating that data is auditable.",
+          "title": "Trusted AI: The Leidos Way",
+          "url": "https://leidos.com/insights/trusted-ai-leidos-way"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 2,
+      "findings": "Published materials reference understanding LLM capabilities and model limitations. Company blog posts also state that data is auditable.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This blog post provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It highlights the U.S. government's commitment to \"equitable\" and \"traceable\" AI principles, directly supporting fairness. The discussion of \"AI assurance,\" sharing best practices, and developing AI strategies demonstrates a focus on governance. Furthermore, the mention of understanding LLM capabilities and model limitations implies a commitment to transparency.",
+          "title": "National security AI leaders discuss guiding principles, commitment to ethical AI",
+          "url": "https://leidos.com/insights/national-security-ai-leaders-discuss-guiding-principles-commitment-ethical-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This company blog post, \"Trusted AI: The Leidos Way,\" provides evidence for **fairness, governance, oversight, and transparency** in responsible AI. It supports fairness by explicitly mentioning efforts to reduce bias and outlines a commitment to governance through its foundational emphasis on trust. The post also demonstrates oversight by highlighting that humans remain in charge of the AI pipeline and supports transparency by stating that data is auditable.",
+          "title": "Trusted AI: The Leidos Way",
+          "url": "https://leidos.com/insights/trusted-ai-leidos-way"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-03-19T17:18:57Z",
+  "run_id": "20260309_165447_8029",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Privacy & Security"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Leidos' published materials reference understanding LLM capabilities and model limitations, indicating a focus on transparency, one of 5 of 7 evaluated responsible AI pillars with documented evidence. Further policy-level disclosures highlight a commitment to equitable AI principles under fairness, discuss AI assurance for governance, and mention adhering to external frameworks for external accountability. These findings are based on a review of 10 publicly available sources. No qualifying public evidence was found for explainability or privacy.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 13,
+    "total_sources_used": 3
+  }
+}

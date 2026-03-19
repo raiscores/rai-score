@@ -1,0 +1,211 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Palo Alto Networks",
+  "company_slug": "palo-alto-networks",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 3,
+      "POLICY": 17
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "Documentation outlines fairness as a principle that guides the AI system lifecycle.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned document, \"What Is Responsible AI?\", provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It defines Responsible AI as a governance discipline, outlining principles like fairness, transparency, and privacy that guide the AI system lifecycle. The document details mechanisms such as formal impact assessments, operational review gates, documentation requirements, and monitoring with escalation procedures, all contributing to governance, oversight, and transparency.",
+          "title": "What Is Responsible AI?",
+          "url": "https://paloaltonetworks.com/cyberpedia/what-is-responsible-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 20,
+      "findings": "Documentation describes granular access controls and AI strategy codification. A DEF14A filing references a \"Responsible Use of Artificial Intelligence Policy\" that outlines six core principles for AI design and use. Documentation states Responsible AI as a governance discipline, outlining principles like fairness, transparency, and privacy that guide the AI system lifecycle, and details mechanisms such as formal impact assessments, operational review gates, documentation requirements, and monitoring with escalation procedures.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned page, \"AI Access Security,\" provides evidence for **governance, oversight, privacy, and transparency**. It describes mechanisms for AI-driven policy enforcement and user coaching, supporting **oversight**, while granular access controls and AI strategy codification highlight **governance**. The document also details LLM/ML for data classification and privacy protection, directly supporting the **privacy** pillar, and focuses on AI visibility and discovery, indicating **transparency** over GenAI applications.",
+          "title": "AI Access Security",
+          "url": "https://paloaltonetworks.com/sase/ai-access-security"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "The DEF14A filing from Palo Alto Networks, as noted in the \"Tracking AI Disclosures Across Corporate America\" report, provides evidence for the **governance** and **transparency** pillars. The filing references a \"Responsible Use of Artificial Intelligence Policy\" which outlines six core principles for AI design and use, demonstrating a commitment to AI governance. Furthermore, the mention of this policy and its principles supports transparency by disclosing the framework for how AI technologies are managed.",
+          "title": "Tracking AI Disclosures Across Corporate America",
+          "url": "https://equilar.com/reports/tracking-ai-disclosures-across-corporate-america"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned document, \"What Is Responsible AI?\", provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It defines Responsible AI as a governance discipline, outlining principles like fairness, transparency, and privacy that guide the AI system lifecycle. The document details mechanisms such as formal impact assessments, operational review gates, documentation requirements, and monitoring with escalation procedures, all contributing to governance, oversight, and transparency.",
+          "title": "What Is Responsible AI?",
+          "url": "https://paloaltonetworks.com/cyberpedia/what-is-responsible-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 8,
+      "findings": "Documentation describes mechanisms for AI-driven policy enforcement and user coaching. It also details mechanisms such as formal impact assessments, operational review gates, documentation requirements, and monitoring with escalation procedures, all contributing to oversight.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned page, \"AI Access Security,\" provides evidence for **governance, oversight, privacy, and transparency**. It describes mechanisms for AI-driven policy enforcement and user coaching, supporting **oversight**, while granular access controls and AI strategy codification highlight **governance**. The document also details LLM/ML for data classification and privacy protection, directly supporting the **privacy** pillar, and focuses on AI visibility and discovery, indicating **transparency** over GenAI applications.",
+          "title": "AI Access Security",
+          "url": "https://paloaltonetworks.com/sase/ai-access-security"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned document, \"What Is Responsible AI?\", provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It defines Responsible AI as a governance discipline, outlining principles like fairness, transparency, and privacy that guide the AI system lifecycle. The document details mechanisms such as formal impact assessments, operational review gates, documentation requirements, and monitoring with escalation procedures, all contributing to governance, oversight, and transparency.",
+          "title": "What Is Responsible AI?",
+          "url": "https://paloaltonetworks.com/cyberpedia/what-is-responsible-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "Documentation details the use of LLM/ML for data classification and privacy protection. It also outlines privacy as a principle guiding the AI system lifecycle.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned page, \"AI Access Security,\" provides evidence for **governance, oversight, privacy, and transparency**. It describes mechanisms for AI-driven policy enforcement and user coaching, supporting **oversight**, while granular access controls and AI strategy codification highlight **governance**. The document also details LLM/ML for data classification and privacy protection, directly supporting the **privacy** pillar, and focuses on AI visibility and discovery, indicating **transparency** over GenAI applications.",
+          "title": "AI Access Security",
+          "url": "https://paloaltonetworks.com/sase/ai-access-security"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned document, \"What Is Responsible AI?\", provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It defines Responsible AI as a governance discipline, outlining principles like fairness, transparency, and privacy that guide the AI system lifecycle. The document details mechanisms such as formal impact assessments, operational review gates, documentation requirements, and monitoring with escalation procedures, all contributing to governance, oversight, and transparency.",
+          "title": "What Is Responsible AI?",
+          "url": "https://paloaltonetworks.com/cyberpedia/what-is-responsible-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 11,
+      "findings": "The company's documentation describes AI visibility and discovery for GenAI applications. A DEF14A filing references a \"Responsible Use of Artificial Intelligence Policy\" that outlines six core principles for AI design and use, describing the framework for AI technology management. Documentation also outlines transparency as a guiding principle for the AI system lifecycle and details mechanisms like formal impact assessments, operational review gates, documentation requirements, and monitoring with escalation procedures that contribute to transparency.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned page, \"AI Access Security,\" provides evidence for **governance, oversight, privacy, and transparency**. It describes mechanisms for AI-driven policy enforcement and user coaching, supporting **oversight**, while granular access controls and AI strategy codification highlight **governance**. The document also details LLM/ML for data classification and privacy protection, directly supporting the **privacy** pillar, and focuses on AI visibility and discovery, indicating **transparency** over GenAI applications.",
+          "title": "AI Access Security",
+          "url": "https://paloaltonetworks.com/sase/ai-access-security"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "The DEF14A filing from Palo Alto Networks, as noted in the \"Tracking AI Disclosures Across Corporate America\" report, provides evidence for the **governance** and **transparency** pillars. The filing references a \"Responsible Use of Artificial Intelligence Policy\" which outlines six core principles for AI design and use, demonstrating a commitment to AI governance. Furthermore, the mention of this policy and its principles supports transparency by disclosing the framework for how AI technologies are managed.",
+          "title": "Tracking AI Disclosures Across Corporate America",
+          "url": "https://equilar.com/reports/tracking-ai-disclosures-across-corporate-america"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned document, \"What Is Responsible AI?\", provides evidence for the pillars of fairness, governance, oversight, privacy, and transparency. It defines Responsible AI as a governance discipline, outlining principles like fairness, transparency, and privacy that guide the AI system lifecycle. The document details mechanisms such as formal impact assessments, operational review gates, documentation requirements, and monitoring with escalation procedures, all contributing to governance, oversight, and transparency.",
+          "title": "What Is Responsible AI?",
+          "url": "https://paloaltonetworks.com/cyberpedia/what-is-responsible-ai"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T17:23:01Z",
+  "run_id": "20260309_190201_e116",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Palo Alto Networks' public disclosures detail operational practices for transparency, oversight, and governance, alongside policy-level commitments for fairness and privacy, addressing 5 of 7 evaluated responsible AI pillars. Published materials describe AI visibility and discovery over GenAI applications, mechanisms for AI-driven policy enforcement and user coaching, and granular access controls. Additionally, a DEF14A filing references a \"Responsible Use of Artificial Intelligence Policy\" outlining six core principles for AI design and use, and other disclosures outline fairness as a principle guiding the AI system lifecycle and detail LLM/ML for data classification, all based on 10 publicly available sources. No qualifying public evidence was found for explainability or external accountability.",
+    "pillars_operational": 3,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 22,
+    "total_sources_used": 3
+  }
+}

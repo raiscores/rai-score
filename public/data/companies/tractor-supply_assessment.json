@@ -1,0 +1,191 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Tractor Supply",
+  "company_slug": "tractor-supply",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 13,
+      "OPERATIONAL": 3,
+      "POLICY": 32
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 34,
+      "findings": "A technical paper analyzes hiring discrimination by examining race and gender contact gaps. This paper addresses fairness through metrics such as the \"4/5th's rule standard\" and bias-corrected estimates.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"A Discrimination Report Card,\" provides evidence for the **fairness** and **transparency** pillars of responsible AI. The study analyzes hiring discrimination by examining race and gender contact gaps, directly addressing fairness through metrics like the \"4/5th's rule standard\" and bias-corrected estimates. Furthermore, the paper discusses the reliability and \"discordance rates\" of algorithmic \"grades\" and \"comparisons,\" implying transparency in how model performance and fairness evaluations are conducted and presented.",
+          "title": "A Discrimination Report Card",
+          "url": "https://nber.org/system/files/working_papers/w32313/w32313.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 9,
+      "findings": "Sources discuss the reshaping of roles and routines for AI integration and reference the definition of agentic AI. An article highlights a strategic decision to partner with OpenAI for consistent AI governance, data access, and policy enforcement, indicating a structured approach to vendor selection and AI management. This article also touches on operational efforts like prompt engineering and workflow quality, suggesting a focus on controlling AI outputs. Discussions further suggest the existence of governance structures for AI platforms and AI-enabled experiences.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This article, \"Reimagining Merchandising in the Era of Agentic AI,\" provides evidence for **governance, oversight, and transparency**. It supports governance by discussing the reshaping of roles and routines for AI integration and defining agentic AI. Evidence for oversight is found in the mention of AI-initiated changes with human oversight and the definition of a decision matrix. Transparency is supported by the description of an AI reasoning layer, implying system design transparency, and the mention of AI use cases for transparency.",
+          "title": "Reimagining Merchandising in the Era of Agentic AI",
+          "url": "https://bain.com/insights/reimagining-merchandising-in-the-era-of-agentic-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This Modern Retail article provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights Tractor Supply's strategic decision to partner with OpenAI for consistent AI governance, data access, and policy enforcement, indicating a structured approach to vendor selection and AI management. The article also touches on operational efforts like prompt engineering and workflow quality, suggesting a focus on controlling AI outputs.",
+          "title": "Tractor Supply Bets on OpenAI as Primary AI Partner (Modern Retail)",
+          "url": "https://modernretail.co/technology/tractor-supply-bets-on-openai-as-its-primary-ai-partner"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This podcast episode, \"Tractor Supply Shows the Power of AI in Retail,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The discussion of AI platforms and AI-enabled experiences suggests the existence of governance structures and transparency in how these systems are managed. Furthermore, highlighting generative AI's impact on workflows and decisions implies a degree of transparency in its application and how it influences operational outcomes.",
+          "title": "Tractor Supply Shows the Power of AI in Retail (IBM AI in Action Podcast)",
+          "url": "https://ibm.com/think/podcasts/ai-in-action/tractor-supply-company-shows-the-power-of-ai-in-retail"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "An article mentions AI-initiated changes that include human oversight. This article also references the definition of a decision matrix.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This article, \"Reimagining Merchandising in the Era of Agentic AI,\" provides evidence for **governance, oversight, and transparency**. It supports governance by discussing the reshaping of roles and routines for AI integration and defining agentic AI. Evidence for oversight is found in the mention of AI-initiated changes with human oversight and the definition of a decision matrix. Transparency is supported by the description of an AI reasoning layer, implying system design transparency, and the mention of AI use cases for transparency.",
+          "title": "Reimagining Merchandising in the Era of Agentic AI",
+          "url": "https://bain.com/insights/reimagining-merchandising-in-the-era-of-agentic-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 24,
+      "findings": "Sources describe an AI reasoning layer and mention AI use cases for transparency. Technical papers discuss the reliability and \"discordance rates\" of algorithmic \"grades\" and \"comparisons,\" implying transparency in model performance and fairness evaluations. Discussions also suggest transparency in the management of AI platforms and AI-enabled experiences, as well as in generative AI's application and its influence on operational outcomes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This article, \"Reimagining Merchandising in the Era of Agentic AI,\" provides evidence for **governance, oversight, and transparency**. It supports governance by discussing the reshaping of roles and routines for AI integration and defining agentic AI. Evidence for oversight is found in the mention of AI-initiated changes with human oversight and the definition of a decision matrix. Transparency is supported by the description of an AI reasoning layer, implying system design transparency, and the mention of AI use cases for transparency.",
+          "title": "Reimagining Merchandising in the Era of Agentic AI",
+          "url": "https://bain.com/insights/reimagining-merchandising-in-the-era-of-agentic-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"A Discrimination Report Card,\" provides evidence for the **fairness** and **transparency** pillars of responsible AI. The study analyzes hiring discrimination by examining race and gender contact gaps, directly addressing fairness through metrics like the \"4/5th's rule standard\" and bias-corrected estimates. Furthermore, the paper discusses the reliability and \"discordance rates\" of algorithmic \"grades\" and \"comparisons,\" implying transparency in how model performance and fairness evaluations are conducted and presented.",
+          "title": "A Discrimination Report Card",
+          "url": "https://nber.org/system/files/working_papers/w32313/w32313.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This Modern Retail article provides evidence for the **governance** and **transparency** pillars of responsible AI. It highlights Tractor Supply's strategic decision to partner with OpenAI for consistent AI governance, data access, and policy enforcement, indicating a structured approach to vendor selection and AI management. The article also touches on operational efforts like prompt engineering and workflow quality, suggesting a focus on controlling AI outputs.",
+          "title": "Tractor Supply Bets on OpenAI as Primary AI Partner (Modern Retail)",
+          "url": "https://modernretail.co/technology/tractor-supply-bets-on-openai-as-its-primary-ai-partner"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This podcast episode, \"Tractor Supply Shows the Power of AI in Retail,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The discussion of AI platforms and AI-enabled experiences suggests the existence of governance structures and transparency in how these systems are managed. Furthermore, highlighting generative AI's impact on workflows and decisions implies a degree of transparency in its application and how it influences operational outcomes.",
+          "title": "Tractor Supply Shows the Power of AI in Retail (IBM AI in Action Podcast)",
+          "url": "https://ibm.com/think/podcasts/ai-in-action/tractor-supply-company-shows-the-power-of-ai-in-retail"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-03-19T17:27:19Z",
+  "run_id": "20260309_191838_24e1",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Tractor Supply's public disclosures address fairness through technical papers analyzing hiring discrimination by examining race and gender contact gaps, and transparency by describing an AI reasoning layer. These are among the 4 of 7 responsible AI pillars for which documented evidence was found. Further materials discuss governance by referencing the reshaping of roles and routines for AI integration, and oversight through articles mentioning AI-initiated changes with human oversight. No qualifying public evidence was found for explainability, privacy, and 1 additional pillar. The assessment draws on 11 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 48,
+    "total_sources_used": 4
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Lumen Technologies",
+  "company_slug": "lumen-technologies",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 5,
+      "OPERATIONAL": 1,
+      "POLICY": 16
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 4,
+      "findings": "Blog posts discuss the importance of explainability with justification. Third-party articles highlight an approach using deterministic, orchestrated workflows for auditable AI operations, and describe mechanisms like defined interaction rules, access controls, triggers for human review, and governed conditions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party article, \"Building Trust in Non-Deterministic Systems: A Framework for Responsible AI Operations,\" provides evidence for explainability, external accountability, governance, and oversight. It highlights Lumen Technologies' approach of using deterministic, orchestrated workflows as \"AI on rails\" to ensure safe and effective adoption of agentic AI for network management. The article details mechanisms like defined interaction rules, access controls, triggers for human review, and governed conditions, which contribute to auditable and compliant AI operations.",
+          "title": "Building Trust in Non-Deterministic Systems: A Framework for Responsible AI Operations",
+          "url": "https://itential.com/blog/building-trust-in-non-deterministic-systems-a-framework-for-responsible-ai-operations"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post advocates for \"glass box models\" built on responsible machine learning principles, providing evidence for the **transparency**, **explainability**, **fairness**, and **privacy** pillars. The post supports these pillars by discussing the importance of bias evaluation, explainability with justification, and trust through privacy, while also referencing the concept of moving away from \"black-box\" models.",
+          "title": "Using responsible machine learning to drive customer-centric insights",
+          "url": "https://blog.lumen.com/using-responsible-machine-learning-to-drive-customer-centric-insights"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "Blog posts mention conducting regular audits of AI systems. Third-party articles describe mechanisms that contribute to auditable and compliant AI operations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Secure Your Future: The Benefits of Ethical AI Governance,\" provides evidence for **governance**, **fairness**, and **external_accountability**. The post supports **governance** by discussing the need for AI governance policies and ethics committees, and by highlighting the importance of implementing diverse teams and inclusivity in AI development. Evidence for **fairness** is found in the emphasis on minimizing bias and ensuring AI applications are fair and unbiased. Finally, the blog post supports **external_accountability** through its mention of conducting regular audits of AI systems.",
+          "title": "Secure Your Future: The Benefits of Ethical AI Governance",
+          "url": "https://blog.lumen.com/secure-your-future-the-benefits-of-ethical-ai-governance"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party article, \"Building Trust in Non-Deterministic Systems: A Framework for Responsible AI Operations,\" provides evidence for explainability, external accountability, governance, and oversight. It highlights Lumen Technologies' approach of using deterministic, orchestrated workflows as \"AI on rails\" to ensure safe and effective adoption of agentic AI for network management. The article details mechanisms like defined interaction rules, access controls, triggers for human review, and governed conditions, which contribute to auditable and compliant AI operations.",
+          "title": "Building Trust in Non-Deterministic Systems: A Framework for Responsible AI Operations",
+          "url": "https://itential.com/blog/building-trust-in-non-deterministic-systems-a-framework-for-responsible-ai-operations"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 6,
+      "findings": "Lumen's blog posts emphasize minimizing bias and ensuring AI applications are fair and unbiased. Published materials discuss the company's commitment to the fair and honest application of AI and the importance of bias evaluation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Secure Your Future: The Benefits of Ethical AI Governance,\" provides evidence for **governance**, **fairness**, and **external_accountability**. The post supports **governance** by discussing the need for AI governance policies and ethics committees, and by highlighting the importance of implementing diverse teams and inclusivity in AI development. Evidence for **fairness** is found in the emphasis on minimizing bias and ensuring AI applications are fair and unbiased. Finally, the blog post supports **external_accountability** through its mention of conducting regular audits of AI systems.",
+          "title": "Secure Your Future: The Benefits of Ethical AI Governance",
+          "url": "https://blog.lumen.com/secure-your-future-the-benefits-of-ethical-ai-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How data privacy builds trust in the age of AI,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The post supports these pillars by discussing the company's commitment to the fair and honest application of AI, creating and following rules for AI systems, implementing data privacy policies and cybersecurity protections, and emphasizing data transparency for AI functions, including addressing bias, ethics, security, and compliance. It also highlights mechanisms like a Trust Center to manage these concerns.",
+          "title": "How data privacy builds trust in the age of AI",
+          "url": "https://blog.lumen.com/how-data-privacy-builds-trust-in-the-age-of-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post advocates for \"glass box models\" built on responsible machine learning principles, providing evidence for the **transparency**, **explainability**, **fairness**, and **privacy** pillars. The post supports these pillars by discussing the importance of bias evaluation, explainability with justification, and trust through privacy, while also referencing the concept of moving away from \"black-box\" models.",
+          "title": "Using responsible machine learning to drive customer-centric insights",
+          "url": "https://blog.lumen.com/using-responsible-machine-learning-to-drive-customer-centric-insights"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 15,
+      "findings": "Lumen's press releases reference documented mechanisms for managing AI systems and the need for governance to ensure responsible use of an AI-powered approach within a partnership. Blog posts discuss the need for AI governance policies and ethics committees, highlight the importance of implementing diverse teams and inclusivity in AI development, and published materials discuss creating and following rules for AI systems. Third-party articles describe governed conditions that contribute to auditable and compliant AI operations.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** pillar of responsible AI. It details Lumen's achievement of ISO 42001 certification for its Artificial Intelligence Management System (AIMS), which includes a robust AI governance framework encompassing risk assessment, transparency controls, responsible development practices, and ongoing impact evaluation. The certification by an independent third-party auditor, Schellman Compliance, validates these documented mechanisms for managing AI systems.",
+          "title": "Lumen Achieves ISO 42001 Certification, Reaffirming Responsible AI Leadership",
+          "url": "https://news.lumen.com/2026-01-27-Lumen-Achieves-ISO-42001-Certification-Reaffirming-Responsible-AI-Leadership"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Secure Your Future: The Benefits of Ethical AI Governance,\" provides evidence for **governance**, **fairness**, and **external_accountability**. The post supports **governance** by discussing the need for AI governance policies and ethics committees, and by highlighting the importance of implementing diverse teams and inclusivity in AI development. Evidence for **fairness** is found in the emphasis on minimizing bias and ensuring AI applications are fair and unbiased. Finally, the blog post supports **external_accountability** through its mention of conducting regular audits of AI systems.",
+          "title": "Secure Your Future: The Benefits of Ethical AI Governance",
+          "url": "https://blog.lumen.com/secure-your-future-the-benefits-of-ethical-ai-governance"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How data privacy builds trust in the age of AI,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The post supports these pillars by discussing the company's commitment to the fair and honest application of AI, creating and following rules for AI systems, implementing data privacy policies and cybersecurity protections, and emphasizing data transparency for AI functions, including addressing bias, ethics, security, and compliance. It also highlights mechanisms like a Trust Center to manage these concerns.",
+          "title": "How data privacy builds trust in the age of AI",
+          "url": "https://blog.lumen.com/how-data-privacy-builds-trust-in-the-age-of-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "The Lumen AI Action Plan press release provides evidence for the **governance** pillar of responsible AI. The document mentions an AI-powered approach, which implies the need for governance to ensure its responsible use within a partnership.",
+          "title": "Lumen AI Action Plan Press Release",
+          "url": "https://news.lumen.com/ai-action-plan"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party article, \"Building Trust in Non-Deterministic Systems: A Framework for Responsible AI Operations,\" provides evidence for explainability, external accountability, governance, and oversight. It highlights Lumen Technologies' approach of using deterministic, orchestrated workflows as \"AI on rails\" to ensure safe and effective adoption of agentic AI for network management. The article details mechanisms like defined interaction rules, access controls, triggers for human review, and governed conditions, which contribute to auditable and compliant AI operations.",
+          "title": "Building Trust in Non-Deterministic Systems: A Framework for Responsible AI Operations",
+          "url": "https://itential.com/blog/building-trust-in-non-deterministic-systems-a-framework-for-responsible-ai-operations"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Lumen's Privacy Notice mandates human review for AI-driven decisions with significant legal or similar effects. Third-party articles describe mechanisms like triggers for human review, contributing to auditable and compliant AI operations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The Lumen Privacy Notice provides evidence for the oversight, privacy, and transparency pillars of responsible AI. This policy document supports oversight by mandating human review for AI-driven decisions with significant legal or similar effects. It bolsters the privacy pillar by stating that Lumen does not sell Personal Information for AI training purposes, and it enhances transparency by detailing its AI use cases.",
+          "title": "Lumen Privacy Notice",
+          "url": "https://lumen.com/en-us/about/legal/privacy-notice.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This third-party article, \"Building Trust in Non-Deterministic Systems: A Framework for Responsible AI Operations,\" provides evidence for explainability, external accountability, governance, and oversight. It highlights Lumen Technologies' approach of using deterministic, orchestrated workflows as \"AI on rails\" to ensure safe and effective adoption of agentic AI for network management. The article details mechanisms like defined interaction rules, access controls, triggers for human review, and governed conditions, which contribute to auditable and compliant AI operations.",
+          "title": "Building Trust in Non-Deterministic Systems: A Framework for Responsible AI Operations",
+          "url": "https://itential.com/blog/building-trust-in-non-deterministic-systems-a-framework-for-responsible-ai-operations"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "Lumen's Privacy Notice states that the company does not sell Personal Information for AI training purposes. Published materials discuss implementing data privacy policies and cybersecurity protections, and blog posts discuss trust through privacy.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The Lumen Privacy Notice provides evidence for the oversight, privacy, and transparency pillars of responsible AI. This policy document supports oversight by mandating human review for AI-driven decisions with significant legal or similar effects. It bolsters the privacy pillar by stating that Lumen does not sell Personal Information for AI training purposes, and it enhances transparency by detailing its AI use cases.",
+          "title": "Lumen Privacy Notice",
+          "url": "https://lumen.com/en-us/about/legal/privacy-notice.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How data privacy builds trust in the age of AI,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The post supports these pillars by discussing the company's commitment to the fair and honest application of AI, creating and following rules for AI systems, implementing data privacy policies and cybersecurity protections, and emphasizing data transparency for AI functions, including addressing bias, ethics, security, and compliance. It also highlights mechanisms like a Trust Center to manage these concerns.",
+          "title": "How data privacy builds trust in the age of AI",
+          "url": "https://blog.lumen.com/how-data-privacy-builds-trust-in-the-age-of-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post advocates for \"glass box models\" built on responsible machine learning principles, providing evidence for the **transparency**, **explainability**, **fairness**, and **privacy** pillars. The post supports these pillars by discussing the importance of bias evaluation, explainability with justification, and trust through privacy, while also referencing the concept of moving away from \"black-box\" models.",
+          "title": "Using responsible machine learning to drive customer-centric insights",
+          "url": "https://blog.lumen.com/using-responsible-machine-learning-to-drive-customer-centric-insights"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 4,
+      "findings": "Lumen's Privacy Notice describes its AI use cases. Published materials emphasize data transparency for AI functions, addressing bias, ethics, security, and compliance, and advocate for \"glass box models\" built on responsible machine learning principles.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The Lumen Privacy Notice provides evidence for the oversight, privacy, and transparency pillars of responsible AI. This policy document supports oversight by mandating human review for AI-driven decisions with significant legal or similar effects. It bolsters the privacy pillar by stating that Lumen does not sell Personal Information for AI training purposes, and it enhances transparency by detailing its AI use cases.",
+          "title": "Lumen Privacy Notice",
+          "url": "https://lumen.com/en-us/about/legal/privacy-notice.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"How data privacy builds trust in the age of AI,\" provides evidence for the **fairness**, **governance**, **privacy**, and **transparency** pillars of responsible AI. The post supports these pillars by discussing the company's commitment to the fair and honest application of AI, creating and following rules for AI systems, implementing data privacy policies and cybersecurity protections, and emphasizing data transparency for AI functions, including addressing bias, ethics, security, and compliance. It also highlights mechanisms like a Trust Center to manage these concerns.",
+          "title": "How data privacy builds trust in the age of AI",
+          "url": "https://blog.lumen.com/how-data-privacy-builds-trust-in-the-age-of-ai"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post advocates for \"glass box models\" built on responsible machine learning principles, providing evidence for the **transparency**, **explainability**, **fairness**, and **privacy** pillars. The post supports these pillars by discussing the importance of bias evaluation, explainability with justification, and trust through privacy, while also referencing the concept of moving away from \"black-box\" models.",
+          "title": "Using responsible machine learning to drive customer-centric insights",
+          "url": "https://blog.lumen.com/using-responsible-machine-learning-to-drive-customer-centric-insights"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T17:19:27Z",
+  "run_id": "20260309_184203_7157",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [],
+    "overall_findings": "Lumen Technologies' Privacy Notice mandates human review for AI-driven decisions with significant legal or similar effects, addressing the oversight pillar. All 7 evaluated pillars have documented public evidence, with published materials also emphasizing data transparency for AI functions and discussing the company's commitment to the fair and honest application of AI. Furthermore, blog posts discuss the importance of explainability with justification and the need for AI governance policies and ethics committees. These disclosures, drawn from 12 publicly available sources, also include statements that Lumen Technologies does not sell Personal Information for AI training purposes, addressing privacy.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 7,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 22,
+    "total_sources_used": 7
+  }
+}

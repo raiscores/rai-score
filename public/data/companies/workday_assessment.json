@@ -1,0 +1,436 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 85.7,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 12
+  },
+  "company": "Workday",
+  "company_slug": "workday",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 6,
+      "OPERATIONAL": 13,
+      "POLICY": 38
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 5,
+      "findings": "Workday describes commitments to making AI understandable within the interface. The company states a commitment to avoid sole reliance on automated decision-making and profiling systems for significant effects, implying explainability. Responsible AI, fairness, explainability, and transparency are mentioned as core approaches.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI at HiredScore,\" provides evidence for **fairness**, **transparency**, **explainability**, **governance**, and **external_accountability**. It details specific methods for bias mitigation, such as separating demographic data and removing correlated features, which directly supports **fairness**. The paper also highlights participation in initiatives for bias safeguards and vendor evaluation criteria, demonstrating **external_accountability** and **governance**, while explicitly mentioning responsible AI, fairness, explainability, and transparency as core approaches, thus supporting **transparency** and **explainability**.",
+          "title": "Responsible AI at HiredScore",
+          "url": "https://workday.com/content/dam/web/en-us/documents/datasheets/responsible-ai-at-hiredscore.pdf"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This privacy statement supports the **explainability**, **governance**, **oversight**, **privacy**, and **transparency** pillars. It addresses automated decision-making and profiling, implying oversight and explainability by stating a commitment to avoid sole reliance on such systems for significant effects. The document also touches on privacy concerns related to automated profiling through data inference and demonstrates transparency by mentioning AI-powered tools for analysis and chatbot technology. Furthermore, it suggests governance through instructions to vendors on data use and opt-out mechanisms for targeted advertising.",
+          "title": "Privacy Statement",
+          "url": "https://workday.com/en-us/privacy.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This Workday policy document provides evidence for the following Responsible AI pillars: explainability, external_accountability, governance, privacy, and transparency. It supports explainability and transparency by describing commitments to making AI understandable within the interface. The policy also demonstrates governance and external accountability through its contributions to AI frameworks like NIST and the EU AI Act, and its mention of third-party evaluations and certifications. Furthermore, it addresses privacy by outlining a commitment to data security in AI, including the training of third-party public models.",
+          "title": "Responsible AI - Workday",
+          "url": "https://workday.com/en-us/artificial-intelligence/responsible-ai.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Practices,\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing fairness testing and bias mitigation strategies, outlining human oversight and control mechanisms, and committing to AI governance frameworks and risk assessments. The document also highlights transparency in AI features and capabilities, mentions AI security and privacy, and indicates a commitment to external accountability through third-party evaluations.",
+          "title": "Responsible AI Practices",
+          "url": "https://workday.com/en-us/artificial-intelligence/responsible-ai-practices.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 8,
+      "findings": "Workday mentions participation in initiatives for bias safeguards and vendor evaluation criteria. The company describes external accountability through its contributions to AI frameworks like NIST and the EU AI Act, and mentions third-party evaluations and certifications. Workday describes its commitment to responsible AI through alignment with ISO 42001 and NIST AI RMF standards, describing its dedication to trustworthy AI products through independent verification, and its report mentions AI validation and certification against standards.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI at HiredScore,\" provides evidence for **fairness**, **transparency**, **explainability**, **governance**, and **external_accountability**. It details specific methods for bias mitigation, such as separating demographic data and removing correlated features, which directly supports **fairness**. The paper also highlights participation in initiatives for bias safeguards and vendor evaluation criteria, demonstrating **external_accountability** and **governance**, while explicitly mentioning responsible AI, fairness, explainability, and transparency as core approaches, thus supporting **transparency** and **explainability**.",
+          "title": "Responsible AI at HiredScore",
+          "url": "https://workday.com/content/dam/web/en-us/documents/datasheets/responsible-ai-at-hiredscore.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This Workday policy document provides evidence for the following Responsible AI pillars: explainability, external_accountability, governance, privacy, and transparency. It supports explainability and transparency by describing commitments to making AI understandable within the interface. The policy also demonstrates governance and external accountability through its contributions to AI frameworks like NIST and the EU AI Act, and its mention of third-party evaluations and certifications. Furthermore, it addresses privacy by outlining a commitment to data security in AI, including the training of third-party public models.",
+          "title": "Responsible AI - Workday",
+          "url": "https://workday.com/en-us/artificial-intelligence/responsible-ai.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Practices,\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing fairness testing and bias mitigation strategies, outlining human oversight and control mechanisms, and committing to AI governance frameworks and risk assessments. The document also highlights transparency in AI features and capabilities, mentions AI security and privacy, and indicates a commitment to external accountability through third-party evaluations.",
+          "title": "Responsible AI Practices",
+          "url": "https://workday.com/en-us/artificial-intelligence/responsible-ai-practices.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This audit report, \"Workday Achieves Top AI Certifications,\" provides evidence for the **external_accountability** and **governance** pillars. The report details Workday's commitment to responsible AI through its alignment with ISO 42001 and NIST AI RMF standards, demonstrating documented AI governance and risk management practices. This dual recognition highlights their strategic approach to mitigating AI risks, including those to human rights and safety, and underscores their dedication to trustworthy AI products through independent verification.",
+          "title": "Workday Achieves Top AI Certifications",
+          "url": "https://newsroom.workday.com/2025-06-12-Workday-Achieves-Top-AI-Certifications,-Reinforcing-Commitment-to-Responsible-AI"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This press release for Workday's 2025 Global Impact Report provides evidence for **governance** and **external accountability**. It highlights the company's commitment to responsible AI through the launch of an AI Masterclass series and the integration of responsible AI training into their Code of Conduct for all employees, demonstrating internal governance. Furthermore, the report's mention of AI validation and certification against standards indicates a focus on external accountability.",
+          "title": "Illuminating Progress, Inspiring Action: The Workday 2025 Global Impact Report",
+          "url": "https://blog.workday.com/en-us/2025/illuminating-progress-inspiring-action-the-workday-2025-global-impact-report.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 10,
+      "findings": "Workday mentions the creation of Responsible AI guidelines and describes specific methods for bias mitigation, including separating demographic data and removing correlated features. Policy documents outline fairness testing and bias mitigation strategies. Responsible AI, fairness, explainability, and transparency are mentioned as core approaches, while sources also describe concerns about 'adverse impact' and 'discriminatory rates' against specific groups due to AI-based hiring systems, and describe claims of race and disability discrimination potentially enabled by Workday's algorithm-based applicant screening system.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It details Workday's operationalization of AI ethics principles through an RAI Advisory Board with executive participation and a dedicated RAI team, supporting **governance**. The post also highlights the use of AI system impact assessments for identifying privacy considerations and the implementation of guidelines for human review, demonstrating **privacy** and **oversight**. Furthermore, it mentions the creation of RAI guidelines and the use of 'machine learning fact sheets' to provide transparency to customers, supporting the **fairness** and **transparency** pillars.",
+          "title": "How Workday Has Built a Governance Regime for Responsible AI",
+          "url": "https://techuk.org/resource/how-workday-has-built-a-governance-regime-for-responsible-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI at HiredScore,\" provides evidence for **fairness**, **transparency**, **explainability**, **governance**, and **external_accountability**. It details specific methods for bias mitigation, such as separating demographic data and removing correlated features, which directly supports **fairness**. The paper also highlights participation in initiatives for bias safeguards and vendor evaluation criteria, demonstrating **external_accountability** and **governance**, while explicitly mentioning responsible AI, fairness, explainability, and transparency as core approaches, thus supporting **transparency** and **explainability**.",
+          "title": "Responsible AI at HiredScore",
+          "url": "https://workday.com/content/dam/web/en-us/documents/datasheets/responsible-ai-at-hiredscore.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It highlights concerns about \"adverse impact\" and \"discriminatory rates\" against specific groups due to AI-based hiring systems, directly addressing fairness. The mention of an \"AI recommendation system\" and a \"unified policy\" for its use suggests governance and transparency in AI deployment.",
+          "title": "Applied Through Workday? Court Approved Opt In For Hiring Lawsuit",
+          "url": "https://news.bloomberglaw.com/daily-labor-report/workday-ai-bias-suit-to-go-forward-as-age-claim-class-action"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This article, \"Workday Should Face AI Bias Claims by Job Seeker, EEOC Argues,\" provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports fairness by detailing claims of race and disability discrimination potentially enabled by Workday's algorithm-based applicant screening system. The article also supports governance by highlighting the EEOC's argument that Workday should be held accountable for potential discriminatory practices, implying a need for oversight and control over AI use in employment.",
+          "title": "Workday Should Face AI Bias Claims by Job Seeker, EEOC Argues",
+          "url": "https://news.bloomberglaw.com/daily-labor-report/workday-should-face-ai-bias-claims-by-job-seeker-eeoc-argues"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Practices,\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing fairness testing and bias mitigation strategies, outlining human oversight and control mechanisms, and committing to AI governance frameworks and risk assessments. The document also highlights transparency in AI features and capabilities, mentions AI security and privacy, and indicates a commitment to external accountability through third-party evaluations.",
+          "title": "Responsible AI Practices",
+          "url": "https://workday.com/en-us/artificial-intelligence/responsible-ai-practices.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 5
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 43,
+      "findings": "Workday describes the operationalization of AI ethics principles and its Responsible AI (RAI) governance structure through an RAI Advisory Board with executive participation and a dedicated RAI team. The company mentions participation in initiatives for bias safeguards and vendor evaluation criteria, and describes governance through instructions to vendors on data use. Workday describes governance through contributions to AI frameworks like NIST and the EU AI Act, and policy documents state a commitment to AI governance frameworks and risk assessments. Furthermore, Workday describes its commitment to responsible AI through alignment with ISO 42001 and NIST AI RMF standards, describing documented AI governance and risk management practices, and mentions the integration of responsible AI training into their Code of Conduct for all employees.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It details Workday's operationalization of AI ethics principles through an RAI Advisory Board with executive participation and a dedicated RAI team, supporting **governance**. The post also highlights the use of AI system impact assessments for identifying privacy considerations and the implementation of guidelines for human review, demonstrating **privacy** and **oversight**. Furthermore, it mentions the creation of RAI guidelines and the use of 'machine learning fact sheets' to provide transparency to customers, supporting the **fairness** and **transparency** pillars.",
+          "title": "How Workday Has Built a Governance Regime for Responsible AI",
+          "url": "https://techuk.org/resource/how-workday-has-built-a-governance-regime-for-responsible-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI at HiredScore,\" provides evidence for **fairness**, **transparency**, **explainability**, **governance**, and **external_accountability**. It details specific methods for bias mitigation, such as separating demographic data and removing correlated features, which directly supports **fairness**. The paper also highlights participation in initiatives for bias safeguards and vendor evaluation criteria, demonstrating **external_accountability** and **governance**, while explicitly mentioning responsible AI, fairness, explainability, and transparency as core approaches, thus supporting **transparency** and **explainability**.",
+          "title": "Responsible AI at HiredScore",
+          "url": "https://workday.com/content/dam/web/en-us/documents/datasheets/responsible-ai-at-hiredscore.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It highlights concerns about \"adverse impact\" and \"discriminatory rates\" against specific groups due to AI-based hiring systems, directly addressing fairness. The mention of an \"AI recommendation system\" and a \"unified policy\" for its use suggests governance and transparency in AI deployment.",
+          "title": "Applied Through Workday? Court Approved Opt In For Hiring Lawsuit",
+          "url": "https://news.bloomberglaw.com/daily-labor-report/workday-ai-bias-suit-to-go-forward-as-age-claim-class-action"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This article, \"Workday Should Face AI Bias Claims by Job Seeker, EEOC Argues,\" provides evidence for the **fairness** and **governance** pillars of responsible AI. It supports fairness by detailing claims of race and disability discrimination potentially enabled by Workday's algorithm-based applicant screening system. The article also supports governance by highlighting the EEOC's argument that Workday should be held accountable for potential discriminatory practices, implying a need for oversight and control over AI use in employment.",
+          "title": "Workday Should Face AI Bias Claims by Job Seeker, EEOC Argues",
+          "url": "https://news.bloomberglaw.com/daily-labor-report/workday-should-face-ai-bias-claims-by-job-seeker-eeoc-argues"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This privacy statement supports the **explainability**, **governance**, **oversight**, **privacy**, and **transparency** pillars. It addresses automated decision-making and profiling, implying oversight and explainability by stating a commitment to avoid sole reliance on such systems for significant effects. The document also touches on privacy concerns related to automated profiling through data inference and demonstrates transparency by mentioning AI-powered tools for analysis and chatbot technology. Furthermore, it suggests governance through instructions to vendors on data use and opt-out mechanisms for targeted advertising.",
+          "title": "Privacy Statement",
+          "url": "https://workday.com/en-us/privacy.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This Workday policy document provides evidence for the following Responsible AI pillars: explainability, external_accountability, governance, privacy, and transparency. It supports explainability and transparency by describing commitments to making AI understandable within the interface. The policy also demonstrates governance and external accountability through its contributions to AI frameworks like NIST and the EU AI Act, and its mention of third-party evaluations and certifications. Furthermore, it addresses privacy by outlining a commitment to data security in AI, including the training of third-party public models.",
+          "title": "Responsible AI - Workday",
+          "url": "https://workday.com/en-us/artificial-intelligence/responsible-ai.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Practices,\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing fairness testing and bias mitigation strategies, outlining human oversight and control mechanisms, and committing to AI governance frameworks and risk assessments. The document also highlights transparency in AI features and capabilities, mentions AI security and privacy, and indicates a commitment to external accountability through third-party evaluations.",
+          "title": "Responsible AI Practices",
+          "url": "https://workday.com/en-us/artificial-intelligence/responsible-ai-practices.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI Governance at Workday,\" provides evidence for **governance**, **oversight**, and **transparency**. It details Workday's RAI governance structure through mentions of an RAI Advisory Board with executive participation and a dedicated RAI team responsible for program design and ethical review. The post also highlights mechanisms for oversight, such as guidelines for human review, and supports transparency by describing the use of fact sheets for AI/ML technologies.",
+          "title": "Responsible AI Governance at Workday",
+          "url": "https://blog.workday.com/en-us/responsible-ai-governance-workday.html"
+        },
+        {
+          "artifact_type": "audit_report",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This audit report, \"Workday Achieves Top AI Certifications,\" provides evidence for the **external_accountability** and **governance** pillars. The report details Workday's commitment to responsible AI through its alignment with ISO 42001 and NIST AI RMF standards, demonstrating documented AI governance and risk management practices. This dual recognition highlights their strategic approach to mitigating AI risks, including those to human rights and safety, and underscores their dedication to trustworthy AI products through independent verification.",
+          "title": "Workday Achieves Top AI Certifications",
+          "url": "https://newsroom.workday.com/2025-06-12-Workday-Achieves-Top-AI-Certifications,-Reinforcing-Commitment-to-Responsible-AI"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This press release for Workday's 2025 Global Impact Report provides evidence for **governance** and **external accountability**. It highlights the company's commitment to responsible AI through the launch of an AI Masterclass series and the integration of responsible AI training into their Code of Conduct for all employees, demonstrating internal governance. Furthermore, the report's mention of AI validation and certification against standards indicates a focus on external accountability.",
+          "title": "Illuminating Progress, Inspiring Action: The Workday 2025 Global Impact Report",
+          "url": "https://blog.workday.com/en-us/2025/illuminating-progress-inspiring-action-the-workday-2025-global-impact-report.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 10
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "Workday describes the implementation of guidelines for human review and mechanisms for oversight, alongside the use of AI system impact assessments. Policy documents outline human oversight and control mechanisms. Workday states a commitment to avoid sole reliance on automated decision-making and profiling systems for significant effects, implying oversight.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It details Workday's operationalization of AI ethics principles through an RAI Advisory Board with executive participation and a dedicated RAI team, supporting **governance**. The post also highlights the use of AI system impact assessments for identifying privacy considerations and the implementation of guidelines for human review, demonstrating **privacy** and **oversight**. Furthermore, it mentions the creation of RAI guidelines and the use of 'machine learning fact sheets' to provide transparency to customers, supporting the **fairness** and **transparency** pillars.",
+          "title": "How Workday Has Built a Governance Regime for Responsible AI",
+          "url": "https://techuk.org/resource/how-workday-has-built-a-governance-regime-for-responsible-ai.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This privacy statement supports the **explainability**, **governance**, **oversight**, **privacy**, and **transparency** pillars. It addresses automated decision-making and profiling, implying oversight and explainability by stating a commitment to avoid sole reliance on such systems for significant effects. The document also touches on privacy concerns related to automated profiling through data inference and demonstrates transparency by mentioning AI-powered tools for analysis and chatbot technology. Furthermore, it suggests governance through instructions to vendors on data use and opt-out mechanisms for targeted advertising.",
+          "title": "Privacy Statement",
+          "url": "https://workday.com/en-us/privacy.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Practices,\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing fairness testing and bias mitigation strategies, outlining human oversight and control mechanisms, and committing to AI governance frameworks and risk assessments. The document also highlights transparency in AI features and capabilities, mentions AI security and privacy, and indicates a commitment to external accountability through third-party evaluations.",
+          "title": "Responsible AI Practices",
+          "url": "https://workday.com/en-us/artificial-intelligence/responsible-ai-practices.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI Governance at Workday,\" provides evidence for **governance**, **oversight**, and **transparency**. It details Workday's RAI governance structure through mentions of an RAI Advisory Board with executive participation and a dedicated RAI team responsible for program design and ethical review. The post also highlights mechanisms for oversight, such as guidelines for human review, and supports transparency by describing the use of fact sheets for AI/ML technologies.",
+          "title": "Responsible AI Governance at Workday",
+          "url": "https://blog.workday.com/en-us/responsible-ai-governance-workday.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "Workday describes the use of AI system impact assessments for identifying privacy considerations. The company's privacy statement references privacy concerns related to automated profiling through data inference. Workday outlines a commitment to data security in AI, including the training of third-party public models, and policy documents mention AI security and privacy.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It details Workday's operationalization of AI ethics principles through an RAI Advisory Board with executive participation and a dedicated RAI team, supporting **governance**. The post also highlights the use of AI system impact assessments for identifying privacy considerations and the implementation of guidelines for human review, demonstrating **privacy** and **oversight**. Furthermore, it mentions the creation of RAI guidelines and the use of 'machine learning fact sheets' to provide transparency to customers, supporting the **fairness** and **transparency** pillars.",
+          "title": "How Workday Has Built a Governance Regime for Responsible AI",
+          "url": "https://techuk.org/resource/how-workday-has-built-a-governance-regime-for-responsible-ai.html"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This privacy statement supports the **explainability**, **governance**, **oversight**, **privacy**, and **transparency** pillars. It addresses automated decision-making and profiling, implying oversight and explainability by stating a commitment to avoid sole reliance on such systems for significant effects. The document also touches on privacy concerns related to automated profiling through data inference and demonstrates transparency by mentioning AI-powered tools for analysis and chatbot technology. Furthermore, it suggests governance through instructions to vendors on data use and opt-out mechanisms for targeted advertising.",
+          "title": "Privacy Statement",
+          "url": "https://workday.com/en-us/privacy.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This Workday policy document provides evidence for the following Responsible AI pillars: explainability, external_accountability, governance, privacy, and transparency. It supports explainability and transparency by describing commitments to making AI understandable within the interface. The policy also demonstrates governance and external accountability through its contributions to AI frameworks like NIST and the EU AI Act, and its mention of third-party evaluations and certifications. Furthermore, it addresses privacy by outlining a commitment to data security in AI, including the training of third-party public models.",
+          "title": "Responsible AI - Workday",
+          "url": "https://workday.com/en-us/artificial-intelligence/responsible-ai.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Practices,\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing fairness testing and bias mitigation strategies, outlining human oversight and control mechanisms, and committing to AI governance frameworks and risk assessments. The document also highlights transparency in AI features and capabilities, mentions AI security and privacy, and indicates a commitment to external accountability through third-party evaluations.",
+          "title": "Responsible AI Practices",
+          "url": "https://workday.com/en-us/artificial-intelligence/responsible-ai-practices.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 14,
+      "findings": "Workday describes the use of 'machine learning fact sheets' or fact sheets for AI/ML technologies to provide transparency to customers and describes commitments to making AI understandable within the interface. Policy documents describe transparency in AI features and capabilities, and Workday describes transparency by mentioning AI-powered tools for analysis and chatbot technology. Responsible AI, fairness, explainability, and transparency are mentioned as core approaches, and a unified policy for AI recommendation systems references transparency in AI deployment.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **fairness, governance, oversight, privacy, and transparency** pillars of responsible AI. It details Workday's operationalization of AI ethics principles through an RAI Advisory Board with executive participation and a dedicated RAI team, supporting **governance**. The post also highlights the use of AI system impact assessments for identifying privacy considerations and the implementation of guidelines for human review, demonstrating **privacy** and **oversight**. Furthermore, it mentions the creation of RAI guidelines and the use of 'machine learning fact sheets' to provide transparency to customers, supporting the **fairness** and **transparency** pillars.",
+          "title": "How Workday Has Built a Governance Regime for Responsible AI",
+          "url": "https://techuk.org/resource/how-workday-has-built-a-governance-regime-for-responsible-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Responsible AI at HiredScore,\" provides evidence for **fairness**, **transparency**, **explainability**, **governance**, and **external_accountability**. It details specific methods for bias mitigation, such as separating demographic data and removing correlated features, which directly supports **fairness**. The paper also highlights participation in initiatives for bias safeguards and vendor evaluation criteria, demonstrating **external_accountability** and **governance**, while explicitly mentioning responsible AI, fairness, explainability, and transparency as core approaches, thus supporting **transparency** and **explainability**.",
+          "title": "Responsible AI at HiredScore",
+          "url": "https://workday.com/content/dam/web/en-us/documents/datasheets/responsible-ai-at-hiredscore.pdf"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It highlights concerns about \"adverse impact\" and \"discriminatory rates\" against specific groups due to AI-based hiring systems, directly addressing fairness. The mention of an \"AI recommendation system\" and a \"unified policy\" for its use suggests governance and transparency in AI deployment.",
+          "title": "Applied Through Workday? Court Approved Opt In For Hiring Lawsuit",
+          "url": "https://news.bloomberglaw.com/daily-labor-report/workday-ai-bias-suit-to-go-forward-as-age-claim-class-action"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This privacy statement supports the **explainability**, **governance**, **oversight**, **privacy**, and **transparency** pillars. It addresses automated decision-making and profiling, implying oversight and explainability by stating a commitment to avoid sole reliance on such systems for significant effects. The document also touches on privacy concerns related to automated profiling through data inference and demonstrates transparency by mentioning AI-powered tools for analysis and chatbot technology. Furthermore, it suggests governance through instructions to vendors on data use and opt-out mechanisms for targeted advertising.",
+          "title": "Privacy Statement",
+          "url": "https://workday.com/en-us/privacy.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This Workday policy document provides evidence for the following Responsible AI pillars: explainability, external_accountability, governance, privacy, and transparency. It supports explainability and transparency by describing commitments to making AI understandable within the interface. The policy also demonstrates governance and external accountability through its contributions to AI frameworks like NIST and the EU AI Act, and its mention of third-party evaluations and certifications. Furthermore, it addresses privacy by outlining a commitment to data security in AI, including the training of third-party public models.",
+          "title": "Responsible AI - Workday",
+          "url": "https://workday.com/en-us/artificial-intelligence/responsible-ai.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Responsible AI Practices,\" provides evidence for explainability, external_accountability, fairness, governance, oversight, privacy, and transparency. It supports these pillars by detailing fairness testing and bias mitigation strategies, outlining human oversight and control mechanisms, and committing to AI governance frameworks and risk assessments. The document also highlights transparency in AI features and capabilities, mentions AI security and privacy, and indicates a commitment to external accountability through third-party evaluations.",
+          "title": "Responsible AI Practices",
+          "url": "https://workday.com/en-us/artificial-intelligence/responsible-ai-practices.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Responsible AI Governance at Workday,\" provides evidence for **governance**, **oversight**, and **transparency**. It details Workday's RAI governance structure through mentions of an RAI Advisory Board with executive participation and a dedicated RAI team responsible for program design and ethical review. The post also highlights mechanisms for oversight, such as guidelines for human review, and supports transparency by describing the use of fact sheets for AI/ML technologies.",
+          "title": "Responsible AI Governance at Workday",
+          "url": "https://blog.workday.com/en-us/responsible-ai-governance-workday.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 7
+    }
+  },
+  "published_at": "2026-03-19T17:29:51Z",
+  "run_id": "20260309_193152_1530",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "overall_findings": "Workday's published materials demonstrate evidence across both operational and policy levels for its responsible AI practices. Operationally, Workday describes the use of 'machine learning fact sheets' for transparency and specific methods for bias mitigation in fairness, such as separating demographic data. Governance is further supported by an RAI Advisory Board with executive participation. At the policy level, Workday states a commitment to avoid sole reliance on automated decision-making for explainability and describes guidelines for human review in oversight. All 7 evaluated pillars have documented public evidence, drawing from 17 publicly available sources.",
+    "pillars_operational": 5,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 57,
+    "total_sources_used": 10
+  }
+}

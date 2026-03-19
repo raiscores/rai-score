@@ -1,0 +1,246 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "AECOM",
+  "company_slug": "aecom",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 4,
+      "OPERATIONAL": 0,
+      "POLICY": 15
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "An AI governance framework describes principles for explainability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "AECOM's Privacy Policy document provides evidence for the **oversight** and **privacy** pillars of responsible AI. It supports oversight by outlining individuals' rights to request a review of automated decision-making, implying a mechanism for human intervention. The policy also supports the privacy pillar by addressing individuals' rights concerning automated processing and profiling.",
+          "title": "AECOM Privacy Policy",
+          "url": "https://aecom.com/privacy-policy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"AI and Digital Cities: Balancing Innovation with Regulation,\" provides evidence for several responsible AI pillars. It supports **explainability**, **transparency**, **fairness**, and **governance** by describing an AI governance framework with principles for these areas. The post also touches on **privacy** and **external_accountability** by mentioning national regulations and legislative frameworks like the AI Act and AI Bill of Rights, indicating policy commitments to these aspects of AI development and use.",
+          "title": "AI and Digital Cities: Balancing Innovation with Regulation",
+          "url": "https://digital.aecom.com/article/ai-and-digital-cities-balancing-innovation-with-regulation"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "Policy commitments to external accountability in AI development and use are indicated by mentioning national regulations and legislative frameworks such as the AI Act and AI Bill of Rights. The need for external accountability in vendor selection and use of third-party AI tools is also implied.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"AI and Digital Cities: Balancing Innovation with Regulation,\" provides evidence for several responsible AI pillars. It supports **explainability**, **transparency**, **fairness**, and **governance** by describing an AI governance framework with principles for these areas. The post also touches on **privacy** and **external_accountability** by mentioning national regulations and legislative frameworks like the AI Act and AI Bill of Rights, indicating policy commitments to these aspects of AI development and use.",
+          "title": "AI and Digital Cities: Balancing Innovation with Regulation",
+          "url": "https://digital.aecom.com/article/ai-and-digital-cities-balancing-innovation-with-regulation"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This legal analysis of \"AECOM v Mallon\" provides evidence for **external_accountability**, **fairness**, **governance**, **oversight**, and **transparency**. It highlights the legal duty for fairness in automated recruitment systems, supporting **fairness** by discussing AI-driven processes that can disadvantage individuals and the need for reasonable adjustments. The document also implies the need for **governance** and **external_accountability** in vendor selection and use of third-party AI tools, and recommends human **oversight** for accuracy and non-discrimination, aligning with **transparency** in decision-making.",
+          "title": "AECOM v Mallon Case",
+          "url": "https://walkermorris.co.uk/in-brief/ai-and-recruitment-an-invaluable-tool-or-source-of-discrimination"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 9,
+      "findings": "An AI governance framework outlines principles for fairness, with policy commitments referenced for AI development and use. The legal duty for fairness in automated recruitment systems is highlighted, discussing AI-driven processes that can disadvantage individuals and the need for reasonable adjustments.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"AI and Digital Cities: Balancing Innovation with Regulation,\" provides evidence for several responsible AI pillars. It supports **explainability**, **transparency**, **fairness**, and **governance** by describing an AI governance framework with principles for these areas. The post also touches on **privacy** and **external_accountability** by mentioning national regulations and legislative frameworks like the AI Act and AI Bill of Rights, indicating policy commitments to these aspects of AI development and use.",
+          "title": "AI and Digital Cities: Balancing Innovation with Regulation",
+          "url": "https://digital.aecom.com/article/ai-and-digital-cities-balancing-innovation-with-regulation"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This legal analysis of \"AECOM v Mallon\" provides evidence for **external_accountability**, **fairness**, **governance**, **oversight**, and **transparency**. It highlights the legal duty for fairness in automated recruitment systems, supporting **fairness** by discussing AI-driven processes that can disadvantage individuals and the need for reasonable adjustments. The document also implies the need for **governance** and **external_accountability** in vendor selection and use of third-party AI tools, and recommends human **oversight** for accuracy and non-discrimination, aligning with **transparency** in decision-making.",
+          "title": "AECOM v Mallon Case",
+          "url": "https://walkermorris.co.uk/in-brief/ai-and-recruitment-an-invaluable-tool-or-source-of-discrimination"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 8,
+      "findings": "An AI governance framework describes principles for governance, with policy commitments referenced for AI development and use. The need for governance in vendor selection and use of third-party AI tools is implied. Furthermore, the BST Global AI + Data Consortium aims to define best practices and standards for AI in the AEC industry, indicating a commitment to establishing governance structures and policy-level direction for AI use.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"AI and Digital Cities: Balancing Innovation with Regulation,\" provides evidence for several responsible AI pillars. It supports **explainability**, **transparency**, **fairness**, and **governance** by describing an AI governance framework with principles for these areas. The post also touches on **privacy** and **external_accountability** by mentioning national regulations and legislative frameworks like the AI Act and AI Bill of Rights, indicating policy commitments to these aspects of AI development and use.",
+          "title": "AI and Digital Cities: Balancing Innovation with Regulation",
+          "url": "https://digital.aecom.com/article/ai-and-digital-cities-balancing-innovation-with-regulation"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This legal analysis of \"AECOM v Mallon\" provides evidence for **external_accountability**, **fairness**, **governance**, **oversight**, and **transparency**. It highlights the legal duty for fairness in automated recruitment systems, supporting **fairness** by discussing AI-driven processes that can disadvantage individuals and the need for reasonable adjustments. The document also implies the need for **governance** and **external_accountability** in vendor selection and use of third-party AI tools, and recommends human **oversight** for accuracy and non-discrimination, aligning with **transparency** in decision-making.",
+          "title": "AECOM v Mallon Case",
+          "url": "https://walkermorris.co.uk/in-brief/ai-and-recruitment-an-invaluable-tool-or-source-of-discrimination"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This announcement about the BST Global AI + Data Consortium provides evidence for the **governance** and **transparency** pillars of responsible AI. The consortium's aim to define best practices and standards for AI in the AEC industry indicates a commitment to establishing governance structures and policy-level direction for AI use. Furthermore, the mention of AI-powered solutions and capabilities suggests a degree of transparency regarding the AI being deployed.",
+          "title": "BST Global Announces AI + Data Consortium to Transform the AEC Industry",
+          "url": "https://bstglobal.com/company/news/bst-global-announces-ai-data-consortium-to-transform-the-aec-industry"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 7,
+      "findings": "Individuals' rights to request a review of automated decision-making are outlined, implying a mechanism for human intervention. Human oversight is also recommended for accuracy and non-discrimination.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "AECOM's Privacy Policy document provides evidence for the **oversight** and **privacy** pillars of responsible AI. It supports oversight by outlining individuals' rights to request a review of automated decision-making, implying a mechanism for human intervention. The policy also supports the privacy pillar by addressing individuals' rights concerning automated processing and profiling.",
+          "title": "AECOM Privacy Policy",
+          "url": "https://aecom.com/privacy-policy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This legal analysis of \"AECOM v Mallon\" provides evidence for **external_accountability**, **fairness**, **governance**, **oversight**, and **transparency**. It highlights the legal duty for fairness in automated recruitment systems, supporting **fairness** by discussing AI-driven processes that can disadvantage individuals and the need for reasonable adjustments. The document also implies the need for **governance** and **external_accountability** in vendor selection and use of third-party AI tools, and recommends human **oversight** for accuracy and non-discrimination, aligning with **transparency** in decision-making.",
+          "title": "AECOM v Mallon Case",
+          "url": "https://walkermorris.co.uk/in-brief/ai-and-recruitment-an-invaluable-tool-or-source-of-discrimination"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 2,
+      "findings": "Individuals' rights concerning automated processing and profiling are addressed. Policy commitments to privacy in AI development and use are indicated by mentioning national regulations and legislative frameworks such as the AI Act and AI Bill of Rights.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "AECOM's Privacy Policy document provides evidence for the **oversight** and **privacy** pillars of responsible AI. It supports oversight by outlining individuals' rights to request a review of automated decision-making, implying a mechanism for human intervention. The policy also supports the privacy pillar by addressing individuals' rights concerning automated processing and profiling.",
+          "title": "AECOM Privacy Policy",
+          "url": "https://aecom.com/privacy-policy"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"AI and Digital Cities: Balancing Innovation with Regulation,\" provides evidence for several responsible AI pillars. It supports **explainability**, **transparency**, **fairness**, and **governance** by describing an AI governance framework with principles for these areas. The post also touches on **privacy** and **external_accountability** by mentioning national regulations and legislative frameworks like the AI Act and AI Bill of Rights, indicating policy commitments to these aspects of AI development and use.",
+          "title": "AI and Digital Cities: Balancing Innovation with Regulation",
+          "url": "https://digital.aecom.com/article/ai-and-digital-cities-balancing-innovation-with-regulation"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 4,
+      "findings": "An AI governance framework outlines principles for transparency, with policy commitments referenced for AI development and use. Human oversight is recommended for accuracy and non-discrimination, aligning with transparent decision-making. Additionally, the BST Global AI + Data Consortium aims to define best practices and standards for AI, suggesting transparency regarding deployed AI solutions and capabilities.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This blog post, \"AI and Digital Cities: Balancing Innovation with Regulation,\" provides evidence for several responsible AI pillars. It supports **explainability**, **transparency**, **fairness**, and **governance** by describing an AI governance framework with principles for these areas. The post also touches on **privacy** and **external_accountability** by mentioning national regulations and legislative frameworks like the AI Act and AI Bill of Rights, indicating policy commitments to these aspects of AI development and use.",
+          "title": "AI and Digital Cities: Balancing Innovation with Regulation",
+          "url": "https://digital.aecom.com/article/ai-and-digital-cities-balancing-innovation-with-regulation"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This legal analysis of \"AECOM v Mallon\" provides evidence for **external_accountability**, **fairness**, **governance**, **oversight**, and **transparency**. It highlights the legal duty for fairness in automated recruitment systems, supporting **fairness** by discussing AI-driven processes that can disadvantage individuals and the need for reasonable adjustments. The document also implies the need for **governance** and **external_accountability** in vendor selection and use of third-party AI tools, and recommends human **oversight** for accuracy and non-discrimination, aligning with **transparency** in decision-making.",
+          "title": "AECOM v Mallon Case",
+          "url": "https://walkermorris.co.uk/in-brief/ai-and-recruitment-an-invaluable-tool-or-source-of-discrimination"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This announcement about the BST Global AI + Data Consortium provides evidence for the **governance** and **transparency** pillars of responsible AI. The consortium's aim to define best practices and standards for AI in the AEC industry indicates a commitment to establishing governance structures and policy-level direction for AI use. Furthermore, the mention of AI-powered solutions and capabilities suggests a degree of transparency regarding the AI being deployed.",
+          "title": "BST Global Announces AI + Data Consortium to Transform the AEC Industry",
+          "url": "https://bstglobal.com/company/news/bst-global-announces-ai-data-consortium-to-transform-the-aec-industry"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T16:59:35Z",
+  "run_id": "20260309_170559_3e13",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [],
+    "overall_findings": "Based on 10 publicly available sources, AECOM's published materials address all 7 evaluated responsible AI pillars, with documented public evidence found for each. An AI governance framework describes principles for transparency, fairness, explainability, and governance, with policy commitments referenced for these areas in AI development and use. Regarding oversight, individuals' rights to request a review of automated decision-making are outlined, and individuals' rights concerning automated processing and profiling are addressed for privacy. Furthermore, national regulations and legislative frameworks like the AI Act and AI Bill of Rights are mentioned, indicating policy commitments to privacy and external accountability, with the latter also implying a need for external accountability in vendor selection.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 7,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 19,
+    "total_sources_used": 4
+  }
+}

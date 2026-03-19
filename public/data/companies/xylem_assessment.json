@@ -1,0 +1,159 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 21.4,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 3
+  },
+  "company": "Xylem",
+  "company_slug": "xylem",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 4,
+      "OPERATIONAL": 2,
+      "POLICY": 1
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 3,
+      "findings": "Xylem's published materials describe a commitment to governance and security for AI innovations, and reference policies in place for AI systems. These materials also describe Xylem's use of AI for water leak detection, detailing how the company leverages AI for operational efficiency, faster data delivery to clients, and other tangible benefits.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI in Water Management - Xylem,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The post supports transparency by explaining AI's advanced capabilities and use cases for decision support and data analysis, and by detailing specific AI applications and outcomes at a named utility. It also indicates a commitment to governance and security for AI innovations and protecting data, suggesting policies are in place for AI systems.",
+          "title": "AI in Water Management - Xylem",
+          "url": "https://xylem.com/en-us/resources/blog-posts/making-waves-beyond-the-hype-how-leading-utilities-are-applying-ai-to-water-management"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This article describes Xylem's use of AI for water leak detection, demonstrating how the company leverages AI for operational efficiency and faster data delivery to clients. The source provides evidence for **governance** and **transparency** by detailing a specific AI use case (leak detection) and its tangible benefits, such as reduced analysis time and improved worker deployment, as well as mentioning the deployment of a digital twin for water saving outcomes.",
+          "title": "3 Ways AI Drives Sustainability - Kogod School of Business",
+          "url": "https://kogod.american.edu/news/gamechangers-in-sustainability-speaker-series-with-xylem-ceo-matthew-pine"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "Xylem's published materials reference protecting data for AI innovations. These materials also reference policies in place for AI systems regarding data protection.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI in Water Management - Xylem,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The post supports transparency by explaining AI's advanced capabilities and use cases for decision support and data analysis, and by detailing specific AI applications and outcomes at a named utility. It also indicates a commitment to governance and security for AI innovations and protecting data, suggesting policies are in place for AI systems.",
+          "title": "AI in Water Management - Xylem",
+          "url": "https://xylem.com/en-us/resources/blog-posts/making-waves-beyond-the-hype-how-leading-utilities-are-applying-ai-to-water-management"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 6,
+      "findings": "Xylem's published materials describe AI's advanced capabilities and use cases for decision support and data analysis, detailing specific AI applications and outcomes at a named utility. These materials also detail a specific AI use case for water leak detection, outlining its tangible benefits such as reduced analysis time and improved worker deployment, and reference the deployment of a digital twin for water saving outcomes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AI in Water Management - Xylem,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. The post supports transparency by explaining AI's advanced capabilities and use cases for decision support and data analysis, and by detailing specific AI applications and outcomes at a named utility. It also indicates a commitment to governance and security for AI innovations and protecting data, suggesting policies are in place for AI systems.",
+          "title": "AI in Water Management - Xylem",
+          "url": "https://xylem.com/en-us/resources/blog-posts/making-waves-beyond-the-hype-how-leading-utilities-are-applying-ai-to-water-management"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This article describes Xylem's use of AI for water leak detection, demonstrating how the company leverages AI for operational efficiency and faster data delivery to clients. The source provides evidence for **governance** and **transparency** by detailing a specific AI use case (leak detection) and its tangible benefits, such as reduced analysis time and improved worker deployment, as well as mentioning the deployment of a digital twin for water saving outcomes.",
+          "title": "3 Ways AI Drives Sustainability - Kogod School of Business",
+          "url": "https://kogod.american.edu/news/gamechangers-in-sustainability-speaker-series-with-xylem-ceo-matthew-pine"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-03-19T17:30:09Z",
+  "run_id": "20260309_193327_910b",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Xylem's published materials describe AI's advanced capabilities and use cases for decision support and data analysis, detailing specific AI applications and outcomes at a named utility. These disclosures, along with references to policies in place for AI systems regarding data protection, contribute to coverage across 3 of 7 evaluated responsible AI pillars. A commitment to governance for AI innovations is also documented through referenced policies for AI systems. Drawing from 9 publicly available sources, no qualifying public evidence was found for fairness, explainability, and 2 additional pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 7,
+    "total_sources_used": 2
+  }
+}

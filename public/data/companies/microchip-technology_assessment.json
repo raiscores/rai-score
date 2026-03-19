@@ -1,0 +1,137 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 0.0,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 0
+  },
+  "company": "Microchip Technology",
+  "company_slug": "microchip-technology",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 4,
+      "OPERATIONAL": 0,
+      "POLICY": 0
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 1,
+      "findings": "A press release mentions an Edge AI business unit and deployable models, focusing on the company's organizational structure and general capabilities related to AI development and deployment. It also outlines company offerings and future steps in AI.",
+      "max_score": 2,
+      "path_to_improvement": "Document AI governance structure, including oversight of vendor AI tools.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Production-Ready Edge AI Solutions,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. While it mentions an Edge AI business unit, deployable models, and inferencing capabilities, the descriptions are narrative and focus on company offerings and future steps rather than specific AI system details or execution. This suggests a focus on the organizational structure and general capabilities related to AI development and deployment, aligning with governance, and the general mention of AI/ML innovation and inferencing hints at transparency regarding their technological focus.",
+          "title": "Production-Ready Edge AI Solutions",
+          "url": "https://ir.microchip.com/news-events/press-releases/detail/1368/production-ready-full-stack-edge-ai-solutions-turn-microchips-mcus-and-mpus-into-catalysts-for-intelligent-real-time-decision-making"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Transparency",
+      "evidence_count": 4,
+      "findings": "A press release references AI/ML innovation and inferencing capabilities, indicating the company's technological focus. It also mentions an Edge AI business unit and deployable models, focusing on company offerings and future steps in AI.",
+      "max_score": 2,
+      "path_to_improvement": "Document AI systems in use, including vendor/third-party AI tools.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This press release, \"Production-Ready Edge AI Solutions,\" provides evidence for the **governance** and **transparency** pillars of responsible AI. While it mentions an Edge AI business unit, deployable models, and inferencing capabilities, the descriptions are narrative and focus on company offerings and future steps rather than specific AI system details or execution. This suggests a focus on the organizational structure and general capabilities related to AI development and deployment, aligning with governance, and the general mention of AI/ML innovation and inferencing hints at transparency regarding their technological focus.",
+          "title": "Production-Ready Edge AI Solutions",
+          "url": "https://ir.microchip.com/news-events/press-releases/detail/1368/production-ready-full-stack-edge-ai-solutions-turn-microchips-mcus-and-mpus-into-catalysts-for-intelligent-real-time-decision-making"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-03-19T17:20:03Z",
+  "run_id": "20260309_184535_672e",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Governance & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Microchip Technology's public documentation was reviewed across 7 responsible AI pillars, and no qualifying evidence was identified. While the assessment reviewed 6 publicly available sources, no documented AI governance, oversight, or accountability practices were found.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 0,
+    "pillars_with_evidence": 0,
+    "pillars_without_evidence": 7,
+    "total_evidence_items": 4,
+    "total_sources_used": 1
+  }
+}

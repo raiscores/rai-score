@@ -1,0 +1,143 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 14.3,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 2
+  },
+  "company": "Farmers Insurance Exchange",
+  "company_slug": "farmers-insurance-exchange",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 0,
+      "POLICY": 4
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 4,
+      "findings": "A policy document discloses the company's use of AI and automated decision-making tools in various operational areas, indicating a formal policy for their deployment. Additionally, a press release details the integration of an AI model into the underwriting process, referencing established policies for AI use in risk assessment.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"Farmers Insurance Notice of AI and Automated Decision Making Technology,\" provides evidence for the **governance** pillar. The notice explicitly discloses the company's use of AI and automated decision-making tools in various operational areas, indicating a formal policy for their deployment.",
+          "title": "Farmers Insurance Notice of AI and Automated Decision Making Technology",
+          "url": "https://farmers.com/content/farmers/marketing/digital/aem/pdfs/privacy-center/Notice_of_AI_Automated_Decision_Making_Technology.pdf"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing Farmers Insurance's integration of Zesty.ai's Z-FIRE AI model into their underwriting process, indicating established policies for AI use in risk assessment. Transparency is supported by the press release's description of the AI system's capabilities, data sources, and assessment methodology, offering insight into its operations.",
+          "title": "Farmers Insurance Adopts Zesty.ai Z-FIRE AI Wildfire Risk Scoring for Underwriting",
+          "url": "https://newsroom.farmers.com/2021-06-14-Farmers-Insurance-R-Adopts-Innovative-Technology-by-Zesty-ai-to-Increase-Homes-Eligible-for-Insurance-in-High-Wildfire-Risk-Areas-in-California"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 4,
+      "findings": "A press release describes the capabilities, data sources, and assessment methodology of an AI system. This description offers insight into the system's operations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing Farmers Insurance's integration of Zesty.ai's Z-FIRE AI model into their underwriting process, indicating established policies for AI use in risk assessment. Transparency is supported by the press release's description of the AI system's capabilities, data sources, and assessment methodology, offering insight into its operations.",
+          "title": "Farmers Insurance Adopts Zesty.ai Z-FIRE AI Wildfire Risk Scoring for Underwriting",
+          "url": "https://newsroom.farmers.com/2021-06-14-Farmers-Insurance-R-Adopts-Innovative-Technology-by-Zesty-ai-to-Increase-Homes-Eligible-for-Insurance-in-High-Wildfire-Risk-Areas-in-California"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-03-19T17:12:18Z",
+  "run_id": "20260309_181201_5fd8",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Drawing from 8 publicly available sources, Farmers Insurance Exchange's published materials address 2 of 7 evaluated responsible AI pillars. Transparency disclosures include press releases describing the capabilities and data sources of an AI system. Furthermore, governance is addressed through policy documents that disclose the company's use of AI and automated decision-making tools and indicate a formal deployment policy. No qualifying public evidence was found for the majority of the 7 evaluated pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 2,
+    "pillars_without_evidence": 5,
+    "total_evidence_items": 6,
+    "total_sources_used": 2
+  }
+}
