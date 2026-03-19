@@ -1,0 +1,215 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "Estée Lauder",
+  "company_slug": "este-lauder",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 8,
+      "OPERATIONAL": 2,
+      "POLICY": 16
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 3,
+      "findings": "A blog post describes efforts to reduce data biases through data scrutiny and human oversight. An article highlights claims that the company's automated video interview process involves human decision-making and aims to produce fairer outcomes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post details Estée Lauder's commitment to responsible AI by highlighting their integration of an \"ethical machine learning practice\" into their business strategy, supporting the **governance** pillar. The article also provides evidence for **fairness** and **privacy** by describing their efforts to reduce data biases through data scrutiny and human oversight, and their adherence to strict data privacy and collection laws, including requiring customer opt-in for their data platform. Furthermore, the mention of close collaboration with legal and privacy teams for AI launches demonstrates operational engagement in **governance** and **privacy**.",
+          "title": "Estée Lauder's Journey to Building Its Own Ethical AI Practice",
+          "url": "https://pandata.co/blog/estee-lauders-journey-to-building-its-own-ethical-ai-practice"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **fairness** and **oversight** pillars of responsible AI. It highlights Estée Lauder's claims that their automated video interview process involves human decision-making and aims to produce fairer outcomes, directly addressing fairness. The article also implicitly supports oversight by reporting on the company's response to employee concerns about the algorithm's decision-making process.",
+          "title": "Estée Lauder settles with former staff over algorithm redundancies",
+          "url": "https://cityam.com/estee-lauder-settles-with-former-staff-over-algorithm-redundancies"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 14,
+      "findings": "Documentation details governance over the development and application of AI solutions. A blog post describes the development of an AI ecosystem and specific AI services, highlighting the integration of an \"ethical machine learning practice\" into business strategy and mentioning close collaboration with legal and privacy teams for AI launches. A description also mentions the establishment of an AI Innovation Lab with specific goals and a commitment to inclusion through technology.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance** and **transparency** by detailing Estée Lauder Companies' use of Google Cloud's generative AI technologies, including the PaLM 2 large language model and Vertex AI platform. The document highlights the company's efforts to understand consumer sentiment and personalize digital experiences, indicating transparency in their AI initiatives and governance over the development and application of these AI solutions.",
+          "title": "The Estée Lauder Companies Inc. and Google Cloud Partner to Transform the Online Consumer Experience with Generative AI",
+          "url": "https://prnewswire.com/news-releases/the-estee-lauder-companies-inc-and-google-cloud-partner-to-transform-the-online-consumer-experience-with-generative-ai-301912131.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This Microsoft blog post details Estee Lauder's use of generative AI and specific AI agents like ConsumerIQ for trend forecasting and insight generation. The blog post supports the **governance** pillar by describing the development of an AI ecosystem and specific AI services, implying oversight and control over AI deployment. It also supports the **transparency** pillar by detailing the functions of AI agents and the overall AI platform strategy, making the AI's capabilities and intended use clear.",
+          "title": "Estee Lauder Uses AI to Reimagine Trend Forecasting (Microsoft)",
+          "url": "https://news.microsoft.com/source/features/digital-transformation/estee-lauder-uses-ai-to-reimagine-trend-forecasting-and-consumer-marketing"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post details Estée Lauder's commitment to responsible AI by highlighting their integration of an \"ethical machine learning practice\" into their business strategy, supporting the **governance** pillar. The article also provides evidence for **fairness** and **privacy** by describing their efforts to reduce data biases through data scrutiny and human oversight, and their adherence to strict data privacy and collection laws, including requiring customer opt-in for their data platform. Furthermore, the mention of close collaboration with legal and privacy teams for AI launches demonstrates operational engagement in **governance** and **privacy**.",
+          "title": "Estée Lauder's Journey to Building Its Own Ethical AI Practice",
+          "url": "https://pandata.co/blog/estee-lauders-journey-to-building-its-own-ethical-ai-practice"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This third-party description of Estée Lauder's \"AI Beauty Revolution\" provides evidence for **governance** and **transparency**. It supports governance by mentioning the establishment of an AI Innovation Lab with specific goals and a commitment to inclusion through technology. Transparency is supported by describing the AI capabilities of the Voice-Enabled Makeup Assistant, such as assessing makeup uniformity and coverage, and by noting the planned use of generative AI tools.",
+          "title": "AI Beauty Revolution: Estée Lauder’s Tech Makeover",
+          "url": "https://missionmag.org/ai-beauty-revolution-estee-lauders-tech-makeover"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "A blog post describes efforts to reduce data biases through human oversight. An article reports on the company's response to employee concerns regarding an algorithm's decision-making process.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post details Estée Lauder's commitment to responsible AI by highlighting their integration of an \"ethical machine learning practice\" into their business strategy, supporting the **governance** pillar. The article also provides evidence for **fairness** and **privacy** by describing their efforts to reduce data biases through data scrutiny and human oversight, and their adherence to strict data privacy and collection laws, including requiring customer opt-in for their data platform. Furthermore, the mention of close collaboration with legal and privacy teams for AI launches demonstrates operational engagement in **governance** and **privacy**.",
+          "title": "Estée Lauder's Journey to Building Its Own Ethical AI Practice",
+          "url": "https://pandata.co/blog/estee-lauders-journey-to-building-its-own-ethical-ai-practice"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_015",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **fairness** and **oversight** pillars of responsible AI. It highlights Estée Lauder's claims that their automated video interview process involves human decision-making and aims to produce fairer outcomes, directly addressing fairness. The article also implicitly supports oversight by reporting on the company's response to employee concerns about the algorithm's decision-making process.",
+          "title": "Estée Lauder settles with former staff over algorithm redundancies",
+          "url": "https://cityam.com/estee-lauder-settles-with-former-staff-over-algorithm-redundancies"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "A blog post describes adherence to strict data privacy and collection laws, including requiring customer opt-in for their data platform. It also mentions close collaboration with legal and privacy teams for AI launches.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post details Estée Lauder's commitment to responsible AI by highlighting their integration of an \"ethical machine learning practice\" into their business strategy, supporting the **governance** pillar. The article also provides evidence for **fairness** and **privacy** by describing their efforts to reduce data biases through data scrutiny and human oversight, and their adherence to strict data privacy and collection laws, including requiring customer opt-in for their data platform. Furthermore, the mention of close collaboration with legal and privacy teams for AI launches demonstrates operational engagement in **governance** and **privacy**.",
+          "title": "Estée Lauder's Journey to Building Its Own Ethical AI Practice",
+          "url": "https://pandata.co/blog/estee-lauders-journey-to-building-its-own-ethical-ai-practice"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 20,
+      "findings": "Documentation details the use of generative AI technologies, including specific models and platforms, and highlights efforts to understand consumer sentiment and personalize digital experiences. A blog post describes the functions of AI agents and the overall AI platform strategy, making AI capabilities and intended use clear. A description also outlines the AI capabilities of the Voice-Enabled Makeup Assistant and notes the planned use of generative AI tools.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for **governance** and **transparency** by detailing Estée Lauder Companies' use of Google Cloud's generative AI technologies, including the PaLM 2 large language model and Vertex AI platform. The document highlights the company's efforts to understand consumer sentiment and personalize digital experiences, indicating transparency in their AI initiatives and governance over the development and application of these AI solutions.",
+          "title": "The Estée Lauder Companies Inc. and Google Cloud Partner to Transform the Online Consumer Experience with Generative AI",
+          "url": "https://prnewswire.com/news-releases/the-estee-lauder-companies-inc-and-google-cloud-partner-to-transform-the-online-consumer-experience-with-generative-ai-301912131.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This Microsoft blog post details Estee Lauder's use of generative AI and specific AI agents like ConsumerIQ for trend forecasting and insight generation. The blog post supports the **governance** pillar by describing the development of an AI ecosystem and specific AI services, implying oversight and control over AI deployment. It also supports the **transparency** pillar by detailing the functions of AI agents and the overall AI platform strategy, making the AI's capabilities and intended use clear.",
+          "title": "Estee Lauder Uses AI to Reimagine Trend Forecasting (Microsoft)",
+          "url": "https://news.microsoft.com/source/features/digital-transformation/estee-lauder-uses-ai-to-reimagine-trend-forecasting-and-consumer-marketing"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_017",
+          "source_tier": "third_party",
+          "summary": "This third-party description of Estée Lauder's \"AI Beauty Revolution\" provides evidence for **governance** and **transparency**. It supports governance by mentioning the establishment of an AI Innovation Lab with specific goals and a commitment to inclusion through technology. Transparency is supported by describing the AI capabilities of the Voice-Enabled Makeup Assistant, such as assessing makeup uniformity and coverage, and by noting the planned use of generative AI tools.",
+          "title": "AI Beauty Revolution: Estée Lauder’s Tech Makeover",
+          "url": "https://missionmag.org/ai-beauty-revolution-estee-lauders-tech-makeover"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T17:11:44Z",
+  "run_id": "20260309_180925_4a99",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Estée Lauder's documentation details the use of Google Cloud's generative AI technologies, including the PaLM 2 large language model and Vertex AI platform. These disclosures, drawn from 19 publicly available sources, address 5 of 7 evaluated responsible AI pillars. Published materials describe requiring customer opt-in for their data platform and efforts to reduce data biases through data scrutiny and human oversight. Transparency, fairness, oversight, privacy, and governance are each addressed through documented policies, with governance materials further detailing oversight over the development and application of AI solutions. No qualifying public evidence was found for explainability or external accountability.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 26,
+    "total_sources_used": 5
+  }
+}

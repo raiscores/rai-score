@@ -1,0 +1,143 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 14.3,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 2
+  },
+  "company": "MasTec",
+  "company_slug": "mastec",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 5,
+      "OPERATIONAL": 1,
+      "POLICY": 1
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 3,
+      "findings": "A conference schedule mentions an Assistant General Counsel who oversees MasTec's corporate AI policy. The schedule also references the existence of internal AI governance mechanisms and a focus on responsible AI development and deployment through policy review and potential training.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This conference schedule excerpt provides evidence for **governance** and **transparency** by mentioning an Assistant General Counsel who oversees MasTec's corporate AI policy. This indicates the existence of internal AI governance mechanisms and suggests a focus on responsible AI development and deployment through policy review and potential training.",
+          "title": "Society of Construction Law North America Conference Schedule",
+          "url": "https://scl-na-conference.org/schedule-of-events"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 6,
+      "findings": "A case study describes the AI capabilities of the Zonar Coach system, detailing its ability to detect unsafe driving events and mentioning the deployment of AI-powered dashcam devices. This case study also describes the AI's functionality and system deployment. Additionally, a conference schedule references an Assistant General Counsel who oversees MasTec's corporate AI policy.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This case study from Zonar provides evidence for the **transparency** pillar of responsible AI. It describes the AI capabilities of the Zonar Coach system, specifically its ability to detect unsafe driving events, and mentions the deployment of AI-powered dashcam devices. This narrative description of the AI's functionality and system deployment contributes to transparency by explaining what the AI does and how it is used.",
+          "title": "AI-Powered Dashcam Fleet Safety Solution Case Study",
+          "url": "https://zonarsystems.com/case-studies/mastec"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This conference schedule excerpt provides evidence for **governance** and **transparency** by mentioning an Assistant General Counsel who oversees MasTec's corporate AI policy. This indicates the existence of internal AI governance mechanisms and suggests a focus on responsible AI development and deployment through policy review and potential training.",
+          "title": "Society of Construction Law North America Conference Schedule",
+          "url": "https://scl-na-conference.org/schedule-of-events"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-03-19T17:19:56Z",
+  "run_id": "20260309_184419_47eb",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "MasTec's published materials describe the AI capabilities of the Zonar Coach system, including its ability to detect unsafe driving events, and reference an Assistant General Counsel who oversees corporate AI policy. These materials address two of seven evaluated responsible AI pillars, with both transparency and governance documented through references to internal AI governance mechanisms and corporate policy oversight. No qualifying public evidence was found for the majority of the 7 evaluated pillars, based on a review of 7 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 2,
+    "pillars_without_evidence": 5,
+    "total_evidence_items": 7,
+    "total_sources_used": 2
+  }
+}

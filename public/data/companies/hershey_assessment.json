@@ -1,0 +1,209 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "The Hershey Company",
+  "company_slug": "hershey",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 6,
+      "OPERATIONAL": 5,
+      "POLICY": 14
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "A privacy policy details the collection of behavioral data through automated means, including internet browsing history and geolocation data, for purposes such as profiling and targeted advertising.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing the collection of behavioral data through automated means, including internet browsing history and geolocation data, for purposes like profiling and targeted advertising. Furthermore, the policy outlines user rights to challenge or opt out of automated decision-making and profiling, and mentions mechanisms for vendor oversight and respecting automated signals like GPC, demonstrating a commitment to transparency and user control over their data.",
+          "title": "Privacy Policy",
+          "url": "https://thehersheycompany.com/en_us/home/privacy-policy.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 11,
+      "findings": "A privacy policy details the collection of behavioral data and outlines user rights regarding automated decision-making, also mentioning vendor oversight mechanisms. The company's 10-K filing references the CTO's expertise in AI, discloses an employee training program on \"Responsible AI Use,\" and states the Board of Directors approved an \"Automation Initiative.\" Additionally, sources describe AI providing structured decision support for recruiters and the CTO discusses an AI/ML and data framework for future AI deployment.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing the collection of behavioral data through automated means, including internet browsing history and geolocation data, for purposes like profiling and targeted advertising. Furthermore, the policy outlines user rights to challenge or opt out of automated decision-making and profiling, and mentions mechanisms for vendor oversight and respecting automated signals like GPC, demonstrating a commitment to transparency and user control over their data.",
+          "title": "Privacy Policy",
+          "url": "https://thehersheycompany.com/en_us/home/privacy-policy.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_003",
+          "source_tier": "authority",
+          "summary": "The Hershey Company's 2023 10-K filing provides evidence for the **governance** pillar of responsible AI. The filing indicates governance through the mention of the Chief Technology Officer's expertise in AI and predictive analytics, and the disclosure of an employee training program that includes \"Responsible AI Use.\" Furthermore, the approval of an \"Automation Initiative\" by the Board of Directors demonstrates governance over the implementation and operational execution of new technologies.",
+          "title": "Form 10-K for fiscal year ended December 31, 2023",
+          "url": "https://sec.gov/Archives/edgar/data/47111/000004711124000009/hsy-20231231.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing how AI is used to provide structured decision support for recruiters, such as application review and match scoring, implying a controlled process. The article also touches on transparency by mentioning AI capabilities like calendar access for scheduling, which offers a clearer view of the recruitment process for candidates.",
+          "title": "How Hershey's Global Head of TA Is Using AI to Elevate Recruiters",
+          "url": "https://hci.org/blog/how-hersheys-global-head-ta-using-ai-elevate-recruiters"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This article, \"Hershey's First CTO Details IT Transformation Roadmap,\" provides evidence for the **governance** pillar of responsible AI. The CTO's discussion of the necessary digital foundation before AI deployment, including an AI/ML and data framework, indicates future governance intent for technology use.",
+          "title": "Hershey's First CTO Details IT Transformation Roadmap",
+          "url": "https://consumergoods.com/hersheys-first-cto-details-it-transformation-roadmap-and-priorities"
+        }
+      ],
+      "score": 2,
+      "source_count": 4
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "A privacy policy mentions mechanisms for vendor oversight. Additionally, sources reference a \"human-in-the-loop\" mechanism for AI agents.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing the collection of behavioral data through automated means, including internet browsing history and geolocation data, for purposes like profiling and targeted advertising. Furthermore, the policy outlines user rights to challenge or opt out of automated decision-making and profiling, and mentions mechanisms for vendor oversight and respecting automated signals like GPC, demonstrating a commitment to transparency and user control over their data.",
+          "title": "Privacy Policy",
+          "url": "https://thehersheycompany.com/en_us/home/privacy-policy.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **oversight** and **transparency** pillars of responsible AI. It supports transparency by describing the capabilities of AI agents, such as analyzing data and orchestrating customer journeys, and mentions a \"human-in-the-loop\" mechanism, which contributes to oversight. However, the source lacks specific details on the execution or policies governing these AI agents.",
+          "title": "Adobe makes AI agents and orchestrator generally available",
+          "url": "https://martech.org/adobe-makes-ai-agents-and-orchestrator-generally-available"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 11,
+      "findings": "A privacy policy details the collection of behavioral data through automated means, including internet browsing history and geolocation data, for purposes like profiling and targeted advertising. The policy also outlines user rights to challenge or opt out of automated decision-making and profiling, and mentions mechanisms for respecting automated signals like GPC.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing the collection of behavioral data through automated means, including internet browsing history and geolocation data, for purposes like profiling and targeted advertising. Furthermore, the policy outlines user rights to challenge or opt out of automated decision-making and profiling, and mentions mechanisms for vendor oversight and respecting automated signals like GPC, demonstrating a commitment to transparency and user control over their data.",
+          "title": "Privacy Policy",
+          "url": "https://thehersheycompany.com/en_us/home/privacy-policy.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 11,
+      "findings": "The company's privacy policy details the collection of behavioral data through automated means for profiling and targeted advertising, and outlines user rights to challenge or opt out of automated decision-making and profiling, including respecting automated signals like GPC. Additionally, AI capabilities like calendar access for scheduling offer a clearer view of the recruitment process for candidates, and sources describe the capabilities of AI agents for data analysis and customer journey orchestration.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for **explainability, governance, oversight, privacy, and transparency**. It supports these pillars by detailing the collection of behavioral data through automated means, including internet browsing history and geolocation data, for purposes like profiling and targeted advertising. Furthermore, the policy outlines user rights to challenge or opt out of automated decision-making and profiling, and mentions mechanisms for vendor oversight and respecting automated signals like GPC, demonstrating a commitment to transparency and user control over their data.",
+          "title": "Privacy Policy",
+          "url": "https://thehersheycompany.com/en_us/home/privacy-policy.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by describing how AI is used to provide structured decision support for recruiters, such as application review and match scoring, implying a controlled process. The article also touches on transparency by mentioning AI capabilities like calendar access for scheduling, which offers a clearer view of the recruitment process for candidates.",
+          "title": "How Hershey's Global Head of TA Is Using AI to Elevate Recruiters",
+          "url": "https://hci.org/blog/how-hersheys-global-head-ta-using-ai-elevate-recruiters"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **oversight** and **transparency** pillars of responsible AI. It supports transparency by describing the capabilities of AI agents, such as analyzing data and orchestrating customer journeys, and mentions a \"human-in-the-loop\" mechanism, which contributes to oversight. However, the source lacks specific details on the execution or policies governing these AI agents.",
+          "title": "Adobe makes AI agents and orchestrator generally available",
+          "url": "https://martech.org/adobe-makes-ai-agents-and-orchestrator-generally-available"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T17:14:37Z",
+  "run_id": "20260309_182600_8f60",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Governance & Accountability"
+    ],
+    "overall_findings": "The Hershey Company's responsible AI disclosures include operational practices in governance, where a privacy policy details the collection of behavioral data through automated means for profiling and targeted advertising. Overall, 5 of 7 evaluated pillars have documented evidence, with transparency, explainability, oversight, and privacy addressed at the policy level through various disclosures, including user rights to challenge or opt out of automated decision-making and profiling. For instance, oversight materials mention mechanisms for vendor oversight and sources reference a \"human-in-the-loop\" mechanism for AI agents. No qualifying public evidence was found for fairness or external accountability. This assessment is based on 11 publicly available sources.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 25,
+    "total_sources_used": 5
+  }
+}

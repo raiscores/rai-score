@@ -1,0 +1,167 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "BorgWarner",
+  "company_slug": "borgwarner",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 5,
+      "OPERATIONAL": 4,
+      "POLICY": 4
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "BorgWarner's annual report states the risk of \"biased\" content from AI. The report outlines potential negative impacts related to AI bias.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This Form 10-K Annual Report from BorgWarner provides evidence for the **governance** and **fairness** pillars of responsible AI. The report acknowledges the potential incorporation of AI into its systems, indicating a need for governance over these technologies, and explicitly mentions the risk of \"biased\" content from AI, directly supporting the fairness pillar by outlining potential negative impacts.",
+          "title": "Form 10-K Annual Report 2024",
+          "url": "https://sec.gov/Archives/edgar/data/908255/000090825525000007/bwa-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 10,
+      "findings": "BorgWarner's annual report states the potential incorporation of AI into its systems, indicating a need for governance over these technologies. A case study details the implementation of AI guardrails to manage generative AI usage and describes a focus on operational governance.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This Form 10-K Annual Report from BorgWarner provides evidence for the **governance** and **fairness** pillars of responsible AI. The report acknowledges the potential incorporation of AI into its systems, indicating a need for governance over these technologies, and explicitly mentions the risk of \"biased\" content from AI, directly supporting the fairness pillar by outlining potential negative impacts.",
+          "title": "Form 10-K Annual Report 2024",
+          "url": "https://sec.gov/Archives/edgar/data/908255/000090825525000007/bwa-20241231.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This Zscaler case study provides evidence for governance, oversight, privacy, and transparency. It details BorgWarner's implementation of AI guardrails and data protection measures to manage generative AI usage, demonstrating a focus on operational governance and privacy. The case study also highlights the system's ability to monitor AI application usage and examine input prompts, offering transparency into how generative AI is being utilized and supporting the need for oversight and risk reduction.",
+          "title": "Zscaler Case Study: BorgWarner Embraces Zero Trust + AI",
+          "url": "https://zscaler.com/customers/borgwarner"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 1,
+      "findings": "A case study details BorgWarner's implementation of AI guardrails to manage generative AI usage. It highlights the system's ability to monitor AI application usage and examine input prompts, referencing the need for oversight.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This Zscaler case study provides evidence for governance, oversight, privacy, and transparency. It details BorgWarner's implementation of AI guardrails and data protection measures to manage generative AI usage, demonstrating a focus on operational governance and privacy. The case study also highlights the system's ability to monitor AI application usage and examine input prompts, offering transparency into how generative AI is being utilized and supporting the need for oversight and risk reduction.",
+          "title": "Zscaler Case Study: BorgWarner Embraces Zero Trust + AI",
+          "url": "https://zscaler.com/customers/borgwarner"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "A case study details BorgWarner's implementation of data protection measures to manage generative AI usage. The case study describes a focus on privacy.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This Zscaler case study provides evidence for governance, oversight, privacy, and transparency. It details BorgWarner's implementation of AI guardrails and data protection measures to manage generative AI usage, demonstrating a focus on operational governance and privacy. The case study also highlights the system's ability to monitor AI application usage and examine input prompts, offering transparency into how generative AI is being utilized and supporting the need for oversight and risk reduction.",
+          "title": "Zscaler Case Study: BorgWarner Embraces Zero Trust + AI",
+          "url": "https://zscaler.com/customers/borgwarner"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 8,
+      "findings": "A case study highlights the system's ability to monitor AI application usage and examine input prompts. It describes transparency into how generative AI is being utilized.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This Zscaler case study provides evidence for governance, oversight, privacy, and transparency. It details BorgWarner's implementation of AI guardrails and data protection measures to manage generative AI usage, demonstrating a focus on operational governance and privacy. The case study also highlights the system's ability to monitor AI application usage and examine input prompts, offering transparency into how generative AI is being utilized and supporting the need for oversight and risk reduction.",
+          "title": "Zscaler Case Study: BorgWarner Embraces Zero Trust + AI",
+          "url": "https://zscaler.com/customers/borgwarner"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-03-19T17:03:39Z",
+  "run_id": "20260309_173243_54a3",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "BorgWarner's public disclosures address transparency and oversight through documented practices such as monitoring AI application usage and implementing AI guardrails to manage generative AI. Overall, 5 of 7 evaluated responsible AI pillars have documented evidence, with privacy materials detailing data protection measures and a focus on privacy. Fairness is addressed through statements in the annual report regarding the risk of \"biased\" content from AI and potential negative impacts, while governance materials reference the potential incorporation of AI into its systems. No qualifying public evidence was found for explainability or external accountability, based on a review of 8 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 13,
+    "total_sources_used": 2
+  }
+}

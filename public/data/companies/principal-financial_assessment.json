@@ -1,0 +1,175 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 21.4,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 3
+  },
+  "company": "Principal Financial",
+  "company_slug": "principal-financial",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 5,
+      "POLICY": 7
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 12,
+      "findings": "Reports detail how the AI Enablement team consulted with governance and security teams, describe model monitoring of NLP metrics, and outline controls to prevent unsafe responses. Articles detail a mandatory process with predefined risk levels and due diligence for AI models, outlining operational controls. Documents also outline strategic actions and infrastructure strengthening for AI, reference a framework for AI value realization, and describe a structured approach to managing AI use cases and accountability.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"Responsible AI Practices in Workforce Productivity Tools,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. The report details how Principal's AI Enablement team consulted with governance and security teams to ensure compliance, implemented model monitoring of NLP metrics, and established controls to prevent unsafe responses, demonstrating adherence to responsible AI practices. Furthermore, it highlights the use of access controls and the application of AI to deliver an experience, indicating a commitment to privacy and transparency in AI development and deployment.",
+          "title": "Responsible AI Practices in Workforce Productivity Tools",
+          "url": "https://aws.amazon.com/blogs/ai/principal-financial-group-uses-qnabot-on-aws-and-amazon-q-business-to-enhance-workforce-productivity-with-generative-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This article on Principal Financial's Ethical and Responsible AI Framework provides evidence for the **governance**, **privacy**, and **transparency** pillars. It details a mandatory process with predefined risk levels and due diligence for AI models, supporting governance by outlining operational controls. The framework's components, including privacy and compliance, along with operational processes like use case recording and assessment, demonstrate its commitment to privacy and transparency.",
+          "title": "Principal Financial's Ethical and Responsible AI Framework (CDO Magazine)",
+          "url": "https://cdomagazine.tech/aiml/the-responsible-ai-framework-powering-principal-financials-data-strategy"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "The \"Principal Financial Four-Pillar AI Strategy\" document provides evidence for the **governance** pillar of responsible AI. It outlines strategic actions and infrastructure strengthening for AI, demonstrating a commitment to AI governance and operationalization. Furthermore, the document introduces a framework for AI value realization, indicating a structured approach to managing AI use cases and accountability.",
+          "title": "Principal Financial Four-Pillar AI Strategy",
+          "url": "https://cdomagazine.tech/aiml/cdao-rajesh-arora-reveals-principal-financials-four-pillar-strategy-for-ai-success"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "Reports highlight the use of access controls in AI development and deployment and reference the application of AI to deliver an experience. Articles describe the AI framework's components, which include privacy and compliance, and reference operational processes such as use case recording and assessment.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"Responsible AI Practices in Workforce Productivity Tools,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. The report details how Principal's AI Enablement team consulted with governance and security teams to ensure compliance, implemented model monitoring of NLP metrics, and established controls to prevent unsafe responses, demonstrating adherence to responsible AI practices. Furthermore, it highlights the use of access controls and the application of AI to deliver an experience, indicating a commitment to privacy and transparency in AI development and deployment.",
+          "title": "Responsible AI Practices in Workforce Productivity Tools",
+          "url": "https://aws.amazon.com/blogs/ai/principal-financial-group-uses-qnabot-on-aws-and-amazon-q-business-to-enhance-workforce-productivity-with-generative-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This article on Principal Financial's Ethical and Responsible AI Framework provides evidence for the **governance**, **privacy**, and **transparency** pillars. It details a mandatory process with predefined risk levels and due diligence for AI models, supporting governance by outlining operational controls. The framework's components, including privacy and compliance, along with operational processes like use case recording and assessment, demonstrate its commitment to privacy and transparency.",
+          "title": "Principal Financial's Ethical and Responsible AI Framework (CDO Magazine)",
+          "url": "https://cdomagazine.tech/aiml/the-responsible-ai-framework-powering-principal-financials-data-strategy"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 4,
+      "findings": "Reports highlight the use of access controls in AI development and deployment and reference the application of AI to deliver an experience. Articles describe operational processes, such as use case recording and assessment, within the AI framework.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This third-party report, \"Responsible AI Practices in Workforce Productivity Tools,\" provides evidence for the **governance**, **privacy**, and **transparency** pillars. The report details how Principal's AI Enablement team consulted with governance and security teams to ensure compliance, implemented model monitoring of NLP metrics, and established controls to prevent unsafe responses, demonstrating adherence to responsible AI practices. Furthermore, it highlights the use of access controls and the application of AI to deliver an experience, indicating a commitment to privacy and transparency in AI development and deployment.",
+          "title": "Responsible AI Practices in Workforce Productivity Tools",
+          "url": "https://aws.amazon.com/blogs/ai/principal-financial-group-uses-qnabot-on-aws-and-amazon-q-business-to-enhance-workforce-productivity-with-generative-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This article on Principal Financial's Ethical and Responsible AI Framework provides evidence for the **governance**, **privacy**, and **transparency** pillars. It details a mandatory process with predefined risk levels and due diligence for AI models, supporting governance by outlining operational controls. The framework's components, including privacy and compliance, along with operational processes like use case recording and assessment, demonstrate its commitment to privacy and transparency.",
+          "title": "Principal Financial's Ethical and Responsible AI Framework (CDO Magazine)",
+          "url": "https://cdomagazine.tech/aiml/the-responsible-ai-framework-powering-principal-financials-data-strategy"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-03-19T17:23:36Z",
+  "run_id": "20260309_190408_11a7",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Drawing from 9 publicly available sources, Principal Financial's published materials address 3 of 7 evaluated responsible AI pillars. Governance disclosures detail how the AI Enablement team consulted with governance and security teams to ensure compliance and describe model monitoring of NLP metrics. Transparency and privacy materials highlight the use of access controls in AI development and deployment, and reference the application of AI to deliver an experience. No qualifying public evidence was found for fairness, explainability, and 2 additional pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 14,
+    "total_sources_used": 3
+  }
+}

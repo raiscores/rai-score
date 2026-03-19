@@ -1,0 +1,201 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 64.3,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 9
+  },
+  "company": "Intuitive Surgical",
+  "company_slug": "intuitive-surgical",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 6,
+      "OPERATIONAL": 2,
+      "POLICY": 17
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "The Intuitive Surgical Privacy Policy states the company's stance on using personal information for automated decision-making and profiling, supporting explainability regarding AI use.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"Intuitive Surgical Privacy Policy\" provides evidence for the pillars of **transparency**, **explainability**, **oversight**, and **privacy**. This policy document explicitly addresses the company's stance on using personal information for automated decision-making and profiling, stating it will not do so without consent or as permitted by law, which supports transparency and explainability regarding AI use. Furthermore, the policy's mention of processes for handling objections implies mechanisms for human review and potential override, contributing to the oversight pillar, while its general focus on data handling supports the privacy pillar.",
+          "title": "Intuitive Surgical Privacy Policy",
+          "url": "https://intuitive.com/en-us/about-us/company/legal/privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "The 2024 Form 10-K describes potential legal and regulatory challenges related to evolving AI regulations. It also outlines considerations for external accountability in this context.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing from Intuitive Surgical acknowledges the increasing use of AI in its products as an emerging risk, which supports the **governance** pillar by implying the need for policies to manage these risks. The filing also touches upon potential legal and regulatory challenges related to evolving AI regulations, suggesting considerations for **external accountability**. Furthermore, the mention of \"segmentation algorithms\" and the explicit \"technicians’ revision and radiologists’ review\" provides evidence for **transparency** and **oversight**, respectively, by detailing how AI-assisted outputs are managed and reviewed.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/1035267/000103526724000021/isrg-20231231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "Sources describe documented fairness practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing from Intuitive Surgical acknowledges the increasing use of AI in its products as an emerging risk, which supports the **governance** pillar by implying the need for policies to manage these risks. The filing also touches upon potential legal and regulatory challenges related to evolving AI regulations, suggesting considerations for **external accountability**. Furthermore, the mention of \"segmentation algorithms\" and the explicit \"technicians’ revision and radiologists’ review\" provides evidence for **transparency** and **oversight**, respectively, by detailing how AI-assisted outputs are managed and reviewed.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/1035267/000103526724000021/isrg-20231231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 15,
+      "findings": "The 2024 Form 10-K describes the increasing use of AI in its products as an emerging risk. It also references the need for policies to manage these risks.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing from Intuitive Surgical acknowledges the increasing use of AI in its products as an emerging risk, which supports the **governance** pillar by implying the need for policies to manage these risks. The filing also touches upon potential legal and regulatory challenges related to evolving AI regulations, suggesting considerations for **external accountability**. Furthermore, the mention of \"segmentation algorithms\" and the explicit \"technicians’ revision and radiologists’ review\" provides evidence for **transparency** and **oversight**, respectively, by detailing how AI-assisted outputs are managed and reviewed.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/1035267/000103526724000021/isrg-20231231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "The Intuitive Surgical Privacy Policy references processes for handling objections. Additionally, the 2024 Form 10-K explicitly references technicians’ revision and radiologists’ review for AI-assisted outputs.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"Intuitive Surgical Privacy Policy\" provides evidence for the pillars of **transparency**, **explainability**, **oversight**, and **privacy**. This policy document explicitly addresses the company's stance on using personal information for automated decision-making and profiling, stating it will not do so without consent or as permitted by law, which supports transparency and explainability regarding AI use. Furthermore, the policy's mention of processes for handling objections implies mechanisms for human review and potential override, contributing to the oversight pillar, while its general focus on data handling supports the privacy pillar.",
+          "title": "Intuitive Surgical Privacy Policy",
+          "url": "https://intuitive.com/en-us/about-us/company/legal/privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing from Intuitive Surgical acknowledges the increasing use of AI in its products as an emerging risk, which supports the **governance** pillar by implying the need for policies to manage these risks. The filing also touches upon potential legal and regulatory challenges related to evolving AI regulations, suggesting considerations for **external accountability**. Furthermore, the mention of \"segmentation algorithms\" and the explicit \"technicians’ revision and radiologists’ review\" provides evidence for **transparency** and **oversight**, respectively, by detailing how AI-assisted outputs are managed and reviewed.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/1035267/000103526724000021/isrg-20231231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 5,
+      "findings": "The Intuitive Surgical Privacy Policy states the company will not use personal information for automated decision-making and profiling without consent or as permitted by law. The policy also outlines general data handling.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"Intuitive Surgical Privacy Policy\" provides evidence for the pillars of **transparency**, **explainability**, **oversight**, and **privacy**. This policy document explicitly addresses the company's stance on using personal information for automated decision-making and profiling, stating it will not do so without consent or as permitted by law, which supports transparency and explainability regarding AI use. Furthermore, the policy's mention of processes for handling objections implies mechanisms for human review and potential override, contributing to the oversight pillar, while its general focus on data handling supports the privacy pillar.",
+          "title": "Intuitive Surgical Privacy Policy",
+          "url": "https://intuitive.com/en-us/about-us/company/legal/privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing from Intuitive Surgical acknowledges the increasing use of AI in its products as an emerging risk, which supports the **governance** pillar by implying the need for policies to manage these risks. The filing also touches upon potential legal and regulatory challenges related to evolving AI regulations, suggesting considerations for **external accountability**. Furthermore, the mention of \"segmentation algorithms\" and the explicit \"technicians’ revision and radiologists’ review\" provides evidence for **transparency** and **oversight**, respectively, by detailing how AI-assisted outputs are managed and reviewed.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/1035267/000103526724000021/isrg-20231231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 11,
+      "findings": "The Intuitive Surgical Privacy Policy states the company will not use personal information for automated decision-making and profiling without consent or as permitted by law. The 2024 Form 10-K references segmentation algorithms, detailing how AI-assisted outputs are managed and reviewed.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "The \"Intuitive Surgical Privacy Policy\" provides evidence for the pillars of **transparency**, **explainability**, **oversight**, and **privacy**. This policy document explicitly addresses the company's stance on using personal information for automated decision-making and profiling, stating it will not do so without consent or as permitted by law, which supports transparency and explainability regarding AI use. Furthermore, the policy's mention of processes for handling objections implies mechanisms for human review and potential override, contributing to the oversight pillar, while its general focus on data handling supports the privacy pillar.",
+          "title": "Intuitive Surgical Privacy Policy",
+          "url": "https://intuitive.com/en-us/about-us/company/legal/privacy-policy"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_009",
+          "source_tier": "authority",
+          "summary": "This 2024 Form 10-K filing from Intuitive Surgical acknowledges the increasing use of AI in its products as an emerging risk, which supports the **governance** pillar by implying the need for policies to manage these risks. The filing also touches upon potential legal and regulatory challenges related to evolving AI regulations, suggesting considerations for **external accountability**. Furthermore, the mention of \"segmentation algorithms\" and the explicit \"technicians’ revision and radiologists’ review\" provides evidence for **transparency** and **oversight**, respectively, by detailing how AI-assisted outputs are managed and reviewed.",
+          "title": "2024 Form 10-K",
+          "url": "https://sec.gov/Archives/edgar/data/1035267/000103526724000021/isrg-20231231.htm"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-03-19T17:16:34Z",
+  "run_id": "20260309_183324_96f5",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Human Oversight & Accountability"
+    ],
+    "overall_findings": "Intuitive Surgical's responsible AI framework includes both operational and policy-level practices, as evidenced across its public disclosures. All 7 evaluated pillars have documented public evidence, drawing from 11 publicly available sources. Operational practices include the company's Privacy Policy stating it will not use personal information for automated decision-making and profiling without consent, alongside the 2024 Form 10-K detailing how AI-assisted outputs are managed and reviewed through technician revision and radiologist oversight. Policy-level documentation further addresses fairness, explainability, privacy, governance, and external accountability, with the 2024 Form 10-K describing the increasing use of AI in its products as an emerging risk and outlining considerations for external accountability related to evolving AI regulations.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 25,
+    "total_sources_used": 2
+  }
+}

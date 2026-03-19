@@ -1,0 +1,209 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "AGCO",
+  "company_slug": "agco",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 13,
+      "OPERATIONAL": 4,
+      "POLICY": 11
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Policy documents inform about automated decisions. They also offer human review for significant impacts resulting from these automated decisions.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This AGCO Privacy Statement supports the responsible AI pillars of **explainability**, **governance**, **oversight**, **privacy**, and **transparency**. The statement provides evidence for explainability by informing about automated decisions and offering human review for significant impacts. It demonstrates governance by describing a mechanism to object to detrimental automated outcomes, and supports oversight through the mention of human review. Furthermore, the policy document supports privacy by implying data use for profiling and transparency by indicating AI use cases for data analysis.",
+          "title": "AGCO Privacy Statement",
+          "url": "https://agcocorp.com/privacy.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 21,
+      "findings": "Policy documents describe a mechanism to object to detrimental automated outcomes. Discussions highlight the CIO's role in establishing frameworks, guardrails, and policies for AI operations, referencing the use of \"responsible AI committees\" and \"risk registers.\" Reports also detail operational uses of AI for supply chain risk assessment and compliance, and reference an ongoing program for supplier sustainability performance assessment.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This AGCO Privacy Statement supports the responsible AI pillars of **explainability**, **governance**, **oversight**, **privacy**, and **transparency**. The statement provides evidence for explainability by informing about automated decisions and offering human review for significant impacts. It demonstrates governance by describing a mechanism to object to detrimental automated outcomes, and supports oversight through the mention of human review. Furthermore, the policy document supports privacy by implying data use for profiling and transparency by indicating AI use cases for data analysis.",
+          "title": "AGCO Privacy Statement",
+          "url": "https://agcocorp.com/privacy.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This podcast episode, \"The CIO as the Conscience of AI,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The discussion highlights the CIO's role in establishing frameworks, guardrails, and policies for AI operations, including the use of \"responsible AI committees\" and \"risk registers.\" Furthermore, it emphasizes the importance of human involvement through \"human in the loop\" or \"over the loop\" mechanisms and employee training, underscoring a commitment to oversight and accountability in AI adoption.",
+          "title": "The CIO as the Conscience of AI - CIO Talk Network Podcast",
+          "url": "https://ciotalknetwork.com/the-cio-as-the-conscience-of-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "The AGCO 2023 Sustainability Report provides evidence for the **governance** and **transparency** pillars of responsible AI. The report details operational uses of AI for supply chain risk assessment and compliance, alongside an ongoing program for supplier sustainability performance assessment, indicating governance and oversight. Furthermore, it describes AI capabilities for plant/weed detection and monitoring, and the use of AI for decarbonization pathway simulation, which supports the transparency pillar by outlining AI system capabilities and use cases.",
+          "title": "AGCO 2023 Sustainability Report",
+          "url": "https://ar2023.agcocorp.com/downloads/AGCO_Sustainability_Report_2023.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "Policy documents mention human review. Discussions highlight the importance of human involvement through \"human in the loop\" or \"over the loop\" mechanisms. These discussions also emphasize the importance of employee training in AI adoption.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This AGCO Privacy Statement supports the responsible AI pillars of **explainability**, **governance**, **oversight**, **privacy**, and **transparency**. The statement provides evidence for explainability by informing about automated decisions and offering human review for significant impacts. It demonstrates governance by describing a mechanism to object to detrimental automated outcomes, and supports oversight through the mention of human review. Furthermore, the policy document supports privacy by implying data use for profiling and transparency by indicating AI use cases for data analysis.",
+          "title": "AGCO Privacy Statement",
+          "url": "https://agcocorp.com/privacy.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This podcast episode, \"The CIO as the Conscience of AI,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. The discussion highlights the CIO's role in establishing frameworks, guardrails, and policies for AI operations, including the use of \"responsible AI committees\" and \"risk registers.\" Furthermore, it emphasizes the importance of human involvement through \"human in the loop\" or \"over the loop\" mechanisms and employee training, underscoring a commitment to oversight and accountability in AI adoption.",
+          "title": "The CIO as the Conscience of AI - CIO Talk Network Podcast",
+          "url": "https://ciotalknetwork.com/the-cio-as-the-conscience-of-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 2,
+      "findings": "Policy documents imply data use for profiling. Filings mention \"data privacy choices\" in relation to precision agriculture solutions, indicating that policies are in place to address data protection within AI-driven offerings.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This AGCO Privacy Statement supports the responsible AI pillars of **explainability**, **governance**, **oversight**, **privacy**, and **transparency**. The statement provides evidence for explainability by informing about automated decisions and offering human review for significant impacts. It demonstrates governance by describing a mechanism to object to detrimental automated outcomes, and supports oversight through the mention of human review. Furthermore, the policy document supports privacy by implying data use for profiling and transparency by indicating AI use cases for data analysis.",
+          "title": "AGCO Privacy Statement",
+          "url": "https://agcocorp.com/privacy.html"
+        },
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_010",
+          "source_tier": "authority",
+          "summary": "The AGCO Corp 2023 10-K filing supports the **privacy** pillar by mentioning \"data privacy choices\" in relation to their precision agriculture solutions. This indicates that AGCO has policies in place to address data protection within their AI-driven offerings.",
+          "title": "AGCO Corp 2023 10-K Filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/880266/000088026624000013/agco-20231231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 6,
+      "findings": "Policy documents indicate AI use cases for data analysis. Reports describe AI capabilities for plant/weed detection and monitoring, as well as the use of AI for decarbonization pathway simulation, outlining AI system capabilities and use cases. Additionally, company-owned pages mention the use of AI-powered tools to support teams.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This AGCO Privacy Statement supports the responsible AI pillars of **explainability**, **governance**, **oversight**, **privacy**, and **transparency**. The statement provides evidence for explainability by informing about automated decisions and offering human review for significant impacts. It demonstrates governance by describing a mechanism to object to detrimental automated outcomes, and supports oversight through the mention of human review. Furthermore, the policy document supports privacy by implying data use for profiling and transparency by indicating AI use cases for data analysis.",
+          "title": "AGCO Privacy Statement",
+          "url": "https://agcocorp.com/privacy.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This company-owned page on sustainability governance mentions the use of AI-powered tools to support teams. While it indicates the adoption of AI, the source primarily describes aspirations rather than specific mechanisms or policies, thus providing limited evidence for the transparency pillar.",
+          "title": "Sustainability Governance - AGCO Corporation",
+          "url": "https://agcocorp.com/sustainability/governance.html"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "The AGCO 2023 Sustainability Report provides evidence for the **governance** and **transparency** pillars of responsible AI. The report details operational uses of AI for supply chain risk assessment and compliance, alongside an ongoing program for supplier sustainability performance assessment, indicating governance and oversight. Furthermore, it describes AI capabilities for plant/weed detection and monitoring, and the use of AI for decarbonization pathway simulation, which supports the transparency pillar by outlining AI system capabilities and use cases.",
+          "title": "AGCO 2023 Sustainability Report",
+          "url": "https://ar2023.agcocorp.com/downloads/AGCO_Sustainability_Report_2023.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T16:59:54Z",
+  "run_id": "20260309_170829_69b4",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Operational practices for governance and policy-level evidence for transparency, explainability, oversight, and privacy are documented in AGCO's responsible AI disclosures, covering 5 of 7 evaluated pillars. For instance, governance policy documents describe a mechanism to object to detrimental automated outcomes, and discussions highlight the importance of human involvement through \"human in the loop\" or \"over the loop\" mechanisms for oversight. Furthermore, filings mention \"data privacy choices\" in relation to precision agriculture solutions, and policy documents indicate AI use cases for data analysis for transparency. No qualifying public evidence was found for fairness or external accountability. This assessment draws on 11 publicly available sources.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 28,
+    "total_sources_used": 5
+  }
+}

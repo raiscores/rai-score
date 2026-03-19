@@ -1,0 +1,288 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "DoorDash",
+  "company_slug": "doordash",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 25,
+      "OPERATIONAL": 9,
+      "POLICY": 62
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 7,
+      "findings": "A technical paper highlights a lack of explainability concerning how worker pay is calculated and why deactivation decisions are made, attributing this to opaque and changing algorithms.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"The Gig Trap,\" provides evidence for several responsible AI pillars. It highlights a lack of **transparency** and **explainability** due to opaque and changing algorithms that prevent workers from understanding how their pay is calculated and why deactivation decisions are made. The report also points to issues with **fairness**, noting potential bias and disparate impact on specific groups, and **external accountability** and **governance** by detailing how platforms have unfettered discretion over automated decisions like deactivation, with limited recourse for workers.",
+          "title": "The Gig Trap: Algorithmic, Wage and Labor Exploitation in Platform Work in the US",
+          "url": "https://www.hrw.org/report/2025/05/12/gig-trap/algorithmic-wage-and-labor-exploitation-platform-work-us"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 5,
+      "findings": "Sources describe documented external accountability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"The Gig Trap,\" provides evidence for several responsible AI pillars. It highlights a lack of **transparency** and **explainability** due to opaque and changing algorithms that prevent workers from understanding how their pay is calculated and why deactivation decisions are made. The report also points to issues with **fairness**, noting potential bias and disparate impact on specific groups, and **external accountability** and **governance** by detailing how platforms have unfettered discretion over automated decisions like deactivation, with limited recourse for workers.",
+          "title": "The Gig Trap: Algorithmic, Wage and Labor Exploitation in Platform Work in the US",
+          "url": "https://www.hrw.org/report/2025/05/12/gig-trap/algorithmic-wage-and-labor-exploitation-platform-work-us"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 19,
+      "findings": "An engineering blog post discusses ethical implications and states a commitment to ensuring generative AI models are unbiased and inclusive.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This engineering blog post from DoorDash provides evidence for the **fairness** and **privacy** pillars of responsible AI. It supports fairness by explicitly discussing ethical implications and a commitment to ensuring generative AI models are unbiased and inclusive. The post also addresses privacy by mentioning considerations for the security of personal information and safeguarding measures in the context of training and implementing generative AI.",
+          "title": "DoorDash Identifies Five Big Areas for Using Generative AI",
+          "url": "https://doordash.engineering/2023/04/26/doordash-identifies-five-big-areas-for-using-generative-ai"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"The Gig Trap,\" provides evidence for several responsible AI pillars. It highlights a lack of **transparency** and **explainability** due to opaque and changing algorithms that prevent workers from understanding how their pay is calculated and why deactivation decisions are made. The report also points to issues with **fairness**, noting potential bias and disparate impact on specific groups, and **external accountability** and **governance** by detailing how platforms have unfettered discretion over automated decisions like deactivation, with limited recourse for workers.",
+          "title": "The Gig Trap: Algorithmic, Wage and Labor Exploitation in Platform Work in the US",
+          "url": "https://www.hrw.org/report/2025/05/12/gig-trap/algorithmic-wage-and-labor-exploitation-platform-work-us"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 36,
+      "findings": "DoorDash demonstrates operational governance through a settlement mandating compliance and annual reporting related to data sharing practices. The company details how it mitigates potential issues like \"hallucinations\" and selects foundation models, alongside implementing AI system guardrails, provenance logging, and auditable actions. Furthermore, DoorDash's participation in an industry forum demonstrates a commitment to incorporating public input into the development of AI agents.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This enforcement action by the California Attorney General against DoorDash provides evidence for the **governance** and **privacy** pillars. The settlement mandates compliance and annual reporting, demonstrating the establishment of operational governance and privacy controls related to data sharing practices.",
+          "title": "Attorney General Bonta Announces Settlement with DoorDash",
+          "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-settlement-doordash-investigation-finds-company"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"The Gig Trap,\" provides evidence for several responsible AI pillars. It highlights a lack of **transparency** and **explainability** due to opaque and changing algorithms that prevent workers from understanding how their pay is calculated and why deactivation decisions are made. The report also points to issues with **fairness**, noting potential bias and disparate impact on specific groups, and **external accountability** and **governance** by detailing how platforms have unfettered discretion over automated decisions like deactivation, with limited recourse for workers.",
+          "title": "The Gig Trap: Algorithmic, Wage and Labor Exploitation in Platform Work in the US",
+          "url": "https://www.hrw.org/report/2025/05/12/gig-trap/algorithmic-wage-and-labor-exploitation-platform-work-us"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing how DoorDash is mitigating potential issues like \"hallucinations\" and through their selection of foundation models, implying oversight in AI capabilities and vendor choices. Transparency is evidenced by the mention of \"generative AI solutions\" and \"machine learning models,\" indicating the use of AI technologies and the development of a test and evaluation framework.",
+          "title": "Building a Generative AI Contact Center Solution for DoorDash",
+          "url": "https://aws.amazon.com/solutions/case-studies/doordash-bedrock-case-study/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Beyond Single Agents: How DoorDash is Building a Collaborative AI Ecosystem,\" provides evidence for **governance**, **oversight**, and **transparency**. The post details the implementation of AI system guardrails, provenance logging, and auditable actions, which support governance and oversight by ensuring accountability and reliability. Furthermore, the description of a launched platform and marketplace for AI agents, along with the rollout of deep-agent systems, demonstrates operational transparency in AI deployment and capabilities.",
+          "title": "Beyond Single Agents: How DoorDash is Building a Collaborative AI Ecosystem",
+          "url": "https://careersatdoordash.com/blog/beyond-single-agents-doordash-building-collaborative-ai-ecosystem"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** pillar of responsible AI. DoorDash's participation in an industry forum convened by Stanford University demonstrates a commitment to incorporating public input into the development of AI agents, reflecting a proactive approach to shaping AI responsibly and building trustworthy systems.",
+          "title": "DoorDash and Microsoft join Industry-Wide Deliberative Forum on Future of AI Agents",
+          "url": "https://deliberation.stanford.edu/doordash-and-microsoft-join-industry-wide-deliberative-forum-future-ai-agents"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 22,
+      "findings": "DoorDash details the implementation of AI system guardrails, provenance logging, and auditable actions. Additionally, the Trust & Safety team investigates AI-identified incidents, indicating a human review process.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"The Gig Trap,\" provides evidence for several responsible AI pillars. It highlights a lack of **transparency** and **explainability** due to opaque and changing algorithms that prevent workers from understanding how their pay is calculated and why deactivation decisions are made. The report also points to issues with **fairness**, noting potential bias and disparate impact on specific groups, and **external accountability** and **governance** by detailing how platforms have unfettered discretion over automated decisions like deactivation, with limited recourse for workers.",
+          "title": "The Gig Trap: Algorithmic, Wage and Labor Exploitation in Platform Work in the US",
+          "url": "https://www.hrw.org/report/2025/05/12/gig-trap/algorithmic-wage-and-labor-exploitation-platform-work-us"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Beyond Single Agents: How DoorDash is Building a Collaborative AI Ecosystem,\" provides evidence for **governance**, **oversight**, and **transparency**. The post details the implementation of AI system guardrails, provenance logging, and auditable actions, which support governance and oversight by ensuring accountability and reliability. Furthermore, the description of a launched platform and marketplace for AI agents, along with the rollout of deep-agent systems, demonstrates operational transparency in AI deployment and capabilities.",
+          "title": "Beyond Single Agents: How DoorDash is Building a Collaborative AI Ecosystem",
+          "url": "https://careersatdoordash.com/blog/beyond-single-agents-doordash-building-collaborative-ai-ecosystem"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **privacy** and **oversight** pillars of responsible AI. It supports the privacy pillar by explicitly stating that the AI feature does not access personal user information. The press release also supports the oversight pillar by mentioning that the Trust & Safety team will investigate AI-identified incidents, indicating a human review process.",
+          "title": "DoorDash Launches AI-Powered Feature to Combat Chat Abuse",
+          "url": "https://about.doordash.com/en-us/news/launches-new-ai-powered-feature"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 16,
+      "findings": "DoorDash mentions considerations for the security of personal information and safeguarding measures in the context of training and implementing generative AI. A settlement mandates compliance and annual reporting related to data sharing practices and demonstrates the establishment of privacy controls. Furthermore, a press release states that an AI feature does not access personal user information, and a privacy page discusses the use of data for tailored advertising and personalization.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_002",
+          "source_tier": "third_party",
+          "summary": "This engineering blog post from DoorDash provides evidence for the **fairness** and **privacy** pillars of responsible AI. It supports fairness by explicitly discussing ethical implications and a commitment to ensuring generative AI models are unbiased and inclusive. The post also addresses privacy by mentioning considerations for the security of personal information and safeguarding measures in the context of training and implementing generative AI.",
+          "title": "DoorDash Identifies Five Big Areas for Using Generative AI",
+          "url": "https://doordash.engineering/2023/04/26/doordash-identifies-five-big-areas-for-using-generative-ai"
+        },
+        {
+          "artifact_type": "enforcement_action",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This enforcement action by the California Attorney General against DoorDash provides evidence for the **governance** and **privacy** pillars. The settlement mandates compliance and annual reporting, demonstrating the establishment of operational governance and privacy controls related to data sharing practices.",
+          "title": "Attorney General Bonta Announces Settlement with DoorDash",
+          "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-settlement-doordash-investigation-finds-company"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"The Gig Trap,\" provides evidence for several responsible AI pillars. It highlights a lack of **transparency** and **explainability** due to opaque and changing algorithms that prevent workers from understanding how their pay is calculated and why deactivation decisions are made. The report also points to issues with **fairness**, noting potential bias and disparate impact on specific groups, and **external accountability** and **governance** by detailing how platforms have unfettered discretion over automated decisions like deactivation, with limited recourse for workers.",
+          "title": "The Gig Trap: Algorithmic, Wage and Labor Exploitation in Platform Work in the US",
+          "url": "https://www.hrw.org/report/2025/05/12/gig-trap/algorithmic-wage-and-labor-exploitation-platform-work-us"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **privacy** and **oversight** pillars of responsible AI. It supports the privacy pillar by explicitly stating that the AI feature does not access personal user information. The press release also supports the oversight pillar by mentioning that the Trust & Safety team will investigate AI-identified incidents, indicating a human review process.",
+          "title": "DoorDash Launches AI-Powered Feature to Combat Chat Abuse",
+          "url": "https://about.doordash.com/en-us/news/launches-new-ai-powered-feature"
+        },
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_011",
+          "source_tier": "company_owned",
+          "summary": "The DoorDash Privacy Page, a company-owned privacy policy, provides evidence for the **privacy** pillar. This is because the page discusses the use of data for \"tailored advertising\" and \"personalization,\" which implies the use of automated systems and raises data use and privacy implications.",
+          "title": "DoorDash Privacy Page",
+          "url": "https://about.doordash.com/en-us/privacy"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 50,
+      "findings": "DoorDash's AI systems include an AI-driven menu experience and generative AI solutions, with a launched platform and marketplace for AI agents and the rollout of deep-agent systems. The company references the development of a test and evaluation framework for its AI technologies. However, a technical paper highlights a lack of transparency regarding how worker pay is calculated and why deactivation decisions are made due to opaque and changing algorithms.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This technical paper, \"The Gig Trap,\" provides evidence for several responsible AI pillars. It highlights a lack of **transparency** and **explainability** due to opaque and changing algorithms that prevent workers from understanding how their pay is calculated and why deactivation decisions are made. The report also points to issues with **fairness**, noting potential bias and disparate impact on specific groups, and **external accountability** and **governance** by detailing how platforms have unfettered discretion over automated decisions like deactivation, with limited recourse for workers.",
+          "title": "The Gig Trap: Algorithmic, Wage and Labor Exploitation in Platform Work in the US",
+          "url": "https://www.hrw.org/report/2025/05/12/gig-trap/algorithmic-wage-and-labor-exploitation-platform-work-us"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **transparency** pillar of responsible AI. It describes an \"AI-driven menu experience\" that restructures complex pizza menus into a guided, visual ordering flow, indicating the use of an AI system and its capabilities.",
+          "title": "DoorDash Uses AI to Make Pizza Ordering Easier — and Help Merchants Drive Sales",
+          "url": "https://doordash.news/en-us/2024/03/04/doordash-uses-ai-to-make-pizza-ordering-easier-and-help-merchants-drive-sales"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance** and **transparency** pillars of responsible AI. It supports governance by detailing how DoorDash is mitigating potential issues like \"hallucinations\" and through their selection of foundation models, implying oversight in AI capabilities and vendor choices. Transparency is evidenced by the mention of \"generative AI solutions\" and \"machine learning models,\" indicating the use of AI technologies and the development of a test and evaluation framework.",
+          "title": "Building a Generative AI Contact Center Solution for DoorDash",
+          "url": "https://aws.amazon.com/solutions/case-studies/doordash-bedrock-case-study/"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Beyond Single Agents: How DoorDash is Building a Collaborative AI Ecosystem,\" provides evidence for **governance**, **oversight**, and **transparency**. The post details the implementation of AI system guardrails, provenance logging, and auditable actions, which support governance and oversight by ensuring accountability and reliability. Furthermore, the description of a launched platform and marketplace for AI agents, along with the rollout of deep-agent systems, demonstrates operational transparency in AI deployment and capabilities.",
+          "title": "Beyond Single Agents: How DoorDash is Building a Collaborative AI Ecosystem",
+          "url": "https://careersatdoordash.com/blog/beyond-single-agents-doordash-building-collaborative-ai-ecosystem"
+        }
+      ],
+      "score": 1,
+      "source_count": 4
+    }
+  },
+  "published_at": "2026-03-19T17:09:28Z",
+  "run_id": "20260309_180009_db7a",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Human Oversight & Accountability"
+    ],
+    "overall_findings": "DoorDash's published materials detail the implementation of AI system guardrails and provenance logging for AI systems under the oversight pillar. All 7 evaluated pillars have documented public evidence, including policy-level disclosures for transparency, fairness, explainability, privacy, governance, and external accountability. For instance, transparency disclosures describe an AI-driven menu experience that restructures complex pizza menus, while fairness materials state a commitment to ensuring generative AI models are unbiased and inclusive. Additionally, governance is addressed through a settlement mandating compliance and annual reporting related to data sharing practices, and privacy materials mention considerations for the security of personal information in the context of generative AI. These findings are based on a review of 18 publicly available sources.",
+    "pillars_operational": 1,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 96,
+    "total_sources_used": 9
+  }
+}

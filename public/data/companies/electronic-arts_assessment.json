@@ -1,0 +1,207 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "Electronic Arts",
+  "company_slug": "electronic-arts",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 43,
+      "OPERATIONAL": 20,
+      "POLICY": 119
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "Sources describe documented explainability practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This patent for a multiplayer video game matchmaking system provides evidence for **explainability, governance, oversight, privacy, and transparency**. The document details the use of machine learning algorithms and prediction models for various purposes, including churn prediction and skill evaluation, which supports **transparency** by outlining AI capabilities and data handling. Furthermore, the patent describes mechanisms like administrator input for parameter refinement and data filtering based on relevance thresholds, demonstrating **governance** and **oversight** in the AI development and deployment process. The mention of user data for prediction also touches upon **privacy** considerations.",
+          "title": "Patent: Multiplayer video game matchmaking system and methods",
+          "url": "https://patents.google.com/patent/US10286327B2/en"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 4,
+      "findings": "A patent describes the application of penalties to models, which indicates mechanisms for evaluation or bias mitigation.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This patent describes a system for dynamic game difficulty adjustment, providing evidence for **fairness, governance, privacy, and transparency**. The patent supports transparency by detailing the use of machine learning models, algorithms, and prediction functions for data analysis and decision-making. Evidence for governance is found in the description of automated user profiling, clustering, and decision-making processes for system configuration and user experience management. The mention of user demographics as training data suggests data handling policies, supporting the privacy pillar, while the application of penalties to models indicates mechanisms for evaluation or bias mitigation, contributing to fairness.",
+          "title": "Patent: Dynamic difficulty adjustment",
+          "url": "https://patents.google.com/patent/US20170259177A1/en"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 69,
+      "findings": "The \"Positive Play Charter\" outlines community guidelines for player behavior and specifies the use of AI-driven tools to enforce these guidelines by detecting toxic behavior, harassment, and cheating. Patents describe automated user profiling, clustering, and decision-making processes for system configuration and user experience management. They also describe mechanisms such as administrator input for parameter refinement and data filtering based on relevance thresholds.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "The \"Positive Play Charter\" policy document provides evidence for the **governance** pillar. This is because the charter outlines community guidelines for player behavior and specifies that AI-driven tools are used to enforce these guidelines by detecting toxic behavior, harassment, and cheating in real-time through analysis of chat logs and player interactions. This indicates a governance policy related to the development and usage of AI for content moderation.",
+          "title": "Positive Play Charter",
+          "url": "https://ea.com/commitments/positive-play/charter"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This patent describes a system for dynamic game difficulty adjustment, providing evidence for **fairness, governance, privacy, and transparency**. The patent supports transparency by detailing the use of machine learning models, algorithms, and prediction functions for data analysis and decision-making. Evidence for governance is found in the description of automated user profiling, clustering, and decision-making processes for system configuration and user experience management. The mention of user demographics as training data suggests data handling policies, supporting the privacy pillar, while the application of penalties to models indicates mechanisms for evaluation or bias mitigation, contributing to fairness.",
+          "title": "Patent: Dynamic difficulty adjustment",
+          "url": "https://patents.google.com/patent/US20170259177A1/en"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This patent for a multiplayer video game matchmaking system provides evidence for **explainability, governance, oversight, privacy, and transparency**. The document details the use of machine learning algorithms and prediction models for various purposes, including churn prediction and skill evaluation, which supports **transparency** by outlining AI capabilities and data handling. Furthermore, the patent describes mechanisms like administrator input for parameter refinement and data filtering based on relevance thresholds, demonstrating **governance** and **oversight** in the AI development and deployment process. The mention of user data for prediction also touches upon **privacy** considerations.",
+          "title": "Patent: Multiplayer video game matchmaking system and methods",
+          "url": "https://patents.google.com/patent/US10286327B2/en"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "A patent describes oversight mechanisms, including administrator input for parameter refinement. It also describes data filtering based on relevance thresholds.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This patent for a multiplayer video game matchmaking system provides evidence for **explainability, governance, oversight, privacy, and transparency**. The document details the use of machine learning algorithms and prediction models for various purposes, including churn prediction and skill evaluation, which supports **transparency** by outlining AI capabilities and data handling. Furthermore, the patent describes mechanisms like administrator input for parameter refinement and data filtering based on relevance thresholds, demonstrating **governance** and **oversight** in the AI development and deployment process. The mention of user data for prediction also touches upon **privacy** considerations.",
+          "title": "Patent: Multiplayer video game matchmaking system and methods",
+          "url": "https://patents.google.com/patent/US10286327B2/en"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Privacy & Security",
+      "evidence_count": 11,
+      "findings": "Patents reference the use of user demographics as training data, suggesting data handling policies. They also mention user data for prediction, touching upon privacy considerations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This patent describes a system for dynamic game difficulty adjustment, providing evidence for **fairness, governance, privacy, and transparency**. The patent supports transparency by detailing the use of machine learning models, algorithms, and prediction functions for data analysis and decision-making. Evidence for governance is found in the description of automated user profiling, clustering, and decision-making processes for system configuration and user experience management. The mention of user demographics as training data suggests data handling policies, supporting the privacy pillar, while the application of penalties to models indicates mechanisms for evaluation or bias mitigation, contributing to fairness.",
+          "title": "Patent: Dynamic difficulty adjustment",
+          "url": "https://patents.google.com/patent/US20170259177A1/en"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This patent for a multiplayer video game matchmaking system provides evidence for **explainability, governance, oversight, privacy, and transparency**. The document details the use of machine learning algorithms and prediction models for various purposes, including churn prediction and skill evaluation, which supports **transparency** by outlining AI capabilities and data handling. Furthermore, the patent describes mechanisms like administrator input for parameter refinement and data filtering based on relevance thresholds, demonstrating **governance** and **oversight** in the AI development and deployment process. The mention of user data for prediction also touches upon **privacy** considerations.",
+          "title": "Patent: Multiplayer video game matchmaking system and methods",
+          "url": "https://patents.google.com/patent/US10286327B2/en"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 149,
+      "findings": "Documentation highlights ML research areas, describes specific ML approaches, and explains ML concepts for developers. It also mentions AI/ML use cases in game development. Patents detail the use of machine learning models, algorithms, and prediction functions for data analysis and decision-making in systems like dynamic game difficulty adjustment and multiplayer matchmaking.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "The \"EA AI & Machine Learning Research\" document provides evidence for the **transparency** pillar of responsible AI. It demonstrates transparency by highlighting ML research areas, describing specific ML approaches like imitation learning and path following, and explaining ML concepts such as neural networks for developers. The document also indicates transparency regarding technology deployment by mentioning AI/ML use cases in game development.",
+          "title": "EA AI & Machine Learning Research",
+          "url": "https://ea.com/technology/research/ai-machine-learning"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This patent describes a system for dynamic game difficulty adjustment, providing evidence for **fairness, governance, privacy, and transparency**. The patent supports transparency by detailing the use of machine learning models, algorithms, and prediction functions for data analysis and decision-making. Evidence for governance is found in the description of automated user profiling, clustering, and decision-making processes for system configuration and user experience management. The mention of user demographics as training data suggests data handling policies, supporting the privacy pillar, while the application of penalties to models indicates mechanisms for evaluation or bias mitigation, contributing to fairness.",
+          "title": "Patent: Dynamic difficulty adjustment",
+          "url": "https://patents.google.com/patent/US20170259177A1/en"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This patent for a multiplayer video game matchmaking system provides evidence for **explainability, governance, oversight, privacy, and transparency**. The document details the use of machine learning algorithms and prediction models for various purposes, including churn prediction and skill evaluation, which supports **transparency** by outlining AI capabilities and data handling. Furthermore, the patent describes mechanisms like administrator input for parameter refinement and data filtering based on relevance thresholds, demonstrating **governance** and **oversight** in the AI development and deployment process. The mention of user data for prediction also touches upon **privacy** considerations.",
+          "title": "Patent: Multiplayer video game matchmaking system and methods",
+          "url": "https://patents.google.com/patent/US10286327B2/en"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T17:10:45Z",
+  "run_id": "20260309_180636_9f1c",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Drawing from 14 publicly available sources, Electronic Arts' published materials address 6 of 7 evaluated responsible AI pillars, with evidence found across multiple policy areas. Specifically, the \"Positive Play Charter\" outlines community guidelines and specifies that AI-driven tools are used to enforce these guidelines by detecting toxic behavior, harassment, and cheating in real-time. Further disclosures include the \"EA AI & Machine Learning Research\" document, which highlights ML research areas and describes specific ML approaches, alongside patent disclosures detailing administrator input for parameter refinement and data filtering based on relevance thresholds for oversight. Fairness is addressed through a patent describing the application of penalties to models, while privacy materials reference user demographics as training data and user data for prediction. No qualifying public evidence was found for external accountability.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 182,
+    "total_sources_used": 4
+  }
+}

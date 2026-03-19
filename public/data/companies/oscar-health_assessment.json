@@ -1,0 +1,183 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 35.7,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 5
+  },
+  "company": "Oscar Health",
+  "company_slug": "oscar-health",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 2,
+      "OPERATIONAL": 3,
+      "POLICY": 3
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "Documentation mentions physician-audited datasets and safety checks, including testing and examination. It also references regulatory requirements and ethical considerations.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Introducing Oswell AI Health Agent,\" provides evidence for external accountability, governance, oversight, privacy, and transparency. It supports external accountability and oversight by mentioning physician-audited datasets and safety checks like testing and examination. The post also touches on governance and oversight through mentions of audits and reviews, and supports privacy by describing data use for personalization. Transparency is evidenced by the mention of conversational AI and OpenAI-powered agents.",
+          "title": "Introducing Oswell AI Health Agent",
+          "url": "https://hioscar.ai/blog/iintroducing-oswell-a-health-ai-agent-for-oscar-members"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "The \"Language Models at Oscar\" document provides evidence for **governance**, **transparency**, and **external accountability**. It details an AI governance process for LLMs, addressing accuracy, performance, and regulatory/ethical considerations, which supports governance. The document also mentions accessible tools for testing OpenAI models, indicating operational use and transparency in their capabilities and limitations, and an iterative development approach, further supporting transparency and governance. Finally, the explicit mention of regulatory requirements and ethical considerations points to the document's support for external accountability.",
+          "title": "Language Models at Oscar",
+          "url": "https://hioscar.ai/language-models"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 4,
+      "findings": "Documentation details an AI governance process for LLMs, which addresses accuracy, performance, and regulatory/ethical considerations. It also references audits, reviews, and an iterative development approach.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Introducing Oswell AI Health Agent,\" provides evidence for external accountability, governance, oversight, privacy, and transparency. It supports external accountability and oversight by mentioning physician-audited datasets and safety checks like testing and examination. The post also touches on governance and oversight through mentions of audits and reviews, and supports privacy by describing data use for personalization. Transparency is evidenced by the mention of conversational AI and OpenAI-powered agents.",
+          "title": "Introducing Oswell AI Health Agent",
+          "url": "https://hioscar.ai/blog/iintroducing-oswell-a-health-ai-agent-for-oscar-members"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "The \"Language Models at Oscar\" document provides evidence for **governance**, **transparency**, and **external accountability**. It details an AI governance process for LLMs, addressing accuracy, performance, and regulatory/ethical considerations, which supports governance. The document also mentions accessible tools for testing OpenAI models, indicating operational use and transparency in their capabilities and limitations, and an iterative development approach, further supporting transparency and governance. Finally, the explicit mention of regulatory requirements and ethical considerations points to the document's support for external accountability.",
+          "title": "Language Models at Oscar",
+          "url": "https://hioscar.ai/language-models"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 3,
+      "findings": "Documentation mentions physician-audited datasets and safety checks, including testing and examination. It also references audits and reviews.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Introducing Oswell AI Health Agent,\" provides evidence for external accountability, governance, oversight, privacy, and transparency. It supports external accountability and oversight by mentioning physician-audited datasets and safety checks like testing and examination. The post also touches on governance and oversight through mentions of audits and reviews, and supports privacy by describing data use for personalization. Transparency is evidenced by the mention of conversational AI and OpenAI-powered agents.",
+          "title": "Introducing Oswell AI Health Agent",
+          "url": "https://hioscar.ai/blog/iintroducing-oswell-a-health-ai-agent-for-oscar-members"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "Documentation describes data use for personalization.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Introducing Oswell AI Health Agent,\" provides evidence for external accountability, governance, oversight, privacy, and transparency. It supports external accountability and oversight by mentioning physician-audited datasets and safety checks like testing and examination. The post also touches on governance and oversight through mentions of audits and reviews, and supports privacy by describing data use for personalization. Transparency is evidenced by the mention of conversational AI and OpenAI-powered agents.",
+          "title": "Introducing Oswell AI Health Agent",
+          "url": "https://hioscar.ai/blog/iintroducing-oswell-a-health-ai-agent-for-oscar-members"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 6,
+      "findings": "Documentation references conversational AI and OpenAI-powered agents. It also mentions accessible tools for testing OpenAI models, indicating operational use and transparency in their capabilities and limitations, and an iterative development approach.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This blog post, \"Introducing Oswell AI Health Agent,\" provides evidence for external accountability, governance, oversight, privacy, and transparency. It supports external accountability and oversight by mentioning physician-audited datasets and safety checks like testing and examination. The post also touches on governance and oversight through mentions of audits and reviews, and supports privacy by describing data use for personalization. Transparency is evidenced by the mention of conversational AI and OpenAI-powered agents.",
+          "title": "Introducing Oswell AI Health Agent",
+          "url": "https://hioscar.ai/blog/iintroducing-oswell-a-health-ai-agent-for-oscar-members"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "The \"Language Models at Oscar\" document provides evidence for **governance**, **transparency**, and **external accountability**. It details an AI governance process for LLMs, addressing accuracy, performance, and regulatory/ethical considerations, which supports governance. The document also mentions accessible tools for testing OpenAI models, indicating operational use and transparency in their capabilities and limitations, and an iterative development approach, further supporting transparency and governance. Finally, the explicit mention of regulatory requirements and ethical considerations points to the document's support for external accountability.",
+          "title": "Language Models at Oscar",
+          "url": "https://hioscar.ai/language-models"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-03-19T17:22:05Z",
+  "run_id": "20260309_185332_6717",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Oscar Health's public disclosures address governance and oversight, with materials detailing an AI governance process for LLMs and mentioning physician-audited datasets. Overall, 5 of 7 evaluated responsible AI pillars have documented evidence, including transparency, where disclosures reference conversational AI and OpenAI-powered agents. Further, published materials describe data use for personalization under privacy and reference safety checks, including testing and examination, for external accountability. No qualifying public evidence was found for fairness or explainability, based on a review of 16 publicly available sources.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 5,
+    "pillars_with_evidence": 5,
+    "pillars_without_evidence": 2,
+    "total_evidence_items": 8,
+    "total_sources_used": 2
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 14.3,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 2
+  },
+  "company": "Intercontinental Exchange",
+  "company_slug": "intercontinental-exchange",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 0,
+      "OPERATIONAL": 3,
+      "POLICY": 1
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 2,
+      "findings": "Reports detail operational activities for testing AI use cases and building governance guardrails. Presentations outline a strategic approach to managing the deployment and scaling of AI across various operations, referencing a commitment to a structured AI scaling strategy.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This third-party report on ICE's AI Centre of Excellence provides evidence for the **governance** and **transparency** pillars. The report details the operational activities of testing use cases and building governance guardrails, which directly supports the governance pillar. Furthermore, the mention of using AI models for pattern recognition and improving insights, as well as integrating AI models to enhance productivity, demonstrates operational deployment and ongoing efforts that contribute to the transparency pillar.",
+          "title": "ICE Forms AI Centre of Excellence",
+          "url": "https://marketsmedia.com/ice-forms-ai-centre-of-excellence"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "The ICE presentation \"ICE Taking AI from Production to Scale (NVIDIA GTC 2025)\" provides evidence for the **governance** pillar of responsible AI. This is because the presentation outlines a strategic approach to managing the deployment and scaling of AI across exchange, clearing, and data operations, indicating a commitment to a structured scaling strategy.",
+          "title": "ICE Taking AI from Production to Scale (NVIDIA GTC 2025)",
+          "url": "https://nvidia.com/en-us/on-demand/session/gtc25-s72463"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 3,
+      "findings": "Reports describe the use of AI models for pattern recognition, improving insights, and enhancing productivity through integration. These reports also reference the operational deployment and ongoing efforts related to AI models.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This third-party report on ICE's AI Centre of Excellence provides evidence for the **governance** and **transparency** pillars. The report details the operational activities of testing use cases and building governance guardrails, which directly supports the governance pillar. Furthermore, the mention of using AI models for pattern recognition and improving insights, as well as integrating AI models to enhance productivity, demonstrates operational deployment and ongoing efforts that contribute to the transparency pillar.",
+          "title": "ICE Forms AI Centre of Excellence",
+          "url": "https://marketsmedia.com/ice-forms-ai-centre-of-excellence"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-03-19T17:16:03Z",
+  "run_id": "20260309_182912_315a",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Intercontinental Exchange's published materials describe the use of AI models for pattern recognition and improving insights within its transparency pillar. Additionally, governance disclosures detail operational activities for testing AI use cases and the building of governance guardrails. These practices represent the documented evidence found across 2 of 7 evaluated responsible AI pillars, drawing from 12 publicly available sources. No qualifying public evidence was found for the majority of the 7 evaluated pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 2,
+    "pillars_without_evidence": 5,
+    "total_evidence_items": 4,
+    "total_sources_used": 2
+  }
+}

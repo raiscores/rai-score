@@ -1,0 +1,183 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 28.6,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 4
+  },
+  "company": "Interactive Brokers",
+  "company_slug": "interactive-brokers",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 7,
+      "OPERATIONAL": 0,
+      "POLICY": 10
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "An article reports on the FCA and MAS collaboration to promote safe AI innovation, implying external oversight. The article also references IOSCO and RegTech, supporting the presence of external accountability policies for AI risks.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for **external_accountability**, **governance**, and **transparency** by reporting on the FCA and MAS collaboration to promote safe AI innovation, which implies external oversight and governance. It also highlights Interactive Brokers' engagement with AI-driven tools, suggesting a focus on governance and transparency in their deployment for investors. The mention of IOSCO and RegTech further supports the presence of external accountability and governance policies for AI risks.",
+          "title": "FCA and MAS Collaboration on AI Begins Amid Growing Broker Integration",
+          "url": "https://financemagnates.com/institutional-forex/fca-and-mas-collaboration-on-ai-begins-amid-growing-broker-integration"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 11,
+      "findings": "Documentation references proprietary techniques used in AI tool development and mentions processing technology and vendors, implying vendor oversight and describing algorithm purpose for design and control. An article reports on regulatory collaborations to promote safe AI innovation, implying external oversight and highlighting the company's focus on governance in AI tool deployment for investors. The article also references IOSCO and RegTech, supporting the presence of governance policies for AI risks.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This press release for the \"Ask IBKR AI-Powered Portfolio Analysis Tool\" provides evidence for **governance** and **transparency**. It supports transparency by highlighting the tool's AI capabilities, such as intelligent question completion and suggested queries, and by describing its general functions for delivering insights. The press release also indicates governance and transparency through its mention of proprietary techniques used in the tool's development.",
+          "title": "Ask IBKR AI-Powered Portfolio Analysis Tool",
+          "url": "https://investors.interactivebrokers.com/en/general/about/mediaRelations/10-15-25.php"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The \"IBot Natural Language Trading Interface\" source provides evidence for **governance** and **transparency**. It supports transparency by describing the AI tool's capabilities, including its use of generative AI for summarization and its automated scanner and recommender functions. Evidence for governance is found in the mention of a \"processing technology\" and a vendor, implying vendor oversight, and the description of an algorithm's purpose, suggesting design and control.",
+          "title": "IBot Natural Language Trading Interface",
+          "url": "https://interactivebrokers.com/en/trading/ibot.php"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for **external_accountability**, **governance**, and **transparency** by reporting on the FCA and MAS collaboration to promote safe AI innovation, which implies external oversight and governance. It also highlights Interactive Brokers' engagement with AI-driven tools, suggesting a focus on governance and transparency in their deployment for investors. The mention of IOSCO and RegTech further supports the presence of external accountability and governance policies for AI risks.",
+          "title": "FCA and MAS Collaboration on AI Begins Amid Growing Broker Integration",
+          "url": "https://financemagnates.com/institutional-forex/fca-and-mas-collaboration-on-ai-begins-amid-growing-broker-integration"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "A privacy policy details data collection practices, including the use of cookies, web beacons, and profiling for targeted advertising. This policy describes how user data is handled and utilized.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This privacy policy document provides evidence for the **privacy** pillar. It supports this pillar by detailing data collection practices, including the use of cookies, web beacons, and profiling for targeted advertising, which directly relates to how user data is handled and utilized.",
+          "title": "Interactive Brokers Privacy Policy",
+          "url": "https://interactivebrokers.com/en/accounts/legalDocuments/privacy.php"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 11,
+      "findings": "Documentation describes the AI capabilities and general functions of tools like the \"Ask IBKR AI-Powered Portfolio Analysis Tool,\" including intelligent question completion, suggested queries, and insight delivery, and references proprietary development techniques. It also describes the capabilities of the \"IBot Natural Language Trading Interface,\" such as generative AI for summarization and automated scanner functions. An article highlights the company's engagement with AI-driven tools, suggesting a focus on transparency in their deployment for investors.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This press release for the \"Ask IBKR AI-Powered Portfolio Analysis Tool\" provides evidence for **governance** and **transparency**. It supports transparency by highlighting the tool's AI capabilities, such as intelligent question completion and suggested queries, and by describing its general functions for delivering insights. The press release also indicates governance and transparency through its mention of proprietary techniques used in the tool's development.",
+          "title": "Ask IBKR AI-Powered Portfolio Analysis Tool",
+          "url": "https://investors.interactivebrokers.com/en/general/about/mediaRelations/10-15-25.php"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "The \"IBot Natural Language Trading Interface\" source provides evidence for **governance** and **transparency**. It supports transparency by describing the AI tool's capabilities, including its use of generative AI for summarization and its automated scanner and recommender functions. Evidence for governance is found in the mention of a \"processing technology\" and a vendor, implying vendor oversight, and the description of an algorithm's purpose, suggesting design and control.",
+          "title": "IBot Natural Language Trading Interface",
+          "url": "https://interactivebrokers.com/en/trading/ibot.php"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for **external_accountability**, **governance**, and **transparency** by reporting on the FCA and MAS collaboration to promote safe AI innovation, which implies external oversight and governance. It also highlights Interactive Brokers' engagement with AI-driven tools, suggesting a focus on governance and transparency in their deployment for investors. The mention of IOSCO and RegTech further supports the presence of external accountability and governance policies for AI risks.",
+          "title": "FCA and MAS Collaboration on AI Begins Amid Growing Broker Integration",
+          "url": "https://financemagnates.com/institutional-forex/fca-and-mas-collaboration-on-ai-begins-amid-growing-broker-integration"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T17:15:55Z",
+  "run_id": "20260309_182846_f678",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Based on 12 publicly available sources, Interactive Brokers' published materials address 4 of 7 evaluated responsible AI pillars. Transparency disclosures describe the AI capabilities of the \"Ask IBKR AI-Powered Portfolio Analysis Tool,\" including intelligent question completion and suggested queries, while privacy policies detail data collection practices such as the use of cookies and profiling for targeted advertising. Further, governance materials reference proprietary techniques used in the development of the \"Ask IBKR AI-Powered Portfolio Analysis Tool\" and mention a processing technology and vendor for the \"IBot Natural Language Trading Interface.\" External accountability is also addressed through an article reporting on the FCA and MAS collaboration to promote safe AI innovation. No qualifying public evidence was found for fairness, explainability, and 1 additional pillar.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 4,
+    "pillars_without_evidence": 3,
+    "total_evidence_items": 17,
+    "total_sources_used": 4
+  }
+}

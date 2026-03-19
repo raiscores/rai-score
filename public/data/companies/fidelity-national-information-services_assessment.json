@@ -1,0 +1,178 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 57.1,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 8
+  },
+  "company": "Fidelity National Information Services",
+  "company_slug": "fidelity-national-information-services",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 1,
+      "OPERATIONAL": 2,
+      "POLICY": 14
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "The company's SEC filing highlights an awareness of evolving AI laws and regulations. It indicates a need for external accountability to ensure compliance and manage associated risks.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K for fiscal year ended December 31, 2024,\" provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The document highlights the company's awareness of evolving AI laws and regulations, indicating a need for **external_accountability** and **governance** to ensure compliance and manage risks. It also addresses potential issues like algorithmic bias and discrimination, supporting the **fairness** pillar, and mentions the importance of ethical AI use and data protection, which relates to **privacy** and **transparency** requirements.",
+          "title": "Form 10-K for fiscal year ended December 31, 2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689325000014/fis-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "The company's SEC filing addresses potential issues like algorithmic bias and discrimination.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K for fiscal year ended December 31, 2024,\" provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The document highlights the company's awareness of evolving AI laws and regulations, indicating a need for **external_accountability** and **governance** to ensure compliance and manage risks. It also addresses potential issues like algorithmic bias and discrimination, supporting the **fairness** pillar, and mentions the importance of ethical AI use and data protection, which relates to **privacy** and **transparency** requirements.",
+          "title": "Form 10-K for fiscal year ended December 31, 2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689325000014/fis-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 14,
+      "findings": "The company's SEC filing highlights an awareness of evolving AI laws and regulations, indicating a need for governance to ensure compliance and manage risks. Additionally, the Global Sustainability Report describes the establishment of an AI Governance team responsible for risk assessment, project oversight, and strategic planning for AI use.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K for fiscal year ended December 31, 2024,\" provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The document highlights the company's awareness of evolving AI laws and regulations, indicating a need for **external_accountability** and **governance** to ensure compliance and manage risks. It also addresses potential issues like algorithmic bias and discrimination, supporting the **fairness** pillar, and mentions the importance of ethical AI use and data protection, which relates to **privacy** and **transparency** requirements.",
+          "title": "Form 10-K for fiscal year ended December 31, 2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689325000014/fis-20241231.htm"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "The \"FIS 2024 Global Sustainability Report\" provides evidence for the **governance** and **oversight** pillars of responsible AI. This company-owned report details the establishment of an AI Governance team responsible for risk assessment, project oversight, and strategic planning for AI use, demonstrating a structured approach to managing AI responsibly.",
+          "title": "FIS 2024 Global Sustainability Report",
+          "url": "https://fisglobal.com/-/media/fisglobal/files/pdf/report/2024-global-sustainability-report.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 2,
+      "findings": "The company's Global Sustainability Report describes the establishment of an AI Governance team. This team is responsible for risk assessment, project oversight, and strategic planning for AI use.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "The \"FIS 2024 Global Sustainability Report\" provides evidence for the **governance** and **oversight** pillars of responsible AI. This company-owned report details the establishment of an AI Governance team responsible for risk assessment, project oversight, and strategic planning for AI use, demonstrating a structured approach to managing AI responsibly.",
+          "title": "FIS 2024 Global Sustainability Report",
+          "url": "https://fisglobal.com/-/media/fisglobal/files/pdf/report/2024-global-sustainability-report.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 1
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "The company's SEC filing references privacy requirements concerning ethical AI use and data protection.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K for fiscal year ended December 31, 2024,\" provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The document highlights the company's awareness of evolving AI laws and regulations, indicating a need for **external_accountability** and **governance** to ensure compliance and manage risks. It also addresses potential issues like algorithmic bias and discrimination, supporting the **fairness** pillar, and mentions the importance of ethical AI use and data protection, which relates to **privacy** and **transparency** requirements.",
+          "title": "Form 10-K for fiscal year ended December 31, 2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689325000014/fis-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 1,
+      "findings": "The company's SEC filing references transparency requirements concerning ethical AI use and data protection.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "sec_filing",
+          "source_id": "src_002",
+          "source_tier": "authority",
+          "summary": "This SEC filing, \"Form 10-K for fiscal year ended December 31, 2024,\" provides evidence for **external_accountability**, **fairness**, **governance**, **privacy**, and **transparency**. The document highlights the company's awareness of evolving AI laws and regulations, indicating a need for **external_accountability** and **governance** to ensure compliance and manage risks. It also addresses potential issues like algorithmic bias and discrimination, supporting the **fairness** pillar, and mentions the importance of ethical AI use and data protection, which relates to **privacy** and **transparency** requirements.",
+          "title": "Form 10-K for fiscal year ended December 31, 2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689325000014/fis-20241231.htm"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-03-19T17:12:42Z",
+  "run_id": "20260309_181353_9786",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Fidelity National Information Services' public disclosures address responsible AI practices at both operational and policy levels, with operational evidence for oversight and governance. For instance, the Global Sustainability Report describes the establishment of an AI Governance team responsible for risk assessment for AI use. Additionally, SEC filings highlight the company's awareness of evolving AI laws and regulations, indicating a need for governance to ensure compliance and manage risks. Transparency, fairness, privacy, and external accountability are addressed through corporate policies, with the SEC filing referencing transparency requirements related to ethical AI use and data protection, and addressing potential issues such as algorithmic bias and discrimination. No qualifying public evidence was found for explainability. These findings are based on a review of 13 publicly available sources, covering 6 of 7 evaluated responsible AI pillars.",
+    "pillars_operational": 2,
+    "pillars_policy_only": 4,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 17,
+    "total_sources_used": 2
+  }
+}

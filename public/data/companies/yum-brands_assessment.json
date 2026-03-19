@@ -1,0 +1,184 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 21.4,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 3
+  },
+  "company": "Yum Brands",
+  "company_slug": "yum-brands",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 8,
+      "OPERATIONAL": 2,
+      "POLICY": 3
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Documentation references AI certifications for AI products.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This third-party source, \"Responsible AI Institute - Who We Are,\" indicates Yum! Brands' engagement with external organizations focused on AI ethics and governance. The document supports the **governance** pillar by mentioning the Responsible AI Institute's aim to enable successful responsible AI efforts and the **external_accountability** pillar by referencing AI certifications for AI products.",
+          "title": "Responsible AI Institute - Who We Are",
+          "url": "https://responsible.ai/who-we-are"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 1,
+      "findings": "Reports reference alleged discrimination against individuals with mental illness, stemming from algorithmic personality tests used in hiring processes.",
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This 2014 article provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It supports fairness by reporting on alleged discrimination against individuals with mental illness due to algorithmic personality tests used in hiring. The article touches on governance and transparency by mentioning the use of algorithms and scoring methods, implying a need for oversight in their customization and a lack of clarity in how scores are determined.",
+          "title": "Growing Use of Tests Sparks Scrutiny Amid Questions of Effectiveness and Workplace Discrimination",
+          "url": "https://programbusiness.com/news/growing-use-of-tests-sparks-scrutiny-amid-questions-of-effectiveness-and-workplace-discrimination"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 5,
+      "findings": "Yum Brands engages with external organizations focused on AI ethics and governance, including the Responsible AI Institute, which aims to enable successful responsible AI efforts. Sources also mention planned rollouts and stated design goals for efficiency, alongside the use of algorithms and scoring methods, implying a need for oversight in their customization.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **governance** and **transparency** pillars of responsible AI. It demonstrates transparency by detailing Yum Brands' extensive AI deployments, including labor scheduling and drive-thru voice AI, and their scale across thousands of locations. The article also implies governance through the mention of planned rollouts and stated design goals for efficiency.",
+          "title": "For Taco Bell parent Yum Brands, the future is AI",
+          "url": "https://restaurantbusinessonline.com/technology/taco-bell-parent-yum-brands-future-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_019",
+          "source_tier": "third_party",
+          "summary": "This third-party source, \"Responsible AI Institute - Who We Are,\" indicates Yum! Brands' engagement with external organizations focused on AI ethics and governance. The document supports the **governance** pillar by mentioning the Responsible AI Institute's aim to enable successful responsible AI efforts and the **external_accountability** pillar by referencing AI certifications for AI products.",
+          "title": "Responsible AI Institute - Who We Are",
+          "url": "https://responsible.ai/who-we-are"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This 2014 article provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It supports fairness by reporting on alleged discrimination against individuals with mental illness due to algorithmic personality tests used in hiring. The article touches on governance and transparency by mentioning the use of algorithms and scoring methods, implying a need for oversight in their customization and a lack of clarity in how scores are determined.",
+          "title": "Growing Use of Tests Sparks Scrutiny Amid Questions of Effectiveness and Workplace Discrimination",
+          "url": "https://programbusiness.com/news/growing-use-of-tests-sparks-scrutiny-amid-questions-of-effectiveness-and-workplace-discrimination"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 9,
+      "findings": "Yum Brands' AI-driven management system, the 'Byte AI Restaurant Coach,' is described, detailing its functions in analyzing operational data for staffing, scheduling, and performance recommendations. Its broad deployment across over 28,000 restaurants is highlighted, referencing its AI use cases and operational goals. However, sources also mention the use of algorithms and scoring methods, indicating a lack of clarity in how scores are determined.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_007",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **governance** and **transparency** pillars of responsible AI. It demonstrates transparency by detailing Yum Brands' extensive AI deployments, including labor scheduling and drive-thru voice AI, and their scale across thousands of locations. The article also implies governance through the mention of planned rollouts and stated design goals for efficiency.",
+          "title": "For Taco Bell parent Yum Brands, the future is AI",
+          "url": "https://restaurantbusinessonline.com/technology/taco-bell-parent-yum-brands-future-ai"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This article, \"Fast Food Chains Put AI to Work,\" provides evidence for the **transparency** pillar of responsible AI. It details Yum Brands' AI-driven management system, the 'Byte AI Restaurant Coach,' by describing its specific functions in analyzing operational data for recommendations on staffing, scheduling, and performance. The article also highlights the broad deployment of this system across over 28,000 restaurants, indicating transparency in AI use cases and operational goals.",
+          "title": "Fast Food Chains Put AI to Work",
+          "url": "https://www.pymnts.com/artificial-intelligence/2026/fast-food-chains-put-ai-to-work/"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_021",
+          "source_tier": "third_party",
+          "summary": "This 2014 article provides evidence for the **fairness**, **governance**, and **transparency** pillars of responsible AI. It supports fairness by reporting on alleged discrimination against individuals with mental illness due to algorithmic personality tests used in hiring. The article touches on governance and transparency by mentioning the use of algorithms and scoring methods, implying a need for oversight in their customization and a lack of clarity in how scores are determined.",
+          "title": "Growing Use of Tests Sparks Scrutiny Amid Questions of Effectiveness and Workplace Discrimination",
+          "url": "https://programbusiness.com/news/growing-use-of-tests-sparks-scrutiny-amid-questions-of-effectiveness-and-workplace-discrimination"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    }
+  },
+  "published_at": "2026-03-19T17:30:16Z",
+  "run_id": "20260309_170105_2943",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Documentation describes the specific functions of Yum Brands' AI-driven management system, the 'Byte AI Restaurant Coach,' including its role in analyzing operational data for recommendations on staffing, scheduling, and performance. Published materials also detail engagement with external organizations focused on AI ethics and governance, and reference AI certifications for AI products. These disclosures provide documented evidence across 3 of 7 evaluated responsible AI pillars: transparency, governance, and external accountability. The assessment draws on 22 publicly available sources. No qualifying public evidence was found for fairness, explainability, and 2 additional pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 13,
+    "total_sources_used": 4
+  }
+}

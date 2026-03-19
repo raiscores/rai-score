@@ -1,0 +1,169 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 14.3,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 2
+  },
+  "company": "KeyCorp",
+  "company_slug": "keycorp",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 5,
+      "OPERATIONAL": 0,
+      "POLICY": 7
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "Sources illustrate AI's ability to identify redundant subscriptions and predict overdrafts. This includes referencing AI offering actionable solutions, which implies explainability of the AI's reasoning.",
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "The \"KeyBank Cognitive Banking with AI\" document provides evidence for the **explainability** and **transparency** pillars of responsible AI. It illustrates AI's ability to identify redundant subscriptions and predict overdrafts, offering actionable solutions which implies explainability of the AI's reasoning. Furthermore, the document suggests transparency through AI's transaction analysis and its goal to understand customer needs based on behavior, although it notes a lack of operational execution or policy commitment in these areas.",
+          "title": "KeyBank Cognitive Banking with AI",
+          "url": "https://americanbanker.com/news/how-keybank-is-creating-cognitive-banking-with-ai"
+        }
+      ],
+      "score": 0,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 1,
+      "findings": "Sources describe a commitment to undergo a third-party audit. This audit serves as an external mechanism for holding the company accountable for its mortgage lending practices and the impact of its diversity and equity programs.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "This third-party report on KeyCorp's commitment to a racial equity audit provides evidence for the **external_accountability** pillar. The commitment to undergo a third-party audit, driven by shareholder and fair-lending group pressure, demonstrates an external mechanism for holding the company accountable for its mortgage lending practices and the impact of its diversity and equity programs.",
+          "title": "KeyCorp commits to a racial equity audit",
+          "url": "https://americanbanker.com/news/amid-shareholder-pressure-keycorp-commits-to-a-racial-equity-audit"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 6,
+      "findings": "Sources reference the need for governance over vendor-provided AI solutions and their use in business processes. This includes a framework for vendor oversight and accountability regarding the use and integration of AI systems, and established practices for managing and ensuring responsible AI tool usage.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. The article's mention of machine learning and automation in KeyCorp's KeyTotal AR platform implies the need for governance over vendor-provided AI solutions and their use in business processes. Furthermore, the description of the AI's capability to interpret data suggests transparency in its functional operations.",
+          "title": "Harnessing AI to help customers speed invoice processing and get paid",
+          "url": "https://americanbanker.com/news/harnessing-ai-to-help-customers-speed-invoice-processing-and-get-paid"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "third_party",
+          "summary": "This news article provides evidence for the **governance** pillar of responsible AI. The partnership with Google Cloud and Deloitte to implement AI for personalized digital banking and a virtual agent service implies a framework for vendor oversight and accountability regarding the use and integration of AI systems. The mention of leveraging AI services and an AI stack further suggests established practices for managing and ensuring responsible AI tool usage.",
+          "title": "KeyBank partners with Google Cloud and Deloitte for cloud-first banking solution",
+          "url": "https://cloud.google.com/press-releases/2022/0203/keybank"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": null,
+      "display_name": "Privacy & Security",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document data protection practices for AI systems, including vendor AI data handling.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "transparency": {
+      "best_evidence_type": "NARRATIVE",
+      "display_name": "Transparency",
+      "evidence_count": 5,
+      "findings": "Sources describe the AI's capability to interpret data, suggesting transparency in its functional operations. They also reference transparency through AI's transaction analysis and its goal to understand customer needs based on behavior.",
+      "max_score": 2,
+      "path_to_improvement": "Document AI systems in use, including vendor/third-party AI tools.",
+      "relevant_sources": [
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_004",
+          "source_tier": "third_party",
+          "summary": "This press release provides evidence for the **governance** and **transparency** pillars of responsible AI. The article's mention of machine learning and automation in KeyCorp's KeyTotal AR platform implies the need for governance over vendor-provided AI solutions and their use in business processes. Furthermore, the description of the AI's capability to interpret data suggests transparency in its functional operations.",
+          "title": "Harnessing AI to help customers speed invoice processing and get paid",
+          "url": "https://americanbanker.com/news/harnessing-ai-to-help-customers-speed-invoice-processing-and-get-paid"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "The \"KeyBank Cognitive Banking with AI\" document provides evidence for the **explainability** and **transparency** pillars of responsible AI. It illustrates AI's ability to identify redundant subscriptions and predict overdrafts, offering actionable solutions which implies explainability of the AI's reasoning. Furthermore, the document suggests transparency through AI's transaction analysis and its goal to understand customer needs based on behavior, although it notes a lack of operational execution or policy commitment in these areas.",
+          "title": "KeyBank Cognitive Banking with AI",
+          "url": "https://americanbanker.com/news/how-keybank-is-creating-cognitive-banking-with-ai"
+        }
+      ],
+      "score": 0,
+      "source_count": 2
+    }
+  },
+  "published_at": "2026-03-19T17:17:50Z",
+  "run_id": "20260309_183813_e79e",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Privacy & Security"
+    ],
+    "key_strengths": [],
+    "overall_findings": "KeyCorp's public disclosures describe a commitment to undergo a third-party audit for external accountability. Governance materials also reference the need for governance over vendor-provided AI solutions and their use in business processes; these two pillars are the only ones with documented evidence out of seven evaluated. Based on a review of 11 publicly available sources, no qualifying public evidence was found for the majority of the 7 evaluated pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 2,
+    "pillars_with_evidence": 2,
+    "pillars_without_evidence": 5,
+    "total_evidence_items": 12,
+    "total_sources_used": 4
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 50.0,
+    "star_display": "★★★",
+    "star_rating": 3,
+    "total_score": 7
+  },
+  "company": "Guardian Life",
+  "company_slug": "guardian-life",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 11,
+      "OPERATIONAL": 2,
+      "POLICY": 18
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 1,
+      "findings": "A policy document commits to principles of explainability for AI systems, indicating a policy-level commitment.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Guardian AI Statement,\" provides evidence for the pillars of explainability, fairness, governance, oversight, and transparency. It commits to principles of accountability, fairness, and explainability for AI systems, indicating a policy-level commitment. While it mentions AI use cases and implies transparency as a goal, the document lacks specific execution details for these principles.",
+          "title": "Guardian AI Statement",
+          "url": "https://guardianlife.com/guardian-artificial-intelligence-statement"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 6,
+      "findings": "A company-owned document defines vendor relationships and associated responsibilities, contributing to external accountability. A course also focuses on AI implementation, compliance, risk mitigation, and safety initiatives, including discussions on AI regulation and NIST's AI Risk Management Framework, highlighting proactive approaches to managing AI's impact and adhering to evolving policy landscapes.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "The \"Nayya AI Benefits Enrollment\" company-owned document provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. It supports **privacy** by describing the use of personal attributes and extensive data for recommendations, implying the need for data handling and privacy measures. The document also supports **transparency** by mentioning the use of AI for decision-making tools, indicating clarity about its capabilities. Furthermore, it establishes **governance** and **external_accountability** by defining the vendor relationship and associated responsibilities.",
+          "title": "Nayya AI Benefits Enrollment",
+          "url": "https://guardianlife.com/voluntary-benefits/enrollment/nayya"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This third-party course, \"Navigating the Shifting Landscape of AI Policy,\" provides evidence for the **governance** and **external accountability** pillars of responsible AI. The course's focus on AI implementation, compliance, risk mitigation, and safety initiatives, as well as discussions on AI regulation and NIST's AI Risk Management Framework, directly supports these pillars by highlighting proactive approaches to managing AI's impact and adhering to evolving policy landscapes.",
+          "title": "Navigating the Shifting Landscape of AI Policy",
+          "url": "https://lawline.com/course/navigating-the-shifting-landscape-of-ai-policy-understanding-evolving-regulations-and-their-professional-impact"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 2,
+      "findings": "A policy document commits to principles of fairness for AI systems, indicating a policy-level commitment. Additionally, an article mentions principles for responsible AI use, including equity.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Guardian AI Statement,\" provides evidence for the pillars of explainability, fairness, governance, oversight, and transparency. It commits to principles of accountability, fairness, and explainability for AI systems, indicating a policy-level commitment. While it mentions AI use cases and implies transparency as a goal, the document lacks specific execution details for these principles.",
+          "title": "Guardian AI Statement",
+          "url": "https://guardianlife.com/guardian-artificial-intelligence-statement"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This article from MIT CISR provides evidence for fairness, governance, oversight, privacy, and transparency in responsible AI. The report details a generative AI pilot at Guardian Life, highlighting governance through secure platform deployment and data usage, and transparency via dashboards for data and outcomes. It also touches on oversight through human-in-the-loop mechanisms and mentions principles for responsible AI use, including privacy and equity.",
+          "title": "Building Enterprise AI Maturity | MIT CISR",
+          "url": "https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 20,
+      "findings": "A policy document provides evidence for governance of AI systems and commits to principles of accountability. Governance is also highlighted through the proactive role of a risk team in strategizing guardrails for AI technologies, a policy focus on AI governance, and secure platform deployment and data usage. Furthermore, sources mention AI strategies, a dedicated role for AI, leadership and team composition for AI/ML expertise, and define vendor relationships and associated responsibilities. A course also focuses on AI implementation, compliance, risk mitigation, safety initiatives, AI regulation, and NIST's AI Risk Management Framework.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This article, \"Navigating top risks in the insurance industry,\" provides evidence for the **governance** pillar of responsible AI. The source highlights the proactive role of a risk team in strategizing necessary guardrails for AI technologies from the outset, indicating a commitment to building trust and ethics into AI tools. This suggests a policy focus on AI governance and responsible development practices.",
+          "title": "Navigating top risks in the insurance industry",
+          "url": "https://complianceweek.com/risk-management/navigating-top-risks-in-the-insurance-industry/36493.article"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Guardian AI Statement,\" provides evidence for the pillars of explainability, fairness, governance, oversight, and transparency. It commits to principles of accountability, fairness, and explainability for AI systems, indicating a policy-level commitment. While it mentions AI use cases and implies transparency as a goal, the document lacks specific execution details for these principles.",
+          "title": "Guardian AI Statement",
+          "url": "https://guardianlife.com/guardian-artificial-intelligence-statement"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release for the \"Guardian-Atidot AI Partnership\" provides evidence for **governance** and **transparency**. It supports governance by outlining the aspiration to create an AI and predictive analytics platform and mentioning leadership and team composition for AI/ML expertise, suggesting a future governance structure. Transparency is supported by the mention of deploying machine learning for data-driven underwriting and distribution decisions.",
+          "title": "Guardian-Atidot AI Partnership",
+          "url": "https://guardianlife.com/news/release/guardian-and-atidot-partner-create-new-insurance-models-and-customer-experiences-using-artificial"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "third_party",
+          "summary": "The \"Guardian AI Factory Initiative\" source provides evidence for the **governance** pillar. This is indicated by the mention of AI strategies and a dedicated role for AI, suggesting an intent to govern AI development and deployment, although specific execution details were not found.",
+          "title": "Guardian AI Factory Initiative",
+          "url": "https://siliconangle.com/2024/06/11/guardian-life-insurance-innovates-ai-factory-vertical-relevance-awsfinserv"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "The \"Nayya AI Benefits Enrollment\" company-owned document provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. It supports **privacy** by describing the use of personal attributes and extensive data for recommendations, implying the need for data handling and privacy measures. The document also supports **transparency** by mentioning the use of AI for decision-making tools, indicating clarity about its capabilities. Furthermore, it establishes **governance** and **external_accountability** by defining the vendor relationship and associated responsibilities.",
+          "title": "Nayya AI Benefits Enrollment",
+          "url": "https://guardianlife.com/voluntary-benefits/enrollment/nayya"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This article from MIT CISR provides evidence for fairness, governance, oversight, privacy, and transparency in responsible AI. The report details a generative AI pilot at Guardian Life, highlighting governance through secure platform deployment and data usage, and transparency via dashboards for data and outcomes. It also touches on oversight through human-in-the-loop mechanisms and mentions principles for responsible AI use, including privacy and equity.",
+          "title": "Building Enterprise AI Maturity | MIT CISR",
+          "url": "https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_013",
+          "source_tier": "third_party",
+          "summary": "This third-party course, \"Navigating the Shifting Landscape of AI Policy,\" provides evidence for the **governance** and **external accountability** pillars of responsible AI. The course's focus on AI implementation, compliance, risk mitigation, and safety initiatives, as well as discussions on AI regulation and NIST's AI Risk Management Framework, directly supports these pillars by highlighting proactive approaches to managing AI's impact and adhering to evolving policy landscapes.",
+          "title": "Navigating the Shifting Landscape of AI Policy",
+          "url": "https://lawline.com/course/navigating-the-shifting-landscape-of-ai-policy-understanding-evolving-regulations-and-their-professional-impact"
+        }
+      ],
+      "score": 1,
+      "source_count": 7
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "A policy document provides evidence for oversight of AI systems. Oversight is also referenced through human-in-the-loop mechanisms and the mention of AI monitoring and guiding decisions. Furthermore, the system's capabilities for adjusters and daily recalibration imply oversight.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Guardian AI Statement,\" provides evidence for the pillars of explainability, fairness, governance, oversight, and transparency. It commits to principles of accountability, fairness, and explainability for AI systems, indicating a policy-level commitment. While it mentions AI use cases and implies transparency as a goal, the document lacks specific execution details for these principles.",
+          "title": "Guardian AI Statement",
+          "url": "https://guardianlife.com/guardian-artificial-intelligence-statement"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This article from MIT CISR provides evidence for fairness, governance, oversight, privacy, and transparency in responsible AI. The report details a generative AI pilot at Guardian Life, highlighting governance through secure platform deployment and data usage, and transparency via dashboards for data and outcomes. It also touches on oversight through human-in-the-loop mechanisms and mentions principles for responsible AI use, including privacy and equity.",
+          "title": "Building Enterprise AI Maturity | MIT CISR",
+          "url": "https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **oversight** and **transparency** pillars of responsible AI. It supports transparency by describing EvolutionIQ's AI-powered claims guidance platform, which is used by insurance professionals and is noted to invest in explainability to mitigate bias. The source also implies oversight through its mention of AI monitoring and guiding decisions, as well as the system's capabilities for adjusters and daily recalibration.",
+          "title": "EvolutionIQ secures $21M to streamline insurance claims processing with AI",
+          "url": "https://prnewswire.com/news-releases/evolutioniq-raises-21m-series-a-to-deliver-ai-based-claims-guidance-across-the-industry-301523159.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "A company-owned document provides evidence for privacy considerations. Additionally, an article mentions principles for responsible AI use, including privacy.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "The \"Nayya AI Benefits Enrollment\" company-owned document provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. It supports **privacy** by describing the use of personal attributes and extensive data for recommendations, implying the need for data handling and privacy measures. The document also supports **transparency** by mentioning the use of AI for decision-making tools, indicating clarity about its capabilities. Furthermore, it establishes **governance** and **external_accountability** by defining the vendor relationship and associated responsibilities.",
+          "title": "Nayya AI Benefits Enrollment",
+          "url": "https://guardianlife.com/voluntary-benefits/enrollment/nayya"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This article from MIT CISR provides evidence for fairness, governance, oversight, privacy, and transparency in responsible AI. The report details a generative AI pilot at Guardian Life, highlighting governance through secure platform deployment and data usage, and transparency via dashboards for data and outcomes. It also touches on oversight through human-in-the-loop mechanisms and mentions principles for responsible AI use, including privacy and equity.",
+          "title": "Building Enterprise AI Maturity | MIT CISR",
+          "url": "https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 15,
+      "findings": "A policy document commits to principles of transparency for AI systems and mentions AI use cases. Company documents and press releases mention the use of AI for decision-making tools and the deployment of machine learning for data-driven underwriting and distribution decisions. Transparency is also highlighted through dashboards for data and outcomes in a generative AI pilot and an AI-powered claims guidance platform that invests in explainability to mitigate bias.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This policy document, the \"Guardian AI Statement,\" provides evidence for the pillars of explainability, fairness, governance, oversight, and transparency. It commits to principles of accountability, fairness, and explainability for AI systems, indicating a policy-level commitment. While it mentions AI use cases and implies transparency as a goal, the document lacks specific execution details for these principles.",
+          "title": "Guardian AI Statement",
+          "url": "https://guardianlife.com/guardian-artificial-intelligence-statement"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This press release for the \"Guardian-Atidot AI Partnership\" provides evidence for **governance** and **transparency**. It supports governance by outlining the aspiration to create an AI and predictive analytics platform and mentioning leadership and team composition for AI/ML expertise, suggesting a future governance structure. Transparency is supported by the mention of deploying machine learning for data-driven underwriting and distribution decisions.",
+          "title": "Guardian-Atidot AI Partnership",
+          "url": "https://guardianlife.com/news/release/guardian-and-atidot-partner-create-new-insurance-models-and-customer-experiences-using-artificial"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "The \"Nayya AI Benefits Enrollment\" company-owned document provides evidence for **external_accountability**, **governance**, **privacy**, and **transparency**. It supports **privacy** by describing the use of personal attributes and extensive data for recommendations, implying the need for data handling and privacy measures. The document also supports **transparency** by mentioning the use of AI for decision-making tools, indicating clarity about its capabilities. Furthermore, it establishes **governance** and **external_accountability** by defining the vendor relationship and associated responsibilities.",
+          "title": "Nayya AI Benefits Enrollment",
+          "url": "https://guardianlife.com/voluntary-benefits/enrollment/nayya"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This article from MIT CISR provides evidence for fairness, governance, oversight, privacy, and transparency in responsible AI. The report details a generative AI pilot at Guardian Life, highlighting governance through secure platform deployment and data usage, and transparency via dashboards for data and outcomes. It also touches on oversight through human-in-the-loop mechanisms and mentions principles for responsible AI use, including privacy and equity.",
+          "title": "Building Enterprise AI Maturity | MIT CISR",
+          "url": "https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_012",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **oversight** and **transparency** pillars of responsible AI. It supports transparency by describing EvolutionIQ's AI-powered claims guidance platform, which is used by insurance professionals and is noted to invest in explainability to mitigate bias. The source also implies oversight through its mention of AI monitoring and guiding decisions, as well as the system's capabilities for adjusters and daily recalibration.",
+          "title": "EvolutionIQ secures $21M to streamline insurance claims processing with AI",
+          "url": "https://prnewswire.com/news-releases/evolutioniq-raises-21m-series-a-to-deliver-ai-based-claims-guidance-across-the-industry-301523159.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-03-19T17:14:13Z",
+  "run_id": "20260309_182101_f144",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [],
+    "overall_findings": "Guardian Life's public disclosures include policy documents committing to principles of transparency, fairness, and explainability for AI systems. All 7 evaluated pillars have documented public evidence, drawing from 14 publicly available sources. Published materials also provide evidence for oversight through human-in-the-loop mechanisms and define vendor relationships and associated responsibilities under external accountability. Additionally, a company-owned document addresses privacy considerations, and an article highlights the proactive role of a risk team in strategizing guardrails for AI technologies under governance.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 7,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 31,
+    "total_sources_used": 8
+  }
+}

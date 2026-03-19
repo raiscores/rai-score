@@ -1,0 +1,239 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 42.9,
+    "star_display": "★★",
+    "star_rating": 2,
+    "total_score": 6
+  },
+  "company": "Zoetis",
+  "company_slug": "zoetis",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 17,
+      "OPERATIONAL": 2,
+      "POLICY": 13
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 2,
+      "findings": "An article highlights the duty of legal counsel to vet automated hiring programs. It also mentions vendor due diligence and touches on regulatory compliance.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This article, \"The butterfly effect: algorithmic bias and the search for talent,\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It highlights the duty of legal counsel to vet automated hiring programs, discusses the risk of discriminatory outcomes from AI due to proxy variables, and mentions vendor due diligence. The article also touches on regulatory compliance, the need for bias audits, notification requirements, and alternative processes for automated tools, as well as responsible personalization and data use in tailored experiences.",
+          "title": "The butterfly effect: algorithmic bias and the search for talent",
+          "url": "https://legal500.com/gc-magazine/feature/the-butterfly-effect-algorithmic-bias-and-the-search-for-talent"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 8,
+      "findings": "An article discusses the risk of discriminatory outcomes from AI due to proxy variables and references the need for bias audits. It also mentions vendor due diligence and alternative processes for automated tools.",
+      "max_score": 2,
+      "path_to_improvement": "Publish bias testing results, outcome monitoring, or vendor fairness certifications.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This article, \"The butterfly effect: algorithmic bias and the search for talent,\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It highlights the duty of legal counsel to vet automated hiring programs, discusses the risk of discriminatory outcomes from AI due to proxy variables, and mentions vendor due diligence. The article also touches on regulatory compliance, the need for bias audits, notification requirements, and alternative processes for automated tools, as well as responsible personalization and data use in tailored experiences.",
+          "title": "The butterfly effect: algorithmic bias and the search for talent",
+          "url": "https://legal500.com/gc-magazine/feature/the-butterfly-effect-algorithmic-bias-and-the-search-for-talent"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 11,
+      "findings": "Zoetis highlights a commitment to a \"Responsible AI plan\" and understanding AI product development, demonstrating a structured approach to governance. Published materials mention the establishment of an AI governance structure and an AI leadership goal. Additionally, vendor due diligence and regulatory compliance are referenced.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It highlights Zoetis's commitment to a \"Responsible AI plan\" and understanding AI product development, demonstrating a structured approach to governance. The article also emphasizes the necessity of continuous human oversight by veterinary experts at every step and the importance of understanding AI training data origins, directly supporting the oversight and transparency pillars respectively.",
+          "title": "AI in Veterinary Medicine: Let's Talk About Responsible AI - Part One",
+          "url": "https://goodnewsforpets.com/ai-in-veterinary-medicine-lets-talk-about-responsible-ai-part-one"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This article, \"The butterfly effect: algorithmic bias and the search for talent,\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It highlights the duty of legal counsel to vet automated hiring programs, discusses the risk of discriminatory outcomes from AI due to proxy variables, and mentions vendor due diligence. The article also touches on regulatory compliance, the need for bias audits, notification requirements, and alternative processes for automated tools, as well as responsible personalization and data use in tailored experiences.",
+          "title": "The butterfly effect: algorithmic bias and the search for talent",
+          "url": "https://legal500.com/gc-magazine/feature/the-butterfly-effect-algorithmic-bias-and-the-search-for-talent"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This Zoetis blog post provides evidence for **governance** and **transparency**. It supports governance by mentioning the establishment of an AI governance structure and an AI leadership goal, while transparency is evidenced by the description of AI capabilities in a new system and a generative AI project, implying human oversight and evaluation of AI outputs.",
+          "title": "Transforming Drug Discovery and Development with Generative AI (Zoetis Blog)",
+          "url": "https://zoetis.com/news-and-insights/blog/transforming-drug-discovery-and-development-with-generative-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "oversight": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 5,
+      "findings": "An article emphasizes the necessity of continuous human oversight by veterinary experts at every step. It also highlights the duty of legal counsel to vet automated hiring programs.",
+      "max_score": 2,
+      "path_to_improvement": "Publish override mechanisms, escalation processes, or appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It highlights Zoetis's commitment to a \"Responsible AI plan\" and understanding AI product development, demonstrating a structured approach to governance. The article also emphasizes the necessity of continuous human oversight by veterinary experts at every step and the importance of understanding AI training data origins, directly supporting the oversight and transparency pillars respectively.",
+          "title": "AI in Veterinary Medicine: Let's Talk About Responsible AI - Part One",
+          "url": "https://goodnewsforpets.com/ai-in-veterinary-medicine-lets-talk-about-responsible-ai-part-one"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This article, \"The butterfly effect: algorithmic bias and the search for talent,\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It highlights the duty of legal counsel to vet automated hiring programs, discusses the risk of discriminatory outcomes from AI due to proxy variables, and mentions vendor due diligence. The article also touches on regulatory compliance, the need for bias audits, notification requirements, and alternative processes for automated tools, as well as responsible personalization and data use in tailored experiences.",
+          "title": "The butterfly effect: algorithmic bias and the search for talent",
+          "url": "https://legal500.com/gc-magazine/feature/the-butterfly-effect-algorithmic-bias-and-the-search-for-talent"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This Zoetis blog post provides evidence for **governance** and **transparency**. It supports governance by mentioning the establishment of an AI governance structure and an AI leadership goal, while transparency is evidenced by the description of AI capabilities in a new system and a generative AI project, implying human oversight and evaluation of AI outputs.",
+          "title": "Transforming Drug Discovery and Development with Generative AI (Zoetis Blog)",
+          "url": "https://zoetis.com/news-and-insights/blog/transforming-drug-discovery-and-development-with-generative-ai"
+        }
+      ],
+      "score": 1,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 3,
+      "findings": "A press release mentions the use of tracking cookies for profiling and targeted advertising, along with personal information handling and opt-out rights. An article also references responsible personalization and data use in tailored experiences.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This article, \"The butterfly effect: algorithmic bias and the search for talent,\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It highlights the duty of legal counsel to vet automated hiring programs, discusses the risk of discriminatory outcomes from AI due to proxy variables, and mentions vendor due diligence. The article also touches on regulatory compliance, the need for bias audits, notification requirements, and alternative processes for automated tools, as well as responsible personalization and data use in tailored experiences.",
+          "title": "The butterfly effect: algorithmic bias and the search for talent",
+          "url": "https://legal500.com/gc-magazine/feature/the-butterfly-effect-algorithmic-bias-and-the-search-for-talent"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** pillar by describing the AI's identification and classification capabilities, and for the **privacy** pillar by mentioning the use of tracking cookies for profiling and targeted advertising, as well as personal information handling and opt-out rights. While the press release highlights the AI's functionality and market positioning, it lacks specific details on the AI systems, execution, or policy elements.",
+          "title": "Zoetis Launches AI Masses, the New AI-Powered Cytologic Capability for Vetscan Imagyst",
+          "url": "https://news.zoetis.com/press-releases/press-release-details/2025/Zoetis-Launches-AI-Masses-the-New-AI-Powered-Cytologic-Capability-for-Vetscan-Imagyst-2025-YhrB1kjmLg/default.aspx"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 12,
+      "findings": "Zoetis's published materials describe the capabilities of its AI systems, including identification, classification, and specific diagnostic outputs like estimated platelet counts. These materials outline how AI assists veterinary decision-making and imply human oversight and evaluation of AI outputs. Additionally, documentation describes the importance of understanding AI training data origins and references notification requirements for automated tools.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_003",
+          "source_tier": "third_party",
+          "summary": "This article provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It highlights Zoetis's commitment to a \"Responsible AI plan\" and understanding AI product development, demonstrating a structured approach to governance. The article also emphasizes the necessity of continuous human oversight by veterinary experts at every step and the importance of understanding AI training data origins, directly supporting the oversight and transparency pillars respectively.",
+          "title": "AI in Veterinary Medicine: Let's Talk About Responsible AI - Part One",
+          "url": "https://goodnewsforpets.com/ai-in-veterinary-medicine-lets-talk-about-responsible-ai-part-one"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_006",
+          "source_tier": "third_party",
+          "summary": "This article, \"The butterfly effect: algorithmic bias and the search for talent,\" provides evidence for **external_accountability, fairness, governance, oversight, privacy, and transparency**. It highlights the duty of legal counsel to vet automated hiring programs, discusses the risk of discriminatory outcomes from AI due to proxy variables, and mentions vendor due diligence. The article also touches on regulatory compliance, the need for bias audits, notification requirements, and alternative processes for automated tools, as well as responsible personalization and data use in tailored experiences.",
+          "title": "The butterfly effect: algorithmic bias and the search for talent",
+          "url": "https://legal500.com/gc-magazine/feature/the-butterfly-effect-algorithmic-bias-and-the-search-for-talent"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This Zoetis blog post provides evidence for **governance** and **transparency**. It supports governance by mentioning the establishment of an AI governance structure and an AI leadership goal, while transparency is evidenced by the description of AI capabilities in a new system and a generative AI project, implying human oversight and evaluation of AI outputs.",
+          "title": "Transforming Drug Discovery and Development with Generative AI (Zoetis Blog)",
+          "url": "https://zoetis.com/news-and-insights/blog/transforming-drug-discovery-and-development-with-generative-ai"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** pillar by describing the AI's identification and classification capabilities, and for the **privacy** pillar by mentioning the use of tracking cookies for profiling and targeted advertising, as well as personal information handling and opt-out rights. While the press release highlights the AI's functionality and market positioning, it lacks specific details on the AI systems, execution, or policy elements.",
+          "title": "Zoetis Launches AI Masses, the New AI-Powered Cytologic Capability for Vetscan Imagyst",
+          "url": "https://news.zoetis.com/press-releases/press-release-details/2025/Zoetis-Launches-AI-Masses-the-New-AI-Powered-Cytologic-Capability-for-Vetscan-Imagyst-2025-YhrB1kjmLg/default.aspx"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This press release provides evidence for the **transparency** pillar of responsible AI. It details the specific diagnostic outputs of the AI-powered blood smear analysis, such as estimated platelet counts and white blood cell differentiators, clearly outlining the system's capabilities and how it assists veterinary decision-making. This explicit description of the AI's function and use case enhances transparency regarding its role in diagnostics.",
+          "title": "Zoetis Adds Artificial Intelligence Blood Smear Testing To Vetscan Imagyst™",
+          "url": "https://news.zoetis.com/press-releases/press-release-details/2022/Zoetis-Adds-Artificial-Intelligence-Blood-Smear-Testing-to-Vetscan-Imagyst/default.aspx"
+        }
+      ],
+      "score": 1,
+      "source_count": 5
+    }
+  },
+  "published_at": "2026-03-19T17:30:34Z",
+  "run_id": "20260309_193934_37bd",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Explainability"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Drawing from 14 publicly available sources, Zoetis' published materials address 6 of 7 evaluated responsible AI pillars at the policy level. Transparency disclosures describe the importance of understanding AI training data origins, while fairness materials discuss the risk of discriminatory outcomes from AI due to proxy variables. Oversight documentation emphasizes the necessity of continuous human oversight by veterinary experts at every step, and privacy materials reference responsible personalization and data use in tailored experiences. No qualifying public evidence was found for explainability.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 6,
+    "pillars_with_evidence": 6,
+    "pillars_without_evidence": 1,
+    "total_evidence_items": 32,
+    "total_sources_used": 5
+  }
+}

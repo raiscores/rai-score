@@ -1,0 +1,151 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 21.4,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 3
+  },
+  "company": "Pacific Life",
+  "company_slug": "pacific-life",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 1,
+      "OPERATIONAL": 0,
+      "POLICY": 2
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 2,
+      "findings": "A case study references an AI capability enhancement project, which implies the existence of governance over AI development. Additionally, the 2024 Annual Report suggests the company is developing policies and strategies for AI governance, described as \"laying the foundation\" and \"initial investment.\"",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_005",
+          "source_tier": "third_party",
+          "summary": "This Slalom case study on Pacific Life's data modernization project provides evidence for the **governance** pillar of responsible AI. The case study mentions an AI capability enhancement project, which implies the existence of governance over AI development, although specific execution details for operational or policy aspects are not provided.",
+          "title": "Slalom Case Study: Pacific Life",
+          "url": "https://slalom.com/case-studies/pacific-life-moves-historical-data-to-the-cloud"
+        },
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "The \"Pacific Life 2024 Annual Report\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report's mention of AI tools and their focus on transparency, alongside language indicating \"laying the foundation\" and \"initial investment,\" suggests the company is developing policies and strategies for AI governance.",
+          "title": "Pacific Life 2024 Annual Report",
+          "url": "https://pacificlife.com/crp/public/financials/2024_Annual_Report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 1,
+      "findings": "The company's online privacy policy mentions analytics services and provides opt-out options for tracking. This indicates the presence of privacy controls related to automated data use and profiling.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_008",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy provides evidence for the **privacy** pillar. It supports this by mentioning analytics services and opt-out options for tracking, which indicates privacy controls related to automated data use and profiling.",
+          "title": "Pacific Life Online Privacy Policy",
+          "url": "https://pacificlife.com/home/privacy-and-other-policies/online-privacy-policy.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 1,
+      "findings": "The company's 2024 Annual Report mentions AI tools and their focus on transparency. This report indicates the company is developing policies and strategies for AI governance.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "other",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "The \"Pacific Life 2024 Annual Report\" provides evidence for the **governance** and **transparency** pillars of responsible AI. The report's mention of AI tools and their focus on transparency, alongside language indicating \"laying the foundation\" and \"initial investment,\" suggests the company is developing policies and strategies for AI governance.",
+          "title": "Pacific Life 2024 Annual Report",
+          "url": "https://pacificlife.com/crp/public/financials/2024_Annual_Report.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-03-19T17:22:47Z",
+  "run_id": "20260309_190008_3967",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Pacific Life's 2024 Annual Report references AI tools with a focus on transparency, one of three responsible AI pillars with documented evidence. Additionally, the online privacy policy mentions analytics services and opt-out options for tracking, while published materials suggest the development of policies and strategies for AI governance. These findings are based on a review of 10 publicly available sources. No qualifying public evidence was found for fairness, explainability, and 2 additional pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 3,
+    "total_sources_used": 3
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 21.4,
+    "star_display": "★",
+    "star_rating": 1,
+    "total_score": 3
+  },
+  "company": "Builders FirstSource",
+  "company_slug": "builders-firstsource",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 1,
+      "OPERATIONAL": 0,
+      "POLICY": 5
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": null,
+      "display_name": "Explainability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document how explanations are provided to users affected by AI decisions.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "external_accountability": {
+      "best_evidence_type": null,
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Obtain external validation of AI practices or require vendor certifications.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "fairness": {
+      "best_evidence_type": null,
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document bias testing procedures or vendor AI fairness requirements.",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "governance": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 4,
+      "findings": "Sources describe documented governance practices in 1 source(s). Additional documentation references related practices.",
+      "max_score": 2,
+      "path_to_improvement": "Name an AI governance body with defined mandate covering all AI use.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy document provides evidence for the pillars of governance, privacy, and transparency. It supports the privacy pillar by describing the use of AI/automated profiling for interest-based advertising and data collection, and by mentioning adherence to vendor terms for AI services. Transparency is supported by the policy's commitment to informing users about the use of automated decision-making technology.",
+          "title": "Online Privacy Policy",
+          "url": "https://bldr.com/privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "oversight": {
+      "best_evidence_type": null,
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 0,
+      "findings": null,
+      "max_score": 2,
+      "path_to_improvement": "Document human review processes for AI-assisted decisions (built or vendor AI).",
+      "relevant_sources": [],
+      "score": 0,
+      "source_count": 0
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 6,
+      "findings": "The company's online privacy policy describes the use of AI/automated profiling for interest-based advertising and data collection. This policy also mentions adherence to vendor terms for AI services, supporting privacy practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy document provides evidence for the pillars of governance, privacy, and transparency. It supports the privacy pillar by describing the use of AI/automated profiling for interest-based advertising and data collection, and by mentioning adherence to vendor terms for AI services. Transparency is supported by the policy's commitment to informing users about the use of automated decision-making technology.",
+          "title": "Online Privacy Policy",
+          "url": "https://bldr.com/privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    },
+    "transparency": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Transparency",
+      "evidence_count": 1,
+      "findings": "The company's online privacy policy states a commitment to informing users about the use of automated decision-making technology. This policy serves as documentation for transparency practices.",
+      "max_score": 2,
+      "path_to_improvement": "Publish detailed documentation (model cards, system specs) for AI systems deployed.",
+      "relevant_sources": [
+        {
+          "artifact_type": "privacy_policy",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This company-owned privacy policy document provides evidence for the pillars of governance, privacy, and transparency. It supports the privacy pillar by describing the use of AI/automated profiling for interest-based advertising and data collection, and by mentioning adherence to vendor terms for AI services. Transparency is supported by the policy's commitment to informing users about the use of automated decision-making technology.",
+          "title": "Online Privacy Policy",
+          "url": "https://bldr.com/privacy-policy"
+        }
+      ],
+      "score": 1,
+      "source_count": 1
+    }
+  },
+  "published_at": "2026-03-19T17:04:07Z",
+  "run_id": "20260309_173458_915c",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [
+      "Fairness & Bias Mitigation",
+      "Explainability",
+      "Human Oversight & Accountability",
+      "Public Commitments & External Audits"
+    ],
+    "key_strengths": [],
+    "overall_findings": "Drawing from 8 publicly available sources, Builders FirstSource's published materials address 3 of 7 evaluated responsible AI pillars. Transparency and privacy are addressed at the policy level, with the online privacy policy stating a commitment to informing users about the use of automated decision-making technology and describing the use of AI/automated profiling for interest-based advertising and data collection. Additionally, documented governance practices are described in one source. No qualifying public evidence was found for fairness, explainability, and 2 additional pillars.",
+    "pillars_operational": 0,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 3,
+    "pillars_without_evidence": 4,
+    "total_evidence_items": 6,
+    "total_sources_used": 1
+  }
+}
