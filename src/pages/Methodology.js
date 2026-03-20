@@ -36,7 +36,7 @@ function Methodology() {
       const ids = anchorLinks.map(a => a.id);
       for (let i = ids.length - 1; i >= 0; i--) {
         const el = document.getElementById(ids[i]);
-        if (el && el.getBoundingClientRect().top <= 140) {
+        if (el && el.getBoundingClientRect().top <= 150) {
           setActiveAnchor(ids[i]);
           return;
         }
@@ -92,7 +92,7 @@ function Methodology() {
       </section>
 
       {/* Anchor Navigation */}
-      <nav className="sticky top-[64px] z-30 bg-white/80 backdrop-blur border-b border-gray-200">
+      <nav className="sticky top-[89px] z-30 bg-white/80 backdrop-blur border-b border-gray-200">
         <Container size="wide">
           <div className="max-w-5xl mx-auto flex gap-6 overflow-x-auto scrollbar-hide py-3">
             {anchorLinks.map((link) => (
@@ -116,7 +116,7 @@ function Methodology() {
       <section
         id="framework"
         data-reveal
-        className="py-12 md:py-16 bg-white scroll-mt-[120px]"
+        className="py-12 md:py-16 bg-white scroll-mt-[140px]"
         style={revealStyle('framework')}
       >
         <Container size="wide">
@@ -165,7 +165,7 @@ function Methodology() {
       <section
         id="scoring"
         data-reveal
-        className="py-12 md:py-16 bg-slate-50 scroll-mt-[120px]"
+        className="py-12 md:py-16 bg-slate-50 scroll-mt-[140px]"
         style={revealStyle('scoring')}
       >
         <Container size="wide">
@@ -267,7 +267,7 @@ function Methodology() {
       <section
         id="pillars"
         data-reveal
-        className="py-12 md:py-16 bg-white scroll-mt-[120px]"
+        className="py-12 md:py-16 bg-white scroll-mt-[140px]"
         style={revealStyle('pillars')}
       >
         <Container size="wide">
@@ -325,7 +325,7 @@ function Methodology() {
       <section
         id="sources"
         data-reveal
-        className="py-12 md:py-16 bg-slate-50 scroll-mt-[120px]"
+        className="py-12 md:py-16 bg-slate-50 scroll-mt-[140px]"
         style={revealStyle('sources')}
       >
         <Container size="wide">
@@ -390,7 +390,7 @@ function Methodology() {
       <section
         id="limitations"
         data-reveal
-        className="py-12 md:py-16 bg-white scroll-mt-[120px]"
+        className="py-12 md:py-16 bg-white scroll-mt-[140px]"
         style={revealStyle('limitations')}
       >
         <Container size="wide">
