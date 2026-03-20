@@ -1,483 +1,453 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { Eye, Scale, Users, Shield, Building, CheckCircle,
-         Target, Globe, AlertCircle, XCircle, TrendingUp, Calendar,
-         FileText, Brain, Award, ArrowRight, Search, BarChart3 } from 'lucide-react';
-
+import { ArrowRight, BarChart3, Info } from 'lucide-react';
+import Container from '../components/Container';
+import {
+  frameworkCards, scoringTiers, starRatings, gradeRanges,
+  pillars, sourceTiers, processSteps, limitations, anchorLinks
+} from '../data/methodologyContent';
 
 function Methodology() {
-  const pillars = [
-    {
-      id: 'transparency',
-      title: 'Transparency',
-      icon: Eye,
-      color: '#2563eb',
-      description: 'Public disclosure of AI systems, capabilities, limitations, and decision-making processes. Includes model cards, system documentation, and algorithmic transparency reports.'
-    },
-    {
-      id: 'fairness',
-      title: 'Fairness & Bias Mitigation',
-      icon: Scale,
-      color: '#0ea5e9',
-      description: 'Systematic approaches to identify, measure, and mitigate bias in AI systems. Includes bias audits, fairness metrics, diverse testing practices, and corrective measures.'
-    },
-    {
-      id: 'explainability',
-      title: 'Explainability',
-      icon: Brain,
-      color: '#f59e0b',
-      description: 'Ability to explain AI decision-making processes in understandable terms. Includes interpretability tools, explanation interfaces, and decision rationale documentation.'
-    },
-    {
-      id: 'oversight',
-      title: 'Human Oversight & Accountability',
-      icon: Users,
-      color: '#10b981',
-      description: 'Human-in-the-loop systems, accountability structures, and oversight mechanisms for AI deployment. Includes governance bodies, escalation procedures, and responsible deployment practices.'
-    },
-    {
-      id: 'privacy',
-      title: 'Privacy & Data Protection',
-      icon: Shield,
-      color: '#8b5cf6',
-      description: 'Data protection practices, user privacy controls, and privacy-by-design principles. Includes data minimization, consent mechanisms, and privacy impact assessments.'
-    },
-    {
-      id: 'governance',
-      title: 'Governance & Internal Controls',
-      icon: Building,
-      color: '#6b7280',
-      description: 'Internal governance structures, ethics committees, risk management, and compliance frameworks for AI. Includes policies, training, audit processes, and accountability mechanisms.'
-    },
-    {
-      id: 'external_accountability',
-      title: 'Public Commitments & External Audits',
-      icon: Award,
-      color: '#ef4444',
-      description: 'Public commitments to responsible AI principles and third-party validation. Includes certifications, external audits, industry partnerships, and regulatory engagement.'
-    }
-  ];
+  const [isVisible, setIsVisible] = useState({});
+  const [activeAnchor, setActiveAnchor] = useState('');
 
-  const scoringTiers = [
-    {
-      score: '2/2',
-      title: 'Operational Evidence',
-      color: '#10b981',
-      bgColor: '#f0fdf4',
-      description: 'Concrete, observable accountability mechanisms. Processes that run, controls executed, named bodies with authority and cadence.'
-    },
-    {
-      score: '1/2',
-      title: 'Policy Evidence',
-      color: '#f59e0b',
-      bgColor: '#fffbeb',
-      description: 'Formal documentation describing intent, structure, or expectations. Policies, principles, governance frameworks without operational execution described.'
-    },
-    {
-      score: '0/2',
-      title: 'No Evidence',
-      color: '#ef4444',
-      bgColor: '#fef2f2',
-      description: 'No public evidence found, or only narrative and aspirational content such as values statements or marketing language.'
-    }
-  ];
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsVisible(prev => ({ ...prev, [entry.target.id]: true }));
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    const sections = document.querySelectorAll('[data-reveal]');
+    sections.forEach((section) => observer.observe(section));
+
+    return () => observer.disconnect();
+  }, []);
+
+  // Update active anchor on scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      const ids = anchorLinks.map(a => a.id);
+      for (let i = ids.length - 1; i >= 0; i--) {
+        const el = document.getElementById(ids[i]);
+        if (el && el.getBoundingClientRect().top <= 140) {
+          setActiveAnchor(ids[i]);
+          return;
+        }
+      }
+      setActiveAnchor('');
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const revealStyle = (id) => ({
+    opacity: isVisible[id] ? 1 : 0,
+    transform: isVisible[id] ? 'translateY(0)' : 'translateY(40px)',
+    transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
+  });
 
   return (
-    <div className="min-h-screen bg-white font-sans">
-
-      {/* Page Title */}
+    <div className="min-h-screen bg-white">
       <Helmet>
-        <title>RAI Scores: Methodology</title>
+        <title>Methodology - RAI Scores</title>
+        <meta name="description" content="How RAI Scores evaluates Fortune 500 companies using a 7-pillar, 14-point evidence-based framework." />
       </Helmet>
 
-      {/* Hero Section */}
-      <div id="hero" className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-20 w-32 h-32 bg-blue-500 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute top-40 right-32 w-24 h-24 bg-purple-500 rounded-full blur-2xl animate-pulse delay-1000"></div>
-          <div className="absolute bottom-32 left-1/3 w-40 h-40 bg-amber-500 rounded-full blur-3xl animate-pulse delay-2000"></div>
-        </div>
-
-        <div className="relative max-w-7xl mx-auto px-6 py-20 lg:py-28">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Responsible AI <span className="text-blue-400">Methodology</span>
+      {/* Hero */}
+      <section
+        className="relative py-16 md:py-20"
+        style={{
+          background: 'linear-gradient(135deg, #0a0f1c 0%, #1a202c 25%, #2d3748 100%)'
+        }}
+      >
+        <Container size="wide">
+          <div className="max-w-[800px] mx-auto text-center">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight animate-slideInUp">
+              Evaluation Methodology
             </h1>
-            <p className="text-xl md:text-2xl text-slate-300 max-w-4xl mx-auto mb-8 leading-relaxed">
-              Our evidence-type scoring framework evaluates AI companies across seven critical pillars of responsible AI, classifying public evidence as Operational, Policy, or Narrative to produce deterministic, reproducible assessments.
+            <p
+              className="text-lg md:text-xl text-white/80 max-w-[640px] mx-auto mb-6 leading-relaxed animate-slideInUp"
+              style={{ animationDelay: '0.1s' }}
+            >
+              How RAI Scores evaluates Fortune 500 companies using a 7-pillar,
+              14-point evidence-based framework.
             </p>
-            <Link
-              to="/companies" className="inline-flex px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors items-center justify-center gap-2">
-              View Company Scores <ArrowRight className="w-5 h-5" />
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* Framework Overview */}
-      <div id="framework" className="py-20 bg-slate-50">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              7-Pillar Evaluation Framework
-            </h2>
-            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Our framework evaluates AI companies across seven interconnected pillars of responsible AI, providing a holistic view of their practices and commitments.
+            <p
+              className="text-sm text-white/50 animate-slideInUp"
+              style={{ animationDelay: '0.2s' }}
+            >
+              v1.0 &middot; Last updated February 2026
             </p>
           </div>
+        </Container>
+        <div className="absolute bottom-0 left-0 right-0 h-px bg-slate-50" />
+      </section>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <FileText className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-2">Evidence-Based</h3>
-              <p className="text-slate-600">Grounded in publicly available documentation and verifiable information</p>
-            </div>
-            <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Globe className="w-8 h-8 text-green-600" />
-              </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-2">Transparent</h3>
-              <p className="text-slate-600">Open methodology with clear criteria and scoring rationale</p>
-            </div>
-            <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Target className="w-8 h-8 text-purple-600" />
-              </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-2">Deterministic</h3>
-              <p className="text-slate-600">Reproducible scores computed from evidence classifications, not subjective judgment</p>
-            </div>
-          </div>
-
-          {/* Key Principle */}
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 text-center">
-            <p className="text-blue-900 font-medium text-lg">
-              AI extracts verbatim evidence from public sources. All scoring is deterministic — no AI judgment, no subjectivity. If evidence is not publicly documented and verifiable, it does not exist for scoring purposes.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Scoring System */}
-      <div id="scoring" className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              Evidence-Type Scoring System
-            </h2>
-            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Each pillar is scored 0–2 based on the strongest type of public evidence found, distinguishing between operational implementation and stated policy.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            {scoringTiers.map((tier, index) => (
-              <div key={index} className="relative">
-                <div className="h-full p-8 rounded-xl border-2 border-slate-200 bg-white hover:shadow-lg transition-shadow">
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-2xl font-bold" style={{ color: tier.color }}>
-                      {tier.score}
-                    </span>
-                    <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ backgroundColor: tier.bgColor }}>
-                      {index === 0 && <CheckCircle className="w-6 h-6" style={{ color: tier.color }} />}
-                      {index === 1 && <AlertCircle className="w-6 h-6" style={{ color: tier.color }} />}
-                      {index === 2 && <XCircle className="w-6 h-6" style={{ color: tier.color }} />}
-                    </div>
-                  </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{tier.title}</h3>
-                  <p className="text-slate-600 leading-relaxed">{tier.description}</p>
-                </div>
-              </div>
+      {/* Anchor Navigation */}
+      <nav className="sticky top-[64px] z-30 bg-white/80 backdrop-blur border-b border-gray-200">
+        <Container size="wide">
+          <div className="max-w-5xl mx-auto flex gap-6 overflow-x-auto scrollbar-hide py-3">
+            {anchorLinks.map((link) => (
+              <a
+                key={link.id}
+                href={`#${link.id}`}
+                className={`text-sm font-medium whitespace-nowrap transition-colors ${
+                  activeAnchor === link.id
+                    ? 'text-blue-600'
+                    : 'text-slate-500 hover:text-blue-600'
+                }`}
+              >
+                {link.label}
+              </a>
             ))}
           </div>
+        </Container>
+      </nav>
 
-          {/* Overall Score Calculation */}
-          <div className="bg-slate-50 rounded-xl p-8 text-center mb-8">
-            <div className="flex items-center justify-center mb-4">
-              <BarChart3 className="w-8 h-8 text-blue-600 mr-3" />
-              <span className="text-2xl font-bold text-slate-900">Overall Score Calculation</span>
+      {/* Framework Overview */}
+      <section
+        id="framework"
+        data-reveal
+        className="py-12 md:py-16 bg-white scroll-mt-[120px]"
+        style={revealStyle('framework')}
+      >
+        <Container size="wide">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-10">
+              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
+                Framework Overview
+              </h2>
+              <p className="text-slate-600 max-w-3xl mx-auto">
+                RAI Scores evaluates Fortune 500 companies across 15 industries using a
+                consistent, evidence-based framework. Every assessment follows the same
+                process and criteria.
+              </p>
             </div>
-            <p className="text-lg text-slate-600 mb-4">
-              Total score is the sum of all seven pillar scores
-            </p>
-            <div className="inline-block bg-blue-100 text-blue-800 px-6 py-3 rounded-lg font-semibold">
-              Maximum Score: 14 points (2 points × 7 pillars)
-            </div>
-          </div>
 
-          {/* Star Ratings & Letter Grades */}
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-slate-50 rounded-xl p-6">
-              <h4 className="text-lg font-semibold text-slate-900 mb-4">Star Ratings</h4>
-              <div className="space-y-3">
-                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
-                  <span className="text-amber-600 font-medium">★★★★★</span>
-                  <span className="text-slate-600 text-sm">13–14 points</span>
-                </div>
-                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
-                  <span className="text-amber-600 font-medium">★★★★</span>
-                  <span className="text-slate-600 text-sm">10–12 points</span>
-                </div>
-                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
-                  <span className="text-amber-600 font-medium">★★★</span>
-                  <span className="text-slate-600 text-sm">7–9 points</span>
-                </div>
-                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
-                  <span className="text-amber-600 font-medium">★★</span>
-                  <span className="text-slate-600 text-sm">4–6 points</span>
-                </div>
-                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
-                  <span className="text-amber-600 font-medium">★</span>
-                  <span className="text-slate-600 text-sm">0–3 points</span>
-                </div>
-              </div>
-            </div>
-            <div className="bg-slate-50 rounded-xl p-6">
-              <h4 className="text-lg font-semibold text-slate-900 mb-4">Letter Grades</h4>
-              <div className="space-y-3">
-                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
-                  <span className="text-emerald-700 font-semibold">A-range</span>
-                  <span className="text-slate-600 text-sm">12–14 points (≥85%)</span>
-                </div>
-                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
-                  <span className="text-blue-700 font-semibold">B-range</span>
-                  <span className="text-slate-600 text-sm">9–11 points (64–79%)</span>
-                </div>
-                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
-                  <span className="text-amber-700 font-semibold">C-range</span>
-                  <span className="text-slate-600 text-sm">7–8 points (50–57%)</span>
-                </div>
-                <div className="flex items-center justify-between bg-white rounded-lg px-4 py-2">
-                  <span className="text-red-700 font-semibold">D</span>
-                  <span className="text-slate-600 text-sm">0–6 points (&lt;50%)</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Seven Pillars of Responsible AI */}
-      <div id="pillars" className="py-20 bg-slate-50">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              Seven Pillars of Responsible AI
-            </h2>
-            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Our framework evaluates companies across these critical areas, each representing a fundamental aspect of responsible AI development and deployment.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {pillars.map((pillar) => {
-              const Icon = pillar.icon;
-              return (
-                <div
-                  key={pillar.id}
-                  className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1"
-                >
-                  <div className="flex items-center mb-6">
-                    <div
-                      className="w-12 h-12 rounded-lg flex items-center justify-center mr-4"
-                      style={{ backgroundColor: `${pillar.color}20` }}
-                    >
-                      <Icon className="w-6 h-6" style={{ color: pillar.color }} />
+            <div className="grid md:grid-cols-3 gap-5 mb-8">
+              {frameworkCards.map((card, index) => {
+                const Icon = card.icon;
+                return (
+                  <div key={index} className="text-center bg-white rounded-xl p-5 border border-gray-200">
+                    <div className="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                      <Icon className="w-5 h-5 text-slate-600" />
                     </div>
-                    <h3 className="text-xl font-bold text-slate-900">{pillar.title}</h3>
+                    <h3 className="font-semibold text-slate-900 mb-2">{card.title}</h3>
+                    <p className="text-sm text-slate-600">{card.description}</p>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">{pillar.description}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-
-      {/* Source Tiers & Evaluation Process */}
-      <div id="research" className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              Source Tiers & Evaluation Process
-            </h2>
-            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Evidence is gathered from public sources, validated by tier, and scored deterministically against each pillar's criteria.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-12 mb-16">
-            <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">Source Tiers</h3>
-              <div className="space-y-4">
-                <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Globe className="w-4 h-4 text-blue-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900">Company-Owned</h4>
-                    <p className="text-slate-600">Company's own websites, documentation, and publications — full credit up to Operational (2/2)</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Shield className="w-4 h-4 text-green-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900">Authority</h4>
-                    <p className="text-slate-600">Government, regulatory, and enforcement bodies — full credit up to Operational (2/2)</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <FileText className="w-4 h-4 text-amber-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900">Third-Party</h4>
-                    <p className="text-slate-600">News, research, and third-party publications — capped at Policy (1/2), cannot achieve Operational score</p>
-                  </div>
-                </div>
-              </div>
+                );
+              })}
             </div>
 
-            <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">Evaluation Process</h3>
-              <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
-                    1
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900">Source Collection & Validation</h4>
-                    <p className="text-slate-600">Public documentation gathered and validated across company-owned, regulatory, and third-party sources</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
-                    2
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900">Evidence Extraction & Classification</h4>
-                    <p className="text-slate-600">Evidence identified and classified by type (Operational, Policy, Narrative) against pillar criteria</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
-                    3
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900">Scoring & Assessment</h4>
-                    <p className="text-slate-600">Scores computed from evidence classifications, with source tier weighting applied</p>
-                  </div>
-                </div>
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+              <div className="flex items-start gap-3">
+                <Info className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+                <p className="text-blue-900 text-sm leading-relaxed">
+                  If evidence is not publicly documented and verifiable, it does not exist
+                  for scoring purposes. AI reads and classifies evidence. Humans do not
+                  assign scores.
+                </p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </Container>
+      </section>
+
+      {/* Scoring System */}
+      <section
+        id="scoring"
+        data-reveal
+        className="py-12 md:py-16 bg-slate-50 scroll-mt-[120px]"
+        style={revealStyle('scoring')}
+      >
+        <Container size="wide">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-10">
+              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
+                Evidence-Type Scoring
+              </h2>
+              <p className="text-slate-600 max-w-3xl mx-auto">
+                Each of the seven pillars is scored 0&ndash;2 based on the strongest type of
+                public evidence found. The distinction is between what a company says
+                and what a company demonstrably does.
+              </p>
+            </div>
+
+            {/* Evidence Tier Cards */}
+            <div className="grid md:grid-cols-3 gap-5 mb-8">
+              {scoringTiers.map((tier, index) => (
+                <div key={index} className={`rounded-xl p-5 border ${tier.borderClass} ${tier.bgClass}`}>
+                  <div className={`text-xl font-bold mb-2 ${tier.colorClass}`}>
+                    {tier.score}
+                  </div>
+                  <h3 className="font-semibold text-slate-900 mb-2">{tier.title}</h3>
+                  <p className="text-sm text-slate-600 leading-relaxed mb-3">{tier.description}</p>
+                  {tier.example && (
+                    <p className="text-xs text-slate-500 italic">{tier.example}</p>
+                  )}
+                  {tier.note && (
+                    <p className="text-xs text-slate-500">{tier.note}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+
+            {/* Best evidence wins */}
+            <div className="bg-white rounded-xl p-5 border border-gray-200 mb-8">
+              <h3 className="font-semibold text-slate-900 mb-2">Best evidence wins</h3>
+              <p className="text-sm text-slate-600 leading-relaxed mb-3">
+                Each pillar's score is determined by the strongest evidence type found
+                across all sources. If a company has both Policy and Operational evidence
+                for a pillar, the Operational evidence sets the score at 2/2.
+              </p>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Evidence from different source tiers is weighted differently &mdash; see
+                Source Tiers below. Notably, third-party sources (news, research) can
+                only contribute up to Policy level (1/2), even if they describe
+                operational practices. Only company-owned and authority sources can
+                achieve the full Operational score (2/2).
+              </p>
+            </div>
+
+            {/* Score Calculation */}
+            <div className="bg-slate-100 rounded-xl p-6 text-center mb-8">
+              <div className="flex items-center justify-center mb-3">
+                <BarChart3 className="w-6 h-6 text-blue-600 mr-2" />
+                <span className="text-lg font-bold text-slate-900">Overall Score Calculation</span>
+              </div>
+              <p className="text-sm text-slate-600 mb-3">
+                Total score = sum of all seven pillar scores
+              </p>
+              <div className="inline-block bg-blue-100 text-blue-800 px-5 py-2 rounded-lg font-semibold text-sm">
+                Maximum: 14 points (2 &times; 7 pillars)
+              </div>
+            </div>
+
+            {/* Star Ratings & Letter Grades */}
+            <div className="grid md:grid-cols-2 gap-5">
+              <div className="bg-white rounded-xl p-5 border border-gray-200">
+                <h4 className="font-semibold text-slate-900 mb-4">Star Ratings</h4>
+                <div className="space-y-2">
+                  {starRatings.map((item, index) => (
+                    <div key={index} className="flex items-center justify-between bg-slate-50 rounded-lg px-4 py-2">
+                      <span className="text-amber-600 font-medium">{item.stars}</span>
+                      <span className="text-slate-600 text-sm">{item.range}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="bg-white rounded-xl p-5 border border-gray-200">
+                <h4 className="font-semibold text-slate-900 mb-4">Letter Grades</h4>
+                <div className="space-y-2">
+                  {gradeRanges.map((item, index) => (
+                    <div key={index} className="flex items-center justify-between bg-slate-50 rounded-lg px-4 py-2">
+                      <div>
+                        <span className={`font-semibold ${item.colorClass}`}>{item.grade}</span>
+                        <span className="text-slate-400 text-xs ml-2">({item.variants})</span>
+                      </div>
+                      <span className="text-slate-600 text-sm">{item.threshold}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* Seven Pillars */}
+      <section
+        id="pillars"
+        data-reveal
+        className="py-12 md:py-16 bg-white scroll-mt-[120px]"
+        style={revealStyle('pillars')}
+      >
+        <Container size="wide">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-10">
+              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
+                Seven Pillars of Responsible AI
+              </h2>
+              <p className="text-slate-600 max-w-3xl mx-auto">
+                Each pillar represents a fundamental aspect of responsible AI development
+                and deployment. Companies are assessed across all seven.
+              </p>
+            </div>
+
+            {/* Row 1: 4 pillars */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-5">
+              {pillars.slice(0, 4).map((pillar) => {
+                const Icon = pillar.icon;
+                return (
+                  <div key={pillar.id} className="bg-white rounded-xl p-5 border border-gray-200">
+                    <div className="flex items-center mb-4">
+                      <div className="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center mr-3">
+                        <Icon className="w-5 h-5 text-slate-600" />
+                      </div>
+                      <h3 className="font-semibold text-slate-900 text-sm leading-tight">{pillar.title}</h3>
+                    </div>
+                    <p className="text-xs text-slate-600 leading-relaxed">{pillar.description}</p>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Row 2: 3 pillars centered */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:max-w-[75%] lg:mx-auto">
+              {pillars.slice(4).map((pillar) => {
+                const Icon = pillar.icon;
+                return (
+                  <div key={pillar.id} className="bg-white rounded-xl p-5 border border-gray-200">
+                    <div className="flex items-center mb-4">
+                      <div className="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center mr-3">
+                        <Icon className="w-5 h-5 text-slate-600" />
+                      </div>
+                      <h3 className="font-semibold text-slate-900 text-sm leading-tight">{pillar.title}</h3>
+                    </div>
+                    <p className="text-xs text-slate-600 leading-relaxed">{pillar.description}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* Source Tiers & Process */}
+      <section
+        id="sources"
+        data-reveal
+        className="py-12 md:py-16 bg-slate-50 scroll-mt-[120px]"
+        style={revealStyle('sources')}
+      >
+        <Container size="wide">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-10">
+              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
+                Source Tiers & Evaluation Process
+              </h2>
+              <p className="text-slate-600 max-w-3xl mx-auto">
+                Not all sources carry equal weight. Evidence is gathered from public
+                sources, classified by tier, and scored deterministically against each
+                pillar's criteria.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Source Tiers */}
+              <div>
+                <h3 className="text-lg font-bold text-slate-900 mb-5">Source Tiers</h3>
+                <div className="space-y-5">
+                  {sourceTiers.map((tier, index) => {
+                    const Icon = tier.icon;
+                    return (
+                      <div key={index} className="flex items-start gap-3">
+                        <div className={`w-8 h-8 ${tier.iconBgClass} rounded-full flex items-center justify-center flex-shrink-0`}>
+                          <Icon className={`w-4 h-4 ${tier.iconColorClass}`} />
+                        </div>
+                        <div>
+                          <h4 className="font-semibold text-slate-900">{tier.title}</h4>
+                          <p className="text-xs text-blue-600 font-medium mb-1">{tier.credit}</p>
+                          <p className="text-sm text-slate-600 leading-relaxed">{tier.description}</p>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Evaluation Process */}
+              <div>
+                <h3 className="text-lg font-bold text-slate-900 mb-5">Evaluation Process</h3>
+                <div className="space-y-5">
+                  {processSteps.map((step, index) => (
+                    <div key={index} className="flex items-start gap-3">
+                      <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                        {index + 1}
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-slate-900">{step.title}</h4>
+                        <p className="text-sm text-slate-600 leading-relaxed">{step.description}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
 
       {/* Limitations */}
-      <div id="limitations" className="py-20 bg-slate-50">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              Limitations & Transparency
-            </h2>
-            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              We believe in full transparency about our methodology's current limitations and our plans for continuous improvement.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-xl p-8 shadow-sm">
-              <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center">
-                <AlertCircle className="w-6 h-6 text-amber-500 mr-3" />
-                Current Limitations
-              </h3>
-              <ul className="space-y-3 text-slate-600">
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Based solely on publicly available information</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Three-tier evidence classification may not capture nuanced gradations within each level</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Cannot assess actual implementation versus stated policies</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Point-in-time assessment based on available documentation</span>
-                </li>
-              </ul>
+      <section
+        id="limitations"
+        data-reveal
+        className="py-12 md:py-16 bg-white scroll-mt-[120px]"
+        style={revealStyle('limitations')}
+      >
+        <Container size="wide">
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-8">
+              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
+                Limitations
+              </h2>
+              <p className="text-slate-600">
+                We publish our limitations because transparency about what scores cannot
+                tell you is as important as the scores themselves.
+              </p>
             </div>
 
-            <div className="bg-white rounded-xl p-8 shadow-sm">
-              <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center">
-                <TrendingUp className="w-6 h-6 text-green-500 mr-3" />
-                Planned Enhancements
-              </h3>
-              <ul className="space-y-3 text-slate-600">
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Sub-pillar scoring for more granular assessment within each pillar</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Continuous monitoring and real-time updates</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Industry-specific evaluation criteria and benchmarks</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Integration with third-party audit reports</span>
-                </li>
-              </ul>
+            <div className="space-y-4 mb-8">
+              {limitations.map((item, index) => (
+                <div key={index} className="flex items-start gap-3">
+                  <div className="w-5 h-5 bg-slate-200 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-xs font-semibold text-slate-500">{index + 1}</span>
+                  </div>
+                  <p className="text-sm text-slate-600 leading-relaxed">{item}</p>
+                </div>
+              ))}
             </div>
-          </div>
 
-          <div className="mt-12 bg-white rounded-xl p-8 shadow-sm text-center">
-            <div className="flex items-center justify-center mb-4">
-              <Calendar className="w-8 h-8 text-blue-600 mr-3" />
-              <span className="text-2xl font-bold text-slate-900">Update Schedule</span>
-            </div>
-            <p className="text-lg text-slate-600 mb-4">
-              Scores are updated quarterly, with methodology revisions published annually
-            </p>
-            <p className="text-slate-500">
-              Current methodology version: 1.0 | Last updated: February 2026
+            <p className="text-center text-sm text-slate-400">
+              Methodology v1.0 &middot; Assessments published February 2026
             </p>
           </div>
-        </div>
-      </div>
+        </Container>
+      </section>
 
-      {/* CTA Section */}
-      <div id="cta" className="py-20 bg-gradient-to-r from-blue-900 to-slate-900 text-white">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Explore Company Assessments
-          </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            See how leading AI companies measure up against our responsible AI framework. Compare scores, track progress, and make informed decisions.
+      {/* CTA Bar */}
+      <section
+        id="cta"
+        data-reveal
+        className="py-8 border-t border-white/10"
+        style={{
+          background: 'linear-gradient(135deg, #1e293b 0%, #0f172a 100%)',
+          opacity: isVisible['cta'] ? 1 : 0,
+          transform: isVisible['cta'] ? 'translateY(0)' : 'translateY(40px)',
+          transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
+        }}
+      >
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5 px-6 text-center">
+          <p className="text-white/80 text-base m-0">
+            See how Fortune 500 companies score on responsible AI governance.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-                to="/companies" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
-              <Search className="w-5 h-5" />
-              Browse Company Scores
-            </Link>
-            <Link to="/contact" className="px-8 py-4 border border-blue-400 hover:bg-blue-800 rounded-lg font-semibold transition-colors">
-              Request Company Assessment
-            </Link>
-          </div>
+          <Link
+            to="/companies"
+            className="inline-flex items-center bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm px-5 py-2.5 rounded-lg transition-colors whitespace-nowrap"
+          >
+            Browse All Evaluations
+            <ArrowRight className="ml-2" size={16} />
+          </Link>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
