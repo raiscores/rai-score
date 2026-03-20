@@ -2,7 +2,7 @@
 
 Global visual reference for the RAI Scores frontend. For page-specific implementation details, see the cross-references in [Section 10](#10-page-specific-references).
 
-Last updated: 2026-02-23
+Last updated: 2026-03-20
 
 ---
 
@@ -36,8 +36,8 @@ Last updated: 2026-02-23
 
 | Name | Value | Usage |
 |------|-------|-------|
-| Hero (dark) | `linear-gradient(135deg, #0a0f1c 0%, #1a202c 25%, #2d3748 100%)` | Homepage hero background |
-| Footer / CTA | `linear-gradient(135deg, #1e293b 0%, #0f172a 100%)` | Footer, CTA section backgrounds |
+| Hero (dark) | `linear-gradient(135deg, #0a0f1c 0%, #1a202c 25%, #2d3748 100%)` | All page hero backgrounds (Home, About, Methodology, Contact) |
+| Footer / CTA | `linear-gradient(135deg, #1e293b 0%, #0f172a 100%)` | Footer, CTA bar backgrounds (used on all pages) |
 | Primary CTA button | `linear-gradient(135deg, #2563eb, #1d4ed8)` | Hero CTA, `.primary-cta` class |
 | `.btn-primary` | `bg-gradient-to-r from-blue-600 to-blue-700` | Standard primary buttons |
 
@@ -177,6 +177,18 @@ All containers: `margin-left: auto; margin-right: auto; width: 100%`.
 
 The `Container.js` component accepts a `size` prop (`"default"`, `"wide"`, or `"narrow"`) and applies the corresponding CSS class.
 
+### Inner Content Width Pattern
+
+Most pages use `Container wide` (1400px) with nested `max-w-*` classes to constrain content width while keeping full-width section backgrounds:
+
+| Inner Width | Class | Usage |
+|-------------|-------|-------|
+| ~800px | `max-w-[800px] mx-auto` | Hero content (headline + subheading) |
+| ~768px | `max-w-3xl mx-auto` | Prose sections (body text, principles, limitations) |
+| ~1024px | `max-w-5xl mx-auto` | Card grids, structured content, two-column layouts |
+
+This pattern keeps text at readable line lengths while card grids use more horizontal space.
+
 ### Section Padding
 
 | Pattern | Usage |
@@ -241,9 +253,17 @@ Three distinct card tiers are used across the application:
 | `.btn-outline` | White bg, gray border, `text-gray-700 font-semibold`, `py-3 px-6 rounded-lg` | Tertiary actions |
 | `.primary-cta` | Inline gradient `#2563eb → #1d4ed8`, shimmer effect on hover | Hero primary CTA |
 | `.secondary-cta` | Translucent white bg, white border, backdrop blur | Hero secondary CTA |
-| `.email-button` | Blue gradient, `rounded-3xl`, `py-4 px-8` | Contact page |
-
 All buttons hover with `-translate-y-0.5` lift. `.btn-primary` and `.primary-cta` add shimmer pseudo-element on hover.
+
+### CTA Bar (compact)
+
+Used at the bottom of About, Methodology, Contact, and Home pages:
+
+```
+background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%)
+py-8, border-t border-white/10
+Content: centered flex row with text + blue button (bg-blue-600, text-sm, rounded-lg)
+```
 
 ### Progress Bars
 
@@ -297,6 +317,17 @@ Progress bar fill uses `transition-all` for animated width.
 ### Icons
 
 Primary library: **Lucide React**. Secondary: **React Icons** (used sparingly).
+
+### Muted Icon Pattern
+
+Used across About, Methodology, and Contact pages for feature/info cards:
+
+```
+Container: w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center
+Icon: w-5 h-5 text-slate-600
+```
+
+All icons use the same muted treatment — no per-card colored backgrounds. This creates a neutral, institutional feel.
 
 Pillar icons:
 
@@ -439,7 +470,7 @@ In CSS media queries, using `padding` shorthand kills all specific padding prope
 
 ### Scroll Reveal (Intersection Observer)
 
-Used by homepage sections (FeaturedEvaluations, MethodologyPreview, etc.):
+Used by Home, About, and Methodology page sections. Sections use `data-reveal` attribute and `id` for tracking:
 
 ```css
 opacity: 0 → 1;
@@ -475,6 +506,7 @@ This document covers global patterns. For detailed page-level implementation:
 - **Homepage:** [`docs/homepage-design-spec.md`](docs/homepage-design-spec.md) — hero, featured evaluations, methodology preview, audience, CTA, responsive CTA decisions, proof strip
 - **Company Page:** [`docs/company-page-requirements.md`](docs/company-page-requirements.md) — hero layout, grade card, tab system, pillar cards, sidebar, zero-score handling, evidence bar
 - **Company Directory:** [`docs/company-directory-requirements.md`](docs/company-directory-requirements.md) — table design, filters, search, pagination, pillar dots, grade badges, top performers
+- **About, Methodology, Contact:** Follow the shared page pattern: dark gradient hero (`Container wide`, `max-w-[800px]` inner), body sections (`Container wide`, `max-w-5xl` for card grids, `max-w-3xl` for prose), compact CTA bar. Content data files in `src/data/aboutContent.js` and `src/data/methodologyContent.js`.
 
 ---
 
