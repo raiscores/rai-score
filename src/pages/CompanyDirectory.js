@@ -201,7 +201,7 @@ function CompanyDirectory() {
     <div className="min-h-screen bg-slate-50 py-8 px-4">
       <div className="max-w-[1200px] mx-auto">
         <Helmet>
-          <title>RAI Scores: Company Directory</title>
+          <title>Company Directory | RAI Scores</title>
         </Helmet>
 
         {/* --- Header --- */}

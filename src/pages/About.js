@@ -10,7 +10,7 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>About - RAI Scores</title>
+        <title>About | RAI Scores</title>
         <meta name="description" content="RAI Scores is an independent evaluation system assessing how Fortune 500 companies govern AI — based on observable evidence, not self-reported claims." />
       </Helmet>
 
@@ -32,13 +32,13 @@ const AboutPage = () => {
               className="flex flex-wrap gap-x-4 gap-y-2 text-sm md:text-base text-white/60 justify-center animate-slideInUp"
               style={{ animationDelay: '0.2s' }}
             >
-              <span>482 companies</span>
-              <span className="hidden sm:inline">&middot;</span>
-              <span>15 industries</span>
+              <span>Fortune 500 coverage</span>
               <span className="hidden sm:inline">&middot;</span>
               <span>7 pillars</span>
               <span className="hidden sm:inline">&middot;</span>
               <span>14-point scale</span>
+              <span className="hidden sm:inline">&middot;</span>
+              <span>Public evidence only</span>
             </div>
           </div>
         </Container>
@@ -152,7 +152,7 @@ const AboutPage = () => {
       <section id="cta" className="bg-band-dark py-8 border-t border-white/10">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5 px-6 text-center">
           <p className="text-white/80 text-base m-0">
-            Evaluating 482 Fortune 500 companies across 15 industries.
+            Independent AI governance ratings for the Fortune 500.
           </p>
           <Link
             to="/companies"
