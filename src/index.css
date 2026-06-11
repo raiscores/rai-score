@@ -181,6 +181,12 @@
     background: linear-gradient(150deg, #131f36 0%, #0b1322 100%);
   }
 
+  /* Faint dot-grid atmosphere for dark bands (overlay div, pointer-events-none) */
+  .bg-dot-grid {
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
   /* Animation utilities */
   .animate-slideInUp {
     animation: slideInUp 0.8s ease-out both;

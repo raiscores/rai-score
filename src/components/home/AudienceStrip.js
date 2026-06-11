@@ -1,40 +1,23 @@
 import Container from '../Container';
 import { audienceItems } from '../../data/homeContent';
 
-function AudienceStrip({ isVisible }) {
+/**
+ * Single quiet line naming the audiences — sits at the foot of the
+ * featured section (same slate-50 background, hairline above).
+ */
+function AudienceStrip() {
   return (
-    <section
-      id="audience"
-      data-reveal
-      className="bg-slate-50 py-10 md:py-12"
-      style={{
-        opacity: isVisible ? 1 : 0,
-        transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
-        transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
-      }}
-    >
-      <Container>
-        <h2 className="text-2xl font-bold text-slate-900 text-center mb-8">
-          Who Uses RAI Scores
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
-          {audienceItems.map((item, index) => (
-            <div
-              key={index}
-              className="flex items-start gap-3 rounded-lg border border-gray-200 bg-slate-50/50 p-4"
-            >
-              <div className="w-10 h-10 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center shrink-0">
-                {item.icon}
-              </div>
-              <div className="min-w-0">
-                <h3 className="text-sm font-bold text-slate-900 leading-tight">
-                  {item.title}
-                </h3>
-                <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                  {item.description}
-                </p>
-              </div>
-            </div>
+    <section id="audience" className="bg-slate-50 pb-10">
+      <Container size="wide">
+        <div className="max-w-5xl mx-auto border-t border-gray-200 pt-6 flex flex-wrap items-center gap-x-8 gap-y-3">
+          <span className="font-mono text-[11px] font-medium uppercase tracking-[0.16em] text-slate-400">
+            Built for
+          </span>
+          {audienceItems.map((item) => (
+            <span key={item.title} className="flex items-center gap-2 text-sm text-slate-600">
+              <span className="text-slate-400 [&>svg]:w-4 [&>svg]:h-4">{item.icon}</span>
+              {item.title}
+            </span>
           ))}
         </div>
       </Container>

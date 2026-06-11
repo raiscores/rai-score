@@ -1,18 +1,9 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
-function CTASection({ isVisible, companyCount }) {
+function CTASection({ companyCount }) {
   return (
-    <section
-      id="cta"
-      data-reveal
-      className="bg-band-dark py-8 border-t border-white/10"
-      style={{
-        opacity: isVisible ? 1 : 0,
-        transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
-        transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
-      }}
-    >
+    <section id="cta" className="bg-band-dark py-8 border-t border-white/10">
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5 px-6 text-center">
         <p className="text-white/80 text-base m-0">
           Evaluating {companyCount} Fortune 500 companies across 7 pillars.

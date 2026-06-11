@@ -44,6 +44,8 @@ Last updated: 2026-06-11
 
 One navy family for every dark surface — no inline gradient styles. Primary buttons are flat `bg-blue-600 hover:bg-blue-500` (on dark) or `hover:bg-blue-700` (on light); the old gradient/glow/shimmer button classes were removed as dead code.
 
+Dark-band atmosphere: `.bg-dot-grid` (faint 22px radial dot matrix at 7% white alpha) applied as an absolutely-positioned overlay inside the band — currently the homepage hero. Use at most one textured band per page.
+
 ### Semantic Status Colors (from `colorMapping.js`)
 
 Used for percentile-based performance indicators across the app.
@@ -334,6 +336,19 @@ Progress bar fill uses `transition-all` for animated width.
 }
 ```
 
+### Section Headers (homepage pattern)
+
+Left-aligned with a mono eyebrow, optional action link on the right:
+
+```
+Eyebrow: font-mono text-[11px] font-medium uppercase tracking-[0.16em] text-slate-400
+Heading: text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight
+Sub:     text-base text-slate-600
+Right:   text-blue-600 font-semibold text-sm link with ArrowRight
+```
+
+Used by Featured Evaluations and How Scoring Works. (Centered headers remain on About/Methodology content pages.)
+
 ### Icons
 
 Primary library: **Lucide React**. Secondary: **React Icons** (used sparingly).
@@ -510,7 +525,7 @@ In CSS media queries, using `padding` shorthand kills all specific padding prope
 
 ### Scroll Reveal (Intersection Observer)
 
-Used by Home, About, and Methodology page sections. Sections use `data-reveal` attribute and `id` for tracking:
+Used by About and Methodology page sections. (Removed from Home in the June 2026 redesign — homepage content renders immediately; only the hero load stagger remains.) Sections use `data-reveal` attribute and `id` for tracking:
 
 ```css
 opacity: 0 → 1;
