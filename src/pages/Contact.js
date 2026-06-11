@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Request - RAI Scores</title>
+        <title>Contact | RAI Scores</title>
         <meta name="description" content="Contact RAI Scores for inquiries about evaluations, partnership opportunities, or methodology questions." />
       </Helmet>
 
@@ -98,7 +98,7 @@ function Contact() {
       <section className="bg-band-dark py-8 border-t border-white/10">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5 px-6 text-center">
           <p className="text-white/80 text-base m-0">
-            Evaluating 482 Fortune 500 companies across 15 industries.
+            Independent AI governance ratings for the Fortune 500.
           </p>
           <Link
             to="/companies"

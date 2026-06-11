@@ -20,7 +20,7 @@ function Privacy() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Privacy Policy - RAI Scores</title>
+        <title>Privacy Policy | RAI Scores</title>
         <meta
           name="description"
           content="How RAI Scores handles analytics, cookies, and data. We collect no personal information and require no accounts."

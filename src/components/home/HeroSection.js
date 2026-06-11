@@ -138,8 +138,8 @@ function HeroSection({ companies, companyCount }) {
               className="text-lg md:text-xl text-white/75 max-w-[540px] leading-relaxed mb-8 animate-slideInUp"
               style={{ animationDelay: '0.08s' }}
             >
-              Independent, evidence-based ratings of how America's largest
-              companies govern AI &mdash; built on public evidence only.
+              Independent ratings of how America's largest companies govern AI
+              &mdash; built exclusively on public, verifiable evidence.
             </p>
 
             <div

@@ -29,11 +29,7 @@ import {
   Brain,
   ArrowLeft,
   Award,
-  MapPin,
   BookOpen,
-  Clock,
-  AlertCircle,
-  BarChart3,
 } from 'lucide-react';
 
 function CompanyPage() {
@@ -53,8 +49,7 @@ function CompanyPage() {
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-          <h2 className="text-xl font-semibold text-gray-900">Loading company data...</h2>
-          <p className="text-gray-600 mt-2">Analyzing responsible AI practices</p>
+          <h2 className="text-xl font-semibold text-gray-900">Loading assessment&hellip;</h2>
         </div>
       </div>
     );
@@ -144,10 +139,10 @@ function CompanyPage() {
           name="description"
           content={
             overallFindings
-              ? `${companyData.name} earned a ${overallGrade} grade for Responsible AI practices. ${overallFindings.substring(0, 120)}...`
+              ? `${companyData.name} RAI rating: ${overallGrade} (${totalScore}/${maxScore}). ${overallFindings.substring(0, 120)}...`
               : companyData?.summary
-              ? `${companyData.name} RAI Assessment: ${companyData.summary.substring(0, 120)}...`
-              : `${companyData.name}: Independent Responsible AI evaluation and scoring.`
+              ? `${companyData.name} RAI rating: ${overallGrade} (${totalScore}/${maxScore}). ${companyData.summary.substring(0, 120)}...`
+              : `${companyData.name}: independent, evidence-based assessment of responsible AI governance.`
           }
         />
         <meta property="og:type" content="article" />
@@ -158,17 +153,7 @@ function CompanyPage() {
         />
         <meta
           property="og:description"
-          content={
-            overallFindings
-              ? `${companyData.name} demonstrates ${
-                  overallGrade === 'A+'
-                    ? 'exceptional'
-                    : overallGrade.startsWith('A')
-                    ? 'strong'
-                    : 'developing'
-                } Responsible AI practices across our 7-pillar framework. ${overallFindings.substring(0, 100)}...`
-              : `Independent assessment of ${companyData?.name || "this company"}'s Responsible AI practices. Grade: ${overallGrade}`
-          }
+          content={`${companyData.name} scored ${overallGrade} (${totalScore}/${maxScore}) in RAI Scores' independent, evidence-based assessment of responsible AI governance.`}
         />
         <meta
           property="og:url"
@@ -192,8 +177,8 @@ function CompanyPage() {
           name="twitter:description"
           content={
             companyData?.name
-              ? `${companyData.name} earned a ${overallGrade} grade for Responsible AI practices. Independent evaluation across 7 key pillars.`
-              : 'Independent Responsible AI evaluation and scoring'
+              ? `${companyData.name} scored ${overallGrade} (${totalScore}/${maxScore}) across 7 responsible-AI pillars in an independent, public-evidence assessment.`
+              : 'Independent, evidence-based ratings of responsible AI governance'
           }
         />
         <meta name="twitter:image" content="https://raiscores.com/og-image.png" />
@@ -238,19 +223,9 @@ function CompanyPage() {
             image: 'https://raiscores.com/og-image.png',
             datePublished: companyData?.published_at || '',
             dateModified: companyData?.published_at || '',
-            aggregateRating: companyData?.star_rating
-              ? {
-                  '@type': 'AggregateRating',
-                  ratingValue: companyData.star_rating,
-                  bestRating: '5',
-                  worstRating: '1',
-                  ratingCount:
-                    companyData?.total_sources_used > 0
-                      ? companyData.total_sources_used
-                      : 1,
-                  description: `${companyData.name} Responsible AI Score: ${overallGrade} grade based on 7 assessment pillars`,
-                }
-              : undefined,
+            // aggregateRating intentionally omitted: that schema type is for
+            // collected user reviews; using it for editorial scores risks a
+            // structured-data penalty
           })}
         </script>
       </Helmet>
@@ -452,68 +427,18 @@ function CompanyPage() {
 
               {activeTab === 'methodology' && <MethodologyTab />}
 
-              {/* DETAILED ANALYSIS TAB — Coming soon */}
+              {/* DETAILED ANALYSIS TAB — in development */}
               {activeTab === 'detailed-analysis' && (
-                <div className="space-y-8">
-                  <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 text-center border border-blue-100">
-                    <div className="max-w-2xl mx-auto">
-                      <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <Brain className="w-8 h-8 text-blue-600 animate-pulse" />
-                      </div>
-                      <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                        Advanced AI Analysis
-                      </h2>
-                      <p className="text-lg text-gray-600 mb-6">
-                        Deep-dive assessments, risk modeling, and predictive insights are coming soon.
-                        Get ready for the most comprehensive responsible AI evaluation platform.
-                      </p>
-                      <div className="flex items-center justify-center gap-2 text-sm text-blue-600 bg-blue-100 rounded-full px-4 py-2 inline-flex">
-                        <Clock className="w-4 h-4" />
-                        <span>In Development</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-6">What's Coming</h3>
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 relative overflow-hidden">
-                        <div className="absolute top-0 right-0 bg-gradient-to-l from-orange-500 to-red-500 text-white px-3 py-1 text-xs font-semibold rounded-bl-lg">
-                          HIGH IMPACT
-                        </div>
-                        <div className="flex items-start gap-4 mb-4">
-                          <div className="p-3 bg-red-50 rounded-lg">
-                            <AlertCircle className="w-6 h-6 text-red-600" />
-                          </div>
-                          <div>
-                            <h4 className="font-semibold text-gray-900 mb-2">AI Risk Assessment</h4>
-                            <p className="text-sm text-gray-600 mb-3">
-                              Comprehensive risk modeling across deployment scenarios, potential failure modes, and societal impact vectors.
-                            </p>
-                            <div className="flex flex-wrap gap-2">
-                              <span className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded">Risk Scoring</span>
-                              <span className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded">Failure Analysis</span>
-                              <span className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded">Impact Modeling</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-                        <div className="flex items-start gap-4 mb-4">
-                          <div className="p-3 bg-blue-50 rounded-lg">
-                            <BarChart3 className="w-6 h-6 text-blue-600" />
-                          </div>
-                          <div>
-                            <h4 className="font-semibold text-gray-900 mb-2">Advanced Benchmarking</h4>
-                            <p className="text-sm text-gray-600 mb-3">
-                              Compare against industry leaders, regulatory standards, and best practices with detailed breakdowns.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="bg-white rounded-xl p-6 md:p-8 shadow-md border border-gray-200">
+                  <h2 className="text-xl font-bold text-gray-900 mb-2">Detailed Analysis</h2>
+                  <p className="text-sm text-gray-600 leading-relaxed mb-4 max-w-2xl">
+                    In development. This tab will add per-pillar improvement paths, risk
+                    context, and score tracking across assessment cycles &mdash; built on
+                    the same public-evidence standard as the rest of the rating.
+                  </p>
+                  <span className="font-mono text-[11px] uppercase tracking-wider text-gray-400">
+                    Planned &middot; In development
+                  </span>
                 </div>
               )}
 

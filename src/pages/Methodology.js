@@ -40,7 +40,7 @@ function Methodology() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Methodology - RAI Scores</title>
+        <title>Methodology | RAI Scores</title>
         <meta name="description" content="How RAI Scores evaluates Fortune 500 companies using a 7-pillar, 14-point evidence-based framework." />
       </Helmet>
 

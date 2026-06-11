@@ -28,8 +28,8 @@ function Home() {
   return (
     <div className="font-sans text-slate-900 leading-relaxed overflow-hidden">
       <Helmet>
-        <title>RAI Scores - Independent AI Accountability Evaluations</title>
-        <meta name="description" content="Independent evaluations of how leading companies approach responsible AI governance and transparency. Making AI accountability visible through evidence-based assessment. Explore our Responsible AI Scorecard for company rankings, transparency benchmarks, and responsible AI scores." />
+        <title>RAI Scores — Independent AI Governance Ratings</title>
+        <meta name="description" content="Independent, evidence-based ratings of how Fortune 500 companies govern AI — scored across 7 pillars using public evidence only." />
       </Helmet>
 
       <HeroSection companies={companies} companyCount={companyCount} />

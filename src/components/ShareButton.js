@@ -1,6 +1,6 @@
 // ShareButton.js - Content-first share functionality component
 import React, { useState } from 'react';
-import { Share2, Link, Mail, Check, Copy, X, ExternalLink, Star, TrendingUp } from 'lucide-react';
+import { Share2, Mail, Check, Copy, X, ExternalLink, Star, TrendingUp } from 'lucide-react';
 
 const ShareButton = ({ 
   url, 
@@ -201,7 +201,7 @@ const ShareButton = ({
                   </div>
                   <div className="flex-1">
                     <div className="font-medium text-slate-900">Share on LinkedIn</div>
-                    <div className="text-sm text-slate-600">Perfect for professional networks</div>
+                    <div className="text-sm text-slate-600">Share with your professional network</div>
                   </div>
                   <ExternalLink className="w-4 h-4 text-slate-400 group-hover:text-[#0077B5]" />
                 </a>

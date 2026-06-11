@@ -1,80 +1,44 @@
 import React from 'react';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 const ComingSoon = () => {
-
   return (
     <>
       <Helmet>
-        <title>Coming Soon – Responsible AI Scorecard</title>
+        <title>Coming Soon | RAI Scores</title>
         <meta name="robots" content="noindex,nofollow" />
-        <meta name="description" content="This section is under construction as we continue building out Responsible AI Scorecard. Check back soon!" />
+        <meta name="description" content="This section of RAI Scores is under construction." />
       </Helmet>
-      
-      <div className="min-h-screen bg-white flex items-start justify-center pt-28 pb-20 md:pt-36 md:pb-28 p-5">
-        <div className="w-full max-w-2xl mx-auto text-center">
-          {/* Header Section */}
-          <div className="mb-10">
-            {/* Construction Icon */}
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-500 rounded-2xl shadow-md mb-8">
-              <span className="text-4xl">🚧</span>
-            </div>
-            
-            {/* Main Heading */}
-            <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-3 tracking-tight">
-              Coming <span className="text-blue-600">Soon</span>
-            </h1>
-            
-            {/* Subheading */}
-            <p className="text-lg text-slate-600 font-normal mb-2">
-              This page isn't quite ready yet, but we're working on it!
-            </p>
-          </div>
 
-          {/* Content Section - Single Card */}
-          <div className="bg-slate-50 border border-slate-200 rounded-2xl p-8 md:p-10 mb-8 max-w-2xl mx-auto">
-            <p className="text-slate-600 leading-relaxed text-base max-w-lg mx-auto">
-              In the meantime, feel free to browse the rest of RAI Score or contact us if you have questions.
-            </p>
-            <p className="text-slate-500 text-sm mt-4 max-w-lg mx-auto">
-              Thanks for your patience!
-            </p>
+      <div className="min-h-screen bg-white flex items-start justify-center pt-28 pb-20 md:pt-36 md:pb-28 px-5">
+        <div className="w-full max-w-xl mx-auto text-center">
+          <div className="font-mono text-[11px] font-medium uppercase tracking-[0.16em] text-slate-400 mb-3">
+            Under construction
           </div>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4 tracking-tight">
+            Coming soon
+          </h1>
+          <p className="text-lg text-slate-600 mb-10">
+            This page isn't live yet. In the meantime, browse the company index
+            or get in touch.
+          </p>
 
-          {/* Optional Secondary Navigation */}
-          <div className="text-center mb-6">
-            <p className="text-slate-500 text-sm">
-              Or{' '}
-              <Link to="/companies" className="text-blue-600 hover:text-blue-700 underline">
-                browse companies
-              </Link>
-              {' '}•{' '}
-              <Link to="/contact" className="text-blue-600 hover:text-blue-700 underline">
-                contact us
-              </Link>
-            </p>
-          </div>
-
-          {/* Subtle Divider */}
-          <div className="flex items-center justify-center mb-8">
-            <div className="flex space-x-1">
-              <div className="w-1 h-1 bg-slate-300 rounded-full animate-pulse"></div>
-              <div className="w-1 h-1 bg-slate-400 rounded-full animate-pulse" style={{animationDelay: '0.2s'}}></div>
-              <div className="w-1 h-1 bg-slate-300 rounded-full animate-pulse" style={{animationDelay: '0.4s'}}></div>
-            </div>
-          </div>
-
-          {/* Back Link - Floating */}
-          <div className="mt-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <Link
+              to="/companies"
+              className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-semibold no-underline rounded-lg transition-colors duration-150 text-sm py-3 px-6"
+            >
+              Browse the index
+              <ArrowRight className="ml-2 w-4 h-4" />
+            </Link>
             <Link
               to="/"
-              aria-label="Navigate back to homepage"
-              className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold px-10 py-5 rounded-xl shadow-lg shadow-blue-600/20 hover:shadow-xl hover:shadow-blue-600/30 hover:scale-105 focus:outline-none focus:ring-3 focus:ring-blue-400 focus:ring-offset-2 transition-all duration-200"
+              className="inline-flex items-center justify-center text-sm font-medium text-slate-700 no-underline border border-slate-300 hover:border-slate-400 hover:bg-slate-50 rounded-lg px-5 py-3 transition-colors duration-150"
             >
-              <ArrowLeft className="w-5 h-5" />
-              Back to Homepage
+              <ArrowLeft className="mr-2 w-4 h-4" />
+              Back to homepage
             </Link>
           </div>
         </div>

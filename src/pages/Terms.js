@@ -20,7 +20,7 @@ function Terms() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Terms of Service - RAI Scores</title>
+        <title>Terms of Service | RAI Scores</title>
         <meta
           name="description"
           content="Terms of use for RAI Scores: what our evaluations are, how you may use them, and the limits of what they represent."
