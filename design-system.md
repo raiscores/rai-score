@@ -114,13 +114,9 @@ Discrete cells, never continuous bars, for 0–2 pillar scores:
 | ≥5/14 | `bg-amber-500` |
 | <5/14 | `bg-red-500` |
 
-### Pillar Dot Colors (Company Directory)
+### Pillar Marks (Company Directory)
 
-| Score | Color |
-|-------|-------|
-| 2 | `bg-emerald-500` |
-| 1 | `bg-amber-500` |
-| 0 | `bg-gray-200` |
+Directory rows use `PillarStrip size="sm"` (June 2026 — replaced the single-dot-per-pillar display; see "Pillar Score Marks" below for cell colors). Score/rank/grade columns are IBM Plex Mono; the table header is sticky at `top-[60px]` (NavBar height) — its wrapper must NOT have `overflow-hidden`, and the header underline is an inset shadow on the row (tr borders don't travel with a sticky thead).
 
 ### UI Neutrals
 
