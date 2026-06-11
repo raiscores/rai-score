@@ -6,9 +6,8 @@ function CTASection({ isVisible, companyCount }) {
     <section
       id="cta"
       data-reveal
-      className="py-8 border-t border-white/10"
+      className="bg-band-dark py-8 border-t border-white/10"
       style={{
-        background: 'linear-gradient(135deg, #1e293b 0%, #0f172a 100%)',
         opacity: isVisible ? 1 : 0,
         transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
         transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'

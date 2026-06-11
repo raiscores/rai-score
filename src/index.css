@@ -1,8 +1,51 @@
 @import "tailwindcss";
 
 /* ============================================
-   RAI Scores - Global Styles
+   RAI Scores — Global Styles & Design Tokens
+
+   This file is compiled by @tailwindcss/cli into
+   src/tailwind-output.css (imported by src/index.js).
+   Run `npm run tailwind:watch` during development.
+   Never edit tailwind-output.css directly.
    ============================================ */
+
+@theme {
+  /* Typography — Schibsted Grotesk (display/UI), IBM Plex Mono (data).
+     Loaded via @fontsource in src/index.js. */
+  --font-sans: 'Schibsted Grotesk Variable', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas,
+    monospace;
+
+  /* Interactive blue — cobalt ramp, replaces Tailwind's default blue
+     site-wide. Deeper and less saturated than stock; institutional. */
+  --color-blue-50: #eef3fb;
+  --color-blue-100: #dde7f7;
+  --color-blue-200: #bdcfee;
+  --color-blue-300: #92afe3;
+  --color-blue-400: #6189d6;
+  --color-blue-500: #4170d4;
+  --color-blue-600: #2a56c6;
+  --color-blue-700: #1f46a8;
+  --color-blue-800: #1a3a8c;
+  --color-blue-900: #163071;
+  --color-blue-950: #0f2152;
+
+  /* Brand navy ramp, anchored on the #263552 brand color */
+  --color-navy-600: #33466c;
+  --color-navy-700: #263552;
+  --color-navy-800: #1b2a49;
+  --color-navy-900: #131f36;
+  --color-navy-950: #0b1322;
+
+  /* Radius personality — compact 4/6/8px. The xl+ steps are deliberately
+     capped so legacy rounded-xl/2xl/3xl markup converges on one look. */
+  --radius-md: 0.25rem;
+  --radius-lg: 0.375rem;
+  --radius-xl: 0.375rem;
+  --radius-2xl: 0.5rem;
+  --radius-3xl: 0.5rem;
+}
 
 @layer base {
   * {
@@ -12,27 +55,32 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+    font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
+  /* Tabular figures where numbers align in columns — applied per-element
+     with the `tabular-nums` utility, not globally (Schibsted spaces
+     punctuation in tnum mode, which looks wrong in prose). */
+  table {
+    font-variant-numeric: tabular-nums;
+  }
+
   code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
+    font-family: var(--font-mono);
+  }
+
+  /* Tailwind 4 preflight drops the pointer cursor on buttons; restore it */
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    cursor: pointer;
   }
 }
 
 /* ============================================
    Animations (outside layers - they're global)
    ============================================ */
-
-@keyframes pulse-subtle {
-  0%, 100% { opacity: 0.5; transform: scale(1); }
-  50% { opacity: 0.8; transform: scale(1.05); }
-}
 
 @keyframes slideInUp {
   from {
@@ -42,21 +90,6 @@
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@keyframes iconPulse {
-  0% {
-    transform: scale(1);
-    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.2);
-  }
-  50% {
-    transform: scale(1.05);
-    box-shadow: 0 12px 32px rgba(37, 99, 235, 0.3);
-  }
-  100% {
-    transform: scale(1);
-    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.2);
   }
 }
 
@@ -79,22 +112,13 @@
    ============================================ */
 
 @layer components {
-  /* Container - matching original design widths */
-  .container-default {
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: clamp(24px, 5vw, 40px);
-    padding-right: clamp(24px, 5vw, 40px);
-    width: 100%;
-  }
-
+  /* Containers: class owns structure (max-width, centering); horizontal
+     padding comes from Tailwind utilities applied in Container.js */
+  .container-default,
   .container-wide {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: clamp(24px, 5vw, 40px);
-    padding-right: clamp(24px, 5vw, 40px);
     width: 100%;
   }
 
@@ -102,97 +126,7 @@
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: clamp(24px, 5vw, 40px);
-    padding-right: clamp(24px, 5vw, 40px);
     width: 100%;
-  }
-
-  /* Buttons */
-  .btn-primary {
-    @apply inline-flex items-center justify-center;
-    @apply bg-gradient-to-r from-blue-600 to-blue-700;
-    @apply text-white font-bold text-lg;
-    @apply py-5 px-10 rounded-xl;
-    @apply transition-all duration-300;
-    @apply shadow-lg shadow-blue-600/40;
-    @apply relative overflow-hidden;
-  }
-
-  .btn-primary:hover {
-    @apply -translate-y-0.5;
-    box-shadow: 0 16px 48px rgba(37, 99, 235, 0.6);
-  }
-
-  .btn-primary:focus {
-    @apply outline-none ring-2 ring-blue-400 ring-offset-2;
-  }
-
-  .btn-primary::before {
-    content: '';
-    @apply absolute top-0 -left-full w-full h-full;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-    @apply transition-all duration-500;
-  }
-
-  .btn-primary:hover::before {
-    @apply left-full;
-  }
-
-  .btn-secondary {
-    @apply inline-flex items-center justify-center;
-    @apply bg-white/10 backdrop-blur-lg;
-    @apply text-white font-semibold text-base;
-    @apply py-5 px-8 rounded-xl;
-    @apply border-2 border-white/20;
-    @apply transition-all duration-300;
-  }
-
-  .btn-secondary:hover {
-    @apply bg-white/20 border-white/40 -translate-y-0.5;
-  }
-
-  .btn-secondary:focus {
-    @apply outline-none ring-2 ring-blue-400 ring-offset-2;
-  }
-
-  .btn-outline {
-    @apply inline-flex items-center justify-center;
-    @apply border border-gray-300 bg-white;
-    @apply text-gray-700 font-semibold;
-    @apply py-3 px-6 rounded-lg;
-    @apply transition-all duration-200;
-  }
-
-  .btn-outline:hover {
-    @apply bg-gray-50 border-gray-400;
-  }
-
-  /* Cards */
-  .card {
-    @apply bg-white rounded-xl p-6;
-    @apply shadow-sm border border-gray-200;
-    @apply transition-all duration-300;
-  }
-
-  .card:hover {
-    @apply shadow-md -translate-y-0.5;
-  }
-
-  .card-interactive {
-    @apply bg-white rounded-2xl p-8;
-    @apply shadow-lg border-2 border-gray-200;
-    @apply cursor-pointer;
-    @apply transition-all duration-300;
-  }
-
-  .card-interactive:hover {
-    @apply -translate-y-3 scale-[1.02];
-    @apply border-blue-300;
-    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.15);
-  }
-
-  .card-interactive:focus {
-    @apply outline-none ring-2 ring-blue-600 ring-offset-2;
   }
 
   /* Theme Card (Home page) */
@@ -211,127 +145,6 @@
 
   .theme-card:focus {
     @apply outline-none ring-2 ring-blue-600 ring-offset-2;
-  }
-
-
-  /* Methodology Link */
-  .methodology-link {
-    @apply inline-flex items-center;
-    @apply text-blue-600 font-bold text-lg;
-    @apply py-4 px-6 rounded-xl;
-    @apply bg-slate-50 border-2 border-slate-200;
-    @apply transition-all duration-300;
-  }
-
-  .methodology-link:hover {
-    @apply bg-blue-600 text-white border-blue-600 -translate-y-0.5;
-    box-shadow: 0 8px 32px rgba(37, 99, 235, 0.3);
-  }
-
-  .methodology-link:focus {
-    @apply outline-none ring-2 ring-blue-400 ring-offset-2;
-  }
-
-  /* Primary CTA (Hero section) */
-  .primary-cta {
-    @apply inline-flex items-center;
-    @apply text-white font-bold text-lg;
-    @apply py-5 px-10 rounded-xl;
-    @apply no-underline cursor-pointer border-none;
-    @apply transition-all duration-300;
-    @apply relative overflow-hidden;
-    background: linear-gradient(135deg, #2563eb, #1d4ed8);
-    box-shadow: 0 8px 32px rgba(37, 99, 235, 0.4);
-  }
-
-  .primary-cta::before {
-    content: '';
-    @apply absolute top-0 -left-full w-full h-full;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-    @apply transition-all duration-500;
-  }
-
-  .primary-cta:hover::before {
-    @apply left-full;
-  }
-
-  .primary-cta:hover {
-    @apply -translate-y-0.5;
-    box-shadow: 0 16px 48px rgba(37, 99, 235, 0.6);
-  }
-
-  .primary-cta:focus {
-    @apply outline-3 outline-blue-400 outline-offset-2;
-  }
-
-  /* Secondary CTA (Hero section) */
-  .secondary-cta {
-    @apply inline-flex items-center;
-    @apply text-white font-semibold text-base;
-    @apply py-5 px-8 rounded-xl;
-    @apply no-underline cursor-pointer;
-    @apply transition-all duration-300;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px);
-  }
-
-  .secondary-cta:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.4);
-    @apply -translate-y-0.5;
-  }
-
-  .secondary-cta:focus {
-    @apply outline-3 outline-blue-400 outline-offset-2;
-  }
-
-
-  /* Email Button (Contact page) */
-  .email-button {
-    @apply inline-block;
-    @apply bg-gradient-to-r from-blue-600 to-blue-700;
-    @apply text-white font-semibold text-base;
-    @apply py-4 px-8 rounded-3xl;
-    @apply no-underline;
-    @apply transition-all duration-300;
-    box-shadow: 0 4px 16px rgba(37, 99, 235, 0.2);
-  }
-
-  .email-button:hover {
-    @apply -translate-y-0.5;
-    background: linear-gradient(135deg, #1d4ed8, #1e40af);
-    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.3);
-  }
-
-  .email-button:focus {
-    @apply outline-none ring-2 ring-blue-400 ring-offset-2;
-  }
-
-  /* Partnership Card */
-  .partnership-card {
-    @apply transition-all duration-300;
-  }
-
-  .partnership-card:hover {
-    @apply -translate-y-0.5;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
-  }
-
-  /* Back Link */
-  .back-link {
-    @apply inline-flex items-center;
-    @apply text-blue-600 font-medium text-base;
-    @apply no-underline;
-    @apply transition-all duration-200;
-  }
-
-  .back-link:hover {
-    @apply text-blue-700;
-  }
-
-  .back-link:focus {
-    @apply outline-2 outline-blue-600 outline-offset-2 rounded;
   }
 
   /* Loading Spinner */
@@ -357,57 +170,18 @@
     display: none;
   }
 
-  /* Gradient Backgrounds */
-  .bg-hero-dark {
-    background:
-      linear-gradient(135deg, #0a0f1c 0%, #1a202c 25%, #2d3748 100%),
-      radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
-      radial-gradient(circle at 75% 75%, rgba(124, 58, 237, 0.1) 0%, transparent 50%);
+  /* Dark band system — ONE navy family for all hero/CTA/footer bands */
+  .bg-band-hero {
+    background: linear-gradient(150deg, #0b1322 0%, #131f36 45%, #2e4066 100%);
   }
-
-  .bg-hero-light {
-    background:
-      linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%),
-      radial-gradient(circle at 20% 30%, rgba(59, 130, 246, 0.08) 0%, transparent 50%);
-  }
-
-  .bg-footer-gradient {
-    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-  }
-
-  /* Glass Effect */
-  .glass {
-    background-color: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(229, 231, 235, 0.8);
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  .bg-band-dark {
+    background: linear-gradient(150deg, #131f36 0%, #0b1322 100%);
   }
 
   /* Animation utilities */
-  .animate-pulse-subtle {
-    animation: pulse-subtle 8s ease-in-out infinite;
-  }
-
   .animate-slideInUp {
     animation: slideInUp 0.8s ease-out both;
   }
-
-  .animate-icon-pulse {
-    animation: iconPulse 2s ease-out;
-  }
-}
-
-/* ============================================
-   Grid Layouts (outside layers for proper specificity)
-   ============================================ */
-
-.themes-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
-  gap: 40px;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 /* ============================================
@@ -415,20 +189,8 @@
    ============================================ */
 
 @media (max-width: 768px) {
-  .themes-grid {
-    gap: 2rem;
-  }
-
   .theme-card {
     padding: 1.25rem;
-  }
-}
-
-@media (max-width: 640px) {
-  .btn-primary,
-  .btn-secondary {
-    font-size: 0.875rem;
-    padding: 1rem;
   }
 }
 
@@ -441,5 +203,4 @@
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
-
 }

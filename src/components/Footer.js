@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Mail } from 'lucide-react';
+import { FaXTwitter, FaLinkedinIn } from 'react-icons/fa6';
 
 function Footer() {
   return (
-    <footer
-      className="text-slate-50 pt-16 pb-8 px-8 text-[0.95rem]"
-      style={{ background: 'linear-gradient(135deg, #1e293b 0%, #0f172a 100%)' }}
-    >
+    <footer className="bg-band-dark text-slate-50 pt-16 pb-8 px-8 text-[0.95rem]">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Brand & Mission */}
         <div>
@@ -16,22 +15,22 @@ function Footer() {
           <p className="leading-relaxed text-slate-300">
             Making AI accountability transparent, accessible, and actionable for everyone.
           </p>
-          <div className="flex gap-4 mt-6">
+          <div className="flex gap-3 mt-6">
             {/* Social Icon Buttons */}
             {[
-              { icon: '𝕏', href: '#', label: 'X (Twitter)' },
-              { icon: '💼', href: '#', label: 'LinkedIn' },
-              { icon: '📧', href: 'mailto:info@raiscores.com', label: 'Email' }
-            ].map(({ icon, href, label }) => (
+              { Icon: FaXTwitter, href: '#', label: 'X (Twitter)' },
+              { Icon: FaLinkedinIn, href: '#', label: 'LinkedIn' },
+              { Icon: Mail, href: 'mailto:info@raiscores.com', label: 'Email' }
+            ].map(({ Icon, href, label }) => (
               <a
-                key={icon}
+                key={label}
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={label}
-                className="w-11 h-11 flex items-center justify-center rounded-full bg-white/10 text-slate-100 no-underline transition-colors duration-300 hover:bg-white/20"
+                className="w-10 h-10 flex items-center justify-center rounded-lg bg-white/10 text-slate-200 no-underline transition-colors duration-200 hover:bg-white/20 hover:text-white"
               >
-                {icon}
+                <Icon className="w-4 h-4" />
               </a>
             ))}
           </div>
@@ -57,8 +56,9 @@ function Footer() {
           <h4 className="text-lg font-semibold mb-4">
             Get in Touch
           </h4>
-          <p className="mb-2 text-slate-100">
-            📧 info@raiscores.com
+          <p className="mb-2 text-slate-100 flex items-center gap-2">
+            <Mail className="w-4 h-4 text-slate-400" />
+            info@raiscores.com
           </p>
           <p className="text-slate-300 leading-relaxed">
             Have questions about our methodology or want to request a company evaluation? We'd love to hear from you.

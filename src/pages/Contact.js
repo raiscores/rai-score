@@ -13,12 +13,7 @@ function Contact() {
       </Helmet>
 
       {/* Hero */}
-      <section
-        className="relative py-16 md:py-24"
-        style={{
-          background: 'linear-gradient(135deg, #0a0f1c 0%, #1a202c 25%, #2d3748 100%)'
-        }}
-      >
+      <section className="bg-band-hero relative py-16 md:py-24">
         <Container size="wide">
           <div className="max-w-[800px] mx-auto text-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight animate-slideInUp">
@@ -100,12 +95,7 @@ function Contact() {
       </section>
 
       {/* CTA Bar */}
-      <section
-        className="py-8 border-t border-white/10"
-        style={{
-          background: 'linear-gradient(135deg, #1e293b 0%, #0f172a 100%)'
-        }}
-      >
+      <section className="bg-band-dark py-8 border-t border-white/10">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5 px-6 text-center">
           <p className="text-white/80 text-base m-0">
             Evaluating 482 Fortune 500 companies across 15 industries.

@@ -4,12 +4,7 @@ import Container from '../Container';
 
 function HeroSection({ companyCount }) {
   return (
-    <section
-      className="hero-section min-h-[75vh] flex items-center justify-center relative"
-      style={{
-        background: 'linear-gradient(135deg, #0a0f1c 0%, #1a202c 25%, #2d3748 100%)'
-      }}
-    >
+    <section className="hero-section bg-band-hero min-h-[75vh] flex items-center justify-center relative">
       <Container size="wide">
         <div className="relative z-10 max-w-[800px] mx-auto text-center py-20 md:py-24">
 
@@ -37,23 +32,15 @@ function HeroSection({ companyCount }) {
           >
             <Link
               to="/companies"
-              className="inline-flex items-center justify-center text-white font-bold no-underline rounded-xl transition-all duration-300 relative overflow-hidden text-sm sm:text-lg py-3 px-6 sm:py-5 sm:px-10"
-              style={{
-                background: 'linear-gradient(135deg, #2563eb, #1d4ed8)',
-                boxShadow: '0 8px 32px rgba(37, 99, 235, 0.4)'
-              }}
+              className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-white font-semibold no-underline rounded-lg transition-colors duration-150 text-sm sm:text-base py-3 px-6 sm:py-3.5 sm:px-7"
             >
               View Company Evaluations
-              <ArrowRight className="ml-2 sm:ml-3" size={18} />
+              <ArrowRight className="ml-2" size={18} />
             </Link>
 
             <Link
               to="/methodology"
-              className="inline-flex items-center justify-center text-white font-semibold no-underline rounded-xl transition-all duration-300 text-sm sm:text-base py-3 px-6 sm:py-5 sm:px-8"
-              style={{
-                backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                border: '2px solid rgba(255, 255, 255, 0.2)'
-              }}
+              className="inline-flex items-center justify-center bg-white/10 hover:bg-white/15 border border-white/25 hover:border-white/40 text-white font-medium no-underline rounded-lg transition-colors duration-150 text-sm sm:text-base py-3 px-6 sm:py-3.5 sm:px-6"
             >
               Our Methodology
             </Link>
@@ -64,11 +51,11 @@ function HeroSection({ companyCount }) {
             className="flex flex-wrap gap-x-4 gap-y-2 text-sm md:text-base text-white/70 justify-center animate-slideInUp"
             style={{ animationDelay: '0.3s' }}
           >
-            <span><span className="font-semibold">{companyCount}</span> companies evaluated</span>
+            <span><span className="font-mono font-medium text-white/90">{companyCount}</span> companies evaluated</span>
             <span className="hidden sm:inline">·</span>
-            <span><span className="font-semibold">7</span> pillars</span>
+            <span><span className="font-mono font-medium text-white/90">7</span> pillars</span>
             <span className="hidden sm:inline">·</span>
-            <span><span className="font-semibold">14</span>-point scale</span>
+            <span><span className="font-mono font-medium text-white/90">14</span>-point scale</span>
             <span className="hidden sm:inline">·</span>
             <span>Public evidence only</span>
           </div>

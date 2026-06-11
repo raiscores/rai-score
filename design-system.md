@@ -2,7 +2,7 @@
 
 Global visual reference for the RAI Scores frontend. For page-specific implementation details, see the cross-references in [Section 10](#10-page-specific-references).
 
-Last updated: 2026-03-20
+Last updated: 2026-06-11
 
 ---
 
@@ -28,18 +28,21 @@ Last updated: 2026-03-20
 
 | Token | Value | Usage |
 |-------|-------|-------|
-| Brand Navy | `#263552` | NavBar brand text ("RAI SCORES") |
-| Primary Blue | `#3b82f6` (blue-500) | Links, focus rings, active tabs, primary actions |
+| Brand Navy | `#263552` (`navy-700`) | NavBar brand text ("RAI SCORES"); anchor of the navy ramp |
+| Navy ramp | `navy-600` `#33466c` → `navy-950` `#0b1322` | Dark bands, future dark surfaces (defined in `@theme`) |
+| Interactive Blue (cobalt) | `blue-600` `#2a56c6` / `blue-500` `#4170d4` | Links, focus rings, active tabs, primary actions |
 | Star Gold | `#d97706` (amber-600) | Star ratings — rich gold, Morningstar feel (deliberate choice, not bright yellow) |
 
-### Gradients
+**The Tailwind `blue-*` ramp is overridden site-wide** in the `@theme` block of `index.css` with a deeper, less-saturated cobalt ramp (50–950). Any `bg-blue-600`, `text-blue-500`, `border-blue-200`, etc. resolves to cobalt values, not stock Tailwind blue. Don't reintroduce raw `#3b82f6`/`#2563eb` hexes.
 
-| Name | Value | Usage |
-|------|-------|-------|
-| Hero (dark) | `linear-gradient(135deg, #0a0f1c 0%, #1a202c 25%, #2d3748 100%)` | All page hero backgrounds (Home, About, Methodology, Contact) |
-| Footer / CTA | `linear-gradient(135deg, #1e293b 0%, #0f172a 100%)` | Footer, CTA bar backgrounds (used on all pages) |
-| Primary CTA button | `linear-gradient(135deg, #2563eb, #1d4ed8)` | Hero CTA, `.primary-cta` class |
-| `.btn-primary` | `bg-gradient-to-r from-blue-600 to-blue-700` | Standard primary buttons |
+### Dark Bands (replaces per-page gradients)
+
+| Class | Value | Usage |
+|-------|-------|-------|
+| `.bg-band-hero` | `linear-gradient(150deg, #0b1322 0%, #131f36 45%, #2e4066 100%)` | All page hero backgrounds (Home, About, Methodology, Contact) |
+| `.bg-band-dark` | `linear-gradient(150deg, #131f36 0%, #0b1322 100%)` | Footer, CTA bar backgrounds (all pages) |
+
+One navy family for every dark surface — no inline gradient styles. Primary buttons are flat `bg-blue-600 hover:bg-blue-500` (on dark) or `hover:bg-blue-700` (on light); the old gradient/glow/shimmer button classes were removed as dead code.
 
 ### Semantic Status Colors (from `colorMapping.js`)
 
@@ -124,14 +127,16 @@ Grade card pill background is `bg-white/70` for all grades. See `getGradeBg()` i
 
 ### Font Stack
 
-System font stack (not Inter — never loaded, not in the stack):
+Self-hosted via `@fontsource` packages, imported in `src/index.js` (no external font requests):
 
-```css
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-```
+| Role | Family | Usage |
+|------|--------|-------|
+| Display + UI (`--font-sans`) | **Schibsted Grotesk Variable** (wght 400–900) | Everything: headlines, body, UI |
+| Data (`--font-mono`) | **IBM Plex Mono** (400/500/600) | Scores, counts, dates, tickers, run IDs — apply with `font-mono` |
 
-Monospace: `source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace`
+Fallbacks: system stack (sans), `ui-monospace`/Consolas (mono). Defined as `--font-sans`/`--font-mono` in the `@theme` block.
+
+**Tabular figures:** `<table>` elements get `font-variant-numeric: tabular-nums` globally (base layer). For non-table numeric columns use the `tabular-nums` utility per element. Do NOT apply tnum to prose — Schibsted spaces periods/commas in tnum mode and it looks broken.
 
 ### Type Scale
 
@@ -246,14 +251,15 @@ Three distinct card tiers are used across the application:
 
 ### Buttons
 
-| Button | Style | Usage |
-|--------|-------|-------|
-| `.btn-primary` | Blue gradient, white text, `font-bold text-lg`, `py-5 px-10 rounded-xl`, shadow | Primary actions |
-| `.btn-secondary` | Glass (`bg-white/10 backdrop-blur`), white text, `font-semibold`, `py-5 px-8 rounded-xl`, white border | Secondary hero CTA |
-| `.btn-outline` | White bg, gray border, `text-gray-700 font-semibold`, `py-3 px-6 rounded-lg` | Tertiary actions |
-| `.primary-cta` | Inline gradient `#2563eb → #1d4ed8`, shimmer effect on hover | Hero primary CTA |
-| `.secondary-cta` | Translucent white bg, white border, backdrop blur | Hero secondary CTA |
-All buttons hover with `-translate-y-0.5` lift. `.btn-primary` and `.primary-cta` add shimmer pseudo-element on hover.
+Buttons are inline Tailwind utilities (the old `.btn-*`/`.primary-cta` CSS classes were dead code and removed). Patterns:
+
+| Button | Classes | Usage |
+|--------|---------|-------|
+| Primary (dark band) | `bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg py-3 px-6 sm:py-3.5 sm:px-7 transition-colors duration-150` | Hero primary CTA |
+| Ghost (dark band) | `bg-white/10 hover:bg-white/15 border border-white/25 hover:border-white/40 text-white font-medium rounded-lg` | Hero secondary CTA |
+| Primary (compact) | `bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm px-5 py-2.5 rounded-lg transition-colors` | CTA bars |
+
+No gradients, no glow shadows, no shimmer effects, no hover lift on buttons — color shift only. Institutional, calm.
 
 ### CTA Bar (compact)
 
@@ -397,9 +403,8 @@ Tailwind default breakpoints (mobile-first):
 | NavBar padding | `py-3 px-4` | `py-4 px-9` |
 | Logo height | `h-11` (44px) | `h-14` (56px) |
 | Brand font size | `text-2xl` | `text-[1.6rem]` |
-| Hero CTAs | Stacked, `max-w-xs items-stretch` | Side-by-side, `flex-row` |
+| Hero CTAs | Stacked, `max-w-xs items-stretch`, `text-sm py-3 px-6` | Side-by-side, `flex-row`, `sm:text-base sm:py-3.5 sm:px-7` |
 | Hero section padding | Reduced at ≤480px via CSS media query | `py-20 md:py-24` |
-| `.btn-primary` / `.btn-secondary` | `font-size: 0.875rem; padding: 1rem` (≤640px) | `text-lg py-5 px-10` |
 | `.theme-card` padding | `1rem` (≤480px), `1.25rem` (≤768px) | `1.5rem` |
 
 ### NavBar Mobile Menu
@@ -414,6 +419,26 @@ Tailwind default breakpoints (mobile-first):
 ## 8. Tailwind 4 Conventions
 
 Key patterns and gotchas specific to Tailwind CSS v4 (used in this project):
+
+### CSS Build Pipeline (no CDN)
+
+CSS is compiled ahead of time by `@tailwindcss/cli`:
+
+```
+src/index.css  --(npm run tailwind:build)-->  src/tailwind-output.css  --(imported by src/index.js)--> bundle
+```
+
+- `prestart`/`prebuild` hooks run the compile automatically for `npm start` / `npm run build`
+- During development run `npm run tailwind:watch` in a second terminal to pick up new utility classes live
+- `src/tailwind-output.css` is generated and gitignored — never edit it
+- The Tailwind Play CDN `<script>` was removed from `public/index.html` (it was dev-only tooling shipping to production); `tailwind.config.js` and `postcss.config.js` were deleted (v4 uses CSS-first config via `@theme`, and CRA ignores external postcss configs)
+
+### Design Tokens (`@theme` in index.css)
+
+- **Fonts:** `--font-sans` (Schibsted Grotesk Variable), `--font-mono` (IBM Plex Mono)
+- **Cobalt blue ramp:** `--color-blue-50` … `--color-blue-950` override Tailwind's default blue
+- **Navy ramp:** `--color-navy-600` … `--color-navy-950` (brand `#263552` = `navy-700`)
+- **Radius personality:** compact 4/6/8px — `--radius-md` 4px, `--radius-lg`/`--radius-xl` 6px, `--radius-2xl`/`--radius-3xl` capped at 8px so legacy `rounded-xl/2xl/3xl` markup converges on one look. Use `rounded-lg` going forward.
 
 ### CSS Class Specificity
 

@@ -40,12 +40,7 @@ const AboutPage = () => {
       </Helmet>
 
       {/* Hero */}
-      <section
-        className="relative py-16 md:py-24"
-        style={{
-          background: 'linear-gradient(135deg, #0a0f1c 0%, #1a202c 25%, #2d3748 100%)'
-        }}
-      >
+      <section className="bg-band-hero relative py-16 md:py-24">
         <Container size="wide">
           <div className="max-w-[800px] mx-auto text-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight animate-slideInUp">
@@ -206,9 +201,8 @@ const AboutPage = () => {
       <section
         id="cta"
         data-reveal
-        className="py-8 border-t border-white/10"
+        className="bg-band-dark py-8 border-t border-white/10"
         style={{
-          background: 'linear-gradient(135deg, #1e293b 0%, #0f172a 100%)',
           opacity: isVisible['cta'] ? 1 : 0,
           transform: isVisible['cta'] ? 'translateY(0)' : 'translateY(40px)',
           transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
