@@ -4,9 +4,12 @@
    RAI Scores — Global Styles & Design Tokens
 
    This file is compiled by @tailwindcss/cli into
-   src/tailwind-output.css (imported by src/index.js).
-   Run `npm run tailwind:watch` during development.
-   Never edit tailwind-output.css directly.
+   public/tw.css (linked in public/index.html). It must
+   stay OUT of webpack — CRA's production CSS minifier
+   mangles Tailwind 4 output (var() refs, @layer).
+   Run `npm run tailwind:watch` during development and
+   hard-refresh the browser to pick up CSS changes.
+   Never edit tw.css directly.
    ============================================ */
 
 @theme {
