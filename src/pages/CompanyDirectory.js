@@ -4,18 +4,10 @@ import { Search, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, X, Building2
 import { Helmet } from 'react-helmet';
 import LoadingSpinner from '../components/ui/LoadingSpinner';
 import ErrorMessage from '../components/ui/ErrorMessage';
+import PillarStrip from '../components/company/PillarStrip';
+import { getGradeFromScore } from '../utils/colorMapping';
 
 // --- Constants ---
-
-const PILLAR_NAMES = [
-  'Transparency',
-  'Fairness & Bias',
-  'Explainability',
-  'Human Oversight',
-  'Privacy & Data',
-  'Governance',
-  'External Accountability'
-];
 
 const SORT_OPTIONS = [
   { value: 'score-desc', label: 'Score (High to Low)' },
@@ -40,21 +32,6 @@ const GRADE_MIN_SCORES = { 'A': 12, 'B': 9, 'C': 7, 'D': 0 };
 
 // --- Helpers ---
 
-// Grade calculation — matches CompanyPage.js getGradeFromScore exactly
-function getGrade(score, max) {
-  const pct = (score / max) * 100;
-  if (pct >= 90) return 'A+';
-  if (pct >= 85) return 'A';
-  if (pct >= 80) return 'A-';
-  if (pct >= 75) return 'B+';
-  if (pct >= 70) return 'B';
-  if (pct >= 65) return 'B-';
-  if (pct >= 60) return 'C+';
-  if (pct >= 55) return 'C';
-  if (pct >= 50) return 'C-';
-  return 'D';
-}
-
 function getGradeBadgeClasses(grade) {
   if (grade.startsWith('A')) return 'bg-emerald-50 text-emerald-700/85 border-emerald-200';
   if (grade.startsWith('B')) return 'bg-blue-50 text-blue-700 border-blue-200';
@@ -63,34 +40,15 @@ function getGradeBadgeClasses(grade) {
 }
 
 function GradeBadge({ score, max }) {
-  const grade = getGrade(score, max);
+  const grade = getGradeFromScore(score, max);
   return (
-    <span className={`inline-block text-xs font-bold py-px rounded border leading-snug text-center w-7 ${getGradeBadgeClasses(grade)}`}>
+    <span className={`inline-block font-mono text-xs font-semibold py-px rounded border leading-snug text-center w-7 ${getGradeBadgeClasses(grade)}`}>
       {grade}
     </span>
   );
 }
 
 // --- Small Components ---
-
-function PillarDots({ scores }) {
-  if (!scores || scores.length === 0) return null;
-  return (
-    <div className="flex gap-1.5 items-center" aria-label="Pillar scores">
-      {scores.map((score, i) => (
-        <div
-          key={i}
-          title={`${PILLAR_NAMES[i]}: ${score === 2 ? 'Operational (2/2)' : score === 1 ? 'Policy (1/2)' : 'No Evidence (0/2)'}`}
-          className={`w-2 h-2 rounded-full ${
-            score === 2 ? 'bg-emerald-500' :
-            score === 1 ? 'bg-amber-500' :
-            'bg-gray-200'
-          }`}
-        />
-      ))}
-    </div>
-  );
-}
 
 function isSortActive(column, sortBy) {
   return {
@@ -248,11 +206,15 @@ function CompanyDirectory() {
 
         {/* --- Header --- */}
         <div className="mb-8">
+          <div className="font-mono text-[11px] font-medium uppercase tracking-[0.16em] text-slate-400 mb-2">
+            The Index
+          </div>
           <h1 className="text-slate-800 text-3xl font-bold tracking-tight mb-2">
             Company Directory
           </h1>
           <p className="text-slate-500 text-base">
-            {companies.length} companies evaluated &middot; Average score {averageScore}/14
+            <span className="font-mono text-slate-600">{companies.length}</span> companies evaluated
+            &middot; Average score <span className="font-mono text-slate-600">{averageScore}/14</span>
           </p>
         </div>
 
@@ -383,12 +345,16 @@ function CompanyDirectory() {
           </span>
         </div>
 
-        {/* --- Desktop Table (md+) --- */}
-        <div className="hidden md:block bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden mb-6">
+        {/* --- Desktop Table (md+) ---
+             No overflow-hidden on this wrapper: it would break the sticky
+             thead. top-[60px] clears the sticky NavBar. Header underline is
+             an inset shadow on the th cells (tr borders don't travel with a
+             sticky thead under border-collapse). */}
+        <div className="hidden md:block bg-white rounded-xl border border-gray-100 shadow-sm mb-6">
           <table className="w-full">
-            <thead className="sticky top-0 z-10">
-              <tr className="border-b-2 border-gray-200 bg-gray-50">
-                <th className="py-3 px-4 text-right text-xs font-semibold text-gray-500 uppercase tracking-wider w-14">
+            <thead className="sticky top-[60px] z-10">
+              <tr className="bg-gray-50 shadow-[inset_0_-2px_0_#e5e7eb]">
+                <th className="py-3 px-4 text-right text-xs font-semibold text-gray-500 uppercase tracking-wider w-14 rounded-tl-xl">
                   #
                 </th>
                 <th
@@ -410,14 +376,14 @@ function CompanyDirectory() {
                     Pillars
                     <span
                       className="inline-flex"
-                      title={"Each dot = 1 of 7 RAI pillars (fixed order: Transparency, Fairness, Explainability, Oversight, Privacy, Governance, External Accountability)\n\nGreen = Operational evidence (2/2)\nAmber = Policy-level only (1/2)\nGray = No documented evidence (0/2)\n\nHover individual dots to see pillar names."}
+                      title={"Each segment = 1 of 7 RAI pillars (fixed order: Transparency, Fairness, Explainability, Oversight, Privacy, Governance, External Accountability)\n\nTwo cells per pillar:\nBoth green = Operational evidence (2/2)\nOne amber = Policy-level only (1/2)\nBoth gray = No documented evidence (0/2)\n\nHover individual segments to see pillar names."}
                     >
                       <Info size={12} className="text-gray-400 hover:text-gray-600 cursor-help" />
                     </span>
                   </span>
                 </th>
                 <th
-                  className={`py-3 px-4 text-right text-xs font-semibold uppercase tracking-wider cursor-pointer hover:text-gray-800 select-none ${isSortActive('score', sortBy) ? 'text-gray-800' : 'text-gray-500'}`}
+                  className={`py-3 px-4 text-right text-xs font-semibold uppercase tracking-wider cursor-pointer hover:text-gray-800 select-none rounded-tr-xl ${isSortActive('score', sortBy) ? 'text-gray-800' : 'text-gray-500'}`}
                   onClick={() => handleColumnSort('score')}
                 >
                   Score
@@ -432,7 +398,7 @@ function CompanyDirectory() {
                   className="border-b border-gray-50 last:border-0 hover:bg-blue-50/40 transition-colors cursor-pointer"
                   onClick={(e) => handleRowClick(company.slug, e)}
                 >
-                  <td className="py-3 px-4 text-right text-sm text-gray-400 tabular-nums">
+                  <td className="py-3 px-4 text-right font-mono text-[13px] text-gray-400 tabular-nums">
                     {startIndex + index + 1}
                   </td>
                   <td className="py-3 px-4 max-w-[280px]">
@@ -450,12 +416,12 @@ function CompanyDirectory() {
                   </td>
                   <td className="py-3 px-4">
                     <div className="flex justify-center">
-                      <PillarDots scores={company.pillar_scores} />
+                      <PillarStrip pillarScores={company.pillar_scores} size="sm" />
                     </div>
                   </td>
                   <td className="py-3 px-4 text-right">
                     <span className="inline-flex items-center gap-2">
-                      <span className="text-sm font-semibold tabular-nums text-slate-700">
+                      <span className="font-mono text-sm font-semibold tabular-nums text-slate-700">
                         {company.score}<span className="text-gray-400 font-normal">/{company.max_score}</span>
                       </span>
                       <GradeBadge score={company.score} max={company.max_score} />
@@ -481,7 +447,7 @@ function CompanyDirectory() {
                   {company.name}
                 </span>
                 <span className="inline-flex items-center gap-1.5 ml-2">
-                  <span className="text-sm font-semibold tabular-nums text-slate-700">
+                  <span className="font-mono text-sm font-semibold tabular-nums text-slate-700">
                     {company.score}<span className="text-gray-400 font-normal">/{company.max_score}</span>
                   </span>
                   <GradeBadge score={company.score} max={company.max_score} />
@@ -489,7 +455,7 @@ function CompanyDirectory() {
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-xs text-gray-500">{company.industry}</span>
-                <PillarDots scores={company.pillar_scores} />
+                <PillarStrip pillarScores={company.pillar_scores} size="sm" />
               </div>
             </Link>
           ))}
