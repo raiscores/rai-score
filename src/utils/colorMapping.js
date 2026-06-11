@@ -129,6 +129,28 @@ export const getEvidenceTypeLabel = (bestEvidenceType) => {
 };
 
 /**
+ * Maps a total score to a letter grade (shared by company page, hero board,
+ * and featured cards — keep thresholds in ONE place)
+ *
+ * @param {number} score - Total score
+ * @param {number} max - Maximum possible score (default 14)
+ * @returns {string} - Letter grade (A+ … D)
+ */
+export const getGradeFromScore = (score, max = 14) => {
+  const pct = (score / max) * 100;
+  if (pct >= 90) return 'A+';
+  if (pct >= 85) return 'A';
+  if (pct >= 80) return 'A-';
+  if (pct >= 75) return 'B+';
+  if (pct >= 70) return 'B';
+  if (pct >= 65) return 'B-';
+  if (pct >= 60) return 'C+';
+  if (pct >= 55) return 'C';
+  if (pct >= 50) return 'C-';
+  return 'D';
+};
+
+/**
  * Maps letter grade to Tailwind text color
  *
  * @param {string} grade - Letter grade (A+, A, A-, B+, B, B-, C+, C, C-, D)

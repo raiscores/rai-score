@@ -18,7 +18,7 @@ import OverviewTab from '../components/company/tabs/OverviewTab';
 import MethodologyTab from '../components/company/tabs/MethodologyTab';
 import SourcesTab from '../components/company/tabs/SourcesTab';
 
-import { getGradeColor } from '../utils/colorMapping';
+import { getGradeColor, getGradeFromScore } from '../utils/colorMapping';
 
 import {
   Shield,
@@ -91,20 +91,6 @@ function CompanyPage() {
     privacy: Shield,
     governance: Building,
     external_accountability: Award,
-  };
-
-  const getGradeFromScore = (score, max) => {
-    const pct = (score / max) * 100;
-    if (pct >= 90) return 'A+';
-    if (pct >= 85) return 'A';
-    if (pct >= 80) return 'A-';
-    if (pct >= 75) return 'B+';
-    if (pct >= 70) return 'B';
-    if (pct >= 65) return 'B-';
-    if (pct >= 60) return 'C+';
-    if (pct >= 55) return 'C';
-    if (pct >= 50) return 'C-';
-    return 'D';
   };
 
   const formatMarketCap = (value) => {

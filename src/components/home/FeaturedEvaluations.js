@@ -2,6 +2,8 @@ import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import Container from '../Container';
+import PillarStrip from '../company/PillarStrip';
+import { getGradeFromScore, getGradeColor } from '../../utils/colorMapping';
 
 // Curated: household names, 6 industries, score range 9-14
 const FEATURED_SLUGS = [
@@ -22,13 +24,6 @@ const LOGO_FILES = {
   'walmart': '/logos/walmart.svg',
   'johnson-johnson': '/logos/johnson-johnson.svg',
 };
-
-function getBarColor(score) {
-  if (score >= 12) return 'bg-emerald-500';
-  if (score >= 9) return 'bg-blue-500';
-  if (score >= 5) return 'bg-amber-500';
-  return 'bg-red-500';
-}
 
 function getInitialColor(slug) {
   const colors = {
@@ -71,7 +66,7 @@ function CompanyLogo({ slug, name }) {
   );
 }
 
-function FeaturedEvaluations({ companies, totalCount, isVisible }) {
+function FeaturedEvaluations({ companies, totalCount }) {
   const featured = useMemo(() => {
     if (!companies || companies.length === 0) return [];
     return FEATURED_SLUGS
@@ -82,28 +77,28 @@ function FeaturedEvaluations({ companies, totalCount, isVisible }) {
   if (featured.length === 0) return null;
 
   return (
-    <section
-      id="featured-evaluations"
-      data-reveal
-      className="py-10 md:py-12 bg-slate-50"
-      style={{
-        opacity: isVisible ? 1 : 0,
-        transform: isVisible ? 'translateY(0)' : 'translateY(40px)',
-        transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
-      }}
-    >
+    <section id="featured-evaluations" className="py-12 md:py-16 bg-slate-50">
       <Container size="wide">
-        {/* Section header */}
-        <div className="text-center mb-8 max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-2">
-            Featured Evaluations
-          </h2>
-          <span className="inline-block text-xs bg-blue-50 text-blue-600 border border-blue-200 rounded-full px-2.5 py-0.5 mb-3">
-            Updated 2026
-          </span>
-          <p className="text-lg text-slate-600">
-            How leading companies score on responsible AI governance, based on publicly available evidence.
-          </p>
+        {/* Section header — left-aligned with view-all on the right */}
+        <div className="max-w-5xl mx-auto mb-8 flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <div className="font-mono text-[11px] font-medium uppercase tracking-[0.16em] text-slate-400 mb-2">
+              From the index
+            </div>
+            <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight mb-1.5">
+              Featured evaluations
+            </h2>
+            <p className="text-base text-slate-600 m-0">
+              How household names score on responsible AI governance.
+            </p>
+          </div>
+          <Link
+            to="/companies"
+            className="inline-flex items-center text-blue-600 font-semibold text-sm hover:text-blue-700 transition-colors no-underline shrink-0"
+          >
+            View all {totalCount} evaluations
+            <ArrowRight className="ml-1.5" size={16} />
+          </Link>
         </div>
 
         {/* Company cards grid */}
@@ -111,10 +106,7 @@ function FeaturedEvaluations({ companies, totalCount, isVisible }) {
           {featured.map((company) => {
             const score = company.score || 0;
             const maxScore = company.max_score || 14;
-            const percent = Math.round((score / maxScore) * 100);
-            const pillarCount = company.pillar_scores
-              ? Object.values(company.pillar_scores).filter(s => s > 0).length
-              : null;
+            const grade = getGradeFromScore(score, maxScore);
 
             return (
               <Link
@@ -127,40 +119,35 @@ function FeaturedEvaluations({ companies, totalCount, isVisible }) {
 
                 {/* Content column */}
                 <div className="flex-1 min-w-0">
-                  {/* Name + Score */}
+                  {/* Name + grade */}
                   <div className="flex items-start justify-between mb-1">
                     <h3 className="text-base font-bold text-slate-900 leading-tight truncate">
                       {company.display_name || company.name}
                     </h3>
-                    <span className="text-xl font-extrabold text-slate-800 ml-3 whitespace-nowrap">
-                      {score}/{maxScore}
+                    <span className={`font-mono text-lg font-bold ml-3 whitespace-nowrap ${getGradeColor(grade)}`}>
+                      {grade}
                     </span>
                   </div>
 
                   {/* Industry pill */}
-                  <div className="mb-3">
+                  <div className="mb-3.5">
                     <span className="inline-block text-xs font-medium text-slate-500 bg-slate-100 rounded-full px-2.5 py-0.5">
                       {company.industry}
                     </span>
                   </div>
 
-                  {/* Progress bar with label */}
-                  <div className="mb-2">
-                    <div className="text-[10px] font-semibold text-slate-500 uppercase tracking-wider mb-1">
-                      RAI Score
-                    </div>
-                    <div className="h-2.5 rounded-full bg-gray-100">
-                      <div
-                        className={`h-full rounded-full ${getBarColor(score)}`}
-                        style={{ width: `${percent}%` }}
-                      />
-                    </div>
+                  {/* Pillar strip + score */}
+                  <div className="flex items-center justify-between mb-3">
+                    <PillarStrip pillarScores={company.pillar_scores} size="sm" />
+                    <span className="font-mono text-sm font-semibold text-slate-700 tabular-nums">
+                      {score}<span className="font-normal text-slate-400">/{maxScore}</span>
+                    </span>
                   </div>
 
                   {/* Metadata + view link */}
                   <div className="flex items-center justify-between">
-                    <p className="text-xs text-slate-500 m-0">
-                      {pillarCount !== null ? `${pillarCount}/7 pillars` : '7 pillars'} · 2026
+                    <p className="font-mono text-[11px] text-slate-400 m-0">
+                      7 pillars · 2026
                     </p>
                     <span className="text-xs text-blue-500 font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200 sm:opacity-0 max-sm:opacity-100">
                       View evaluation →
@@ -170,17 +157,6 @@ function FeaturedEvaluations({ companies, totalCount, isVisible }) {
               </Link>
             );
           })}
-        </div>
-
-        {/* Bottom CTA */}
-        <div className="text-center mt-6">
-          <Link
-            to="/companies"
-            className="inline-flex items-center text-blue-600 font-semibold text-base hover:text-blue-700 transition-colors"
-          >
-            View all {totalCount} company evaluations
-            <ArrowRight className="ml-2" size={18} />
-          </Link>
         </div>
       </Container>
     </section>
