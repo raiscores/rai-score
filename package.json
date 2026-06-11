@@ -20,8 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "tailwind:build": "tailwindcss -i ./src/index.css -o ./src/tailwind-output.css",
-    "tailwind:watch": "tailwindcss -i ./src/index.css -o ./src/tailwind-output.css --watch",
+    "tailwind:build": "tailwindcss -i ./src/index.css -o ./public/tw.css --minify",
+    "tailwind:watch": "tailwindcss -i ./src/index.css -o ./public/tw.css --watch",
     "prestart": "npm run tailwind:build",
     "prebuild": "npm run tailwind:build",
     "start": "react-scripts start",

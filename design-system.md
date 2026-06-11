@@ -425,12 +425,13 @@ Key patterns and gotchas specific to Tailwind CSS v4 (used in this project):
 CSS is compiled ahead of time by `@tailwindcss/cli`:
 
 ```
-src/index.css  --(npm run tailwind:build)-->  src/tailwind-output.css  --(imported by src/index.js)--> bundle
+src/index.css  --(npm run tailwind:build)-->  public/tw.css  --(<link> in public/index.html)--> served verbatim
 ```
 
+- The compiled CSS deliberately bypasses webpack: CRA 5's production CSS minifier statically rewrites Tailwind 4's `var()` references and breaks colors/sizes (dev unaffected — this broke production on 2026-06-11). Files in `public/` are copied byte-for-byte.
 - `prestart`/`prebuild` hooks run the compile automatically for `npm start` / `npm run build`
-- During development run `npm run tailwind:watch` in a second terminal to pick up new utility classes live
-- `src/tailwind-output.css` is generated and gitignored — never edit it
+- During development run `npm run tailwind:watch` in a second terminal; hard-refresh to pick up changes (CRA doesn't hot-reload `public/`)
+- `public/tw.css` is generated and gitignored — never edit it
 - The Tailwind Play CDN `<script>` was removed from `public/index.html` (it was dev-only tooling shipping to production); `tailwind.config.js` and `postcss.config.js` were deleted (v4 uses CSS-first config via `@theme`, and CRA ignores external postcss configs)
 
 ### Design Tokens (`@theme` in index.css)
