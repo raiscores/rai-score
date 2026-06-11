@@ -1,5 +1,5 @@
 import React from 'react';
-import { getEvidenceTypeLabel, getScoreColor } from '../../utils/colorMapping';
+import { getEvidenceTypeLabel } from '../../utils/colorMapping';
 
 const PillarCard = ({
   name,
@@ -13,13 +13,17 @@ const PillarCard = ({
 }) => {
   const evidence = getEvidenceTypeLabel(bestEvidenceType);
   const isZero = score === 0;
-  const barWidth = max > 0 ? (score / max) * 100 : 0;
 
-  const getBarColor = (s) => {
-    if (s >= 2) return 'bg-green-500';
-    if (s >= 1) return 'bg-yellow-500';
-    return 'bg-gray-300';
-  };
+  // Discrete 2-cell score mark (matches PillarStrip color language)
+  const scoreCells =
+    score >= 2
+      ? ['bg-emerald-500', 'bg-emerald-500']
+      : score >= 1
+      ? ['bg-amber-400', 'bg-gray-200']
+      : ['bg-gray-200', 'bg-gray-200'];
+
+  const scoreInk =
+    score >= 2 ? 'text-emerald-700' : score >= 1 ? 'text-amber-700' : 'text-gray-500';
 
   const renderFindings = () => {
     if (!findings) {
@@ -47,11 +51,11 @@ const PillarCard = ({
         isZero ? 'border-red-200' : 'border-gray-200'
       }`}
     >
-      {/* Header: icon + name + evidence badge on left, score on right */}
-      <div className="flex items-center justify-between mb-3">
+      {/* Header: icon + name + evidence badge on left, score mark on right */}
+      <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-3 min-w-0">
-          <div className={`p-2 rounded-lg flex-shrink-0 ${evidence.bg}`}>
-            <Icon className={`w-5 h-5 ${isZero ? 'text-gray-400' : evidence.color}`} />
+          <div className="p-2 rounded-lg flex-shrink-0 bg-slate-100">
+            <Icon className={`w-5 h-5 ${isZero ? 'text-gray-400' : 'text-slate-600'}`} />
           </div>
           <h3 className="font-semibold text-gray-900">{name}</h3>
           <span
@@ -60,20 +64,15 @@ const PillarCard = ({
             {evidence.label}
           </span>
         </div>
-        <div className="text-right flex-shrink-0 ml-4">
-          <span className={`text-2xl font-bold ${getScoreColor(score)}`}>
-            {score}
+        <div className="flex items-center gap-2.5 flex-shrink-0 ml-4">
+          <span className="inline-flex gap-0.5" aria-hidden="true">
+            <span className={`w-3.5 h-2 rounded-[2px] ${scoreCells[0]}`} />
+            <span className={`w-3.5 h-2 rounded-[2px] ${scoreCells[1]}`} />
           </span>
-          <span className="text-sm text-gray-400">/{max}</span>
+          <span className={`font-mono text-lg font-semibold ${scoreInk}`}>
+            {score}<span className="text-sm font-normal text-gray-400">/{max}</span>
+          </span>
         </div>
-      </div>
-
-      {/* Progress bar */}
-      <div className="w-full bg-gray-100 rounded-full h-2 mb-4">
-        <div
-          className={`h-2 rounded-full transition-all duration-500 ${getBarColor(score)}`}
-          style={{ width: `${barWidth}%` }}
-        />
       </div>
 
       {/* Findings — always visible */}

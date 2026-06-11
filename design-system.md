@@ -86,8 +86,22 @@ Grade card pill background is `bg-white/70` for all grades. See `getGradeBg()` i
 |------|-------|------|------------|--------|
 | OPERATIONAL | "Operational" | `text-green-700` | `bg-green-50` | `border-green-200` |
 | POLICY | "Policy" | `text-yellow-700` | `bg-yellow-50` | `border-yellow-200` |
-| NARRATIVE | "Narrative Only" | `text-orange-700` | `bg-orange-50` | `border-orange-200` |
+| NARRATIVE | "Narrative Only" | `text-slate-600` | `bg-slate-100` | `border-slate-200` |
 | null/none | "No Evidence" | `text-red-700` | `bg-red-50` | `border-red-200` |
+
+NARRATIVE is neutral slate (it scores zero points — absence of weight, not warning). EvidenceBreakdownBar segments follow the same logic: emerald / amber / slate.
+
+### Pillar Score Marks (PillarStrip + PillarCard)
+
+Discrete cells, never continuous bars, for 0–2 pillar scores:
+
+| Score | Cells |
+|-------|-------|
+| 2/2 | `bg-emerald-500` + `bg-emerald-500` |
+| 1/2 | `bg-amber-400` + `bg-gray-200` |
+| 0/2 | `bg-gray-200` + `bg-gray-200` |
+
+`PillarStrip` (`src/components/company/PillarStrip.js`) renders all 7 pillars as the site's signature score mark (rating seal; directory/homepage planned). PillarCard headers use a single 2-cell mark with score ink `text-emerald-700` / `text-amber-700` / `text-gray-500`.
 
 ### Score Bar Tiers (Homepage Featured Cards)
 
