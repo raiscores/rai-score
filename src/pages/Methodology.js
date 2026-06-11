@@ -3,32 +3,21 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { ArrowRight, BarChart3, Info } from 'lucide-react';
 import Container from '../components/Container';
+import SectionHeader from '../components/ui/SectionHeader';
 import {
   frameworkCards, scoringTiers, starRatings, gradeRanges,
   pillars, sourceTiers, processSteps, limitations, anchorLinks
 } from '../data/methodologyContent';
 
+// Cell marks matching the PillarStrip color language, keyed by tier score
+const TIER_CELLS = {
+  '2/2': ['bg-emerald-500', 'bg-emerald-500'],
+  '1/2': ['bg-amber-400', 'bg-gray-200'],
+  '0/2': ['bg-gray-200', 'bg-gray-200'],
+};
+
 function Methodology() {
-  const [isVisible, setIsVisible] = useState({});
   const [activeAnchor, setActiveAnchor] = useState('');
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setIsVisible(prev => ({ ...prev, [entry.target.id]: true }));
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    const sections = document.querySelectorAll('[data-reveal]');
-    sections.forEach((section) => observer.observe(section));
-
-    return () => observer.disconnect();
-  }, []);
 
   // Update active anchor on scroll
   useEffect(() => {
@@ -47,12 +36,6 @@ function Methodology() {
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  const revealStyle = (id) => ({
-    opacity: isVisible[id] ? 1 : 0,
-    transform: isVisible[id] ? 'translateY(0)' : 'translateY(40px)',
-    transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
-  });
 
   return (
     <div className="min-h-screen bg-white">
@@ -87,7 +70,7 @@ function Methodology() {
       </section>
 
       {/* Anchor Navigation */}
-      <nav className="sticky top-[89px] z-30 bg-white/80 backdrop-blur border-b border-gray-200">
+      <nav className="sticky top-[60px] z-30 bg-white/80 backdrop-blur border-b border-gray-200">
         <Container size="wide">
           <div className="max-w-5xl mx-auto flex gap-6 overflow-x-auto scrollbar-hide py-3">
             {anchorLinks.map((link) => (
@@ -108,24 +91,14 @@ function Methodology() {
       </nav>
 
       {/* Framework Overview */}
-      <section
-        id="framework"
-        data-reveal
-        className="py-12 md:py-16 bg-white scroll-mt-[140px]"
-        style={revealStyle('framework')}
-      >
+      <section id="framework" className="py-12 md:py-16 bg-white scroll-mt-[112px]">
         <Container size="wide">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-10">
-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
-                Framework Overview
-              </h2>
-              <p className="text-slate-600 max-w-3xl mx-auto">
-                RAI Scores evaluates Fortune 500 companies across 15 industries using a
-                consistent, evidence-based framework. Every assessment follows the same
-                process and criteria.
-              </p>
-            </div>
+            <SectionHeader eyebrow="Framework" title="Framework Overview">
+              RAI Scores evaluates Fortune 500 companies across 15 industries using a
+              consistent, evidence-based framework. Every assessment follows the same
+              process and criteria.
+            </SectionHeader>
 
             <div className="grid md:grid-cols-3 gap-5 mb-8">
               {frameworkCards.map((card, index) => {
@@ -157,42 +130,41 @@ function Methodology() {
       </section>
 
       {/* Scoring System */}
-      <section
-        id="scoring"
-        data-reveal
-        className="py-12 md:py-16 bg-slate-50 scroll-mt-[140px]"
-        style={revealStyle('scoring')}
-      >
+      <section id="scoring" className="py-12 md:py-16 bg-slate-50 scroll-mt-[112px]">
         <Container size="wide">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-10">
-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
-                Evidence-Type Scoring
-              </h2>
-              <p className="text-slate-600 max-w-3xl mx-auto">
-                Each of the seven pillars is scored 0&ndash;2 based on the strongest type of
-                public evidence found. The distinction is between what a company says
-                and what a company demonstrably does.
-              </p>
-            </div>
+            <SectionHeader eyebrow="Scoring" title="Evidence-Type Scoring">
+              Each of the seven pillars is scored 0&ndash;2 based on the strongest type of
+              public evidence found. The distinction is between what a company says
+              and what a company demonstrably does.
+            </SectionHeader>
 
-            {/* Evidence Tier Cards */}
+            {/* Evidence Tier Cards — cell marks match the PillarStrip language */}
             <div className="grid md:grid-cols-3 gap-5 mb-8">
-              {scoringTiers.map((tier, index) => (
-                <div key={index} className={`rounded-xl p-5 border ${tier.borderClass} ${tier.bgClass}`}>
-                  <div className={`text-xl font-bold mb-2 ${tier.colorClass}`}>
-                    {tier.score}
+              {scoringTiers.map((tier, index) => {
+                const cells = TIER_CELLS[tier.score] || TIER_CELLS['0/2'];
+                return (
+                  <div key={index} className={`rounded-xl p-5 border ${tier.borderClass} ${tier.bgClass}`}>
+                    <div className="flex items-center justify-between mb-3">
+                      <span className="inline-flex gap-0.5" aria-hidden="true">
+                        <span className={`w-3.5 h-2 rounded-[2px] ${cells[0]}`} />
+                        <span className={`w-3.5 h-2 rounded-[2px] ${cells[1]}`} />
+                      </span>
+                      <span className={`font-mono text-lg font-semibold ${tier.colorClass}`}>
+                        {tier.score}
+                      </span>
+                    </div>
+                    <h3 className="font-semibold text-slate-900 mb-2">{tier.title}</h3>
+                    <p className="text-sm text-slate-600 leading-relaxed mb-3">{tier.description}</p>
+                    {tier.example && (
+                      <p className="text-xs text-slate-500 italic">{tier.example}</p>
+                    )}
+                    {tier.note && (
+                      <p className="text-xs text-slate-500">{tier.note}</p>
+                    )}
                   </div>
-                  <h3 className="font-semibold text-slate-900 mb-2">{tier.title}</h3>
-                  <p className="text-sm text-slate-600 leading-relaxed mb-3">{tier.description}</p>
-                  {tier.example && (
-                    <p className="text-xs text-slate-500 italic">{tier.example}</p>
-                  )}
-                  {tier.note && (
-                    <p className="text-xs text-slate-500">{tier.note}</p>
-                  )}
-                </div>
-              ))}
+                );
+              })}
             </div>
 
             {/* Best evidence wins */}
@@ -221,7 +193,7 @@ function Methodology() {
               <p className="text-sm text-slate-600 mb-3">
                 Total score = sum of all seven pillar scores
               </p>
-              <div className="inline-block bg-blue-100 text-blue-800 px-5 py-2 rounded-lg font-semibold text-sm">
+              <div className="inline-block bg-blue-100 text-blue-800 px-5 py-2 rounded-lg font-mono font-semibold text-sm">
                 Maximum: 14 points (2 &times; 7 pillars)
               </div>
             </div>
@@ -234,7 +206,7 @@ function Methodology() {
                   {starRatings.map((item, index) => (
                     <div key={index} className="flex items-center justify-between bg-slate-50 rounded-lg px-4 py-2">
                       <span className="text-amber-600 font-medium">{item.stars}</span>
-                      <span className="text-slate-600 text-sm">{item.range}</span>
+                      <span className="font-mono text-slate-600 text-sm">{item.range}</span>
                     </div>
                   ))}
                 </div>
@@ -245,10 +217,10 @@ function Methodology() {
                   {gradeRanges.map((item, index) => (
                     <div key={index} className="flex items-center justify-between bg-slate-50 rounded-lg px-4 py-2">
                       <div>
-                        <span className={`font-semibold ${item.colorClass}`}>{item.grade}</span>
+                        <span className={`font-mono font-semibold ${item.colorClass}`}>{item.grade}</span>
                         <span className="text-slate-400 text-xs ml-2">({item.variants})</span>
                       </div>
-                      <span className="text-slate-600 text-sm">{item.threshold}</span>
+                      <span className="font-mono text-slate-600 text-sm">{item.threshold}</span>
                     </div>
                   ))}
                 </div>
@@ -259,23 +231,13 @@ function Methodology() {
       </section>
 
       {/* Seven Pillars */}
-      <section
-        id="pillars"
-        data-reveal
-        className="py-12 md:py-16 bg-white scroll-mt-[140px]"
-        style={revealStyle('pillars')}
-      >
+      <section id="pillars" className="py-12 md:py-16 bg-white scroll-mt-[112px]">
         <Container size="wide">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-10">
-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
-                Seven Pillars of Responsible AI
-              </h2>
-              <p className="text-slate-600 max-w-3xl mx-auto">
-                Each pillar represents a fundamental aspect of responsible AI development
-                and deployment. Companies are assessed across all seven.
-              </p>
-            </div>
+            <SectionHeader eyebrow="Pillars" title="Seven Pillars of Responsible AI">
+              Each pillar represents a fundamental aspect of responsible AI development
+              and deployment. Companies are assessed across all seven.
+            </SectionHeader>
 
             {/* Row 1: 4 pillars */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-5">
@@ -317,24 +279,14 @@ function Methodology() {
       </section>
 
       {/* Source Tiers & Process */}
-      <section
-        id="sources"
-        data-reveal
-        className="py-12 md:py-16 bg-slate-50 scroll-mt-[140px]"
-        style={revealStyle('sources')}
-      >
+      <section id="sources" className="py-12 md:py-16 bg-slate-50 scroll-mt-[112px]">
         <Container size="wide">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-10">
-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
-                Source Tiers & Evaluation Process
-              </h2>
-              <p className="text-slate-600 max-w-3xl mx-auto">
-                Not all sources carry equal weight. Evidence is gathered from public
-                sources, classified by tier, and scored deterministically against each
-                pillar's criteria.
-              </p>
-            </div>
+            <SectionHeader eyebrow="Sources" title="Source Tiers & Evaluation Process">
+              Not all sources carry equal weight. Evidence is gathered from public
+              sources, classified by tier, and scored deterministically against each
+              pillar's criteria.
+            </SectionHeader>
 
             <div className="grid md:grid-cols-2 gap-8">
               {/* Source Tiers */}
@@ -382,23 +334,13 @@ function Methodology() {
       </section>
 
       {/* Limitations */}
-      <section
-        id="limitations"
-        data-reveal
-        className="py-12 md:py-16 bg-white scroll-mt-[140px]"
-        style={revealStyle('limitations')}
-      >
+      <section id="limitations" className="py-12 md:py-16 bg-white scroll-mt-[112px]">
         <Container size="wide">
           <div className="max-w-3xl mx-auto">
-            <div className="text-center mb-8">
-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
-                Limitations
-              </h2>
-              <p className="text-slate-600">
-                We publish our limitations because transparency about what scores cannot
-                tell you is as important as the scores themselves.
-              </p>
-            </div>
+            <SectionHeader eyebrow="Limitations" title="Limitations" narrow>
+              We publish our limitations because transparency about what scores cannot
+              tell you is as important as the scores themselves.
+            </SectionHeader>
 
             <div className="space-y-4 mb-8">
               {limitations.map((item, index) => (
@@ -411,7 +353,7 @@ function Methodology() {
               ))}
             </div>
 
-            <p className="text-center text-sm text-slate-400">
+            <p className="font-mono text-xs text-slate-400">
               Methodology v1.0 &middot; Assessments published February 2026
             </p>
           </div>
@@ -419,16 +361,7 @@ function Methodology() {
       </section>
 
       {/* CTA Bar */}
-      <section
-        id="cta"
-        data-reveal
-        className="bg-band-dark py-8 border-t border-white/10"
-        style={{
-          opacity: isVisible['cta'] ? 1 : 0,
-          transform: isVisible['cta'] ? 'translateY(0)' : 'translateY(40px)',
-          transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
-        }}
-      >
+      <section id="cta" className="bg-band-dark py-8 border-t border-white/10">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5 px-6 text-center">
           <p className="text-white/80 text-base m-0">
             See how Fortune 500 companies score on responsible AI governance.

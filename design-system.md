@@ -519,15 +519,9 @@ In CSS media queries, using `padding` shorthand kills all specific padding prope
 
 ## 9. Animations
 
-### Scroll Reveal (Intersection Observer)
+### Scroll Reveal — REMOVED site-wide (June 2026)
 
-Used by About and Methodology page sections. (Removed from Home in the June 2026 redesign — homepage content renders immediately; only the hero load stagger remains.) Sections use `data-reveal` attribute and `id` for tracking:
-
-```css
-opacity: 0 → 1;
-transform: translateY(40px) → translateY(0);
-transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-```
+The IntersectionObserver section-reveal pattern (40px/0.8s fade-up per section) was removed from every page during the redesign: content must render immediately (snapshots, SEO, fast scrollers). The only entrance motion is the hero load stagger (`animate-slideInUp`, 0–0.24s delays). Don't reintroduce per-section reveals.
 
 ### Keyframe Animations
 
@@ -557,7 +551,7 @@ This document covers global patterns. For detailed page-level implementation:
 - **Homepage:** [`docs/homepage-design-spec.md`](docs/homepage-design-spec.md) — hero, featured evaluations, methodology preview, audience, CTA, responsive CTA decisions, proof strip
 - **Company Page:** [`docs/company-page-requirements.md`](docs/company-page-requirements.md) — hero layout, grade card, tab system, pillar cards, sidebar, zero-score handling, evidence bar
 - **Company Directory:** [`docs/company-directory-requirements.md`](docs/company-directory-requirements.md) — table design, filters, search, pagination, pillar dots, grade badges, top performers
-- **About, Methodology, Contact:** Follow the shared page pattern: dark gradient hero (`Container wide`, `max-w-[800px]` inner), body sections (`Container wide`, `max-w-5xl` for card grids, `max-w-3xl` for prose), compact CTA bar. Content data files in `src/data/aboutContent.js` and `src/data/methodologyContent.js`.
+- **About, Methodology, Contact:** Follow the shared page pattern: `.bg-band-hero` hero (`Container wide`, `max-w-[800px]` inner), body sections (`Container wide`, `max-w-5xl` for card grids, `max-w-3xl` for prose) with left-aligned `SectionHeader` (mono eyebrow — `src/components/ui/SectionHeader.js`), compact CTA bar. Methodology's sticky anchor nav sits at `top-[60px]` (NavBar height) with sections at `scroll-mt-[112px]`. Content data files in `src/data/aboutContent.js` and `src/data/methodologyContent.js`.
 
 ---
 
