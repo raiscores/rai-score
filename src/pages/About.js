@@ -1,37 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Container from '../components/Container';
+import SectionHeader from '../components/ui/SectionHeader';
 import { howItWorksCards, principles } from '../data/aboutContent';
 
 const AboutPage = () => {
-  const [isVisible, setIsVisible] = useState({});
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setIsVisible(prev => ({ ...prev, [entry.target.id]: true }));
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    const sections = document.querySelectorAll('[data-reveal]');
-    sections.forEach((section) => observer.observe(section));
-
-    return () => observer.disconnect();
-  }, []);
-
-  const revealStyle = (id) => ({
-    opacity: isVisible[id] ? 1 : 0,
-    transform: isVisible[id] ? 'translateY(0)' : 'translateY(40px)',
-    transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
-  });
-
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
@@ -71,17 +46,10 @@ const AboutPage = () => {
       </section>
 
       {/* Why This Exists */}
-      <section
-        id="why"
-        data-reveal
-        className="py-12 md:py-16 bg-white"
-        style={revealStyle('why')}
-      >
+      <section id="why" className="py-12 md:py-16 bg-white">
         <Container size="wide">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-8 text-center">
-              Why RAI Scores Exists
-            </h2>
+            <SectionHeader eyebrow="Mission" title="Why RAI Scores Exists" narrow />
             <div className="space-y-5 text-base md:text-lg text-slate-700 leading-relaxed">
               <p>
                 AI systems already influence who gets approved for a loan, which resumes
@@ -106,23 +74,13 @@ const AboutPage = () => {
       </section>
 
       {/* How It Works */}
-      <section
-        id="how-it-works"
-        data-reveal
-        className="py-12 md:py-16 bg-slate-50"
-        style={revealStyle('how-it-works')}
-      >
+      <section id="how-it-works" className="py-12 md:py-16 bg-slate-50">
         <Container size="wide">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-10">
-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
-                How It Works
-              </h2>
-              <p className="text-slate-600">
-                A brief overview &mdash; for full technical details, see our{' '}
-                <Link to="/methodology" className="text-blue-600 hover:text-blue-800 font-medium">methodology</Link>.
-              </p>
-            </div>
+            <SectionHeader eyebrow="Process" title="How It Works">
+              A brief overview &mdash; for full technical details, see our{' '}
+              <Link to="/methodology" className="text-blue-600 hover:text-blue-800 font-medium">methodology</Link>.
+            </SectionHeader>
 
             {/* Row 1: first 3 cards */}
             <div className="grid md:grid-cols-3 gap-5 mb-5">
@@ -170,17 +128,10 @@ const AboutPage = () => {
       </section>
 
       {/* Principles */}
-      <section
-        id="principles"
-        data-reveal
-        className="py-12 md:py-16 bg-white"
-        style={revealStyle('principles')}
-      >
+      <section id="principles" className="py-12 md:py-16 bg-white">
         <Container size="wide">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-8 text-center">
-              What Guides Our Evaluations
-            </h2>
+            <SectionHeader eyebrow="Principles" title="What Guides Our Evaluations" narrow />
 
             <div className="space-y-6">
               {principles.map((principle, index) => (
@@ -198,16 +149,7 @@ const AboutPage = () => {
       </section>
 
       {/* CTA Bar */}
-      <section
-        id="cta"
-        data-reveal
-        className="bg-band-dark py-8 border-t border-white/10"
-        style={{
-          opacity: isVisible['cta'] ? 1 : 0,
-          transform: isVisible['cta'] ? 'translateY(0)' : 'translateY(40px)',
-          transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
-        }}
-      >
+      <section id="cta" className="bg-band-dark py-8 border-t border-white/10">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5 px-6 text-center">
           <p className="text-white/80 text-base m-0">
             Evaluating 482 Fortune 500 companies across 15 industries.
