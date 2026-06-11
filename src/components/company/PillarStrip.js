@@ -45,6 +45,14 @@ function cellColors(score, onDark) {
   return [empty, empty];
 }
 
+// Compact variant: ONE square per pillar — color alone carries the 0/1/2
+// signal (used in dense table rows where the two-cell pairs read as noise)
+function compactColor(score, onDark) {
+  if (score >= 2) return 'bg-emerald-500';
+  if (score >= 1) return 'bg-amber-400';
+  return onDark ? 'bg-white/20' : 'bg-gray-200';
+}
+
 /**
  * Accepts either shape:
  *  - assessment object: { transparency: { score, max_score, display_name }, ... }
@@ -74,7 +82,7 @@ function normalize(pillarScores) {
   });
 }
 
-const PillarStrip = ({ pillarScores, size = 'md', onDark = false, onPillarClick, className = '' }) => {
+const PillarStrip = ({ pillarScores, size = 'md', compact = false, onDark = false, onPillarClick, className = '' }) => {
   if (!pillarScores) return null;
 
   const s = SIZES[size] || SIZES.md;
@@ -82,7 +90,7 @@ const PillarStrip = ({ pillarScores, size = 'md', onDark = false, onPillarClick,
 
   return (
     <div
-      className={`inline-flex items-center ${s.groupGap} ${className}`}
+      className={`inline-flex items-center ${compact ? 'gap-1.5' : s.groupGap} ${className}`}
       role="img"
       aria-label="Pillar scores"
     >
@@ -90,7 +98,9 @@ const PillarStrip = ({ pillarScores, size = 'md', onDark = false, onPillarClick,
         const [c1, c2] = cellColors(score, onDark);
         const label = `${name}: ${score}/${max}`;
 
-        const cells = (
+        const cells = compact ? (
+          <span className={`w-2 h-2 rounded-[2px] ${compactColor(score, onDark)}`} />
+        ) : (
           <span className={`inline-flex ${s.cellGap}`}>
             <span className={`${s.cell} rounded-[2px] ${c1}`} />
             <span className={`${s.cell} rounded-[2px] ${c2}`} />
