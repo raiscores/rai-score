@@ -8,6 +8,8 @@ import Methodology from './pages/Methodology';
 import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
 import ComingSoon from './pages/ComingSoon';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
 import Footer from './components/Footer'; 
 import ScrollToTop from './components/ScrollToTop';
 import ReactGA from "react-ga4"; // Google Analytics Library
@@ -35,10 +37,10 @@ function App() {
           <Route path="/methodology" element={<Methodology />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
           {/* Under-construction routes */}
 		  <Route path="/coming-soon" element={<ComingSoon />} />
-          <Route path="/privacy" element={<ComingSoon />} />
-          <Route path="/terms" element={<ComingSoon />} />
           <Route path="/blog" element={<ComingSoon />} />
           <Route path="/faq" element={<ComingSoon />} />
           {/* Catch-all: */}
