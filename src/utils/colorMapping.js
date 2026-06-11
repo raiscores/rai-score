@@ -120,7 +120,9 @@ export const getEvidenceTypeLabel = (bestEvidenceType) => {
     case 'POLICY':
       return { label: 'Policy', color: 'text-yellow-700', bg: 'bg-yellow-50', border: 'border-yellow-200' };
     case 'NARRATIVE':
-      return { label: 'Narrative Only', color: 'text-orange-700', bg: 'bg-orange-50', border: 'border-orange-200' };
+      // Narrative evidence scores zero points — neutral slate (absence of
+      // scoring weight), consistent with EvidenceBreakdownBar
+      return { label: 'Narrative Only', color: 'text-slate-600', bg: 'bg-slate-100', border: 'border-slate-200' };
     default:
       return { label: 'No Evidence', color: 'text-red-700', bg: 'bg-red-50', border: 'border-red-200' };
   }

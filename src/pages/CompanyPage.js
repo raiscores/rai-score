@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 import StarRating from '../components/StarRating';
 import ShareButton from '../components/ShareButton';
 import StrengthsGapsChips from '../components/company/StrengthsGapsChips';
+import PillarStrip from '../components/company/PillarStrip';
 
 import { useCompanyData } from '../hooks/useCompanyData';
 import {
@@ -17,10 +18,7 @@ import OverviewTab from '../components/company/tabs/OverviewTab';
 import MethodologyTab from '../components/company/tabs/MethodologyTab';
 import SourcesTab from '../components/company/tabs/SourcesTab';
 
-import {
-  getGradeColor,
-  getGradeBg,
-} from '../utils/colorMapping';
+import { getGradeColor } from '../utils/colorMapping';
 
 import {
   Shield,
@@ -131,7 +129,12 @@ function CompanyPage() {
 
   const overallGrade = getGradeFromScore(totalScore, maxScore);
   const gradeColor = getGradeColor(overallGrade);
-  const gradeBg = getGradeBg(overallGrade);
+
+  const ordinal = (n) => {
+    const s = ['th', 'st', 'nd', 'rd'];
+    const v = n % 100;
+    return n + (s[(v - 20) % 10] || s[v] || s[0]);
+  };
 
   const overallFindings = companyData.overall_findings || '';
 
@@ -357,42 +360,68 @@ function CompanyPage() {
 
             </div>
 
-            {/* Right: Grade card — shows first on mobile */}
-            <div className="lg:w-56 flex-shrink-0 order-1 lg:order-2">
-              <div
-                className={`rounded-2xl p-6 text-center border ${gradeBg.gradient} ${gradeBg.border}`}
-              >
-                <div className={`text-6xl font-bold mb-2 ${gradeColor}`}>
+            {/* Right: Rating seal — shows first on mobile */}
+            <div className="lg:w-64 flex-shrink-0 order-1 lg:order-2">
+              <div className="bg-white rounded-xl border border-gray-200 shadow-md p-5">
+                {/* Eyebrow */}
+                <div className="flex items-center justify-between mb-5">
+                  <span className="font-mono text-[10px] font-medium uppercase tracking-[0.14em] text-gray-400">
+                    RAI Rating
+                  </span>
+                  {publishedYear && (
+                    <span className="font-mono text-[10px] text-gray-400">{publishedYear}</span>
+                  )}
+                </div>
+
+                {/* Grade */}
+                <div className={`text-7xl font-bold leading-none text-center mb-3 ${gradeColor}`}>
                   {overallGrade}
                 </div>
-                <div className="flex justify-center mb-4">
-                  <StarRating rating={companyData.star_rating ?? 0} />
+
+                {/* Stars */}
+                <div className="flex justify-center mb-2">
+                  <StarRating rating={companyData.star_rating ?? 0} size={20} />
                 </div>
-                <div className="text-sm text-gray-600 mb-3">
-                  {totalScore}/{maxScore} total score
+
+                {/* Score */}
+                <div className="font-mono text-sm text-center text-gray-700 mb-5">
+                  {totalScore}/{maxScore}
+                  <span className="text-gray-400"> total score</span>
                 </div>
-                <div className="w-full bg-white/40 rounded-full h-1.5 mb-4">
-                  <div
-                    className={`h-1.5 rounded-full ${gradeBg.barColor}`}
-                    style={{ width: `${(totalScore / maxScore) * 100}%` }}
-                  />
-                </div>
-                <div className="grid grid-cols-2 gap-3 text-sm">
-                  <div className={`${gradeBg.pillBg} rounded-lg p-2`}>
-                    <div className={`font-semibold ${gradeColor}`}>
-                      #{companyDetails?.industry_rank || 'N/A'}
+
+                {/* Pillar strip */}
+                {companyData.pillar_scores && (
+                  <div className="text-center mb-5">
+                    <PillarStrip pillarScores={companyData.pillar_scores} size="md" />
+                    <div className="font-mono text-[10px] uppercase tracking-wider text-gray-400 mt-1.5">
+                      7 pillars · 2 pts each
                     </div>
-                    <div className="text-xs text-gray-600">Industry Rank</div>
                   </div>
-                  <div className={`${gradeBg.pillBg} rounded-lg p-2`}>
-                    <div className={`font-semibold ${gradeColor}`}>
-                      {companyDetails?.industry_percentile
-                        ? `${companyDetails.industry_percentile}%`
-                        : 'N/A'}
-                    </div>
-                    <div className="text-xs text-gray-600">Percentile</div>
+                )}
+
+                {/* Industry context — `> 0` comparisons avoid JSX rendering literal 0s */}
+                {(companyDetails?.industry_rank > 0 || companyDetails?.industry_percentile > 0) && (
+                  <div className="text-[13px] text-center text-gray-600">
+                    {companyDetails?.industry_rank > 0 && (
+                      <span>#{companyDetails.industry_rank} in industry</span>
+                    )}
+                    {companyDetails?.industry_rank > 0 && companyDetails?.industry_percentile > 0 && (
+                      <span className="text-gray-300"> · </span>
+                    )}
+                    {companyDetails?.industry_percentile > 0 && (
+                      <span>{ordinal(companyDetails.industry_percentile)} percentile</span>
+                    )}
                   </div>
-                </div>
+                )}
+
+                {/* Trust stamp */}
+                {(sourcesUsed > 0 || evidenceItems > 0) && (
+                  <div className="border-t border-gray-100 mt-4 pt-3 font-mono text-[10px] text-center text-gray-400">
+                    {sourcesUsed ? `${sourcesUsed} sources` : ''}
+                    {sourcesUsed && evidenceItems ? ' · ' : ''}
+                    {evidenceItems ? `${evidenceItems} evidence items` : ''}
+                  </div>
+                )}
               </div>
             </div>
           </div>
