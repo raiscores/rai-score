@@ -376,7 +376,7 @@ function CompanyDirectory() {
                     Pillars
                     <span
                       className="inline-flex"
-                      title={"Each segment = 1 of 7 RAI pillars (fixed order: Transparency, Fairness, Explainability, Oversight, Privacy, Governance, External Accountability)\n\nTwo cells per pillar:\nBoth green = Operational evidence (2/2)\nOne amber = Policy-level only (1/2)\nBoth gray = No documented evidence (0/2)\n\nHover individual segments to see pillar names."}
+                      title={"Each square = 1 of 7 RAI pillars (fixed order: Transparency, Fairness, Explainability, Oversight, Privacy, Governance, External Accountability)\n\nGreen = Operational evidence (2/2)\nAmber = Policy-level only (1/2)\nGray = No documented evidence (0/2)\n\nHover individual squares to see pillar names."}
                     >
                       <Info size={12} className="text-gray-400 hover:text-gray-600 cursor-help" />
                     </span>
@@ -416,7 +416,7 @@ function CompanyDirectory() {
                   </td>
                   <td className="py-3 px-4">
                     <div className="flex justify-center">
-                      <PillarStrip pillarScores={company.pillar_scores} size="sm" />
+                      <PillarStrip pillarScores={company.pillar_scores} size="sm" compact />
                     </div>
                   </td>
                   <td className="py-3 px-4 text-right">
@@ -455,7 +455,7 @@ function CompanyDirectory() {
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-xs text-gray-500">{company.industry}</span>
-                <PillarStrip pillarScores={company.pillar_scores} size="sm" />
+                <PillarStrip pillarScores={company.pillar_scores} size="sm" compact />
               </div>
             </Link>
           ))}

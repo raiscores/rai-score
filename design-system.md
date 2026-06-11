@@ -116,7 +116,7 @@ Discrete cells, never continuous bars, for 0–2 pillar scores:
 
 ### Pillar Marks (Company Directory)
 
-Directory rows use `PillarStrip size="sm"` (June 2026 — replaced the single-dot-per-pillar display; see "Pillar Score Marks" below for cell colors). Score/rank/grade columns are IBM Plex Mono; the table header is sticky at `top-[60px]` (NavBar height) — its wrapper must NOT have `overflow-hidden`, and the header underline is an inset shadow on the row (tr borders don't travel with a sticky thead).
+Directory rows use `PillarStrip size="sm" compact` — ONE square per pillar (emerald 2/2 · amber 1/2 · gray 0/2). The two-cell pairs are reserved for surfaces that teach the scale (rating seal, homepage board, featured cards); in a 50-row table, color alone carries the signal. Score/rank/grade columns are IBM Plex Mono; the table header is sticky at `top-[60px]` (NavBar height) — its wrapper must NOT have `overflow-hidden`, and the header underline is an inset shadow on the row (tr borders don't travel with a sticky thead).
 
 ### UI Neutrals
 
