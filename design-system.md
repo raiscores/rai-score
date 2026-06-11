@@ -152,7 +152,7 @@ Fallbacks: system stack (sans), `ui-monospace`/Consolas (mono). Defined as `--fo
 
 ### Brand Text
 
-NavBar brand: `font-extrabold text-[#263552] tracking-tight text-[1.6rem]` (desktop), `text-2xl` (mobile). Text content: "RAI SCORES" (uppercase).
+NavBar brand: `font-bold text-[#263552] tracking-tight text-xl` (desktop), `text-lg` (mobile), logo `h-9`/`h-8`. Text content: "RAI SCORES" (uppercase). Nav links are mixed-case `text-sm font-medium text-slate-600`; the active route gets `text-slate-900` + a 2px cobalt underline (`border-blue-600` via `NavLink`). "Request Evaluation" is a quiet bordered button (`border-slate-300 rounded-lg`), the only button in the nav.
 
 ### Text Styling
 
@@ -400,18 +400,18 @@ Tailwind default breakpoints (mobile-first):
 
 | Element | Mobile | Desktop |
 |---------|--------|---------|
-| NavBar padding | `py-3 px-4` | `py-4 px-9` |
-| Logo height | `h-11` (44px) | `h-14` (56px) |
-| Brand font size | `text-2xl` | `text-[1.6rem]` |
+| NavBar padding | `py-2.5` | `md:py-3` (container-wide horizontal padding) |
+| Logo height | `h-8` (32px) | `h-9` (36px) |
+| Brand font size | `text-lg` | `text-xl` |
 | Hero CTAs | Stacked, `max-w-xs items-stretch`, `text-sm py-3 px-6` | Side-by-side, `flex-row`, `sm:text-base sm:py-3.5 sm:px-7` |
 | Hero section padding | Reduced at ≤480px via CSS media query | `py-20 md:py-24` |
 | `.theme-card` padding | `1rem` (≤480px), `1.25rem` (≤768px) | `1.5rem` |
 
 ### NavBar Mobile Menu
 
-- Hamburger icon at `≤768px` (JS-based `window.innerWidth` check)
-- Menu: full-width dropdown below nav, `bg-white py-4 px-8 border-b border-gray-200`
-- Links stack vertically with `gap-7`
+- Pure CSS breakpoints (`hidden md:flex` / `md:hidden`) — no JS width checks
+- Hamburger uses Lucide `Menu`/`X` icons
+- Menu: full-width white panel below nav, stacked `NavLink`s + bordered "Request Evaluation" button
 - Menu closes on link click
 
 ---
