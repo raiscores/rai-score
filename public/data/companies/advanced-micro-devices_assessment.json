@@ -1,0 +1,451 @@
+{
+  "aggregate": {
+    "max_possible_score": 14,
+    "percent_score": 78.6,
+    "star_display": "★★★★",
+    "star_rating": 4,
+    "total_score": 11
+  },
+  "company": "Advanced Micro Devices",
+  "company_slug": "advanced-micro-devices",
+  "evidence_breakdown": {
+    "by_type": {
+      "NARRATIVE": 21,
+      "OPERATIONAL": 18,
+      "POLICY": 71
+    }
+  },
+  "pillar_scores": {
+    "explainability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Explainability",
+      "evidence_count": 2,
+      "findings": "The company documents explainability by detailing the release of model details and methodologies as part of a model release process. Its Responsible AI Framework also references explainability as a key pillar.",
+      "max_score": 2,
+      "path_to_improvement": "Publish user-facing explanation interfaces or documented appeal workflows.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Responsible AI Framework - AMD,\" provides evidence for the pillars of **explainability, external_accountability, fairness, governance, privacy, and transparency**. The framework outlines guiding principles for AI systems that include privacy, fairness, transparency, and explainability, and establishes a commitment to a Responsible AI Use Policy and compliance with relevant laws, demonstrating strong governance. Furthermore, the document highlights AMD's engagement with industry consortia and institutes to advocate for AI principles, underscoring a commitment to external standards and accountability.",
+          "title": "Responsible AI Framework - AMD",
+          "url": "https://amd.com/en/solutions/ai/responsible-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Building Trust Through Open Innovation,\" provides evidence for the pillars of **transparency**, **explainability**, **fairness**, and **governance**. The document supports transparency and explainability by detailing the release of model details and methodologies as part of a model release process. Evidence for fairness and governance is found in descriptions of pipelines for improving AI model fairness and truthfulness, as well as specific AI benchmarks and evaluations for bias and truthfulness, demonstrating operational testing and a commitment to these safety dimensions.",
+          "title": "Building Trust Through Open Innovation",
+          "url": "https://amd.com/en/developer/resources/technical-articles/2025/building-trust-through-open-innovation-.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "external_accountability": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Public Commitments & External Audits",
+      "evidence_count": 3,
+      "findings": "The company documents its external accountability through membership in the Responsible AI Institute, implying adherence to external standards. It also highlights engagement with industry consortia and institutes to advocate for AI principles, underscoring a commitment to external standards and accountability.",
+      "max_score": 2,
+      "path_to_improvement": "Publish third-party audit results, certifications, or regulatory compliance documentation.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, AMD's \"2024-25 Corporate Responsibility Report,\" provides evidence for **external accountability**, **governance**, and **transparency**. It supports external accountability through its membership in the Responsible AI Institute, implying adherence to external standards. Governance is evidenced by the establishment of the Responsible AI Council, its focus on AI governance, and the management of human rights risks in AI development. Transparency is demonstrated through the detailing of AI model training metrics, data sources, and calculations for estimating the environmental impact of AI model training.",
+          "title": "2024-25 Corporate Responsibility Report",
+          "url": "https://amd.com/content/dam/amd/en/documents/corporate/cr/corporate-responsibility-report.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Responsible AI Framework - AMD,\" provides evidence for the pillars of **explainability, external_accountability, fairness, governance, privacy, and transparency**. The framework outlines guiding principles for AI systems that include privacy, fairness, transparency, and explainability, and establishes a commitment to a Responsible AI Use Policy and compliance with relevant laws, demonstrating strong governance. Furthermore, the document highlights AMD's engagement with industry consortia and institutes to advocate for AI principles, underscoring a commitment to external standards and accountability.",
+          "title": "Responsible AI Framework - AMD",
+          "url": "https://amd.com/en/solutions/ai/responsible-ai.html"
+        }
+      ],
+      "score": 1,
+      "source_count": 2
+    },
+    "fairness": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Fairness & Bias Mitigation",
+      "evidence_count": 6,
+      "findings": "The company documents its commitment to fairness through descriptions of pipelines for improving AI model fairness and truthfulness. It also outlines specific AI benchmarks and evaluations for bias and truthfulness, demonstrating operational testing. The company's Responsible AI Framework references fairness as a key pillar.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Responsible AI Framework - AMD,\" provides evidence for the pillars of **explainability, external_accountability, fairness, governance, privacy, and transparency**. The framework outlines guiding principles for AI systems that include privacy, fairness, transparency, and explainability, and establishes a commitment to a Responsible AI Use Policy and compliance with relevant laws, demonstrating strong governance. Furthermore, the document highlights AMD's engagement with industry consortia and institutes to advocate for AI principles, underscoring a commitment to external standards and accountability.",
+          "title": "Responsible AI Framework - AMD",
+          "url": "https://amd.com/en/solutions/ai/responsible-ai.html"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Building Trust Through Open Innovation,\" provides evidence for the pillars of **transparency**, **explainability**, **fairness**, and **governance**. The document supports transparency and explainability by detailing the release of model details and methodologies as part of a model release process. Evidence for fairness and governance is found in descriptions of pipelines for improving AI model fairness and truthfulness, as well as specific AI benchmarks and evaluations for bias and truthfulness, demonstrating operational testing and a commitment to these safety dimensions.",
+          "title": "Building Trust Through Open Innovation",
+          "url": "https://amd.com/en/developer/resources/technical-articles/2025/building-trust-through-open-innovation-.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 2
+    },
+    "governance": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Governance & Accountability",
+      "evidence_count": 71,
+      "findings": "The company documents its governance practices through the establishment of a Responsible AI Council focused on AI governance and the management of human rights risks. Policy documents prohibit harmful AI uses and require user compliance, while also outlining Responsible AI Principles and operational risk management. Governance is further supported by board oversight, management committees, and the AMD Responsible AI program, which focuses on review, risk mitigation, and trust. The company also details implementing security measures throughout the AI lifecycle, attestation, secure authentication, API standardization, and fine-grained resource governance with workload policy enforcement.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, AMD's \"2024-25 Corporate Responsibility Report,\" provides evidence for **external accountability**, **governance**, and **transparency**. It supports external accountability through its membership in the Responsible AI Institute, implying adherence to external standards. Governance is evidenced by the establishment of the Responsible AI Council, its focus on AI governance, and the management of human rights risks in AI development. Transparency is demonstrated through the detailing of AI model training metrics, data sources, and calculations for estimating the environmental impact of AI model training.",
+          "title": "2024-25 Corporate Responsibility Report",
+          "url": "https://amd.com/content/dam/amd/en/documents/corporate/cr/corporate-responsibility-report.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Responsible AI Framework - AMD,\" provides evidence for the pillars of **explainability, external_accountability, fairness, governance, privacy, and transparency**. The framework outlines guiding principles for AI systems that include privacy, fairness, transparency, and explainability, and establishes a commitment to a Responsible AI Use Policy and compliance with relevant laws, demonstrating strong governance. Furthermore, the document highlights AMD's engagement with industry consortia and institutes to advocate for AI principles, underscoring a commitment to external standards and accountability.",
+          "title": "Responsible AI Framework - AMD",
+          "url": "https://amd.com/en/solutions/ai/responsible-ai.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AMD Responsible AI Use Policy,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It establishes policy-level governance by explicitly prohibiting harmful uses of AI systems and requiring user compliance with laws and prohibited uses. The policy also supports oversight through mandates for assessing AI-generated information for risks and accuracy, and for implementing safeguards and human control. Furthermore, it addresses transparency by requiring disclosure of AI presence and associated risks.",
+          "title": "AMD Responsible AI Use Policy",
+          "url": "https://amd.com/en/legal/responsible-ai-use-policy.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AMD Human Rights Policy,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It establishes AMD's Responsible AI Principles, grounded in recognized frameworks, and operationalizes risk management through practices like data and model reviews, and red-teaming, demonstrating a commitment to structured oversight and governance.",
+          "title": "AMD Human Rights Policy",
+          "url": "https://amd.com/content/dam/amd/en/documents/corporate/cr/human-rights-policy.pdf"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for the **governance** and **transparency** pillars of responsible AI. It details AMD's commitment to responsible AI development and deployment through board oversight and management committees, referencing policies, principles, and external standards. The document also demonstrates transparency by describing AI capabilities, performance metrics, product roadmaps, and AI initiatives.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://ir.amd.com/financial-information/sec-filings/content/0001193125-25-067170/d869673ddef14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This 2024 Proxy Statement (DEF 14A) provides evidence for the **governance** and **transparency** pillars of responsible AI. The document details the establishment of AMD's cross-functional Responsible AI Council, which sets guidelines for AI development, demonstrating strong governance. Furthermore, it offers transparency into AI strategy, investments, ML system resource usage, performance metrics, and product capabilities, including AI compute and safety features.",
+          "title": "2024 Proxy Statement (DEF 14A)",
+          "url": "https://ir.amd.com/financial-information/sec-filings/content/0001193125-24-076513/d653280ddef14a.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance** and **transparency**. It describes AMD's Responsible AI (RAI) program, highlighting its focus on review, risk mitigation, and trust, which supports governance. The post also details AI system capabilities, integration, and use cases, as well as training methods and optimizations, contributing to transparency about AI functions and development processes.",
+          "title": "Transforming AMD with AI: Universal Agent, Productivity Suite, and Champion Enablement",
+          "url": "https://amd.com/en/blogs/2025/transforming-amd-with-ai.html"
+        },
+        {
+          "artifact_type": "press_release",
+          "source_id": "src_008",
+          "source_tier": "third_party",
+          "summary": "This press release from AMD's CEO, Dr. Lisa Su, provides evidence for the **governance** pillar of responsible AI. The document highlights the company's commitment to responsible AI development by announcing the establishment of a council focused on AI governance and fostering a responsible AI culture. This initiative demonstrates a proactive approach to establishing policies and structures for AI oversight.",
+          "title": "CEO Message on 2023-24 Corporate Responsibility",
+          "url": "https://csrwire.com/press-release/amd-2023-24-corporate-responsibility-report-message-dr-lisa-su-amd-chair-and"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This AMD technical blog post provides evidence for the governance and privacy pillars of responsible AI. It discusses implementing security measures throughout the AI lifecycle, including continuous monitoring, regular assessments, and integrating security protocols early in design and development, which supports governance. The post also touches on data transmission and authentication, contributing to the privacy pillar.",
+          "title": "Security for AI: Protecting AI Systems",
+          "url": "https://amd.com/en/blogs/2025/security-for-ai-protecting-ai-systems.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Your AI Provider Doesn't Need to See Your Data to Work on It,\" provides evidence for the **privacy**, **governance**, and **transparency** pillars of responsible AI. It supports the privacy pillar by detailing hardware-based trusted execution environments (AMD SEV) that protect sensitive data during AI model training and inference, ensuring data isolation. Evidence for governance is found in the mention of attestation throughout the AI lifecycle, while transparency is supported by discussions of protecting AI intellectual property and the potential for publishing source code for AI systems.",
+          "title": "Your AI Provider Doesn't Need to See Your Data to Work on It",
+          "url": "https://amd.com/en/blogs/2025/your-ai-provider-doesn-t-need-to-see-your-data-to-work-on-it-.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This blog post details AMD's technical implementation of responsible AI principles, providing evidence for **governance**, **privacy**, and **transparency**. It supports governance by outlining secure authentication, API standardization, and curated blueprints for AI infrastructure. Evidence for privacy is found in the description of secure curation and access control for AI models, as well as capabilities enabling privacy and security. Transparency is supported through details on encrypted GPU links, data integrity protections, open-source ROCm, and mechanisms for abstracting internal complexity in AI model endpoint management.",
+          "title": "AMD and VMware Expanded Collaboration for Enterprise AI",
+          "url": "https://blogs.vmware.com/cloud-foundation/2025/08/26/expanded-ai-partnership-amd"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Building Trust Through Open Innovation,\" provides evidence for the pillars of **transparency**, **explainability**, **fairness**, and **governance**. The document supports transparency and explainability by detailing the release of model details and methodologies as part of a model release process. Evidence for fairness and governance is found in descriptions of pipelines for improving AI model fairness and truthfulness, as well as specific AI benchmarks and evaluations for bias and truthfulness, demonstrating operational testing and a commitment to these safety dimensions.",
+          "title": "Building Trust Through Open Innovation",
+          "url": "https://amd.com/en/developer/resources/technical-articles/2025/building-trust-through-open-innovation-.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AMD Enterprise AI Suite: Open Infrastructure for Production AI,\" provides evidence for **governance, oversight, and transparency**. The post details the AMD Enterprise AI Suite's governance controls, such as the AMD Resource Manager for fine-grained resource governance and workload policy enforcement, which supports the **governance** pillar. Furthermore, it describes interactive testing and comparison of AI model outputs, along with AI lifecycle management and observability, demonstrating practices that contribute to **oversight** and **transparency** in AI operations.",
+          "title": "AMD Enterprise AI Suite: Open Infrastructure for Production AI",
+          "url": "https://rocm.blogs.amd.com/artificial-intelligence/enterprise-ai-suite/README.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing operational controls like AI Blueprints and secure LLM curation with access controls. Evidence for privacy is found in descriptions of indexing private data for GenAI and implementing security measures for AI services. Transparency is supported through the abstraction of internal complexity for model endpoints and the description of building AI Agents with specific, identifiable services.",
+          "title": "Broadcom and AMD Collaborate on Enterprise AI Platform",
+          "url": "https://wwt.com/article/broadcom-and-amd-collaborate-on-enterprise-ai-platform"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for the **governance** and **privacy** pillars of responsible AI. It highlights the need for defined processes and AI life cycle governance, emphasizing the integration of security and compliance for responsible AI innovation. The paper also supports the privacy pillar by mentioning data governance strategies and specific controls like access controls and anonymization for AI systems.",
+          "title": "AI Infrastructure for Business Impact (IDC Executive Summary)",
+          "url": "https://amd.com/content/dam/amd/en/documents/epyc-business-docs/white-papers/AI-Infrastructure-Business-Impact-IDC-Executive-Summary.pdf"
+        }
+      ],
+      "score": 2,
+      "source_count": 15
+    },
+    "oversight": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Human Oversight & Accountability",
+      "evidence_count": 4,
+      "findings": "The company documents oversight through mandates for assessing AI-generated information for risks and accuracy, and for implementing safeguards and human control. It also outlines operational risk management practices such as data and model reviews, and red-teaming. Furthermore, the company describes interactive testing and comparison of AI model outputs, along with AI lifecycle management and observability.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AMD Responsible AI Use Policy,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It establishes policy-level governance by explicitly prohibiting harmful uses of AI systems and requiring user compliance with laws and prohibited uses. The policy also supports oversight through mandates for assessing AI-generated information for risks and accuracy, and for implementing safeguards and human control. Furthermore, it addresses transparency by requiring disclosure of AI presence and associated risks.",
+          "title": "AMD Responsible AI Use Policy",
+          "url": "https://amd.com/en/legal/responsible-ai-use-policy.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_004",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AMD Human Rights Policy,\" provides evidence for the **governance** and **oversight** pillars of responsible AI. It establishes AMD's Responsible AI Principles, grounded in recognized frameworks, and operationalizes risk management through practices like data and model reviews, and red-teaming, demonstrating a commitment to structured oversight and governance.",
+          "title": "AMD Human Rights Policy",
+          "url": "https://amd.com/content/dam/amd/en/documents/corporate/cr/human-rights-policy.pdf"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AMD Enterprise AI Suite: Open Infrastructure for Production AI,\" provides evidence for **governance, oversight, and transparency**. The post details the AMD Enterprise AI Suite's governance controls, such as the AMD Resource Manager for fine-grained resource governance and workload policy enforcement, which supports the **governance** pillar. Furthermore, it describes interactive testing and comparison of AI model outputs, along with AI lifecycle management and observability, demonstrating practices that contribute to **oversight** and **transparency** in AI operations.",
+          "title": "AMD Enterprise AI Suite: Open Infrastructure for Production AI",
+          "url": "https://rocm.blogs.amd.com/artificial-intelligence/enterprise-ai-suite/README.html"
+        }
+      ],
+      "score": 2,
+      "source_count": 3
+    },
+    "privacy": {
+      "best_evidence_type": "POLICY",
+      "display_name": "Privacy & Security",
+      "evidence_count": 17,
+      "findings": "The company documents privacy practices by detailing hardware-based trusted execution environments that protect sensitive data during AI model training and inference, ensuring data isolation. It also describes secure curation and access control for AI models, indexing private data for GenAI, and implementing security measures for AI services. Furthermore, the company mentions data governance strategies and specific controls like access controls and anonymization for AI systems.",
+      "max_score": 2,
+      "path_to_improvement": "Publish AI-specific privacy impact assessments or data handling procedures.",
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Responsible AI Framework - AMD,\" provides evidence for the pillars of **explainability, external_accountability, fairness, governance, privacy, and transparency**. The framework outlines guiding principles for AI systems that include privacy, fairness, transparency, and explainability, and establishes a commitment to a Responsible AI Use Policy and compliance with relevant laws, demonstrating strong governance. Furthermore, the document highlights AMD's engagement with industry consortia and institutes to advocate for AI principles, underscoring a commitment to external standards and accountability.",
+          "title": "Responsible AI Framework - AMD",
+          "url": "https://amd.com/en/solutions/ai/responsible-ai.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_009",
+          "source_tier": "company_owned",
+          "summary": "This AMD technical blog post provides evidence for the governance and privacy pillars of responsible AI. It discusses implementing security measures throughout the AI lifecycle, including continuous monitoring, regular assessments, and integrating security protocols early in design and development, which supports governance. The post also touches on data transmission and authentication, contributing to the privacy pillar.",
+          "title": "Security for AI: Protecting AI Systems",
+          "url": "https://amd.com/en/blogs/2025/security-for-ai-protecting-ai-systems.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Your AI Provider Doesn't Need to See Your Data to Work on It,\" provides evidence for the **privacy**, **governance**, and **transparency** pillars of responsible AI. It supports the privacy pillar by detailing hardware-based trusted execution environments (AMD SEV) that protect sensitive data during AI model training and inference, ensuring data isolation. Evidence for governance is found in the mention of attestation throughout the AI lifecycle, while transparency is supported by discussions of protecting AI intellectual property and the potential for publishing source code for AI systems.",
+          "title": "Your AI Provider Doesn't Need to See Your Data to Work on It",
+          "url": "https://amd.com/en/blogs/2025/your-ai-provider-doesn-t-need-to-see-your-data-to-work-on-it-.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This blog post details AMD's technical implementation of responsible AI principles, providing evidence for **governance**, **privacy**, and **transparency**. It supports governance by outlining secure authentication, API standardization, and curated blueprints for AI infrastructure. Evidence for privacy is found in the description of secure curation and access control for AI models, as well as capabilities enabling privacy and security. Transparency is supported through details on encrypted GPU links, data integrity protections, open-source ROCm, and mechanisms for abstracting internal complexity in AI model endpoint management.",
+          "title": "AMD and VMware Expanded Collaboration for Enterprise AI",
+          "url": "https://blogs.vmware.com/cloud-foundation/2025/08/26/expanded-ai-partnership-amd"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing operational controls like AI Blueprints and secure LLM curation with access controls. Evidence for privacy is found in descriptions of indexing private data for GenAI and implementing security measures for AI services. Transparency is supported through the abstraction of internal complexity for model endpoints and the description of building AI Agents with specific, identifiable services.",
+          "title": "Broadcom and AMD Collaborate on Enterprise AI Platform",
+          "url": "https://wwt.com/article/broadcom-and-amd-collaborate-on-enterprise-ai-platform"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_015",
+          "source_tier": "company_owned",
+          "summary": "This technical paper provides evidence for the **governance** and **privacy** pillars of responsible AI. It highlights the need for defined processes and AI life cycle governance, emphasizing the integration of security and compliance for responsible AI innovation. The paper also supports the privacy pillar by mentioning data governance strategies and specific controls like access controls and anonymization for AI systems.",
+          "title": "AI Infrastructure for Business Impact (IDC Executive Summary)",
+          "url": "https://amd.com/content/dam/amd/en/documents/epyc-business-docs/white-papers/AI-Infrastructure-Business-Impact-IDC-Executive-Summary.pdf"
+        }
+      ],
+      "score": 1,
+      "source_count": 6
+    },
+    "transparency": {
+      "best_evidence_type": "OPERATIONAL",
+      "display_name": "Transparency",
+      "evidence_count": 53,
+      "findings": "The company documents its transparency practices by detailing AI model training metrics, data sources, and environmental impact calculations. It also describes AI capabilities, performance metrics, product roadmaps, and AI initiatives, including AI strategy, investments, and ML system resource usage. Furthermore, the company outlines the release of model details and methodologies, discusses protecting AI intellectual property, and describes mechanisms for abstracting internal complexity in AI model endpoint management.",
+      "max_score": 2,
+      "path_to_improvement": null,
+      "relevant_sources": [
+        {
+          "artifact_type": "policy",
+          "source_id": "src_001",
+          "source_tier": "company_owned",
+          "summary": "This policy document, AMD's \"2024-25 Corporate Responsibility Report,\" provides evidence for **external accountability**, **governance**, and **transparency**. It supports external accountability through its membership in the Responsible AI Institute, implying adherence to external standards. Governance is evidenced by the establishment of the Responsible AI Council, its focus on AI governance, and the management of human rights risks in AI development. Transparency is demonstrated through the detailing of AI model training metrics, data sources, and calculations for estimating the environmental impact of AI model training.",
+          "title": "2024-25 Corporate Responsibility Report",
+          "url": "https://amd.com/content/dam/amd/en/documents/corporate/cr/corporate-responsibility-report.pdf"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_002",
+          "source_tier": "company_owned",
+          "summary": "This company-owned policy document, \"Responsible AI Framework - AMD,\" provides evidence for the pillars of **explainability, external_accountability, fairness, governance, privacy, and transparency**. The framework outlines guiding principles for AI systems that include privacy, fairness, transparency, and explainability, and establishes a commitment to a Responsible AI Use Policy and compliance with relevant laws, demonstrating strong governance. Furthermore, the document highlights AMD's engagement with industry consortia and institutes to advocate for AI principles, underscoring a commitment to external standards and accountability.",
+          "title": "Responsible AI Framework - AMD",
+          "url": "https://amd.com/en/solutions/ai/responsible-ai.html"
+        },
+        {
+          "artifact_type": "policy",
+          "source_id": "src_003",
+          "source_tier": "company_owned",
+          "summary": "This policy document, \"AMD Responsible AI Use Policy,\" provides evidence for the **governance**, **oversight**, and **transparency** pillars of responsible AI. It establishes policy-level governance by explicitly prohibiting harmful uses of AI systems and requiring user compliance with laws and prohibited uses. The policy also supports oversight through mandates for assessing AI-generated information for risks and accuracy, and for implementing safeguards and human control. Furthermore, it addresses transparency by requiring disclosure of AI presence and associated risks.",
+          "title": "AMD Responsible AI Use Policy",
+          "url": "https://amd.com/en/legal/responsible-ai-use-policy.html"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_005",
+          "source_tier": "company_owned",
+          "summary": "This proxy statement provides evidence for the **governance** and **transparency** pillars of responsible AI. It details AMD's commitment to responsible AI development and deployment through board oversight and management committees, referencing policies, principles, and external standards. The document also demonstrates transparency by describing AI capabilities, performance metrics, product roadmaps, and AI initiatives.",
+          "title": "2025 Proxy Statement (DEF 14A)",
+          "url": "https://ir.amd.com/financial-information/sec-filings/content/0001193125-25-067170/d869673ddef14a.htm"
+        },
+        {
+          "artifact_type": "proxy_statement",
+          "source_id": "src_006",
+          "source_tier": "company_owned",
+          "summary": "This 2024 Proxy Statement (DEF 14A) provides evidence for the **governance** and **transparency** pillars of responsible AI. The document details the establishment of AMD's cross-functional Responsible AI Council, which sets guidelines for AI development, demonstrating strong governance. Furthermore, it offers transparency into AI strategy, investments, ML system resource usage, performance metrics, and product capabilities, including AI compute and safety features.",
+          "title": "2024 Proxy Statement (DEF 14A)",
+          "url": "https://ir.amd.com/financial-information/sec-filings/content/0001193125-24-076513/d653280ddef14a.htm"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_007",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post provides evidence for **governance** and **transparency**. It describes AMD's Responsible AI (RAI) program, highlighting its focus on review, risk mitigation, and trust, which supports governance. The post also details AI system capabilities, integration, and use cases, as well as training methods and optimizations, contributing to transparency about AI functions and development processes.",
+          "title": "Transforming AMD with AI: Universal Agent, Productivity Suite, and Champion Enablement",
+          "url": "https://amd.com/en/blogs/2025/transforming-amd-with-ai.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_010",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"Your AI Provider Doesn't Need to See Your Data to Work on It,\" provides evidence for the **privacy**, **governance**, and **transparency** pillars of responsible AI. It supports the privacy pillar by detailing hardware-based trusted execution environments (AMD SEV) that protect sensitive data during AI model training and inference, ensuring data isolation. Evidence for governance is found in the mention of attestation throughout the AI lifecycle, while transparency is supported by discussions of protecting AI intellectual property and the potential for publishing source code for AI systems.",
+          "title": "Your AI Provider Doesn't Need to See Your Data to Work on It",
+          "url": "https://amd.com/en/blogs/2025/your-ai-provider-doesn-t-need-to-see-your-data-to-work-on-it-.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_011",
+          "source_tier": "third_party",
+          "summary": "This blog post details AMD's technical implementation of responsible AI principles, providing evidence for **governance**, **privacy**, and **transparency**. It supports governance by outlining secure authentication, API standardization, and curated blueprints for AI infrastructure. Evidence for privacy is found in the description of secure curation and access control for AI models, as well as capabilities enabling privacy and security. Transparency is supported through details on encrypted GPU links, data integrity protections, open-source ROCm, and mechanisms for abstracting internal complexity in AI model endpoint management.",
+          "title": "AMD and VMware Expanded Collaboration for Enterprise AI",
+          "url": "https://blogs.vmware.com/cloud-foundation/2025/08/26/expanded-ai-partnership-amd"
+        },
+        {
+          "artifact_type": "technical_paper",
+          "source_id": "src_012",
+          "source_tier": "company_owned",
+          "summary": "This technical paper, \"Building Trust Through Open Innovation,\" provides evidence for the pillars of **transparency**, **explainability**, **fairness**, and **governance**. The document supports transparency and explainability by detailing the release of model details and methodologies as part of a model release process. Evidence for fairness and governance is found in descriptions of pipelines for improving AI model fairness and truthfulness, as well as specific AI benchmarks and evaluations for bias and truthfulness, demonstrating operational testing and a commitment to these safety dimensions.",
+          "title": "Building Trust Through Open Innovation",
+          "url": "https://amd.com/en/developer/resources/technical-articles/2025/building-trust-through-open-innovation-.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_013",
+          "source_tier": "company_owned",
+          "summary": "This company-owned blog post, \"AMD Enterprise AI Suite: Open Infrastructure for Production AI,\" provides evidence for **governance, oversight, and transparency**. The post details the AMD Enterprise AI Suite's governance controls, such as the AMD Resource Manager for fine-grained resource governance and workload policy enforcement, which supports the **governance** pillar. Furthermore, it describes interactive testing and comparison of AI model outputs, along with AI lifecycle management and observability, demonstrating practices that contribute to **oversight** and **transparency** in AI operations.",
+          "title": "AMD Enterprise AI Suite: Open Infrastructure for Production AI",
+          "url": "https://rocm.blogs.amd.com/artificial-intelligence/enterprise-ai-suite/README.html"
+        },
+        {
+          "artifact_type": "blog_post",
+          "source_id": "src_014",
+          "source_tier": "third_party",
+          "summary": "This blog post provides evidence for the **governance**, **privacy**, and **transparency** pillars of responsible AI. It supports governance by detailing operational controls like AI Blueprints and secure LLM curation with access controls. Evidence for privacy is found in descriptions of indexing private data for GenAI and implementing security measures for AI services. Transparency is supported through the abstraction of internal complexity for model endpoints and the description of building AI Agents with specific, identifiable services.",
+          "title": "Broadcom and AMD Collaborate on Enterprise AI Platform",
+          "url": "https://wwt.com/article/broadcom-and-amd-collaborate-on-enterprise-ai-platform"
+        }
+      ],
+      "score": 2,
+      "source_count": 11
+    }
+  },
+  "published_at": "2026-06-13T21:21:50Z",
+  "run_id": "20260218_040119_289b",
+  "schema_version": "1.0",
+  "summary": {
+    "key_gaps": [],
+    "key_strengths": [
+      "Transparency",
+      "Fairness & Bias Mitigation",
+      "Human Oversight & Accountability",
+      "Governance & Accountability"
+    ],
+    "overall_findings": "Advanced Micro Devices' policy documents detail AI model training metrics, data sources, and calculations for estimating the environmental impact of AI model training, demonstrating operational practices in transparency. Drawing from 15 publicly available sources, these disclosures show that all 7 evaluated pillars have documented public evidence, with technical papers describing pipelines for improving AI model fairness and policy documents mandating assessing AI-generated information for risks and accuracy. Further operational practices are evident in governance, where policy documents reference the establishment of the Responsible AI Council and its focus on AI governance. Explainability, privacy, and external accountability are addressed at the policy level, with technical papers detailing the release of model details and methodologies as part of a model release process, and policy documents referencing membership in the Responsible AI Institute.",
+    "pillars_operational": 4,
+    "pillars_policy_only": 3,
+    "pillars_with_evidence": 7,
+    "pillars_without_evidence": 0,
+    "total_evidence_items": 110,
+    "total_sources_used": 15
+  }
+}
